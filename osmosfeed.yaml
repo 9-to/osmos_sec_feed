@@ -6,7 +6,12 @@
 cacheUrl: https://9-to.github.io/osmos_sec_feed/cache.json
 sources:
   - href: https://github.com/osmoscraft/osmosfeed/releases.atom # Get new feature announcement via this feed
-  # セキュリティ関連団体
+  ### セキュリティ関連団体
   - href: https://www.jpcert.or.jp/rss/jpcert.rdf
   - href: https://www.ipa.go.jp/about/newsonly-rss.rdf
   - href: https://www.jnsa.org/rss.xml
+  ### セキュリティベンダー
+  - href: http://blog.f-secure.jp/index.rdf
+  - href: http://feeds.feedburner.com/tm-security-blog
+  - href: https://www.is702.jp/rss/all.xml
+
