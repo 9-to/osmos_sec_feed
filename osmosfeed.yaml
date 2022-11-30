@@ -11,6 +11,24 @@ sources:
   - href: https://www.ipa.go.jp/about/newsonly-rss.rdf
   - href: https://www.jnsa.org/rss.xml
   ### セキュリティベンダー
-  - href: http://blog.f-secure.jp/index.rdf
-  - href: https://www.mcafee.com/blogs/feed/
+  - href: http://blog.f-secure.jp/index.rdf #F-secure
+  - href: https://www.mcafee.com/blogs/feed/ #McAfee Blog
+  - href: https://blog.kaspersky.co.jp/category/threats/feed/ #カスペルスキー
+  - href: https://www.ibm.com/blogs/security/jp-ja/category/tokyo-soc-report/feed/ #IBM
+  ### その他団体
+  - href: https://www.nic.ad.jp/ja/index.xml
+  - href: https://jprs.jp/whatsnew/rss/jprs.rdf
+  ### 脆弱性情報
+  - href: https://www.cisa.gov/uscert/ncas/alerts.xml #US-CERT
+  - href: https://www.cisa.gov/uscert/ncas/current-activity.xml
+  - href: https://www.kb.cert.org/vulfeed
+  - href: https://jvn.jp/rss/jvn.rdf #JVN
+  ### 脆弱性情報（ベンダ・開発者）
+  - href: https://msrc-blog.microsoft.com/feed/ #Microsoft
+  - href: https://www.oracle.com/ocom/groups/public/@otn/documents/webcontent/rss-otn-sec.xml
+  - href: https://ja.wordpress.org/news/feed/ #wordpress
+  ### 国内のニュースサイト
+  - href: https://srad.jp/security.rss #スラド
+  - href: https://scan.netsecurity.ne.jp/rss/index.rdf
+  - href: 
 
