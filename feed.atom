@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-12-01T00:35:10.035Z</updated>
+    <updated>2022-12-01T05:56:27.716Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[ユニモテクノロジー製デジタルビデオレコーダにおける複数の脆弱性]]></title>
+        <id>https://jvn.jp/vu/JVNVU94514762/</id>
+        <link href="https://jvn.jp/vu/JVNVU94514762/"/>
+        <updated>2022-12-01T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ユニモテクノロジー株式会社が提供する複数のデジタルビデオレコーダ製品には、複数の脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[４匹のサイバーセキュリティコンサルタント 最前線の知見を共有「Cyber Summit 2022」12/7-8 開催]]></title>
         <id>https://scan.netsecurity.ne.jp/article/2022/12/01/48576.html</id>
@@ -2406,28 +2416,6 @@ The post How much of your personal info is available online? A simple search cou
 <p>This document was written by Kevin Stephens, Eric Hatleback, Vijay Sarvepalli, and Jeffrey S. Havrilla.</p>]]></summary>
         <author>
             <name>CERT Recently Published Vulnerability Notes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[7 Tips to Protect Your Smartphone from Getting Hacked]]></title>
-        <id>/blogs/?p=123478</id>
-        <link href="https://www.mcafee.com/blogs/mobile-security/7-tips-to-protect-your-smartphone-from-getting-hacked/"/>
-        <updated>2022-11-01T13:00:53.000Z</updated>
-        <summary type="html"><![CDATA[There’s little rest for your hard-working smartphone. If you’re like many professionals today, you use it for work, play, and a mix of personal...
-The post 7 Tips to Protect Your Smartphone from Getting Hacked appeared first on McAfee Blog.]]></summary>
-        <author>
-            <name>Natalie Maxfield</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Mitigates Vulnerability in Jupyter Notebooks for Azure Cosmos DB]]></title>
-        <id>https://msrc-blog.microsoft.com/?p=15092</id>
-        <link href="https://msrc-blog.microsoft.com/2022/11/01/microsoft-mitigates-vulnerability-in-jupyter-notebooks-for-azure-cosmos-db/"/>
-        <updated>2022-11-01T13:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Summary Microsoft recently fixed an authentication bypass vulnerability in Jupyter Notebooks for Azure Cosmos DB (currently in preview) reported by Orca Security.  Customers not using Jupyter Notebooks (99.8% of Azure Cosmos DB customers do NOT use Jupyter notebooks) were not susceptible to this vulnerability. The bug was introduced on August 12th and fully patched worldwide …
-  Microsoft Mitigates Vulnerability in Jupyter Notebooks for Azure Cosmos DB Read More »]]></summary>
-        <author>
-            <name>msrc</name>
         </author>
     </entry>
 </feed>
