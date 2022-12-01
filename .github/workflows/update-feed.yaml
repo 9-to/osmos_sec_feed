@@ -19,7 +19,6 @@ jobs:
         uses: appleboy/discord-action@0.0.3
         with:
           message: "check https://9-to.github.io/osmos_sec_feed/"
-        secrets:
           webhook_id: ${{ secrets.WEBHOOK_ID }}
           webhook_token: ${{ secrets.WEBHOOK_TOKEN }}
       - uses: actions/checkout@v2
