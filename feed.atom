@@ -1,10 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>urn:2022-12-02T12:04:15.101Z</id>
+    <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-12-02T12:04:15.101Z</updated>
+    <updated>2022-12-02T23:27:06.963Z</updated>
     <generator>osmosfeed 1.15.1</generator>
-    <link rel="alternate" href="index.html"/>
+    <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
+    <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[セキュアブートを無効化可能な脆弱性、Acer の個人向けノート PC でも見つかる]]></title>
+        <id>https://security.srad.jp/story/22/12/01/1326202/</id>
+        <link href="https://security.srad.jp/story/22/12/01/1326202/"/>
+        <updated>2022-12-02T23:03:00.000Z</updated>
+        <summary type="html"><![CDATA[headless 曰く、Acer は 11 月 24 日、個人向けノート PC 5 機種でセキュアブート設定を変更可能な脆弱性 CVE-2022-4020 が発見されたことを発表した
+(Acer Community の記事、
+ESET のツイート、
+HackRead の記事)。
+
+この脆弱性は NVRAM 変数を作成することでセキュアブート設定を変更可能というものだ。変数の値は重要でなく、影響を受けるファームウェアのドライバーは変数の存在のみをチェックするのだという。影響を受けるのは Aspire A315-22 と A115-21、A315-22G、および Extensa EX215-21 と EX215-21G の計 5 機種。Acer では BIOS 更新プログラムの開発を進めており、準備ができ次第 Acer サポートサイトで公開する。
+
+発見者の ESET によれば、脆弱性は DXE ドライバー HQSwSmiDxe に存在し、NVRAM 変数「BootOrderSecureBootDisable」を追加することで、ドライバーがセキュアブートを無効化するとのこと。ESET は Lenovo のノート PC でも同様の脆弱性を発見しているが、「BootOrderSecureBootDisable」は Lenovo の CVE-2022-3431 でセキュアブートを無効化する変数と同じ名前だ。
+ すべて読む | セキュリティセクション | セキュリティ | バグ | ノートPC |     
+  関連ストーリー： 
+Lenovo の個人向けノート PC、セキュアブートを無効化可能な脆弱性がまた見つかる 2022年11月13日 
+Dell の BIOS に脆弱性、129機種が影響を受ける 2021年06月26日 
+Windows 11はTPM 2.0が必須か。旧式PCにリーク版インストールで関連エラー 2021年06月18日]]></summary>
+        <author>
+            <name>nagazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BlueHat 2023: Applications to Attend NOW OPEN!]]></title>
+        <id>https://msrc-blog.microsoft.com/?p=15202</id>
+        <link href="https://msrc-blog.microsoft.com/2022/12/02/bluehat-2023-applications-to-attend-now-open/"/>
+        <updated>2022-12-02T21:58:21.000Z</updated>
+        <summary type="html"><![CDATA[We are excited to announce that applications to attend BlueHat 2023 are now open!   BlueHat 2023 will be the 20th version of the BlueHat conference and will once again be on the Microsoft campus in Redmond, WA, USA, from February 8 – 9, 2023.   Hosted by the Microsoft Security Response Center (MSRC), BlueHat is where …
+  BlueHat 2023: Applications to Attend NOW OPEN! Read More »]]></summary>
+        <author>
+            <name>Nic Fillingham</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[内部不正WGによるインタビュー連載「日本の人事と内部不正-第15回 リコージャパン株式会社」を掲載しました。]]></title>
         <id>https://www.jnsa.org/result/soshiki/index.html</id>
@@ -62,6 +96,28 @@
         <updated>2022-12-02T12:03:55.263Z</updated>
         <author>
             <name>特定非営利活動法人 日本ネットワークセキュリティ協会（JNSA）</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How To Help Your Family Protect Their Online Data]]></title>
+        <id>https://www.mcafee.com/blogs/?p=162233</id>
+        <link href="https://www.mcafee.com/blogs/family-safety/how-to-help-your-family-protect-their-online-data/"/>
+        <updated>2022-12-02T10:37:57.000Z</updated>
+        <summary type="html"><![CDATA[Whether you’re standing around the water cooler at work, waiting for your kids at the school gate or sitting around...
+The post How To Help Your Family Protect Their Online Data appeared first on McAfee Blog.]]></summary>
+        <author>
+            <name>Alex Merton-McCann</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Let’s Make Security Easy]]></title>
+        <id>/blogs/?p=118825</id>
+        <link href="https://www.mcafee.com/blogs/internet-security/lets-make-security-easy/"/>
+        <updated>2022-12-02T10:00:12.000Z</updated>
+        <summary type="html"><![CDATA[You flick through some reels and an ad for “a more private phone” crops up. You scroll through your news...
+The post Let’s Make Security Easy appeared first on McAfee Blog.]]></summary>
+        <author>
+            <name>McAfee</name>
         </author>
     </entry>
     <entry>
@@ -5648,28 +5704,6 @@ https://moneyklt.●●●●.net/sony/client/index_sp.html
 キヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。]]></summary>
         <author>
             <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How much of your personal info is available online? A simple search could show you plenty.]]></title>
-        <id>https://www.mcafee.com/blogs/?p=161261</id>
-        <link href="https://www.mcafee.com/blogs/privacy-identity-protection/how-much-of-your-personal-info-is-available-online-a-simple-search-could-show-you-plenty/"/>
-        <updated>2022-11-03T09:39:45.000Z</updated>
-        <summary type="html"><![CDATA[What you paid for your home, who lives there with you, your age, your children, your driving record, education, occupation,...
-The post How much of your personal info is available online? A simple search could show you plenty. appeared first on McAfee Blog.]]></summary>
-        <author>
-            <name>Cagla Ruacan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Awareness and guidance related to OpenSSL 3.0 – 3.0.6 risk (CVE-2022-3786 and CVE-2202-3602)]]></title>
-        <id>https://msrc-blog.microsoft.com/?p=15115</id>
-        <link href="https://msrc-blog.microsoft.com/2022/11/02/microsoft-guidance-related-to-openssl-risk-cve-2022-3786-and-cve-2202-3602/"/>
-        <updated>2022-11-03T00:46:06.000Z</updated>
-        <summary type="html"><![CDATA[Summary   Microsoft is aware and actively addressing the impact associated with the recent OpenSSL vulnerabilities announced on October 25th 2022, fixed in version 3.0.7. As part of our standard processes, we are rolling out fixes for impacted services.  Any customer action that is required will be highlighted in this blog and our associated Security Update …
-  Awareness and guidance related to OpenSSL 3.0 – 3.0.6 risk (CVE-2022-3786 and CVE-2202-3602) Read More »]]></summary>
-        <author>
-            <name>msrc</name>
         </author>
     </entry>
 </feed>
