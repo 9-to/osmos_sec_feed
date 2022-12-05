@@ -2,10 +2,347 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-12-04T08:11:27.849Z</updated>
+    <updated>2022-12-05T08:12:54.523Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[他のマルウェアと一緒に展開される LodaRAT の新しい亜種が登場]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=44121</id>
+        <link href="https://gblogs.cisco.com/jp/2022/12/talos-get-a-loda-this/"/>
+        <updated>2022-12-05T07:49:14.000Z</updated>
+        <summary type="html"><![CDATA[LodaRAT のサンプルが、RedLine や Neshta など他のマルウェアファミリと一緒に展開されていました。Cisco Talos がいくつかの亜種を確認したところ、機能に更新が加えられた LodaRAT の改変版が実際に展開されていることがわかりました。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[楽天、パスワードの定期的な変更を推奨する文言を会員規約から削除へ]]></title>
+        <id>https://security.srad.jp/story/22/12/04/1445224/</id>
+        <link href="https://security.srad.jp/story/22/12/04/1445224/"/>
+        <updated>2022-12-05T07:02:00.000Z</updated>
+        <summary type="html"><![CDATA[楽天グループは2023年1月17日付で「楽天会員規約」を一部改定するという（「楽天会員規約」改定のお知らせ）。改訂されるのはパスワードに関連する項目で、改定前では、アカウントを利用するためのIDおよびパスワードは、他人に知られることがないよう定期的に変更する等の記載があったものが、改訂後は第三者に推測されにくい複雑なパスワードにする、ログイン状態の端末を第三者に利用させないようにする、第三者の端末を利用してログインした場合には利用後にログアウトする
+といった内容に変更された。パスワードの定期的な変更はさまざまなサイトで推奨されていたが、2018年に総務省の「国民のための情報セキュリティサイト」の内容が変更され、その必要性がないことが明示されている。内閣サイバーセキュリティセンター（NISC）からも、パスワードを定期変更する必要はない旨が告知されている（インターネットの安全・安心ハンドブック - NISC）。
+ すべて読む | セキュリティセクション | セキュリティ |     
+  関連ストーリー： 
+freeeが包括的な障害対応訓練。顧客情報漏えいとのツイートがあると問い合わせを想定 2022年11月29日 
+流出パスワードトップ 200、2022 年版では「password」が 1 位に 2022年11月27日 
+2K のヘルプデスクに不正アクセス、マルウェアのリンクをプレイヤーに送る 2022年09月24日 
+総務省、「パスワードの定期的な変更は不要」と方針変更 2018年03月27日]]></summary>
+        <author>
+            <name>nagazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AppDynamics for SAP の概要]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=44021</id>
+        <link href="https://gblogs.cisco.com/jp/2022/12/appdynamics-for-sap-overview/"/>
+        <updated>2022-12-05T07:00:35.000Z</updated>
+        <summary type="html"><![CDATA[AppDynamics for SAP は、SAP システムの可用性とパフォーマンスを把握する機能を備えています。すべての SAP アプリケーションが適切に機能し、その結果としてビジネスが正常に運営されていることを確認するのに役立ちます。]]></summary>
+        <author>
+            <name>門脇 拓弥</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[脅威情報ニュースレター（2022 年 11 月 17 日）：Snort 2023 カレンダーが完成！]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=44108</id>
+        <link href="https://gblogs.cisco.com/jp/2022/12/talos-threat-source-newsletter-nov-17-2022/"/>
+        <updated>2022-12-05T06:30:47.000Z</updated>
+        <summary type="html"><![CDATA[今週も脅威情報ニュースレターをお届けします。今年もお待ちかねの時期がやってきました。もうすぐ訪れるクリスマス休暇の話ではありません。Snort 2023 カレンダーがついに完成しました。今回もなかなかの出来映えです。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LastPass にまた不正アクセス、今回は顧客情報の一部にもアクセスされた可能性]]></title>
+        <id>https://it.srad.jp/story/22/12/04/1440204/</id>
+        <link href="https://it.srad.jp/story/22/12/04/1440204/"/>
+        <updated>2022-12-05T05:28:00.000Z</updated>
+        <summary type="html"><![CDATA[headless 曰く、LastPass は 11 月 30 日、傘下の GoTo と共用しているサードパーティのクラウドストレージが不正アクセスを受けたと発表した
+(The LastPass Blog の記事、
+Neowin の記事、
+The Register の記事、
+HackRead の記事)。
+
+LastPass は 8 月にも開発環境が不正アクセスの被害にあっているが、開発環境に顧客のデータは含まれず、プロダクション環境とも物理的に分離しているので顧客のデータは安全だと説明していた。今回の不正アクセスは攻撃者が 8 月に入手した情報を用いており、顧客情報の特定の部分へアクセス可能だったとみられるという。ただし、LastPass では顧客のパスワード保管庫のマスターパスワードを保持していないため、パスワードは安全だとの説明を繰り返している。LastPass はクラウドストレージサービスでの通常とは異なる活動を検知後すぐにサイバーセキュリティ企業 Mandiant と協力して調査を開始し、捜査機関に通報したとのことだ。
+ すべて読む | ITセクション | セキュリティ | クラウド |     
+  関連ストーリー： 
+LastPass、8 月の不正アクセスに関する調査の続報を発表 2022年09月20日 
+LastPass の開発環境に不正アクセス、ユーザーデータは影響なし 2022年08月28日]]></summary>
+        <author>
+            <name>nagazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Androidキーボード・マウスアプリに脆弱性、すぐに確認と削除を]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20221205-2529755/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20221205-2529755/"/>
+        <updated>2022-12-05T05:13:05.000Z</updated>
+        <summary type="html"><![CDATA[Synopsysは11月30日(米国時間)、Androidデバイスをリモートキーボードまたはマウスとして使用できるようにする3つのAndroidアプリに複数の脆弱性があることを公表した。これらのアプリはデスクトップまたはノートパソコン上のサーバと接続し、マウスやキーボードのイベントをサーバに送信する機能が提供されている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Test Post 2 – 5 Dec Prod Release]]></title>
+        <id>https://www.mcafee.com/blogs/?p=162535</id>
+        <link href="https://www.mcafee.com/blogs/internet-security/test-post-2-5-dec-prod-release/"/>
+        <updated>2022-12-05T05:04:35.000Z</updated>
+        <summary type="html"><![CDATA[testasofasfaslfasdahsdiohasodihasodnaosdinaisdnasdnaobvscivbxcv !@#$%^&*()_+<>????~
+The post Test Post 2 – 5 Dec Prod Release appeared first on McAfee Blog.]]></summary>
+        <author>
+            <name>Sailesh Piplani</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Kindle本が最大50％ポイント還元！ Amazonでキャンペーン開催中　「マルウエアの教科書」などコンピュータ・IT関連書籍も実質半額]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1461062.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1461062.html"/>
+        <updated>2022-12-05T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Amazon.co.jpのKindle本ストアでは現在、12月15日までの期間限定で「Kindle本冬のキャンペーン」を開催中だ。本キャンペーンの対象書籍を購入すると、支払い金額の最大50％がAmazonでの買い物に利用できるポイントで還元される。実質半額でKindle本を購入できるチャンスだ。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Test Post – Prod Release 5 Dec]]></title>
+        <id>https://www.mcafee.com/blogs/?p=162531</id>
+        <link href="https://www.mcafee.com/blogs/internet-security/test-post-prod-release-5-dec/"/>
+        <updated>2022-12-05T04:55:15.000Z</updated>
+        <summary type="html"><![CDATA[test post test post test postiowfwfsdfffffffffffffffffffffffffffoiwheoir weroihorih dzfhsdfgusdkfsdkjfbasdlkfnsdlkfjsdjkf !@#$%^&*()_+<>?~
+The post Test Post – Prod Release 5 Dec appeared first on McAfee Blog.]]></summary>
+        <author>
+            <name>Sailesh Piplani</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[メルマガ]vol.1962:【トピックス号】先週のトピックスとWeb更新情報]]></title>
+        <id>https://www.nic.ad.jp/ja/mailmagazine/backnumber/2022/vol1962.html</id>
+        <link href="https://www.nic.ad.jp/ja/mailmagazine/backnumber/2022/vol1962.html"/>
+        <updated>2022-12-05T04:17:50.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[国立天文台でUSBメモリ紛失　個人情報を最大1048人分保存　最後に見たのは21年11月]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2212/05/news090.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2212/05/news090.html"/>
+        <updated>2022-12-05T03:15:00.000Z</updated>
+        <summary type="html"><![CDATA[国立天文台が、約1000人分の個人情報を保存したUSBメモリを紛失したとして謝罪した。情報の不正使用は確認されていないが、USBメモリはいまだ見つかっていないとしている。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NEC AtermシリーズのWi-Fiルーターがセール、Amazonブラックフライデーに関する記事に注目集める【アクセスランキング】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/ranking/1460842.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/ranking/1460842.html"/>
+        <updated>2022-12-05T02:54:00.000Z</updated>
+        <summary type="html"><![CDATA[前週に閲覧数の多かった記事を、カテゴリーごとに上位5位までレポートします。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[メタバースを悪用した仮想的な虐待や性的暴行、2023年も続く可能性]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20221205-2525076/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20221205-2525076/"/>
+        <updated>2022-12-05T02:18:21.000Z</updated>
+        <summary type="html"><![CDATA[Kaspersky Labはこのほど、消費者のサイバー脅威に関して2023年の状況を予測したレポートを公開した。同レポートによると、2023年は再びゲーム機の不足が発生し、入手困難な機器の販売をうたう偽のオンラインストアによる詐欺が増加するという。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[関ケ原の戦い、内部不正で破れた西軍と平時の備えと人を押さえて勝った東軍]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20221205-2522972/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20221205-2522972/"/>
+        <updated>2022-12-05T02:00:49.000Z</updated>
+        <summary type="html"><![CDATA[前編では、関ヶ原の戦いをはじめとする過去の戦いには、現在のサイバーセキュリティ対策に通じる多くの教訓が含まれていることを紹介した。諸説入り交じり、歴史好きの方からは異論を挟みたくなる向きもあるかもしれないが、「歴史から何が学べるか」という視点で、引き続き関ヶ原の戦いの推移を振り返ってみよう。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[評判になりすぎた？ ABEMA、12月5日深夜の「日本VSクロアチア戦」で入場制限の可能性を示唆【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1460928.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1460928.html"/>
+        <updated>2022-12-05T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[「FIFAワールドカップ カタール2022」を無料生中継するABEMAが、12月5日深夜に行われる日本VSクロアチア戦について、異例とも言える入場制限の可能性をウェブサイトで示唆している。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[自宅内の隅々までBluetooth電波を行き渡らせられる、電球のソケットに取り付ける中継器が支援募集中【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1460927.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1460927.html"/>
+        <updated>2022-12-05T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[電球のソケットに取り付けて、自宅内の隅々まで電波を行き渡らせられるBluetooth中継器がKickstarterで資金を募集中だ。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Web更新]ccTLDの登録数を更新　2022年10月分を追加]]></title>
+        <id>https://www.nic.ad.jp/ja/stat/dom/cctld.html</id>
+        <link href="https://www.nic.ad.jp/ja/stat/dom/cctld.html"/>
+        <updated>2022-12-05T01:57:52.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linuxに新たな脆弱性、悪用されるとルート権限が取得される危険性あり]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20221205-2529744/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20221205-2529744/"/>
+        <updated>2022-12-05T01:51:46.000Z</updated>
+        <summary type="html"><![CDATA[Qualysは11月30日(米国時間)、Qualys Security Blogにおいて、UbuntuにデフォルトでインストールされているSUID-rootプログラムであるLinuxのsnap-confine機能に新たな脆弱性があると伝えた。Qualysのセキュリティチームは、この脆弱性に対するパッチを早急に適用することを推奨している。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[独BSI発行の「産業用制御システムのセキュリティ 10大脅威と対策 2022」の日本語訳を公開]]></title>
+        <id>https://www.ipa.go.jp/security/controlsystem/bsi2022.html</id>
+        <link href="https://www.ipa.go.jp/security/controlsystem/bsi2022.html"/>
+        <updated>2022-12-05T01:05:00.000Z</updated>
+        <summary type="html"><![CDATA[情報セキュリティ関連情報のユーザー、管理者、技術者に向けた発信、その前提となる情報収集、調査分析、研究開発、技術評価等の実施]]></summary>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[コンテック製SolarView Compactにおけるクロスサイトスクリプティングの脆弱性]]></title>
+        <id>https://jvn.jp/vu/JVNVU93526386/</id>
+        <link href="https://jvn.jp/vu/JVNVU93526386/"/>
+        <updated>2022-12-05T01:00:00.000Z</updated>
+        <summary type="html"><![CDATA[株式会社コンテックが提供するSolarView Compactには、クロスサイトスクリプティングの脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[パスワード管理のLastPass、クラウドストレージに異常なアクティビティ]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20221205-2528444/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20221205-2528444/"/>
+        <updated>2022-12-04T23:51:17.000Z</updated>
+        <summary type="html"><![CDATA[パスワード管理サービスを提供するLastPassは11月30日(米国時間)、公式ブログ「The LastPass Blog」を更新し、同社の顧客情報にアクセスしたセキュリティインシデントについて調査中であると伝えた。LastPassとその関連会社であるGoToが共有しているサードパーティのクラウドストレージサービスに、異常なアクティビティが検出されたという。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[プレリリースのnpmパッケージに注意、セキュリティチェックを回避]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20221205-2527209/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20221205-2527209/"/>
+        <updated>2022-12-04T23:34:55.000Z</updated>
+        <summary type="html"><![CDATA[JFrogは11月29日(米国時間)、npm Command Line Interface（CLI）ツールのセキュリティチェック機能が回避される可能性があることを伝えた。JFrogの調査報告により、npm CLIツールの予期しない動作が悪用されることでマルウェアに侵入されてしまう危険性があることが明らかとなった。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2021年SFプロトタイピングの旅 第11回「サジェストの先にあるのは快適さだけ」]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2022/12/05/48589.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2022/12/05/48589.html"/>
+        <updated>2022-12-04T23:10:02.000Z</updated>
+        <summary type="html"><![CDATA[昨2021年をはるかに超えて不確定要素が増す現在、3名の講演とそれに続くディスカッションを、勉強会の講演再録として連載でお届けします。第11回以降は講演者3名によるパネルディスカッションです。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[尼崎市USBメモリ紛失事案報告書公開、無断再委託 無断再々委託の実態明らかに ～ 損害賠償請求予定]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2022/12/05/48588.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2022/12/05/48588.html"/>
+        <updated>2022-12-04T23:05:07.000Z</updated>
+        <summary type="html"><![CDATA[兵庫県尼崎市は11月28日、尼崎市USBメモリー紛失事案調査委員会の報告書と、同報告書を受けての対応について発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[リクルートダイレクトスカウトで企業担当者情報記載ファイルを誤添付しメール送信、165名と連絡とれず]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2022/12/05/48587.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2022/12/05/48587.html"/>
+        <updated>2022-12-04T23:05:03.000Z</updated>
+        <summary type="html"><![CDATA[株式会社リクルートは11月21日、同社が運営する「リクルートダイレクトスカウト」でのファイル誤送信による個人情報の漏えいについて発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NordVPNがジャパンラグビー静岡ブルーレヴズのスポンサーに、曰く「ともにディフェンスに優れる」]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2022/12/05/48586.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2022/12/05/48586.html"/>
+        <updated>2022-12-04T23:00:07.000Z</updated>
+        <summary type="html"><![CDATA[株式会社ノードセキュリティジェーピー（NordVPN）は12月1日、NTTジャパンラグビー リーグワンの静岡ブルーレヴズ株式会社との2022-2023シーズンのパートナーシップ契約の締結を発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ユニモテクノロジー製デジタルビデオレコーダに複数の脆弱性]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2022/12/05/48585.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2022/12/05/48585.html"/>
+        <updated>2022-12-04T23:00:03.000Z</updated>
+        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は12月1日、ユニモテクノロジー製デジタルビデオレコーダにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[スマホで「隠しカメラ」を手軽に見つけられるアプリ　赤外線カメラを付け、熱画像を取得　米国チームが開発]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2212/05/news031.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2212/05/news031.html"/>
+        <updated>2022-12-04T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[米セントルイス・ワシントン大学、米テネシー大学に所属する研究者らは、熱画像で隠しカメラを見つけられるアプリを提案した研究報告を発表した。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“スマホだけで会計＆インボイス作成が完結するアプリ”が登場、無料で使えるキャンペーン実施中　松岡修造さんが「みんなFinFinするぞ」と若い人へメッセージ！ ソリマチグループから提供開始]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1460895.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1460895.html"/>
+        <updated>2022-12-04T22:50:00.000Z</updated>
+        <summary type="html"><![CDATA[ソリマチグループの会計バンク株式会社は12月1日、Android/iOS用の会計アプリ「スマホ会計FinFin」と請求書発行アプリ「スマホインボイスFinFin」を提供開始した。同日、東京都内で記者発表会を開催し、ソリマチグループのイメージキャラクターを務める松岡修造さんと、タレントのおのののかさんも登場した。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[天体観測への影響が指摘されている通信衛星群 ほか【中島由弘の「いま知っておくべき5つのニュース」2022/11/24～12/1】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/curation/1460712.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/curation/1460712.html"/>
+        <updated>2022-12-04T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[今年7月に発生したKDDIの携帯電話通信網における大規模障害を踏まえ、総務省と携帯電話事業者らは今後の対策について検討をしてきた。とりわけ、「自然災害や設備故障などが原因で特定のMNOの携帯電話サービスが使えなくなった場合に、他のMNOのネットワークへの『ローミング』など、緊急通報（110／118／119番）を行う手段を確保する方法について検討する」としている（ITmedia）。しかし、記事では「目標はフルローミングだが、この検討会が通信障害時でも緊急通報を実現する手段を検討するために生まれたという経緯や、MNO各社が『まずは緊急通報を優先して検討すべき』という意見では一致していることから、今後も『まず緊急通報をどうするのか？』という議論が優先されそう」とも解説している。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「カレンダーの同期が遅すぎる!! GoogleカレンダーよりiPhoneのカレンダーの方が優秀だった！」――急遽テレワークを導入した中小企業の顛末記（122）【急遽テレワーク導入！の顛末記】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/teleworkstory/1460689.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/teleworkstory/1460689.html"/>
+        <updated>2022-12-04T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[以前にテレワーク用にカスタマイズしてから、Googleカレンダーがかなり便利に使えるようになった。特に、サイボウズOfficeと同期させたことで、仕事もオフの予定もすべてGoogleカレンダーでまとめて確認できるようになったので助かっている。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windowsにある、普通は変えないし知らなくても困らないWi-Fiアダプターの詳細設定【イニシャルB】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/shimizu/1460244.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/shimizu/1460244.html"/>
+        <updated>2022-12-04T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[PCに装着されているWi-Fiアダプターには、［詳細設定］としてさまざまな設定項目が用意されている。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[‘Tis the Season for Holiday Scams]]></title>
         <id>https://www.mcafee.com/blogs/?p=162439</id>
