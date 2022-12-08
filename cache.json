@@ -129,6 +129,26 @@
       "siteUrl": "https://www.ipa.go.jp/about/index.html",
       "articles": [
         {
+          "id": "https://www.ipa.go.jp/security/keihatsu/sme/conference.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報セキュリティ関連情報のユーザー、管理者、技術者に向けた発信、その前提となる情報収集、調査分析、研究開発、技術評価等の実施",
+          "link": "https://www.ipa.go.jp/security/keihatsu/sme/conference.html",
+          "publishedOn": "2022-12-08T08:28:00.000Z",
+          "wordCount": 194,
+          "title": "セキュリティプレゼンターカンファレンスの2022年度開催について",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ipa.go.jp/icscoe/program/short/icssec/2022.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "産業サイバーセキュリティセンター",
+          "link": "https://www.ipa.go.jp/icscoe/program/short/icssec/2022.html",
+          "publishedOn": "2022-12-08T03:40:00.000Z",
+          "wordCount": 124,
+          "title": "【2023年2月20日、2月21日開催】第3回制御システム向けサイバーセキュリティ演習（CyberSTIX） の申込み受付を開始しました",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.ipa.go.jp/icscoe/report/index.html",
           "author": "情報処理推進機構（IPA）",
           "description": "産業サイバーセキュリティセンター",
@@ -556,7 +576,7 @@
     {
       "title": "McAfee Blog",
       "feedUrl": "https://www.mcafee.com/blogs/feed/",
-      "siteUrl": "https://www.mcafee.com/blogs",
+      "siteUrl": null,
       "articles": [
         {
           "id": "https://www.mcafee.com/blogs/?p=161609",
@@ -844,16 +864,6 @@
           "wordCount": 1004,
           "title": "YouTubeのリンクからプログラムをダウンロードしてはいけない理由 | カスペルスキー公式ブログ",
           "imageUrl": "https://media.kasperskydaily.com/wp-content/uploads/sites/98/2022/11/10192839/onionpoison-infected-tor-browser-featured.jpg"
-        },
-        {
-          "id": "https://blog.kaspersky.co.jp/?p=32811",
-          "author": "Anastasia Starikova",
-          "description": "サイバー犯罪者は高度な手口を使用し、仮想通貨交換所、ブロックチェーンブリッジ、システムから仮想通貨を盗みます。詳細を弊社の記事で見ていきましょう。",
-          "link": "https://blog.kaspersky.co.jp/top-5-cryptocurrency-heists/32811/",
-          "publishedOn": "2022-11-08T09:16:18.000Z",
-          "wordCount": 1144,
-          "title": "史上最大の仮想通貨盗難事件トップ5 | カスペルスキー公式ブログ",
-          "imageUrl": "https://media.kasperskydaily.com/wp-content/uploads/sites/98/2022/11/08180822/top-5-cryptocurrency-heists-featured.jpg"
         }
       ]
     },
@@ -868,6 +878,16 @@
       "feedUrl": "https://gblogs.cisco.com/jp/feed/",
       "siteUrl": "https://gblogs.cisco.com/jp",
       "articles": [
+        {
+          "id": "https://gblogs.cisco.com/jp/?p=44078",
+          "author": "上野 温子",
+          "description": "シスコエコシステムパートナープログラムとは、ユニークなソリューションをもつエコシステム パートナーとリセラーパートナーがともに力を合わせ、今までにない新たな付加価値を提供する共同販売（Co-Selling）プログラムです。では、一体なぜ共同販売なのでしょうか？",
+          "link": "https://gblogs.cisco.com/jp/2022/12/about-co-selling-with-ecosystem-and-reseller-partners/",
+          "publishedOn": "2022-12-07T09:00:46.000Z",
+          "wordCount": 200,
+          "title": "エコシステムパートナーとリセラーパートナーとの共同販売（Co-Selling）とは何か？",
+          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs%3Agblogs/sites/2/ecopartner-ArticleImage-460x230.jpg"
+        },
         {
           "id": "https://gblogs.cisco.com/jp/?p=44056",
           "author": "小林 達哉",
@@ -1100,6 +1120,26 @@
       "feedUrl": "https://tech-lab.sios.jp/feed",
       "siteUrl": "https://tech-lab.sios.jp",
       "articles": [
+        {
+          "id": "https://tech-lab.sios.jp/?p=32091",
+          "author": "佐藤陽",
+          "description": "こんにちは、サイオステクノロジーの佐藤 陽です。 今回はAzureFunctionsで実装したAPIを簡単にSwaggerドキュメントにおこせるExtensionをご紹介します。 その名もAzure Functions  [...]\nAzure FunctionsのSwaggerドキュメントをラクラク作成！OpenAPI Extension！ first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/32091",
+          "publishedOn": "2022-12-08T06:08:08.000Z",
+          "wordCount": 2949,
+          "title": "Azure FunctionsのSwaggerドキュメントをラクラク作成！OpenAPI Extension！",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2022/12/thumbnail-e1670479388234.png"
+        },
+        {
+          "id": "https://tech-lab.sios.jp/?p=32066",
+          "author": "田中龍之介",
+          "description": "どもども、平社員の龍ちゃんです！今回は、前回の「Google Apps Script導入」に引き続きGASのお話です。以下の図は、GASを用いてやっていることで使用した図です。3つの真ん中に鎮座している、スプレッドシート [...]\nGoogle Apps Script スプレッドシート編　初心者向け first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/32066",
+          "publishedOn": "2022-12-07T10:36:03.000Z",
+          "wordCount": 2669,
+          "title": "Google Apps Script スプレッドシート編　初心者向け",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2022/12/Frame-61-1.png"
+        },
         {
           "id": "https://tech-lab.sios.jp/?p=32052",
           "author": "田中龍之介",
@@ -1442,26 +1482,6 @@
           "wordCount": 205,
           "title": "詐欺メールとは？どのような手口でどういった被害が生じ得るのか？",
           "imageUrl": "https://eset-info.canon-its.jp/files/topics/4064_ext_01_0.jpg"
-        },
-        {
-          "id": "https://eset-info.canon-its.jp/malware_info/news/detail/221109_3.html",
-          "author": null,
-          "description": "マイクロソフト社より、11月9日 にセキュリティ更新プログラムの情報が公開されました。\n今回公開されたプログラムではセキュリティ面での深刻度「緊急」のものが7件含まれています。\n\n今後のこれらの脆弱性を悪用したマルウェアなどによる攻撃に備え、早期にセキュリティ更新プログラムの適用を推奨いたします。今回のセキュリティ更新プログラムで修正した脆弱性のうち、Windows Mark Of The Web セキュリティ機能のバイパスの脆弱性、Windows 印刷スプーラーの特権の昇格の脆弱性、Windows CNG キー分離サービスの特権の昇格の脆弱性、Windows スクリプト言語のリモートでコードが実行される脆弱性は、既に悪用が行われていることが確認されていますので、早急に更新プログラムの適用を行ってください。\n\n【プログラム一覧】\n以下の情報は、マイクロソフト社のページからのものです。\n2022 年 11 月のセキュリティ更新プログラム (月例)\n\n更新プログラムの詳細はマイクロソフト社のページでご確認下さい。\n\n\n\t\n\t\t\n\t\t\t最大深刻度\n\t\t\t製品ファミリ\n\t\t\t最も大きな影響\n\t\t\n\t\t\n\t\t\t緊急\n\t\t\tWindows 11、v22H2\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t緊急\n\t\t\tWindows 10 v21H2、v21H1、v20H2\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t緊急\n\t\t\tWindows Server 2022 (Server Core installationを含む)\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t緊急\n\t\t\tWindows Server 2019、2016 (Server Core installationを含む)\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t緊急\n\t\t\tWindows 8.1、Windows Server 2012 R2, Windows Server 2012 (Server Core installationを含む)\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t重要\n\t\t\tMicrosoft Office\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t重要\n\t\t\tMicrosoft SharePoint\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t緊急\n\t\t\tMicrosoft Exchange Server\n\t\t\t特権の昇格\n\t\t\n\t\t\n\t\t\t重要\n\t\t\tMicrosoft.NET\n\t\t\t情報漏えい\n\t\t\n\t\t\n\t\t\t重要\n\t\t\tMicrosoft Visual Studio\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t重要\n\t\t\tMicrosoft Dynamics\n\t\t\t特権の昇格\n\t\t\n\t\t\n\t\t\t緊急\n\t\t\tMicrosoft Azure-related software\n\t\t\tリモートでコードが実行される\n\t\t\n\t\n\n\nWindows Update などを用いて、セキュリティ更新プログラムを早急に適用しましょう。更新プログラムを適用することで、パソコンのセキュリティを保つことができます。",
-          "link": "https://eset-info.canon-its.jp/malware_info/news/detail/221109_3.html",
-          "publishedOn": "2022-11-08T15:00:00.000Z",
-          "wordCount": 254,
-          "title": "マイクロソフト社よりセキュリティ更新プログラム（2022年11月）が公開されました",
-          "imageUrl": "https://eset-info.canon-its.jp/files/user/images/common/sns_thumb.jpg"
-        },
-        {
-          "id": "https://eset-info.canon-its.jp/malware_info/news/detail/221109_2.html",
-          "author": null,
-          "description": "2022年11月8日現在、ゆうちょ銀行をかたるフィッシングが確認されております。フィッシングサイト上の入力欄には、絶対に情報を入力しないようにお願いします。\n\nこのようなフィッシングサイトにて、認証情報 (ID、パスワード)、会員番号、カード有効期限、生年月日、セキュリティコード (3桁の番号)、電話番号、メールアドレス、ID、パスワード、ワンタイムパスワード (SMSコード) 等を、絶対に入力しないよう、注意してください。\n\n日頃からサービスへログインする際は、メールや SMS 内のリンクではなく、いつも利用しているスマートフォンの公式アプリやブラウザーのブックマークなどからアクセスするよう、心がけてください。\n\n【メールの件名】\n\n【重要】ゆうちょ銀行 からの緊急の連絡\n【重要】ゆうちょ銀行本人確認のお知らせ\n【重要】JP BANK カード本人確認のお知らせ\n【重要なお知らせ】JP BANK カード ご利用確認のお願い\n【重要なお知らせ】ゆうちょ銀行 ご利用確認のお願い\n【最終警告】JP BANK カード からの緊急の連絡\n【郵貯銀行】重要なお知らせ\n【JP BANK カード】重要:必ずお読みください\n【JP BANK カード】個人情報確認\n【JP BANK カード】重要なお知らせ\n【JP BANK カード】本人認証について\n【JP BANK カード】本人情報緊急確認\n【ゆうちょ銀行】本人情報緊急確認\n【ゆうちょ銀行】重要:必ずお読みください\n【ゆうちょ銀行】事務局からのお知らせ\nお支払い方法変更のご案内【JP BANK カード】\nJP BANK カード【重要:必ずお読みください】\nJP BANK カード　お支払い金額確定のご案内\nゆうちょ銀行　お支払い金額確定のご案内\n「JP BANK カード」ご利用環境確認用ワンタイムURLのお知らせ\n「ゆうちょ銀行」ご利用環境確認用ワンタイムURLのお知らせ\n＜緊急!JP BANK カード 重要なお知らせ＞\n\n※上記以外の件名も使われている可能性があります。\n\n【サイトのURL】\n\nhttps://kakunin.post●●●●.club/\nhttps://jp.post●●●●.club/\n\n※上記以外のドメイン、URL も使われている可能性があります。\n※URL にパスやパラメータが付いていることがあります。\n\n2022/11/8 15:00時点では、フィッシングサイトは稼働中です。このサイトが停止しても、類似のフィッシングサイトが公開される恐れもありますので注意してください。\nこのようなフィッシングサイトは日々新規に作成されています。ESET製品は、新規に作成されるフィッシングサイトにも随時対応していきますが、お客さま自身でも十分にご注意ください。\n\n【参考情報】\n\n！ゆうちょダイレクトを狙った犯罪にご注意ください！\n\n\n \n\n\n■ ESET製品における検出例\n\n\n\n※ESET Internet Security V15.0/ESET Mobile Security V6.0でフィッシング対策機能が有効な場合は、図のような通知が表示されます。\n\n\n■ フィッシングメール／フィッシングサイトへの対応\n\n\n\n\tフィッシングの可能性があるメールをむやみに開かない。\n\tフィッシングの可能性があるメールの添付ファイルをむやみに開かない。\n\tメール文中のリンク先URLがフィッシングサイトである可能性を考え、リンク先URLへむやみにアクセスしない。\n\tフィッシングの可能性があるサイトにアカウント情報やクレジットカード情報などを入力しない。\n\n\n\n\nキヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。",
-          "link": "https://eset-info.canon-its.jp/malware_info/news/detail/221109_2.html",
-          "publishedOn": "2022-11-08T15:00:00.000Z",
-          "wordCount": 256,
-          "title": "ゆうちょ銀行をかたるフィッシングについての注意喚起",
-          "imageUrl": "https://eset-info.canon-its.jp/files/user/images/common/sns_thumb.jpg"
         }
       ]
     },
@@ -1487,6 +1507,16 @@
       "feedUrl": "https://blogs.trellix.jp/category/threat-info/feed",
       "siteUrl": "https://blogs.trellix.jp",
       "articles": [
+        {
+          "id": "https://blogs.trellix.jp/?p=17679",
+          "author": "mcafee_admin",
+          "description": "セキュリティ担当者の61.7%が業務にフラストレーションの経験があり、68.0%が別のキャリアへ進むことを検討 Trellixは、日本国内の企業・団体の経営層、および情報システム部門など組織のセキュリティに関与するビジネ […]",
+          "link": "https://blogs.trellix.jp/trellix-survey-findings%ef%bd%b0the-cyber-talent-gap-jpn-2022-oct",
+          "publishedOn": "2022-12-05T00:00:05.000Z",
+          "wordCount": 468,
+          "title": "サイバー人材不足の解消の糸口とは？セキュリティ担当者と経営層の意識調査レポート 2022",
+          "imageUrl": "https://blogs.trellix.jp/wp-content/uploads/2022/12/Shortage-of-personnel_eye.jpg"
+        },
         {
           "id": "https://blogs.trellix.jp/?p=17831",
           "author": "mcafee_admin",
@@ -1785,17 +1815,6 @@
           "title": "[Blog記事]【Internet Week 2022 見どころ 第7弾】スプリンターネットを読み解く",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "https://blog.nic.ad.jp/2022/8183/",
-          "author": null,
-          "description": "2022年11月21日(月)から30日(水)の7日間で開催する「Internet Week 2022」の見どころを、連載でお届けしています。第6弾では、ハイブリッドWeekの初日、11/28（月）の午前に行われるオープニングのプログラム「みんな集まれ！インターネットに関わる国際標準化のつどい」を紹介します。なかなか知られていない、でも製品やサービスに深く関わっている「標準化」について取り上げるセッションです。",
-          "link": "https://blog.nic.ad.jp/2022/8183/",
-          "publishedOn": "2022-11-08T01:00:12.000Z",
-          "wordCount": null,
-          "title": "[Blog記事]【Internet Week 2022 見どころ 第6弾】みんな集まれ！インターネットに関わる国際標準化のつどい",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -2013,16 +2032,6 @@
           "publishedOn": "2022-11-16T13:28:23.063Z",
           "wordCount": 8705,
           "title": "VU#709991: Netatalk contains multiple error and memory management vulnerabilities",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kb.cert.org/vuls/id/434994",
-          "author": null,
-          "description": "<h3 id=\"overview\">Overview</h3>\n<p>Multiple Unified Extensible Firmware Interface (UEFI) implementations are vulnerable to code execution in System Management Mode (SMM) by an attacker who gains administrative privileges on the local machine. An attacker can corrupt the memory using Direct Memory Access (DMA) timing attacks that can lead to code execution. These threats are collectively referred to as RingHopper attacks.</p>\n<h3 id=\"description\">Description</h3>\n<p>The UEFI standard provides an open specification that defines a software interface between an operating system (OS) and the device hardware on the system.  UEFI can interface directly with hardware below the OS using SMM, a high-privilege CPU mode.  <a href=\"https://edk2-docs.gitbook.io/edk-ii-secure-coding-guide/secure_coding_guidelines_intel_platforms/smm\">SMM operations</a> are closely managed by the CPU using a dedicated portion of memory called the SMRAM.  The SMM can only be entered through System Management Interrupt (SMI) Handlers using a communication buffer.  SMI Handlers are essentially a system-call to access the CPU's SMRAM from its current operating mode, typically Protected Mode.</p>\n<p>A race condition involving the access and validation of the SMRAM can be achieved using DMA timing attacks that rely on time-of-use (<a href=\"https://en.wikipedia.org/wiki/Time-of-check_to_time-of-use\">TOCTOU</a>) conditions. An attacker can use well-timed probing to try and overwrite the contents of SMRAM with arbitrary data, leading to attacker code being executed with the same elevated-privileges available to the CPU (i.e., <a href=\"https://en.wikipedia.org/wiki/System_Management_Mode\">Ring -2 mode</a>).  The asynchronous nature of SMRAM access via DMA controllers enables the attacker to perform such unauthorized access and bypass the verifications normally provided by the SMI Handler API.  </p>\n<p>The Intel-VT and Intel VT-d technologies provide some protection against DMA attacks using Input-Output Memory Management Unit (IOMMU) to address DMA threats.  Although IOMMU can protect from DMA hardware attacks, SMI Handlers vulnerable to RingHopper may still be abused.  SMRAM verification involving <a href=\"https://www.sentinelone.com/labs/another-brick-in-the-wall-uncovering-smm-vulnerabilities-in-hp-firmware/\">validation of nested pointers</a> adds even more complexity when analyzing how various SMI Handlers are used in UEFI. </p>\n<h3 id=\"impact\">Impact</h3>\n<p>An attacker with either local or remote administrative privileges can exploit DMA timing attacks to elevate privileges beyond the operating system and execute arbitrary code in SMM mode (Ring -2). These attacks can be invoked from the OS using vulnerable SMI Handlers.  In some cases, the vulnerabilities can be triggered in the UEFI early boot phases (as well as sleep and recovery) before the operating system is fully initialized.</p>\n<p>A successful attack enables any of the following impacts:</p>\n<ul>\n<li>Invalidation or bypass of UEFI security features (SecureBoot, Intel BootGuard).</li>\n<li>Installation of persistent software that cannot be easily detected or erased.</li>\n<li>Creation of backdoors and back communications channels to exfiltrate sensitive data</li>\n<li>Interruption of system execution leading to permanent shutdown.</li>\n</ul>\n<p>Because these attacks are against UEFI supported firmware, OS and EDR solutions may have diminished visibility into unauthorized access.</p>\n<h3 id=\"solution\">Solution</h3>\n<p>Install the latest stable version of UEFI firmware provided by your PC vendor or by the reseller of your computing environments. See the links below for resources and updates provided by specific vendors to address these issues.  </p>\n<p>If your operating system supports automatic or managed updates for firmware, such as Linux Vendor Firmware Service (<a href=\"https://fwupd.org/lvfs/docs/users\">LVFS</a>), check (<code>fwupdmgr get-updates</code>) and apply the firmware updates provided by LVFS using <code>fwupdmgr update</code> as appropriate. </p>\n<h3 id=\"acknowledgements\">Acknowledgements</h3>\n<p>Thanks to the Intel iStare researchers Jonathan Lusky  and Benny Zeltser who discovered and reported this vulnerability. </p>\n<p>This document was written by Vijay Sarvepalli and Jeffrey S. Havrilla.</p>",
-          "link": "https://kb.cert.org/vuls/id/434994",
-          "publishedOn": "2022-11-08T17:02:19.519Z",
-          "wordCount": 1420,
-          "title": "VU#434994: Multiple race conditions due to TOCTOU flaws in various UEFI Implementations",
           "imageUrl": null
         }
       ]
@@ -2470,6 +2479,56 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2022/12/08/48606.html",
+          "author": null,
+          "description": "注目のセキュリティ関連のガイドラインが幾つか公開されています。",
+          "link": "https://scan.netsecurity.ne.jp/article/2022/12/08/48606.html",
+          "publishedOn": "2022-12-07T23:10:02.000Z",
+          "wordCount": 964,
+          "title": "米 CISA、サプライチェーン安全確保ガイダンス発表／Zoom における 3 つの脆弱性／APT41 の新たなサブグループ「Earth Longzhi」 ほか [Scan PREMIUM Monthly Executive Summary 2022年11月度]",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/39985.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2022/12/08/48605.html",
+          "author": null,
+          "description": "東京都は12月5日、都立スポーツ施設の工事請負受注者へのサイバー攻撃について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2022/12/08/48605.html",
+          "publishedOn": "2022-12-07T23:05:05.000Z",
+          "wordCount": 720,
+          "title": "菱機工業へのサイバー攻撃、都立スポーツ施設の工事関連情報が流出した可能性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/39979.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2022/12/08/48604.html",
+          "author": null,
+          "description": "株式会社北國銀行は12月5日、北國クラウドバンキング契約者へのメール誤送信について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2022/12/08/48604.html",
+          "publishedOn": "2022-12-07T23:05:02.000Z",
+          "wordCount": 713,
+          "title": "件名「お振込不能のお知らせ【北國銀行】」メールを全契約者へ誤送信、ログインしづらい状況に",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/39977.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2022/12/08/48603.html",
+          "author": null,
+          "description": "デジタルアーツ株式会社は11月28日、クラウド版のWebセキュリティ製品「i-FILTER@Cloud」に新機能「クレデンシャルプロテクション」を追加し、11月26日から提供開始したと発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2022/12/08/48603.html",
+          "publishedOn": "2022-12-07T23:00:06.000Z",
+          "wordCount": 727,
+          "title": "「i-FILTER@Cloud」にフィッシングサイトへのクレデンシャル送信ブロック機能",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/39982.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2022/12/08/48602.html",
+          "author": null,
+          "description": "文部科学省は12月6日、文部科学省大臣官房政策課サイバーセキュリティ・情報化推進室事務補佐員の採用について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2022/12/08/48602.html",
+          "publishedOn": "2022-12-07T23:00:03.000Z",
+          "wordCount": 721,
+          "title": "文部科学省大臣官房政策課サイバーセキュリティ・情報化推進室の事務補佐員募集",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2022/12/07/48601.html",
           "author": null,
@@ -3495,6 +3554,106 @@
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
         {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1462160.html",
+          "author": null,
+          "description": "高知県は12月1日、「IT人材に関する実態調査」の結果を発表した。企業におけるIT人材不足の状況やIT人材の学びの実態などについて、五大都市圏と地方とでどのような違いが生じているのかを調査した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1462160.html",
+          "publishedOn": "2022-12-08T07:41:11.000Z",
+          "wordCount": 4313,
+          "title": "高知県、「IT人材に関する実態調査」の結果を発表。地方と都市圏でどう違う？",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1462/160/kochi04.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1462150.html",
+          "author": null,
+          "description": "Amazon.co.jpでは現在、「Microsoft 365 キャッシュバックキャンペーン」を開催中だ。期間中に「Microsoft 365 Family」もしくは「Microsoft 365 Personal」を購入することで最大3500円のキャッシュバックを受けることができる。キャンペーン期間は12月27日（火）までとなっている。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1462150.html",
+          "publishedOn": "2022-12-08T06:00:00.000Z",
+          "wordCount": 4358,
+          "title": "「Microsoft 365」が最大3500円キャッシュバック！　Amazonでお得なキャンペーン　FamilyまたはPersonalの1年版が対象",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1462/150/office.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1462061.html",
+          "author": null,
+          "description": "東日本電信電話株式会社（NTT東日本）と西日本電信電話株式会社（NTT西日本）は12月8日、固定電話のIP網への移行後のサービスについてスケジュールの詳細等を発表し、「INSネット（ディジタル通信モード）」の提供を終了する具体的な期日を明らかにした。地域ごとに段階的に提供を終了した後、「切替後のINSネット上のデータ通信サービス（補完策）」に移行する。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1462061.html",
+          "publishedOn": "2022-12-08T04:10:30.000Z",
+          "wordCount": 4312,
+          "title": "INSネットの「ディジタル通信モード」、提供終了日が明らかに　2024年1月2日に山形・鳥取から段階的に終了、1月31日までに全都道府県で終了",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1462/061/ntt08.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1461991.html",
+          "author": null,
+          "description": "サービス終了を発表した家族SNS「wellnote」が、新たにデータの一括ダウンロード機能と、「みてね」へのデータ移行機能を提供することを発表した。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1461991.html",
+          "publishedOn": "2022-12-08T03:00:00.000Z",
+          "wordCount": 4301,
+          "title": "サービス終了の「wellnote」、MIXIの支援でデータの一括ダウンロード機能を提供へ【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1461/991/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1461988.html",
+          "author": null,
+          "description": "Googleが検索結果を表示するページを、連続して読み込まれる仕様へと変更することを発表した。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1461988.html",
+          "publishedOn": "2022-12-08T02:55:00.000Z",
+          "wordCount": 4357,
+          "title": "地味だけど歴史的英断？ Googleの検索結果ページ、連続して読み込まれる仕様に変更へ【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1461/988/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/security/1461235.html",
+          "author": null,
+          "description": "米サイバーセキュリティ・インフラセキュリティ庁（CISA：Cybersecurity & Infrastructure Security Agency）は、選挙インフラに関する誤った情報、偽の情報、不正な情報に対する耐性を有権者に身に付けてもらうための情報提供として「Election Security Rumor vs. Reality（選挙セキュリティ 風説vs現実）」を公開しています。なお、この資料では「誤った情報（Misinformation）」「偽の情報（Disinformation）」「不正な情報（Malinformation）」をまとめて「MDM」と略しています。また、スペイン語版も公開されています。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/security/1461235.html",
+          "publishedOn": "2022-12-08T02:55:00.000Z",
+          "wordCount": 4466,
+          "title": "米CISAが公開、「選挙インフラ」に関する風説に惑わされないための“信頼できる情報”【海外セキュリティ】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1461/235/yamaga_main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1461896.html",
+          "author": null,
+          "description": "サンワサプライ株式会社は、デスクに後付ができるナイロンメッシュ製のケーブルトレーを発売した。直販サイト「サンワダイレクト」での販売価格は、クランプ取り付けの「200-CT004BK」が6480円、ネジ取り付けの「200-CT005BK」が5980円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1461896.html",
+          "publishedOn": "2022-12-07T21:30:00.000Z",
+          "wordCount": 4311,
+          "title": "デスク下に取り付けて配線を整理できるケーブルトレー「200-CT004BK」「200-CT005BK」、サンワサプライが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1461/896/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/homewifi/1460987.html",
+          "author": null,
+          "description": "Amazonから2022年10月27日に「Fire TV Cube（第3世代）」が発売された。本体のデザインも新しくなり、Wi-Fi 6対応、動作速度向上、外部HDMI入力対応など、前モデルから大きくアップデートされている。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/homewifi/1460987.html",
+          "publishedOn": "2022-12-07T21:00:00.000Z",
+          "wordCount": 4657,
+          "title": "Amazon新デバイス「Fire TV Cube（第3世代）」で、テレビを使いやすくするためのセットアップ【自宅Wi-Fiの“わからない”をスッキリ！】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1460/987/housewifi2_132-01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1461824.html",
+          "author": null,
+          "description": "サンワサプライ株式会社は、コネクタを上下左右に曲げて固定可能なCAT6A対応のLANケーブル「KB-T6ASYL-002BK」シリーズを発売した。市場想定価格は5mが2948円、3mが2288、2mが1848円、1mが1518円、0.5mが1408円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1461824.html",
+          "publishedOn": "2022-12-07T10:00:00.000Z",
+          "wordCount": 4313,
+          "title": "コネクタ部を曲げたまま固定できて断線に強い、STPのCAT6A LANケーブル「KB-T6ASYL-002BK」、サンワサプライが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1461/824/03.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1461773.html",
+          "author": null,
+          "description": "Googleは12月7日、「2022年 Google検索ランキング」を発表した。今年のトレンドを映す急上昇ランキングや「人物」「〇〇とは」「スポーツ選手」「方法」「歌詞」「メイク」など各種カテゴリ別のランキングも公開している。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1461773.html",
+          "publishedOn": "2022-12-07T08:10:00.000Z",
+          "wordCount": 4332,
+          "title": "今年一番検索されたアニメは「チェンソーマン」か「SPY×FAMILY」か？ Googleが検索ランキング公開　事件や災害関連のワードも多数ランクイン",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1461/773/01.png"
+        },
+        {
           "id": "https://internet.watch.impress.co.jp/docs/news/1461786.html",
           "author": null,
           "description": "ティーピーリンクジャパン株式会社は、同社初となるWi-Fi 6E対応メッシュシステム「Deco XE75」を12月14日に発売する。市場想定価格は2ユニットで4万2680円、1ユニットで2万2880円。",
@@ -4028,6 +4187,96 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20221208-2532716/",
+          "author": null,
+          "description": "Appleは12月7日(米国時間)、クラウド上のユーザーデータに対する脅威から保護するための3つの高度なセキュリティ機能を導入すると伝えた。ユーザーデータをより強力に保護するための継続的な取り組みによるものと説明されている。",
+          "link": "https://news.mynavi.jp/techplus/article/20221208-2532716/",
+          "publishedOn": "2022-12-08T07:32:47.000Z",
+          "wordCount": 1653,
+          "title": "Apple、ユーザーデータを強力に保護する新たなセキュリティ機能導入",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20221208-2532716/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20221208-2532742/",
+          "author": null,
+          "description": "熊平製作所、クマヒラ、リアルネットワークス、NTTコミュニケーションズの4社は数万人規模のイベントでの入場管理業務を想定し、可搬性の顔認証ゲートと「docomo MEC」の通信環境を組み合わせることで、これまでの顔認証ゲートに比べ、約23%高速化できることを共同検証で確認したと発表した。",
+          "link": "https://news.mynavi.jp/techplus/article/20221208-2532742/",
+          "publishedOn": "2022-12-08T06:12:01.000Z",
+          "wordCount": 1690,
+          "title": "NTT Comら4社、モバイルゲート＋docomo MECで入場管理を23%高速化",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20221208-2532742/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20221208-2532663/",
+          "author": null,
+          "description": "タレスは12月8日、「2022年 タレス 消費者デジタル信頼指数」（データセキュリティに対する消費者の信頼度調査）の結果を公表した。",
+          "link": "https://news.mynavi.jp/techplus/article/20221208-2532663/",
+          "publishedOn": "2022-12-08T04:41:52.000Z",
+          "wordCount": 1544,
+          "title": "約20%の消費者がデータ侵害の被害に遭った企業の利用を停止、タレスが調査",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20221208-2532663/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/israel-cybersecurity-2/",
+          "author": null,
+          "description": "イスラエルが「サイバー先進国」と呼ばれるようになった背景や歴史と、そうした国と比較した日本の状況、欧米が注目する技術の製品化の例を紹介します。",
+          "link": "https://news.mynavi.jp/techplus/article/israel-cybersecurity-2/",
+          "publishedOn": "2022-12-08T04:00:00.000Z",
+          "wordCount": 1698,
+          "title": "イスラエルとサイバーセキュリティ 第2回 現地で注目されるセキュリティトレンド【イスラエル出張記】",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/israel-cybersecurity-2/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20221208-2531245/",
+          "author": null,
+          "description": "Sysdigは12月5日(米国時間)、「PRoot」呼ばれるオープンソースのツールを悪用し、複数のLinuxディストリビューションを標的に攻撃を簡略化しているサイバー攻撃者を発見したと伝えた。PRootはUbuntu、Fedora、AlpineなどのさまざまなLinuxディストリビューションに運用環境を提供するツール。",
+          "link": "https://news.mynavi.jp/techplus/article/20221208-2531245/",
+          "publishedOn": "2022-12-08T03:45:23.000Z",
+          "wordCount": 1609,
+          "title": "オープンソースツール「PRoot」を悪用してLinux狙うサイバー攻撃出現",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20221208-2531245/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20221208-2532559/",
+          "author": null,
+          "description": "DNPと同社グループのサイバーナレッジアカデミーは12月8日、東京都のCSIRTや各組織の情報システム担当者、全職員（知事部局などおよび公営企業）の約4万人を対象に、職層別のサイバーセキュリティ教育を支援すると発表した。",
+          "link": "https://news.mynavi.jp/techplus/article/20221208-2532559/",
+          "publishedOn": "2022-12-08T02:47:12.000Z",
+          "wordCount": 1551,
+          "title": "DNP、約4万人の東京都全職員を対象にサイバーセキュリティ教育を実施",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20221208-2532559/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20221208-2532534/",
+          "author": null,
+          "description": "サイバートラストは、統合システム監視ソフトウェア「MIRACLE ZBX」を用いて幅広い環境のシステム監視に必要なソフトウェアやデータベースなどを最適化して構築する「MIRACLE ZBX アプライアンス環境構築サービス」と、環境の移行などに合わせてMIRACLE ZBXやZabbixを最新版へバージョンアップする「MIRACLE ZBX バージョンアップサービス」を、同日より提供開始した。",
+          "link": "https://news.mynavi.jp/techplus/article/20221208-2532534/",
+          "publishedOn": "2022-12-08T02:26:44.000Z",
+          "wordCount": 1662,
+          "title": "サイバートラスト、システム監視環境の構築とバージョンアップサービス提供",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20221208-2532534/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20221208-2532185/",
+          "author": null,
+          "description": "eSecurity Planetは12月7日(米国時間)、フォーチュン500の企業において、1社平均で476件の重大な脆弱性が存在すると伝えた。セキュリティベンダーのCyberpionがフォーチュン500の企業のうち、471社の公開資産およびインターネット向け資産を分析したところ、14万8,000以上の脆弱性が発見されたという。",
+          "link": "https://news.mynavi.jp/techplus/article/20221208-2532185/",
+          "publishedOn": "2022-12-07T23:39:38.000Z",
+          "wordCount": 1636,
+          "title": "フォーチュン500、1社あたり平均476件の重大脆弱性-受け入れがたいレベル",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20221208-2532185/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20221207-2530710/",
+          "author": null,
+          "description": "米国土安全保障省サイバーセキュリティ・インフラストラクチャセキュリティ庁(CISA)は12月5日(米国時間)、「Known Exploited Vulnerabilities Catalog」に脆弱性を追加したと伝えた。この脆弱性はサイバー犯罪者によって積極的に悪用されていることが確認されており注意が必要。",
+          "link": "https://news.mynavi.jp/techplus/article/20221207-2530710/",
+          "publishedOn": "2022-12-07T10:32:28.000Z",
+          "wordCount": 1661,
+          "title": "Google Chromeの脆弱性の活発な悪用を確認、更新を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20221207-2530710/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20221207-2531809/",
           "author": null,
