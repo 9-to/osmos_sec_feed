@@ -2,10 +2,110 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2022-12-10T08:11:43.755Z</updated>
+    <updated>2022-12-11T08:11:26.652Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[500万回以上ダウンロードのAndroidアプリからユーザー情報が流出]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20221211-2533673/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20221211-2533673/"/>
+        <updated>2022-12-11T07:03:20.000Z</updated>
+        <summary type="html"><![CDATA[CyberNewsは12月8日(米国時間)、Androidアプリからユーザーの閲覧履歴が流出していると伝えた。「Web Explorer - Fast Internet」と呼ばれるAndroid向けブラウジングアプリがFirebaseのインスタンスをオープンにしていたため、アプリやユーザーのデータを流出させていたことが明らかとなった。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[米クラスアクション訴訟、AirTag によるストーカー被害の責任を Apple に問う]]></title>
+        <id>https://security.srad.jp/story/22/12/11/0159212/</id>
+        <link href="https://security.srad.jp/story/22/12/11/0159212/"/>
+        <updated>2022-12-11T02:19:00.000Z</updated>
+        <summary type="html"><![CDATA[AirTag を悪用したストーカーの被害にあった 2 人の米女性が Apple を提訴している
+(訴状: PDF、
+Ars Technica の記事、
+Neowin の記事、
+Mac Rumors の記事)。
+
+訴状によれば、Apple が AirTag を発表するとストーカーによる悪用を懸念する声がサイバーセキュリティーの専門家やドメスティックバイオレンス被害者の支援団体などから寄せられたが、Apple は AirTag が「ストーカープルーフ」だなどと称して製品を発売。しかし、Apple のストーカー対策は十分ではなく、AirTag を悪用した追跡の被害が相次いだ。Apple はさまざまな対策を発表したが、いずれも十分な効果を上げるには至っていない。米国では AirTag によるストーキングの末に被害者が殺害された事件が少なくとも 2 件発生しているという。
+
+原告はいずれも AirTag を悪用した元パートナーからのストーキング被害にあっており、原告が AirTag を取り除いても次々と新しい AirTag で追跡されたという。Apple デバイスによる Find My ネットワークで追跡を行う AirTag は他社製品と比べて効果が高く、Apple のデバイスを所有していれば簡単に追跡を実行できる。また、AirTag は価格が安く、被害者が見つけて破棄しても簡単に代替品を投入できる。一方、Apple は悪用を防ぐ十分な仕組みを搭載していない。
+
+そのため、原告は Apple が被害を防ぐための責任を果たしていないことや、欠陥のある製品の販売、不当利益、原告のプライバシーの侵害など、合計 12 件の不当行為で Apple を訴えている。訴訟はクラスアクション訴訟の形をとっており、ストーキング被害にあった全米の iOS ユーザーのクラスと Android ユーザーのクラス、ストーキングのリスクがある全米の iOS ユーザーのクラスと Android ユーザーのクラス、ストーキング被害にあった 36 州 の住民のサブクラスとニューヨーク州住民のサブクラスの認定を求めるほか、AirTag の販売差止や損害賠償などを求めている。
+ すべて読む | セキュリティセクション | 犯罪 | セキュリティ | 法廷 | アップル | アメリカ合衆国 | プライバシ |     
+  関連ストーリー： 
+AirTagの不正改造で全国初の摘発。オークションなどで販売 2022年12月03日 
+Appleの「AirTag」が警察の捜査車両に取り付けられる 2022年07月07日 
+米国でAirTagを悪用した殺人事件 2022年06月17日 
+AirTag の幽霊、iPhone ユーザーを悩ませる 2022年05月09日 
+AirTag によるストーキング被害、通知機能で追跡に気付いたケースは 3 分の 1 2022年04月09日 
+Apple によるストーキング防止策をバイパス可能な AirTag クローン 2022年02月24日 
+無断で他人を追跡する行為は犯罪だという AirTag 初回設定時の警告表示、犯罪者にも効果があるか 2022年02月12日 
+スピーカーを無効化した AirTag、オンラインマーケットプレース出品で注目される 2022年02月06日 
+Apple、AirTag を悪用したストーキングへの対策などを含む安全ガイドを公開 2022年01月29日 
+Airtagの悪用が止まらない 2022年01月26日 
+Apple、持ち主から離れた場所にある AirTag を Android で検出可能なアプリを公開 2021年12月16日 
+カナダの警察、AirTag を使用した高級車窃盗に注意喚起 2021年12月05日 
+紛失防止タグ「AirTag」はストーカー用途に悪用できるか？ 2021年04月23日]]></summary>
+        <author>
+            <name>headless</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AndroidにBluetooth経由で任意のコードが実行される脆弱性あり]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20221210-2534056/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20221210-2534056/"/>
+        <updated>2022-12-10T12:07:00.000Z</updated>
+        <summary type="html"><![CDATA[Malwarebytesは12月7日(米国時間)、Androidのセキュリティに関する公開情報について伝えた。2022年12月のAndroidセキュリティ情報で最も深刻なのはSystemコンポーネントに存在する重大な脆弱性で、追加の実行権限なしにBluetooth経由でリモートコードが実行されてしまう危険性があり、注意が必要だという。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[イラン系サイバー攻撃グループ、イスラエルのダイヤモンド産業を攻撃]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20221210-2532724/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20221210-2532724/"/>
+        <updated>2022-12-10T10:29:37.000Z</updated>
+        <summary type="html"><![CDATA[ESETは12月7日(米国時間)、持続的標的型攻撃(APT: Advanced Persistent Threat)グループに関連するワイパー型マルウェアおよび実行ツールを発見したと伝えた。イスラエルのコンサルティング企業およびダイヤモンド産業で使用されているソフトウェアのユーザーを標的にしたキャンペーンが展開されていることが明らかとなった。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[スマートフォンのアップデート提供、購入時に重視する？]]></title>
+        <id>https://security.srad.jp/story/22/12/10/0813202/</id>
+        <link href="https://security.srad.jp/story/22/12/10/0813202/"/>
+        <updated>2022-12-10T10:10:00.000Z</updated>
+        <summary type="html"><![CDATA[Android Police がスマートフォンを購入する際にアップデート提供を重視するかどうかという投票を実施しているのだが、60 % 近くが最も重要な要素だと回答している
+(Android Police の記事)。
+
+10 日 17 時の段階で 3,049 票が投じられており、アップデート提供によるサポートが最も重要な要素だという選択肢が 1,780 票 (58 %) を獲得している。ある程度重要だという回答も 1,106 票 (36 %) を獲得しており、ある程度以上アップデートを重視している人は 95 % にのぼる。スマートフォンの購入にあたってアップデート提供によるサポートは重要ではないという回答は 134 票 (4 %) だが、意外に多い気もする。スラドの皆さんは、スマートフォン購入時にアップデート提供の頻度をどの程度気にするだろうか。
+ すべて読む | セキュリティセクション | モバイル | アップグレード | セキュリティ | 携帯電話 |     
+  関連ストーリー： 
+Pixel 4 / 4XL、Android ベータプログラムに登録可能なデバイスのリストから外れる 2022年09月03日 
+Qualcomm の Snapdragon Insiders 向けスマートフォン、既に放置状態か 2022年06月17日 
+Dev チャネルの WSA、Android 12.1 にアップグレード 2022年05月26日 
+Google, Pixel 3 / 3 XL 向けに最後の「サンセット」アップデートを配信 2022年02月13日 
+Pixel 6シリーズではアップデートが5年間提供されるかも？ 2021年10月19日 
+ドイツ政府がスマートフォンメーカーに 7 年間のサポートを義務付ける計画との報道 2021年09月08日 
+Samsung、同社のAndroidデバイスに4年間のセキュリティアップデートを提供する計画 2021年02月25日 
+Qualcommの新しいSoC、4バージョンのAndroid OSをサポート 2020年12月19日 
+英消費者団体Which?、サポートの終了した中古スマートフォンを購入しないよう注意喚起 2020年08月05日 
+Google曰く、Android 10は過去のどのAndroidバージョンよりも速く導入が進んだ 2020年07月13日 
+セキュリティ研究者曰く、Android端末メーカーはLinuxカーネルを独自に改変するべきではない 2020年02月26日 
+iPhone 5ユーザーは11月3日までにOSアップデートを逃すとアップデートできなくなる恐れ 2019年10月28日 
+Apple、iPhoneの速度低下を招くiOSアップデートを提供する場合は事前に告知すると英競争・市場庁に約束 2019年05月26日 
+iOS 12への移行、遅めのペースに 2018年09月22日 
+Google、企業が導入するのに適したAndroidデバイスとサービスの推奨プログラムを発表 2018年02月25日 
+MicrosoftはWindows 10 Mobileにもう注力しない 2017年10月11日 
+Google、Nexus/Pixel端末のサポート期間をヘルプページに記載 2017年06月13日 
+Google、Nexus/Pixel端末のセキュリティパッチ提供保証期限をヘルプページに明記 2017年04月30日 
+GoogleはAndroidの更新に関する問題をいつまで放置し続けるのか 2015年05月10日 
+ほとんどのAndroid端末では「最新OS」を利用できない 2011年10月28日]]></summary>
+        <author>
+            <name>headless</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[脆弱性が修正される兆候がない3つのAndroidアプリに注意]]></title>
         <id>https://news.mynavi.jp/techplus/article/20221210-2533671/</id>
@@ -7248,47 +7348,6 @@ PINコードとICチップ（EMVとも呼ばれる）を導入した国では、
 最後に、銀行口座やクレジットカードのアカウントを常に監視しておくことをお勧めする。疑わしい取引を見つけた際には、銀行やクレジットカード事業者の不正対策チームへ直ちに連絡するべきだ。セキュリティ侵害がないことを確認できるまで、特定のクレジットカードによる支払いを「凍結」できるアプリもある。攻撃者がクレジットカード情報を盗む方法がいくつもある一方で、それらを奪われないよう保護する方法もまた豊富に揃っているのだ。]]></summary>
         <author>
             <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 Steps to Removing Your Personal Information From the Internet]]></title>
-        <id>https://www.mcafee.com/blogs/?p=157268</id>
-        <link href="https://www.mcafee.com/blogs/privacy-identity-protection/5-steps-to-removing-your-personal-information-from-the-internet/"/>
-        <updated>2022-11-11T13:31:27.000Z</updated>
-        <summary type="html"><![CDATA[Here’s one way you can help reduce your chances of identity theft: remove your personal information from the internet.  And...
-The post 5 Steps to Removing Your Personal Information From the Internet appeared first on McAfee Blog.]]></summary>
-        <author>
-            <name>McAfee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「量子コンピューティング技術シンポジウム2022」開催のご案内について]]></title>
-        <id>https://www.ipa.go.jp/jinzai/target/2022/quantum_symposium2022.html</id>
-        <link href="https://www.ipa.go.jp/jinzai/target/2022/quantum_symposium2022.html"/>
-        <updated>2022-11-11T02:05:00.000Z</updated>
-        <summary type="html"><![CDATA[量子コンピューティング技術シンポジウム2022 開催のご案内ページです。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[YouTubeのリンクからプログラムをダウンロードしてはいけない理由 | カスペルスキー公式ブログ]]></title>
-        <id>https://blog.kaspersky.co.jp/?p=32829</id>
-        <link href="https://blog.kaspersky.co.jp/onionpoison-infected-tor-browser/32829/"/>
-        <updated>2022-11-11T01:00:05.000Z</updated>
-        <summary type="html"><![CDATA[YouTubeの動画を介して広まる、OnionPoisonというスパイウェアに感染したTorブラウザー]]></summary>
-        <author>
-            <name>Enoch Root</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“指紋画像”を盗み、スマートフォンや銀行口座を解除する攻撃　オーストラリアの研究者が発表]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2211/11/news048.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2211/11/news048.html"/>
-        <updated>2022-11-10T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[オーストラリアの研究者は、指紋読取装置からユーザーの指紋画像を取得する攻撃を提案した研究報告を発表した。取得した指紋画像を用い、スマートフォンや銀行口座、ドアのスマートロックなど他のシステムにアクセスするという悪用が行える。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
         </author>
     </entry>
 </feed>
