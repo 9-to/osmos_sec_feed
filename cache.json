@@ -189,6 +189,16 @@
       "siteUrl": "https://www.ipa.go.jp/about/index.html",
       "articles": [
         {
+          "id": "https://www.ipa.go.jp/security/it-service/service_list.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報セキュリティ関連情報のユーザー、管理者、技術者に向けた発信、その前提となる情報収集、調査分析、研究開発、技術評価等の実施",
+          "link": "https://www.ipa.go.jp/security/it-service/service_list.html",
+          "publishedOn": "2022-12-19T08:05:00.000Z",
+          "wordCount": 118,
+          "title": "「情報セキュリティサービス基準適合サービスリスト」にサービスを追加しました。",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.ipa.go.jp/security/event/hyogo/index.html",
           "author": "情報処理推進機構（IPA）",
           "description": "",
@@ -789,6 +799,36 @@
       "siteUrl": "https://gblogs.cisco.com/jp",
       "articles": [
         {
+          "id": "https://gblogs.cisco.com/jp/?p=44484",
+          "author": "TALOS Japan",
+          "description": "今週も脅威情報ニュースレターをお届けします。年の瀬が押し迫ってくると、またあの胸を締め付けるような感覚がよみがえってきます。このニュースレターの読者なら、おそらくほとんどの方が毎年この時期に感じているあの感覚です。",
+          "link": "https://gblogs.cisco.com/jp/2022/12/talos-threat-source-newsletter-dec-7-2022/",
+          "publishedOn": "2022-12-19T02:33:49.000Z",
+          "wordCount": 293,
+          "title": "脅威情報ニュースレター（2022 年 12 月 8 日）：リンクをクリックしまくった親戚のおじさんを救え",
+          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/11AS90304_eyecatch-460x230.jpg"
+        },
+        {
+          "id": "https://gblogs.cisco.com/jp/?p=44347",
+          "author": "村松 杏奈",
+          "description": "シスコの社員には、Time 2 Giveというボランティア休暇を有給とは別に年間最大５日間取得することができます。この仕組みを利用して、カスタマーサクセスの有志メンバーが集まって植栽ボランティアに参加した体験記をご紹介します。",
+          "link": "https://gblogs.cisco.com/jp/2022/12/time2give_planting/",
+          "publishedOn": "2022-12-19T00:00:57.000Z",
+          "wordCount": 184,
+          "title": "【We are Cisco】Time2Give：普通の社員が普通にボランティア – 木を植える編 –",
+          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs%3Agblogs/sites/2/IMG_5997-e1671092214797-460x230.jpeg"
+        },
+        {
+          "id": "https://gblogs.cisco.com/jp/?p=44287",
+          "author": "門脇 拓弥",
+          "description": "Intersight Workload Optimizer 意思決定エンジンの「Under the Hood（裏側）」に潜入し、詳しくご紹介。Intersight Workload Optimizer サービスの背後にあるテクノロジーについて掘り下げる全 3 回の週刊ブログシリーズの第 2 弾をお届けします。",
+          "link": "https://gblogs.cisco.com/jp/2022/12/intersight-workload-optimizer-how-to-get-smarter-with-appdynamics/",
+          "publishedOn": "2022-12-19T00:00:00.000Z",
+          "wordCount": 398,
+          "title": "Intersight Workload Optimizer：AppDynamics でもっとスマートに",
+          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs%3Agblogs/sites/2/intersight-workload-optimizer-how-to-get-smarter-with-appdynamics-article-460x230.jpg"
+        },
+        {
           "id": "https://gblogs.cisco.com/jp/?p=44268",
           "author": "門脇 拓弥",
           "description": "世界中の金融機関が、業務を円滑に進めるために TIBCO を利用しています。ここでは、潜在的な問題に対応し、問題を特定し、可能な限り迅速に解決策を実装する方法をご紹介します。",
@@ -1036,6 +1076,21 @@
       "siteUrl": "https://engineers.ffri.jp/",
       "articles": [
         {
+          "id": "hatenablog://entry/4207112889935607976",
+          "author": null,
+          "description": "こんにちは。基礎技術研究部の茂木です。今回は Rust の話をします。\n11 月 3 日にリリースされた Rust v1.65.0 では Generic Associated Types(以下、GATs)が入りました。\nこれにより、Higher Kinded Types のエミュレートが比較的しやすくなります。\nそうなると Monad を実装してみたくなるのが人情というものです。\n実際いくつも(GATs が Stable になる以前から)先行事例が存在します[1,2,3]。\n本記事ではまず[1,2]の手法に従って Monad Transformer を実装しつつ、[3]の手法に切り替えたのち Free Monad を実装します。\nなお筆者は関数型プログラミング初心者です。その意味で本記事は[4]における教科書や論文ではないのでご了承ください。\nまた本記事では Monad 自体の解説はしませんので、「すごい Haskell たのしく学ぼう！」*1等をご参照ください。\nまずは HKT, Functor, Monad trait を実装します(Applicative は本記事では省略します)。\ntrait HKT {\n    type C;\n    type H<T>: HKT<C = T>;\n}\n\ntrait Functor: HKT {\n    type H<T>: Functor<C = T>;\n    fn fmap<F, B>(self, f: F) -> <Self as Functor>::H<B>\n    where\n        F: FnMut(Self::C) -> B;\n}\n\ntrait Monad: Functor {\n    type H<T>: Monad<C = T>;\n    fn pure<A>(t: A) -> <Self as Monad…",
+          "link": "https://engineers.ffri.jp/entry/2022/12/19/103805",
+          "publishedOn": "2022-12-19T01:38:05.000Z",
+          "wordCount": 1704,
+          "title": "Rust で Monad, Monad Transformer そして Free Monad をエミュレートする",
+          "enclosure": {
+            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/F/FFRI/20210519/20210519142247.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/F/FFRI/20210519/20210519142247.jpg"
+        },
+        {
           "id": "hatenablog://entry/4207112889931455973",
           "author": null,
           "description": "はじめに\n基礎技術研究部リサーチエンジニアの末吉です。\nHTTP リクエストスマグリング(HTTP Request Smuggling: HRS)の CVE 登録数を見ると、最初に発表された 2005 年に大量に登録されて以降は下火傾向で、2018 年までは毎年数件ずつ登録される程度でした*1。\nところが 2019 年から再燃し、今年に至るまで再び大量に登録されだしています。\n上記は CVE の登録数だけを見た傾向ですが、実際 HTTP リクエストスマグリングは 2019 年を境に急激に発展し、今年に至るまで毎年様々な新手法が発表され、注目を浴びています。\nただ、その割には日本語で HTTP リクエストスマグリングを扱った記事は少なく、この名前を聞いたこともないという方もそこそこ多いと思います。\nそこで、この記事では HTTP リクエストスマグリングの基礎から Black Hat USA で発表された最新の研究内容まで一気通貫で解説します。\nHTTP リクエストスマグリングは既に知っているから最新の研究内容だけ知りたいという方は Black Hat USA 2019 の HTTP Desync Attacks まで飛ばしてください。\nなお、HTTP/1.1 のメッセージフォーマットやデータの渡し方などは既知のものとしてここでは説明しません。\nまた、RFC の一部を意訳していますが、正確性は保証しません。必要に応じて原文を参照してください。\nはじめに\n頻出 RFC 用語\nHTTP リクエストスマグリング\nTransfer-Encoding と Content-Length の混在\nRFC の修正\n複数の Content-Length\nRFC の修正\nGET メソッド + Content-Length\nRFC の修正\n文法違反のリクエスト\nRFC の修正\n大きすぎるリクエスト\n…",
@@ -1095,6 +1150,16 @@
       "feedUrl": "https://tech-lab.sios.jp/feed",
       "siteUrl": "https://tech-lab.sios.jp",
       "articles": [
+        {
+          "id": "https://tech-lab.sios.jp/?p=32301",
+          "author": "藤原奈々",
+          "description": "Kubernetesの弱点はデータ管理の大変さにあります。しかし、Grafanaを使えば、安全かつ楽にデータ可視化、分析ができるようになります。 今回、Grafana Labs, Jag Dhillon氏のご協力で、Ku [...]\n【デモンストレーション】Grafanaを使って、Kubernetesデータを可視化しよう first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/32301",
+          "publishedOn": "2022-12-19T04:06:41.000Z",
+          "wordCount": 2353,
+          "title": "【デモンストレーション】Grafanaを使って、Kubernetesデータを可視化しよう",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2022/12/grafana2.png"
+        },
         {
           "id": "https://tech-lab.sios.jp/?p=32190",
           "author": "木村彩子",
@@ -1258,6 +1323,16 @@
       "feedUrl": "https://eset-info.canon-its.jp/RSS.rdf",
       "siteUrl": "https://eset-info.canon-its.jp/",
       "articles": [
+        {
+          "id": "https://eset-info.canon-its.jp/malware_info/news/detail/221219_2.html",
+          "author": null,
+          "description": "日頃は、ESET製品をご利用いただき、誠にありがとうございます。\nここでは、年末年始のマルウェア対策に関する注意事項についてご案内しております。\n\nESET製品の検出エンジン（ウイルス定義データベース）のアップデートについて\n\nESET製品が使用する検出エンジン（ウイルス定義データベース）は休暇期間に関わらず、日々更新されています。\n休暇明けの初回の検出エンジンのアップデートの際は、複数世代分を取得しますので、サイズが普段の数百KBから数MB程度に増加する可能性があります。\n\n※ 検出エンジン（ウイルス定義データベース）のサイズは、お客さまのご利用環境、および、ウイルスの発生状況などにより前後いたします。\n\n休暇明けには、多量のメール受信などの通常とは異なる通信の発生によって、ネットワーク負荷が高まる可能性があります。\n必要に応じて、各クライアント端末が検出エンジンのアップデートを行うタイミングを分散させるなどの事前対策をご検討ください。\n\n参考URL\n\n\n\n\t検出エンジン（ウイルス定義データベース）のサイズと更新頻度について\n\t【 バージョン 8 以降の場合 】一時的にクライアント端末のアップデートタイミングを分散させるには\n\n\n\n長期休暇の前後にやっておきたいこと\n\n長期休暇期間のマルウェア感染や外部からの攻撃は、気が付きにくい傾向にあります。\nマルウェア感染を未然に防ぐため、以下を参考に現在ご利用中の環境のセキュリティレベルについても今一度ご確認いただき、必要に応じて対策をご検討ください。\n同時に、休暇期間中にマルウェア感染が発覚した場合に備えて、対応方法や関係者への連絡方法などについて確認・周知しておくことも大切です。\n\n更に、最近どのようなマルウェアが流行しているか、情報を得ることは重要です。\n\n特に近年急増しているランサムウェアへの対策は必要不可欠です。最近はランサムウェアの感染を狙った、malspamと呼ばれるスパムメールが多く観測されています。また、マルウェア配布に使われるメール文面が洗練されており、一読しただけでは不審なメールであると気づくことが難しくなっています。\nまたマルウェアをダウンロードするトロイの木馬の活動も、10月には活発になっています。 さらに2022年2月以降に活動を再開した Emotet は7月以降活動を停止していましたが、11月になって、メールの配布が行われている状況が確認されています。Emotetは正規のメールへの返信を装う手口を使うことがあり、過去にメールのやり取りをしたことのある、実在相手の氏名、メールアドレス、メールの内容等の一部を流用したメールを送信してきますので、不用意に添付ファイルを開いたり、マクロを有効にしたりすることがないよう注意が必要です。\n\nランサムウェアの被害を最小限にするには、データを定期的にバックアップし、メールやインターネットを利用する端末のネットワークからバックアップデータを遮断しておくことを推奨します。\n\nランサムウェアの中には情報を盗み出し、それを公開すると脅迫して身代金を要求するものもあります。重要な情報の保管の際にはアクセス権の適切な設定、および暗号化などの対策を検討してください。また、外部からリモートで接続する際の認証強化も重要です。\n\nマルウェアの侵入経路として、ネットワーク製品等の脆弱性を悪用する事例が増加しています。またオープンソースで広く使われているコンポーネントに脆弱性が見つかることもあります。 IPA（情報処理推進機構）やJP-CERT/CC 等の脆弱性関連情報を参照し、ファームウェアを修正済みのものに更新する等、必要な処置を講じてください。\n\nまた IoTデバイス（防犯カメラやルーターなど）を踏み台にした大規模な DDoS攻撃に利用されないように機器を設定することも重要です。ルーターなどの管理画面へのログイン設定を、工場出荷時の設定から変更することを推奨します。\n\n参考URL\n\n\n\n\t激増するランサムウェアの傾向と対策\n\t「Avaddon」ランサムウェアの解析レポートを公開 ～数多くの攻撃バリエーションを持ち進化する実態を確認～\n\t「Emotet（エモテット）」と呼ばれるウイルスへの感染を狙うメールについて\n\t2022年10月 マルウェアレポート\n\tJPCERT マルウェアEmotetの感染再拡大に関する注意喚起\n\tJVN 脆弱性レポート\n\n\n\n長期休暇前にやっておくべきこと\n\n\n システム管理者向け\n\n\n①セキュリティインシデント（事故）発生時の緊急連絡体制が明確になっているか確認する\n\n②ご利用中のOSやソフトウェア（サーバーを含む）にセキュリティホールがないか確認する\n\n\n\n\tOSやソフトウェアに最新のセキュリティ更新プログラムが適用されていることを確認する\n\t各クライアントPC利用者に向けて最新のセキュリティ更新プログラムの適用を呼び掛ける\n\n \n\n\n＜確認が必要なものの代表例＞\n\n\n・Oracle Java\n・Microsoft Office\n・Adobe Acrobat/Reader\n・OS X\n\n\n\n・Microsoft Windows / Windows Server\n・Internet Explorer\n・Adobe Flash Player\n・Linux\n\n\n \n \n\n③各PCのESET製品に最新の検出エンジン（ウイルス定義データベース）が適用されていることを確認する\n\n④OSやWebサービスに設定しているパスワードが、私用のパスワードを使いまわしたものでないこと、強度が適切であることを確認する\n\n■不適切なパスワード例\n\n\n\t\n\t\t\n\t\t\tパスワード例\n\t\t\t使用を避けるべき理由\n\t\t\n\t\t\n\t\t\t123456, qwerty, password\n\t\t\t使用頻度が高く、容易に推測できるため\n\t\t\n\t\t\n\t\t\tAlice, Bob, 19800101\n\t\t\t個人情報から推測できるため\n\t\t\n\t\t\n\t\t\t9671, odtg, QRFV\n\t\t\t文字種と桁数が少なく、総当たり攻撃に対して弱いため\n\t\t\n\t\t\n\t\t\tcomputer, permission\n\t\t\t辞書を用いる攻撃に対して弱いため\n\t\t\n\t\n\n\n⑤重要なデータのバックアップをおこなう\n\n⑥不要なサービスは無効にし、各種サービスへのアクセス権限は必要最低限に抑え、休暇中に使用しないPCの電源を切る\n\n⑦ルーターや監視カメラなどの機器管理画面へのログイン設定を、工場出荷時の設定から変更する\n\n⑧VPNや認証系システムにセキュリティ修正パッチがあるかを確認し、適用する。休暇前日に作業を行うのではなく、あらかじめ余裕を確保しておくこと\n\n\n\n\n\n クライアントPC利用者向け\n\n\n①セキュリティインシデント（事故）発生時の連絡先を確認する\n\n②OSやWebサービスに設定しているパスワードが、私用のパスワードを使いまわしたものでないこと、強度が適切であることを確認する\n\n■不適切なパスワード例\n\n\n\t\n\t\t\n\t\t\tパスワード例\n\t\t\t使用を避けるべき理由\n\t\t\n\t\t\n\t\t\t123456, qwerty, password\n\t\t\t使用頻度が高く、容易に推測できるため\n\t\t\n\t\t\n\t\t\tAlice, Bob, 19800101\n\t\t\t個人情報から推測できるため\n\t\t\n\t\t\n\t\t\t9671, odtg, QRFV\n\t\t\t文字種と桁数が少なく、総当たり攻撃に対して弱いため\n\t\t\n\t\t\n\t\t\tcomputer, permission\n\t\t\t辞書を用いる攻撃に対して弱いため\n\t\t\n\t\n\n \n\n③重要なデータのバックアップをおこなう\n\n④休暇中に使用しないPCの電源を切る\n\n⑤自宅Wi-Fiルーターのファームウェア更新を確認し、必要であれば適用する\n\n⑥業務で使用しているPCやスマートフォンを持ち出す際には、所属組織のルールを十分に確認し、それに従って利用する。\n\n⑦スマートフォンの盗難や紛失に備え、暗号化やパスワード設定をおこなう。必要に応じてESET Mobile Security for Androidなどの「リモートワイプ機能」を設定し、リモートでデータを消去できるよう準備しておく。\n＜ESET Mobile Security for Androidにおける、リモートワイプの手順＞\n　リモートワイプを利用するには、SMS経由でコマンドを送信します。\n　下記のコマンドを本文に入力し、対象のスマートフォンにSMSを送ります。\n　eset wipe (password)\n\n※(password)の部分には、ESET Mobile Security for Androidで設定したパスワードを入力します。\n\n\n\n\n長期休暇明けにやるべきこと\n\n\n システム管理者向け\n\n\n①各PCのESET製品の検出エンジン（ウイルス定義データベース）を最新に更新する\n\n②ご利用中のOSやソフトウェアについて、新しいセキュリティ更新プログラムが公開されていないか確認する\n\n\n＜新しいセキュリティ更新プログラムが公開されている場合＞\n\n\n\t最新のセキュリティ更新プログラムを適用する\n\t各クライアントPC利用者に向けて最新のセキュリティ更新プログラムの適用を呼び掛ける\n\tなお、2023年1月11日にマイクロソフト社によるセキュリティプログラムの公開が予定されていますので、ご注意ください。\n\n\n\n③社内におけるウイルス感染の有無を確認する\n\n\n\n\tESET Security Management CenterでクライアントPCを管理している場合は、「脅威」セクションを確認する\n\t電子メールなどによる通知機能を利用している場合は、休暇期間中のメールを確認する\n\n\n\n④アクセスログを確認する（監査ログを取得している場合）\n\n\n\n\t不正アクセスがないか確認する\n\n\n\n⑤休暇期間中のセキュリティに関するニュースを確認する\n\n\n\n\t注意喚起が必要か確認する\n\n\n\n\n\n\n\n クライアントPC利用者向け\n\n\n①各PCのESET製品の検出エンジン（ウイルス定義データベース）を最新に更新する。溜まったメールの受信前に行うのが効果的\n\n②新しいセキュリティ更新プログラムが公開されている場合は、最新のセキュリティ更新プログラムを適用する\n\n③休暇期間中に社外に持ち出したPCを社内ネットワークに接続する際や、社外で作成したデータを取り込む際は、事前にウイルスチェックを行う\n\n④休暇期間中に受信したメールには細心の注意を払い、不審なメールに添付されているファイルを実行したり、本文中のリンク先にアクセスしたりしない\n\n\n\n【参考情報】\n\nIPA\n年末年始における情報セキュリティに関する注意喚起\n長期休暇における情報セキュリティ対策",
+          "link": "https://eset-info.canon-its.jp/malware_info/news/detail/221219_2.html",
+          "publishedOn": "2022-12-18T15:00:00.000Z",
+          "wordCount": 321,
+          "title": "年末年始のマルウェア対策に関する注意事項について",
+          "imageUrl": "https://eset-info.canon-its.jp/files/user/images/common/sns_thumb.jpg"
+        },
         {
           "id": "https://eset-info.canon-its.jp/malware_info/term/detail/00184.html",
           "author": null,
@@ -1532,6 +1607,17 @@
           "imageUrl": null
         },
         {
+          "id": "https://www.nic.ad.jp/ja/ip/transfer/ipv4-log.html",
+          "author": null,
+          "description": "",
+          "link": "https://www.nic.ad.jp/ja/ip/transfer/ipv4-log.html",
+          "publishedOn": "2022-12-15T05:18:52.000Z",
+          "wordCount": null,
+          "title": "[Web更新]IPv4アドレス移転履歴を更新　2022年12月13日現在のデータを追加",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nic.ad.jp/ja/topics/2022/20221215-01.html",
           "author": null,
           "description": "",
@@ -1594,6 +1680,17 @@
           "publishedOn": "2022-12-12T06:00:35.000Z",
           "wordCount": null,
           "title": "[Blog記事]インターネットガバナンスフォーラム(IGF)2022速報",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nic.ad.jp/ja/ip/transfer/ipv4-log.html",
+          "author": null,
+          "description": "",
+          "link": "https://www.nic.ad.jp/ja/ip/transfer/ipv4-log.html",
+          "publishedOn": "2022-12-12T05:18:52.000Z",
+          "wordCount": null,
+          "title": "[Web更新]IPv4アドレス移転履歴を更新　2022年12月12日現在のデータを追加",
           "itunes": {},
           "imageUrl": null
         },
@@ -2141,6 +2238,36 @@
       "feedUrl": "https://jvn.jp/rss/jvn.rdf",
       "siteUrl": "https://jvn.jp/",
       "articles": [
+        {
+          "id": "https://jvn.jp/jp/JVN13075438/",
+          "author": "jvn@jvn.jp",
+          "description": "コーレルが提供する Roxio SAIB サービスによって登録される Windows サービスでは、登録される実行ファイルのパスが引用符で囲まれていません。",
+          "link": "https://jvn.jp/jp/JVN13075438/",
+          "publishedOn": "2022-12-19T04:30:00.000Z",
+          "wordCount": 248,
+          "title": "コーレル製 Roxio SAIB サービスによって登録される Windows サービスの実行ファイルパスが引用符で囲まれていない脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU92689335/",
+          "author": "jvn@jvn.jp",
+          "description": "オムロン株式会社が提供するCX-Driveには、解放済みメモリ使用（use-after-free）の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU92689335/",
+          "publishedOn": "2022-12-19T04:00:00.000Z",
+          "wordCount": 119,
+          "title": "オムロン製CX-Driveにおける解放済みメモリ使用（use-after-free）の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/jp/JVN06093462/",
+          "author": "jvn@jvn.jp",
+          "description": "Zenphoto には、クロスサイトスクリプティングの脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN06093462/",
+          "publishedOn": "2022-12-19T03:00:15.000Z",
+          "wordCount": 179,
+          "title": "Zenphoto におけるクロスサイトスクリプティングの脆弱性",
+          "imageUrl": null
+        },
         {
           "id": "https://jvn.jp/vu/JVNVU92550485/",
           "author": "jvn@jvn.jp",
@@ -2733,6 +2860,16 @@
       "siteUrl": "https://security.srad.jp/",
       "articles": [
         {
+          "id": "https://security.srad.jp/story/22/12/18/1448212/",
+          "author": "nagazou",
+          "description": "headless 曰く、Microsoft がオンラインサービスのライセンス条項を静かに改訂し、同社の承認を得ない暗号通貨のマイニングを禁じている\n(製品条項、\nThe Register の記事、\nWindows Central の記事、\nAzure Solution Area の記事)。\n\n変更されたのは 12 月 1 日で、日本語版では「利用規定」に「マイクロソフトの書面による事前の承認なく暗号通貨マイニングを行うこと。」という項目が追加されている。Microsoft は「変更事項の概要」で変更点として記載する以上の発表を行う様子がなかったが、14 日になって Partner Community サイトの Azure Solution Area の記事で暗号通貨マイニングを行う場合は事前に書面での承認を得ることを推奨している。\n\nMicrosoft は The Register に対し、暗号通貨マイニングはオンラインサービス障害の原因となることもあり、リソースへの不正アクセスなどサイバー攻撃と結び付けられることも多いため、顧客を守るために改訂を行ったと説明したとのことだ。\n すべて読む | セキュリティセクション | セキュリティ | マイクロソフト | クラウド | 暗号 | お金 |     \n  関連ストーリー： \nロシアが禁輸制裁を暗号通貨で回避する可能性。ウクライナは規制を求める 2022年03月02日 \n中国で暗号資産が全面禁止に。マイニングも決済も相場情報提供も全てNG 2021年09月27日 \nGoogle Playで暗号通貨採掘アプリが禁止される 2018年07月29日 \nNVIDIA、GeForce搭載サーバーを提供するさくらインターネットに対し提供を止めるよう通知 2017年12月21日 \n中国、ビットコイン取引所についても規制へ 2017年09月12日",
+          "link": "https://security.srad.jp/story/22/12/18/1448212/",
+          "publishedOn": "2022-12-19T08:02:00.000Z",
+          "wordCount": 1994,
+          "title": "Microsoft、オンラインサービスで同社の承認を得ない暗号通貨マイニングを禁止",
+          "imageUrl": "https://srad.jp/static/topics/microsoft_64.png"
+        },
+        {
           "id": "https://security.srad.jp/story/22/12/18/0130240/",
           "author": "headless",
           "description": "Microsoft は 16 日、来年 2 月 14 日に予定している Internet Explorer 11 (IE11) 完全無効化の詳細を発表した\n(Windows message center、\nWindows IT Pro Blog の記事)。\n\n以前の発表では 2 月の月例更新プログラム (B リリース) で IE11 を完全無効化する計画だったが、Microsoft Edge アップデートを通じた完全無効化に変更された。これに伴い、1 月 17 日に予定されていたオプションの更新プログラム (C リリース) での一足早い IE11 完全無効化はとりやめとなった。\n\nIE11 のサポートは 6 月に終了しており、現在は IE11 から Microsoft Edge へのリダイレクトを順次増加させている段階だ。まだリダイレクトされていないデバイスに関しては、2 月 14 日以降の Microsoft Edge アップデートが適用された段階でリダイレクトが行われるようになる。そのため、IE11 を必要とする組織は 2 月 14 日までに IE モードによる Microsoft Edge への移行を済ませなければ業務に支障が出る可能性もある。\n すべて読む | セキュリティセクション | アップグレード | セキュリティ | インターネットエクスプローラ | インターネット |     \n  関連ストーリー： \nIE11、2 月の月例更新で完全無効化 2022年11月02日 \nMicrosoft、再び IE11 の早期無効化を推奨 2022年09月19日 \nMicrosoft、IEとEdgeHTMLのTLS 1.0/1.1デフォルト無効化をついに実施へ 2022年08月18日 \nWindows 11 で (IEモードでない) IEを起動する方法が見つかる 2022年08月06日 \nIE11サポートが16日に終了。対応改修の問い合わせがソフト開発会社に殺到中 2022年06月15日 \nMicrosoft、IE11 の早期無効化を推奨 2022年04月30日 \nIE11利用環境でWindows 11へのアップグレード後に発生する問題、発表時点で解決していた 2022年04月08日 \nIE11 を利用する Windows 10、Windows 11 アップグレードのブロック対象に 2022年04月03日 \nMicrosoft、IE11 退役を前に IE モードを強化 2022年04月02日 \nInternet Explorer、まだ使ってる？ 2021年08月21日 \nWindows 10 Insider PreviewでIE11が無効化される 2021年05月22日 \nMicrosoft、Internet Explorer 11のサポート終了時期を発表 2021年05月21日",
@@ -2989,6 +3126,96 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2022/12/19/48659.html",
+          "author": null,
+          "description": "例えばクレジットカードの情報が漏れるとか、個人情報が漏れるって言う話だと思うんですけれど、何らかの仕組みで個人情報も使い捨てできるようになるといいんじゃないか、と。",
+          "link": "https://scan.netsecurity.ne.jp/article/2022/12/19/48659.html",
+          "publishedOn": "2022-12-18T23:10:02.000Z",
+          "wordCount": 711,
+          "title": "2021年SFプロトタイピングの旅 第13回「想定外を想定する仕事」",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40047.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2022/12/19/48658.html",
+          "author": null,
+          "description": "衣料品を取り扱う株式会社チンクエクラシコは12月13日、同社が運営する「Cinq essentiel」への不正アクセスによるカード情報漏えいについて発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2022/12/19/48658.html",
+          "publishedOn": "2022-12-18T23:05:03.000Z",
+          "wordCount": 698,
+          "title": "ファッション取り扱い「Cinq essentiel」に不正アクセス、3年分の決済情報漏えい",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40056.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2022/12/19/48657.html",
+          "author": null,
+          "description": "株式会社バッファローは12月14日、同社NASのOneDrive連携機能の不具合について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2022/12/19/48657.html",
+          "publishedOn": "2022-12-18T23:00:23.000Z",
+          "wordCount": 692,
+          "title": "バッファロー製NASのOneDrive連携機能に不具合、フォルダ名の変更 移動でファイル消失",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2022/12/19/48656.html",
+          "author": null,
+          "description": "マイクロソフトは、2022年12月のセキュリティ更新プログラム（月例）について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2022/12/19/48656.html",
+          "publishedOn": "2022-12-18T23:00:20.000Z",
+          "wordCount": 690,
+          "title": "マイクロソフトが2022年12月の月例パッチ情報を公開、早急な適用を",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2022/12/19/48655.html",
+          "author": null,
+          "description": "IPAおよびJPCERT/CCは、Citrix ADCおよびCitrix Gatewayの脆弱性について注意喚起を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2022/12/19/48655.html",
+          "publishedOn": "2022-12-18T23:00:16.000Z",
+          "wordCount": 736,
+          "title": "Citrix ADCおよびCitrix Gatewayにリモートコード実行の脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2022/12/19/48654.html",
+          "author": null,
+          "description": "NRIセキュアテクノロジーズ株式会社は12月13日、日本、アメリカ、オーストラリア3か国での「企業における情報セキュリティ実態調査2022­」の結果を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2022/12/19/48654.html",
+          "publishedOn": "2022-12-18T23:00:13.000Z",
+          "wordCount": 708,
+          "title": "日本の人材不足 10年進歩なし ～ NRIセキュア「情報セキュリティ実態調査2022­」",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40065.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2022/12/19/48653.html",
+          "author": null,
+          "description": "LogStareは、12月8日に開催されたオンラインイベント「Microsoft 365もっと活用セミナー 」のレポートを公開した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2022/12/19/48653.html",
+          "publishedOn": "2022-12-18T23:00:10.000Z",
+          "wordCount": 710,
+          "title": "「Microsoft 365はセキュリティリスクの高い使い方が簡単にできる」～ LogStareセミナーレポート",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40054.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2022/12/19/48652.html",
+          "author": null,
+          "description": "バルテス株式会社は12月13日、同社採用サイトから応募し入社した社員に入社祝い金として100万円をプレゼントする採用キャンペーンを同日から開始すると発表した。同社では、Webサイトの脆弱性診断やクラウド型WAFサービスの提供などを行っている。",
+          "link": "https://scan.netsecurity.ne.jp/article/2022/12/19/48652.html",
+          "publishedOn": "2022-12-18T23:00:07.000Z",
+          "wordCount": 690,
+          "title": "ソフトウェアテスト会社、入社時年収900万円超エンジニアに壱百万円の祝い金",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2022/12/19/48651.html",
+          "author": null,
+          "description": "タニウム合同会社は12月12日、OpenSSL v3を含むオープンソースソフトウェアに起因する外部脅威からデジタル資産を保護するための「Tanium Software Bill of Materials（Tanium SBOM）」のリリースを発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2022/12/19/48651.html",
+          "publishedOn": "2022-12-18T23:00:04.000Z",
+          "wordCount": 719,
+          "title": "Tanium SBOM、ソフトウェアサプライチェーンの脆弱性検出と修正",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2022/12/16/48650.html",
           "author": null,
@@ -4157,6 +4384,16 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2212/19/news048.html",
+          "author": null,
+          "description": "イスラエルのBen-Gurion University of the Negevに所属する研究者は、ネットに接続していないコンピュータ（エアギャップPC）を離れた場所から無線でハッキングするサイバー攻撃を提案した研究報告を発表した。",
+          "link": "https://www.itmedia.co.jp/news/articles/2212/19/news048.html",
+          "publishedOn": "2022-12-18T23:00:00.000Z",
+          "wordCount": 2682,
+          "title": "ネット接続していないPCをスマホでハッキング　壁越しでも2m離れた場所から無線で攻撃",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2212/19/cover_news048.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2212/16/news177.html",
           "author": null,
           "description": "Android版LINEアプリで提供している「Keep機能」に脆弱性が見つかった。特定の条件を満たすと、Android端末を譲渡した場合に、LINEアカウントをログアウトしても、別アカウントでログインすれば過去のデータを閲覧できる状態になっていた。",
@@ -4513,6 +4750,66 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/ranking/1464664.html",
+          "author": null,
+          "description": "前週に閲覧数の多かった記事を、カテゴリーごとに上位5位までレポートします。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/ranking/1464664.html",
+          "publishedOn": "2022-12-19T02:50:00.000Z",
+          "wordCount": 4345,
+          "title": "有名企業が実際に利用しているテンプレートを提供、Notionの「ニューイヤーキャンペーン 2023」に関する記事に注目集まる【アクセスランキング】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1464/664/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1464683.html",
+          "author": null,
+          "description": "クラシックなMac用ソフトをオンラインで体験できるエミュレーターを提供している「Infinite Mac」が、新たに「漢字Talk 7」を体験できるページをオープンした。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1464683.html",
+          "publishedOn": "2022-12-19T02:30:00.000Z",
+          "wordCount": 4331,
+          "title": "クラシックなMac OSをオンラインで体験できるサイト、新たに「漢字Talk 7」のページを開設【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1464/683/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1464681.html",
+          "author": null,
+          "description": "ブラウザーベンダー3社が協力し合い、共通のベンチマークアプリを開発中であることがこのたび明らかになった。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1464681.html",
+          "publishedOn": "2022-12-19T02:25:00.000Z",
+          "wordCount": 4321,
+          "title": "Appleの取り組みにGoogleとMozillaが協力。3社による統一ベンチマークアプリ開発中【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1464/681/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/curation/1464203.html",
+          "author": null,
+          "description": "グーグルが昨年と比べて急上昇した検索キーワードのランキングを発表している（Markezine）。調査期間は2022年1月1日から11月24日まで。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/curation/1464203.html",
+          "publishedOn": "2022-12-18T22:00:00.000Z",
+          "wordCount": 4347,
+          "title": "アマゾンの「バーコード廃止」に向けた取り組み ほか【中島由弘の「いま知っておくべき5つのニュース」2022/12/8～12/15】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1464/203/shutterstock_1019006956_main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/teleworkstory/1463566.html",
+          "author": null,
+          "description": "先日のブラックフライデーで67%オフと、超特価で販売されていた｢Echo Show 5｣。「アレクサ」と呼び掛けて利用するスマートスピーカーにディスプレイが付いたような端末で、カメラを内蔵していることから、ビデオ通話にも利用できる。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/teleworkstory/1463566.html",
+          "publishedOn": "2022-12-18T22:00:00.000Z",
+          "wordCount": 4506,
+          "title": "「スケジュール管理やビデオ会議にも!? Amazonセールで手に入れたEcho Show 5をテレワークで使い倒す」――急遽テレワークを導入した中小企業の顛末記（124）【急遽テレワーク導入！の顛末記】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1463/566/01.JPG"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/shimizu/1462684.html",
+          "author": null,
+          "description": "TP-Linkから、「スペシャル」なWi-Fi 6ルーター「Archer AX80」が登場した。これまでの同社のモデルとは、見た目も中身もひと味違う日本向けの特別仕様。縦置きも、アンテナ内蔵も、IPv6 IPoEも、セキュリティ機能も、VPNサーバーも、USBストレージ共有も、日本のユーザーが求める機能を詰め込んだ製品だ。その実力を検証してみた。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/shimizu/1462684.html",
+          "publishedOn": "2022-12-18T21:00:00.000Z",
+          "wordCount": 4410,
+          "title": "驚きの日本特別仕様！「Wi-Fiルーターに欲しい機能」がてんこ盛りのTP-Link「Archer AX80」【イニシャルB】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1462/684/001.jpg"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/1464535.html",
           "author": null,
@@ -5796,6 +6093,76 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20221219-2540654/",
+          "author": null,
+          "description": "Microsoftは12月15日(米国時間)、Microsoft Security Blogにおいて、クロスプラットフォームの分散型サービス拒否攻撃(DDoS: Distributed Denial of Service attack)ボットネットがMinecraftのプライベートサーバを標的にしているとして、注意を呼び掛けた。",
+          "link": "https://news.mynavi.jp/techplus/article/20221219-2540654/",
+          "publishedOn": "2022-12-19T01:06:34.000Z",
+          "wordCount": 1819,
+          "title": "Minecraftサーバ狙う分散型サービス拒否攻撃(DDoS)ボットネットに注意、Microsoft喚起",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20221219-2540654/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/kikaku/20221219-2537504/",
+          "author": null,
+          "description": "12月12.13日に開催されたクラウドインフラDaysにおいて、IaCを活用したクラウド全体におけるセキュリティ対策についてgrasysの担当者が解説した。",
+          "link": "https://news.mynavi.jp/techplus/kikaku/20221219-2537504/",
+          "publishedOn": "2022-12-19T01:00:00.000Z",
+          "wordCount": 1494,
+          "title": "IaC活用、クラウド全体のセキュリティ対策…クラウドにまつわる課題を解決",
+          "imageUrl": "https://news.mynavi.jp/techplus/kikaku/20221219-2537504/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20221219-2540653/",
+          "author": null,
+          "description": "Mandiantは12月15日(米国時間)、トロイの木馬化されたWindows 10のインストーラがウクライナ政府を標的にしていると伝えた。正規のWindowsインストーラを装ったトロイの木馬化されたISOファイルを悪用し、ウクライナ政府機関をターゲットにしたサプライチェーン攻撃が発見されている。",
+          "link": "https://news.mynavi.jp/techplus/article/20221219-2540653/",
+          "publishedOn": "2022-12-19T00:31:49.000Z",
+          "wordCount": 1612,
+          "title": "トロイの木馬化されたWindows 10のインストーラ、ウクライナ政府狙う",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20221219-2540653/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20221219-2540657/",
+          "author": null,
+          "description": "米国国立標準技術研究所(NIST: National Institute of Standards and Technology)は12月15日(米国時間)、暗号アルゴリズム「SHA-1」を廃止すると伝えた。SHA-1の暗号ハッシュ関数はすでに脆弱と評価されており、米国政府機関での利用廃止が発表されている。",
+          "link": "https://news.mynavi.jp/techplus/article/20221219-2540657/",
+          "publishedOn": "2022-12-18T23:54:17.000Z",
+          "wordCount": 1587,
+          "title": "暗号アルゴリズム「SHA-1」の廃止を発表、NIST",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20221219-2540657/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/kikaku/sateraito_mudfix-2/",
+          "author": null,
+          "description": "メールを起点としたサイバー攻撃の被害は多い。こうした被害を未然に防ぐには、受信したメールが脅威のあるものなのか選別する「人」の意識を強化することが重要である。本稿ではその対策として最適なソリューション「サテライトオフィス・標的型攻撃メール対策訓練機能 for Mudfix」の機能について紹介していこう。",
+          "link": "https://news.mynavi.jp/techplus/kikaku/sateraito_mudfix-2/",
+          "publishedOn": "2022-12-18T23:00:00.000Z",
+          "wordCount": 1550,
+          "title": "巧妙化する標的型攻撃メール──実践的な訓練でセキュリティレベルの向上が図れるメール訓練サービスとは 第2回 まるで本物のメール？効果的な訓練でサイバー攻撃に備える「サテライトオフィス・標的型攻撃メール対策訓練機能 for Mudfix」とは",
+          "imageUrl": "https://news.mynavi.jp/techplus/kikaku/sateraito_mudfix-2/index_images/index.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20221218-2539545/",
+          "author": null,
+          "description": "Checkmarxは12月14日(米国時間)、NuGet、NPM、PyPiエコシステムで重大な異常が発見されたと伝えた。この異常はCheckmarxとIllustriaの共同研究によって発見されたと報告されている。",
+          "link": "https://news.mynavi.jp/techplus/article/20221218-2539545/",
+          "publishedOn": "2022-12-18T10:54:16.000Z",
+          "wordCount": 1620,
+          "title": "14万の悪意のあるパッケージがNuGet・NPM・PyPiに、開発者はリストの確認を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20221218-2539545/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20221218-2539543/",
+          "author": null,
+          "description": "Cisco Talos Intelligence Groupは12月13日(米国時間)、スケーラブル・ベクター・グラフィックス(SVG: Scalable Vector Graphics)画像を悪用いた比較的新しいHTMLスマグリング手法が攻撃者に使われていると伝えた。HTMLスクリプトタグを含むSVG画像をエンコードしたHTML添付のフィッシングメールを発見したと報告されている。",
+          "link": "https://news.mynavi.jp/techplus/article/20221218-2539543/",
+          "publishedOn": "2022-12-18T08:13:31.000Z",
+          "wordCount": 1619,
+          "title": "SVG画像を悪用したHTMLスマグリング攻撃が発見される",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20221218-2539543/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20221218-2539538/",
           "author": null,
