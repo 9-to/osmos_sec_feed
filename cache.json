@@ -290,76 +290,6 @@
           "wordCount": 398,
           "title": "Weekly Report: 三菱電機製MELSEC iQ-RシリーズEthernetインタフェースユニットに不適切な入力確認の脆弱性",
           "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
-        },
-        {
-          "id": "https://www.jpcert.or.jp/wr/2022/wr224701.html#1",
-          "author": null,
-          "description": "TP-Link RE300 V1に実装されているtdpServerには、入力データの処理に問題があります。結果として、第三者によって細工された入力を処理させられるとクラッシュする可能性があります。",
-          "link": "https://www.jpcert.or.jp/wr/2022/wr224701.html#1",
-          "publishedOn": "2022-11-30T00:06:00.000Z",
-          "wordCount": 521,
-          "title": "Weekly Report: TP-Link RE300 V1のtdpServerに入力データの不適切な処理に関する脆弱性",
-          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
-        },
-        {
-          "id": "https://www.jpcert.or.jp/wr/2022/wr224701.html#2",
-          "author": null,
-          "description": "サイボウズ株式会社が提供するサイボウズ リモートサービスには、リソース枯渇に至る脆弱性があります。結果として、当該製品にログイン可能なユーザーが、意図しない操作により対象サーバーのストレージ領域を消費し、サービス運用妨害（DoS）状態を引き起こす可能性があります。",
-          "link": "https://www.jpcert.or.jp/wr/2022/wr224701.html#2",
-          "publishedOn": "2022-11-30T00:06:00.000Z",
-          "wordCount": 521,
-          "title": "Weekly Report: サイボウズ リモートサービスにリソース枯渇に至る脆弱性",
-          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
-        },
-        {
-          "id": "https://www.jpcert.or.jp/wr/2022/wr224701.html#3",
-          "author": null,
-          "description": "baserCMSユーザー会が提供するbaserCMSには、複数のクロスサイトスクリプティングの脆弱性があります。結果として、当該製品の管理画面にアクセスしたユーザーのWebブラウザー上で、任意のスクリプトが実行される可能性があります。",
-          "link": "https://www.jpcert.or.jp/wr/2022/wr224701.html#3",
-          "publishedOn": "2022-11-30T00:06:00.000Z",
-          "wordCount": 521,
-          "title": "Weekly Report: baserCMSに複数のクロスサイトスクリプティングの脆弱性",
-          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
-        },
-        {
-          "id": "https://www.jpcert.or.jp/wr/2022/wr224701.html#4",
-          "author": null,
-          "description": "Typoraには、編集内容に含まれるJavaScriptコードの一部に対して無効化処理が行われない問題があります。結果として、当該製品を使用してファイルを開いたときに、ファイルに含まれているJavaScriptコードが実行される可能性があります。",
-          "link": "https://www.jpcert.or.jp/wr/2022/wr224701.html#4",
-          "publishedOn": "2022-11-30T00:06:00.000Z",
-          "wordCount": 521,
-          "title": "Weekly Report: TyporaにJavaScriptコードの無効化処理が不十分な問題",
-          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
-        },
-        {
-          "id": "https://www.jpcert.or.jp/wr/2022/wr224701.html#5",
-          "author": null,
-          "description": "オムロン株式会社が提供するCX-Programmerには、複数の脆弱性があります。結果として、細工されたCXPファイルをユーザーに開かせることで、情報漏えいが発生したり、任意のコードを実行されたりする可能性があります。",
-          "link": "https://www.jpcert.or.jp/wr/2022/wr224701.html#5",
-          "publishedOn": "2022-11-30T00:06:00.000Z",
-          "wordCount": 521,
-          "title": "Weekly Report: オムロン製CX-Programmerに複数の脆弱性",
-          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
-        },
-        {
-          "id": "https://www.jpcert.or.jp/wr/2022/wr224701.html#6",
-          "author": null,
-          "description": "三菱電機株式会社が提供するGOT2000シリーズのFTPサーバー機能には、不適切な入力確認の脆弱性があります。結果として、FTPクライアントを使用してFTPサーバー（GOT）にアクセス可能な攻撃者が細工したコマンドを送信することで、当該製品がサービス運用妨害（DoS）状態になる可能性があります。",
-          "link": "https://www.jpcert.or.jp/wr/2022/wr224701.html#6",
-          "publishedOn": "2022-11-30T00:06:00.000Z",
-          "wordCount": 521,
-          "title": "Weekly Report: 三菱電機製GOT2000シリーズのFTPサーバ機能に不適切な入力確認の脆弱性",
-          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
-        },
-        {
-          "id": "https://www.jpcert.or.jp/wr/2022/wr224701.html#7",
-          "author": null,
-          "description": "三菱電機株式会社が提供するFAエンジニアリングソフトウェア製品には、複数の脆弱性があります。結果として、遠隔の第三者が当該製品のプロジェクトファイルに関する情報を窃取するなどの可能性があります。",
-          "link": "https://www.jpcert.or.jp/wr/2022/wr224701.html#7",
-          "publishedOn": "2022-11-30T00:06:00.000Z",
-          "wordCount": 521,
-          "title": "Weekly Report: 三菱電機製FAエンジニアリングソフトウェア製品に複数の脆弱性",
-          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
         }
       ]
     },
@@ -406,6 +336,16 @@
           "publishedOn": "2022-12-26T06:20:00.000Z",
           "wordCount": 250,
           "title": "基本情報技術者試験、情報セキュリティマネジメント試験の通年試験に関するお知らせ（サンプル問題セット、リテイクポリシーの公開）（外部リンク）",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ipa.go.jp/security/bec/bec_cases.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "IPAで確認しているビジネスメール詐欺の事例を紹介",
+          "link": "https://www.ipa.go.jp/security/bec/bec_cases.html",
+          "publishedOn": "2022-12-26T06:10:00.000Z",
+          "wordCount": 92,
+          "title": "「ビジネスメール詐欺 事例集」に事例4を追加しました。",
           "imageUrl": null
         },
         {
@@ -646,16 +586,6 @@
           "publishedOn": "2022-12-01T03:30:00.000Z",
           "wordCount": 130,
           "title": "「DX調査2023」回答受付開始のお知らせ",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.ipa.go.jp/ikc/dx-local.html",
-          "author": "情報処理推進機構（IPA）",
-          "description": "",
-          "link": "https://www.ipa.go.jp/ikc/dx-local.html",
-          "publishedOn": "2022-11-30T05:30:00.000Z",
-          "wordCount": 88,
-          "title": "「地域DX推進ラボ」公募を開始しました",
           "imageUrl": null
         }
       ]
@@ -987,16 +917,6 @@
           "wordCount": 3646,
           "title": "Unwrapping Some of the Holiday Season’s Biggest Scams",
           "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2022/11/300x203_Blog_120122.png"
-        },
-        {
-          "id": "https://www.mcafee.com/blogs/?p=162353",
-          "author": "McAfee Labs",
-          "description": "Authored by SangRyol Ryu and Yukihiro Okutomi  McAfee’s Mobile Research team recently analyzed new malware targeting mobile payment users in...\nThe post Fake Security App Found Abuses Japanese Payment System appeared first on McAfee Blog.",
-          "link": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/fake-security-app-found-abuses-japanese-payment-system/",
-          "publishedOn": "2022-11-30T18:41:29.000Z",
-          "wordCount": 2929,
-          "title": "Fake Security App Found Abuses Japanese Payment System",
-          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2022/11/300x203_Blog_FakeSecurityApp.png"
         }
       ]
     },
@@ -1028,6 +948,16 @@
       "feedUrl": "https://gblogs.cisco.com/jp/feed/",
       "siteUrl": "https://gblogs.cisco.com/jp",
       "articles": [
+        {
+          "id": "https://gblogs.cisco.com/jp/?p=44677",
+          "author": "TALOS Japan",
+          "description": "Microsoft 社は、ダウンロードした Office ドキュメントでの VBA マクロ実行のサポートを段階的に廃止しています。Cisco Talos では、Microsoft Excel に悪意のあるコードを導入するために使用される、VBA マクロとは別のベクトルについて調査を行っています。具体的には、悪意のある XLL ファイル（Excel アドイン）を使用するベクトルです。",
+          "link": "https://gblogs.cisco.com/jp/2022/12/talos-xlling-in-excel-malicious-add-ins/",
+          "publishedOn": "2022-12-30T03:38:58.000Z",
+          "wordCount": 1113,
+          "title": "注目の脅威：悪意のある Excel XLL アドインを使用した攻撃が増加中",
+          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/20AS88216_eyecatch-460x230.jpg"
+        },
         {
           "id": "https://gblogs.cisco.com/jp/?p=44671",
           "author": "TALOS Japan",
@@ -1297,66 +1227,6 @@
           "wordCount": 262,
           "title": "描く・共有・保存を簡単に! ホワイトボードのご紹介",
           "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs%3Agblogs/sites/2/%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88%E3%83%9C%E3%83%BC%E3%83%89%E3%81%AE%E8%A1%A8%E7%B4%99-460x230.png"
-        },
-        {
-          "id": "https://gblogs.cisco.com/jp/?p=44014",
-          "author": "TALOS Japan",
-          "description": "InterPlanetary File System（IPFS）は、新たに登場した Web3 テクノロジーです。現在、IPFS が攻撃者に悪用される事例が増えています。Cisco Talos は、IPFS ネットワークを利用した複数の攻撃を確認しています。進行中のこれらの攻撃では、マルウェアペイロードとフィッシングキット インフラストラクチャをホストし、他の攻撃を促進するために IPFS が使用されています。",
-          "link": "https://gblogs.cisco.com/jp/2022/11/talos-ipfs-abuse/",
-          "publishedOn": "2022-11-30T14:33:39.000Z",
-          "wordCount": 697,
-          "title": "注目の脅威：サイバー犯罪者がフィッシング攻撃やマルウェア攻撃に IPFS を採用",
-          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/28AS90181_eyecatch-460x230.jpg"
-        },
-        {
-          "id": "https://gblogs.cisco.com/jp/?p=44009",
-          "author": "TALOS Japan",
-          "description": "サプライチェーン攻撃は、頻度が増すとともに巧妙化しており、組織が直接管理している領域の外までアタックサーフェス（攻撃対象領域）が広がっています。こうした状況を踏まえると、インシデントへの準備と対応については、サプライチェーンのリスク軽減戦略全体の中で検討する必要があります。",
-          "link": "https://gblogs.cisco.com/jp/2022/11/talos-talos-ir-supply-chain-preparedness/",
-          "publishedOn": "2022-11-30T14:11:42.000Z",
-          "wordCount": 360,
-          "title": "取引先に起因するリスク：Talos IR でサプライチェーン攻撃に備える",
-          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/27AS89499_eyecatch-460x230.jpg"
-        },
-        {
-          "id": "https://gblogs.cisco.com/jp/?p=44003",
-          "author": "TALOS Japan",
-          "description": "Emotet は、広く蔓延している有名なバンキング型トロイの木馬です。何年にもわたって進化を続けており、モジュラーボットネットとして成功を収めています。Emotet には、他のさまざまな脅威をドロップする機能が備わっています。",
-          "link": "https://gblogs.cisco.com/jp/2022/11/talos-emotet-coming-in-hot/",
-          "publishedOn": "2022-11-30T13:51:13.000Z",
-          "wordCount": 375,
-          "title": "Emotet 再来",
-          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/26AS87196_eyecatch-460x230.jpg"
-        },
-        {
-          "id": "https://gblogs.cisco.com/jp/?p=43998",
-          "author": "TALOS Japan",
-          "description": "Microsoft 社は本日、月例のセキュリティ更新プログラムをリリースし、62 件の脆弱性についての情報を公開しました。これらの脆弱性のうち、「緊急」に分類されたものは 8 件で、残りは「重要」に分類されています。",
-          "link": "https://gblogs.cisco.com/jp/2022/11/talos-microsoft-patch-tuesday-for-november-2022/",
-          "publishedOn": "2022-11-30T13:40:14.000Z",
-          "wordCount": 365,
-          "title": "Microsoft セキュリティ更新プログラム（月例）：2022 年 11 月に公開された脆弱性と、対応する Snort ルール",
-          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/25AS86425_eyecatch-460x230.jpg"
-        },
-        {
-          "id": "https://gblogs.cisco.com/jp/?p=43923",
-          "author": "門脇 拓弥",
-          "description": "AppDynamics Cloud で新たにビジネストランザクションのインサイトが提供されるようになりました。これによって、 AIOps に裏付けされたアラートを通じてビジネス上の意味(コンテキスト)を可視化し、ビジネスクリティカルな問題を最初に特定、優先順位付け、解決することができます。",
-          "link": "https://gblogs.cisco.com/jp/2022/11/appdynamics-turns-cloud-native-chaos-into-business-context/",
-          "publishedOn": "2022-11-30T07:30:10.000Z",
-          "wordCount": 270,
-          "title": "AppDynamics Cloud で混沌としたクラウドネイティブ環境をビジネス文脈でとらえる",
-          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs%3Agblogs/sites/2/appdynamics-turns-cloud-native-chaos-into-business-context-article-460x230.jpg"
-        },
-        {
-          "id": "https://gblogs.cisco.com/jp/?p=43606",
-          "author": "門脇 拓弥",
-          "description": "ユーザ体験全体を簡単に把握できるソリューションにより、よく使われるコラボレーション アプリケーションについて包括的な可視性を高め、エンドユーザに起きた問題を特定・解決する時間を短縮できます。",
-          "link": "https://gblogs.cisco.com/jp/2022/11/innovations-support-hybrid-workers/",
-          "publishedOn": "2022-11-30T00:00:04.000Z",
-          "wordCount": 349,
-          "title": "今日のハイブリッドワーカーのニーズを満たす最新技術をご紹介",
-          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs%3Agblogs/sites/2/AdobeStock_413854624_small-460x230.jpeg"
         }
       ]
     },
@@ -1394,21 +1264,6 @@
             "length": "0"
           },
           "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/F/FFRI/20221028/20221028142009.png"
-        },
-        {
-          "id": "hatenablog://entry/4207112889913945297",
-          "author": null,
-          "description": "はじめに\nＦＦＲＩセキュリティ ソフトウェアエンジニアの松本です。\nPlugX というバックドアは非常に古くから存在しており、現在でも利用されています。\n今回はその PlugX のローダーの変遷について見ていきます。\nPlugXの概要\nPlugX は標的型攻撃に利用されている Remote Access Tool(以下 RAT と記載)であり、主に政府機関などを狙う標的型攻撃に利用されるツールです。\n機能としては情報収集・窃取、侵入後の PC のコントロールなどがあります。\n2012 年には既に TrendMicro の記事[1]があるほど PlugX は古くから存在します。\nその一方、ここ数か月の間にも TA416 (通称 Mustang Panda[2]) というグループが利用しているという報告[3]が上がっております。\n日本国内では株式会社 JTB が PlugX に感染し情報漏洩したという事例が存在します[5][6]。\nまた、株式会社ジャストシステムのワープロソフトである一太郎の脆弱性を利用し感染を狙う事例もありました[7][9]。\nPlugX ローダーは世代に関わらず以下のような流れで動作しています。\nドロッパーを添付したメール経由などにより、対象組織内部でドロッパーを実行してもらう\nドロッパーが①正規 exe、②マルウェア dll、③バイナリファイルの 3 つを生成する\nドロッパーが①正規 exe を実行する\n②マルウェア dll は①正規 exe が利用する正規 dll を偽装しており、①正規 exe はそのまま②マルウェア dll を読み込む\n②マルウェア dll が③バイナリファイルを読み込む\n③バイナリファイルが子プロセスを生成し、次の段階に移る\n読み込まれるバイナリファイルの内部に暗号化されたコードなどが入っているため、実際にはその複合など更に細かい動…",
-          "link": "https://engineers.ffri.jp/entry/2022/11/30/141346",
-          "publishedOn": "2022-11-30T05:13:46.000Z",
-          "wordCount": 1002,
-          "title": "PlugXローダーの進化",
-          "enclosure": {
-            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/F/FFRI/20200513/20200513102733.jpg",
-            "type": "image/jpeg",
-            "length": "0"
-          },
-          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/F/FFRI/20200513/20200513102733.jpg"
         }
       ]
     },
@@ -1812,16 +1667,6 @@
           "wordCount": 212,
           "title": "ソフトバンクをかたるフィッシングについての注意喚起",
           "imageUrl": "https://eset-info.canon-its.jp/files/user/images/common/sns_thumb.jpg"
-        },
-        {
-          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/221201.html",
-          "author": null,
-          "description": "リモートワークや出張先で社内ネットワークへ安全な接続を確立するために利用されることの多いVPN。しかし、間違った方法で利用することはリスクを孕むことになりかねない。この記事では、スマートフォンの代表格と言える「iPhone」でVPN接続を利用する際の注意すべきポイントを確認する。\n\n\n\n\n\nVPNとは\n\nVPNとは「Virtual Private Network」の略称であり、直訳すれば「仮想専用線」となる。つまり、専用線を仮想的に実現した接続方法のことだ。インターネット上のユーザー間で仮想的なトンネルを構築することで、専用線を構築するのと近い環境を公共のインターネット上で実現する。この場合、通信の際には「カプセル化」と呼ばれる認証・暗号化などを施すことで、データの安全性を担保する。\n\nリモートワーク時の安全性を確保するためとして、セキュアな通信が担保されるVPN環境を利用している企業は少なくない。自社内にVPNサーバーを設置して、社外のパソコンやスマートフォン（以下、スマホ）からでも業務遂行を可能にしている企業も多い。リモートワークや出張先から、iPhoneなどのスマホで社内の共有フォルダ・ファイルを見られるようにしている、などというのはこのパターンだろう。また、最近では、スマホやパソコンで利用できる仮想専用線を提供する、「VPNサービス」も有償・無償を問わず多数存在している。\n\nVPNの接続形態は大きく2つに分けられる。1つ目はLANとLANをつなぐ「LAN間接続VPN」。そして、スマホやパソコンといった端末から特定のLAN、もしくはサービスにつなぐための「リモートアクセスVPN」だ。iPhoneからVPN接続する場合は、後者のリモートアクセスVPNを利用することが多い。\n\niPhoneでVPNを利用するメリットとデメリット\n\n一般的に、マルウェア感染などのセキュリティリスクも低く、堅牢な安全性が謳われるiPhoneだが、通信経路には端末の安全性とは無関係に危険が潜む。そのため、情報漏えいのリスクが存在する内容の送受信時には、安全な通信を担保するためにVPNを利用する。しかし、VPNの利用にあたってもメリット・デメリットが存在する。iPhoneでVPNを利用するメリットとデメリットを以下に挙げる。\n\n１）VPN利用で得られるメリット\n\n・情報漏えいのリスクを低減\nフリーWi-Fiなど、一般的に危険性が高い通信経路とされる公衆無線などを利用する場合、無線の電波を盗聴され、通信しているデータが漏えいする恐れがある。しかし、端末からVPNを用いての暗号化された通信を行うことで、こういったリスクは低減できる。現在でも暗号強度の低いWEPなどを用いて公衆無線サービスを提供しているケースも散見されるため、注意が必要だ。\n\n・オフィス外から社内ネットワークへ接続可能\nセキュリティポリシーなどで、社外から内部ネットワークへのアクセスを禁じているケースは少なくない。VPNを利用することで、社外から社内へセキュアなアクセスが可能となるため、リモートワークなど外部からのアクセスを前提とした業務環境を整備できる。コロナ禍を経て、VPNを利用するケースの多くはこうした理由が多いものと推察される。\n\n・専用線と比較して低コストでの導入が可能\nVPNの浸透に伴い、さまざまなベンダーからVPNサービスが提供されている。有償、無償を問わず、企業などで利用する場合は、信頼性が確保できる有償のサービスを選択することになるだろう。あるいは、自社のネットワークにVPNゲートウェイを設置することで対処する向きもあるだろう。いずれにせよ、一般的に多額の初期費用がかかる専用線を設置することと比較すれば、VPNの利用はコストを抑制しやすい。\n\nまた、付随するメリットとして、VPNを経由することによってIPアドレスが切り替わることで得られるメリットもある。例えば、自らのIPアドレスを秘匿化する、あるいは禁止された通信を回避するための利用も可能だ。特定の国のIPアドレスからアクセスした場合に閲覧できないコンテンツをチェックするために用いるという使い方もある。\n\n２）VPN利用によるデメリット\n\n・接続速度の不安定さ\nVPNを利用する際、同じネットワークにアクセスするユーザーは基本的に同一のVPNゲートウェイを経由することになる。そのため、同時接続ユーザーが多いほど、接続時のレスポンスが低下する懸念がある。VPNサービスの場合、快適な接続状態を確保するためには、ゲートウェイに多くのサーバーを設置して通信をスムーズに処理することが求められる。そうなると、当然ながらサービス提供時の価格に反映されることになる。一般的に言われることだが、「安かろう」がサービス品質に関わることもあるため、サービス選択時には慎重に判断するようにしたい。\n\n・完全な情報漏えい防止にはなり得ない\nVPNサービスを利用してトンネリング接続を行ったとしても、接続先の不備で漏えいが生じる危険性もある。VPNを利用することで確実な安全性が得られるわけではない、という基本に立ち返り、さまざまなリスクに応じたセキュリティ対策の１つとして利用することが肝要だ。\n\nVPN接続で向上する？リモートワーク時のネットワークセキュリティ\n\niPhoneでVPNに接続する手順\n\n実際にiPhoneでVPNに接続する際、どのような手順で設定していくことになるのか。iPhoneでVPNに接続する方法には、大きく２つの方法がある。\n\n１）インターネットVPNを利用する方法\n\nこちらの接続方法がiPhoneでは一般的だ。iPhone標準のVPN接続方法は、VPN業者と契約後、あるいはVPN接続用アカウントを付与された後に行うことになる。まず、iPhoneの[設定]から[一般]、[VPNとデバイス構成]の画面を開き、IKEv2、もしくはL2TPなどのVPN構成を設定することで利用できるようになる。なお、VPNサービスが「専用の接続アプリ」を用意していることがあるが、これも基本的には、同様の手順を踏んでいる。\n\n２）IP-VPNを使う方法\n\n一部のMVNO事業者などが提供しているVPN専用のSIMを利用する方法だ。電話網は大手携帯キャリアのものを利用し、サービス提供事業者のネットワークを経由して社内に接続することになる。この場合、インターネットを経由せずにVPN接続を確立するため、理論上では安全性が高まることになる。この方法では、iPhone標準の「VPNとデバイス構成」を設定する必要はない。iPhoneからは通常のデータ通信を行う感覚でVPN接続が可能だ。\n\nSSL-VPNとは？より安全に外部接続を行うために求められる対策を考える\n\niPhoneでVPNを利用する際に注意すべきセキュリティのポイント\n\niPhoneでVPNを利用する際、セキュリティリスクを加味して注意すべきポイントがある。先述のように、VPNの普及により、さまざまな事業者から有償、無償を問わずサービスが提供されている。しかし、中には危険性が疑われるサービスも存在することは否めない。以下、具体的に３つの注意すべきセキュリティのポイントを挙げていく。\n\n１）VPNサービス、機器が抱える脆弱性\n\nVPNが普及したことで、VPN周辺のサービス、機器は攻撃者から狙われる傾向にある。そのため、VPN周辺の脆弱性を突いたさまざまな攻撃が相次いで確認されている。VPNゲートウェイなど、古いVPN機器を利用することで、ファームウェアがアップデートされないまま稼働しているということもあり得る。\n\n例えば、米国のCISA（Cybersecurity and Infrastructure Security Agency：米国サイバーセキュリティ・社会基盤安全保障庁）、NSA（National Security Agency：アメリカ国家安全保障局）、FBI（Federal Bureau of Investigation：連邦捜査局）の発表によると、ロシアのSVR（対外情報庁）から受けたサイバー攻撃の中に、VPN周辺機器の脆弱性を狙ったものが含まれていたという報告もある。\n\n本来、安全な接続を実現するために利用するVPNが元で攻撃に遭うのであれば、元も子もない。特に自宅のパソコンをVPNサーバーにしているといった場合、アップデートはこまめに確認するよう注意したい。また、iPhoneのOSであるiOSでも、プロトコルの脆弱性などがあった場合に、修正アップデートが提供されるため、速やかに更新することを心がけたい。\n\n２）VPNへの盲信が招くヒューマンエラー\n\nVPNを利用することで、通信の安全性は確実に高まるものの、先述のように完全たる安全性が保証されるわけではない。実際、情報漏えいのインシデントでは内部犯行やミスによるものが大半を占める。VPNの利用がすべてではなく、複合的に対策を講じることが求められる。\n\n例えば、多要素認証をログインに採用していない場合、ログイン情報が漏えいしてしまえば、攻撃者によって本来アクセスされてはならないネットワークやデータにアクセスされる恐れがある。こうした話は一般的なセキュリティリスクにも通ずるものだが、注意しておきたいポイントだ。\n\n３）アクセスデータの悪用、アドウェアの被害\n\n無償で利用できるVPNサービスの場合、費用がかからない代わりに何かしらをユーザーに要求することがある。その代表例がアクセスデータの提供であり、その悪用も想定される。また、利用の対価として広告表示を求めるケースもあるが、後々アドウェアに転じる恐れもある。加えて、そもそもトンネリング、つまり暗号化を施さず、ただデータをある地点からある地点まで流していただけで「VPN」を名乗る悪質なサービスも存在するため、細心の注意が必要だ。\n\n無償のVPNサービスは利用してもよいのか？\n\n以前と比較して、ソフトウェアに対価を支払う習慣はユーザーの間で根付きつつある。しかし、サブスクリプションで複数のサービスを利用する場合、トータルコストが大きくなってしまいかねないため、無償のものを利用したいと考えるのが人の性というものだろう。\n\nしかし、先述のように無償のサービスは無償の対価を要求されることになるケースがほとんどだ。無償のサービスを利用するのであれば、学術研究のために提供されているサービスなどを利用することでセキュリティリスクは低減する。\n\nVPN Gate\n\n筑波大学が主導し、国際的な学術研究のためのプロジェクトとして提供しているVPNサービスがVPN Gateだ。iPhoneやAndroid、Windows、MacなどOSを選ばず利用できる点は大きなメリットだと言えるだろう。\n\nSoftEther VPN\n\nVPN Gateと同じく、筑波大学が実施している別プロジェクトにSoftEther VPNもある。無償のVPNサーバー用ソフトウェアとして提供されており、Windows、Macなどで利用可能だ。また、iPhoneで使用可能なL2TP over IPsecプロトコルも利用できる。\n\nただし、これらのサービスは基本的に無償であるため、サービスの品質は保証されないことに注意が必要だ。一時的に利用する目的でこうしたサービスを利用することも検討の余地があるが、リモートワークなどの業務において、中長期で利用することを想定しているのであれば、接続のための品質や安全性が担保されている有償のサービスを利用した方が安心できるだろう。\n\n堅牢なセキュリティと言われているiPhoneにおいても、「VPNにすれば通信は安全」という状態が確約されるわけではない。しかし、「無線LAN を使用する際、盗聴のリスクが抑えられる」、「社内ネットワークへのアクセス」といった点は、業務においてメリットとなるはずだ。注意すべきポイントを踏まえながら、セキュアにこれらの利便性を享受できるようにしたい。",
-          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/221201.html",
-          "publishedOn": "2022-11-30T15:00:00.000Z",
-          "wordCount": 225,
-          "title": "iPhoneでVPNに接続する？セキュリティで注意すべき3つのポイント",
-          "imageUrl": "https://eset-info.canon-its.jp/files/topics/4083_ext_01_0.jpg"
         }
       ]
     },
@@ -2302,17 +2147,6 @@
           "title": "[トピックス]IPレジストリシステムおよびJPIRRシステム12月のメンテナンスに伴うサービス一時停止のお知らせ",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "https://www.nic.ad.jp/ja/topics/2022/20221130-01.html",
-          "author": null,
-          "description": "",
-          "link": "https://www.nic.ad.jp/ja/topics/2022/20221130-01.html",
-          "publishedOn": "2022-11-30T08:53:14.000Z",
-          "wordCount": null,
-          "title": "[トピックス]日本IGFタスクフォース発足のご案内",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -2320,18 +2154,7 @@
       "title": "JPRS最新情報",
       "feedUrl": "https://jprs.jp/whatsnew/rss/jprs.rdf",
       "siteUrl": "https://jprs.jp/",
-      "articles": [
-        {
-          "id": "https://jprs.jp/whatsnew/",
-          "author": null,
-          "description": "JPドメイン名の登録管理業務とDNSの運用を行っている株式会社日本レジストリサービス(JPRS)による、JPドメイン名サービス総合案内サイトです。",
-          "link": "https://jprs.jp/whatsnew/",
-          "publishedOn": "2022-11-30T00:00:00.000Z",
-          "wordCount": 2512,
-          "title": "Internet Week 2022 ランチタイムセミナーの発表資料を公開しました（L6 DNSの弱点を振り返り、今後の針路について考える ～ランチのおともにDNS～）",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "CISA Alerts",
@@ -2355,6 +2178,16 @@
       "feedUrl": "https://www.cisa.gov/uscert/ncas/current-activity.xml",
       "siteUrl": "https://us-cert.cisa.gov/",
       "articles": [
+        {
+          "id": "18255 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: December 29, 2022\nCISA has added two new vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation. These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise. Note: To view the newly added vulnerabilities in the catalog, click on the arrow in the \"Date Added to Catalog\" column, which will sort by descending dates.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known CVEs that carry significant risk to the federal enterprise. BOD 22-01 requires FCEB agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.\nAlthough BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the Catalog that meet the specified criteria.\nThis product is provided subject to this Notification and this Privacy & Use policy.",
+          "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/12/29/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+          "publishedOn": "2022-12-29T20:39:16.000Z",
+          "wordCount": 1083,
+          "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+          "imageUrl": null
+        },
         {
           "id": "18253 at https://us-cert.cisa.gov",
           "author": "CISA",
@@ -3147,16 +2980,6 @@
           "wordCount": 149,
           "title": "複数のHitachi Energy製品における複数の脆弱性",
           "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU95076777/",
-          "author": "jvn@jvn.jp",
-          "description": "Moxa社が提供するUCシリーズには、不適切な物理アクセス制御の脆弱性が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU95076777/",
-          "publishedOn": "2022-11-30T02:30:00.000Z",
-          "wordCount": 84,
-          "title": "Moxa製UCシリーズにおける不適切な物理アクセス制御の脆弱性",
-          "imageUrl": null
         }
       ]
     },
@@ -3165,6 +2988,16 @@
       "feedUrl": "https://msrc-blog.microsoft.com/feed/",
       "siteUrl": "https://msrc-blog.microsoft.com",
       "articles": [
+        {
+          "id": "https://msrc-blog.microsoft.com/?p=15230",
+          "author": "Lisa Olson",
+          "description": "Today we are updating the way Microsoft Security Update Guide (SUG) represents the Windows Hotpatch feature to make it easier for users to identify the hotpatch and security updates. Hotpatching was introduced a year ago as a new way to install updates on supported Windows Server Azure Edition virtual machines (VMs) without requiring a reboot …\n  Security Update Guide Improvement – Representing Hotpatch Updates Read More »",
+          "link": "https://msrc-blog.microsoft.com/2022/12/29/security-update-guide-improvement-representing-hotpatch-updates/",
+          "publishedOn": "2022-12-29T21:21:27.000Z",
+          "wordCount": 1627,
+          "title": "Security Update Guide Improvement – Representing Hotpatch Updates",
+          "imageUrl": null
+        },
         {
           "id": "https://msrc-blog.microsoft.com/?p=15202",
           "author": "Nic Fillingham",
@@ -3199,6 +3032,16 @@
       "feedUrl": "https://srad.jp/security.rss",
       "siteUrl": "https://security.srad.jp/",
       "articles": [
+        {
+          "id": "https://security.srad.jp/story/22/12/30/0450257/",
+          "author": "headless",
+          "description": "Chaos Computer Club (CCC) がオンラインオークションに出品された米軍の生体識別デバイス 6 台を入手して調査したところ、その 1 台には 2,632 人分の名前や国籍、写真とともに指紋データや虹彩スキャンデータが保存されていたそうだ\n(CCC のブログ記事、\nThe Verge の記事、\nThe New York Times の記事、\nArs Technica の記事)。\n\nCCC が入手したのは 4 台の SEEK II (Secure Electronic Enrollment Kit) と 2 台の HIIDE 5 (Handheld Interagency Identity Detection Equipment)。これらのデバイスはアフガニスタンとイラクで軍人や協力者、テロリスト、指名手配者などを識別するために用いられていたものだ。CCC ではタリバンが HIIDE を入手したという報道を受けて、調査を開始した。\n\n\n2,600 人分以上の生体識別データが格納されていたのは 8 月に調査を率いる CCC の Matthias Marx 氏が eBay で入手した SEEK II で、2012 年半ばにカブールとカンダハールの間で用いられたのが最後だという。データは暗号化されておらず、既知の標準パスワードを入力するだけでアクセス可能なだけでなく、データベースは標準的なものであり、データフォーマットにも変わったところはなく、分析は容易だったそうだ。\n\nこのようなデータがテロリストの手に渡れば現地の協力者などが危険にさらされる。CCC では問題を SEEK II のメーカーや米国防総省、アフガニスタンでの生体識別情報収集に協力したドイツ連邦軍に報告したが、このような情報漏洩を誰も気にしていないとのこと。報告から 2 か月半経過し、CCC ではまた別の生体識別デバイスをオンラインで注文できたといい、Marx 氏はリスクの高いデータを無責任に取り扱うことを批判している。\n すべて読む | セキュリティセクション | 軍事 | セキュリティ | アメリカ合衆国 | 情報漏洩 |     \n  関連ストーリー： \nタリバン、米軍生体認証デバイスを入手か。米英の協力者あぶり出しに悪用される可能性 2021年08月20日 \nB-43熱核爆弾の純正ノーズコーン、ebayに出品される 2020年12月14日 \nWikileaks、40 万ページに及ぶ米軍機密文書を公開 2010年10月27日 \nWikiLeaks、アフガン紛争に関連する大量の米軍機密文書を公開 2010年07月28日 \nWikileaks にイラク民間人へのヘリ攻撃動画をタレ込んだ人物、逮捕される 2010年06月07日 \neBay に出品された中古ハードディスクから米軍機密情報見つかる 2009年05月12日 \nMI6の機密入りデジカメ、eBayで販売される  2008年10月02日 \nヤフオクに米軍のヘリシミュレータ？が出品される 2007年03月09日",
+          "link": "https://security.srad.jp/story/22/12/30/0450257/",
+          "publishedOn": "2022-12-30T05:29:00.000Z",
+          "wordCount": 2199,
+          "title": "eBay に出品された米軍の生体識別デバイス、2,600 人以上のデータが含まれていた",
+          "imageUrl": "https://srad.jp/static/topics/leakage_64.png"
+        },
         {
           "id": "https://security.srad.jp/story/22/12/26/1415228/",
           "author": "nagazou",
@@ -4905,46 +4748,6 @@
           "wordCount": 798,
           "title": "平均３分４６秒 パスワード再設定に「浪費」する所要時間",
           "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/39898.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2022/11/30/48568.html",
-          "author": null,
-          "description": "Twitterの脆弱性で漏洩した540万人分の個人情報が、ハッカーの手で一般公開されたことが分かりました。",
-          "link": "https://scan.netsecurity.ne.jp/article/2022/11/30/48568.html",
-          "publishedOn": "2022-11-29T23:00:13.000Z",
-          "wordCount": 723,
-          "title": "Twitterの脆弱性で漏えいした540万人分の個人情報、ハッカーが一般公開",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/39899.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2022/11/30/48567.html",
-          "author": null,
-          "description": "日本電気株式会社（NEC）は11月25日、日本の大学を詐称する日本語で書かれたばらまき型メールについての解析を、同社セキュリティブログで発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2022/11/30/48567.html",
-          "publishedOn": "2022-11-29T23:00:10.000Z",
-          "wordCount": 735,
-          "title": "日本の大学を詐称する日本語ばらまき型メールの解析結果",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/39881.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2022/11/30/48566.html",
-          "author": null,
-          "description": "CSSCは、「ビルシステムにおけるサイバー・フィジカル・セキュリティ対策カタログ」第1版を公開した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2022/11/30/48566.html",
-          "publishedOn": "2022-11-29T23:00:07.000Z",
-          "wordCount": 712,
-          "title": "CSSC、ビルシステム向けセキュリティ対策カタログ公開 配布は申請認可式",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2022/11/30/48565.html",
-          "author": null,
-          "description": "IPAおよびJPCERT/CCは、baserCMSユーザー会が提供するCMS「baserCMS」の複数の脆弱性について「JVN」で発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2022/11/30/48565.html",
-          "publishedOn": "2022-11-29T23:00:03.000Z",
-          "wordCount": 744,
-          "title": "「baserCMS」に複数のクロスサイトスクリプティングの脆弱性",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
         }
       ]
     },
@@ -5212,26 +5015,6 @@
           "wordCount": 2699,
           "title": "他人のスマホとBluetooth接続するサイバー攻撃　権限変更で端末乗っ取り　中国と米国チームが発表",
           "imageUrl": "https://image.itmedia.co.jp/news/articles/2212/01/cover_news059.jpg"
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2211/30/news159.html",
-          "author": null,
-          "description": "11月初めには大阪の高度救急救命センターがサイバー攻撃を受けて外来診療を一時停止するに至ってしまい話題になった。本記事では、11月の情報セキュリティニュースを振り返る。",
-          "link": "https://www.itmedia.co.jp/news/articles/2211/30/news159.html",
-          "publishedOn": "2022-11-30T07:00:00.000Z",
-          "wordCount": 2606,
-          "title": "救急病院サイバー攻撃、Emotetぶり返し、尼崎事件のその後……11月の情報セキュリティまとめ　影響が大きくなる前に対策を",
-          "imageUrl": "https://image.itmedia.co.jp/news/articles/2211/30/cover_news159.jpg"
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2211/30/news094.html",
-          "author": null,
-          "description": "第三者によるなりすましを防ぐため、パスワードの他に追加認証を求められることも少なくないが、余計な手間が増え、使いこなせない人もいる。新技術「バックグラウンド認証」はこうした煩わしさを解消でき、開発企業は広く普及を目指している。",
-          "link": "https://www.itmedia.co.jp/news/articles/2211/30/news094.html",
-          "publishedOn": "2022-11-30T00:00:00.000Z",
-          "wordCount": 2328,
-          "title": "普段の癖を使う「バックグラウンド認証」　追加認証のわずらわしさ解消に",
-          "imageUrl": "https://image.itmedia.co.jp/news/articles/2211/30/l_JOD6J32P4NPRXMEF7OVSGYJK3Y_1.jpg"
         }
       ]
     },
@@ -7394,6 +7177,56 @@
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
         {
+          "id": "https://news.mynavi.jp/techplus/article/20221230-2550125/",
+          "author": null,
+          "description": "分散型マルチチェーン暗号資産ウォレットを提供するBitKeepは12月28日(現地時間)、12月26日に大規模なサイバー攻撃を受けたと伝えた。このサイバー攻撃によって一部の秘密鍵が漏洩し、資金の不正転送が行われたと報告されている。",
+          "link": "https://news.mynavi.jp/techplus/article/20221230-2550125/",
+          "publishedOn": "2022-12-30T08:06:20.000Z",
+          "wordCount": 1605,
+          "title": "分散型マルチチェーン暗号資産ウォレットのBitKeep、サイバー攻撃で秘密鍵漏洩",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20221230-2550125/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20221230-2550138/",
+          "author": null,
+          "description": "The Hacker Newsは12月28日(現地時間)、Microsoft Officeのマクロ実行ブロックに対抗するための攻撃ベクトルとして新しく「XLLファイル」と「Publisherファイル」の悪用が始まっていると伝えた。",
+          "link": "https://news.mynavi.jp/techplus/article/20221230-2550138/",
+          "publishedOn": "2022-12-30T03:58:15.000Z",
+          "wordCount": 1576,
+          "title": "メールにExcelアドインのXLLファイルやPublisherファイルが付いていたら要注意",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20221230-2550138/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20221230-2549690/",
+          "author": null,
+          "description": "年末年始から正月にかけて、リアルの店舗と同様に、ECサイトでもバーゲンや初売りが行われる。しかし、ここで落ち着いてほしい。オンラインショッピングのユーザーを狙うサイバー犯罪者はこの休暇をチャンスと捉えており、手ぐすねを引いている。彼らの餌食にならないために、どうすべきだろうか。",
+          "link": "https://news.mynavi.jp/techplus/article/20221230-2549690/",
+          "publishedOn": "2022-12-30T00:39:06.000Z",
+          "wordCount": 1600,
+          "title": "ECサイトで購入した商品が正規品かどうかを確認する5つの方法",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20221230-2549690/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20221229-2546755/",
+          "author": null,
+          "description": "Mimecastはこのほど、同社の専門家による2023年のサイバーセキュリティ動向に関する予測を公開した。Memecastの専門家の予測によると、2023年はメールやコラボレーションプラットフォームのビジネス利用がさらに広まり、それに伴って企業におけるサイバー攻撃に対する脆弱性が高まるとともに、より巧妙で高度な攻撃にさらされることになるという。",
+          "link": "https://news.mynavi.jp/techplus/article/20221229-2546755/",
+          "publishedOn": "2022-12-29T11:21:33.000Z",
+          "wordCount": 1561,
+          "title": "2023年のセキュリティ動向、メールを介した攻撃が激化の恐れ",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20221229-2546755/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20221229-2548650/",
+          "author": null,
+          "description": "Kaspersky Labは12月27日(米国時間)、金銭的な動機からサイバー攻撃を実施しているグループ「BlueNoroff」がその手法に改善を加えていると伝えた。同グループは日本語のファイル名を使用していることや、日本の銀行や金融サービス、ベンチャーキャピタルなどを模倣していることから、日本の組織を狙っているといわれている。",
+          "link": "https://news.mynavi.jp/techplus/article/20221229-2548650/",
+          "publishedOn": "2022-12-29T08:21:02.000Z",
+          "wordCount": 1625,
+          "title": "みずほや三菱UFJなど銀行を模倣し、日本市場狙う「BlueNoroff」に注意",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20221229-2548650/ogp_images/ogp.jpg"
+        },
+        {
           "id": "https://news.mynavi.jp/techplus/article/20221227-2546633/",
           "author": null,
           "description": "Microsoftはこのほど、「Zerobot」と呼ばれているボットネットの新機能を発見したと伝えた。Microsoft脅威インテリジェントセンター(MSTIC: Microsoft Threat Intelligence Center)によって改良されたZerobotの亜種が観測されている。Zerobot主にIoTやWebアプリケーションの脆弱性を悪用して拡散するGoベースのボットネット。",
@@ -9022,36 +8855,6 @@
           "wordCount": 1608,
           "title": "OCNを偽るフィッシング確認、注意を",
           "imageUrl": "https://news.mynavi.jp/techplus/article/20221201-2526277/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20221130-2525869/",
-          "author": null,
-          "description": "街中を徘徊して、外から盗聴器を仕掛けられている家を探し当て、家主にそのことを告げるというテレビ番組を見たことはあるだろうか。盗聴器が自宅にあることを告げられた住人はいつも驚くとともに、恐怖に襲われている。",
-          "link": "https://news.mynavi.jp/techplus/article/20221130-2525869/",
-          "publishedOn": "2022-11-30T06:20:48.000Z",
-          "wordCount": 1638,
-          "title": "私たちを狙う4種類のオンラインスパイに注意、その防御策は？",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20221130-2525869/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20221130-2524882/",
-          "author": null,
-          "description": "米連邦通信委員会(FCC: Federal Communications Commission)は11月25日(現地時間)、Huaweiをはじめとする複数の中国企業からの電気通信およびビデオ監視危機の輸入および販売を完全に禁止すると発表した。この新しい規制は電気通信機器を通じた国家安全保障の脅威から国民を保護することを目的としたもの。",
-          "link": "https://news.mynavi.jp/techplus/article/20221130-2524882/",
-          "publishedOn": "2022-11-30T02:43:38.000Z",
-          "wordCount": 1596,
-          "title": "米FCC、Huaweiなど中国企業からの電子機器の輸入を完全に禁止すると発表",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20221130-2524882/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20221130-2524732/",
-          "author": null,
-          "description": "米国土安全保障省サイバーセキュリティ・インフラストラクチャセキュリティ庁(CISA)は11月28日(米国時間)、「Known Exploited Vulnerabilities Catalog」に2個の脆弱性を追加したと伝えた。これら脆弱性はサイバー犯罪者によって積極的に悪用されていることが確認されており注意が必要。",
-          "link": "https://news.mynavi.jp/techplus/article/20221130-2524732/",
-          "publishedOn": "2022-11-30T02:18:31.000Z",
-          "wordCount": 1766,
-          "title": "Google ChromeとOracle Access Managerの緊急脆弱性の悪用を確認、更新を",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20221130-2524732/ogp_images/ogp.jpg"
         }
       ]
     }
