@@ -2,10 +2,694 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-01-04T08:12:11.497Z</updated>
+    <updated>2023-01-05T08:12:28.279Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[スマートフォンのモーションセンサーでイヤースピーカーの音声の振動を読み取る攻撃手法「EarSpy」]]></title>
+        <id>https://security.srad.jp/story/23/01/04/140234/</id>
+        <link href="https://security.srad.jp/story/23/01/04/140234/"/>
+        <updated>2023-01-05T08:03:00.000Z</updated>
+        <summary type="html"><![CDATA[headless 曰く、複数の米大学のメンバーによる研究グループがスマートフォンのモーションセンサーを用い、通話中のイヤースピーカーの振動から通話相手や内容を読み取る手法「EarSpy」の研究成果を発表している
+(論文アブストラクト、
+HackRead の記事、
+Android Police の記事)。
+
+モーションセンサーは権限の明示的な許可を得ることなく利用できるため、さまざまなサイドチャネル攻撃手法の研究が行われている。出力の小さいイヤースピーカーの振動をモーションセンサーで読み取ることは難しいと考えられていたが、最近のステレオスピーカー搭載モデルでは イヤースピーカーを 2 つ目のラウドスピーカーと兼用できるようにしているものもある。実際にイヤースピーカーとして使用する時には出力を抑えることになるが、それでもステレオスピーカーを搭載しないモデルと比べて加速度計で読み取れる情報が多くなっているという。
+
+研究グループでは一般公開されている発話データセットを用い、古典的な機械学習アルゴリズム、新たに開発した畳み込みニューラルネットワークに学習させて性別や話者、発話内容の検出を実行している。使用スマートフォンはいずれもステレオスピーカーを搭載する OnePlus 7T と OnePlus 9 の 2 機種だ。その結果、性別は最高 98.66 %、話者は最高 92.6 % の正確さで認識可能であり、発話内容 (0 ～ 9 の数字を英語で発音したもの) も最高 56.42 % の正確さで認識できたそうだ。Android 12 以降ではモーションセンサーのデータのリフレッシュレートがデフォルトで 200 Hz に制限されており、より高いリフレッシュレートでの読み取りには権限の許可を得る必要がある。しかし、制限された状態でも性別の検出は 90.97 % の正確さが得られたとのことだ。
+ すべて読む | セキュリティセクション | ハードウェア | セキュリティ | YRO | 携帯電話 | プライバシ |     
+  関連ストーリー： 
+Bluetooth を搭載して音声通話を可能にした電話機型おもちゃ、盗聴可能な問題が見つかる 2021年12月28日 
+米国がドイツ首相らに対してスパイ活動疑惑。仏独首脳が米国らに説明を求める 2021年06月03日 
+Chromeがシークレットモードでも個人情報を収集したとして集団訴訟へ。成立すれば5000億円規模の賠償の可能性も 2021年03月17日 
+旧ソ連のスパイグッズが競売にかけられる。現代のロシアでも形を変えて 2021年02月20日 
+ソニー、PS5のボイスチャット録音機能を「盗聴ではない」と説明するも米国の一部州で違法との指摘も 2020年10月20日 
+iPhone 7/7 Plus分解リポート、ヘッドフォンジャックの跡地にあるものは？ 2016年09月19日]]></summary>
+        <author>
+            <name>nagazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[エレコム製電源タップ各種が割引セール中！ Amazon初売り　AC×8とUSB Type-A×5を備えるタワー型電源タップが3199円など]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1468162.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1468162.html"/>
+        <updated>2023-01-05T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Amazon.co.jpでは現在、2023年最初のビッグセール「Amazon 初売り」を開催中だ。その一環として、PC・ゲーミング・周辺機器・カメラのセールが行われており、エレコム製電源タップが割引価格で販売中だ]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ThinkPad X13s BIOSにメモリ破損などにつながる複数の脆弱性]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230105-2554241/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230105-2554241/"/>
+        <updated>2023-01-05T07:57:03.000Z</updated>
+        <summary type="html"><![CDATA[Lenovoは1月3日(現地時間)、ThinkPad X13s BIOSに複数の脆弱性が発見されたとアナウンスした。これら脆弱性を悪用されると、ローカルの攻撃者によってメモリの破損や情報の窃取などが行われる危険性がある。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FortiADCに重要な脆弱性、アップデートを]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230105-2554075/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230105-2554075/"/>
+        <updated>2023-01-05T06:54:39.000Z</updated>
+        <summary type="html"><![CDATA[米国土安全保障省サイバーセキュリティ・インフラストラクチャセキュリティ庁(CISA)は1月4日(米国時間)、フォーティネットのアプリケーションデリバリコントローラ「FortiADC」複数のバージョンに脆弱性が存在すると伝えた。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NEC Atermシリーズなど各社のWi-Fi 6ルーターが特売中！ Amazon初売り情報　「Aterm AM-AX5400HP」が1万7800円など]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1468130.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1468130.html"/>
+        <updated>2023-01-05T06:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Amazon.co.jpでは現在、2023年最初のビッグセール「Amazon 初売り」を開催中だ。その一環として、PC・ゲーミング・周辺機器・カメラのセールが行われており、各社のWi-Fi 6対応ルーターが割引価格で販売中だ。期間は1月7日まで。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ヤマト運輸装う偽の不在通知に注意　「SMSでの不在連絡は行っていない」]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2301/05/news111.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2301/05/news111.html"/>
+        <updated>2023-01-05T06:34:00.000Z</updated>
+        <summary type="html"><![CDATA[ヤマト運輸を装う迷惑メールやSMSなどが出回っているとし、Twitterなどで同社が改めて注意を呼び掛けている。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[開発支援ツール「CircleCI」でセキュリティに問題発生　ユーザーに迅速な対応呼び掛け]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2301/05/news110.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2301/05/news110.html"/>
+        <updated>2023-01-05T06:30:00.000Z</updated>
+        <summary type="html"><![CDATA[米CircleCI社でセキュリティインシデントが発生。同社ツールユーザーのデータが侵害される可能性があるとして、データを守るための予防措置を取るよう呼び掛けた。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[宅食「ナッシュ」に不正アクセス、約6000件の顧客情報流出か　ランサムウェアに感染]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2301/05/news077.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2301/05/news077.html"/>
+        <updated>2023-01-05T06:30:00.000Z</updated>
+        <summary type="html"><![CDATA[ナッシュで約6000件の顧客情報が流出した可能性がある分かった。ランサムウェアにより社内PCの一部に保存されていた情報が暗号化され、一部システムに障害が発生した。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ASUS、Wi-Fi 7対応ルーター「ROG Rapture GT-BE98」「RT-BE96U」を発表　ROG Rapture GT-BE98はクアッドバンド対応で最大25000Mbps]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1468080.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1468080.html"/>
+        <updated>2023-01-05T05:30:00.000Z</updated>
+        <summary type="html"><![CDATA[ASUSはCES 2023開催中の米ラスベガスにおいて1月4日（現地時間）、ゲーミングルーター「ROG Rapture GT-BE98」と、家庭およびビジネス向け「RT-BE96U」の、Wi-Fi 7対応ルーター2製品を発表した。なお、発売時期や日本国内での発売予定は発表されていない。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Web更新]ICANN理事会決議を掲載]]></title>
+        <id>https://www.nic.ad.jp/ja/icann/topics/2023/20230105-01.html</id>
+        <link href="https://www.nic.ad.jp/ja/icann/topics/2023/20230105-01.html"/>
+        <updated>2023-01-05T05:02:40.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Processing環境をシンプルに　Visual Studio Code]]></title>
+        <id>https://tech-lab.sios.jp/?p=32399</id>
+        <link href="https://tech-lab.sios.jp/archives/32399"/>
+        <updated>2023-01-05T04:50:46.000Z</updated>
+        <summary type="html"><![CDATA[どもども！平社員の龍ちゃんです。今回は、Processingという言語についての導入記事となっています。Processingについては、こちらの記事で紹介しています。今回は、開発環境の構築について紹介していきます。 Pr [...]
+Processing環境をシンプルに　Visual Studio Code first appeared on SIOS Tech. Lab.]]></summary>
+        <author>
+            <name>田中龍之介</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[弥生が「スマート証憑管理」サービス提供開始。請求書などのクラウド一元管理で、インボイス制度・電帳法対応へ]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1468115.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1468115.html"/>
+        <updated>2023-01-05T04:35:05.000Z</updated>
+        <summary type="html"><![CDATA[弥生株式会社は1月5日、請求書などの証憑をデジタルデータとしてクラウド上で一元管理できるサービス「スマート証憑管理」の提供を開始したと発表した。インボイス制度と電子帳簿保存法における法令改正への対応と、デジタル化による業務効率化の両方を実現するとしている。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LastPassの情報漏洩報告は不誠実、研究者が問題点を指摘]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230105-2550940/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230105-2550940/"/>
+        <updated>2023-01-05T03:02:57.000Z</updated>
+        <summary type="html"><![CDATA[セキュリティ研究者のWladimir Palant氏はこのほど、顧客情報を漏洩したLastPassが2022年12月22日に公開した声明文「Notice of Recent Security Incident - The LastPass Blog」の内容が不誠実な内容と指摘し、声明文の文章をから問題点を読み解いた。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ruby-git における複数のコードインジェクションの脆弱性]]></title>
+        <id>https://jvn.jp/jp/JVN16765254/</id>
+        <link href="https://jvn.jp/jp/JVN16765254/"/>
+        <updated>2023-01-05T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ruby-git には、複数のコードインジェクションの脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows 7 (ESU)と8.1のサポート終了まで、あと5日]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230105-2554052/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230105-2554052/"/>
+        <updated>2023-01-05T02:09:56.000Z</updated>
+        <summary type="html"><![CDATA[Windows 8.1とWindows 7 (拡張セキュリティアップデート)のサポート終了まであと5日となった。これらWindowsは2023年1月10日までセキュリティアップデートが提供されることになっているが、これが最後のセキュリティアップデートとなる。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[渋谷区のサイトに攻撃　3日からアクセスしづらい状態続く　アノニマスが犯行声明]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2301/05/news067.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2301/05/news067.html"/>
+        <updated>2023-01-05T02:04:00.000Z</updated>
+        <summary type="html"><![CDATA[東京都渋谷区のWebサイトを閲覧しづらい状態が、1月3日から続いている。Anonymousが犯行声明を出している。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「デジタル時代のスキル変革ウェビナー2022」セミナーレポートとQ&Aの公開]]></title>
+        <id>https://www.ipa.go.jp/ikc/seminar/20221011seminarreport-01.html</id>
+        <link href="https://www.ipa.go.jp/ikc/seminar/20221011seminarreport-01.html"/>
+        <updated>2023-01-05T01:30:00.000Z</updated>
+        <summary type="html"><![CDATA[2022年10月11日（火）に「デジタル時代のスキル変革ウェビナー2022　～自律した『学び』が個人と組織の成長を促す～」を開催しました。]]></summary>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OCNを偽装したフィッシング確認、注意を]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230105-2553610/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230105-2553610/"/>
+        <updated>2023-01-05T00:31:23.000Z</updated>
+        <summary type="html"><![CDATA[フィッシング対策協議会(Council of Anti-Phishing Japan)は1月4日、OCNを偽装したフィッシングの報告を受けていると伝えた。メールの件名としては、「【重要】ＯＣＮサービス料金請求のお知らせ」が確認されており注意が必要。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PayPayカードを偽るフィッシング確認、注意を]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230105-2553596/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230105-2553596/"/>
+        <updated>2023-01-04T23:20:16.000Z</updated>
+        <summary type="html"><![CDATA[フィッシング対策協議会(Council of Anti-Phishing Japan)は1月04日、PayPayカードを偽るフィッシングの報告を受けていると伝えた。メールの件名としては、「●●●●年●●月●●日お支払い金額のお知らせ - PayPayカード」が確認されており、注意が必要。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[社内最上階にフィンランド式サウナ！ 記者は「ととのう」ことができたのか？]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/01/05/48725.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/01/05/48725.html"/>
+        <updated>2023-01-04T23:10:03.000Z</updated>
+        <summary type="html"><![CDATA[2022年5月、WithSecureのイベント「Shere 22」のプレスツアーに参加しました。その個人的レポートです。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[交付前マイナンバーカードを紛失、到着後に交付前設定までの存在を確認]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/01/05/48724.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/01/05/48724.html"/>
+        <updated>2023-01-04T23:05:24.000Z</updated>
+        <summary type="html"><![CDATA[大阪府四條畷市は12月19日、交付前マイナンバーカードの紛失について発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[学習支援アプリで生徒80名分の模試結果を誤送信、7月にもID・パスワードの管理不備で個人情報流出]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/01/05/48723.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/01/05/48723.html"/>
+        <updated>2023-01-04T23:05:21.000Z</updated>
+        <summary type="html"><![CDATA[北海道函館市は12月21日、市立函館高等学校における模試結果誤送信による個人情報の漏えいについて発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[佐賀新聞社受託のイベント、応募者1名が別の応募者17人の個人情報閲覧]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/01/05/48722.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/01/05/48722.html"/>
+        <updated>2023-01-04T23:05:17.000Z</updated>
+        <summary type="html"><![CDATA[佐賀県は12月14日、イベント応募者の個人情報を第三者が閲覧できる状態であったと発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[休暇と休日が重なり対応に遅れ ～ 尼崎市職員がセキュリティロック済 公用スマホ紛失]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/01/05/48721.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/01/05/48721.html"/>
+        <updated>2023-01-04T23:05:14.000Z</updated>
+        <summary type="html"><![CDATA[兵庫県尼崎市は12月13日、個人情報を含む公用スマートフォンの紛失について発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[関西テレビ番組制作スタッフがHDD紛失、電車で早朝居眠りの際 盗難被害の可能性]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/01/05/48720.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/01/05/48720.html"/>
+        <updated>2023-01-04T23:05:10.000Z</updated>
+        <summary type="html"><![CDATA[関西テレビ放送株式会社は12月14日、映像記録媒体の紛失について発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[パソコンを外部に持ち出し夜間に紛失、顧客の名刺情報漏えいの可能性]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/01/05/48719.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/01/05/48719.html"/>
+        <updated>2023-01-04T23:05:07.000Z</updated>
+        <summary type="html"><![CDATA[株式会社フジテックスは12月8日、同社パソコンの紛失による個人情報の漏えいについて発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「日経スマートクリップ」のサーバに不正アクセス、利用者の個人情報が流出した可能性]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/01/05/48718.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/01/05/48718.html"/>
+        <updated>2023-01-04T23:05:05.000Z</updated>
+        <summary type="html"><![CDATA[株式会社日本経済新聞社は2022年12月23日、「日経スマートクリップ」サービスのサーバへの不正アクセスについて発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[10大セキュリティ事件でふり返る2022年]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/01/05/48717.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/01/05/48717.html"/>
+        <updated>2023-01-04T23:05:03.000Z</updated>
+        <summary type="html"><![CDATA[Trellixは12月14日、2022年の10大セキュリティ事件ランキングを発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[セキュリティインシデント情報共有の５Ｗ１Ｈ ～ 情報共有と公表のガイダンス案が公開 意見募集も]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/01/05/48716.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/01/05/48716.html"/>
+        <updated>2023-01-04T23:00:04.000Z</updated>
+        <summary type="html"><![CDATA[総務省などは、「サイバー攻撃被害に係る情報の共有・公表ガイダンス（案）」を作成し、意見公募手続（パブリックコメント）を開始した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「モノづくりのすり合わせ」はやっぱりペンで！ ブラザーの作った共有ノートアプリ「BuddyBoard」は何がいいのか？　業務のための共有ノート、「すり合わせ」が多いほど真価を発揮]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1461323.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1461323.html"/>
+        <updated>2023-01-04T22:30:00.000Z</updated>
+        <summary type="html"><![CDATA[「ペンを使うノートアプリ」を使う人も、最近は増えてきた。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How To Recognise An Online Scam]]></title>
+        <id>https://www.mcafee.com/blogs/?p=163020</id>
+        <link href="https://www.mcafee.com/blogs/internet-security/how-to-recognise-an-online-scam/"/>
+        <updated>2023-01-04T19:15:46.000Z</updated>
+        <summary type="html"><![CDATA[It’s been a particularly busy and colourful week, scam-wise in our household. Between 4 family members, we’ve received almost 20...
+The post How To Recognise An Online Scam appeared first on McAfee Blog.]]></summary>
+        <author>
+            <name>Alex Merton-McCann</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fortinet Releases Security Updates for FortiADC]]></title>
+        <id>18257 at https://us-cert.cisa.gov</id>
+        <link href="https://us-cert.cisa.gov/ncas/current-activity/2023/01/04/fortinet-releases-security-updates-fortiadc"/>
+        <updated>2023-01-04T15:35:00.000Z</updated>
+        <summary type="html"><![CDATA[Original release date: January 4, 2023
+Fortinet has released a security advisory to address a vulnerability in multiple versions of FortiADC. This vulnerability may allow a remote attacker “to execute unauthorized code or commands via specifically crafted HTTP requests.”
+CISA encourages users and administrators to review Fortinet security advisory FG-IR-22-061 and apply the recommended updates.
+This product is provided subject to this Notification and this Privacy & Use policy.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iPhoneがハッキングされる？ iOSのセキュリティについて知っておくべきこと]]></title>
+        <id>https://eset-info.canon-its.jp/malware_info/special/detail/230105.html</id>
+        <link href="https://eset-info.canon-its.jp/malware_info/special/detail/230105.html"/>
+        <updated>2023-01-04T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[iPhoneがマルウェアに感染してしまう一般的な手口、感染したことを検知する方法、そして、攻撃者からiPhoneを守る手段について解説する。
+
+
+この記事は、ESET社が運営するマルウェアやセキュリティに関する情報サイト「Welivesecurity」の記事を翻訳したものである。
+
+
+
+
+
+
+はじめに断っておくが、iPhoneやiPadといえども、インターネットに接続して使用しているならばハッキングのリスクは避けられない。確かに、iOSデバイスが安全であるという認識は統計的にも裏付けられている（加えて、アップル社は安全性を高める新しい機能を追加し続けている）ようだが、安全性はデバイスの実際の使用方法に大きく左右される。
+
+本記事では、マルウェアがiPhoneに不正侵入する一般的な手口や、ハッキングされたことを示す兆候、および「反撃する」方法について解説する。
+
+iPhoneはどのようにハッキングされるのか？
+
+サイドロードされたアプリ
+
+iOSに関してよく耳にする不満の1つは、Androidでよく使われる機能に対応するまでに時間を要するという点だ。この問題への対処として、iOSユーザーはアップル社の利用規約に反してスマートフォン（以下、スマホ）をジェイルブレイク（脱獄）することがある。
+
+App Storeによるコンテンツの制限を離れ、サードパーティのアプリストアからアプリやウィジェットをサイドロードできるようになる。サイドロードとは、非公式のアプリストアからアプリを取得する行為であり、Safariやその他のブラウザーを介してWebサイトから直接ダウンロードする場合も含まれる。
+
+サードパーティ ストアのコンテンツへのアクセスを許可することについては、議論の余地がある。しかし今のところ、公式のApp Storeにあるアプリのみが、安全性が確認されている。サードパーティ ストアのコンテンツには明らかにリスクがあるのだ。検証されていないアプリをインストールするということは、デバイスへ無制限のアクセスを与えていることを意味する。
+
+App Storeにある偽アプリ
+
+iOSデバイスからアクセスできるアップル社の公式ストアは、安全なコンテンツを提供しているはずだ。App Storeで公開されているアプリはすべて検証プロセスを通過したものであり、不具合やプライバシーポリシーの問題、サードパーティの広告プロバイダーの認証、そして、ライセンス要件が確認されている。
+
+しかし、これらのプロセスから漏れてしまう悪意のあるアプリも存在する。単純なカレンダースパム、メッセージングアプリを介して送られた悪意のあるリンク、Webサイト閲覧時に表示される強制的な広告などによってApp Storeへ誘導され、偽のアプリをインストールするよう促されるのだ。
+
+公式ストアで提供されているアプリであれば、その信憑性を疑う必要はないだろうか？いいえ、現実には違う。例えば、アップル社のアプリ内購入システムを介して、必要のないもの（そして、機能しないもの）を売りつけようとする怪しいアプリもあるからだ。
+
+
+=======================
+
+Lukas Stefanko
+存在しないウイルスを除去するのに3ヶ月で134.99ユーロ（19,000円相当）を要する、偽のウイルス対策ソフトをApp Storeで見つけた。
+スケアウェア広告を介して配信され、サブスク詐欺につながる。
+調査内容は以下のリンクを参照。
+
+ESET research
+怪しいWebサイトは、カレンダーイベントに登録したiOSユーザーを騙し、App Storeから詐欺のウイルス対策ソフトをダウンロードさせようとしている。
+偽のソフトは100種類以上のウイルスを検出したと主張し、ウイルスの除去費用として3ヶ月あたり134.99ユーロ（19,000円相当）を請求される。
+
+=======================
+
+
+カレンダーイベントへの招待
+
+iPhoneのカレンダーアプリは安全に思えるかもしれないが、実際はiOSでマルウェアが配布されやすいアプリの1つだ。今しがた出会った人から、週の後半に喫茶店で会うための招待状を送ることと同様なことが攻撃者もできるからだ。
+
+悪意ある招待は、漏えいしたメールアドレスや怪しげなWebサイトから意図せず、登録したカレンダーイベントから送られてくる。こうした招待は詐欺が仕掛けられやすいことを覚えておいてほしい。そのため、招待が送られてきたら、カレンダーの登録を外し、見知らぬイベントをクリックしてはならない。そうしないと、さらなるスパムが送られてくるだろう。
+
+
+
+図１：iOS上でユーザーにカレンダーイベントの登録を促す詐欺サイト
+
+
+構成プロファイル
+
+アップル社がiOSデバイスで構成プロファイルを追加できるようにしたのは2010年のことだ。これにより、企業はiPhoneに特定の設定や機能をまとめて適用し、App Storeに公開されていない社内用のアプリをインストールできるようになる。
+
+企業や学校においては、デバイスを適切に運用するために便利なツールであるが、これを悪用する攻撃者も現れた。攻撃者はフィッシング攻撃やソーシャルエンジニアリングによってリンクをクリックさせ、悪意のある構成プロファイルをインストールするよう仕向けるのだ。構成プロファイルをインストールさせることにより、Wi-FiやVPN（Virtual Private Network）設定、アプリの管理、そしてインターネット・トラフィックへ不正にアクセスできるようになる。
+
+この種の脅威によってもたらされるのは、セキュリティやプライバシーのリスクだけにとどまらない。多くのユーザーは構成プロファイル機能を認識していないため、パスワードを悪用したり、銀行の情報を詐取したりする時間を攻撃者に与えてしまう。スパイウェアがインストールされてしまう恐れもあるのだ。
+
+
+
+図２：構成プロファイルを介してインストールされた悪意のある仮想通貨ウォレットアプリ
+
+
+リスクは現実のものとなる
+
+カレンダーにスパムが紛れ込むことは小さなリスクに思えるかもしれないが、誰かに追跡されていると考えると、より深刻に思えるはずだ。これらのハッキングで最も危険なのは、連鎖する可能性がある点だ。最初はわずかなイベントへの招待であっても、サイドロードされたアプリがインストールされ、悪意のある構成プロファイルが追加されるなど次第にエスカレートしていくケースがある。
+
+スマホの保有者が気付くことなく、攻撃者の手に権限が渡るリスクについても留意するべきだ。その攻撃者が暴力的な場合は特に深刻な問題となり得る。遠隔からデバイスにアクセスされるストーカーウェアが、同意なくスマホにインストールされる可能性がある。その後、攻撃者はiCloudに保存された個人情報を標的にしたり、位置情報を追跡したり、写真やメモにアクセスしたりすることができるのだ。
+
+iPhoneがハッキングされたかどうかを知るには？
+
+iPhoneがハッキングされた疑いや、その恐れがある場合、まず確認するべき事項を以下に挙げる。
+
+
+	電池容量：バッテリーは時間が経てば劣化する。デバイスを数ヶ月しか使用していないのに電池の減りが異常に早い場合、バックグラウンドで不審なプログラムが動いている兆候と言える。この可能性を検証するために、どのアプリがバッテリーに影響しており、電池の状態がどうなっているかを確認するべきだ。
+	データ：大量のデータ通信を行っていないにも関わらず、すぐに料金プランの限度に達してしまうのであれば、iPhoneがハッキングされている恐れがある。デバイスに隠されたソフトウェアが情報を転送するためにデータを使い尽くしているのだ。ただし、バックグラウンドで動作するアプリに権限を与えてしまっている可能性も忘れてはならない。
+	おかしな「現象」：ダウンロードした覚えのないアプリがiPhoneに含まれていないだろうか？ あるいは、アプリが重複していないか？ これらはハッキングの兆候と言える。攻撃者はサイドロードされたアプリを介して、これらのコンテンツをインストールさせようとする。テクノロジーに明るいユーザーであっても被害に遭ってしまう恐れがある。
+
+
+
+
+図３：2つのアプリのうち1つは偽物（出典：ESET research）
+
+
+iPhoneから攻撃者を排除する方法
+
+
+	デバイスがジェイルブレイク（脱獄）されていないか確認する：ハッキングされたか、ストーキングされていた場合、スマホが誰かにジェイルブレイクされているのにユーザーが気付いていない場合もある。アップル社ではホーム画面からアプリを削除できるようになったため、検索機能からCydiaやSileoといった脱獄アプリを探してほしい。もし見つかったら、工場出荷状態にデバイスを復元する必要がある。
+	不要なアプリや構成プロファイルを削除する：壁紙や天気予報アプリといった使っていないアプリがあれば、削除するべきだ。安全なアプリであっても、サードパーティにデータを販売したり、追跡したりしている可能性もある。また、企業や学校によってインストールされていない構成プロファイルは削除する。
+	アプリの設定を確認する：設定画面からインストールしたすべてのアプリを確認し、承認している権限を検証する。特に、位置情報を使用する権限を与えているアプリを理解し、位置情報が不要なアプリであれば、その同意を取り下げるべきだ。
+	iPhoneやiPadのコンテンツや設定を初期化する：デバイスを復元する前に写真や文書のバックアップを取ることを忘れないこと。初期化が終われば、マルウェアの心配もなく、Apple IDにログインするだけで使用を再開できる。
+
+
+
+
+
+
+
+
+図４：iPhoneの初期化
+
+
+ハッキングを防ぐには？
+
+誰もがサイバー攻撃の被害に遭う可能性があるが、以下の項目を押さえることで、そうしたリスクを最小限に抑えたい。
+
+
+	iPhoneはジェイルブレイク（脱獄）しない：誘惑に負けないでほしい。優れた機能が出回っているかもしれないが、危険を冒してまで手に入れるほどではない。加えて、脱獄はデバイスの保証を無効にしてしまう。
+	サードパーティ アプリをインストールしない：公式ストアには無数のアプリが公開されている。iPhoneを選ぶなら、あなた自身とあなたのデバイスにとって安全なものにこだわるべきだ。
+	フィッシング詐欺に警戒する：自分だけは詐欺に引っかからないと考えてはならない。誰しもリスクがあるものだ。個人情報を要求してくる詐欺メールや、ログイン情報を詐取しようとするメールには注意を払うべきだ。
+	見知らぬ人、不審な人から送られてくるリンクを開かない：単純なアドバイスであるが、頭痛の種を減らしてくれる。
+	多要素認証を有効化する：スマホが乗っ取られた場合でも、ほかのアカウントを保護してくれる。アカウントを守るステップを追加すると良い。
+	VPN(Virtual Private Network)を使う：公共Wi-Fiネットワークを使っているときは特に、プライバシーやデータ保護を強化するため、VPNを利用する。
+	スマホを最新の状態に保つ：最新のiOS更新を使っていることを確認する。アップル社は定期的に新機能を含めたバージョンを公開しており、特にデバイスを保護するセキュリティパッチが含まれている。
+
+
+最後に、ハッキングされるリスクがどれほど高いか低いかに関わらず、リスクの存在を理解し、いくつかの簡単な対策を実行してほしい。デバイスを脱獄しない、見知らぬリンクはクリックしない、できる限り多要素認証を有効化する。これらの対策は、デバイスやデータの保護に大いに役立つだろう。]]></summary>
+        <author>
+            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazonをかたるフィッシングについての注意喚起]]></title>
+        <id>https://eset-info.canon-its.jp/malware_info/news/detail/230105_4.html</id>
+        <link href="https://eset-info.canon-its.jp/malware_info/news/detail/230105_4.html"/>
+        <updated>2023-01-04T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[2023年1月5日現在、Amazon をかたり QR コードで誘導するフィッシングが確認されております。フィッシングサイト上の入力欄には、絶対に情報を入力しないようにお願いします。
+
+このようなフィッシングサイトにて、ログイン ID (E メールまたは携帯電話番号)、パスワード、国名、氏名、生年月日、郵便番号、都道府県、住所、会社名、電話番号、カード名義人、カード番号、有効期限、セキュリティコード、3-D セキュアの認証情報等を絶対に入力しないよう、ご注意ください。
+
+日頃からサービスへログインする際は、メールや SMS 内のリンクではなく、いつも利用しているスマートフォンの公式アプリやブラウザーのブックマークなどからアクセスするよう、心がけてください。
+
+【メールの件名】
+
+プライムの自動更新設定を解除いたしました
+
+※上記以外の件名も使われている可能性があります。
+
+【サイトのURL】
+
+https://zjg●●●●/jp
+https://cd-●●●●.com/jp
+http://www.amazon-●●●●.biz/
+
+※上記以外のドメイン、URL も使われている可能性があります。
+※URL にパスやパラメータが付いていることがあります。
+
+2023/1/5 13:00時点では、フィッシングサイトは稼働中です。このサイトが停止しても、類似のフィッシングサイトが公開される恐れもありますので注意してください。
+このようなフィッシングサイトは日々新規に作成されています。ESET製品は、新規に作成されるフィッシングサイトにも随時対応していきますが、お客さま自身でも十分にご注意ください。
+
+【参考情報】
+
+AmazonからのEメール、電話、テキストメッセージ、またはウェブページかどうかを見分ける
+
+
+ 
+
+
+■ ESET製品における検出例
+
+
+
+※ESET Internet Security V16.0/ESET Mobile Security V7.0でフィッシング対策機能が有効な場合は、図のような通知が表示されます。
+
+
+■ フィッシングメール／フィッシングサイトへの対応
+
+
+
+	フィッシングの可能性があるメールをむやみに開かない。
+	フィッシングの可能性があるメールの添付ファイルをむやみに開かない。
+	メール文中のリンク先URLがフィッシングサイトである可能性を考え、リンク先URLへむやみにアクセスしない。
+	フィッシングの可能性があるサイトにアカウント情報やクレジットカード情報などを入力しない。
+
+
+
+
+キヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。]]></summary>
+        <author>
+            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PayPayカードをかたるフィッシングについての注意喚起]]></title>
+        <id>https://eset-info.canon-its.jp/malware_info/news/detail/230105_3.html</id>
+        <link href="https://eset-info.canon-its.jp/malware_info/news/detail/230105_3.html"/>
+        <updated>2023-01-04T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[2023年1月4日現在、フィッシングメールから PayPay の正規サイトへ誘導し、送金させる手口が確認されております。フィッシングサイト上の入力欄には、絶対に情報を入力しないようにお願いします。
+
+このようなメールから誘導された場合、PayPay の登録情報 (登録済みの携帯電話番号、パスワード) 等を絶対に入力しないよう、ご注意ください。
+
+日頃からサービスへログインする際は、メールや SMS 内のリンクではなく、いつも利用しているスマートフォンの公式アプリやブラウザーのブックマークなどからアクセスするよう、心がけてください。
+
+【メールの件名】
+
+●●●●年●●月●●日お支払い金額のお知らせ - PayPayカード
+
+※上記以外の件名も使われている可能性があります。
+※「●●●●」部分は変化します。
+
+【サイトのURL】
+
+https://paypay.●●●●.com/
+
+※上記以外のドメイン、URL も使われている可能性があります。
+※URL にパスやパラメータが付いていることがあります。
+
+2023/1/4 15:00時点では、フィッシングサイトは稼働中です。このサイトが停止しても、類似のフィッシングサイトが公開される恐れもありますので注意してください。
+このようなフィッシングサイトは日々新規に作成されています。ESET製品は、新規に作成されるフィッシングサイトにも随時対応していきますが、お客さま自身でも十分にご注意ください。
+
+【参考情報】
+
+フィッシングメールにご注意ください
+
+
+ 
+
+
+■ ESET製品における検出例
+
+
+
+※ESET Internet Security V16.0/ESET Mobile Security V7.0でフィッシング対策機能が有効な場合は、図のような通知が表示されます。
+
+
+■ フィッシングメール／フィッシングサイトへの対応
+
+
+
+	フィッシングの可能性があるメールをむやみに開かない。
+	フィッシングの可能性があるメールの添付ファイルをむやみに開かない。
+	メール文中のリンク先URLがフィッシングサイトである可能性を考え、リンク先URLへむやみにアクセスしない。
+	フィッシングの可能性があるサイトにアカウント情報やクレジットカード情報などを入力しない。
+
+
+
+
+キヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。]]></summary>
+        <author>
+            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OCNをかたるフィッシングについての注意喚起]]></title>
+        <id>https://eset-info.canon-its.jp/malware_info/news/detail/230105_2.html</id>
+        <link href="https://eset-info.canon-its.jp/malware_info/news/detail/230105_2.html"/>
+        <updated>2023-01-04T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[2023年1月4日現在、OCNをかたるフィッシングが確認されております。フィッシングサイト上の入力欄には、絶対に情報を入力しないようにお願いします。
+
+このようなフィッシングサイトにて、OCNメールアドレス(OCN ID)、OCN メールパスワード、PayPay の登録情報 (登録済みの携帯電話番号、パスワード) 等を、絶対に入力しないよう、注意してください。
+
+日頃からサービスへログインする際は、メールや SMS 内のリンクではなく、いつも利用しているスマートフォンの公式アプリやブラウザーのブックマークなどからアクセスするよう、心がけてください。
+
+【メールの件名】
+
+【重要】ＯＣＮサービス料金請求のお知らせ
+
+※上記以外の件名も使われている可能性があります。
+
+【サイトのURL】
+
+https://mypage-ocn-ne.●●●●.com/
+
+※上記以外のドメイン、URL も使われている可能性があります。
+※URL にパスやパラメータが付いていることがあります。
+
+2023/1/4 10:00時点では、フィッシングサイトは稼働中です。このサイトが停止しても、類似のフィッシングサイトが公開される恐れもありますので注意してください。
+このようなフィッシングサイトは日々新規に作成されています。ESET製品は、新規に作成されるフィッシングサイトにも随時対応していきますが、お客さま自身でも十分にご注意ください。
+
+【参考情報】
+
+【重要】OCNを騙る不正なフィッシングサイトにご注意ください
+
+
+ 
+
+
+■ ESET製品における検出例
+
+
+
+※ESET Internet Security V16.0/ESET Mobile Security V7.0でフィッシング対策機能が有効な場合は、図のような通知が表示されます。
+
+
+■ フィッシングメール／フィッシングサイトへの対応
+
+
+
+	フィッシングの可能性があるメールをむやみに開かない。
+	フィッシングの可能性があるメールの添付ファイルをむやみに開かない。
+	メール文中のリンク先URLがフィッシングサイトである可能性を考え、リンク先URLへむやみにアクセスしない。
+	フィッシングの可能性があるサイトにアカウント情報やクレジットカード情報などを入力しない。
+
+
+
+
+キヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。]]></summary>
+        <author>
+            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[米ルイジアナ州、ポルノサイトにユーザーの年齢確認を義務付ける州法が発効]]></title>
+        <id>https://yro.srad.jp/story/23/01/04/0754216/</id>
+        <link href="https://yro.srad.jp/story/23/01/04/0754216/"/>
+        <updated>2023-01-04T10:13:00.000Z</updated>
+        <summary type="html"><![CDATA[米ルイジアナ州で 1 日、ポルノサイトにユーザーの年齢確認を義務付ける州法が発効した
+(HB142、
+Motherboard の記事、
+Ars Techincia の記事、
+The Verge の記事)。
+
+この州法は未成年者に有害なポルノコンテンツが全体の 3 分の 1 以上を占める商用サイトを対象に、公的な身分証明書などを使用した適切な年齢確認プロセスの提供を義務付けるものだ。対象サイトへのアクセスにはユーザーが 18 歳以上であることを証明する必要がある。年齢確認後、対象サイトは個人を特定可能な情報を保持してはならないとの文言も含まれるが、プライバシーやセキュリティの懸念も強い。それでも議会では 3 回の採決で反対票は 1 票のみという、ほぼ全会一致で可決してきた。
+
+年齢確認の実施状況を Motherboard や Ars Technica がルイジアナの VPN サーバーを通じて調べたところ、Pornhub はサードパーティの年齢確認サービス Allpasstrust で認証を開始していることが確認できたという。一方、まだ対応していないポルノサイトもあるようだ。
+ すべて読む | YROセクション | セキュリティ | 政治 | プライバシ |     
+  関連ストーリー： 
+英情報通信庁曰く、成人向けビデオ共有プラットフォームは子供を有害コンテンツから守る対策が不十分 2022年10月25日 
+米ニューヨーク州農業・市場局、缶入りホイップクリーム販売に年齢確認が不要なことを明確化 2022年09月04日 
+Instagram、16 歳未満のユーザーに対する不適切なコンテンツの表示制限を強化 2022年08月28日 
+Instagram、セルフィ―動画を使用した年齢確認を米国でテスト 2022年06月26日 
+英国でポルノサイトに年齢確認義務付ける計画、再び 2022年02月10日 
+Siri は生年月日から年齢を正しく計算できない？ 2022年01月30日 
+英国、オンラインでの子供のプライバシー保護を目的とする法律が施行 2021年09月05日 
+Instagram、ユーザーに生年月日入力を義務付けへ 2021年09月01日 
+App Store での成人向けアプリインストール、14 歳として登録された Apple ID でもブロックされない 2021年08月29日 
+Tencent、中国向けモバイルゲームで顔認識技術を用いた未成年者のプレイ時間制限を正式に開始 2021年07月11日 
+LINEの年齢認証、楽天モバイル回線や一部MVNOが対応 2021年03月22日]]></summary>
+        <author>
+            <name>headless</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Apache TomcatのJsonErrorReportValveにおけるエスケープ処理不備の問題]]></title>
         <id>https://jvn.jp/vu/JVNVU92183876/</id>
@@ -537,6 +1221,15 @@ The post Celebrate National Download Day With This Safe Downloading Checklist ap
         <summary type="html"><![CDATA[1年間の脅威や“ヒヤリハット”を忘れず、気を引き締める催しとして、ITmedia NEWS編集部が開催した「本当にあったIT怖い話大賞2022」。読者の皆さまから身の毛もよだつエピソードが集まったので、最も気が引き締まったものを大賞として発表します。]]></summary>
         <author>
             <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Web更新]ccTLDの登録数を更新　2022年11月分を追加加]]></title>
+        <id>https://www.nic.ad.jp/ja/stat/dom/cctld.html</id>
+        <link href="https://www.nic.ad.jp/ja/stat/dom/cctld.html"/>
+        <updated>2022-12-28T05:53:16.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
         </author>
     </entry>
     <entry>
@@ -9269,471 +9962,6 @@ RFC の修正
         <link href="https://internet.watch.impress.co.jp/docs/news/1461572.html"/>
         <updated>2022-12-06T21:00:00.000Z</updated>
         <summary type="html"><![CDATA[中部テレコミュニケーション株式会社（ctc）は12月1日、光接続サービス「コミュファ光」の提供開始20周年を機に、ロゴやスローガン、マスコットキャラクターを一新した。また、生活に関わるサービスを「コミュファlife＋」ブランドとして提供する。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[注目のセキュリティ研究者：博士号に挑む前に「うっかり」入社した Talos で活躍中の Ashlee Benge]]></title>
-        <id>https://gblogs.cisco.com/jp/?p=44159</id>
-        <link href="https://gblogs.cisco.com/jp/2022/12/talos-researcher-spotlight-how-working-for-talos-started-out-as-an-accident-for-ashlee-benge-before-coming-a-second-career/"/>
-        <updated>2022-12-06T16:22:07.000Z</updated>
-        <summary type="html"><![CDATA[Talos のデータ戦略およびインサイト部門のリーダーを務める Ashlee Benge。大変な重荷をかついで日々を乗り切る彼女の特技とは？Ashlee Benge に初めて会って彼女の経歴を聞いた人は、たいてい度肝を抜かれます。]]></summary>
-        <author>
-            <name>TALOS Japan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IoT機器のセキュリティ、企業はどのような対策を講じるべきか？]]></title>
-        <id>https://eset-info.canon-its.jp/malware_info/special/detail/221207.html</id>
-        <link href="https://eset-info.canon-its.jp/malware_info/special/detail/221207.html"/>
-        <updated>2022-12-06T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[デジタル技術の進展とともに、着実に裾野が広がりつつあるIoT。その活用を前提とした時代を迎えつつある今こそ、企業においてもIoTにおけるセキュリティ対策を再考すべきタイミングとも言えるだろう。この記事では、企業におけるIoT機器のセキュリティリスクやその対応方法について解説する。
-
-
-
-
-
-IoT機器を取り巻くセキュリティリスク
-
-身の回りのあらゆるモノがインターネットに接続する時代となって久しい。ガジェットと呼ばれるものだけでなく、今ではモノを開発する際にも、インターネットへの接続を前提としたビジネスモデル、あるいはサービスが少なくない。こうしたインターネットへの接続を前提にしたモノ、サービスの複合体をIoTと呼ぶ。
-
-一方で、攻撃者もこうした時代の流れを攻撃の好機と捉え、さまざまな攻撃手法、マルウェアが日々開発されている。そのため、IoT機器は攻撃者に狙われることを前提とした利活用が求められている。総務省が公開しているIoTセキュリティガイドラインでは、以下のようなIoT機器が有する独自の特性がセキュリティリスク増大の要因としている。
-
-IoT機器のライフサイクル
-
-工場における機械設備や医療機器などは、10年以上の耐用年数を持つ製品も少なくないが、導入時に設定したセキュリティ対策は、時間の経過とともに生み出される攻撃手法を前に無力化していくことになる。従来、こうした機器はアナログなもので、「アップデート」という概念を持たなかった。そのため、過去の経験に基づいた意識のまま利用してしまうことで、ファームウェアのアップデートに未対応、というケースがある。
-
-また、目の届きづらい場所に設置したことで、その存在自体を忘れてしまうということも想定し得る。ライフサイクルが長いがゆえに、これらの機器はセキュリティリスクを抱えてしまうことになるのだ。
-
-IoT機器への監視体制
-
-パソコンやサーバー、スマートフォン（以下、スマホ）の場合、個人であれば自らが適切に管理を行うことになる。また、企業・組織であれば、情報システム部門、総務部などの管理者が継続的に機器の管理・監視を行う。
-
-しかし、IoT機器は「モノ」という性質上、管理・監視が適切に行われないケースもある。また、モノ自体にユーザーインタフェースが設けられていないものもあるため、状態を把握しづらい場合もあり得る。そのため、ファームウェアのアップデートが適切に行われず、さらには攻撃を受けた場合でも監視体制外のことから、被害に気付かない場合すらあり得る。
-
-IoT機器へのセキュリティ対策
-
-先述のとおり、IoT機器はインターネットに接続することを前提とした、拡張されたモノと捉えるべきである。しかし、実際には従来のアナログなモノとしてみなしがちであり、そうした姿勢・考えこそが脆弱性とも言える。こうした前時代的な捉え方の結果として、適切なセキュリティ対策が放置されているのだ。サーバーやパソコンと同様、インターネットにつながるコンピューターを内包したモノという認識に改める必要があるだろう。
-
-なぜ、IoT機器に脆弱性が生じるのか？
-
-IoT機器を標的としたセキュリティインシデント
-
-近年、IoT機器を狙ったセキュリティインシデントが増加傾向にある。実際に、以下のようなインシデントが生じている。
-
-マルウェアMiraiによるDDoS攻撃
-
-IoT機器の脆弱性を突いて爆発的に感染を広げ、ボットネット化した事例。2016年9月には、18万台の端末が一斉に攻撃を仕掛け、過去に類を見ない規模のDDoS攻撃が繰り広げられた。以降も活動が継続されたものの、2018年初頭に活動は沈静化するに至った。
-
-IoT機器経由での情報窃取
-
-2018年、攻撃者が米国の研究機関の組織内部ネットワークに不正侵入。組織内部に設置されていた、「Raspberry Pi」経由で10ケ月近くもの間、重要な組織情報などを窃取された。
-
-ルーターの脆弱性を悪用するMeris
-
-2021年、ラトビア製ルーターの脆弱性を突いて感染するMerisにより、大規模なボットネットが構築された。このボットネットにより、Miraiの3倍近くとなる、2,180万RPS（Request Per Second）もの攻撃トラフィックが観測された。
-
-※RPS：1秒間に処理可能なリクエスト数を示す単位（リクエスト/秒）
-
-ほかにも、監視カメラを標的としたセキュリティインシデントも後を絶たない。初期設定のずさんさ、適切なセキュリティも未対策といった要因により、刑務所、病院、大企業などで使われていた15万台のカメラのライブ映像が流出したこともある。こうした監視カメラでは、過去にも多くの被害が生じている。このように、今後も引き続き、IoT機器が有力な攻撃対象になる可能性が高いと見込まれている。
-
-Miraiボットネット？大規模なDDoS攻撃を仕掛けるその仕組みとは
-
-企業内で利用されるIoT機器の種類
-
-IoT機器については、セキュリティリスクが問題視されてはいるものの、企業・組織において、今後ますます普及していくものと思われる。ルーターやネットワーク機器などの従来製品に加え、センサーやカメラを実装してインターネットに接続し、データを集積するような用途での活用も進んでいるためだ。こうした機器から得られるデータを集積することで、さまざまな分析や効率化への活用が見込めるなど、企業・組織にとって恩恵が大きい。具体的には、以下のような機器がネットワークに接続されるようになっている。
-
-機械設備
-
-インターネット上で設備の稼働状況を確認・管理したり、センサーを通じて消耗品の摩耗状況をリアルタイムに把握したりといったことが可能となる。
-
-複合機
-
-スキャンしたデータをインターネット上で閲覧、あるいはトナーや紙の交換時期を自動的に保守サービス会社に通知し、最適なタイミングで補充が可能となる。
-
-監視カメラ
-
-遠隔からスマホなどで、監視カメラの画像を閲覧することが可能だ。近年では、AIを活用して不審な挙動が検出されたらアラートを通知する、あるいは不審な挙動が生じる前にその危険性を検知するサービスも生まれている。また、消費者の目線や導線をカメラで解析し、マーケティングに応用する事例も増えている。
-
-医療機器
-
-点滴装置、MRI、ロボットアームをはじめ、遠隔操作やデータ収集を目的にネットワークに接続されるようになっている。
-
-空調設備、ボイラー
-
-複数の空調やボイラーを集中管理するためにネットワークへ接続し、遠隔監視、コントロールができるようになっている。また、センサーなどを組み合わせて温度、湿度、空気を監視することで安全性を高めようとするソリューションも想定される。
-
-ほかにも、従業員にウェアラブル端末を装着させ、健康状態、ストレスチェックなどを行う事例も出てきている。ウェルビーイングといった概念が普及していくとともに、こうした取り組みも増えていくことが見込まれる。
-
-オフィスにおけるIoT機器を活用する際に知っておくべきリスク
-
-企業内で利用されるIoT機器へのセキュリティ対策
-
-IoT機器の脅威は今後も拡大していくと想定される。そのため、IoT機器を安全に活用するためにも、適切なセキュリティ対策が欠かせない。具体的には、以下のような対策が考えられる。
-
-導入方針やルールの明確化
-
-IoT機器を導入する際は、安易な導入を回避する必要がある。現場で利用する従業員がどのように取り扱うのか、事前に方針やルールを明示しておくようにしたい。情報機器全般におけるセキュリティ対策と同様に、経営陣がリーダーシップを発揮するのが望ましい。経営陣主導でIoTセキュリティに関する基本方針を策定し、社内に周知徹底すべきだろう。また、コンピューターやパソコンと同様に、IoT機器にも管理者を定める必要がある。
-
-IoT機器の監視体制の整備
-
-IoT機器の場合、脆弱性が放置され、攻撃にすら気づかないというケースがある。そのため、適切な監視体制を構築し、可能であれば機器のログも取得しておきたい。また、定期的にログを分析することで、状況を把握できる体制を構築しておくことが望ましい。
-
-「モノ」ではないという認識を持つこと
-
-IoT機器はインターネットにつながったコンピューターを内包するモノである。従来持っていたモノに対する考えを改め、パソコンやサーバーなどのコンピューターと同様に扱うこと。そうした認識を持つことで、自ずとセキュリティ対策への意識も変わってくるはずだ。通信状態をチェックする、脆弱性を解消する、といったことはもちろんのこと、管理画面のパスワードを適切なものに設定する、不要なポートの停止、といったことも対策として挙げられる。
-
-DX（デジタルトランスフォーメーション）という言葉が飛び交い始めて久しいが、今後の事業経営はデジタルを上手く活用できるかどうかが生命線の1つとなりつつある。企業でも攻めと守りのバランスを取りながら、デジタル時代を乗り切ることが求められている。]]></summary>
-        <author>
-            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[McAfee 2023 Threat Predictions: Evolution and Exploitation]]></title>
-        <id>https://www.mcafee.com/blogs/?p=161609</id>
-        <link href="https://www.mcafee.com/blogs/security-news/mcafee-2023-threat-predictions-evolution-and-exploitation/"/>
-        <updated>2022-12-06T14:00:57.000Z</updated>
-        <summary type="html"><![CDATA[As 2022 draws to a close, the Threat Research Team at McAfee Labs takes a look forward—offering their predictions for...
-The post McAfee 2023 Threat Predictions: Evolution and Exploitation appeared first on McAfee Blog.]]></summary>
-        <author>
-            <name>McAfee Labs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Apps Script 導入 GAS]]></title>
-        <id>https://tech-lab.sios.jp/?p=32052</id>
-        <link href="https://tech-lab.sios.jp/archives/32052"/>
-        <updated>2022-12-06T10:51:49.000Z</updated>
-        <summary type="html"><![CDATA[どもども！平社員の龍ちゃんです。今回は、Googleさんが出している「Google Apps Scrip（通称：GAS）」についての話をしていきます。こちらは、Googleアカウントを持っていればだれでも無料で使用するこ [...]
-Google Apps Script 導入 GAS first appeared on SIOS Tech. Lab.]]></summary>
-        <author>
-            <name>田中龍之介</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[チャットAI「ChatGPT」で生成されたテキストの投稿を一時的に禁止、Stack Overflow]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20221206-2531005/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20221206-2531005/"/>
-        <updated>2022-12-06T10:06:02.000Z</updated>
-        <summary type="html"><![CDATA[オンラインのQ＆AサイトであるStack Overflowは12月5日、チャットAI「ChatGPT」によって生成されたテキストの投稿を一時的に禁止するとアナウンスした。ChatGPTによって生成された誤った回答の投稿が相次いでおり、サイト全体の品質が維持できないことがその理由だ。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apache Kafka シリーズ　～ Producer の内部～]]></title>
-        <id>https://tech-lab.sios.jp/?p=32041</id>
-        <link href="https://tech-lab.sios.jp/archives/32041"/>
-        <updated>2022-12-06T08:13:31.000Z</updated>
-        <summary type="html"><![CDATA[皆さんこんにちは！今回はApache Kafkaにデータを送信する役割を持つ Producer について解説していきたいと思います。 そもそもKafkaがわからない・・という方はコチラで解説していますので、よければご一読 [...]
-Apache Kafka シリーズ　～ Producer の内部～ first appeared on SIOS Tech. Lab.]]></summary>
-        <author>
-            <name>南史弥</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[特殊詐欺で使われた電話番号の利用を停止する「番号停止スキーム」、クラウド電話などの事業者団体と総務省・警視庁が連携して運用開始]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1461415.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1461415.html"/>
-        <updated>2022-12-06T07:45:00.000Z</updated>
-        <summary type="html"><![CDATA[ユニファイド通信サービス（クラウド電話、メール、インスタントメッセージなどの統合コミュニケーションサービス）を手掛ける一般社団法人日本ユニファイド通信事業者協会（JUSA）は12月1日、総務省および警察庁と連携し、特殊詐欺などで使用された電話番号などを利用停止する枠組み「番号停止スキーム」の運用を開始した。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NTTドコモ、従量制の光回線「ドコモ光ミニ」の提供を2025年に終了]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1461407.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1461407.html"/>
-        <updated>2022-12-06T07:20:00.000Z</updated>
-        <summary type="html"><![CDATA[株式会社NTTドコモは12月5日、定額制の光回線によるインターネット接続サービス「ドコモ光ミニ」の提供を2025年3月31日に終了すると発表した。サービス終了に伴い、新規申込みの受付を2023年3月31日に終了する。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[マルウェアの配布形態、初めてアーカイブファイルがOfficeファイル上回る]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20221206-2528439/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20221206-2528439/"/>
-        <updated>2022-12-06T06:54:04.000Z</updated>
-        <summary type="html"><![CDATA[HPは12月1日(米国時間)、2022年第3四半期に確認された注目すべき脅威、マルウェアのトレンド、テクニックをまとめた「HP Wolf Security 脅威インサイトレポート」を公開した。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft、TeamsへのAdobe Acrobatの統合発表-高度なPDF管理を実現]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20221206-2530899/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20221206-2530899/"/>
-        <updated>2022-12-06T06:31:57.000Z</updated>
-        <summary type="html"><![CDATA[Microsoftは12月5日(現地時間)、Microsoft Teams Blogにおいて、Adobe AcrobatのMicrosoft Teamsへの統合についてアナウンスした。この統合によって、AcrobatをTeamsにおけるPDF管理のデフォルトアプリケーションとして設定し、PDF文書の閲覧や編集などろTeameからシームレスに行えるようになる。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[米Tenable CEOが来日、「脆弱性はたった1個でも攻撃を招く」]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20221206-2530900/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20221206-2530900/"/>
-        <updated>2022-12-06T06:01:54.000Z</updated>
-        <summary type="html"><![CDATA[Tenableは6日、会長兼CEOであるアミット・ヨーラン氏の来日に合わせて記者会見を開き、日本市場におけるセキュリティに関する課題やTenableのビジネス状況、2023年に留意すべきサイバー攻撃の傾向などについての説明を行った。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[RustでAndroidメモリ関連の脆弱性が大幅に削減、Googleが報告]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20221206-2529737/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20221206-2529737/"/>
-        <updated>2022-12-06T04:42:48.000Z</updated>
-        <summary type="html"><![CDATA[Googleは12月1日(米国時間)、Google Online Security Blogにおいて、Androidでメモリの安全性にまつわる脆弱性が大幅に減少し、それに伴い脆弱性の重大性も低減していると報告した。10年以上にわたり、メモリの安全性に関する脆弱性は脆弱性の65%以上を占めていたという。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「PayPayを使うバイト」に注意　SNSで勧誘、アカウント情報だまし取る例も]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2212/06/news108.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2212/06/news108.html"/>
-        <updated>2022-12-06T04:23:00.000Z</updated>
-        <summary type="html"><![CDATA[SNSなどで勧誘されたアルバイトで、PayPayのアカウント情報や残高をだまし取られるなどのトラブルに注意。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[KDDI、au通信網で衛星インターネット「Starlink」をバックホール回線として利用開始　同時に提供開始した衛星通信ソリューションを清水建設が北海道新幹線工事に採用]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1461220.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1461220.html"/>
-        <updated>2022-12-06T04:20:36.000Z</updated>
-        <summary type="html"><![CDATA[KDDI株式会社は、au通信網のバックホール回線に衛星ブロードバンドインターネット「Starlink」を使った基地局の運用を12月1日に開始した。基地局の設置場所は静岡県熱海市の離島である初島。今後、これまでサービス困難とされた山間部や島しょ地域のほか、災害対策などの基地局も含め、全国1200カ所に順次拡大するという。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ラック、ゼロトラストセキュリティを支援する「SASEスターターサービス」]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20221206-2530854/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20221206-2530854/"/>
-        <updated>2022-12-06T04:13:16.000Z</updated>
-        <summary type="html"><![CDATA[ラックは12月6日、ゼロトラストセキュリティ対策の支援を目的として、ネットワーク機能とセキュリティ機能を統合して提供するSASEの導入支援と管理者向けトレーニングをパッケージにした「SASEスターターサービス by Netskope」の提供を開始することを発表した。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[freee申告、税務調査が入る際の対応もサポートする「法人税 申告後もあんしんプラン」開始]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1461358.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1461358.html"/>
-        <updated>2022-12-06T03:45:07.000Z</updated>
-        <summary type="html"><![CDATA[freee株式会社は、クラウド型法人税申告ソフト「freee申告」において、税務調査を税理士がサポートする「法人税 申告後もあんしんプラン」を開始した。税務調査時のヒアリングや立会時に指摘される可能性が高いポイントの洗い出し、提出する書類の準備と修正申告書の作成まで対応する。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[サイバーセキュリティ学習者向けの専用ページを開設、サイバーリーズン]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20221206-2530821/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20221206-2530821/"/>
-        <updated>2022-12-06T03:27:07.000Z</updated>
-        <summary type="html"><![CDATA[サイバーリーズンは12月6日、サイバーセキュリティ学習者向けの専用ページ「サイバーリーズン・セキュリティ・アカデミー」を公式サイトに掲載したことを報告した。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[サービス終了の家族SNS「wellnote」、1カ月後にデータ全削除も一括DL機能なく批判殺到【やじうまWatch】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1461236.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1461236.html"/>
-        <updated>2022-12-06T02:42:00.000Z</updated>
-        <summary type="html"><![CDATA[サービス終了を発表した家族SNS「wellnote」が、1カ月後にデータを全削除することを告知するも、データの一括ダウンロード方法が用意されていないことで、ユーザーの批判を浴びている。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[部屋の“角”を効率よく使えるコーナーデスク「100-DESKH066M」、サンワサプライが発売]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1461100.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1461100.html"/>
-        <updated>2022-12-06T02:40:00.000Z</updated>
-        <summary type="html"><![CDATA[サンワサプライ株式会社は部屋の角に設置できるコーナーデスク「100-DESKH066M」を発売した。直販サイト「サンワダイレクト」での販売価格は1万5800円。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[意地悪じゃなかった？ 第10世代iPadが第2世代Apple Pencilに非対応の理由が分解で判明【やじうまWatch】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1461237.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1461237.html"/>
-        <updated>2022-12-06T02:35:00.000Z</updated>
-        <summary type="html"><![CDATA[第10世代iPadが第2世代Apple Pencilに対応しない理由が、コンポーネントを搭載する物理的なスペースが不足していたためとみられることが、修理サイトiFixitの調査で明らかになった。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[わからないなりに理解したいデータベース⑤：NoSQL編：memcached]]></title>
-        <id>https://tech-lab.sios.jp/?p=32035</id>
-        <link href="https://tech-lab.sios.jp/archives/32035"/>
-        <updated>2022-12-06T01:17:03.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは。サイオステクノロジー OSS サポート担当 山本 です。 今回は NoSQL というものについてと、NoSQL の一種である memcached の基本的な使い方を見ていきたいと思います。 ■そもそも NoS [...]
-わからないなりに理解したいデータベース⑤：NoSQL編：memcached first appeared on SIOS Tech. Lab.]]></summary>
-        <author>
-            <name>山本英貴</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hyundaiのモバイルアプリに脆弱性、自動車のロック解除や始動が可能]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20221206-2529731/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20221206-2529731/"/>
-        <updated>2022-12-06T00:46:31.000Z</updated>
-        <summary type="html"><![CDATA[Bleeping Computerは12月1日(米国時間)、Hyundaiのモバイルアプリに脆弱性があると伝えた。この脆弱性により、2012年以降のHyundaiおよびGenesisの車種がリモート攻撃を受け、車両のロック解除や始動が可能だったことが明らかとなった。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[11月デスクトップOSシェア、Windows 10はWindows 11の4倍超]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20221206-2528550/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20221206-2528550/"/>
-        <updated>2022-12-05T23:56:03.000Z</updated>
-        <summary type="html"><![CDATA[StatCounterから2022年11月のデスクトップOSのシェアが発表された。Windows 11が公開されてからWindows 11のシェアが増加しているが、Windows 10のシェアはWindows 11のシェアの4倍以上を確保している。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Chromeに悪用確認済みのゼロデイ脆弱性、ただちにアップデートを]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20221206-2529911/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20221206-2529911/"/>
-        <updated>2022-12-05T23:37:46.000Z</updated>
-        <summary type="html"><![CDATA[Google Chromeチームは12月2日(米国時間)、脆弱性を修正した定例外のGoogle Chromeの公開について伝えた。このリリースではゼロデイの脆弱性が1つ修正されている。この脆弱性はすでに悪用が確認されていることから注意が必要。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSIRT支援室 第34回 WordPress プラグイン Advanced Custom Fieldsの脆弱性について]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2022/12/06/48595.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2022/12/06/48595.html"/>
-        <updated>2022-12-05T23:15:04.000Z</updated>
-        <summary type="html"><![CDATA[WordPressプラグインAdvanced Custom Fields（以下ACF）で発見した一連の脆弱性(CVE-2021-20865、CVE-2021-20866、CVE-2021-20867、CVE-2022-23183)について解説します。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[飲み会やアルコール強要に抵抗、解雇されたＩＴコンサルタントが職場訴え最高裁で勝利]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2022/12/06/48594.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2022/12/06/48594.html"/>
-        <updated>2022-12-05T23:10:03.000Z</updated>
-        <summary type="html"><![CDATA[コンサルティングという花形の世界で、楽しい職場文化が強要されている実態が、フランスの裁判所の判決から明らかになった。パーティの雰囲気を壊すとして男性を解雇したのは不当だと認めた判決だ。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[個人情報管理の不備を指摘するため写真撮影し県に報告]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2022/12/06/48593.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2022/12/06/48593.html"/>
-        <updated>2022-12-05T23:05:08.000Z</updated>
-        <summary type="html"><![CDATA[群馬県は12月1日、委託事業における個人情報の漏えいについて発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[船橋市内商業施設で助手席の窓ガラス割られる、男子バスケ選抜チームの個人情報漏えい]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2022/12/06/48592.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2022/12/06/48592.html"/>
-        <updated>2022-12-05T23:05:05.000Z</updated>
-        <summary type="html"><![CDATA[千葉県習志野市は11月28日、習志野市立中学校教諭による個人情報を含む文書の紛失について発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[富山県立大学 DX教育研究センターホームページに不正アクセス、プラグインをインストールされる]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2022/12/06/48591.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2022/12/06/48591.html"/>
-        <updated>2022-12-05T23:05:02.000Z</updated>
-        <summary type="html"><![CDATA[公立大学法人富山県立大学は12月1日、DX教育研究センターホームページへの不正アクセスについて発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft 曰く、Microsoft 365 は GDPR を上回る個人データ保護を提供]]></title>
-        <id>https://security.srad.jp/story/22/12/04/156232/</id>
-        <link href="https://security.srad.jp/story/22/12/04/156232/"/>
-        <updated>2022-12-05T23:04:00.000Z</updated>
-        <summary type="html"><![CDATA[headless 曰く、やや旧聞であるが、ドイツのデータ保護機関 (DSK) が Microsoft 365 は欧州の一般データ保護規則 (GDPR) に違反するとの報告書を 11 月 25 日に公開したところ、Microsoft が即日反論している
-(DSK の報告書概要: PDF、
-Microsoft のニュース記事、
-heise online の記事、
-Ghacks の記事)。
-
-報告書では Microsoft が 2022 年 9 月に更新したデータ保護追加契約(DPA)について、いくらかの改善はみられるものの Microsoft がどのような場面で個人データの処理者となるのか明確にされておらず、処理の目的も具体的でないと指摘。また、米国へデータを送信することなく Microsoft 365 を使用することはできず、Schrems II 判決により EU 域内で合法的に使用することが困難であるとし、Microsoft は 2022 年 12 月からEU域内の顧客のデータを原則として EU 域内で保存・処理するようになるが、実施状況は今後評価していく必要があるなどと結論付けている。なお、ジョー・バイデン米大統領は 10 月 7 日に米国と EU 間でのデータ保護の枠組みを作るよう命ずる大統領令に署名しているが、具体的に実施されていないことから報告書では考慮されていない。
-
-一方、Microsoft は顧客データを顧客の所在地域内にとどめる Advanced Data Residencyやデジタル主権ソリューション Microsoft Cloud for Sovereignty、2022 年末までに EU 域内の顧客のデータをすべて EU 域内で保存・処理できるようにする EU Data Boundary を挙げ、Microsoft 365 が GDPR に準拠するだけでなくそれを上回る個人データ保護を提供していると反論する。Microsoft は米国と EU 間のデータ保護の枠組みを支持しており、米国では個人監視に関する法令が改正されて個人情報の保護も改善されている。そのため、2023 年には欧州委員会が GDPR に基づいて適切な判断を下すことを期待しているとのことだ。
- すべて読む | セキュリティセクション | セキュリティ | マイクロソフト | EU | クラウド | アメリカ合衆国 | ソフトウェア | 政治 | プライバシ |     
-  関連ストーリー： 
-フランスの学校では無料のOffice 365 を使用できない 2022年11月26日 
-イタリアのデータ保護当局も Google Analytics が GDPR に違反すると判断 2022年06月27日 
-フランスのデータ保護当局、Google Analytics が GDPR に違反すると判断 2022年02月13日 
-Google Analytics、EU 域内で使用できなくなる可能性 2022年01月17日 
-欧州司法裁判所、EU・米国間のデータ共有協定取り下げを決定。米国企業に影響か 2020年07月20日]]></summary>
-        <author>
-            <name>nagazou</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[警察庁、サイバー攻撃被害の潜在化防止に向け検討会開催]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2022/12/06/48590.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2022/12/06/48590.html"/>
-        <updated>2022-12-05T23:00:03.000Z</updated>
-        <summary type="html"><![CDATA[警察庁は12月1日、サイバー事案の被害の潜在化防止に向けた検討会の開催について発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[息子の受験に備えて部屋を交換。機材数をガンと減らしてミニマル化 ～ フリーライター 小寺信良の在宅ワークスタイル【みんなの在宅ワーク：第89回】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/column/zaitaku_work/1461210.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/column/zaitaku_work/1461210.html"/>
-        <updated>2022-12-05T21:55:00.000Z</updated>
-        <summary type="html"><![CDATA[AV Watchで「週刊Electric Zooma!」という連載をやらせてもらっている、フリーライター小寺信良です。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[深刻化する医療機関のランサムウェア被害、現状と対策をPwC Japanグループが解説　患者の健康への影響も生じうる現状に必要な対策とは]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1461177.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1461177.html"/>
-        <updated>2022-12-05T21:40:00.000Z</updated>
-        <summary type="html"><![CDATA[PwC Japanグループは、医療現場におけるサイバーセキュリティの最新状況について説明。2021年以降、日本の医療機関に対するサイバー攻撃が増加していることを指摘する一方、医療機関ではサイバー攻撃への対策が遅れている現状に警鐘を鳴らした。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「IEEE 802.1AS-2020」の登場、想定外に広く使われだしたIEEE 802.1AS-2011の改定版【ネット新技術】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/column/nettech/1459511.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/column/nettech/1459511.html"/>
-        <updated>2022-12-05T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[前回は、TSN（Time-Sensitive Networking）を構築する技術の1つであるIEEE 802.1AS（IEEE 802.1AS-2011）を取り上げた。前々回まで3回にわたって解説していたPTP（Precision Time Protocol）であるIEEE 1588との関係、およびgPTPとPTPとの比較にも触れた。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【悩める情シスのvPro入門】「シンクライアント」と「ファットクライアント」、結局どっちがいいの？[Sponsored]]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/column/vpro_takumi/1459297.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/column/vpro_takumi/1459297.html"/>
-        <updated>2022-12-05T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[ここは都内にある某中堅企業のオフィス。今日も情シスの社員2人が出社してきたのだが、どうやら悩み事があるようで……。]]></summary>
         <author>
             <name>INTERNET Watch</name>
         </author>
