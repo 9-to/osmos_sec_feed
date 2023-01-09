@@ -2641,6 +2641,16 @@
       "siteUrl": "https://security.srad.jp/",
       "articles": [
         {
+          "id": "https://security.srad.jp/story/23/01/08/0742208/",
+          "author": "headless",
+          "description": "Twitter から 2021 年にスクレイピングされたとみられる 2 億件以上のユーザーデータがハッキングフォーラムで公開されているが、電子メールアドレスがこのリストに含まれているかどうかHave I Been Pwnedで確認可能になった\n(BleepingComputer の記事、\nThe Verge の記事、\nGhacks の記事、\nHave I Been Pwned の流出サイト情報、\nTroy Hunt 氏のツイート)。\n\nこのデータは電子メールアドレスまたは携帯電話番号を送信するとユーザー名などのプロフィール情報を取得可能な Twitter API のバグを利用して収集されたとみられており、電子メールアドレスはそれ以前に別のデータ侵害で流出していたもののようだ。そのため、 Have I Been Pwned には今回の電子メールアドレスの 98 % が以前から登録されていたとのことだ。\n すべて読む | セキュリティセクション | セキュリティ | Twitter | 情報漏洩 |     \n  関連ストーリー： \nマルウェアEmotetに盗み出された400万件以上の認証情報、Have I been pwned?で確認可能に 2021年05月01日 \n24時間で表示されなくなるTwitterのFleet、24時間過ぎても表示できるトラブル 2020年11月25日 \nアカウント情報流出通知サービス「Have I been pwned?」、通知メール内のテキストが原因でSQLインジェクション脆弱性を意図せず突く 2020年06月09日 \nトロイ・ハント氏、自身が運営する「Have I been pwned?」の買収先を探す 2019年06月14日 \nGoogle、ユーザー名とパスワードの流出を通知するChrome拡張機能を公開 2019年02月09日 \nどこかで流出した電子メールアドレスとパスワードの組み合わせ27億行近くを含むデータ、古いものが大半 2019年01月20日 \nMozilla、デスクトップ版FirefoxでWebサイトの情報漏洩を通知する機能の追加を発表 2018年11月20日 \nTwitterのAPIに不具合、本来非公開の投稿がサードパーティ開発者に送られていた 2018年09月28日 \nTwitterに、ある条件下でアカウントが破壊される不具合？ 2009年12月15日",
+          "link": "https://security.srad.jp/story/23/01/08/0742208/",
+          "publishedOn": "2023-01-08T10:21:00.000Z",
+          "wordCount": 2785,
+          "title": "Twitter のユーザーデータ 2 億件以上が流出、自分が含まれているかどうか確認した？",
+          "imageUrl": "https://srad.jp/static/topics/leakage_64.png"
+        },
+        {
           "id": "https://security.srad.jp/story/23/01/04/140234/",
           "author": "nagazou",
           "description": "headless 曰く、複数の米大学のメンバーによる研究グループがスマートフォンのモーションセンサーを用い、通話中のイヤースピーカーの振動から通話相手や内容を読み取る手法「EarSpy」の研究成果を発表している\n(論文アブストラクト、\nHackRead の記事、\nAndroid Police の記事)。\n\nモーションセンサーは権限の明示的な許可を得ることなく利用できるため、さまざまなサイドチャネル攻撃手法の研究が行われている。出力の小さいイヤースピーカーの振動をモーションセンサーで読み取ることは難しいと考えられていたが、最近のステレオスピーカー搭載モデルでは イヤースピーカーを 2 つ目のラウドスピーカーと兼用できるようにしているものもある。実際にイヤースピーカーとして使用する時には出力を抑えることになるが、それでもステレオスピーカーを搭載しないモデルと比べて加速度計で読み取れる情報が多くなっているという。\n\n研究グループでは一般公開されている発話データセットを用い、古典的な機械学習アルゴリズム、新たに開発した畳み込みニューラルネットワークに学習させて性別や話者、発話内容の検出を実行している。使用スマートフォンはいずれもステレオスピーカーを搭載する OnePlus 7T と OnePlus 9 の 2 機種だ。その結果、性別は最高 98.66 %、話者は最高 92.6 % の正確さで認識可能であり、発話内容 (0 ～ 9 の数字を英語で発音したもの) も最高 56.42 % の正確さで認識できたそうだ。Android 12 以降ではモーションセンサーのデータのリフレッシュレートがデフォルトで 200 Hz に制限されており、より高いリフレッシュレートでの読み取りには権限の許可を得る必要がある。しかし、制限された状態でも性別の検出は 90.97 % の正確さが得られたとのことだ。\n すべて読む | セキュリティセクション | ハードウェア | セキュリティ | YRO | 携帯電話 | プライバシ |     \n  関連ストーリー： \nBluetooth を搭載して音声通話を可能にした電話機型おもちゃ、盗聴可能な問題が見つかる 2021年12月28日 \n米国がドイツ首相らに対してスパイ活動疑惑。仏独首脳が米国らに説明を求める 2021年06月03日 \nChromeがシークレットモードでも個人情報を収集したとして集団訴訟へ。成立すれば5000億円規模の賠償の可能性も 2021年03月17日 \n旧ソ連のスパイグッズが競売にかけられる。現代のロシアでも形を変えて 2021年02月20日 \nソニー、PS5のボイスチャット録音機能を「盗聴ではない」と説明するも米国の一部州で違法との指摘も 2020年10月20日 \niPhone 7/7 Plus分解リポート、ヘッドフォンジャックの跡地にあるものは？ 2016年09月19日",
@@ -2849,16 +2859,6 @@
           "wordCount": 2410,
           "title": "米クラスアクション訴訟、AirTag によるストーカー被害の責任を Apple に問う",
           "imageUrl": "https://srad.jp/static/topics/usa_64.png"
-        },
-        {
-          "id": "https://security.srad.jp/story/22/12/10/0813202/",
-          "author": "headless",
-          "description": "Android Police がスマートフォンを購入する際にアップデート提供を重視するかどうかという投票を実施しているのだが、60 % 近くが最も重要な要素だと回答している\n(Android Police の記事)。\n\n10 日 17 時の段階で 3,049 票が投じられており、アップデート提供によるサポートが最も重要な要素だという選択肢が 1,780 票 (58 %) を獲得している。ある程度重要だという回答も 1,106 票 (36 %) を獲得しており、ある程度以上アップデートを重視している人は 95 % にのぼる。スマートフォンの購入にあたってアップデート提供によるサポートは重要ではないという回答は 134 票 (4 %) だが、意外に多い気もする。スラドの皆さんは、スマートフォン購入時にアップデート提供の頻度をどの程度気にするだろうか。\n すべて読む | セキュリティセクション | モバイル | アップグレード | セキュリティ | 携帯電話 |     \n  関連ストーリー： \nPixel 4 / 4XL、Android ベータプログラムに登録可能なデバイスのリストから外れる 2022年09月03日 \nQualcomm の Snapdragon Insiders 向けスマートフォン、既に放置状態か 2022年06月17日 \nDev チャネルの WSA、Android 12.1 にアップグレード 2022年05月26日 \nGoogle, Pixel 3 / 3 XL 向けに最後の「サンセット」アップデートを配信 2022年02月13日 \nPixel 6シリーズではアップデートが5年間提供されるかも？ 2021年10月19日 \nドイツ政府がスマートフォンメーカーに 7 年間のサポートを義務付ける計画との報道 2021年09月08日 \nSamsung、同社のAndroidデバイスに4年間のセキュリティアップデートを提供する計画 2021年02月25日 \nQualcommの新しいSoC、4バージョンのAndroid OSをサポート 2020年12月19日 \n英消費者団体Which?、サポートの終了した中古スマートフォンを購入しないよう注意喚起 2020年08月05日 \nGoogle曰く、Android 10は過去のどのAndroidバージョンよりも速く導入が進んだ 2020年07月13日 \nセキュリティ研究者曰く、Android端末メーカーはLinuxカーネルを独自に改変するべきではない 2020年02月26日 \niPhone 5ユーザーは11月3日までにOSアップデートを逃すとアップデートできなくなる恐れ 2019年10月28日 \nApple、iPhoneの速度低下を招くiOSアップデートを提供する場合は事前に告知すると英競争・市場庁に約束 2019年05月26日 \niOS 12への移行、遅めのペースに 2018年09月22日 \nGoogle、企業が導入するのに適したAndroidデバイスとサービスの推奨プログラムを発表 2018年02月25日 \nMicrosoftはWindows 10 Mobileにもう注力しない 2017年10月11日 \nGoogle、Nexus/Pixel端末のサポート期間をヘルプページに記載 2017年06月13日 \nGoogle、Nexus/Pixel端末のセキュリティパッチ提供保証期限をヘルプページに明記 2017年04月30日 \nGoogleはAndroidの更新に関する問題をいつまで放置し続けるのか 2015年05月10日 \nほとんどのAndroid端末では「最新OS」を利用できない 2011年10月28日",
-          "link": "https://security.srad.jp/story/22/12/10/0813202/",
-          "publishedOn": "2022-12-10T10:10:00.000Z",
-          "wordCount": 3385,
-          "title": "スマートフォンのアップデート提供、購入時に重視する？",
-          "imageUrl": "https://srad.jp/static/topics/cellphones_64.png"
         }
       ]
     },
@@ -5845,6 +5845,26 @@
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
         {
+          "id": "https://news.mynavi.jp/techplus/article/20230108-2556320/",
+          "author": null,
+          "description": "Palo Alto Networksは1月6日(米国時間)、フリージャックキャンペーン「PurpleUrchin」の背後で活動しているサイバー攻撃グループ「Automated Libra」が使っているテクニックについて伝えた。同社は、このグループがどうやってCAPTCHAなどの技術を回避して自動的にアカウントを大量に作成しフリージャックを実現しているかを説明している。",
+          "link": "https://news.mynavi.jp/techplus/article/20230108-2556320/",
+          "publishedOn": "2023-01-08T11:34:26.000Z",
+          "wordCount": 1642,
+          "title": "CAPTCHA画像をコマンドの組み合わせで回避するサイバー攻撃グループに注意",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230108-2556320/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230208-2556305/",
+          "author": null,
+          "description": "Rackspaceは1月6日(米国時間)、2022年12月2日に発覚した「Rackspace Hosted Exchange電子メールインシデント」に関する調査結果を報告した。同社はこのサイバー攻撃が当時Microsoft Exchangeサーバのゼロデイの脆弱性だった「CVE-2022-41080」に関連して実施されたものと結論付けている。",
+          "link": "https://news.mynavi.jp/techplus/article/20230208-2556305/",
+          "publishedOn": "2023-01-08T08:35:33.000Z",
+          "wordCount": 1660,
+          "title": "Rackspaceのサイバー攻撃、原因はExchange Serverのゼロデイ脆弱性だった",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230208-2556305/ogp_images/ogp.jpg"
+        },
+        {
           "id": "https://news.mynavi.jp/techplus/article/20230108-2556535/",
           "author": null,
           "description": "Microsoftは1月5日(米国時間)、KeRanger、FileCoder、MacRansom、EvilQuestという4つのMacランサムウェアファミリーが使っている攻撃手法を紹介した。これらランサムウェアはMacのマルウェアファミリとしては古いものであり、ランサムウェアの典型的な攻撃手法を理解する上で参考になるといえる。",
@@ -7113,56 +7133,6 @@
           "wordCount": 1622,
           "title": "500万回以上ダウンロードのAndroidアプリからユーザー情報が流出",
           "imageUrl": "https://news.mynavi.jp/techplus/article/20221211-2533673/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20221210-2534056/",
-          "author": null,
-          "description": "Malwarebytesは12月7日(米国時間)、Androidのセキュリティに関する公開情報について伝えた。2022年12月のAndroidセキュリティ情報で最も深刻なのはSystemコンポーネントに存在する重大な脆弱性で、追加の実行権限なしにBluetooth経由でリモートコードが実行されてしまう危険性があり、注意が必要だという。",
-          "link": "https://news.mynavi.jp/techplus/article/20221210-2534056/",
-          "publishedOn": "2022-12-10T12:07:00.000Z",
-          "wordCount": 1644,
-          "title": "AndroidにBluetooth経由で任意のコードが実行される脆弱性あり",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20221210-2534056/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20221210-2532724/",
-          "author": null,
-          "description": "ESETは12月7日(米国時間)、持続的標的型攻撃(APT: Advanced Persistent Threat)グループに関連するワイパー型マルウェアおよび実行ツールを発見したと伝えた。イスラエルのコンサルティング企業およびダイヤモンド産業で使用されているソフトウェアのユーザーを標的にしたキャンペーンが展開されていることが明らかとなった。",
-          "link": "https://news.mynavi.jp/techplus/article/20221210-2532724/",
-          "publishedOn": "2022-12-10T10:29:37.000Z",
-          "wordCount": 1638,
-          "title": "イラン系サイバー攻撃グループ、イスラエルのダイヤモンド産業を攻撃",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20221210-2532724/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20221210-2533671/",
-          "author": null,
-          "description": "Malwarebytesはこのほど、メンテナンスされていないAndroidアプリに重大な脆弱性があるとして、注意を呼び掛けた。3種類のAndroidリモートマウス・キーボード用アプリ(合計インストール数約200万件)に複数の脆弱性が存在すると報告されており、これらのアプリはリモートコード実行の危険にさらされているが修正される兆候がないと説明されている。",
-          "link": "https://news.mynavi.jp/techplus/article/20221210-2533671/",
-          "publishedOn": "2022-12-10T05:43:53.000Z",
-          "wordCount": 1630,
-          "title": "脆弱性が修正される兆候がない3つのAndroidアプリに注意",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20221210-2533671/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20221210-2534465/",
-          "author": null,
-          "description": "フィッシング対策協議会(Council of Anti-Phishing Japan)は12月09日、オリコを偽るフィッシングの報告を受けていると伝えた。メールの件名としては、「オリコカード 　お支払い予定金額のご案内」「オリコカード 【重要:必ずお読みください】」など、10件以上確認されており注意が必要。",
-          "link": "https://news.mynavi.jp/techplus/article/20221210-2534465/",
-          "publishedOn": "2022-12-10T03:05:08.000Z",
-          "wordCount": 1660,
-          "title": "オリコを偽るフィッシング確認、注意を",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20221210-2534465/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20221210-2534058/",
-          "author": null,
-          "description": "Malwarebytesは12月8日(米国時間)、ネットギア製ルータのファームウェアのネットワーク設定に誤りがあり、IPv6を介してデバイスのインターネット向けポートで無制限の通信が可能であると伝えた。なお、発見された欠陥に対してすでにホットフィックスが提供されている。",
-          "link": "https://news.mynavi.jp/techplus/article/20221210-2534058/",
-          "publishedOn": "2022-12-10T01:42:54.000Z",
-          "wordCount": 1592,
-          "title": "ネットギア製ルータに重大な脆弱性、確認と更新を",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20221210-2534058/ogp_images/ogp.jpg"
         }
       ]
     }
