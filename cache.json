@@ -12,6 +12,56 @@
       "siteUrl": "https://www.jpcert.or.jp/",
       "articles": [
         {
+          "id": "https://www.jpcert.or.jp/wr/2023/wr230112.html#1",
+          "author": null,
+          "description": "FortiADCには、OSコマンドインジェクションの脆弱性があります。結果として、当該製品のWeb GUIにアクセス可能な第三者が、任意のコードまたはコマンドを実行する可能性があります。",
+          "link": "https://www.jpcert.or.jp/wr/2023/wr230112.html#1",
+          "publishedOn": "2023-01-12T00:03:00.000Z",
+          "wordCount": 544,
+          "title": "Weekly Report: FortiADCにOSコマンドインジェクションの脆弱性",
+          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
+        },
+        {
+          "id": "https://www.jpcert.or.jp/wr/2023/wr230112.html#2",
+          "author": null,
+          "description": "Synology VPN Plus Serverには、脆弱性があります。結果として、遠隔の第三者が任意のコードを実行する可能性があります。",
+          "link": "https://www.jpcert.or.jp/wr/2023/wr230112.html#2",
+          "publishedOn": "2023-01-12T00:03:00.000Z",
+          "wordCount": 544,
+          "title": "Weekly Report: Synology VPN Plus Serverに任意のコード実行の脆弱性",
+          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
+        },
+        {
+          "id": "https://www.jpcert.or.jp/wr/2023/wr230112.html#3",
+          "author": null,
+          "description": "デジタルアーツ株式会社が提供するm-FILTERには、特定の条件下においてメール送信時に認証不備の脆弱性があります。結果として、遠隔の第三者によって意図しないメールを送信される可能性があります。",
+          "link": "https://www.jpcert.or.jp/wr/2023/wr230112.html#3",
+          "publishedOn": "2023-01-12T00:03:00.000Z",
+          "wordCount": 544,
+          "title": "Weekly Report: デジタルアーツ製m-FILTERに認証不備の脆弱性",
+          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
+        },
+        {
+          "id": "https://www.jpcert.or.jp/wr/2023/wr230112.html#4",
+          "author": null,
+          "description": "Apache TomcatのJsonErrorReportValveクラスには、エスケープ処理不備の問題があります。結果として、JSON出力を無効化されたり、操作されたりする可能性があります。",
+          "link": "https://www.jpcert.or.jp/wr/2023/wr230112.html#4",
+          "publishedOn": "2023-01-12T00:03:00.000Z",
+          "wordCount": 544,
+          "title": "Weekly Report: Apache TomcatのJsonErrorReportValveにエスケープ処理不備の問題",
+          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
+        },
+        {
+          "id": "https://www.jpcert.or.jp/wr/2023/wr230112.html#5",
+          "author": null,
+          "description": "ruby-gitには、複数のコードインジェクションの脆弱性があります。結果として、任意のrubyコードを実行される可能性があります。",
+          "link": "https://www.jpcert.or.jp/wr/2023/wr230112.html#5",
+          "publishedOn": "2023-01-12T00:03:00.000Z",
+          "wordCount": 544,
+          "title": "Weekly Report: ruby-gitに複数のコードインジェクションの脆弱性",
+          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
+        },
+        {
           "id": "https://www.jpcert.or.jp/at/2023/at230002.html",
           "author": null,
           "description": "",
@@ -280,16 +330,6 @@
           "wordCount": 478,
           "title": "Weekly Report: バッファロー製ネットワーク機器に複数の脆弱性",
           "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
-        },
-        {
-          "id": "https://www.jpcert.or.jp/at/2022/at220032.html",
-          "author": null,
-          "description": "",
-          "link": "https://www.jpcert.or.jp/at/2022/at220032.html",
-          "publishedOn": "2022-12-13T01:42:00.000Z",
-          "wordCount": 356,
-          "title": "注意喚起: FortiOSのヒープベースのバッファーオーバーフローの脆弱性（CVE-2022-42475）に関する注意喚起  (公開)",
-          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
         }
       ]
     },
@@ -517,26 +557,6 @@
           "wordCount": 609,
           "title": "嘱託職員公募の情報を更新しました",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.ipa.go.jp/ikc/our_activities/dx.html",
-          "author": "情報処理推進機構（IPA）",
-          "description": "",
-          "link": "https://www.ipa.go.jp/ikc/our_activities/dx.html",
-          "publishedOn": "2022-12-13T05:30:00.000Z",
-          "wordCount": 347,
-          "title": "「プラットフォームデジタル化指標・DX実践手引書連携ガイド」改訂版の公開（旧名称：プラットフォームデジタル化指標　ITシステム構築ノウハウ参照ガイド）",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.ipa.go.jp/security/topics/alert20221213.html",
-          "author": "情報処理推進機構（IPA）",
-          "description": "年末年始における情報セキュリティに関する注意喚起",
-          "link": "https://www.ipa.go.jp/security/topics/alert20221213.html",
-          "publishedOn": "2022-12-13T02:05:00.000Z",
-          "wordCount": 151,
-          "title": "年末年始における情報セキュリティに関する注意喚起",
-          "imageUrl": null
         }
       ]
     },
@@ -658,6 +678,16 @@
       "feedUrl": "https://www.mcafee.com/blogs/feed/",
       "siteUrl": null,
       "articles": [
+        {
+          "id": "https://www.mcafee.com/blogs/?p=134239",
+          "author": "McAfee",
+          "description": "Social media is part of our social fabric. So much so that nearly 50% of the global population are social...\nThe post How to Protect Your Social Media Accounts appeared first on McAfee Blog.",
+          "link": "https://www.mcafee.com/blogs/privacy-identity-protection/how-to-protect-your-social-media-accounts/",
+          "publishedOn": "2023-01-11T16:24:25.000Z",
+          "wordCount": 3194,
+          "title": "How to Protect Your Social Media Accounts",
+          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2022/01/300x200_MFE_Blogs_011922_Blog.jpg"
+        },
         {
           "id": "https://www.mcafee.com/blogs/?p=163178",
           "author": "McAfee",
@@ -817,16 +847,6 @@
           "wordCount": 4056,
           "title": "How to Protect Yourself From Identity Theft After a Data Breach",
           "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2021/12/300x200_Blog_121822.png"
-        },
-        {
-          "id": "https://www.mcafee.com/blogs/?p=162740",
-          "author": "Life at McAfee",
-          "description": "Our How I Got Here series spotlights the stories of McAfee team members who have successfully grown their careers. Read more about...\nThe post Know Your Superpower: Brenda’s McAfee Journey appeared first on McAfee Blog.",
-          "link": "https://www.mcafee.com/blogs/other-blogs/life-at-mcafee/know-your-superpower-brendas-mcafee-journey/",
-          "publishedOn": "2022-12-13T17:47:55.000Z",
-          "wordCount": 2814,
-          "title": "Know Your Superpower: Brenda’s McAfee Journey",
-          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2022/12/Brenda-Blog-614-×-300px.png"
         }
       ]
     },
@@ -1047,26 +1067,6 @@
           "wordCount": 306,
           "title": "AWS 上での状態監視を強化する",
           "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs%3Agblogs/sites/2/improve-your-observability-on-aws-article-460x230.jpg"
-        },
-        {
-          "id": "https://gblogs.cisco.com/jp/?p=44270",
-          "author": "TALOS Japan",
-          "description": "Cisco Talos は最近、NVIDIA ドライバのシェーダ機能にメモリ破損の脆弱性を 2 件発見しました。",
-          "link": "https://gblogs.cisco.com/jp/2022/12/talos-vulnerability-spotlight-nvidia-driver-memory-corruption-vulnerabilities-discovered/",
-          "publishedOn": "2022-12-13T02:40:54.000Z",
-          "wordCount": 216,
-          "title": "注目の脆弱性：NVIDIA ドライバにメモリ破損の脆弱性を発見",
-          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/09AS89975_eyecatch-460x230.jpg"
-        },
-        {
-          "id": "https://gblogs.cisco.com/jp/?p=44202",
-          "author": "坂川 健太",
-          "description": "Cisco Secure Client は、AnyConnect、Secure Endpoint、Umbrella 等の Cisco エンドポイントエージェントを統合し、ユーザーエクスペリエンスの向上、迅速なイベント分析および検出を実現します。",
-          "link": "https://gblogs.cisco.com/jp/2022/12/cisco-secure-client-introduction/",
-          "publishedOn": "2022-12-13T00:45:23.000Z",
-          "wordCount": 314,
-          "title": "Cisco Secure Client ― SASE、XDR、Zero Trustを横断する統合エージェント",
-          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs%3Agblogs/sites/2/%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%E7%94%BB%E9%9D%A2-460x230.png"
         }
       ]
     },
@@ -1259,16 +1259,6 @@
           "wordCount": 3115,
           "title": "[Python] Google Directory API でグループ作成",
           "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2022/12/paku1210A1124_TP_V4.jpg"
-        },
-        {
-          "id": "https://tech-lab.sios.jp/?p=32161",
-          "author": "田中龍之介",
-          "description": "どもども平社員の龍ちゃんです。今回も「Google Apps Script」第4弾！です。今回は、これまでの集大成ともいえる窓口づくりになります。簡単にAPIを構築する手法を紹介します。今回も登場「以下の図」です。こちら [...]\nGoogle Apps Script 簡易API編　初心者向け first appeared on SIOS Tech. Lab.",
-          "link": "https://tech-lab.sios.jp/archives/32161",
-          "publishedOn": "2022-12-13T00:07:30.000Z",
-          "wordCount": 2683,
-          "title": "Google Apps Script 簡易API編　初心者向け",
-          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2022/12/Frame-61-2.png"
         }
       ]
     },
@@ -1283,6 +1273,16 @@
       "feedUrl": "https://eset-info.canon-its.jp/RSS.rdf",
       "siteUrl": "https://eset-info.canon-its.jp/",
       "articles": [
+        {
+          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/230112.html",
+          "author": null,
+          "description": "近年、セキュリティソフトやOSが発するセキュリティアラートに偽装する「フェイクアラート」を用いた被害が散見される。こうした手口を事前に把握しておくことで、被害遭遇の危険性を抑えることができる。この記事では、フェイクアラートを用いた被害を防ぐために押さえておきたい基礎知識を解説する。\n\n\n\n\n\nフェイクアラートとは\n\n近年、フェイクという言葉を聞く機会が増えている。フェイク動画、フェイクニュースなど「偽物」、「模造品」という文脈で用いられる。パソコンを利用している際に突如、表示されるセキュリティに関する警告がある。こうした警告の中で偽りのものは、「フェイクアラート」と呼ばれる。\n\nこのフェイクアラートは、次々と新しいものが生み出されては消えていく。なぜなら、その手口が報道により多くの人々に知られてしまうと、次第に騙せる「獲物」を得られなくなるためだ。従って、攻撃者は絶えず新たな手口を編み出している。\n\nフェイクアラートとして、これまでよく知られた手口を以下に挙げていく。ただし、さまざまなバリエーションが攻撃者によって次々と開発されているため、これら手法はあくまで参考として把握しておくようにしたい。\n\nWindowsセキュリティシステムが破損\n\nWindowsのセキュリティ機能を装い、マルウェア感染に至らせる手口だ。図1のような警告画面を表示し、「更新」や「続行」といったボタンをクリックするように促す。これらの要求に従ってボタンをクリックしてしまうと、マルウェアがダウンロード・インストールされてしまう。\n\n\n\n図1： Windowsセキュリティシステムが破損の表示例\n\n\n悪質なのは「〇〇秒以内に」といったように期限を設けて、速やかな行動を促すことだ。ITにあまり詳しくないユーザーの場合、こうした表示が出れば慌ててしまうだろう。攻撃者はユーザーをパニック状態に陥らせることを狙っている。冷静な対処が難しい心理状態を巧みに利用し、目的を達成しようとするのだ。\n\n「Windowsセキュリティシステムが破損」というアラートにご用心\n\nセキュリティアラート詐欺\n\nWebブラウザーでネット閲覧をしていると、突如としてマイクロソフト社のセキュリティセンターを騙る通知が表示される。そして、不快な警告音が鳴り響く。その状況を解決するためとして、図2のようにセキュリティセンターを騙る番号への電話連絡を要求する。\n\n\n\n図2： セキュリティアラート詐欺の表示例\n\n\n画面上に複数のダイアログが表示され、どのウィンドウの右上の「X」をクリックしても消すことができない。そのため、ユーザーは半ばパニック状態に陥ってしまう。その状況下で、目の前に表示される電話番号を救世主かのように捉えて発信してしまうのだ。この手の詐欺では、電話口でサポートを名乗る相手からオンラインギフトカードなどで数万円、ときには十万円を越える支払いを要求されることがある。\n\nマイクロソフトを装ったセキュリティアラートにご用心。騙されないための見抜き方とは？\n\niPhoneにおけるフェイクアラート\n\nこうしたフェイクアラートはWindowsパソコンに限ったものではない。iPhoneをはじめとした、スマートフォン（以下、スマホ）でも同様の被害が生じている。図3にもあるように、フェイクアラートはさまざまな理由を捏造してユーザーに行動を促す。\n\n\n\n図3：iPhoneにおけるフェイクアラートの表示例\n\n\nこの場合、「今すぐ修復」のボタンをクリックすることで、偽のセキュリティソフトのダウンロードへと誘導される。あくまでこうした表示がなされただけで、マルウェアに感染したわけではないため、当然ながらこうした偽のセキュリティソフトは購入しても意味をなさない。\n\nこのような偽アラートが表示された場合、いずれのケースにおいてもブラウザーの「戻る」では以前のページに戻ることはできないことが多い。そのため、ユーザーは危険な状況に陥ったという錯覚に囚われ、攻撃者の要求に従ってしまいがちなのだ。\n\nそのウイルス警告は本物ですか？iPhoneが発する警告表示の意味とは？\n\n正規のセキュリティソフトによる表示とは\n\nフェイクアラートを用いた詐欺に引っ掛かってしまう大きな要因の1つは、ユーザーが「マルウェアに感染してしまった」と勘違いさせられ、心理的なパニック状態に陥ることだ。心理的な視野狭窄に陥っていると言ってもよい。しかし、冷静になって判断すれば、フェイクアラートにはいずれの手口にも「不審」だと思える要素が残されている。そのためにも、OSのセキュリティ機能、あるいはセキュリティソフトが発する正規の警告表示を事前に把握しておくとよいだろう。\n\nWindowsパソコンの場合、Microsoft Defenderのような簡易的なアンチウイルスソフトが標準で備わっている。Microsoft Defenderでマルウェアを検知した場合、図4のような表示でユーザーに警告を促す。そして、マルウェアは自動的にバックグラウンドで削除される。\n\n\n\n図4： Microsoft Defenderによる脅威検出時の表示例\n\n\n一般的なセキュリティソフトの場合もほぼ同様に表示され、自動的にマルウェアは削除される。例えば、「ESET インターネット　セキュリティ」の場合だと、図5のような通知が表示され、マルウェアは検出と同時に削除される。\n\n\n\n図5：ESET インターネット セキュリティの脅威検出時の表示例\n\n\nセキュリティソフトはやっぱり必要と言い切れる3つの理由\n\nマルウェア感染時の表示内容を確認するには\n\n自分の利用しているパソコンやスマホで利用しているセキュリティソフトが、実際にマルウェアに感染した時にどういった挙動でどのような表示がされるのかと興味を持つユーザーも少なくないはずだ。しかし、本物のマルウェアファイルを取得して実機テストするというのは危険極まりない。\n\nマルウェア感染した場合の挙動を確認するという目的のために、セキュリティの研究機関であるEICARが「EICARテストファイル」というものを提供している。このファイルはセキュリティソフトのテスト用に作成されたテキストファイルで、ダウンロードしても感染などの被害は生じない。\n\nEICARテストファイルの入手方法は、EICARの公式サイトからダウンロードするか、指定の文字列をテキストエディターで作成し、ファイル名を指定のものにして保存するという方法になる。詳細な方法は以下のESET製品の「サポート情報」ページを参照するといいだろう。\n\nサポート情報：マルウェアを検出した際の動作を確認するには？\n\nフェイクアラートに騙されないためには、攻撃者の手口を判断できるようになることが重要だ。そのためにも先述のように、自分が利用しているセキュリティソフトで何が表示されるのかを把握しておくとよいだろう。\n\nそして、今後もより巧妙な手口のフェイクアラートが次々と生み出されることは想像に難くない。そのため、どのような詐欺の手口やマルウェアが流行しているのか、といった情報を信頼性の高い情報源で定期的にチェックするよう心掛けておきたい。",
+          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/230112.html",
+          "publishedOn": "2023-01-11T15:00:00.000Z",
+          "wordCount": 205,
+          "title": "本物のウイルス警告だと判断できる？把握しておくべき正常な警告とは",
+          "imageUrl": "https://eset-info.canon-its.jp/files/topics/4122_ext_01_0.jpg"
+        },
         {
           "id": "https://eset-info.canon-its.jp/malware_info/news/detail/230111_2.html",
           "author": null,
@@ -1452,26 +1452,6 @@
           "wordCount": 218,
           "title": "Windows更新プログラムを適用しないことで生じるリスクとは？",
           "imageUrl": "https://eset-info.canon-its.jp/files/topics/4101_ext_01_0.jpg"
-        },
-        {
-          "id": "https://eset-info.canon-its.jp/malware_info/news/detail/221214_2.html",
-          "author": null,
-          "description": "マイクロソフト社より、12月14日 にセキュリティ更新プログラムの情報が公開されました。 今回公開されたプログラムではセキュリティ面での深刻度「緊急」のものが8件含まれています。\n\n今後のこれらの脆弱性を悪用したマルウェアなどによる攻撃に備え、早期にセキュリティ更新プログラムの適用を推奨いたします。今回のセキュリティ更新プログラムで修正した脆弱性のうち、Windows SmartScreen のセキュリティ機能のバイパスの脆弱性は、既に悪用が行われていることが確認されていますので、早急に更新プログラムの適用を行ってください。\n\n【プログラム一覧】\n以下の情報は、マイクロソフト社のページからのものです。\n2022 年 12 月のセキュリティ更新プログラム (月例)\n\n更新プログラムの詳細はマイクロソフト社のページでご確認下さい。\n\n\n\t\n\t\t\n\t\t\t最大深刻度\n\t\t\t製品ファミリ\n\t\t\t最も大きな影響\n\t\t\n\t\t\n\t\t\t緊急\n\t\t\tWindows 11、v22H2\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t緊急\n\t\t\tWindows 10 v21H2、v21H1、v20H2\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t緊急\n\t\t\tWindows Server 2022 (Server Core installationを含む)\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t緊急\n\t\t\tWindows Server 2019、2016 (Server Core installationを含む)\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t緊急\n\t\t\tWindows 8.1、Windows Server 2012 R2, Windows Server 2012 (Server Core installationを含む)\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t重要\n\t\t\tMicrosoft Office\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t緊急\n\t\t\tMicrosoft SharePoint\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t重要\n\t\t\tMicrosoft.NET\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t重要\n\t\t\tMicrosoft Visual Studio\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t緊急\n\t\t\tMicrosoft Dynamics\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t緊急\n\t\t\tPowerShell\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t重要\n\t\t\tRemote Desktop client for Windows Desktop\n\t\t\t特権の昇格\n\t\t\n\t\t\n\t\t\t重要\n\t\t\tMicrosoft Azure-related software\n\t\t\t特権の昇格\n\t\t\n\t\n\n\nWindows Update などを用いて、セキュリティ更新プログラムを早急に適用しましょう。更新プログラムを適用することで、パソコンのセキュリティを保つことができます。",
-          "link": "https://eset-info.canon-its.jp/malware_info/news/detail/221214_2.html",
-          "publishedOn": "2022-12-13T15:00:00.000Z",
-          "wordCount": 253,
-          "title": "マイクロソフト社よりセキュリティ更新プログラム（2022年12月）が公開されました",
-          "imageUrl": "https://eset-info.canon-its.jp/files/user/images/common/sns_thumb.jpg"
-        },
-        {
-          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/221214.html",
-          "author": null,
-          "description": "インターネット使用時にWi-Fiのスピードが遅くなった経験はあるだろうか？ その考えられる原因と速度を改善する簡単な対処法について解説する。\n\n\nこの記事は、ESET社が運営するマルウェアやセキュリティに関する情報サイト「Welivesecurity」の記事を翻訳したものである。\n\n\n\n\n\n\nワイヤレス・インターネット接続は、現代の生活に欠かせないものとなった。Wi-Fiほどユビキタス（コンピュータやネットワークが生活に溶け込んでいる状態のこと）なプロトコルはないとも言える。ルーターを介して、スマートホームを含めた多くのデバイスと接続している。以前は、このようにインターネットへ接続される機器は1台か2台のノートパソコン、デスクトップパソコン、そして携帯電話に限られていた。\n\nしかし、今では無数のIoT（Internet of Things）機器がある。Wi-Fiはスマートテレビから家庭用監視カメラ、スマートドアベル、デジタルアシスタントにまで使われるようになった。すべての機器はインターネット接続が求められ、正しく機能させるのに高速な通信が必要となるものもある。\n\nしかし残念ながら、いつも高速なWi-Fi通信が利用できるわけではない。どこに問題があるのかを診断することが、通信遅延に対処するための第一歩となる。\n\nWi-Fiはスマートホームの中心に\n\n米国の平均的な家庭では、少なくとも10個のスマートデバイスを使用しているという調査がある。IoT機器は、我々の生活においてより重要な役割を担うようになった。また、自宅で働く人が増えるに従い、ノートパソコンやデスクトップパソコンを使用するのに高速なワイヤレス接続が必須となった。以前は、家族全員が朝9時から夕方5時まで外で働いていたが、今では複数の家族が１日中Wi-Fiを使用して仕事をするようになっていると考えられる。ビデオ会議をはじめ、通信において多くの帯域幅を占めるアプリケーションを使えるようにし、生産性を向上させるには高速通信が必要だ。\n\nしかし、Wi-Fiの電波は壁、あるいは、その他の物体によって遮断されたり、近隣の人に傍受されたりする場合がある。たとえWi-Fiが正常に動作していたとしても、インターネット接続が遅くなる要素は複数あるのだ。そこで、診断の最初のステップとして、ISP（インターネット・サービス・プロバイダー）が公開している最大速度を確認するところからはじめてみよう。そして、スピードテストで現在のWi-Fi速度を確認する。\n\nもし、これらの数字に大きな乖離があれば、その原因を調査してみるべきだ。\n\n\n\nWi-Fiに何が起きているのか？\n\nWi-Fiのインターネット接続が遅くなる主な要因には、以下のようなものがある。\n\nルーターの位置：使用している機器がルーターから離れ過ぎているか、物理的な障害物によって無線信号が遮断されている場合がある。Wi-Fiが遅くなる最も多い原因と言える。\n\nルーターの古さと状態：ルーター自体が古くなっているか、パフォーマンスに影響を及ぼし得る古いファームウェアとなっている。\n\n接続する機器の数：同時に接続しようとしている機器の数が多くなっており、自宅ネットワークへ過剰な負荷がかかっている。\n\n帯域を独占しているアプリケーション：ゲームのように多くの帯域を占めるアプリケーションをいずれかのデバイスが使用している場合、ほかの家族が影響を受けて遅延が発生している。\n\nWi-Fiの周波数帯とチャンネル：電波はさまざまな周波数帯域とチャンネルを使用している。近隣の住民が同じチャンネルを使っていると、その地域内で周波数帯域の容量を超えてしまっているかもしれない。ルーターが自動的にチャンネルを切り替えていなければ、干渉を避けるよう、手動で変更してみてほしい。5GHzの周波数帯域は、2.4GHzの周波数帯域に比べて、より多くのWi-Fiチャンネルが選択できる。後者の方が通信範囲は広いが、前者の方が速度は優れている。\n\nISPの帯域制限：インターネット・サービス・プロバイダーによっては、ネットワークが混雑している場合やデータ使用量が超過している場合、インターネット速度が制限される。\n\nWi-Fiの盗用：自宅のインターネット速度が遅くなるのは、意図せず使用している隣人だけではない。パスワードを推測して、Wi-Fi接続にタダ乗りする人もいる。\n\nVPN（Virtual Private Network）：プライバシーの向上には役立つが、使用している機器とインターネットの間でいくつかの処理が追加されるため、インターネット接続が遅くなる場合がある。\n\nマルウェア：デバイスが悪意のあるプログラムに不正侵入された場合、バックグラウンドでプログラムが動き、インターネットを介してほかの機器と通信することで、メモリーが不正に使用される。これらはすべてパフォーマンスの低下につながる。\n\nWi-Fiが遅くなったときに実施するべき対策\n\nWi-Fiが遅いときの対策としてすぐにできるものがいくつかある。それぞれ試してみた上で、通信速度が改善するかどうか検証してみると良いだろう。\n\n\n\t自宅の中心など各機器がアクセスしやすい場所にルーターを置く\n\t過剰な負荷がかかっている場合を考慮し、Wi-Fiの周波数帯域かチャンネルを変更する\n\t自宅の離れた場所でも電波を強化するため、メッシュWi-Fiの購入を検討する\n\tルーターを再起動するか、利用可能な最新のファームウェアをインストールする。ファームウェアの更新は、定期的に実施するべきだ\n\t現在のルーターを新しいものに交換することを検討する\n\tISPを乗り換える、または、回線の契約をアップグレードする\n\t自宅のネットワークに接続している機器の数を確認し、使用していないものは接続を切る\n\t帯域を占めるアプリケーションや、バックグラウンドで動作しているタスクを止める\n\t複雑でユニークな管理パスワード・Wi-Fiパスワードを設定していることを確認する\n\tWindowsの電源オプションを「高パフォーマンス」に設定する\n\tVPNを使用している場合、より最適化されたVPNのバージョンへの更新を検討する\n\n\n安全・安心を確保する\n\n先述のとおり、マルウェアはパソコンやデバイスで密かに実行され、帯域やCPUを独占し、Wi-Fiのパフォーマンスを悪化させる。このような事態が発生するリスクを最小限に抑えるには、次の方法がある。\n\n\n\tすべてのデバイスで、工場出荷状態のままで放置されたパスワードを変更する\n\tWi-Fiパスワードを長く、複雑でユニークなものに設定する\n\tデバイスやノートパソコンを保護するよう、信頼できるベンダーのセキュリティソフトを導入する\n\t接続時にVPNを使用する\n\tルーターを含めた各デバイスにおいて、最新のファームウェアに更新する\n\t通信の暗号化が有効化されていることを確認する（WPA2、またはWPA3が望ましい）\n\n\nWi-Fiが遅くなった根本的な原因を突き止めるには試行錯誤が必要だ。今回紹介したチェックリストを活用してみてほしい。",
-          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/221214.html",
-          "publishedOn": "2022-12-13T15:00:00.000Z",
-          "wordCount": 227,
-          "title": "Wi-Fiの通信速度が遅くなる理由とは？どうしたら速くできる？",
-          "imageUrl": "https://eset-info.canon-its.jp/files/topics/4094_ext_01_0.jpg"
         }
       ]
     },
@@ -1498,6 +1478,16 @@
       "siteUrl": "https://blogs.trellix.jp",
       "articles": [
         {
+          "id": "https://blogs.trellix.jp/?p=18198",
+          "author": "mcafee_admin",
+          "description": "この時期であれば、NAUGHTYリスト*ともいうべき、バグレポートへようこそ！ホリデーシーズンには、ツリーの下のプレゼントに重大なバグが隠されているものですが、そのうち2件はまだ謎のままです。休暇中はサイバー脅威も停止す […]",
+          "link": "https://blogs.trellix.jp/the-bug-report-december-2022-edition",
+          "publishedOn": "2023-01-12T05:46:37.000Z",
+          "wordCount": 508,
+          "title": "バグレポート| 2022年12月",
+          "imageUrl": "https://blogs.trellix.jp/wp-content/uploads/2022/09/Door-IoT_eye.jpg"
+        },
+        {
           "id": "https://blogs.trellix.jp/?p=17847",
           "author": "mcafee_admin",
           "description": "LockBitは、ここ数年、世界中で大混乱を巻き起こしている非常に有名なランサムウェアの一群です。2022年3月、このランサムウェアの新たな亜種が発見されました。LockBit3.0は、LockBitファミリーの以前のコ […]",
@@ -1514,6 +1504,28 @@
       "feedUrl": "https://www.nic.ad.jp/ja/index.xml",
       "siteUrl": "https://www.nic.ad.jp/",
       "articles": [
+        {
+          "id": "https://www.nic.ad.jp/ja/stat/ip/20230112.html",
+          "author": null,
+          "description": "",
+          "link": "https://www.nic.ad.jp/ja/stat/ip/20230112.html",
+          "publishedOn": "2023-01-12T02:58:27.000Z",
+          "wordCount": null,
+          "title": "[Web更新]JPNICが管理するIPアドレス・AS番号・IRRサービスに関する統計を更新　2022年12月のデータを追加",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nic.ad.jp/ja/materials/iw/ondemand/#governance2",
+          "author": null,
+          "description": "",
+          "link": "https://www.nic.ad.jp/ja/materials/iw/ondemand/#governance2",
+          "publishedOn": "2023-01-12T01:11:06.000Z",
+          "wordCount": null,
+          "title": "[Web更新]『インターネットガバナンスその2 「基盤運営機構の発達の変遷」編』の動画をInternet Week Basicオンデマンドに掲載",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.nic.ad.jp/ja/materials/iw/ondemand/#governance",
           "author": null,
@@ -1810,39 +1822,6 @@
           "title": "[トピックス]障害復旧報告：JPNIC WHOISの更新遅延について",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2022/vol1965.html",
-          "author": null,
-          "description": "",
-          "link": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2022/vol1965.html",
-          "publishedOn": "2022-12-13T09:13:53.000Z",
-          "wordCount": null,
-          "title": "[メルマガ]vol.1965:【臨時号】ICANN理事在任の6年間を振り返って",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nic.ad.jp/ja/stat/ip/",
-          "author": null,
-          "description": "",
-          "link": "https://www.nic.ad.jp/ja/stat/ip/",
-          "publishedOn": "2022-12-13T07:28:42.000Z",
-          "wordCount": null,
-          "title": "[Web更新]IPアドレスに関する統計・各種リスト以下のグラフを更新　2022年11月のデータを追加",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nic.ad.jp/ja/materials/igf/20221026/",
-          "author": null,
-          "description": "",
-          "link": "https://www.nic.ad.jp/ja/materials/igf/20221026/",
-          "publishedOn": "2022-12-13T06:50:15.000Z",
-          "wordCount": null,
-          "title": "[Web更新]日本インターネットガバナンスフォーラム2022の資料を掲載",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -1884,6 +1863,16 @@
       "feedUrl": "https://www.cisa.gov/uscert/ncas/current-activity.xml",
       "siteUrl": "https://us-cert.cisa.gov/",
       "articles": [
+        {
+          "id": "18269 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: January 11, 2023\nThe United Kingdom’s National Cyber Security Centre (NCSC-UK) has released a blog post, Using MSPs to administer your cloud services, that provides organizations security considerations for using a third party, such as a managed service provider (MSP), to administer cloud services. Contracting with an MSP for cloud service management has become an increasingly appealing option for organizations.\nThe post discusses the trade-offs involved as well as specific security checks organizations should make to confirm the MSP’s ability to defend against cyber threats.\nCISA encourages organizations using MSPs for administering cloud services to implement the guidance NCSC-UK provides in the blog post.\nThis product is provided subject to this Notification and this Privacy & Use policy.",
+          "link": "https://us-cert.cisa.gov/ncas/current-activity/2023/01/11/ncsc-uk-releases-guidance-using-msp-administering-cloud-services",
+          "publishedOn": "2023-01-11T19:37:45.000Z",
+          "wordCount": 1018,
+          "title": "NCSC-UK Releases Guidance on Using MSP for Administering Cloud Services",
+          "imageUrl": null
+        },
         {
           "id": "18268 at https://us-cert.cisa.gov",
           "author": "CISA",
@@ -2043,86 +2032,6 @@
           "wordCount": 986,
           "title": "Apple Releases Security Updates for Multiple Products",
           "imageUrl": null
-        },
-        {
-          "id": "18211 at https://us-cert.cisa.gov",
-          "author": "CISA",
-          "description": "Original release date: December 13, 2022\nMicrosoft has released updates to address multiple vulnerabilities in Microsoft software. An attacker can exploit some of these vulnerabilities to take control of an affected system.\nCISA encourages users and administrators to review Microsoft’s December 2022 Security Update Guide and Deployment Information and apply the necessary updates.\nThis product is provided subject to this Notification and this Privacy & Use policy.",
-          "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/12/13/microsoft-releases-december-2022-security-updates",
-          "publishedOn": "2022-12-13T19:43:28.000Z",
-          "wordCount": 949,
-          "title": "Microsoft Releases December 2022 Security Updates",
-          "imageUrl": null
-        },
-        {
-          "id": "18199 at https://us-cert.cisa.gov",
-          "author": "CISA",
-          "description": "Original release date: December 13, 2022\nThe Federal Bureau of Investigation (FBI) and CISA have updated joint Cybersecurity Advisory AA22-335A: #StopRansomware: Cuba Ransomware, originally released on December 01, 2022. The advisory has been updated to include additional indicators of compromise (IOCs).\nCISA encourages organizations to review the latest update to AA22-335A and apply the recommended mitigations.\nThis product is provided subject to this Notification and this Privacy & Use policy.",
-          "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/12/13/cisa-updates-advisory-stopransomware-cuba-ransomware",
-          "publishedOn": "2022-12-13T17:59:00.000Z",
-          "wordCount": 955,
-          "title": "CISA Updates Advisory on #StopRansomware: Cuba Ransomware",
-          "imageUrl": null
-        },
-        {
-          "id": "18210 at https://us-cert.cisa.gov",
-          "author": "CISA",
-          "description": "Original release date: December 13, 2022\nCitrix has released security updates to address a critical vulnerability (CVE-2022-27518) in Citrix ADC and Citrix Gateway. An attacker could exploit this vulnerability to take control of an affected system. This vulnerability has been exploited in the wild.\nCISA encourages users and administrators to review Citrix security bulletin CTX457836 and Citrix’s blog post for more information and to apply the necessary updates. Additionally, CISA urges organizations to review NSA’s advisory APT5: Citrix ADC Threat Hunting Guidance for detection and mitigation guidance against tools employed by a malicious actor targeting vulnerable Citrix ADC systems.\nThis product is provided subject to this Notification and this Privacy & Use policy.",
-          "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/12/13/citrix-releases-security-updates-citrix-adc-citrix-gateway",
-          "publishedOn": "2022-12-13T17:02:31.000Z",
-          "wordCount": 1004,
-          "title": "Citrix Releases Security Updates for Citrix ADC, Citrix Gateway",
-          "imageUrl": null
-        },
-        {
-          "id": "18209 at https://us-cert.cisa.gov",
-          "author": "CISA",
-          "description": "Original release date: December 13, 2022\nMozilla has released security updates to address vulnerabilities in Thunderbird, Firefox ESR, and Firefox. An attacker could exploit these vulnerabilities to take control of an affected system. \nCISA encourages users and administrators to review Mozilla’s security advisories for Thunderbird 102.6, Firefox ESR 102.6, and Firefox 108 for more information and apply the necessary updates.\nThis product is provided subject to this Notification and this Privacy & Use policy.",
-          "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/12/13/mozilla-releases-security-updates-thunderbird-and-firefox",
-          "publishedOn": "2022-12-13T17:00:47.000Z",
-          "wordCount": 962,
-          "title": "Mozilla Releases Security Updates for Thunderbird and Firefox",
-          "imageUrl": null
-        },
-        {
-          "id": "18207 at https://us-cert.cisa.gov",
-          "author": "CISA",
-          "description": "Original release date: December 13, 2022\nVVMware has released security updates to address multiple vulnerabilities in multiple products. A remote attacker could exploit some of these vulnerabilities to take control of an affected system.\nCISA encourages users and administrators to review VMware Security Advisories VMSA-2022-0031, VMSA-2022-0033, and apply the necessary updates.\nThis product is provided subject to this Notification and this Privacy & Use policy.",
-          "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/12/13/vmware-releases-security-updates-multiple-products",
-          "publishedOn": "2022-12-13T16:56:22.000Z",
-          "wordCount": 950,
-          "title": "VMware Releases Security Updates for Multiple products",
-          "imageUrl": null
-        },
-        {
-          "id": "18208 at https://us-cert.cisa.gov",
-          "author": "CISA",
-          "description": "Original release date: December 13, 2022\nCISA has added five new vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation. These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose a significant risk to the federal enterprise. Note: To view newly added vulnerabilities in the catalog, click on the arrow in the \"Date Added to Catalog\" column, which will sort by descending dates.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known CVEs that carry significant risk to the federal enterprise. BOD 22-01 requires FCEB agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.\nAlthough BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the Catalog that meet the specified criteria.\nThis product is provided subject to this Notification and this Privacy & Use policy.",
-          "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/12/13/cisa-adds-five-known-exploited-vulnerabilities-catalog",
-          "publishedOn": "2022-12-13T16:42:06.000Z",
-          "wordCount": 1083,
-          "title": "CISA Adds Five Known Exploited Vulnerabilities to Catalog",
-          "imageUrl": null
-        },
-        {
-          "id": "18206 at https://us-cert.cisa.gov",
-          "author": "CISA",
-          "description": "Original release date: December 13, 2022\nToday, the National Security Agency (NSA), CISA, and the Office of the Director of National Intelligence (ODNI), published Potential Threats to 5G Network Slicing. This guidance—created by the Enduring Security Framework (ESF), a public-private cross-sector working group led by the NSA and CISA—presents both the benefits and risks associated with 5G network slicing. It also provides mitigation strategies that address potential threats to 5G network slicing. The guidance builds upon ESF’s Potential Threat Vectors to 5G Infrastructure, published in 2021.\nCISA encourages 5G providers, integrators, and network operators to review this guidance and implement the recommended mitigations. For additional 5G guidance, visit CISA.gov/5G-library.\nThis product is provided subject to this Notification and this Privacy & Use policy.",
-          "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/12/13/nsa-cisa-and-odni-release-guidance-potential-threats-5g-network",
-          "publishedOn": "2022-12-13T13:51:42.000Z",
-          "wordCount": 1026,
-          "title": "NSA, CISA, and ODNI Release Guidance on Potential Threats to 5G Network Slicing",
-          "imageUrl": null
-        },
-        {
-          "id": "18205 at https://us-cert.cisa.gov",
-          "author": "CISA",
-          "description": "Original release date: December 13, 2022\nCISA has released three (3) Industrial Control Systems (ICS) advisories on December 13, 2022. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.\nCISA encourages users and administrators to review the newly released ICS advisories for technical details and mitigations:\n•    ICSA-22-347-01 ICONICS and Mitsubishi Electric Products\nSchneider Electric APC Easy UPS Online\nContec CONPROSSYS HMI System (CHS)\nThis product is provided subject to this Notification and this Privacy & Use policy.",
-          "link": "https://us-cert.cisa.gov/ncas/current-activity/2022/12/13/cisa-releases-three-industrial-control-systems-advisories",
-          "publishedOn": "2022-12-13T13:37:20.000Z",
-          "wordCount": 972,
-          "title": "CISA Releases Three Industrial Control Systems Advisories",
-          "imageUrl": null
         }
       ]
     },
@@ -2137,6 +2046,16 @@
       "feedUrl": "https://jvn.jp/rss/jvn.rdf",
       "siteUrl": "https://jvn.jp/",
       "articles": [
+        {
+          "id": "https://jvn.jp/jp/JVN57296685/",
+          "author": "jvn@jvn.jp",
+          "description": "株式会社ピクセラが提供する PIX-RT100 には、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN57296685/",
+          "publishedOn": "2023-01-12T05:00:00.000Z",
+          "wordCount": 114,
+          "title": "ピクセラ製 PIX-RT100 における複数の脆弱性",
+          "imageUrl": null
+        },
         {
           "id": "https://jvn.jp/jp/JVN99957889/",
           "author": "jvn@jvn.jp",
@@ -2566,166 +2485,6 @@
           "wordCount": 1669,
           "title": "Siemens 製品に対するアップデート（2020年4月）",
           "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU96381485/",
-          "author": "jvn@jvn.jp",
-          "description": "OpenSSLには、複数の脆弱性が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU96381485/",
-          "publishedOn": "2022-12-13T05:30:00.000Z",
-          "wordCount": 108,
-          "title": "OpenSSLに複数の脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU95858406/",
-          "author": "jvn@jvn.jp",
-          "description": "三菱電機株式会社が提供するGENESIS64のプロジェクト管理機能には、パストラバーサルの脆弱性が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU95858406/",
-          "publishedOn": "2022-12-13T03:15:00.000Z",
-          "wordCount": 117,
-          "title": "三菱電機製GENESIS64のプロジェクト管理機能におけるパストラバーサルの脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/jp/JVN60211811/",
-          "author": "jvn@jvn.jp",
-          "description": "Redmine には、クロスサイトスクリプティングの脆弱性が存在します。",
-          "link": "https://jvn.jp/jp/JVN60211811/",
-          "publishedOn": "2022-12-13T03:00:00.000Z",
-          "wordCount": 186,
-          "title": "Redmine におけるクロスサイトスクリプティングの脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU92327282/",
-          "author": "jvn@jvn.jp",
-          "description": "株式会社コンテックが提供するSolarView Compactには、複数の脆弱性が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU92327282/",
-          "publishedOn": "2022-12-13T01:30:00.000Z",
-          "wordCount": 135,
-          "title": "コンテック製SolarView Compactにおける複数の脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU94306894/",
-          "author": "jvn@jvn.jp",
-          "description": "The Apache Software Foundationから、Apache HTTP Server 2.4系における複数の脆弱性に対応したApache HTTP Server 2.4.54が公開されました。",
-          "link": "https://jvn.jp/vu/JVNVU94306894/",
-          "publishedOn": "2022-12-13T01:00:11.000Z",
-          "wordCount": 141,
-          "title": "Apache HTTP Server 2.4における複数の脆弱性に対するアップデート",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU90813125/",
-          "author": "jvn@jvn.jp",
-          "description": "OpenSSLのBN_mod_sqrt()には、法が非素数の場合、無限ループを引き起こす問題があります。",
-          "link": "https://jvn.jp/vu/JVNVU90813125/",
-          "publishedOn": "2022-12-13T01:00:10.000Z",
-          "wordCount": 122,
-          "title": "OpenSSLのBN_mod_sqrt()における法が非素数のときに無限ループを引き起こす問題",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU99602154/",
-          "author": "jvn@jvn.jp",
-          "description": "The Apache Software Foundationから、Apache HTTP Server 2.4系における複数の脆弱性に対応したApache HTTP Server 2.4.53が公開されました。",
-          "link": "https://jvn.jp/vu/JVNVU99602154/",
-          "publishedOn": "2022-12-13T01:00:09.000Z",
-          "wordCount": 131,
-          "title": "Apache HTTP Server 2.4における複数の脆弱性に対するアップデート",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU96768815/",
-          "author": "jvn@jvn.jp",
-          "description": "Log4jにはJNDI Lookup機能による外部入力値の検証不備に起因して任意のJavaコードを実行可能な脆弱性が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU96768815/",
-          "publishedOn": "2022-12-13T01:00:08.000Z",
-          "wordCount": 305,
-          "title": "Apache Log4jにおける任意のコードが実行可能な脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU99612123/",
-          "author": "jvn@jvn.jp",
-          "description": "OpenSSLには、複数の脆弱性が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU99612123/",
-          "publishedOn": "2022-12-13T01:00:07.000Z",
-          "wordCount": 130,
-          "title": "OpenSSLに複数の脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU97014415/",
-          "author": "jvn@jvn.jp",
-          "description": "The Apache Software Foundation から、Apache Tomcat の脆弱性に対するアップデートが公開されました。",
-          "link": "https://jvn.jp/vu/JVNVU97014415/",
-          "publishedOn": "2022-12-13T01:00:06.000Z",
-          "wordCount": 190,
-          "title": "Apache Tomcat に対するアップデート",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU96136392/",
-          "author": "jvn@jvn.jp",
-          "description": "Apache Tomcat には、Java API の実装不備に起因する情報漏えいの脆弱性が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU96136392/",
-          "publishedOn": "2022-12-13T01:00:05.000Z",
-          "wordCount": 152,
-          "title": "Apache Tomcat における Java API の実装不備に起因する情報漏えいの脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU94251682/",
-          "author": "jvn@jvn.jp",
-          "description": "Apache Tomcat には、 HTTP/2 リクエスト処理の不備に起因する情報漏えいの脆弱性が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU94251682/",
-          "publishedOn": "2022-12-13T01:00:04.000Z",
-          "wordCount": 131,
-          "title": "Apache Tomcat における HTTP/2 リクエスト処理の不備に起因する情報漏えいの脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU97307781/",
-          "author": "jvn@jvn.jp",
-          "description": "Apache Tomcat には、 HTTP/2 リクエスト処理の不備に起因する情報漏えいの脆弱性が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU97307781/",
-          "publishedOn": "2022-12-13T01:00:03.000Z",
-          "wordCount": 140,
-          "title": "Apache Tomcat における HTTP/2 リクエスト処理の不備に起因する情報漏えいの脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU92184689/",
-          "author": "jvn@jvn.jp",
-          "description": "The Apache Software Foundation から、Apache HTTP Web Server 2.4 系における複数の脆弱性に対応した Apache HTTP Web Server 2.4.46 が公開されました。",
-          "link": "https://jvn.jp/vu/JVNVU92184689/",
-          "publishedOn": "2022-12-13T01:00:02.000Z",
-          "wordCount": 200,
-          "title": "Apache HTTP Web Server 2.4 における複数の脆弱性に対するアップデート",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU98487886/",
-          "author": "jvn@jvn.jp",
-          "description": "GRUB2 ブートローダにはヒープベースのバッファオーバーフローの脆弱性 (CWE-122) が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU98487886/",
-          "publishedOn": "2022-12-13T01:00:01.000Z",
-          "wordCount": 175,
-          "title": "GRUB2 にバッファオーバーフローの脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU96390265/",
-          "author": "jvn@jvn.jp",
-          "description": "The Apache Software Foundation から、Apache Tomcat の脆弱性に対するアップデートが公開されました。",
-          "link": "https://jvn.jp/vu/JVNVU96390265/",
-          "publishedOn": "2022-12-13T01:00:00.000Z",
-          "wordCount": 176,
-          "title": "Apache Tomcat における複数のサービス運用妨害 (DoS) の脆弱性",
-          "imageUrl": null
         }
       ]
     },
@@ -2778,6 +2537,16 @@
       "feedUrl": "https://srad.jp/security.rss",
       "siteUrl": "https://security.srad.jp/",
       "articles": [
+        {
+          "id": "https://security.srad.jp/story/23/01/11/1255210/",
+          "author": "nagazou",
+          "description": "headless 曰く、Microsoft は日本時間 11 日、Windows 8.1 最後の更新プログラムとなる KB5022352 (月次ロールアップ) および KB5022346 (セキュリティのみの更新プログラム) を提供開始した。\n\nこれをもって Windows 8.1 の延長サポートは終了し、テクニカルアシスタンスとソフトウェア更新プログラムが提供されなくなる。Windows 8.1 では有償の拡張セキュリティ更新プログラム (ESU) が提供されないため、デバイスのセキュリティを維持するにはサービス期間内の新しいバージョンの Windows にアップグレードする必要がある。デバイスが新しいバージョンの Windows でサポートされない場合、Microsoft は Windows 11 マシンへの置き換えを推奨している\n(Microsoft サポートの記事)。なお、Windows Server 2012 / 2012 R2 の延長サポートは 10 月まで、以降 2026 年 10 月まで ESU が提供される。\n\n一方、Windows 7 (Professional および Enterprise) / Server 2008 R2 では同日提供が始まった KB5022338 (月次ロールアップ) およびKB5022339 (セキュリティのみの更新プログラム)をもって ESU の 3 年目が終了\n(製品ライフサイクルに関するFAQ — 拡張セキュリティ更新プログラム)。ESU は最大 3 年間となっているため、Windows 7 / Server 2008 R2 の更新プログラム提供も今回で終了となる。こちらも Windows をサービス期間内のバージョンにアップグレードするか、デバイス自体を置き換える必要がある。\n すべて読む | セキュリティセクション | アップグレード | セキュリティ | Windows |     \n  関連ストーリー： \nWindows Server 2012/2012 R2は10月で延長サポート終了 2023年01月10日 \nWindows 7、Windowsバージョン別シェアで10%を超えたまま2022年を終える 2023年01月06日 \nWindows 11 のライセンス認証に使える Windows 7 のプロダクトキー 2022年12月10日 \nChrome、Windows 7/8.1でWindows 10以降へのアップグレード推奨を開始 2022年12月09日 \nWindows 8.1 ユーザーには Windows 11 プリインストール PC がおすすめ 2022年11月18日",
+          "link": "https://security.srad.jp/story/23/01/11/1255210/",
+          "publishedOn": "2023-01-12T04:03:00.000Z",
+          "wordCount": 2383,
+          "title": "Windows 8.1 サポート終了、Windows 7 ESU 終了",
+          "imageUrl": "https://srad.jp/static/topics/windows_64.png"
+        },
         {
           "id": "https://security.srad.jp/story/23/01/09/155249/",
           "author": "nagazou",
@@ -2995,6 +2764,86 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/01/12/48760.html",
+          "author": null,
+          "description": "こんな「トンデモ仮説」が浮かんでしまったのは、2022 年 12 月に公開されたとあるプレスリリースに目を通して、それをもとにいろいろ考えたことがきっかけだった。無料セキュリティプラットフォーム「S4（エスフォー）」の運営費用の公開である。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/01/12/48760.html",
+          "publishedOn": "2023-01-11T23:15:03.000Z",
+          "wordCount": 1054,
+          "title": "サプライチェーンリスク対策として一億円を超える「赤字」投資を行わんとする宮崎県の一民間企業",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40275.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/01/12/48759.html",
+          "author": null,
+          "description": "2022 年も既知の脅威グループと技術的側面でのリンクの無い攻撃活動が散見されており、特定国家が実施するサイバー攻撃活動に関与するハッカーが確実に増加している可能性がありそうです。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/01/12/48759.html",
+          "publishedOn": "2023-01-11T23:10:02.000Z",
+          "wordCount": 1091,
+          "title": "富士通「Smart City 5G」等ソースコード流出か／長江メモリがエンティティリスト入り／検索エンジン悪用攻撃 FBI 警告 ほか [Scan PREMIUM Monthly Executive Summary 2022年12月度]",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40276.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/01/12/48758.html",
+          "author": null,
+          "description": "アフラック生命保険株式会社は1月10日、同社が業務委託する外部業者での個人情報の一部流出について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/01/12/48758.html",
+          "publishedOn": "2023-01-11T23:05:11.000Z",
+          "wordCount": 774,
+          "title": "アフラック「新がん保険」「スーパーがん保険」「スーパーがん保険Vタイプ」加入者情報漏えい、1月7日に外部業者に不正アクセス",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40280.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/01/12/48757.html",
+          "author": null,
+          "description": "佐川急便株式会社は1月5日、顧客の個人情報の不正利用について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/01/12/48757.html",
+          "publishedOn": "2023-01-11T23:05:08.000Z",
+          "wordCount": 772,
+          "title": "個人情報目的外利用 佐川急便の従業員が複数の顧客に電話",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40257.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/01/12/48756.html",
+          "author": null,
+          "description": "チューリッヒ保険会社は1月10日、同社が保有する顧客の個人情報の一部が漏えいしたと発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/01/12/48756.html",
+          "publishedOn": "2023-01-11T23:05:05.000Z",
+          "wordCount": 769,
+          "title": "チューリッヒ「スーパー自動車保険」加入者の情報が漏えい、外部委託業者が不正アクセス被害",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40277.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/01/12/48755.html",
+          "author": null,
+          "description": "新潟県見附市は12月26日、市立小学校でのUSBメモリ紛失について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/01/12/48755.html",
+          "publishedOn": "2023-01-11T23:05:02.000Z",
+          "wordCount": 779,
+          "title": "家でUSBメモリ紛失、職場同僚ら 二日間にわたり自宅内外を立ち入り捜索",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40249.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/01/12/48754.html",
+          "author": null,
+          "description": "特定非営利活動法人日本セキュリティ監査協会は1月6日、「情報セキュリティ監査人が選ぶ2023年の情報セキュリティ十大トレンド」をとりまとめ公表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/01/12/48754.html",
+          "publishedOn": "2023-01-11T23:00:08.000Z",
+          "wordCount": 790,
+          "title": "SBOM普及に期待、ランサムがあぶりだすダメ経営者 ほか ～ JASA 2023 セキュリティ十大トレンド",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/01/12/48753.html",
+          "author": null,
+          "description": "損害保険ジャパン株式会社は1月6日、イスラエルの Parametrix Ltd.（パラメトリックス社）の技術をシステムダウンリスクを補償する複数保険商品の引受業務に活用すると発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/01/12/48753.html",
+          "publishedOn": "2023-01-11T23:00:03.000Z",
+          "wordCount": 777,
+          "title": "損保ジャパン、Parametrix社の技術をクラウドのシステムダウン補償保険商品に活用",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2023/01/11/48752.html",
           "author": null,
@@ -4254,56 +4103,6 @@
           "wordCount": 746,
           "title": "イエラエ、Web3サービスのリスクを評価する「NFT・ブロックチェーン脆弱性診断」を提供",
           "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2022/12/13/48626.html",
-          "author": null,
-          "description": "洗練度の高い、とても息の長い方法で、世界的に悪意のある広告を配信している脅威集団がある。オールドドメインというものを使って、サイバーセキュリティツールを突破し、投資詐欺で被害者を生み出しているのだ。",
-          "link": "https://scan.netsecurity.ne.jp/article/2022/12/13/48626.html",
-          "publishedOn": "2022-12-12T23:10:02.000Z",
-          "wordCount": 811,
-          "title": "４８６件所有 中には２００６年物熟成も ～ 資金と時間に恵まれたサイバー犯罪者の手法「ドメイン熟成」",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40025.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2022/12/13/48625.html",
-          "author": null,
-          "description": "合資会社ビーンズゴトーは12月8日、同社が運営する「珈琲の王国Beans510」への不正アクセスによる個人情報漏えいについて発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2022/12/13/48625.html",
-          "publishedOn": "2022-12-12T23:05:02.000Z",
-          "wordCount": 718,
-          "title": "「珈琲の王国Beans510」に不正アクセス、カード情報が漏えい",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40006.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2022/12/13/48624.html",
-          "author": null,
-          "description": "株式会社Flatt Securityは12月8日、セキュリティとプロダクト開発の今を伝えるオウンドメディア「#FlattSecurityMagazine」を同日リリースしたと発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2022/12/13/48624.html",
-          "publishedOn": "2022-12-12T23:00:12.000Z",
-          "wordCount": 745,
-          "title": "セキュア開発のオウンドメディア「#FlattSecurityMagazine」公開",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2022/12/13/48623.html",
-          "author": null,
-          "description": "株式会社サイバーセキュリティクラウドは12月9日、企業の業績と「サイバー防御力」に関する調査結果を発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2022/12/13/48623.html",
-          "publishedOn": "2022-12-12T23:00:08.000Z",
-          "wordCount": 725,
-          "title": "企業の業績が下がるほどサイバー防御力が不十分な結果に",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40011.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2022/12/13/48622.html",
-          "author": null,
-          "description": "大日本印刷株式会社（DNP）は12月8日、東京都の「令和4年度サイバーセキュリティ人材育成支援委託」事業に採用されたと発表した。DNPでは、2020年度から2年連続で東京都の「サイバーセキュリティ人材育成」の支援をしており、今年度も職層別の教育プログラムを提供する。",
-          "link": "https://scan.netsecurity.ne.jp/article/2022/12/13/48622.html",
-          "publishedOn": "2022-12-12T23:00:03.000Z",
-          "wordCount": 722,
-          "title": "東京都全職員4万人に職種別セキュリティ研修実施",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
         }
       ]
     },
@@ -4312,6 +4111,46 @@
       "feedUrl": "https://rss.itmedia.co.jp/rss/2.0/news_security.xml",
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2301/12/news144.html",
+          "author": null,
+          "description": "「TOEIC」を実施する国際ビジネスコミュニケーション協会は、TOEIC申し込みサイトにおいて不正アクセスが発生したと明らかにした。会員の氏名や住所、メールアドレスなどが閲覧された可能性がある。",
+          "link": "https://www.itmedia.co.jp/news/articles/2301/12/news144.html",
+          "publishedOn": "2023-01-12T07:00:00.000Z",
+          "wordCount": 2587,
+          "title": "TOEIC申し込みサイトで情報漏えいか　不正アクセス被害で　パスワード更新呼び掛け",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2301/12/cover_news144.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2301/12/news107.html",
+          "author": null,
+          "description": "つくば市は、市内の小中学校のWebサイト管理画面が1月3日に不正アクセスを受け、更新のためのIDとパスワードが書き換えられていたと発表した。",
+          "link": "https://www.itmedia.co.jp/news/articles/2301/12/news107.html",
+          "publishedOn": "2023-01-12T02:52:00.000Z",
+          "wordCount": 2590,
+          "title": "つくば市の小中学校公式サイトに不正アクセス　更新用ID・PW書き換えられる",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2301/12/cover_news107.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2301/12/news063.html",
+          "author": null,
+          "description": "米ラスベガスで開幕したCESでは、クルマが話題の中心になることが増えた。クルマ本体だけでなく、自動運転やつながるクルマなどの技術に注目が集まる一方、メーカー各社のシステムに、数多くの脆弱性が潜んでいる実態が明らかになっている。",
+          "link": "https://www.itmedia.co.jp/news/articles/2301/12/news063.html",
+          "publishedOn": "2023-01-12T01:00:00.000Z",
+          "wordCount": 2610,
+          "title": "つながるクルマ、自動運転車に潜む脆弱性　不正な遠隔操作でロック解除や始動も",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2301/12/cover_news063.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2301/11/news171.html",
+          "author": null,
+          "description": "「SHOP CHANNEL」を運営するジュピターショップチャンネルは、第三者による不正ログインによる24件の“なりすまし購入”を確認したと発表した。利用者に直接的な金銭被害は発生していない。",
+          "link": "https://www.itmedia.co.jp/news/articles/2301/11/news171.html",
+          "publishedOn": "2023-01-11T11:22:00.000Z",
+          "wordCount": 2597,
+          "title": "「ショップチャンネル」で不正ログイン　なりすまし購入24件確認　「パスワードの使い回し止めて」",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2301/11/cover_news171.jpg"
+        },
         {
           "id": "https://www.itmedia.co.jp/news/articles/2301/11/news105.html",
           "author": null,
@@ -4531,66 +4370,6 @@
           "wordCount": 2700,
           "title": "数字を押さずに「ボタン1つ」でパスコードを入力する方法とは？　後ろからのぞき見対策に",
           "imageUrl": "https://image.itmedia.co.jp/news/articles/2212/14/cover_news057.jpg"
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2212/13/news170.html",
-          "author": null,
-          "description": "尼崎市は、同市の職員が個人情報入りの公用スマートフォンを紛失したと発表した。スマホには市民の電話番号2件やLINEの連絡先50件程度、講座やイベントの写真・動画複数件入っていたという。13日時点でスマホはまだ見つかっていない。",
-          "link": "https://www.itmedia.co.jp/news/articles/2212/13/news170.html",
-          "publishedOn": "2022-12-13T10:40:00.000Z",
-          "wordCount": 2594,
-          "title": "尼崎市でまた紛失　今度はスマホ　気付いて4日間報告せず　「職場にあると勘違い」",
-          "imageUrl": "https://image.itmedia.co.jp/news/articles/2212/13/cover_news170.jpg"
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2212/13/news120.html",
-          "author": null,
-          "description": "読売テレビは、同社番組スタッフが映像素材の入った記録媒体を紛失したと発表した。番組スタッフは電車内で居眠りをしており、その間に盗難に遭った可能性が高いとしている。",
-          "link": "https://www.itmedia.co.jp/news/articles/2212/13/news120.html",
-          "publishedOn": "2022-12-13T04:46:00.000Z",
-          "wordCount": 2595,
-          "title": "読売テレビ、記録媒体を紛失　番組スタッフが電車で居眠り、その間に盗難か　放送前の映像素材などを収録",
-          "imageUrl": "https://image.itmedia.co.jp/news/articles/2212/13/cover_news120.jpg"
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2212/13/news118.html",
-          "author": null,
-          "description": "企業はDX（デジタルトランスフォーメーション）人材の育成にどれだけコストをかけているのか──2位は「50万円以上～100万円未満」。1位は？",
-          "link": "https://www.itmedia.co.jp/news/articles/2212/13/news118.html",
-          "publishedOn": "2022-12-13T04:33:00.000Z",
-          "wordCount": 2593,
-          "title": "DX人材育成にかける予算、2位は「1人当たり50万円以上～100万円未満」　1位は？",
-          "imageUrl": "https://image.itmedia.co.jp/news/articles/2212/13/cover_news118.jpg"
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2212/13/news111.html",
-          "author": null,
-          "description": "兵庫県尼崎市で発生した個人情報入りUSBメモリの紛失事案を巡り、BIPROGYが、社長をはじめ3人の役員が報酬を自主返納すると発表した。",
-          "link": "https://www.itmedia.co.jp/news/articles/2212/13/news111.html",
-          "publishedOn": "2022-12-13T03:55:00.000Z",
-          "wordCount": 2585,
-          "title": "BIPROGY役員が報酬を自主返納　尼崎USBメモリ紛失で",
-          "imageUrl": "https://image.itmedia.co.jp/news/articles/2212/13/cover_news111.jpg"
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2212/13/news107.html",
-          "author": null,
-          "description": "中小企業が最も懸念するセキュリティリスクは──日本損害保険協会が調査結果を発表。2番目は「ランサムウェア攻撃（の増加）」だった。トップは？",
-          "link": "https://www.itmedia.co.jp/news/articles/2212/13/news107.html",
-          "publishedOn": "2022-12-13T03:41:00.000Z",
-          "wordCount": 2593,
-          "title": "中小企業が懸念するセキュリティリスク　2位は「ランサムウェア」、トップは？",
-          "imageUrl": "https://image.itmedia.co.jp/news/articles/2212/13/cover_news107.jpg"
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2212/13/news080.html",
-          "author": null,
-          "description": "ランサム攻撃を受け、システム障害が続いていた大阪急性期・総合医療センターで、電子カルテシステムが再稼働した。システムを使える端末はまだ一部だが、12月下旬にも新規の外来患者の受け入れを再開するという。",
-          "link": "https://www.itmedia.co.jp/news/articles/2212/13/news080.html",
-          "publishedOn": "2022-12-13T00:00:00.000Z",
-          "wordCount": 2325,
-          "title": "サイバー攻撃受けた大阪の病院で電子カルテが再稼働　近く外来受け入れも",
-          "imageUrl": "https://image.itmedia.co.jp/news/articles/2212/13/l_MNRBVMWRBRPBXLKUFLOWMQIPI4_1.jpg"
         }
       ]
     },
@@ -4599,6 +4378,76 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1469723.html",
+          "author": null,
+          "description": "サンワサプライ株式会社は、天板に挟むだけで固定できるクリップ式のケーブルホルダー「200-CA054」を発売した。直販サイト「サンワダイレクト」での販売価格は2個で1280円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1469723.html",
+          "publishedOn": "2023-01-12T07:40:00.000Z",
+          "wordCount": 4309,
+          "title": "クリップ式で付け外しが簡単なケーブルホルダー「200-CA054」、サンワサプライが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1469/723/sanwa1.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1469722.html",
+          "author": null,
+          "description": "Amazon.co.jpのAnkerストアページでは現在、同社のUSB充電器のセールや割引クーポン配布を実施中だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1469722.html",
+          "publishedOn": "2023-01-12T06:45:00.000Z",
+          "wordCount": 4365,
+          "title": "Ankerの充電器やモバイルバッテリーがセール＆クーポン配布中！ Amazonお買い得情報　ワイヤレス充電対応の多機能8-in-1充電器が25％OFFなど",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1469/722/anker.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1469593.html",
+          "author": null,
+          "description": "Twitterの有料サブスク「Twitter Blue」が開始されたが、期待されていた広告非表示機能は実装されず、ユーザーからはツッコミの声が多数上がっている。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1469593.html",
+          "publishedOn": "2023-01-12T03:00:00.000Z",
+          "wordCount": 4323,
+          "title": "有料でも広告は完全非表示にならず？ Twitterのサブスク「Twitter Blue」にツッコミ多数【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1469/593/yajiuma-watch_4.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1469592.html",
+          "author": null,
+          "description": "Microsoftのスマートフォン「Surface Duo」の次期モデルが、デュアルスクリーンを廃止し、他社と同じ1枚のパネルを折りたたむ構造へと方針転換したことを、海外メディアが伝えている。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1469592.html",
+          "publishedOn": "2023-01-12T03:00:00.000Z",
+          "wordCount": 4345,
+          "title": "「Surface Duo」次期モデル、デュアルスクリーン廃止へ？ 発売時期も遅れるとの噂【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1469/592/yajiuma-watch_4.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/review/1467011.html",
+          "author": null,
+          "description": "ASUSのゲーミングWi-Fiルーターに、新たなハイエンドモデル「GT-AX11000 Pro」が投入された。型番からわかるとおり、2019年に発売された「GT-AX11000」のリニューアルモデルとなる。",
+          "link": "https://internet.watch.impress.co.jp/docs/review/1467011.html",
+          "publishedOn": "2023-01-11T21:55:00.000Z",
+          "wordCount": 4426,
+          "title": "ハイエンドなゲーミングWi-Fiルーターの最新モデル「GT-AX11000 Pro」を試す　10Gbps対応で機能は全部入り。でも初期設定はスマホで簡単",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1467/011/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1469342.html",
+          "author": null,
+          "description": "株式会社バッファローと株式会社バッファロー・IT・ソリューションズは1月11日、法人向けネットワーク環境整備支援として、現地調査費を特別価格で提供するキャンペーンを開始した。キャンペーンページに設けられた専用フォームから申し込みを受け付けている。期間は3月15日まで。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1469342.html",
+          "publishedOn": "2023-01-11T21:30:00.000Z",
+          "wordCount": 4317,
+          "title": "宿泊・介護・保育・医療施設のネットワーク環境整備に向けた現地調査を「0円」で、バッファローがキャンペーン開始　その他の業種も大幅割引で現地調査を受付中",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1469/342/000.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/homewifi/1468938.html",
+          "author": null,
+          "description": "「Fire TV Cube（第3世代）」の使いこなしを第130回から解説しているが、今回は、スマートフォンの「Amazon Alexa」アプリと組み合わせ、便利に音声で操作する方法を紹介していく。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/homewifi/1468938.html",
+          "publishedOn": "2023-01-11T21:00:00.000Z",
+          "wordCount": 4649,
+          "title": "「Fire TV Cube（第3世代）」とスマホのAlexaアプリを組み合わせて、音声操作を快適にする【自宅Wi-Fiの“わからない”をスッキリ！】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1468/938/housewifi2_135-01.jpg"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/1469410.html",
           "author": null,
@@ -6168,106 +6017,6 @@
           "wordCount": 4380,
           "title": "高校生が開発を続ける防災アプリ、「Geoアクティビティコンテスト」で最優秀賞を獲得【地図と位置情報】",
           "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1463/411/GeoAct1-03.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1463369.html",
-          "author": null,
-          "description": "オリコをかたるフィッシングの報告が増えているとして、フィッシング対策協議会が情報を公開した。誘導先のフィッシングサイトは12月9日13時時点では稼働中であり、引き続き注意が必要だ。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1463369.html",
-          "publishedOn": "2022-12-13T11:59:50.000Z",
-          "wordCount": 4345,
-          "title": "件名「【Oricoカード】お支払い金額確定のご案内」などの不審なメール、オリコをかたるフィッシングに注意　偽サイトに誘導し、個人情報やカード情報を詐取",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1463/369/01.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1463071.html",
-          "author": null,
-          "description": "株式会社ウェザーニューズは、「ふたご座流星群」の活動のピークとされる、12月14日夜～15日明け方の全国の天気予報を発表。東日本と西日本の太平洋側、および北海道の道東では雲が少なく、好条件での流星観測が期待できるとした。また、ウェザーニュースYouTubeチャンネルでは、ピークの前日にあたる今夜13日からライブ配信などの企画を予定している。",
-          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1463071.html",
-          "publishedOn": "2022-12-13T08:30:00.000Z",
-          "wordCount": 4311,
-          "title": "「ふたご座流星群」は14日22時頃がピーク、東京や太平洋側の地域で観測チャンス。今夜からウェザーニュースでライブ配信も【やじうまWatch】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1463/071/01.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1463299.html",
-          "author": null,
-          "description": "Amazon.co.jpのバッファローストアページでは現在、同社製品に適用できるお得なクーポンを配布中だ。同社のHDDレコーダー「nasne」や、デジタルフォトアルバム「おもいでばこ」シリーズなどが割安価格で購入できる。クーポンの有効期限は12月17日までとなっている。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1463299.html",
-          "publishedOn": "2022-12-13T07:30:00.000Z",
-          "wordCount": 4350,
-          "title": "バッファロー「nasne」「おもいでばこ」がお買い得！ Amazonクーポン情報　nasneは1500円OFF、おもいでばこは5％OFFなど",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1463/299/buffalo.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1463208.html",
-          "author": null,
-          "description": "株式会社ウェザーニューズは、法人向けの天気予報アプリ「ウェザーニュース for business」において、ドローン専用サービスの無償トライアルを開始した。ドローン運航に関わる法人を対象に、ドローンの安全運航をサポートするための気象情報を提供するもので、2カ月間、無償で利用できる。無償トライアルの申し込みは2023年1月31日まで。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1463208.html",
-          "publishedOn": "2022-12-13T03:15:44.000Z",
-          "wordCount": 4320,
-          "title": "ドローン専用の気象情報サービスが登場。上空150mまでの風予測など、安全運航をサポート　「レベル4」解禁を受け、「ウェザーニュース for business」で無償トライアル",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1463/208/weathernews01.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1463113.html",
-          "author": null,
-          "description": "2020年7月に開催された東京都知事選挙の特設サイト「2020tochijisen.tokyo」が何者かによって完全復元されていることが明らかになり、波紋を呼んでいる。",
-          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1463113.html",
-          "publishedOn": "2022-12-13T02:30:00.000Z",
-          "wordCount": 4308,
-          "title": "何が目的？ 2020年7月の東京都知事選挙の特設サイト、何者かによって完全復元される【やじうまWatch】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1463/113/yajiuma-watch_4.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1463114.html",
-          "author": null,
-          "description": "米Twitter社がオフィス用品約300点をオークションに出品して話題になっている。",
-          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1463114.html",
-          "publishedOn": "2022-12-13T02:25:00.000Z",
-          "wordCount": 4332,
-          "title": "買収後に調理家電を大量処分!? 米Twitter社がオフィスから出た不用品をオークションに大量出品【やじうまWatch】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1463/114/yajiuma-watch_2.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1463089.html",
-          "author": null,
-          "description": "KDDI株式会社は、法人向けインターネット接続サービス「KDDI Flexible Internet」を2023年1月4日から提供する。要件に合わせて柔軟に回線や帯域を選択できることが特徴。申し込みの受付も同日から開始する。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1463089.html",
-          "publishedOn": "2022-12-13T02:20:00.000Z",
-          "wordCount": 4325,
-          "title": "KDDI、回線や帯域を柔軟に選択できる法人向け接続サービス「KDDI Flexible Internet」提供",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1463/089/01.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1463141.html",
-          "author": null,
-          "description": "セーフィー株式会社は、屋外向けのクラウド録画カメラ「Safie GO PTZ Plus」を2023年1月上旬から提供すると発表した。建設現場全体における進捗管理・安全監視・防犯、河川洪水や斜面崩壊・地すべりなどの自然災害の監視といった用途を想定している。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1463141.html",
-          "publishedOn": "2022-12-13T01:45:21.000Z",
-          "wordCount": 4352,
-          "title": "LTE回線付きで位置情報の特定機能もあるクラウド録画カメラ「Safie GO PTZ Plus」1月から提供",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1463/141/safie02.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/special/kdx/1461268.html",
-          "author": null,
-          "description": "様々な業界で進んでいるデジタルトランスフォーメーション（DX）だが、その進み方や内容は会社やよってかなり異なる。そうした中、特色あるDXを進めているのが、コンテンツ産業の雄であるKADOKAWAグループだ。同グループでは、グループのDXを推進し、そのノウハウを社外にも展開していく子会社「KADOKAWA connected」を設立。社内外あわせた「コンテンツ産業のDX」を推進している。そこで今回は、同社でDXを推進する塚本 圭一郎より、「DXは魅力的なコンテンツ作りにどう貢献するか」をテーマに寄稿いただいた。これまでの記事は以下。（編集部）",
-          "link": "https://internet.watch.impress.co.jp/docs/special/kdx/1461268.html",
-          "publishedOn": "2022-12-13T00:10:00.000Z",
-          "wordCount": 4358,
-          "title": "【DXは魅力的なコンテンツづくりにどう貢献するか？】ビジネスをスピードアップする「サービス型チーム」とは？　サービスを成功に導くKDX流の働き方",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1461/268/rss.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/column/zaitaku_work/1462641.html",
-          "author": null,
-          "description": "こんにちは。株式会社インティメート・マージャーの長谷川楓之です。",
-          "link": "https://internet.watch.impress.co.jp/docs/column/zaitaku_work/1462641.html",
-          "publishedOn": "2022-12-12T21:55:00.000Z",
-          "wordCount": 4343,
-          "title": "都心の1Rから郊外の2LDKに引っ越して快適なリモートワーク生活を実現 ～ 長谷川楓之（株式会社インティメート・マージャー）の在宅ワークスタイル【みんなの在宅ワーク：第90回】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1462/641/work.png"
         }
       ]
     },
@@ -6282,6 +6031,76 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230112-2560903/",
+          "author": null,
+          "description": "Fossbytesは1月11日、App StoreおよびGoogle PalyストアにChatGPTを装った偽のモバイルアプリが複数出現したと伝えた。ChatGPTはOpenAIが開発した対話型のAIチャットボット。ChatGPTをかたる多くの偽アプリはサブスクリプションやアプリ内課金でユーザに利用料金を請求するという。",
+          "link": "https://news.mynavi.jp/techplus/article/20230112-2560903/",
+          "publishedOn": "2023-01-12T07:16:06.000Z",
+          "wordCount": 1610,
+          "title": "App StoreおよびPlayストアに偽のChatGPTアプリが登場",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230112-2560903/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230112-2561000/",
+          "author": null,
+          "description": "シスコシステムズ（シスコ）は12日、世界各国の従業員数10～1000人以上の組織でサイバーセキュリティの担当者6700人を対象に実施した調査レポートの結果を発表した。これによると、日本の調査回答者の59%が、自社の従業員が未登録デバイスを使用して業務プラットフォームにログインしていることが分かった。",
+          "link": "https://news.mynavi.jp/techplus/article/20230112-2561000/",
+          "publishedOn": "2023-01-12T06:53:39.000Z",
+          "wordCount": 1587,
+          "title": "約6割の従業員が未登録デバイスを使用、インシデントの可能性が増大",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230112-2561000/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230112-2560881/",
+          "author": null,
+          "description": "パロアルトネットワークスは、2023年に注目される5大サイバー脅威予測「サイバーセキュリティ・プレディクション 2023」を発表した。",
+          "link": "https://news.mynavi.jp/techplus/article/20230112-2560881/",
+          "publishedOn": "2023-01-12T04:38:47.000Z",
+          "wordCount": 1573,
+          "title": "2023年に警戒すべきサイバー脅威5つ- パロアルトが予測",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230112-2560881/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230112-2560334/",
+          "author": null,
+          "description": "Sucuriは1月10日(米国時間)、URL（Uniform Resource Locator)およびパスに安全な文字を使用する重要性について伝えた。安全ではない文字を使用した場合、さまざまなWebブラウザやWebサーバとの互換性の問題を引き起こす可能性がある。",
+          "link": "https://news.mynavi.jp/techplus/article/20230112-2560334/",
+          "publishedOn": "2023-01-12T03:15:46.000Z",
+          "wordCount": 1661,
+          "title": "URLやパスで使うとリスクが高い文字は？",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230112-2560334/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230112-2560342/",
+          "author": null,
+          "description": "Zoom Video Communicationsはこのほど、「Security Bulletin｜Zoom」において、同社のWeb会議専用端末「Zoom Rooms」において、深刻度が重要(High)とされる4件の脆弱性および深刻度が警告(Medium)とされる2件の脆弱性に対応したと伝えた。",
+          "link": "https://news.mynavi.jp/techplus/article/20230112-2560342/",
+          "publishedOn": "2023-01-12T00:28:39.000Z",
+          "wordCount": 1627,
+          "title": "Zoom、Web会議専用端末「Zoom Rooms」の脆弱性に対処、確認と更新を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230112-2560342/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230112-2560339/",
+          "author": null,
+          "description": "ESETは1月10日(米国時間)、Androidユーザーを標的としたサイバー攻撃を発見したと伝えた。「StrongPity」と呼ばれている持続的標的型攻撃(APT: Advanced Persistent Threat)グループによるアクティブなキャンペーンが展開されていることが明らかとなった。",
+          "link": "https://news.mynavi.jp/techplus/article/20230112-2560339/",
+          "publishedOn": "2023-01-11T23:50:24.000Z",
+          "wordCount": 1599,
+          "title": "Androidユーザー標的にしたスパイ登場、正規のアプリに似ていても警戒を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230112-2560339/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230112-2559640/",
+          "author": null,
+          "description": "米国土安全保障省サイバーセキュリティ・インフラストラクチャセキュリティ庁(CISA)は1月10日(米国時間)、AcrobatなどAdobeの複数の製品に複数の脆弱性が存在すると伝えた。これら脆弱性を悪用されると、攻撃者によって影響を受けたシステムの制御権が乗っ取られる危険性がある。",
+          "link": "https://news.mynavi.jp/techplus/article/20230112-2559640/",
+          "publishedOn": "2023-01-11T23:26:25.000Z",
+          "wordCount": 1839,
+          "title": "Adobe AcrobatやReaderに緊急の脆弱性、ただちにアップデートを",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230112-2559640/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20230111-2559678/",
           "author": null,
@@ -7481,76 +7300,6 @@
           "wordCount": 1518,
           "title": "ラック、PPAP（パスワード付きZIPファイルのメール）の送信を原則廃止",
           "imageUrl": "https://news.mynavi.jp/techplus/article/20221214-2537297/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20221213-2536459/",
-          "author": null,
-          "description": "米国土安全保障省サイバーセキュリティ・インフラストラクチャセキュリティ庁(CISA)は12月12日(米国時間)、フォーティネットのオペレーティングシステムであるFortiOSに脆弱性が存在すると伝えた。この脆弱性を悪用されると、攻撃者によって影響を受けたシステムの制御権が乗っ取られる危険性がある。",
-          "link": "https://news.mynavi.jp/techplus/article/20221213-2536459/",
-          "publishedOn": "2022-12-13T07:01:30.000Z",
-          "wordCount": 1726,
-          "title": "FortiOSに緊急の脆弱性、悪用確認済みのためすぐに更新を",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20221213-2536459/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20221213-2536538/",
-          "author": null,
-          "description": "Microsoftは12月9日(米国時間)、Microsoft Edge Blogにおいて、2023年1月12日の週にリリースが予定されている「Microsoft Edge version 109」および「WebView2 Runtime version 109」が、一部のプラットフォームにおいて最後のサポートバージョンになると伝えた。",
-          "link": "https://news.mynavi.jp/techplus/article/20221213-2536538/",
-          "publishedOn": "2022-12-13T04:57:06.000Z",
-          "wordCount": 1790,
-          "title": "Microsoft Edge、Windows 7とWindows 8.1/8のサポート終了へ",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20221213-2536538/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20221213-2536481/",
-          "author": null,
-          "description": "クオリティアは12月13日、アスクルの新ソリューション事業「ビズらく」に SaaS商品としてメール誤送信防止サービス「Active! gate SS」を提供開始したことを発表した。",
-          "link": "https://news.mynavi.jp/techplus/article/20221213-2536481/",
-          "publishedOn": "2022-12-13T03:24:04.000Z",
-          "wordCount": 1587,
-          "title": "アスクルの「ビズらく」にメール誤送信防止サービス「Active! gate SS」提供",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20221213-2536481/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20221213-2536428/",
-          "author": null,
-          "description": "クラスメソッドは12月13日、「Slack」へのメッセージ投稿と編集・削除のログを収集・保存して、デジタルフォレンジックや内部統制に役立てることができる「Slackデータアーカイブ基盤」を提供開始すると発表した。",
-          "link": "https://news.mynavi.jp/techplus/article/20221213-2536428/",
-          "publishedOn": "2022-12-13T02:58:08.000Z",
-          "wordCount": 1549,
-          "title": "クラスメソッド、Slackのデータを内部統制に活用できるデータアーカイブ基盤",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20221213-2536428/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20221213-2529923/",
-          "author": null,
-          "description": "セキュリティ関連の文書を読んでいると、「侵害の痕跡」または「IOC ((Indicators Of Compromise)」という用語が頻繁に登場する。Kaspersky Labは公式ブログ「Securitylistにおいて、「IOC」がどのようなものであり、どのようにして収集および活用するのかについて解説している。",
-          "link": "https://news.mynavi.jp/techplus/article/20221213-2529923/",
-          "publishedOn": "2022-12-13T00:36:07.000Z",
-          "wordCount": 1645,
-          "title": "セキュリティ対策に活用できる「侵害の痕跡(IOC)」とは何か？",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20221213-2529923/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20221213-2528470/",
-          "author": null,
-          "description": "ThousandEyesはこのほど、医療におけるDX（デジタルトランスフォーメーション）のリスクについて伝えた。医療業界は現在、大規模なDXを進めているが、その成功は分散型インフラと密接に結びついており、インターネット障害などによってリスクがもたらされているという。",
-          "link": "https://news.mynavi.jp/techplus/article/20221213-2528470/",
-          "publishedOn": "2022-12-12T23:53:03.000Z",
-          "wordCount": 1578,
-          "title": "DXが進む医療業界にインターネット障害がもたらすリスクとは",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20221213-2528470/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20221213-2536084/",
-          "author": null,
-          "description": "いくつものWebサービスを使いこなして当たり前の今、パスワードを安全かつ効率よく管理することは悩みの種となっている。こうした中、安全で使いやすいパスワードの代用品として、パスキー(Passkeys)が話題になっているが、パスキーにもリスクは存在する。",
-          "link": "https://news.mynavi.jp/techplus/article/20221213-2536084/",
-          "publishedOn": "2022-12-12T22:46:47.000Z",
-          "wordCount": 1628,
-          "title": "パスワードの代替「パスキー」が抱える暗号鍵共有のリスクをどう回避するか？",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20221213-2536084/ogp_images/ogp.jpg"
         }
       ]
     }
