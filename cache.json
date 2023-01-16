@@ -289,6 +289,16 @@
       "siteUrl": "https://www.ipa.go.jp/about/index.html",
       "articles": [
         {
+          "id": "https://www.jitec.ipa.go.jp/1_02annai/r05haru_exam.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「情報処理技術者試験」ページです。",
+          "link": "https://www.jitec.ipa.go.jp/1_02annai/r05haru_exam.html",
+          "publishedOn": "2023-01-16T01:20:00.000Z",
+          "wordCount": 145,
+          "title": "令和5年度春期情報処理技術者試験・情報処理安全確保支援士試験の申込受付を開始しました。（外部リンク）",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.ipa.go.jp/dadc/architecture/pj_report_3dspatialinfo_202212_1.html",
           "author": "情報処理推進機構（IPA）",
           "description": "2022年12月23日(金)に開催いたしました第5回3次元空間情報基盤アーキテクチャ検討会の会議資料です。",
@@ -749,6 +759,16 @@
       "siteUrl": "https://gblogs.cisco.com/jp",
       "articles": [
         {
+          "id": "https://gblogs.cisco.com/jp/?p=44706",
+          "author": "大野真由",
+          "description": "Webex Instant Connectソリューション紹介の第二回。今回は、Webex Instant Connect の会議リンクを作成し、会議に参加してみたいと思います。",
+          "link": "https://gblogs.cisco.com/jp/2023/01/setting-webex-instant-connect/",
+          "publishedOn": "2023-01-16T05:00:28.000Z",
+          "wordCount": 568,
+          "title": "「Webex Instant Connect」を設計する",
+          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs%3Agblogs/sites/2/InstantConnect00-1-460x230.png"
+        },
+        {
           "id": "https://gblogs.cisco.com/jp/?p=44685",
           "author": "大野真由",
           "description": "対顧客ではビジネス利用とは異なる要件が発生し、それに応えるためにWebexには「Webex Instant Connect」というソリューションが存在します。",
@@ -959,6 +979,16 @@
       "feedUrl": "https://tech-lab.sios.jp/feed",
       "siteUrl": "https://tech-lab.sios.jp",
       "articles": [
+        {
+          "id": "https://tech-lab.sios.jp/?p=32505",
+          "author": "佐藤陽",
+          "description": "こんにちは、サイオステクノロジーの佐藤 陽です。 今回は、EasyAuthで利用されるセッションについて検証した記事になります。 AppServiceとAzureActiveDirectoryB2Cを題材に、 非常に便利 [...]\nAzureのEasyAuthのセッションに向き合ってみた【AppService＆AADB2C】 first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/32505",
+          "publishedOn": "2023-01-16T02:47:19.000Z",
+          "wordCount": 2419,
+          "title": "AzureのEasyAuthのセッションに向き合ってみた【AppService＆AADB2C】",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2023/01/000.png"
+        },
         {
           "id": "https://tech-lab.sios.jp/?p=31443",
           "author": "橋本惇史",
@@ -1343,6 +1373,17 @@
       "feedUrl": "https://www.nic.ad.jp/ja/index.xml",
       "siteUrl": "https://www.nic.ad.jp/",
       "articles": [
+        {
+          "id": "https://www.nic.ad.jp/ja/materials/iw/ondemand/#governance4",
+          "author": null,
+          "description": "",
+          "link": "https://www.nic.ad.jp/ja/materials/iw/ondemand/#governance4",
+          "publishedOn": "2023-01-16T01:11:06.000Z",
+          "wordCount": null,
+          "title": "[Web更新]『インターネットガバナンスその4 「インターネット上のガバナンス」編』の動画をInternet Week Basicオンデマンドに掲載",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.nic.ad.jp/ja/stat/dom/gtld.html",
           "author": null,
@@ -2528,16 +2569,6 @@
           "wordCount": 2213,
           "title": "IE11 の完全無効化、2 月の月例更新ではなく Microsoft Edge アップデートで実施",
           "imageUrl": "https://srad.jp/static/topics/msie_64.png"
-        },
-        {
-          "id": "https://it.srad.jp/story/22/12/16/233206/",
-          "author": "headless",
-          "description": "いささか旧聞ではあるが、Akamai の研究者がボットネット KmsdBot を監視していたところ、突然クラッシュしてしまったそうだ。調査の結果、ボットネット運用者によるコマンドのタイプミスが原因と判明したという\n(Akamai のブログ記事、\nArs Technica の記事、\nThe Register の記事)。\n\nKmsdBot は DDoS 攻撃を実行する機能も備える暗号通貨採掘ボットネット。弱い認証情報を使用する SSH 接続を通じてシステムに感染していくという。リバースエンジニアリングの困難さから攻撃者に選ばれることが増えつつある Go 言語で書かれている。Akamai ではハニーポットに感染した KmsdBot を分析していた。\n\nクラッシュの原因を調べるため、Akamai ではボットネットの C2 に代わって機能し、攻撃の実行コマンドを送信する自前の C2 を作成。2 つの仮想マシンを用意して 1 つにボットを感染させ、もう 1 つを C2 としてコマンドを送信する実験を実行したところ、「!bigdata www.bitcoin.com443 / 30 3 3 100」というコマンドでボットネットが停止したそうだ。\n\n一目でお気付きになった方も多いと思われるが、このコマンドはドメイン名とポート番号がスペースで区切られていない。ボットは構文エラーをチェックする機能を備えておらず、引数の数が正しくないコマンドを受け取った Go バイナリはインデックス範囲外の指定エラーによりクラッシュする。\n\nこれにより、C2 と通信したすべての感染マシンでボットのコードがクラッシュし、ボットネット全体が停止したとみられる。ボットは感染マシンで実行を持続する機能を備えておらず、ボットネットを復元するには再度感染させて再構築する必要があるとのことだ。\n すべて読む | ITセクション | セキュリティ | 変なモノ | ボットネット |     \n  関連ストーリー： \n埼玉大学で10ヶ月以上gmailをgmaiと間違えて4890件のメールを誤配信 2022年11月24日 \nドメイン名のミスタイプを狙った大規模なタイポスクワッティングキャンペーンが確認される 2022年10月31日 \n終息したはずのマルウェアEmotetが活動を再開。IPAが注意喚起 2021年11月23日 \n台湾の原発、技術者が制御室を清掃する際に動かした椅子がスイッチのカバーに触れて停止するトラブル 2021年07月30日 \nWindows の Print Spooler で見つかった脆弱性、研究者の勘違いでゼロデイに 2021年07月04日 \nMicrosoft、悪意あるドライバに署名を与えてしまったと発表 2021年06月28日 \nCloudflare、ケーブルを誤って抜いてしまい4時間以上の障害発生 2020年04月21日 \n名前のタイプミスを狙った悪質なパッケージがRubyGemsで多数公開される 2020年04月19日 \n「.com」のミスタイプを狙う「.cm」サイト、今年だけで1,200万回近くアクセスされていた 2018年04月08日 \nWannaCryptの拡散を止めた英国のセキュリティ研究者、別のマルウェアの作者として米国で逮捕 2017年08月05日 \n35万以上のアカウントから構成されたTwitterボットネットが発見される 2017年01月31日 \n国内のC&Cサーバーにインターネットバンキングの口座情報13,000件が蓄積されていた 2014年05月03日",
-          "link": "https://it.srad.jp/story/22/12/16/233206/",
-          "publishedOn": "2022-12-17T08:18:00.000Z",
-          "wordCount": 2338,
-          "title": "運用者のタイプミスによる構文エラーでクラッシュしたボットネット",
-          "imageUrl": "https://srad.jp/static/topics/botnet_64.png"
         }
       ]
     },
@@ -2546,6 +2577,76 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/01/16/48777.html",
+          "author": null,
+          "description": "サイバーセキュリティイニシアティブジャパン（CSIJ）は12月7日、公開シンポジウム「サイバーセキュリティをリスキリングする時代～DX時代に必要な人材育成を考える～」を1月24日に開催すると発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/01/16/48777.html",
+          "publishedOn": "2023-01-15T23:10:03.000Z",
+          "wordCount": 892,
+          "title": "CSIJ 公開シンポジウム 1/24 開催、GSX CCO 武藤氏ほか講演",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/01/16/48776.html",
+          "author": null,
+          "description": "カバーマーク株式会社は1月10日、同社のECサイト「カバーマーク公式オンラインショップ」で利用するサービスを提供する、株式会社ショーケースのシステムへの不正アクセスによるクレジットカード情報の漏えいについて発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/01/16/48776.html",
+          "publishedOn": "2023-01-15T23:05:03.000Z",
+          "wordCount": 828,
+          "title": "ショーケース社への不正アクセス、「カバーマーク公式オンラインショップ」でもカード情報漏えい",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40283.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/01/16/48775.html",
+          "author": null,
+          "description": "富士フイルム株式会社は1月13日、同社メールアドレスを騙った「なりすましメール」への注意喚起を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/01/16/48775.html",
+          "publishedOn": "2023-01-15T23:00:18.000Z",
+          "wordCount": 840,
+          "title": "富士フイルムを騙るなりすましメール、注文キャンセルボタンのクリックを誘導",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/01/16/48774.html",
+          "author": null,
+          "description": "国立大学法人東京大学は1月11日、東京大学基金事務局を騙ったフィッシングメールへの注意喚起を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/01/16/48774.html",
+          "publishedOn": "2023-01-15T23:00:15.000Z",
+          "wordCount": 843,
+          "title": "東京大学基金事務局を騙るフィッシングメール 注意喚起",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/01/16/48773.html",
+          "author": null,
+          "description": "パロアルトネットワークス株式会社は1月11日、2023年に注目される5大サイバー脅威予測を「サイバーセキュリティ・プレディクション 2023」と題して発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/01/16/48773.html",
+          "publishedOn": "2023-01-15T23:00:11.000Z",
+          "wordCount": 877,
+          "title": "5G 医療 クラウドサプライチェーン ほか、パロアルト 2023年5大サイバー脅威",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/01/16/48772.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は1月12日、ピクセラ製 PIX-RT100 における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/01/16/48772.html",
+          "publishedOn": "2023-01-15T23:00:08.000Z",
+          "wordCount": 882,
+          "title": "ピクセラ製 PIX-RT100 に複数の脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/01/16/48771.html",
+          "author": null,
+          "description": "株式会社クオリティアは1月10日、「メールセキュリティに関する調査」の結果を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/01/16/48771.html",
+          "publishedOn": "2023-01-15T23:00:04.000Z",
+          "wordCount": 852,
+          "title": "業務メール送信時に気をつけること「送信先誤り」は４位",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40291.jpg"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2023/01/13/48770.html",
           "author": null,
@@ -3754,6 +3855,16 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2301/16/news030.html",
+          "author": null,
+          "description": "米スタンフォード大学、米UCLA、カナダのウォータールー大学に所属する研究者らは、Wi-Fi機器に偽のデータパケットを継続的に送信することで、その機器の充電を急速に低下させる攻撃を提案した研究報告を発表した。",
+          "link": "https://www.itmedia.co.jp/news/articles/2301/16/news030.html",
+          "publishedOn": "2023-01-15T23:00:00.000Z",
+          "wordCount": 2672,
+          "title": "Wi-Fi機器の充電を急速に“ゼロ”にするサイバー攻撃　150m離れた場所からスマホや監視カメラを無効に",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2301/16/cover_news030.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2301/14/news053.html",
           "author": null,
           "description": "PCを使ってオンラインで試験を受ける「CBT」。自宅で一人で受けられるのなら不正もし放題なのではないかと思うかもしれない。英語技能試験を実施するDuolingoに具体的な不正対策を聞いた。",
@@ -3970,6 +4081,96 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1470541.html",
+          "author": null,
+          "description": "サンワサプライ株式会社は、ノートスタンド一体型ドッキングステーション「400-VGA019」を発売した。直販サイト「サンワダイレクト」での販売価格は1万3800円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1470541.html",
+          "publishedOn": "2023-01-16T07:00:00.000Z",
+          "wordCount": 4324,
+          "title": "角度調整できるノートPCスタンド一体型ドッキングステーション「400-VGA019」、サンワサプライが発売　4種類のポートを備え、USB PD給電も可能",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1470/541/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1470535.html",
+          "author": null,
+          "description": "エレクター株式会社は、同社のワイヤーシェルフ「ホームエレクター」を「エレクターシェルフベーシックシリーズ」としてリニューアルした。あわせて、公式オンラインショップをリニューアルし、旧モデルのアウトレットセールを実施している。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1470535.html",
+          "publishedOn": "2023-01-16T06:30:00.000Z",
+          "wordCount": 4309,
+          "title": "「ホームエレクター」がモデルチェンジ、旧モデルをアウトレットセール中　“ホーム”に限定しない「エレクターシェルフベーシックシリーズ」へ",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1470/535/4.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1470421.html",
+          "author": null,
+          "description": "GoogleがChromiumプロジェクトでプログラミング言語「Rust」をサポートすることを新たに表明した。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1470421.html",
+          "publishedOn": "2023-01-16T03:05:00.000Z",
+          "wordCount": 4315,
+          "title": "Google、Chromiumプロジェクトでプログラミング言語「Rust」をサポートすることを表明【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1470/421/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1470419.html",
+          "author": null,
+          "description": "伝説のパソコン「X68000」を現代風にアレンジして復活させる「X68000 Z」のクラウドファンディングが絶好調だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1470419.html",
+          "publishedOn": "2023-01-16T03:05:00.000Z",
+          "wordCount": 4321,
+          "title": "「X68000 Z」のクラウドファンディングが絶好調。目標金額の約10倍を突破し、数量制限も【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1470/419/yajiuma-watch_3.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1470377.html",
+          "author": null,
+          "description": "株式会社MIXIは、子ども用GPS「みてねみまもりGPS」の第3世代モデルの予約受付を、公式オンラインストアやAmazon.co.jpなどで開始した。3月13日発売予定で、価格は割引価格の5280円（5月31日まで）。月額の利用料は528円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1470377.html",
+          "publishedOn": "2023-01-16T03:00:00.000Z",
+          "wordCount": 4312,
+          "title": "“バス置き去り”対策になる緊急ボタン搭載の子ども用GPS「みてねみまもりGPS」第3世代、MIXIが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1470/377/00s.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/ranking/1470369.html",
+          "author": null,
+          "description": "前週に閲覧数の多かった記事を、カテゴリーごとに上位5位までレポートします。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/ranking/1470369.html",
+          "publishedOn": "2023-01-16T02:50:00.000Z",
+          "wordCount": 4343,
+          "title": "Ankerの充電器やモバイルバッテリーがお買い得、Amazonのセール情報に関する記事に注目集まる【アクセスランキング】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1470/369/anker_o.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/curation/1469985.html",
+          "author": null,
+          "description": "米国ラスベガスで「CES 2023」が開催された。ウィズコロナのなか、ようやく通常の運営形態に戻り、会場での展示も本格化した（PC Watch）。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/curation/1469985.html",
+          "publishedOn": "2023-01-15T22:00:00.000Z",
+          "wordCount": 4404,
+          "title": "「ChatGPT」は検索の常識を変えるのか ほか【中島由弘の「いま知っておくべき5つのニュース」2023/1/4～1/11】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1469/985/shutterstock_1019006956_main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/teleworkstory/1469790.html",
+          "author": null,
+          "description": "マルチディスプレイ環境向けにディスプレイ台や多機能スタンドを設置するなどして、自宅のPCまわりの環境を会社に近づけてみたのだが、たまに会社で仕事をしていると肩への負担が軽い気がする。原因はどうやらオフィスの机にありそうだ。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/teleworkstory/1469790.html",
+          "publishedOn": "2023-01-15T22:00:00.000Z",
+          "wordCount": 4350,
+          "title": "「IKEAの電動昇降ワークデスクを組み立てて、スタンディングワークしてみた」――急遽テレワークを導入した中小企業の顛末記（126）【急遽テレワーク導入！の顛末記】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1469/790/01.JPG"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/shimizu/1468078.html",
+          "author": null,
+          "description": "「NanoPi R6S」は、CPUにRockchip RK3588S、メモリ8G、ストレージに32GBのeMMC、2.5Gbps×2+1Gbps×1のEthernetポート、HDMI×1を搭載したシングルボードコンピューターだ。汎用的なサーバーや小型デスクトップPCとしても利用できるが、2.5Gbps×2を生かして高速な有線ルーターとして活用できる。その実力を検証してみた。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/shimizu/1468078.html",
+          "publishedOn": "2023-01-15T21:00:00.000Z",
+          "wordCount": 4407,
+          "title": "自前ルーターの決定版！ 8コアCPUと2.5GbE×2を搭載したシングルボードコンピューター「NanoPi R6S」を試す【イニシャルB】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1468/078/000.JPG"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/special/1470191.html",
           "author": null,
@@ -5454,6 +5655,46 @@
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
         {
+          "id": "https://news.mynavi.jp/techplus/article/20230116-2563972/",
+          "author": null,
+          "description": "Fortinetはこのほど、「Analysis of FG-IR-22-398 – FortiOS - heap-based buffer overflow in SSLVPNd｜Fortinet Blog」において、FortiOSに存在する脆弱性が悪用されたと伝えた。対象の脆弱性は政府機関および大規模な組織が影響を受けるとされており、重要なデータが損失してしまう危険性があると報告されている。",
+          "link": "https://news.mynavi.jp/techplus/article/20230116-2563972/",
+          "publishedOn": "2023-01-16T03:33:08.000Z",
+          "wordCount": 1650,
+          "title": "FortiOSの緊急脆弱性が悪用されている、使用している場合は確認と更新を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230116-2563972/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230116-2563966/",
+          "author": null,
+          "description": "Bleeping Computerは1月13日(米国時間)、サイバー攻撃者がNorton Password Managerのアカウントを侵害したと伝えた。Gen Digital(旧NortonLifeLock)のパスワード管理ツールであるNorton Password Managerに対してクレデンシャルスタッフィング攻撃が行われ、アカウントが不正ログインを受けたようだ。",
+          "link": "https://news.mynavi.jp/techplus/article/20230116-2563966/",
+          "publishedOn": "2023-01-16T01:01:32.000Z",
+          "wordCount": 1596,
+          "title": "Gen Digital(旧NortonLifeLock)のパスワード管理サービスが侵害、不正ログインの被害",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230116-2563966/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230116-2563965/",
+          "author": null,
+          "description": "Bitdefenderはこのほど、トロイの木馬化されたインストーラを介してスパイ型マルウェアが配布されていると伝えた。正規の監視アプリケーションであるSecondEyeが悪用され、イランに拠点を置くVPNサービス「20Speed VPN」のユーザをスパイするサイバー攻撃が展開されていることが明らかとなった。",
+          "link": "https://news.mynavi.jp/techplus/article/20230116-2563965/",
+          "publishedOn": "2023-01-16T00:31:14.000Z",
+          "wordCount": 1582,
+          "title": "VPNインストーラにマルウェアが混入、情報窃取の恐れ",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230116-2563965/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230116-2561994/",
+          "author": null,
+          "description": "Microsoftは1月12日、Exchange Team Blogにおいて、「Microsoft Exchange Server 2013」のサポート終了まで残り90日を切ったとして注意を喚起した。Exchange Server 2013は2023年4月11日にサポート終了を迎える予定で、それ以降はセキュリティ修正も含めた一切のサポートが提供されなくなる。",
+          "link": "https://news.mynavi.jp/techplus/article/20230116-2561994/",
+          "publishedOn": "2023-01-16T00:01:52.000Z",
+          "wordCount": 1715,
+          "title": "Microsoft Exchange Server 2013のサポート終了迫る、残り90日足らず",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230116-2561994/ogp_images/ogp.jpg"
+        },
+        {
           "id": "https://news.mynavi.jp/techplus/article/20230115-2559218/",
           "author": null,
           "description": "Mimecastはこのほど、フィッシング、スミッシング、ビッシングの違いについて伝えた。すべて異なるサイバー攻撃手法とされているが、個人情報を窃取することが最終目的であることに違いはないと説明されている。",
@@ -6512,36 +6753,6 @@
           "wordCount": 1527,
           "title": "サイバー攻撃対策の極意はサンタから学べる、敵はお節介な子供！？",
           "imageUrl": "https://news.mynavi.jp/techplus/article/20221218-2539536/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20221217-2537394/",
-          "author": null,
-          "description": "Check Point Software Technologiesはこのほど、2022年11月のマルウェアランキングを発表した。2022年11月はEmotetの活動が大幅に増加して2位につけた。Emotetは2022年7月にいったん活動が大幅に減少した。しかし当初の予想通り、この休眠は一時的なもので2022年11月には再度大きな脅威として戻ってきた。",
-          "link": "https://news.mynavi.jp/techplus/article/20221217-2537394/",
-          "publishedOn": "2022-12-17T08:25:01.000Z",
-          "wordCount": 2000,
-          "title": "11月マルウェアランキング、Emotetが復活-休眠は一時的なものだった",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20221217-2537394/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20221217-2538690/",
-          "author": null,
-          "description": "Microsoftはこのほど、Windowsハードウェア開発者プログラムで認定を受けたドライバがランサムウェアの攻撃に悪用されていたと伝えた。この悪意のあるドライバを公開するために使われたアカウントを停止させたことが報告されている。",
-          "link": "https://news.mynavi.jp/techplus/article/20221217-2538690/",
-          "publishedOn": "2022-12-17T05:22:18.000Z",
-          "wordCount": 1621,
-          "title": "Microsoft署名付きドライバ、ランサムウェア攻撃に悪用される",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20221217-2538690/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20221217-2538692/",
-          "author": null,
-          "description": "Fortinetはこのほど、Go言語で開発されたボットネットがWordPressのWebサイトに対して積極的にブルートフォース攻撃を実行していると伝えた。WordPressおよびOpenCartのWebサイトをスキャンしてブルートフォース攻撃を行う「GoTrim」と呼ばれるGolangベースのボットネットが発見された。",
-          "link": "https://news.mynavi.jp/techplus/article/20221217-2538692/",
-          "publishedOn": "2022-12-17T00:18:50.000Z",
-          "wordCount": 1614,
-          "title": "WordPressに対する積極的なブルートフォース攻撃を確認、注意を",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20221217-2538692/ogp_images/ogp.jpg"
         }
       ]
     }
