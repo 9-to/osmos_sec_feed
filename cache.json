@@ -12,6 +12,146 @@
       "siteUrl": "https://www.jpcert.or.jp/",
       "articles": [
         {
+          "id": "https://www.jpcert.or.jp/at/2023/at230003.html",
+          "author": null,
+          "description": "",
+          "link": "https://www.jpcert.or.jp/at/2023/at230003.html",
+          "publishedOn": "2023-01-18T04:09:00.000Z",
+          "wordCount": 320,
+          "title": "注意喚起: 2023年1月Oracle製品のクリティカルパッチアップデートに関する注意喚起  (公開)",
+          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
+        },
+        {
+          "id": "https://www.jpcert.or.jp/wr/2023/wr230118.html#1",
+          "author": null,
+          "description": "複数のマイクロソフト製品には、脆弱性があります。結果として、遠隔の第三者が任意のコードを実行するなどの可能性があります。",
+          "link": "https://www.jpcert.or.jp/wr/2023/wr230118.html#1",
+          "publishedOn": "2023-01-18T00:13:00.000Z",
+          "wordCount": 855,
+          "title": "Weekly Report: 複数のマイクロソフト製品に脆弱性",
+          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
+        },
+        {
+          "id": "https://www.jpcert.or.jp/wr/2023/wr230118.html#2",
+          "author": null,
+          "description": "Windows 8.1は2023年1月10日にサポートが終了しました。この時点で、テクニカルアシスタンスとソフトウェア更新プログラムは提供されなくなります。Windows 8.1を実行しているデバイスがある場合は、より最新のサービスおよびサポートされているWindowsリリースにアップグレードすることをお勧めします。デバイスがWindowsのより最新のリリースを実行するための技術的な要件を満たしていない場合は、デバイスをWindows 11をサポートするデバイスに置き換えることをお勧めします。",
+          "link": "https://www.jpcert.or.jp/wr/2023/wr230118.html#2",
+          "publishedOn": "2023-01-18T00:13:00.000Z",
+          "wordCount": 855,
+          "title": "Weekly Report: Windows 8.1サポートは2023年1月10日に終了しました",
+          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
+        },
+        {
+          "id": "https://www.jpcert.or.jp/wr/2023/wr230118.html#3",
+          "author": null,
+          "description": "複数のアドビ製品には、脆弱性があります。結果として、攻撃者が用意した悪意のあるコンテンツをユーザーが開いた場合、任意のコードが実行されるなどの可能性があります。",
+          "link": "https://www.jpcert.or.jp/wr/2023/wr230118.html#3",
+          "publishedOn": "2023-01-18T00:13:00.000Z",
+          "wordCount": 855,
+          "title": "Weekly Report: 複数のアドビ製品に脆弱性",
+          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
+        },
+        {
+          "id": "https://www.jpcert.or.jp/wr/2023/wr230118.html#4",
+          "author": null,
+          "description": "複数のJuniper Networks製品には、脆弱性があります。結果として、遠隔の第三者がサービス運用妨害（DoS）攻撃を行うなどの可能性があります。",
+          "link": "https://www.jpcert.or.jp/wr/2023/wr230118.html#4",
+          "publishedOn": "2023-01-18T00:13:00.000Z",
+          "wordCount": 855,
+          "title": "Weekly Report: 複数のJuniper Networks製品に脆弱性",
+          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
+        },
+        {
+          "id": "https://www.jpcert.or.jp/wr/2023/wr230118.html#5",
+          "author": null,
+          "description": "DrupalのPrivate Taxonomy Termsモジュールには、taxonomy overview pageとoverview formに対して適切にパーミッションを実施しない脆弱性があります。",
+          "link": "https://www.jpcert.or.jp/wr/2023/wr230118.html#5",
+          "publishedOn": "2023-01-18T00:13:00.000Z",
+          "wordCount": 855,
+          "title": "Weekly Report: DrupalのPrivate Taxonomy Termsモジュールに脆弱性",
+          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
+        },
+        {
+          "id": "https://www.jpcert.or.jp/wr/2023/wr230118.html#6",
+          "author": null,
+          "description": "Google Chromeには、複数の脆弱性があります。",
+          "link": "https://www.jpcert.or.jp/wr/2023/wr230118.html#6",
+          "publishedOn": "2023-01-18T00:13:00.000Z",
+          "wordCount": 855,
+          "title": "Weekly Report: Google Chromeに複数の脆弱性",
+          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
+        },
+        {
+          "id": "https://www.jpcert.or.jp/wr/2023/wr230118.html#7",
+          "author": null,
+          "description": "OpenAM Web Policy Agent（OpenAMコンソーシアム版）には、パストラバーサルの脆弱性があります。結果として、第三者がドキュメントルート外のファイルにアクセスする可能性があります。また、アクセスを許可されていない第三者が、保護されたリソースにアクセスする可能性があります。",
+          "link": "https://www.jpcert.or.jp/wr/2023/wr230118.html#7",
+          "publishedOn": "2023-01-18T00:13:00.000Z",
+          "wordCount": 855,
+          "title": "Weekly Report: OpenAM Web Policy Agent(OpenAMコンソーシアム版)にパストラバーサル脆弱性",
+          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
+        },
+        {
+          "id": "https://www.jpcert.or.jp/wr/2023/wr230118.html#8",
+          "author": null,
+          "description": "TP-Link SG105PEには、認証回避の脆弱性があります。結果として、悪意のある第三者が特定の条件下で、管理者の権限で情報を閲覧したり、設定を変更したりする可能性があります。",
+          "link": "https://www.jpcert.or.jp/wr/2023/wr230118.html#8",
+          "publishedOn": "2023-01-18T00:13:00.000Z",
+          "wordCount": 855,
+          "title": "Weekly Report: TP-Link SG105PEに認証回避の脆弱性",
+          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
+        },
+        {
+          "id": "https://www.jpcert.or.jp/wr/2023/wr230118.html#9",
+          "author": null,
+          "description": "pgAdmin Projectが提供するpgAdmin 4には、オープンリダイレクトの脆弱性があります。結果として、細工されたURLにアクセスすることで、任意のウェブサイトにリダイレクトされる可能性があります。",
+          "link": "https://www.jpcert.or.jp/wr/2023/wr230118.html#9",
+          "publishedOn": "2023-01-18T00:13:00.000Z",
+          "wordCount": 855,
+          "title": "Weekly Report: pgAdmin 4にオープンリダイレクトの脆弱性",
+          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
+        },
+        {
+          "id": "https://www.jpcert.or.jp/wr/2023/wr230118.html#10",
+          "author": null,
+          "description": "Intelから権限昇格の脆弱性に対応したoneAPIツールキット向けのアップデートが公開されました。",
+          "link": "https://www.jpcert.or.jp/wr/2023/wr230118.html#10",
+          "publishedOn": "2023-01-18T00:13:00.000Z",
+          "wordCount": 855,
+          "title": "Weekly Report: Intel製oneAPIツールキットに権限昇格の脆弱性",
+          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
+        },
+        {
+          "id": "https://www.jpcert.or.jp/wr/2023/wr230118.html#11",
+          "author": null,
+          "description": "日本電気株式会社が提供するCLUSTERPRO Xには、複数の脆弱性があります。結果として、遠隔の第三者が既存ファイルを上書きし、任意のコードを実行する可能性があります。",
+          "link": "https://www.jpcert.or.jp/wr/2023/wr230118.html#11",
+          "publishedOn": "2023-01-18T00:13:00.000Z",
+          "wordCount": 855,
+          "title": "Weekly Report: CLUSTERPRO Xに複数の脆弱性",
+          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
+        },
+        {
+          "id": "https://www.jpcert.or.jp/wr/2023/wr230118.html#12",
+          "author": null,
+          "description": "株式会社まほろば工房が提供するMAHO-PBX NetDevancerシリーズには、複数の脆弱性があります。結果として、遠隔の第三者が任意のOSコマンドを実行するなどの可能性があります。",
+          "link": "https://www.jpcert.or.jp/wr/2023/wr230118.html#12",
+          "publishedOn": "2023-01-18T00:13:00.000Z",
+          "wordCount": 855,
+          "title": "Weekly Report: MAHO-PBX NetDevancerシリーズに複数の脆弱性",
+          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
+        },
+        {
+          "id": "https://www.jpcert.or.jp/wr/2023/wr230118.html#13",
+          "author": null,
+          "description": "株式会社ピクセラが提供するPIX-RT100には、複数の脆弱性があります。結果として、隣接ネットワーク上の第三者が、ドキュメント化されていないTelnetサービスまたはSSHサービスを介して当該製品にアクセスする可能性があります。",
+          "link": "https://www.jpcert.or.jp/wr/2023/wr230118.html#13",
+          "publishedOn": "2023-01-18T00:13:00.000Z",
+          "wordCount": 855,
+          "title": "Weekly Report: ピクセラ製PIX-RT100に複数の脆弱性",
+          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
+        },
+        {
           "id": "https://www.jpcert.or.jp/wr/2023/wr230112.html#1",
           "author": null,
           "description": "FortiADCには、OSコマンドインジェクションの脆弱性があります。結果として、当該製品のWeb GUIにアクセス可能な第三者が、任意のコードまたはコマンドを実行する可能性があります。",
@@ -270,16 +410,6 @@
           "wordCount": 964,
           "title": "Weekly Report: シャープ製デジタル複合機にコマンドインジェクションの脆弱性",
           "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
-        },
-        {
-          "id": "https://www.jpcert.or.jp/at/2022/at220032.html",
-          "author": null,
-          "description": "",
-          "link": "https://www.jpcert.or.jp/at/2022/at220032.html",
-          "publishedOn": "2022-12-19T05:15:00.000Z",
-          "wordCount": 416,
-          "title": "注意喚起: FortiOSのヒープベースのバッファーオーバーフローの脆弱性（CVE-2022-42475）に関する注意喚起  (更新)",
-          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
         }
       ]
     },
@@ -288,6 +418,26 @@
       "feedUrl": "https://www.ipa.go.jp/about/newsonly-rss.rdf",
       "siteUrl": "https://www.ipa.go.jp/about/index.html",
       "articles": [
+        {
+          "id": "https://www.ipa.go.jp/about/ipanews/index.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "IPAでは、日々の活動内容や成果を幅広くご紹介し、IPAの活動内容への理解および事業成果の普及推進等を図ることを目的として、IPA広報誌「IPA NEWS」を発行しております。月ごとの主なトピックスや、現在IPAが特に力を入れて取り組んでいる事業の進捗状況などを盛り込んだ内容を、隔月でお届けしています。",
+          "link": "https://www.ipa.go.jp/about/ipanews/index.html",
+          "publishedOn": "2023-01-18T03:00:00.000Z",
+          "wordCount": 134,
+          "title": "IPA広報誌「IPA NEWS」Vol.61（2月号）PDFを公開しました",
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.ipa.go.jp/security/vuln/report/JVNiPedia2022q4.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報セキュリティ関連情報のユーザー、管理者、技術者に向けた発信、その前提となる情報収集、調査分析、研究開発、技術評価等の実施",
+          "link": "https://www.ipa.go.jp/security/vuln/report/JVNiPedia2022q4.html",
+          "publishedOn": "2023-01-18T03:00:00.000Z",
+          "wordCount": 316,
+          "title": "脆弱性対策情報データベースJVN iPediaの登録状況 [2022年第4四半期（10月～12月）]",
+          "imageUrl": null
+        },
         {
           "id": "https://www.ipa.go.jp/security/txt/2022/q4outline.html",
           "author": "情報処理推進機構（IPA）",
@@ -487,16 +637,6 @@
           "wordCount": 340,
           "title": "情報処理安全確保支援士試験及び情報処理技術者試験（高度試験の組込み分野）における出題構成等の変更について（外部リンク）",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.ipa.go.jp/security/it-service/service_list.html",
-          "author": "情報処理推進機構（IPA）",
-          "description": "情報セキュリティ関連情報のユーザー、管理者、技術者に向けた発信、その前提となる情報収集、調査分析、研究開発、技術評価等の実施",
-          "link": "https://www.ipa.go.jp/security/it-service/service_list.html",
-          "publishedOn": "2022-12-19T08:05:00.000Z",
-          "wordCount": 118,
-          "title": "「情報セキュリティサービス基準適合サービスリスト」にサービスを追加しました。",
-          "imageUrl": null
         }
       ]
     },
@@ -598,6 +738,36 @@
       "feedUrl": "https://www.mcafee.com/blogs/feed/",
       "siteUrl": null,
       "articles": [
+        {
+          "id": "https://www.mcafee.com/blogs/?p=163324",
+          "author": "McAfee",
+          "description": "Written by James Schmidt  Editor’s Note: We often speak of online scams in our blogs, ones that cost victims hundreds...\nThe post A Scam in the Family—How a Close Relative Lost $100,000 to an Elder Scam appeared first on McAfee Blog.",
+          "link": "https://www.mcafee.com/blogs/privacy-identity-protection/a-scam-in-the-family-how-a-close-relative-lost-100000-to-an-elder-scam/",
+          "publishedOn": "2023-01-18T00:58:30.000Z",
+          "wordCount": 3586,
+          "title": "A Scam in the Family—How a Close Relative Lost $100,000 to an Elder Scam",
+          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2022/06/300x200_Blog_OlderFamilyMembers.jpg"
+        },
+        {
+          "id": "https://www.mcafee.com/blogs/?p=163294",
+          "author": "McAfee",
+          "description": "It’s common practice to pull down the window shades at night. Homeowners invest in high fences. You may even cover...\nThe post 3 Tools to Round Out Your Privacy Protection Toolbox appeared first on McAfee Blog.",
+          "link": "https://www.mcafee.com/blogs/privacy-identity-protection/3-tools-to-round-out-your-privacy-protection-toolbox/",
+          "publishedOn": "2023-01-16T14:05:48.000Z",
+          "wordCount": 2902,
+          "title": "3 Tools to Round Out Your Privacy Protection Toolbox",
+          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2023/01/300x200_Blog_012123.png"
+        },
+        {
+          "id": "https://www.mcafee.com/blogs/?p=163264",
+          "author": "McAfee",
+          "description": "Authored by Dennis Pang  Online protection software. Antivirus. The two words get used interchangeably often enough. But sure enough, they’re...\nThe post The Big Difference Between Online Protection Software and Antivirus appeared first on McAfee Blog.",
+          "link": "https://www.mcafee.com/blogs/privacy-identity-protection/the-big-difference-between-online-protection-software-and-antivirus/",
+          "publishedOn": "2023-01-15T13:44:31.000Z",
+          "wordCount": 3322,
+          "title": "The Big Difference Between Online Protection Software and Antivirus",
+          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2023/01/300x200_Blog_012223.png"
+        },
         {
           "id": "https://www.mcafee.com/blogs/?p=134239",
           "author": "McAfee",
@@ -737,16 +907,6 @@
           "wordCount": 3476,
           "title": "The Best Way To Protect Your Online Identity",
           "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2022/12/300x203_Blog_122122.png"
-        },
-        {
-          "id": "https://www.mcafee.com/blogs/?p=162770",
-          "author": "McAfee",
-          "description": "The smarts behind a smart home come from you. At least when it comes to keeping it more private and...\nThe post The Smart Home Security Guide appeared first on McAfee Blog.",
-          "link": "https://www.mcafee.com/blogs/internet-security/the-smart-home-security-guide/",
-          "publishedOn": "2022-12-19T16:32:29.000Z",
-          "wordCount": 3079,
-          "title": "The Smart Home Security Guide",
-          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2022/12/300x203_Blog_121922.png"
         }
       ]
     },
@@ -756,14 +916,14 @@
       "siteUrl": "https://blog.kaspersky.co.jp",
       "articles": [
         {
-          "id": "https://blog.kaspersky.co.jp/?p=33000",
-          "author": "Enoch Root",
-          "description": "Eufyの監視カメラに関連する最近のインシデントは、こんな質問を突き付けています。知らないうちにリアリティ番組のスターになる覚悟はできていますか？",
-          "link": "https://blog.kaspersky.co.jp/ip-cameras-unsecurity-eufy/33000/",
-          "publishedOn": "2022-12-18T21:43:45.000Z",
-          "wordCount": 1010,
-          "title": "ネットワーク監視カメラは安全なのか？ | カスペルスキー公式ブログ",
-          "imageUrl": "https://media.kasperskydaily.com/wp-content/uploads/sites/98/2022/12/19063928/ip-cameras-unsecurity-eufy-featured.jpg"
+          "id": "https://blog.kaspersky.co.jp/?p=33090",
+          "author": "John Snow",
+          "description": "詐欺かもしれないといち早く気づくために、最近発生した偽の仮想通貨取引所に誘い込むケースを使って危険信号を解説します。",
+          "link": "https://blog.kaspersky.co.jp/twitter-fake-crypto-scheme/33090/",
+          "publishedOn": "2023-01-16T09:27:53.000Z",
+          "wordCount": 1004,
+          "title": "Twitter使い仮想通貨を奪う詐欺 | カスペルスキー公式ブログ",
+          "imageUrl": "https://media.kasperskydaily.com/wp-content/uploads/sites/98/2023/01/16182136/twitter-fake-crypto-scheme-featured.jpg"
         }
       ]
     },
@@ -947,36 +1107,6 @@
           "wordCount": 306,
           "title": "スマートカメラ Cisco Meraki MV がAI画像解析サービス OPTiM AI Camera シリーズに対応",
           "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs%3Agblogs/sites/2/graphic-cutting-edge-architecture-2644x793-7cfbeac-460x230.jpg"
-        },
-        {
-          "id": "https://gblogs.cisco.com/jp/?p=44484",
-          "author": "TALOS Japan",
-          "description": "今週も脅威情報ニュースレターをお届けします。年の瀬が押し迫ってくると、またあの胸を締め付けるような感覚がよみがえってきます。このニュースレターの読者なら、おそらくほとんどの方が毎年この時期に感じているあの感覚です。",
-          "link": "https://gblogs.cisco.com/jp/2022/12/talos-threat-source-newsletter-dec-7-2022/",
-          "publishedOn": "2022-12-19T02:33:49.000Z",
-          "wordCount": 293,
-          "title": "脅威情報ニュースレター（2022 年 12 月 8 日）：リンクをクリックしまくった親戚のおじさんを救え",
-          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/11AS90304_eyecatch-460x230.jpg"
-        },
-        {
-          "id": "https://gblogs.cisco.com/jp/?p=44347",
-          "author": "村松 杏奈",
-          "description": "シスコの社員には、Time 2 Giveというボランティア休暇を有給とは別に年間最大５日間取得することができます。この仕組みを利用して、カスタマーサクセスの有志メンバーが集まって植栽ボランティアに参加した体験記をご紹介します。",
-          "link": "https://gblogs.cisco.com/jp/2022/12/time2give_planting/",
-          "publishedOn": "2022-12-19T00:00:57.000Z",
-          "wordCount": 184,
-          "title": "【We are Cisco】Time2Give：普通の社員が普通にボランティア – 木を植える編 –",
-          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs%3Agblogs/sites/2/IMG_5997-e1671092214797-460x230.jpeg"
-        },
-        {
-          "id": "https://gblogs.cisco.com/jp/?p=44287",
-          "author": "門脇 拓弥",
-          "description": "Intersight Workload Optimizer 意思決定エンジンの「Under the Hood（裏側）」に潜入し、詳しくご紹介。Intersight Workload Optimizer サービスの背後にあるテクノロジーについて掘り下げる全 3 回の週刊ブログシリーズの第 2 弾をお届けします。",
-          "link": "https://gblogs.cisco.com/jp/2022/12/intersight-workload-optimizer-how-to-get-smarter-with-appdynamics/",
-          "publishedOn": "2022-12-19T00:00:00.000Z",
-          "wordCount": 398,
-          "title": "Intersight Workload Optimizer：AppDynamics でもっとスマートに",
-          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs%3Agblogs/sites/2/intersight-workload-optimizer-how-to-get-smarter-with-appdynamics-article-460x230.jpg"
         }
       ]
     },
@@ -984,23 +1114,7 @@
       "title": "FFRIエンジニアブログ",
       "feedUrl": "https://engineers.ffri.jp/rss",
       "siteUrl": "https://engineers.ffri.jp/",
-      "articles": [
-        {
-          "id": "hatenablog://entry/4207112889935607976",
-          "author": null,
-          "description": "こんにちは。基礎技術研究部の茂木です。今回は Rust の話をします。\n11 月 3 日にリリースされた Rust v1.65.0 では Generic Associated Types(以下、GATs)が入りました。\nこれにより、Higher Kinded Types のエミュレートが比較的しやすくなります。\nそうなると Monad を実装してみたくなるのが人情というものです。\n実際いくつも(GATs が Stable になる以前から)先行事例が存在します[1,2,3]。\n本記事ではまず[1,2]の手法に従って Monad Transformer を実装しつつ、[3]の手法に切り替えたのち Free Monad を実装します。\nなお筆者は関数型プログラミング初心者です。その意味で本記事は[4]における教科書や論文ではないのでご了承ください。\nまた本記事では Monad 自体の解説はしませんので、「すごい Haskell たのしく学ぼう！」*1等をご参照ください。\nまずは HKT, Functor, Monad trait を実装します(Applicative は本記事では省略します)。\ntrait HKT {\n    type C;\n    type H<T>: HKT<C = T>;\n}\n\ntrait Functor: HKT {\n    type H<T>: Functor<C = T>;\n    fn fmap<F, B>(self, f: F) -> <Self as Functor>::H<B>\n    where\n        F: FnMut(Self::C) -> B;\n}\n\ntrait Monad: Functor {\n    type H<T>: Monad<C = T>;\n    fn pure<A>(t: A) -> <Self as Monad…",
-          "link": "https://engineers.ffri.jp/entry/2022/12/19/103805",
-          "publishedOn": "2022-12-19T01:38:05.000Z",
-          "wordCount": 1704,
-          "title": "Rust で Monad, Monad Transformer そして Free Monad をエミュレートする",
-          "enclosure": {
-            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/F/FFRI/20210519/20210519142247.jpg",
-            "type": "image/jpeg",
-            "length": "0"
-          },
-          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/F/FFRI/20210519/20210519142247.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "IIJ Security Diary",
@@ -1012,7 +1126,18 @@
       "title": "三井物産セキュアディレクション株式会社",
       "feedUrl": "https://www.mbsd.jp/research/atom.xml",
       "siteUrl": "https://www.mbsd.jp/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://www.mbsd.jp/research/20230118/202212-mbsd-soc/",
+          "author": null,
+          "description": "2022年12月度のMBSD-SOCにおける検知傾向トピックスです。",
+          "link": "https://www.mbsd.jp/research/20230118/202212-mbsd-soc/",
+          "publishedOn": "2023-01-18T09:30:00.000Z",
+          "wordCount": 624,
+          "title": "2022年12月度 MBSD-SOCの検知傾向トピックス",
+          "imageUrl": "https://www.mbsd.jp/2023/01/13/assets/images/6a38954bd90a0edf5270ae0606bceab9e1551b7f.PNG"
+        }
+      ]
     },
     {
       "title": "SIOS Tech. Lab",
@@ -1168,16 +1293,6 @@
           "wordCount": 2605,
           "title": "Apache Kafkaシリーズ Consumer について",
           "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2022/11/apache_kafka_logo_icon_167866.png"
-        },
-        {
-          "id": "https://tech-lab.sios.jp/?p=32301",
-          "author": "藤原奈々",
-          "description": "Kubernetesの弱点はデータ管理の大変さにあります。しかし、Grafanaを使えば、安全かつ楽にデータ可視化、分析ができるようになります。 今回、Grafana Labs, Jag Dhillon氏のご協力で、Ku [...]\n【デモンストレーション】Grafanaを使って、Kubernetesデータを可視化しよう first appeared on SIOS Tech. Lab.",
-          "link": "https://tech-lab.sios.jp/archives/32301",
-          "publishedOn": "2022-12-19T04:06:41.000Z",
-          "wordCount": 2353,
-          "title": "【デモンストレーション】Grafanaを使って、Kubernetesデータを可視化しよう",
-          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2022/12/grafana2.png"
         }
       ]
     },
@@ -1192,6 +1307,16 @@
       "feedUrl": "https://eset-info.canon-its.jp/RSS.rdf",
       "siteUrl": "https://eset-info.canon-its.jp/",
       "articles": [
+        {
+          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/230118.html",
+          "author": null,
+          "description": "2022年の参議院選挙を目前に控えた日本の政治団体が、APTグループ「MirrorFace」によるスピアフィッシングの標的とされていたことをESET社の研究者が明らかにしました。この攻撃の調査の過程で発見した、認証情報を窃取するための新たなツールと、フィッシング攻撃の内容を解説します。\n\n\n本記事はESET Japanが提供する「ESETブログ」に掲載された「APTグループ「MirrorFace」が日本の政治団体を標的に実行したLiberalFace作戦の詳細」を再編集したものです。\n\n\n\n\n\n\nESET社が追跡しているAPTグループ「MirrorFace」が、2022年7月の日本の参議院選挙までの数週間にわたってスピアフィッシングキャンペーンを実行していたことが明らかになりました。ESET社は、このキャンペーンを「LiberalFace作戦」と命名しました。このキャンペーンは、日本の政治団体を標的にしており、ESET社の調査から、特定の政党の党会員がこのキャンペーンの重要な標的になっていたことがわかりました。ESET Researchは、12月上旬に開催された AVAR 2022 Conferenceで、このキャンペーンとその背後にいるAPTグループに関する詳細を公開しました。\n\n本ブログの要点：\n\n\n\t2022年6月末、MirrorFaceは日本の政治団体を標的としたキャンペーンを開始しました。ESET社ではこのキャンペーンを「LiberalFace作戦」と命名しました。\n\tMirrorFaceが最も多く利用しているバックドアである「LODEINFO」が含まれるスピアフィッシングメールが標的に送信されました。\n\tLODEINFOは、別のマルウェアを配信し、標的となったユーザーの認証情報を窃取し、そのユーザーの文書やメールを盗み出すために使用されていました。\n\tこれまで検出されたことのない認証情報を窃取するツールがLiberalFace作戦で使用されました。ESET社はこのツールをMirrorStealerと命名しました。\n\tESET社は、セキュリティが侵害された後の操作を分析し、同グループが手動または半手動の方法でさまざまな操作を実行している可能性があることを特定しました。\n\tESET社は、AVAR 2022 Conferenceで本キャンペーンの詳細を公開しました。\n\n\nMirrorFaceは中国語を使用するサイバー攻撃者で、日本に拠点を置く企業や組織を標的にしています。この攻撃グループは、APT10との関連性が疑われていますが、ESET社は既知のAPTグループとの関係を特定できていません。そのため、このグループをMirrorFaceと命名し、個別のグループとして追跡しています。特に、MirrorFaceのみが使用している「LODEINFO」マルウェアは、日本国内の標的に限定して使用されており、メディア、防衛関連企業、シンクタンク、外交機関、学術機関などを標的としていることが報告されています。MirrorFaceは、諜報活動や同グループが関心を持っているファイルを窃取することを目的にしています。\n\n以下の指標から、LiberalFace作戦がMirrorFaceによって実施されているとESET社は判断しています。\n\n\n\tESET社のこれまでの調査では、LODEINFOマルウェアはMirrorFaceのみが使用しています。\n\tLiberalFace作戦の標的は、MirrorFaceの過去の標的と一致しています。\n\t第2段階で使用されるLODEINFOマルウェアの検体は、MirrorFaceのインフラの一部としてESET社が追跡しているC&amp;Cサーバーにアクセスしていました。\n\n\nLiberalFace作戦で送信されたスピアフィッシングメールの中には、日本の特定政党の広報部門からの公式な通知を装っており、参議院選挙に関する依頼が記載され、著名な政治家の代理で送信されたように偽装されたものがありました。すべてのスピアフィッシングメールに悪意のある添付ファイルが含まれており、マシンが侵害されLODEINFOが展開されます。\n\nさらに、MirrorFaceは、これまで検出されたことのない新しいマルウェアを使用して、標的の認証情報を盗んでいました。ESET社はこのマルウェアをMirrorStealerと命名しました。このマルウェアが検出され公開されたのは、今回が初めてだとESET社は考えています。\n\nこのブログでは、LODEINFOに送信されたC&amp;Cコマンドなど、セキュリティが侵害された後に確認された行動について解説します。攻撃の対象となったマシンで実行された特定の動作から、MirrorFaceのオペレーターは手動または半手動でLODEINFOマルウェアのコマンドを実行していたと考えられます。\n\n初期アクセス\n\nMirrorFaceは2022年6月29日に攻撃を開始し、悪意のあるファイルを添付したスピアフィッシングメールを標的に配信しました。このメールの件名は 「&lt;一部編集済み&gt;SNS用動画 拡散のお願い」でした。図1と図2にメールの内容を示します。\n\n\n\n図1.メールの原文\n\n\n\n\n図2.翻訳版\n\n\nMirrorFaceは、日本のある政党の広報部門を装い、政党のPRをさらに強化し、参議院での勝利を勝ち取るために、添付の動画を各自のソーシャルメディア（SNS：Social Network Service）から配信するようにメールの受信者に要請しています。さらに、このメールでは、ビデオを公開するための戦略についても明確に指示しています。\n\n2022年7月10日に参議院選挙が実施されていることから、このメールはMirrorFaceが政治団体を攻撃しようとしていたことをが明確になっています。また、メールの具体的な内容から、特定の政党の党員が標的にされたことがわかります。\n\nMirrorFaceは、このキャンペーンで別のスピアフィッシングメールも使用しており、添付ファイルのタイトルは 【参考】220628&lt;編集済&gt;発・&lt;編集済&gt;選挙管理委員会宛文書（添書分）.exeになっていました。添付されていたおとり文書（図3に表示）では、参議院選挙についても言及しています。\n\n\n\n図3.標的に表示するおとり文書\n\n\nいずれの場合も、メールには、 &lt;編集済&gt;SNS用動画 拡散のお願い.exeおよび【参考】220628&lt;編集済&gt;発・&lt;編集済&gt;選挙管理委員会宛文書（添書分）.exeというファイル名が付けられた自己展開型のWinRARアーカイブファイルが添付されていました。\n\nこれらのEXEは、アーカイブされているコンテンツを%TEMP% フォルダーに展開します。具体的には、次の4つのファイルが展開されます。\n\n\n\tK7SysMon.exe。これは、K7 Computing Pvt Ltd が開発した正規のアプリケーションであり、DLLの検索順序をハイジャックする脆弱性が存在します。\n\tK7SysMn1.dll。悪意のあるローダー。\n\tK7SysMon.Exe.db。暗号化されたLODEINFOマルウェア\n\tおとり文書\n\n\nそして、標的を欺くために、おとりの文書を開き、正規のファイルのように見せかけています。最後のステップとして、K7SysMon.exeが実行され、一緒にドロップされた悪意のあるローダーK7SysMn1.dllがロードされます。最後にローダーは K7SysMon.Exe.dbのコンテンツを読み取り、復号化してから実行します。カスペルスキーもこの手法を確認しており、同社のレポートにも記載されています。\n\nツールセット\n\nこのセクションでは、「LiberalFace作戦」でMirrorFaceが使用したマルウェアについて説明します。\n\nLODEINFO\n\nLODEINFOは、MirrorFaceが継続的に開発しているバックドアです。JPCERTは、2019年12月頃に出現したLODEINFOの最初のバージョン（v0.1.2）について報告しており、スクリーンショットのキャプチャ、キーロギング、プロセスの強制終了、ファイルの外部への送信、追加のファイルおよびコマンドの実行などの機能をLODEINFOが搭載していることを報告しています。その後、バージョンアップを重ね、現在に至っています。例えば、ESETが2020年6月に初めて検出したバージョン0.3.8では、定義されたファイルやフォルダーを暗号化するコマンドransomが追加され、ESETが2021年7月に検出したバージョン0.5.6では、オペレーターがレジストリに保存された設定を変更できるコマンドconfigが追加されています。上記のJPCERTの報告以外にも、今年初めにはカスペルスキーがLODEINFOバックドアを詳細に解析した結果を公表しています。\n\nLiberalFace作戦では、MirrorFaceのオペレーターが、通常のLODEINFOと、ESET社がセカンドステージと呼んでいるLODEINFOマルウェアの両方を利用していることが確認されています。セカンドステージのLODEINFOは、全体的な機能から、通常のLODEINFOと区別できます。特に、セカンドステージのLODEINFOでは、実装されているコマンド以外のPEバイナリやシェルコードも受け入れて実行できます。さらに、セカンドステージのLODEINFOはC&amp;Cコマンドのconfigを処理できますが、ransomコマンドに対応する機能が欠落しています。\n\n最後に、C&amp;Cサーバーから受け取るデータも、通常のLODEINFOとセカンドステージのLODEINFOでは異なります。セカンドステージのLODEINFOでは、C&amp;Cサーバーは実際のデータの前にランダムなWebページのコンテンツを配置します。受信するデータの差異については、 図4、図5、図6を参照してください。セカンドステージのC&amp;Cから受信した各データストリームでは、追加されるコードスニペットが異なっています。\n\n\n\n図4.ファーストステージのLODEINFOのC&amp;Cから受信したデータ\n\n\n\n\n図5.セカンドステージのC&amp;Cから受信したデータ\n\n\n\n\n図6.セカンドステージのC&amp;Cから受信した別のデータストリーム\n\n\nMirrorStealer\n\nMirrorStealerは、MirrorFaceが内部的には31558_n.dll と命名しているマルウェアであり、認証情報を窃取します。ESET社の知る限り、これはこれまで公開されていないマルウェアです。MirrorStealerは通常、ブラウザーやメールクライアントなどのさまざまなアプリケーションから認証情報を盗み取ります。注意が必要なのは、対象となるアプリケーションの1つが、現在日本でしか利用できないメールクライアントBecky!であることです。窃取されたすべての認証情報は、%TEMP%\\31558.txt に保存されます。MirrorStealerは窃取したデータを外部に送信する機能を実装していないため、外部にデータを送信するためには他のマルウェアを利用します。\n\nセキュリティが侵害された後の活動\n\n今回の調査では、セキュリティが侵害されたコンピューターで実行されたコマンドの一部を確認することができました。\n\n最初の環境の偵察\n\nセキュリティが侵害されたマシンでLODEINFOを起動し、C&amp;Cサーバーへの接続に成功すると、MirrorFaceのオペレーターがコマンドの実行を開始しました（図7を参照）。\n\n\n\n図7.MirrorFaceオペレーターによるLODEINFOを使用した最初の環境の偵察\n\n\nまず、オペレーターはLODEINFOコマンドの1つであるprintを実行し、侵害したマシンの画面をキャプチャしました。このコマンドが実行された後には、LODEINFOが存在している現在のフォルダー（つまり%TEMP%）のコンテンツを見るために、別のコマンドであるlsが実行されています。このオペレーターは、その直後にLODEINFOを使用してnet viewとnet view /domainを実行し、ネットワーク情報を取得しています。最初のコマンドは、ネットワークに接続されているコンピューターのリストを返し、2番目のコマンドは、利用可能なドメインのリストを返します。\n\n認証情報とブラウザーCookieの窃取\n\nこれらの基本的な情報を収集した後に、このオペレーターは次の段階に移ります（図8を参照）。\n\n\n\n図8.認証情報窃取ツールの展開、認証情報およびブラウザーCookieの収集、C&amp;Cサーバーへのデータの送信を行うためにLODEINFOに送信された一連の指示\n\n\nこのオペレーターは、-memoryサブコマンドを付けて LODEINFOコマンドのsendを実行し、侵害したマシンにMirrorStealerマルウェアを配信しています。サブコマンドの-memoryは、MirrorStealerをメモリ内に保持するようにLODEINFOに指示するために使用され、MirrorStealerバイナリがディスクにドロップされないようにしています。続いて、コマンドmemoryが実行されています。このコマンドは、MirrorStealerを取得し、大量に生成されたcmd.exeプロセスにこのマルウェアを注入して実行するようにLODEINFOに指示しています。\n\nMirrorStealerが認証情報を収集し、 %temp%\\31558.txtに保存すると、このオペレーターはLODEINFOを使用して認証情報を外部に送信しました。\n\nこのオペレーターは、標的となったユーザーのブラウザーCookieにも関心を持っています。しかし、MirrorStealerはこれらのCookieを収集する機能を実装していません。そのため、オペレーターはLODEINFOから手動でCookieを外部に送信していました。このオペレーターはまず、LODEINFOコマンドのdirを使用して、%LocalAppData%\\Google\\Chrome\\User Data\\と %LocalAppData%\\Microsoft\\Edge\\User Data\\フォルダーのコンテンツを表示しました。次に、特定されたすべてのCookieファイルを%TEMP%フォルダーにコピーしました。次に、LODEINFOコマンドのrecvを使用して、収集したすべてのCookieファイルを外部に送信しました。最後に、オペレーターはコピーしたCookieファイルを%TEMP%フォルダーから削除し、攻撃の痕跡を消し去ろうとしました。\n\n文書やメールの窃取\n\nこのオペレーターは、次の段階で、さまざまな種類の文書や保存されたメールを外部に送信しました（図9を参照）。\n\n\n\n図9.重要なファイルを外部に送信するように、LODEINFOに送られた一連の指示\n\n\nそのため、オペレーターは最初にLODEINFOを使用して、WinRARアーカイバー（rar.exe）を配信しました。rar.exeを使用して、%USERPROFILE%\\と C:\\$Recycle.Bin\\から2022年1月1日以降に変更された重要なファイルを収集してアーカイブしました。このオペレーターは、拡張子が.doc*、.ppt*、.xls*、.jtd、.eml、.*xps、.pdfのファイルすべてを収集の対象としていました。\n\nMirrorFaceは、これらの一般的な文書タイプの他にも、.jtdの拡張子のファイルも収集していたことに注意が必要です。この拡張子のファイルは、JustSystemsが開発した日本語ワードプロセッサー一太郎の文章です。\n\nアーカイブが作成されると、オペレーターはPuTTYスイートからSCP（Secure Copy Protocol）クライアント（pscp.exe）を配信し、このクライアントを使用して作成したRARアーカイブを45.32.13[.]180にあるサーバーに送信しました。このIPアドレスは、過去のMirrorFaceの活動では確認されておらず、ESETが確認したLODEINFOマルウェアのC&amp;Cサーバーとしても使用されていません。アーカイブを送信した直後に、オペレーターは活動の痕跡を消すために rar.exe、pscp.exe、およびRARアーカイブを削除しています。\n\nセカンドステージのLODEINFOの展開\n\n最後にESETが観察したのは、セカンドステージのLODEINFOの配信です（ 図10を参照）。\n\n\n\n図10.セカンドステージのLODEINFOを展開するためにLODEINFOに送信された一連の指示\n\n\nオペレーターはJSESPR.dll、 JsSchHlp.exe、 vcruntime140.dllのバイナリを侵害したマシンに配信しています。オリジナルのJsSchHlp.exeは、先に述べた日本語ワードプロセッサーの製造元であるジャストシステム社が署名している正規のアプリケーションです。しかし、MirrorFaceのオペレーターは、マイクロソフト社のデジタル署名検証における既知の問題を悪用し、JsSchHlp.exeのデジタル署名にRC4で暗号化されたデータを追加しています。この問題により、Windowsは改変されたJsSchHlp.exeに 有効な署名が追加されていると見なしてしまいます。\n\nJsSchHlp.exeは、DLLサイドローディングの影響を受けている可能性もあります。このファイルを実行するときに、攻撃者が仕組んだJSESPR.dllがロードされます（図11を参照）。\n\n\n\n図11.セカンドステージのLODEINFOの実行フロー\n\n\nJSESPR.dllは、JsSchHlp.exeから追加されたペイロードを読み込み、復号化して実行する悪意のあるローダーです。このペイロードはセカンドステージのLODEINFOです。オペレーターは通常のLODEINFOを使用してセカンドステージのLODEINFOを常駐化させます。特に、オペレーターはreg.exeユーティリティを実行して、JsSchHlp.exeのパスが保存されているRunレジストリキーにJsSchHlpという値を追加しています。\n\nしかし、セカンドステージのLODEINFOをC&amp;Cサーバーと正しく通信させることができなかったと考えられます。そのため、セカンドステージのLODEINFOをこのオペレーターがこの後でどのように操作したのかは不明なままです。\n\n注意すべき観察結果\n\nこの調査では、注意すべきいくつかのことが明らかになりました。1つは、このオペレーターがLODEINFOでコマンドを実行するときに、いくつかのエラーを発生させたり、タイプミスをしたりしていることです。たとえば、オペレーターはLODEINFOにcmd /c dir &quot;c:\\use\\&quot;という文字列を送信していますが、正しい文字列はcmd /c dir &quot;c:\\users\\&quot;であった可能性が高いです。\n\nこれは、オペレーターが手動または半手動でLODEINFOでコマンドを実行していることを示しています。\n\nまた、オペレーターは攻撃の痕跡を消去するためにいくつかのクリーンアップ処理を実行したにもかかわらず、窃取した認証情報が含まれるログである%temp%\\31558.txtを削除するのを忘れています。このように、少なくともこの攻撃の痕跡は侵害されたマシンに残っており、オペレーターによるクリーンアップ処理が徹底されていなかったことを示しています。\n\n結論\n\nMirrorFaceは、日本国内の組織を標的として攻撃を行っています。LiberalFace作戦では、参議院選挙を目前に控えた政治団体を主要な標的としていました。さらに興味深いことに、MirrorFaceは特定の政党の党員を攻撃の対象としていることがわかりました。\n\nLiberalFace作戦の調査では、標的となったユーザーから重要なデータを収集して送信するために、追加のマルウェアやツールを展開して利用するなど、MirrorFaceの詳細なTTP（戦術、技術、手順）を明らかにすることができました。また、MirrorFaceのオペレーターには不注意な点があり、攻撃の痕跡を残したり、さまざまなミスを犯していることが判明しています。\n\nIOC（セキュリティ侵害の痕跡）\n\nファイル\n\n\n\t\n\t\t\n\t\t\tSHA-1\n\t\t\tファイル名\n\t\t\t検出\n\t\t\t説明\n\t\t\n\t\t\n\t\t\tF4691FF3B3ACD15653684F372285CAC36C8D0AEF\n\t\t\tK7SysMn1.dll\n\t\t\tWin32/Agent.ACLP\n\t\t\tLODEINFOローダー。\n\t\t\n\t\t\n\t\t\tDB81C8719DDAAE40C8D9B9CA103BBE77BE4FCE6C\n\t\t\tK7SysMon.Exe.db\n\t\t\tN/A\n\t\t\t暗号化されたLODEINFO。\n\t\t\n\t\t\n\t\t\tA8D2BE15085061B753FDEBBDB08D301A034CE1D5\n\t\t\tJsSchHlp.exe\n\t\t\tWin32/Agent.ACLP\n\t\t\tセキュリティディレクトリに暗号化されたセカンドステージのLODEINFOが追加されたJsSchHlp.exeがあります。\n\t\t\n\t\t\n\t\t\t0AB7BB3FF583E50FBF28B288E71D3BB57F9D1395\n\t\t\tJSESPR.dll\n\t\t\tWin32/Agent.ACLP\n\t\t\tセカンドステージのLODEINFOローダー。\n\t\t\n\t\t\n\t\t\tE888A552B00D810B5521002304D4F11BC249D8ED\n\t\t\t31558_n.dll\n\t\t\tWin32/Agent.ACLP\n\t\t\tMirrorStealer認証情報窃取ツール。\n\t\t\n\t\n\n\nネットワーク\n\n\n\t\n\t\t\n\t\t\tIP\n\t\t\tプロバイダー\n\t\t\tFirst Seen\n\t\t\t詳細\n\t\t\n\t\t\n\t\t\t5.8.95[.]174\n\t\t\tG-Core Labs S.A.\n\t\t\t2022-06-13\n\t\t\tLODEINFOのC&amp;Cサーバー。\n\t\t\n\t\t\n\t\t\t45.32.13[.]180\n\t\t\tAS-CHOOPA\n\t\t\t2022-06-29\n\t\t\tデータを外部に送信するために使用されるサーバー。\n\t\t\n\t\t\n\t\t\t103.175.16[.]39\n\t\t\tGigabit Hosting Sdn Bhd\n\t\t\t2022-06-13\n\t\t\tLODEINFOのC&amp;Cサーバー。\n\t\t\n\t\t\n\t\t\t167.179.116[.]56\n\t\t\tAS-CHOOPA\n\t\t\t2021-10-20\n\t\t\twww.ninesmn[.]com、セカンドステージのLODEINFO のC&amp;Cサーバー。\n\t\t\n\t\t\n\t\t\t172.105.217[.]233\n\t\t\tLinode, LLC\n\t\t\t2021-11-14\n\t\t\twww.aesorunwe[.]com、セカンドステージのLODEINFOのC&amp;Cサーバー。\n\t\t\n\t\n\n\nMITRE ATT&amp;CKの技術\n\nこの表は、MITRE ATT&amp;CKフレームワークのバージョン12を使用して作成されています。\n\nなお、このブログでは、LODEINFOの機能について詳しく説明していませんが、これらの機能の情報はすでに他のレポートで公開されているため、次のMITRE ATT&amp;CKの表には、これらの機能に関連するすべての手法が記載されています。\n\n\n\t\n\t\t\n\t\t\t手法\n\t\t\tID\n\t\t\t名前\n\t\t\t説明\n\t\t\n\t\t\n\t\t\t初期アクセス\n\t\t\tT1566.001\n\t\t\tフィッシング：スピアフィッシングの添付ファイル\n\t\t\tスピアフィッシングメールに悪意のあるWinRAR SFXアーカイブが添付されています。\n\t\t\n\t\t\n\t\t\t実行\n\t\t\tT1106\n\t\t\tネイティブAPI\n\t\t\tLODEINFOは、CreateProcessA APIを使用してファイルを実行できます。\n\t\t\n\t\t\n\t\t\tT1204.002\n\t\t\tユーザーによる実行：悪意のあるファイル\n\t\t\tMirrorFaceのオペレーターは、標的のユーザーがメールで送られた悪意のある添付ファイルを開くことを攻撃の前提にしています。\n\t\t\n\t\t\n\t\t\tT1559.001\n\t\t\tプロセス間通信：コンポーネントオブジェクトモデル（COM）\n\t\t\tLODEINFOは、コンポーネントオブジェクトモデル（COM）を介してコマンドを実行できます。\n\t\t\n\t\t\n\t\t\t常駐化\n\t\t\tT1547.001\n\t\t\tブートまたはログオン自動起動：Runレジストリキーやスタートアップフォルダーの悪用\n\t\t\tLODEINFOは、HKCU Runキーにエントリを追加し、常駐します。\n\t\t\t\n\t\t\tESETは、MirrorFaceのオペレーターが、セカンドステージのLODEINFOを常駐させるために、HKCU Runキーに手動でエントリを追加していることを確認しています。\n\t\t\n\t\t\n\t\t\t防衛機能の回避\n\t\t\tT1112\n\t\t\tレジストリの変更\n\t\t\tLODEINFOは、設定をレジストリに保存できます。\n\t\t\n\t\t\n\t\t\tT1055\n\t\t\tプロセスインジェクション\n\t\t\tLODEINFOは、cmd.exeにシェルコードを注入できます。\n\t\t\n\t\t\n\t\t\tT1140\n\t\t\tファイルや情報の難読化解除と復号化\n\t\t\tLODEINFOローダーは、シングルバイトのXORまたはRC4を使用してペイロードを復号化します。\n\t\t\n\t\t\n\t\t\tT1574.002\n\t\t\tハイジャックの実行フロー：DLLサイドローディング\n\t\t\tMirrorFaceは、悪意のあるライブラリと正規の実行ファイル（例、K7SysMon.exe）をドロップして、LODEINFOをサイドローディングします。\n\t\t\n\t\t\n\t\t\t検出\n\t\t\tT1082\n\t\t\tシステム情報の検出\n\t\t\tLODEINFOは侵害したマシンの情報を収集します。\n\t\t\n\t\t\n\t\t\tT1083\n\t\t\tファイルおよびディレクトリの検出\n\t\t\tLODEINFOは、ファイルやディレクトリの一覧を取得できます。\n\t\t\n\t\t\n\t\t\tT1057\n\t\t\tプロセスの検出\n\t\t\tLODEINFOは、実行中のプロセスを一覧表示できます。\n\t\t\n\t\t\n\t\t\tT1033\n\t\t\tシステムオーナー/ユーザーの検出\n\t\t\tLODEINFOは、標的となったユーザーの名前を取得できます。\n\t\t\n\t\t\n\t\t\tT1614.001\n\t\t\tシステムの場所の検出：システム言語の検出\n\t\t\tLODEINFOは、システムの言語をチェックし、英語を使用するように設定されたマシンで実行されていないことを確認します。\n\t\t\n\t\t\n\t\t\t収集\n\t\t\tT1560.001\n\t\t\t収集したデータのアーカイブ：ユーティリティを利用したアーカイブ\n\t\t\tESETは、MirrorFaceのオペレーターが、収集したデータをRARアーカイブツールを使用してアーカイブしていることを確認しています。\n\t\t\n\t\t\n\t\t\tT1114.001\n\t\t\tメールの収集：ローカルメールの収集\n\t\t\tESETは、MirrorFaceのオペレーターが、保存されているメールを収集していることを確認しています。\n\t\t\n\t\t\n\t\t\tT1056.001\n\t\t\t入力情報の取得：キーロギング\n\t\t\tLODEINFOは、キーロギングを行います。\n\t\t\n\t\t\n\t\t\tT1113\n\t\t\t画面キャプチャ\n\t\t\tLODEINFOはスクリーンショットを取得できます。\n\t\t\n\t\t\n\t\t\tT1005\n\t\t\tローカルシステムのデータ\n\t\t\tESETは、MirrorFaceのオペレーターが、重要なデータを収集し、外部に送信していることを確認しています。\n\t\t\n\t\t\n\t\t\tC&amp;C（コマンド&amp;コントロール）\n\t\t\tT1071.001\n\t\t\tアプリケーションレイヤープロトコル：Webプロトコル\n\t\t\tLODEINFOは、C&amp;Cサーバーとの通信にHTTPプロトコルを使用します。\n\t\t\n\t\t\n\t\t\tT1132.001\n\t\t\tデータのエンコーディング：標準エンコーディング\n\t\t\tLODEINFOは、URLセーフのbase64を使用して、C&amp;Cトラフィックをエンコードします。\n\t\t\n\t\t\n\t\t\tT1573.001\n\t\t\t暗号化されたチャンネル：対称暗号方式\n\t\t\tLODEINFOは、C&amp;Cトラフィックの暗号化にAES-256-CBCを使用します。\n\t\t\n\t\t\n\t\t\tT1001.001\n\t\t\tデータの難読化：ジャンクデータ\n\t\t\tセカンドステージのLODEINFOのC&amp;Cは、送信するデータの前にジャンクデータを配置します。\n\t\t\n\t\t\n\t\t\t情報の外部への送信\n\t\t\tT1041\n\t\t\tC&amp;Cチャネルからの送信\n\t\t\tLODEINFOは、C&amp;Cサーバーにファイルを送信できます。\n\t\t\n\t\t\n\t\t\tT1071.002\n\t\t\tアプリケーションレイヤープロトコル：ファイル転送プロトコル\n\t\t\tESETは、MirrorFaceがSecure Copy Protocol（SCP）を使用して収集したデータを送信しているのを確認しています。\n\t\t\n\t\t\n\t\t\t影響\n\t\t\tT1486\n\t\t\tデータの暗号化により影響を与える\n\t\t\tLODEINFOは、標的ユーザーのマシンにあるファイルを暗号化できます。",
+          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/230118.html",
+          "publishedOn": "2023-01-17T15:00:00.000Z",
+          "wordCount": 444,
+          "title": "日本の政治団体を標的にした、APTグループ「MirrorFace」のスピアフィッシングキャンペーンとは？",
+          "imageUrl": "https://eset-info.canon-its.jp/files/topics/4126_ext_01_0.jpg"
+        },
         {
           "id": "https://eset-info.canon-its.jp/malware_info/news/detail/230117_2.html",
           "author": null,
@@ -1361,16 +1486,6 @@
           "wordCount": 241,
           "title": "おもちゃに潜む危険。IoTの脅威から家族を守るには",
           "imageUrl": "https://eset-info.canon-its.jp/files/topics/4102_ext_01_0.jpg"
-        },
-        {
-          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/221220.html",
-          "author": null,
-          "description": "BitLockerはWindowsパソコン内蔵のストレージを暗号化することで、盗難・紛失時の情報漏えいリスクを軽減する。管理者権限があれば無効化も可能だが、セキュリティリスクを踏まえ、常に有効にしておくことが推奨される。この記事では、BitLockerを無効化する手順を解説した上で、その他の暗号化の方法についても紹介する。\n\n\n\n\n\nBitLockerとは\n\nBitLockerは、Windowsの主要なバージョンに標準で搭載されている。コンピューターに内蔵されたハードディスクやSSDといったストレージを暗号化し、その端末を盗難・紛失した際の情報漏えいリスクを抑制可能だ。\nまた、パソコン廃棄時の情報漏えいリスクを軽減できるのもBitLockerを利用するメリットの1つと言える。ハードディスクを廃棄する場合、物理的に破壊し、実質的に内部データへアクセスできなくする方法がある。一方、近年パソコンに搭載されることが増えているSSDの場合、専用の装置を使ってさらに細かく粉砕する必要がある。しかし、廃棄の際にパソコンを初期化し、ストレージをフォーマットした上で、BitLockerを使って暗号化をかければ、ファイルの復元はほぼ不可能となる。\n\nストレージを暗号化する「BitLocker」とは？利用する上での注意点はあるのか？\n\nBitLockerを利用する上での懸念点\n\nデータの安全性を高めるというメリットを享受できるのがBitLockerの暗号化機能だが、その導入の結果としてパソコンに不具合が生じてしまうなど、コンピューターの管理に困る状況に陥るケースがあるのも事実だ。\n\n例えば、パソコン自体が起動しない、ストレージが認識されないといった問題が発生する可能性もあり得る。このような場合、BitLockerを利用しているとストレージ自体が暗号化されているため、ストレージを取り出して、ほかの端末から読み取るといった対応を選択できない。\n\nBitLockerで暗号化したパソコンに問題が発生した際は、セーフモードで起動し、問題を解決していくことになる。そのような場合であっても、BitLockerを設定している限り、回復キーの入力が求められる。回復キーとはBitLocker設定時に発行される48桁の文字列で、BitLockerの管理には欠かせない。\n\nBitLockerの回復キーを紛失した時の対処法\n\nBitLockerを無効化する方法\n\nBitLockerを一時的に無効化したいと考える場合、以下の手順で進めていくことになる。\n\n\n\t「コントロールパネル」＞「システムとセキュリティ」＞「BitLockerドライブ暗号化」（Windows 10 Homeの場合は『デバイスの暗号化』）を選択する。\n\t「BitLockerを無効にする」をクリックする。\n\t確認画面でBitLockerの無効化を選択すると、解除処理が開始される。\n\n\nBitLockerの設定を変更するには、パソコンの管理者権限が必要になる。企業・組織においてパソコンを一括で管理している場合、BitLockerを無効化する前に社内のIT担当者へ確認する必要があるだろう。その企業・組織のポリシーを遵守しなければならないためだ。\n\nまた、コントロールパネルから同様の手順でBitLockerを再度、有効化することも可能だ。その際は回復キーが改めて発行される点に注意しておきたい。回復キーを適切に管理するためにも、自身の利用環境に応じたバックアップの手段を選択しておく必要がある。\n\nBitLockerを停止しなければならない状況\n\nパソコンのOSに影響を及ぼし、正常な起動が困難な状況に陥った結果、起動時にブルースクリーンが表示されるケースがある。その際に、要求されたBitLockerの回復キーを正しく入力したにも関わらず、入力の要求が繰り返される事象が報告されている。このような状況に陥った際には、コマンドプロンプトを利用してBitLockerを停止し、問題を解決する。\n\n具体的には以下のような手順で進めていくことになる。\n\n\n\tブルースクリーンに表示される「回復オプションの詳細は、Escキーを押してください」の指示に従いEscキーを押下する。\n\t「トラブルシューティング」 &gt; 「詳細オプション」 &gt; 「コマンドプロンプト」を選択する。\n\tBitLockerによってロックされているか状態を確認するコマンド「manage-bde -status c:」を入力する。\n\tロック状態にあれば、解除するコマンド「manage-bde -unlock c: -rp 48桁の回復キー」を入力する。\n\tBitLockerを無効化する場合、コマンド「manage-bde -protectors -disable c:」を入力する。\n\t上記対応を行った後、正常にログインできることを確認する。\n\n\nコマンドプロンプト経由でBitLockerを無効化した場合、ブルースクリーンの原因が解決に至ったのであれば、再びコントロールパネルからBitLockerを有効化することが推奨される。コマンドプロンプトからBitLockerを無効化する場合でも、やはり回復キーの入力が求められる。そのため、回復キーの管理が極めて重要である点は改めて認識しておいてほしい。\n\nBitLockerの代替案\n\nBitLockerはパソコンの紛失・盗難時の情報漏えいリスクを軽減するため、常に有効化しておきたい機能だ。また、企業・組織では暗号化に関するセキュリティポリシーを策定し、全従業員に遵守するよう求めている場合もある。\n\nそのような場合、各ユーザーに管理者権限が付与されている状況は少ないと考えられるが、仮に管理者権限を有している場合であっても、BitLockerの設定変更が必要となる際は、情報システム部など、端末の管理を担当している部署へ事前に確認するのが望ましい。\n\nBitLockerのようなストレージの暗号化を行うソリューションを検討する際は、ほかの選択肢を考慮してもよいだろう。例えば、オープンソースの暗号化ソフトウェアとして無料で提供されているVeraCrypt、Cryptomatorなどを利用する選択肢が候補に挙がる。Windowsに限らず、Mac OSやLinuxでもストレージが暗号化できるというメリットがあるためだ。\n\nまた、有償のソリューションも数多くのベンダーから提供されている。一般的に、有償のツールの場合、端末管理の手間やセキュリティポリシーの遵守といった管理者向け機能が優れている。\n\n例えば、有償ツールの1つである「ESET Endpoint Encryption」は、データ暗号化を行うエンドポイントソリューションだ。起動前認証（プリブート認証）を採用しているという特長があり、認証に成功しない限りOSが起動されないため、安全性はより高まる。また、OSに対してパスワードクラックを仕掛けられるといったリスクも軽減できる。\n\n加えて、ESET Endpoint Encryptionはデバイス内蔵のストレージを全体で、またはパーティション単位で暗号化するフルディスク暗号化の機能を提供している。BitLockerでは暗号化の対象にならなかった領域まで暗号化できるのが強みと言える。\n\nESET Endpoint Encryptionでは管理用プログラムが無償で提供されるため、管理作業の負担も軽減される。例えば、ユーザーがパスワードを忘れてしまった場合でも、管理画面から回復パスワードを発行し、再設定が可能だ。ほかにも、管理者による自動暗号化、暗号化ステータスの確認、復号の制限といった機能が含まれる。\n\n近年、情報漏えい事件が多数報じられる中、盗難・紛失のリスクを軽減できるディスク暗号化は必須の機能となりつつある。そして、その暗号化を有効化しているかどうかによって、データ漏えい時の被害の規模が大きく変わってくるだろう。万一の際に備え、ストレージの暗号化について対応状況を確認しておきたい。",
-          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/221220.html",
-          "publishedOn": "2022-12-19T15:00:00.000Z",
-          "wordCount": 216,
-          "title": "BitLockerはどう解除する？そもそも解除すべきか？",
-          "imageUrl": "https://eset-info.canon-its.jp/files/topics/4104_ext_01_0.jpg"
         }
       ]
     },
@@ -1423,6 +1538,17 @@
       "feedUrl": "https://www.nic.ad.jp/ja/index.xml",
       "siteUrl": "https://www.nic.ad.jp/",
       "articles": [
+        {
+          "id": "https://www.nic.ad.jp/ja/topics/2023/20230118-01.html",
+          "author": null,
+          "description": "",
+          "link": "https://www.nic.ad.jp/ja/topics/2023/20230118-01.html",
+          "publishedOn": "2023-01-18T05:25:36.000Z",
+          "wordCount": null,
+          "title": "[トピックス]IoTのセキュリティ・アーキテクチャ勉強会開催のご案内",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.nic.ad.jp/ja/topics/2023/20230117-01.html",
           "author": null,
@@ -1840,17 +1966,6 @@
           "title": "[Blog記事]第115回IETF 参加報告 [第1弾] －全体概要・IABの動向ほか－",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2022/vol1967.html",
-          "author": null,
-          "description": "",
-          "link": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2022/vol1967.html",
-          "publishedOn": "2022-12-19T02:54:44.000Z",
-          "wordCount": null,
-          "title": "[メルマガ]vol.1967:【トピックス号】先週のトピックスとWeb更新情報",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -1882,6 +1997,36 @@
       "feedUrl": "https://www.cisa.gov/uscert/ncas/current-activity.xml",
       "siteUrl": "https://us-cert.cisa.gov/",
       "articles": [
+        {
+          "id": "18285 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: January 17, 2023\nCISA has added one new vulnerability to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation. This type of vulnerability is a frequent attack vector for malicious cyber actors and poses a significant risk to the federal enterprise. Note: To view the newly added vulnerabilities in the catalog, click on the arrow in the \"Date Added to Catalog\" column, which will sort by descending dates.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known CVEs that carry significant risk to the federal enterprise. BOD 22-01 requires FCEB agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.\nAlthough BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the Catalog that meet the specified criteria. \nThis product is provided subject to this Notification and this Privacy & Use policy.",
+          "link": "https://us-cert.cisa.gov/ncas/current-activity/2023/01/17/cisa-adds-one-known-exploited-vulnerability-catalog",
+          "publishedOn": "2023-01-17T19:50:00.000Z",
+          "wordCount": 1081,
+          "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+          "imageUrl": null
+        },
+        {
+          "id": "18290 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: January 17, 2023\nToday, CISA updated Best Practices for MITRE ATT&CK® Mapping. The MITRE ATT&CK® framework is a lens through which network defenders can analyze adversary behavior and, as CISA Executive Assistant Director Eric Goldstein noted in his June 2021 blog post on the framework, it directly supports “robust, contextual bi-directional sharing of information to help strengthen the security of our systems, networks, and data.” CISA highly encourages the cybersecurity community to use the framework because it provides a common language for threat actor analysis.\nCISA coordinated this update of the best practices with the Homeland Security Systems Engineering and Development Institute™ (HSSEDI), a DHS-owned R&D center operated by MITRE. The update covers changes that the MITRE ATT&CK team made to the framework since CISA initially published the best practices in June 2021. The update also covers common analytical biases, mapping mistakes, and specific ATT&CK mapping guidance for industrial control systems (ICS).\n \nThis product is provided subject to this Notification and this Privacy & Use policy.",
+          "link": "https://us-cert.cisa.gov/ncas/current-activity/2023/01/17/cisa-updates-best-practices-mapping-mitre-attckr",
+          "publishedOn": "2023-01-17T19:23:55.000Z",
+          "wordCount": 1056,
+          "title": "CISA Updates Best Practices for Mapping to MITRE ATT&amp;CK®",
+          "imageUrl": null
+        },
+        {
+          "id": "18289 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: January 17, 2023\nCISA released four Industrial Control Systems (ICS) advisories on January 17, 2023. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS. \nCISA encourages users and administrators to review the newly released ICS advisories for technical details and mitigations:\nICSA-23-017-01 GE Proficy Historian\nICSA-23-017-02 Mitsubishi Electric MELSEC iQ-F, iQ-R Series\nICSA-23-017-03 Siemens SINEC INS\nICSA-22-347-03 Contec CONPROSYS HMI System (CHS) (Update A)\nThis product is provided subject to this Notification and this Privacy & Use policy.",
+          "link": "https://us-cert.cisa.gov/ncas/current-activity/2023/01/17/cisa-releases-four-industrial-control-systems-advisories",
+          "publishedOn": "2023-01-17T18:00:00.000Z",
+          "wordCount": 967,
+          "title": "CISA Releases Four Industrial Control Systems Advisories",
+          "imageUrl": null
+        },
         {
           "id": "18283 at https://us-cert.cisa.gov",
           "author": "CISA",
@@ -2018,13 +2163,84 @@
       "title": "CERT Recently Published Vulnerability Notes",
       "feedUrl": "https://www.kb.cert.org/vulfeed",
       "siteUrl": "https://kb.cert.org/vuls/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://kb.cert.org/vuls/id/572615",
+          "author": null,
+          "description": "<h3 id=\"overview\">Overview</h3>\n<p>TP-Link router WR710N-V1-151022 running firmware published 2015-10-22 and Archer-C5-V2-160201 running firmware published 2016-02-01 are susceptible to two vulnerabilities:</p>\n<ol>\n<li>A buffer overflow during HTTP Basic Authentication allowing a remote attacker to corrupt memory allocated on a heap causing denial of service or arbitrary code execution;</li>\n<li>A side-channel attack via a <em>strcmp()</em> function in the HTTP daemon allowing deterministic guessing of each byte of a username and password input during authentication.</li>\n</ol>\n<h3 id=\"description\">Description</h3>\n<p>TP-Link device WR710N-V1-151022 is a 150Mbps Wireless N Mini Pocket router, and Archer-C5-V2-160201 is a Wireless Dual Band Gigabit router. These SOHO devices are sold by TP-Link and their latest firmware available as of January 11, 2023, have two vulnerabilities. </p>\n<p><strong>CVE-2022-4498</strong>\nWhen receiving user input during HTTP Basic Authentication mode, a crafted packet may cause a heap overflow in the <em>httpd</em> daemon. This can lead to denial of service (DoS) if the <em>httpd</em> process crashes or arbitrary remote code execution (RCE).</p>\n<p><strong>CVE-2022-4499</strong>\nA <em>strcmp()</em> function in <em>httpd</em>, is susceptible to a side-channel attack when used to verify usename and password credentials. By measuring the response time of the vulnerable process, each byte of the username and password strings may be easier to guess.</p>\n<h3 id=\"impact\">Impact</h3>\n<p>The two different vulnerabilities have unrelated impacts. The first vulnerability is a heap-based buffer overflow that can cause a crash or allow for arbitrary remote code execution. The second vulnerability is an information disclosure issue where the function used by the <em>httpd</em> process may allow an attacker to guess each byte of a username and password deterministically.</p>\n<h3 id=\"solution\">Solution</h3>\n<p>The CERT/CC is currently unaware of a practical solution to this problem. </p>\n<h3 id=\"acknowledgements\">Acknowledgements</h3>\n<p>Thanks to the reporter, James Hull of Microsoft Corporation, for responsibly disclosing these issues.</p>\n<p>This document was written by Timur Snoke.</p>",
+          "link": "https://kb.cert.org/vuls/id/572615",
+          "publishedOn": "2023-01-17T17:41:06.018Z",
+          "wordCount": 499,
+          "title": "VU#572615: Vulnerabilities in TP-Link routers, WR710N-V1-151022 and Archer C5 V2",
+          "imageUrl": null
+        },
+        {
+          "id": "https://kb.cert.org/vuls/id/986018",
+          "author": null,
+          "description": "<h3 id=\"overview\">Overview</h3>\n<p>Netcomm router models NF20MESH, NF20, and NL1902 running software versions earlier than R6B035 contain two vulnerabilities.  The first is an authentication bypass vulnerability that allows an unauthenticated user to access content from both inside and outside the network. The second is a stack-based buffer overflow that allows an instruction pointer to be overwritten on the stack, thereby crashing the application at a known location. The two vulnerabilities, when chained together, permit a remote, unauthenticated attacker to execute arbitrary code. </p>\n<h3 id=\"description\">Description</h3>\n<p>Netcomm router models NF20MESH, NF20, and NL1902 running software versions earlier than R6B035 may contain two vulnerabilities: </p>\n<p><strong>CVE-2022-4873</strong>\nA stack based buffer overflow affects the sessionKey parameter. By providing a specific number of bytes, the instruction pointer is able to be overwritten on the stack and crashes the application at a known location.</p>\n<p><strong>CVE-2022-4874</strong>\nAuthentication bypass allows an unauthenticated user to access content. In order to serve static content, the application performs a check for the existence of specific characters in the URL (.css, .png etc). If it exists, it performs a \"fake login\" to give the request an active session to load the file and not redirect to the login page.</p>\n<p>The tested models that were impacted are Netcomm routers using a Broadcom chipset that had third-party code added by Shenzhen Gongjin Electronics.  The third-party code introduced the vulnerabilities. These routers are  deployed by residential internet service providers.</p>\n<h3 id=\"impact\">Impact</h3>\n<p>The two vulnerabilities, when chained together, permit a remote, unauthenticated attacker to execute arbitrary code.  The attacker can first gain unauthorized access to affected devices, and then use those entry points to gain access to other networks or compromise the availability, integrity, or confidentiality of data being transmitted from the internal network. The reporter has produced a <a href=\"https://github.com/scarvell/advisories/blob/main/2022_netcomm_nf20mesh_unauth_rce.md\">github PoC</a> that shows how to combine both vulnerabilities to achieve unauthenticated remote code execution.</p>\n<h3 id=\"solution\">Solution</h3>\n<p>Update the router firmware to version R6B035 from the vendor website at <a href=\"https://support.netcommwireless.com/products/NF20#Firmware\">https://support.netcommwireless.com/products/NF20#Firmware</a>.</p>\n<h3 id=\"acknowledgements\">Acknowledgements</h3>\n<p>Thanks to the reporter Brendan Scarvell for reporting this vulnerability.</p>\n<p>This document was written by Timur Snoke.</p>",
+          "link": "https://kb.cert.org/vuls/id/986018",
+          "publishedOn": "2023-01-17T17:40:29.755Z",
+          "wordCount": 758,
+          "title": "VU#986018: New Netcomm router models NF20MESH, NF20, and NL1902 vulnerabilities",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "JVNRSS Feed - Update Entry",
       "feedUrl": "https://jvn.jp/rss/jvn.rdf",
       "siteUrl": "https://jvn.jp/",
       "articles": [
+        {
+          "id": "https://jvn.jp/vu/JVNVU99928083/",
+          "author": "jvn@jvn.jp",
+          "description": "The Apache Software Foundationから、Apache HTTP Server 2.4系における複数の脆弱性に対応したApache HTTP Server 2.4.55が公開されました。",
+          "link": "https://jvn.jp/vu/JVNVU99928083/",
+          "publishedOn": "2023-01-18T06:15:30.000Z",
+          "wordCount": 103,
+          "title": "Apache HTTP Server 2.4における複数の脆弱性に対するアップデート",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU97719125/",
+          "author": "jvn@jvn.jp",
+          "description": "TP-Link製ルータには、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU97719125/",
+          "publishedOn": "2023-01-18T06:15:15.000Z",
+          "wordCount": 89,
+          "title": "TP-Link製ルータにおける複数の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU98520511/",
+          "author": "jvn@jvn.jp",
+          "description": "Netcommが提供するルータには、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU98520511/",
+          "publishedOn": "2023-01-18T06:15:00.000Z",
+          "wordCount": 78,
+          "title": "Netcomm製ルータにおける複数の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU92701384/",
+          "author": "jvn@jvn.jp",
+          "description": "GE Digital社が提供するProficy Historianには、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU92701384/",
+          "publishedOn": "2023-01-18T02:45:15.000Z",
+          "wordCount": 105,
+          "title": "GE Digital製Proficy Historianにおける複数の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU96498348/",
+          "author": "jvn@jvn.jp",
+          "description": "三洋電機株式会社（現パナソニック子会社）が提供する複数のCCTVネットワークカメラには、クロスサイトリクエストフォージェリの脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU96498348/",
+          "publishedOn": "2023-01-18T02:45:00.000Z",
+          "wordCount": 90,
+          "title": "複数の三洋電機製CCTVネットワークカメラにおけるクロスサイトリクエストフォージェリの脆弱性",
+          "imageUrl": null
+        },
         {
           "id": "https://jvn.jp/vu/JVNVU99673580/",
           "author": "jvn@jvn.jp",
@@ -2414,36 +2630,6 @@
           "wordCount": 216,
           "title": "スマートフォンアプリ「＋メッセージ（プラスメッセージ）」における Unicode 制御文字の扱いに関する脆弱性",
           "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/jp/JVN13075438/",
-          "author": "jvn@jvn.jp",
-          "description": "コーレルが提供する Roxio SAIB サービスによって登録される Windows サービスでは、登録される実行ファイルのパスが引用符で囲まれていません。",
-          "link": "https://jvn.jp/jp/JVN13075438/",
-          "publishedOn": "2022-12-19T04:30:00.000Z",
-          "wordCount": 248,
-          "title": "コーレル製 Roxio SAIB サービスによって登録される Windows サービスの実行ファイルパスが引用符で囲まれていない脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU92689335/",
-          "author": "jvn@jvn.jp",
-          "description": "オムロン株式会社が提供するCX-Driveには、解放済みメモリ使用（use-after-free）の脆弱性が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU92689335/",
-          "publishedOn": "2022-12-19T04:00:00.000Z",
-          "wordCount": 119,
-          "title": "オムロン製CX-Driveにおける解放済みメモリ使用（use-after-free）の脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/jp/JVN06093462/",
-          "author": "jvn@jvn.jp",
-          "description": "Zenphoto には、クロスサイトスクリプティングの脆弱性が存在します。",
-          "link": "https://jvn.jp/jp/JVN06093462/",
-          "publishedOn": "2022-12-19T03:00:15.000Z",
-          "wordCount": 179,
-          "title": "Zenphoto におけるクロスサイトスクリプティングの脆弱性",
-          "imageUrl": null
         }
       ]
     },
@@ -2452,6 +2638,16 @@
       "feedUrl": "https://msrc-blog.microsoft.com/feed/",
       "siteUrl": "https://msrc-blog.microsoft.com",
       "articles": [
+        {
+          "id": "https://msrc-blog.microsoft.com/?p=15265",
+          "author": "msrc",
+          "description": "Summary  Microsoft recently fixed a set of Server-Side Request Forgery (SSRF) vulnerabilities in four Azure services (Azure API Management, Azure Functions, Azure Machine Learning, and Azure Digital Twins) reported by Orca Security. These SSRF vulnerabilities were determined to be low risk as they do not allow access to sensitive information or Azure backend services. Once …\n  Microsoft resolves four SSRF vulnerabilities in Azure cloud services Read More »",
+          "link": "https://msrc-blog.microsoft.com/2023/01/17/microsoft-resolves-four-ssrf-vulnerabilities-in-azure-cloud-services/",
+          "publishedOn": "2023-01-17T14:00:00.000Z",
+          "wordCount": 1936,
+          "title": "Microsoft resolves four SSRF vulnerabilities in Azure cloud services",
+          "imageUrl": null
+        },
         {
           "id": "https://msrc-blog.microsoft.com/?p=15238",
           "author": "Japhet Debrah",
@@ -2485,6 +2681,16 @@
       "feedUrl": "https://srad.jp/security.rss",
       "siteUrl": "https://security.srad.jp/",
       "articles": [
+        {
+          "id": "https://security.srad.jp/story/23/01/16/1742237/",
+          "author": "nagazou",
+          "description": "headless 曰く、Microsoft は 2025 年までに Microsoft サポート診断ツール (MSDT) を廃止する計画のようだ\n(Neowin の記事、\nRafael Rivera 氏のツイート)。\n\nこの情報は Microsoftが 12 日に DevチャネルでリリースしたWindows 11 Insider Preview ビルド25276に含まれており、ViVeTool のようなツールで構成 ID「42606374」を有効化すれば MSDT のダイアログボックスに追加で表示されるようになる。追加内容は日本語化されておらず、日本語環境でも英文で「Microsoft Support Diagnostic Tool (MSDT) will be retired by 2025. Learn more.」と表示される。「Learn more」のリンク先は現在のところ一般公開されていないようだ。\n\nMSDT ではたびたび脆弱性が見つかっているが、Microsoft がセキュリティに関する問題だとすぐには認めず修正に時間がかかってきた。そのため、廃止になればセキュリティが向上するとの見方も出ている。\n すべて読む | セキュリティセクション | アップグレード | セキュリティ | マイクロソフト |     \n  関連ストーリー： \nMicrosoft、サポート診断ツールのゼロデイ脆弱性を認める 2022年06月03日",
+          "link": "https://security.srad.jp/story/23/01/16/1742237/",
+          "publishedOn": "2023-01-17T22:02:00.000Z",
+          "wordCount": 2079,
+          "title": "Microsoft、サポート診断ツールの廃止を計画か",
+          "imageUrl": "https://srad.jp/static/topics/microsoft_64.png"
+        },
         {
           "id": "https://security.srad.jp/story/23/01/15/0318211/",
           "author": "headless",
@@ -2674,16 +2880,6 @@
           "wordCount": 2075,
           "title": "NIST、SHA-1 を 2030 年いっぱいで全廃する計画",
           "imageUrl": "https://srad.jp/static/topics/encryption_64.png"
-        },
-        {
-          "id": "https://security.srad.jp/story/22/12/18/1448212/",
-          "author": "nagazou",
-          "description": "headless 曰く、Microsoft がオンラインサービスのライセンス条項を静かに改訂し、同社の承認を得ない暗号通貨のマイニングを禁じている\n(製品条項、\nThe Register の記事、\nWindows Central の記事、\nAzure Solution Area の記事)。\n\n変更されたのは 12 月 1 日で、日本語版では「利用規定」に「マイクロソフトの書面による事前の承認なく暗号通貨マイニングを行うこと。」という項目が追加されている。Microsoft は「変更事項の概要」で変更点として記載する以上の発表を行う様子がなかったが、14 日になって Partner Community サイトの Azure Solution Area の記事で暗号通貨マイニングを行う場合は事前に書面での承認を得ることを推奨している。\n\nMicrosoft は The Register に対し、暗号通貨マイニングはオンラインサービス障害の原因となることもあり、リソースへの不正アクセスなどサイバー攻撃と結び付けられることも多いため、顧客を守るために改訂を行ったと説明したとのことだ。\n すべて読む | セキュリティセクション | セキュリティ | マイクロソフト | クラウド | 暗号 | お金 |     \n  関連ストーリー： \nロシアが禁輸制裁を暗号通貨で回避する可能性。ウクライナは規制を求める 2022年03月02日 \n中国で暗号資産が全面禁止に。マイニングも決済も相場情報提供も全てNG 2021年09月27日 \nGoogle Playで暗号通貨採掘アプリが禁止される 2018年07月29日 \nNVIDIA、GeForce搭載サーバーを提供するさくらインターネットに対し提供を止めるよう通知 2017年12月21日 \n中国、ビットコイン取引所についても規制へ 2017年09月12日",
-          "link": "https://security.srad.jp/story/22/12/18/1448212/",
-          "publishedOn": "2022-12-19T08:02:00.000Z",
-          "wordCount": 1994,
-          "title": "Microsoft、オンラインサービスで同社の承認を得ない暗号通貨マイニングを禁止",
-          "imageUrl": "https://srad.jp/static/topics/microsoft_64.png"
         }
       ]
     },
@@ -2692,6 +2888,56 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/01/18/48785.html",
+          "author": null,
+          "description": "Microsoft Windows で、高権限で任意のディレクトリが作成可能な状況下で特権が昇格可能であることを実証するためのエクスプロイトコードが公開されています。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/01/18/48785.html",
+          "publishedOn": "2023-01-17T23:15:03.000Z",
+          "wordCount": 990,
+          "title": "Microsoft Windows における任意のディレクトリの作成が可能な場合に特権を昇格する手法（Scan Tech Report）",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40307.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/01/18/48784.html",
+          "author": null,
+          "description": "株式会社デージーネットは1月12日、メールサーバの安全性について課題の傾向と考察をまとめた統計レポートを発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/01/18/48784.html",
+          "publishedOn": "2023-01-17T23:00:15.000Z",
+          "wordCount": 883,
+          "title": "31％の企業がDMARCに対応、SPFとDKIM両方に対応は45％に増加",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40308.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/01/18/48783.html",
+          "author": null,
+          "description": "(ISC)^2は1月13日、2023年のサイバーセキュリティ業界の動向とトレンドに関する予測を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/01/18/48783.html",
+          "publishedOn": "2023-01-17T23:00:11.000Z",
+          "wordCount": 800,
+          "title": "需要拡大でサイバー保険の価格高騰、2FA EDR XDR 等 加入条件も厳格化へ ～ (ISC)² 予測",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40312.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/01/18/48782.html",
+          "author": null,
+          "description": "国立情報学研究所（NII）は1月13日、AIが生成したフェイク顔映像の真偽を自動判定するプログラム「SYNTHETIQ VISION」を株式会社サイバーエージェントが採用し、タレント等の著名人のDeepfake 映像検知で実用化すると発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/01/18/48782.html",
+          "publishedOn": "2023-01-17T23:00:07.000Z",
+          "wordCount": 864,
+          "title": "ディープフェイク真贋判定の国産技術 実サービスに導入 国内初",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40311.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/01/18/48781.html",
+          "author": null,
+          "description": "個人情報保護委員会は1月11日、破産者等の個人情報を違法に取り扱っている事業者への対応について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/01/18/48781.html",
+          "publishedOn": "2023-01-17T23:00:04.000Z",
+          "wordCount": 851,
+          "title": "個人情報保護委員会が違法事業者を捜査機関に告発 ～ 破産者等の情報公開",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2023/01/17/48780.html",
           "author": null,
@@ -3901,96 +4147,6 @@
           "wordCount": 727,
           "title": "ディープフェイクでクレデンシャル盗、シンガポール見本に ほか ～ チェックポイント2023年予測",
           "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2022/12/19/48659.html",
-          "author": null,
-          "description": "例えばクレジットカードの情報が漏れるとか、個人情報が漏れるって言う話だと思うんですけれど、何らかの仕組みで個人情報も使い捨てできるようになるといいんじゃないか、と。",
-          "link": "https://scan.netsecurity.ne.jp/article/2022/12/19/48659.html",
-          "publishedOn": "2022-12-18T23:10:02.000Z",
-          "wordCount": 711,
-          "title": "2021年SFプロトタイピングの旅 第13回「想定外を想定する仕事」",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40047.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2022/12/19/48658.html",
-          "author": null,
-          "description": "衣料品を取り扱う株式会社チンクエクラシコは12月13日、同社が運営する「Cinq essentiel」への不正アクセスによるカード情報漏えいについて発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2022/12/19/48658.html",
-          "publishedOn": "2022-12-18T23:05:03.000Z",
-          "wordCount": 698,
-          "title": "ファッション取り扱い「Cinq essentiel」に不正アクセス、3年分の決済情報漏えい",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40056.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2022/12/19/48657.html",
-          "author": null,
-          "description": "株式会社バッファローは12月14日、同社NASのOneDrive連携機能の不具合について発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2022/12/19/48657.html",
-          "publishedOn": "2022-12-18T23:00:23.000Z",
-          "wordCount": 692,
-          "title": "バッファロー製NASのOneDrive連携機能に不具合、フォルダ名の変更 移動でファイル消失",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2022/12/19/48656.html",
-          "author": null,
-          "description": "マイクロソフトは、2022年12月のセキュリティ更新プログラム（月例）について発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2022/12/19/48656.html",
-          "publishedOn": "2022-12-18T23:00:20.000Z",
-          "wordCount": 690,
-          "title": "マイクロソフトが2022年12月の月例パッチ情報を公開、早急な適用を",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2022/12/19/48655.html",
-          "author": null,
-          "description": "IPAおよびJPCERT/CCは、Citrix ADCおよびCitrix Gatewayの脆弱性について注意喚起を発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2022/12/19/48655.html",
-          "publishedOn": "2022-12-18T23:00:16.000Z",
-          "wordCount": 736,
-          "title": "Citrix ADCおよびCitrix Gatewayにリモートコード実行の脆弱性",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2022/12/19/48654.html",
-          "author": null,
-          "description": "NRIセキュアテクノロジーズ株式会社は12月13日、日本、アメリカ、オーストラリア3か国での「企業における情報セキュリティ実態調査2022­」の結果を発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2022/12/19/48654.html",
-          "publishedOn": "2022-12-18T23:00:13.000Z",
-          "wordCount": 708,
-          "title": "日本の人材不足 10年進歩なし ～ NRIセキュア「情報セキュリティ実態調査2022­」",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40065.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2022/12/19/48653.html",
-          "author": null,
-          "description": "LogStareは、12月8日に開催されたオンラインイベント「Microsoft 365もっと活用セミナー 」のレポートを公開した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2022/12/19/48653.html",
-          "publishedOn": "2022-12-18T23:00:10.000Z",
-          "wordCount": 710,
-          "title": "「Microsoft 365はセキュリティリスクの高い使い方が簡単にできる」～ LogStareセミナーレポート",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40054.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2022/12/19/48652.html",
-          "author": null,
-          "description": "バルテス株式会社は12月13日、同社採用サイトから応募し入社した社員に入社祝い金として100万円をプレゼントする採用キャンペーンを同日から開始すると発表した。同社では、Webサイトの脆弱性診断やクラウド型WAFサービスの提供などを行っている。",
-          "link": "https://scan.netsecurity.ne.jp/article/2022/12/19/48652.html",
-          "publishedOn": "2022-12-18T23:00:07.000Z",
-          "wordCount": 690,
-          "title": "ソフトウェアテスト会社、入社時年収900万円超エンジニアに壱百万円の祝い金",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2022/12/19/48651.html",
-          "author": null,
-          "description": "タニウム合同会社は12月12日、OpenSSL v3を含むオープンソースソフトウェアに起因する外部脅威からデジタル資産を保護するための「Tanium Software Bill of Materials（Tanium SBOM）」のリリースを発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2022/12/19/48651.html",
-          "publishedOn": "2022-12-18T23:00:04.000Z",
-          "wordCount": 719,
-          "title": "Tanium SBOM、ソフトウェアサプライチェーンの脆弱性検出と修正",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
         }
       ]
     },
@@ -3999,6 +4155,16 @@
       "feedUrl": "https://rss.itmedia.co.jp/rss/2.0/news_security.xml",
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2301/17/news168.html",
+          "author": null,
+          "description": "税務署が自分と同姓同名の他人に個人情報を漏えいした──あるTwitterユーザーの投稿が話題になった。この投稿について、ITmedia NEWSは国税局と国税庁に確認したところ、両者とも「このような案件が起きたのは事実」と認めた。",
+          "link": "https://www.itmedia.co.jp/news/articles/2301/17/news168.html",
+          "publishedOn": "2023-01-17T10:14:00.000Z",
+          "wordCount": 2609,
+          "title": "税務署が同姓同名の他人に個人情報を漏えい　国税庁は「本人確認が不十分だった」と認め、謝罪",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2301/17/cover_news168.jpg"
+        },
         {
           "id": "https://www.itmedia.co.jp/news/articles/2301/17/news115.html",
           "author": null,
@@ -4228,16 +4394,6 @@
           "wordCount": 2592,
           "title": "個人情報保護委員会、厚労省に行政指導　監督・職員教育の甘さを指摘",
           "imageUrl": "https://image.itmedia.co.jp/news/articles/2212/22/cover_news189.jpg"
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2212/19/news048.html",
-          "author": null,
-          "description": "イスラエルのBen-Gurion University of the Negevに所属する研究者は、ネットに接続していないコンピュータ（エアギャップPC）を離れた場所から無線でハッキングするサイバー攻撃を提案した研究報告を発表した。",
-          "link": "https://www.itmedia.co.jp/news/articles/2212/19/news048.html",
-          "publishedOn": "2022-12-18T23:00:00.000Z",
-          "wordCount": 2682,
-          "title": "ネット接続していないPCをスマホでハッキング　壁越しでも2m離れた場所から無線で攻撃",
-          "imageUrl": "https://image.itmedia.co.jp/news/articles/2212/19/cover_news048.jpg"
         }
       ]
     },
@@ -4246,6 +4402,66 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1471180.html",
+          "author": null,
+          "description": "インターネット上で信頼性のあるコンテンツ作成者などを識別する技術「オリジネーター・プロファイル（Originator Profile＝OP）」の実用化を目指す団体「オリジネーター・プロファイル（OP）技術研究組合」が設立された。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1471180.html",
+          "publishedOn": "2023-01-18T05:45:00.000Z",
+          "wordCount": 4324,
+          "title": "信頼できる発信者を識別する技術の実用化・ウェブ標準化を目指す「オリジネーター・プロファイル（OP）技術研究組合」設立　村井純・慶應大教授が理事長に",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1471/180/00.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1471111.html",
+          "author": null,
+          "description": "エレコム株式会社は、本体部の先に独立したコンセントを持つ電源タップ「T-ADR5」シリーズを発売した。市場想定価格は、独立部が2個口でケーブル長3mの「T-ADR5-2630WH」が2580円、同2個口／1.5mの「T-ADR5-2615WH」が2280円。1個口／3mの「T-ADR5-2530WH」が2380円、1個口／1.5mの「T-ADR5-2515WH」が2080円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1471111.html",
+          "publishedOn": "2023-01-18T02:30:00.000Z",
+          "wordCount": 4314,
+          "title": "ACアダプターの干渉を大胆な方法で防ぐ電源タップ「T-ADR5」シリーズ、エレコムが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1471/111/00.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1471095.html",
+          "author": null,
+          "description": "PCなしでタッチタイピングの練習ができる初心者向けキットがMakuakeで支援を募っている。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1471095.html",
+          "publishedOn": "2023-01-18T02:30:00.000Z",
+          "wordCount": 4300,
+          "title": "PCを持っていなくても大丈夫、タッチタイピングの練習ができる初心者向けキット【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1471/095/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1471094.html",
+          "author": null,
+          "description": "テレビ東京系の経済ドキュメンタリー番組「知られざるガリバー～エクセレントカンパニーファイル～」の次回放映分で、ディスプレイメーカーのEIZO株式会社が取り上げられる。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1471094.html",
+          "publishedOn": "2023-01-18T02:30:00.000Z",
+          "wordCount": 4304,
+          "title": "テレビ東京の経済ドキュメンタリー「知られざるガリバー」、次回はあのEIZOが登場【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1471/094/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/telework100k/1471025.html",
+          "author": null,
+          "description": "店内の本も自由に閲覧できるコワーキングスペース。品川エリアのおすすめ、「大崎ブックカフェ」をご紹介します。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/telework100k/1471025.html",
+          "publishedOn": "2023-01-17T21:55:00.000Z",
+          "wordCount": 4340,
+          "title": "【都内近郊のワークスペース訪問】大崎駅 徒歩5分「大崎ブックカフェ」",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1471/025/osaki01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1470888.html",
+          "author": null,
+          "description": "大学共同利用機関法人 情報・システム研究機構 国立情報学研究所（NII）は、同シンセティックメディア国際研究センターが開発した、AIが生成したフェイク顔映像の真偽を自動判定するプログラム「SYNTHETIQ VISION（シンセティック・ビジョン）」を株式会社サイバーエージェントが採用し、タレントなどの著名人のディープフェイク映像検知で実用化したと発表した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1470888.html",
+          "publishedOn": "2023-01-17T21:30:00.000Z",
+          "wordCount": 4322,
+          "title": "AIによるフェイク画像判定プログラム「SYNTHETIQ VISION」をサイバーエージェントがタレントの偽画像検出に採用、国内初の実用例",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1470/888/00.jpg"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1470856.html",
           "author": null,
@@ -5805,86 +6021,6 @@
           "wordCount": 4326,
           "title": "ソニーとKDDI、5Gの本格活用に向けた「複数ネットワークスライス同時利用」の実証に世界で初めて成功",
           "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1464/993/01.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1464885.html",
-          "author": null,
-          "description": "Amazon.co.jpでは現在、TP-Link製ネットワーク機器のセールを開催中だ。Wi-Fi 6（IEEE 802.11ax）対応ルーターやメッシュシステム、中継機などが割安価格で販売されている。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1464885.html",
-          "publishedOn": "2022-12-19T08:20:00.000Z",
-          "wordCount": 4357,
-          "title": "TP-LinkのWi-Fiルーター＆中継機が安い！ Amazonセール情報　メッシュ対応Wi-Fi 6ルーターが最大15％OFFで販売中",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1464/885/tplink.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1464546.html",
-          "author": null,
-          "description": "サンワサプライ株式会社は、AC電源式の電動エアダスター「CD-ADE3BK」を発売した。オープン価格で、Amazon.co.jpでの販売価格は8490円。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1464546.html",
-          "publishedOn": "2022-12-19T08:10:00.000Z",
-          "wordCount": 4308,
-          "title": "3mの電源ケーブル付きエアダスター「CD-ADE3BK」、サンワサプライが発売",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1464/546/02s.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/ranking/1464664.html",
-          "author": null,
-          "description": "前週に閲覧数の多かった記事を、カテゴリーごとに上位5位までレポートします。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/ranking/1464664.html",
-          "publishedOn": "2022-12-19T02:50:00.000Z",
-          "wordCount": 4345,
-          "title": "有名企業が実際に利用しているテンプレートを提供、Notionの「ニューイヤーキャンペーン 2023」に関する記事に注目集まる【アクセスランキング】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1464/664/01.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1464683.html",
-          "author": null,
-          "description": "クラシックなMac用ソフトをオンラインで体験できるエミュレーターを提供している「Infinite Mac」が、新たに「漢字Talk 7」を体験できるページをオープンした。",
-          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1464683.html",
-          "publishedOn": "2022-12-19T02:30:00.000Z",
-          "wordCount": 4331,
-          "title": "クラシックなMac OSをオンラインで体験できるサイト、新たに「漢字Talk 7」のページを開設【やじうまWatch】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1464/683/yajiuma-watch_1.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1464681.html",
-          "author": null,
-          "description": "ブラウザーベンダー3社が協力し合い、共通のベンチマークアプリを開発中であることがこのたび明らかになった。",
-          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1464681.html",
-          "publishedOn": "2022-12-19T02:25:00.000Z",
-          "wordCount": 4321,
-          "title": "Appleの取り組みにGoogleとMozillaが協力。3社による統一ベンチマークアプリ開発中【やじうまWatch】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1464/681/yajiuma-watch_1.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/column/curation/1464203.html",
-          "author": null,
-          "description": "グーグルが昨年と比べて急上昇した検索キーワードのランキングを発表している（Markezine）。調査期間は2022年1月1日から11月24日まで。",
-          "link": "https://internet.watch.impress.co.jp/docs/column/curation/1464203.html",
-          "publishedOn": "2022-12-18T22:00:00.000Z",
-          "wordCount": 4347,
-          "title": "アマゾンの「バーコード廃止」に向けた取り組み ほか【中島由弘の「いま知っておくべき5つのニュース」2022/12/8～12/15】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1464/203/shutterstock_1019006956_main.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/column/teleworkstory/1463566.html",
-          "author": null,
-          "description": "先日のブラックフライデーで67%オフと、超特価で販売されていた｢Echo Show 5｣。「アレクサ」と呼び掛けて利用するスマートスピーカーにディスプレイが付いたような端末で、カメラを内蔵していることから、ビデオ通話にも利用できる。",
-          "link": "https://internet.watch.impress.co.jp/docs/column/teleworkstory/1463566.html",
-          "publishedOn": "2022-12-18T22:00:00.000Z",
-          "wordCount": 4506,
-          "title": "「スケジュール管理やビデオ会議にも!? Amazonセールで手に入れたEcho Show 5をテレワークで使い倒す」――急遽テレワークを導入した中小企業の顛末記（124）【急遽テレワーク導入！の顛末記】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1463/566/01.JPG"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/column/shimizu/1462684.html",
-          "author": null,
-          "description": "TP-Linkから、「スペシャル」なWi-Fi 6ルーター「Archer AX80」が登場した。これまでの同社のモデルとは、見た目も中身もひと味違う日本向けの特別仕様。縦置きも、アンテナ内蔵も、IPv6 IPoEも、セキュリティ機能も、VPNサーバーも、USBストレージ共有も、日本のユーザーが求める機能を詰め込んだ製品だ。その実力を検証してみた。",
-          "link": "https://internet.watch.impress.co.jp/docs/column/shimizu/1462684.html",
-          "publishedOn": "2022-12-18T21:00:00.000Z",
-          "wordCount": 4410,
-          "title": "驚きの日本特別仕様！「Wi-Fiルーターに欲しい機能」がてんこ盛りのTP-Link「Archer AX80」【イニシャルB】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1462/684/001.jpg"
         }
       ]
     },
@@ -5899,6 +6035,56 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230118-2565987/",
+          "author": null,
+          "description": "フランス共和国データ保護機関CNIL(La Commission nationale de l'informatique et des libertés、情報化および自由に関する国家委員会)は1月12日(フランス時間)、TikTokを運営しているByteDanceに対して500万ユーロの制裁金を科したことを伝えた。ユーザーがTikTokのCookieを拒否できず、Cookieの目的について十分に説明されていないという理由により、ByteDanceが制裁を受けたことが明らかとなった。",
+          "link": "https://news.mynavi.jp/techplus/article/20230118-2565987/",
+          "publishedOn": "2023-01-18T04:11:26.000Z",
+          "wordCount": 1644,
+          "title": "フランス当局、TikTokにCookieの利用目的不十分で500万ユーロの罰金科す",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230118-2565987/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230118-2566466/",
+          "author": null,
+          "description": "セキュリティ研究者のDawid Potocki氏はこのほど、MicroStar International (MSI)のマザーボードにおけるセキュブートのデフォルト設定がいずれかのタイミングで変更されており、不適切な署名のオペレーティングシステムがそのまま起動できる状態になっていることを発見したと伝えた。",
+          "link": "https://news.mynavi.jp/techplus/article/20230118-2566466/",
+          "publishedOn": "2023-01-18T02:41:20.000Z",
+          "wordCount": 1631,
+          "title": "MSIのマザーボードでセキュアブートの設定が変更、セキュリティ研究者が指摘",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230118-2566466/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230118-2565986/",
+          "author": null,
+          "description": "Cisco Systemsはこのほど、同社の中小企業向けルータであるCisco Small Business RV016、RV042、RV042G、RV082に2件の脆弱性があると伝えた。この脆弱性を悪用すると、リモートで認証が回避され、影響を受けるデバイスの基盤となるオペレーティングシステムで任意のコマンドを実行できる危険性があると報告されている。",
+          "link": "https://news.mynavi.jp/techplus/article/20230118-2565986/",
+          "publishedOn": "2023-01-18T01:36:36.000Z",
+          "wordCount": 1680,
+          "title": "シスコの複数のルータに緊急の脆弱性もパッチはなし、確認と対応を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230118-2565986/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230118-2565017/",
+          "author": null,
+          "description": "The Hacker Newsは1月13日、近年のマルウェアの傾向として、“polyglotファイル”と呼ばれるファイル形式が出回っていると伝えた。polyglotファイルは、2つ以上の異なるファイル形式の構文を巧みに組み合わせて、いずれのファイル形式としても実行できるようにしたもの。悪用するとファイル形式の識別に依存するマルウェア対策ツールを回避可能",
+          "link": "https://news.mynavi.jp/techplus/article/20230118-2565017/",
+          "publishedOn": "2023-01-18T00:25:22.000Z",
+          "wordCount": 1596,
+          "title": "対策ツール回避する複数のファイル形式を併せ持つpolyglot方式マルウェアが横行",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230118-2565017/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230118-2565644/",
+          "author": null,
+          "description": "2022年2月、MicrosoftはWindows 11向けに新しい「Windows メディア プレイヤー」アプリをリリースした。これは従来の「Windows Media Player」や「Groove ミュージック」アプリに代わり、Windows 11でメディア再生アプリのメインストリームとなるものだ。Betanewsは1月14日、MicrosoftがWindows 10向けにもこの新しいWindows メディア プレイヤーの展開を進めていると伝えた。",
+          "link": "https://news.mynavi.jp/techplus/article/20230118-2565644/",
+          "publishedOn": "2023-01-17T23:50:19.000Z",
+          "wordCount": 1696,
+          "title": "Microsoft、Windows 10へのWindows メディア プレイヤーの展開を進める",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230118-2565644/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20230117-2565642/",
           "author": null,
@@ -6948,66 +7134,6 @@
           "wordCount": 1811,
           "title": "Sambaに重要な脆弱性、アップデートを",
           "imageUrl": "https://news.mynavi.jp/techplus/article/20221220-2541541/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20221219-2541336/",
-          "author": null,
-          "description": "Microsoftは12月16日(米国時間)、2023年2月14日に一部のバージョンのWindows 10においてInternet Explorer 11の永久的な無効化処理が行われると伝えた。これまでこの処理はWindowsの累積更新プログラムから実施されることが計画されていたが、今回の発表で「Microsoft Edgeアップデート」によって実施されることになったという。",
-          "link": "https://news.mynavi.jp/techplus/article/20221219-2541336/",
-          "publishedOn": "2022-12-19T11:15:32.000Z",
-          "wordCount": 1635,
-          "title": "Internet Explore 11の永久的な無効化は2023年2月14日に実施",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20221219-2541336/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20221219-2540654/",
-          "author": null,
-          "description": "Microsoftは12月15日(米国時間)、Microsoft Security Blogにおいて、クロスプラットフォームの分散型サービス拒否攻撃(DDoS: Distributed Denial of Service attack)ボットネットがMinecraftのプライベートサーバを標的にしているとして、注意を呼び掛けた。",
-          "link": "https://news.mynavi.jp/techplus/article/20221219-2540654/",
-          "publishedOn": "2022-12-19T01:06:34.000Z",
-          "wordCount": 1819,
-          "title": "Minecraftサーバ狙う分散型サービス拒否攻撃(DDoS)ボットネットに注意、Microsoft喚起",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20221219-2540654/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/kikaku/20221219-2537504/",
-          "author": null,
-          "description": "12月12.13日に開催されたクラウドインフラDaysにおいて、IaCを活用したクラウド全体におけるセキュリティ対策についてgrasysの担当者が解説した。",
-          "link": "https://news.mynavi.jp/techplus/kikaku/20221219-2537504/",
-          "publishedOn": "2022-12-19T01:00:00.000Z",
-          "wordCount": 1494,
-          "title": "IaC活用、クラウド全体のセキュリティ対策…クラウドにまつわる課題を解決",
-          "imageUrl": "https://news.mynavi.jp/techplus/kikaku/20221219-2537504/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20221219-2540653/",
-          "author": null,
-          "description": "Mandiantは12月15日(米国時間)、トロイの木馬化されたWindows 10のインストーラがウクライナ政府を標的にしていると伝えた。正規のWindowsインストーラを装ったトロイの木馬化されたISOファイルを悪用し、ウクライナ政府機関をターゲットにしたサプライチェーン攻撃が発見されている。",
-          "link": "https://news.mynavi.jp/techplus/article/20221219-2540653/",
-          "publishedOn": "2022-12-19T00:31:49.000Z",
-          "wordCount": 1612,
-          "title": "トロイの木馬化されたWindows 10のインストーラ、ウクライナ政府狙う",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20221219-2540653/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20221219-2540657/",
-          "author": null,
-          "description": "米国国立標準技術研究所(NIST: National Institute of Standards and Technology)は12月15日(米国時間)、暗号アルゴリズム「SHA-1」を廃止すると伝えた。SHA-1の暗号ハッシュ関数はすでに脆弱と評価されており、米国政府機関での利用廃止が発表されている。",
-          "link": "https://news.mynavi.jp/techplus/article/20221219-2540657/",
-          "publishedOn": "2022-12-18T23:54:17.000Z",
-          "wordCount": 1587,
-          "title": "暗号アルゴリズム「SHA-1」の廃止を発表、NIST",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20221219-2540657/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/kikaku/sateraito_mudfix-2/",
-          "author": null,
-          "description": "メールを起点としたサイバー攻撃の被害は多い。こうした被害を未然に防ぐには、受信したメールが脅威のあるものなのか選別する「人」の意識を強化することが重要である。本稿ではその対策として最適なソリューション「サテライトオフィス・標的型攻撃メール対策訓練機能 for Mudfix」の機能について紹介していこう。",
-          "link": "https://news.mynavi.jp/techplus/kikaku/sateraito_mudfix-2/",
-          "publishedOn": "2022-12-18T23:00:00.000Z",
-          "wordCount": 1550,
-          "title": "巧妙化する標的型攻撃メール──実践的な訓練でセキュリティレベルの向上が図れるメール訓練サービスとは 第2回 まるで本物のメール？効果的な訓練でサイバー攻撃に備える「サテライトオフィス・標的型攻撃メール対策訓練機能 for Mudfix」とは",
-          "imageUrl": "https://news.mynavi.jp/techplus/kikaku/sateraito_mudfix-2/index_images/index.jpg"
         }
       ]
     }
