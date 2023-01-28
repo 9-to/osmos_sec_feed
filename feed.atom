@@ -2,10 +2,133 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-01-27T08:11:44.755Z</updated>
+    <updated>2023-01-28T08:11:02.601Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[ISC Releases Security Advisories for Multiple Versions of BIND 9]]></title>
+        <id>18319 at https://us-cert.cisa.gov</id>
+        <link href="https://us-cert.cisa.gov/ncas/current-activity/2023/01/27/isc-releases-security-advisories-multiple-versions-bind-9"/>
+        <updated>2023-01-27T18:33:35.000Z</updated>
+        <summary type="html"><![CDATA[Original release date: January 27, 2023
+The Internet Systems Consortium (ISC) has released security advisories that address vulnerabilities affecting multiple versions of the ISC’s Berkeley Internet Name Domain (BIND) 9. A remote attacker could exploit these vulnerabilities to potentially cause denial-of-service conditions and system failures.
+CISA encourages users and administrators to review the following ISC advisories CVE-2022-3094, CVE-2022-3488, CVE-2022-3736, and CVE-2022-3924 and apply the necessary mitigations.
+This product is provided subject to this Notification and this Privacy & Use policy.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Talos の『一年の総括』2022 年版]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=44978</id>
+        <link href="https://gblogs.cisco.com/jp/2023/01/talos-talos-year-in-review-2022/"/>
+        <updated>2023-01-27T13:17:39.000Z</updated>
+        <summary type="html"><![CDATA[本レポートは、さまざまなデータと専門知識を交えながら一年間の成果を網羅的に紹介しようという、シスコ社内のかつてない取り組みから生まれたものです。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[脅威情報ニュースレター（2023 年 1 月 19 日）：人材の定着と組織全体の知識との関係]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=44974</id>
+        <link href="https://gblogs.cisco.com/jp/2023/01/talos-threatsource-0119/"/>
+        <updated>2023-01-27T12:50:20.000Z</updated>
+        <summary type="html"><![CDATA[今週も脅威情報ニュースレターをお届けします。人材の定着と組織全体の知識は密接に関係しています。どちらも、ネットワーク環境のセキュリティを確保するうえで欠かせないものです。それを踏まえて、人材の定着がお金だけの問題ではない理由について簡単にお話したいと思います。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Your Data—It’s the Story of You]]></title>
+        <id>https://www.mcafee.com/blogs/?p=163326</id>
+        <link href="https://www.mcafee.com/blogs/internet-security/your-data-its-the-story-of-you/"/>
+        <updated>2023-01-27T12:17:20.000Z</updated>
+        <summary type="html"><![CDATA[All your online activity creates a trail of data. And that data tells a story. The story of you.  The...
+The post Your Data—It’s the Story of You appeared first on McAfee Blog.]]></summary>
+        <author>
+            <name>Cagla Ruacan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【注目記事】SNSの闇バイトに応募すると個人情報を根掘り葉掘り聞き出されて抜け出せなくなる]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/readitnow/1473993.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/readitnow/1473993.html"/>
+        <updated>2023-01-27T12:17:09.000Z</updated>
+        <summary type="html"><![CDATA[「今すぐ読みたい注目記事」コーナーでは、過去に掲載した記事の中から、「今読んでほしい記事」を再紹介しています。記事内容は掲載当時のもので、最新の状況とは異なる場合もあります。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google、親中派の活動家グループによる5万件以上の悪意ある活動を排除]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230127-2577404/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230127-2577404/"/>
+        <updated>2023-01-27T11:26:19.000Z</updated>
+        <summary type="html"><![CDATA[Googleは1月26日(米国時間)、2022年に親中派の活動家グループによる5万件以上の悪意のある活動を排除したと伝えた。「DRAGONBRIDGE」と呼ばれる中国国家支援のサイバー犯罪者グループがYouTube、Blogger、AdSenseなどのGoogleサービスで政治的な活動を展開していたことが明らかとなった。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[注目の脆弱性：Ghost CMS における XSS の脆弱性]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=44970</id>
+        <link href="https://gblogs.cisco.com/jp/2023/01/talos-vulnerability-spotlight-xss-vulnerability-in-ghost-cms/"/>
+        <updated>2023-01-27T11:19:14.000Z</updated>
+        <summary type="html"><![CDATA[脆弱性の発見者：Cisco Talos の Dave McDaniel Cisco Talos は最近、Ghost CMS にクロスサイト スクリプティング（XSS）の脆弱性を発見しました。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[見出しでわかる IT界隈・今週の重要ニュース：全110本［2023/1/18～1/25］]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/weekly/1473894.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/weekly/1473894.html"/>
+        <updated>2023-01-27T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【注目記事】詳しく解説！ 1分でも分かる！「源泉徴収票」の見方を図解で説明【令和4年(2022年)分】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/readitnow/1473936.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/readitnow/1473936.html"/>
+        <updated>2023-01-27T09:50:00.000Z</updated>
+        <summary type="html"><![CDATA[「今すぐ読みたい注目記事」コーナーでは、過去に掲載した記事の中から、「今読んでほしい記事」を再紹介しています。記事内容は掲載当時のもので、最新の状況とは異なる場合もあります。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[レゴ「SPIKEプライム」をC言語で動かすための教材、アフレルが発売]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1473876.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1473876.html"/>
+        <updated>2023-01-27T08:18:19.000Z</updated>
+        <summary type="html"><![CDATA[株式会社アフレルは、レゴのプログラミング教材「SPIKEプライム」をC言語で動かすためのテキスト教材「SPIKEプライム C言語 プログラミングブック 基本編」の購入申し込みの受付を開始した。3月上旬から順次、出荷する。標準価格は2600円（税別）。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Blog記事]IPアドレス・AS番号管理業務を動画で分かりやすく！]]></title>
+        <id>https://blog.nic.ad.jp/2023/8512/</id>
+        <link href="https://blog.nic.ad.jp/2023/8512/"/>
+        <updated>2023-01-27T08:15:59.000Z</updated>
+        <summary type="html"><![CDATA[「動画で分かる！IPアドレス・AS番号管理業務」と題して、IPアドレス・AS番号管理業務を解説する動画コンテンツの提供を開始しました。IPアドレス管理指定事業者やPIアドレス・AS番号割当先組織の方がJPNICへの申請手続きを行われる際に、こちらもぜひお役立てください。]]></summary>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[トピックス]IPアドレス管理業務に関するJPNIC文書公開のお知らせ～書面対応手数料の導入・JPNIC正会員への各種料金の免除規定を新設～]]></title>
+        <id>https://www.nic.ad.jp/ja/topics/2023/20230127-01.html</id>
+        <link href="https://www.nic.ad.jp/ja/topics/2023/20230127-01.html"/>
+        <updated>2023-01-27T08:11:55.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[[Web更新]IPv4アドレス移転履歴を更新　2023年1月26日現在のデータを追加]]></title>
         <id>https://www.nic.ad.jp/ja/ip/transfer/ipv4-log.html</id>
@@ -448,6 +571,15 @@ Dridexに限らず、現時点で判明している手口はこれまでに発�
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[[Web更新]ccTLDの登録数を更新　2022年12月分を追加]]></title>
+        <id>https://www.nic.ad.jp/ja/stat/dom/cctld.html</id>
+        <link href="https://www.nic.ad.jp/ja/stat/dom/cctld.html"/>
+        <updated>2023-01-26T08:31:51.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[介護と子育てについての経験談～2/3回目]]></title>
         <id>https://gblogs.cisco.com/jp/?p=44479</id>
         <link href="https://gblogs.cisco.com/jp/2023/01/experiences-about-nursing-care-and-child-rearing-part-2-3/"/>
@@ -644,6 +776,16 @@ Dridexに限らず、現時点で判明している手口はこれまでに発�
         <summary type="html"><![CDATA[ディーリンクジャパン株式会社（D-Link）は、屋外用無線アクセスポイント「DAP-3666」の販売を開始した。市場想定価格は7万180円。]]></summary>
         <author>
             <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[嘱託職員公募の情報を更新しました]]></title>
+        <id>https://www.ipa.go.jp/about/recruit/syokutaku.html</id>
+        <link href="https://www.ipa.go.jp/about/recruit/syokutaku.html"/>
+        <updated>2023-01-26T01:00:00.000Z</updated>
+        <summary type="html"><![CDATA[技術・人材の両面から、ソフトウェア及び情報処理システムの健全な発展を支える戦略的なインフラ機能を提供するプロフェッショナル集団として日本経済の発展に貢献]]></summary>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
         </author>
     </entry>
     <entry>
@@ -6590,6 +6732,16 @@ Windows 8.1 ユーザーには Windows 11 プリインストール PC がおす�
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[嘱託職員公募の情報を更新しました]]></title>
+        <id>https://www.ipa.go.jp/about/recruit/syokutaku.html</id>
+        <link href="https://www.ipa.go.jp/about/recruit/syokutaku.html"/>
+        <updated>2023-01-12T01:00:00.000Z</updated>
+        <summary type="html"><![CDATA[技術・人材の両面から、ソフトウェア及び情報処理システムの健全な発展を支える戦略的なインフラ機能を提供するプロフェッショナル集団として日本経済の発展に貢献]]></summary>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[つながるクルマ、自動運転車に潜む脆弱性　不正な遠隔操作でロック解除や始動も]]></title>
         <id>https://www.itmedia.co.jp/news/articles/2301/12/news063.html</id>
         <link href="https://www.itmedia.co.jp/news/articles/2301/12/news063.html"/>
@@ -8801,6 +8953,16 @@ Processing環境をシンプルに　Visual Studio Code first appeared on SIOS T
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[嘱託職員公募の情報を更新しました]]></title>
+        <id>https://www.ipa.go.jp/about/recruit/syokutaku.html</id>
+        <link href="https://www.ipa.go.jp/about/recruit/syokutaku.html"/>
+        <updated>2023-01-05T01:00:00.000Z</updated>
+        <summary type="html"><![CDATA[技術・人材の両面から、ソフトウェア及び情報処理システムの健全な発展を支える戦略的なインフラ機能を提供するプロフェッショナル集団として日本経済の発展に貢献]]></summary>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[OCNを偽装したフィッシング確認、注意を]]></title>
         <id>https://news.mynavi.jp/techplus/article/20230105-2553610/</id>
         <link href="https://news.mynavi.jp/techplus/article/20230105-2553610/"/>
@@ -9740,76 +9902,6 @@ Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organi
 This product is provided subject to this Notification and this Privacy & Use policy.]]></summary>
         <author>
             <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2023年のセキュリティ動向、メールを介した攻撃が激化の恐れ]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20221229-2546755/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20221229-2546755/"/>
-        <updated>2022-12-29T11:21:33.000Z</updated>
-        <summary type="html"><![CDATA[Mimecastはこのほど、同社の専門家による2023年のサイバーセキュリティ動向に関する予測を公開した。Memecastの専門家の予測によると、2023年はメールやコラボレーションプラットフォームのビジネス利用がさらに広まり、それに伴って企業におけるサイバー攻撃に対する脆弱性が高まるとともに、より巧妙で高度な攻撃にさらされることになるという。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[みずほや三菱UFJなど銀行を模倣し、日本市場狙う「BlueNoroff」に注意]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20221229-2548650/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20221229-2548650/"/>
-        <updated>2022-12-29T08:21:02.000Z</updated>
-        <summary type="html"><![CDATA[Kaspersky Labは12月27日(米国時間)、金銭的な動機からサイバー攻撃を実施しているグループ「BlueNoroff」がその手法に改善を加えていると伝えた。同グループは日本語のファイル名を使用していることや、日本の銀行や金融サービス、ベンチャーキャピタルなどを模倣していることから、日本の組織を狙っているといわれている。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[富士通 FENICS のネットワーク機器に不正な通信、TKC 提供メールサービスに影響も]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2022/12/29/48712.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2022/12/29/48712.html"/>
-        <updated>2022-12-28T23:05:10.000Z</updated>
-        <summary type="html"><![CDATA[富士通株式会社は12月23日、FENICSインターネットサービスに関するネットワーク機器からの不正な通信について発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「つの食品webショップ」へ不正アクセスでカード情報漏えい、1ヶ月で調査終了 スピード公表]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2022/12/29/48711.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2022/12/29/48711.html"/>
-        <updated>2022-12-28T23:05:08.000Z</updated>
-        <summary type="html"><![CDATA[築野食品工業株式会社は12月26日、同社が運営する「つの食品webショップ」への不正アクセスによる個人情報漏えいについて発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[古河市の Facebook が乗っ取り被害、Meta 音信不通で管理不可 フォロー解除呼びかけ]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2022/12/29/48710.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2022/12/29/48710.html"/>
-        <updated>2022-12-28T23:05:06.000Z</updated>
-        <summary type="html"><![CDATA[茨城県古河市は12月22日、古河市Facebookページの乗っ取りについて発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[保険代理店のパソコンがEmotet感染、顧客の名前や連絡先が流出]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2022/12/29/48709.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2022/12/29/48709.html"/>
-        <updated>2022-12-28T23:05:02.000Z</updated>
-        <summary type="html"><![CDATA[保険代理店業を行う株式会社ナビインシュアランスサービスは12月21日、同社の業務用パソコン1台がEmotetに感染したと発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[EC事業者 59.1％がサイバー攻撃被害、カード情報漏えい最多]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2022/12/29/48708.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2022/12/29/48708.html"/>
-        <updated>2022-12-28T23:00:03.000Z</updated>
-        <summary type="html"><![CDATA[かっこ株式会社は12月27日、EC事業者の不正対策に関する実態調査の結果を発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
         </author>
     </entry>
 </feed>
