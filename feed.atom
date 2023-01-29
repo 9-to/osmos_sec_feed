@@ -2,10 +2,129 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-01-28T08:11:02.601Z</updated>
+    <updated>2023-01-29T08:10:59.742Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Windows CryptoAPIの重大な脆弱性をサイバー攻撃に悪用する概念実証が公開]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230129-2577414/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230129-2577414/"/>
+        <updated>2023-01-29T06:05:45.000Z</updated>
+        <summary type="html"><![CDATA[Akamai Technologiesは1月25日(米国時間)、Windows CryptoAPIの重大な脆弱性に対する概念実証(PoC: Proof of Concept)をリリースしたと伝えた。この脆弱性は米国家安全保障局(NSA: National Security Agency)および英国立サイバーセキュリティセンター(NCSC-UK: United Kingdom's National Cyber Security Centre)により発見されたもので、Microsoftに報告され既にパッチが適用されている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft、インターネットから取得した Excel の XLL アドインをブロックへ]]></title>
+        <id>https://security.srad.jp/story/23/01/29/0258223/</id>
+        <link href="https://security.srad.jp/story/23/01/29/0258223/"/>
+        <updated>2023-01-29T03:23:00.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft が Microsoft 365 のロードマップを更新し、Excel でインターネットから取得した XLL アドインを 3 月からブロックする計画を示している
+(ロードマップ、
+The Register の記事)。
+
+XLL は C API を使用する高パフォーマンスな Excel アドインで、一種の Excel 専用 DLL と位置付けられる。Microsoft では最近数か月間のマルウェア攻撃増加をブロック開始の理由として挙げている。Cisco Talos によると XLL アドインを使用した攻撃は 2017 年には確認されており、散発的な発生にとどまっていたが、2021 年末から急増していたそうだ。
+ すべて読む | セキュリティセクション | セキュリティ | マイクロソフト | ソフトウェア |     
+  関連ストーリー： 
+Microsoft、Outlook REST APIの廃止を延期 2022年11月26日 
+Microsoft Office、インターネットから取得したマクロのデフォルトブロック再開へ 2022年07月23日 
+Microsoft Office、インターネットから取得したマクロのデフォルトブロックを取りやめ 2022年07月10日 
+Microsoft Office、インターネットから取得したマクロをデフォルトブロックへ 2022年02月09日 
+Microsoft、Officeで英文編集時のデフォルトフォントを変更する計画 2021年05月02日 
+LibreOffice 6.3リリース、イベントハンドラーによるLibreLogoマクロの実行をブロック 2019年08月11日 
+LibreOffice 6.2.5で修正された任意コード実行可能な脆弱性、完全には修正されていない 2019年08月03日 
+MS、Office 365の仕様を変更しFlashなどのコンテンツの使用をブロックする方針を発表 2018年05月24日 
+PowerPointのハイパーリンクを悪用し、ホバーするだけでマルウェアをインストールする攻撃 2017年06月12日]]></summary>
+        <author>
+            <name>headless</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ダークWebにアクセスすることは違法か？アクセス方法は？]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230129-2577644/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230129-2577644/"/>
+        <updated>2023-01-29T01:06:37.000Z</updated>
+        <summary type="html"><![CDATA[ダークWebをご存じだろうか。サイバー犯罪者が個人情報の取引などを行う際、匿名性が確保されているダークWebを利用していると言われている。そんなダークWebだが、どうやってアクセスできるのだろうか。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Ads悪用してマルウェア配布する手口に注意、Google検索上位に悪意あるサイト]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230128-2577409/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230128-2577409/"/>
+        <updated>2023-01-28T11:36:56.000Z</updated>
+        <summary type="html"><![CDATA[eSecurity Planetは1月26日(米国時間)、Google Ads経由でマルウェアを配布する脅威グループの存在について伝えた。ソフトウェアの入手にGoogleを利用するユーザーが狙われ、マルウェアを配布するためにGoogle Adsが積極的に悪用されていることが明らかとなった。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Android のファクトリーイメージ上のシステムアプリケーションをインストルメント化する方法]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=44986</id>
+        <link href="https://gblogs.cisco.com/jp/2023/01/talos-how-to-instrument-system-applications-on-android-stock-images/"/>
+        <updated>2023-01-28T09:57:34.000Z</updated>
+        <summary type="html"><![CDATA[この投稿は、Recon モントリオール 2022 で発表した研究を基にしています。この研究発表では 2 つのスライド資料を用いました。1 つは、インストルメント化のプロセス全体、および「Google Play プロテクト」サービスでインストルメント化する方法を紹介するプレゼンテーションです。もう 1 つはワークショップの資料です。MtpService を対象に、エミュレータでインストルメント化する方法を紹介しています。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[英当局、慈善団体狙うフィッシングとランサムウェアに関する脅威レポート公開]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230128-2572358/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230128-2572358/"/>
+        <updated>2023-01-28T08:45:05.000Z</updated>
+        <summary type="html"><![CDATA[英国立サイバーセキュリティセンター(NCSC: National Cyber Security Centre)はこのほど、慈善団体に関するサイバー脅威レポートを公開した。フィッシング攻撃またはランサムウェア攻撃は慈善団体にとって最大の脅威と説明されており、慈善団体がサイバー攻撃に強くなるための方法がレポートにまとめられている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[米国家安全保障局、IPv6 セキュリティガイダンスを公開]]></title>
+        <id>https://security.srad.jp/story/23/01/28/088226/</id>
+        <link href="https://security.srad.jp/story/23/01/28/088226/"/>
+        <updated>2023-01-28T08:45:00.000Z</updated>
+        <summary type="html"><![CDATA[米国家安全保障局 (NSA) が IPv6 移行期におけるセキュリティの問題を特定・緩和するためのガイダンスを公開している
+(プレスリリース、
+ガイダンス: PDF、
+The Register の記事)。
+
+ガイダンスは国防総省 (DoD) やその他のシステム管理者向けに書かれており、ネットワークが IPv6 を使い始めて間がないこと、それにより成熟した IPv6 構成やツールがないこと、IPv4 を同時使用するデュアルスタックシステムでの運用になること、などによる攻撃面増加に注目した内容になっている。ガイダンスの主なポイントは以下のようなものだ。
+ 
+プライバシーの問題がある SLAAC を使わず、DHCPv6 を使用する
+必要な場合を除いてトンネリングを避ける
+デュアルスタックシステムの IPv6 側に IPv4 と同等または上回るサイバーセキュリティシステムを実装
+複数の IPv6 アドレスを割り当てたホストがすべてのトラフィックをデフォルトで拒否する設定になっていることを ACL で確認し、すべてのトラフィックを記録することを確実にする
+すべてのネットワーク管理者が IPv6 ネットワーク管理に必要なトレーニングを受ける
+このほか、スプリット DNS の使用や IPv6 トラフィックのフィルタリング、デュアルスタックシステムでのネットワークアドレス変換使用回避などが追加の対策として紹介されている。
+ すべて読む | セキュリティセクション | セキュリティ |     
+  関連ストーリー： 
+NSA、可能な限りメモリ安全なプログラミング言語を使うことを推奨 2022年11月13日 
+中国が発展途上国向けに提案している「IPv6＋」はIPv6とは似て非なるもの 2022年06月17日 
+IPv6基礎検定が2023年3月から実施へ 2022年03月25日 
+NTTドコモ回線の一部で通信障害、1日から導入したIPv6シングルスタック方式の影響かは調査中 2022年02月01日 
+「プロフェッショナルIPv6 第2版」の無料配布が開始される 2021年12月22日 
+米国国家安全保障局（NSA）、位置情報を漏らさないようにするためのガイダンスを公開 2020年08月13日 
+NURO光やフレッツ・v6オプションでIPv6ファイアウォールが設定されていないことが話題に 2020年06月01日 
+IPv4には未来がない 2019年12月19日 
+米連邦地裁、米政府機関でのカスペルスキー製品使用禁止は違法だとする2件の訴訟を棄却 2018年06月02日 
+ロシアKasperskyとロシア当局がつながっている疑惑、米国が一部政府機関での導入を禁止へ 2017年07月08日]]></summary>
+        <author>
+            <name>headless</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[リモートでのインシデント対応における信頼性、協力体制、予測可能性の向上]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=44982</id>
+        <link href="https://gblogs.cisco.com/jp/2023/01/talos-increasing-trust-commitment-and-predictability-during-a-remote-incident-response/"/>
+        <updated>2023-01-28T08:13:02.000Z</updated>
+        <summary type="html"><![CDATA[執筆：Gergana Karadzhova、Joe Schumacher、Pawel Bosek このブログ記事では、Talos インシデント対応チーム（Talos IR）がリモートでのインシデント対応サポートの主な利点を紹介し、リモートでインシデント対応にあたる際の推奨事項をまとめています。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ISC Releases Security Advisories for Multiple Versions of BIND 9]]></title>
         <id>18319 at https://us-cert.cisa.gov</id>
@@ -9806,102 +9925,6 @@ The post Start the New Year Right With This 3-Step Digital Detox appeared first 
         <summary type="html"><![CDATA[Google Homeの脆弱性を発見した研究者が脆弱性の詳細情報を公開した。この脆弱性を悪用されるとサイバー攻撃者はGoogle Homeが接続しているWi-FiネットワークにアクセスすることでGoogle Homeへ攻撃を仕掛け、Google Homeを介した盗聴が可能になるとされている。]]></summary>
         <author>
             <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[分散型マルチチェーン暗号資産ウォレットのBitKeep、サイバー攻撃で秘密鍵漏洩]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20221230-2550125/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20221230-2550125/"/>
-        <updated>2022-12-30T08:06:20.000Z</updated>
-        <summary type="html"><![CDATA[分散型マルチチェーン暗号資産ウォレットを提供するBitKeepは12月28日(現地時間)、12月26日に大規模なサイバー攻撃を受けたと伝えた。このサイバー攻撃によって一部の秘密鍵が漏洩し、資金の不正転送が行われたと報告されている。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[eBay に出品された米軍の生体識別デバイス、2,600 人以上のデータが含まれていた]]></title>
-        <id>https://security.srad.jp/story/22/12/30/0450257/</id>
-        <link href="https://security.srad.jp/story/22/12/30/0450257/"/>
-        <updated>2022-12-30T05:29:00.000Z</updated>
-        <summary type="html"><![CDATA[Chaos Computer Club (CCC) がオンラインオークションに出品された米軍の生体識別デバイス 6 台を入手して調査したところ、その 1 台には 2,632 人分の名前や国籍、写真とともに指紋データや虹彩スキャンデータが保存されていたそうだ
-(CCC のブログ記事、
-The Verge の記事、
-The New York Times の記事、
-Ars Technica の記事)。
-
-CCC が入手したのは 4 台の SEEK II (Secure Electronic Enrollment Kit) と 2 台の HIIDE 5 (Handheld Interagency Identity Detection Equipment)。これらのデバイスはアフガニスタンとイラクで軍人や協力者、テロリスト、指名手配者などを識別するために用いられていたものだ。CCC ではタリバンが HIIDE を入手したという報道を受けて、調査を開始した。
-
-
-2,600 人分以上の生体識別データが格納されていたのは 8 月に調査を率いる CCC の Matthias Marx 氏が eBay で入手した SEEK II で、2012 年半ばにカブールとカンダハールの間で用いられたのが最後だという。データは暗号化されておらず、既知の標準パスワードを入力するだけでアクセス可能なだけでなく、データベースは標準的なものであり、データフォーマットにも変わったところはなく、分析は容易だったそうだ。
-
-このようなデータがテロリストの手に渡れば現地の協力者などが危険にさらされる。CCC では問題を SEEK II のメーカーや米国防総省、アフガニスタンでの生体識別情報収集に協力したドイツ連邦軍に報告したが、このような情報漏洩を誰も気にしていないとのこと。報告から 2 か月半経過し、CCC ではまた別の生体識別デバイスをオンラインで注文できたといい、Marx 氏はリスクの高いデータを無責任に取り扱うことを批判している。
- すべて読む | セキュリティセクション | 軍事 | セキュリティ | アメリカ合衆国 | 情報漏洩 |     
-  関連ストーリー： 
-タリバン、米軍生体認証デバイスを入手か。米英の協力者あぶり出しに悪用される可能性 2021年08月20日 
-B-43熱核爆弾の純正ノーズコーン、ebayに出品される 2020年12月14日 
-Wikileaks、40 万ページに及ぶ米軍機密文書を公開 2010年10月27日 
-WikiLeaks、アフガン紛争に関連する大量の米軍機密文書を公開 2010年07月28日 
-Wikileaks にイラク民間人へのヘリ攻撃動画をタレ込んだ人物、逮捕される 2010年06月07日 
-eBay に出品された中古ハードディスクから米軍機密情報見つかる 2009年05月12日 
-MI6の機密入りデジカメ、eBayで販売される  2008年10月02日 
-ヤフオクに米軍のヘリシミュレータ？が出品される 2007年03月09日]]></summary>
-        <author>
-            <name>headless</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[メールにExcelアドインのXLLファイルやPublisherファイルが付いていたら要注意]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20221230-2550138/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20221230-2550138/"/>
-        <updated>2022-12-30T03:58:15.000Z</updated>
-        <summary type="html"><![CDATA[The Hacker Newsは12月28日(現地時間)、Microsoft Officeのマクロ実行ブロックに対抗するための攻撃ベクトルとして新しく「XLLファイル」と「Publisherファイル」の悪用が始まっていると伝えた。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[注目の脅威：悪意のある Excel XLL アドインを使用した攻撃が増加中]]></title>
-        <id>https://gblogs.cisco.com/jp/?p=44677</id>
-        <link href="https://gblogs.cisco.com/jp/2022/12/talos-xlling-in-excel-malicious-add-ins/"/>
-        <updated>2022-12-30T03:38:58.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft 社は、ダウンロードした Office ドキュメントでの VBA マクロ実行のサポートを段階的に廃止しています。Cisco Talos では、Microsoft Excel に悪意のあるコードを導入するために使用される、VBA マクロとは別のベクトルについて調査を行っています。具体的には、悪意のある XLL ファイル（Excel アドイン）を使用するベクトルです。]]></summary>
-        <author>
-            <name>TALOS Japan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ECサイトで購入した商品が正規品かどうかを確認する5つの方法]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20221230-2549690/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20221230-2549690/"/>
-        <updated>2022-12-30T00:39:06.000Z</updated>
-        <summary type="html"><![CDATA[年末年始から正月にかけて、リアルの店舗と同様に、ECサイトでもバーゲンや初売りが行われる。しかし、ここで落ち着いてほしい。オンラインショッピングのユーザーを狙うサイバー犯罪者はこの休暇をチャンスと捉えており、手ぐすねを引いている。彼らの餌食にならないために、どうすべきだろうか。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Security Update Guide Improvement – Representing Hotpatch Updates]]></title>
-        <id>https://msrc-blog.microsoft.com/?p=15230</id>
-        <link href="https://msrc-blog.microsoft.com/2022/12/29/security-update-guide-improvement-representing-hotpatch-updates/"/>
-        <updated>2022-12-29T21:21:27.000Z</updated>
-        <summary type="html"><![CDATA[Today we are updating the way Microsoft Security Update Guide (SUG) represents the Windows Hotpatch feature to make it easier for users to identify the hotpatch and security updates. Hotpatching was introduced a year ago as a new way to install updates on supported Windows Server Azure Edition virtual machines (VMs) without requiring a reboot …
-  Security Update Guide Improvement – Representing Hotpatch Updates Read More »]]></summary>
-        <author>
-            <name>Lisa Olson</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Adds Two Known Exploited Vulnerabilities to Catalog]]></title>
-        <id>18255 at https://us-cert.cisa.gov</id>
-        <link href="https://us-cert.cisa.gov/ncas/current-activity/2022/12/29/cisa-adds-two-known-exploited-vulnerabilities-catalog"/>
-        <updated>2022-12-29T20:39:16.000Z</updated>
-        <summary type="html"><![CDATA[Original release date: December 29, 2022
-CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation. These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise. Note: To view the newly added vulnerabilities in the catalog, click on the arrow in the "Date Added to Catalog" column, which will sort by descending dates.
-Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known CVEs that carry significant risk to the federal enterprise. BOD 22-01 requires FCEB agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.
-Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the Catalog that meet the specified criteria.
-This product is provided subject to this Notification and this Privacy & Use policy.]]></summary>
-        <author>
-            <name>CISA</name>
         </author>
     </entry>
 </feed>
