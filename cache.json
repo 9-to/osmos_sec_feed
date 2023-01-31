@@ -329,6 +329,16 @@
       "siteUrl": "https://www.ipa.go.jp/about/index.html",
       "articles": [
         {
+          "id": "https://www.ipa.go.jp/jinzai/skill-standard/dss/designer/column01.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "本コラムでは、サービスデザイナーという役割が生まれてきた背景と、その重要性について紹介",
+          "link": "https://www.ipa.go.jp/jinzai/skill-standard/dss/designer/column01.html",
+          "publishedOn": "2023-01-31T01:00:00.000Z",
+          "wordCount": 83,
+          "title": "【デジタルスキル標準コラム】「DX推進におけるサービスデザインの重要性」の公開",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.ipa.go.jp/about/recruit/syokutaku.html",
           "author": "情報処理推進機構（IPA）",
           "description": "技術・人材の両面から、ソフトウェア及び情報処理システムの健全な発展を支える戦略的なインフラ機能を提供するプロフェッショナル集団として日本経済の発展に貢献",
@@ -659,6 +669,16 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://www.mcafee.com/blogs/?p=163753",
+          "author": "Cagla Ruacan",
+          "description": "Knowing the whole family is protected online is a great feeling—that they’re safe from online scams, inappropriate content, and people...\nThe post McAfee+ Family Plans: The Right Protection for the Right People—Your People appeared first on McAfee Blog.",
+          "link": "https://www.mcafee.com/blogs/family-safety/mcafee-family-plans-the-right-protection-for-the-right-people-your-people/",
+          "publishedOn": "2023-01-31T01:36:30.000Z",
+          "wordCount": 3254,
+          "title": "McAfee+ Family Plans: The Right Protection for the Right People—Your People",
+          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2023/01/300x200_Blog_013023.png"
+        },
+        {
           "id": "https://www.mcafee.com/blogs/?p=163326",
           "author": "Cagla Ruacan",
           "description": "All your online activity creates a trail of data. And that data tells a story. The story of you.  The...\nThe post Your Data—It’s the Story of You appeared first on McAfee Blog.",
@@ -878,6 +898,16 @@
       "feedUrl": "https://gblogs.cisco.com/jp/feed/",
       "siteUrl": "https://gblogs.cisco.com/jp",
       "articles": [
+        {
+          "id": "https://gblogs.cisco.com/jp/?p=44997",
+          "author": "TALOS Japan",
+          "description": "本日の投稿では、1 月 13 日 ～ 1 月 20 日の 1 週間で Talos が確認した最も蔓延している脅威をまとめています。これまでのまとめ記事と同様に、この記事でも詳細な分析は目的としていません。脅威の主な行動特性やセキュリティ侵害の指標に焦点を当て、シスコのお客様がこれらの脅威からどのように保護されるかについて説明しています。",
+          "link": "https://gblogs.cisco.com/jp/2023/01/talos-threat-roundup-0113-0120/",
+          "publishedOn": "2023-01-30T08:55:58.000Z",
+          "wordCount": 1602,
+          "title": "1 月 13 日から 1 月 20 日の 1 週間における脅威のまとめ",
+          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/recurring-blog-images_threat-roundup-460x230.jpg"
+        },
         {
           "id": "https://gblogs.cisco.com/jp/?p=44992",
           "author": "TALOS Japan",
@@ -1338,6 +1368,16 @@
       "siteUrl": "https://eset-info.canon-its.jp/",
       "articles": [
         {
+          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/230131.html",
+          "author": null,
+          "description": "ケルベロス認証はサービスへのログイン時に用いられる認証方式の1つであり、シングルサインオンを実現する手段として長きにわたり利用されてきた。この記事では、ケルベロス認証および、関連する認証技術の仕組みを紹介した上で、「パスワードレス」認証を含めた最新の技術動向について解説する。\n\n\n\n\n\nケルベロス認証とは\n\nケルベロス認証は、ネットワーク経由でアクセスするユーザーを認証する方式の1つとして古くから用いられてきた。ケルベロスの名は、ギリシャ神話に登場する冥界の番犬「ケルベロス」に由来して命名されたと言われている。\n\nケルベロス認証は主に、シングルサインオンの認証方式として利用されてきた。つまり、社内ネットワークのように1つのドメイン内で複数のサーバーへアクセスしなければならない場合でも、1度のログインで対象のサーバーへすべて認証が完了するシングルサインオンが実現できる。1980年代にマサチューセッツ工科大学（MIT）で開発され、現在に至るまで広く使われている。\n\nケルベロス認証が用いられている代表例として、Active Directoryが挙げられる。Active Directoryは Windowsを中心とした社内ネットワークを構築している企業ではよく用いられているもので、ネットワーク上の機器を一括で管理することを目的とする。このActive Directoryの認証プロトコルとして推奨・採用されているのがケルベロス認証だ。\n\nケルベロス認証のようなシングルサインオンの仕組みを導入するのは、ユーザー、管理者双方にメリットがある。ユーザーにとっては管理するパスワードが1つで済むため、複雑なパスワードを忘れないよう記憶する手間を省き、利便性が向上する。また、管理者にとっては、複数のサーバーがあっても認証システムを一元化できるため、管理作業が軽減される。\n\nケルベロス認証の仕組み\n\nケルベロス認証では、はじめにIDとパスワードで認証に成功すると、証明のための「チケット」が発行される仕組みになっている。そして、そのチケットが有効な間は、各サーバーにアクセスした際に「そのサーバーにアクセスするためのチケット」が発行される。その都度、認証が要求されることはなく、シングルサインオンが実現される。ユーザーから見ると、チケットの存在を意識せず、認証作業だけ行えばよい。\n\n具体的には、以下のような流れとなる。\n\n\n\tユーザーがIDとパスワードを入力して、認証サーバーへ認証を要求する。\n\t事前に登録された利用者資格を確認し、認証に成功するとTGT（Ticket Granting Ticket）が発行される。\n\tユーザーはTGTを送信し、利用したいサーバーへのアクセスを要求する。\n\tTGTが有効であれば、該当サーバーへアクセスするためのチケットが発行される。\n\tユーザーは、利用したいサーバーへチケットを送信する。\n\tチケットが有効期間内であれば、サーバーが利用可能となる。\n\n\nケルベロス認証ではチケットが盗み見られてしまうと、なりすましの被害を受け、不正にサーバーへアクセスされるリスクがある。そのため、チケットには送信時刻が含まれており、時刻に一定のズレがあるとアクセスできないよう対策が講じられている。\n\n加えて、サーバー間の通信は暗号化され、チケットのやり取りが保護されている。共通鍵暗号方式が採用されており、サーバー側とユーザー側で同じ鍵を用いて暗号化・復号を行っている。共通鍵はセッションごとに生成され、認証サーバーで管理されるのが特長だ。Active Directoryの場合、一般的に、利用者資格や共通鍵の管理にLDAPが利用されている。\n\nシングルサインオンの仕組みと導入のメリット・デメリット\n\nシングルサインオンの認証方式とは\n\nケルベロス認証は主にドメイン内で管理される社内のサーバーを対象としていた。一方、Webアプリケーションをシングルサインオンへ対応させるための方式としては、エージェント方式やリバースプロキシ方式などが開発されている。\n\nケルベロス認証の場合、シングルサインオンの連携対象が自社ネットワーク内に限られるという制約があった。しかし、近年はクラウドサービスを業務で利用する場面が増え、社外のサーバーを含めた認証方式が求められるようになっている。そこで、異なるネットワークでも統一されたシングルサインオンの仕組みを構築する規格として、SAML（Security Assertion Markup Language）が利用されるようになった。\n\n\n\n図１：SAML認証要求のプロセス\n\n\nSAMLは主に、Webアプリケーションのシングルサインオンを実現する規格だ。ユーザーはIDプロバイダー（IdP、Identity Provider）と呼ばれるサーバーへリダイレクトされ、ID・パスワードを使った認証を実施する。ログインに成功するとSAML認証情報に基づいて、クラウドサービスなどが利用できるようになる。ここで連携対象となるクラウドサービスはサービスプロバイダー（Service Provider）と呼ばれる。\n\nまた、ケルベロス認証のような認証方式は、企業のネットワークに用いることを想定していたが、SNSのログインアカウントを活用した認証（ソーシャルログイン）や、認可を簡素化する仕組みも浸透してきている。代表的な規格が、認可の仕組みを提供するOAuthだ。\n\n\n\n図2： OAuth認証のプロセス\n\n\nユーザーがOAuthに対応するサービスへアクセスすると、SNSへリダイレクトされる。認証のプロセスにて、ユーザーはアカウント情報をログインに利用することを許可する。認証に成功すれば、SNSの情報を連携したサービスが利用できるようになる。\n\nこれらの認証方式では、認証に成功したユーザーには認証済みとしてCookieが発行される。利用するWebブラウザーにてCookieを有効にしておくことが前提となっており、認証済みCookieを送信するユーザーは、ID・パスワードを再度入力する必要なく、アクセス可能となる。\n\nCookieを削除するとどうなるのか？\n\n進化を続ける認証の技術\n\nシングルサインオンは複数のサーバー、サービスを一度の認証で利用できる点がメリットであり、ユーザーが管理するパスワードも1つにまとめられる。しかし、最近ではそもそもパスワードを使用しない「パスワードレス認証」の利用も増えている。\n\nパスワードは「知識要素」、すなわちユーザーが知っている情報を用いる認証方式にて用いられる。一方、パスワードレス認証は、知識要素以外の認証要素を用いるのが特徴だ。具体的には、以下の手段が利用される場合が多い。\n\n1）生体認証\n\n指紋・静脈・顔などの身体的特徴を用いる。スマートフォン（以下、スマホ）やパソコンにも導入が進んでおり、すばやく本人確認する手段として期待されている。\n\n2）所持認証\n\nセキュリティキーやハードウェアトークンを利用する。物理的に所有するため、紛失・盗難に備えて、対策を講じておく必要がある。\n\n3）マジックリンク\n\n一定期間有効なログイン用リンクをメールで送信する。Webサービス登録の初期ステップで利用されることが多い。\n\nパスワードレス認証のメリットは、パスワードに起因するセキュリティ上のリスクを軽減できる点にある。推測されやすい単純なパスワードの利用、パスワードの使い回し、ブルートフォース攻撃など、不正アクセスの要因が知られている。パスワードレス認証であれば、こうしたリスクを軽減できるだろう。\n\n一定の導入コストを要するなど、パスワードレス認証の利用にはデメリットも存在するのが実情だ。しかし、最近ではパソコンとスマホの両方を業務利用し、それぞれでサービスへログインするというように、認証に対する要件が複雑化する状況もあり、それを簡素化するためにパスワードレス認証へのニーズが高まっている。\n\nまた、パスワード認証も含めた複数の認証方式を併用した多要素認証を利用するケースも増えている。企業や組織においてはセキュリティを向上させるため多要素認証を必須とする場合もあるだろう。\n\nさらに、最近ではアクセスごとにセキュリティリスクを判断し、認証に求める要素を変更する「適応型認証」と呼ばれる仕組みも開発されている。例えば、ユーザーが普段と異なる場所やデバイスからアクセスした場合に高リスクであると自律的に判断し、追加の認証情報をユーザーに要求する、といった仕組みだ。\n\n金融サービスなどでは未登録のデバイスでアクセスした際に、先述のマジックリンクを用いたログインを要求するものもある。機械学習の技術を用いて、普段通り使用しているユーザーの手間を増やすことなく、疑わしい挙動を検知し、高リスクのアクセスのみを検証できるのだ。\n\n社外のクラウドサービスを含め、セキュリティを司る認証システムは重要性を増している。認証方式それぞれで異なる特徴を理解し、利便性・安全性を考慮した上で、最適な方法を選択するようにしたい。\n\n企業はパスワードレス認証に適応できるのか？",
+          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/230131.html",
+          "publishedOn": "2023-01-30T15:00:00.000Z",
+          "wordCount": 218,
+          "title": "ケルベロス認証？シングルサインオンの認証方式の定番と新技術はどう違う？",
+          "imageUrl": "https://eset-info.canon-its.jp/files/topics/4140_ext_01_0.jpg"
+        },
+        {
           "id": "https://eset-info.canon-its.jp/malware_info/term/detail/00187.html",
           "author": null,
           "description": "オンラインバンキングの認証情報などを窃取し、ボットネットを形成するトロイの木馬\n\n\n\n\nDridexはWindows向けマルウェアの1種として、主に金融サービスに関連する情報を窃取するトロイの木馬型のマルウェアとして知られている。また、ほかのマルウェアに感染させられるなど、オンラインバンキング以外でもさまざまな被害が生じている。Dridexの侵入経路として用いられるのはメールの添付ファイルだ。WordやExcelなどオフィスソフトのマクロ機能が悪用され、ダウンローダーが起動してDridex本体がダウンロードされる。\n\nしかし、Dridexの登場から時間の経過に伴い、攻撃手法は変化してきている。ユーザーがマクロを実行することで本体プログラムが読み込まれ実行されると被害に至ることが多いが、Emotetをはじめとした、ほかのマルウェアが設置したバックドアを悪用するケースもある。オンラインバンキングに関連する情報漏えいに加え、最近ではランサムウェアのダウンローダーとして機能し、機密データを暗号化して脅迫することで金銭を脅し取ろうとするケースもある。\n\nDridexの変遷\n\nDridexが最初に検出されたのは2014年11月。2007年に初めて検出されたZeus Trojan（Zbot）の亜種として知られるバンキングマルウェア、GameOver Zeusのテイクダウン後にDridexが確認されるようになった。DridexはGameOver Zeusと共通する部分が多く見られたが、2015年にバージョン2に進化、以降も継続的にバージョンアップを果たし、進化を続けている。\n\nDridexはCridex（Bugat）を後継するマルウェアとされる。CridexはUSBメモリー経由で感染を広げるワーム機能を有するバンキングマルウェアであり、その特徴からDridexと一緒だという考えもある。また、2017年に検出されたFriedEx（BitPaymer）と呼ばれるランサムウェアは、コードの類似性からDridexの亜種であると考えられている。\n\n2019年、BitPaymerの後継と思しき、DoppelPaymerによる攻撃が多数観測されるようになった。このように、Dridexの基盤技術は亜種を含め、さまざまな攻撃に用いられている。\n\nまた、先述のようにDridex自体もバージョンアップを続けており、2020年にはExcelのXLMマクロ機能を悪用するようになった。このような変化を遂げた背景として、Windowsのマルウェア対策スキャン（AMSI）において、XLMの検査が難しいことが挙げられる。そのため、マイクロソフト社は2021年、デフォルトでXLMマクロ機能を無効化するようにアップデートを行った。\n\nDridexがもたらす被害\n\nバンキングマルウェアとして知られるDridexだが、感染に至った場合、その被害は多岐にわたる。以下に主要なものを紹介する。\n\n金融情報の窃取\n\nDridexは添付ファイル内のマクロが起動すると、C&amp;Cサーバーと通信を行い、マルウェア本体をダウンロードする。その後、このダウンロードされたマルウェアはオンラインバンキングをはじめ、金融・決済サービスに関する情報を不正に取得する。そして、これらの情報をC&amp;Cサーバーや攻撃者の手元に転送し、以降の犯罪実行をもたらす。\n\nランサムウェアによる被害\n\n最近のバージョンのDridexでは、ランサムウェアのダウンロードをほう助する。内部データが不正に暗号化され、身代金を要求されるだけでなく、「ダブルエクストーション（二重の脅迫）」といった事態に追い込まれるケースもある。\n\n感染メールの拡散\n\nDridexはメール送付機能を悪用して、不特定のユーザーに対してDridexへの感染を狙うメールを送り付ける。感染したパソコンから情報を窃取し、メールのやり取り履歴がある宛先へ、正規のメールに偽装したマクロファイル添付のメールを無差別に送付する。また、発覚した初期には複合機のスキャン機能で利用されるメール通知に偽装した手口も確認されている。\n\nDridexへの対策\n\n先述のように、Dridexの感染源はその多くがメール経由となっている。そのため、メール内の添付ファイルを開封する際には細心の注意を払うようにしたい。また、メール本文のリンク経由で不正なWebサイトへ誘導してDridexをダウンロードさせようと試みるケースもある。いずれの場合でも、セキュリティソフトの導入などの基本的な対策を講じていることで安全性は高まる。\n\nまた、多くの従業員が所属する企業・組織などでは、個別にエンドポイントソリューションを導入することも有効だが、ゲートウェイにおけるメールのフィルタリングなども講じるようにしたい。\n\nDridexに限らず、現時点で判明している手口はこれまでに発覚したものに過ぎない。未知の手口を明確に予測できないため、多層的に防御を講じておくことが望ましいだろう。",
@@ -1572,6 +1612,16 @@
       "siteUrl": "https://blogs.trellix.jp",
       "articles": [
         {
+          "id": "https://blogs.trellix.jp/?p=18292",
+          "author": "mcafee_admin",
+          "description": "図1 2014年に始まったロシアとウクライナの戦争がエスカレートし、ロシアがウクライナに侵攻してからほぼ1年が経ちました。それは第二次世界大戦以降、ヨーロッパで最大の難民危機を引き起こしました。戦争は地上戦だけでなく、技 […]",
+          "link": "https://blogs.trellix.jp/cyberattacks-targeting-ukraine-increase",
+          "publishedOn": "2023-01-30T20:58:33.000Z",
+          "wordCount": 607,
+          "title": "ウクライナを標的としたサイバー攻撃： 2022 年末に20倍に増加",
+          "imageUrl": "https://blogs.trellix.jp/wp-content/uploads/2023/01/iOS-Steve_eye.jpg"
+        },
+        {
           "id": "https://blogs.trellix.jp/?p=18198",
           "author": "mcafee_admin",
           "description": "この時期であれば、NAUGHTYリスト*ともいうべき、バグレポートへようこそ！ホリデーシーズンには、ツリーの下のプレゼントに重大なバグが隠されているものですが、そのうち2件はまだ謎のままです。休暇中はサイバー脅威も停止す […]",
@@ -1588,6 +1638,28 @@
       "feedUrl": "https://www.nic.ad.jp/ja/index.xml",
       "siteUrl": "https://www.nic.ad.jp/",
       "articles": [
+        {
+          "id": "https://www.nic.ad.jp/ja/materials/igf/20230110/",
+          "author": null,
+          "description": "",
+          "link": "https://www.nic.ad.jp/ja/materials/igf/20230110/",
+          "publishedOn": "2023-01-31T05:10:58.000Z",
+          "wordCount": null,
+          "title": "[Web更新]IGF2023に向けた国内IGF活動活発化チーム 第29回会合の資料を掲載",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.nic.ad.jp/2023/8453/",
+          "author": null,
+          "description": "2022年12月のJPNIC Blogアクセス数Top 10では、上位を昔の記事が占めましたが、IWやWHOIS、IETFなどに関連した記事もよく読まれています。",
+          "link": "https://blog.nic.ad.jp/2023/8453/",
+          "publishedOn": "2023-01-30T06:45:33.000Z",
+          "wordCount": null,
+          "title": "[Blog記事]2022年12月のJPNIC Blogアクセス数Top 10",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol1977.html",
           "author": null,
@@ -2389,6 +2461,26 @@
       "siteUrl": "https://jvn.jp/",
       "articles": [
         {
+          "id": "https://jvn.jp/jp/JVN22830348/",
+          "author": "jvn@jvn.jp",
+          "description": "富士フイルムビジネスイノベーション製のドライバー配布ツールには、復元可能な形式でのパスワード保存の脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN22830348/",
+          "publishedOn": "2023-01-31T03:00:15.000Z",
+          "wordCount": 169,
+          "title": "富士フイルムビジネスイノベーション製ドライバー配布ツールにおける復元可能な形式でのパスワード保存の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/jp/JVN84642320/",
+          "author": "jvn@jvn.jp",
+          "description": "Android アプリ「スシロー」には、ログファイルからの情報漏えいの脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN84642320/",
+          "publishedOn": "2023-01-31T03:00:00.000Z",
+          "wordCount": 190,
+          "title": "Android アプリ「スシロー」におけるログファイルからの情報漏えいの脆弱性",
+          "imageUrl": null
+        },
+        {
           "id": "https://jvn.jp/vu/JVNVU93712391/",
           "author": "jvn@jvn.jp",
           "description": "Delta Electronics社が提供するCNCSoftおよびScreen Editorには、スタックベースのバッファオバーフローの脆弱性が存在します。",
@@ -2908,7 +3000,7 @@
       ]
     },
     {
-      "title": "ブログ – WordPress.org 日本語",
+      "title": "ブログ | WordPress.org 日本語",
       "feedUrl": "https://ja.wordpress.org/news/feed/",
       "siteUrl": "https://ja.wordpress.org",
       "articles": [
@@ -3126,6 +3218,56 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/01/31/48849.html",
+          "author": null,
+          "description": "中国政府は自国の情報セキュリティ産業を早急に伸ばす必要がある、と宣言した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/01/31/48849.html",
+          "publishedOn": "2023-01-30T23:10:02.000Z",
+          "wordCount": 840,
+          "title": "中国、情報セキュリティ産業を2025年に220億ドル規模に",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40443.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/01/31/48848.html",
+          "author": null,
+          "description": "カジュアルファッションを取り扱う株式会社アダストリアは1月24日、1月19日に公表した同社サーバへの不正アクセスについて、第2報を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/01/31/48848.html",
+          "publishedOn": "2023-01-30T23:05:08.000Z",
+          "wordCount": 818,
+          "title": "カジュアルファッション取り扱いアダストリアのサーバへ不正アクセス、100万件の個人情報が流出した可能性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40432.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/01/31/48847.html",
+          "author": null,
+          "description": "大阪府守口市は2022年12月28日、同市で開催中の「謎解き宝探し in 守口市」のプレゼントアンケートフォーム上での個人情報漏えいの可能性について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/01/31/48847.html",
+          "publishedOn": "2023-01-30T23:05:05.000Z",
+          "wordCount": 839,
+          "title": "「謎解き宝探し in 守口市」アンケートフォームで個人情報が閲覧可能に",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40427.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/01/31/48846.html",
+          "author": null,
+          "description": "株式会社SEプラスは1月25日、1月6日に公表した同社の教育事業サービスでの顧客の一部情報が閲覧可能な状態であった件について、調査結果を発表した。文章の選択とコピーができないPDFファイルで公開している。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/01/31/48846.html",
+          "publishedOn": "2023-01-30T23:05:02.000Z",
+          "wordCount": 823,
+          "title": "複数の条件満たすことでDBへの侵入許す恐れ、フォレンジック調査の結果を公表",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40424.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/01/31/48845.html",
+          "author": null,
+          "description": "一般社団法人日本情報システム・ユーザー協会（JUAS）は1月24日、「企業IT動向調査2023」（2022年度調査）の速報値を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/01/31/48845.html",
+          "publishedOn": "2023-01-30T23:00:04.000Z",
+          "wordCount": 826,
+          "title": "DX推進 重視する人材「情報セキュリティ担当」最多47.9％",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40435.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2023/01/30/48844.html",
           "author": null,
@@ -4454,6 +4596,16 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2301/31/news176.html",
+          "author": null,
+          "description": "国民生活センターは30日、ネット通販サイトを装った偽サイトについて全国の消費者センターに寄せられた相談が22年度は前年の約2倍に増えているとして注意喚起した。",
+          "link": "https://www.itmedia.co.jp/news/articles/2301/31/news176.html",
+          "publishedOn": "2023-01-31T07:46:00.000Z",
+          "wordCount": 2594,
+          "title": "偽サイト被害の相談が前年度の約2倍に　国民生活センターが注意喚起　「価格だけに目を奪われないで」",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2301/31/cover_news176.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2301/27/news066.html",
           "author": null,
           "description": "英バーミンガム大学に所属する研究者らは、サーバ用マザーボードに搭載する制御システムの欠陥を攻撃し、遠隔から必要以上の電圧を供給してCPUを破壊しコンピュータを無効にする脆弱性を指摘した研究報告を発表した。",
@@ -4850,6 +5002,76 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1474486.html",
+          "author": null,
+          "description": "埼玉県秩父市と株式会社ゼンリン、KDDI株式会社、KDDIスマートドローン株式会社は、2022年9月に発生した土砂崩落の影響が続く埼玉県秩父市の中津川地内で、衛生インターネット「Starlink」を活用したモバイル通信のもと、ドローンによる食品や日用品、医薬品などの定期配送を開始した。期間は1月26日から3月末までで、週1回の配送を行う。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1474486.html",
+          "publishedOn": "2023-01-31T05:00:00.000Z",
+          "wordCount": 4332,
+          "title": "秩父の土砂災害地域にドローンによる物資支援、通信の問題を「Starlink」の衛星通信で解決　ゼンリン、KDDIら8者が連携",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1474/486/sub5.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1474520.html",
+          "author": null,
+          "description": "ヤマト運輸株式会社は、ビジネスプラットフォーム「Slack」と「Microsoft Teams」上で、宅急便の発送手続きができる機能を提供する。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1474520.html",
+          "publishedOn": "2023-01-31T04:40:00.000Z",
+          "wordCount": 4318,
+          "title": "ヤマト運輸、「Slack」と「Microsoft Teams」で宅急便を発送できるサービスを提供へ　Slackは2月8日アプリ提供開始、Teamsは一部企業向け実証実験から",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1474/520/230131-1.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1474402.html",
+          "author": null,
+          "description": "写真を見て撮影された年代を当てるクイズサイトが海外で公開され、人気を博している。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1474402.html",
+          "publishedOn": "2023-01-31T02:57:00.000Z",
+          "wordCount": 4311,
+          "title": "意外にムズい？ 写真を見て撮影された年代を当てるクイズサイトが海外で評判【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1474/402/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1474401.html",
+          "author": null,
+          "description": "あの「呼び込み君」をモチーフにしたポーチが発売される。現在予約を受付中だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1474401.html",
+          "publishedOn": "2023-01-31T02:55:55.000Z",
+          "wordCount": 4321,
+          "title": "「ポポ～ポ ポポポ♪」のメロディも鳴らせる、あの「呼び込み君」のポーチが予約受付中【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1474/401/yajiuma-watch_2.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/zaitaku_work/1473540.html",
+          "author": null,
+          "description": "はじめまして！　小林美穂と申します。家具と家電のレンタル・サブスク「CLAS（クラス）」の広報で、2022年10月に株式会社PR TIMESの「初代プレスリリースエバンジェリスト」に公認いただきました。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/zaitaku_work/1473540.html",
+          "publishedOn": "2023-01-30T21:55:00.000Z",
+          "wordCount": 4367,
+          "title": "「家具のサブスクって便利！」自社サービスの社員割引も活用して自宅ワークスペース整備 ～ 小林美穂（株式会社クラス 広報）の在宅ワークスタイル【みんなの在宅ワーク：第92回】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1473/540/2_ogp.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1474226.html",
+          "author": null,
+          "description": "テックウインド株式会社は1月30日、法人を対象に、Huawei（ファーウェイ）製タブレット4製品とスマートオーディオグラスの取り扱いを開始した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1474226.html",
+          "publishedOn": "2023-01-30T21:00:00.000Z",
+          "wordCount": 4327,
+          "title": "テックウインド、法人向けにファーウェイ製タブレットの取扱い開始。各種カスタマイズにも対応",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1474/226/230130-1.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/vpro/1470570.html",
+          "author": null,
+          "description": "クオリティソフト株式会社の「QND」はIT資産管理ソフトウェア／エンポイント管理の先駆けといえる国産製品だ。社内のPCやサーバーを管理し、パッチやアプリケーションのバージョンをチェックしたり、操作やWebアクセスのログを取得したり、外部メディア接続を禁止したりといったコントロールを行うことができる。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/vpro/1470570.html",
+          "publishedOn": "2023-01-30T21:00:00.000Z",
+          "wordCount": 4385,
+          "title": "「vPro対応」でもう17年！ IT資産管理ツールの先駆け、クオリティソフト「QND」はなぜvProに対応したのか？[Sponsored]",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1470/570/001.jpg"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/1474236.html",
           "author": null,
@@ -6519,16 +6741,6 @@
           "wordCount": 4394,
           "title": "バッファローのWi-Fi 6ルーターが4千円台から！ Amazon初売り情報　最新Wi-Fi 6E対応ルーター「WNR-5400XE6/N」セール価格1万7980円",
           "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1467/829/buffaloｰWNR-5400XE62SN.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/special/1467663.html",
-          "author": null,
-          "description": "新年明けましておめでとうございます。",
-          "link": "https://internet.watch.impress.co.jp/docs/special/1467663.html",
-          "publishedOn": "2022-12-31T21:00:00.000Z",
-          "wordCount": 4473,
-          "title": "ネットワーク機器メーカー・プロバイダに聞く「今年の意気込み」と「去年の売れ筋」【2023年版】　今年の注目は？",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1467/663/rss.jpg"
         }
       ]
     },
@@ -6543,6 +6755,36 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230131-2580398/",
+          "author": null,
+          "description": "NTTコミュニケーションズは1月31日、スマートフォンやタブレット端末といったスマートデバイスへのサイバー攻撃に対応するため、法人向けサイバーセキュリティ対策サービス「あんしんモバイルセキュリティ for ビジネス」を、同日より提供開始すると発表した。",
+          "link": "https://news.mynavi.jp/techplus/article/20230131-2580398/",
+          "publishedOn": "2023-01-31T05:02:21.000Z",
+          "wordCount": 1625,
+          "title": "NTT Com、サイバーリスク保険付のモバイルセキュリティサービス",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230131-2580398/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230131-2580271/",
+          "author": null,
+          "description": "ニューリジェンセキュリティは1月31日、AWSやOCIなど、パブリッククラウドのセキュリティ管理に対応するAIクラウドセキュリティ運用サービス「Cloudscort（クラウドスコート）」の新バージョンの提供を開始することを発表した。",
+          "link": "https://news.mynavi.jp/techplus/article/20230131-2580271/",
+          "publishedOn": "2023-01-31T02:36:11.000Z",
+          "wordCount": 1623,
+          "title": "パブリッククラウドの設定不備や脆弱性対応状況を管理可能に、「Cloudscort」",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230131-2580271/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230131-2575171/",
+          "author": null,
+          "description": "米国土安全保障省サイバーセキュリティ・インフラストラクチャセキュリティ庁(CISA)はこのほど、サイバーセキュリティの脅威からK-12組織(幼稚園から高校までの教育機関)を保護することを目的としたガイダンスを公開した。教育機関特有の脅威の現状を把握し、サイバーセキュリティの取り組みを強化するためのノウハウが紹介されている。",
+          "link": "https://news.mynavi.jp/techplus/article/20230131-2575171/",
+          "publishedOn": "2023-01-31T00:21:42.000Z",
+          "wordCount": 1672,
+          "title": "K-12組織(幼稚園から高校までの教育機関)向けセキュリティガイド公開",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230131-2575171/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20230130-2579520/",
           "author": null,
@@ -7842,16 +8084,6 @@
           "wordCount": 1726,
           "title": "1月WebサイトLinux向けシェア、Debianが増加",
           "imageUrl": "https://news.mynavi.jp/techplus/article/20230102-2552057/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20230101-2551549/",
-          "author": null,
-          "description": "Q-Successから2023年1月のWebサイト向けCMS (Content Management System)のシェアが発表された。2023年1月はCMSを使っていないWebサイトの割合が減少したほか、WordPressの増加とShopifyの減少が確認された。インターネット全体では、CMSを使っていないWebサイトの割合が減り続ける傾向が続いている。",
-          "link": "https://news.mynavi.jp/techplus/article/20230101-2551549/",
-          "publishedOn": "2023-01-01T06:07:13.000Z",
-          "wordCount": 1797,
-          "title": "Webサイト1月CMSシェア、WordPressの増加とShopifyの減少",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20230101-2551549/ogp_images/ogp.jpg"
         }
       ]
     }
