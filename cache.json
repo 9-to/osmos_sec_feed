@@ -12,6 +12,76 @@
       "siteUrl": "https://www.jpcert.or.jp/",
       "articles": [
         {
+          "id": "https://www.jpcert.or.jp/wr/2023/wr230208.html#1",
+          "author": null,
+          "description": "VMware vRealize Operationsには、クロスサイトリクエストフォージェリの脆弱性があります。結果として、攻撃者が当該製品のユーザーの権限で意図しない操作を行う可能性があります。",
+          "link": "https://www.jpcert.or.jp/wr/2023/wr230208.html#1",
+          "publishedOn": "2023-02-08T00:05:00.000Z",
+          "wordCount": 589,
+          "title": "Weekly Report: VMware vRealize Operationsにクロスサイトリクエストフォージェリの脆弱性",
+          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
+        },
+        {
+          "id": "https://www.jpcert.or.jp/wr/2023/wr230208.html#2",
+          "author": null,
+          "description": "複数のCisco製品には、脆弱性があります。結果として、当該製品のユーザーが製品が動作しているOS上でroot権限で任意のコマンドを実行するなどの可能性があります。",
+          "link": "https://www.jpcert.or.jp/wr/2023/wr230208.html#2",
+          "publishedOn": "2023-02-08T00:05:00.000Z",
+          "wordCount": 589,
+          "title": "Weekly Report: 複数のCisco製品に脆弱性",
+          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
+        },
+        {
+          "id": "https://www.jpcert.or.jp/wr/2023/wr230208.html#3",
+          "author": null,
+          "description": "DrupalのApigee Edgeモジュールには、不適切なアクセス制御の脆弱性があります。",
+          "link": "https://www.jpcert.or.jp/wr/2023/wr230208.html#3",
+          "publishedOn": "2023-02-08T00:05:00.000Z",
+          "wordCount": 589,
+          "title": "Weekly Report: DrupalのApigee Edgeモジュールに脆弱性",
+          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
+        },
+        {
+          "id": "https://www.jpcert.or.jp/wr/2023/wr230208.html#4",
+          "author": null,
+          "description": "富士フイルムビジネスイノベーション製のドライバー配布ツールには、復元可能な形式でのパスワード保存の脆弱性があります。結果として、当該製品の設定ファイルを入手した第三者が、暗号化された管理者の認証情報を復号する可能性があります。",
+          "link": "https://www.jpcert.or.jp/wr/2023/wr230208.html#4",
+          "publishedOn": "2023-02-08T00:05:00.000Z",
+          "wordCount": 589,
+          "title": "Weekly Report: 富士フイルムビジネスイノベーション製ドライバー配布ツールに復元可能な形式でのパスワード保存の脆弱性",
+          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
+        },
+        {
+          "id": "https://www.jpcert.or.jp/wr/2023/wr230208.html#5",
+          "author": null,
+          "description": "三菱電機株式会社が提供するGOT2000シリーズおよびGT SoftGOT2000のGOT Mobile機能には、複数の脆弱性があります。結果として、クリックジャッキングにより、ユーザーの意図しない操作が実行されるなどの可能性があります。",
+          "link": "https://www.jpcert.or.jp/wr/2023/wr230208.html#5",
+          "publishedOn": "2023-02-08T00:05:00.000Z",
+          "wordCount": 589,
+          "title": "Weekly Report: 三菱電機製GOT2000シリーズおよびGT SoftGOT2000のGOT Mobile機能に複数の脆弱性",
+          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
+        },
+        {
+          "id": "https://www.jpcert.or.jp/wr/2023/wr230208.html#6",
+          "author": null,
+          "description": "株式会社ジェイテクトエレクトロニクスが提供するScreen Creator Advance 2には、複数の脆弱性があります。結果として、細工されたScreen Creator Advance 2のプロジェクトファイルをユーザーが開くことで、情報が漏えいしたり、任意のコードが実行されたりする可能性があります。",
+          "link": "https://www.jpcert.or.jp/wr/2023/wr230208.html#6",
+          "publishedOn": "2023-02-08T00:05:00.000Z",
+          "wordCount": 589,
+          "title": "Weekly Report: ジェイテクトエレクトロニクス製Screen Creator Advance 2に複数の脆弱性",
+          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
+        },
+        {
+          "id": "https://www.jpcert.or.jp/wr/2023/wr230208.html#7",
+          "author": null,
+          "description": "Androidアプリ「スシロー」には、ログファイルからの情報漏えいの脆弱性があります。結果として、第三者が当該製品のログファイルからユーザーIDおよびパスワードを取得する可能性があります。",
+          "link": "https://www.jpcert.or.jp/wr/2023/wr230208.html#7",
+          "publishedOn": "2023-02-08T00:05:00.000Z",
+          "wordCount": 589,
+          "title": "Weekly Report: Androidアプリ「スシロー」にログファイルからの情報漏えいの脆弱性",
+          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
+        },
+        {
           "id": "https://www.jpcert.or.jp/wr/2023/wr230201.html#1",
           "author": null,
           "description": "複数のApple製品には、脆弱性があります。結果として、第三者が任意のコードを実行するなどの可能性があります。",
@@ -379,6 +449,16 @@
       "siteUrl": "https://www.ipa.go.jp/about/index.html",
       "articles": [
         {
+          "id": "https://www.ipa.go.jp/security/outline/todokede-j.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "国内のコンピュータウイルスの感染被害やコンピュータ不正アクセス被害の届出ページ",
+          "link": "https://www.ipa.go.jp/security/outline/todokede-j.html",
+          "publishedOn": "2023-02-08T06:00:00.000Z",
+          "wordCount": 192,
+          "title": "「コンピュータウイルス・不正アクセスの届出状況［2022年（1月～12月）］」を公開しました。",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.ipa.go.jp/security/keihatsu/sme/guideline/pubcom.html",
           "author": "情報処理推進機構（IPA）",
           "description": "情報セキュリティ関連情報のユーザー、管理者、技術者に向けた発信、その前提となる情報収集、調査分析、研究開発、技術評価等の実施",
@@ -729,6 +809,26 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://www.mcafee.com/blogs/?p=164091",
+          "author": "Jasdev Dhaliwal",
+          "description": "“Together for a better internet.” That’s the rallying cry of this year’s Safer Internet Day, and it’s one we’re happy...\nThe post Safer Internet Day: Through a Parent’s Eyes appeared first on McAfee Blog.",
+          "link": "https://www.mcafee.com/blogs/internet-security/safer-internet-day-through-a-parents-eyes/",
+          "publishedOn": "2023-02-07T13:17:23.000Z",
+          "wordCount": 3547,
+          "title": "Safer Internet Day: Through a Parent’s Eyes",
+          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2023/02/300x200_Blog_010723.png"
+        },
+        {
+          "id": "https://www.mcafee.com/blogs/?p=163815",
+          "author": "McAfee",
+          "description": "Cybercriminals will always try to cash in on a good thing, and football is no exception. Online scammers are ramping...\nThe post Super Scams – Beat the Online Scammers Who Want to Sack Your Big Game appeared first on McAfee Blog.",
+          "link": "https://www.mcafee.com/blogs/internet-security/super-scams-beat-the-online-scammers-who-want-to-sack-your-big-game/",
+          "publishedOn": "2023-02-06T14:56:11.000Z",
+          "wordCount": 3771,
+          "title": "Super Scams – Beat the Online Scammers Who Want to Sack Your Big Game",
+          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2023/01/300x200_Blog_021223.png"
+        },
+        {
           "id": "https://www.mcafee.com/blogs/?p=163815",
           "author": "McAfee",
           "description": "Crooks will aways try to cash in on a good thing, and football is no exception. Online scammers are ramping...\nThe post Super Scams – Beat the Online Scammers Who Want to Sack Your Super Bowl appeared first on McAfee Blog.",
@@ -867,26 +967,6 @@
           "wordCount": 3031,
           "title": "New Year, New You: Start Fresh With McAfee Protection Score",
           "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2023/01/614x300_Blog_New-Year-Protection-Score-Symbol.png"
-        },
-        {
-          "id": "https://www.mcafee.com/blogs/?p=163176",
-          "author": "McAfee",
-          "description": "As technology weaves itself into our lives in new and unexpected ways, some of it will get quite personal and...\nThe post The Case for Your Security at CES 2023 appeared first on McAfee Blog.",
-          "link": "https://www.mcafee.com/blogs/internet-security/the-case-for-your-security-at-ces-2023/",
-          "publishedOn": "2023-01-09T14:25:56.000Z",
-          "wordCount": 3094,
-          "title": "The Case for Your Security at CES 2023",
-          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2023/01/300x200_Blog_CES-2.png"
-        },
-        {
-          "id": "https://www.mcafee.com/blogs/?p=163081",
-          "author": "McAfee",
-          "description": "Ransomware. Even the name sounds scary.  When you get down to it, ransomware is one of the nastiest attacks a...\nThe post Your Guide to Ransomware—and Preventing It Too appeared first on McAfee Blog.",
-          "link": "https://www.mcafee.com/blogs/privacy-identity-protection/your-guide-to-ransomware-and-preventing-it-too/",
-          "publishedOn": "2023-01-09T11:18:26.000Z",
-          "wordCount": null,
-          "title": "Your Guide to Ransomware—and Preventing It Too",
-          "imageUrl": null
         }
       ]
     },
@@ -1438,6 +1518,16 @@
       "siteUrl": "https://eset-info.canon-its.jp/",
       "articles": [
         {
+          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/230208.html",
+          "author": null,
+          "description": "スマートホームを実現するIoT機器は、利便性と同時にプライバシーやセキュリティのリスクをもたらしている。自宅に防犯カメラを設置する際に気をつけるべき8つの事柄について解説する。\n\n\nこの記事は、ESET社が運営するマルウェアやセキュリティに関する情報サイト「Welivesecurity」の記事を翻訳したものである。\n\n\n\n\n\n\nかつては富裕層や有名人のものであった防犯カメラ。技術の進歩とともに、今や誰でも手に入れることができるようになった。IoT（Internet of Things）の出現は、大きな市場を生み出した。インターネットに接続できるインターフォンやベビーモニターなど、家全体を管理できるシステムを手掛けるベンダーが急成長している。自宅のWi-Fiネットワークに接続することで、防犯カメラを通じて、自宅内のライブ映像や録画映像を確認したり、外出時にアラートを受け取ったりすることも可能だ。\n\nしかし、こうしたテクノロジーは、防犯カメラが不正に利用されたり、映像が流出してしまうといった新たなリスクをもたらすものでもある。すべてのベンダーがセキュリティやプライバシーを重視して十分な対策を施しているわけではない。つまり、防犯カメラを利用する前に、ユーザー自身がセキュリティに対して十分に注意を払う必要があるのだ。考慮するべき主要な項目について、以下に解説する。\n\n1. 本当に防犯カメラが必要か？\n\nまず、自宅用の防犯カメラが本当に必要なのか、周りが持っているから欲しくなっているだけなのかを明確にするべきだ。さらに、どのような種類のカメラを購入するべきかを検討する必要がある。例えば、専門家による設置が必要になる完全なCCTVシステムが必要なのか、あるいは、スマートフォンアプリから操作して簡単に起動できるような安価なネットワークカメラが望ましいのか、といった点だ。\n\n2. セキュリティとプライバシーのリスクを認識しているか？\n\nこれは極めて重要なポイントだ。防犯カメラは自宅を守るために設置するものだが、実際、知らず知らずのうちに、より大きなリスクにさらされる恐れもある。最悪のケースでは、遠隔地か身近にいるハッカーがライブ映像にアクセスして、家族の様子を盗み見たり、留守かどうかを確認できてしまう。特に恐ろしいのは、こうしたことが起こっているという警告がなされないことだ。\n\n攻撃者が映像へアクセスする方法の1つとして、Wi-Fiパスワードを推測したり、ブルートフォース攻撃を仕掛けたりするなどして、自宅のワイヤレスネットワークへ侵入する手口が挙げられる。また、アカウントのパスワードを破るか推測するかして攻撃するケースや、パッチが適用されていないファームウェアの脆弱性を悪用したりするケースもあり得る。\n\nディーリンク社のカメラに潜む脆弱性を悪用し、攻撃者がビデオストリームに侵入\n\n3. ベンダーのセキュリティ対策を確認したか？\n\n市場には多数の製品が出回っているため、それぞれのベンダーの評判や提供サービスについて調べておくことが望ましい。セキュリティに関心がある人であれば、セキュリティやプライバシーに関して利用者の評価が高く、実績のある製品・ベンダーを選ぶことになるはずだ。\n\n迅速なパッチ適用、強力な暗号化、ログインセキュリティの強化、プライバシーポリシーの徹底などが重要である。また、技術者がシステム導入を担当しなければならない場合、どれほどの権限を与える必要があるだろうか？　米国では、防犯カメラ設置時にメールを設定した技術者が、4年半の間に数百件の家庭を覗き見たという事例も発生している。\n\n4. カメラ映像やデータがどう扱われているか理解しているか？\n\nベンダーのデータの取り扱いも考慮するべきリスクの1つとなり得る。録画された映像は自宅内のみに保管されるのか、それともベンダーのクラウドデータセンターに保管されるのか把握しているだろうか？　最新の公開レポートによると、アマゾン社の傘下にあるRingは、2021年、顧客の大量の映像を米国政府へ提出していたと発表した。これには、デバイス所有者の同意がないケースも含まれていた。このような方針に不安を覚えるカメラ所有者も少なくないだろう。\n\n\n2022年2月のRingによる声明\nRingの映像に対する警察のアクセスと、緊急の要請\n\n\n\tRingは、ユーザーのカメラ、デバイス、デバイスの所在地、ライブ映像のアクセスを警察に渡していない。\n\t警察に映像を提供したいユーザーは、Ringのプロテクトプランに加入し、直接、映像をシェアする必要がある。顧客は、シェアする情報について完全な権限を保有している。\n\tほかの企業と同様、警察から令状などに基づいた要請を受ける可能性があり、Ringは慎重に対応を検討している。Ringの警察向けガイドラインに、警察から情報提供の依頼を受けた際のプロセスについて記載している。\n\t緊急要請はめったにないが、要請された場合は法務部門の訓練を受けた専門家によって十分に検討される。このような場合は、厳しい基準を設け、警察が喫緊の課題を抱え、急を迫られているときのみ、例外対応をとる場合がある。\n\n\n\n5. 防犯カメラを保護する方法を知っているか？\n\nセキュリティとプライバシーに関する主要なリスクについて理解したら、デバイスを安全に利用するための方法について学ぶ必要がある。まず、初期設定されたパスワードは、より複雑でユニークなものに変更するべきだ。安全性を高めるために、利用可能であれば二要素認証を常に使用してほしい。\n\nまた、デバイスは最新のファームウェアに定期的に更新するべきだ。安全性の高いデバイスを製造し、ファームウェアの更新版を配布しているベンダーを選択することが推奨される。ビデオ映像を遠隔から閲覧する機能を無効化しておくと、攻撃者が不正にアクセスするリスクを軽減し、安心して利用できるだろう。\n\n\n\n6. 適切にスマートホームを設定する方法を知っているか？\n\nセキュリティは防犯カメラ自体の設定に限った話ではない。自宅のルーターは、スマートホームのゲートウェイであり、適切に設定されていなければセキュリティリスクをもたらす要因となり得る。同じネットワークに属するほかのデバイスを検出する機能であるUPnP（ユニバーサル・プラグ・アンド・プレイ）とポートフォワーディングは、攻撃者の侵入を許し、スマートカメラに不正侵入される恐れがある。いくつかのアプリケーションやデバイスが動作しなくなる可能性があるが、これらの機能をルーター側で無効化しておく必要がある。\n\nスマートホーム機器12種の安全性チェックを実施\n\n7. 防犯カメラがハッキングされたかどうかを確認する方法を知っているか？\n\n先述のとおり、防犯カメラが乗っ取られたかどうかを見分けるのは難しい。不自然なカメラの動きや、防犯カメラから奇妙な声や音がしたら注意が必要だ。アカウントのパスワードが変更され、突然ログインできなくなったら、ハッキングを疑うべきだ。\n\nまた、データ使用量の増加やパフォーマンスの低下にも注意してほしい。見知らぬユーザーによってデバイスが不正侵入されている場合、メモリーやCPUが使われてしまうため、カメラの動作が遅くなることがある。ただし、単にインターネット接続が遅くなったことで発生した現象の可能性もあり、確実な確認方法とは言えない点には留意してほしい。\n\n8. 他者に対する影響を理解しているか？\n\n自宅に防犯カメラを設置することは、自身のセキュリティやプライバシーだけに関わる問題ではない。所有地の外にいる人々の姿をカメラがとらえている場合、近隣住民のプライバシーにも抵触し得るのだ。GDPR（欧州一般データ保護規則）に従うと、これら隣人のプライバシーも尊重しなければならない。不法侵入のリスクを軽減するよう防犯カメラを配置しながらも、近所の人には防犯カメラが設置されているとわかるようにしておきたい。英国政府が優れたガイドを配布しているので参考にしてほしい。\n\n防犯カメラなどのホームセキュリティ製品を購入する前に考慮するべきことはたくさんある。どんな買い物でもそうであるように、できるだけ事前に調べておくと良いだろう。\n\n利便性の裏で見失われがちなIoTデバイスのセキュリティ",
+          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/230208.html",
+          "publishedOn": "2023-02-07T15:00:00.000Z",
+          "wordCount": 225,
+          "title": "防犯カメラを設置する前に自問自答すべき8つの質問",
+          "imageUrl": "https://eset-info.canon-its.jp/files/topics/4145_ext_01_0.jpg"
+        },
+        {
           "id": "https://eset-info.canon-its.jp/malware_info/special/detail/230207.html",
           "author": null,
           "description": "インターネット上のコンテンツの多くに掲載されるWeb広告。しかし、その中にはマルバタイジングやアドウェアと呼ばれるような、極めて悪質なものも存在する。この記事では、マルバタイジングとアドウェアについて、それぞれの目的や仕組みに加えて、被害に遭うリスクとその回避方法について解説する。\n\n\n\n\n\nマルバタイジングとは\n\n近年、Webブラウザーでのネットサーフィン時に悪質な広告を目にすることが少なくない。その代表的な存在が「マルバタイジング」と「アドウェア」だ。マルバタイジングとは、マルウェアの拡散や不正なサイトへのリダイレクトを目的とした悪質なWeb広告のこと。マルウェア（Malware）と、広告を意味するアドバタイジング（Advertising）を組み合わせた造語である。\n\n基本的に、サイトのコンテンツを提供している事業者と、広告を配信している事業者は別である。広告を配信している事業者は、アドネットワークと呼ばれる配信システムを提供することが多い。さまざまなWebメディア上にこのシステムが導入されており、複数の事業者のシステムが混在していることも少なくない。マルバタイジングとは、このアドネットワークと呼ばれる仕組みを介した攻撃手法だ。\n\n広告主による広告出稿量も増え続けており、一部のアドネットワークでは管理が行き届いていないというケースもある。マルバタイジングは、そうしたWeb広告に関わるシステムの不備を突いた攻撃手法だ。攻撃者はアドネットワーク経由で悪意のある広告を配信することで、不特定多数のWebサイトへ攻撃が可能となる。\n\nマルバタイジングの仕組み\n\n先述のように、マルバタイジングにおける悪意のある広告は、広告配信システムから配信される。一般的には、攻撃者が広告配信システムに攻撃を仕掛け、配信される広告の一部を書き換えることで、マルバタイジングの広告を紛れ込ませるのだ。その広告には不正なスクリプトが埋め込まれており、配信システム経由でさまざまなWebサイトへ広告が配信される。\n\n広告を配信されたWebサイトにユーザーが訪れた際、その悪意のある広告が表示され、ユーザーが広告をクリックしてしまうことで不正なWebサイトへ転送されることになる。その結果、転送先の不正なWebサイト上でユーザーが何かしらのアクションをした際にマルウェアに感染してしまう。つまり、マルバタイジングとは広告配信業者のシステムを悪用することで、さまざまなWebサイト上での攻撃を展開可能にする攻撃手法なのだ。\n\nマルバタイジングの影響\n\nニュースメディアなど、信頼性の高いWebサイトを訪問している場合でもマルバタイジングの被害に遭遇する恐れがある。Webサイト自体のセキュリティ対策が適切に講じられている場合であっても、広告配信システムに紛れ込んだマルバタイジングは防ぎようがないからだ。\n\n表示されたバナー広告に不正なスクリプトが仕込まれていれば、表示されただけ、あるいはクリックしただけでマルウェアに感染する恐れもある。また、このマルバタイジングに絡めてドライブバイダウンロード攻撃が行われる恐れもある。Webサイトを閲覧した際に、ユーザーの気づかぬ間に、勝手にマルウェアがダウンロードされてしまうのだ。\n\nドライブバイダウンロード攻撃が招くセキュリティリスクとは？\n\nマルバタイジングの事例\n\nアドネットワークを悪用した攻撃であるマルバタイジングが、実際に生じた事例を以下に紹介する。\n\n広告配信ネットワーク経由による「Cinobi Banking Trojan」への感染\n\n「Water Kappa」という犯罪グループによると推察される活動において、日本を標的とした不正広告によるアプリケーションの配信が発覚。サイドローディングの脆弱性を悪用して、バンキング型トロイの木馬「Cinobi」をロードし、起動させるのだ。\n\n無料ポルノゲーム、ポイント還元アプリ、あるいは動画ストリーミングアプリに偽装したこのアプリは、銀行をはじめ、国内に存在するいくつかの暗号資産（仮想通貨）取引所のWebサイト内の情報を盗み出したことがわかっている。実際、Cinobiを使用して、被害者の暗号資産（仮想通貨）アカウントの認証情報を盗み出せることが判明している。\n\nSilverlightプラグインがインストールされたWebブラウザーを狙う攻撃\n\n米国のリアルタイムオンライン広告に特化したアドネットワークではSilverlightプラグインを利用していた。攻撃者によってSilverlightの脆弱性を突く「Anglerエクスプロイトキット」を悪用した広告が配信されたことで、脆弱性を有するSilverlightプラグインをインストールしていたユーザーに対して、データ窃取や詐欺などの被害を及ぼした。\n\nエクスプロイトキットに転送させるマルバタイジングの攻撃\n\nInternet ExplorerなどのWebブラウザーの脆弱性を利用する「RIG エクスプロイトキット」にリダイレクトさせるマルバタイジングが発覚。この攻撃の被害に遭遇すると、ユーザーは複数のスクリプトを読み込み実行されてしまう。さらに、ランサムウェアがダウンロードされ、実行されるのだ。このランサムウェアは「Buran」と呼ばれるもので、「Vega」の亜種とされる。\n\nマルバタイジングの被害を防ぐ方法\n\nマルバタイジングによりマルウェアやランサムウェアに感染してしまうと、さまざまな被害につながる。そのためにも、ユーザーとしては以下のような対策を講じるようにしたい。\n\nOSやソフトウェア、アプリの更新プログラムを迅速、かつ確実に適用する\n\n攻撃者は、既知の脆弱性を狙う。多くのユーザーが利用するOSやWebブラウザーなどに生じた脆弱性を狙うことは、そのユーザー数に比例して攻撃対象者が増えることを意味する。そして、マルバタイジングに関しても例外ではない。そのため、OSやソフトウェア、アプリの更新プログラムは、提供され次第速やかに適用すること。\n\nセキュリティソフトは最新のバージョンを維持し、定義ファイルはこまめに更新する\n\nセキュリティソフトは、基本的に自動で最新のバージョンや定義ファイルの更新が行われる。しかし、ユーザーが手動更新を選択している場合もあるかもしれない。あるいは、何かしらの理由で一時的に更新を停止することもあるかもしれない。基本的に、更新は自動化しておき、仮に自動更新を一時的に停止した場合、用事を済ませたら速やかに自動更新を再開しておきたい。\n\n不審・不要な広告はクリックしない\n\n表示させるだけでスクリプトが実行されるマルバタイジングも存在するものの、ほとんどの場合は広告による誘導先でマルウェア感染に至らせる。そのため、不審な広告はクリックしないことを徹底すること。攻撃者の手法は年々巧妙化しているため、十分に注意を払うようにしたい。\n\n広告ブロックツールは有効な対策となり得るのか？\n\nWebサイトの広告を表示させないためのツールとして「広告ブロックツール」が存在する。マルバタイジングを防ぐためのツールとして有効ながら、そもそもツール自体にセキュリティリスクが存在する点には注意が必要だ。\n\n広告ブロックツールは「アドオン」と呼ばれるWebブラウザーの拡張機能を用いることが多い。この拡張機能ではさまざまな権限を求めてくるなど、セキュリティリスクを伴う場合がある。広告ブロックツールにおいてセキュリティ問題が発生した事例を以下に紹介する。\n\n１）2017年10月　偽「Adblock Plus」配布\n\n「Adblock Plus」という広告ブロックツールは、多くのユーザーの選択肢に挙がるほど著名なツールだ。このAdblock　Plusの偽物がGoogleの公式ストアで配布されていた。「AdBlock Plus」という名称で、「Block」の頭文字が大文字となっているものの、アイコンも本物と同じものを利用。その結果、この偽アプリは3万7,000件以上もダウンロードされてしまった。この偽の広告ブロックツールには、悪意のある拡張機能が含まれていたとされる。\n\n広告ブロックツールのセキュリティ的な問題点とは？\n\n２）2018年4月　広告ブロックツールの隠しスクリプト\n\n広告ブロックツールの開発会社AdGuardが発表した調査レポートによると、Google Chromeの拡張機能として、無料で提供されている「広告ブロック」機能のうち、「Adblock Pro」、「AdRemover for Google Chrome」、「HD for YouTube」、「uBlock Plus」、「Webutation」に不正なスクリプトが埋め込まれていた。不正にWebブラウザーの閲覧履歴データを取得、あるいはWebブラウザーを遠隔操作可能な状態になっていたとされる。被害に遭遇したユーザー数は2,000万人以上と推測されている。\n\n３）2019年4月　「Adblock Plus」のフィルターオプションの脆弱性\n\n「Adblock Plus」のURL書き換えフィルターオプションに潜在的な脆弱性が発覚。特定条件下でフィルターリストの管理者が任意のコードを挿入できる状態にあった。この脆弱性を突いた攻撃は簡単に悪用できる上に検出が難しく、さらに主要なWebブラウザーでの展開が可能な状態であった。発覚から5日後に、「Adblock Plus」開発者から最新版v3.5.2が提供され、事なきを得た。\n\nアドウェアとは\n\nアドウェアもマルバタイジング同様に造語であり、広告（Advertising）とソフトウェア（Software）からなる。文字どおり広告の表示で攻撃者が収入を得ることを目的としたソフトウェアだ。\n\n例えば、あるサイトで表示されたメッセージ内の「許可」をクリックすると、別のWebサイトがポップアップで表示され、ここでも何らかのメッセージが表示される。そこで「許可」をクリックしてしまうと、JavaScriptが実行されることになる。以降、Webブラウザー内にスクリプトが常駐し、不正な広告が表示されることになるのだ。中には、セキュリティ対策を促して攻撃に至らせる悪質な手口も存在する。\n\nマイクロソフトを装ったセキュリティアラートにご用心。騙されないための見抜き方とは？\n\nアドウェアへの感染経路\n\nアドウェアの感染経路は、大きく以下の3つに分類される。\n\n１）Webサイト閲覧時\n\nWebサイトを閲覧していて感染するタイプのアドウェアは、ユーザーの意図に反してインストールされる傾向にある。この場合、ユーザーが悪意のあるリンクをクリックする、あるいはアンケートなどへ回答する、といったアクションが感染の原因となることも多い。\n\n２）フリーソフトのインストール時\n\nインターネットからダウンロードしたフリーソフトに、アドウェアがバンドルされている場合がある。フリーソフトのインストールと同時にアドウェアもインストールされてしまうのだ。\n\nフリーソフトのインストール画面に従ってインストール手順を進めていく際に、バンドルされているソフトウェアもインストールの有無を確認される。その際にユーザーが画面の表示内容を十分チェックせず、「次へ」ボタンをクリックすることが原因であることも少なくない。\n\n３）Webブラウザーのアドオンやプラグインのインストール時\n\nWebブラウザーのアドオンやプラグインとしてインストールされるアドウェアも存在する。動画ファイルや3D映像などの特殊なコンテンツを再生させるためのプラグインと同時に、バックグラウンドでインストールされるものなどがある。\n\nアドウェアの被害を防ぐ方法\n\nアドウェアの被害を防ぐための方法として、以下のような対策が挙げられる。\n\n１）OSやソフトウェア、アプリの更新プログラムは迅速、かつ確実に適用する\n\nマルバタイジングもアドウェアも何かしらの脆弱性を突いた攻撃がきっかけとなることが多い。特にWebブラウザーだけでなく、インストールしているプラグインについても脆弱性を狙われるリスクがある。Webブラウザーだけでなく、OSも同様に更新プログラムが提供された際には速やかに適用するようにしたい。\n\n２）セキュリティソフトを導入し、最新バージョンに維持し、定義ファイルはこまめに更新する\n\nセキュリティソフトの導入は、もはや基本的な対策という認識が浸透しつつある。有償のセキュリティソフトには不審なメールをフィルタリングする、あるいは不審なWebサイトへのアクセスを遮断する機能も備わっている場合が多い。また、メモリーやパソコンのUEFI上の不審な動作や、ランサムウェアと疑われる挙動なども検出してブロックする。エンドポイントと呼ばれる領域を総合的に保護することで安全性は高まる。\n\n３）アドウェアに侵入された場合、アドウェア削除ツールを使用する\n\nアドウェアの中にはソフトウェアのアンインストールだけでは完全に削除できない悪質なものも存在する。そのため、完全に削除したい場合、アドウェア削除ツールを使用することで削除できる場合がある。先述のセキュリティソフトなどで駆除できる場合もあるため、試してみるとよいだろう。\n\nWeb広告自体は、インターネット上のメディアにおける収入の源泉であり、無料で閲覧することを前提としているユーザーが存在する限り、なくなることは考えにくい。その前提を踏まえると、今後もマルバタイジングやアドウェアは手を替え品を替え、次々と登場してくるものと考えられる。ユーザーとしては、常に適切な対策を講じておき、このような広告経由のマルウェアや詐欺に対抗する手段を持っておく必要があるだろう。",
@@ -1636,16 +1726,6 @@
           "wordCount": 256,
           "title": "急増する宅配便詐欺への対策とは？",
           "imageUrl": "https://eset-info.canon-its.jp/files/topics/4118_ext_01_0.jpg"
-        },
-        {
-          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/230110.html",
-          "author": null,
-          "description": "セッションハイジャックとは、Webサイトのユーザーのやり取りであるセッションを乗っ取る行為。セッションハイジャックによってユーザーになりすますことが可能となり、クレジットカードの不正利用や情報漏えいなどの被害につながる。この記事では、セッションハイジャックの仕組みと対策について解説する。\n\n\n\n\n\nセッションとは\n\nセッションハイジャックを理解するためには、まずセッションとは何かということを把握しておくことが重要だ。セッションにはさまざまな意味があるが、インターネットの文脈で使われるセッションとは、アクセスの開始から終了までの一連の通信のことである。通常、Webサイトを閲覧する際には、次のような手順でデータの送受信が行われる。\n\n\n\n図1：セッションの仕組み\n\n\n\n\tユーザーのクライアント端末からWebサーバーに接続を要求。\n\tCookieを自動生成し、クライアントに返送。同時にセッションIDと紐づける。\n\t再度の接続をWebサーバーに要求。ブラウザー内に保存されたCookieを送信。\n\t受け取ったCookie情報と合致する、セッションIDに紐づく情報を返送。\n\n\n同じWebサイト上でほかのページに遷移する場合、③と④が繰り返されることになる。これらWebサイト上における一連の流れがセッションと呼ばれる。ユーザーが同じWebサイト内でさまざまなページに遷移しても、同一のセッションとして扱われる。Webサイトを店舗に例えてみるとわかりやすいかもしれない。ユーザーがある店舗に入店し、店舗の中をいろいろ見てから退店するまでが1つのセッションとみなされるわけだ。\n\nまた、Webサイトではそれぞれタイムアウトの期間が設定されている。多くのWebサイトで30分、ユーザーの操作が生じなければタイムアウトする。タイムアウトすることでそのセッションは終了する。Webサーバーでは、個別のセッションを管理するためにセッションIDを生成して利用する。このセッションIDはCookieに保存・管理されることが多いが、URLのパラメーターに付与されるケースもある。セッションIDを用いて、Webサイトはユーザーを判別し、Webサイト上での行動結果を保持できる。\n\nCookieを削除するとどうなるのか？\n\nセッションハイジャックとは\n\nセッションハイジャックとは、先述したWebサイトのセッションを乗っ取る（ハイジャックする）行為だ。セッションを乗っ取ることで、攻撃者は別のユーザーになりすましての通信が可能となる。\n\nこの場合、直接的にIDやパスワードを窃取するフィッシング攻撃とは異なり、ログイン情報を窃取するわけではない。セッションIDを何かしらの方法を用いて取得することで、第三者になりすますのだ。具体的な方法としては、以下に挙げる3つの方法がある。\n\nセッションIDを推測する\n\nWebサーバーが生成するセッションIDの生成ルールがある規則に基づいたものであった場合、総当たり攻撃などで推測して悪用することが可能だ。また、日付やユーザー名に基づく場合なども推測が容易だ。ほかにも、アカウント登録して送受信データに含まれるセッション情報を解析することで、ほかのセッションIDを推測するといった手法もあり得る。\n\nセッションIDの窃取\n\nWebサイトの脆弱性を突くなどして、不正にユーザーとWebサイトの間に介入し、ユーザーからセッションIDを窃取するケースもあり得る。代表的な攻撃手法の1つとして、クロスサイトスクリプティング（XSS）が挙げられる。\n\nセッションフィクセーション\n\n攻撃者が取得した正規のセッションIDを、ハイパーリンク経由などで別のユーザーに利用させる。そのままユーザーがログインしてしまうと、攻撃者は自らが利用させたセッションIDを用いて、ユーザーのログイン状態に便乗することが可能となる。セッションを攻撃者が事前にお膳立てすることから、「セッションIDのお膳立て」とも呼ばれる。\n\nトラッキングを許可しても大丈夫？セキュリティ的視点から解説\n\nセッションハイジャックによって起こる被害\n\nセッションハイジャックはなりすましの一種であり、ユーザーに代わって攻撃者がWebサービスなどを利用できるようになるため、以下のような被害が想定される。\n\n機密情報、プライベート情報の漏えい\n\n正規ユーザーになりすました状態でWebサービスなどにアクセスすることで、企業の機密情報やプライベートな情報を盗まれたり、漏えいされたりする可能性がある。\n\nサーバーへの不正侵入\n\nなりすましによって企業のサーバーへ不正侵入されると、Webサイト上の情報が書き換えられ、フィッシングサイトへ誘導されたり、バックドアが設けられたりすることで、さらなる攻撃の足がかりにされることもある。\n\nオンラインバンキングの不正出金\n\n銀行などのオンラインバンキングにおいて、正規ユーザーになりすますことで、不正に金銭を引き出される可能性がある。\n\n登録情報の漏えいや改ざん\n\n攻撃者が正規ユーザーになりすましてWebサービスなどにアクセスすることにより、そのサービスに登録した情報が漏えいしたり、改ざんされたりすることがある。\n\nクレジットカードの不正利用\n\nクレジットカードを利用するオンラインサービスでは、クレジットカードを不正利用され、思わぬ金額を請求されることがある。\n\nセッションハイジャックを防ぐための対策\n\n先述のように、セッションハイジャックの被害を受けると、甚大な損失を被る可能性がある。そのため、セッションハイジャックを防ぐためにも攻撃者にセッションIDを窃取されないための対策が求められる。ユーザーにも高い注意力が求められるが、セッションIDを保存・管理するのはWebサイトの運営側であるため、Webサイトの運営者は以下のような対策を行っておきたい。\n\nセッションIDをURLに含めない\n\nセッションハイジャック対策の基本である。URLにセッションIDを含めると、攻撃者が容易にセッションIDを取得できてしまうため、Cookieを用いてセッションIDを管理する方法に切り替える。\n\n推測が困難なセッションIDにする\n\nユーザーIDや日付などだけで構成されるセッションIDでは推測が容易なため、擬似乱数を組み合わせるなど、解析が困難なセッションIDを生成するようにする。\n\nセッションIDの変更\n\nユーザーがログインしたら既存のセッションIDを無効化し、新しいセッションIDで管理するようにする。ログイン後に新しいセッションIDが付与されることで、攻撃者がその前に取得したセッションIDではアクセスできなくなる。\n\nWAFの利用\n\nWebアプリケーションの脆弱性を突いた攻撃を防御するWAF（Web Application Firewall）を利用することで、クロスサイトスクリプティングなどを悪用したセッションIDの漏えいを抑制することが可能だ。\n\nWebサイトの運営で必要なセキュリティ対策とは？\n\nセッションハイジャックは昔からある攻撃手法ながら、今でも関連する被害が後を絶たない。その要因の中でも多いのが、Webサイト運営者側の不備によるものだ。セッションハイジャックの場合、その仕組み上、ユーザー側で防御する方法は限られてしまう。Webサイトを継続的に利用してもらうためにも、Webサイトを運営している企業側で取り得る対策は適切に講じるようにしたい。",
-          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/230110.html",
-          "publishedOn": "2023-01-09T15:00:00.000Z",
-          "wordCount": 206,
-          "title": "セッションハイジャックはなぜ起こるのか？攻撃の仕組みと求められる対策",
-          "imageUrl": "https://eset-info.canon-its.jp/files/topics/4116_ext_01_0.jpg"
         }
       ]
     },
@@ -2283,6 +2363,26 @@
       "siteUrl": "https://us-cert.cisa.gov/",
       "articles": [
         {
+          "id": "18337 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: February 7, 2023\nCISA has released a recovery script for organizations that have fallen victim to ESXiArgs ransomware. The ESXiArgs ransomware encrypts configuration files on vulnerable ESXi servers, potentially rendering virtual machines (VMs) unusable.\nCISA recommends organizations impacted by ESXiArgs evaluate the script and guidance provided in the accompanying README file to determine if it is fit for attempting to recover access to files in their environment.\nOrganizations can access the recovery script here: https://github.com/cisagov/ESXiArgs-Recover\nThis product is provided subject to this Notification and this Privacy & Use policy.",
+          "link": "https://us-cert.cisa.gov/ncas/current-activity/2023/02/07/cisa-releases-esxiargs-ransomware-recovery-script",
+          "publishedOn": "2023-02-07T23:27:16.000Z",
+          "wordCount": 971,
+          "title": "CISA Releases ESXiArgs Ransomware Recovery Script",
+          "imageUrl": null
+        },
+        {
+          "id": "18336 at https://us-cert.cisa.gov",
+          "author": "CISA",
+          "description": "Original release date: February 7, 2023\nCISA released one Industrial Control Systems (ICS) advisory on February 7, 2023. This advisory provides timely information about current security issues, vulnerabilities, and exploits surrounding ICS.\nCISA encourages users and administrators to review the newly released ICS advisory for technical details and mitigations:\nICSA-23-037-01 EnOcean SmartServer\nThis product is provided subject to this Notification and this Privacy & Use policy.",
+          "link": "https://us-cert.cisa.gov/ncas/current-activity/2023/02/07/cisa-releases-one-industrial-control-systems-advisory",
+          "publishedOn": "2023-02-07T15:00:01.000Z",
+          "wordCount": 948,
+          "title": "CISA Releases One Industrial Control Systems Advisory",
+          "imageUrl": null
+        },
+        {
           "id": "18326 at https://us-cert.cisa.gov",
           "author": "CISA",
           "description": "Original release date: February 2, 2023\nCISA released six Industrial Control Systems (ICS) advisories on February 2, 2023.These advisories provides timely information about current security issues, vulnerabilities, and exploits surrounding ICS.\nCISA encourages users and administrators to review the newly released ICS advisories for technical details and mitigations:\nICSA-23-033-01 Delta Electronics DIAScreen\nICSA-23-033-02 Mitsubishi Electric GOT2000 Series and GT SoftGOT2000\nICSA-23-033-03 Baicells Nova\nICSA-23-033-04 Delta Electronics DVW-W02W2-E2\nICSA-23-033-05 Delta Electronics DX-2100-L1-CN\nICSA-22-221-01 Mitsubishi Electric Multiple Factory Automation Products (Update D)\nThis product is provided subject to this Notification and this Privacy & Use policy.",
@@ -2626,6 +2726,26 @@
       "feedUrl": "https://jvn.jp/rss/jvn.rdf",
       "siteUrl": "https://jvn.jp/",
       "articles": [
+        {
+          "id": "https://jvn.jp/vu/JVNVU91213144/",
+          "author": "jvn@jvn.jp",
+          "description": "OpenSSLには、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU91213144/",
+          "publishedOn": "2023-02-08T05:30:15.000Z",
+          "wordCount": 133,
+          "title": "OpenSSLに複数の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU99994755/",
+          "author": "jvn@jvn.jp",
+          "description": "EnOcean社が提供するSmartServerには、ハードコードされた認証情報の使用の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU99994755/",
+          "publishedOn": "2023-02-08T05:30:00.000Z",
+          "wordCount": 71,
+          "title": "EnOcean製SmartServerにおけるハードコードされた認証情報の使用の脆弱性",
+          "imageUrl": null
+        },
         {
           "id": "https://jvn.jp/jp/JVN11257333/",
           "author": "jvn@jvn.jp",
@@ -3228,6 +3348,26 @@
       "siteUrl": "https://security.srad.jp/",
       "articles": [
         {
+          "id": "https://security.srad.jp/story/23/02/07/2123211/",
+          "author": "nagazou",
+          "description": "イタリアの国家サイバーセキュリティー庁（ACN）は3日、世界で数千のコンピューターシステムが身代金要求型ウイルス「ランサムウエア」によるサイバー攻撃の標的になったと指摘。対策を呼びかけている。ターゲットになったのは、VMwareの「ESXi」サーバー。イタリアでは数十の組織が被害に遭った模様（ACN、JPCERT/CC、ロイター、Bloomberg）。 Bloombergの報道によると、ランサムウエアの派生型である「ESXiArgs」の標的にしている脆弱性は2年前の「CVE-2021-21974」を悪用したものだという。VMware側は2021年2月時点で現在標的にされている脆弱性に対処する修正プログラムは公開済みだが、明らかに多くのサーバーがまだ保護されていないという。まだパッチを当てていない顧客にはすぐに適用するよう呼びかけているとのこと。\n すべて読む | セキュリティセクション | セキュリティ | ニュース | インターネット |     \n  関連ストーリー： \n大阪急性期・総合医療センターがランサムウェア感染、31日から診療が停止 2022年11月02日 \n日本アンテナの社内システムがウイルス感染、完全復旧には数週間程度かかる見込み 2022年04月04日 \n2月16日以降、サイバー攻撃が最大25倍増との調査結果 2022年03月09日 \n米パイプラインのサイバー攻撃事件、身代金4.8億円が支払われる。米保険会社でも支払いとも 2021年05月22日",
+          "link": "https://security.srad.jp/story/23/02/07/2123211/",
+          "publishedOn": "2023-02-08T05:01:00.000Z",
+          "wordCount": 1994,
+          "title": "イタリア政府、VMwareサーバーをターゲットにしたランサムウエア攻撃が多発中と警告",
+          "imageUrl": "https://srad.jp/static/topics/internet_64.png"
+        },
+        {
+          "id": "https://security.srad.jp/story/23/02/07/1336240/",
+          "author": "nagazou",
+          "description": "東京大学空間情報科学研究センターらの研究グループは、「日本国内におけるメールセキュリティに関する実態把握」の研究報告を発表した。いわゆるPPAPの脆弱性に関しては、政府なども告知している状態にもかかわらず、まだ企業間で使い続けられている。この研究では利用状況や理由、脆弱性の認識はあるかなどの質問を344社に行ったものとなっている（情報処理学会、ITmedia）。 \n\n調査の結果、64％にあたる219社がPPAPを今も採用していると回答。現時点では廃止していると回答したのが16％の54社であったため、回答した組織の約80％がPPAPを使っていた実績を持っていることが判明した。また現在PPAPを採用中の219社のうち42％に当たる93社がPPAPの廃止を検討中であるとしている。 \n\nPPAPを現在でも使っている219社に対して、PPAPの有害性や無効性を認識しているかを確認したところ、約88％は認識していると回答。政府がPPAP廃止を宣言したことを知っている組織も79.5％にのぼっている。使い続けている理由として、社内で決められているからが53社と多く、続いて52社が送信先に対してセキュリティ対策を行っていることを明示的に示せると回答したとしている。\n すべて読む | セキュリティセクション | ビジネス | セキュリティ |     \n  関連ストーリー： \n文部科学省の脱PPAP、NECの「MCメールフィルター」と「Box」の組み合わせへ 2021年12月08日 \nIIJが受信もPPAP廃止へ、社外から届くパスワード付きZIPファイルはメール本文のみ受信 2021年11月19日 \n日立グループ、2021年12月13日以降すべての送受信メールでPPAP利用廃止 2021年10月18日 \nパスワード付きZIPは1秒未満で解けるのでPPAPは無意味 2021年06月24日 \nメールによるパスワード付きファイルの受信禁止広がる。マルウェア拡散防止で 2020年11月20日 \nパスワード付きZIPファイルとパスワードを別のメールで送るやり方、PPAP方式と揶揄される 2019年12月25日 \nZIPのパスワードを直後のメールで送る不思議 2018年12月25日",
+          "link": "https://security.srad.jp/story/23/02/07/1336240/",
+          "publishedOn": "2023-02-08T03:00:00.000Z",
+          "wordCount": 3344,
+          "title": "国内企業が有害性を認識しながらもPPAPを使い続ける理由",
+          "imageUrl": "https://srad.jp/static/topics/business_64.png"
+        },
+        {
           "id": "https://security.srad.jp/story/23/02/06/1419245/",
           "author": "nagazou",
           "description": "INTERNET Watchの記事によると、経済産業省などは1日、クレジットカード会社などに対して、送信ドメイン認証技術（DMARC）の導入といったフィッシング対策の強化を要請したそうだ。背景には、ドメイン名をなりすまして送信されるフィッシングメールが増え、フィッシングによるクレジットカード情報の詐取が増加している点がある。送信ドメイン認証技術のうち、フィッシングメール対策に特に有効とされるDMARCの導入し、ドメイン名のなりすましを検出するとともに、自社をかたるフィッシングメールが利用者に届かないようにすることが重要だとしている（経済産業省、総務省、INTERNET Watch）。\n すべて読む | セキュリティセクション | 犯罪 | セキュリティ | spam |     \n  関連ストーリー： \n経産省委託の特設サイト、ドメインが第三者に取得され元デザイン類似の偽装サイトに 2022年11月24日 \n2022年第3四半期、DHLがフィッシング詐欺で最も名前を使われたブランドに 2022年10月30日 \n偽造免許証でスマホをMNPして二段階認証を突破、一千万円が引き出される被害 2022年10月19日 \nJPCERT/CC、2019年1月からのフィッシングサイトのURLを公開 2022年09月02日 \nTwilioのフィッシング攻撃者、Signal ユーザー 1,900 人分の電話番号を取得した可能性 2022年08月19日",
@@ -3404,6 +3544,96 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/02/08/48889.html",
+          "author": null,
+          "description": "まさかそんなと思うかもしれないが優れたセキュリティ製品ほど説明が上手でないケースがある。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/02/08/48889.html",
+          "publishedOn": "2023-02-07T23:15:03.000Z",
+          "wordCount": 876,
+          "title": "脱PPAPのリリーフエース、国産セキュリティ企業 パスロジ「クリプタン」が両立した高いセキュリティと抜群の利便性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40481.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/02/08/48888.html",
+          "author": null,
+          "description": "「サイバー犯罪界隈で働く技術者と正規の雇用市場で働く技術者の報酬額の中央値を比較したところ大きな違いは検出できなかった」と指摘している。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/02/08/48888.html",
+          "publishedOn": "2023-02-07T23:10:03.000Z",
+          "wordCount": 945,
+          "title": "［実はたいして儲からない］サイバー犯罪者さん 職種別給与一覧 ～ 求人広告２２万件調査",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40532.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/02/08/48887.html",
+          "author": null,
+          "description": "学生賃貸マンションを運営する東証プライム上場企業の株式会社ジェイ・エス・ビーは2月2日、同社従業員による契約者の個人情報漏えいについて発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/02/08/48887.html",
+          "publishedOn": "2023-02-07T23:05:02.000Z",
+          "wordCount": 774,
+          "title": "東証プライム従業員が顧客情報持ち出し第三者に漏えい、ウォーターサーバー勧誘等に悪用される",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40519.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/02/08/48886.html",
+          "author": null,
+          "description": "SECCON 実行委員会は2月11日・12日の2日間、「SECCON 2022 電脳会議」を浅草橋ヒューリックホール＆カンファレンスで開催すると発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/02/08/48886.html",
+          "publishedOn": "2023-02-07T23:00:20.000Z",
+          "wordCount": 841,
+          "title": "2/11・2/12「SECCON 2022 電脳会議」浅草橋ヒューリックホール＆カンファレンスで開催",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/02/08/48885.html",
+          "author": null,
+          "description": "SCSKサービスウェア株式会社は1月24日、セキュリティ運用のノウハウをまとめた体系的な学習プログラム「セキュリティインシデントレスポンス教育」のリリースを発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/02/08/48885.html",
+          "publishedOn": "2023-02-07T23:00:17.000Z",
+          "wordCount": 773,
+          "title": "役割やレベルに合わせ4コース「セキュリティインシデントレスポンス教育」",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/02/08/48884.html",
+          "author": null,
+          "description": "経済産業省は2月2日、クレジットカード決済システムのセキュリティ対策強化検討会での議論を踏まえ、取りまとめた報告書を公開した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/02/08/48884.html",
+          "publishedOn": "2023-02-07T23:00:14.000Z",
+          "wordCount": 779,
+          "title": "経産省、カード番号漏えい時の公表早期化に向け検討",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/02/08/48883.html",
+          "author": null,
+          "description": "GMOサイバーセキュリティ byイエラエ株式会社は2月3日、同社のSOCイノベーション事業部に所属する阿部慎司氏が「JNSA賞」を受賞したと発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/02/08/48883.html",
+          "publishedOn": "2023-02-07T23:00:12.000Z",
+          "wordCount": 768,
+          "title": "GMOイエラエ阿部慎司氏「JNSA賞」受賞、国際基準策定に貢献",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/02/08/48882.html",
+          "author": null,
+          "description": "一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は2月7日、VMware ESXiを標的としたランサムウェア攻撃について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/02/08/48882.html",
+          "publishedOn": "2023-02-07T23:00:08.000Z",
+          "wordCount": 820,
+          "title": "ESXiを標的としたランサムウェア攻撃、2日間で3,195台の被害を確認",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40530.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/02/08/48881.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は2月6日、スマートフォンアプリ「一蘭公式アプリ」におけるサーバ証明書の検証不備の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/02/08/48881.html",
+          "publishedOn": "2023-02-07T23:00:04.000Z",
+          "wordCount": 796,
+          "title": "スマートフォンアプリ「一蘭公式アプリ」にサーバ証明書の検証不備の脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2023/02/07/48880.html",
           "author": null,
@@ -4912,6 +5142,36 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2302/08/news134.html",
+          "author": null,
+          "description": "米MicrosoftがMinecraftに、データ保護を学べるコンテンツ「Privacy Prodigy」を追加した。7～18歳を対象に、共有できる情報を見極める力や個人情報の保護方法などをゲームを通して学習できる。",
+          "link": "https://www.itmedia.co.jp/news/articles/2302/08/news134.html",
+          "publishedOn": "2023-02-08T05:30:00.000Z",
+          "wordCount": 2609,
+          "title": "マイクラに「データ保護」が学べるコンテンツ追加　「共有していい情報を見極める力」など養う",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2302/08/cover_news134.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2302/08/news057.html",
+          "author": null,
+          "description": "多彩さと便利さで話題に事欠かない対話型AIの「ChatGPT」だが、マルウェアの作成やフィッシング詐欺といった犯罪目的で利用される恐れもあると、米国のサイバーセキュリティ企業が警鐘を鳴らしている。",
+          "link": "https://www.itmedia.co.jp/news/articles/2302/08/news057.html",
+          "publishedOn": "2023-02-08T00:00:00.000Z",
+          "wordCount": 2640,
+          "title": "ChatGPTは舎弟気質？　「高圧的な命令でマルウェア作成など悪用可能」との指摘　犯罪目的の利用に懸念",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2302/08/cover_news057.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2302/07/news178.html",
+          "author": null,
+          "description": "セガサミーホールディングスが、協力会社との情報共有システムをAWS移行。旧システムには「IEでしか使えないVPNが必須」などの課題があったが、クラウド化と同時に認証基盤を刷新して解決したという。",
+          "link": "https://www.itmedia.co.jp/news/articles/2302/07/news178.html",
+          "publishedOn": "2023-02-07T09:52:00.000Z",
+          "wordCount": 2620,
+          "title": "「IEでしか使えないVPN」に困って認証基盤を刷新　システム老朽化に直面したセガサミーHDのAWS移行",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2302/07/cover_news178.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2302/07/news121.html",
           "author": null,
           "description": "JPCERT/CCと情報処理推進機構が、「一蘭公式アプリ」（iOS／Android）で、サーバ証明書の検証不備の脆弱性が見つかったと報告した。",
@@ -5288,6 +5548,86 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1476836.html",
+          "author": null,
+          "description": "サンワサプライ株式会社は、引き出しと充電用のUSBポートを搭載した電動昇降デスク「100-ERD039M」を発売した。直販サイト「サンワダイレクト」での販売価格は4万9800円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1476836.html",
+          "publishedOn": "2023-02-08T04:20:00.000Z",
+          "wordCount": 4311,
+          "title": "充電用USBポートと引き出しが付いた電動昇降デスク「100-ERD039M」、サンワサプライが発売　「いつもの高さ」を4段階記憶するメモリー機能も搭載",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1476/836/s2.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1476876.html",
+          "author": null,
+          "description": "株式会社BookLiveは2月1日、個人作家・クリエイター向けの電子書籍配信取次システム「BLIC（ブリック）」の正式サービスを開始した。原稿のファイルを渡すだけで電子化の作業から電子書籍の配信登録や管理までできる。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1476876.html",
+          "publishedOn": "2023-02-08T04:13:10.000Z",
+          "wordCount": 4315,
+          "title": "個人作家向けの電子書籍配信取次システム「BLIC」、BookLiveが提供開始",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1476/876/blic01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1476736.html",
+          "author": null,
+          "description": "BBIX株式会社とBBSakura Networks株式会社は2月6日、法人向けに上り下りとも最大10Gbpsのインターネット接続サービス「OCX光 インターネット」の提供を開始した。BBIXのバックボーンと、NTT東西の「フレッツ 光クロス」回線を利用した光コラボレーションモデル。サービスの申込みはパートナー事業者を通して行う。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1476736.html",
+          "publishedOn": "2023-02-08T04:10:00.000Z",
+          "wordCount": 4326,
+          "title": "BBIXとBBSakura Networks、法人向けに最大10Gbpsの「OCX光 インターネット」を提供開始",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1476/736/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1476805.html",
+          "author": null,
+          "description": "河野太郎デジタル大臣が、改善が必要と考えられる政府のシステムを見つけた場合、報告してほしいとTwitterで呼び掛けている。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1476805.html",
+          "publishedOn": "2023-02-08T02:35:00.000Z",
+          "wordCount": 4305,
+          "title": "政府が運用している「イケてない」システムは報告を！ 河野太郎デジタル大臣が呼び掛け【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1476/805/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1476802.html",
+          "author": null,
+          "description": "OpenAIのGPT-3 APIを用い、都市名と滞在日数を入力することで、旅行日程を作成してくれるツールが登場して海外で話題だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1476802.html",
+          "publishedOn": "2023-02-08T02:35:00.000Z",
+          "wordCount": 4329,
+          "title": "都市名と滞在日数を入力するとOpenAIが旅行日程を作成してくれるツールが海外で話題に【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1476/802/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/it_kemonomichi/1469888.html",
+          "author": null,
+          "description": "第11回は、ITインフラを支えるMSP事業を行う株式会社ハートビーツの藤崎正範氏（代表取締役）が登場。高い技術力を武器に開発から運用監視まで一気通貫して行えるのが強みの会社だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/it_kemonomichi/1469888.html",
+          "publishedOn": "2023-02-07T22:12:00.000Z",
+          "wordCount": 4404,
+          "title": "電通大在学中の起業1年目で倒産の危機に。バイトからITインフラ業界に入り事業を拡大＆10年かけて大学を卒業するまで ～ 【武田一城の“ITけものみち”：第11回：藤崎正範氏（株式会社ハートビーツ 代表取締役）】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1469/888/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/telework100k/1476733.html",
+          "author": null,
+          "description": "「BIZcomfort溝の口」はJR南武線武蔵溝ノ口駅から徒歩約3分、東急田園都市線・大井町線溝の口駅から徒歩約5分、マンションギャラリーだった場所をリニューアルしたワーキングスペースです。都内と神奈川エリアをつなぐターミナル駅なので、自宅が近い方以外にも、乗り換えのタイミングで使用するのもおすすめです。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/telework100k/1476733.html",
+          "publishedOn": "2023-02-07T21:55:00.000Z",
+          "wordCount": 4363,
+          "title": "【都内近郊のワークスペース訪問】JR南武線 武蔵溝ノ口駅 徒歩約3分「BIZcomfort溝の口」",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1476/733/03.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1476367.html",
+          "author": null,
+          "description": "株式会社ナビタイムジャパンは、英what3words Limitedが提供するジオコーディングシステム「what3words」が経路検索・ナビゲーションアプリ「NAVITIME」のiOS版にて利用可能になったと発表した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1476367.html",
+          "publishedOn": "2023-02-07T21:00:00.000Z",
+          "wordCount": 4356,
+          "title": "3単語で地点を表す「what3words」、NAVITIMEで利用可能に　住所で特定できない場所を探すときに3つの単語の組み合わせで共有",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1476/367/navitime01.jpg"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/1476573.html",
           "author": null,
@@ -7421,6 +7761,86 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230208-2586206/",
+          "author": null,
+          "description": "日本IBMは2月8日、IBM Security製品を含む多数のセキュリティソリューションを連携させたセキュリティ管理と対策アプローチを体感できるショーケースセンター「Cyber Fusion & Innovation Studio」を本社内に開設したと発表した。",
+          "link": "https://news.mynavi.jp/techplus/article/20230208-2586206/",
+          "publishedOn": "2023-02-08T06:02:26.000Z",
+          "wordCount": 1751,
+          "title": "日本IBM、本社にセキュリティの共創型アプローチを体感するショーケースセンター",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230208-2586206/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230208-2584264/",
+          "author": null,
+          "description": "Malwarebytesはこのほど、ランサムウェアの脅威を説明した動画を公開した。10分ほどの動画では、バンダイナムコが標的となったBlackCatなど話題となった事件から、ここ数年の学校や病院といった身近で発生したランサムウェア攻撃まで、幅広く紹介されている。",
+          "link": "https://news.mynavi.jp/techplus/article/20230208-2584264/",
+          "publishedOn": "2023-02-08T05:32:02.000Z",
+          "wordCount": 1605,
+          "title": "バンダイナムコ事件から学校・病院まで、ランサムウェアの脅威を動画で説明",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230208-2584264/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230208-2586026/",
+          "author": null,
+          "description": "ThousandEyesは2月7日(米国時間)、同日に北米、ヨーロッパ、アジアにおいて、Microsoft Outlookサービスへのアクセスに問題が発生したと伝えた。問題が発生した地域には日本も含まれている。",
+          "link": "https://news.mynavi.jp/techplus/article/20230208-2586026/",
+          "publishedOn": "2023-02-08T01:59:10.000Z",
+          "wordCount": 1606,
+          "title": "Microsoft Outlookサービスに不具合発生、その原因は？",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230208-2586026/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230208-2585737/",
+          "author": null,
+          "description": "Rapid7は2月3日(米国時間)、Rapid7 Blogにおいて、GoAnywhere MFTに存在するゼロデイ脆弱性について伝えた。Fortraのファイル転送アプリケーションであるGoAnywhere MFTに影響を及ぼすゼロデイ脆弱性が報告されている。",
+          "link": "https://news.mynavi.jp/techplus/article/20230208-2585737/",
+          "publishedOn": "2023-02-08T01:26:46.000Z",
+          "wordCount": 1607,
+          "title": "人気のファイル転送アプリGoAnywhere MFTにゼロデイ脆弱性、攻撃への活発な悪用確認",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230208-2585737/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230208-2582467/",
+          "author": null,
+          "description": "Microsoftはこのほど、マイクロソフト クラウド パートナー プログラム (MCPP) に登録する際に、正当な企業になりすます攻撃者が関与するフィッシングキャンペーンが展開されていたと伝えた。攻撃者は不正なパートナー アカウントを悪用して、ユーザーをだまして不正なアプリに権限を付与させたという。",
+          "link": "https://news.mynavi.jp/techplus/article/20230208-2582467/",
+          "publishedOn": "2023-02-08T00:48:02.000Z",
+          "wordCount": 1676,
+          "title": "MCPPのアカウント悪用したフィッシングを発見、不正なアプリに注意を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230208-2582467/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230208-2585736/",
+          "author": null,
+          "description": "Cleafyはこのほど、金融機関を標的とする新たなAndroidバンキング型トロイの木馬の存在について伝えた。インスタントペイメントプラットフォームに不正行為を行うよう設計された「PixPirate」と呼ばれるマルウェアの正体が明らかになった。",
+          "link": "https://news.mynavi.jp/techplus/article/20230208-2585736/",
+          "publishedOn": "2023-02-07T23:38:49.000Z",
+          "wordCount": 1619,
+          "title": "新しいAndroidバンキング型トロイの木馬「PixPirate」発見、注意を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230208-2585736/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/kikaku/sateraito_NetworkBlackbox-2/",
+          "author": null,
+          "description": "働き方の多様化が進む状況のなか、高度化したサイバー攻撃への対応は最優先のミッションといえる。後編となる本稿では、サテライトオフィスが提供するNDRソリューション「NDRセキュリティサービス for Network Blackbox」（以下 Network Blackbox）の特徴と導入効果について、導入事例を交えながら解説していく。",
+          "link": "https://news.mynavi.jp/techplus/kikaku/sateraito_NetworkBlackbox-2/",
+          "publishedOn": "2023-02-07T23:00:00.000Z",
+          "wordCount": 1527,
+          "title": "「100％フルパケットキャプチャ」対応NDRソリューションの実力とは 第2回 「正確な検知」と「迅速な対応」を実現するNetwork Blackboxの導入効果",
+          "imageUrl": "https://news.mynavi.jp/techplus/kikaku/sateraito_NetworkBlackbox-2/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230207-2584262/",
+          "author": null,
+          "description": "Proofpointはこのほど、Microsoft OneNoteドキュメントを悪用したフィッシングキャンペーンが増加しているとして、注意を呼び掛けた。これまでMicrosoft Officeファイルに仕込まれているマクロを実行させることでマルウェアを配信するフィッシング攻撃が行われてきたが、異なるファイル形式が使われつつあることが明らかとなった。",
+          "link": "https://news.mynavi.jp/techplus/article/20230207-2584262/",
+          "publishedOn": "2023-02-07T10:31:13.000Z",
+          "wordCount": 1711,
+          "title": "Microsoft OneNote悪用したフィッシング増加、ウイルス対策ソフトで検出できず",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230207-2584262/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20230207-2585418/",
           "author": null,
