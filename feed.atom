@@ -2,10 +2,83 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-18T08:11:29.971Z</updated>
+    <updated>2023-02-19T08:11:37.687Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[ビジネスメール詐欺の多言語展開、機械翻訳の精度向上で容易に]]></title>
+        <id>https://security.srad.jp/story/23/02/19/0535223/</id>
+        <link href="https://security.srad.jp/story/23/02/19/0535223/"/>
+        <updated>2023-02-19T05:55:00.000Z</updated>
+        <summary type="html"><![CDATA[Abnormal Security の調査によると、機械翻訳の精度が向上した結果、ビジネスメール詐欺 (BEC) が多言語で同時展開するようになっているそうだ
+(Abnormal Security のブログ記事、
+BetaNews の記事)。
+
+BEC は企業の CEO などになりすまして金銭を詐取することから CEO 詐欺とも呼ばれ、主に決裁権のある重役がターゲットとなる。攻撃者が母国語以外の言語で BEC を実行する場合、これまではプロの翻訳者を雇う必要があったが、機械翻訳が自然な翻訳文を出力できるようになったことで多言語での同時展開が容易になったという。
+
+ブログ記事では少なくとも計13言語でBECキャンペーンを行う 2 つの BEC 犯罪グループ Midnight Hedgehog と Mandarin Capybara を取り上げている。Midnight Hedgehog の BEC は CEO になりすまして緊急の送金を行わせるもので、送金先の大半が英国の銀行口座であることから、本拠地は英国とみられている。
+
+Mandarin Capybara の BEC は給与の振込先変更を要請するもので、変更先の大半は一般的な銀行口座ではなくフィンテック企業の口座が指定されるそうだ。英語圏以外の欧州企業を狙う Midnight Hedgehog とは異なり、Mandarin Capybara では欧州企業に加えて米国とオーストラリア (英語)、カナダ (フランス語) の企業も対象になっているとのこと。
+
+BEC 攻撃で送られる電子メールはマルウェアが添付された電子メールとは異なり、セキュリティシステムでブロックされにくい。Abnormal では従業員のセキュリティトレーニングも必要だが、初めから受信しないのが最も安全だとして機械学習や AI によるふるまい検知システムの導入を推奨している。
+ すべて読む | セキュリティセクション | ビジネス | 犯罪 | セキュリティ | お金 |     
+  関連ストーリー： 
+Twilioのフィッシング攻撃者、Signal ユーザー 1,900 人分の電話番号を取得した可能性 2022年08月19日 
+従業員がだまされやすいフィッシングメールの件名 2022年07月07日 
+プエルトリコの政府所有会社2社、フィッシングメールにだまされて合計400万ドル以上を偽口座に送金 2020年02月16日 
+コインチェックの仮想通貨流出事件、犯人らによる偽アカウントは同社社員と半年以上前から交流を持っていた 2018年05月15日 
+米インターネット企業に対する送金詐欺事件で、名前を騙られた台湾企業が名乗りを上げる 2017年03月31日 
+米司法省、米インターネット企業2社(社名非公表)をだまして合計1億ドル以上を送金させたリトアニア人の男を逮捕 2017年03月25日 
+ヨーロッパ最大の自動車用電線メーカー、詐欺メールで約46億円を失う 2016年09月07日 
+InfoSec Europe会場での調査、セキュリティ担当者の8割は重役がCEO詐欺の被害にあう可能性があると回答 2016年07月03日 
+米マテル、中国からのフィッシング攻撃に引っかかる。資金はギリギリのところで回収 2016年04月06日 
+SeagateでもCEOを装ったメールによる個人情報流出が発生していた 2016年03月09日 
+Snapchat従業員、同社CEOをかたるフィッシングメールにだまされて従業員の個人情報を外部へ送信 2016年03月04日]]></summary>
+        <author>
+            <name>headless</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[サイバー犯罪者の間でHTMLスマグリングが人気に、注意を]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230219-2587940/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230219-2587940/"/>
+        <updated>2023-02-19T03:07:55.000Z</updated>
+        <summary type="html"><![CDATA[TrustwaveのSpiderLabsはこのほど、サイバー犯罪者グループによるHTMLスマグリング攻撃が増加していることを伝えた。HTMLスマグリングは、HTMLとJavaScriptの正当な機能を悪用して、添付ファイルに含まれるエンコードされた悪質なコードを実行し、被害者のマシン上でペイロードを組み立てる攻撃手法。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[暗号資産ウォレット狙う新種のランサムウェアとクリッパーマルウェアに注意]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230219-2594166/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230219-2594166/"/>
+        <updated>2023-02-19T00:07:37.000Z</updated>
+        <summary type="html"><![CDATA[Cisco Talos Intelligence Groupはこのほど、新たなランサムウェアとクリッパーマルウェアを使うキャンペーンが展開されていることを伝えた。このキャンペーンでは、感染したマシンのクリップボードに暗号資産ウォレットのアドレスがないかどうかを正規表現を使って監視し、脅威者の暗号資産ウォレットに置き換えて不正な取引を行うという。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[9店舗に1つのオンラインストアが誤って顧客データを漏洩]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230218-2592839/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230218-2592839/"/>
+        <updated>2023-02-18T11:36:03.000Z</updated>
+        <summary type="html"><![CDATA[Malwarebytesはこのほど、オンラインショップの9店に1店が顧客のデータを漏洩させていると伝えた。多くのオンラインストアが誤って機密性の高いデータを流出させていることが明らかになった。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1月マルウェアランキング、Qbotが引き続きトップ]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230218-2592854/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230218-2592854/"/>
+        <updated>2023-02-18T10:41:36.000Z</updated>
+        <summary type="html"><![CDATA[Check Point Software Technologiesはこのほど、2023年1月のマルウェアランキングを発表した。2023年1月は前月と同様、Qbotがランキング1位となり、引き続き猛威を振るっていることがわかった。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[毎週約400万回ダウンロードされる人気npmパッケージ、乗っ取りの恐れ]]></title>
         <id>https://news.mynavi.jp/techplus/article/20230218-2595278/</id>
@@ -5154,66 +5227,6 @@ https://www.shizuokabannkco●●●●.com/
 キヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。]]></summary>
         <author>
             <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Protecting the Universal Remote Control of Your Life—Your Smartphone]]></title>
-        <id>https://www.mcafee.com/blogs/?p=163419</id>
-        <link href="https://www.mcafee.com/blogs/mobile-security/protecting-the-universal-remote-control-of-your-life-your-smartphone/"/>
-        <updated>2023-01-20T11:11:08.000Z</updated>
-        <summary type="html"><![CDATA[Aside from using it for calls and texting, we use our smartphones for plenty of things. We’re sending money with...
-The post Protecting the Universal Remote Control of Your Life—Your Smartphone appeared first on McAfee Blog.]]></summary>
-        <author>
-            <name>McAfee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Blog記事]「動き出す、一歩」を実践したい！ – JANOG51@富士吉田に参加します！]]></title>
-        <id>https://blog.nic.ad.jp/2023/8465/</id>
-        <link href="https://blog.nic.ad.jp/2023/8465/"/>
-        <updated>2023-01-20T06:34:33.000Z</updated>
-        <summary type="html"><![CDATA[JPNICは、2023年1月25日（水）～27日（金）＠山梨県富士吉田市で開催予定の「JANOG51」に参加します。JANOGスタッフとしてだけではなく、現地での発表やJPNICブースでのRPKIデモ、番号資源に関する相談会を行いますので、その詳細をお知らせします。会場では、ケーロちゃん新デザインステッカーをご用意しておりますので、お楽しみに！！]]></summary>
-        <author>
-            <name>JPNIC Web</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JNSAメールマガジン第254号、独立行政法人情報処理推進機構（IPA)セキュリティセンターの佐藤栄城様にご寄稿いただいた「IPA ビジネスメール詐欺（BEC）対策特設ページのご紹介」を配信しました。]]></title>
-        <id>https://www.jnsa.org/aboutus/ml.html</id>
-        <link href="https://www.jnsa.org/aboutus/ml.html"/>
-        <updated>2023-01-20T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[日本ネットワークセキュリティ協会が発信するメールマガジン「JNSAメルマガ」のご案内]]></summary>
-        <author>
-            <name>特定非営利活動法人 日本ネットワークセキュリティ協会（JNSA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ICSCoE中核人材育成プログラム第5期生卒業プロジェクトを1件公開しました。]]></title>
-        <id>https://www.ipa.go.jp/icscoe/program/core_human_resource/final_project.html</id>
-        <link href="https://www.ipa.go.jp/icscoe/program/core_human_resource/final_project.html"/>
-        <updated>2023-01-20T05:55:00.000Z</updated>
-        <summary type="html"><![CDATA[産業サイバーセキュリティセンター]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[トピックス]JPNIC技術セミナー 2023年2月 オンライン開催のお知らせ ～ 参加特典にアーカイブ視聴チケットをプレゼント・年度末の復習に！ ～]]></title>
-        <id>https://www.nic.ad.jp/ja/topics/2023/20230120-02.html</id>
-        <link href="https://www.nic.ad.jp/ja/topics/2023/20230120-02.html"/>
-        <updated>2023-01-20T03:05:10.000Z</updated>
-        <author>
-            <name>JPNIC Web</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【2月18日(土曜日)・19日(日曜日)開催】MITOU2022 Demo Day／第29回 未踏IT人材発掘・育成事業 成果報告会開催のご案内]]></title>
-        <id>https://www.ipa.go.jp/jinzai/mitou/2022/seikahoukoku29th.html</id>
-        <link href="https://www.ipa.go.jp/jinzai/mitou/2022/seikahoukoku29th.html"/>
-        <updated>2023-01-20T01:10:00.000Z</updated>
-        <summary type="html"><![CDATA[MITOU2022 Demo Day／第29回 未踏IT人材発掘・育成事業 成果報告会　開催のご案内ページです。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
         </author>
     </entry>
 </feed>
