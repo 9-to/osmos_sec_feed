@@ -2,10 +2,493 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-20T08:13:28.275Z</updated>
+    <updated>2023-02-21T08:12:43.077Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Apache TomcatのApache Commons FileUploadにおけるサービス運用妨害（DoS）の脆弱性]]></title>
+        <id>https://jvn.jp/vu/JVNVU91253151/</id>
+        <link href="https://jvn.jp/vu/JVNVU91253151/"/>
+        <updated>2023-02-21T07:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Apache TomcatにはApache Commons FileUploadによる、サービス運用妨害（DoS）の脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[オープンバンキングとエコシステム]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=45196</id>
+        <link href="https://gblogs.cisco.com/jp/2023/02/open-banking-and-ecosystems/"/>
+        <updated>2023-02-21T07:00:14.000Z</updated>
+        <summary type="html"><![CDATA[個人間での（あるいは中小企業宛ての）支払いを可能にした Venmo は、オープンバンキングによって実現されています。オープンバンキングによって、個人や中小企業が資産を管理する方法、金融機関のツールやブランドを使用する方法が大きく変化しました。]]></summary>
+        <author>
+            <name>Haruhisa Sakabe</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[治療を止めるな、医療機関はサイバー攻撃にどう立ち向かうべきか？]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230221-2598572/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230221-2598572/"/>
+        <updated>2023-02-21T06:54:44.000Z</updated>
+        <summary type="html"><![CDATA[昨今、世界中で医療機関を狙うサイバー攻撃が増加の一途をたどっている。今年1月に、大阪急性期・総合医療センターがサイバー攻撃を受けて、診療のほとんどを停止したことは記憶に新しい。医療機関がサイバー攻撃を回避するにはどのような対策を講じるべきなのだろうか。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[加速するサイバー攻撃、1分ごとに新しいマルウェアが誕生‐BlackBerryの調査]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230221-2598538/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230221-2598538/"/>
+        <updated>2023-02-21T06:30:30.000Z</updated>
+        <summary type="html"><![CDATA[BlackBerry Japanが21日に発表した調査レポートによると、2022年第4四半期において日本が北米に次ぎ多くのサイバー攻撃の標的になったという。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【SMB CSI Driver】KubernetesでSamabaサーバのストレージを使用する]]></title>
+        <id>https://tech-lab.sios.jp/?p=33040</id>
+        <link href="https://tech-lab.sios.jp/archives/33040"/>
+        <updated>2023-02-21T06:29:42.000Z</updated>
+        <summary type="html"><![CDATA[前置き 　サイオステクノロジーの中島です。SMB CSI Driver for Kubernetes(https://github.com/kubernetes-csi/csi-driver-smb)というものがあり、S [...]
+【SMB CSI Driver】KubernetesでSamabaサーバのストレージを使用する first appeared on SIOS Tech. Lab.]]></summary>
+        <author>
+            <name>中島克典</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[奇想天外なパスワード規則のウェブサイトを掲載する『Dumb Password Rules』]]></title>
+        <id>https://security.srad.jp/story/23/02/20/1447213/</id>
+        <link href="https://security.srad.jp/story/23/02/20/1447213/"/>
+        <updated>2023-02-21T05:27:00.000Z</updated>
+        <summary type="html"><![CDATA[ウェブサービスで用いられているパスワードの入力規則を集めたウェブサイト「Dumb Password Rules」が話題になっているらしい。このDumb Password Rulesで紹介されている変なパスワード入力規則の例としては、「（パスワードは）7で始まる必要があります」というもの。「大文字2文字以上、小文字2文字以上、数字2文字以上、句読点2文字以上」「aを@、iを!、oを0といったありがちな置換をした単語の使用禁止」といった細かい点にまで指摘したものまで存在するとのこと。いかにとち狂ったパスワードルールが存在しているかが一望できるとのこと。すでにウェブサイトの登録数はすでに300近くに及んでいるそうだ（INTERNET Watch）。
+ すべて読む | セキュリティセクション | セキュリティ | 変なモノ | 暗号 |     
+  関連ストーリー： 
+1Password、パスワードを不要にする計画 2023年02月12日 
+Dashlane、モバイル版パスワードマネージャーのソースコードを公開 2023年02月07日 
+税務署が同姓同名の別人にe-Taxの識別番号と暗証番号を教えてしまう事案 2023年01月12日 
+日本通信SIMがマイナンバーカードによるeKYCに対応、eSIMなら即日開通が可能に 2023年01月11日 
+1Password 曰く、LastPass のパスワード保管庫をクラックするのに百万年もかからない 2023年01月03日]]></summary>
+        <author>
+            <name>nagazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[日大、パリでPCとUSBメモリを盗まれる　学生情報655人分保存]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2302/21/news135.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2302/21/news135.html"/>
+        <updated>2023-02-21T04:30:00.000Z</updated>
+        <summary type="html"><![CDATA[日本大学は、教員所有のノートPCとUSBメモリスティックがフランスで盗難被害に遭ったと明らかにした。中には学生の成績情報やレポート、氏名などが含まれていたが、悪用は確認されていないとしている。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三菱電機製家電製品における複数の脆弱性]]></title>
+        <id>https://jvn.jp/vu/JVNVU96767562/</id>
+        <link href="https://jvn.jp/vu/JVNVU96767562/"/>
+        <updated>2023-02-21T03:15:00.000Z</updated>
+        <summary type="html"><![CDATA[三菱電機株式会社が提供する複数の家電製品には、複数の脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[富士通の法人向けネット接続サービスでID・パスが盗まれる　ネットワーク機器に不正プログラム]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2302/21/news114.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2302/21/news114.html"/>
+        <updated>2023-02-21T02:52:00.000Z</updated>
+        <summary type="html"><![CDATA[富士通が、法人向けインターネット回線サービス「FENICSインターネットサービス」について、ユーザーのIDやパスワードが窃取され、不正利用されたと発表した。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AppleがiOSのシェアデータを公開、iOS 16が早くも圧倒的シェアを獲得していると判明【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1480225.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1480225.html"/>
+        <updated>2023-02-21T02:33:47.000Z</updated>
+        <summary type="html"><![CDATA[Appleが公開したiOSのシェアデータによると、過去4年間に導入されたiOSデバイスのうち、iPhoneにおいては最新のiOS 16が占める割合は早くも8割を超えていることが明らかになった。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Netflixの新ルールでアクセス不能になったユーザー、不満を訴える【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1480226.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1480226.html"/>
+        <updated>2023-02-21T02:32:47.000Z</updated>
+        <summary type="html"><![CDATA[Netflixのパスワードの取り扱いの厳格化によって、入院先から同サービスへのアクセスができなくなった男性のエピソードを、海外メディアが報じている。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[キヤノンITS、脅威情報を自動提供する新サービス‐ゼロデイ攻撃を防止]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230221-2598309/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230221-2598309/"/>
+        <updated>2023-02-21T02:00:44.000Z</updated>
+        <summary type="html"><![CDATA[キヤノンITソリューションズ（キヤノンITS）は21日、複数の企業や団体が提供する脅威情報を配信することでゼロデイ攻撃に対策を講じるサービス「脅威インテリジェンスプラットフォーム」の提供を開始すると発表した。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[オンプレミスからクラウドへ。お客様の今日と将来に応えるオブザーバビリティ。]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=45104</id>
+        <link href="https://gblogs.cisco.com/jp/2023/02/on-premises-to-cloud-observability-for-customers-where-they-are-and-where-theyre-going/"/>
+        <updated>2023-02-21T02:00:43.000Z</updated>
+        <summary type="html"><![CDATA[Cisco Senior Vice President 兼 AppDynamicsおよびフルスタック・オブザーバビリティのゼネラルマネージャーである Ronak Desai のオンプレミス、ハイブリッド、クラウドネイティブのお客様向けの Cisco AppDynamics について経営者レベルの洞察をご紹介します。]]></summary>
+        <author>
+            <name>門脇 拓弥</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[180度開閉可能な14型ノートPC「MousePro NB2シリーズ」が人気。商談・対面接客など画面を共有するシーンに対応【MousePro 売れ筋ビジネスPCランキング ノート編 2023/2/21版】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/ranking/mousepro/1479770.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/ranking/mousepro/1479770.html"/>
+        <updated>2023-02-21T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[本記事では、マウスコンピューターの法人向けブランド「MousePro」の売れ筋PCを紹介しています。なお、順位、価格、構成は随時変動しており、最新情報はリンク先にてご確認ください。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[イオンカードを偽装したフィッシング確認、注意を]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230221-2598254/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230221-2598254/"/>
+        <updated>2023-02-21T01:11:41.000Z</updated>
+        <summary type="html"><![CDATA[フィッシング対策協議会(Council of Anti-Phishing Japan)は2月20日、イオンカードを偽るフィッシングの報告を受けていると伝えた。メールの件名としては、「【重要なお知らせ】AEON ご利用確認のお願い」など、複数確認されているの注意が必要。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[介護と子育てについての経験談～最終回]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=45139</id>
+        <link href="https://gblogs.cisco.com/jp/2023/02/experiences-about-nursing-care-and-child-rearing-part-3-3/"/>
+        <updated>2023-02-21T01:00:44.000Z</updated>
+        <summary type="html"><![CDATA[今回はWoCのメンバー福永 啓蔵さんのお話を伺うインタビューの最終回です。 この回では、介護についての体験をお話しいただきました。 まだ、介護を体験していないメンバーから多くの質問にもお答えいただきました。]]></summary>
+        <author>
+            <name>Women of Cisco Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[膨大な数の回避技術を採用、他のマルウェアとは一線を画す「Beep」とは]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230221-2594174/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230221-2594174/"/>
+        <updated>2023-02-21T00:31:32.000Z</updated>
+        <summary type="html"><![CDATA[Minervaはこのほど、「Beep」と呼ばれる新種のマルウェアを発見したと伝えた。このマルウェアには多くの回避技術が採用されており、名前の由来となったBeep API関数の使用による実行遅延が確認されている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GoogleとTwitterを被告とする米国最高裁の訴訟、Webの言論の自由に影響か]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230221-2597913/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230221-2597913/"/>
+        <updated>2023-02-20T23:51:15.000Z</updated>
+        <summary type="html"><![CDATA[Malwarebytesは2月17日（米国時間）、米国の最高裁判所で審議が進められている、GoogleとTwitterに関連した2つの訴訟について取り上げた。いずれも被告である両社が提供するプラットフォームに投稿されたコンテンツがテロに絡んでいた場合に、プラットフォームの提供者が責任を負うべきか否かを争点としている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[サポートのない無効化されたWordPressテーマやプラグインの危険性とは]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230221-2595286/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230221-2595286/"/>
+        <updated>2023-02-20T23:34:37.000Z</updated>
+        <summary type="html"><![CDATA[Sucuriはこのほど、無効化されたWordPressテーマおよびプラグインの危険性について伝えた。Web開発において無効化されたWordPressテーマおよびプラグインの使用が議論の的になっており、WordPressのセキュリティの脅威の一つになっているという懸念が伝えられている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[グローバルセキュリティ業界を代表する企業が提供するセキュリティ意識啓発トレーニングとは]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/02/21/48951.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/02/21/48951.html"/>
+        <updated>2023-02-20T23:15:04.000Z</updated>
+        <summary type="html"><![CDATA[カスペルスキーが提供するセキュリティアウェアネストレーニングは一体どんなものなのだろう。ひとつだけ言えるのは、総務部からメールがきて年に一回受けるような例の「形式的な」トレーニングではきっとないだろうということだ。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[経費は削減 社員は１万人解雇、社長のワイ セキュリティ費用１８億円]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/02/21/48950.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/02/21/48950.html"/>
+        <updated>2023-02-20T23:10:03.000Z</updated>
+        <summary type="html"><![CDATA[Facebook の親会社Meta は、実質あらゆるコストを削減しているが、かなりの額にのぼる創業者マーク・ザッカーバーグ氏の個人警備費の予算は削っていない、というより実際にはその額は 400 万ドル増えている。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[委託先へのランサムウェア攻撃を委託元が調査「漏えいは無い」と判断]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/02/21/48949.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/02/21/48949.html"/>
+        <updated>2023-02-20T23:05:06.000Z</updated>
+        <summary type="html"><![CDATA[サクサビジネスシステム株式会社は1月20日、同社の委託工事店が管理するファイルサーバへのランサムウェアの侵入について発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「TOMS Official Store」に不正アクセス、3,840件のカード情報が漏えい]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/02/21/48948.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/02/21/48948.html"/>
+        <updated>2023-02-20T23:05:02.000Z</updated>
+        <summary type="html"><![CDATA[衣料品等の製造・販売を行う双日インフィニティ株式会社は2月15日、同社が運営する「TOMS Official Store」への不正アクセスによる個人情報漏えいについて発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ウイルスバスター ビジネスセキュリティおよびウイルスバスター ビジネスセキュリティサービスに複数の脆弱性]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/02/21/48947.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/02/21/48947.html"/>
+        <updated>2023-02-20T23:00:11.000Z</updated>
+        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は2月17日、ウイルスバスター ビジネスセキュリティおよびウイルスバスター ビジネスセキュリティサービスにおける複数の脆弱性についてJVNで発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「ペイメントカード・セキュリティフォーラム2023」開催 ～ DMARC、EMV 3Dセキュア、PCI最新動向ほか]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/02/21/48946.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/02/21/48946.html"/>
+        <updated>2023-02-20T23:00:07.000Z</updated>
+        <summary type="html"><![CDATA[株式会社TIプランニングは2月3日、第10回「ペイメントカード・セキュリティフォーラム2023」を3月7日に開催すると発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[メール誤送信防止ツール市場15年連続シェア1位「CipherCraft/Mail」]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/02/21/48945.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/02/21/48945.html"/>
+        <updated>2023-02-20T23:00:04.000Z</updated>
+        <summary type="html"><![CDATA[NTTテクノクロス株式会社は2月15日、同社の「CipherCraft/Mail」が電子メール誤送信防止ツール市場でシェアNo.1を獲得したと発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[詐欺師たちがLinkedInを徘徊している、注意すべき5つの手口]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230221-2594172/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230221-2594172/"/>
+        <updated>2023-02-20T22:54:15.000Z</updated>
+        <summary type="html"><![CDATA[Tripwireはこのほど、LinkedInで注意すべき典型的な5つの詐欺を紹介した。FacebookやTwitterだけでなくLinkedInにも詐欺師が出没しており、より専門的なつながりを重要視しているユーザーが詐欺師に狙われているという。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「IIJmioモバイルサービス ギガプラン」、4月から一部プランを料金据え置きでデータ増量　月額990円の「4ギガプラン」は5GB、1500円の「8ギガプラン」は10GBに]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1480077.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1480077.html"/>
+        <updated>2023-02-20T21:30:00.000Z</updated>
+        <summary type="html"><![CDATA[株式会社インターネットイニシアティブ（IIJ）は、個人向けMVNOサービス「IIJmio（アイアイジェイミオ）モバイルサービス」の「ギガプラン」の内容を4月1日から改定する。「4ギガプラン」のデータ容量を5GBに、「8ギガプラン」のデータ容量を10GBに増量し、プラン名をそれぞれ「5ギガプラン」「10ギガプラン」と改称。月額料金は据え置きで、5ギガプランが990円、10ギガプランが1500円。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[グノシー、GPT-3による「動画AI要約記事」β版を2月24日から提供開始]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1480014.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1480014.html"/>
+        <updated>2023-02-20T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[株式会社Gunosyは、情報キュレーションアプリ「グノシー」にて、動画コンテンツの要約文を自動生成して記事化する「動画AI要約記事」のβ版を、2月24日より提供する。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【匠の部屋】vPro対応のPC、見分けるにはどうしたらいい？[Sponsored]]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/vpro_takumi/1477077.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/vpro_takumi/1477077.html"/>
+        <updated>2023-02-20T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[各PCメーカーから法人向けに提供されているマシンの中には、「インテル vPro プラットフォーム」に対応したモデルが用意されている。このPCはインテル AMT（Active Management Technology）を利用することで、外部から電源を入れたり、BIOSの設定を変更したりといった遠隔管理が可能だ。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[暴露型ランサムウェア攻撃統計CIGマンスリーレポート]]></title>
+        <id>https://www.mbsd.jp/research/20230220/cig-monthly/</id>
+        <link href="https://www.mbsd.jp/research/20230220/cig-monthly/"/>
+        <updated>2023-02-20T19:00:00.000Z</updated>
+        <author>
+            <name>三井物産セキュアディレクション株式会社</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[プロクシ？プロキシ？中間サーバーはどういった役割を担うのか？]]></title>
+        <id>https://eset-info.canon-its.jp/malware_info/special/detail/230221.html</id>
+        <link href="https://eset-info.canon-its.jp/malware_info/special/detail/230221.html"/>
+        <updated>2023-02-20T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[プロキシ（プロクシ）は外部インターネットの間に設置される中間サーバーとして、主に通信を保護する役割を担っている。そして、IT環境の複雑化やサイバー攻撃の巧妙化に呼応して進化を遂げている。この記事では、プロキシの概要・仕組みを紹介し、今後求められる中間サーバーの役割について解説する。
+
+
+
+
+
+プロキシとは
+
+プロキシとは、もともと「代理」という意味を持ち、プロキシサーバー（Proxy Server）の略称として用いられてきた。プロキシサーバーは、社内の端末から外部インターネットへアクセスする際に、通信を中継する役割を担うものだ。接続元を代替して接続先との送受信を行うため、接続元のIPアドレスを接続先から隠せるのがメリットの1つだ。
+
+プロキシサーバーはプロクシと呼ばれる場合もあるが、プロキシとの名称が一般的とされる。この記事においても以降、プロキシと称する。
+
+プロキシは基本的にDMZ（DeMilitarized Zone：非武装地帯）に設置される。DMZとは社内ネットワークと外部インターネットの中間に位置するネットワークを指す。外部からの攻撃が社内ネットワークに至るのを遮断する仕組みが、このDMZに設けられる。
+
+プロキシを利用するメリットと注意点
+
+プロキシは外部インターネットと社内ネットワークの間に設置され、さまざまな機能を提供する。
+
+
+
+図1：プロキシ経由で社内からインターネットに接続するプロセス
+
+
+プロキシを利用するメリットとして、以下のような点が挙げられる。
+
+1）マルウェア対策
+
+外部インターネットから受信するデータを監視し、マルウェアが侵入するのを防ぐ。例えば、悪意のあるWebサイトを閲覧してしまった際に、マルウェアがダウンロードされるようなケースが該当する。また、外部からの不正なアクセスに対してもプロキシで遮断することが可能だ。
+
+2）情報漏えい対策
+
+マルウェアの中には感染した端末のデータを外部のサーバーへ転送してしまうものもある。プロキシで社内ネットワークから外部への通信データをチェックすれば、機密情報を含めた情報漏えいの対策となる。
+
+3）アクセスログの取得
+
+Webサイトの閲覧履歴をログとして保存する。フィッシングサイトの被害に遭った場合など、万一の際にログを分析し、原因究明のための情報として活用できる。
+
+4）Webサイト閲覧の高速化
+
+Webサイトに表示された内容を、プロキシ上にキャッシュとして一時保存する。再度、同じ内容が呼び出された際に、接続先にアクセスしてダウンロードする必要がないため、表示が高速化される仕組みだ。ネットワークを利用する複数のユーザーが同じWebサイトに接続するような状況で、より一層効果を発揮する。
+
+5）匿名性の確保
+
+先述のとおり、プロキシ経由で外部インターネットへ接続すると、接続元である端末の社内ネットワークにおけるIPアドレスが接続先から隠ぺいされる。IPアドレスが知られてしまうと、サイバー攻撃の標的とされるリスクがあるため、プロキシの導入により、そのリスクを軽減する。
+
+一方で、プロキシを利用する際の注意点として、以下のような点が挙げられる。
+
+1）通信速度の低下
+
+匿名性を高めるために複数のプロキシを階層的に設置する場合があり、それらを経由する際に通信が遅くなる場合がある。また、多数のユーザーを抱える企業では、サーバーのスペックに対して同時接続数が多くなりすぎると、遅延が生じてしまうケースも考えられる。
+
+2）プロキシの脆弱性を突いた脅威
+
+プロキシが中間者攻撃の対象となり、Webサイトへのアクセス履歴やID・パスワードを含む通信内容を盗聴される恐れがある。また、プロキシに一時保存されたキャッシュを悪意あるコンテンツに差し替えるキャッシュポイズニング攻撃により、マルウェア感染に至るリスクもある。
+
+Webサイトのサーバーが抱えるセキュリティリスクとその対策とは？
+
+プロキシと関連技術
+
+プロキシはその役割で大きく分けると、以下の4つに分類される。
+
+1）フォワードプロキシ
+
+一般的に、単にプロキシと呼ばれる場合が多い。中間サーバーとして通信を中継し、通信内容の監視といった役割を果たす。
+
+2）キャッシュサーバー
+
+ユーザーが訪問したWebサイトのコンテンツを一時保存し、再利用することで表示を高速化する機能を提供する。
+
+3）透過型プロキシ
+
+役割としてはフォワードプロキシと同様と考えられる。ただし、通常、フォワードプロキシは接続元がプロキシを設定するが、透過型プロキシの場合、ユーザーによる設定が必要なく、ネットワーク管理者によって自動的にプロキシ経由の通信に変更されるように実装される。
+
+4）リバースプロキシ
+
+接続先となるサーバー側に設置するプロキシを指す。Webサーバーのパフォーマンス向上を含めた、いくつかのメリットがある。
+
+リバースプロキシとプロキシの違いとは？それぞれのサーバーの仕組みは？
+
+プロキシとファイアウォールの違い
+
+接続元の端末と接続先のサーバーの中間でセキュリティを高めるという点では、プロキシとファイアウォールに共通点があるとも考えられる。もともと、ファイアウォールは定義されたルールに従い、不正なパケットのフィルタリングを目的としていた。プロキシのような多くの機能は備えていない分、高速な処理が可能だ。
+
+近年はファイアウォールの進化により、プロキシと近い役割を担えるファイアウォール製品もある。例えば、「アプリケーションレベルゲートウェイ型」と呼ばれるファイアウォールでは、アプリケーションごとにパケットの中身を検証し、不正なアクセスを遮断できる。
+
+サイバー攻撃に有効なファイアウォールの適切な設定とは？
+
+ゼロトラスト時代における中間サーバーの役割
+
+プロキシは主に社内から社外のサーバーへアクセスする状況を前提に、社内ネットワークの境界防御を目的としていた。しかし近年、リモートワークが普及し、社外からVPN（Virtual Private Network）経由で社内システムへアクセスするケースも増加し、その際のセキュリティ対策を検討する必要性が高まっている。
+
+同時に、社内から社外のクラウドサービスへアクセスし、社内の機密情報を送受信するケースもある。サイバー攻撃が複雑化している昨今の事情も踏まえ、社内外の境界に関わらず、通信を保護するセキュリティ対策が求められるようになった。そこで、いかなる通信も信頼せずに検証を行うゼロトラストという考え方が浸透しつつある。
+
+ゼロトラストの考え方に従い、従来のプロキシの機能を拡張したSWG（Secure Web Gateway）と呼ばれる製品が開発されてきた。SWGはユーザーと外部サーバーの中間に設置され、トラフィックを分析し、通信を保護する。先述したプロキシの機能において、SWGは主に以下のような機能を持つ。
+
+1）サンドボックス
+
+既知のマルウェアを検出する際はパターンマッチング方式で対応可能だが、未知のマルウェアを検出するのが難しいという問題があった。サンドボックスでは、ほかのインフラから隔離された仮想環境にて、外部インターネットからダウンロードされたファイルを実行して挙動を確認し、未知のマルウェア検出を試みる。
+
+2）Webベースのアプリケーションに対する制御
+
+許可されていないアプリケーションの利用を禁止し、IT部門から許可を受けていないシャドーITを防止する。また、SSL通信を介して通信内容を暗号化するアプリケーションでは、その通信内容を監視できなかったが、SWGによって復号し、通信パケットを分析できるケースもある。
+
+3）データ損失防止
+
+あらかじめ定義された機密情報が通信データに含まれているかどうかを監視し、機密情報の流出を抑制する。
+
+SWGにはクラウド型、オンプレミス型、ハイブリッド型という3つの設置方法がある。それぞれにメリット、デメリットがあるが、ゼロトラスト前提の時代においては、社内外のアクセスを問わず対応が可能なクラウド型を選択するケースが多く見られる。
+
+また、SWGはWebサイトへのアクセスを主に対象としているのに対し、クラウドサービスへのアクセス対策としてCASB（Cloud Access Security Broker）が開発された。CASBはユーザーと複数のクラウドサービスの中間に設置され、その利用状況を可視化する役割を担う。従来のプロキシでは対応が困難だった詳細な設定も可能となった。
+
+例えば、どのクラウドサービスにどういったデータを送受信しているのか。具体的には、機密情報や個人情報などを送受信していないかといった通信をチェックする機能を有する。ほかにも、通信のブロックや警告、通信の暗号化といった機能も有しており、クラウドサービスに関する一元的な管理が実現できる。
+
+さらに、クラウド型SWGやCASBをサービスとして提供するSASE（Secure Access Service Edge）と呼ばれるアーキテクチャーも提案されている。SASEはSD-WAN（Software Defined-Wide Area Network）、CDN（Content Delivery Network）といったネットワーク機能も含め、ゼロトラストの包括的なクラウドセキュリティ基盤を構成する考え方だ。
+
+ゼロトラストが重要視される時代において、プロキシの在り方も変容してきた。しかし、中間サーバーという存在が、インターネットユーザーの通信を保護するのに重要な役割を果たすという事実は揺るがない。ゼロトラストを踏まえた最新のソリューションも検討しながら、最適なセキュリティ対策を講じるようにしたい。
+
+ゼロトラスト・セキュリティ・モデルはクラウド時代の最適解となるのか？]]></summary>
+        <author>
+            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[給与明細を偽装したメールでMicrosoftのパスワードを盗む詐欺が流行、注意を]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230220-2596939/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230220-2596939/"/>
+        <updated>2023-02-20T09:34:05.000Z</updated>
+        <summary type="html"><![CDATA[MailGuardは2月17日(米国時間)、Microsoftのパスワードを盗もうとする企業の従業員を狙ったフィッシングメールキャンペーンが展開されていると伝えた。会社の給与明細を装った巧妙な新手の詐欺メールが出回っていると報告されている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ファッションECでクレカ情報9000件漏えいか、個人情報も最大5万件が対象に　三京商会「情報保有はしていない」]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2302/20/news133.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2302/20/news133.html"/>
+        <updated>2023-02-20T09:30:00.000Z</updated>
+        <summary type="html"><![CDATA[ECサイト「三京商会　公式ショップ」が不正アクセスにより決済システムを改ざんされ、最大でクレジットカード情報約9000件、個人情報約5万件が漏えいした可能性があると発表した。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[インボイス制度施行に向け、報酬の値上げなど求める「インボイス2％～アクション」、フリーランス協会が実施]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1480025.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1480025.html"/>
+        <updated>2023-02-20T08:30:00.000Z</updated>
+        <summary type="html"><![CDATA[一般社団法人プロフェッショナル＆パラレルキャリア・フリーランス協会は2月20日、インボイス制度導入に備えた啓発キャンペーン「インボイス2％～アクション」を実施することを発表した。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[トピックス]IGF 2023に向けた国内IGF活動活発化チーム第31回会合開催のご案内]]></title>
+        <id>https://www.nic.ad.jp/ja/topics/2023/20230220-01.html</id>
+        <link href="https://www.nic.ad.jp/ja/topics/2023/20230220-01.html"/>
+        <updated>2023-02-20T07:52:11.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[新潟県妙高市、糸魚川市、上越市で「上越ワーケーションWEEK」開催、3月1日にはトークセッションも]]></title>
         <id>https://internet.watch.impress.co.jp/docs/news/1480033.html</id>
@@ -5479,69 +5962,6 @@ https://●●●●.com/
         <summary type="html"><![CDATA[産業サイバーセキュリティセンター]]></summary>
         <author>
             <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[静岡銀行をかたるフィッシングについての注意喚起]]></title>
-        <id>https://eset-info.canon-its.jp/malware_info/news/detail/230123_2.html</id>
-        <link href="https://eset-info.canon-its.jp/malware_info/news/detail/230123_2.html"/>
-        <updated>2023-01-22T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[2023年1月23日現在、静岡銀行 をかたるフィッシングが確認されております。フィッシングサイト上の入力欄には、絶対に情報を入力しないようにお願いします。
-
-このようなフィッシングサイトにて、ログイン ID、店番、口座番号、ログインパスワード、氏名、生年月日、暗証番号、電話番号、メールアドレス等を絶対に入力しないよう、ご注意ください。
-
-日頃からサービスへログインする際は、メールや SMS 内のリンクではなく、いつも利用しているスマートフォンの公式アプリやブラウザーのブックマークなどからアクセスするよう、心がけてください。
-
-【メールの件名】
-
-【しずぎんアプリ】お取引目的等のご確認のお願い
-
-※上記以外の件名も使われている可能性があります。
-
-【サイトのURL】
-
-メール内のURL
-https://www.shizuokabannkco●●●●.org/
-
-転送先のURL
-https://www.shizuokabannkco●●●●.com/
-
-※上記以外のドメイン、URL も使われている可能性があります。
-※URL にパスやパラメータが付いていることがあります。
-
-2023/1/23 11:00時点では、フィッシングサイトは稼働中です。このサイトが停止しても、類似のフィッシングサイトが公開される恐れもありますので注意してください。
-このようなフィッシングサイトは日々新規に作成されています。ESET製品は、新規に作成されるフィッシングサイトにも随時対応していきますが、お客さま自身でも十分にご注意ください。
-
-【参考情報】
-
-【重要】当行を騙った不審な電子メールについて
-
-
- 
-
-
-■ ESET製品における検出例
-
-
-
-※ESET Internet Security V16.0/ESET Mobile Security V7.0でフィッシング対策機能が有効な場合は、図のような通知が表示されます。
-
-
-■ フィッシングメール／フィッシングサイトへの対応
-
-
-
-	フィッシングの可能性があるメールをむやみに開かない。
-	フィッシングの可能性があるメールの添付ファイルをむやみに開かない。
-	メール文中のリンク先URLがフィッシングサイトである可能性を考え、リンク先URLへむやみにアクセスしない。
-	フィッシングの可能性があるサイトにアカウント情報やクレジットカード情報などを入力しない。
-
-
-
-
-キヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。]]></summary>
-        <author>
-            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
         </author>
     </entry>
 </feed>
