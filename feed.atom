@@ -2,10 +2,736 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-02-27T08:13:40.454Z</updated>
+    <updated>2023-02-28T08:13:21.811Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Untitled]]></title>
+        <id>https://www.cisa.gov/node/17476</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/02/27/cisa-adds-one-known-exploited-vulnerability-catalog"/>
+        <updated>2023-02-28T08:13:01.333Z</updated>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ACアダプターが干渉せず最大11個挿せるタップ、サンワサプライが発売]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1482012.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1482012.html"/>
+        <updated>2023-02-28T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[サンワサプライ株式会社は、11個口のACタップ「TAP-SLIM1」シリーズを発売した。市場想定価格は、ケーブル長1mの「TAP-SLIM11-1W」が5500円、2mの「TAP-SLIM11-2W」が6050円、3mの「TAP-SLIM11-3W」が6600円。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft、Exchange サーバー上のウイルス対策ソフトウェアのスキャン除外リストを更新]]></title>
+        <id>https://security.srad.jp/story/23/02/27/158212/</id>
+        <link href="https://security.srad.jp/story/23/02/27/158212/"/>
+        <updated>2023-02-28T07:06:00.000Z</updated>
+        <summary type="html"><![CDATA[headless 曰く、Microsoft が Exchange サーバー上で実行するウイルス対策ソフトウェアのスキャン除外リストを更新し、2 つのフォルダーと 2 つのプロセスをリストから削除している
+(Microsoft Learn の記事、
+Exchange Team Blog の記事、
+Neowin の記事、
+Softpedia の記事)。
+
+スキャン除外リストから削除されたフォルダーは「ASP.NET Files」と「Inetsrv」、プロセスは「PowerShell.exe」と「w3wp.exe」。これらのフォルダーとプロセスはスキャン対象から除外する必要がなくなったそうだ。
+
+Microsoft では最新のアップデートを適用した Exchange Server 2019 と Microsoft Defender の組み合わせでテストを行い、これらのファイルとプロセスをスキャン対象から除外しなくてもパフォーマンスと安定性に影響しないことを確認したという。
+
+Exchange Server 2013 / 2016 でも問題は発生しないと考えられるが、これらのバージョンでは状況を注視し、問題が発生したら除外対象を元に戻して Microsoft に報告してほしいとのこと。なお、Exchange Server 2013 は 4 月にサポートが終了する。
+ すべて読む | セキュリティセクション | セキュリティ | マイクロソフト | ソフトウェア | IT |     
+  関連ストーリー： 
+Microsoft、Outlook REST APIの廃止を延期 2022年11月26日 
+Exchange Server に 2 件のゼロデイ脆弱性 2022年10月04日 
+Exchange Server、新年早々「2201010001」を long に変換できないエラー 2022年01月03日 
+Exchange Serverの脆弱性「ProxyLogin」を悪用したゼロデイ攻撃で被害多発 2021年03月08日]]></summary>
+        <author>
+            <name>nagazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[安心相談窓口だより「偽セキュリティ警告（サポート詐欺）の月間相談件数が過去最高に」]]></title>
+        <id>https://www.ipa.go.jp/security/anshin/mgdayori20230228.html</id>
+        <link href="https://www.ipa.go.jp/security/anshin/mgdayori20230228.html"/>
+        <updated>2023-02-28T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[【安心相談窓口だより】偽セキュリティ警告（別名：サポート詐欺）の手口に関する月間相談件数が、2023年1月過去最高を記録。被害拡大防止のため改めて注意喚起。]]></summary>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[data source backend plugin 開発【Grafana】]]></title>
+        <id>https://tech-lab.sios.jp/?p=32998</id>
+        <link href="https://tech-lab.sios.jp/archives/32998"/>
+        <updated>2023-02-28T06:18:09.000Z</updated>
+        <summary type="html"><![CDATA[はじめに こんにちは。サイオステクノロジーの佐々木（千）です。暖かくなってきて、春の訪れを感じています。 花粉症の方は大変な季節ですが、暖かくなるのはうれしいことですね。 さて今回は、Grafana data sourc [...]
+data source backend plugin 開発【Grafana】 first appeared on SIOS Tech. Lab.]]></summary>
+        <author>
+            <name>佐々木千奈</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[トピックス]『インターネット白書ARCHIVES』に2022年版が追加掲載]]></title>
+        <id>https://www.nic.ad.jp/ja/topics/2023/20230228-01.html</id>
+        <link href="https://www.nic.ad.jp/ja/topics/2023/20230228-01.html"/>
+        <updated>2023-02-28T06:16:18.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2月のWordPressプラグイン脆弱性まとめ、確認と対応を]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230228-2603413/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230228-2603413/"/>
+        <updated>2023-02-28T06:07:56.000Z</updated>
+        <summary type="html"><![CDATA[Sucuriは2月27日(米国時間)、2023年2月に明らかになったWordPressの脆弱性およびセキュリティパッチの情報について伝えた。SucuriはWebサイト所有者に対して新たな脅威を把握して対処してもらえるよう、1カ月間のWordPressエコシステムの重要なセキュリティアップデートと脆弱性パッチの一覧をまとめて公表している。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「Disneyアカウントの確認に必要な情報について」などの不審なメール、ディズニーをかたるフィッシングに注意　偽サイトに誘導し、名前や電話番号、カード情報などを詐取]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1481886.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1481886.html"/>
+        <updated>2023-02-28T05:58:35.000Z</updated>
+        <summary type="html"><![CDATA[ディズニーをかたるフィッシングの報告を受けているとして、フィッシング対策協議会が情報を公開した。誘導先のフィッシングサイトは2月27日12時時点で稼働中であるため、引き続き注意が必要だ。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[サイバー攻撃による顧客情報の漏えいでDNA検査会社に罰金]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230228-2602562/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230228-2602562/"/>
+        <updated>2023-02-28T05:11:34.000Z</updated>
+        <summary type="html"><![CDATA[Malwarebytesは2月23日(米国時間)、米オハイオ州のDNA検査会社であるDNA Diagnostics Center (DDC) が、サイバー攻撃によって顧客情報を漏洩させたことに対し、合計40万ドルの罰金を支払うことに合意したとに伝えた。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EC-CUBE における複数のクロスサイトスクリプティングの脆弱性]]></title>
+        <id>https://jvn.jp/jp/JVN04785663/</id>
+        <link href="https://jvn.jp/jp/JVN04785663/"/>
+        <updated>2023-02-28T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[株式会社イーシーキューブが提供する EC-CUBE には、複数のクロスサイトスクリプティングの脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ローソン銀行をかたるフィッシング、件名「【ローソン銀行】取引を規制いたしました。」などの不審なメールに注意　偽サイトに誘導し、契約番号やパスワードを詐取]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1481893.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1481893.html"/>
+        <updated>2023-02-28T04:56:53.000Z</updated>
+        <summary type="html"><![CDATA[ローソン銀行をかたるフィッシングの報告を受けているとして、フィッシング対策協議会が情報を公開した。誘導先のフィッシングサイトは2月27日16時時点で稼働中であるため、引き続き注意が必要だ。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Blog記事]『インターネット白書2023（分断する世界とインターネットガバナンス）』発刊、アーカイブには2022年版を追加！]]></title>
+        <id>https://blog.nic.ad.jp/2023/8596/</id>
+        <link href="https://blog.nic.ad.jp/2023/8596/"/>
+        <updated>2023-02-28T04:50:23.000Z</updated>
+        <summary type="html"><![CDATA[インターネットの最新動向がわかる年鑑『インターネット白書』の最新版、『インターネット白書2023（分断する世界とインターネットガバナンス）』が発行されましたので、気になる内容をお知らせします。また、「インターネット白書ARCHIVES」には2022年版が追加されました。「インターネット白書ARCHIVES」では1996年からのインターネット白書が無料で読めますので、ぜひご活用ください。]]></summary>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GMOトラスト・ログインとKeyspiderが連携、情報漏えいを防止]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230228-2603546/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230228-2603546/"/>
+        <updated>2023-02-28T04:22:37.000Z</updated>
+        <summary type="html"><![CDATA[GMOインターネットグループは27日、子会社化のGMOグローバルサインが提供する企業向けシングルサインオンサービス（IDaaS）「GMOトラスト・ログイン」がKeyspiderが提供する日本企業特化型ID管理ツール「Keyspider」と連携すると発表した。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazon、完全ワイヤレスの屋外用ネットワークカメラ「Ring Spotlight Cam Plus」発売]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1481915.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1481915.html"/>
+        <updated>2023-02-28T03:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Amazonは2月28日、「Ring」シリーズの屋外用ネットワークカメラ「Spotlight Cam Plus」の予約販売を開始した。販売価格は2万4980円で、3月15日より出荷開始の予定。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[国税庁、「確定申告書等作成コーナー」の処理能力を増強]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1481916.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1481916.html"/>
+        <updated>2023-02-28T03:40:52.000Z</updated>
+        <summary type="html"><![CDATA[国税庁は2月27日、インターネットで提供している「確定申告書等作成コーナー」の処理能力を増強したことを明らかにした。同コーナーは2月19日以降、アクセスが集中した場合に動作が遅くなるなどの事象が発生していたという。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ロシアのウクライナ侵攻開始から1年、米CISAがセキュリティ対策強化要請]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230228-2602606/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230228-2602606/"/>
+        <updated>2023-02-28T03:21:18.000Z</updated>
+        <summary type="html"><![CDATA[2月24日、ロシアによるウクライナへの侵攻が始まってちょうど1年間が経過した。米国土安全保障省サイバーセキュリティ・インフラストラクチャセキュリティ庁(CISA)は、ロシアにとっては記念日にあたる同日に米国とヨーロッパ諸国のWebサイトに大規模なサイバー攻撃が実施される可能性があるとして、セキュリティ対策を強化するように呼びかけた。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Yahoo!ニュース、コメント投稿時の携帯電話番号必須化で停止措置ユーザーが56％も減少【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1481794.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1481794.html"/>
+        <updated>2023-02-28T03:16:59.000Z</updated>
+        <summary type="html"><![CDATA[Yahoo!ニュースでコメント投稿時に携帯電話番号が必須になったことで、投稿停止措置が56％も減少したことが明らかになった。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三菱電機製MELSECシリーズのWEBサーバ機能における認証回避の脆弱性]]></title>
+        <id>https://jvn.jp/vu/JVNVU99673580/</id>
+        <link href="https://jvn.jp/vu/JVNVU99673580/"/>
+        <updated>2023-02-28T03:15:15.000Z</updated>
+        <summary type="html"><![CDATA[三菱電機製MELSEC iQ-F/iQ-RシリーズのWEBサーバ機能には、認証回避の脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三菱電機製MELSEC iQ-FシリーズCPUユニットにおける複数の脆弱性]]></title>
+        <id>https://jvn.jp/vu/JVNVU95926817/</id>
+        <link href="https://jvn.jp/vu/JVNVU95926817/"/>
+        <updated>2023-02-28T03:15:00.000Z</updated>
+        <summary type="html"><![CDATA[三菱電機製MELSEC iQ-FシリーズCPUユニットには、複数の脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Webex Meetingsサイト管理をSite Admin管理からControl Hubへ更新する方法]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=44333</id>
+        <link href="https://gblogs.cisco.com/jp/2023/02/how-to-update-webexmeetings-siteadmin-from-siteadminadmin-to-controlhub/"/>
+        <updated>2023-02-28T03:00:06.000Z</updated>
+        <summary type="html"><![CDATA[Webex Meetingsサイト管理コンソールは2023年末までに廃止予定になります。Site Admin管理からControl Hub管理へ移行するプロセスのポイントを説明致します。]]></summary>
+        <author>
+            <name>Masami Hata</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[web2py の開発ツールにおけるオープンリダイレクトの脆弱性]]></title>
+        <id>https://jvn.jp/jp/JVN78253670/</id>
+        <link href="https://jvn.jp/jp/JVN78253670/"/>
+        <updated>2023-02-28T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[web2py の admin 開発ツールにはオープンリダイレクトの脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[個人情報保護委、行政機関向けの研修資料を無償公開　HDD流出、USBメモリ紛失などの事例紹介も]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2302/28/news133.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2302/28/news133.html"/>
+        <updated>2023-02-28T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[個人情報保護委員会が行政機関向けの研修資料を公開した。個人情報保護法の基礎や、行政機関が講じるべき安全管理措置、漏えい事案が発生した場合の対応法などをまとめている。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ラック、Society5.0時代に対応し「情報リテラシー啓発のための羅針盤」改訂]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230228-2603453/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230228-2603453/"/>
+        <updated>2023-02-28T02:53:42.000Z</updated>
+        <summary type="html"><![CDATA[ラックは2月28日、サイバー空間におけるデジタル活用能力を、世代・立場別にどの水準まで習得する必要があるのかを示した「情報リテラシー啓発のための羅針盤（コンパス）」について、内容を改訂した第2.0版を公開したことを発表した。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Defenderアプリ、Microsoft 365で自動的にインストールされるよう変更]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230228-2603353/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230228-2603353/"/>
+        <updated>2023-02-28T02:52:27.000Z</updated>
+        <summary type="html"><![CDATA[Microsoftは「Installing Microsoft Defender - Microsoft Support」の内容を更新し、Microsoft 365のインストーラに「Microsoft Defenderアプリ」を同梱すると伝えた。これはMicrosoft 365をインストールすると自動的にMicrosoft Defenderアプリがインストールされることを意味している。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[いつまでも見ていられる、ストリートビューの面白スポットをランダムで紹介するウェブサイト【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1481790.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1481790.html"/>
+        <updated>2023-02-28T02:02:53.000Z</updated>
+        <summary type="html"><![CDATA[Googleストリートビューに収められた世界中の面白スポットをランダムで紹介するウェブサイトが登場して人気を博している。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「情報セキュリティ10大脅威 2023」解説書（組織編）を公開しました。]]></title>
+        <id>https://www.ipa.go.jp/security/vuln/10threats2023.html</id>
+        <link href="https://www.ipa.go.jp/security/vuln/10threats2023.html"/>
+        <updated>2023-02-28T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[情報セキュリティ関連情報のユーザー、管理者、技術者に向けた発信、その前提となる情報収集、調査分析、研究開発、技術評価等の実施]]></summary>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[wizSafe Security Signal 2023年1月 観測レポート]]></title>
+        <id>https://wizsafe.iij.ad.jp/?p=1524</id>
+        <link href="https://wizsafe.iij.ad.jp/2023/02/1524/"/>
+        <updated>2023-02-28T01:49:33.000Z</updated>
+        <summary type="html"><![CDATA[2023年1月観測レポートサマリ DDoS攻撃の観測情報 IIJマネージドセキュリティサービスの観測情報 Web/メールのマルウェア脅威の観測情報 セキュリティインシデントカレンダー ソフトウェアリリース情報 2023年 … "wizSafe Security Signal 2023年1月 観測レポート" の続きを読む]]></summary>
+        <author>
+            <name>SOCチーム</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「データ利活用ユースケース集」の公開]]></title>
+        <id>https://www.ipa.go.jp/ikc/our_activities/dt_data_guide03.html</id>
+        <link href="https://www.ipa.go.jp/ikc/our_activities/dt_data_guide03.html"/>
+        <updated>2023-02-28T01:15:00.000Z</updated>
+        <summary type="html"><![CDATA[データ利活用ユースケース集]]></summary>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「SKYSEA Client View」最新版が販売開始、Android端末の管理にも対応]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230228-2603342/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230228-2603342/"/>
+        <updated>2023-02-28T00:51:34.000Z</updated>
+        <summary type="html"><![CDATA[Ｓｋｙは2月27日、クライアント運用管理ソフトウェアの最新版「SKYSEA Client View Ver.18.2」（スカイシー クライアント ビュー バージョン18.2）の販売を開始した。最新版では、クラウド版であるM1 Cloud Editionの機能が拡張されている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ローソン銀行を偽るフィッシング確認、注意を]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230228-2603327/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230228-2603327/"/>
+        <updated>2023-02-28T00:24:28.000Z</updated>
+        <summary type="html"><![CDATA[フィッシング対策協議会(Council of Anti-Phishing Japan)は2月27日、ローソン銀行を偽るフィッシングの報告を受けていると伝えた。メールの件名として、「【ローソン銀行】取引を規制いたしました」が確認されており注意が必要。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ディズニーを偽るフィッシング確認、注意を]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230228-2603323/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230228-2603323/"/>
+        <updated>2023-02-27T23:49:16.000Z</updated>
+        <summary type="html"><![CDATA[フィッシング対策協議会(Council of Anti-Phishing Japan)は2月27日、ディズニーを偽るフィッシングの報告を受けていると伝えた。メールの件名としては、「Disneyアカウントの確認に必要な情報について」「最新のディズニー体験をお届けします！」が確認されており、注意が必要。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[米国のウイルス対策利用者の6割超、Microsoft Defenderなど無償製品に依存]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230228-2602485/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230228-2602485/"/>
+        <updated>2023-02-27T23:17:52.000Z</updated>
+        <summary type="html"><![CDATA[Security.orgはこのほど、米国のアンチウイルス市場に関する年次報告書を公表した。米国在住のユーザーを対象にインターネットによるアンチウイルスに関する世論調査が実施され、約1000人が回答し、その結果をまとめたレポートが公開されている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[世界で最初にＸＤＲを提唱した男のビジョンとは？ パロアルトネットワークス講演]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/02/28/48977.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/02/28/48977.html"/>
+        <updated>2023-02-27T23:15:03.000Z</updated>
+        <summary type="html"><![CDATA[XDR を最初に定義・提唱した人物の名は Nir Zuk氏。ファイアウォール最大手を経た後にパロアルトネットワークスを創業、NGFWを世に問うことで、それまでの伝統的ファイアウォールの世界観をアップデートしてみせたこの男が、XDR にこめたビジョンとは一体何だったのか。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[四年で四度の情報漏えい エドテック大手 政府から落第点]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/02/28/48976.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/02/28/48976.html"/>
+        <updated>2023-02-27T23:10:03.000Z</updated>
+        <summary type="html"><![CDATA[FTC によると、教育テック大手である Chegg のずさんなデータセキュリティ対策のために、学生や従業員の個人情報が 4 年の間に、1 度ならず 4 度も、さまざまな形で漏洩していたことが明らかになった。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[特定非営利活動法人にランサムウェア攻撃、サイトの更新や閲覧に影響]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/02/28/48975.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/02/28/48975.html"/>
+        <updated>2023-02-27T23:05:05.000Z</updated>
+        <summary type="html"><![CDATA[特定非営利活動法人きたうら花ねっとは2月7日、同法人へのサイバー攻撃について発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[浜松ケーブルテレビのモデム制御サーバに不正アクセス、「XorDDoS」が不特定のサイトにDDos攻撃]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/02/28/48974.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/02/28/48974.html"/>
+        <updated>2023-02-27T23:05:02.000Z</updated>
+        <summary type="html"><![CDATA[浜松ケーブルテレビ株式会社は2月16日、モデム制御サーバへの不正アクセスについて発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SHIRASAGI に複数のXSSの脆弱性]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/02/28/48973.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/02/28/48973.html"/>
+        <updated>2023-02-27T23:00:08.000Z</updated>
+        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は2月22日、SHIRASAGI における複数のクロスサイトスクリプティングの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tenable、サイバー保険会社に向けサイバーリスク情報提供]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/02/28/48972.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/02/28/48972.html"/>
+        <updated>2023-02-27T23:00:03.000Z</updated>
+        <summary type="html"><![CDATA[Tenable Network Security Japan株式会社は2月21日、Tenable Vulnerability Management ソリューションの一部として「サイバー保険レポート」を提供すると発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ポッドキャストを始めて音声機材を大幅パワーアップ！ ハブ機能付きモニターで「ケーブルの集約」も実現 ～ 941の在宅ワークスタイル【みんなの在宅ワーク：第94回】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/zaitaku_work/1481677.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/zaitaku_work/1481677.html"/>
+        <updated>2023-02-27T21:55:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、941と申します。こちらの連載では4度目の登場となります。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[セキュリティ観点を交えて考える、オープンソース活用のメリットとデメリット]]></title>
+        <id>https://eset-info.canon-its.jp/malware_info/special/detail/230228.html</id>
+        <link href="https://eset-info.canon-its.jp/malware_info/special/detail/230228.html"/>
+        <updated>2023-02-27T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[デジタルの進展に伴い利用が広がるオープンソースソフトウェア。その脆弱性を狙うサイバー攻撃の手口も近年、巧妙化・複雑化する傾向にある。この記事では、オープンソースソフトウェアの概要やメリット、デメリット、そして利用において生じ得るセキュリティリスクやその対処方法について解説する。
+
+
+
+
+
+オープンソースソフトウェア（OSS）とは
+
+オープンソースとは、読んで字の如く、プログラムの元となるソースコードがオープン（公開されている状態）になっており、誰でもそのコードへ自由にアクセスできることを意味する。本来、IT業界に端を発する用語であるが、今では広く世間一般に認知されるに至っている。
+
+オープンソースで開発されているソフトウェアのことをオープンソースソフトウェア（OSS）と呼ぶが、オープンソースソフトウェアには多くのメリットがあり、さまざまなケースで利用されている。
+
+オープンソースソフトウェアは、善意によって集った技術者によって開発・保守が進められており、原則として無償で利用できるものが多い。特に、多くの技術者に支持されているオープンソースソフトウェアの場合、機能開発や脆弱性対応のサイクルも高速化する傾向にある。一方で、開発に参加する技術者が少ないオープンソースソフトウェアの場合、そのサイクルが長期化してしまう懸念が残る。
+
+オープンソースとは、プログラムのソースコードが公開されていて、基本的に無償で利用できるソフトウェアのことだが、1998年にOpen Source Initiative（OSI）という団体によって、オープンソースが定義された。
+
+OSIが定めたオープンソースの定義が以下の10項目である。
+
+1）再頒布の自由（Free Redistribution）
+
+ソフトウェアを販売、あるいは無料で頒布することを制限してはならない。
+
+2）ソースコード（Source Code）
+
+ソフトウェアはソースコードを含んでいなければならず、ソースコードでの頒布も許可されていなければならない。
+
+3）派生ソフトウェア（Derived Works）
+
+ソフトウェアの変更や派生ソフトウェアの作成、派生ソフトウェアを元のソフトウェアと同じライセンスの下で頒布することを許可しなければならない。
+
+4）作者のソースコードの完全性（Integrity of The Author&rsquo;s Source Code）
+
+ソースコードと一緒にバッチファイルを頒布することを認める場合に限り、ライセンスによって変更されたソースコードの頒布を制限することができる。
+
+5）個人やグループに対する差別の禁止（No Discrimination Against Persons or Groups）
+
+特定の個人やグループを差別するものであってはならない。
+
+6）利用する分野に対する差別の禁止（No Discrimination Against Fields of Endeavor）
+
+ある特定の分野でプログラムを使うことを制限してはならない。
+
+7）ライセンスの分配（Distribution of License）
+
+プログラムに付随する権利は、そのプログラムが再頒布された者すべてに等しく認められなければならない。
+
+8）特定製品でのみ有効なライセンスの禁止（License Must Not Be Specific to a Product）
+
+プログラムに付与された権利は、それがある特定のソフトウェア頒布物の一部であるということに依存するものであってはならない。
+
+9）他のソフトウェアを制限するライセンスの禁止（License Must Not Restrict Other Software）
+
+ライセンスはそのソフトウェアとともに頒布される、ほかのソフトウェアに制限を設けてはならない。
+
+10）ライセンスは技術中立的でなければならない（License Must Be Technology-Neutral）
+
+ライセンス中に、特定の技術やインターフェースの様式に強く依存するような規定があってはならない。
+
+上記の定義を満たすことで、OSIから「OSI認証マーク」が与えられる。
+
+オープンソースソフトウェアとフリーソフトの違い
+
+先述のオープンソースの定義に従って配布されているオープンソースソフトウェアは、多くの場合に無償で利用できるというメリットから、今ではOSやアプリケーションをはじめ、数多くのOSSがさまざまな場面で利用されている。
+
+無償で利用できるソフトウェアとして、フリーソフト（フリーウェア）も存在するが、フリーソフトの場合、ソースコードが公開されていないものが少なくない。また、無償で利用できるのは個人利用に限定されることがある。加えて、ソースコードの改変や再頒布が可能かどうかなどもソフトウェアの作者に委ねられる。
+
+一方でOSSは先述のように、「ソースコードが公開され」、「無償で再配布が可能」という定義がある。
+また、オープンソースソフトウェアは企業での利用も想定されていることもあって、企業が要求する利用環境に耐え得る性能や機能、品質を実現している。そういったオープンソースの高機能化に伴い、有償のサポートを提供する事業者も増えている。
+
+なお、OSSは複製や改修、再頒布などについての取り決めとしてライセンスが定められている。主なOSSライセンスは以下のとおりだ。
+
+GPL（General Public License）
+
+GNUプロジェクトが提唱するフリーソフトウェアのライセンス。ソフトウェアとそれを使用するユーザーに、使用・複製・変更・再頒布などの自由を与える。派生的・二次的なソフトウェアを作成した場合には、これにもGPLを適用しなければならない。
+
+BSDL（BSD Licenses）
+
+カリフォルニア大学によって作成されたオープンソースライセンスで、公開されたプログラムを改変したり、派生的な著作物は、ソースコードを公開せずに販売・頒布したり、BSDLとは異なるライセンスで提供できる。
+
+MPL（Mozilla Public License）
+
+Mozilla Foundationによって作成されたフリーソフトウェアライセンス、オープンソースライセンスであり、BSDLとGPLのハイブリッドと言えるライセンスで、プロプライエタリとオープンソースの間のバランスを模索したものとなっている。
+
+主なオープンソースソフトウェア
+
+オープンソースソフトウェアはWebサイト、アプリ開発などで利用される、おなじみのものが多い。また、Webブラウザーなど個人ユーザー向けのものも少なくない。
+
+Webサイト、アプリ開発向け
+
+リレーショナルデータベースとしてMySQLやPostgreSQL、WebサーバーとしてApache HTTP Server、プログラム言語としてPHP、Ruby、Perl、Python、Javaなど。また、コンテンツ管理システムとしてWordPressなどがよく使われている。
+
+個人ユーザー向け
+
+OSとしてLinuxやFreeBSD、Androidなど、WebブラウザーとしてFirefox、Brave、Opera、メールソフトではThunderbirdなどがよく知られている。
+
+Androidはウイルスに狙われやすい？必要なセキュリティ対策は？
+
+オープンソースソフトウェア利用のメリットとデメリット
+
+オープンソースソフトウェアを利用する際は、メリットとデメリットを予め理解しておくことが望ましい。具体的なメリットとデメリットは以下のとおりだ。
+
+1）オープンソースソフトウェア利用のメリット
+
+
+	ソースコードの信頼性や透明性が高い
+	自由に改修できる
+	低コストで導入できる
+	ベンダーロックインに陥らない
+	関連する情報が豊富である
+
+
+2）オープンソースソフトウェア利用のデメリット
+
+
+	不具合や脆弱性に対する保証がない
+	開発コミュニティ存続の保証がない
+	有償サポートが必要となる場合がある
+
+
+オープンソースソフトウェアの開発や保守、情報交換などはコミュニティによって行われている。オープンソースコミュニティとは、各オープンソースソフトウェアのユーザーや開発者で構成された非営利団体であり、オープンソースコミュニティに参加して活動することはOSS活動と呼ばれる。OSS活動はエンジニアとしてのスキルを可視化する手段の1つとしてキャリアアップにもつながるため、従業員の活動への関与を推奨している企業もある。
+
+オープンソースはこうしたコミュニティに依存する傾向が強く、それがメリットやデメリットに直結する。フリーソフトとの混同からか、無償利用というメリットばかりが強調されるものの、一概に無償のものばかりではないことにも注意が必要だ。また、昨今のセキュリティ事情を踏まえ、利用時には配布元の信頼性についても精査しておく必要があるだろう。
+
+WebブラウザーChromeが頻繁にアップデートを求める理由とは？
+
+オープンソースソフトウェアのセキュリティリスクと対処方法
+
+オープンソースソフトウェアは原則としてソースコードが公開されているため、脆弱性が発見された場合、各オープンソースコミュニティがその脆弱性へ対処することが多い。そのため、コミュニティの活動状況によって脆弱性への対処時間も異なる。
+
+このような背景から、コミュニティが過疎化しているオープンソースソフトウェアでは利用するリスクは自ずと高くなる。実際に、最近ではオープンソースソフトウェアの脆弱性を狙うサイバー攻撃も増加している。例えば、2021年12月に発見された「Log4Shell」は、Javaのログ出力ライブラリ「Apache Log4j」の脆弱性であるが、Log4Shellに起因する被害事例も多数報告されている。
+
+こうしたオープンソースソフトウェアのセキュリティリスクへ対処するための基本的な3つのステップを紹介する。
+
+1）リストアップ
+
+利用しているオープンソースソフトウェアを洗い出し、リストアップする。
+
+2）脆弱性のチェック
+
+利用しているオープンソースソフトウェアにおいて、新たな脆弱性が生じていないか定期的に確認する。
+
+3）脆弱性の解消
+
+脆弱性が生じた場合、極めてリスクの高いものから順次アップデートを行い、脆弱性の解消を目指す。
+
+基本的に無償で導入できるというメリットからオープンソースソフトウェアの採用を検討する企業は少なくないだろう。しかし、その裏で抱えるリスクを認識せずに導入したことで、重大なインシデントに遭遇する恐れもある。そうなっては本末転倒であり、場合によっては事業継続に大きなダメージを被る可能性も否定できない。くれぐれもオープンソースソフトウェアを利用する際には、入念に検証した上で導入するようにしてほしい。
+
+「Log4Shell」の深刻な脆弱性を狙った数十万回もの攻撃試行を検出]]></summary>
+        <author>
+            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ローソン銀行をかたるフィッシングについての注意喚起]]></title>
+        <id>https://eset-info.canon-its.jp/malware_info/news/detail/230228_3.html</id>
+        <link href="https://eset-info.canon-its.jp/malware_info/news/detail/230228_3.html"/>
+        <updated>2023-02-27T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[2023年2月27日現在、ローソン銀行をかたるフィッシングが確認されております。フィッシングサイト上の入力欄には、絶対に情報を入力しないようにお願いします。
+
+このようなフィッシングサイトにて、ご契約者番号、ログインパスワード等を絶対に入力しないよう、ご注意ください。
+
+日頃からサービスへログインする際は、メールや SMS 内のリンクではなく、いつも利用しているスマートフォンの公式アプリやブラウザーのブックマークなどからアクセスするよう、心がけてください。
+
+【メールの件名】
+
+【ローソン銀行】取引を規制いたしました。
+
+※上記以外の件名も使われている可能性があります。
+
+【サイトのURL】
+
+https://www.jp-net-bamk.●●●●.com/
+
+※上記以外のドメイン、URL も使われている可能性があります。
+※URL にパスやパラメータが付いていることがあります。
+
+2023/2/27 16:00時点では、フィッシングサイトは稼働中です。このサイトが停止しても、類似のフィッシングサイトが公開される恐れもありますので注意してください。
+このようなフィッシングサイトは日々新規に作成されています。ESET製品は、新規に作成されるフィッシングサイトにも随時対応していきますが、お客さま自身でも十分にご注意ください。
+
+【参考情報】
+
+ローソン銀行を騙ったメール、SMSにご注意ください
+
+
+ 
+
+
+■ ESET製品における検出例
+
+
+
+※ESET Internet Security V16.0/ESET Mobile Security V7.0でフィッシング対策機能が有効な場合は、図のような通知が表示されます。
+
+
+■ フィッシングメール／フィッシングサイトへの対応
+
+
+
+	フィッシングの可能性があるメールをむやみに開かない。
+	フィッシングの可能性があるメールの添付ファイルをむやみに開かない。
+	メール文中のリンク先URLがフィッシングサイトである可能性を考え、リンク先URLへむやみにアクセスしない。
+	フィッシングの可能性があるサイトにアカウント情報やクレジットカード情報などを入力しない。
+
+
+
+
+キヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。]]></summary>
+        <author>
+            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ディズニーをかたるフィッシングについての注意喚起]]></title>
+        <id>https://eset-info.canon-its.jp/malware_info/news/detail/230228_2.html</id>
+        <link href="https://eset-info.canon-its.jp/malware_info/news/detail/230228_2.html"/>
+        <updated>2023-02-27T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[2023年2月27日現在、ディズニーをかたるフィッシングが確認されております。フィッシングサイト上の入力欄には、絶対に情報を入力しないようにお願いします。
+
+このようなフィッシングサイトにて、メールアドレス、ユーザー ID、パスワード、お名前 (全角)、お名前 (かな)、生年月日、電話番号、郵便番号、都道府県、市町村区、番地・マンション名など、カード名義人、カード番号、有効期限、セキュリティコード等を絶対に入力しないよう、ご注意ください。
+
+日頃からサービスへログインする際は、メールや SMS 内のリンクではなく、いつも利用しているスマートフォンの公式アプリやブラウザーのブックマークなどからアクセスするよう、心がけてください。
+
+【メールの件名】
+
+Disneyアカウントの確認に必要な情報について
+最新のディズニー体験をお届けします！
+
+※上記以外の件名も使われている可能性があります。
+
+【サイトのURL】
+
+https://trashtotreasure●●●●.com/jp.php
+https://theexpressive●●●●.com/jp.php
+https://michaelina●●●●.com/jp.php
+http://recetadulced●●●●.com/jp.php
+
+※上記以外のドメイン、URL も使われている可能性があります。
+※URL にパスやパラメータが付いていることがあります。
+
+2023/2/27 12:00時点では、フィッシングサイトは稼働中です。このサイトが停止しても、類似のフィッシングサイトが公開される恐れもありますので注意してください。
+このようなフィッシングサイトは日々新規に作成されています。ESET製品は、新規に作成されるフィッシングサイトにも随時対応していきますが、お客さま自身でも十分にご注意ください。
+
+【参考情報】
+
+不審なメール（なりすましメール）にご注意ください
+
+
+ 
+
+
+■ ESET製品における検出例
+
+
+
+※ESET Internet Security V16.0/ESET Mobile Security V7.0でフィッシング対策機能が有効な場合は、図のような通知が表示されます。
+
+
+■ フィッシングメール／フィッシングサイトへの対応
+
+
+
+	フィッシングの可能性があるメールをむやみに開かない。
+	フィッシングの可能性があるメールの添付ファイルをむやみに開かない。
+	メール文中のリンク先URLがフィッシングサイトである可能性を考え、リンク先URLへむやみにアクセスしない。
+	フィッシングの可能性があるサイトにアカウント情報やクレジットカード情報などを入力しない。
+
+
+
+
+キヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。]]></summary>
+        <author>
+            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[McAfee 2023 Consumer Mobile Threat Report]]></title>
+        <id>https://www.mcafee.com/blogs/?p=165002</id>
+        <link href="https://www.mcafee.com/blogs/internet-security/mcafee-2023-consumer-mobile-threat-report/"/>
+        <updated>2023-02-27T14:00:42.000Z</updated>
+        <summary type="html"><![CDATA[Smartphones put the proverbial world in the palm of your hand—you pay with it, play with it, keep in touch...
+The post McAfee 2023 Consumer Mobile Threat Report appeared first on McAfee Blog.]]></summary>
+        <author>
+            <name>McAfee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[data source backend plugin 環境構築【Grafana】]]></title>
+        <id>https://tech-lab.sios.jp/?p=32944</id>
+        <link href="https://tech-lab.sios.jp/archives/32944"/>
+        <updated>2023-02-27T09:34:50.000Z</updated>
+        <summary type="html"><![CDATA[はじめに こんにちは。最近、Grafanaエンジニアと化しています、サイオステクノロジーの佐々木（千）です。 立て続けにブログを投稿したところ、同期との会話でブログに色々指摘をもらい、読みやすいブログ作成を心掛けていきた [...]
+data source backend plugin 環境構築【Grafana】 first appeared on SIOS Tech. Lab.]]></summary>
+        <author>
+            <name>佐々木千奈</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ミクシィ、技術カンファレンスを初の単独開催　ゲーム開発やクラウドセキュリティなど27セッション]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2302/27/news184.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2302/27/news184.html"/>
+        <updated>2023-02-27T09:14:00.000Z</updated>
+        <summary type="html"><![CDATA[MIXIが同社で初めて技術カンファレンスを単独開催する。全セッションをYouTube Liveで配信。一部のセッションは東京都渋谷区のイベントスペース「SHIBUYA STREAM HALL」でも講演する。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PPAPの代替、主流は？　HENNGEが情シス300人にアンケート]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2302/27/news183.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2302/27/news183.html"/>
+        <updated>2023-02-27T09:05:00.000Z</updated>
+        <summary type="html"><![CDATA[いわゆる“PPAP”の代替として、利用が進んでいるサービスは──HENNGEが情報システム担当者300人に調査。最多の回答は？]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[1/21開催「Network Security Forum 2020」の参加登録受付を開始しました。]]></title>
         <id>https://www.jnsa.org/seminar/nsf/2020/index.html</id>
