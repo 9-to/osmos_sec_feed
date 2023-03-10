@@ -119,6 +119,16 @@
       "siteUrl": "https://www.ipa.go.jp/about/index.html",
       "articles": [
         {
+          "id": "https://www.ipa.go.jp/ikc/seminar/20230209.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "IPAは経済産業省とともに、企業・組織のDX推進を人材のスキル面から支援するため、2022年12月に個人の学習や企業の人材の確保・育成の指針となる「デジタルスキル標準（DSS）」を策定しました。",
+          "link": "https://www.ipa.go.jp/ikc/seminar/20230209.html",
+          "publishedOn": "2023-03-10T01:00:00.000Z",
+          "wordCount": 155,
+          "title": "「デジタルスキル標準（DSS）紹介ウェビナー」アーカイブ動画、講演資料の公開",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.ipa.go.jp/security/vuln/seminar/lab_semi_scap_2023_2.html",
           "author": "情報処理推進機構（IPA）",
           "description": "情報セキュリティ関連情報のユーザー、管理者、技術者に向けた発信、その前提となる情報収集、調査分析、研究開発、技術評価等の実施",
@@ -709,6 +719,26 @@
       "siteUrl": "https://gblogs.cisco.com/jp",
       "articles": [
         {
+          "id": "https://gblogs.cisco.com/jp/?p=45289",
+          "author": "Shoichi Sakane",
+          "description": "2023年3月25日～31日にかけて、横浜で「IETF 116」が開催されます。日本での開催は2015年に開催されたIETF 94以来、8年ぶりです。Cisco Japan Blogでは、全3回にわたってCisco JapanでIETFに関わるメンバーに、IETFの意義や歴史などを聞き、その魅力をお伝えします。第1回は、そのキャリアの中、長くIETFに関わり、IoTのネットワークのスペシャリストである坂根昌一さんにIETFへの関わり方、そしてエンジニアがIETFに参加する意義について聞きました。",
+          "link": "https://gblogs.cisco.com/jp/2023/03/ietf116yokohama-blog2-shoichisakane/",
+          "publishedOn": "2023-03-10T06:00:36.000Z",
+          "wordCount": 229,
+          "title": "エンジニアが「市場を作る」人脈作りと知識向上の近道はIETFへの参加",
+          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs%3Agblogs/sites/2/IETF116Yokohama-memberBlogBanner-460x230.jpg"
+        },
+        {
+          "id": "https://gblogs.cisco.com/jp/?p=45406",
+          "author": "TALOS Japan",
+          "description": "本日（3 月 3 日）の投稿では、2 月 24 日 ～ 3 月 3 日の 1 週間で Talos が確認した最も蔓延している脅威をまとめています。これまでのまとめ記事と同様に、この記事でも詳細な分析は目的としていません。脅威の主な行動特性やセキュリティ侵害の指標に焦点を当て、シスコのお客様がこれらの脅威からどのように保護されるかについて説明しています。",
+          "link": "https://gblogs.cisco.com/jp/2023/03/talos-threat-roundup-feb-24-march-3-2023/",
+          "publishedOn": "2023-03-10T01:55:16.000Z",
+          "wordCount": 2109,
+          "title": "脅威のまとめ（2 月 24 日～ 3 月 3 日）",
+          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/recurring-blog-images_threat-roundup-460x230.jpg"
+        },
+        {
           "id": "https://gblogs.cisco.com/jp/?p=45355",
           "author": "若村 友行",
           "description": "病院おいて医療機器のネットワーク化やモバイルデバイスの普及が進むことで、院内のネットワーク運用はより重要性を増しています。昨今の病院におけるネットワーク運用の現状を踏まえ、それに対する有効な対策を紹介したいと思います。",
@@ -921,6 +951,16 @@
       "siteUrl": "https://tech-lab.sios.jp",
       "articles": [
         {
+          "id": "https://tech-lab.sios.jp/?p=33260",
+          "author": "佐藤陽",
+          "description": "こんにちは、サイオステクノロジーの佐藤 陽です。 今回はStaticWebAppsのconfigファイル(staticwebappp.config.json)を環境ごとに設定する内容になります。 便利なプレビュー環境機能 [...]\n【Azure Static Web Apps】環境ごとにconfigファイルを切り替えよう【Azure Pieplines】 first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/33260",
+          "publishedOn": "2023-03-10T01:51:40.000Z",
+          "wordCount": 2475,
+          "title": "【Azure Static Web Apps】環境ごとにconfigファイルを切り替えよう【Azure Pieplines】",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2023/03/thumbnail-2.png"
+        },
+        {
           "id": "https://tech-lab.sios.jp/?p=33229",
           "author": "田中龍之介",
           "description": "初めに どもども！お疲れ様です。最近は業務で取り扱ったことをブログに投げつける日々な龍ちゃんです。このブログは前回の記事「Azure AD B2C 認証ページを作ってみる【React】」を拡充する内容になります。Reac [...]\nAzure AD B2C 認証オプションについて【React】 first appeared on SIOS Tech. Lab.",
@@ -1033,6 +1073,16 @@
       "feedUrl": "https://eset-info.canon-its.jp/RSS.rdf",
       "siteUrl": "https://eset-info.canon-its.jp/",
       "articles": [
+        {
+          "id": "https://eset-info.canon-its.jp/malware_info/term/detail/00190.html",
+          "author": null,
+          "description": "個人を特定する情報や趣味嗜好の情報などを、本人の同意なしに収集してインターネット上で晒す行為\n\n\n\n\nドキシング（Doxing）の語源は、個人情報などが含まれるファイルを意味する「文書（Documents）」の略語「Docs」の綴りに由来する造語だ。特定のユーザーに関する情報を粘着質に収集し、その集めた情報をインターネット上に公開することで、対象のユーザーに対して「恥ずかしい」、「悲しい」、「恐ろしい」といった心理的、あるいは金銭的な悪影響を及ぼすことを目的とする。\n\n日本のインターネット掲示板などでも以前から「晒し」と呼ばれる、住所・携帯電話番号・顔写真など個人を特定する情報を本人に無断で掲示板上に投稿する行為が存在する。こうした対象ユーザーの感知しないところでの行為によって、被害を与えようとする側面を踏まえると、一種のいじめに近いとも言える。\n\nドキシングの問題点はその行為自体だけでなく、以降の行為が進展していくことでより大きくなっていくことだ。例えば、インターネット上での行為がやがて現実世界にまで波及し、ストーキングやハラスメント、暴力・殺人事件といった犯罪に至る可能性もあるのだ。\n\nドキシングの狙いとターゲット\n\nインターネット利用の有無を問わず、あらゆるユーザーがドキシング、あるいは類似行為のターゲットとなり得る。ドキシングでは個人だけでなく、企業・組織などの集団も狙われる場合がある。こうした行為に共通することとして、犯罪者はターゲットに関する情報をインターネット上に晒すことで、何かしらの悪影響を与え得るという前提に立っている。\n\nそのため、過去には個人だけでなく企業・組織をターゲットにしたドキシングの事例も少なくない。例えば、ある企業・組織が提供するサービス、品質に対して不満を持ったユーザーが、その企業・組織の従業員に関して当人の了承なく個人情報や秘匿性の高い情報をインターネット上に公開するといった行為が該当するだろう。\n\nこうした行為の狙いはケースによって実にさまざまだ。個人的な承認欲求を満たそうとするものから、拗らせた感情を伴う復讐心のようなもの、さらには間違った正義感によるものである。特に昨今、コロナ禍やウクライナ侵攻など世界的な情勢不安から、自らの主観的な正義感からドキシングを企むケースもある。\n\n例えば、オーストリアではドキシングの被害に遭遇した結果、命を落としてしまうといった事例もあった。職業柄、新型コロナワクチンの必要性を訴えていたオーストリアの医師は、異なった主張を行う集団から継続的な脅迫に加え、殺害予告まで受けていた。当人の個人情報が公開されたことで、脅迫元は国内だけでなく国外にも広がり、最終的に自ら命を絶つに至ったのだ。\n\n ドキシングとは？その定義とリスク、対策について解説  \n\nドキシングにおける情報収集の方法\n\nインターネット全盛の現在、ターゲットの情報収集はある程度のインターネットリテラシーがあれば容易に行うことが可能だ。セルフブランディングのような意図で、インターネット上に自らの経歴、実績だけでなく、個人情報に近いものまでアップしているユーザーも一定数存在する。そうした情報を拾い集めるだけでも、ターゲットに関してある程度の情報は得られてしまう。主に、以下のような手法を用いることが多い。\n\n検索エンジン\n\nインターネット上での情報発信を行っているユーザーであれば、「エゴサーチ」をしたことがあるかもしれない。実際、そういったユーザーが自らの名前を検索エンジンで調べてみると、検索結果上に自分自身に関する情報が想定以上に表示されることに驚いたという話も聞かれる。\n\nまた、SNSのアカウント名、掲示板上でのハンドルネーム、あるいは特定のキーワードを掛け合わせることで表示される情報もある。ある程度の検索リテラシーがあれば、さまざまな情報が調べられる。一時期、よく聞かれた「特定厨」といったユーザーは、こうした手法を用いることが少なくない。\n\n所属組織、企業などの公式サイト\n\n所属する企業、組織の公式サイト上においても、個人を特定できる情報は少なくない。例えば、新卒向けの採用サイトなどでは、先輩社員インタビューとして、個人名が掲載されている場合がある。さらに、自らの出身地、出身大学、高校などの情報が掲載されているケースもある。\n\nSNS\n\nSNSのアカウント上では個人情報が溢れており、犯罪者にとってはドキシングのための情報の宝庫とすら呼べるかもしれない。所属企業、組織、出身地、現住所までが記載され、全体に公開しているユーザーも見受けられる。また、つながりあるユーザーのみの限定公開であっても、最近ではなりすまし、乗っ取ったアカウントを用いる場合などもあり、注意が必要だ。\n\nソーシャルエンジニアリング\n\n古典的な手法ながら、先述のような情報源への危機意識の高まりから、リアルな人間関係を構築して情報収集する場合もある。インターネット上ですでに一定の情報を収集した上で、旧来の知人になりすますなんてことも想定される。\n\nドキシングの被害を防ぐために\n\nドキシングのターゲットとして狙われた場合、確実に防御する方法は存在しないと言ってよいだろう。そのためにも日頃から自らに関する情報を公開する際には、メリットだけでなくデメリットやリスクを踏まえた上で判断すべきだ。また、万全ではないが、以下のような対策を講じることで安全性は高まるはずだ。\n\n検索エンジン\n\n自らが運用するWebサイトがある場合、検索エンジンのクロール対象外にするといった方法がある。例えば、robots.txtに検索回避のためのコードを記載するという対応も取り得る。ただし、多くの場合、こうした情報を公開するのは自らの売り込みのためだろう。そのため、検索エンジンの検索結果に載せないという判断ではなく、そもそもの情報自体を特定されにくいように編集するといった対応も検討すべきだ。\n\nSNSに掲載する情報を制限する\n\nインターネット上での活動でさまざまなつながり、メリットを享受できているユーザーは少なくないはずだ。もはやデジタルでのつながりだけで完結するビジネスも珍しくない。そして、そういったメリットのためにSNSなどで積極的に情報発信をしている、あるいはプロフィールを細部まで公開しているといったケースもあるだろう。\n\nそのような場合、掲載している情報が元でドキシングのような被害に遭遇してしまうデメリットとメリットを比較するとよいだろう。そのデメリットがメリットを大きく上回る場合、その掲載について再考すべきだろう。また、公開情報自体を編集して個人を特定できる情報を極力控えることで、より適切な情報発信、SNS活動が行えるのではないだろうか。\n\nインターネットは物理的な距離を問わず、新たな人間関係を構築できる有用なツールでもある。そうしたメリットを享受しながら、ドキシングの被害を防止、あるいは抑制するためのバランスを保った情報発信を模索するとよいだろう。",
+          "link": "https://eset-info.canon-its.jp/malware_info/term/detail/00190.html",
+          "publishedOn": "2023-03-09T15:00:00.000Z",
+          "wordCount": 185,
+          "title": "ドキシング",
+          "imageUrl": "https://eset-info.canon-its.jp/files/user/images/common/sns_thumb.jpg"
+        },
         {
           "id": "https://eset-info.canon-its.jp/malware_info/news/detail/230309_3.html",
           "author": null,
@@ -1308,6 +1358,16 @@
       "siteUrl": "https://blogs.trellix.jp",
       "articles": [
         {
+          "id": "https://blogs.trellix.jp/?p=18987",
+          "author": "mcafee_admin",
+          "description": "ChatGPTにするのかしないのか？それは最近のサイバー界隈で頻繁にやり取りされる会話です。AIボットが社会を席巻しているのは当然です。MetaのFAIR、GoogleのLaMDA、IBMのWatson、Microsof […]",
+          "link": "https://blogs.trellix.jp/chatgpt-a-tool-for-offensive-cyber-operations-not-so-fast",
+          "publishedOn": "2023-03-10T00:45:33.000Z",
+          "wordCount": 393,
+          "title": "ChatGPTは攻撃的なサイバー作戦のためのツールになり得るのか",
+          "imageUrl": "https://blogs.trellix.jp/wp-content/uploads/2023/03/ChatGPT_eye2.jpg"
+        },
+        {
           "id": "https://blogs.trellix.jp/?p=18840",
           "author": "mcafee_admin",
           "description": "世界的に不況が続いており、経済情勢は厳しい状況にあります。このような環境の中、求人をテーマにしたメールは、脆弱な個人を悪用しようとするサイバー犯罪者の格好のターゲットとなっています。 図1（画像：freepik.com  […]",
@@ -1384,6 +1444,39 @@
       "feedUrl": "https://www.nic.ad.jp/ja/index.xml",
       "siteUrl": "https://www.nic.ad.jp/",
       "articles": [
+        {
+          "id": "https://www.nic.ad.jp/ja/topics/2023/20230309-02.html",
+          "author": null,
+          "description": "",
+          "link": "https://www.nic.ad.jp/ja/topics/2023/20230309-02.html",
+          "publishedOn": "2023-03-09T07:29:02.000Z",
+          "wordCount": null,
+          "title": "[トピックス]IGF 2023に向けた国内IGF活動活発化チーム第32回会合開催のご案内",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nic.ad.jp/ja/stat/ip/",
+          "author": null,
+          "description": "",
+          "link": "https://www.nic.ad.jp/ja/stat/ip/",
+          "publishedOn": "2023-03-09T05:48:54.000Z",
+          "wordCount": null,
+          "title": "[Web更新]IPアドレスに関する統計・各種リスト以下のグラフを更新　2023年2月のデータを追加",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.nic.ad.jp/2023/8613/",
+          "author": null,
+          "description": "2023年2月20日から3月2日までフィリピン・マニラで開催された、APRICOT 2023/APNIC55カンファレンスでは、ポリシー議論と共にAPNIC Exective Council (EC)の選挙も行われました。実はこの選挙戦では、法執行機関への通報や政府関係者からの懸念が示されるほどの、公正な選挙が脅かされる不正が問題となっていたことをご存じでしょうか。こういった問題への対処のために、JPNICは、グローバルインターネットの最重要機能の一つであるAPNICの強靱化を求めて、定款改定を求める書簡をAPNICに提出しました。本稿では、背景情報やこの書簡に込めた思いなどをお伝えします。",
+          "link": "https://blog.nic.ad.jp/2023/8613/",
+          "publishedOn": "2023-03-09T04:00:36.000Z",
+          "wordCount": null,
+          "title": "[Blog記事]APNIC理事選挙を振り返って　～　インターネットの基盤運営機構を守るために",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.nic.ad.jp/ja/stat/ip/20230309.html",
           "author": null,
@@ -1653,6 +1746,160 @@
       ]
     },
     {
+      "title": "CISA Cybersecurity Advisories",
+      "feedUrl": "https://www.cisa.gov/uscert/ncas/alerts.xml",
+      "siteUrl": "https://www.cisa.gov/",
+      "articles": [
+        {
+          "id": "/node/17470",
+          "author": "CISA",
+          "description": "SUMMARY\nThe Cybersecurity and Infrastructure Security Agency (CISA) is releasing this Cybersecurity Advisory (CSA) detailing activity and key findings from a recent CISA red team assessment—in coordination with the assessed organization—to provide network defenders recommendations for improving their organization's cyber posture.\nActions to take today to harden your local environment:\nEstablish a security baseline of normal network activity; tune network and host-based appliances to detect anomalous behavior.\nConduct regular assessments to ensure appropriate procedures are created and can be followed by security staff and end users.\nEnforce phishing-resistant MFA to the greatest extent possible.\nIn 2022, CISA conducted a red team assessment (RTA) at the request of a large critical infrastr…",
+          "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-059a",
+          "publishedOn": "2023-02-24T19:04:05.000Z",
+          "wordCount": 8585,
+          "title": "Untitled",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/17466",
+          "author": "CISA",
+          "description": "SUMMARY\nNote: This joint Cybersecurity Advisory (CSA) is part of an ongoing #StopRansomware effort to publish advisories for network defenders that detail various ransomware variants and ransomware threat actors. These #StopRansomware advisories include recently and historically observed tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) to help organizations protect against ransomware. Visit stopransomware.gov to see all #StopRansomware advisories and to learn more about other ransomware threats and no-cost resources.\nActions to take today to mitigate cyber threats from ransomware:\nPrioritize remediating known exploited vulnerabilities.\nTrain users to recognize and report phishing attempts.\nEnable and enforce multifactor authentication.\nThe Federal Bureau of In…",
+          "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-061a",
+          "publishedOn": "2023-02-24T17:30:43.000Z",
+          "wordCount": 3034,
+          "title": "Untitled",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/17286",
+          "author": "CISA",
+          "description": "SUMMARY\nNote: This Cybersecurity Advisory (CSA) is part of an ongoing #StopRansomware effort to publish advisories for network defenders that detail various ransomware variants and various ransomware threat actors. These #StopRansomware advisories detail historically and recently observed tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) to help organizations protect against ransomware. Visit stopransomware.gov to see all #StopRansomware advisories and to learn about other ransomware threats and no-cost resources.\nThe United States National Security Agency (NSA), the U.S. Federal Bureau of Investigation (FBI), the U.S. Cybersecurity and Infrastructure Security Agency (CISA), the U.S. Department of Health and Human Services (HHS), the Republic of Korea (ROK) Nat…",
+          "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-040a",
+          "publishedOn": "2023-02-16T20:45:26.000Z",
+          "wordCount": 3949,
+          "title": "Untitled",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/17270",
+          "author": "CISA",
+          "description": "Summary\nThe Cybersecurity and Infrastructure Security Agency (CISA) and the Federal Bureau of Investigation (FBI) are releasing this joint Cybersecurity Advisory (CSA) in response to the ongoing ransomware campaign, known as “ESXiArgs.” Malicious actors may be exploiting known vulnerabilities in VMware ESXi servers that are likely running unpatched and out-of-service or out-of-date versions of VMware ESXi software to gain access and deploy ransomware. The ESXiArgs ransomware encrypts configuration files on ESXi servers, potentially rendering virtual machines (VMs) unusable. \nCISA has released an ESXiArgs recovery script at github.com/cisagov/ESXiArgs-Recover. Organizations that have fallen victim to ESXiArgs ransomware can use this script to attempt to recover their files. This CSA provide…",
+          "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-039a",
+          "publishedOn": "2023-02-16T18:50:04.000Z",
+          "wordCount": 2537,
+          "title": "Untitled",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "Alerts",
+      "feedUrl": "https://www.cisa.gov/uscert/ncas/current-activity.xml",
+      "siteUrl": "https://www.cisa.gov/",
+      "articles": [
+        {
+          "id": "/node/17505",
+          "author": "CISA",
+          "description": "CISA released five Industrial Control Systems (ICS) advisories on March 2, 2023. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.  \nICSA-23-061-01 Mitsubishi Electric MELSEC Series\nICSA-23-061-02 Baicells Nova\nICSA-23-061-03 Rittal CMC III Access systems\nICSMA-23-061-01 Medtronic Micro Clinician and InterStim Apps\nICSA-20-212-04 Mitsubishi Electric Factory Automation Engineering Products (Update J)\nPlease share your thoughts. We recently updated our anonymous Product Feedback Survey and we'd welcome your feedback.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/03/02/cisa-releases-five-industrial-control-systems-advisories",
+          "publishedOn": "2023-03-10T08:12:16.570Z",
+          "wordCount": 548,
+          "title": "Untitled",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/17481",
+          "author": "CISA",
+          "description": "Today, CISA released a Cybersecurity Advisory, CISA Red Team Shares Key Findings to Improve Monitoring and Hardening of Networks. This advisory describes a red team assessment of a large critical infrastructure organization with a mature cyber posture. CISA is releasing this Cybersecurity Advisory (CSA) detailing the red team’s tactics, techniques, and procedures (TTPs) and key findings to provide network defenders proactive steps to reduce the threat of similar activity from malicious cyber actors. \nPlease share your thoughts. We recently updated our anonymous Product Feedback Survey and we'd welcome your feedback.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/02/28/cisa-red-team-shares-key-findings-improve-monitoring-and-hardening-networks",
+          "publishedOn": "2023-03-10T08:12:16.564Z",
+          "wordCount": 647,
+          "title": "Untitled",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/17496",
+          "author": "CISA",
+          "description": "Today, the Federal Bureau of Investigation (FBI) and the Cybersecurity and Infrastructure Security Agency (CISA) released joint Cybersecurity Advisory (CSA) #StopRansomware: Royal Ransomware to provide network defenders tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) associated with Royal ransomware variants. FBI investigations identified these TTPs and IOCs as recently as January 2023.\nRoyal ransomware attacks have spread across numerous critical infrastructure sectors including, but not limited to, manufacturing, communications, healthcare and public healthcare (HPH), and education.\nCISA encourages network defenders to review the CSA and to apply the included mitigations. See StopRansomware.gov for additional guidance on ransomware protection, detection, and response.\nPlease share your thoughts. We recently updated our anonymous Product Feedback Survey and we'd welcome your feedback.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/03/02/fbi-and-cisa-release-stopransomware-royal-ransomware",
+          "publishedOn": "2023-03-10T08:12:16.550Z",
+          "wordCount": 578,
+          "title": "Untitled",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/17503",
+          "author": "CISA",
+          "description": "Cisco has released a security advisory for vulnerabilities affecting the 6800, 7800, 7900, and 8800 Series of Cisco IP Phones. A remote attacker could exploit some of these vulnerabilities to take control of an affected system. For updates addressing lower severity vulnerabilities, see the Cisco Security Advisories page.\nCISA encourages users and administrators to review the following advisory and apply the necessary updates.\nCisco IP Phone 6800, 7800, 7900, and 8800 Series Web UI Vulnerabilities cisco-sa-ip-phone-cmd-inj-KMFynVcP\nPlease share your thoughts. We recently updated our anonymous Product Feedback Survey and we'd welcome your feedback.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/03/02/cisco-releases-security-advisory-cisco-ip-phones",
+          "publishedOn": "2023-03-10T08:12:16.543Z",
+          "wordCount": 553,
+          "title": "Untitled",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/17482",
+          "author": "CISA",
+          "description": "CISA released three Industrial Control Systems (ICS) advisories on February 28, 2023. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.  \nICSA-23-059-01 Hitachi Energy Gateway Station\nICSA-23-059-02 Hitachi Energy Gateway Station\nICSA-22-139-01 Mitsubishi Electric MELSEC iQ-F Series (Update B)\nPlease share your thoughts. We recently updated our anonymous Product Feedback Survey and we'd welcome your feedback.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/02/28/cisa-releases-three-industrial-control-systems-advisories",
+          "publishedOn": "2023-03-10T08:12:16.537Z",
+          "wordCount": 536,
+          "title": "Untitled",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/17534",
+          "author": "CISA",
+          "description": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.\nCVE-2022-28810 Zoho ManageEngine ADSelfService Plus Remote Code Execution Vulnerability\nCVE-2022-33891 Apache Spark Command Injection Vulnerability\nCVE-2022-35914 Teclib GLPI Remote Code Execution Vulnerability\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise. Note: To view other newly added vulnerabilities in the catalog, click on the arrow in the \"Date Added to Catalog\" column—which will sort by descending dates.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.\nAlthough BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.\nPlease share your thoughts. We recently updated our anonymous Product Feedback Survey and we'd welcome your feedback.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/03/07/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+          "publishedOn": "2023-03-10T08:12:16.506Z",
+          "wordCount": 680,
+          "title": "Untitled",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/17560",
+          "author": "CISA",
+          "description": "CISA released five Industrial Control Systems (ICS) advisories on March 9, 2023. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.\nCISA encourages users and administrators to review the newly released ICS advisories for technical details and mitigations:\nICSA-23-068-01 Akuvox E11 Publication\nICSA-23-068-02 B&R Systems Diagnostics Manager\nICSA-23-068-03 ABB Ability Symphony Plus\nICSA-23-068-04 STEP Tools Third-Party\nICSA-23-068-05 Hitachi Energy Relion 670, 650 and SAM600-IO Series\nPlease share your thoughts. We recently updated our anonymous Product Feedback Survey and we'd welcome your feedback.​​​​​​​",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/03/09/cisa-releases-five-industrial-control-systems-advisories",
+          "publishedOn": "2023-03-10T08:12:16.500Z",
+          "wordCount": 545,
+          "title": "Untitled",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/17557",
+          "author": "CISA",
+          "description": "Fortinet has released its March 2023 Vulnerability Advisories to address vulnerabilities affecting multiple products. An attacker could exploit one of these vulnerabilities to take control of an affected system. \nMarch 2023 Vulnerability Advisories page for more information and apply the necessary updates.\nPlease share your thoughts. We recently updated our anonymous Product Feedback Survey and we'd welcome your feedback.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/03/09/fortinet-releases-march-2023-vulnerability-advisories",
+          "publishedOn": "2023-03-10T08:12:16.493Z",
+          "wordCount": 525,
+          "title": "Untitled",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/17491",
+          "author": "CISA",
+          "description": "Today, CISA released Decider, a free tool to help the cybersecurity community map threat actor behavior to the MITRE ATT&CK framework. Created in partnership with the Homeland Security Systems Engineering and Development Institute™ (HSSEDI) and MITRE, Decider helps make mapping quick and accurate through guided questions, a powerful search and filter function, and a cart functionality that lets users export results to commonly used formats.\nNetwork defenders, analysts, and researchers can see CISA’s video, fact sheet, and blog to get started with Decider. CISA encourages the community to use the tool in conjunction with the recently updated Best Practices for MITRE ATT&CK® Mapping guide.\nPlease share your thoughts. We recently updated our anonymous Product Feedback Survey and we'd welcome your feedback.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/03/01/cisa-releases-decider-tool-help-mitre-attck-mapping",
+          "publishedOn": "2023-03-10T08:12:16.478Z",
+          "wordCount": 585,
+          "title": "Untitled",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/17556",
+          "author": "CISA",
+          "description": "Cisco has released a security advisory for a vulnerability affecting IOS XR Software for ASR 9000 Series Routers. A remote attacker could exploit this vulnerability to cause a denial-of-service condition. For updates addressing lower severity vulnerabilities, see the Cisco Security Advisories page. \nCisco IOS XR Software for ASR 9000 Series Routers Bidirectional Forwarding Detection Denial of Service Vulnerability cisco-sa-bfd-XmRescbT\nPlease share your thoughts. We recently updated our anonymous Product Feedback Survey and we'd welcome your feedback.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/03/09/cisco-releases-security-advisory-ios-xr-software",
+          "publishedOn": "2023-03-10T08:12:16.382Z",
+          "wordCount": 550,
+          "title": "Untitled",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
       "title": "CERT Recently Published Vulnerability Notes",
       "feedUrl": "https://www.kb.cert.org/vulfeed",
       "siteUrl": "https://kb.cert.org/vuls/",
@@ -1674,6 +1921,66 @@
       "feedUrl": "https://jvn.jp/rss/jvn.rdf",
       "siteUrl": "https://jvn.jp/",
       "articles": [
+        {
+          "id": "https://jvn.jp/vu/JVNVU97942133/",
+          "author": "jvn@jvn.jp",
+          "description": "Akuvoxが提供するE11には、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU97942133/",
+          "publishedOn": "2023-03-10T06:40:40.000Z",
+          "wordCount": 145,
+          "title": "Akuvox製E11における複数の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU95907343/",
+          "author": "jvn@jvn.jp",
+          "description": "B&R Industrial Automation社が提供するSystem Diagnostics Managerには、クロスサイトスクリプティングの脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU95907343/",
+          "publishedOn": "2023-03-10T06:40:30.000Z",
+          "wordCount": 91,
+          "title": "B&R Industrial Automation製System Diagnostics Managerにおけるクロスサイトスクリプティングの脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU90989800/",
+          "author": "jvn@jvn.jp",
+          "description": "ABB社が提供するS+ Operationsには、不適切な認証の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU90989800/",
+          "publishedOn": "2023-03-10T06:40:20.000Z",
+          "wordCount": 97,
+          "title": "ABB製S+ Operationsにおける不適切な認証の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU99753158/",
+          "author": "jvn@jvn.jp",
+          "description": "Step Tools社が提供するifcmeshライブラリには、NULLポインタ参照の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU99753158/",
+          "publishedOn": "2023-03-10T06:40:10.000Z",
+          "wordCount": 78,
+          "title": "Step Tools製ifcmesh ライブラリにおけるNULLポインタ参照の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU96418385/",
+          "author": "jvn@jvn.jp",
+          "description": "Hitachi Energy社が提供するRelion 670, 650およびSAM600-IO Seriesには、データの信頼性確認が不十分な脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU96418385/",
+          "publishedOn": "2023-03-10T06:40:00.000Z",
+          "wordCount": 133,
+          "title": "Hitachi Energy製Relion 670, 650およびSAM600-IO Seriesにおけるデータの信頼性確認が不十分な脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/jp/JVN57224029/",
+          "author": "jvn@jvn.jp",
+          "description": "株式会社ディー・オー・エスが提供する「SS1」および「らくらくPCクラウド」には、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN57224029/",
+          "publishedOn": "2023-03-09T08:30:00.000Z",
+          "wordCount": 130,
+          "title": "IT 資産管理ツール「SS1」および「らくらくPCクラウド」における複数の脆弱性",
+          "imageUrl": null
+        },
         {
           "id": "https://jvn.jp/vu/JVNVU94155938/",
           "author": "jvn@jvn.jp",
@@ -1877,27 +2184,83 @@
       ]
     },
     {
-      "title": "ブログ | WordPress.org 日本語",
-      "feedUrl": "https://ja.wordpress.org/news/feed/",
-      "siteUrl": "https://ja.wordpress.org",
+      "title": "Microsoft Security Response Center",
+      "feedUrl": "https://msrc-blog.microsoft.com/feed/",
+      "siteUrl": "/blog/",
       "articles": [
         {
-          "id": "https://ja.wordpress.org/?p=6698",
-          "author": "JOTAKI, Taisuke",
-          "description": "以下は、Jonathan Pantani が書いた WordPress.org 公式ブログの記事「WordPress 6.2 Beta 1」を訳したものです。 誤字脱字誤訳などありましたらフォーラムまでお知らせください。 […]",
-          "link": "https://ja.wordpress.org/2023/02/08/wordpress-6-2-beta-1/",
-          "publishedOn": "2023-02-08T14:02:42.000Z",
-          "wordCount": null,
-          "title": "WordPress 6.2 ベータ 1",
+          "id": "/blog/2023/03/azure-kubernetes-service-aks-threat-hunting/",
+          "author": null,
+          "description": "As more businesses shift away from running workloads on dedicated virtual machines to running them inside containers using workload orchestrators like Kubernetes, adversaries have become more interested in them as targets. Moreover, the benefits Kubernetes provides for managing workloads are also extended to adversaries. As adversaries leverage Kubernetes to run their workloads, their understanding of how these platforms work and can be exploited increases.",
+          "link": "https://msrc-blog.microsoft.com/blog/2023/03/azure-kubernetes-service-aks-threat-hunting/",
+          "publishedOn": "2023-03-01T00:00:00.000Z",
+          "wordCount": 2109,
+          "title": "Azure Kubernetes Service (AKS) Threat Hunting",
+          "imageUrl": null
+        },
+        {
+          "id": "/blog/2023/03/configuring-host-level-audit-logging-for-aks-vmss/",
+          "author": null,
+          "description": "This blog post runs you through how to enable and configure Linux audit logging on your Azure Kubernetes Service (AKS) Virtual Machine Scale Set (VMSS) using the Linux auditing subsystem, also known as auditd.\nWarning The information provided below is accurate as of the release date of this blog post (2023-03) and guidance may change in future.",
+          "link": "https://msrc-blog.microsoft.com/blog/2023/03/configuring-host-level-audit-logging-for-aks-vmss/",
+          "publishedOn": "2023-03-01T00:00:00.000Z",
+          "wordCount": 2109,
+          "title": "Configuring host-level audit logging for AKS VMSS",
+          "imageUrl": null
+        },
+        {
+          "id": "/blog/2023/02/first-steps-in-cheriot-security-research/",
+          "author": null,
+          "description": "At Microsoft, we invest a lot of time researching and investigating possibilities in our journey to memory safety. Because the massive majority of existing codebases are written in unsafe programming languages, the task of protecting legacy code is very important.\nHardware solutions are an attractive approach because they introduce very powerful security properties with low overheads compared to purely software solutions.",
+          "link": "https://msrc-blog.microsoft.com/blog/2023/02/first-steps-in-cheriot-security-research/",
+          "publishedOn": "2023-02-28T00:00:00.000Z",
+          "wordCount": 2109,
+          "title": "First steps in CHERIoT Security Research",
+          "imageUrl": null
+        },
+        {
+          "id": "/blog/2023/02/202302-security-update/",
+          "author": null,
+          "description": "2023 年 2 月 14 日 (米国時間) 、マイクロソフトは、マイクロソフト製品に影響する脆弱性を修正するために、セキ",
+          "link": "https://msrc-blog.microsoft.com/blog/2023/02/202302-security-update/",
+          "publishedOn": "2023-02-14T00:00:00.000Z",
+          "wordCount": 2109,
+          "title": "2023 年 2 月のセキュリティ更新プログラム (月例)",
+          "imageUrl": null
+        },
+        {
+          "id": "/blog/new-msrc-blog-site-ja/",
+          "author": null,
+          "description": "2023 年 2 月 9 日 (米国時間) から MSRC のブログサイトが新しくなりました。 2023 年 2 月 9 日 (米国時間) 以降は https://msrc.microsoft.com/blog をご",
+          "link": "https://msrc-blog.microsoft.com/blog/new-msrc-blog-site-ja/",
+          "publishedOn": "2023-02-09T13:14:00.000Z",
+          "wordCount": 2109,
+          "title": "新しい MSRCのブログサイト",
           "imageUrl": null
         }
       ]
+    },
+    {
+      "title": "ブログ – WordPress.org 日本語",
+      "feedUrl": "https://ja.wordpress.org/news/feed/",
+      "siteUrl": "https://ja.wordpress.org",
+      "articles": []
     },
     {
       "title": "スラド: セキュリティ",
       "feedUrl": "https://srad.jp/security.rss",
       "siteUrl": "https://security.srad.jp/",
       "articles": [
+        {
+          "id": "https://security.srad.jp/story/23/03/08/145256/",
+          "author": "nagazou",
+          "description": "セキュリティベンダーであるLayerXが公開した2023年のWebブラウザに関するセキュリティレポートによると、企業のWebブラウザの半数以上は設定ミスをしているという。レポートではプロファイルの不適切な使用やパッチ適用ルーチンの不備などが主な設定ミスとして挙げられており、設定を誤ったWebブラウザからデータが盗まれる可能性があるとしている（2023 Browser Security Annual Report、TECH+）。 またサードパーティ製のSaaSアプリの利用やそのアプリでのIDの利用はデータ損失の第一の原因になると警告している。このほか、従来のセキュリティツールは攻撃者が侵入できる経路の半分以上を見逃しており、標的型攻撃が企業侵入の主要因になっていると分析。結果として、脆弱なパスワード、設定ミス、SaaSの脆弱性によってデジタルIDの盗難リスクが高まっており、Webブラウザのリスクのほとんどが、企業のアキレス腱となっているとしている。\n すべて読む | セキュリティセクション | ビジネス | セキュリティ | インターネット | IT | 情報漏洩 |     \n  関連ストーリー： \n米国のアンチウイルスユーザー、61 % は無料ソフトウェアを使用 2023年02月25日 \n悪意あるPyPIパッケージ発見される、タイポスクワッティング狙いか 2023年02月20日 \n「アドウェア入りインストーラ」はマルウェアの3倍ダウンロードされている 2016年08月11日 \nIE6、企業でまだまだ現役 2010年04月29日",
+          "link": "https://security.srad.jp/story/23/03/08/145256/",
+          "publishedOn": "2023-03-09T22:04:00.000Z",
+          "wordCount": 2767,
+          "title": "企業のWebブラウザの半数以上は設定ミス状態。LayerXレポート",
+          "imageUrl": "https://srad.jp/static/topics/internet_64.png"
+        },
         {
           "id": "https://security.srad.jp/story/23/03/08/1332208/",
           "author": "nagazou",
@@ -2005,6 +2368,56 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/03/10/49044.html",
+          "author": null,
+          "description": "株式会社オーディオテクニカは3月7日、不正アクセスによる情報漏えいの可能性について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/03/10/49044.html",
+          "publishedOn": "2023-03-09T23:05:02.000Z",
+          "wordCount": 820,
+          "title": "オーディオテクニカにランサムウェア攻撃、電話システムのみ再開",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40851.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/03/10/49043.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）は3月8日、Emotetの攻撃メールの配信が3月7日から再開されたことを観測したと発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/03/10/49043.html",
+          "publishedOn": "2023-03-09T23:00:14.000Z",
+          "wordCount": 932,
+          "title": "Emotetが3月7日再開、500MB超のWordファイル添付し検知回避",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40856.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/03/10/49042.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は3月8日、セイコーエプソン製プリンタおよびネットワークインターフェイス製品の Web Config における複数の脆弱性についてJVNで発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/03/10/49042.html",
+          "publishedOn": "2023-03-09T23:00:12.000Z",
+          "wordCount": 870,
+          "title": "セイコーエプソン製プリンタおよびネットワークインターフェイス製品の Web Config に複数の脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/03/10/49041.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は3月7日、バッファロー製ネットワーク機器における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/03/10/49041.html",
+          "publishedOn": "2023-03-09T23:00:08.000Z",
+          "wordCount": 922,
+          "title": "バッファロー製ネットワーク機器に複数の脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/03/10/49040.html",
+          "author": null,
+          "description": "IPAおよびJPCERT/CCは、The Apache Software FoundationからApache HTTP Server 2.4系における複数の脆弱性に対応するアップデートが公開されたとして、「JVN」で発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/03/10/49040.html",
+          "publishedOn": "2023-03-09T23:00:03.000Z",
+          "wordCount": 856,
+          "title": "複数の脆弱性に対応した「Apache HTTP Server 2.4.56」公開",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2023/03/09/49039.html",
           "author": null,
@@ -2513,6 +2926,16 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2303/10/news145.html",
+          "author": null,
+          "description": "東京海上日動火災保険と東京海上日動あんしん生命保険が、メール1300件以上が外部に漏えいした可能性があると発表した。原因は富士通の法人向けネットワーク「FENICSインターネットサービス」という。",
+          "link": "https://www.itmedia.co.jp/news/articles/2303/10/news145.html",
+          "publishedOn": "2023-03-10T03:49:00.000Z",
+          "wordCount": 2594,
+          "title": "東京海上日動、メール1300件超が漏えいの可能性　富士通の法人向けネットワークで起きた不正通信で",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2303/10/cover_news145.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2303/08/news186.html",
           "author": null,
           "description": "",
@@ -2820,6 +3243,156 @@
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
         {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1484963.html",
+          "author": null,
+          "description": "ライフカードをかたるフィッシングの報告が増えているとして、フィッシング対策協議会が情報を公開した。誘導先のフィッシングサイトは3月10日8時時点で稼働中であるため、引き続き注意が必要だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1484963.html",
+          "publishedOn": "2023-03-10T08:00:00.000Z",
+          "wordCount": 4339,
+          "title": "ライフカードをかたるフィッシング、件名「「LIFE-Web Desk」ご登録情報の確認・更新」などの不審なメールに注意　偽サイトに誘導し、カード情報などを詐取",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1484/963/230310-01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1484895.html",
+          "author": null,
+          "description": "リクルートIDをかたるフィッシングの報告を受けているとして、フィッシング対策協議会が情報を公開した。誘導先のフィッシングサイトは3月9日10時時点で稼働中であるため、引き続き注意が必要だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1484895.html",
+          "publishedOn": "2023-03-10T07:55:00.000Z",
+          "wordCount": 4330,
+          "title": "件名「【リクルートID】【重要】リクルートIDへの「なりすましログイン」に関する大切なご連絡」などの不審なメール、リクルートIDをかたるフィッシングに注意　偽サイトに誘導し、個人情報やカード情報を詐取",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1484/895/r1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1484888.html",
+          "author": null,
+          "description": "ソフトバンクをかたるフィッシングの報告が増えているとして、フィッシング対策協議会が情報を公開した。誘導先のフィッシングサイトは3月8日15時時点で稼働中であるため、引き続き注意が必要だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1484888.html",
+          "publishedOn": "2023-03-10T07:45:00.000Z",
+          "wordCount": 4326,
+          "title": "ソフトバンクをかたるフィッシング、件名「フトバンクより電話料金の支払いに関するお知らせ」の不審なメールに注意　偽サイトのログイン画面に誘導し、カード情報などを詐取",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1484/888/s1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1484932.html",
+          "author": null,
+          "description": "Amazon.co.jpのバッファローストア」では現在、同社のWi-Fi 6対応ルーターが限定セール中だ。いずれもメッシュ標準規格である「Wi-Fi EasyMesh」に対応している。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1484932.html",
+          "publishedOn": "2023-03-10T05:15:00.000Z",
+          "wordCount": 4342,
+          "title": "バッファローのWi-Fi 6ルーターが最安4980円！ Amazonセール情報　最大4803＋574Mbpsの高速ルーターは1万2590円から",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1484/932/buffalowifi.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/teleworkgoods/1484046.html",
+          "author": null,
+          "description": "コロナ禍によって一気に進んだテレワークだが、変化を余儀なくされたのは大学生も同じ。今回はテレワークグッズミニレビュー 番外編として、「オンライン授業ならどこでも受けられる」とキャンピングカーをDIYで作ってしまった女子大学生のレポートをお届けする。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/teleworkgoods/1484046.html",
+          "publishedOn": "2023-03-10T03:56:18.000Z",
+          "wordCount": 4401,
+          "title": "女子大生が就活せずにキャンピングカーをDIY？　コロナが変えた大学生の人生 【テレワークグッズ・ミニレビュー 番外編 現役大学生のデジタル事情7】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1484/046/012.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1484885.html",
+          "author": null,
+          "description": "動画で製品やサービスの使い方を紹介する、いわゆる動画マニュアルを視聴するユーザーのうち、20～40代は3割以上が倍速での視聴を行っているとの調査結果が明らかになった。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1484885.html",
+          "publishedOn": "2023-03-10T03:53:30.000Z",
+          "wordCount": 4310,
+          "title": "Z世代に限らない？ 動画マニュアルを見る20～40代は3割が「倍速視聴」している事実が判明【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1484/885/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1484890.html",
+          "author": null,
+          "description": "Appleが画面埋込み型のTouch IDに関する新しい特許を取得したことが明らかになった。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1484890.html",
+          "publishedOn": "2023-03-10T03:52:09.000Z",
+          "wordCount": 4336,
+          "title": "開発中止が噂されたiPhoneの画面埋込み型Touch ID、密かに開発継続中？ 新しい特許が公開【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1484/890/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/dlis/1483697.html",
+          "author": null,
+          "description": "山形県警の特殊詐欺被害防止広報啓発のポスターやチラシに、山形県出身である女優の橋本マナミさんが起用されました。3月1日からポスター3000枚、チラシ20万枚が県内各地に掲示されるそうです。ポスターのデザインは全4種類で、架空料金請求詐欺、オレオレ詐欺、預貯金詐欺、キャッシュカード詐欺盗などの手口を紹介しています。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/dlis/1483697.html",
+          "publishedOn": "2023-03-10T03:52:00.000Z",
+          "wordCount": 4334,
+          "title": "「当選しました」という連絡は詐欺の可能性あり！　典型パターンを押さえておこう【それってネット詐欺ですよ！】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1483/697/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1484698.html",
+          "author": null,
+          "description": "日本電信電話株式会社（NTT）は、従来の光ファイバーと同じ直径を保ちながら伝送容量を10倍に拡張可能な「空間モード多重光ファイバー」による、世界最長となる1300kmの10空間モード多重信号の光増幅中継伝送に成功したと発表した。これにより、光ファイバーあたりの伝送容量の飛躍的な向上を見込めるとしている。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1484698.html",
+          "publishedOn": "2023-03-09T22:30:00.000Z",
+          "wordCount": 4324,
+          "title": "NTT、世界初となる10空間モード多重光ファイバーを用いた1300kmの光増幅中継伝送に成功　IOWN構想やBeyond 5G/6Gの基盤技術に",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1484/698/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/special/basics_of_money/1482870.html",
+          "author": null,
+          "description": "税金や社会保険の仕組みを理解すると、なぜ毎月のお給料から引かれているのか、将来の資金計画をどう立てていけばよいのか、といったさまざまな事柄がクリアに――。",
+          "link": "https://internet.watch.impress.co.jp/docs/special/basics_of_money/1482870.html",
+          "publishedOn": "2023-03-09T21:55:00.000Z",
+          "wordCount": 4349,
+          "title": "納税額はどうやって決まる？「所得税」と「住民税」の仕組みを確認しよう【お金の基本 第2回：所得税と住民税】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1482/870/rss.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1483996.html",
+          "author": null,
+          "description": "ヤフー株式会社とLINE株式会社は、防災啓発や東日本大震災の被災地復興支援を目的として、3月11日に「3.11」と検索された回数に応じて寄付を行う共同企画「検索は、チカラになる。」を実施する。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1483996.html",
+          "publishedOn": "2023-03-09T21:30:00.000Z",
+          "wordCount": 4334,
+          "title": "ヤフーとLINE、「3.11」と検索したら10円を寄付する共同企画を3月11日に実施　防災啓発や復興支援のため",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1483/996/img.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/index/1480758.html",
+          "author": null,
+          "description": "映画「Winny」が本日（3月10日）公開される。本作の題材となった「Winny事件」が起きたのは2000年代で、本誌は、リアルタイムに関連の動向を報じてきた。当時の主要な記事から、その模様を振り返りたい。",
+          "link": "https://internet.watch.impress.co.jp/docs/index/1480758.html",
+          "publishedOn": "2023-03-09T21:00:00.000Z",
+          "wordCount": 4379,
+          "title": "映画化された「Winny」はどんな事件を引き起こしたか〜本誌記事で振り返る当時の衝撃",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1480/758/00.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/special/1478230.html",
+          "author": null,
+          "description": "引越しや子供の成長など、新年度に向けて生活が変わるタイミングでWi-Fiの構成を見直してみてはいかがでしょうか？　Wi-Fiを快適に使うための構成はもちろんのこと、安全に使うためのセキュリティ設定について、シーンごとのおすすめ構成を紹介します。",
+          "link": "https://internet.watch.impress.co.jp/docs/special/1478230.html",
+          "publishedOn": "2023-03-09T21:00:00.000Z",
+          "wordCount": 4383,
+          "title": "新生活はWi-Fi見直しのチャンス!!　引っ越し？　子供にスマホ？　家電の買い換え？　シーン別Wi-Fiおすすめ構成ガイド",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1478/230/rss.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1484715.html",
+          "author": null,
+          "description": "マルウェア「Emotet」の攻撃メール配信が3月7日より再開されたとして、一般社団法人JPCERTコーディネーションセンター（JPCERT/CC）および独立行政法人情報処理推進機構（IPA）が注意喚起を行った。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1484715.html",
+          "publishedOn": "2023-03-09T09:50:00.000Z",
+          "wordCount": 4315,
+          "title": "マルウェア「Emotet」の攻撃再開にJPCERT/CC、IPAが注記喚起、500MB超のWord文書を含む添付ファイルが確認される",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1484/715/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1484674.html",
+          "author": null,
+          "description": "Rimo合同会社は3月9日、AI文字起こし／議事録サービス「Rimo Voice」において、「ChatGPT」を利用した要約機能のベータ版の提供を開始した。本リリース時は有料化を目指すとしているが、ベータ版の利用は無料。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1484674.html",
+          "publishedOn": "2023-03-09T08:10:00.000Z",
+          "wordCount": 4324,
+          "title": "「ChatGPT」による要約機能、AI文字起こし／議事録サービス「Rimo Voice」がベータ版提供",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1484/674/01.png"
+        },
+        {
           "id": "https://internet.watch.impress.co.jp/docs/news/1484331.html",
           "author": null,
           "description": "ベルキン株式会社は、最大2.5Gbps対応の有線LAN変換アダプター「Connect USB-C to 2.5 Gbpsイーサネットアダプター」を発売した。価格は5400円。",
@@ -3032,6 +3605,86 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230310-2612722/",
+          "author": null,
+          "description": "Aqua Securityは3月8日(米国時間)、Jenkinsにリモートコード実行(RCE: Remote Code Execution)が可能となる2つの重大な脆弱性があると伝えた。Jenkins ServerおよびJenkins Update Centerに「CorePlague」と名付けられた一連の脆弱性があることがわかった。",
+          "link": "https://news.mynavi.jp/techplus/article/20230310-2612722/",
+          "publishedOn": "2023-03-10T03:27:00.000Z",
+          "wordCount": 1690,
+          "title": "Jenkinsに複数の重大な脆弱性、ただちに更新を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230310-2612722/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230310-2613440/",
+          "author": null,
+          "description": "フィッシング対策協議会(Council of Anti-Phishing Japan)は3月9日、リクルートが提供しているオンラインサービスの共通会員IDであるリクルートIDを偽るフィッシングの報告を受けていると伝えた。メールの件名としては「【リクルートID】【重要】リクルートIDへの「なりすましログイン」に関する大切なご連絡」が確認されており注意が必要。",
+          "link": "https://news.mynavi.jp/techplus/article/20230310-2613440/",
+          "publishedOn": "2023-03-10T02:16:14.000Z",
+          "wordCount": 1629,
+          "title": "じゃらんやホットペッパーの会員ID「リクルートID」偽るフィッシング確認、注意を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230310-2613440/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/newransomware-2/",
+          "author": null,
+          "description": "データを暗号化し、その復号と引き換えに身代金を要求するマルウェア「ランサムウェア」。その被害は増えるばかりで、ビジネスパーソンにとっても身近な脅威となっている。そこで本連載では、ビジネスパーソンが知っておくべきランサムウェアの最新動向を定期的にお伝えする。",
+          "link": "https://news.mynavi.jp/techplus/article/newransomware-2/",
+          "publishedOn": "2023-03-10T02:00:24.000Z",
+          "wordCount": 3323,
+          "title": "ビジネスパーソンが押さえておくべきランサムウェア最新動向 第2回 身代金を支払ってもファイルを復元できない「The Wise Guys」に注意",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/newransomware-2/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230310-2612779/",
+          "author": null,
+          "description": "Trellixは3月9日、2022年10月～2022年12月のサイバーセキュリティ動向の調査結果をまとめた「The Threat Report：February 2023」を発表した。同日の説明会ではランサムウェアなどの動向が紹介された。",
+          "link": "https://news.mynavi.jp/techplus/article/20230310-2612779/",
+          "publishedOn": "2023-03-10T01:12:21.000Z",
+          "wordCount": 1782,
+          "title": "Log4jのパッチ未適用企業は依然として標的に、Trellixが脅威動向レポート",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230310-2612779/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230310-2612495/",
+          "author": null,
+          "description": "Check Point Software Technologiesは3月7日(米国時間)、東南アジアの政府機関を標的とするサイバースパイキャンペーンについて伝えた。「Sharp Panda」と呼ばれている中国の攻撃グループが新たなマルウェアを使い、キャンペーンを展開していることが明らかとなった。",
+          "link": "https://news.mynavi.jp/techplus/article/20230310-2612495/",
+          "publishedOn": "2023-03-10T01:01:12.000Z",
+          "wordCount": 1726,
+          "title": "中国支援の攻撃グループ「Sharp Panda」、東南アジアの政府機関にスパイ活動",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230310-2612495/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230310-2612501/",
+          "author": null,
+          "description": "AhnLabはこのほど、韓国の公的機関や大学で利用されている証明書ソフトウェアの脆弱性がサイバー攻撃者に悪用されていると伝えた。北朝鮮に関連する持続的標的型攻撃(APT: Advanced Persistent Threat)グループである「Lazarus」(別名「APT28」)が関与しているとみられている。",
+          "link": "https://news.mynavi.jp/techplus/article/20230310-2612501/",
+          "publishedOn": "2023-03-09T23:31:50.000Z",
+          "wordCount": 1718,
+          "title": "北朝鮮の脅威グループ「Lazarus」、ゼロデイ脆弱性で韓国企業を攻撃",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230310-2612501/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230310-2610634/",
+          "author": null,
+          "description": "Metabase Qはこのほど、メキシコの銀行を標的とする新たなマルウェアを発見したことを伝えた。「FiXS」と呼ばれるATMを狙うマルウェアの亜種が観測され、外部キーボードをATMに接続して感染させているとみられている。",
+          "link": "https://news.mynavi.jp/techplus/article/20230310-2610634/",
+          "publishedOn": "2023-03-09T22:58:40.000Z",
+          "wordCount": 1616,
+          "title": "ATMを狙う新しいマルウェア発見、外部キーボードを接続して感染か",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230310-2610634/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230310-2612350/",
+          "author": null,
+          "description": "Sambaチームは3月8日(ドイツ時間)、Sambaの最新バージョンとなる「Samba 4.18.0」の公開を伝えた。今回のバージョンは特にパフォーマンスの改善が注目される。",
+          "link": "https://news.mynavi.jp/techplus/article/20230310-2612350/",
+          "publishedOn": "2023-03-09T22:31:47.000Z",
+          "wordCount": 3133,
+          "title": "Samba 4.18.0公開、パフォーマンス向上",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230310-2612350/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20230309-2611360/",
           "author": null,
