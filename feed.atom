@@ -2,10 +2,404 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-03-22T08:11:07.576Z</updated>
+    <updated>2023-03-23T08:11:38.608Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Google、マルウェアがGoogle Play外のアプリで見つかったことを理由にアプリの公開を停止]]></title>
+        <id>https://security.srad.jp/story/23/03/22/2218257/</id>
+        <link href="https://security.srad.jp/story/23/03/22/2218257/"/>
+        <updated>2023-03-23T08:05:00.000Z</updated>
+        <summary type="html"><![CDATA[headless 曰く、Google Play で中国のソーシャルショッピングアプリ「拼多多 (Pinduoduo)」が公開停止となっている
+(Bloomberg の記事、
+HackRead の記事、
+The Register の記事)。
+
+Google によれば、同アプリの Google Play で提供されていないバージョンでマルウェアが見つかり、調査を進める間、念のために Google Play での公開も停止したのだという。Google Play Protect ではマルウェアを含むバージョンのインストールをブロックしており、インストール済みの場合は削除を促すとのこと。Pingduoduo ではアプリ自体に悪意ある機能が組み込まれているという疑いを否定してGoogle の対応を批判し、同時にブロックされたアプリが複数あるのにもかかわらず Pinduoduo だけを記事で取り上げた Bloomberg も批判しているとのことだ。
+ すべて読む | セキュリティセクション | Google | セキュリティ | Android |     
+  関連ストーリー： 
+Google Play、ロシアで購入済み有料アプリのダウンロードやアップデートをブロック 2022年05月12日 
+韓国の法律に合わせて改訂したGoogle Playポリシー、違法状態は解消していないと判断される 2022年04月10日 
+Google、従来の無償版 G Suite 提供終了へ 2022年01月23日 
+シャープ製のAndroid TVに公開停止されたradikoアプリがプリインストールされている？ 2021年12月20日]]></summary>
+        <author>
+            <name>nagazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[トカラ列島の島暮らし体験施設が1泊2千円～。鹿児島県十島村、ワーケーション利用の受付を開始]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1487899.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1487899.html"/>
+        <updated>2023-03-23T07:35:43.000Z</updated>
+        <summary type="html"><![CDATA[鹿児島県十島村役場は、トカラ列島の口之島と悪石島にある島暮らし体験施設において、ワーケーション利用の受付を今年1月に開始した。個人利用のほか、グループでのワーケーション、企業の合宿などにも利用可能。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Openshiftの運用_アラートの送信_メール検証環境作成]]></title>
+        <id>https://tech-lab.sios.jp/?p=33236</id>
+        <link href="https://tech-lab.sios.jp/archives/33236"/>
+        <updated>2023-03-23T06:27:54.000Z</updated>
+        <summary type="html"><![CDATA[こんにちはサイオステクノロジーの前田です。 OpenShiftの導入や設定したときに、今までのRHELと違うため、アラートの設定と操作方法について悩んでしまう場合があります。今回はOpenShiftのアラート検証環境を作 [...]
+Openshiftの運用_アラートの送信_メール検証環境作成 first appeared on SIOS Tech. Lab.]]></summary>
+        <author>
+            <name>前田周哉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Pixelより影響大？ Windows 11標準ツールで編集した画像から元画像を復元できると判明【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1487728.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1487728.html"/>
+        <updated>2023-03-23T04:10:00.000Z</updated>
+        <summary type="html"><![CDATA[Windows 11に標準搭載されているスクショ機能に、加工済みの画像を元通りに復元できてしまう脆弱性が見つかり波紋を呼んでいる。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[不人気と噂のiPhone 14 Plus、かつてのminiより売れていた？ パネル出荷データから判明【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1487727.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1487727.html"/>
+        <updated>2023-03-23T04:10:00.000Z</updated>
+        <summary type="html"><![CDATA[不人気であると噂される「iPhone 14 Plus」が、実はかつてのminiこと「iPhone 13 mini」より売れていたことが、パネルの出荷データから明らかになった。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WindowsのSnipping Toolにも脆弱性見つかる]]></title>
+        <id>https://it.srad.jp/story/23/03/22/138234/</id>
+        <link href="https://it.srad.jp/story/23/03/22/138234/"/>
+        <updated>2023-03-23T03:45:00.000Z</updated>
+        <summary type="html"><![CDATA[加工前のスクリーンショットが復元できてしまう脆弱性が、Windowsの画像編集ツール「Snipping Tool」で見つかっているという。先日取り上げたGoogle Pixelのマークアップツールで編集前の画像が復元できる脆弱性（CVE-2023-21036）に類似した内容だとされている（発見者のDavid Buchanan氏のツイート、PC Watch、GIGAZINE）。 
+
+この脆弱性はトリミングや塗りつぶしといった加工を行なったスクリーンショットを、加工前の状態に部分的に復元できてしまうとしている。スクリーンショットに写り込んだクレジットカード番号や住所、その他の見られたくない箇所をSnipping Toolでトリミングしたり、ぼかしたりして投稿することがあるが、編集後の画像から元画像を復元できるこの脆弱性は、非常に深刻なセキュリティリスクをもたらす可能性があるとしている。
+ すべて読む | ITセクション | セキュリティ | グラフィック | バグ | プライバシ |     
+  関連ストーリー： 
+Google Pixelのマークアップツールで編集前の画像が復元できる脆弱性、エクスプロイトが公開 2023年03月19日 
+Google、露骨な表現を含む画像にぼかしをかけるオプションをセーフサーチに追加する計画 2023年02月10日 
+Amazon、従業員に対してChatGPTと会話しないよう警告 2023年02月01日]]></summary>
+        <author>
+            <name>nagazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows 11のスクショツールにも編集前画像が復元できる脆弱性]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230323-2633975/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230323-2633975/"/>
+        <updated>2023-03-23T02:55:15.000Z</updated>
+        <summary type="html"><![CDATA[先日、Google PixelのスクリーンショットエディタであるMarkupに編集前の画像データが残っている脆弱性があることが明らかになった。この問題が明らかになってからすぐに、Windows 11のスクリーンショットエディタアプリである「Snipping Tool」にも同様の脆弱性が存在することが明らかになった。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apache Tomcatにおける保護されていない認証情報の送信の脆弱性]]></title>
+        <id>https://jvn.jp/vu/JVNVU90635957/</id>
+        <link href="https://jvn.jp/vu/JVNVU90635957/"/>
+        <updated>2023-03-23T02:30:15.000Z</updated>
+        <summary type="html"><![CDATA[Apache Tomcatには、保護されていない認証情報の送信の脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenSSLのX.509ポリシー制限の検証における過剰なリソース消費の問題]]></title>
+        <id>https://jvn.jp/vu/JVNVU94632906/</id>
+        <link href="https://jvn.jp/vu/JVNVU94632906/"/>
+        <updated>2023-03-23T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[OpenSSLのポリシー制限が含まれているX.509証明書チェーンの検証においてリソースが過剰に消費される問題があります。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[標準化部会　JNSAデジタルアイデンティティWG　ミニウェビナー「？？？とアイデンティティ|第5回自社運用システムとアイデンティティ」参加登録の受付を開始しました。]]></title>
+        <id>https://www.jnsa.org/seminar/digitalidentity/index.html</id>
+        <link href="https://www.jnsa.org/seminar/digitalidentity/index.html"/>
+        <updated>2023-03-23T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[JNSA�f�W�^���A�C�f���e�B�e�BWG|�L���f�W�^���A�C�f���e�B�e�B�Ɋւ���l�X�ȉۑ���������A�f�W�^���Љ�̊�b�ƂƂȂ�ID�̏d�v���̌[����v���C�o�V�[�֘A�̖���N��W�����Ɍ������ӌ��������s���Ă��܂�]]></summary>
+        <author>
+            <name>特定非営利活動法人 日本ネットワークセキュリティ協会（JNSA）</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[オートロック機能付きUSBメモリ　スマホにかざして解錠、遠隔でデータ削除も　クラファン実施中]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2303/23/news099.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2303/23/news099.html"/>
+        <updated>2023-03-23T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[台湾のスタートアップ・Maktarが、オートロック機能付きUSBメモリスティック「Nukii」のクラウドファンディングを始めた。PCなどのデバイスから取り外すと自動でロックがかかる仕組みで、解除には専用スマートフォンアプリが必要。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三井住友信託銀行を偽るフィッシング確認、注意を]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230323-2633928/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230323-2633928/"/>
+        <updated>2023-03-23T01:52:52.000Z</updated>
+        <summary type="html"><![CDATA[フィッシング対策協議会(Council of Anti-Phishing Japan)は3月22日、三井住友信託銀行を偽るフィッシングの報告を受けていると伝えた。メールの件名として、「 【三井住友信託銀行】取引目的開示のお願い」「【重要】【SMBC信託銀行】「振込・振替」サービス制限のお知らせ」など、複数確認されており注意が必要。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ボットネット「ShellBot」、管理不十分なLinux SSHサーバに拡散中]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230323-2633141/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230323-2633141/"/>
+        <updated>2023-03-23T01:11:05.000Z</updated>
+        <summary type="html"><![CDATA[AhnLabはこのほど、管理不十分なLinux SSHサーバを標的とするサイバー攻撃のキャンペーンが展開されていると伝えた。「ShellBot」と呼ばれるボットネット型マルウェアの亜種が、管理不十分なLinux SSHサーバにインストールされるという事例が発生している。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[BBC、職員に業務用スマートフォンからTikTokアプリを削除するよう勧告]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230323-2633142/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230323-2633142/"/>
+        <updated>2023-03-23T00:37:54.000Z</updated>
+        <summary type="html"><![CDATA[イギリスの公共放送局であるBBCはこのほど、職員に業務用のスマートフォンからTikTokアプリを削除するよう勧告したことを伝えた。プライバシーとセキュリティの観点から削除することを職員に要望しており、個人のデバイスは対象外と発表している。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: 複数のマイクロソフト製品に脆弱性]]></title>
+        <id>https://www.jpcert.or.jp/wr/2023/wr230323.html#1</id>
+        <link href="https://www.jpcert.or.jp/wr/2023/wr230323.html#1"/>
+        <updated>2023-03-23T00:18:00.000Z</updated>
+        <summary type="html"><![CDATA[複数のマイクロソフト製品には、脆弱性があります。結果として、第三者が任意のコードを実行するなどの可能性があります。]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: 複数のMozilla製品に脆弱性]]></title>
+        <id>https://www.jpcert.or.jp/wr/2023/wr230323.html#2</id>
+        <link href="https://www.jpcert.or.jp/wr/2023/wr230323.html#2"/>
+        <updated>2023-03-23T00:18:00.000Z</updated>
+        <summary type="html"><![CDATA[複数のMozilla製品には、脆弱性があります。結果として、遠隔の第三者がスプーフィング攻撃などを行う可能性があります。]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: 複数のアドビ製品に脆弱性]]></title>
+        <id>https://www.jpcert.or.jp/wr/2023/wr230323.html#3</id>
+        <link href="https://www.jpcert.or.jp/wr/2023/wr230323.html#3"/>
+        <updated>2023-03-23T00:18:00.000Z</updated>
+        <summary type="html"><![CDATA[複数のアドビ製品には、脆弱性があります。結果として、遠隔の第三者が任意のコードを実行するなどの可能性があります。]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: Drupalに不適切なアクセス制御の脆弱性]]></title>
+        <id>https://www.jpcert.or.jp/wr/2023/wr230323.html#4</id>
+        <link href="https://www.jpcert.or.jp/wr/2023/wr230323.html#4"/>
+        <updated>2023-03-23T00:18:00.000Z</updated>
+        <summary type="html"><![CDATA[Drupalの複数のバージョンには、不適切なアクセス制御の脆弱性があります。攻撃者がDrupalの管理者ユーザーのブラウザ上でクロスサイトスクリプティングを成功させた場合、本脆弱性を悪用して機微な情報にアクセスが可能となり、さらなる攻撃に悪用される可能性があります。]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: TP-LINK製T2600G-28SQにおける脆弱なSSHホスト鍵使用]]></title>
+        <id>https://www.jpcert.or.jp/wr/2023/wr230323.html#5</id>
+        <link href="https://www.jpcert.or.jp/wr/2023/wr230323.html#5"/>
+        <updated>2023-03-23T00:18:00.000Z</updated>
+        <summary type="html"><![CDATA[TP-Linkが提供するT2600G-28SQには、脆弱なSSHホスト鍵が使用されています。結果として、悪意のある第三者が偽のデバイスを用意し、管理者に接続させることで、当該製品に接続する際の認証情報を取得する可能性があります。]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ランサムウェア感染を隠蔽したソフトウェア企業の末路]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/03/23/49098.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/03/23/49098.html"/>
+        <updated>2023-03-22T23:15:04.000Z</updated>
+        <summary type="html"><![CDATA[2020 年 5 月、Blackbaud はランサムウェアに感染し、黙って犯人に支払いを済ませたが、同年 7 月までセキュリティ侵害について顧客に知らせなかった。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[富士通 FENICS のネットワーク機器での不正通信、「ゴールドウインファミリーセール」の会員情報管理システムにも影響]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/03/23/49097.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/03/23/49097.html"/>
+        <updated>2023-03-22T23:05:15.000Z</updated>
+        <summary type="html"><![CDATA[株式会社ゴールドウインは3月20日、同社のグループ会社である株式会社ゴールドウイントレーディングが運営する「ゴールドウインファミリーセール」の会員情報管理システムでの一部情報流出の可能性について発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ラウンドワンのホームページが改ざん被害、不適切なWebページに誘導]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/03/23/49096.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/03/23/49096.html"/>
+        <updated>2023-03-22T23:05:11.000Z</updated>
+        <summary type="html"><![CDATA[株式会社ラウンドワンは2月27日、第三者からの不正アクセスによる同社ホームページの改ざんについて発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[東海大学教員もフランス パリ近郊の空港で置き引き被害、約2,000名の個人情報を「紛失」]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/03/23/49095.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/03/23/49095.html"/>
+        <updated>2023-03-22T23:05:08.000Z</updated>
+        <summary type="html"><![CDATA[東海大学は2月22日、同学教員所有のノートパソコンとUSBメモリの盗難被害について発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[成蹊大学教員もパリで盗難被害、約2,900名の個人情報「紛失」]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/03/23/49094.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/03/23/49094.html"/>
+        <updated>2023-03-22T23:05:02.000Z</updated>
+        <summary type="html"><![CDATA[成蹊大学は3月3日、同学教員によるノートパソコンとUSBメモリの紛失について発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows 11のスクリーンショット、黒塗りを復元できる可能性]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/03/23/49093.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/03/23/49093.html"/>
+        <updated>2023-03-22T23:00:13.000Z</updated>
+        <summary type="html"><![CDATA[Androidで見つかったスクリーンショット編集機能の脆弱性が、Windows 11の純正スクリーンショットツールにもあることが分かりました。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JPCERT/CC「EmoCheck v2.4.0」リリース、3月に再開したEmotetの戦術変化に対応]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/03/23/49092.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/03/23/49092.html"/>
+        <updated>2023-03-22T23:00:09.000Z</updated>
+        <summary type="html"><![CDATA[一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は3月20日、EmoCheck v2.4.0 のリリースを発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[警視庁が Emotet 注意喚起、感染時の対処について]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/03/23/49091.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/03/23/49091.html"/>
+        <updated>2023-03-22T23:00:03.000Z</updated>
+        <summary type="html"><![CDATA[警察庁は3月16日、急激に拡大するEmotet感染への対処について発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[タフなゲーミングWi-Fiルータが2.5G WAN対応、さらにWi-Fiも高速化！「TUF-AX4200」レビュー]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/review/1481539.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/review/1481539.html"/>
+        <updated>2023-03-22T21:55:00.000Z</updated>
+        <summary type="html"><![CDATA[ASUSからゲーミングWi-Fiルーターの新機種となる「TUF-AX4200」が発表された。発売中の「TUF-AX3000」をリニューアルした製品で、外見はそのままに性能をアップグレードしている。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2022年サイバーセキュリティレポートを公開 ～不正アクセスによるセキュリティインシデントや病院を狙うサイバー攻撃などを解説～]]></title>
+        <id>https://eset-info.canon-its.jp/malware_info/special/detail/230323.html</id>
+        <link href="https://eset-info.canon-its.jp/malware_info/special/detail/230323.html"/>
+        <updated>2023-03-22T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[2022年に発生したサイバーセキュリティの脅威動向や検出されたマルウェアについて解説した、2022年サイバーセキュリティレポートを公開しました。 不正アクセスによるセキュリティインシデントや、IT活用が急速に進む病院を狙うサイバー攻撃など、2022年に発生したサイバーセキュリティの脅威動向について解説します。
+
+
+
+トピック
+
+
+	第1章：2022年マルウェア検出統計
+
+
+ESET製品で検出したマルウェアに加え、通信プロトコル経由の攻撃やソフトウェアの脆弱性を狙った攻撃などの検出状況を分析しました。国内・全世界共通で、Emotetのばらまき型攻撃メールが多数送信されたことにより、マルウェアが3月に最も多く検出されました。一方10月から11月にかけての検出数は大幅に減少しました。本章では、マルウェアやマルウェア以外の脅威の検出数推移やその背景の分析、攻撃の手口などについて解説します。
+
+
+	第2章：マルウェアファミリーに着目したESET統計情報と上位マルウェアの紹介
+
+
+2022年の国内における、マルウェアファミリーに着目したESET検出統計のうち、最も検出数の多かった情報窃取型マルウェアAgentTeslaについて解説します。マルウェアの高度化に伴い、近年は複数の段階でさまざまなバイナリを展開して最終的に目的のマルウェアに感染させる挙動が多くなりました。本章では、AgentTeslaの解析を通じて、マルウェアに感染させる検体は段階ごとに検知名が異なること、セキュリティ製品のログ分析において検知名の違いの把握が必要であることなどを説明します。
+
+
+	第3章：2022年に確認された不正アクセスによるセキュリティインシデント
+
+
+2022年も多くのセキュリティインシデントが公表されましたが、その要因の1つとして不正アクセスが挙げられます。サイバーセキュリティラボが公開情報を独自集計した結果、2022年の1年間で、214件の不正アクセスによるセキュリティインシデントを日本国内で確認しました。本章では、分類別の集計結果を考察するとともに、不正アクセスの原因の中で多く確認された「脆弱性を悪用した攻撃」と「認証に対する攻撃」への対策について紹介します。
+
+
+	第4章：病院を狙うサイバー攻撃の増加とその背景
+
+
+アメリカの医療機関に対するランサムウェアによる攻撃数は2016年から2021年にかけて2倍以上に増加したとされ、日本国内においても医療機関へのサイバー攻撃の被害報告は相次いでいます。このような攻撃が拡大した背景として、IT活用による医療情報の急速なデータ化、医療機関ネットワークと外部ネットワーク接続の増加、セキュリティ予算の不足などが挙げられます。本章では、病院や診療所におけるサイバー攻撃被害事例や被害を受けた場合発生し得る事態、実施すべきセキュリティ対策について解説します。
+
+
+	第5章：なぜ、脆弱性対応が放置されるのか
+
+
+昨今、情報や対策が公開されている脆弱性が、サイバー攻撃、特にランサムウェア感染に悪用されるケースが最近増えています。脆弱性が未対応のまま放置される原因はさまざま考えられますが、その1つとして日本の商習慣が深く関係していることが挙げられます。本章では、2021年4月以降発生した主なランサムウェアのインシデントの原因や感染経路に着目し、既知の脆弱性が対応されず放置されてしまう原因、そしてさまざまな形態のクラウド・サービス、IoT機器などの増加が予想される今後について考察します。
+
+
+	第6章：Web証明書／PKIの最新動向と展望
+
+
+日本国内のフィッシングサイトURL件数は増加傾向にあり、2021年下半期は過去最高で4万件を上回りました。インターネット上のドメインやアドレスの信頼性を判断するためのアプローチとしてデジタル証明書によるドメインと所有者の検証が長年採用されてきましたが、それを支える技術がPKIです。本章では、PKIの仕組みと、その信頼性を揺るがした事件、変化し続けるPKIを取り巻く環境と今後の展望などについて紹介します。
+
+解説動画公開中！
+
+「2022年サイバーセキュリティレポート紹介動画」
+各章の内容を要約して解説いたしました。
+
+
+
+
+詳細レポートは、下記よりダウンロードしていただきご覧ください。
+
+
+
+※レポートは無料でダウンロードできます]]></summary>
+        <author>
+            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WordPress 6.2 リリース候補版 3]]></title>
+        <id>https://ja.wordpress.org/?p=6714</id>
+        <link href="https://ja.wordpress.org/2023/03/22/wordpress-6-2-release-candidate-3/"/>
+        <updated>2023-03-22T11:27:12.000Z</updated>
+        <summary type="html"><![CDATA[以下は、Jonathan Pantani による WordPress.org 公式ブログの記事 “WordPress 6.2 Release Candidate 3” を訳したものです。 誤字脱字誤訳などありましたらフォ […]]]></summary>
+        <author>
+            <name>JOTAKI, Taisuke</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三井住友信託銀行をかたるフィッシング、件名「【三井住友信託銀行】取引目的開示のお願い」などの不審なメールに注意　偽サイトに誘導し、口座番号などを詐取]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1487546.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1487546.html"/>
+        <updated>2023-03-22T09:38:25.000Z</updated>
+        <summary type="html"><![CDATA[三井住友信託銀行をかたるフィッシングの報告を受けているとして、フィッシング対策協議会が情報を公開した。誘導先のフィッシングサイトは3月22日9時時点で稼働中であるため、引き続き注意が必要だ。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[4 Mobile Malware Threats You Can’t Even See]]></title>
+        <id>/blogs/?p=98998</id>
+        <link href="https://www.mcafee.com/blogs/mobile-security/the-mobile-threats-you-cant-even-see/"/>
+        <updated>2023-03-22T08:00:59.000Z</updated>
+        <summary type="html"><![CDATA[By 2030, experts predict that there will be 5 billion devices connected to 5G.1 For the general population, this connectedness...
+The post 4 Mobile Malware Threats You Can’t Even See appeared first on McAfee Blog.]]></summary>
+        <author>
+            <name>McAfee</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[SD-WAN製品の詳細をデモ動画で確認! 企業ネットワークのあるべき姿とは]]></title>
         <id>https://news.mynavi.jp/techplus/kikaku/20230322-2633030/</id>
@@ -1389,6 +1783,16 @@ CISA encourages users and administrators to review Drupal security advisory SA-C
         <summary type="html"><![CDATA[2023年2月のJPNIC Blogアクセス数Top 10は、最新記事と一昨年よりも古い記事がよく読まれるという、ある意味両極端の結果となりました。]]></summary>
         <author>
             <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JNSAメールマガジン第258号「セキュリティクリアランス：米国制度のご紹介と日本導入にあたっての諸論点（１）」を配信しました。アレシア国際法律事務所の弁護士、有本真由氏にご寄稿いただきました。]]></title>
+        <id>https://www.jnsa.org/aboutus/ml.html</id>
+        <link href="https://www.jnsa.org/aboutus/ml.html"/>
+        <updated>2023-03-17T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[日本ネットワークセキュリティ協会が発信するメールマガジン「JNSAメルマガ」のご案内]]></summary>
+        <author>
+            <name>特定非営利活動法人 日本ネットワークセキュリティ協会（JNSA）</name>
         </author>
     </entry>
     <entry>
@@ -4680,6 +5084,16 @@ The post The Reviews are In—McAfee+ Earns Top Marks from Review Sites appeared
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[JNSAメールマガジン第257号SecurityScorecard株式会社 衣川俊章氏にご寄稿「セキュリティ レーティングとは」を配信しました。]]></title>
+        <id>https://www.jnsa.org/aboutus/ml.html</id>
+        <link href="https://www.jnsa.org/aboutus/ml.html"/>
+        <updated>2023-03-03T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[日本ネットワークセキュリティ協会が発信するメールマガジン「JNSAメルマガ」のご案内]]></summary>
+        <author>
+            <name>特定非営利活動法人 日本ネットワークセキュリティ協会（JNSA）</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[[トピックス]APNICに対し、統治機構強化の要請を行いました]]></title>
         <id>https://www.nic.ad.jp/ja/topics/2023/20230303-01.html</id>
         <link href="https://www.nic.ad.jp/ja/topics/2023/20230303-01.html"/>
@@ -5592,133 +6006,6 @@ The post Job Scams—How to Tell if that Online Job Offer is Fake appeared first
         <updated>2023-02-22T00:00:00.000Z</updated>
         <author>
             <name>JPRS最新情報</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[イオンカードをかたるフィッシングについての注意喚起]]></title>
-        <id>https://eset-info.canon-its.jp/malware_info/news/detail/230222_2.html</id>
-        <link href="https://eset-info.canon-its.jp/malware_info/news/detail/230222_2.html"/>
-        <updated>2023-02-21T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[2023年2月20日現在、イオンカードをかたるフィッシングが確認されております。フィッシングサイト上の入力欄には、絶対に情報を入力しないようにお願いします。
-
-このようなフィッシングサイトにて、イオンスクエアメンバー ID、パスワード、 カード番号、有効期限、セキュリティコード、 カード名義人、生年月日等を絶対に入力しないよう、ご注意ください。
-
-日頃からサービスへログインする際は、メールや SMS 内のリンクではなく、いつも利用しているスマートフォンの公式アプリやブラウザーのブックマークなどからアクセスするよう、心がけてください。
-
-【メールの件名】
-
-【重要なお知らせ】AEON ご利用確認のお願い
-【緊急の連絡 】イオンカード ご利用確認のお願い
-＜緊急通知＞クレジットカードの本人認証サービス（3Dセキュア）が完了しない
-
-※上記以外の件名も使われている可能性があります。
-
-【サイトのURL】
-
-https://www.●●●●.com/jp
-https://amoen.●●●●.com/jp
-https://www-aeon-co-jp.●●●●.com/●●●●
-
-※上記以外のドメイン、URL も使われている可能性があります。
-※URL にパスやパラメータが付いていることがあります。
-
-2023/2/20 15:00時点では、フィッシングサイトは稼働中です。このサイトが停止しても、類似のフィッシングサイトが公開される恐れもありますので注意してください。
-このようなフィッシングサイトは日々新規に作成されています。ESET製品は、新規に作成されるフィッシングサイトにも随時対応していきますが、お客さま自身でも十分にご注意ください。
-
-【参考情報】
-
-「イオンカード」・「イオン銀行」の名前を装った不審なメールにご注意ください
-
-
- 
-
-
-■ ESET製品における検出例
-
-
-
-※ESET Internet Security V16.0/ESET Mobile Security V7.0でフィッシング対策機能が有効な場合は、図のような通知が表示されます。
-
-
-■ フィッシングメール／フィッシングサイトへの対応
-
-
-
-	フィッシングの可能性があるメールをむやみに開かない。
-	フィッシングの可能性があるメールの添付ファイルをむやみに開かない。
-	メール文中のリンク先URLがフィッシングサイトである可能性を考え、リンク先URLへむやみにアクセスしない。
-	フィッシングの可能性があるサイトにアカウント情報やクレジットカード情報などを入力しない。
-
-
-
-
-キヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。]]></summary>
-        <author>
-            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[関税等お支払いサイト (F-REGI 公金支払い)を装うフィッシングについての注意喚起]]></title>
-        <id>https://eset-info.canon-its.jp/malware_info/news/detail/230222_3.html</id>
-        <link href="https://eset-info.canon-its.jp/malware_info/news/detail/230222_3.html"/>
-        <updated>2023-02-21T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[2023年2月21日現在、関税等お支払いサイト (F-REGI 公金支払い)を装い、Vプリカ発行コード番号等の入力を促すフィッシングが確認されております。フィッシングサイト上の入力欄には、絶対に情報を入力しないようにお願いします。
-
-このようなフィッシングサイトにて、Vプリカ発行コード番号、額面、Vプリカチケット写真書類等を絶対に入力しないよう、ご注意ください。
-
-日頃から個人情報やクレジットカード情報の入力を要求された場合は、入力する前に一度立ち止まり、似たようなフィッシングや詐欺事例がないかを、確認するようにしてください。
-
-Android スマートフォン等で同じ URL を表示すると、不正アプリのインストールへ誘導される場合がありますので、ご注意ください。インストールした可能性がある場合は【参考情報 3】を参考にアプリをアンインストールしたり、Google Play プロテクトでチェックしてください。
-
-【サイトのURL】
-
-http://●●●●.duckdns.org/
-
-※上記以外のドメイン、URL も使われている可能性があります。
-※URL にパスやパラメータが付いていることがあります。
-
-2023/2/21 17:00時点では、フィッシングサイトは稼働中です。このサイトが停止しても、類似のフィッシングサイトが公開される恐れもありますので注意してください。
-このようなフィッシングサイトは日々新規に作成されています。ESET製品は、新規に作成されるフィッシングサイトにも随時対応していきますが、お客さま自身でも十分にご注意ください。
-
-【参考情報 1】
-
-フィッシング詐欺にご注意ください
-
-【参考情報 2】
-
-税関の名をかたった不審な電話・メールや振り込め詐欺にご注意ください
-
-【参考情報 3】
-
-IPA 安心相談窓口
-宅配便業者に加えて通信事業者をかたる偽ショートメッセージサービス（SMS）が増加中
-
-
- 
-
-
-■ ESET製品における検出例
-
-
-
-※ESET Internet Security V16.0/ESET Mobile Security V7.0でフィッシング対策機能が有効な場合は、図のような通知が表示されます。
-
-
-■ フィッシングメール／フィッシングサイトへの対応
-
-
-
-	フィッシングの可能性があるメールをむやみに開かない。
-	フィッシングの可能性があるメールの添付ファイルをむやみに開かない。
-	メール文中のリンク先URLがフィッシングサイトである可能性を考え、リンク先URLへむやみにアクセスしない。
-	フィッシングの可能性があるサイトにアカウント情報やクレジットカード情報などを入力しない。
-
-
-
-
-キヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。]]></summary>
-        <author>
-            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
         </author>
     </entry>
 </feed>
