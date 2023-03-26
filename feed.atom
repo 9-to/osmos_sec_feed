@@ -2,10 +2,83 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-03-25T08:10:23.494Z</updated>
+    <updated>2023-03-26T08:10:20.423Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Windows 11、設定にかかわらずデバイスが脆弱だと警告され続ける問題]]></title>
+        <id>https://security.srad.jp/story/23/03/26/0437258/</id>
+        <link href="https://security.srad.jp/story/23/03/26/0437258/"/>
+        <updated>2023-03-26T04:58:00.000Z</updated>
+        <summary type="html"><![CDATA[Windows 11の「Windowsセキュリティ」でローカルセキュリティ機関 (LSA) 保護機能のオン・オフにかかわらず、オフなのでデバイスが脆弱だと警告され続ける問題が発生している
+(Microsoft Learn の記事、
+The Register の記事、
+Ghacks の記事、
+BetaNews の記事)。
+
+この問題は Windows 11 バージョン 22H2 で「Update for Microsoft Defender ウイルス対策マルウェア対策プラットフォーム — KB5007651 (バージョン 1.0.2302.21002)」のインストール後に発生するという。
+
+バージョン 1.0.2302.21002 をインストールすると、Windows セキュリティの「デバイス セキュリティ > コア分離」の「ローカル セキュリティ機関の保護」に「ローカル セキュリティ機関の保護がオフになっています。デバイスが脆弱である可能性があります。」と警告が表示される。このオプションをオンにすると「この変更を適用するにはデバイスを再起動してください。」と表示されるのだが、再起動後にも警告は消えず、再起動の要求も表示されたままになる。通知も表示されるような説明になっているが、手元の環境では確認できなかった。なお、警告には「無視」というリンクがあり、クリックすることで警告表示を消すこともできるが、再起動要求が消えることはない。
+
+Microsoft によれば再起動後は警告を無視できるとのことだが、実際に保護が有効であるかどうかはイベント ビューアーの「Windows ログ」でイベントID 12 のイベントを確認する必要がある。イベントID 12で「LSASS.exe がレベル 4 で保護されたプロセスとして起動されました。」というイベントが記録されていれば LSA 保護は有効だ。Microsoft は問題の解決に取り組んでいるといい、更新プログラムがリリースされるまではこの状態が続くことになる。
+ すべて読む | セキュリティセクション | セキュリティ | バグ | 変なモノ | Windows |     
+  関連ストーリー： 
+Microsoft Defender、誤動作でスタートメニューなどからショートカットを削除 2023年01月15日 
+Microsoft 曰く、Windows 11 でゲームのパフォーマンスを最適化するオプションはセキュリティ機能の一部無効化 2022年10月10日 
+Microsoft Defender、個人向けに提供開始 2022年06月21日 
+Microsoftのマルウェア対策エンジンに12年以上前から存在した脆弱性 2021年02月16日 
+Windows 10 May 2020 Update、OS再インストール機能の「新たに開始」が呼び出せなくなっていた 2020年06月17日 
+Windows 10 May 2020 Update、「メモリ整合性」の有効化と特定のディスプレイドライバーの組み合わせでインストールできない問題 2020年05月31日]]></summary>
+        <author>
+            <name>headless</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoftの純正スクショツールにも情報漏えいの脆弱性　パッチ公開]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2303/26/news032.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2303/26/news032.html"/>
+        <updated>2023-03-25T22:48:00.000Z</updated>
+        <summary type="html"><![CDATA[MicrosoftはWindowsの純正スクリーンショットツール「切り取り領域とスケッチ」の脆弱性修正パッチを公開した。この脆弱性により、PNG形式の画像でトリミングや塗りつぶしを行った部分が復元可能となっていた。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ビットコインATMメーカー、ゼロデイ脆弱性が悪用されて暗号資産盗まれる]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230325-2633191/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230325-2633191/"/>
+        <updated>2023-03-25T10:12:21.000Z</updated>
+        <summary type="html"><![CDATA[ビットコインATMメーカーであるGENERAL BYTESはこのほど、同社のソフトウェアに存在するゼロデイ脆弱性が悪用されたことを発表した。サイバー攻撃者によって同社が管理するビットコインATMが侵害されたと伝えた。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub、誤公開した RSA SSH ホスト鍵を更新]]></title>
+        <id>https://security.srad.jp/story/23/03/25/0755251/</id>
+        <link href="https://security.srad.jp/story/23/03/25/0755251/"/>
+        <updated>2023-03-25T08:28:00.000Z</updated>
+        <summary type="html"><![CDATA[GitHub が日本時間 24 日 14 時頃、GitHub.com の Git 操作で使用する RSA SSH ホスト鍵を更新したそうだ
+(The GitHub Blog の記事、
+The Register の記事)。
+
+今週 GitHub は RSA SSH 秘密鍵がGitHubの公開リポジトリで短時間見える状態になっていたことを発見し、すぐに修正を行って原因と影響の調査を行ったという。その結果、GitHubのシステムや顧客の情報が不正にアクセスされたのではなく、誤って秘密鍵を公開してしまった結果だと判断したとのこと。秘密鍵が不正に用いられたという証拠もないが、攻撃者がGitHubになりすましたり、ユーザーのGit操作を盗聴する可能性があることから、念のためホスト鍵を更新したとのこと。この変更はRSA鍵を使用してSSHでGit操作をする場合にのみ影響し、GitHub.comへのウェブトラフィックやHTTPSでのGit操作は影響を受けない。
+
+RSA鍵を使用してSSHでGitHub.comにアクセスすると警告が表示されるので、古い鍵を削除して新しい鍵を追加する必要がある。ECDSA鍵やEd25519鍵を使用している場合には影響がなく、特に何も変更する必要はないとのことだ。
+ すべて読む | セキュリティセクション | セキュリティ | 暗号 | デベロッパー |     
+  関連ストーリー： 
+無償のランサムウェア被害復旧ツールを当局がGithubで公開 2023年02月13日 
+GitHubから非公開リポジトリなどのデータが流出 2022年04月22日 
+米軍が過去8年にわたって収集した大量のインターネット投稿、Amazon S3で誤って公開されていたことが判明 2017年11月22日 
+Adobeのセキュリティチーム、誤ってPGP秘密鍵をブログで公開 2017年09月24日 
+Cloudflareのバグで別のユーザーのCookieやパスワードが送信される 2017年02月26日 
+PGPの32ビット鍵IDが問題に、Linus Torvalds氏などの偽造鍵も確認される 2016年08月23日 
+オランダ警察、「PGP Blackberry」で使われているPGP暗号化されたメールを解読していた 2016年01月19日]]></summary>
+        <author>
+            <name>headless</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Twitterのログインに有効な2種類の二要素認証]]></title>
         <id>https://news.mynavi.jp/techplus/article/20230325-2633165/</id>
@@ -6517,99 +6590,6 @@ SBJ銀行からのお取引目的の確認を騙った不審な電子メール�
 キヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。]]></summary>
         <author>
             <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Red Team Shares Key Findings to Improve Monitoring and Hardening of Networks]]></title>
-        <id>/node/17470</id>
-        <link href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-059a"/>
-        <updated>2023-02-24T19:04:05.000Z</updated>
-        <summary type="html"><![CDATA[SUMMARY
-The Cybersecurity and Infrastructure Security Agency (CISA) is releasing this Cybersecurity Advisory (CSA) detailing activity and key findings from a recent CISA red team assessment—in coordination with the assessed organization—to provide network defenders recommendations for improving their organization's cyber posture.
-Actions to take today to harden your local environment:
-Establish a security baseline of normal network activity; tune network and host-based appliances to detect anomalous behavior.
-Conduct regular assessments to ensure appropriate procedures are created and can be followed by security staff and end users.
-Enforce phishing-resistant MFA to the greatest extent possible.
-In 2022, CISA conducted a red team assessment (RTA) at the request of a large critical infrastr…]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[#StopRansomware: Royal Ransomware]]></title>
-        <id>/node/17466</id>
-        <link href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-061a"/>
-        <updated>2023-02-24T17:30:43.000Z</updated>
-        <summary type="html"><![CDATA[SUMMARY
-Note: This joint Cybersecurity Advisory (CSA) is part of an ongoing #StopRansomware effort to publish advisories for network defenders that detail various ransomware variants and ransomware threat actors. These #StopRansomware advisories include recently and historically observed tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) to help organizations protect against ransomware. Visit stopransomware.gov to see all #StopRansomware advisories and to learn more about other ransomware threats and no-cost resources.
-Actions to take today to mitigate cyber threats from ransomware:
-Prioritize remediating known exploited vulnerabilities.
-Train users to recognize and report phishing attempts.
-Enable and enforce multifactor authentication.
-The Federal Bureau of In…]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[新人福田のランサム統計だより：2023年1月号]]></title>
-        <id>https://www.mbsd.jp/research/20230224/blog/</id>
-        <link href="https://www.mbsd.jp/research/20230224/blog/"/>
-        <updated>2023-02-24T14:15:24.000Z</updated>
-        <summary type="html"><![CDATA[新人福田のランサム統計だより：2023年1月号]]></summary>
-        <author>
-            <name>三井物産セキュアディレクション株式会社</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[動画編集アプリ「Final Cut Pro」海賊版にマルウェア発見　勝手に仮想通貨を採掘]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2302/24/news130.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2302/24/news130.html"/>
-        <updated>2023-02-24T05:30:00.000Z</updated>
-        <summary type="html"><![CDATA[米Jamfは、macOS用動画編集アプリ「Final Cut Pro」の海賊版にマルウェアが含まれていることが分かったと発表した。アプリを実行するとバックグラウンドで仮想通貨を採掘するという。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[悲劇を悪用 – トルコ・シリア地震に伴うサイバー上の寄付金詐欺]]></title>
-        <id>https://blogs.trellix.jp/?p=18785</id>
-        <link href="https://blogs.trellix.jp/exploiting-tragedy-fake-donation-scams-amid-earthquake-in-turkey-and-syria"/>
-        <updated>2023-02-24T05:19:13.000Z</updated>
-        <summary type="html"><![CDATA[図1 freepik.com & flaticon.comより引用 先日、シリアとトルコを震撼させた地震は、壊滅的な破壊の跡を残しました。全世界が支援と連帯の意を示し、この悲劇の影響を受けた人々を平常の状態に戻そ […]]]></summary>
-        <author>
-            <name>mcafee_admin</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【3月23日（木曜日）オンライン開催】日米企業におけるDXの最新動向を解説　「DX白書2023説明会」ウェビナー]]></title>
-        <id>https://www.ipa.go.jp/ikc/seminar/20230323.html</id>
-        <link href="https://www.ipa.go.jp/ikc/seminar/20230323.html"/>
-        <updated>2023-02-24T02:15:00.000Z</updated>
-        <summary type="html"><![CDATA[ウェビナーでは、「DX白書2023」で新たに154件の公開事例を分析したうえで日本のDX事例を「企業規模」「産業」「地域」の三つの軸で可視化した俯瞰図の解説をします。また、「DX白書2023」の主な構成要素である「戦略」「人材」「技術」それぞれの視点から、日米企業のDXの現状、DXを進めるための方法論などについて解説します。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【DADC】2023年3月7日(火)に第3回「スマートビル将来ビジョン検討会」を開催します]]></title>
-        <id>https://www.ipa.go.jp/dadc/architecture/pj_smartbuilding_news_202303_1.html</id>
-        <link href="https://www.ipa.go.jp/dadc/architecture/pj_smartbuilding_news_202303_1.html"/>
-        <updated>2023-02-24T02:10:00.000Z</updated>
-        <summary type="html"><![CDATA[デジタルアーキテクチャ・デザインセンター(DADC)は、第3回「スマートビル将来ビジョン検討会」を3月7日(火)に開催します]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Parent’s Guide to ChatGPT]]></title>
-        <id>https://www.mcafee.com/blogs/?p=164984</id>
-        <link href="https://www.mcafee.com/blogs/family-safety/a-parents-guide-to-chatgpt/"/>
-        <updated>2023-02-23T21:01:29.000Z</updated>
-        <summary type="html"><![CDATA[ChatGPT is, without doubt, the biggest tech story of the year. It’s created debate in schools and universities, made history...
-The post A Parent’s Guide to ChatGPT appeared first on McAfee Blog.]]></summary>
-        <author>
-            <name>Alex Merton-McCann</name>
         </author>
     </entry>
 </feed>
