@@ -2,10 +2,545 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-03-27T08:12:37.880Z</updated>
+    <updated>2023-03-28T08:12:54.468Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[脅威アドバイザリ：Microsoft Outlook における特権昇格の脆弱性の悪用が確認される]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=45721</id>
+        <link href="https://gblogs.cisco.com/jp/2023/03/talos-outlook-privilege-escalation-vulnerability-cve-2023-23397/"/>
+        <updated>2023-03-28T07:29:52.000Z</updated>
+        <summary type="html"><![CDATA[電子メールクライアント Microsoft Outlook に重大な脆弱性（CVE-2023-23397）が見つかりました。攻撃者がこの脆弱性を盛んに悪用しており、Cisco Talos はすべての Microsoft Outlook ユーザーにアップデートを呼びかけています。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[注目の脆弱性：Ghost CMS でサービス拒否を引き起こす可能性のある Node-SQLite3 の問題]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=45717</id>
+        <link href="https://gblogs.cisco.com/jp/2023/03/talos-vulnerability-spotlight-node-sqlite3-issue-could-lead-to-denial-of-service-in-ghost-cms/"/>
+        <updated>2023-03-28T07:19:13.000Z</updated>
+        <summary type="html"><![CDATA[脆弱性の発見者：Cisco Talos の Dave McDaniel Cisco Talos はこのほど、Ghost コンテンツ管理システムに影響を与える node-sqlite3 の脆弱性を発見し、このライブラリを利用する他のソフトウェアに影響を与える可能性があることを明らかにしました。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[脅威情報ニュースレター（2023 年 3 月 16 日）：ウクライナにおける Talos の取り組みの詳細]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=45712</id>
+        <link href="https://gblogs.cisco.com/jp/2023/03/talos-threat-source-newsletter-march-16-2023-a-deep-dive-into-talos-work-in-ukraine/"/>
+        <updated>2023-03-28T07:02:30.000Z</updated>
+        <summary type="html"><![CDATA[今週も脅威情報ニュースレターをお届けします。ウクライナ、そして同国にいる友人や仲間たちに対する Cisco Talos のサポートについては何度も記事にしてきました。今回は、実際に現地で取り組んでいる人たちの活動をご覧になり、その声をお聴きください。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「DX推進指標 自己診断結果 分析レポート(2022年版)　速報版」を公開]]></title>
+        <id>https://www.ipa.go.jp/digital/dx-suishin/bunseki2022.html</id>
+        <link href="https://www.ipa.go.jp/digital/dx-suishin/bunseki2022.html"/>
+        <updated>2023-03-28T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[DX推進指標 自己診断結果 分析レポート（2022年版）]]></summary>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[未経験からWeb診断員へ ― MBSDの教育制度]]></title>
+        <id>https://www.mbsd.jp/research/20230328/mbsd-training/</id>
+        <link href="https://www.mbsd.jp/research/20230328/mbsd-training/"/>
+        <updated>2023-03-28T06:38:29.000Z</updated>
+        <summary type="html"><![CDATA[初めまして。私は2022年にMBSDへ転職してきたWeb診断員です。前職はSOCアナリストとして2年ほど働いておりましたが、脆弱性診断は未経験の状態からMBSD…]]></summary>
+        <author>
+            <name>三井物産セキュアディレクション株式会社</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Apps Scriptを最大限活用していきたいなぁ～]]></title>
+        <id>https://tech-lab.sios.jp/?p=33498</id>
+        <link href="https://tech-lab.sios.jp/archives/33498"/>
+        <updated>2023-03-28T06:24:08.000Z</updated>
+        <summary type="html"><![CDATA[どもども！今回はGoogle Apps Scriptの特殊な領域について説明を挟んでいきたいと思います。スクリプトプロパティ・キャッシュによるデータの一時保存・ユニークなuuidの取得・Triggerを使用した定期実行や [...]
+Google Apps Scriptを最大限活用していきたいなぁ～ first appeared on SIOS Tech. Lab.]]></summary>
+        <author>
+            <name>龍：Ryu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[十八親和銀行をかたるフィッシング、件名「【十八親和銀行】「振込サービスの一時利用停止」のお知らせ」などの不審なメールに注意　偽サイトに誘導し、口座番号などを詐取]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1488667.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1488667.html"/>
+        <updated>2023-03-28T06:08:40.000Z</updated>
+        <summary type="html"><![CDATA[十八親和銀行をかたるフィッシングの報告を受けているとして、フィッシング対策協議会が情報を公開した。誘導先のフィッシングサイトは3月27日10時時点で稼働中であるため、引き続き注意が必要だ。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「自動ファームウェア更新」「ID/パスワード固有化」ができるWi-Fiルーターを推奨、警視庁の注意喚起を受けてデジタルライフ推進協会]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1488972.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1488972.html"/>
+        <updated>2023-03-28T06:02:00.000Z</updated>
+        <summary type="html"><![CDATA[一般社団法人デジタルライフ推進協会（DLPA）は3月28日、警視庁が発表した「家庭用ルーターの不正利用に関する注意喚起」の取り組みに賛同するとともに、Wi-Fiルーターのセキュリティ対策について注意喚起。同協会が推奨する機能を備えた「DLPA推奨Wi-Fiルーター」の使用・買い替えを推奨した。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[auとソフトバンクが「副回線サービス」提供、4月12日より互いの回線に切り替えて通話・通信が可能に]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1488934.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1488934.html"/>
+        <updated>2023-03-28T05:00:00.000Z</updated>
+        <summary type="html"><![CDATA[KDDI株式会社および沖縄セルラー電話株式会社（au）とソフトバンク株式会社は3月27日、それぞれの回線をスマートフォンの副回線とし、切り替えて利用できるオプション「副回線サービス」を4月12日に開始する。料金は各社とも、個人が月額429円、法人が月額550円。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[警視庁が家庭用ルーターの使用に注意喚起、「見覚えのない設定変更」がないか定期的に確認を　従来の対策のみでは対応できず、永続的に不正利用可能となる可能性]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1488918.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1488918.html"/>
+        <updated>2023-03-28T04:30:00.000Z</updated>
+        <summary type="html"><![CDATA[警視庁は3月28日、サイバー攻撃における家庭用ルーター（Wi-Fiルーター）の悪用被害について、従来の対策のみでは対応できないとして注意喚起を行った。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wi-Fiルーターの不正利用に新たな手口、警視庁が注意喚起　「従来の対策のみでは対応できない」]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2303/28/news119.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2303/28/news119.html"/>
+        <updated>2023-03-28T04:28:00.000Z</updated>
+        <summary type="html"><![CDATA[警視庁は家庭用Wi-Fiルーターの不正利用に関する注意喚起を発表した。従来の対策のみでは対応できないサイバー攻撃を観測したという。新たな対策として「見覚えのない設定変更がなされていないか定期的に確認する」を推奨している。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[3 月 10 日から 3 月 17 日の 1 週間における脅威のまとめ]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=45705</id>
+        <link href="https://gblogs.cisco.com/jp/2023/03/talos-threat-roundup-0310-0317/"/>
+        <updated>2023-03-28T03:50:43.000Z</updated>
+        <summary type="html"><![CDATA[本日の投稿では、3 月 10 日 ～ 17 日の 1 週間で Talos が確認した最も蔓延している脅威をまとめています。これまでのまとめ記事と同様に、この記事でも詳細な分析は目的としていません。脅威の主な行動特性やセキュリティ侵害の指標に焦点を当て、シスコのお客様がこれらの脅威からどのように保護されるかについて説明しています。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windowsのスクリーンショットアプリ、脆弱性修正したバージョン公開]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230328-2638130/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230328-2638130/"/>
+        <updated>2023-03-28T03:08:39.000Z</updated>
+        <summary type="html"><![CDATA[Microsoftは3月24日(米国時間)、脆弱性を修正したWindows 11のスクリーンショットアプリ「Snipping Tool」およびWindows 10のスクリーンショットアプリ「Snip & Sketch」を公開したと伝えた。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「制御システムのセキュリティリスク分析ガイド 第2版(2023年3月版)」を公開しました。]]></title>
+        <id>https://www.ipa.go.jp/security/controlsystem/riskanalysis.html</id>
+        <link href="https://www.ipa.go.jp/security/controlsystem/riskanalysis.html"/>
+        <updated>2023-03-28T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[情報セキュリティ関連情報のユーザー、管理者、技術者に向けた発信、その前提となる情報収集、調査分析、研究開発、技術評価等の実施]]></summary>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ChatGPTの利用を社内で許可すべき？　懸念される情報漏えいリスクとは]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2303/28/news100.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2303/28/news100.html"/>
+        <updated>2023-03-28T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[米OpenAIが発表した高性能対話AI「ChatGPT」。大きな盛り上がりを見せているが、利用禁止に踏み切る企業も少なくない。ChatGPTの利用することで、考えられる情報漏えいリスクとは何か。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ネットギア、2.5GbE対応の5ポート省電力アンマネージドスイッチ「MS105」「MS305」発売]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1488863.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1488863.html"/>
+        <updated>2023-03-28T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ネットギアジャパン合同会社は3月24日、2.5GbE対応の5ポートアンマネージスイッチ2製品を発売した。市場想定価格は無期限保証付きの「MS105」が3万700円、3年保証付きのホームユース向け「MS305」が2万4900円。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[マクニカ、製造業向けIT・OT・IoTデバイスのアセスメントサービス提供]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230328-2638160/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230328-2638160/"/>
+        <updated>2023-03-28T02:51:06.000Z</updated>
+        <summary type="html"><![CDATA[マクニカは3月28日、製造業におけるIT/OT/IoTデバイス数や種類を可視化し、それらのセキュリティリスクを加味したレポートを提供する「デバイスアセスメントサービス」をリリースしたと発表した。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[破壊されたウクライナの街の様子を以前と比較できるストリートビュー風サービスが登場【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1488838.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1488838.html"/>
+        <updated>2023-03-28T02:48:56.000Z</updated>
+        <summary type="html"><![CDATA[攻撃によって破壊されたウクライナの街の惨状を、以前の街並みと比較できるサービスが登場して話題になっている。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「ウェブで契約したら解約もウェブで」FTCがサブスクサービス解約手順の標準化に乗り出す【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1488840.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1488840.html"/>
+        <updated>2023-03-28T02:48:28.000Z</updated>
+        <summary type="html"><![CDATA[米FTC（連邦取引委員会）が、サブスクリプションサービスをウェブ上で簡単に解約できる手順の標準化に乗り出した。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[wizSafe Security Signal 2023年2月 観測レポート]]></title>
+        <id>https://wizsafe.iij.ad.jp/?p=1537</id>
+        <link href="https://wizsafe.iij.ad.jp/2023/03/1537/"/>
+        <updated>2023-03-28T02:15:40.000Z</updated>
+        <summary type="html"><![CDATA[2023年2月観測レポートサマリ DDoS攻撃の観測情報 IIJマネージドセキュリティサービスの観測情報 Web/メールのマルウェア脅威の観測情報 セキュリティインシデントカレンダー ソフトウェアリリース情報 2023年 … "wizSafe Security Signal 2023年2月 観測レポート" の続きを読む]]></summary>
+        <author>
+            <name>SOCチーム</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[180度開閉可能な14型ノートPC「MousePro NB2シリーズ」が人気。バッテリー駆動23.5時間の「MousePro NB4シリーズ」なども【MousePro 売れ筋ビジネスPCランキング ノート編 2023/3/28版】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/ranking/mousepro/1488447.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/ranking/mousepro/1488447.html"/>
+        <updated>2023-03-28T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[本記事では、マウスコンピューターの法人向けブランド「MousePro」の売れ筋PCを紹介しています。なお、順位、価格、構成は随時変動しており、最新情報はリンク先にてご確認ください。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Web更新]2022年度DRP検討委員会活動報告書を公開]]></title>
+        <id>https://www.nic.ad.jp/ja/profile/com/2022/</id>
+        <link href="https://www.nic.ad.jp/ja/profile/com/2022/"/>
+        <updated>2023-03-28T01:21:39.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[クラウド請求書サービス「Misoca」、無料プランが月5通→10通に拡大]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1488810.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1488810.html"/>
+        <updated>2023-03-28T00:50:00.000Z</updated>
+        <summary type="html"><![CDATA[弥生株式会社は、クラウド請求書サービス「Misoca」の「無料プラン」において、1カ月間に作成できる請求書を5枚から10枚に変更すると発表した。4月1日から変更される。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[仏も公務員にTikTok禁止　「娯楽アプリはセキュリティ不足」]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2303/28/news085.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2303/28/news085.html"/>
+        <updated>2023-03-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[フランス政府が、中国系動画投稿アプリ「TikTok」をはじめとする娯楽アプリについて、仏公務員の公用携帯電話での使用を禁止すると発表した。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[エレコム製アクセスポイント管理ツール「WAB-MAT」に脆弱性、確認を]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230328-2637246/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230328-2637246/"/>
+        <updated>2023-03-27T23:47:07.000Z</updated>
+        <summary type="html"><![CDATA[JPCERTコーディネーションセンター(JPCERT/CC)は3月24日、エレコムが法人向けに提供しているアクセスポイント管理ツール「WAB-MAT」に脆弱性が報告されているとして、注意を呼び掛けた。この脆弱性を悪用されると、攻撃者によって任意のプログラムをWAB-MATサービスの権限で実行される危険性がある。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[十八親和銀行を偽るフィッシング確認、注意を]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230328-2637789/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230328-2637789/"/>
+        <updated>2023-03-27T23:22:38.000Z</updated>
+        <summary type="html"><![CDATA[フィッシング対策協議会(Council of Anti-Phishing Japan)は3月27日、十八親和銀行を偽るフィッシングの報告を受けていると伝えた。メールの件名としては、「【十八親和銀行】「振込サービスの一時利用停止」のお知らせ」が確認されており注意が必要。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Proofpoint Blog 第23回「返信しちゃだめ！ロシアの攻撃グループ「TA499」からのディープフェイクビデオ通話」]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/03/28/49119.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/03/28/49119.html"/>
+        <updated>2023-03-27T23:15:03.000Z</updated>
+        <summary type="html"><![CDATA[プルーフポイントのリサーチャーは、2021 年初頭から、ロシア政府を後ろ盾に持つと考えられる TA499 による悪質な電子メールの攻撃キャンペーンを追跡してきました。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[インターネットアーカイブが出版大手四社に破壊される可能性]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/03/28/49118.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/03/28/49118.html"/>
+        <updated>2023-03-27T23:10:03.000Z</updated>
+        <summary type="html"><![CDATA[3 月 20 日月曜日、大手出版 4 社はニューヨークの裁判所に対し、非営利団体のインターネットアーカイブが運営するオンラインライブラリーを閉鎖し、同団体に損害賠償責任を求める著作権侵害訴訟について略式判決を認めるよう要請した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[デジタル庁が確定申告での郵送通知を複数発送]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/03/28/49117.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/03/28/49117.html"/>
+        <updated>2023-03-27T23:05:10.000Z</updated>
+        <summary type="html"><![CDATA[デジタル庁は3月24日、確定申告における郵送通知の複数発送について発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[富山県 個人情報の適正管理を行政監査、複数の漏えい事案受け]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/03/28/49116.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/03/28/49116.html"/>
+        <updated>2023-03-27T23:05:08.000Z</updated>
+        <summary type="html"><![CDATA[富山県は3月16日、令和4（2022）年度行政監査結果について発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[古河電池の今市事業所の社員パソコンがEmotet感染]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/03/28/49115.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/03/28/49115.html"/>
+        <updated>2023-03-27T23:05:03.000Z</updated>
+        <summary type="html"><![CDATA[古河電池株式会社は3月16日、栃木県日光市の今市事業所の社員のパソコンがEmotetに感染し、個人情報等のデータが流出した可能性があると発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[大企業ほど脱PPAPに遅れ]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/03/28/49114.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/03/28/49114.html"/>
+        <updated>2023-03-27T23:00:16.000Z</updated>
+        <summary type="html"><![CDATA[サイバーソリューションズ株式会社は3月16日、「企業のメールセキュリティへの取り組みに関するアンケート調査」の結果を発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[エレコム製法人向けアクセスポイント管理ツール WAB-MAT に登録される Windows サービスの実行ファイルパスが引用符で囲まれていない脆弱性]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/03/28/49113.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/03/28/49113.html"/>
+        <updated>2023-03-27T23:00:12.000Z</updated>
+        <summary type="html"><![CDATA[IPAおよびJPCERT/CCは3月24日、エレコム製法人向けアクセスポイント管理ツール WAB-MAT によって登録される Windows サービスの実行ファイルパスが引用符で囲まれていない脆弱性についてJVNで発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenSSLのX.509ポリシー制限の検証で過剰なリソース消費の問題]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/03/28/49112.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/03/28/49112.html"/>
+        <updated>2023-03-27T23:00:08.000Z</updated>
+        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は3月23日、OpenSSLのX.509ポリシー制限の検証における過剰なリソース消費の問題について「Japan Vulnerability Notes（JVN）」で発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apache Tomcatに保護されていない認証情報の送信の脆弱性]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/03/28/49111.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/03/28/49111.html"/>
+        <updated>2023-03-27T23:00:04.000Z</updated>
+        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は3月23日、Apache Tomcatにおける保護されていない認証情報の送信の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[午前はサーフィン、午後は仕事。「週一リゾートワークを化粧ポーチで最適化する方法」を紹介 ～ akiyanのリモートワークスタイル【みんなの在宅ワーク：第96回】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/zaitaku_work/1488779.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/zaitaku_work/1488779.html"/>
+        <updated>2023-03-27T21:55:00.000Z</updated>
+        <summary type="html"><![CDATA[ウェブ系エンジニアのakiyanです。在宅ワーク歴は6年ほどです。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[セキュリティ・バイ・デザインとは？安全なプログラミングの要点をおさらい]]></title>
+        <id>https://eset-info.canon-its.jp/malware_info/special/detail/230328.html</id>
+        <link href="https://eset-info.canon-its.jp/malware_info/special/detail/230328.html"/>
+        <updated>2023-03-27T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[あらゆる組織がサイバー攻撃の標的になり得る昨今、システムの企画・設計の段階からセキュリティ対策を講じる「セキュリティ・バイ・デザイン」の考え方が注目されている。この記事では、WebサイトやWebアプリケーションの運営者に向けて、セキュリティ・バイ・デザインの概要や構成要素、参照するべき情報を解説する。
+
+
+
+
+
+セキュリティ・バイ・デザインとは
+
+WebサイトやWebアプリケーションは、絶えずサイバー攻撃の脅威にさらされている。以前から用いられている手法から、複雑化・巧妙化した最新のものに至るまで、その攻撃手法は多岐にわたる。近年の巧妙化かつ複雑化した攻撃を踏まえ、開発・運用に必要なコストを抑えながらも、適切な対策を講じていかなければならない。
+
+そうした対策の1つとして、セキュリティ・バイ・デザイン（Security by Design）という考え方が提唱されるようになった。セキュリティ・バイ・デザインとは、システムの企画・設計の段階からセキュリティ対策を講じる方法だ。運用後、インシデントが発生してから事後的に対応するのではなく、開発の段階からセキュリティの観点でソフトウェアの品質を確保し、脆弱性が入り込むリスクを軽減しようとする試みと言える。
+
+IPAが発行している「セキュリティ・バイ・デザイン導入指南書」では、設計・開発・テスト・運用の各フェーズでのセキュリティ対策コストを試算している。例えば、設計時のセキュリティ対策コストを1とした場合、開発局面では、その6.5倍に膨らむとされる。さらに、テスト局面ではコストがより上昇して15倍に。運用局面に至ると、100倍に達するという。
+
+セキュリティ・バイ・デザインに従って、開発のより早い段階、つまり上流工程でセキュリティ対策を講じることで、手戻りなどに要する工数が削減され、最終的にライフサイクル全体の工数・コストを抑制するのが狙いだ。また、保守・運用段階におけるメンテナンス性の高さも期待される。
+
+セキュリティ・バイ・デザインが求められる背景には、脆弱性を突いたサイバー攻撃の多様化・巧妙化が挙げられる。近年では、脆弱性が発覚した後、ただちに攻撃手法が編み出されるため、その脆弱性を抱えたシステムは攻撃に晒されてしまっていることも、そうした背景を後押ししていると言える。
+
+以下では、WebサイトやWebアプリケーションに対する典型的な攻撃手法を解説する。
+
+1）SQLインジェクション
+
+Webサイトにあるフォームへ特定の文字列を入力し、データベースを不正に操作する。保存されている個人情報の流出や、データの改ざん・破壊、サーバーの乗っ取りにつながる。
+
+Web改ざんはどのように行われるのか？ その手口と対策
+
+2）クロスサイトスクリプティング（XSS）
+
+XSSは攻撃者がWebサイトを改ざんし、悪意のあるWebサイトへ誘導するリンクを設置する手法だ。訪問したユーザーの個人情報を詐取する、あるいはCookieを悪用してアカウントへの不正侵入を行おうとする。
+
+クロスサイトスクリプティング（XSS）とは？Web改ざんを招かないための注意点と対策
+
+3）ドライブバイダウンロード攻撃
+
+ドライブバイダウンロード攻撃とは、Webサイトを閲覧した際に、勝手にマルウェアがダウンロードされるようにする攻撃の事だ。上記のXSSやCSRF（クロスサイト・リクエスト・フォージェリ）攻撃、あるいはサーバーへの不正アクセスによって、攻撃者はWebサイトを改ざんし、マルウェアを設置する。ドライブバイダウンロード攻撃では、ユーザーが利用するOSやソフトウェアの脆弱性を狙って仕掛けられる。そのため、該当する脆弱性を有した状態でこうしたWebサイトに誘導されてしまうと、ユーザーのデバイスにマルウェアがダウンロードされ、感染に至る危険性がある。
+
+ドライブバイダウンロード攻撃が招くセキュリティリスクとは？
+
+セキュリティ・バイ・デザインの構成要素と参照すべき情報
+
+WebサイトやWebアプリケーションの開発工程において、セキュリティ・バイ・デザインを実践するためのタスクと参考資料を以下に紹介する。
+
+1）企画
+
+開発するWebアプリケーションの企画段階で、セキュリティ対策の方針を策定する。具体的には、想定される脅威やサイバー攻撃を特定し、リスク（発生可能性と影響度）に応じた軽減策を講じる必要がある。例えば、Webサイトの脅威としては、先述のSQLインジェクションやXSSが代表的な存在だ。
+
+参考資料としてIPA発行の「安全なウェブサイトの作り方（改訂第7版）」、OWASP（Open Web Application Security Project）発行の「Threat Modeling」などがある。
+
+また、セキュリティ・バイ・デザインという考え全般について把握したい場合、IPAによる「セキュリティ・バイ・デザイン導入指南書」、デジタル庁の「政府情報システムにおけるセキュリティ・バイ・デザインガイドライン」が参考になるだろう。
+
+2）要件定義
+
+機能面の要件定義を進めるタイミングで、セキュリティ面の要件定義も実施する必要がある。Webアプリケーションの機能やデータに対して、機密性（Confidentiality）、完全性（Integrity）、可用性（Availability）を担保するよう、要件を抽出するステップだ。あるいは、STRIDE（なりすまし、改ざん、否認、漏えい、サービス妨害、権限昇格）を防ぐ手段を練り上げる。
+
+抽出した要件を満たすためには、ファイアウォールのようなインフラ面も含めた多層防御が必要なケースも考えられる。また、サードパーティの製品を組み込んだり、外部に作業を委託したりする場合、それぞれに講じるセキュリティ対策の範囲を把握し、インシデント発生時の責任範囲を明確にする取り組みが欠かせない。
+
+情報セキュリティのCIA？対策すべき脅威と守るべき資産とは？
+
+3）設計
+
+要件定義を踏まえ、セキュリティ要件を満たすアーキテクチャーを検討する。アプリケーションにとどまらず、OSやミドルウェア、ネットワーク、クラウドまでに対象が広がる場合もあるだろう。また、製品リリース後の運用・保守局面においても、セキュリティの堅持・改善が容易になるよう、設計時に考慮したい。
+
+設計時の考慮点については、IPA発行の「脆弱性対処に向けた製品開発者向けガイド」や、カーネギーメロン大学SEI（Software Engineering Institute）が公開している「Top 10 Secure Coding Practices」が参考になるだろう。
+
+4）開発
+
+脆弱性対策を考慮したプログラミング手法は、セキュアコーディングと呼ばれる。脆弱性につながる要因を事前に除去してサイバー攻撃に対する堅牢性を確保しようとする取り組みだ。どうしても効率性、工期が優先されがちなプログラミング局面でも、コーディング規約を徹底させるなどして、セキュリティに配慮したプログラムを目指す。
+
+特に、認証・認可、暗号化、入出力データの検証、例外処理やログ出力といった領域では、十分に注意を払うようにしたい。また、単体テスト・結合テスト・システムテストそれぞれにおいて、セキュリティ要件を満たす品質基準を設けることが望ましい。
+
+IPAによる「セキュア・プログラミング講座」や、プログラミング言語ごとに提供されるガイドラインを参照すると良いだろう。
+
+5）運用・保守
+
+定期的なログ分析や、問題発生時のアラート発出といった対応プロセスを事前に整備しておくことが推奨される。加えて、ミドルウェアやインフラを含め、さまざまな箇所で生じ得る、修正プログラム適用の抜け漏れを防ぐべく、更新ルールを標準化しておく必要がある。
+
+機能追加・脆弱性対応などの変更を加えた際にも、アーキテクチャー全体にわたり、その変更履歴を管理しておくようにしたい。加えて、脆弱性診断やペネトレーションテストを定期的に実施すれば、脆弱性を放置してしまうリスクを軽減できる。
+
+脆弱性診断とペネトレーションテストの違いは？システムやソフトウェアの脆弱性を診断するには？
+
+シフトレフトとDevSecOps
+
+セキュリティ・バイ・デザインと似た考え方として「シフトレフト（Shift Left）」が提唱されている。この言葉はウォーターフォール型の開発工程が一般的に左から右に書かれることに倣い、セキュリティ対策を講じる局面を右側（テスト段階）から左側（設計段階）へ移すべきという考え方だ。
+
+リリース前のテスト段階でセキュリティ対策を講じるのではなく、セキュリティの観点で見た成果物のレビューや品質保証のプロセスを要件定義・設計の段階から継続的に実施する。
+
+
+
+図1：セキュリティ対策におけるシフトレフト
+
+
+近年、注目されているIoTの分野においてもシフトレフトの採用が進んできた。インターネットに接続するデバイスは、サイバー攻撃の標的となってしまう恐れがあるにも関わらず、多くのIoT機器ではメモリー容量が少ないために暗号化通信が難しいといった制約がある。シフトレフトの考え方に従い、リリース後の脆弱性対応・修正パッチ適用の方法も含め、要件定義・設計の段階からセキュリティ対策を講じる必要に迫られている。
+
+また、セキュリティ・バイ・デザインに関連した用語として、アジャイル開発におけるDevSecOpsが注目されるようになっている。まず、DevOpsは開発チームと運用チームが共通の目標を持って連携し、頻繁なリリースを繰り返しながらもサービスの安定稼働をもたらすものだった。CI/CDパイプラインを導入して、テストやデプロイを自動化・標準化するという特長があった。
+
+このDevOpsに継続的なセキュリティ対策を組み込んだのがDevSecOpsとなる。これまで、柔軟にサービスへ変更を加えるアジャイル開発においては、セキュリティ対策が後回しになる傾向があった。しかし、CI/CDパイプラインにセキュリティテストや脆弱性診断を組み込むといった対策を講じ、開発速度を維持しながらも、セキュリティを担保するプロセスと風土を生み出すことを目指す。
+
+広がるプライバシー・バイ・デザインの考え方
+
+最後に、プライバシー・バイ・デザインの考え方も紹介する。先述のセキュリティ・バイ・デザインでは情報セキュリティ全般を対象としていた。一方で、個人情報の保護に特化して対策を講じるのがプライバシー・バイ・デザインだ。
+
+昨今のコンプライアンス、個人情報保護に対する意識の高まりを受け、設計段階からプライバシーに配慮するよう求める法規制・標準化が進められてきた。そのため、個人情報を収集するサービス運営者は、上流工程からプライバシー対策を講じておくことが求められている。
+
+具体的には、同意を得られた目的に限って必要最小限の個人情報のみを収集する、加えて、不正利用のリスクを軽減するといった対策を講じなければならない。
+
+あらゆるWebサイト・Webアプリケーションがサイバー攻撃のリスクに直面している昨今、事後の対応ではさまざまな脅威に対処しきれなくなってきている。仮に、こうした場当たり的な対応にとどまっている組織は、実際の攻撃に遭遇した際に被害が拡大して、莫大な損失を被る恐れがある。中長期的な観点で見ると、セキュリティ対策を早い段階で講じれば、システム運用全体に要するコストが抑制されることが期待される。企画・設計の段階から対策を講じるセキュリティ・バイ・デザインの考え方は、今後より一層、Webサイト運営者にとって必要な考え方になっていくはずだ。]]></summary>
+        <author>
+            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tax Time is Prime Time for Scammers: How to Stay Safe When Paying Your Taxes to the IRS]]></title>
+        <id>https://www.mcafee.com/blogs/?p=166013</id>
+        <link href="https://www.mcafee.com/blogs/privacy-identity-protection/tax-time-is-prime-time-for-scammers-how-to-stay-safe-when-paying-your-taxes-to-the-irs/"/>
+        <updated>2023-03-27T13:01:00.000Z</updated>
+        <summary type="html"><![CDATA[Who else loves tax season besides accountants? Scammers.  It’s high time of year for online risks here in the U.S....
+The post Tax Time is Prime Time for Scammers: How to Stay Safe When Paying Your Taxes to the IRS appeared first on McAfee Blog.]]></summary>
+        <author>
+            <name>McAfee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[経営者の危機意識の低さからくる対策不足を改善、「サイバーセキュリティ連盟」が3月31日発足]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1488575.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1488575.html"/>
+        <updated>2023-03-27T11:17:11.000Z</updated>
+        <summary type="html"><![CDATA[2022年2月にスタートしたセキュリティ連盟が、一般社団法人サイバーセキュリティ連盟として、新たなスタートを切った。3月24日に設立発表を行って、3人の就任予定理事が就任承諾書に押印。3月31日に登記し、活動を開始する。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[また千葉で交付前マイナカード紛失　今度は木更津市で　誤って廃棄した可能性]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2303/27/news199.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2303/27/news199.html"/>
+        <updated>2023-03-27T11:12:00.000Z</updated>
+        <summary type="html"><![CDATA[千葉県木更津市は、同市が保管していた交付前のマイナンバーカード1枚を紛失したと発表した。同市の執務室内で紛失か誤って廃棄したとされ、第三者に交付した可能性はないという。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[経産省で情報漏えいの可能性　情報が外部から閲覧できる状態に　システム改修で不備]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2303/27/news195.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2303/27/news195.html"/>
+        <updated>2023-03-27T10:30:00.000Z</updated>
+        <summary type="html"><![CDATA[経済産業省は、アクセンチュアに運用・保守を委託している「産業保安システム」で情報が漏えいした可能性があるとして謝罪した。同システムを利用した事業者の手続き履歴に関する情報が第三者から閲覧できる状態になっていた。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[メルマガ]vol.1989:【トピックス号】先週のトピックスとWeb更新情報]]></title>
+        <id>https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol1989.html</id>
+        <link href="https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol1989.html"/>
+        <updated>2023-03-27T10:07:10.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NTT Com、Microsoft 365導入企業向けセキュリティ対策サービス「マネージドSOAR」]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230327-2637596/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230327-2637596/"/>
+        <updated>2023-03-27T08:26:37.000Z</updated>
+        <summary type="html"><![CDATA[NTTコミュニケーションズは3月27日、「Microsoft 365」を導入している企業を対象に、サイバー攻撃への対処を自動化する法人向けセキュリティ対策サービス「マネージドSOAR」を3月31日から提供開始すると発表した。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[バックアップからランサムウェア被害直前の水準まで復元できたのは約18.9％]]></title>
         <id>https://security.srad.jp/story/23/03/26/1339207/</id>
@@ -6782,66 +7317,6 @@ The post McAfee 2023 Consumer Mobile Threat Report appeared first on McAfee Blog
         <summary type="html"><![CDATA[産業サイバーセキュリティセンター]]></summary>
         <author>
             <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SBJ銀行をかたるフィッシングについての注意喚起]]></title>
-        <id>https://eset-info.canon-its.jp/malware_info/news/detail/230227.html</id>
-        <link href="https://eset-info.canon-its.jp/malware_info/news/detail/230227.html"/>
-        <updated>2023-02-26T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[2023年2月24日現在、SBJ銀行をかたるフィッシングが確認されております。フィッシングサイト上の入力欄には、絶対に情報を入力しないようにお願いします。
-
-このようなフィッシングサイトにて、お客さま番号、ログインパスワード、 生年月日、電話番号、pin 番号、SBJ ダイレクトカード裏面の写真等を絶対に入力しないよう、ご注意ください。
-
-日頃からサービスへログインする際は、メールや SMS 内のリンクではなく、いつも利用しているスマートフォンの公式アプリやブラウザーのブックマークなどからアクセスするよう、心がけてください。
-
-【メールの件名】
-
-【SBJ銀行】お取引目的等のご確認のお願い
-
-※上記以外の件名も使われている可能性があります。
-
-【サイトのURL】
-
-https://www.sbjbamk-co-jp.●●●●.com/
-https://sbj●●●●.com/
-
-※上記以外のドメイン、URL も使われている可能性があります。
-※URL にパスやパラメータが付いていることがあります。
-
-2023/2/24 13:00時点では、フィッシングサイトは稼働中です。このサイトが停止しても、類似のフィッシングサイトが公開される恐れもありますので注意してください。
-このようなフィッシングサイトは日々新規に作成されています。ESET製品は、新規に作成されるフィッシングサイトにも随時対応していきますが、お客さま自身でも十分にご注意ください。
-
-【参考情報】
-
-SBJ銀行からのお取引目的の確認を騙った不審な電子メールにご注意ください
-
-
- 
-
-
-■ ESET製品における検出例
-
-
-
-※ESET Internet Security V16.0/ESET Mobile Security V7.0でフィッシング対策機能が有効な場合は、図のような通知が表示されます。
-
-
-■ フィッシングメール／フィッシングサイトへの対応
-
-
-
-	フィッシングの可能性があるメールをむやみに開かない。
-	フィッシングの可能性があるメールの添付ファイルをむやみに開かない。
-	メール文中のリンク先URLがフィッシングサイトである可能性を考え、リンク先URLへむやみにアクセスしない。
-	フィッシングの可能性があるサイトにアカウント情報やクレジットカード情報などを入力しない。
-
-
-
-
-キヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。]]></summary>
-        <author>
-            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
         </author>
     </entry>
 </feed>
