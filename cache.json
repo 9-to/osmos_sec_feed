@@ -609,6 +609,26 @@
       "siteUrl": null,
       "articles": [
         {
+          "id": "https://www.mcafee.com/blogs/?p=166650",
+          "author": "McAfee",
+          "description": "From Workshops to Leader Panels: A Recap of Women’s History Month at McAfee March is Women’s History Month and International...\nThe post From Workshops to Leader Panels: A Recap of Women’s History Month at McAfee appeared first on McAfee Blog.",
+          "link": "https://www.mcafee.com/blogs/other-blogs/life-at-mcafee/from-workshops-to-leader-panels-a-recap-of-womens-history-month-at-mcafee/",
+          "publishedOn": "2023-03-31T18:00:18.000Z",
+          "wordCount": 2754,
+          "title": "From Workshops to Leader Panels: A Recap of Women’s History Month at McAfee",
+          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2023/03/WHM-blog-300x200-1.png"
+        },
+        {
+          "id": "https://www.mcafee.com/blogs/?p=166243",
+          "author": "McAfee Labs",
+          "description": "Authored By Anandeshwar Unnikrishnan,Sakshi Jaiswal,Anuradha M  McAfee Labs has recently observed a new Malware campaign which used malicious OneNote documents...\nThe post The Rising Trend of OneNote Documents for Malware delivery appeared first on McAfee Blog.",
+          "link": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/rising-trend-of-onenote-documents-for-malware-delivery/",
+          "publishedOn": "2023-03-30T23:37:03.000Z",
+          "wordCount": 3838,
+          "title": "The Rising Trend of OneNote Documents for Malware delivery",
+          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2023/03/300x200_Blog_One-Note-Malware.png"
+        },
+        {
           "id": "https://www.mcafee.com/blogs/?p=166213",
           "author": "Alex Merton-McCann",
           "description": "Social media platforms often get a hard time by us parents. But a recent announcement by TikTok of industry first...\nThe post What Parents Need To Know About TikTok’s New Screen Time Limits appeared first on McAfee Blog.",
@@ -757,16 +777,6 @@
           "wordCount": 2519,
           "title": "McAfee Awarded Best Protection by the Labs at AV-TEST",
           "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2023/03/300x200_Blog_AV-Test-Award-2.png"
-        },
-        {
-          "id": "https://securingtomorrow.mcafee.com/?p=69590",
-          "author": "McAfee",
-          "description": "Malware—the term seems to be at the center of the news every day, with each headline telling of a new...\nThe post Malware: 5 Tips for Fighting the Malicious Software appeared first on McAfee Blog.",
-          "link": "https://www.mcafee.com/blogs/internet-security/malware-5-tips-fighting-malicious-software/",
-          "publishedOn": "2023-03-02T00:29:07.000Z",
-          "wordCount": 2986,
-          "title": "Malware: 5 Tips for Fighting the Malicious Software",
-          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2017/02/300x200_Blog_021923.png"
         }
       ]
     },
@@ -1105,16 +1115,6 @@
           "publishedOn": "2023-03-16T15:19:55.000Z",
           "wordCount": null,
           "title": "【2023年2月号】暴露型ランサムウェア攻撃統計CIGマンスリーレポート",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.mbsd.jp/research/20230302/session-race-condition/",
-          "author": null,
-          "description": "セッションデータのレースコンディション問題、特にJava環境で発生する問題について書きます。",
-          "link": "https://www.mbsd.jp/research/20230302/session-race-condition/",
-          "publishedOn": "2023-03-02T16:00:00.000Z",
-          "wordCount": null,
-          "title": "セッションのレースコンディション(1)",
           "imageUrl": null
         }
       ]
@@ -2077,16 +2077,6 @@
           "wordCount": null,
           "title": "フィッシング対策協議会 技術・制度検討WG 報告会の発表資料を公開しました（ドメイン名の廃止にあたっての注意）",
           "imageUrl": null
-        },
-        {
-          "id": "https://jprs.jp/whatsnew/",
-          "author": null,
-          "description": "",
-          "link": "https://jprs.jp/whatsnew/",
-          "publishedOn": "2023-03-02T00:00:00.000Z",
-          "wordCount": null,
-          "title": "JPRSの掲載記事を追加しました。",
-          "imageUrl": null
         }
       ]
     },
@@ -2122,6 +2112,26 @@
       "feedUrl": "https://www.cisa.gov/uscert/ncas/current-activity.xml",
       "siteUrl": "https://www.cisa.gov/",
       "articles": [
+        {
+          "id": "/node/17792",
+          "author": "CISA",
+          "description": "Mozilla has released a security update to address vulnerabilities in Thunderbird 102.9.1. An attacker could exploit some of these vulnerabilities to take control of an affected system.\nCISA encourages users and administrators to review Mozilla’s Thunderbird 102.9.1 security advisory for more information and apply the necessary updates.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/03/31/mozilla-releases-security-update-thunderbird-10291",
+          "publishedOn": "2023-03-31T12:00:00.000Z",
+          "wordCount": 523,
+          "title": "Mozilla Releases Security Update for Thunderbird 102.9.1",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/17819",
+          "author": "CISA",
+          "description": "The Samba Team has released security updates addressing vulnerabilities in multiple versions of Samba. An attacker could exploit these vulnerabilities to take control of an affected system.\nCVE-2023-0225\nCVE-2023-0922\nCVE-2023-0614",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/03/31/samba-releases-security-updates-multiple-versions-samba",
+          "publishedOn": "2023-03-31T12:00:00.000Z",
+          "wordCount": 523,
+          "title": "Samba Releases Security Updates for Multiple Versions of Samba",
+          "imageUrl": null
+        },
         {
           "id": "/node/17802",
           "author": "CISA",
@@ -4738,6 +4748,36 @@
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
         {
+          "id": "https://internet.watch.impress.co.jp/docs/news/weekly/1490127.html",
+          "author": null,
+          "description": "「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/weekly/1490127.html",
+          "publishedOn": "2023-03-31T10:00:00.000Z",
+          "wordCount": 4427,
+          "title": "見出しでわかる IT界隈・今週の重要ニュース：全125本［2023/3/23～3/29］",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1490/127/shutterstock_1391033204_main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/review/1490144.html",
+          "author": null,
+          "description": "3月10日封切りの映画「Winny」を今更ながらに観てきたんだけど、一言で言って「すごい良かった！」。",
+          "link": "https://internet.watch.impress.co.jp/docs/review/1490144.html",
+          "publishedOn": "2023-03-31T09:44:26.000Z",
+          "wordCount": 4328,
+          "title": "映画「Winny」を観た……観よう！「言葉の代わりにプログラムで語る人」の世界",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1490/144/osaka2.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1490133.html",
+          "author": null,
+          "description": "株式会社NTTドコモは3月31日、同社が提供する「ぷらら」や「ひかりTV」のユーザーの個人情報、最大約529万件が流出した可能性があると発表した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1490133.html",
+          "publishedOn": "2023-03-31T08:23:33.000Z",
+          "wordCount": 4303,
+          "title": "NTTドコモ、「ぷらら」や「ひかりTV」のユーザー情報約529万件が流出の可能性",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1490/133/01.png"
+        },
+        {
           "id": "https://internet.watch.impress.co.jp/docs/news/1489765.html",
           "author": null,
           "description": "関西電力をかたるフィッシングの報告を受けているとして、フィッシング対策協議会が情報を公開した。誘導先のフィッシングサイトは3月30日11時時点で稼働中であるため、引き続き注意が必要だ。",
@@ -5740,6 +5780,26 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230401-2640595/",
+          "author": null,
+          "description": "フィッシング対策協議会(Council of Anti-Phishing Japan)は3月30日、厚生労働省を偽装したフィッシングの報告を受けていると伝えた。SMSが使われているほか、詐欺サイトは巧妙に作成されており注意が必要。",
+          "link": "https://news.mynavi.jp/techplus/article/20230401-2640595/",
+          "publishedOn": "2023-04-01T04:40:26.000Z",
+          "wordCount": 3071,
+          "title": "厚生労働省を偽るフィッシングを確認、注意を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230401-2640595/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230401-2640592/",
+          "author": null,
+          "description": "フィッシング対策協議会(Council of Anti-Phishing Japan)は3月30日、関西電力を偽るフィッシングの報告を受けていると伝えた。メールの件名としては、「【関西電力】「はぴｅみる電」よりご利用料金のご請求です」が確認されており注意が必要。",
+          "link": "https://news.mynavi.jp/techplus/article/20230401-2640592/",
+          "publishedOn": "2023-04-01T00:01:00.000Z",
+          "wordCount": 2480,
+          "title": "関西電力を偽るフィッシング確認、注意を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230401-2640592/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20230331-2640961/",
           "author": null,
