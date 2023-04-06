@@ -727,16 +727,6 @@
           "wordCount": 2845,
           "title": "McAfee Teammates Share How They #EmbraceEquity This International Women’s Day",
           "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2023/03/IWD-blog-image-2023-300x200-1.png"
-        },
-        {
-          "id": "https://securingtomorrow.mcafee.com/?p=96590",
-          "author": "McAfee",
-          "description": "It’s hard to imagine a world without cellphones. Whether it be a smartphone or a flip phone, these devices have...\nThe post Cybercrime’s Most Wanted: Four Mobile Threats that Might Surprise You appeared first on McAfee Blog.",
-          "link": "https://www.mcafee.com/blogs/tips-tricks/four-surprising-mobile-threats/",
-          "publishedOn": "2023-03-07T14:17:39.000Z",
-          "wordCount": 3315,
-          "title": "Cybercrime’s Most Wanted: Four Mobile Threats that Might Surprise You",
-          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2019/09/300x200_Blog_100622.png"
         }
       ]
     },
@@ -1108,6 +1098,26 @@
       "siteUrl": "https://eset-info.canon-its.jp/",
       "articles": [
         {
+          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/230406.html",
+          "author": null,
+          "description": "パソコンやスマホなどでインターネットアクセスに利用するWebブラウザー。しかし、Webブラウザーはサイバー攻撃において悪用されるなど、適切な使い方をしてないと、危険な目に遭いかねない。この記事では、Webブラウザーのセキュリティ対策の重要性と講じるべき対策、そして安全なWebブラウジングのヒントを解説する。\n\n\n\n\n\nWebブラウザーのセキュリティ対策が重要な理由\n\nランサムウェアをはじめとするマルウェアの被害が後を絶たない。サイバー攻撃者は、さまざまな手法でマルウェア感染を試みる。メールに記載されたURLをクリックしたことで、悪意のあるWebサイトへ誘導されてマルウェアに感染。あるいは、検索エンジン経由であっても、偽装したWebサイトを正規のものと誤認した結果、感染に至る場合もある。このように、メールやWebサイトはマルウェア感染の主要な導線とも言える存在だ。\n\nそして、メール経由で感染する場合も含めてWebサイトがマルウェア感染において大きな役割を担っているという点が重要だ。すなわち、Webサイトへアクセスする際のツールであるWebブラウザーについて、適切なセキュリティ対策を講じることで、マルウェア感染のリスクを低減できるのだ。\n\nトラッキングを許可しても大丈夫？セキュリティ的視点から解説\n\nWebブラウザーにおけるセキュリティ対策\n\nWebブラウザーに関連する、主なセキュリティ対策は以下のとおりだ。\n\nブラウザー本体の最新版へのアップデート\n\nマルウェアはプログラムの脆弱性を突いて侵入してくる。Webブラウザー本体を常に最新版へアップデートしておくことで、既知の脆弱性に対処することができる。なお、Microsoft EdgeやGoogle Chrome、Mozilla Firefoxなど最近のWebブラウザーはデフォルトで自動アップデート機能が有効になっているため、その設定を維持して利用すれば安全性は高まる。\n\nツールバーやアドインのチェック、アップデート\n\nツールバーやアドインはWebブラウザーの機能を拡張できる便利なツールだが、古いツールバーやアドインには脆弱性が残されている場合もある。また、そもそもツールバー自体がスパイウェア的な動作をするものも過去に発生したこともあったため、セキュリティの観点からは必要性の低いツールバーやアドインは極力インストールしないことが望ましいだろう。どうしても必要なアドインは、最新版へアップデートしてから利用することを推奨する。\n\n近年では、ツールバーの提供を中止するベンダーも増えている。Webブラウザーに標準で搭載される機能も充実してきたため、ツールバーが使われることも少なくなっているという時代背景もある。しかし、古いパソコンのWebブラウザーにはツールバーが組み込まれていることもあるため、利用時には十分な確認をしておきたい。\n\nセーフブラウジング機能の活用\n\nセーフブラウジング機能とは、安全ではないと思われるWebサイトにアクセスしようすると、警告が表示される機能だ。多くのWebブラウザーがセーフブラウジング機能を備えており、デフォルトでセーフブラウジング機能が有効になっているはずだが、念のためチェックしておきたい。\n\n自動入力の無効化、キャッシュ・閲覧履歴の削除\n\nWebブラウザーには、Webサイトのログインのために一度入力したIDとパスワードを保存し、次回以降ログインする際に自動入力してくれる機能が搭載されているものもある。便利な機能ではあるが、クロスサイト・スクリプティング攻撃を受けたWebサイトにアクセスしてしまった場合など、IDやパスワードが漏えいしてしまう危険性がある。\n\nまた、パソコンを他の人と共有している場合は、キャッシュや閲覧履歴を残すように設定してしまうと、後に使ったユーザーに閲覧しているWebサイトの情報が漏れる可能性がある。このような場合、自動入力機能を無効化し、キャッシュや閲覧履歴も定期的に削除するか、閲覧履歴が残らないモードでWebブラウジングすれば安心だ。\n\nアドレスバー上のSSLアイコンのチェック\n\nSSL （Secure Sockets Layer）とは、WebブラウザーとWebサイトの間の通信を暗号化する通信技術だ。SSL対応のWebサイトへアクセスする際は、URLが表示されているアドレスバーの左にあるアイコンが鍵マークになる。なお、SSL非対応のWebサイトにアクセスすると、Chromeでは「保護されていない通信」、Edgeでは「セキュリティ保護なし」とアドレスバー上に表示される。\n\nSSL対応のWebサイトであれば確実に安全性が担保されるわけではないが、不審なWebサイトを見分ける1つの判断基準にはなるだろう。基本的に、Webブラウザーは標準の設定で各種のセキュリティ機能が有効化されているため、特段必要がなければ、設定を変更せずにそのまま利用すれば良い。\n\nWebブラウザーChromeが頻繁にアップデートを求める理由とは？\n\nSSLとTLSとは\n\n先述のとおり、安全なWebサイトを見分けるために、URLの始まりが「http://～」ではなく、「https://～」となっていることを確認するという方法がある。この場合、Webブラウザーで送受信する情報は暗号化された状態でやり取りされる。そのため、通信が秘匿化されることで安全性が高まるという理屈だ。\n\nこの「https://～」の状態で用いられる暗号化プロトコルはSSL（Secure Sockets Layer）と呼ばれる。WebサイトとSSLで通信が行われている場合、Webブラウザーには安全を表す施錠された状態のアイコンがアドレスバー上に表示される。しかし、SSL通信と呼ばれるものの、現在ではSSLの脆弱性を解消したTLS （Transport Layer Security）が基本的に用いられている。このため、SSL/TLSと記載されることもあるが、多くの場合は通称であるSSLの言葉が使われる。\n\nただし、SSL通信であるから必ずしも安全というわけではないことに注意が必要だ。先述のとおり、あくまでSSL通信は暗号化されて通信しているに過ぎないのだ。SSL通信ではSSLサーバー証明書が必要になるが、SSLサーバー証明書には、DV証明書、OV証明書、EV証明書の3種類があり、後者ほど信頼性が高い。\n\nDV証明書はドメインさえあれば取得でき、Let&rsquo;s Encryptなどであれば無料でも導入できるため、フィッシングサイトでも利用されている。OV証明書とEV証明書では、ともにそのドメインの運営元の実在確認を行うため、信頼性は高い。特に、EV証明書は実在証明をより厳格に行っている点が特長として知られている。\n\n安全な接続方法「SSL」や「TLS」とは？\n\nセキュリティが強化された「セーフブラウザー」とは\n\nセーフブラウザーと呼ばれるような、通常のWebブラウザー以上にセキュリティ機能が強化されたブラウザーも存在する。以下に代表的なものを紹介する。\n\nGoogle Chrome\n\n強力なセーフブラウジング機能を備えており、フィッシングサイトなど危険性のあるサイトにアクセスしようとすると警告が大きく表示され、Webブラウザーがそのアクセスを遮断する。\n\nMozilla Firefox\n\nセキュリティとプライバシーを重視したWebブラウザーであり、カスタマイズ性にも優れている。\n\nBrave\n\nシェアは少ないものの、セキュリティを重視したWebブラウザーであり、閉じるたびに保存したキャッシュなどのデータを消去するかどうかの確認が表示される。\n\nTor\n\n安全性、匿名性を特に重視したWebブラウザーであり、終了時にすべてのCookieを消去する機能を備えている。オニオンルーティング技術を用いていることから、検閲を実施している諸外国では、その回避のために利用されている場合もある。\n\nなお、ここで取り上げていないMicrosoft EdgeやSafariは、いわゆるセーフブラウザーの範疇に入らないことが多いが、セキュリティ面で他のWebブラウザーより劣っているというわけではない。普段からMicrosoft EdgeやSafariを利用しているのであれば、そのまま使い続けても問題はないだろう。\n\nセキュリティソフトのブラウザー保護機能\n\nセキュリティソフトには、さまざまなブラウザー保護機能が搭載されているため、そうした機能を利用することでより安全にWebサイトの閲覧が可能になる。例えば、ESET インターネット セキュリティでは、以下のような保護機能が備わっている。\n\nプロトコルフィルタリング\n\nPOP3とHTTPアプリケーションプロトコルを検査してフィルタリングすることで、怪しいWebサイトへのアクセスを防ぐ。\n\nWebアクセス保護\n\nコンテンツの読み込み時に、悪意のあるコンテンツが含まれていることが事前に判明しているWebサイトへのアクセスをブロックする。また、それ以外のWebページにおいても、読み込み時にThreatSenseテクノロジーで検査を行い、悪意のあるコンテンツが検出されるとブロック機能が働く。\n\nフィッシング対策機能\n\nIDやパスワードを盗み出すようなフィッシングサイトであることが明確なWebサイトへのアクセスをブロックする。\n\nインターネットバンキング保護\n\nWebブラウザーをセキュアーブラウザーとして起動することで、アドインが無効になり、キーボードから入力した内容（IDやパスワード、クレジットカード情報）が保護される。\n\nネットワーク保護\n\nファイアウォールやネットワーク攻撃からの保護機能、ボットネット保護機能がそれぞれ搭載されており、自宅や組織のネットワークを安全に保護できる。\n\nまた、セキュリティソフトの中には、メール保護機能が搭載されているものもある。メール保護機能では主にプラグインを用いて、メールに潜むマルウェアなどを検出可能だ。このように、セキュリティソフトを導入することによって、ユーザーは総合的なセキュリティ対策を実現できる。安心、安全にインターネットを活用するためにも、自らの利用状況に応じた適切なセキュリティ対策を講じてほしい。",
+          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/230406.html",
+          "publishedOn": "2023-04-05T15:00:00.000Z",
+          "wordCount": 229,
+          "title": "Webブラウザーのセキュリティ対策、適切にできていますか？",
+          "imageUrl": "https://eset-info.canon-its.jp/files/topics/4210_ext_01_0.jpg"
+        },
+        {
+          "id": "https://eset-info.canon-its.jp/malware_info/news/detail/230406_2.html",
+          "author": null,
+          "description": "2023年4月5日現在、三菱UFJ信託銀行をかたるフィッシングが確認されております。フィッシングサイト上の入力欄には、絶対に情報を入力しないようにお願いします。\n\nこのようなフィッシングサイトにて、会員番号、第一暗証等を絶対に入力しないよう、ご注意ください。\n\n日頃からサービスへログインする際は、メールや SMS 内のリンクではなく、いつも利用しているスマートフォンの公式アプリやブラウザーのブックマークなどからアクセスするよう、心がけてください。\n\n【メールの件名】\n\n【三菱UFJ信託銀行】お取引目的等の確認のお願い\n\n※上記以外の件名も使われている可能性があります。\n\n【サイトのURL】\n\nhttps://www.igu●●●●.com/\n\n※上記以外のドメイン、URL も使われている可能性があります。\n※URL にパスやパラメータが付いていることがあります。\n\n2023/4/4 17:00時点では、フィッシングサイトは稼働中です。このサイトが停止しても、類似のフィッシングサイトが公開される恐れもありますので注意してください。\nこのようなフィッシングサイトは日々新規に作成されています。ESET製品は、新規に作成されるフィッシングサイトにも随時対応していきますが、お客さま自身でも十分にご注意ください。\n\n【参考情報】\n\nウイルス感染画面を装ったポップアップや三菱ＵＦＪを名乗る偽メールにご注意ください！\n\n\n \n\n\n■ ESET製品における検出例\n\n\n\n※ESET Internet Security V16.0/ESET Mobile Security V7.0でフィッシング対策機能が有効な場合は、図のような通知が表示されます。\n\n\n■ フィッシングメール／フィッシングサイトへの対応\n\n\n\n\tフィッシングの可能性があるメールをむやみに開かない。\n\tフィッシングの可能性があるメールの添付ファイルをむやみに開かない。\n\tメール文中のリンク先URLがフィッシングサイトである可能性を考え、リンク先URLへむやみにアクセスしない。\n\tフィッシングの可能性があるサイトにアカウント情報やクレジットカード情報などを入力しない。\n\n\n\n\nキヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。",
+          "link": "https://eset-info.canon-its.jp/malware_info/news/detail/230406_2.html",
+          "publishedOn": "2023-04-05T15:00:00.000Z",
+          "wordCount": 204,
+          "title": "三菱UFJ信託銀行をかたるフィッシングについての注意喚起",
+          "imageUrl": "https://eset-info.canon-its.jp/files/user/images/common/sns_thumb.jpg"
+        },
+        {
           "id": "https://eset-info.canon-its.jp/malware_info/news/detail/230405_3.html",
           "author": null,
           "description": "2023年4月3日現在、厚生労働省をかたり、Vプリカ発行コード番号等の入力を促すフィッシングが確認されております。フィッシングサイト上の入力欄には、絶対に情報を入力しないようにお願いします。\n\nこのようなフィッシングサイトにて、Vプリカ発行コード番号、額面等を絶対に入力しないよう、ご注意ください。\n\n日頃から個人情報やクレジットカード情報、プリペイド番号等の入力を要求された場合は、入力する前に一度立ち止まり、似たようなフィッシングや詐欺事例がないかを、確認するようにしてください。\n\n【メールの件名】\n\n【厚生労働省】重要なお知らせ、必ずお読みください\n\n※上記以外の件名も使われている可能性があります。\n\n【サイトのURL】\n\nhttps://●●●●.com.cn/jp\n\n※上記以外のドメイン、URL も使われている可能性があります。\n※URL にパスやパラメータが付いていることがあります。\n\n2023/4/3 17:00時点では、フィッシングサイトは稼働中です。このサイトが停止しても、類似のフィッシングサイトが公開される恐れもありますので注意してください。\nこのようなフィッシングサイトは日々新規に作成されています。ESET製品は、新規に作成されるフィッシングサイトにも随時対応していきますが、お客さま自身でも十分にご注意ください。\n\n【参考情報】\n\n厚生労働省を名乗るフィッシングサイトへの注意喚起について\n\n\n \n\n\n■ ESET製品における検出例\n\n\n\n※ESET Internet Security V16.0/ESET Mobile Security V7.0でフィッシング対策機能が有効な場合は、図のような通知が表示されます。\n\n\n■ フィッシングメール／フィッシングサイトへの対応\n\n\n\n\tフィッシングの可能性があるメールをむやみに開かない。\n\tフィッシングの可能性があるメールの添付ファイルをむやみに開かない。\n\tメール文中のリンク先URLがフィッシングサイトである可能性を考え、リンク先URLへむやみにアクセスしない。\n\tフィッシングの可能性があるサイトにアカウント情報やクレジットカード情報などを入力しない。\n\n\n\n\nキヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。",
@@ -1436,36 +1446,6 @@
           "wordCount": null,
           "title": "ソフトバンクをかたるフィッシングについての注意喚起",
           "imageUrl": null
-        },
-        {
-          "id": "https://eset-info.canon-its.jp/malware_info/news/detail/230308_4.html",
-          "author": null,
-          "description": "2023年3月8日現在、えきねっとをかたるフィッシングが確認されております。フィッシングサイト上の入力欄には、絶対に情報を入力しないようにお願いします。\n\nこのようなフィッシングサイトにて、認証情報 (ユーザー ID、パスワード)、お名前 (姓、名、セイ、メイ)、生年月日、郵便番号、都道府県、市区町村、町名番地、アパート・マンション・建物名、電話番号、クレジットカード情報 (カード名義人、カード番号、有効期限、セキュリティコード)、3-D セキュアの認証情報 (ログイン ID、パスワード) 等を絶対に入力しないよう、ご注意ください。\n\n日頃からサービスへログインする際は、メールや SMS 内のリンクではなく、いつも利用しているスマートフォンの公式アプリやブラウザーのブックマークなどからアクセスするよう、心がけてください。\n\n【メールの件名】\n\nえきねっとにシステムを更新する\n「えきねっと」アカウントの自動退会処理について\n「新幹線eチケットサービス」えきねっとアカウントの自動退会処理について。メール番号: ●●●●\n【重要なお知らせ】えきねっとアカウントの本人確認のお知らせ、情報を更新してください。メール番号:●●●●\n\n※上記以外の件名も使われている可能性があります。\n\n【サイトのURL】\n\nhttps://●●●●.workers.dev/\nhttps://aaj●●●●.com/\nhttps://eki-nat.●●●●.com/\nhttps://eki-neicom.●●●●.com/\nhttps://www.eki2-●●●●.icu/\nhttps://www.eki-●●●●.●●●●.com.cn/\nhttps://www.eki.●●●●.●●●●.monster/●●●●\nhttps://●●●●.long●●●●.com/\n\n※上記以外のドメイン、URL も使われている可能性があります。\n※URL にパスやパラメータが付いていることがあります。\n\n2023/3/8 13:00時点では、フィッシングサイトは稼働中です。このサイトが停止しても、類似のフィッシングサイトが公開される恐れもありますので注意してください。\nこのようなフィッシングサイトは日々新規に作成されています。ESET製品は、新規に作成されるフィッシングサイトにも随時対応していきますが、お客さま自身でも十分にご注意ください。\n\n【参考情報】\n\nえきねっとをかたる偽メール(フィッシングメール)偽サイト(フィッシングサイト)にご注意ください！\n\n\n \n\n\n■ ESET製品における検出例\n\n\n\n※ESET Internet Security V16.0/ESET Mobile Security V7.0でフィッシング対策機能が有効な場合は、図のような通知が表示されます。\n\n\n■ フィッシングメール／フィッシングサイトへの対応\n\n\n\n\tフィッシングの可能性があるメールをむやみに開かない。\n\tフィッシングの可能性があるメールの添付ファイルをむやみに開かない。\n\tメール文中のリンク先URLがフィッシングサイトである可能性を考え、リンク先URLへむやみにアクセスしない。\n\tフィッシングの可能性があるサイトにアカウント情報やクレジットカード情報などを入力しない。\n\n\n\n\nキヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。",
-          "link": "https://eset-info.canon-its.jp/malware_info/news/detail/230308_4.html",
-          "publishedOn": "2023-03-07T15:00:00.000Z",
-          "wordCount": null,
-          "title": "えきねっとをかたるフィッシングについての注意喚起",
-          "imageUrl": null
-        },
-        {
-          "id": "https://eset-info.canon-its.jp/malware_info/news/detail/230308_2.html",
-          "author": null,
-          "description": "2023年3月7日現在、GMOあおぞらネット銀行をかたるフィッシングが確認されております。フィッシングサイト上の入力欄には、絶対に情報を入力しないようにお願いします。\n\nこのようなフィッシングサイトにて、ログイン ID、ログインパスワード等を絶対に入力しないよう、ご注意ください。\n\n日頃からサービスへログインする際は、メールや SMS 内のリンクではなく、いつも利用しているスマートフォンの公式アプリやブラウザーのブックマークなどからアクセスするよう、心がけてください。\n\n【メールの件名】\n\n＜GMOあおぞらネット銀行＞取引サービスの一時休止のお知らせ\n\n※上記以外の件名も使われている可能性があります。\n\n【サイトのURL】\n\nhttps://goms●●●●.com/\n\n※上記以外のドメイン、URL も使われている可能性があります。\n※URL にパスやパラメータが付いていることがあります。\n\n2023/3/7 15:00時点では、フィッシングサイトは稼働中です。このサイトが停止しても、類似のフィッシングサイトが公開される恐れもありますので注意してください。\nこのようなフィッシングサイトは日々新規に作成されています。ESET製品は、新規に作成されるフィッシングサイトにも随時対応していきますが、お客さま自身でも十分にご注意ください。\n\n【参考情報】\n\nGMOあおぞらネット銀行をかたる偽サイト、偽メールにご注意下さい\n\n\n \n\n\n■ ESET製品における検出例\n\n\n\n※ESET Internet Security V16.0/ESET Mobile Security V7.0でフィッシング対策機能が有効な場合は、図のような通知が表示されます。\n\n\n■ フィッシングメール／フィッシングサイトへの対応\n\n\n\n\tフィッシングの可能性があるメールをむやみに開かない。\n\tフィッシングの可能性があるメールの添付ファイルをむやみに開かない。\n\tメール文中のリンク先URLがフィッシングサイトである可能性を考え、リンク先URLへむやみにアクセスしない。\n\tフィッシングの可能性があるサイトにアカウント情報やクレジットカード情報などを入力しない。\n\n\n\n\nキヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。",
-          "link": "https://eset-info.canon-its.jp/malware_info/news/detail/230308_2.html",
-          "publishedOn": "2023-03-07T15:00:00.000Z",
-          "wordCount": null,
-          "title": "GMOあおぞらネット銀行をかたるフィッシングについての注意喚起",
-          "imageUrl": null
-        },
-        {
-          "id": "https://eset-info.canon-its.jp/malware_info/news/detail/230308_3.html",
-          "author": null,
-          "description": "2023年3月7日現在、三井住友銀行をかたるフィッシングが確認されております。フィッシングサイト上の入力欄には、絶対に情報を入力しないようにお願いします。\n\nこのようなフィッシングサイトにて、店番号、口座番号、契約者番号、ログイン暗証等を絶対に入力しないよう、ご注意ください。\n\n日頃からサービスへログインする際は、メールや SMS 内のリンクではなく、いつも利用しているスマートフォンの公式アプリやブラウザーのブックマークなどからアクセスするよう、心がけてください。\n\n【メールの件名】\n\n【三井住友銀行】【重要】必ずご回答ください／お客さま情報等の確認について\n\n※上記以外の件名も使われている可能性があります。\n\n【サイトのURL】\n\nhttps://www.smbc-bamkk.●●●●.com/\n\n※上記以外のドメイン、URL も使われている可能性があります。\n※URL にパスやパラメータが付いていることがあります。\n\n2023/3/7 17:00時点では、フィッシングサイトは稼働中です。このサイトが停止しても、類似のフィッシングサイトが公開される恐れもありますので注意してください。\nこのようなフィッシングサイトは日々新規に作成されています。ESET製品は、新規に作成されるフィッシングサイトにも随時対応していきますが、お客さま自身でも十分にご注意ください。\n\n【参考情報】\n\n当行をかたり個人情報を入力させるメール・ショートメッセージ（SMS）にご注意ください\n\n\n \n\n\n■ ESET製品における検出例\n\n\n\n※ESET Internet Security V16.0/ESET Mobile Security V7.0でフィッシング対策機能が有効な場合は、図のような通知が表示されます。\n\n\n■ フィッシングメール／フィッシングサイトへの対応\n\n\n\n\tフィッシングの可能性があるメールをむやみに開かない。\n\tフィッシングの可能性があるメールの添付ファイルをむやみに開かない。\n\tメール文中のリンク先URLがフィッシングサイトである可能性を考え、リンク先URLへむやみにアクセスしない。\n\tフィッシングの可能性があるサイトにアカウント情報やクレジットカード情報などを入力しない。\n\n\n\n\nキヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。",
-          "link": "https://eset-info.canon-its.jp/malware_info/news/detail/230308_3.html",
-          "publishedOn": "2023-03-07T15:00:00.000Z",
-          "wordCount": null,
-          "title": "三井住友銀行をかたるフィッシングについての注意喚起",
-          "imageUrl": null
         }
       ]
     },
@@ -1491,6 +1471,16 @@
       "feedUrl": "https://blogs.trellix.jp/category/threat-info/feed",
       "siteUrl": "https://blogs.trellix.jp",
       "articles": [
+        {
+          "id": "https://blogs.trellix.jp/?p=19234",
+          "author": "mcafee_admin",
+          "description": "Steen Pedersen、Mo Cashman両氏の協力に感謝します。 4月4日と5日、FBI、ユーロポール、オランダ警察を含む17カ国の機関にまたがる法執行タスクフォースが、ジェネシス・マーケット（Genesis  […]",
+          "link": "https://blogs.trellix.jp/genesis-market-no-longer-feeds-the-evil-cookie-monster",
+          "publishedOn": "2023-04-05T19:25:23.000Z",
+          "wordCount": 1180,
+          "title": "闇市場サイト「ジェネシス・マーケット」- 米英当局が押収、悪意のあるバイナリの解析と検出を支援",
+          "imageUrl": "https://blogs.trellix.jp/wp-content/uploads/2021/10/ATR-eye.jpg"
+        },
         {
           "id": "https://blogs.trellix.jp/?p=19207",
           "author": "mcafee_admin",
@@ -2021,6 +2011,16 @@
       "siteUrl": "https://jvn.jp/",
       "articles": [
         {
+          "id": "https://jvn.jp/vu/JVNVU91253151/",
+          "author": "jvn@jvn.jp",
+          "description": "Apache TomcatにはApache Commons FileUploadによる、サービス運用妨害（DoS）の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU91253151/",
+          "publishedOn": "2023-04-06T05:30:00.000Z",
+          "wordCount": 124,
+          "title": "Apache TomcatのApache Commons FileUploadにおけるサービス運用妨害（DoS）の脆弱性",
+          "imageUrl": null
+        },
+        {
           "id": "https://jvn.jp/vu/JVNVU91738719/",
           "author": "jvn@jvn.jp",
           "description": "Nexx社が提供するSmart Home Deviceには、複数の脆弱性が存在します。",
@@ -2320,7 +2320,7 @@
       ]
     },
     {
-      "title": "ブログ | WordPress.org 日本語",
+      "title": "ブログ – WordPress.org 日本語",
       "feedUrl": "https://ja.wordpress.org/news/feed/",
       "siteUrl": "https://ja.wordpress.org",
       "articles": [
@@ -2498,6 +2498,86 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/04/06/49176.html",
+          "author": null,
+          "description": "富士通株式会社は3月31日、2月20日に公表したFENICSインターネットサービスにおける外部への不正通信に関する調査結果ついて、セキュリティ強化策と再発防止策の具体的な内容を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/04/06/49176.html",
+          "publishedOn": "2023-04-05T23:05:09.000Z",
+          "wordCount": 825,
+          "title": "富士通 FENICS のネットワーク機器での不正通信、セキュリティ強化策と再発防止策を公表",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/41122.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/04/06/49175.html",
+          "author": null,
+          "description": "カジュアルファッションを取り扱う株式会社アダストリアは3月31日、1月19日に公表した同社サーバへの不正アクセスについて調査結果を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/04/06/49175.html",
+          "publishedOn": "2023-04-05T23:05:07.000Z",
+          "wordCount": 802,
+          "title": "カジュアルファッション取り扱いアダストリアのサーバへ不正アクセス、新たに約37万件の流出が判明",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/41115.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/04/06/49174.html",
+          "author": null,
+          "description": "清酒の製造や販売を行う日本盛株式会社は3月30日、2022年9月20日に公表した同社サーバへの不正アクセスについて、調査結果を発表した。画像ファイルでリリースを公表している。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/04/06/49174.html",
+          "publishedOn": "2023-04-05T23:05:02.000Z",
+          "wordCount": 808,
+          "title": "日本盛へのランサムウェア攻撃 カード情報漏えい可能性 運用の不備",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/41105.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/04/06/49173.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は4月4日、ジャストシステム製品における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/04/06/49173.html",
+          "publishedOn": "2023-04-05T23:00:21.000Z",
+          "wordCount": 817,
+          "title": "ジャストシステム製品に複数の脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/04/06/49172.html",
+          "author": null,
+          "description": "JNSAは、「特権ID管理ガイドライン　解説編」を公開した。2016年度に発行した「エンタープライズにおける特権ID管理解説書（第１版）」の改定新版となるもの。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/04/06/49172.html",
+          "publishedOn": "2023-04-05T23:00:16.000Z",
+          "wordCount": 813,
+          "title": "JNSA「特権ID管理ガイドライン 解説編」公開、インシデント事例など紹介",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/41113.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/04/06/49171.html",
+          "author": null,
+          "description": "デジタル庁、総務省、経済産業省の暗号技術検討会および関連委員会（CRYPTREC）は、CRYPTREC暗号リストの改定版、および更新したCRYPTREC暗号の仕様書を公開した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/04/06/49171.html",
+          "publishedOn": "2023-04-05T23:00:11.000Z",
+          "wordCount": 822,
+          "title": "CRYPTREC暗号リストおよび仕様書を改定 2013年以来",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/41112.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/04/06/49170.html",
+          "author": null,
+          "description": "株式会社日本レジストリサービス（JPRS）は4月3日、PowerDNS Recursorの脆弱性情報が公開されたと発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/04/06/49170.html",
+          "publishedOn": "2023-04-05T23:00:07.000Z",
+          "wordCount": 799,
+          "title": "PowerDNS Recursorの脆弱性情報が公開",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/04/06/49169.html",
+          "author": null,
+          "description": "イー・ガーディアンは、同グループのCISOに、グループ内でサイバーセキュリティ事業を担うEGセキュアソリューションズ取締役CTOの徳丸浩氏が4月1日付けで就任したと発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/04/06/49169.html",
+          "publishedOn": "2023-04-05T23:00:03.000Z",
+          "wordCount": 816,
+          "title": "徳丸浩氏 イー・ガーディアングループのCISOに就任",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2023/04/05/49168.html",
           "author": null,
@@ -3196,6 +3276,36 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2304/06/news114.html",
+          "author": null,
+          "description": "YouTubeをかたるフィッシングメールを確認したとして、グーグルが注意喚起。収益化に関する規約が新しくなったなどと偽り、不審なファイルのダウンロードを促すという。",
+          "link": "https://www.itmedia.co.jp/news/articles/2304/06/news114.html",
+          "publishedOn": "2023-04-06T04:28:00.000Z",
+          "wordCount": 2442,
+          "title": "「YouTube収益化の新しい規約を確認して」　配信者・クリエイター狙う詐欺メール　Googleが注意喚起",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2304/06/cover_news114.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2304/06/news056.html",
+          "author": null,
+          "description": "多くの子供がプレイするスマートフォンゲーム。そんな状況の中、ゲーム内通貨を欲しがったり、優位に立ちたいと思ったりする子供心に付け込むサイバー犯罪の手口が増えているという。狙いは子供のアカウントを踏み台にして、保護者のPCだ。",
+          "link": "https://www.itmedia.co.jp/news/articles/2304/06/news056.html",
+          "publishedOn": "2023-04-05T23:00:00.000Z",
+          "wordCount": 2479,
+          "title": "「質問に答えるだけでアイテムをあげるよ」──ゲーム好きな子供への甘い誘惑に要注意　狙いは親のPC",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2304/06/cover_news056.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2304/05/news171.html",
+          "author": null,
+          "description": "総務省をかたるフィッシング詐欺事案が見つかった。SMSで「住民税等お支払いサイト」に誘導し、支払いを求める手口だが、総務省ではそのようなサイトを設置していない。",
+          "link": "https://www.itmedia.co.jp/news/articles/2304/05/news171.html",
+          "publishedOn": "2023-04-05T09:50:00.000Z",
+          "wordCount": 2440,
+          "title": "総務省かたるフィッシング詐欺　SMSで督促状送りVプリカで支払い求める",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2304/05/cover_news171.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2304/05/news130.html",
           "author": null,
           "description": "JPCERT/CCと情報処理推進機構は、文書作成ソフト「一太郎シリーズ」を含むジャストシステム製品に複数の脆弱性が見つかったと報告した。悪用されるとDoS攻撃やバッファオーバーフローを起こされる恐れがある。",
@@ -3582,6 +3692,116 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1491526.html",
+          "author": null,
+          "description": "株式会社PFUは4月6日、同社のスキャナー全製品を同日より「リコー」ブランドで販売開始すると発表した。イメージスキャナー「fiシリーズ」「SPシリーズ」および「ScanSnap」を順次、同ブランドで販売開始する。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1491526.html",
+          "publishedOn": "2023-04-06T06:05:00.000Z",
+          "wordCount": 4339,
+          "title": "PFU、スキャナー全製品を「リコー」ブランドで販売開始　読取速度が毎分40枚のADFスキャナー「RICOH fi-8040」など、同ブランド初の新製品を発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1491/526/pfu00.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/security/1491039.html",
+          "author": null,
+          "description": "米サイバーセキュリティ・インフラセキュリティ庁（Cybersecurity & Infrastructure Security Agency、以降CISA）のジェン・イースタリー（Jen Easterly）長官は、2023年2月27日にカーネギーメロン大学（Carnegie Mellon University、以降CMU）で行なった講演において、ソフトウェア製品やサービスなどを提供している事業者は、利用者がパッチを適用したり、セキュリティ機能を高価な付加機能として購入したりしなければならないなど、セキュリティの負担が利用者に課せられている現状を当然のこととせず、セキュアな製品やサービスを提供することにもっと力を入れるべきと述べました。いわゆる「セキュリティ（セキュア）・バイ・デザイン」や「セキュリティ（セキュア）・バイ・デフォルト」を事業者に要求するもので、この講演の2日後、同年3月1日付でバイデン政権が発表した「国家サイバーセキュリティ戦略（National Cybersecurity Strategy）」の内容を見越しての発言とみられます。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/security/1491039.html",
+          "publishedOn": "2023-04-06T02:55:00.000Z",
+          "wordCount": 4419,
+          "title": "CISAが事業者に要求する「セキュリティ・バイ・デザイン」、多要素認証の必須化やメモリセーフなプログラミング言語への切り替えなどを推奨【海外セキュリティ】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1491/039/yamaga_main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1491437.html",
+          "author": null,
+          "description": "ChatGPTはプライバシーの侵害だとして利用を規制し始めたイタリアに続き、ほかのEU加盟国も同様の規制の検討を開始したようだ。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1491437.html",
+          "publishedOn": "2023-04-06T02:00:00.000Z",
+          "wordCount": 4313,
+          "title": "「ChatGPTはプライバシー侵害」イタリアに続いてEU各国もChatGPTの利用禁止を検討中？【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1491/437/yajiuma-watch_4.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1491436.html",
+          "author": null,
+          "description": "Twitterアカウントを用いた外部サービスへのログインに、Twitter社が制限をかけ始めているとの噂が海外で流れている。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1491436.html",
+          "publishedOn": "2023-04-06T02:00:00.000Z",
+          "wordCount": 4308,
+          "title": "大混乱の序章？ Twitterがアカウントを用いた外部サービスへのログインに制限開始との噂【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1491/436/yajiuma-watch_4.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/special/1490496.html",
+          "author": null,
+          "description": "警視庁より3月28日に「家庭用ルーターの不正利用に関する注意喚起」が発表され、同日、デジタルライフ推進協会（DLPA）から賛同する情報発信が行われた。本稿ではこれを受け、家庭用Wi-Fiルーターを安全に使用するための具体的なセキュリティ対策を、DLPAに取材した結果をもとに紹介する（なお、警察庁も同日付けで警視庁と同じ内容の注意喚起を行っている）。",
+          "link": "https://internet.watch.impress.co.jp/docs/special/1490496.html",
+          "publishedOn": "2023-04-06T01:45:00.000Z",
+          "wordCount": 4364,
+          "title": "警視庁「家庭用ルーターの不正利用に関する注意喚起」にどう対応したらいい？　デジタルライフ推進協会にポイントを聞いた",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1490/496/tw_routersec_01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1491229.html",
+          "author": null,
+          "description": "株式会社バッファローは、16ポートのギガビット対応法人向けアンマネージドスイッチ2製品を発売する。市場想定価格と発売予定は、PoE対応の「BS-GU2116P」は5万1480円で5月下旬、PoE非対応の「BS-GU2116」は2万6180円で7月中旬。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1491229.html",
+          "publishedOn": "2023-04-05T22:45:00.000Z",
+          "wordCount": 4311,
+          "title": "バッファロー、16ポートの法人向けL2アンマネージスイッチ「BS-GU2216P」「BS-GU2216」発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1491/229/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1491271.html",
+          "author": null,
+          "description": "エレコム株式会社は、2.5GbE対応のWANポートを備えるWi-Fi 6対応ルーター「WRC-X6000QS-G」を4月上旬に発売する。価格は1万8480円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1491271.html",
+          "publishedOn": "2023-04-05T21:50:00.000Z",
+          "wordCount": 4326,
+          "title": "エレコム、2.5GbEと4804Mbpsに対応したWi-Fi 6ルーター「WRC-X6000QS-G」発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1491/271/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1491236.html",
+          "author": null,
+          "description": "株式会社ユニットコムは、最大4台のディスプレイを取り付けられるディスプレイアーム「UNI-LCD-ARM-QUAD3」を同社のECサイト「パソコン工房」などで発売した。価格は7980円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1491236.html",
+          "publishedOn": "2023-04-05T21:30:00.000Z",
+          "wordCount": 4308,
+          "title": "最大4台のディスプレイを取り付け可能な「UNI-LCD-ARM-QUAD3」、ユニットコムが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1491/236/m0.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1491315.html",
+          "author": null,
+          "description": "株式会社バッファローはWi-Fi 6Eに対応する法人向けのWi-Fiアクセスポイント「WAPM-AXETR」および、同製品の「キキNaviクラウドゼロタッチ」専用モデル「WAPM-AXETR/Z」を4月下旬から順次発売する。市場想定価格は両モデルとも10万9780円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1491315.html",
+          "publishedOn": "2023-04-05T21:20:00.000Z",
+          "wordCount": 4320,
+          "title": "バッファロー、Wi-Fi 6E対応の法人向けアクセスポイント「WAPM-AXETR」発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1491/315/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1491372.html",
+          "author": null,
+          "description": "米国インターネットアーカイブ（Internet Archive）の創設者、ブリュースター・ケール氏が3月25日、日本市場向けのプレゼンテーションをオンラインで行った。近年、インターネットアーカイブの活動は日本であまり大きく取り上げられる機会はなかったが、今回はブリュースター・ケール氏自身がインターネットアーカイブの活動をプレゼンテーションし、さらに質問に答える機会となった。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1491372.html",
+          "publishedOn": "2023-04-05T21:10:00.000Z",
+          "wordCount": 4355,
+          "title": "米国インターネットアーカイブの目指すこと――その理念、著作権という現実、AIとの関係　創設者ブリュースター・ケール氏が日本市場に向けて講演",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1491/372/ia02.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/mirroring/1330343.html",
+          "author": null,
+          "description": "新型コロナウイルス問題の発生から早3年。人々の働き方・生活スタイルは大きく変わりました。場所を問わずに仕事をこなし、余暇にはオンラインのエンターテインメントを楽しむ。そこで活躍するのがスマホやPCですが、両端末ともに画面サイズはやや小さめ。快適な体験のためには、より大きな画面のテレビを活用したいところです。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/mirroring/1330343.html",
+          "publishedOn": "2023-04-05T21:00:00.000Z",
+          "wordCount": 4386,
+          "title": "「ミラーリング」が何かと便利！ 利用するには何が必要？ 4つの注意点を紹介【スマホ動画をテレビで見る方法 第1回】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1330/343/01.jpg"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/1491268.html",
           "author": null,
@@ -3985,6 +4205,106 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230406-2646341/",
+          "author": null,
+          "description": "シャープは4月6日、パソコン操作ログの収集や未承認の外部記録メディアの利用を制限することで情報漏洩を抑止するソリューション「情報漏洩対策アプライアンス」を発表した。5月下旬より法人向けに発売する。価格はオープン。",
+          "link": "https://news.mynavi.jp/techplus/article/20230406-2646341/",
+          "publishedOn": "2023-04-06T06:27:16.000Z",
+          "wordCount": 2464,
+          "title": "シャープ、PC操作ログ収集や外部記録媒体を制限「情報漏洩対策アプライアンス」",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230406-2646341/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230406-2646276/",
+          "author": null,
+          "description": "ノートンは4月6日、サイバー犯罪の実態や個人情報漏洩に対する意識と行動について、日本を含む8カ国、8000人以上の消費者を対象に実施したグローバル調査「ノートン サイバーセーフティ インサイトレポート 2023」の結果を発表した。",
+          "link": "https://news.mynavi.jp/techplus/article/20230406-2646276/",
+          "publishedOn": "2023-04-06T04:00:12.000Z",
+          "wordCount": 2459,
+          "title": "2022年のサイバー犯罪被害総額は前年比330%増の約1045億円- ノートン調査",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230406-2646276/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230406-2646166/",
+          "author": null,
+          "description": "フィッシング対策協議会(Council of Anti-Phishing Japan)は4月5日、総務省を偽るフィッシングの報告を受けていると伝えた。攻撃者は、住民税の納付が未納であるとし、期限までに支払うを行うように促すとともにVプリカ発行コードによる支払いを求めてくるという。",
+          "link": "https://news.mynavi.jp/techplus/article/20230406-2646166/",
+          "publishedOn": "2023-04-06T03:44:38.000Z",
+          "wordCount": 2454,
+          "title": "総務省による住民税の督促を偽るフィッシング確認、注意を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230406-2646166/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230406-2646259/",
+          "author": null,
+          "description": "米デル・テクノロジーズは3月15日、企業に対するサイバー脅威からの保護や攻撃への対応、および、デバイスやシステムやクラウド保護のための新しいセキュリティサービスとソリューションを発表した。",
+          "link": "https://news.mynavi.jp/techplus/article/20230406-2646259/",
+          "publishedOn": "2023-04-06T03:26:56.000Z",
+          "wordCount": 2417,
+          "title": "デル、セキュリティポートフォリオを強化するソリューションを拡充",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230406-2646259/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230406-2646158/",
+          "author": null,
+          "description": "フィッシング対策協議会(Council of Anti-Phishing Japan)は4月5日、「フィッシング対策協議会　Council of Anti-Phishing Japan｜ニュース｜緊急情報｜関税等お支払いサイト (F-REGI 公金支払い) を装うフィッシング (2023/04/05)」において、財務省を偽るフィッシングの報告を受けていると伝えた。メールの件名としては、「関税・【差押最終通知】未払い税金お支払いのお願い」が確認されており注意が必要。",
+          "link": "https://news.mynavi.jp/techplus/article/20230406-2646158/",
+          "publishedOn": "2023-04-06T02:16:02.000Z",
+          "wordCount": 2494,
+          "title": "財務省を偽るフィッシング確認、注意を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230406-2646158/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230406-2646142/",
+          "author": null,
+          "description": "フィッシング対策協議会(Council of Anti-Phishing Japan)は4月5日、三菱UFJ信託銀行を偽るフィッシングの報告を受けているとして、注意を呼び掛けた。メールの件名としては、「【三菱UFJ信託銀行】お取引目的等の確認のお願い」が確認されており注意が必要。",
+          "link": "https://news.mynavi.jp/techplus/article/20230406-2646142/",
+          "publishedOn": "2023-04-06T01:47:19.000Z",
+          "wordCount": 2458,
+          "title": "三菱UFJ信託銀行を偽るフィッシング確認、注意を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230406-2646142/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230406-2638564/",
+          "author": null,
+          "description": "Google(Mandiant)はこのほど、2022年に実行されたゼロデイの脆弱性を突いた攻撃に関するレポートを公開した。 2022年に悪用されたと判断されたゼロデイ脆弱性は55件で、特に、中国国家が支援するサイバースパイグループがゼロデイ脆弱性を悪用していることがわかったという。",
+          "link": "https://news.mynavi.jp/techplus/article/20230406-2638564/",
+          "publishedOn": "2023-04-06T00:37:00.000Z",
+          "wordCount": 2586,
+          "title": "2022年に攻撃に悪用されたゼロデイ脆弱性は55件、Microsoft製品が18件",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230406-2638564/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230406-2645720/",
+          "author": null,
+          "description": "エッジオ・ジャパンは4月5日、ビジネス戦略に関する記者説明会を開催した。日本語版の自社Webサイトを立ち上げてブランド認知を向上させ、小売りと金融業への製品提供を強化するという。",
+          "link": "https://news.mynavi.jp/techplus/article/20230406-2645720/",
+          "publishedOn": "2023-04-06T00:12:16.000Z",
+          "wordCount": 3243,
+          "title": "エッジオ・ジャパン、2023年度の事業戦略 - 30社超で新製品の採用目指す",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230406-2645720/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230406-2645815/",
+          "author": null,
+          "description": "Trustwaveは4月4日(米国時間)、Webブラウザを標的とする新種のマルウェア「Rilide」を発見したと報告した。Google Chrome、Microsoft Edge、Brave、OperaなどのChromiumベースのWebブラウザに影響を与えるとされており、Google Driveの正規の拡張機能を装って配布されている。",
+          "link": "https://news.mynavi.jp/techplus/article/20230406-2645815/",
+          "publishedOn": "2023-04-06T00:04:08.000Z",
+          "wordCount": 2523,
+          "title": "Google Drive拡張機能装う新種のマルウェア「Rilide」、危険な典型例",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230406-2645815/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230405-2645584/",
+          "author": null,
+          "description": "デジサート・ジャパンは4月5日、都都内で認証局ベンダーフリーの電子証明書とPKI(公開鍵インフラストラクチャ)サービスを一元管理するデジタルトラストソリューションとして「DigiCert Trust Lifecycle Manager」を発表した。",
+          "link": "https://news.mynavi.jp/techplus/article/20230405-2645584/",
+          "publishedOn": "2023-04-05T08:51:48.000Z",
+          "wordCount": 2619,
+          "title": "デジサート、サーバ・クライアント証明書とPKIサービスを一元管理する新サービス",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230405-2645584/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20230405-2645313/",
           "author": null,
