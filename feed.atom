@@ -2,10 +2,50 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-04-14T08:11:11.473Z</updated>
+    <updated>2023-04-15T08:10:09.410Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[米連邦通信委員会、USB 充電ステーションを悪用する「Juice Jacking」への注意喚起を更新]]></title>
+        <id>https://hardware.srad.jp/story/23/04/15/0236240/</id>
+        <link href="https://hardware.srad.jp/story/23/04/15/0236240/"/>
+        <updated>2023-04-15T02:59:00.000Z</updated>
+        <summary type="html"><![CDATA[米連邦通信委員会 (FCC) は 11 日、公共の場に設置された USB 充電ステーションによるモバイルデバイスへの攻撃「Juice Jacking」に注意喚起する記事を更新している
+(FCC の記事)。
+
+Juice Jacking は USB 充電ステーションに細工して接続したスマートフォンなどにマルウェアを感染させてデバイスをロックしたり、データを盗み出したりする攻撃だ。細工したケーブルを故意に置いていくケースも報じられているという。6 日には FBI Denver が Juice Jacking に関する注意喚起を Twitter に投稿して注目されていた。FBI は Axios の問い合わせに通常の注意喚起だと述べ、FCCの同記事を示している。
+
+これまで同記事では Juice Jacking 回避方法として、USB 充電ステーションの使用を避けて AC 電源を使用することのほか、旅先には自前の充電器やケーブル、モバイルバッテリーなどを携帯すること、データ端子の接続されていない充電専用ケーブルの携帯を検討することなどを挙げていた。今回の更新ではデバイスを USB ポートに接続したときの対応として、操作内容を選択するプロンプトが接続されたら「充電のみ」を選択することを追加した。
+ すべて読む | ハードウェアセクション | セキュリティ | 電力 |     
+  関連ストーリー： 
+偽の Microsoft Office 製品パッケージを郵送するテクニカルサポート詐欺 2022年08月21日 
+USB Type-C コネクターのシェルに Wi-Fi やペイロード実行機能を実現するチップを組み込んだケーブル 2021年09月06日 
+贈り物を装って攻撃用のUSBデバイスを郵送する攻撃 2020年03月29日 
+Grayshift、iOS 12に搭載予定のUSB制限モードを既に突破か 2018年06月17日 
+米朝首脳会談のプレスキットにUSB扇風機が含まれていたことから騒動に 2018年06月16日 
+サイバーセキュリティクイズの商品として提供されたUSBメモリからマルウェアが見つかる 2018年01月13日 
+USB Type-Cに認証機能を加える仕様がアナウンスされる 2016年04月17日 
+USB端子に高電圧をかけて破壊する「USB Killer」、製品化に向けて出資募集中 2015年11月10日 
+PCを物理的に破壊するUSBデバイス 2015年03月13日 
+電子タバコの充電でマルウェアに感染 2014年11月27日 
+スマートホンを危険から防ぐ「USBコンドーム」 2013年09月18日 
+接続するだけでiPhoneが乗っ取られる「改造充電器攻撃」、その詳細が伝えられる 2013年08月08日 
+EnergizerのUSB充電器用モニタソフトにバックドアが仕込まれる 2010年03月08日]]></summary>
+        <author>
+            <name>headless</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[見出しでわかる IT界隈・今週の重要ニュース：全123本［2023/4/6～4/12］]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/weekly/1493684.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/weekly/1493684.html"/>
+        <updated>2023-04-14T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[「情報セキュリティマネジメント・セミナー2019」参加登録受付を開始しました。]]></title>
         <id>https://www.jnsa.org/seminar/2019/1204/</id>
@@ -111,6 +151,16 @@
         <summary type="html"><![CDATA[Metaはメッセージングアプリ「WhatsApp」の3つのセキュリティ機能を発表した。いずれもアカウント保護のためのものだ。向こう数カ月中に追加される。]]></summary>
         <author>
             <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[情報窃取マルウェア Typhon Reborn V2 が機能を更新、分析回避機能と検出回避機能を強化]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=45961</id>
+        <link href="https://gblogs.cisco.com/jp/2023/04/talos-typhon-reborn-v2-features-enhanced-anti-analysis/"/>
+        <updated>2023-04-14T06:42:36.000Z</updated>
+        <summary type="html"><![CDATA[情報窃取マルウェア Typhon Reborn の開発者が 1 月にバージョン 2（V2）をリリースしました。このバージョンではコードベースの大幅な更新と機能の改良が行われています。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
         </author>
     </entry>
     <entry>
@@ -6046,27 +6096,6 @@ https://direct.hir●●●●.com/
         <summary type="html"><![CDATA[JPドメイン名の登録管理業務とDNSの運用を行っている株式会社日本レジストリサービス(JPRS)による、JPドメイン名サービス総合案内サイトです。]]></summary>
         <author>
             <name>JPRS最新情報</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【2023年2月号】暴露型ランサムウェア攻撃統計CIGマンスリーレポート]]></title>
-        <id>https://www.mbsd.jp/research/20230316/cig-monthly/</id>
-        <link href="https://www.mbsd.jp/research/20230316/cig-monthly/"/>
-        <updated>2023-03-16T15:19:55.000Z</updated>
-        <summary type="html"><![CDATA[【2023年2月号】暴露型ランサムウェア攻撃統計CIGマンスリーレポート]]></summary>
-        <author>
-            <name>三井物産セキュアディレクション株式会社</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AI in the Hands of Cybercriminals: How to Spot Fake Art and Deepfakes]]></title>
-        <id>https://www.mcafee.com/blogs/?p=165836</id>
-        <link href="https://www.mcafee.com/blogs/privacy-identity-protection/ai-in-the-hands-of-cybercriminals-how-to-spot-fake-art-and-deepfakes/"/>
-        <updated>2023-03-16T13:37:11.000Z</updated>
-        <summary type="html"><![CDATA[Artificial intelligence (AI) is making its way from high-tech labs and Hollywood plots into the hands of the general population....
-The post AI in the Hands of Cybercriminals: How to Spot Fake Art and Deepfakes appeared first on McAfee Blog.]]></summary>
-        <author>
-            <name>McAfee</name>
         </author>
     </entry>
 </feed>

@@ -697,16 +697,6 @@
           "wordCount": 3567,
           "title": "4 Mobile Malware Threats You Can’t Even See",
           "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2020/03/300x200_Blog_032223.png"
-        },
-        {
-          "id": "https://www.mcafee.com/blogs/?p=165836",
-          "author": "McAfee",
-          "description": "Artificial intelligence (AI) is making its way from high-tech labs and Hollywood plots into the hands of the general population....\nThe post AI in the Hands of Cybercriminals: How to Spot Fake Art and Deepfakes appeared first on McAfee Blog.",
-          "link": "https://www.mcafee.com/blogs/privacy-identity-protection/ai-in-the-hands-of-cybercriminals-how-to-spot-fake-art-and-deepfakes/",
-          "publishedOn": "2023-03-16T13:37:11.000Z",
-          "wordCount": 3261,
-          "title": "AI in the Hands of Cybercriminals: How to Spot Fake Art and Deepfakes",
-          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2023/03/300x200_Blog_031623.png"
         }
       ]
     },
@@ -738,6 +728,16 @@
       "feedUrl": "https://gblogs.cisco.com/jp/feed/",
       "siteUrl": "https://gblogs.cisco.com/jp",
       "articles": [
+        {
+          "id": "https://gblogs.cisco.com/jp/?p=45961",
+          "author": "TALOS Japan",
+          "description": "情報窃取マルウェア Typhon Reborn の開発者が 1 月にバージョン 2（V2）をリリースしました。このバージョンではコードベースの大幅な更新と機能の改良が行われています。",
+          "link": "https://gblogs.cisco.com/jp/2023/04/talos-typhon-reborn-v2-features-enhanced-anti-analysis/",
+          "publishedOn": "2023-04-14T06:42:36.000Z",
+          "wordCount": 1841,
+          "title": "情報窃取マルウェア Typhon Reborn V2 が機能を更新、分析回避機能と検出回避機能を強化",
+          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/24AR02390_eyecatch-460x230.jpg"
+        },
         {
           "id": "https://gblogs.cisco.com/jp/?p=45951",
           "author": "TALOS Japan",
@@ -922,16 +922,6 @@
           "wordCount": 452,
           "title": "2023年2月度 MBSD-SOCの検知傾向トピックス",
           "imageUrl": "https://www.mbsd.jp/2023/03/15/assets/images/a00e589d782c008e15757c220f02bd8aad2c8ef4.PNG"
-        },
-        {
-          "id": "https://www.mbsd.jp/research/20230316/cig-monthly/",
-          "author": null,
-          "description": "【2023年2月号】暴露型ランサムウェア攻撃統計CIGマンスリーレポート",
-          "link": "https://www.mbsd.jp/research/20230316/cig-monthly/",
-          "publishedOn": "2023-03-16T15:19:55.000Z",
-          "wordCount": 435,
-          "title": "【2023年2月号】暴露型ランサムウェア攻撃統計CIGマンスリーレポート",
-          "imageUrl": "https://www.mbsd.jp/2023/03/17/assets/images/Thumb_CIG_Monthly_Common.jpg"
         }
       ]
     },
@@ -2172,7 +2162,7 @@
       ]
     },
     {
-      "title": "ブログ | WordPress.org 日本語",
+      "title": "ブログ – WordPress.org 日本語",
       "feedUrl": "https://ja.wordpress.org/news/feed/",
       "siteUrl": "https://ja.wordpress.org",
       "articles": [
@@ -2203,6 +2193,16 @@
       "feedUrl": "https://srad.jp/security.rss",
       "siteUrl": "https://security.srad.jp/",
       "articles": [
+        {
+          "id": "https://hardware.srad.jp/story/23/04/15/0236240/",
+          "author": "headless",
+          "description": "米連邦通信委員会 (FCC) は 11 日、公共の場に設置された USB 充電ステーションによるモバイルデバイスへの攻撃「Juice Jacking」に注意喚起する記事を更新している\n(FCC の記事)。\n\nJuice Jacking は USB 充電ステーションに細工して接続したスマートフォンなどにマルウェアを感染させてデバイスをロックしたり、データを盗み出したりする攻撃だ。細工したケーブルを故意に置いていくケースも報じられているという。6 日には FBI Denver が Juice Jacking に関する注意喚起を Twitter に投稿して注目されていた。FBI は Axios の問い合わせに通常の注意喚起だと述べ、FCCの同記事を示している。\n\nこれまで同記事では Juice Jacking 回避方法として、USB 充電ステーションの使用を避けて AC 電源を使用することのほか、旅先には自前の充電器やケーブル、モバイルバッテリーなどを携帯すること、データ端子の接続されていない充電専用ケーブルの携帯を検討することなどを挙げていた。今回の更新ではデバイスを USB ポートに接続したときの対応として、操作内容を選択するプロンプトが接続されたら「充電のみ」を選択することを追加した。\n すべて読む | ハードウェアセクション | セキュリティ | 電力 |     \n  関連ストーリー： \n偽の Microsoft Office 製品パッケージを郵送するテクニカルサポート詐欺 2022年08月21日 \nUSB Type-C コネクターのシェルに Wi-Fi やペイロード実行機能を実現するチップを組み込んだケーブル 2021年09月06日 \n贈り物を装って攻撃用のUSBデバイスを郵送する攻撃 2020年03月29日 \nGrayshift、iOS 12に搭載予定のUSB制限モードを既に突破か 2018年06月17日 \n米朝首脳会談のプレスキットにUSB扇風機が含まれていたことから騒動に 2018年06月16日 \nサイバーセキュリティクイズの商品として提供されたUSBメモリからマルウェアが見つかる 2018年01月13日 \nUSB Type-Cに認証機能を加える仕様がアナウンスされる 2016年04月17日 \nUSB端子に高電圧をかけて破壊する「USB Killer」、製品化に向けて出資募集中 2015年11月10日 \nPCを物理的に破壊するUSBデバイス 2015年03月13日 \n電子タバコの充電でマルウェアに感染 2014年11月27日 \nスマートホンを危険から防ぐ「USBコンドーム」 2013年09月18日 \n接続するだけでiPhoneが乗っ取られる「改造充電器攻撃」、その詳細が伝えられる 2013年08月08日 \nEnergizerのUSB充電器用モニタソフトにバックドアが仕込まれる 2010年03月08日",
+          "link": "https://hardware.srad.jp/story/23/04/15/0236240/",
+          "publishedOn": "2023-04-15T02:59:00.000Z",
+          "wordCount": 2449,
+          "title": "米連邦通信委員会、USB 充電ステーションを悪用する「Juice Jacking」への注意喚起を更新",
+          "imageUrl": "https://srad.jp/static/topics/power_64.png"
+        },
         {
           "id": "https://security.srad.jp/story/23/04/13/149233/",
           "author": "nagazou",
@@ -3124,6 +3124,16 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/weekly/1493684.html",
+          "author": null,
+          "description": "「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/weekly/1493684.html",
+          "publishedOn": "2023-04-14T10:00:00.000Z",
+          "wordCount": 4449,
+          "title": "見出しでわかる IT界隈・今週の重要ニュース：全123本［2023/4/6～4/12］",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1493/684/shutterstock_1391033204_main.jpg"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/1493654.html",
           "author": null,
