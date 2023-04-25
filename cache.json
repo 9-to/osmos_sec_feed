@@ -219,6 +219,26 @@
       "siteUrl": "https://www.ipa.go.jp/about/index.html",
       "articles": [
         {
+          "id": "https://www.ipa.go.jp/security/reports/sme/cyberkogeki2022.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「「令和4年度中小企業等に対するサイバー攻撃の実態調査」調査実施報告書について」に関する情報です。",
+          "link": "https://www.ipa.go.jp/security/reports/sme/cyberkogeki2022.html",
+          "publishedOn": "2023-04-24T15:00:00.000Z",
+          "wordCount": 1153,
+          "title": "「令和4年度中小企業等に対するサイバー攻撃の実態調査」調査実施報告書について を公開しました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
+          "id": "https://www.ipa.go.jp/digital/architecture/project/smartbuilding/conference/news_202303_1.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「第3回 スマートビル将来ビジョン検討会」に関する情報です。",
+          "link": "https://www.ipa.go.jp/digital/architecture/project/smartbuilding/conference/news_202303_1.html",
+          "publishedOn": "2023-04-24T15:00:00.000Z",
+          "wordCount": 307,
+          "title": "【スマートビルプロジェクト/将来ビジョン検討会】第3回 スマートビル将来ビジョン検討会 議事録・アーカイブ動画を公開しました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
           "id": "https://www.ipa.go.jp/digital/architecture/project/btob/btob-conference/transaction_futurevision_202305_1.html",
           "author": "情報処理推進機構（IPA）",
           "description": "情報処理推進機構（IPA）の「第4回 企業間取引将来ビジョン検討会」に関する情報です。",
@@ -296,6 +316,16 @@
           "publishedOn": "2023-04-18T15:00:00.000Z",
           "wordCount": 1727,
           "title": "「脆弱性対策情報データベースJVN iPediaの登録状況 [2023年第1四半期（1月〜3月）] 」を公開しました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
+          "id": "https://www.ipa.go.jp/jinzai/riss/reports/data/index.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「情報処理安全確保支援士（登録セキスペ）登録者情報」に関する情報です。",
+          "link": "https://www.ipa.go.jp/jinzai/riss/reports/data/index.html",
+          "publishedOn": "2023-04-17T15:00:00.000Z",
+          "wordCount": 361,
+          "title": "国家資格「情報処理安全確保支援士」2023年4月1日付登録者1,152名、登録者総数21,633名の内訳を公開しました",
           "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
         },
         {
@@ -978,6 +1008,46 @@
       "siteUrl": "https://gblogs.cisco.com/jp",
       "articles": [
         {
+          "id": "https://gblogs.cisco.com/jp/?p=45361",
+          "author": "渡部 周一",
+          "description": "今、製造業に求められているネットワークのあり方を、実例を交えながら解説します。",
+          "link": "https://gblogs.cisco.com/jp/2023/04/the-network-infrastructure-for-the-future-manufacturing-industry/",
+          "publishedOn": "2023-04-25T07:00:48.000Z",
+          "wordCount": 1244,
+          "title": "激しい市場競争を勝ち抜く、これからの製造業のネットワークインフラ",
+          "imageUrl": "https://storage.googleapis.com/gblogs-bucket/sites/2/AV27343-1440x720-1-460x230.jpg"
+        },
+        {
+          "id": "https://gblogs.cisco.com/jp/?p=46048",
+          "author": "TALOS Japan",
+          "description": "脆弱性の発見者：Kelly Leuschner と Thorsten Rosendahl Cisco Talos の研究者は先頃、Lenovo Smart Clock Essential の脆弱性を発見しました。このデバイスが接続されているネットワークに攻撃者がアクセスできた場合、完全に乗っ取られてしまう恐れがあります。",
+          "link": "https://gblogs.cisco.com/jp/2023/04/talos-vulnerability-spotlight-hard-coded-password-vulnerability-could-allow-attacker-to-completely-take-over-lenovo-smart-clock/",
+          "publishedOn": "2023-04-25T03:33:38.000Z",
+          "wordCount": 1270,
+          "title": "注目の脆弱性：ハードコードされた脆弱なパスワードが原因で Lenovo Smart Clock が完全に乗っ取られる恐れ",
+          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/02AQ46226_eyecatch-460x230.jpg"
+        },
+        {
+          "id": "https://gblogs.cisco.com/jp/?p=46043",
+          "author": "TALOS Japan",
+          "description": "今週も脅威情報ニュースレターをお届けします。この数週間、サイバー犯罪者向けのオンラインフォーラムに対して、世界各地の法執行機関が素晴らしい成果を上げています。",
+          "link": "https://gblogs.cisco.com/jp/2023/04/talos-threat-source-newsletter-april-13-2023/",
+          "publishedOn": "2023-04-25T03:10:50.000Z",
+          "wordCount": 1447,
+          "title": "脅威情報ニュースレター（2023 年 4 月 13 日）：次々に閉鎖に追い込まれるダーク Web フォーラム",
+          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/01AM78717_eyecatch-460x230.jpg"
+        },
+        {
+          "id": "https://gblogs.cisco.com/jp/?p=46037",
+          "author": "TALOS Japan",
+          "description": "このところ、以前よりもさらに標的を絞った、手の込んだフィッシング攻撃が増えています。モバイルデバイスやソーシャルメディアといった通信チャネルが急増したことで、攻撃者がフィッシングを仕掛ける手段も広がっています。",
+          "link": "https://gblogs.cisco.com/jp/2023/04/talos-ai-and-other-modern-tools-enhance-phishing/",
+          "publishedOn": "2023-04-25T02:40:13.000Z",
+          "wordCount": 1293,
+          "title": "攻撃者がフィッシング詐欺に AI や最新のツールを使用、巧妙になるその手口とは",
+          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/30AS92196_eyecatch-460x230.jpg"
+        },
+        {
           "id": "https://gblogs.cisco.com/jp/?p=46031",
           "author": "TALOS Japan",
           "description": "ネットワークインフラに対する高度な攻撃の割合が増加しており、シスコは事態を重く受け止めています。これは Talos が直接確認しているほか、各国の諜報機関からの数多くのレポートによっても裏付けられています。国家的な支援を受けた攻撃者が世界的に暗躍し、ルーターやファイアウォールを標的にしているのです。",
@@ -1402,6 +1472,36 @@
       "feedUrl": "https://eset-info.canon-its.jp/RSS.rdf",
       "siteUrl": "https://eset-info.canon-its.jp/",
       "articles": [
+        {
+          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/230425.html",
+          "author": null,
+          "description": "リモートワークを行うユーザーの急増などもあり、クラウドサービスを活用する企業も増えている。その一方で、従来の「境界型防御」というセキュリティ対策も再考を迫られるようになっている。この記事では、昨今のネットワークセキュリティ対策の動向を踏まえ、ゼロトラストネットワークついて解説する。\n\n\n\n\n\nゼロトラストとは\n\n近年、セキュリティ業界で注目を集めているキーワードの1つが「ゼロトラスト」だ。ゼロトラストとは、「ゼロ＝何もしない」、「トラスト＝信頼する」という言葉のとおり、「すべての通信を信頼しない」ことを前提に対策を講じる、セキュリティ対策における比較的新しい考え方である。\n\nゼロトラストの概念は、2010年に米国のフォレスター・リサーチ社のジョン・キンダーバーグ（John Kindervag）が提唱した「Never Trust, Always Verify.（決して信頼せず、常に監視せよ。）」という考え方がベースとなっている。\n\n従来、ネットワークセキュリティでは内部と外部を切り離して対策を講じることが前提となっていた。この場合、攻撃は外部から生じるものであり、内部すなわち組織・企業内部での通信は信頼できるものとみなす。しかし、テクノロジーの進化、働き方の変化などもあり、その前提は大きく覆りつつある。\n\nこれまでのセキュリティモデルが性善説に基づくものと捉えれば、ゼロトラストセキュリティでは、性悪説に基づいたアプローチにて対策を講じるのだ。\n\nゼロトラスト・セキュリティ・モデルはクラウド時代の最適解となるのか？\n\nゼロトラストが注目されるようになった背景\n\n先述のとおり、ゼロトラストに注目が集まるきっかけとなったのは、テクノロジーの進化や働き方の変化だ。そして、大きなパラダイムシフトとなったのはやはりコロナ禍だろう。\n\n新型コロナウイルスの蔓延を防ぐため出社自粛が要請されたことによって、出社せずに業務を遂行するリモートワークを導入する企業の数が急増。クラウドサービスを業務で活用する流れも加速するなど、業務環境は大きな変化を伴った。\n\nその結果、従来の「境界型防御」というセキュリティの考え方から、こうした環境変化を踏まえたセキュリティ対策を講じる必要性に迫られたのだ。\n\n境界型防御とは、社内ネットワークと外部ネットワークとを切り分け、社内ネットワークの通信は信頼できるもので外部の通信は信頼できないものとして、その境界を防御すれば安心であるという考え方だ。社内ネットワークと外部ネットワークの間にファイアウォールを設置するというのは、典型的な境界型防御における対策の1つである。\n\nコロナ禍でリモートワークが増加したことやクラウドサービス、モバイル端末の利用拡大により、企業ネットワークの内外を隔てる境界そのものが曖昧となり、攻撃の侵入経路が多様化した。「アタックサーフェスの拡大」とも言われ、攻撃者の選択肢が増えている状況となった。\n\nまた、外部から企業内ネットワークへのアクセス手段としては、従来から一般的にVPNが使われているが、VPNでは基本的にIDとパスワードを用いた認証となる。そのため、これらのアカウント情報が漏えいしてしまうと、容易に不正アクセスされてしまう。その結果、攻撃者によって社内から機密情報などが盗み出されかねない。\n\nこのような背景もあり、従来の境界型防御のセキュリティ対策から、新しいテクノロジーや多様な環境を前提にした対策への転換が迫られているのだ。\n\nファイアウォール？UTM？今、ゲートウェイに求められるセキュリティ対策\n\nゼロトラストネットワークアクセス（ZTNA）とは\n\nゼロトラストネットワークとは、ゼロトラストの概念に基づく新しいネットワークの考え方だ。従来のアカウント情報を用いた認証では、認証された後はネットワークへのアクセスがほぼ制限されない。この状況を改め、事前に管理者が策定したアクセスに関するポリシーに基づき、ユーザーのアクセスの認可をその都度判断して行うことになる。\n\n認証後のユーザーのコンテキストを認証・認可情報として利用し、その通信がどこに対してのアクセスが許される通信なのかを判別・認可し、アクセスすべきではないサーバーなどには通信できないようにするのだ。\n\nゼロトラストネットワークを実現するソリューションの中でも特に重要になるのが、外部からリモートアクセスを行うためのゼロトラストネットワークアクセス（ZTNA）である。ZTNAはVPNに代わるリモートアクセスの方法であり、以下3つの特徴を有する。\n\n最小権限の原則\n\nVPNではIDとパスワードが合致すれば、社内のすべてのネットワークへのアクセスが許可されるが、ZTNAでは、ユーザーごとに与える権限を最小限にし、自分の業務に必要がないネットワークへはアクセスできないようになっている。\n\n高度なユーザー認証\n\nIDとパスワードの認証だけでなく、指紋やSMSなど、多要素認証を採用し、ユーザー認証を高度化することで、第三者が別のユーザーになりすまして社内ネットワークに侵入することを阻止する。\n\n端末ごとの信頼性評価\n\nユーザーが社内のネットワークにアクセスする際、使用している端末が会社支給か個人所有のものかを判別し、端末ごとにセキュリティソフトやOSのアップデート状況から、信頼性を評価。信頼性の低い端末からのネットワークへのアクセスを拒否する。\n\nCASBとは？シャドーITを踏まえたセキュリティ対策の決定打となり得る存在なのか？\n\nゼロトラストネットワークアクセス（ZTNA）のメリット\n\nVPNと比較した際のZTNAのメリットは以下のとおりだ。\n\nサイバー攻撃リスクの低減\n\n原則としてアタックサーフェスが小さくなるため、自ずとサイバー攻撃の被害は抑制される。また、攻撃者が侵入したとしても、最小権限しか与えられないため、組織内ネットワークにてラテラルムーブメント（水平展開または横展開）することを抑止する。\n\nスケーラビリティ\n\nユーザーの増加に対して迅速かつ柔軟な対応が可能だ。特に、VPNではユーザーの急増でVPN装置の処理能力が足りなくなり、通信が遅延しているケースが散見される。ZTNAはクラウド上のサービス、すなわちSaaSであるため、状況に応じた柔軟な調整が可能だ。\n\nBYOD\n\nクラウド経由にてリモートアクセスすることで、個人所有端末も利用可能となる。いわゆるBYOD（Bring Your Own Device）の推進に繋がる。\n\n通信快適性の向上\n\n先述のとおり、クラウドを用いていることもあり、柔軟な設定で通信を最適化できる。また、ZTNAのベンダーでは、さまざまな国・場所にアクセスポイントを置くことで通信経路の最適化を図っている場合も少なくない。\n\nゼロトラストネットワークのデメリット\n\nZTNAの導入はセキュリティ面から見ると望ましいことばかりのように見受けられるが、以下のようなデメリットがあることにも注意が必要だ。\n\n導入コストと時間がかかる\n\nZTNAを導入する前に、現在のITリソースやデータ、ユーザー、ビジネスプロセス、トラフィックフローなどを整理し、最適化する必要がある。導入段階では、専門的な知識を持った技術者による作業が必要であり、一定の導入コストと時間を要する。\n\nログインに手間がかかる\n\n基本的に多要素認証を行うため、ログインに手間がかかる。また、短時間で認証が切れるソリューションの場合、その都度認証し直す手間が生じてしまう。\n\nセキュリティ担当者の作業が増える\n\n導入後もネットワーク上のリソースを常にモニタリングし、ログ監視を行うなどセキュリティ担当者のやるべき作業が増えるほか、ユーザーからのフィードバックへ対応するための工数も必要となる場合がある。\n\n適切なセキュリティ設定をしないと業務効率が落ちる\n\nセキュリティ設定を厳しくしすぎると、業務に必要なデータにアクセスできなくなったり、個人所有の端末で社内ネットワークに接続できなくなったり、結果として業務効率が低下する可能性がある。適切なセキュリティ設定を行うには、専門的な技術や知識を持った人材が必要になる。\n\nゼロトラスト化が今後の課題に\n\n企業ネットワークのゼロトラスト化は、巧妙化・悪質化するサイバー攻撃を踏まえると、今後も広がりを見せていくことは想像に難くない。実際、VPNからZTNAにリプレースしている企業も少なくない。今後もこうした「脱VPN」といった動きは加速していくものと見込まれている。\n\nしかし、ZTNAは得られるメリットも大きいが、少なくないコスト負担も求められる。導入企業の業種によっては、投じるコストを上回るメリットを享受できない可能性もあり得る。導入にあたっては、自社の事業計画とセキュリティポリシーを天秤にかけながら、バランスの取れた最適解を見つけ出すようにしてほしい。",
+          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/230425.html",
+          "publishedOn": "2023-04-24T15:00:00.000Z",
+          "wordCount": 216,
+          "title": "ゼロトラストネットワークを実現するZTNAはVPNに取って代わるのか？",
+          "imageUrl": "https://eset-info.canon-its.jp/files/topics/4238_ext_01_0.jpg"
+        },
+        {
+          "id": "https://eset-info.canon-its.jp/malware_info/news/detail/230425_3.html",
+          "author": null,
+          "description": "日頃は、ESET製品をご利用いただき、誠にありがとうございます。\nここでは、ゴールデンウイーク期間のマルウェア対策に関する注意事項についてご案内しております。\n\nESET製品の検出エンジン（ウイルス定義データベース）のアップデートについて\n\n\nESET製品が使用する検出エンジン（ウイルス定義データベース）は休暇期間に関わらず、日々更新されています。\n休暇明けの初回の検出エンジンのアップデートの際は、複数世代分を取得しますので、サイズが普段の数百KBから数MB程度に増加する可能性があります。\n\n※検出エンジン（ウイルス定義データベース）のサイズは、お客さまのご利用環境、および、ウイルスの発生状況などにより前後いたします。\n\n休暇明けには、多量のメール受信などの通常とは異なる通信の発生によって、ネットワーク負荷が高まる可能性があります。\n必要に応じて、各クライアント端末が検出エンジンのアップデートを行うタイミングを分散させるなどの事前対策をご検討ください。\n\n\n参考URL\n\n\n\n\t検出エンジン（ウイルス定義データベース）のサイズと更新頻度について\n\t【 バージョン 8 以降の場合 】一時的にクライアント端末のアップデートタイミングを分散させるには\n\n\n\n長期休暇の前後にやっておきたいこと\n\n\n長期休暇期間のマルウェア感染や外部からの攻撃は、気が付きにくい傾向にあります。\nマルウェア感染を未然に防ぐため、以下を参考に現在ご利用中の環境のセキュリティレベルについても今一度ご確認いただき、必要に応じて対策をご検討ください。\n同時に、休暇期間中にマルウェア感染が発覚した場合に備えて、対応方法や関係者への連絡方法などについて確認・周知しておくことも大切です。\n\n更に、最近どのようなマルウェアが流行しているか、情報を得ることは重要です。\n\n特に近年急増しているランサムウェアへの対策は必要不可欠です。最近はランサムウェアの感染を狙った、malspamと呼ばれるスパムメールが多く観測されています。また、マルウェア配布に使われるメール文面が洗練されており、一読しただけでは不審なメールであると気づくことが難しくなっています。\nその中でもEmotetは正規のメールへの返信を装う手口を使うことがあり、過去にメールのやり取りをしたことのある、実在相手の氏名、メールアドレス、メールの内容等の一部を流用したメールを送信してきますので、不用意に添付ファイルを開いたり、マクロを有効にしたりすることがないよう注意が必要です。2023年3月には Microsoft OneNote形式のファイルを添付したり、展開すると500MBを超えるdocファイルを含むZIPアーカイブを添付したりするなど、新たな手口を採用していますので、動向に注意してください。\n\nランサムウェアの被害を最小限にするには、データを定期的にバックアップし、メールやインターネットを利用する端末のネットワークからバックアップデータを遮断しておくことを推奨します。\n\nランサムウェアの中には情報を盗み出し、それを公開すると脅迫して身代金を要求するものもあります。重要な情報の保管の際にはアクセス権の適切な設定、および暗号化などの対策を検討してください。また、外部からリモートで接続する際の認証強化も重要です。\n\nマルウェアの侵入経路として、ネットワーク製品等の脆弱性を悪用する事例が増加しています。またオープンソースで広く使われているコンポーネントに脆弱性が見つかることもあります。 IPA（情報処理推進機構）やJP-CERT/CC 等の脆弱性関連情報を参照し、ファームウェアを修正済みのものに更新する等、必要な処置を講じてください。\n\nまた IoTデバイス（防犯カメラやルーターなど）を踏み台にした大規模な DDoS攻撃に利用されないように機器を設定することも重要です。ルーターなどの管理画面へのログイン設定を、工場出荷時の設定から変更することを推奨します。\n\n\n参考URL\n\n\n\n\t激増するランサムウェアの傾向と対策\n\t「Emotet（エモテット）」と呼ばれるウイルスへの感染を狙うメールについて\n\t2022年10月 マルウェアレポート\n\tJPCERT マルウェアEmotetの感染再拡大に関する注意喚起\n\tJVN 脆弱性レポート\n\n\n\n長期休暇前にやっておくべきこと\n\n\n システム管理者向け\n\n\n①セキュリティインシデント（事故）発生時の緊急連絡体制が明確になっているか確認する\n\n②ご利用中のOSやソフトウェア（サーバーを含む）にセキュリティホールがないか確認する\n\n\n\n\tOSやソフトウェアに最新のセキュリティ更新プログラムが適用されていることを確認する\n\t各クライアントPC利用者に向けて最新のセキュリティ更新プログラムの適用を呼び掛ける\n\n\n\n＜確認が必要なものの代表例＞\n\n・Oracle Java\n・Microsoft Office\n・Adobe Acrobat/Reader\n・OS X\n・Microsoft Windows / Windows Server\n・Internet Explorer\n・Adobe Flash Player\n・Linux\n\n\n\n③各PCのESET製品に最新の検出エンジン（ウイルス定義データベース）が適用されていることを確認する\n\n④OSやWebサービスに設定しているパスワードが、私用のパスワードを使いまわしたものでないこと、強度が適切であることを確認する\n\n■不適切なパスワード例\n\n\n\t\n\t\t\n\t\t\tパスワード例\n\t\t\t使用を避けるべき理由\n\t\t\n\t\t\n\t\t\t123456, qwerty, password\n\t\t\t使用頻度が高く、容易に推測できるため\n\t\t\n\t\t\n\t\t\tAlice, Bob, 19800101\n\t\t\t個人情報から推測できるため\n\t\t\n\t\t\n\t\t\t9671, odtg, QRFV\n\t\t\t文字種と桁数が少なく、総当たり攻撃に対して弱いため\n\t\t\n\t\t\n\t\t\tcomputer, permission\n\t\t\t辞書を用いる攻撃に対して弱いため\n\t\t\n\t\n\n\n⑤重要なデータのバックアップをおこなう\n\n⑥不要なサービスは無効にし、各種サービスへのアクセス権限は必要最低限に抑え、休暇中に使用しないPCの電源を切る\n\n⑦ルーターや監視カメラなどの機器管理画面へのログイン設定を、工場出荷時の設定から変更する\n\n⑧VPNや認証系システムにセキュリティ修正パッチがあるかを確認し、適用する。休暇前日に作業を行うのではなく、あらかじめ余裕を確保しておくこと\n\n\n\n\n\n クライアントPC利用者向け\n\n\n①セキュリティインシデント（事故）発生時の連絡先を確認する\n\n②OSやWebサービスに設定しているパスワードが、私用のパスワードを使いまわしたものでないこと、強度が適切であることを確認する\n\n■不適切なパスワード例\n\n\n\t\n\t\t\n\t\t\tパスワード例\n\t\t\t使用を避けるべき理由\n\t\t\n\t\t\n\t\t\t123456, qwerty, password\n\t\t\t使用頻度が高く、容易に推測できるため\n\t\t\n\t\t\n\t\t\tAlice, Bob, 19800101\n\t\t\t個人情報から推測できるため\n\t\t\n\t\t\n\t\t\t9671, odtg, QRFV\n\t\t\t文字種と桁数が少なく、総当たり攻撃に対して弱いため\n\t\t\n\t\t\n\t\t\tcomputer, permission\n\t\t\t辞書を用いる攻撃に対して弱いため\n\t\t\n\t\n\n\n③重要なデータのバックアップをおこなう\n\n④休暇中に使用しないPCの電源を切る\n\n⑤自宅Wi-Fiルーターのファームウェア更新を確認し、必要であれば適用する\n\n⑥業務で使用しているPCやスマートフォンを持ち出す際には、所属組織のルールを十分に確認し、それに従って利用する。\n\n⑦スマートフォンの盗難や紛失に備え、暗号化やパスワード設定をおこなう。必要に応じてESET Mobile Security for Androidなどの「リモートワイプ機能」を設定し、リモートでデータを消去できるよう準備しておく。\n＜ESET Mobile Security for Android における、リモートワイプの手順＞\nリモートワイプを利用するには、SMS経由でコマンドを送信します。\n下記のコマンドを本文に入力し、対象のスマートフォンにSMSを送ります。\neset wipe (password)\n\n※(password)の部分には、ESET Mobile Security for Android で設定したパスワードを入力します\n\n\n\n\n長期休暇明けにやるべきこと\n\n\n システム管理者向け\n\n\n①各PCのESET製品の検出エンジン（ウイルス定義データベース）を最新に更新する\n\n②ご利用中のOSやソフトウェアについて、新しいセキュリティ更新プログラムが公開されていないか確認する\n\n\n＜新しいセキュリティ更新プログラムが公開されている場合＞\n\n\n\t最新のセキュリティ更新プログラムを適用する\n\t各クライアントPC利用者に向けて最新のセキュリティ更新プログラムの適用を呼び掛ける\n\tなお、2023年5月10日にマイクロソフト社によるセキュリティプログラムの公開が予定されていますので、ご注意ください。\n\n\n\n③社内におけるウイルス感染の有無を確認する\n\n\n\n\tESET Security Management CenterでクライアントPCを管理している場合は、「脅威」セクションを確認する\n\t電子メールなどによる通知機能を利用している場合は、休暇期間中のメールを確認する\n\n\n\n④アクセスログを確認する（監査ログを取得している場合）\n\n\n\n\t不正アクセスがないか確認する\n\n\n\n⑤休暇期間中のセキュリティに関するニュースを確認する\n\n\n\n\t注意喚起が必要か確認する\n\n\n\n\n\n\n\n クライアントPC利用者向け\n\n\n①各PCのESET製品の検出エンジン（ウイルス定義データベース）を最新に更新する。溜まったメールの受信前に行うのが効果的\n\n②新しいセキュリティ更新プログラムが公開されている場合は、最新のセキュリティ更新プログラムを適用する\n\n③休暇期間中に社外に持ち出したPCを社内ネットワークに接続する際や、社外で作成したデータを取り込む際は、事前にウイルスチェックを行う\n\n④休暇期間中に受信したメールには細心の注意を払い、不審なメールに添付されているファイルを実行したり、本文中のリンク先にアクセスしたりしない\n\n\n\n参考情報\n\n\nIPA\n\n\n\tゴールデンウイーク期間における情報セキュリティに関する注意喚起\n\t長期休暇における情報セキュリティ対策\n\n\n\n\n内閣サイバーセキュリティセンター\n\n\n\t春の大型連休に向けて実施いただきたい対策について注意喚起を行います",
+          "link": "https://eset-info.canon-its.jp/malware_info/news/detail/230425_3.html",
+          "publishedOn": "2023-04-24T15:00:00.000Z",
+          "wordCount": 327,
+          "title": "ゴールデンウイーク期間のマルウェア対策に関する注意事項について",
+          "imageUrl": "https://eset-info.canon-its.jp/files/user/images/common/sns_thumb.jpg"
+        },
+        {
+          "id": "https://eset-info.canon-its.jp/malware_info/news/detail/230425_2.html",
+          "author": null,
+          "description": "2023年4月24日現在、auじぶん銀行をかたるフィッシングが確認されております。フィッシングサイト上の入力欄には、絶対に情報を入力しないようにお願いします。\n\nこのようなフィッシングサイトにて、お客さま番号、ログインパスワード等を絶対に入力しないよう、ご注意ください。\n\n日頃からサービスへログインする際は、メールや SMS 内のリンクではなく、いつも利用しているスマートフォンの公式アプリやブラウザーのブックマークなどからアクセスするよう、心がけてください。\n\n【メールの件名】\n\n【auじぶん銀行】お取引目的等のご確認のお願い\n【重要・緊急】auじぶん銀行からの重要なお知らせ\n\n※上記以外の件名も使われている可能性があります。\n\n【サイトのURL】\n\nメール内の URL\nhttps://bo●●●●.com/\nhttps://cdl●●●●.cn/●●●●\nhttps://omini●●●●.cyou/sibylfted.php\nhttps://jibu●●●●.com/\n\n転送先の URL\nhttp://jibsnr●●●●.online/\nhttp://jibsnr●●●●.space/\nhttp://jibrns●●●●.online/\nhttp://jibrns●●●●.space/\nhttp://jibrns●●●●.top/\n\n※上記以外のドメイン、URL も使われている可能性があります。\n※URL にパスやパラメータが付いていることがあります。\n\n2023/4/24 14:00時点では、フィッシングサイトは稼働中です。このサイトが停止しても、類似のフィッシングサイトが公開される恐れもありますので注意してください。\nこのようなフィッシングサイトは日々新規に作成されています。ESET製品は、新規に作成されるフィッシングサイトにも随時対応していきますが、お客さま自身でも十分にご注意ください。\n\n【参考情報】\n\n【再掲】auじぶん銀行を名乗る不審なSMSにご注意ください\n\n\n \n\n\n■ ESET製品における検出例\n\n\n\n※ESET Internet Security V16.0/ESET Mobile Security V7.0でフィッシング対策機能が有効な場合は、図のような通知が表示されます。\n\n\n■ フィッシングメール／フィッシングサイトへの対応\n\n\n\n\tフィッシングの可能性があるメールをむやみに開かない。\n\tフィッシングの可能性があるメールの添付ファイルをむやみに開かない。\n\tメール文中のリンク先URLがフィッシングサイトである可能性を考え、リンク先URLへむやみにアクセスしない。\n\tフィッシングの可能性があるサイトにアカウント情報やクレジットカード情報などを入力しない。\n\n\n\n\nキヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。",
+          "link": "https://eset-info.canon-its.jp/malware_info/news/detail/230425_2.html",
+          "publishedOn": "2023-04-24T15:00:00.000Z",
+          "wordCount": 210,
+          "title": "auじぶん銀行をかたるフィッシングについての注意喚起",
+          "imageUrl": "https://eset-info.canon-its.jp/files/user/images/common/sns_thumb.jpg"
+        },
         {
           "id": "https://eset-info.canon-its.jp/malware_info/news/detail/230424.html",
           "author": null,
@@ -3019,6 +3119,26 @@
       "siteUrl": "https://security.srad.jp/",
       "articles": [
         {
+          "id": "https://apple.srad.jp/story/23/04/24/1349236/",
+          "author": "nagazou",
+          "description": "最近米国では、公の場でiPhoneを操作している人のパスコードを盗み見し、その後にデバイスを奪い取り、金融アプリ等から資産を根こそぎ盗み取るという窃盗団が増えているそうだ。iPhoneのTouch IDやFace IDといった生体認証を突破することは極めて難しいが、「パスコードを盗み見る」という行為はそう難しくない。バーで知り合ったばかりの男にiPhone 13 Pro Maxをひったくられ、24時間以内に銀行口座から約1万ドルが消える事件もあったらしい（Gadget Gate）。 \n\n短い数字の羅列に過ぎないパスコードとiPhoneを両方持ってさえいれば、泥棒は被害者のApple IDパスワードを簡単にリセットできる。その後「iPhoneを探す」を切れば、本来の持ち主が位置を追跡したり、リモートでデータを消去することもできなくなる。ニューヨーク市だけでも過去2年間に何百件も同様のトラブルが発生しているとのこと。\n すべて読む | アップルセクション | セキュリティ | アップル | iOS | アメリカ合衆国 |     \n  関連ストーリー： \n「ログインしたまま」「ブラウザにパスワードを記憶」を利便性重視と評価、フィッシング対策協議会 2020年09月11日 \n米ニュージャージー州最高裁判所、押収した携帯電話のパスコード開示強制は不利な証言の強制にあたらないと判断 2020年08月16日 \nAppleによるSMS経由での認証コードの標準化案、規格草稿が公開される 2020年04月10日 \n米連邦地裁、生体認証によるデバイスのロック解除強制は憲法違反との判断 2019年01月18日",
+          "link": "https://apple.srad.jp/story/23/04/24/1349236/",
+          "publishedOn": "2023-04-25T07:03:00.000Z",
+          "wordCount": 2086,
+          "title": "米国でパスコード盗み見とiPhone盗難を組み合わせ、資産を盗まれる事件が多発",
+          "imageUrl": "https://srad.jp/static/topics/ios_64.png"
+        },
+        {
+          "id": "https://security.srad.jp/story/23/04/23/1339208/",
+          "author": "nagazou",
+          "description": "ncube2 曰く、このところ一般マスコミでも連日のように目にするChatGPTであるが、今朝起きたら気になる記事が各新聞社のWEBサイトに載っていた。例えば静岡新聞の記事によれば、ChatGPTに「ウイルスを作って」と入力しても通常は「倫理的にできません」と回答するが、ある特殊な命令を入力すると数分でランサムウエアが作成されたという。これまで、アンダーグラウンドでウイルス作成ツールが出回っていると言われていたが、こても時代に合わせてクラウド化の波が来たということか。 手元の紙の神奈川新聞によると、ChatGPTの開発元のOpenAIによると「悪用方法の全てを予測できない。実際の使用から学習し、より安全なAIを作る」と表明したそうだ。\n\nChatGPTの悪用に関してはさまざまな方面で問題視されているが、最近おこなわれたマクニカによるメディア向けの勉強会でも「ChatGPT Jailbreak(脱獄)」の最新手法や、ChatGPTを企業のシステムに組み込んだ際に想定されるリスクなどの話が出ていたようだ。「フィッシングメールに代表されるソーシャルエンジニアリングのための文章作成」と、「マルウェア開発のためのコード生成」などの具体例も出ていた模様（TECH+）。\n すべて読む | セキュリティセクション | テクノロジー | 犯罪 | セキュリティ |     \n  関連ストーリー： \n鳥取県知事、議会でのChatGPTの使用を禁止へ。横須賀市は積極活用方針 2023年04月21日 \n「GPT-J」ベースのAIアバターとのチャットにのめり込んでいた男性、自殺願望をケアされず自殺 2023年04月06日 \nGPT-4よりも強力なAIシステムの開発を停止せよとの公開書簡が提出される。ウォズやマスクらも署名 2023年03月31日 \nGPT-4でプログラミング言語を作成する試み 2023年03月22日 \n教員が小5女子の読書感想文に違和感。「ChatGPT」が書いていた 2023年03月17日",
+          "link": "https://security.srad.jp/story/23/04/23/1339208/",
+          "publishedOn": "2023-04-24T23:10:00.000Z",
+          "wordCount": 2913,
+          "title": "ChatGPTでランサムウエアを作成できる方法が存在する",
+          "imageUrl": "https://srad.jp/static/topics/technology_64.png"
+        },
+        {
           "id": "https://it.srad.jp/story/23/04/20/1919233/",
           "author": "nagazou",
           "description": "headless 曰く、Microsoft は 19 日、脅威アクターの新しい命名法とアイコンを発表した\n(Microsoft Security Blog の記事、\nMicrosoft Learn の記事、\nGhacks の記事、\nNeowin の記事)。\n\n脅威アクターはセキュリティ企業や研究者によりさまざまな名前が付けられているが、Microsoft ではこれまで元素名や火山名、植物名のほか DEV-<4桁の数字> のような名前を使用してきた。新しい命名法では脅威アクターを 5 つの主要なグループ (国家・金銭的動機・攻撃的民間部門・影響操作・発展中) に分け、国家は国別、あとはグループごとに気象用語のファミリーネームが割り当てられる。\n\nファミリーネームが割り当てられている国家は中国 (Typhoon: 台風)・イラン (Sandstorm: 砂嵐)・レバノン (Rain: 雨)・北朝鮮 (Sleet: みぞれ)・ロシア(Blizzard: 猛吹雪)・韓国 (Hail: ひょう)・トルコ (Dust: 砂塵)・ベトナム (Cyclone: サイクロン) の 8 か国。\n\n金銭的動機を持つアクター (Tempest: 暴風雨) はサイバー犯罪者/組織によるサイバーキャンペーン/グループで、国家や民間団体と結び付いていないことが確実なもの、攻撃的民間部門のアクター (PSOA、Tsunami: 津波) はサイバー兵器を製造・販売する既知の民間企業によるサイバー活動、影響操作 (Flood: 洪水) はターゲットの見解や決定等を変えさせるためのオンライン・オフラインでの情報キャンペーンを示すグループ名となる。なお、Microsoft Learn の記事は日本語版も公開されているが、ここではいくつか異なる訳語を使用している。\n\n発展中 (Storm: 嵐) zは属するグループが明確でない未知・新興・発展中のアクターに割り当てるファミリーネームであり、これまでは「DEV-<4桁の数字>」と名付けられていた。今後は「Storm-<4桁の数字>」という形式になり、既存のアクター名は DEV- と共通の数字 4 桁を使用する。\n\nStorm 以外のグループでは修飾語とファミリーネームを組み合わせたものがアクター名となる。たとえば、これまで Strontium (APT28、Fancy Bear)と呼ばれていたロシアのアクターは「Forest Blizzard」という名称になる。修飾語は「Aqua」「Pink」「Brass」「Canvas」「Ghost」「Ruby」「Spandex」「Zigzag」「Secret」「Midnight」「Cadet」など幅広く、選択の基準は示されていない。\n すべて読む | ITセクション | セキュリティ | マイクロソフト | クラウド |",
@@ -3205,6 +3325,56 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/04/25/49260.html",
+          "author": null,
+          "description": "経済産業省は4月17日、関西電力送配電株式会社、関西電力株式会社、九州電力送配電株式会社、九州電力株式会社及び中国電力ネットワーク株式会社への業務改善命令の発出を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/04/25/49260.html",
+          "publishedOn": "2023-04-24T23:05:12.000Z",
+          "wordCount": 780,
+          "title": "経済産業省、一般送配電事業者の情報漏えい事案に関し業務改善勧告を発出",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/04/25/49259.html",
+          "author": null,
+          "description": "株式会社小学館は4月14日、同社HugKum編集部でのメール誤送信による個人情報流出について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/04/25/49259.html",
+          "publishedOn": "2023-04-24T23:05:07.000Z",
+          "wordCount": 781,
+          "title": "小学館開催イベント 当選者メール誤送信、311件メールアドレス流出",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/41269.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/04/25/49258.html",
+          "author": null,
+          "description": "フジサンケイグループの株式会社サンケイアイは4月4日、不正アクセスによるシステム障害について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/04/25/49258.html",
+          "publishedOn": "2023-04-24T23:05:02.000Z",
+          "wordCount": 779,
+          "title": "フジサンケイグループのサンケイアイにランサムウェア攻撃、1日で復旧",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/41271.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/04/25/49257.html",
+          "author": null,
+          "description": "株式会社クラフは4月13日、同社のセキュリティエンジニアが5年間で130名に拡大したと発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/04/25/49257.html",
+          "publishedOn": "2023-04-24T23:00:08.000Z",
+          "wordCount": 782,
+          "title": "無償脆弱性管理「S4」開発のクラフ、5年で診断員130名体制に",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/04/25/49256.html",
+          "author": null,
+          "description": "サイバートラスト株式会社は4月18日、「AI スキャン診断サービス」を同日から提供開始すると発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/04/25/49256.html",
+          "publishedOn": "2023-04-24T23:00:03.000Z",
+          "wordCount": 786,
+          "title": "自動診断ツール「AeyeScan」と診断員の知見を融合「AI スキャン診断サービス」提供",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2023/04/24/49255.html",
           "author": null,
@@ -4143,6 +4313,36 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2304/25/news085.html",
+          "author": null,
+          "description": "Googleは独自の大規模言語モデル「Sec-PaLM」搭載のサイバーセキュリティスイート「Google Cloud Security AI Workbench」を発表した。Sec-PaLMは、セキュリティに特化したLLM。Workbenchには、Mandiantの「Threat Intelligence AI」や「VirusTotal」などが含まれる。",
+          "link": "https://www.itmedia.co.jp/news/articles/2304/25/news085.html",
+          "publishedOn": "2023-04-24T23:52:00.000Z",
+          "wordCount": 2494,
+          "title": "Google、セキュリティ特化の生成AI採用「Cloud Security AI Workbench」",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2304/25/cover_news085.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2304/25/news080.html",
+          "author": null,
+          "description": "Googleが2段階認証アプリ「Google認証システム」のコードを端末ではなくGoogleアカウントに保存するようになった。これで端末を紛失してもロックアウトされる心配がなくなり、機種変時の移行作業も不要になる。",
+          "link": "https://www.itmedia.co.jp/news/articles/2304/25/news080.html",
+          "publishedOn": "2023-04-24T21:53:00.000Z",
+          "wordCount": 2455,
+          "title": "「Google認証システム」がアカウント同期に　機種変が気楽に",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2304/25/cover_news080.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2304/24/news152.html",
+          "author": null,
+          "description": "警察庁などがインターネットバンキングの不正送金被害が急増しているとして注意喚起している。2022年8月下旬から9月にかけて増加して以来、一旦落ち着いたものの23年2月から再び増加傾向にあるという。",
+          "link": "https://www.itmedia.co.jp/news/articles/2304/24/news152.html",
+          "publishedOn": "2023-04-24T09:40:00.000Z",
+          "wordCount": 2444,
+          "title": "ネットバンキングの不正送金、急増　被害額は3月だけで5億円超え",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2304/24/cover_news152.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2304/21/news060.html",
           "author": null,
           "description": "AIチャット「ChatGPT」に人格を持たせると、性差別や人種差別など不穏当な発言を連発するようになって有害性が増大する──米国の非営利研究機関「アレン人工知能研究所」はそんな研究結果を発表した。",
@@ -4499,6 +4699,86 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1496174.html",
+          "author": null,
+          "description": "InstagramがTwitterに似たテキストベースのSNSアプリを準備しているという噂が海外で飛び交っている。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1496174.html",
+          "publishedOn": "2023-04-25T02:49:27.000Z",
+          "wordCount": 4312,
+          "title": "InstagramがTwitterライクなテキストSNSアプリ「Barcelona」を準備中、まもなく登場か？【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1496/174/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1496176.html",
+          "author": null,
+          "description": "Twitterのタイムラインからイーロン・マスク氏のツイートを排除するChrome拡張機能が登場した。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1496176.html",
+          "publishedOn": "2023-04-25T02:48:57.000Z",
+          "wordCount": 4312,
+          "title": "Twitterのタイムラインからイーロン・マスク氏のツイートを排除するChrome拡張機能が登場【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1496/176/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1496190.html",
+          "author": null,
+          "description": "SWITCHBOT株式会社は、ロボット掃除機の新製品「SwtchBotロボット掃除機K10+」を発表、4月25日よりクラウドファンディングサイトの「Makuake」にて販売を開始した。SWITCHBOTとしてはロボット掃除機は第2弾となるが、IoTへの発展を考えたときのスタートの製品になるという。参考販売価格は標準セットで6万8880円。Makuakeでは超超早割として30名限定4万1800円から販売される。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1496190.html",
+          "publishedOn": "2023-04-25T02:00:00.000Z",
+          "wordCount": 4353,
+          "title": "Makuakeで最大42％オフ!! 日本向けに開発した世界最小級の「SwtchBotロボット掃除機K10+」　30名限定の超超早割は4万1800円から",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1496/190/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1496129.html",
+          "author": null,
+          "description": "株式会社インターネットイニシアティブ（IIJ）は4月24日、2024（令和6）年4月に施行される「エネルギーの使用の合理化及び非化石エネルギーへの転換等に関する法律（改正省エネ法）」に対応し、データセンター利用者の脱炭素化推進を支援するため「非化石証書」の調達を開始すると発表した。今夏からの提供開始を目指すという。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1496129.html",
+          "publishedOn": "2023-04-24T22:30:00.000Z",
+          "wordCount": 4315,
+          "title": "IIJ、データセンター利用者の脱炭素化を支援する「非化石証書」調達開始　2024年施行の改正省エネ法を受け、今夏からの提供を目標。関連サービスの実証実験も",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1496/129/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/zaitaku_work/1496076.html",
+          "author": null,
+          "description": "こんにちは。ウェブサイト制作プラットフォームの「Wix」で広報を務めている間島ゆかりと申します。弊社は2020年2月からフルリモートの勤務体制に切り替え、現在では週1日出社のハイブリットワーク体制をとっています。ほぼフルリモート生活になって約3年。ようやく自分にとって心地のよいワークスタイルが確立しました。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/zaitaku_work/1496076.html",
+          "publishedOn": "2023-04-24T21:55:00.000Z",
+          "wordCount": 4331,
+          "title": "オン/オフの切り替えがしづらい悩みが「窓向きのデスク」で解消 ～ 間島ゆかり（Wix.com Japan 広報）の在宅ワークスタイル【みんなの在宅ワーク：第98回】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1496/076/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/mirroring/1495201.html",
+          "author": null,
+          "description": "iPhone、Androidスマホに続いて今回はWindowsノートPCでの画面ミラーリングをご紹介します。PCはもともとプレゼン資料の投影などミラーリング利用のシーンが多いだけに、機能はかなり充実しています。また、「Miracast」機能を使った無線ミラーリングも可能です。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/mirroring/1495201.html",
+          "publishedOn": "2023-04-24T21:00:00.000Z",
+          "wordCount": 4425,
+          "title": "WindowsノートPCの画面をテレビにミラーリングするにはどうすればいい？【ミラーリングとかの基礎知識 第4回】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1495/201/05.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/issurvey/1490989.html",
+          "author": null,
+          "description": "みなさまこんにちは。INTERNET Watch編集部です。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/issurvey/1490989.html",
+          "publishedOn": "2023-04-24T21:00:00.000Z",
+          "wordCount": 4377,
+          "title": "【情シス意識調査】情シスの95％が「業務外の問い合わせがきてしまう」 私用スマホのパスワードから、プレゼン作成まで……【情シス意識調査】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1490/989/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1495879.html",
+          "author": null,
+          "description": "FamiPayをかたるフィッシングの報告が増えているとして、フィッシング対策協議会が情報を公開した。誘導先のフィッシングサイトは4月21日17時時点で稼働中であるため、引き続き注意が必要だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1495879.html",
+          "publishedOn": "2023-04-24T09:58:32.000Z",
+          "wordCount": 4334,
+          "title": "FamiPayをかたるフィッシング、件名「【重要なお知らせ】ファミペイ ご利用確認のお願い」などの不審なメールに注意　偽サイトに誘導し、電話番号などの入力を要求",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1495/879/fm1.png"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/1495922.html",
           "author": null,
@@ -5422,6 +5702,106 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230425-2664546/",
+          "author": null,
+          "description": "Google Cloudは4月25日、「Google Cloud Security AI Workbench」を発表した。",
+          "link": "https://news.mynavi.jp/techplus/article/20230425-2664546/",
+          "publishedOn": "2023-04-25T06:39:15.000Z",
+          "wordCount": 2900,
+          "title": "セキュリティ向け大規模言語モデル搭載の「Google Cloud Security AI Workbench」",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230425-2664546/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230425-2664186/",
+          "author": null,
+          "description": "Schneider ElectricからSchneider ElectricブランドとAPCブランドの無停電電源装置(UPS)のモニタリングソフトに複数の脆弱性が存在することが伝えられた。これらの脆弱性を悪用されると、リモートからのコード実行、特権昇格、認証バイパスなどが可能となり、デバイスが機能しなくなる危険性がある。",
+          "link": "https://news.mynavi.jp/techplus/article/20230425-2664186/",
+          "publishedOn": "2023-04-25T03:45:51.000Z",
+          "wordCount": 1788,
+          "title": "APCのUPSに複数の脆弱性、リモートからコードを実行される危険性",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230425-2664186/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230425-2664239/",
+          "author": null,
+          "description": "Microsoftは4月24日(米国時間)、Microsoft 365サービスの検索機能が利用できない問題を調査していると伝えた。Microsoft Teams、Outlook、Exchange Online、SharePoint Onlineなどの検索機能が影響を受ける可能性があるとされている。",
+          "link": "https://news.mynavi.jp/techplus/article/20230425-2664239/",
+          "publishedOn": "2023-04-25T02:34:55.000Z",
+          "wordCount": 1630,
+          "title": "Microsoft TeamsやOutlookで検索に不具合、Microsoft調査中",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230425-2664239/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230425-2662386/",
+          "author": null,
+          "description": "The Hacker Newsは4月21日（米国時間）、Uptycsが公開したホワイトペーパー「14 KSPM Predictions for 2023 and How Uptycs Meets Them Head On」で取り上げられているKubernetesにまつわるクラウドセキュリティに関する予測を紹介した。",
+          "link": "https://news.mynavi.jp/techplus/article/20230425-2662386/",
+          "publishedOn": "2023-04-25T01:51:46.000Z",
+          "wordCount": 2938,
+          "title": "Kubernetesにまつわるクラウドセキュリティの予測14選",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230425-2662386/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230425-2660062/",
+          "author": null,
+          "description": "Sucuriはこのほど、UNIXベースのサーバ上で使用されるSSHサービスを標的にするブルートフォース攻撃を防御するための基本的なセキュリティ対策を紹介した。攻撃者の動機やハックツールについても触れ、多面的なアプローチを導入することでリスクを軽減できると伝えている。",
+          "link": "https://news.mynavi.jp/techplus/article/20230425-2660062/",
+          "publishedOn": "2023-04-25T01:17:44.000Z",
+          "wordCount": 1605,
+          "title": "SSHブルートフォースログイン攻撃を防ぐ基本的な対策",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230425-2660062/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230425-2664169/",
+          "author": null,
+          "description": "ラックは4月24日、境界型防御では防ぎきれないサイバー攻撃に対し、企業の内部通信を一元的に可視化して、侵入した不正通信の拡散を防ぐ「AGS（Akamai Guardicore Segmentation）」を活用した新サービスの提供を開始することを発表した。",
+          "link": "https://news.mynavi.jp/techplus/article/20230425-2664169/",
+          "publishedOn": "2023-04-25T00:54:16.000Z",
+          "wordCount": 1563,
+          "title": "ラック、Akamaiのマイクロセグメンテーション技術を用いた新サービス",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230425-2664169/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230425-2660053/",
+          "author": null,
+          "description": "Citizen Labはこのほど、イスラエルのNSO Groupが提供しているスパイウェア「Pegasus」を介して、iOS 15および16に対し3つのゼロクリックエクスプロイトを用いた攻撃が実行されたことを明らかにした。Citizen Labは、Pegasusスパイウェアが依然として脅威であると警告している。",
+          "link": "https://news.mynavi.jp/techplus/article/20230425-2660053/",
+          "publishedOn": "2023-04-25T00:36:12.000Z",
+          "wordCount": 1740,
+          "title": "PagasusスパイウェアによるiPhone狙う新たなゼロクリック攻撃確認、注意を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230425-2660053/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230425-2663383/",
+          "author": null,
+          "description": "米国土安全保障省サイバーセキュリティ・インフラストラクチャセキュリティ庁(CISA)は4月21日（米国時間）、シスコシステムズの複数製品に脆弱性が存在すると伝えた。これらの脆弱性を悪用されると、システムの制御権が乗っ取られる危険性がある。",
+          "link": "https://news.mynavi.jp/techplus/article/20230425-2663383/",
+          "publishedOn": "2023-04-24T23:31:36.000Z",
+          "wordCount": 1805,
+          "title": "複数のシスコ製品に緊急の脆弱性、CISAが注意喚起",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230425-2663383/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230425-2660064/",
+          "author": null,
+          "description": "ChatGPTなどのジェネレーティブAIは、テキスト作成において究極の生産性向上ツールである一方、企業の機密データを暴露するリスクもあると指摘されている。情報漏えい対策(DLP: Data Loss Prevention)ソリューションなどはChatGLPのリスクに対応できるのだろうか。",
+          "link": "https://news.mynavi.jp/techplus/article/20230425-2660064/",
+          "publishedOn": "2023-04-24T22:44:10.000Z",
+          "wordCount": 1594,
+          "title": "ChatGPTに対して情報漏えい対策製品の効果がない理由とは？",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230425-2660064/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230424-2663596/",
+          "author": null,
+          "description": "警察庁と金融庁は4月24日、インターネットバンキングに関する不正送金の被害が、今年2月から急増しているとして、注意を喚起した。3月の発生件数は381件、被害額は約5億円を突破しているという。",
+          "link": "https://news.mynavi.jp/techplus/article/20230424-2663596/",
+          "publishedOn": "2023-04-24T10:29:43.000Z",
+          "wordCount": 1583,
+          "title": "フィッシングによるネット銀行の不正送金被害が急増、警察庁が注意喚起",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230424-2663596/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20230424-2663395/",
           "author": null,
