@@ -159,6 +159,16 @@
       "siteUrl": "https://www.ipa.go.jp/about/index.html",
       "articles": [
         {
+          "id": "https://www.ipa.go.jp/jinzai/skill-standard/plus-it-ui/itssplus/agile.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「ITSS+（プラス）アジャイル領域」に関する情報です。",
+          "link": "https://www.ipa.go.jp/jinzai/skill-standard/plus-it-ui/itssplus/agile.html",
+          "publishedOn": "2023-05-07T15:00:00.000Z",
+          "wordCount": 456,
+          "title": "「組織を幸せにする組織アジャイル5つの原則（略称：ソシアジャ五良核）」および「アジャイルプロジェクト実践ガイドブック」を公開しました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
           "id": "https://disclosure.dx-portal.ipa.go.jp/",
           "author": "情報処理推進機構（IPA）",
           "description": "",
@@ -1033,6 +1043,16 @@
       "siteUrl": "https://eset-info.canon-its.jp/",
       "articles": [
         {
+          "id": "https://eset-info.canon-its.jp/malware_info/news/detail/230508.html",
+          "author": null,
+          "description": "2023年5月2日現在、Appleをかたりフィッシングサイトへ誘導するショートメッセージ (SMS) が確認されています。フィッシングサイト上の入力欄には、絶対に情報を入力しないようにお願いします。\n\nこのようなフィッシングサイトにて、Apple ID、パスワード、お客さま情報 (姓、名、セイ、メイ、生年月日、電話番号)、住所 (郵便番号、都道府県、市区町村、番地など)、クレジットカード情報 (カード番号、有効期限、セキュリティコード)、3-D セキュアの認証情報 (Web ID、パスワード) 等を絶対に入力しないよう、ご注意ください。\n\n日頃からサービスへログインする際は、メールや SMS 内のリンクではなく、いつも利用しているブラウザーのブックマークなどからアクセスするよう、心がけてください。\n\n【サイトのURL】\n\nhttp://●●●●.duckdns.org/\n\n※上記以外のドメイン、URL も使われている可能性があります。\n※URL にパスやパラメータが付いていることがあります。\n\n2023/5/2 13:00時点では、フィッシングサイトは稼働中です。このサイトが停止しても、類似のフィッシングサイトが公開される恐れもありますので注意してください。\nこのようなフィッシングサイトは日々新規に作成されています。ESET製品は、新規に作成されるフィッシングサイトにも随時対応していきますが、お客さま自身でも十分にご注意ください。\n\n【参考情報 1】\n\nApp Store や iTunes Store からの正規のメールを識別する\n\n【参考情報 2】\n\nIPA 安心相談窓口\n国税庁をかたる偽ショートメッセージサービス（SMS）や偽メールに注意\n―不審なショートメッセージやメールのURLに触れないで！―\n\n\n \n\n\n■ ESET製品における検出例\n\n\n\n※ESET Internet Security V16.0/ESET Mobile Security V7.0でフィッシング対策機能が有効な場合は、図のような通知が表示されます。\n\n\n■ フィッシングメール／フィッシングサイトへの対応\n\n\n\n\tフィッシングの可能性があるメールをむやみに開かない。\n\tフィッシングの可能性があるメールの添付ファイルをむやみに開かない。\n\tメール文中のリンク先URLがフィッシングサイトである可能性を考え、リンク先URLへむやみにアクセスしない。\n\tフィッシングの可能性があるサイトにアカウント情報やクレジットカード情報などを入力しない。\n\n\n\n\nキヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。",
+          "link": "https://eset-info.canon-its.jp/malware_info/news/detail/230508.html",
+          "publishedOn": "2023-05-07T15:00:00.000Z",
+          "wordCount": 217,
+          "title": "Appleをかたるフィッシングについての注意喚起",
+          "imageUrl": "https://eset-info.canon-its.jp/files/user/images/common/sns_thumb.jpg"
+        },
+        {
           "id": "https://eset-info.canon-its.jp/malware_info/special/detail/230502.html",
           "author": null,
           "description": "Windows 11の最新のセキュアブートを回避する新たなUEFIブートキットを初検出。その分析結果を解説します。\n\n\n本記事はESET Japanが提供する「ESETブログ」に掲載された「「BlackLotus」 UEFIブートキット：いま、そこにある現実の危機」を再編集したものです。\n\n\n\n\n\n\n近年では多くのUEFIの脆弱性が発見されていますが、パッチが適用されていない、あるいは、脆弱なバイナリを失効できない状況が長期間にわたっており、サイバー攻撃者は虎視眈々と攻撃の機会を狙ってきました。そして、プラットフォームの中核的なセキュリティ機能であるUEFIセキュアブートをバイパスするUEFIブートキットが今回初めて検出されました。脅威がいま現実の危機となったのです。このブログでは、このUEFIブートキットの分析結果を初めて公開します。このブートキットは、UEFIセキュアブートが有効な最新の状態のWindows 11システムでも実行可能です。ESET社は、このブートキットはその機能と特性から、少なくとも2022年10月以降、ハッキングフォーラムにおいて5,000ドルで販売されているUEFIブートキットである「BlackLotus」であると考えています。\n\nUEFIブートキットは最も警戒すべき脅威です。OSの起動プロセスを完全に制御できることから、OSの各種のセキュリティ機構を無効化でき、OSの起動段階で攻撃者が用意したカーネルモードやユーザーモードのペイロードを展開できます。つまり、高い権限でマシンを秘密裏に操ることが可能になります。これまで、実環境で検出されたUEFIブートキットはわずかしかありません。例えば、2020年にESET社が発見したいくつかの悪意のあるEFIブートローダーの検体、ESET社が昨年発見したESPecterブートキットなどの詳細な機能を実装するUEFIブートキット、そして、Kasperskyのリサーチャーが発見したFinSpyブートキットなどがあるだけです。\n\nUEFIブートキットは、2018年にESET社のチームによって実環境で発見された初のUEFIファームウェアインプラントであるLoJaxのようなファームウェアインプラントと比較すると、簡単にアクセスできるFAT32ディスクパーティションにブートキットがあることから、ファームウェアインプラントと比較するとステルス性は低くなっています。しかし、ブートローダーとして実行することで、ファームウェアインプラントと同等の機能を実行でき、ファームウェアへの書き込みを保護するBWE（BIOS Write Enable）、BLE（BIOS Lock Enable）、PRx（SPI Protected Range Registers）ビットなどのマルチレベルのSPIフラッシュ保護や、Intel Boot Guardなどのハードウェア保護を解除する必要がありません。確かに、UEFIセキュアブートはUEFIブートキットをブロックすることができますが、この基本的なセキュリティメカニズムをバイパスできる既知の脆弱性が多く存在します。本記事の執筆時点で最新のシステムを利用している場合でも、BlackLotusによって悪用されている脆弱性など、簡単に攻撃できる脆弱性が存在していることが、状況を悪化させています。\n\nESET社の調査は、2022年末にテレメトリ（監視データ）でBlackLotusのユーザーモードコンポーネント（HTTPダウンローダー）と考えられる脅威が数件見つかったことから始まっています。最初の調査によって、検体で特定されたコードパターンから、6つのBlackLotusインストーラーを発見できました（VirusTotalおよびESETのテレメトリの両方）。これにより、実行チェーン全体を探索することが可能になり、通常のマルウェアとは異なっていることが明らかになりました。\n\nBlackLotusの特徴と、関連イベントをまとめたタイムラインを以下に示します。\n\n\n\tUEFIセキュアブートを有効にしている、すべてのパッチが適用された最新のWindows 11システムでも実行が可能です。\n\t1年以上前の脆弱性（CVE-2022-21894）を悪用し、UEFIセキュアブートをバイパスしてブートキットを常駐させます。今回初めて、この脆弱性が実環境で悪用されたことが特定された事例となりました。\n\tこの脆弱性は、マイクロソフト社の2022年1月のアップデートで修正されていますが、影響を受ける有効な署名付きのバイナリがまだUEFI失効リストに追加されていないため、現在も悪用が可能になっています。\n\tBlackLotusは、この状況に付け入り、この脆弱性を悪用するために、正規で脆弱なバイナリのコピーをシステムに持ち込んでいます。\n\tBitLocker、HVCI、Windows Defenderなど、OSに実装されているセキュリティ機能を無効にできます。\n\tインストールされたこのブートキットの主な目的は、ブートキットが削除されないように保護するカーネルドライバーを展開し、C&amp;Cと通信し、追加のユーザーモードまたはカーネルモードのペイロードをロードするHTTPダウンローダーを展開することです。\n\tBlackLotusは、少なくとも2022年10月6日からアンダーグラウンドのファーラムで販売されています。このブログでは、このブートキットが本物であり、広告が詐欺ではないことを示す証拠についても提示します。\n\t興味深いことに、ESET社が分析したBlackLotusのインストーラーには、感染したホストが以下の言語を使用している場合、ブートキットのインストールを続行しないものがありました。\n\t\n\t\tルーマニア語（モルドバ）、ro-MD\n\t\tロシア語（モルドバ）、ru-MD\n\t\tロシア語（ロシア）、ru-RU\n\t\tウクライナ語（ウクライナ）、uk-UA\n\t\tベラルーシ語（ベラルーシ）、be-BY\n\t\tアルメニア語（アルメニア）、hy-AM\n\t\tカザフ語（カザフスタン）、kk-KZ\n\t\n\t\n\n\nBlackLotusに関連する各イベントのタイムラインを、図1に示します。\n\n\n\n図1. BlackLotus UEFIブートキットに関連する主なイベントのタイムライン\n\n\n先に述べたように、このブートキットは少なくとも2022年10月6日からアンダーグラウンドのファーラムで販売されています。ESETのテレメトリからは、このブートキットを標的ユーザーに展開するために使用された正確な配信チャネルはこれまで特定できていません。ESET社が一般に公開されているソースやESETのテレメトリから取得できたBlackLotusの検体数は少ないことから、多くのサイバー攻撃者はこのブートキットをまだ使い始めていない可能性があります。しかし、このブートキットは簡単に展開できることや、サイバー犯罪集団が運用しているボットネットのマルウェア拡散能力を考えると、BlackLotusが悪用している脆弱なブートローダーが失効されるまでは、活発に活動している犯罪組織にこのブートキットが渡った場合、事態が急変する恐れがあります。\n\n本当にBLACKLOTUSなのか？\n\nBlackLotusに関する情報をまとめた記事やブログはいくつか存在しており（The Registerの記事、LinkedInへのScott Scheferman氏の投稿、BleepingComputerの記事など）、これらの記事の情報はいずれもこのブートキットの開発者がアンダーグラウンドのハッキングフォーラムに提供した情報に基づいています。今のところ、これらの主張は肯定も否定もされていません。\n\nこれまでに公開されている記事や投稿の内容と、ESET社がこのブートキットの検体をリバースエンジニアリングして得た情報を比較した結果を以下に示します。\n\n\n\tハッキングフォーラムでのBlackLotusの広告では、セキュアブートをバイパスする機能が実装されていると主張している。バイパスを可能にする脆弱性は、現在使用されている数百のブートローダーに影響することから、脆弱なドライバーをUEFIの失効リストに追加することは不可能である。\n\n\t\n\t\tこの主張はESET社の解析結果と一致します。このブートキットは、CVE-2022-21894を攻撃して、UEFIセキュアブートが有効なシステムでこのセキュリティ機能を解除し、常駐します。この記事の執筆時点では、使用されている脆弱なドライバーは最新のdbxで失効していません。\n\t\n\t\n\tハッキングフォーラムでのBlackLotusの広告では、リングプロテクションのリング0/カーネルによる削除防止機能が実装されていると主張している。\n\t\n\t\tこの主張はESET社の解析結果と一致します。このカーネルドライバーは、EFIシステムパーティション（ESP）上のファイルに関連するハンドルが終了しないように保護します。削除されないように保護するための追加の仕組みとして、これらのハンドルを常に監視しており、いずれかのハンドルが終了される場合に、「ESPにあるブートキットファイルが削除されないように保護する仕組み」のセクションで説明しているように、BSOD（ブルースクリーン）がトリガーされます。\n\t\n\t\n\tハッキングフォーラムでのBlackLotusの広告では、マルウェア解析をブロックするために、仮想マシン検出機能、デバッグ対策機能、コード難読化機能が実装されていると主張している。\n\t\n\t\tこの主張はESET社の解析結果と一致します。このブートキットには、さまざまな仮想マシン検出機能、デバッグ対策機能、難読化手法が取り入れられており、複製や解析が困難になっています。しかし、簡単に解析でき、画期的な手法や高度な解析対策が実装されているわけではありません。\n\t\n\t\n\tハッキングフォーラムでのBlackLotusの広告では、このブートキットの目的がHTTPダウンローダーとして機能することであると主張している。\n\t\n\t\tこの主張はESET社の解析結果と一致します。このブートキットの最後のコンポーネントは、「HTTPダウンローダー」のセクションで説明しているように、HTTPダウンローダーとして機能します。\n\t\n\t\n\tハッキングフォーラムでのBlackLotusの広告では、このHTTPダウンローダーは正規のプロセスとしてSYSTEMアカウントで実行されると主張している。\n\t\n\t\tこの主張はESET社の解析結果と一致します。このHTTPダウンローダーは、winlogon.exeプロセスのコンテキストで実行されます。\n\t\n\t\n\tハッキングフォーラムでのBlackLotusの広告では、ディスク上のサイズがわずか80KBという軽量なブートキットであると主張している。\n\t\n\t\tこの主張はESET社の解析結果と一致します。ESET社が実際に取得した検体のサイズは80KB程度でした。\n\t\n\t\n\tハッキングフォーラムでのBlackLotusの広告では、HVCI、Bitlocker、Windows DefenderなどのWindows内蔵のセキュリティ保護を無効化し、ユーザーアカウント制御（UAC）をバイパスできると主張している。\n\t\n\t\tこの主張はESET社の解析結果と一致します。このブートキットは、HVCI、Windows Defender、BitLockerを無効化でき、UACをバイパスできます。\n\t\n\t\n\n\nこれらの解析結果から、今回実環境で検出されたブートキットは、本物のBlackLotus UEFIブートキットであるとESET社は確信しています。\n\n攻撃の概要\n\nBlackLotusによるセキュリティ侵害のチェーンを簡略化した図を図2に示します。攻撃は、以下の3つの部分から構成されています。\n\n\n\tインストーラーの実行（図2のステップ1）から攻撃が始まります。このステップでは、ブートキットのファイルをEFIシステムパーティションに展開し、HVCIとBitLockerを無効にして、マシンを再起動します。\n\t最初に再起動した後に、CVE-2022-21894の脆弱性が攻撃され、攻撃者のマシン所有者キー（MOK）が登録され、UEFIセキュアブートが有効なシステムでも常駐化されます。その後、再度、マシンを再起動します（図2のステップ2-4）。\n\tこの後は、起動するたびに、自己署名されたUEFIブートキットが実行され、カーネルドライバーとユーザーモードのペイロードであるHTTPダウンローダーの両方が展開されます。これらのコンポーネントを組み合わせることで、C&amp;Cサーバーから追加のユーザーモードおよびドライバーコンポーネントをダウンロードして実行し、ブートキットが削除されないように保護します（図2のステップ 5-9）。\n\n\n\n\n図2. BlackLotusの実行の概要\n\n\n注意すべきアーティファクト\n\nESET社は、これがBlackLotus UEFIブートキットだと考えていますが、分析した検体ではBlackLotusを示す直接的な情報は見つかっていません。しかし、higurashi_installer_uac_module.dllやhigurashi_kernel.sysといった各コンポーネントの名前や、ブートキットバイナリに署名する自己署名証明書（図3を参照）には、アニメシリーズ『ひぐらしのなく頃に』からの引用がコードに多く含まれています。\n\n\n\n図3. BlackLotusブートキットが使用する自己署名証明書\n\n\nまた、このコードには、BlackLotusの作者からのメッセージ（図4を参照。hasherezadeは、有名な研究者であり、さまざまなマルウェア解析ツールの作者）や、さまざまな楽曲、ゲーム、シリーズからのランダムな引用を含むさまざまな文字列が含まれています。\n\n\n\n図4. BlackLotusの作者がコードに残したメッセージの例\n\n\nインストールプロセス\n\nまず、BlackLotusのインストーラーを解析した結果を説明します。このブートキットは、オフラインとオンラインの2つのバージョンのインストーラーから配布されている可能性があります。両者の違いは、セキュアブートをバイパスするために後で使用される正規で脆弱なWindowsバイナリを入手する方法にあります。\n\n\n\tオフラインバージョンでは、Windowsバイナリがインストーラーに埋め込まれています。\n\tオンラインバージョンでは、Windowsバイナリがマイクロソフト社のシンボルストアから直接ダウンロードされます。以下のWindowsバイナリがBlackLotusブートキットによって悪用されていることが確認されています。\n\t\n\t\thttps://msdl.microsoft.com/download/symbols/bootmgfw.efi/7144BCD31C0000/bootmgfw.efi\n\t\thttps://msdl.microsoft.com/download/symbols/bootmgr.efi/98B063A61BC000/bootmgr.efi\n\t\thttps://msdl.microsoft.com/download/symbols/hvloader.efi/559F396411D000/hvloader.efi\n\t\n\t\n\n\nこのインストーラーの目的は明確であり、BitLockerディスク暗号化やHVCIなどのWindowsのセキュリティ機能を無効にし、悪意のあるブートキットなど複数のファイルをESPに展開します。次に、侵害されたマシンを再起動して、展開したファイルを使用して、UEFIセキュアブートでマシンが保護されているかどうかに関わらず、システムの起動時に自己署名のUEFIブートキットが秘密裏に実行されるようにします。\n\nステップ0 - 初期化と権限昇格（必要な場合）\n\nインストーラーが実行されると、残りのファイルをESPに展開し、HVCIやBitLockerの無効化など、高度な権限が求められるアクションを実行できる（少なくとも管理者権限が必要）があるかどうかをチェックします。権限がない場合は、ユーザーアカウント制御（UAC）をバイパスして、再度インストーラーを実行して権限を昇格します。詳細は、「プログラム互換性アシスタントによるUACのバイパス」を参照してください。\n\n必要な権限があれば、Windows API関数を使用してUEFI変数のSecureBootの値を読み取り、UEFIセキュアブートの状態をチェックし、メモリーのKUSER_SHARED_DATA構造のフィールドNtMajorVersionとNtMinorVersionに直接アクセスしてWindowsのバージョンを判断します。Windowsのバージョンを確認するのは、標的のシステムにブートキットを展開するために、UEFIセキュアブートをバイパスする必要があるかどうかを判断するためです（セキュアブートのサポートはWindows 8で初めて追加されており、標的のマシンで有効になっていない場合もあります）。\n\n次のステップに進む前に、ESP:EFIMicrosoftBootディレクトリにある正規のWindowsブートマネージャー（bootmgfw.efi）バイナリの名前をwinload.efiに変更します。名前が変更されたこのbootmgfw.efiバックアップは、後でブートキットによってOSを起動するために使用され、C&amp;Cサーバーからアンインストールのためのコマンドを受け取った場合に元のブートチェーンを回復するために使用されます。詳細は、「C&amp;Cとの通信」のセクションを参照してください。\n\nステップ1 - ファイルの展開\n\nUEFIセキュアブートが有効な場合、インストーラーは複数のファイルをESP:/EFI/Microsoft/Boot/およびESP:/system32/ディレクトリに展開して処理を続行します。前者はWindowsが使用する標準的なディレクトリであり、後者はインストーラーが作成する独自のフォルダーです。\n\nインストーラーがドロップするファイルのリストと、実行チェーンにおける各ファイルの役割に関する簡単な説明を、表 1に記載します。実行チェーンの仕組みについては後ほど詳しく説明します。ここでは、悪意のあるファイルとともに、Microsoftによって署名された正規のいくつかのファイルが展開されていることに注目してください。\n\n\n\t\n\t\t\n\t\t\tフォルダー\n\t\t\tファイル名\n\t\t\t説明\n\t\t\n\t\t\n\t\t\tESP:\\EFI\\Microsoft\\Boot\n\t\t\tgrubx64.efi\n\t\t\tBlackLotusブートキット、自己署名された悪意のあるUEFIアプリケーション。\n\t\t\n\t\t\n\t\t\tbootload.efi\n\t\t\tマイクロソフト社が署名した正規のshimバイナリ（これは一時的な名前であり、CVE-2022-21894の脆弱性が攻撃されて、bootmgfw.efiに変更されます）。\n\t\t\n\t\t\n\t\t\tbootmgfw.efi\n\t\t\t脆弱性がある（CVE-2022-21894）正規のWindowsブートマネージャーのバイナリ。インストーラーに組み込まれているか、Microsoftシンボルストアから直接ダウンロードされます。\n\t\t\n\t\t\n\t\t\tBCD\n\t\t\tCVE-2022-21894の攻撃チェーンで使用される攻撃者独自のブート構成データ（BCD）ストア。\n\t\t\n\t\t\n\t\t\tBCDR\n\t\t\t標的ユーザーの元のBCDストアのバックアップ。\n\t\t\n\t\t\n\t\t\tESP:\\system32\n\t\t\thvloader.efi\n\t\t\t脆弱性がある（CVE-2022-21894）正規のWindowsハイパバイザーロードのバイナリ。インストーラーに組み込まれているか、Microsoftシンボルストアから直接ダウンロードされます。\n\t\t\n\t\t\n\t\t\tbootmgr.efi\n\t\t\t脆弱性がある（CVE-2022-21894）正規のWindowsブートマネージャーのバイナリ。インストーラーに組み込まれているか、Microsoftシンボルストアから直接ダウンロードされます。\n\t\t\n\t\t\n\t\t\tmcupdate_AuthenticAMD.dll\n\t\t\t自己署名された悪意のあるネイティブPEバイナリ。このファイルは、AMD CPUを使用するシステムでCVE-2022-21894を攻撃した後で、hvloader.efiによって実行されます。\n\t\t\n\t\t\n\t\t\tmcupdate_GenuineIntel.dll\n\t\t\tMustang Pandaの既知のKorplugローダー。\n\t\t\n\t\t\n\t\t\tBCD\n\t\t\tMustang Pandaの既知のKorplugローダー。\n\t\t\n\t\n\n\n表 1. UEFIセキュアブートが有効なシステムでBlackLotusインストーラーが展開するファイル\n\n標的ユーザーがUEFIセキュアブートをサポートしていないWindowsバージョンを使用している場合や、セキュアブートが無効になっている場合、展開のプロセスは非常にシンプルになります。悪意のあるブートキットを展開するために必要なのは、ESP:\\EFI\\Microsoft\\Boot\\ディレクトリにある既存のWindowsブートマネージャー（bootmgfw.efi）バイナリを、攻撃者が署名した悪意のあるUEFIアプリケーションに置換することだけです。UEFIセキュアブートは無効にされており、起動時に整合性が検証されないため、UEFIファームウェアはセキュリティ違反を認識することなく悪意のあるブートマネージャーを実行します。\n\nステップ2 - ハイパーバイザーで保護されたコードの整合性（HVCI）の無効化\n\n署名のない独自のカーネルコードを後で実行できるようにするために、インストーラーはシステムでHVCIが無効になっていることを確認する必要があります。ESET社のリサーチャーの一人が、2022年にこのトピックについてのブログ（署名されたカーネルドライバー - 保護されていないWindowsコアへのゲートウェイ）を書いていますので、その一部を以下に紹介します。\n\n仮想化ベースのセキュリティ（VBS）は、いくつかの保護機能を提供しますが、最も重要な保護機能はハイパーバイザーによるコードの整合性の強制（HVCI）であり、これはスタンドアロンの機能としても提供されています。HVCIはカーネルのコードの整合性をチェックして、署名されたコードのみを実行できるようにします。この機能により、使用される攻撃手法に関わらず、脆弱なドライバーを悪用して署名のないカーネルコードを実行し、悪意のあるドライバーをロードすることを効果的に防止できます。脆弱なドライバーを悪用して悪意のあるコードをロードするマルウェアが存在していることが、マイクロソフト社がこの機能を実装した主な理由の1つだと考えられます。\n\n図5に示すように、この機能を無効にするために、インストーラーはHypervisorEnforcedCodeIntegrityレジストリキーにあるレジストリEnabledの値をゼロに設定します。\n\n\n\n図5. HVCIを無効化するBlackLotusインストーラーの機能をHex-Raysで分解したコード。\n\n\nステップ3 &ndash; BitLockerの無効化\n\nインストーラーによって無効にされる次の機能は、BitLockerドライブ暗号化です。BitLockerをTPM（トラステッドプラットフォームモジュール）と組み合わせて使用すれば、BitLockerドライブ暗号化を構成してから、セキュアブートを含む各ブートファイルや構成が改ざんされていないことを確認できるため、このインストーラーはこの機能を無効化します。このインストーラーは侵害したマシンのWindowsブートチェーンを変更するため、TPMをサポートするシステムでBitLockerが有効になっていると、次の起動時にBitLockerの回復画面が表示され、システムが侵害されていることが被害者に通知されます。\n\nこの保護を無効にするために、BlackLotusのインストーラーは以下の処理を行います。\n\n\n\tWMIクラスWin32_EncryptableVolumeのGetProtectionStatusメソッドを呼び出して、WMIの名前空間Root\\CIMV2\\Security\\MicrosoftVolumeEncryptionにあるすべてのボリュームを調べて保護の状態をチェックします。\n\tBitLockerでボリュームが保護されている場合、DisableCountパラメータをゼロに設定してDisableKeyProtectorsメソッドを呼び出します。これにより、手動で有効にするまで保護が中断されます。\n\n\n攻撃を実行するための障害となる保護機能を無効にし、すべてのファイルを展開したら、システムを次回に再起動するときにインストーラー自身を削除するように設定し、マシンを再起動してCVE-2022-21894を攻撃します。\n\nセキュアブートのバイパスと常駐化\n\nこのセクションでは、UEFIセキュアブートが有効なシステムで、BlackLotusがどのように常駐するかを詳しく説明します。これから説明する実行チェーンは非常に複雑です。最初に基本的な原理を説明してから、技術的な詳細を説明します。\n\nこのプロセスは、2つの重要なステップから構成されています。\n\n\n\tCVE-2022-21894を攻撃して、セキュアブート機能をバイパスし、ブートキットをインストールします。これにより、プラットフォームがまだファームウェアによって管理されており、UEFIブートサービスが利用可能な初期のブートフェーズで任意のコードを実行できるようになります。これにより、攻撃者は、UEFIセキュアブートが有効なマシンで、ブートサービス専用のNVRAM変数を変更するなど、本来マシンに物理的にアクセスできなければ実行できない多くの操作が可能になります。次に、この状況を利用して攻撃者は次のステップでブートキットを常駐させます。この攻撃の詳細については、「CVE-2022-21894の攻撃」のセクションを参照してください。\n\t攻撃者のMOKをブートサービス専用のNVRAM変数MokListに書き込み、常駐化します。この操作により、起動のたびに脆弱性を攻撃するのではなく、マイクロソフト社が署名した正規のshimを使用して自己署名されたUEFIブートキットをロードできるようになります。このUEFIブートキットは、MokListに書き込まれた鍵に関連する秘密鍵で署名されています。これについては、ブートキットの常駐化のセクションで詳しく説明しています。\n\n\n詳細な分析内容を以下の2つのセクションで分かりやすく説明するため、次の実行フローの図（図6）のステップに従って説明します。\n\n\n\n図6. セキュアブートのバイパスとMOKによる常駐化の設定\n\n\nCVE-2022-21894の攻撃\n\nセキュアブートをバイパスするために、BlackLotusはCVE-2022-21894（別名Baton Drop）を使用します。これは、セキュリティ機能であるセキュアブートをバイパスする脆弱性です。この脆弱性は、システムのセキュリティに重大な影響を与えるにもかかわらず、あまり注目されてきませんでした。この脆弱性は、マイクロソフト社の2022年1月のアップデートで修正されましたが、影響を受けるバイナリがまだUEFI失効リストに追加されていないため、悪用が可能になっています。そのため、攻撃者は、脆弱なバイナリのコピーを標的ユーザーのマシンに持ち込み、この脆弱性を攻撃し、最新のUEFIシステムであってもセキュアブートをバイパスできます。\n\nさらに、この脆弱性のPoC（概念実証）のエクスプロイトが2022年8月から公開されています。BlackLotusがVirusTotalに初めて送信された日付（図1）を考慮すると、このマルウェアの開発者は、このエクスプロイトの仕組みを深く理解せずに、公開されていたPoCを適応した可能性があります。\n\n最初に、GitHubのPoCと一緒に公開されている説明を中心に、この脆弱性について簡単に紹介します。\n\n\n\t影響を受けるWindowsブートアプリケーション（bootmgr.efi、hvloader.efi、winload.efiなど）では、BCDブートオプションtruncatememoryを使用して、アプリケーションによりロードされる前に、シリアライズされたセキュアブートポリシーをメモリーから削除できます。\n\tこれにより、攻撃者はbootdebug、testigning、nointegritychecksなどの他の危険なBCDオプションを使用できるようになり、セキュアブートを回避します。\n\tこの脆弱性を攻撃する方法はいくつかありますが、そのうちの3つの方法がPoCリポジトリで公開されています。\n\t例えば、正規のhvloader.efiを悪用して、任意の自己署名されたmcupdate_&lt;platform&gt;.dllバイナリ（マシンで使用されるCPUによって、&lt;platform&gt;はGenuineIntelまたはAuthenticAMDになります）をロードできるPOCが公開されています。\n\n\n以下、BlackLotusがこの脆弱性を悪用する方法について説明します（以下のリストの数字は図6にあるステップ番号と対応しています）。\n\n1. インストーラーがマシンを再起動すると、UEFIファームウェアは最初のブートオプションをロードします。\nWindowsシステムの場合、最初のブートオプションはデフォルトでESPのESP:/EFI/Microsoft/Bootフォルダーにあるbootmgfw.efiに設定されています。ここでは、ファームウェアは、標的ユーザーの元のbootmgfw.efi（インストーラーによってwinload.efiに名前が変更されます）を実行せず、インストーラーによって展開された脆弱なWindowsブートマネージャーバイナリを実行します。\n\n2. bootmgfw.efiが実行されると、インストーラーによって変更されたBCDブートオプションがロードされます。図7は、正規のBCDと変更後のBCDとの比較を示しています。\n\n3. 図7に示しているように（緑色の下線が引かれたパス）、正規のWindowsブートマネージャーは通常、デフォルトのブートアプリケーションとしてWindows OSローダー（\\WINDOWS\\system32\\winload.efi）をロードします。しかし、ここでは変更されたBCDを使用し、BCDのエレメントavoidlowmemoryに値0x10000000を設定し、ESP:\\system32\\bcdに保存されている攻撃者が準備した別のBCDを、エレメントcustom:22000023が指定するように設定し、脆弱なESP:\\system32\\bootmgr.efiをロードして処理を続けます。これらのエレメントの使用に関する説明は、公開されているPoCに記載されています。\n\n攻撃者は、シリアライズされたセキュアブートポリシーが既知の物理アドレス以上に割り当てられていることを確認する必要があります。\n[&hellip;]\navoidlowmemoryエレメントを使用すると、物理メモリーのすべてが指定された物理アドレス以上に割り当てられることを保証できます。\n\n\n\tWindows 10以降では、VBSが有効になっていると、このエレメントは許可されませんが、シリアライズされたセキュアブートポリシーがメモリーから読み込まれる前に、ブートアプリケーションを初期化するときに時に使用されるため、bootmgrをロードし、攻撃者のBCDのパス（bcdfilepathエレメント（別名：custom:22000023）使用）を指定すれば、この制約を回避できます。\n\n\n\n\n図7. 正規のBCDストア（前）とBlackLotusインストーラーが使用したBCDストア（後）の比較\n\n\n4. 次のステップでは、実行されたESP:\\system32\\bootmgr.efiがESP:\\system32\\bcdにある別のBCDをロードします。この別のBCDを解析した内容を、図8に示します。\n\n\n\n図8. BlackLotusインストーラーが展開した2つ目のBCD - CVE-2022-21894を攻撃するために使用される\n\n\n5. 図8に示すBCDファイルから読み込まれたオプションによって、bootmgr.efiは、インストーラーによって展開された別の脆弱なWindowsブートアプリケーションであるESP:\\system32\\hvloader.efi（Windowsハイパーバイザーローダー）をロードして処理を続けます。さらに重要なのは、次の別のBCDオプションが同じBCDファイルで指定されることです（図8を参照）。\n\na. Truncatememoryを0x10000000に設定\nb. NointegritychecksをYesに設定\nc. TestsigningをYesに設定\n\nここからが重要なポイントです。シリアライズされたセキュアブートポリシーは、0x10000000以上の物理アドレスにロードする必要があるため（前のステップで使用したavoidlowmemoryのため）、truncatememoryエレメントを指定すれば効果的にポリシーを削除でき、セキュアブートが解除され、nointgritychecksやtestsigningなどのリスクのあるBCDオプションを使用できるようになります。攻撃者は、これらのオプションを使用して、hvloader.efiに自己署名したコードを実行させることができます。\n\n6. この処理では、PoCで説明されているのと同じ手法が使用されます。正規のhvloader.efiは、実行中に&lt;device&gt;:\\&lt;systemroot&gt;\\system32\\ディレクトリからネイティブバイナリmcupdate_{GenuineIntel| AuthenticAMD}.dllをロードして実行します。このmcupdate*.dllバイナリをロードするhvloader.efiの関数をHex-Raysで逆コンパイルしたコメント付きのコードを図9に示します。通常、hvloader.efiは、この正規のmcupdate*.dllバイナリを&lt;os_partition&gt;:\\Windows\\system32からロードしますが、今回はインストーラーがあらかじめ作成した独自のESPディレクトリ（ESP:\\system32）から自己署名したmcupdate*.dllが実行されています。図8のBCDで使用されているBCDオプションのdeviceとsystemrootが、現在のデバイスをboot（ESPを示す）に指定し、さらにシステムルートをこのデバイスのルート（\\）ディレクトリに指定しているために、この処理が実行されています。\n\n\n\n図9. mcupdate_*.dllをロードする正規のhvloader.efiのBtLoadUpdateDll関数をHex-Raysで逆コンパイルしたもの。\n\n\n7. これで、攻撃者が署名したmcupdate*.dllがロードされ実行され、このチェーンの最後のコンポーネントである組み込みのMokInstaller（UEFIアプリケーション）が実行されます。この詳細については、図10を参照してください。\n\n\n\n図10. 自己署名された悪意のあるmcupdate*.dllバイナリをHex-Raysで逆コンパイルしたコード\n\n\nブートキットの常駐化\n\nこれでMokInstallerは、攻撃者のMOKをNVRAM変数に登録し、マイクロソフト社が署名した正規のshimバイナリをデフォルトのブートローダーとして設定することで、常駐することが可能になりました。このプロセスの詳細を説明する前に、shimとMOKについて説明します。\n\nshimは、さまざまなLinuxディストリビューションをUEFIセキュアブートで動作させるために、Linux開発者が開発したファーストステージのUEFIブートローダーです。これは単純なアプリケーションであり、別のアプリケーションをロード、検証、実行することが目的です。Linuxシステムの場合、通常、GRUBブートローダーをロード、検証、実行します。また、マイクロソフト社はshimのみに署名し、shimがその他のアプリケーションを管理する仕組みになっており、UEFI変数dbのキーを使用することにより、セカンドステージのブートローダーの整合性を検証できます。また、プラットフォームとshimの開発者（Canonical、RedHatなど）の両方が信頼するコンポーネントの実行を許可するために、独自の「許可」または「取り消し」キーやハッシュのリストを埋め込んでいます。shimは、これらのリストに加え、MOKリストと呼ばれるユーザーが管理する外部の鍵データベースを利用することもできます。図11は、MOKによるUEFIセキュアブートの仕組みを分かりやすく説明しています。\n\nこのMOKデータベースは、MokListという名前のブート専用のNVRAM変数に格納されています。上記のような脆弱性を悪用できなければ、UEFIセキュアブートが有効なシステムでこの変数を変更するにはマシンに物理的にアクセスしなければなりません（この変数は、起動時にOSローダーがUEFIブートサービス関数ExitBootServicesを呼び出す前にのみ利用できます）。しかし、この脆弱性を利用することで、攻撃者はUEFIセキュアブートをバイパスし、ExitBootServicesを呼び出す前に自己署名したコードを実行できるため（NVRAM変数MokListを修正することで）、簡単に自分の鍵を登録し、セキュリティ違反を発生させることなく、登録したその鍵で署名した任意のアプリケーションをshimに実行させることができます。\n\n\n\n図11. MOKブートプロセスの概要（画像の出典）\n\n\n8. 図6 - ステップ8のフローの説明を続けます。MokInstaller UEFIアプリケーションは、BlackLotus UEFIブートキットを常駐化し、以下の操作を行い、攻撃の痕跡を隠ぺいします。\n\na. インストーラーが作成したバックアップから元のBCDストアを復元し、bootmgfw.efiを、インストーラーによってESP:\\system32\\bootload.efiに前に展開されたマイクロソフト社が署名した正規のshimに置き換えます。\nb. NVRAM変数のMokListを作成します。これには、攻撃者が自己署名した公開鍵証明書が含まれます。この変数は他のUEFI署名データベース変数（dbやdbxなど）と同じ方法でフォーマットされ、UEFIの仕様で定義されているEFI_SIGNATURE_LISTタイプの署名リストから構成されていることに注意してください。\nc. 攻撃者のESP:\\system32\\フォルダーから攻撃に関するすべてのファイルを削除します。\n\n9. 最終的にマシンを再起動し、展開したshimが、インストーラーによって\\EFI\\Microsoft\\Boot\\grubx64.efiに展開された自己署名付きのブートキットを実行するようにします。grubx64.efiは、通常、x86-64システムでshimによって実行されるデフォルトのセカンドステージのブートローダーです。\n\n最後の2つのステップで説明した操作を実行するコードを図12に示します。\n\n\n\n図12. Hex-Raysで逆コンパイルしたコード - BlackLotusブートキットを常駐化するためのMokInstaller UEFIアプリ\n\n\nBLACKLOTUS UEFIブートキット\n\n常駐化の設定が完了すると、システムを起動するときにBlackLotusブートキットが毎回実行されます。このブートキットの目的は、カーネルドライバーと最終的なユーザーモードのコンポーネントであるHTTPダウンローダーを展開することです。ブートキットを実行するときには、Windowsの別のセキュリティ機能である仮想化ベースのセキュリティ（VBS）とWindows Defenderを無効化し、このブートキットを展開し秘密裏に動作させる可能性を高めようとします。このプロセスの詳細を説明する前に、カーネルドライバーとHTTPダウンローダーについての基本情報について説明します。\n\n\n\tカーネルドライバーの機能：\n\t\n\t\t攻撃チェーンの次のコンポーネントであるHTTPダウンローダーを展開する。\n\t\tマシンが終了してもローダーを存続させる。\n\t\tブートキットのファイルがESPから削除されないように保護する。\n\t\tHTTPダウンローダーから指示された場合、追加のカーネルペイロードを実行する。\n\t\tHTTPダウンローダーから指示された場合、ブートキットをアンインストールする。\n\t\n\t\n\tHTTPダウンローダーの機能：\n\t\n\t\tC&amp;Cと通信する。\n\t\tC&amp;Cから受信したコマンドを実行する。\n\t\tC&amp;Cから受信したペイロードをダウンロードして実行する（カーネルペイロードとユーザーモードペイロードの両方に対応）。\n\t\n\t\n\n\nインストーラーからHTTPダウンローダーまでの実行フローを簡略化した図を、図13に示します。これらの各ステップについては、次のセクションで詳しく説明します。\n\n\n\n図13. BlackLotus UEFIブートキットの実行を示す図\n\n\nBlackLotusの実行フロー\n\n実行フローを以下に説明します（これらのステップは図13を参照してください）。\n\n1. 最初のステップとして、UEFIファームウェアはデフォルトのWindowsブートオプションを実行します。これは、通常、\\EFI\\Microsoft\\Boot\\bootmgfw.efiに格納されているファイルです。先に説明したように（「ブートキットの常駐化」セクションの、8.aを参照）、MokInstallerバイナリはこのファイルを署名されている正規のshimに置き換えています。\n\n2. shimが実行されると、NVRAM変数MokListを読み出し、攻撃者が前に保存した証明書を使用して、\\EFI\\Microsoft\\Boot\\grubx64.efiにある攻撃者が署名したセカンドステージブートローダー（BlackLotus UEFIブートキット）を検証します。\n\n3. 検証が完了すると、shimはブートキットを実行します。\n\n4. ブートキットは、ブート専用のNVRAM変数であるVbsPolicyDisableを最初に作成します。こちらで説明しているように、この変数は起動時にWindows OSローダーによって評価されます。この変数が定義されていると、HVCIやCredential GuardなどのVBSのコア機能が初期化されません。\n\n5. 次のステップ（5. a-e）では、このブートキットはUEFIブートキットに共通するパターンを使用して処理を続けます。Windows Boot Manager、Windows OSローダー、Windows OSカーネルなど、Windowsを起動するときの一般的なフローで実行されるコンポーネントを妨害し、一部の関数をメモリーにフックします。また、Windows Defenderのいくつかのドライバーにパッチを適用して、Windows Defenderを無効化しようとします。これらはすべて、OSの起動プロセスの初期段階でペイロードを実行し、検出を回避するために行われています。フックされる関数とパッチが適用されるドライバーは以下の通りです。\n\n\n\tbootmgfw.efiまたはbootmgr.efiのImgArchStartBootApplication：\n\tこの関数は、ブートキットで一般にフックされ、Windows OSローダー（winload.efi）がメモリーにロードされたものの、実行されていないタイミング、つまりメモリー内でさらにパッチを適用する適切なタイミングを特定するために使用されます。\n\twinload.efiのBlImgAllocateImageBuffer：\n\t悪意のあるカーネルドライバーのための追加のメモリーバッファを割り当てるために使用されます。\n\twinload.efiのOslArchTransferToKernel：\n\tOSカーネルやシステムドライバーの一部がすでにメモリーにロードされているが、まだ実行されていないタイミング、つまりメモリー内でさらにパッチを適用する最適なタイミングを特定するためフックされます。このフックで、以下のドライバーにパッチが適用されます。メモリーで適切なドライバーを見つけるためのこのフックのコードを、図14に示します。\n\tWdBoot.sysとWdFilter.sys：\n\tBlackLotusは、すぐに復帰できるように、Windows DefenderのELAMドライバーであるWdBoot.sysとWindows DefenderのファイルシステムフィルタドライバーであるWdFilter.sysのエントリポイントにパッチを適用します。\n\tdisk.sys：\n\tこのブートキットは、disk.sysドライバーのエントリポイントをフックして、システム初期化の早期の段階でBlackLotusのカーネルドライバーを実行します。\n\n\n\n\n図14. OslArchTransferToKernelフックをHex-Raysで逆コンパイルしたコード（このコードは、Windows Defenderドライバーにパッチを適用し、disk.sysのエントリポイントを検索します）\n\n\n6. 次に、OSカーネルがdisk.sysドライバーのエントリポイントを実行すると、インストールされたフックにより悪意のあるカーネルドライバーのエントリポイントに移動します。悪意のあるコードは、システムが正常に機能するように元のdisk.sysを復元し、winlogon.exeのプロセスが開始するまで待機します。\n\n7. 悪意のあるドライバーは、winlogon.exeのプロセスが開始されたことを検知すると、最後のユーザーモードコンポーネントであるHTTPダウンローダーを挿入して実行します。\n\nカーネルドライバー\n\nこのカーネルドライバーは、次の4つのタスクを主に実行します。\n\n\n\twinlogon.exeにHTTPダウンローダーを挿入し、スレッドが終了した場合は再度挿入する。\n\tESPに展開されたブートキットファイルが削除されないように保護する。\n\tユーザーモードのWindows DefenderプロセスMsMpEngine.exeを解除する。\n\tHTTPダウンローダーと通信し、必要な場合にはコマンドを実行する。\n\n\nこれらの各タスクについて説明します。\n\nHTTPダウンローダーの常駐化\n\nカーネルドライバーは、HTTPダウンローダーを展開します。ドライバーが起動すると、winlogon.exeのプロセスが起動するまで待機してから、他の操作を開始します。このプロセスが開始されると、ドライバーはHTTPダウンローダーのバイナリを復号し、winlogon.exeのアドレス空間に挿入して、新しいスレッドで実行します。その後、ドライバーはこのスレッドが実行されているかどうかを定期的にチェックし、必要に応じて挿入を繰り返します。ドライバーによってカーネルデバッガーが検出されると、HTTPダウンローダーは展開されません。\n\nESPにあるブートキットファイルが削除されないように保護する仕組み\n\nESPにあるブートキットファイルを保護するために、このカーネルドライバーは簡単な仕組みを取り入れています。保護するファイルをすべて開き、ハンドルを複製して保存し、カーネル関数ObSetHandleAttributesを使用して、HandleFlags（OBJECT_HANDLE_FLAG_INFORMATION）パラメータにあるProtectFromCloseフラグを1に指定して、他のプロセスによってハンドルが閉じられないように保護します。これにより、保護する対象のファイルの削除や変更を防止できます。以下のファイルが保護されます。\n\n\n\tESP:\\EFI\\Microsoft\\Boot\\winload.efi\n\tESP:\\EFI\\Microsoft\\Boot\\bootmgfw.efi\n\tESP:\\EFI\\Microsoft\\Boot\\grubx64.efi\n\n\n保護の対象となっているこれらのファイルをユーザーが削除しようとすると、 図15に示すようなメッセージが返されます。\n\n\n\n図15. BlackLotusドライバーで保護されているファイルを削除したときに返されるメッセージ\n\n\nユーザーやセキュリティソフトウェアが保護フラグを解除してハンドルを閉じることができた場合でも、このカーネルドライバーは常にハンドルを監視しており、ハンドルが存在しなくなると、KeBugCheck(INVALID_KERNEL_HANDLE)関数を呼び出してBSOD（ブルースクリーン）を発生させる保護機能も備えています。\n\nWindows Defenderのメインプロセスの解除\n\nカーネルドライバーは、Windows DefenderのメインプロセスであるMsMpEng.exeを解除する場合もあります。各プロセスにSE_PRIVILEGE_REMOVED属性を設定してすべてのプロセスのトークン権限を削除することで、メインプロセスを解除します。これにより、Defenderのプロセスは、ファイルのスキャンなどを適切に実行できなくなります。ただし、この機能の実装方法には問題があり、MsMpEng.exeのプロセスを再起動すれば、Defenderの本来の機能が再度実行されます。\n\nHTTPダウンローダーとの通信\n\nカーネルドライバーは、名前付きのイベントとセクションを使用してHTTPダウンローダーと通信できます。使用される名前付きオブジェクトは、標的ユーザーのネットワークアダプターのMACアドレス（イーサネット）を基準に生成されます。オクテットの値が16より小さい場合は、16が名前に追加されます。生成されるオブジェクト名の形式は、検体によって異なる場合があります。解析した検体の1つは、MACアドレスが00-1c-0b-cd-ef-34となっており、次の名前が生成されています。\n\n\n\t\\BaseNamedObjects\\101c1b：名前付きセクション（MACの最初の3オクテットのみが使用されます）\n\t\\BaseNamedObjects\\Z01c1b：名前付きイベント - セクションと同じですが、MACアドレスの最初の1桁がZで置換されています。\n\n\nHTTPダウンローダーがカーネルドライバーにいくつかのコマンドを渡す必要がある場合、名前付きのセクションを作成し、そこにコマンドと関連データを書き込み、名前付きのイベントを作成してドライバーがトリガーするまで（シグナルを送信する）待機し、ドライバーがコマンドを処理するのを待機できます。\n\nこのドライバーは、以下のコマンドをサポートしています。\n\n\n\tカーネルドライバーのインストール\n\tBlackLotusのアンインストール\n\n\n賢明な読者の方であれば、ここでBlackLotusの弱点に気づくかもしれません。ブートキットがコンポーネントを削除できないように保護していても、上記の名前のオブジェクトを作成してアンインストールコマンドを送信してブートキットを完全にアンインストールするように、カーネルドライバーを騙すことができます。\n\nHTTPダウンローダー\n\n最後のコンポーネントは、C&amp;Cサーバーと通信し、受信したC&amp;Cコマンドを実行します。ESETが検出したすべてのペイロードは3つのコマンドを含んでいます。これらのコマンドは非常にわかりやすく、さまざまな手法で主に別のペイロードをダウンロードし実行します。\n\nC&amp;Cとの通信\n\nC&amp;Cサーバーと通信するために、このHTTPローダーはHTTPSプロトコルを使用します。C&amp;Cドメインや使用するHTTPリソースのパスなどの通信に必要な情報は、ダウンローダーのバイナリに直接埋め込まれています。C&amp;Cサーバーとの通信間隔は、デフォルトで1分に設定されていますが、C&amp;Cから受信するデータによって変更される場合もあります。C&amp;Cとの通信セッションは、HTTP POSTのビーコンメッセージをC&amp;Cに送信することから始まります。今回解析した検体では、HTTP POSTヘッダーに以下のHTTPリソースのパスが指定できるようになっています。\n\n\n\t/network/API/hpb_gate[.]php\n\t/API/hpb_gate[.]php\n\t/gate[.]php\n\t/hpb_gate[.]php\n\n\nビーコンメッセージデータの先頭にはcheckin=という文字列が付けられており、独自のマシン識別子（HWIDと呼ばれます）、UEFIセキュアブートの状態、さまざまなハードウェア情報、BlackLotusのビルド番号と思われる値など、侵害されたマシンに関する基本情報が含まれています。HWIDは、マシンのMACアドレス（イーサネット）とシステムボリュームのシリアル番号から生成されます。暗号化されるメッセージの形式を、図16に示します。\n\n\n\n図16. ビーコンメッセージの形式\n\n\nC&amp;Cにメッセージを送信する前に、最初に埋め込まれたRSAキーでデータが暗号化された後で、URLセーフのbase64でエンコードされます。検体を解析した結果、2種類のRSAキーが使用されていることがわかりました。これらのHTTPビーコンリクエストの例を、図17に示します。\n\n\n\n図17. HTTP POSTビーコンメッセージの例（VirusTotalの検体から生成されたメッセージ ‐ 実際のC&amp;Cサーバーアドレスの代わりにローカルIPを使用）\n\n\nビーコンメッセージの応答としてC&amp;Cから受信したデータは、2バイトのマジック値HPで始まっている必要があります。これ以外の値で始まっている場合は、それ以上処理されません。マジック値が正しい場合、マジック値に続くデータが、上記のHWIDの文字列をキーとして、CBCモードの256bitAESで復号されます。\n\n復号された後のメッセージはビーコンと同じようなJSON形式の文字列になっており、コマンド識別子（Typeと呼ばれます）と、以下のようなさまざまなパラメータが追加で指定されます。\n\n\n\tC&amp;Cとの通信間隔\n\t使用する実行方法\n\tペイロードのファイル名\n\tファイル拡張子に基づくペイロードタイプ（.sys、.exe、.dllに対応します）\n\tペイロードデータのダウンロードを要求するために使用される認証トークン\n\tペイロードデータの復号に使用するAESキー\n\n\nサポートされているすべてのコマンドとその説明を、表 2に示します。\n\n\n\t\n\t\t\n\t\t\tコマンドタイプ\n\t\t\tコマンドの説明\n\t\t\n\t\t\n\t\t\t1\n\t\t\tカーネルドライバー、DLL、または通常の実行ファイルをダウンロードして実行します。\n\t\t\n\t\t\n\t\t\t2\n\t\t\tペイロードをダウンロードし、ブートキットをアンインストールし、ペイロードを実行します。ブートキットの更新に使用されると考えられます。\n\t\t\n\t\t\n\t\t\t3\n\t\t\tブートキットをアンインストールして終了します。\n\t\t\n\t\n\n\n表2. C&amp;Cコマンド\n\nC&amp;Cは、これらのコマンドでペイロードを実行する前にまずディスクに展開するか、メモリー内で直接実行するか指定できます。ディスクに展開する場合は、OSボリュームにあるProgramDataフォルダーを保存先フォルダーとして使用し、ファイル名と拡張子はC&amp;Cサーバーによって指定されます。メモリー内でファイルを直接実行する場合、svchost.exeが挿入先として使用されます。C&amp;Cがカーネルドライバーを使用しなければならないコマンドを送信した場合や、カーネルモードでコードを実行する場合には、「HTTPダウンローダーとの通信」のセクションで説明されている方法が使用されます。\n\n解析対策の仕組み\n\nこのマルウェアの作成者は、検出と解析を困難にするため、テキスト文字列、インポートするデータ、他の暗号化されない埋め込みデータなど、標準的なファイルアーティファクトができる限り残らないようにしています。解析を困難にするために使用される手法を以下に示します。\n\n\n\t文字列やデータの暗号化\n\t\n\t\t検体で使用されていたすべての文字列は、簡易な暗号で暗号化されています。\n\t\tすべての埋め込みファイルは、CBCモードの256bitAESで暗号化されています。\n\t\t各ファイルの暗号化キーは、検体ごとに異なる場合があります。\n\t\tAES暗号に加えて、一部のファイルはLZMSで圧縮されています。\n\t\n\t\n\t実行時のみのAPI解決\n\t\n\t\tすべての検体で、Windows APIは常に実行時に排他的に解決されており、関数名の代わりに関数のハッシュを使用して、メモリー内の目的のAPI関数のアドレスを検索します。\n\t\t必要なシステム関数を呼び出すために、syscall命令を直接呼び出す場合もあります。\n\t\n\t\n\tネットワーク通信\n\t\n\t\tHTTPSを使用して通信します。\n\t\tHTTPダウンローダーがC&amp;Cに送信するメッセージはすべて、埋め込まれたRSA公開キーで暗号化されます。\n\t\tC&amp;CからHTTPダウンローダーへ送信されるメッセージは、標的ユーザーのマシン環境から導出されるキー、またはC&amp;Cが提供するAESキーで暗号化されます。\n\t\n\t\n\tデバッグ対策機能や仮想マシン検出機能が使用される場合、通常はエントリポイントの最初に配置されます。簡単なサンドボックスやデバッガー検出手法のみが使用されます。\n\n\n対策と修正\n\n\n\tまず、システムとセキュリティ製品を常に最新の状態で維持することが大前提です。これにより、この脅威がOSで常駐化する前の早期の段階で阻止できる可能性が高くなります。\n\tそして、UEFIセキュアブートを回避する脆弱なUEFIバイナリが使用されないようにするために必要となる重要なステップは、UEFI失効データベース（dbx）で該当するバイナリを失効することです（Windowsシステム）。dbxの更新は、Windowsアップデートによって配信する必要があります。\n\t広く使われているWindows UEFIバイナリを失効させると、何千もの旧式のシステム、リカバリーイメージ、またはバックアップを起動できなくなることから、失効に時間がかかりすぎるという問題が発生します。\n\tなお、BlackLotusが使用するWindowsアプリケーションを失効させると、ブートキットをインストールできなくなりますが、インストーラーによって標的ユーザーのブートローダーが失効したものに置換されるため、システムが起動できなくなる恐れがあります。この場合には、OSを再インストールするか、単にESPをリカバリーすることで問題を解決できます。\n\tBlackLotusが常駐した後に失効しても、ブートキットは常駐するために独自のMOKキーを登録した正規のshimを使用するため、そのまま常駐する可能性があります。この場合、最も安全な対策は、Windowsを再インストールし、mokutilユーティリティを使用して攻撃者が登録したMOKキーを削除することです。この操作を実行するには、起動中にMOKマネージャをユーザーが操作する必要があるため、マシンに物理的にアクセスしなければなりません。\n\n\n重要なポイント\n\nここ数年、UEFIシステムのセキュリティに影響する重大な脆弱性が多く発見されています。残念ながら、UEFIのエコシステム全体は複雑であり、サプライチェーンの問題も関連していることから、これらの多くの脆弱性が修正された後でも、長きにわたって多くのシステムが危険な状態のままになっています。この1年間で、UEFIセキュアブートのバイパスを可能にする脆弱性へのパッチ適用や失効が失敗した具体的な例をいくつか紹介します。\n\n\n\t最初は、BlackLotusが悪用している脆弱性CVE-2022-21894です。この脆弱性が修正されてから1年が経過していますが、今でも、脆弱なUEFIバイナリが無効化されておらず、BlackLotusなどの脅威は、UEFIセキュアブートを有効にしたシステムでも秘密裏に動作しています。\n\t2022年初頭、ESET社は、UEFIセキュアブートを無効にするなど、セキュリティ上の脅威をもたらす複数のUEFIの脆弱性を公開しました。影響を受ける多くのデバイスは、脆弱性が公開された時点で3～5年しか経過しておらず、それほど旧式ではありませんが、OEMベンダーによってサポートされなくなっており、修正されていません。詳細は、ESET社のブログ「崩れた安全神話：Lenovoのホーム用ノートパソコンに、深刻なUEFIの脆弱性を発見」を参照してください。\n\tその後、2022年にも複数のUEFIの脆弱性が発見されました。これらの脆弱性を攻撃されると、UEFIセキュアブートが簡単に無効化されます。Binarlyの上級研究者が指摘しているように、アドバイザリに記載されたいくつかのデバイスは、アドバイザリが公開されてから数ヶ月後が経過してもパッチが公開されていない、あるいは正しく適用されておらず、デバイスが脆弱なままになっています。CVE-2022-21894のケースと同様に、サポート期限を迎えているため、脆弱なまま放置されているデバイスもあります。\n\n\nこれらの危険な状況に付け込んで、UEFIセキュアブートを有効にしているシステムでも動作するUEFIブートキットを作成する攻撃者が出現するのは時間の問題だったと言えます。昨年、RSAのプレゼンテーションで、ESPシステムパーティションへの攻撃が現実的になっており、UEFIに対する脅威が迫っていることをESET社が発表しましたが、BlackLotusの存在がこれを裏付けることになりました。\n\nIOC（セキュリティ侵害の痕跡）\n\nファイル\n\n\n\t\n\t\t\n\t\t\tSHA-1\n\t\t\tファイル名\n\t\t\t検出\n\t\t\t説明\n\t\t\n\t\t\n\t\t\t\n\t\t\t05846D5B1D37EE2D716140DE4F4F984CF1E631D1\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tWin64/BlackLotus.A\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのインストーラー\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tA5A530A91100ED5F07A5D74698B15C646DD44E16\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tWin64/BlackLotus.A\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのインストーラー\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tD82539BFC2CC7CB504BE74AC74DF696B13DB486A\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tWin64/BlackLotus.A\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのインストーラー\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t16B12CEA54360AA42E1120E82C1E9BC0371CB635\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tWin64/BlackLotus.A\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのインストーラー\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tDAE7E7C4EEC2AC0DC7963C44A5A4F47D930C5508\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tWin64/BlackLotus.A\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのインストーラー\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t45701A83DEC1DC71A48268C9D6D205F31D9E7FFB\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tWin64/BlackLotus.A\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのインストーラー\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t2CE056AE323B0380B0E87225EA0AE087A33CD316\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tEFI/BlackLotus.B\n\t\t\t\n\t\t\t\n\t\t\tBlackLotus UEFIブートキット\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t5A0074203ABD5DEB464BA0A79E14B7541A033216\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tEFI/BlackLotus.B\n\t\t\t\n\t\t\t\n\t\t\tBlackLotus UEFIブートキット\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t5DC9CBD75ABD830E83641A0265BFFDDD2F602815\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tEFI/BlackLotus.B\n\t\t\t\n\t\t\t\n\t\t\tBlackLotus UEFIブートキット\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t97AEC21042DF47D39AC212761729C6BE484D064D\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tEFI/BlackLotus.B\n\t\t\t\n\t\t\t\n\t\t\tBlackLotus UEFIブートキット\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tADCEEC18FF009BED635D168E0B116E72096F18D2\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tEFI/BlackLotus.B\n\t\t\t\n\t\t\t\n\t\t\tBlackLotus UEFIブートキット\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tDBC064F757C69EC43517EFF496146B43CBA949D1\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tEFI/BlackLotus.B\n\t\t\t\n\t\t\t\n\t\t\tBlackLotus UEFIブートキット\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t06AF3016ACCDB3DFE1C23657BF1BF91C13BAA757\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tWin64/BlackLotus.B\n\t\t\t\n\t\t\t\n\t\t\tBlackLotus HTTPダウンローダー\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t0C0E78BF97116E781DDE0E00A1CD0C29E68D623D\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tWin64/BlackLotus.B\n\t\t\t\n\t\t\t\n\t\t\tBlackLotus HTTPダウンローダー\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t6D8CEE28DA8BCF25A4D232FEB0810452ACADA11D\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tWin64/BlackLotus.B\n\t\t\t\n\t\t\t\n\t\t\tBlackLotus HTTPダウンローダー\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t74FF58FCE8F19083D16DF0109DC91D78C94342FA\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tWin64/BlackLotus.B\n\t\t\t\n\t\t\t\n\t\t\tBlackLotus HTTPダウンローダー\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tACC74217CBE3F2E727A826B34BDE482DCAE15BE6\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tWin64/BlackLotus.B\n\t\t\t\n\t\t\t\n\t\t\tBlackLotus HTTPダウンローダー\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t111C4998F3264617A7A9D9BF662D4B1577445B20\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tWin64/BlackLotus.B\n\t\t\t\n\t\t\t\n\t\t\tBlackLotus HTTPダウンローダー\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t17FA047C1F979B180644906FE9265F21AF5B0509\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tWin64/BlackLotus.C\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのカーネルドライバー\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t1F3799FED3CF43254FE30DCDFDB8DC02D82E662B\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tWin64/BlackLotus.C\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのカーネルドライバー\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t4B882748FAF2C6C360884C6812DD5BCBCE75EBFF\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tWin64/BlackLotus.C\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのカーネルドライバー\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t91F832F46E4C38ECC9335460D46F6F71352CFFED\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tWin64/BlackLotus.C\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのカーネルドライバー\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t994DC79255AEB662A672A1814280DE73D405617A\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tWin64/BlackLotus.C\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのカーネルドライバー\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tFFF4F28287677CAABC60C8AB36786C370226588D\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tWin64/BlackLotus.C\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのカーネルドライバー\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t71559C3E2F3950D4EE016F24CA54DA17D28B9D82\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tEFI/BlackLotus.C\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusインストーラーが展開するBCD（ブート構成データ）ストア\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tD6D3F3151B188A9DA62DEB95EA1D1ABEFF257914\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tEFI/BlackLotus.C\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusインストーラーが展開するBCD（ブート構成データ）ストア\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t547FAA2D64B85BF883955B723B07635C0A09326B\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tEFI/BlackLotus.A\n\t\t\t\n\t\t\t\n\t\t\tCVE-2022-21894を攻撃するBlackLotusのペイロードローダー\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tD1BBAA3D408E944C70B3815471EED7FA9AEE6425\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tEFI/BlackLotus.A\n\t\t\t\n\t\t\t\n\t\t\tCVE-2022-21894を攻撃するBlackLotusのペイロードローダー\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t0E6DD7110C38464ECAA55EE4E2FA303ADA0EDEFB\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tEFI/BlackLotus.A\n\t\t\t\n\t\t\t\n\t\t\tCVE-2022-21894を攻撃するBlackLotusのペイロード - MokInstaller EFIアプリ\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tD6BB89D8734B3E49725362DAE9A868AE681E8BD6\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tEFI/BlackLotus.A\n\t\t\t\n\t\t\t\n\t\t\tCVE-2022-21894を攻撃するBlackLotusのペイロード - MokInstaller EFIアプリ\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t164BB587109CFB20824303AD1609A65ABB36C3E9\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tWin64/BlackLotus.D\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusインストーラーのUACバイパスモジュール\n\t\t\t\n\t\t\n\t\n\n\n証明書\n\n\n\t\n\t\t\n\t\t\tシリアルナンバー\n\t\t\t570B5D22B723B4A442CC6EEEBC2580E8\n\t\t\n\t\t\n\t\t\tサムプリント\n\t\t\tC8E6BF8B6FDA161BBFA5470BCC262B1BDC92A359\n\t\t\n\t\t\n\t\t\tSubject CN\n\t\t\tWhen They Cry CA\n\t\t\n\t\t\n\t\t\tSubject O\n\t\t\tN/A\n\t\t\n\t\t\n\t\t\tSubject L\n\t\t\tN/A\n\t\t\n\t\t\n\t\t\tSubject S\n\t\t\tN/A\n\t\t\n\t\t\n\t\t\tSubject C\n\t\t\tN/A\n\t\t\n\t\t\n\t\t\t有効期限の開始\n\t\t\t2022-08-13 17:48:44\n\t\t\n\t\t\n\t\t\t有効期限の終了\n\t\t\t2032-08-13 17:58:44\n\t\t\n\t\n\n\nネットワーク\n\n\n\t\n\t\t\n\t\t\tIP\n\t\t\tドメイン\n\t\t\tホスティングプロバイダー\n\t\t\t最初に確認された日付\n\t\t\t詳細\n\t\t\n\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\txrepositoryx[.]name\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\t2022-10-17\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのC&amp;Cサーバー\n\t\t\thttps://xrepositoryx[.]name/network/API/hpb_gate.php\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\tmyrepositoryx[.]com\n\t\t\t\n\t\t\t\n\t\t\tN/A\n\t\t\t\n\t\t\t\n\t\t\t2022-10-16\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのC&amp;Cサーバー\n\t\t\thttps://myrepositoryx[.]com/network/API/hpb_gate.php\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t104.21.22[.]185\n\t\t\t\n\t\t\t\n\t\t\terdjknfweklsgwfmewfgref[.]com\n\t\t\t\n\t\t\t\n\t\t\tCloudflare, Inc.\n\t\t\t\n\t\t\t\n\t\t\t2022-10-06\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのC&amp;Cサーバー。\n\t\t\thttps://erdjknfweklsgwfmewfgref[.]com/API/hpb_gate.php\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t164.90.172[.]211\n\t\t\t\n\t\t\t\n\t\t\tharrysucksdick[.]com\n\t\t\t\n\t\t\t\n\t\t\tDigitalOcean, LLC\n\t\t\t\n\t\t\t\n\t\t\t2022-10-09\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのC&amp;Cサーバー\n\t\t\thttps://harrysucksdick[.]com/API/hpb_gate.php\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t185.145.245[.]123\n\t\t\t\n\t\t\t\n\t\t\theikickgn[.]com\n\t\t\tfrassirishiproc[.]com\n\t\t\t\n\t\t\t\n\t\t\tSIA VEESP\n\t\t\t\n\t\t\t\n\t\t\t2022-10-12\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのC&amp;Cサーバー\n\t\t\thttps://heikickgn[.]com/API/hpb_gate.php\n\t\t\thttps://frassirishiproc[.]com/API/hpb_gate.php\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t185.150.24[.]114\n\t\t\t\n\t\t\t\n\t\t\tmyrepository[.]name\n\t\t\t\n\t\t\t\n\t\t\tSkyLink Data Center BV\n\t\t\t\n\t\t\t\n\t\t\t2022-10-14\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのC&amp;Cサーバー\n\t\t\tmyrepository[.]name/network/API/hpb_gate.php\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t190.147.189[.]122\n\t\t\t\n\t\t\t\n\t\t\tegscorp[.]net\n\t\t\t\n\t\t\t\n\t\t\tTelmex Colombia S.A.\n\t\t\t\n\t\t\t\n\t\t\t2022-08-24\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのC&amp;Cサーバー\n\t\t\thttps://egscorp[.]net/API/hpb_gate.php\n\t\t\t\n\t\t\n\t\n\n\nMITRE ATT&amp;CKの技術\n\nこの表は、MITRE ATT&amp;CKフレームワークのバージョン12を使用して作成されています。\n\n\n\t\n\t\t\n\t\t\t手法\n\t\t\tID\n\t\t\t名前\n\t\t\t説明\n\t\t\n\t\t\n\t\t\t\n\t\t\tリソース開発\n\t\t\t\n\t\t\t\n\t\t\tT1587.002\n\t\t\t\n\t\t\t\n\t\t\t能力の開発コード署名証明書\n\t\t\t\n\t\t\t\n\t\t\t一部のBlackLotusの検体は、自己署名証明書で署名されています\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tT1588.005\n\t\t\t\n\t\t\t\n\t\t\t機能の取得：エクスプロイト\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusは、UEFIセキュアブートをバイパスするために、公開されているエクスプロイトを使用しています\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t実行\n\t\t\t\n\t\t\t\n\t\t\tT1203\n\t\t\t\n\t\t\t\n\t\t\tクライアントを実行するための攻撃\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのインストーラーは、CVE-2022-21894を攻撃し、UEFIセキュアブートが有効なシステムで任意のコードを実行できます\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tT1559\n\t\t\t\n\t\t\t\n\t\t\tプロセス間通信\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのHTTPダウンローダーは、名前付きのセクションを使用してカーネルモードコンポーネントにコマンドを渡します\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tT1106\n\t\t\t\n\t\t\t\n\t\t\tネイティブAPI\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのHTTPダウンローダーは、さまざまなWindowsネイティブAPIを使用して、侵害したマシンでコードを実行します\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tT1129\n\t\t\t\n\t\t\t\n\t\t\t共有モジュール\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのHTTPダウンローダーは、C&amp;Cサーバーから受信したDLLをロードして実行できます\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t常駐化\n\t\t\t\n\t\t\t\n\t\t\tT1542.003\n\t\t\t\n\t\t\t\n\t\t\tOS起動前：ブートキット\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusブートキットは、EFIシステムパーティションに展開され、起動時に実行されます\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t権限昇格\n\t\t\t\n\t\t\t\n\t\t\tT1548.002\n\t\t\t\n\t\t\t\n\t\t\t権限制御機構の悪用：ユーザーアカウント制御のバイパス\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのインストーラーは、ユーザーアカウント制御をバイパスして特権の昇格を試みます\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tT1134.002\n\t\t\t\n\t\t\t\n\t\t\tアクセストークンの操作：トークンによるプロセスの作成\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのHTTPダウンローダーは、WTSQueryUserTokenとCreateProcessAsUserWを使用して、ダウンロードしたペイロードをローカルシステムの特権で新しいプロセスで実行できます\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t防衛機能の回避\n\t\t\t\n\t\t\t\n\t\t\tT1622\n\t\t\t\n\t\t\t\n\t\t\tデバッガーの回避\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのコンポーネントは、カーネルモードまたはユーザーモードのデバッガーが標的ユーザーのマシンで実行されているかどうかを検出するために、さまざまな手法を使用します\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tT1574\n\t\t\t\n\t\t\t\n\t\t\t実行フローのハイジャック：\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusブートキットは、Windowsブートプロセスの初期段階で使用されるさまざまなコンポーネント（Windowsブートマネージャー、Windows OSローダー、Windowsカーネルおよび特定のドライバー）をハイジャックし、多くのWindowsセキュリティ機能（VBS、Windows Defender）を無効化して検出を回避し、カーネルモードおよびユーザーモードのコンポーネントを秘密裏に実行します\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tT1562\n\t\t\t\n\t\t\t\n\t\t\t防御策の妨害\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのコンポーネントは、検出を回避するためにBitLockerとWindows Defenderを無効化できます\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tT1070.004\n\t\t\t\n\t\t\t\n\t\t\t攻撃の痕跡の削除：ファイルの削除\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのインストーラーは、EFIシステムパーティションにファイルを展開した後で、自身を削除します。また、CVE-2022-21894の攻撃に成功すると、BlackLotusは攻撃チェーンで使用したすべてのファイルをEFIシステムパーティションから削除して、攻撃の痕跡を削除します\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tT1070.009\n\t\t\t\n\t\t\t\n\t\t\t攻撃の痕跡の削除：常駐化の消去\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusは、ESPからすべてのブートキットファイルを削除し、被害者の元のWindowsブートマネージャーを復元して、自身をアンインストールできます\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tT1036.005\n\t\t\t\n\t\t\t\n\t\t\tなりすまし：正規のモジュールの名前や場所を模倣する\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusは、grubx64.efi（侵害されたマシンでUEFIセキュアブートが有効な場合）またはbootmgfw.efi（UEFIセキュアブートが無効な場合）など、正規のファイル名を使用してESP上に展開したファイルを隠ぺいします\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tT1112\n\t\t\t\n\t\t\t\n\t\t\tレジストリの変更\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのインストーラーは、Windowsのレジストリを変更し、WindowsのHVCIセキュリティ機能を無効にします\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tT1027\n\t\t\t\n\t\t\t\n\t\t\tファイルや情報の難読化\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusコンポーネントに埋め込まれたほぼすべての文字列は、いくつかの暗号を組み合わせた独自の方法で暗号化され、必要なときに復号されます\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tT1027.007\n\t\t\t\n\t\t\t\n\t\t\tファイルや情報の難読化：動的なAPI解決\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのコンポーネントは、名前の代わりにAPI名のハッシュを使用して、動的にAPIを解決します\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tT1027.009\n\t\t\t\n\t\t\t\n\t\t\tファイルや情報の難読化：ペイロードの埋め込み\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusコンポーネントに埋め込まれているほぼすべてのファイルは、AESを使用して暗号化されています\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tT1542.003\n\t\t\t\n\t\t\t\n\t\t\tOS起動前：ブートキット\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusブートキットは、EFIシステムパーティションに展開され、OSを起動する早期の段階で実行されるため、OSの起動プロセスを制御し、検知を回避できます\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tT1055.012\n\t\t\t\n\t\t\t\n\t\t\tプロセスインジェクション：ダイナミックリンクライブラリのインジェクション\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのHTTPダウンローダーは、プロセスホローイングの手法により、新しく作成したsvchost.exeプロセスにDLLを挿入できます\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tT1055.002\n\t\t\t\n\t\t\t\n\t\t\tプロセスインジェクション：PE（Portable Executable）の注入\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのドライバーは、HTTPダウンローダーのPE（Portable Executable）をwinlogon.exeプロセスに挿入します\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tT1014\n\t\t\t\n\t\t\t\n\t\t\tルートキット\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのカーネルドライバーは、ESPにあるブートキットファイルが削除されないように保護します\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tT1497.001\n\t\t\t\n\t\t\t\n\t\t\t仮想化/サンドボックスの回避：システムチェック\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusは、サンドボックス固有のレジストリ値をチェックするなど、さまざまなシステムチェックを行い、仮想化環境や解析環境を検知して回避します\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\t検出\n\t\t\t\n\t\t\t\n\t\t\tT1622\n\t\t\t\n\t\t\t\n\t\t\tデバッガーの回避\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのコンポーネントは、カーネルモードまたはユーザーモードのデバッガーが標的ユーザーのマシンで実行されているかどうかを検出するために、さまざまな手法を使用します\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tT1082\n\t\t\t\n\t\t\t\n\t\t\tシステム情報の検出\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusは、侵害したホストのシステム情報（IP、GPU、CPU、メモリー、OSバージョン）を収集します\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tT1614\n\t\t\t\n\t\t\t\n\t\t\tシステムの場所の検出\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusは、侵害したホストで、ro-MD、ru-MD、ru-RU、uk-UA、be-BY、hy-AM、kk-KZのシステムロケールの1つが確認されると、実行を終了します\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tT1016\n\t\t\t\n\t\t\t\n\t\t\tシステムネットワーク構成の検出\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのHTTPダウンローダーは、api.ipify[.]orgサービスをリクエストして、侵害したホストのパブリックIPを判断します\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tT1016.001\n\t\t\t\n\t\t\t\n\t\t\tシステムネットワーク構成の検出：インターネット接続の検出\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusのHTTPダウンローダーは、マイクロソフト社のwww.msftncsi[.]com/ncsi[.]txtに対してクエリを行い、インターネット接続を確認します\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tT1497.001\n\t\t\t\n\t\t\t\n\t\t\t仮想化/サンドボックスの回避：システムチェック\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusは、サンドボックス固有のレジストリ値をチェックするなど、さまざまなシステムチェックを行い、仮想化環境や解析環境を検知して回避します\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tC&amp;C（コマンド&amp;コントロール）\n\t\t\t\n\t\t\t\n\t\t\tT1071.001\n\t\t\t\n\t\t\t\n\t\t\tアプリケーションレイヤープロトコル：Webプロトコル\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusは、C&amp;Cとの通信にHTTPSを使用します\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tT1132.001\n\t\t\t\n\t\t\t\n\t\t\tデータのエンコーディング：標準エンコーディング\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusは、C&amp;C通信で使用する暗号化したデータをURLセーフのbase64でエンコードします\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tT1573.001\n\t\t\t\n\t\t\t\n\t\t\t暗号化されたチャンネル：対称暗号方式\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusは、C&amp;Cから受信したメッセージを復号するために、CBCモードの256bitAESを使用します\n\t\t\t\n\t\t\n\t\t\n\t\t\t\n\t\t\tT1573.002\n\t\t\t\n\t\t\t\n\t\t\t暗号化されたチャンネル：非対称暗号方式\n\t\t\t\n\t\t\t\n\t\t\tBlackLotusは、C&amp;Cに送信するメッセージを暗号化するために、埋め込まれたRSA公開キーを使用します",
@@ -1766,6 +1786,36 @@
       "siteUrl": "https://jvn.jp/",
       "articles": [
         {
+          "id": "https://jvn.jp/jp/JVN01937209/",
+          "author": "jvn@jvn.jp",
+          "description": "ワークスモバイルジャパン株式会社が提供する LINE WORKS Driveエクスプローラー（macOS版）には、コードインジェクションの脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN01937209/",
+          "publishedOn": "2023-05-08T07:30:00.000Z",
+          "wordCount": 177,
+          "title": "LINE WORKS Driveエクスプローラーにおけるコードインジェクションの脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/jp/JVN13306058/",
+          "author": "jvn@jvn.jp",
+          "description": "株式会社ジンズが提供する JINS MEME CORE には、ハードコードされた暗号鍵の使用の脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN13306058/",
+          "publishedOn": "2023-05-08T05:00:15.000Z",
+          "wordCount": 187,
+          "title": "JINS MEME CORE におけるハードコードされた暗号鍵の使用の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU92106300/",
+          "author": "jvn@jvn.jp",
+          "description": "株式会社コンテックが提供するSolarView Compactには、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU92106300/",
+          "publishedOn": "2023-05-08T03:00:00.000Z",
+          "wordCount": 156,
+          "title": "コンテック製SolarView Compactにおける複数の脆弱性",
+          "imageUrl": null
+        },
+        {
           "id": "https://jvn.jp/vu/JVNVU93912706/",
           "author": "jvn@jvn.jp",
           "description": "Illumina社が提供するUniversal Copy Serviceには、複数の脆弱性が存在します。",
@@ -2172,6 +2222,86 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/05/08/49311.html",
+          "author": null,
+          "description": "株式会社リンクは5月11日に、「PCI DSS バージョン4.0対策セミナー」をオンライン開催する。2023年3月9日に開催したセミナーのアーカイブ配信となる。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/05/08/49311.html",
+          "publishedOn": "2023-05-07T23:10:02.000Z",
+          "wordCount": 851,
+          "title": "準拠期限まで一年切る ～ PCI DSS バージョン4.0対策セミナー開催",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/41380.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/05/08/49310.html",
+          "author": null,
+          "description": "三菱UFJリサーチ&コンサルティング株式会社は4月27日、内閣府から受託した景気ウォッチャー調査でのメール誤送信による個人情報漏えいについて発表した。再委託先の株式会社日本経済研究所も同日、メール誤送信について公表している。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/05/08/49310.html",
+          "publishedOn": "2023-05-07T23:05:14.000Z",
+          "wordCount": 781,
+          "title": "内閣府 景気ウォッチャー調査のメール誤送信、再委託先のヒューマンエラー",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/41346.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/05/08/49309.html",
+          "author": null,
+          "description": "株式会社北海道新聞社は4月10日、相続に関するセミナーの抽選結果をメール誤送信したと発表した。3月9日にも東京支社編集局報道センターの記者による誤送信を発表している。どちらも北海道新聞のニュース記事として公表している。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/05/08/49309.html",
+          "publishedOn": "2023-05-07T23:05:12.000Z",
+          "wordCount": 784,
+          "title": "道新で2件メール誤送信、労災事故に関する報道発表資料と訴状漏えい",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/41360.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/05/08/49308.html",
+          "author": null,
+          "description": "一般社団法人 日本内科学会は4月4日、九州支部 生涯教育講演会に関する会員情報の誤送信について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/05/08/49308.html",
+          "publishedOn": "2023-05-07T23:05:08.000Z",
+          "wordCount": 785,
+          "title": "日本内科学会で会員情報を誤送信、送信先メールアドレスと氏名にズレ",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/41370.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/05/08/49307.html",
+          "author": null,
+          "description": "茨城県大洗町は3月31日、大洗町ふるさと納税返礼品協力事業者の誤送信によるメールアドレスの流出について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/05/08/49307.html",
+          "publishedOn": "2023-05-07T23:05:06.000Z",
+          "wordCount": 776,
+          "title": "「大好きです大洗寄附金」寄付者へのメール誤送信、今後はメール配信サービス利用を徹底",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/41367.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/05/08/49306.html",
+          "author": null,
+          "description": "バーサーロペット・ジャパン組織委員会事務局は3月28日、第43回大会公式記録公表における個人情報の流出について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/05/08/49306.html",
+          "publishedOn": "2023-05-07T23:05:02.000Z",
+          "wordCount": 776,
+          "title": "個人情報を削除せず非表示にしてPDFファイル変換、クロスカントリーレース参加者の電話番号流出",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/41365.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/05/08/49305.html",
+          "author": null,
+          "description": "日本プルーフポイント株式会社は4月24日、「Proofpoint Aegis：脅威防護プラットフォーム」「Identity Threat Defense」「Proofpoint Sigma：情報防護プラットフォーム」での多数の新機能について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/05/08/49305.html",
+          "publishedOn": "2023-05-07T23:00:09.000Z",
+          "wordCount": 828,
+          "title": "Proofpoint、ビジネスメール詐欺（BEC）対策他 三製品に新機能追加",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/05/08/49304.html",
+          "author": null,
+          "description": "警察庁と内閣サイバーセキュリティセンター（NISC）は5月1日、DDoS 攻撃に関する注意喚起を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/05/08/49304.html",
+          "publishedOn": "2023-05-07T23:00:03.000Z",
+          "wordCount": 800,
+          "title": "警察庁とNISC、DDoS 攻撃に注意喚起",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2023/05/02/49303.html",
           "author": null,
@@ -2680,6 +2810,16 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2305/08/news074.html",
+          "author": null,
+          "description": "情報セキュリティ事案のニュースには読者から「そうはならないだろう」「それはダメだろう」という“ツッコミ”が入ることが多い。しかし、情報セキュリティの専門家・徳丸浩さんは「『これが現実なんですよ』と伝えることが大事」と語る。",
+          "link": "https://www.itmedia.co.jp/news/articles/2305/08/news074.html",
+          "publishedOn": "2023-05-08T02:47:00.000Z",
+          "wordCount": 2459,
+          "title": "“そうはならんやろコード”はなぜ生まれるのか　セキュリティ専門家・徳丸氏に聞く「脆弱性だらけのWebアプリ」の背景",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2305/08/cover_news074.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2305/04/news037.html",
           "author": null,
           "description": "Googleは「世界パスワードの日」に向けてGoogleアカウントへのログインで「パスキー（passkey）」を利用可能にした。パスキーはAppleとMicrosoftとともに昨年5月に発表したマルチデバイス対応の資格情報だ。当面はパスワードと二要素認証によるログインもサポートする。",
@@ -2936,6 +3076,86 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1498693.html",
+          "author": null,
+          "description": "東日本電信電話株式会社（NTT東日本）および西日本電信電話株式会社（NTT西日本）は、上り下りとも最大通信速度10Gbpsの光回線によるインターネット接続サービス「フレッツ 光クロス」の提供エリア拡大を発表した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1498693.html",
+          "publishedOn": "2023-05-08T07:40:00.000Z",
+          "wordCount": 4340,
+          "title": "NTT東西、最大10Gbpsの「フレッツ 光クロス」提供エリアを拡大。北海道、宮城、新潟や東海・近畿各県へ　ひかり電話の提供も開始",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1498/693/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1498625.html",
+          "author": null,
+          "description": "Amazon.co.jpのバッファローストアでは現在、同社のWi-Fi 6E/6対応ルーターや中継機のお得なクーポンが配布されている。いずれもメッシュ標準規格である「Wi-Fi EasyMesh」に対応する。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1498625.html",
+          "publishedOn": "2023-05-08T04:50:00.000Z",
+          "wordCount": 4364,
+          "title": "バッファローの「Wi-Fi 6E」対応ルーターが最大4000円OFF！　Amazonでクーポン配布中　高速Wi-Fi 6ルーターや中継機もセール中",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1498/625/buffalo.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1498593.html",
+          "author": null,
+          "description": "京都府警察本部と山科警察署は、5つの「リーチサイト」の一斉集中取締りを実施し、5つのサイトを運営する男性4名を5月8日までに逮捕した。一般社団法人コンテンツ海外流通促進機構（CODA）が発表した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1498593.html",
+          "publishedOn": "2023-05-08T03:30:00.000Z",
+          "wordCount": 4312,
+          "title": "京都府警、リーチサイト「映画の無料動画で夢心地」など5サイトの運営者4人を一斉取締りで逮捕",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1498/593/01s.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1498558.html",
+          "author": null,
+          "description": "新型iPhoneへの導入用が見込まれるUSB Type-C（USB-C）ポートの実装方法について、AppleがEUにクギを刺されたことが明らかになった。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1498558.html",
+          "publishedOn": "2023-05-08T03:05:00.000Z",
+          "wordCount": 4321,
+          "title": "「USB-Cケーブルの機能制限は認められない」Apple、新型iPhoneを前にEUにクギを刺される【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1498/558/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1498556.html",
+          "author": null,
+          "description": "Gmailが新たに導入した広告の表示方法が海外で物議を醸している。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1498556.html",
+          "publishedOn": "2023-05-08T03:05:00.000Z",
+          "wordCount": 4311,
+          "title": "メールに混じって広告が…Gmailが新たに導入した広告の表示方法が海外で物議【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1498/556/yajiuma-watch_4.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/ranking/1498477.html",
+          "author": null,
+          "description": "前週に閲覧数の多かった記事を、カテゴリーごとに上位5位までレポートします。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/ranking/1498477.html",
+          "publishedOn": "2023-05-08T02:32:00.000Z",
+          "wordCount": 4342,
+          "title": "FamiPayをかたるフィッシング詐欺について報じた記事が2週連続トップ、件名「【重要なお知らせ】ファミペイ ご利用確認のお願い」などの不審なメールに注意【アクセスランキング】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1498/477/fm1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/teleworkstory/1497877.html",
+          "author": null,
+          "description": "ここ1カ月ほど、自宅で作業しているPCの調子がどうもおかしい。何の前触れもなく、突然に再起動を行うようになり、その頻度が徐々に増している気がする。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/teleworkstory/1497877.html",
+          "publishedOn": "2023-05-07T22:00:00.000Z",
+          "wordCount": 4348,
+          "title": "「PCが勝手に再起動!? 原因はWindowsの不具合か？」――急遽テレワークを導入した中小企業の顛末記（141）【急遽テレワーク導入！の顛末記】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1497/877/07.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/shimizu/1496012.html",
+          "author": null,
+          "description": "中国発のネットワーク機器ブランド「MERCUSYS（マーキュシス）」として、最大1201Mbpsに対応したWi-Fi 6ルーター「MR70X」が登場した。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/shimizu/1496012.html",
+          "publishedOn": "2023-05-07T21:00:00.000Z",
+          "wordCount": 4409,
+          "title": "品質はしっかりTP-Link！ 中国発のWi-Fi 6ルーター、MERCUSYS「MR70X」を試す【イニシャルB】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1496/012/002.JPG"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/1498372.html",
           "author": null,
@@ -3239,6 +3459,86 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/newransomware-4/",
+          "author": null,
+          "description": "PCに保存されているファイルを暗号化して、復号を条件に身代金を要求するランサムウェア。その勢いはとどまることなく、被害は拡大するばかりだ。本稿では、注意すべきランサムウェアをピックアップして紹介する。",
+          "link": "https://news.mynavi.jp/techplus/article/newransomware-4/",
+          "publishedOn": "2023-05-08T05:01:55.000Z",
+          "wordCount": 1777,
+          "title": "ビジネスパーソンが押さえておくべきランサムウェア最新動向 第4回 大統領の写真を悪用するプーチン・ランサムウェアに注意",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/newransomware-4/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230508-2674345/",
+          "author": null,
+          "description": "トレンドマイクロは5月8日、2022年下半期に実施したサイバーリスクに関する国際意識調査「Cyber Risk Index」をもとに、日本の組織のセキュリティ体制が懸念される脅威に対してどれだけ準備ができているのかを調査し、その結果を発表した。",
+          "link": "https://news.mynavi.jp/techplus/article/20230508-2674345/",
+          "publishedOn": "2023-05-08T04:25:47.000Z",
+          "wordCount": 1697,
+          "title": "2022年下半期における日本のCRIは28の国と地域中6位- トレンドマイクロ調査",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230508-2674345/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230508-2673509/",
+          "author": null,
+          "description": "Patchstackは5月5日(現地時間)、200万以上のWebサイトに影響を与えるWordPressの人気プラグイン「Advanced Custom Fields」にクロスサイトスクリプティングの脆弱性が存在するとして、注意を呼び掛けた。この脆弱性を悪用されると、機密情報を窃取されたり、特権昇格が発生したりするリスクがある。",
+          "link": "https://news.mynavi.jp/techplus/article/20230508-2673509/",
+          "publishedOn": "2023-05-08T00:29:59.000Z",
+          "wordCount": 1676,
+          "title": "200万超のWordPressサイトが影響を受ける脆弱性に注意、機密情報窃取の恐れ",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230508-2673509/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230508-2673045/",
+          "author": null,
+          "description": "Packagist Conductorsはこのほど、Packagist.orgが侵害され、4つのユーザーアカウントにアクセスできる攻撃者が合計14のパッケージに不正アクセスを実行したと報告した。攻撃者は各パッケージをフォークし、パッケージ説明を書き換えたが、他の悪意のある変更は確認されていない。",
+          "link": "https://news.mynavi.jp/techplus/article/20230508-2673045/",
+          "publishedOn": "2023-05-07T23:29:31.000Z",
+          "wordCount": 1591,
+          "title": "14のPHPパッケージが侵害される、Packagistのアカウントが乗っ取り",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230508-2673045/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230508-2672088/",
+          "author": null,
+          "description": "Cisco Systemsこのほど、「Cisco SPA112 2ポート電話アダプタ」にリモートコード実行の脆弱性が存在すると発表した。この脆弱性はCVE-2023-20126として特定されており、深刻度は緊急(Critical)と評価されている。しかし、回避方法や修正は提供されていない。",
+          "link": "https://news.mynavi.jp/techplus/article/20230508-2672088/",
+          "publishedOn": "2023-05-07T22:41:45.000Z",
+          "wordCount": 1644,
+          "title": "シスコの電話アダプタに緊急の脆弱性、修正はなく新製品への移行推奨",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230508-2672088/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230507-2673044/",
+          "author": null,
+          "description": "MailGuardは5月5日(米国時間)、偽のパスワード警告メールについて注意を喚起した。フィッシングメールにはMicrosoftのブランド名が使われており、ユーザーに対しパスワードを更新するよう指示してくる。フィッシングサイトに誘導され、個人情報が盗まれる恐れがあるため、リンクをクリックせずに即座に削除することが勧められている。",
+          "link": "https://news.mynavi.jp/techplus/article/20230507-2673044/",
+          "publishedOn": "2023-05-07T12:05:35.000Z",
+          "wordCount": 1690,
+          "title": "Microsoftを偽るパスワード警告メールに注意、個人情報窃取の恐れ",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230507-2673044/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230507-2673043/",
+          "author": null,
+          "description": "Check Point Software Technologiesは5月4日(米国時間)、、新種のAndroidマルウェア「FluHorse」を発見したと報告した。FluHorseは認証情報および二要素認証(2FA)の窃取を目的としている。フィッシングメールで配布され、被害者の認証情報やクレジットカード情報を入力するよう要求してくる。",
+          "link": "https://news.mynavi.jp/techplus/article/20230507-2673043/",
+          "publishedOn": "2023-05-07T10:10:19.000Z",
+          "wordCount": 1686,
+          "title": "アカウント盗むAndroidマルウェア「FluHorse」に注意、100万回以上インストール",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230507-2673043/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230507-2673497/",
+          "author": null,
+          "description": "The Guardianは5月6日（現地時間）、Twitterのプライベートなサークル機能で投稿されたつぶやきが誤って公開されていたと報じた。2023年4月以降、この機能を利用して投稿されたつぶやきがサイト全体で閲覧できる状態になっていた可能性があるとされている。",
+          "link": "https://news.mynavi.jp/techplus/article/20230507-2673497/",
+          "publishedOn": "2023-05-07T08:09:15.000Z",
+          "wordCount": 2851,
+          "title": "Twitter、プライベートなサークル投稿が公開されていたことを認める",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230507-2673497/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20230507-2671597/",
           "author": null,
