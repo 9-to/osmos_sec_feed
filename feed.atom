@@ -2,10 +2,573 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-05-08T08:11:42.313Z</updated>
+    <updated>2023-05-09T08:11:28.145Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Twitterサークルのツイートがサークル外から見える問題、セキュリティインシデントとして修正される]]></title>
+        <id>https://security.srad.jp/story/23/05/08/221246/</id>
+        <link href="https://security.srad.jp/story/23/05/08/221246/"/>
+        <updated>2023-05-09T08:04:00.000Z</updated>
+        <summary type="html"><![CDATA[headless 曰く、Twitter サークルで共有したツイートがサークル外のユーザーにも見えてしまう問題について、Twitter がセキュリティインシデント発生を認めたそうだ
+(The Guardian の記事、
+Neowin の記事、
+BetaNews の記事、
+Ghacks の記事)。
+
+Twitter サークルはユーザーが指定したメンバーに限ってツイートを送信し、返信や反応を示すことを可能にする機能だが、4 月にサークル外のユーザーのタイムラインに表示されるといった問題が報告されていた。
+
+Twitter は影響を受けたユーザーに電子メールで連絡を開始しており、サークルを指定して送信したツイートがサークル外ユーザーにも見えてしまう問題をセキュリティチームが確認し、すぐに修正を行ったと説明しているそうだ。これにより、サークルを指定したツイートがサークル外から見えてしまう問題は解消したという。
+
+Twitter ではサービス利用者のプライバシー保護に努めていると述べ、このような問題が発生することによるリスクを理解しているとして遺憾の意を示したとのことだ。
+ すべて読む | セキュリティセクション | セキュリティ | YRO | Twitter | バグ | プライバシ |     
+  関連ストーリー： 
+Twitter、今度は非公開ツイートをおすすめツイートとして公開 2023年04月13日]]></summary>
+        <author>
+            <name>nagazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[動画：世界中のネットワークインフラを狙った、現在進行中の国家支援型攻撃について知っておくべきこと]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=46233</id>
+        <link href="https://gblogs.cisco.com/jp/2023/05/talos-video-jaguar-tooth/"/>
+        <updated>2023-05-09T07:14:10.000Z</updated>
+        <summary type="html"><![CDATA[現在進行形で行われている、パッチが適用されていない古いネットワークハードウェアを狙った一連のサイバー攻撃とスパイ活動について、シスコと Talos は追跡とリサーチを続けています。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenShift Service Mesh – メトリクスの収集とサービス観察]]></title>
+        <id>https://tech-lab.sios.jp/?p=34192</id>
+        <link href="https://tech-lab.sios.jp/archives/34192"/>
+        <updated>2023-05-09T06:57:18.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。サイオステクノロジーの塙です。 前回は、Red Hat OpenShift Service Mesh（以下、OSM）のセットアップ方法とサービス間のトラフィックの可視化までを行いました。 今回は、ステップアッ [...]
+OpenShift Service Mesh – メトリクスの収集とサービス観察 first appeared on SIOS Tech. Lab.]]></summary>
+        <author>
+            <name>塙尚也</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[タピオカティー無料提供のアンケートでQRコード詐欺の被害、注意を]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230509-2675205/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230509-2675205/"/>
+        <updated>2023-05-09T04:48:45.000Z</updated>
+        <summary type="html"><![CDATA[スマートフォンのQRコードが日常的に使われる一方で、詐欺師による悪用が増えている。The Straits Timesがその事例として、無料のタピオカティーを提供する調査を偽装したQRコード詐欺について報じ、注意を喚起した。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows 11のエクスプローラーのタブ表示、次回アップデートで待望のあの機能が追加か【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1498784.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1498784.html"/>
+        <updated>2023-05-09T03:50:35.000Z</updated>
+        <summary type="html"><![CDATA[Windows 11のエクスプローラーに採用されたタブ表示に、待望の機能が追加されるらしいと海外で噂になっている。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Twitterの過去ツイートを簡単に検索できる“自然派”サービスが登場【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1498787.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1498787.html"/>
+        <updated>2023-05-09T03:49:57.000Z</updated>
+        <summary type="html"><![CDATA[Twitterの過去ツイートを簡単に検索できるウェブサービスが登場した。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ニフティ、「@nifty光 10ギガ」向けに「@nifty光電話」を提供]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1498923.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1498923.html"/>
+        <updated>2023-05-09T03:40:00.000Z</updated>
+        <summary type="html"><![CDATA[ニフティ株式会社は、上り下り最大10Gbpsの光回線サービス「@nifty 10ギガ」のオプションサービスとして、IP電話サービス「@nifty光電話」の提供、および申込みの受付を5月31日に開始する。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[大和ネクスト銀行を偽るフィッシング確認、注意を]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230509-2675164/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230509-2675164/"/>
+        <updated>2023-05-09T03:02:36.000Z</updated>
+        <summary type="html"><![CDATA[フィッシング対策協議会(Council of Anti-Phishing Japan)は5月8日、大和ネクスト銀行を偽るフィッシングの報告を受けているとして、注意を喚起した。メールの件名としては、「【大和ネクスト銀行】お客様の直近の取引における重要な確認について」が確認されており注意が必要。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WordPress 用プラグイン Newsletter におけるクロスサイトスクリプティングの脆弱性]]></title>
+        <id>https://jvn.jp/jp/JVN59341308/</id>
+        <link href="https://jvn.jp/jp/JVN59341308/"/>
+        <updated>2023-05-09T03:00:30.000Z</updated>
+        <summary type="html"><![CDATA[WordPress 用プラグイン Newsletter には、クロスサイトスクリプティングの脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WordPress 用プラグイン VK Blocks および VK All in One Expansion Unit におけるクロスサイトスクリプティングの脆弱性]]></title>
+        <id>https://jvn.jp/jp/JVN95792402/</id>
+        <link href="https://jvn.jp/jp/JVN95792402/"/>
+        <updated>2023-05-09T03:00:15.000Z</updated>
+        <summary type="html"><![CDATA[WordPress 用プラグイン VK Blocks および VK All in One Expansion Unit には、複数のクロスサイトスクリプティングの脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SR-7100VN における権限昇格の脆弱性]]></title>
+        <id>https://jvn.jp/jp/JVN80476232/</id>
+        <link href="https://jvn.jp/jp/JVN80476232/"/>
+        <updated>2023-05-09T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SR-7100VN には、権限昇格の脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[法務省Webサイトが一時ダウン　Anonymousが犯行声明　「日本政府の亡命者の強制送還に抗議」]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2305/09/news110.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2305/09/news110.html"/>
+        <updated>2023-05-09T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[法務省の公式Webサイトが一時的にダウンした。同日には国際ハッカー集団のAnonymousが「日本政府は亡命者を強制送還している。私たちはこの非人道的な行為に反対し、日本政府に警告する」との犯行声明を出している。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[横浜銀行を偽るフィッシング確認、注意を]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230509-2675155/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230509-2675155/"/>
+        <updated>2023-05-09T02:29:31.000Z</updated>
+        <summary type="html"><![CDATA[フィッシング対策協議会(Council of Anti-Phishing Japan)は5月8日、横浜銀行を偽るフィッシングの報告を受けているとして、注意を喚起した。メールの件名としては、「【横浜銀行】入金制限のお知らせ」「横浜銀行の重要なお知らせ（必ずご確認ください）」などが確認されており注意が必要。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[標的型攻撃「DangerousPassword」の新たな攻撃手法と対策、JPCERT/CCが公開]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230509-2670597/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230509-2670597/"/>
+        <updated>2023-05-08T23:49:51.000Z</updated>
+        <summary type="html"><![CDATA[JPCERT/CCはこのほど、暗号資産交換業界を標的とした持続的攻撃キャンペーン「DangerousPassword」について、新たな攻撃手法が確認されたとして、その詳細を報じた。Windowsだけでなく、macOSも攻撃対象になる可能性があるため注意が必要だ。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[１：５０ ＝ ＦＢＩサイバー捜査官：中国人ハッカー]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/05/09/49321.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/05/09/49321.html"/>
+        <updated>2023-05-08T23:10:03.000Z</updated>
+        <summary type="html"><![CDATA[中国は、FBI のサイバー捜査官 1 人に対し 50 人のハッカーを抱えている。先週、FBI長官は議会の委員会でそう語った。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[市の業務委託先アルバイトがマイナポイント不正取得]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/05/09/49320.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/05/09/49320.html"/>
+        <updated>2023-05-08T23:05:19.000Z</updated>
+        <summary type="html"><![CDATA[埼玉県川口市は5月2日、マイナポイント申込支援業務でのマイナポイントの不正取得について発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[名刺管理システムへ不正アクセス、サービス運営会社からの連絡で発覚]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/05/09/49319.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/05/09/49319.html"/>
+        <updated>2023-05-08T23:05:16.000Z</updated>
+        <summary type="html"><![CDATA[株式会社朝日工業社は4月26日、同社が利用しているクラウド型名刺管理サービスへの不正アクセスについて発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[浜松いわた信用金庫のメールアカウントが乗っ取り被害、迷惑メールを大量送信]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/05/09/49318.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/05/09/49318.html"/>
+        <updated>2023-05-08T23:05:13.000Z</updated>
+        <summary type="html"><![CDATA[浜松いわた信用金庫は4月28日、同金庫のメールアカウントの不正利用と迷惑メール送信について発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[富士通 FENICS のネットワーク機器での不正通信、積水ハウスにて個人情報が含まれるメールを特定]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/05/09/49317.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/05/09/49317.html"/>
+        <updated>2023-05-08T23:05:10.000Z</updated>
+        <summary type="html"><![CDATA[積水ハウス株式会社は4月28日、2月24日に公表した一部のメールデータが流出した可能性について、続報を発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[名古屋大学教職員のメールアカウントに不正アクセス、大量のメール送信で発覚]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/05/09/49316.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/05/09/49316.html"/>
+        <updated>2023-05-08T23:05:06.000Z</updated>
+        <summary type="html"><![CDATA[国立大学法人東海国立大学機構 名古屋大学は4月28日、同学への不正アクセスによる2件の個人情報漏えいについて発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[複数人でチェックできない土曜日のメール送信が原因、個人情報等を含むファイルを誤添付]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/05/09/49315.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/05/09/49315.html"/>
+        <updated>2023-05-08T23:05:02.000Z</updated>
+        <summary type="html"><![CDATA[三重県は4月22日、松阪農林事務所でのメール誤送信による個人情報の漏えいについて発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[75%がインシデントの根本原因特定に課題 ソフォス 3,000人調査]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/05/09/49314.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/05/09/49314.html"/>
+        <updated>2023-05-08T23:00:13.000Z</updated>
+        <summary type="html"><![CDATA[ソフォス株式会社は4月28日、「サイバーセキュリティの現状2023年版：サイバー攻撃者が防御側組織のビジネスに及ぼす影響」を公開した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[サイバー犯罪者が開催するコンテストの賞金額は]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/05/09/49313.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/05/09/49313.html"/>
+        <updated>2023-05-08T23:00:09.000Z</updated>
+        <summary type="html"><![CDATA[トレンドマイクロ株式会社は4月28日、サイバー犯罪者が犯罪フォーラムで開催するコンテストについて、同社ブログで解説している。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[東京都がサイバーセキュリティ対策含む中小企業向け助成金を発表]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/05/09/49312.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/05/09/49312.html"/>
+        <updated>2023-05-08T23:00:02.000Z</updated>
+        <summary type="html"><![CDATA[東京都および（公財）東京都中小企業振興公社は、中小企業の危機管理対策への助成金について発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“スマート電力メーター”をハッキング　大規模停電を引き起こすサイバー攻撃　米国チームが検証]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2305/09/news052.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2305/09/news052.html"/>
+        <updated>2023-05-08T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[米オレゴン州立大学に所属する研究者らは、電気使用状況を可視化する機器「スマートメーター」を制御して送電網を不安定にするサイバー攻撃を提案した研究報告を発表した。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[酒屋の仕事も自宅からリモートで。 ～ 二戸浩平（日本酒専門店「SAKE Street」社員/メディア運営担当）の在宅ワークスタイル【みんなの在宅ワーク：第99回】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/zaitaku_work/1498698.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/zaitaku_work/1498698.html"/>
+        <updated>2023-05-08T21:55:00.000Z</updated>
+        <summary type="html"><![CDATA[日本酒専門の酒屋でスタッフをしている二戸浩平です。僕が働いている会社、SAKE Streetは日本酒の小売や輸出をしている会社なのですが、日本酒に関するオウンドメディアの制作なども行っており、僕はそちらの業務を主に担当しています。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[クリップや磁石など4通りに設置できるUSB充電式ファン、ニトリが1990円で発売]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1498672.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1498672.html"/>
+        <updated>2023-05-08T21:50:00.000Z</updated>
+        <summary type="html"><![CDATA[株式会社ニトリは、クリップや磁石など4通りの方法で設置できる小型ファン「4way USBコードレスマグネット付きクリップファン（TF28S）」を発売した。価格は1990円。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【vPro導入記 第3話】長期計画を考えて、目先の戦術も考えて……[Sponsored]]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/vpro_takumi/1495976.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/vpro_takumi/1495976.html"/>
+        <updated>2023-05-08T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[2023年4月、初めて緊急事態宣言が発出されたあの日から、気がつけば3年が経過した。当時、急ぎテレワークのために導入したPCなどにも、そろそろ評価やリプレイスのシーズンが訪れている。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「暗号鍵管理ガイダンス第１版」を公開しました]]></title>
+        <id>https://www.ipa.go.jp/security/crypto/guideline/ckms.html</id>
+        <link href="https://www.ipa.go.jp/security/crypto/guideline/ckms.html"/>
+        <updated>2023-05-08T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「暗号鍵管理ガイドライン」に関する情報です。]]></summary>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【5月31日（水）開催】デジタルトランスフォーメーション銘柄（DX銘柄）2023選定企業発表会を開催します]]></title>
+        <id>https://www.ipa.go.jp/digital/dx/dx-meigara.html</id>
+        <link href="https://www.ipa.go.jp/digital/dx/dx-meigara.html"/>
+        <updated>2023-05-08T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「DX銘柄」に関する情報です。]]></summary>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ガバメントクラウド導入で地方自治体のシステム、セキュリティはどう変わるのか？]]></title>
+        <id>https://eset-info.canon-its.jp/malware_info/special/detail/230509.html</id>
+        <link href="https://eset-info.canon-its.jp/malware_info/special/detail/230509.html"/>
+        <updated>2023-05-08T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[2021年9月に発足したデジタル庁は、マイナンバーカードの普及など、国内のさまざまな分野でデジタル化を積極的に推進している。そのうちの1つがガバメントクラウドである。この記事では、ガバメントクラウドとはどのようなものか、その概念や仕組み、メリットやセキュリティへの影響について解説する。
+
+
+
+
+
+ガバメントクラウドとは
+
+ガバメントクラウドとは、政府が提供する共通のクラウドプラットフォームのことである。政府クラウド、あるいはGov-Cloudと記されることもある。行政サービスをオンラインで提供する際に必要となる、IaaS（Infrastructure as a Service）、PaaS（Platform as a Service）、SaaS（Software as a Service）などのインフラを担う。
+
+2021年12月には、デジタル庁が「地方自治体によるガバメントクラウドの活用について（案）」を発表。その中で地方公共団体の基幹業務システムを統一・標準化するため、2025（令和7）年度までに基幹業務に関連するシステムをガバメントクラウドへ移行する予定で進めている。ここでいう基幹業務とは主に、住民基本台帳、税、国民健康保険、国民年金などの17業務を指す。
+
+クラウドサービスとSaaSはどう違う？セキュリティ上の問題は？
+
+ガバメントクラウドの概念が生まれた背景
+
+ガバメントクラウドの概念はどのようにして生まれたのだろうか。政府は2018年6月から、政府調達における「クラウド・バイ・デフォルト原則」を採用している。そして、2019年にはデジタル・ガバメント実行計画が策定され、クラウドサービスの安全性評価の仕組みを構築することが決定した。
+
+そこで作られたのがISMAP（イスマップ：Information system Security Management and Assessment Program）と呼ばれるセキュリティ評価制度だ。この制度は政府によるクラウド調達基準を明確化することで、行政へのクラウドサービスのスムーズな導入と適切なセキュリティ水準の確保を目指したものだ。
+
+このように、政府はデジタル化／クラウド化を推進していたものの、実態として導入は難航していた。その弊害が顕著に現れたのが、2020年に起こった新型コロナウイルス感染症の拡大である。行政システムにおいて、サイロ化や分断によりデータ連携が進んでいないことなどの要因が重なり、関連部署内で書類によるやりとりが多数発生した。結果として、給付金の支給に遅れが生じたことは記憶に新しい。
+
+このような経緯もあり、2021年9月に発足したデジタル庁は同年10月末、早々にガバメントクラウドの対象となるクラウドサービスを決定している。また、12月には「デジタル社会の実現に向けた重点計画」が閣議決定されるなど、足早かつ堅実に取り組みが進められている。
+
+ハイブリッドクラウド環境におけるデータセキュリティの課題と解決策とは
+
+ガバメントクラウドの仕組み
+
+これまでの行政システムは、各省庁や自治体が独自にシステムを発注、開発していた。そのため、同じ機能の似たようなシステムが乱立しているにも関わらず、連携が難しかった。一方、ガバメントクラウドでは、図1のように国が共通のクラウドプラットフォームを準備・提供する。IaaS、PaaS、SaaSといった共通の基盤に加え、機能もアプリとして提供する。システムに必要な機能をコンポーネント（部品）として共通化することで、システムの導入・運用コストを削減するという算段だ。
+
+
+
+図1：ガバメントクラウドの概念図
+
+
+アプリの提供においては、各ベンダーが定められた要件に基づいて開発を行う。自治体はガバメントクラウド経由で提供されるアプリを選択することで、業務に応じた機能を導入できるのだ。従来、自治体ごとに開発を行っていたものが共通で利用できることになるため、導入コストの抑制が期待される。
+
+ガバメントクラウド移行のメリット
+
+ガバメントクラウドに移行することで、どのようなメリットが生じ得るのか。住民のメリットと、自治体のメリットに分けてそれぞれ解説する。
+
+１）住民のメリット
+
+・行政サービスをユビキタスに実現
+行政手続きのオンライン化が進み、スマートフォン（以下、スマホ）などでいつでもどこでもサービスを受けられるようになる。また、共通のクラウドプラットフォームがあることで、行政手続きのオンライン化を進めやすくなる。その結果として、スマホなどを通じて時間や場所を問わず、申請などの手続きを行える。
+
+・各種手続きのワンストップ化
+手続きがオンライン化することで、そもそも役所に行く必要性が減り、待ち時間が不要となる。また、データ連携が進むことで、関連する手続きがまとめて行えるようになるなどワンストップ化が実現する。
+
+２）自治体のメリット
+
+・業務効率化や業務負荷の軽減
+クラウド化によって紙による処理が減り、データ連携によって重複する業務が減ることによる業務効率化や、業務負荷の軽減につながることが見込まれる。
+
+・サービス品質向上など本質的な業務への注力
+業務効率化が進んだ結果として、行政サービスの品質向上やサービス企画の立案、あるいはPRといった本質的な業務へ費やす時間・工数を増やせることが期待される。自治体という特性上、システム関係のスキルを有する人材は限られてしまう。その人材リソースを開発以外のサービス品質向上などで有効に活用できるといったメリットもあるだろう。
+
+・セキュリティにおける運用効率や品質の向上
+国がセキュリティレベルの高いクラウドプラットフォームを用意することで、各自治体でのセキュリティ対策や運用監視といった負荷が軽減する。また、個別の自治体では導入できないような、高度かつ大規模なセキュリティソリューションなども導入しやすくなる。
+
+自治体の情報セキュリティはどう変わるのか
+
+自治体における情報漏えいの事例は、これまでにも数多く報告されている。USBメモリーの取り扱いに関するものや、パスワード管理に関するものなどさまざまだ。ガバメントクラウドの導入によって自治体のセキュリティはどう変わるのか、以下に解説する。
+
+１）次期自治体情報セキュリティクラウドとの違い
+
+ガバメントクラウドと混同されがちなものに次期自治体情報セキュリティクラウドがある。自治体情報セキュリティクラウドとは、都道府県と市区町村でWebサーバーを集約し、高度なセキュリティ対策を実現するために構築された仕組みである。
+
+2020年8月には総務省より、新たな「自治体情報セキュリティの標準要件一覧」が提示された。
+
+対して、ガバメントクラウドはデジタル庁が推進する共通のクラウドプラットフォームである。現在では、ガバメントクラウドの機能の一部を自治体情報セキュリティへ提供するなど、部分的に先行事業にて試行されている。
+
+２）ガバメントクラウド選定基準「ISMAP」とは
+
+ガバメントクラウドとしてAWS（Amazon Web Services）、GCP（Google Cloud Platform）が先行して採択され、その後2022年10月に、Microsoft Azure、OCI（Oracle Cloud Infrastructure）が追加で採択された。
+
+その際の選択基準の1つとされたのがISMAPである。ISMAPは政府情報システムのためのセキュリティ評価制度であり、2020年6月から実施されている。ガバメントクラウドで使用されるサービスはISMAPに登録され、かつ高度なセキュリティ要件を満たすものとなる。
+
+３）自治体セキュリティへの影響
+
+ガバメントクラウドに移行することで、一定のセキュリティ基準を満たす環境やアプリケーションを自治体がクラウド上で利用できるようになるため、セキュリティレベルの向上が見込める。単一の自治体ではコストが見合わず導入できないようなセキュリティソリューションも実現できる可能性がある。また、情報システムを導入するための初期コストや、運用のためのコストに加え、業務負荷の削減も期待できる。
+
+ただし、今のところ、ガバメントクラウドだけで全方位的なセキュリティ対策を実現できるかというと、不透明な部分もあると言わざるを得ない。また、セキュリティにおいてはシステムだけでなく、運用段階や設定時におけるヒューマンエラーへの対策も当然ながら必要となる。
+
+将来的な運用負荷の軽減や、より強固なセキュリティシステムの実現を期待しつつ、パスワード管理やアカウント設定、個々人のセキュリティ意識やリテラシーの向上など、基本的な対策に加え、運用に関連する対策も引き続き、重要な要素となることだろう。
+
+クラウドストレージを狙ったセキュリティインシデント、事例ごとの対策は？]]></summary>
+        <author>
+            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[大和ネクスト銀行をかたるフィッシングについての注意喚起]]></title>
+        <id>https://eset-info.canon-its.jp/malware_info/news/detail/230509_2.html</id>
+        <link href="https://eset-info.canon-its.jp/malware_info/news/detail/230509_2.html"/>
+        <updated>2023-05-08T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[2023年5月8日現在、大和ネクスト銀行をかたるフィッシングが確認されております。フィッシングサイト上の入力欄には、絶対に情報を入力しないようにお願いします。
+
+このようなフィッシングサイトにて、ユーザー ID、ログインパスワード等を絶対に入力しないよう、ご注意ください。
+
+日頃からサービスへログインする際は、メールや SMS 内のリンクではなく、いつも利用しているスマートフォンの公式アプリやブラウザーのブックマークなどからアクセスするよう、心がけてください。
+
+【メールの件名】
+
+【大和ネクスト銀行】お客様の直近の取引における重要な確認について
+
+※上記以外の件名も使われている可能性があります。
+
+【サイトのURL】
+
+https://fgjfuz●●●●.com/
+https://szlot●●●●.com/
+https://sdeb●●●●.com/
+https://oingc●●●●.com/
+
+※上記以外のドメイン、URL も使われている可能性があります。
+※URL にパスやパラメータが付いていることがあります。
+
+2023/5/8 15:00時点では、フィッシングサイトは停止していますが、類似のフィッシングサイトが公開される恐れもありますので注意してください。
+このようなフィッシングサイトは日々新規に作成されています。ESET製品は、新規に作成されるフィッシングサイトにも随時対応していきますが、お客さま自身でも十分にご注意ください。
+
+【参考情報】
+
+大和ネクスト銀行を騙る偽のメールや偽サイトにご注意ください
+
+
+ 
+
+
+■ ESET製品における検出例
+
+
+
+※ESET Internet Security V16.0/ESET Mobile Security V7.0でフィッシング対策機能が有効な場合は、図のような通知が表示されます。
+
+
+■ フィッシングメール／フィッシングサイトへの対応
+
+
+
+	フィッシングの可能性があるメールをむやみに開かない。
+	フィッシングの可能性があるメールの添付ファイルをむやみに開かない。
+	メール文中のリンク先URLがフィッシングサイトである可能性を考え、リンク先URLへむやみにアクセスしない。
+	フィッシングの可能性があるサイトにアカウント情報やクレジットカード情報などを入力しない。
+
+
+
+
+キヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。]]></summary>
+        <author>
+            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[横浜銀行をかたるフィッシングについての注意喚起]]></title>
+        <id>https://eset-info.canon-its.jp/malware_info/news/detail/230509_3.html</id>
+        <link href="https://eset-info.canon-its.jp/malware_info/news/detail/230509_3.html"/>
+        <updated>2023-05-08T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[2023年5月8日現在、横浜銀行をかたるフィッシングが確認されております。フィッシングサイト上の入力欄には、絶対に情報を入力しないようにお願いします。
+
+このようなフィッシングサイトにて、店番号、口座番号、契約番号、ログインパスワード等を絶対に入力しないよう、ご注意ください。
+
+日頃からサービスへログインする際は、メールや SMS 内のリンクではなく、いつも利用しているスマートフォンの公式アプリやブラウザーのブックマークなどからアクセスするよう、心がけてください。
+
+【メールの件名】
+
+【横浜銀行】入金制限のお知らせ
+【横浜銀行】お取引目的等の確認のお願い
+横浜銀行の重要なお知らせ（必ずご確認ください）
+
+※上記以外の件名も使われている可能性があります。
+
+【サイトのURL】
+
+メール内の URL
+https://●●●●.cyou/●●●●.php
+https://www.●●●●.ltd/
+
+転送先の URL
+https://jx●●●●.com/
+https://hbyabi●●●●.com/
+https://emn●●●●.host/
+https://sp●●●●.ink/
+https://●●●●.cloud/
+
+※上記以外のドメイン、URL も使われている可能性があります。
+※URL にパスやパラメータが付いていることがあります。
+
+2023/5/8 16:00時点では、フィッシングサイトは稼働中です。このサイトが停止しても、類似のフィッシングサイトが公開される恐れもありますので注意してください。
+このようなフィッシングサイトは日々新規に作成されています。ESET製品は、新規に作成されるフィッシングサイトにも随時対応していきますが、お客さま自身でも十分にご注意ください。
+
+【参考情報】
+
+【重要】銀行を装う不審なEメール・ショートメッセージ（SMS）にご注意ください
+
+
+ 
+
+
+■ ESET製品における検出例
+
+
+
+※ESET Internet Security V16.0/ESET Mobile Security V7.0でフィッシング対策機能が有効な場合は、図のような通知が表示されます。
+
+
+■ フィッシングメール／フィッシングサイトへの対応
+
+
+
+	フィッシングの可能性があるメールをむやみに開かない。
+	フィッシングの可能性があるメールの添付ファイルをむやみに開かない。
+	メール文中のリンク先URLがフィッシングサイトである可能性を考え、リンク先URLへむやみにアクセスしない。
+	フィッシングの可能性があるサイトにアカウント情報やクレジットカード情報などを入力しない。
+
+
+
+
+キヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。]]></summary>
+        <author>
+            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[中古の顔認識体表温度計買ったら顔写真がズラズラと]]></title>
+        <id>https://security.srad.jp/story/23/05/07/1313237/</id>
+        <link href="https://security.srad.jp/story/23/05/07/1313237/"/>
+        <updated>2023-05-08T09:04:00.000Z</updated>
+        <summary type="html"><![CDATA[コロナ禍で活躍したカメラ付き顔認識体表温度計だが、最近では中古で安価に出回っているようだ。こうした顔認識体表温度計を中古で買ったところ、その中に体温を測定した人の顔写真が入っていたという話が話題になっているようだ（honeylab's blog、ひろみつ氏のツイート、その2）。 
+
+honeylab's blogの記事によると、解析したところ固定IPで立ち上がっているようなので、そこにHTTPしてみたところログイン画面が現れた。ユーザー名にはadminって書かれていたので一般的にデフォルト設定でよく使われるpasswordを入れてみたところログインできたそうだ。そこで日時を設定して検索してみたところ、体温計ったときの顔写真と、体温がずらりと表示されてしまったそう。同サイトの主によると、900件以上のログが入っていたとのこと。 
+
+
+nemui4 曰く、中古の体温測定器を買ったら過去に撮影された顔写真と体温がズラズラと、この手のは全て消去されずに放流されてるらしい。搭載OS LINUXとは書いてあるが、画像と体温を保存していること、廃棄の際に画像を消去する方法などは一切記載されてないな。さすが。 マニュアルリンク切れ？
+マスクしてるけど顔写真保存されてるとは、この手の機器には断り書きとか無いし全部そうなのかな。
+ すべて読む | セキュリティセクション | セキュリティ | 変なモノ | 情報漏洩 |     
+  関連ストーリー： 
+コロナの影響により売れなくなった消費財。口紅に酔い止め、咳止めなど 2020年12月29日 
+GPS付きの腕時計型スマート体温計着用を求められる中国・北京市の中高生 2020年05月14日 
+新型コロナウイルス対策によりインフルエンザなども減少傾向、スマート体温計サービスのデータ分析結果 2020年03月30日]]></summary>
+        <author>
+            <name>nagazou</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[NTT東西、最大10Gbpsの「フレッツ 光クロス」提供エリアを拡大。北海道、宮城、新潟や東海・近畿各県へ　ひかり電話の提供も開始]]></title>
         <id>https://internet.watch.impress.co.jp/docs/news/1498693.html</id>
@@ -27,6 +590,33 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[[Web更新]IPアドレスに関する統計・各種リストのグラフを更新　2023年4月のデータを追加]]></title>
+        <id>https://www.nic.ad.jp/ja/stat/ip/</id>
+        <link href="https://www.nic.ad.jp/ja/stat/ip/"/>
+        <updated>2023-05-08T06:22:12.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Web更新]JPNICが管理するIPアドレス・AS番号・IRRサービスに関する統計を更新　2023年4月のデータを追加]]></title>
+        <id>https://www.nic.ad.jp/ja/stat/ip/20230508.html</id>
+        <link href="https://www.nic.ad.jp/ja/stat/ip/20230508.html"/>
+        <updated>2023-05-08T05:37:27.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[メルマガ]vol.1996:【トピックス号】先週のトピックスとWeb更新情報]]></title>
+        <id>https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol1996.html</id>
+        <link href="https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol1996.html"/>
+        <updated>2023-05-08T05:22:36.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[ビジネスパーソンが押さえておくべきランサムウェア最新動向 第4回 大統領の写真を悪用するプーチン・ランサムウェアに注意]]></title>
         <id>https://news.mynavi.jp/techplus/article/newransomware-4/</id>
         <link href="https://news.mynavi.jp/techplus/article/newransomware-4/"/>
@@ -34,6 +624,15 @@
         <summary type="html"><![CDATA[PCに保存されているファイルを暗号化して、復号を条件に身代金を要求するランサムウェア。その勢いはとどまることなく、被害は拡大するばかりだ。本稿では、注意すべきランサムウェアをピックアップして紹介する。]]></summary>
         <author>
             <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[トピックス]【再送】 JPNIC技術セミナー 2023年5月 開催のお知らせ ～ JPNICオフィスとオンライン配信のハイブリッド開催 ～]]></title>
+        <id>https://www.nic.ad.jp/ja/topics/2023/20230508-01.html</id>
+        <link href="https://www.nic.ad.jp/ja/topics/2023/20230508-01.html"/>
+        <updated>2023-05-08T05:00:51.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
         </author>
     </entry>
     <entry>
@@ -124,6 +723,15 @@
         <summary type="html"><![CDATA[前週に閲覧数の多かった記事を、カテゴリーごとに上位5位までレポートします。]]></summary>
         <author>
             <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Web更新]「WHOIS教室」の動画をInternet Week Basicオンデマンドに掲載]]></title>
+        <id>https://www.nic.ad.jp/ja/materials/iw/ondemand/#whois</id>
+        <link href="https://www.nic.ad.jp/ja/materials/iw/ondemand/#whois"/>
+        <updated>2023-05-08T01:11:06.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
         </author>
     </entry>
     <entry>
@@ -8158,17 +8766,6 @@ ISMAP-LIU の運用開始について / 【抜粋】
         <summary type="html"><![CDATA[JPドメイン名の登録管理業務とDNSの運用を行っている株式会社日本レジストリサービス(JPRS)による、JPドメイン名サービス総合案内サイトです。]]></summary>
         <author>
             <name>JPRS最新情報</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Your Guide to Ransomware—and Preventing It Too]]></title>
-        <id>https://www.mcafee.com/blogs/?p=163081</id>
-        <link href="https://www.mcafee.com/blogs/privacy-identity-protection/your-guide-to-ransomware-and-preventing-it-too/"/>
-        <updated>2023-04-09T10:18:26.000Z</updated>
-        <summary type="html"><![CDATA[Ransomware. Even the name sounds scary.  When you get down to it, ransomware is one of the nastiest attacks a...
-The post Your Guide to Ransomware—and Preventing It Too appeared first on McAfee Blog.]]></summary>
-        <author>
-            <name>McAfee</name>
         </author>
     </entry>
 </feed>
