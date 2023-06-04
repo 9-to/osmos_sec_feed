@@ -737,16 +737,6 @@
           "wordCount": 5079,
           "title": "Deconstructing Amadey’s Latest Multi-Stage Attack and Malware Distribution",
           "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2023/05/300x200_Blog_Amadey-Malware.png"
-        },
-        {
-          "id": "https://www.mcafee.com/blogs/?p=167590",
-          "author": "Alex Merton-McCann",
-          "description": "I’m betting you have WhatsApp on your phone. Or, if you don’t – I’m quite sure a member of your...\nThe post How To Be Safe On WhatsApp appeared first on McAfee Blog.",
-          "link": "https://www.mcafee.com/blogs/family-safety/how-to-be-safe-on-whatsapp/",
-          "publishedOn": "2023-05-05T13:49:44.000Z",
-          "wordCount": 3293,
-          "title": "How To Be Safe On WhatsApp",
-          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2023/05/300x200_Blog_050523.png"
         }
       ]
     },
@@ -2227,7 +2217,7 @@
       ]
     },
     {
-      "title": "ブログ – WordPress.org 日本語",
+      "title": "ブログ | WordPress.org 日本語",
       "feedUrl": "https://ja.wordpress.org/news/feed/",
       "siteUrl": "https://ja.wordpress.org",
       "articles": [
@@ -2268,6 +2258,16 @@
       "feedUrl": "https://srad.jp/security.rss",
       "siteUrl": "https://security.srad.jp/",
       "articles": [
+        {
+          "id": "https://apple.srad.jp/story/23/06/04/013225/",
+          "author": "headless",
+          "description": "カスペルスキーは 1 日、管理職など複数の同社従業員が使用する iPhone で見つかったというスパイウェアの最初の分析結果を公表した\n(Nota Bene の記事、\nSecurelist の記事、\nArs Technica の記事、\nHackRead の記事)。\n\nカスペルスキーが「Triangulation」と名付けたスパイウェアは iMessage 添付ファイルを通じたゼロクリック攻撃によりインストールされるという。iOS の脆弱性を突いた攻撃はユーザーの操作を必要とせず、スパイウェアはひそかに個人情報をリモートサーバーへ送り始める。iOS の特質上、効果的にマルウェアを検出・除去可能なソフトウェアは存在しないが、カスペルスキーは同社製の SIEM ソリューション Kaspersky Unified Monitoring and Analysis Platform (KUMA)で社内の Wi-Fi ネットワークに接続した iPhone による怪しい挙動を検出したとのこと。\n\niOS の制限などもあって感染には持続性がなく、複数のデバイスのタイムラインは再起動後に感染を繰り返していたことを示しているそうだ。もっとも古い感染の痕跡は 2019 年のものだという。ユージン・カスペルスキー氏はこのスパイウェアに「Triangulation」と名付けた理由として、攻撃するシステムのソフトウェアとハードウェアのスペックを認識するために HTML5 の canvas エレメントによるフィンガープリンティング技術を用い、デバイスのメモリに黄色い三角形を描画するためだと説明している。なお、カスペルスキーでは同社が Triangulation の主要なターゲットではないと確信しているとのことだ。\n\nこれとは別にロシア連邦保安庁 (FSB) は同日、Appleのモバイル機器の脆弱性を用いた米情報機関の偵察活動をロシア連邦警護庁 (FSO) とともに確認したと発表した。FSB では米企業である Apple が米国の情報機関、特に米国家安全保障局 (NSA) と緊密に連携していることや、ユーザーの個人情報の機密性を守るという Apple のポリシーが虚偽であることを示すものだなどと主張している\n(FSB の発表、\nThe Register の記事、\nNeowin の記事、\nReuters の記事)。\n すべて読む | アップルセクション | セキュリティ | 政治 | iOS | iPhone |     \n  関連ストーリー： \nNSA曰く、新しい暗号規格にバックドアはない 2022年05月15日 \nロシア、388万人が国外流出 2022年05月10日 \nNTT、カスペルスキー製ソフトの使用中止 2022年04月11日 \nFCC、カスペルスキーを国家安全保障に対する脅威と認定へ 2022年03月28日 \nカスペルスキー日本法人、会社概要のページからロシア本社の住所をなぜか削除 2022年03月18日 \nドイツ連邦情報セキュリティ局、カスペルスキー製品使用のリスクを注意喚起 2022年03月17日 \nロシアの「マインクラフト事件」で少年に 5 年の実刑判決 2022年02月16日 \nロシア連邦保安庁、サイバー犯罪組織 REvil を無力化 2022年01月16日 \nNSO Group のスパイウェアがジャーナリスト監視に使われていた問題で、iOS のセキュリティがイメージほど高くないことにも注目が集まる 2021年07月23日 \nロシア連邦保安庁の下請け企業、IoT機器を狙った攻撃ツールを開発していた 2020年03月25日 \nZERODIUMがエクスプロイト買取価格を改定、Androidのエクスプロイト買取価格が初めてiOSを上回る 2019年09月08日 \nKaspersky曰く、「iOS向けアンチウイルスソフト」は存在しない 2018年09月28日 \nKasperskyの研究者、国家反逆罪でロシア当局に逮捕される 2017年01月30日 \nAppleのOSにStagefrightのような脆弱性 2016年07月24日 \niMessageに添付ファイルの暗号化が解読される脆弱性 2016年03月26日 \nロシア、機密保持のため電子タイプライターを導入 2013年07月12日 \nAppleに対し「いつになったらセキュリティ対策に真剣に取り組むのか」という批判 2013年04月03日",
+          "link": "https://apple.srad.jp/story/23/06/04/013225/",
+          "publishedOn": "2023-06-04T01:42:00.000Z",
+          "wordCount": 2183,
+          "title": "カスペルスキー、同社従業員のiPhoneで見つかったスパイウェアの最初の分析結果を公表",
+          "imageUrl": "https://srad.jp/static/topics/ios_64.png"
+        },
         {
           "id": "https://security.srad.jp/story/23/06/01/145202/",
           "author": "nagazou",
@@ -3972,6 +3972,26 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230604-2694210/",
+          "author": null,
+          "description": "フィッシング対策協議会は6月1日、フィッシングの被害状況、フィッシングの攻撃技術・手法などをとりまとめた「フィッシングレポート 2023」を公開した。同協議会で受領した2022年1月から12月までのフィッシング報告件数は 96万8,832 件で、2021年と比較して約1.8倍となった。",
+          "link": "https://news.mynavi.jp/techplus/article/20230604-2694210/",
+          "publishedOn": "2023-06-04T04:31:37.000Z",
+          "wordCount": 1646,
+          "title": "2022年のフィッシング報告は前年比1.8倍、スマートフォンの被害状況は？",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230604-2694210/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230604-2694429/",
+          "author": null,
+          "description": "Kaspersky Labは6月1日(米国時間)、「Operation Triangulation」と名付けられたマルウェアキャンペーンにより、iOSデバイスが攻撃されていると報じた。キャンペーンはiMessageサービスを悪用し、ユーザーの操作なしに脆弱性を悪用することでエクスプロイトを配布してマルウェアを実行する。キャンペーンは2019年から継続しているもので、iOS 15.7の侵害まで確認されている。",
+          "link": "https://news.mynavi.jp/techplus/article/20230604-2694429/",
+          "publishedOn": "2023-06-04T01:01:20.000Z",
+          "wordCount": 2889,
+          "title": "iPhoneにiMessage悪用してマルウェア感染させるゼロクリック攻撃、注意を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230604-2694429/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20230603-2694428/",
           "author": null,
