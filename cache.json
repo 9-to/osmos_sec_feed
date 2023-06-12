@@ -129,6 +129,16 @@
       "siteUrl": "https://www.ipa.go.jp/about/index.html",
       "articles": [
         {
+          "id": "https://www.ipa.go.jp/digital/chousa/kumikomi/kumikomi-iot2022.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「2022年度組込み/IoT産業の動向把握等に関する調査」に関する情報です。",
+          "link": "https://www.ipa.go.jp/digital/chousa/kumikomi/kumikomi-iot2022.html",
+          "publishedOn": "2023-06-11T15:00:00.000Z",
+          "wordCount": 439,
+          "title": "2022年度「組込み/IoTに関する動向調査」調査結果を公開しました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
           "id": "https://www.ipa.go.jp/recruit/chuto/index.html",
           "author": "情報処理推進機構（IPA）",
           "description": "情報処理推進機構（IPA）の「中途職員採用」に関する情報です。",
@@ -719,6 +729,16 @@
       "siteUrl": "https://gblogs.cisco.com/jp",
       "articles": [
         {
+          "id": "https://gblogs.cisco.com/jp/?p=46918",
+          "author": "野崎 徹",
+          "description": "2023年6月14日より幕張メッセにて、Interop23 Tokyo が開催されます。シスコはShoｗNetに全方位で貢献しており、ベテランエンジニアだけでなく、若手エンジニアも積極的に参加して盛り上がっています。",
+          "link": "https://gblogs.cisco.com/jp/2023/06/interop-tokyo-2023-shownet-pre-eventy-report/",
+          "publishedOn": "2023-06-12T02:00:55.000Z",
+          "wordCount": 1543,
+          "title": "「Interop Tokyo 2023」ShowNet 直前レポート",
+          "imageUrl": "https://storage.googleapis.com/gblogs-bucket/sites/2/IL20230612021129-interop-tokyo-2023-shownet-pre-eventy-report-article-460x230.jpg"
+        },
+        {
           "id": "https://gblogs.cisco.com/jp/?p=46873",
           "author": "正戸 知穂",
           "description": "5月28日（日曜日）、フィットネス仲間のシスコ社員13名が集結し、森永製菓inゼリー主催の「さつきリレーマラソン」へ参加してきました。",
@@ -837,6 +857,16 @@
       "feedUrl": "https://www.mbsd.jp/research/atom.xml",
       "siteUrl": "https://www.mbsd.jp/",
       "articles": [
+        {
+          "id": "https://www.mbsd.jp/research/20230612/java-char-to-byte/",
+          "author": null,
+          "description": "今回はUndertowに存在したHTTPヘッダインジェクション脆弱性（CVE-2018-1067）を取り上げます。",
+          "link": "https://www.mbsd.jp/research/20230612/java-char-to-byte/",
+          "publishedOn": "2023-06-12T13:00:00.000Z",
+          "wordCount": 476,
+          "title": "Javaの文字列からバイト列への変換",
+          "imageUrl": "https://www.mbsd.jp/2023/06/07/assets/images/eyecatch.png"
+        },
         {
           "id": "https://www.mbsd.jp/research/20230607/cig-monthly/",
           "author": null,
@@ -1256,6 +1286,16 @@
       "feedUrl": "https://blogs.trellix.jp/category/threat-info/feed",
       "siteUrl": "https://blogs.trellix.jp",
       "articles": [
+        {
+          "id": "https://blogs.trellix.jp/?p=19846",
+          "author": "mcafee_admin",
+          "description": "映画「ナンバー23」では、Jim CarreyがWalter Sparrowを見事に演じています。彼は、23の謎について書かれた本に出会ってから、23という数字に取り付かれ、目にするものすべてに23を見るようになり、狂気 […]",
+          "link": "https://blogs.trellix.jp/the-bug-report-may-2023-edition",
+          "publishedOn": "2023-06-12T00:36:16.000Z",
+          "wordCount": 434,
+          "title": "バグレポート| 2023年5月",
+          "imageUrl": "https://blogs.trellix.jp/wp-content/uploads/2022/03/Gatehub-and-Epicbot_eye.jpg"
+        },
         {
           "id": "https://blogs.trellix.jp/?p=19346",
           "author": "mcafee_admin",
@@ -1726,6 +1766,26 @@
       "siteUrl": "https://jvn.jp/",
       "articles": [
         {
+          "id": "https://jvn.jp/jp/JVN36060509/",
+          "author": "jvn@jvn.jp",
+          "description": "キングソフト株式会社が提供していた旧製品「WPS Office」には、OS コマンドインジェクションの脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN36060509/",
+          "publishedOn": "2023-06-12T03:00:00.000Z",
+          "wordCount": 186,
+          "title": "キングソフト製「WPS Office」における OS コマンドインジェクションの脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU90292101/",
+          "author": "jvn@jvn.jp",
+          "description": "Delta Electronics社が提供するCNCSoft-BのコンポーネントであるDOPSoftには、複数のバッファオーバーフローの脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU90292101/",
+          "publishedOn": "2023-06-12T01:00:00.000Z",
+          "wordCount": 71,
+          "title": "Delta Electronics製CNCSoft-BのDOPSoftコンポーネントにおける複数のバッファオーバーフローの脆弱性",
+          "imageUrl": null
+        },
+        {
           "id": "https://jvn.jp/jp/JVN34232595/",
           "author": "jvn@jvn.jp",
           "description": "ASUS ルーター RT-AX3000 は、重要な Cookie を Secure 属性なしで使用しています。",
@@ -2113,6 +2173,86 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/06/12/49504.html",
+          "author": null,
+          "description": "コクヨ株式会社は6月8日、同社グループの情報システムへの攻撃について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/06/12/49504.html",
+          "publishedOn": "2023-06-11T23:05:14.000Z",
+          "wordCount": 845,
+          "title": "コクヨグループの一部情報システムにランサムウェア攻撃",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/41720.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/06/12/49503.html",
+          "author": null,
+          "description": "北海道砂川市は6月4日、緊急速報メールに関するお詫びを発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/06/12/49503.html",
+          "publishedOn": "2023-06-11T23:05:10.000Z",
+          "wordCount": 774,
+          "title": "住民への十分な事前周知なく訓練上の緊急速報メール配信",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/41682.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/06/12/49502.html",
+          "author": null,
+          "description": "東京都福祉保健局は6月2日、東京都陽性者登録センターでの個人情報の不正閲覧・取得と漏えいについて発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/06/12/49502.html",
+          "publishedOn": "2023-06-11T23:05:07.000Z",
+          "wordCount": 833,
+          "title": "個人情報 37 名分を不正閲覧しメモ、4 名分を LINE で送信 ～ 東京都陽性者登録センター派遣職員",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/41669.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/06/12/49501.html",
+          "author": null,
+          "description": "株式会社ホテルグランヴィア大阪は6月2日、不正アクセスによる個人情報流出の可能性について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/06/12/49501.html",
+          "publishedOn": "2023-06-11T23:05:03.000Z",
+          "wordCount": 819,
+          "title": "Booking.com経由ホテルグランヴィア大阪の宿泊者情報、不正アクセスで流出可能性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/41672.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/06/12/49500.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は6月9日、ASUS ルーター RT-AX3000 における Secure 属性なしの Cookie 使用の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/06/12/49500.html",
+          "publishedOn": "2023-06-11T23:00:15.000Z",
+          "wordCount": 1001,
+          "title": "ASUS ルーター RT-AX3000 に Secure 属性なしの Cookie 使用の脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/06/12/49499.html",
+          "author": null,
+          "description": "グローバルセキュリティエキスパート株式会社（GSX）は6月7日、認定資格「セキュリスト（SecuriST）」の最新シリーズとして、「メール安全利用検定」および「認定メール安全管理士」のリリースを発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/06/12/49499.html",
+          "publishedOn": "2023-06-11T23:00:09.000Z",
+          "wordCount": 907,
+          "title": "セキュリティ資格「SecuriST」に新シリーズ「メール安全利用検定」「認定メール安全管理士」追加",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/06/12/49498.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は6月9日、因幡電機産業製 Wi-Fi AP UNIT における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/06/12/49498.html",
+          "publishedOn": "2023-06-11T23:00:07.000Z",
+          "wordCount": 973,
+          "title": "因幡電機産業製 Wi-Fi AP UNIT に複数の脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/06/12/49497.html",
+          "author": null,
+          "description": "株式会社LogStareは6月8日、AWSのログ分析・監視に特化したクラウド型のログ分析プラットフォーム「LogStare for AWS」を同日から提供すると発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/06/12/49497.html",
+          "publishedOn": "2023-06-11T23:00:04.000Z",
+          "wordCount": 958,
+          "title": "「LogStare for AWS」提供開始、分析対象は CloudTrail・WAF・Network Firewall から選択",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/41726.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2023/06/09/49496.html",
           "author": null,
@@ -2948,6 +3088,96 @@
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
         {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1507922.html",
+          "author": null,
+          "description": "サンワサプライ株式会社は、USB Type-CポートをRS232C（D-sub 9ピンコネクタ）に変換できるコンバーター「USB-CVRS9HC」を発売した。市場想定価格は6578円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1507922.html",
+          "publishedOn": "2023-06-12T07:30:00.000Z",
+          "wordCount": 4316,
+          "title": "USB Type-C接続のRS232Cコンバーター「USB-CVRS9HC」、サンワサプライが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1507/922/USB-CVRS9HC_FT1L.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/ranking/1507632.html",
+          "author": null,
+          "description": "前週に閲覧数の多かった記事を、カテゴリーごとに上位5位までレポートします。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/ranking/1507632.html",
+          "publishedOn": "2023-06-12T04:14:47.000Z",
+          "wordCount": 4338,
+          "title": "スマホなどのUSB Type-C端子からHDMI接続の大画面テレビなどへ映像出力可能、エレコムの直挿し変換アダプターに関する記事に注目集まる【アクセスランキング】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1507/632/elecom00.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1507820.html",
+          "author": null,
+          "description": "ASUS JAPAN株式会社が提供するWi-Fiルーター「RT-AX3000」に、重要なCookieをSecure属性なしで使用している脆弱性があるとして、脆弱性対策情報ポータルサイト「JVN（Japan Vulnerability Notes）」が情報を公開した。対策済みファームウェアは公開中で、同サイトではアップデートを呼び掛けている。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1507820.html",
+          "publishedOn": "2023-06-12T03:15:00.000Z",
+          "wordCount": 4343,
+          "title": "ASUSのWi-Fiルーター「RT-AX3000」にSecure属性なしのCookieを使用する脆弱性、対策ファームウェアへの更新を",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1507/820/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1507797.html",
+          "author": null,
+          "description": "ベンチャー企業の開発した、階段を登ることが可能なロボット掃除機が現在、ウェイトリストへの登録を受け付けている。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1507797.html",
+          "publishedOn": "2023-06-12T03:00:00.000Z",
+          "wordCount": 4310,
+          "title": "階段を上れるロボット掃除機が海外で登場も、紹介文から疑われる「欠落した機能」とは【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1507/797/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1507796.html",
+          "author": null,
+          "description": "Windows XPの初期設定で表示されるデスクトップ壁紙「草原」の4Kバージョンが、「Microsoft Design」のサイトで無料配布されている。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1507796.html",
+          "publishedOn": "2023-06-12T03:00:00.000Z",
+          "wordCount": 4327,
+          "title": "Windows XPのデスクトップ壁紙「草原」の4Kバージョン、Microsoftのサイトで無料配布中【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1507/796/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/teleworkstory/1507380.html",
+          "author": null,
+          "description": "最近では出張などで外出する機会が増えているが、会議は引き続きZoomなどのオンラインで行われているものが多い。このため、外出先からの帰社や帰宅が間に合わないときは、持ち歩いているノートPCから会議に参加することもある。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/teleworkstory/1507380.html",
+          "publishedOn": "2023-06-12T01:10:00.000Z",
+          "wordCount": 4380,
+          "title": "「Web会議ツールでのデータ通信量が一番少ないのはどれだ？ Zooｍ、Teams、Meetで比べてみた」――急遽テレワークを導入した中小企業の顛末記（146）【急遽テレワーク導入！の顛末記】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1507/380/1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1507623.html",
+          "author": null,
+          "description": "一般社団法人セーファーインターネット協会（JFC）は、同センターが運営するファクトチェック団体である日本ファクトチェックセンター（JFC）が、5月31日に国際ファクトチェックネットワーク（IFCN：International Fact-Checking Network）の加盟を承認されたと発表した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1507623.html",
+          "publishedOn": "2023-06-11T22:30:00.000Z",
+          "wordCount": 4312,
+          "title": "国際ファクトチェックネットワーク（IFCN）にJFCが加盟、InFactに次ぎ国内2団体目",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1507/623/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/curation/1507511.html",
+          "author": null,
+          "description": "東京大学吉田塁研究室が5月13日に実施した「教員向け ChatGPT 講座 ～基礎から応用まで～」という講演の動画がYouTubeで公開されている（INTERNET Watch）。これは教員を対象にして、ChatGPTに関する情報をまとめて把握できるようにすることを意図したもので、4時間を超えるボリュームがある。参加者の8割がアンケートで最高評価を付けるほどの好評を博している。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/curation/1507511.html",
+          "publishedOn": "2023-06-11T22:00:00.000Z",
+          "wordCount": 4387,
+          "title": "議論が深まりつつある「AIと著作権」 ほか【中島由弘の「いま知っておくべき5つのニュース」2023/6/1～6/7】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1507/511/shutterstock_1019006956_main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/shimizu/1505646.html",
+          "author": null,
+          "description": "NASに蓄えられた文書を外部のアプリやサービスから活用するにはどうすればいいか？　その回答のひとつとなるのが、NASへのAPIアクセスの活用だ。QNAPやSynologyなどのNASは、APIアクセスが可能となっている。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/shimizu/1505646.html",
+          "publishedOn": "2023-06-11T21:00:00.000Z",
+          "wordCount": 4441,
+          "title": "QNAPの全文検索「Qsirch」で、NAS内の文書をChatGPTのコンテキストとして利用する【イニシャルB】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1505/646/001.png"
+        },
+        {
           "id": "https://internet.watch.impress.co.jp/docs/news/weekly/1507495.html",
           "author": null,
           "description": "「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。",
@@ -3170,6 +3400,86 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230612-2702538/",
+          "author": null,
+          "description": "NTTデータは12日、インシデントの未然防止から発生時の被害を最小限に抑えるためのセキュリティ運用のアウトソーシングサービス（MDRサービス）を、2023年7月より日本国内にて提供を開始すると発表した。同年度内にはグローバル全体に拡大し、2026年3月末までにセキュリティ運用で年間売り上げ2000億円超を目指す。",
+          "link": "https://news.mynavi.jp/techplus/article/20230612-2702538/",
+          "publishedOn": "2023-06-12T06:26:14.000Z",
+          "wordCount": 1592,
+          "title": "NTTデータ、セキュリティ技術者を500人体制へ‐アウトソーシングサービスを拡充",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230612-2702538/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230612-2698040/",
+          "author": null,
+          "description": "2022年6月から2023年5月にかけての教育機関におけるランサムウェア攻撃の分析がMalwarebytesから報告された。190件の攻撃が確認され、特にランサムウェアギャング「Vice Society」による攻撃が最も多かったとされている。教育機関は予算の制約やセキュリティへの資源不足に悩まされており、古い機器の使用や人員不足などが脆弱性を増大させ、攻撃の標的につながっている。",
+          "link": "https://news.mynavi.jp/techplus/article/20230612-2698040/",
+          "publishedOn": "2023-06-12T01:31:43.000Z",
+          "wordCount": 1804,
+          "title": "教育機関へサイバー攻撃拡大中、原因は「予算の制限」「人材不足」「古い機器」",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230612-2698040/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230612-2701986/",
+          "author": null,
+          "description": "ThousandEyesはこのほど、過去2週間のインターネット接続障害に関する分析結果を発表した。Twitter Spaces、Max、Microsoft 365、Slack、Instagram、AppleのiMessageにおいて発生した障害とそれらの原因が紹介されている。世界的には障害件数がわずかに減少している一方で、米国では障害件数が増え続け、全体の約47%を占めている。",
+          "link": "https://news.mynavi.jp/techplus/article/20230612-2701986/",
+          "publishedOn": "2023-06-12T00:57:05.000Z",
+          "wordCount": 1626,
+          "title": "インターネット障害の大量発生、原因は春のメンテナンス",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230612-2701986/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230612-2701983/",
+          "author": null,
+          "description": "Malwarebytesはこのほど、2023年5月のランサムウェアに関する分析結果を報告した。LockBitの新たなライバルである「MalasLocker」が広まっており、イタリアとロシアでのランサムウェア活動が急増している。教育機関への攻撃も増加傾向にあるとされ、既知の脆弱性を悪用したマルチターゲット攻撃と呼ばれる新たな手口が紹介されている。",
+          "link": "https://news.mynavi.jp/techplus/article/20230612-2701983/",
+          "publishedOn": "2023-06-12T00:35:58.000Z",
+          "wordCount": 1727,
+          "title": "ランサムウェアの新手口「マルチターゲット攻撃」が増加中",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230612-2701983/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230612-2701490/",
+          "author": null,
+          "description": "Check Point Software Technologiesはこのほど、2023年5月のマルウェアランキングを発表した。マルウェア全般ではQbotがトップ、モバイルマルウェアではAnubisがトップで、Emotetは下落傾向にある。同社は、4位にランクインした新しいシェルコードベースのダウンローダ「GuLoader」について詳しく説明している。",
+          "link": "https://news.mynavi.jp/techplus/article/20230612-2701490/",
+          "publishedOn": "2023-06-11T23:23:56.000Z",
+          "wordCount": 2013,
+          "title": "5月マルウェアランキング、4位のダウンローダ「GuLoader」に注意",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230612-2701490/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230612-2699500/",
+          "author": null,
+          "description": "Malwarebytesはこのほど、Facebookで最近見つかったフィッシング詐欺について報告した。この詐欺では、サーバーレスのコンテナ実行環境「Google Cloud Run」が悪用されている。サイバー犯罪者が5分ごとに新しい悪意あるGoogle Cloud RunのURLを生成し、数日間で数千件の悪意あるURLが観測された。新しいURLを短時間で頻繁に生成することでセキュリティ製品による検出を回避する戦略が取られている。",
+          "link": "https://news.mynavi.jp/techplus/article/20230612-2699500/",
+          "publishedOn": "2023-06-11T22:47:30.000Z",
+          "wordCount": 2820,
+          "title": "Facebookフィッシング詐欺、Google Cloud Runが悪用される新手法",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230612-2699500/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230612-2699058/",
+          "author": null,
+          "description": "フィッシング対策協議会(Council of Anti-Phishing Japan)はこのほど、2023年5月のフィッシングの被害状況を公表した。2023年5月のフィッシングの報告件数は11万3,789件で、2023年4月と比較して2万857件増加している。",
+          "link": "https://news.mynavi.jp/techplus/article/20230612-2699058/",
+          "publishedOn": "2023-06-11T22:06:10.000Z",
+          "wordCount": 1673,
+          "title": "5月のフィッシング、報告件数が過去最高記録 - ファミペイの悪用が最多",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230612-2699058/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230611-2699370/",
+          "author": null,
+          "description": "米国土安全保障省サイバーセキュリティ・インフラストラクチャセキュリティ庁はこのほど、Google Chrome(Chromium)の既知の脆弱性を「Known Exploited Vulnerabilities Catalog」に追加したと報告した。この脆弱性はサイバー犯罪者によって積極的に悪用されていると認識されており、注意が必要。",
+          "link": "https://news.mynavi.jp/techplus/article/20230611-2699370/",
+          "publishedOn": "2023-06-11T08:31:31.000Z",
+          "wordCount": 1686,
+          "title": "Google Chromeのゼロデイ脆弱性が積極的に悪用されている、確認と更新を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230611-2699370/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20230611-2700794/",
           "author": null,
