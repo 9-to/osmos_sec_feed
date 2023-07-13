@@ -2,10 +2,518 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-07-12T08:12:36.029Z</updated>
+    <updated>2023-07-13T08:12:24.474Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Apple の緊急セキュリティ対応、一部サイトが正しく表示されなくなる問題]]></title>
+        <id>https://apple.srad.jp/story/23/07/12/181232/</id>
+        <link href="https://apple.srad.jp/story/23/07/12/181232/"/>
+        <updated>2023-07-13T08:04:00.000Z</updated>
+        <summary type="html"><![CDATA[headless 曰く、Apple は 12 日、iOS と iPadOS、macOS 向け緊急セキュリティ対応のインストール後に一部のウェブサイトが正しく表示されなくなることを認めた
+(Apple のサポート記事、
+9to5Mac の記事、
+Mac Rumors の記事)。
+
+問題が発生しているのは iOS 16.5.1 (a) / iPadOS 16.5.1 (a) / macOS Ventura 13.4.1 (a) で、それぞれ問題を修正した iOS 16.5.1 (b) / iPadOS 16.5.1 (b) / macOS Ventura 13.4.1 (b) を間もなくリリースするとのこと。
+
+問題の原因は Safari のユーザーエージェント文字列に「(a)」が含められたこととみられる。これにより、Facebook や Instagram などのサイトが古いバージョンのブラウザーと誤認識してしまうようだ。
+
+緩和策として緊急セキュリティ対応を削除することもできるが、このバージョンでの修正点は実際に悪用の可能性があると報告されている WebKit の脆弱性 (CVE-2023-37450) であり、削除すべきかどうかは微妙なところだ。
+ すべて読む | アップルセクション | アップグレード | セキュリティ | OS | Safari | アップル |     
+  関連ストーリー： 
+Appleの新しいソフトウェアリリース形態「緊急セキュリティ対応」 2023年05月04日]]></summary>
+        <author>
+            <name>nagazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Web更新]IPアドレスに関する統計・各種リスト以下のグラフを更新　2023年6月のデータを追加]]></title>
+        <id>https://www.nic.ad.jp/ja/stat/ip/</id>
+        <link href="https://www.nic.ad.jp/ja/stat/ip/"/>
+        <updated>2023-07-13T06:37:53.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Talos の脅威ハンターの舞台裏を紹介する新しい動画を公開]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=47299</id>
+        <link href="https://gblogs.cisco.com/jp/2023/07/talos-threat-source-newsletter-june-29-2023/"/>
+        <updated>2023-07-13T06:31:46.000Z</updated>
+        <summary type="html"><![CDATA[今週も脅威情報ニュースレターをお届けします。マーベルの TV ドラマのオープニングクレジットが AI で制作されたという話題から、ぼったくり系のユーチューバーが AI ツールに児童書を書かせれば何百万ドルも稼げると主張していることまで、ここ数か月、AI が生成するアートがインターネット上で物議を醸しています。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[大阪の学童クラブ、顔写真入り検温カメラをフリマ出品してしまう]]></title>
+        <id>https://security.srad.jp/story/23/07/12/1350215/</id>
+        <link href="https://security.srad.jp/story/23/07/12/1350215/"/>
+        <updated>2023-07-13T06:12:00.000Z</updated>
+        <summary type="html"><![CDATA[あるAnonymous Coward 曰く、大阪市内にある放課後児童クラブが、新型コロナ対策で建物の入り口に設置していた検温用のカメラを買い替えた際、古い機種をフリーマーケットのサイトに出品していた。購入した人が調べたところ、児童やスタッフおよそ30人分の顔写真3000枚余りのほか、撮影時刻や体温などの情報が残っていたということがわかった。カメラは購入した人から出品した放課後児童クラブ側に返却され、悪用はないという（ITmedia）。 今回のカメラは市の新型コロナ対策の補助金を活用して購入されたもので、横山大阪市長はフリマサイトに出品されたことについて不適切だという認識を示したうえで、出品していた放課後児童クラブから補助金の返還を受けたことを明らかにしたとのこと。 中古の顔認識体表温度計買ったら顔写真がズラズラというのが過去にあったように個人のデータが保管されるという意識がないか説明書に記載していないか読んでいないのどれかだろうが、設置している事業者は取り扱いを慎重にしてほしいところである。
+ すべて読む | セキュリティセクション | セキュリティ | ニュース | 情報漏洩 |     
+  関連ストーリー： 
+中古の顔認識体表温度計買ったら顔写真がズラズラと 2023年05月08日]]></summary>
+        <author>
+            <name>nagazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Talos IR の「パープルチーム演習」による最悪のシナリオへの備え]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=47293</id>
+        <link href="https://gblogs.cisco.com/jp/2023/07/talos-how-talos-irs-purple-team-can-help-you/"/>
+        <updated>2023-07-13T06:00:02.000Z</updated>
+        <summary type="html"><![CDATA[パープルチーム演習は、Talos インシデント対応リテーナーサービスに含まれているサービスです。Talos の専門家が、攻撃者よりも先にセキュリティホールを見つけられるよう、お客様を支援します。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[マイクロソフト、7月の更新プログラム公開 - 脆弱性の悪用を確認]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230713-2726723/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230713-2726723/"/>
+        <updated>2023-07-13T05:48:10.000Z</updated>
+        <summary type="html"><![CDATA[JPCERTコーディネーションセンター（JPCERT/CC）は7月12日、マイクロソフトから同社製品の脆弱性を修正する2023年7月のセキュリティ更新プログラムが公開されたとして、アップデートを呼び掛けた。対象の脆弱性のうち、5件がサイバー攻撃への悪用が確認されている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ベネッセ、小学生親子向けに「自由研究お助けAI」を提供。「Azure OpenAI」ベースの生成AIサービス、7月25日から]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1516209.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1516209.html"/>
+        <updated>2023-07-13T04:05:00.000Z</updated>
+        <summary type="html"><![CDATA[株式会社ベネッセコーポレーションの「進研ゼミ小学講座」は、小学生親子向けに、夏休みの自由研究のアイデアやテーマを見つけるヒントを提供する生成AIサービス「自由研究お助けAI」を7月25日より提供する。サービスは無料で、進研ゼミの会員登録は不要だが、保護者のメールアドレスを登録する必要がある。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ドライバの署名を偽造してマルウェアをインストールさせる攻撃手法]]></title>
+        <id>https://security.srad.jp/story/23/07/12/1339207/</id>
+        <link href="https://security.srad.jp/story/23/07/12/1339207/"/>
+        <updated>2023-07-13T04:01:00.000Z</updated>
+        <summary type="html"><![CDATA[nagazou 曰く、Cisco Talosが11日、Windowsの署名ポリシーを回避してマルウェアをインストールする手法について報告をしている。この手法では、オープンソースのソフトウェアを使用してカーネルモードドライバの署名を偽造、期限切れの証明書で署名された悪意のあるドライバをインストールすることでマルウェアを実行する（Cisco Talos、PC Watch）。 
+
+Microsoftは、Windows Vista 64bit以降のOSでカーネルモードドライバのデジタル署名を必須とする署名ポリシーを導入している。しかし、古いドライバとの互換性を保つために、2015年7月29日以前に発行された証明書で署名されたドライバは例外として許可していた。この攻撃手法では、2015年7月29日以前に発行または失効した、取り消されていない証明書を利用して悪意のあるドライバをインストールすることが可能となっている。 
+
+悪意のあるドライバがインストールされると、攻撃者はシステムにカーネルレベルでアクセスできるため、重大な脅威が生じる。Cisco Talosは、この攻撃手法で使用される証明書のブロックを推奨しており、Microsoftも同チームの報告を受けて、該当の証明書をブロックしたとしている。
+ すべて読む | セキュリティセクション | セキュリティ | マイクロソフト | Windows |     
+  関連ストーリー： 
+Microsoft の署名入りルートキット、また見つかる 2021年10月24日 
+Microsoft、悪意あるドライバに署名を与えてしまったと発表 2021年06月28日]]></summary>
+        <author>
+            <name>nagazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三菱電機製MELSEC iQ-RシリーズおよびMELIPCシリーズのEthernetポートにおけるリソースの不適切なシャットダウンおよびリリースの脆弱性]]></title>
+        <id>https://jvn.jp/vu/JVNVU96883262/</id>
+        <link href="https://jvn.jp/vu/JVNVU96883262/"/>
+        <updated>2023-07-13T03:15:00.000Z</updated>
+        <summary type="html"><![CDATA[三菱電機製MELSEC iQ-RシリーズおよびMELIPC シリーズのEthernetポートには、リソースの不適切なシャットダウンおよびリリースの脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rockwell Automation製Select Communication Modulesにおける複数の境界外書き込みの脆弱性]]></title>
+        <id>https://jvn.jp/vu/JVNVU95608136/</id>
+        <link href="https://jvn.jp/vu/JVNVU95608136/"/>
+        <updated>2023-07-13T02:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Rockwell Automationが提供するSelect Communication Modulesには、複数の境界外書き込みの脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windowsカーネルモードドライバ偽装するゲームチート技術、新たな脅威に]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230713-2726298/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230713-2726298/"/>
+        <updated>2023-07-13T02:31:37.000Z</updated>
+        <summary type="html"><![CDATA[Cisco Talos Intelligence Groupは7月11日(米国時間)、Windowsのポリシーの抜け穴を悪用してWindowsドライバの署名を偽造し、証明書ポリシーをバイパスする脅威を報告した。ゲームのコミュニティで開発されたツールが、悪意のあるWindowsドライバを展開するために悪用されていることがわかった。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GL.iNetのWi-Fi 6対応トラベルルーター「GL-MT3000」がクーポンで20％割引、Amazonお得情報　最大2402+574Mbpsで2.5GbpsのWANポートを備える]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1515962.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1515962.html"/>
+        <updated>2023-07-13T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Amazon.co.jpで、香港のネットワーク機器メーカーGL.iNetのWi-Fi 6対応トラベルルーター「GL-MT3000」の、お得なクーポンが配布中だ。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[個人情報委、トヨタ情報漏えい事案で行政指導　「個人情報と認識していなかった」と指摘]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2307/13/news105.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2307/13/news105.html"/>
+        <updated>2023-07-13T02:11:00.000Z</updated>
+        <summary type="html"><![CDATA[個人情報保護委員会は7月12日、5月に発生したトヨタ自動車における個人情報漏えいについて行政指導したと発表した。「研修が不十分だった」「個人情報として認識していなかった」「取り扱い状況を把握していなかった」などと指摘している。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AIイラスト販売サービス「petapi」、スタートからわずか1カ月半でサービス終了を発表【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1516111.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1516111.html"/>
+        <updated>2023-07-13T01:55:00.000Z</updated>
+        <summary type="html"><![CDATA[登場時に物議を醸したAIイラスト販売サービス「petapi」がスタートから約1カ月半、突然のサービス終了を発表した。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[あとで読むサービス「Pocket」、Firefoxアカウントへの全面移行を発表。期限は8月15日【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1516109.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1516109.html"/>
+        <updated>2023-07-13T01:55:00.000Z</updated>
+        <summary type="html"><![CDATA[ウェブページを保存・閲覧できるサービス「Pocket」が、Firefoxアカウントへの全面移行を発表した。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[データ漏えいの7割に人的要素が関係、ベライゾンがサイバー攻撃を調査]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230713-2726508/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230713-2726508/"/>
+        <updated>2023-07-13T01:48:22.000Z</updated>
+        <summary type="html"><![CDATA[ベライゾンジャパンは7月12日、「2023年度データ漏えい・侵害調査報告書(DBIR)」の内容を基に、サイバーインシデントやデータ侵害などの動向を紹介した。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2022年の脅威から読み解く：ランサムウェアに感染したらどうする？]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230713-2725880/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230713-2725880/"/>
+        <updated>2023-07-13T01:31:00.000Z</updated>
+        <summary type="html"><![CDATA[今、サイバー攻撃に関する話題の中で頻繁に耳にする単語が「フィッシング」「ランサムウェア」でしょう。本稿では、2022年の脅威の動向から、これらの攻撃を迎え撃つための対策を紹介します。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[企業用ブラウザ「Microsoft Edge for Business」がプレビュー公開]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230713-2725829/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230713-2725829/"/>
+        <updated>2023-07-13T00:47:10.000Z</updated>
+        <summary type="html"><![CDATA[Microsoftは7月11日（米国時間）、企業や組織向けに設計されたWebブラウザ「Microsoft Edge for Business」がプレビュー段階にあると発表した。この新ブラウザはAzure Active Directory (AAD)ログインによって活性化され、使用範囲を示すアイコンや組織名などを提供する。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WindowsとMicrosoft Officeに未修正のゼロデイ脆弱性、警戒を]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230713-2726294/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230713-2726294/"/>
+        <updated>2023-07-12T23:47:36.000Z</updated>
+        <summary type="html"><![CDATA[Bleeping Computerは7月11日（米国時間）、複数のWindowsおよびMicrosoft Office製品に未修正のゼロデイ脆弱性が存在すると報じた。この脆弱性が悪用されると、機密情報へのアクセスやシステム保護の無効化、侵害されたシステムへのアクセスが行われる可能性があり注意が必要。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[エレコム製無線LANルータと中継器に複数の脆弱性、JPCERT/CCが警告]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230713-2726293/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230713-2726293/"/>
+        <updated>2023-07-12T23:16:12.000Z</updated>
+        <summary type="html"><![CDATA[JPCERTコーディネーションセンターは7月11日、エレコムが提供する複数の無線LANルータや無線LAN中継器に重大な脆弱性が存在するとして、注意を呼び掛けた。これらの脆弱性の影響により、改変されたリクエストによる任意のコマンド実行やフィッシングのリスクなどが発生する可能性が指摘されている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[攻撃成功すれば賞金自動支払、スマートコントラクト活用のバグバウンティプロトコル「TruSec」とは？]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/07/13/49672.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/07/13/49672.html"/>
+        <updated>2023-07-12T23:10:03.000Z</updated>
+        <summary type="html"><![CDATA[脆弱性ハンドリングはで重要なのはその情報を適切に判断する「トリアージ」だ。単なる窓口業務だけではない難しさがあるのだが…　その対策としてブロックチェーンを活用する取り組みがある。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[日本コンクリート工業へのランサムウェア攻撃、サーバ11台が復号不可能に]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/07/13/49671.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/07/13/49671.html"/>
+        <updated>2023-07-12T23:05:02.000Z</updated>
+        <summary type="html"><![CDATA[東証プライム上場企業の日本コンクリート工業株式会社は7月7日、5月29日に公表した同社のサーバのランサムウェア感染について、調査結果を発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[リチェルカセキュリティ、対話型AIサービスの脆弱性診断を提供]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/07/13/49670.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/07/13/49670.html"/>
+        <updated>2023-07-12T23:00:16.000Z</updated>
+        <summary type="html"><![CDATA[株式会社リチェルカセキュリティは7月5日、対話型AIサービスに対する脆弱性診断の提供を開始すると発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ベトナムの IT 人材活用、開発から体制構築まで パッケージ型セキュリティサービス提供]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/07/13/49669.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/07/13/49669.html"/>
+        <updated>2023-07-12T23:00:14.000Z</updated>
+        <summary type="html"><![CDATA[株式会社ハイブリッドテクノロジーズは7月6日、システム開発から脆弱性評価、社内体制構築までを一体的に提供するパッケージ型のサイバーセキュリティサービスの本格提供の開始を発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[エレコム製無線 LAN ルーターに複数の脆弱性]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/07/13/49668.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/07/13/49668.html"/>
+        <updated>2023-07-12T23:00:12.000Z</updated>
+        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は7月11日、エレコム製無線 LAN ルーターにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[エレコム製無線 LAN ルーターおよび無線 LAN 中継器に複数の脆弱性]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/07/13/49667.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/07/13/49667.html"/>
+        <updated>2023-07-12T23:00:08.000Z</updated>
+        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は7月11日、エレコム製無線 LAN ルーターおよび無線 LAN 中継器における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[10月に「Windows Server 2012」サポート終了、OSで動作するソフトも確認を]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/07/13/49666.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/07/13/49666.html"/>
+        <updated>2023-07-12T23:00:03.000Z</updated>
+        <summary type="html"><![CDATA[IPAは、「Windows Server 2012 および 2012 R2 のサポート終了に伴う注意喚起」を発表した。10月10日（米国時間）にサポートが終了する。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[今押さえておきたいサイバーセキュリティ用語 第4回 多大な被害が生じかねない、標的型攻撃とは？]]></title>
+        <id>https://news.mynavi.jp/techplus/article/cyber-security-basic-4/</id>
+        <link href="https://news.mynavi.jp/techplus/article/cyber-security-basic-4/"/>
+        <updated>2023-07-12T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[本連載では、日本における重大サイバー脅威として挙げられているような攻撃について振り返りながら紹介します。今回のテーマは「標的型攻撃」です]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「NURO 光」、2ギガから10ギガプランへの無償アップグレードが可能に]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1516004.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1516004.html"/>
+        <updated>2023-07-12T21:50:00.000Z</updated>
+        <summary type="html"><![CDATA[ソニーネットワークコミュニケーションズ株式会社は7月12日、光回線によるインターネット接続サービスの上り下りとも最大2Gbpsのプラン「NURO 光 2ギガ」から、最大10Gbpsの「NURO 光 10ギガ（3年契約）」への無償アップグレードの受付を開始した。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[総務省、令和5年版「情報通信白書」公表。テーマは「新時代に求められる強靱・健全なデータ流通社会の実現に向けて」]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1516017.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1516017.html"/>
+        <updated>2023-07-12T21:15:00.000Z</updated>
+        <summary type="html"><![CDATA[総務省は7月4日、「令和5年情報通信に関する現状報告（令和5年版情報通信白書）」を公表した。今回の特集テーマは「新時代に求められる強靱・健全なデータ流通社会の実現に向けて」。情報通信白書は昭和48年から発行されており、今回で51回目。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fire TV Cubeとアレクサの「定形アクション」で、時報や定時ニュースを使ってみよう【自宅Wi-Fiの“わからない”をスッキリ！】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/homewifi/1515078.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/homewifi/1515078.html"/>
+        <updated>2023-07-12T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[今回は、Amazonの音声アシスタント「Alexa」の「定形アクション」機能を使って、Amazonの「Fire TV Cube（第3世代）」でニュースの読み上げなどの決まった動きをするように設定してみよう。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sharing Isn’t Always Caring: Tips to Help Protect Your Online Privacy]]></title>
+        <id>https://www.mcafee.com/blogs/?p=171512</id>
+        <link href="https://www.mcafee.com/blogs/privacy-identity-protection/sharing-isnt-always-caring-tips-to-help-protect-your-online-privacy/"/>
+        <updated>2023-07-12T19:10:29.000Z</updated>
+        <summary type="html"><![CDATA[When it comes to protecting your privacy, take a close look at your social media use—because sharing can quickly turn...
+The post Sharing Isn’t Always Caring: Tips to Help Protect Your Online Privacy appeared first on McAfee Blog.]]></summary>
+        <author>
+            <name>Jasdev Dhaliwal</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[第1回 サイバーセキュリティ経営プラクティス検討会の議事要旨を公開しました]]></title>
+        <id>https://www.ipa.go.jp/security/economics/practice2023.html</id>
+        <link href="https://www.ipa.go.jp/security/economics/practice2023.html"/>
+        <updated>2023-07-12T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「サイバーセキュリティ経営プラクティス検討会」に関する情報です。]]></summary>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[パソコンがウイルスに感染したらどうなる？検出と駆除の対策を解説]]></title>
+        <id>https://eset-info.canon-its.jp/malware_info/special/detail/230713.html</id>
+        <link href="https://eset-info.canon-its.jp/malware_info/special/detail/230713.html"/>
+        <updated>2023-07-12T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[マルウェアと呼ばれることも多いコンピューターウイルスは、パソコンに侵入し、被害を及ぼす悪意のあるプログラムだ。その対策として利用されるセキュリティソフトは、安全なデジタルライフを送るために欠かせない存在だ。パソコンがウイルスに感染した場合の影響、および、その検出と駆除の概要について解説する。
+
+
+
+
+
+コンピューターウイルスとは
+
+コンピューターウイルスとは、コンピューターの内部にその所有者の許可なく侵入し、意図的に何らかの被害を及ぼすように作成されたプログラム・ソフトウェアのことだ。コンピューター内部に侵入して不具合などの症状をもたらす、あるいは自身を複製して感染を広げるといった特性が生物学上のウイルスと似ていることから、そのように呼ばれることとなった。
+
+また、コンピューターウイルスを含めて不正なプログラム全般については、「Malicious（悪意のある）＋Software（ソフトウェア）」の合成語である「Malware（マルウェア）」とも呼ばれる。個人情報や機密情報、金銭の窃取、あるいはデータを人質に身代金を要求するといった被害をもたらす可能性があるものだ。
+
+コンピューターウイルスの主な感染経路としては、インターネット上からダウンロードしたファイル、電子メールの添付ファイル、Webサイトの閲覧、USBメモリーなどが挙げられる。なお、コンピューターウイルスという名称はインターネット黎明期から用いられているが、近年ではマルウェアという呼び方が一般的となっている。
+
+1995年当時、通商産業省（現、経済産業省）によって策定された「コンピューターウイルス対策基準」においては、「自己伝染機能」、「潜伏機能」、「発病機能」の機能を1つ以上有し、第三者のプログラムやデータベースに対して、意図的に何らかの被害を及ぼすように作られたプログラムをコンピューターウイルスと定義している。
+
+コンピューターウイルスの感染に至るプロセス
+
+コンピューターウイルスは「感染 &rarr; 潜伏 &rarr; 拡大 &rarr; 活動」というように、いくつかの段階を経て感染に至るのが一般的だ。そのプロセスごとの状態を以下に解説する。
+
+感染段階
+
+コンピューターウイルスがパソコンへの侵入を目論む段階だ。ウイルスごとに異なる特徴があり、感染経路も異なるが、主に脆弱性を悪用、あるいはユーザーの操作ミスにつけ込むなどしてパソコンに侵入を試みるものが多い。
+
+潜伏段階
+
+侵入に成功し、パソコン内部でコンピューターウイルスが待機している段階だ。攻撃の実行タイミングまで症状を伴わないウイルスもある。しかし、多くのウイルスではバックドアを作成するなどして、外部サーバーとの通信を行う。バックドアとは、一般的に必要な認証をスキップしたり、セキュリティ機能を通過したりして、外部のコンピューターやネットワークにアクセスする抜け穴、勝手口のようなものだ。ウイルスは巧妙化しており、その多くがユーザーに気付かれぬようにバックグラウンドで動作する。
+
+拡大段階
+
+コンピューターウイルスはその名称のとおり、自身を複製し、感染を広げる特徴を持つ。この段階では、LANやインターネットなどのネットワークやメールなどを経由して、自らを複製しながらほかのコンピューターなどへ拡散していく。こうした動きは潜伏、活動の段階と並行して進められることも少なくない。
+
+活動段階
+
+段階を経てきたウイルスが活動を行うタイミングであり、計画に基づいた攻撃を実行する。例えば、データを暗号化して身代金を要求するWannaCryのような「ランサムウェア」であった場合、「何日間以内に暗号資産（仮想通貨）でこのアドレスへ入金せよ」といったメッセージがパソコンの画面に表示される。
+
+近年流行を繰り返しているEmotetのようなトロイの木馬型のウイルスの場合、情報の詐取だけでなく、ダウンローダーを用いてほかのマルウェア、ランサムウェアをダウンロードすることもある。ランサムウェアとは、身代金の要求を目的として作成されるウイルスで、感染したコンピューターやそのコンピューターに接続したストレージ内のデータを暗号化し、ユーザーに使えなくさせるといった被害をもたらす。
+
+このように、ほかのウイルスの活動をほう助するタイプの場合、感染した事実が発覚しづらいケースもあるため注意が必要だ。
+
+ランサムウェアとは？過去の事例から求められるセキュリティ対策とは？
+
+ウイルス対策ソフトの検出力
+
+パソコン向けには、コンピューターウイルス対策ソフトとしてさまざまな有償・無償のソフトウェアが提供されている。近年はウイルス対策を含め、総合的なセキュリティ対策を提供するセキュリティソフトが主流であり、その多くは有償となる。ここでは、「ESET Internet Security」を使用した場合の例を紹介する。
+
+ウイルス感染の検出、駆除
+
+ダウンロード、あるいは転送するファイルがコンピューターウイルス、もしくはダウンローダーなどの場合、ESET Internet Securityでは、ファイルがウイルスの場合は削除したという通知が図1のようにポップアップしたウィンドウ上に表示される。
+
+
+
+図1：ウイルスが検出された際の通知（ESET Internet Security V16.1）
+
+
+こうした表示は一定時間経過後にフェードアウトするが、サポート詐欺のように、大げさかつ煽りを伴った表現とはならない点が大きな違いだ。なお、この場合、ウイルスと疑われるファイルは自動的に削除されることになる。ESET Internet Securityではインターネット、メール添付、USB、CD-Rからのファイル転送に至るまで、デバイス外の経路を含めて常時監視を行っている。
+
+サポート詐欺に遭わないために心掛けたい5つの対策
+
+潜伏しているウイルスの検知、駆除
+
+いずれかの経路からパソコンに侵入して潜伏しているウイルスに対しても、ウイルス対策ソフトは定期的にストレージのスキャンを行い、ユーザーへ注意を促すといったアクションを行う。この場合もサポート詐欺のように、ウィンドウ一杯に警告が表示されるというようなことはまずない。図2のように、ほかのアプリなどの利用を妨げない程度の通知が表示されるだけだ。
+
+
+
+図2：潜伏ウイルスを検出した際の通知（ESET Internet Security V16.1）
+
+
+ウイルス検出・駆除の方法
+
+ウイルス対策ソフトが疑わしいファイルを検知して「ファイルは削除されました」と通知された場合、ウイルスと思しきファイルは自動的にパソコンから削除されるため、以降も安全に利用することが可能だ。ただし、検出して自動的に駆除できなかったファイルに関しては、図3のように一つひとつのファイルを精査して個別に駆除する、あるいは駆除せずそのままにする、といった判断をユーザー自身が行う必要がある。
+
+
+
+図3：自動駆除されないファイルの一覧画面（ESET Internet Security V16.1）
+
+
+このようなファイルは、例えば一部のフリーソフトの動画再生ソフトなどが当てはまる。昨今、フリーソフトやアプリが有する危険性をユーザーが認知しつつあるが、今なお利用するユーザーも少なくないだろう。すべてのフリーソフトが危険という訳ではないが、そうしたソフトウェアやアプリが何かしら悪意のある通信を行っている可能性も否定できない。危険性を検知する表示が出た場合、問題は発生しないかもしれないが、ITに詳しい場合でない限り、代替手段を選択する方が賢明だろう。
+
+また、あるWebサイトを訪問した際に、推奨された拡張ツールをWebブラウザーにインストールしたら、実は危険性が疑われるプログラムだったということもある。他にも、公式にサービスを行っているWebサイトで配付されていた暗号資産のマイニングツールが、「検出されたが自動駆除されませんでした」と判断されたケースも過去に起こっている。
+
+昔からの格言に、「タダより高いものはない」とあるように、無償で利用できるものを選択した結果、高い代償を払うことになる可能性もある。そうした状況に陥らないためにも、セキュリティソフトといったツールの利用を検討はもちろんのこと、自らのITスキル、リテラシーを高めていくことが重要だ。]]></summary>
+        <author>
+            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WordPress 6.3 ベータ 4]]></title>
+        <id>https://ja.wordpress.org/?p=6789</id>
+        <link href="https://ja.wordpress.org/2023/07/12/wordpress-6-3-beta-4/"/>
+        <updated>2023-07-12T14:16:32.000Z</updated>
+        <summary type="html"><![CDATA[以下は、Dan Soschin が書いた WordPress.org 公式ブログの記事「WordPress 6.3 Beta 4」を訳したものです。 誤字脱字誤訳などありましたらフォーラムまでお知らせください。 Word […]]]></summary>
+        <author>
+            <name>Seisuke Kuraishi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA and FBI Release Cybersecurity Advisory on Enhanced Monitoring to Detect APT Activity Targeting Outlook Online]]></title>
+        <id>/node/18429</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/07/12/cisa-and-fbi-release-cybersecurity-advisory-enhanced-monitoring-detect-apt-activity-targeting"/>
+        <updated>2023-07-12T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Cybersecurity and Infrastructure Security Agency (CISA) and Federal Bureau of Investigation (FBI) have released a joint Cybersecurity Advisory (CSA), Enhanced Monitoring to Detect APT Activity Targeting Outlook Online, to provide guidance to agencies and critical infrastructure organizations on enhancing monitoring in Microsoft Exchange Online environments. 
+In June 2023, a Federal Civilian Executive Branch (FCEB) agency observed unexpected events in Microsoft 365 (M365) audit logs. After reporting the incident to Microsoft, network defenders deemed the activity malicious. The goal of this CSA is to enhance organizational cybersecurity posture and position organizations to detect similar malicious activity via implementing the listed logging recommendations. 
+Organizations that identify suspicious, anomalous activity should contact Microsoft for proceeding with mitigation actions due to the cloud-based infrastructure affected, as well as report to CISA and the FBI. For mitigations that are classified as preventative measures (e.g., steps to take to reduce the risk of network categorized exposure), CISA and FBI strongly encourage that FCEB agencies and critical infrastructure organizations ensure Audit Logging is enabled. Note: See CISA’s Microsoft Exchange Online Microsoft 365 Minimum Viable Secure Configuration Baselines. These minimum viable secure configuration baselines are part of CISA’s Secure Cloud Business Applications (SCuBA) project. 
+For additional information and guidance, CISA and the FBI encourage network defenders to take the measures listed in this CSA to reduce the likelihood of similar activity and posture for detection.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases One Industrial Control Systems Advisory]]></title>
+        <id>/node/18431</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/07/12/cisa-releases-one-industrial-control-systems-advisory"/>
+        <updated>2023-07-12T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA released one Critical Industrial Control Systems (ICS) advisory on July 12, 2023. This advisory provides timely information about current security issues, vulnerabilities, and exploits surrounding ICS. 
+ICSA-23-193-01 Rockwell Automation Select Communication Modules
+CISA encourages users and administrators to review the newly released ICS advisories for technical details and mitigations.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「WRC-1167FEBK-A」などエレコムのWi-Fiルーター・中継機9製品に複数の脆弱性、対策済みファームウェアへのアップデートを]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1515897.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1515897.html"/>
+        <updated>2023-07-12T11:22:44.000Z</updated>
+        <summary type="html"><![CDATA[エレコム株式会社のWi-Fiルーターおよび中継機に複数の脆弱性が存在するとして、同社および「JVN（Japan Vulnerability Notes）」が情報を公開した。いずれも対策済みのファームウェアが公開されており、最新版のファームウェアにアップデートすることで対策できる。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[児童の“顔写真入り”検温カメラをフリマ出品　大阪市の学童クラブで発覚]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2307/12/news200.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2307/12/news200.html"/>
+        <updated>2023-07-12T11:04:00.000Z</updated>
+        <summary type="html"><![CDATA[大阪市の放課後児童クラブ（学童クラブ）が、児童の顔写真入りの検温用のカメラをフリーマーケットサイトで転売していたことが明らかになった。氏名や住所などは記録されておらず、顔写真も悪用されていないとしている。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Web更新]JPNICが管理するIPアドレス・AS番号・IRRサービスに関する統計を更新　2023年6月のデータを追加]]></title>
+        <id>https://www.nic.ad.jp/ja/stat/ip/20230712.html</id>
+        <link href="https://www.nic.ad.jp/ja/stat/ip/20230712.html"/>
+        <updated>2023-07-12T07:19:20.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[アイ・オー、「Trend Micro NAS Security」5年ライセンス付属の法人向けNAS「HDL2-HAB/TM5」を発売]]></title>
         <id>https://internet.watch.impress.co.jp/docs/news/1515924.html</id>
@@ -76,6 +584,16 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[旅行に行く予定がありますか？詐欺師にご注意を | カスペルスキー公式ブログ]]></title>
+        <id>https://blog.kaspersky.co.jp/?p=34192</id>
+        <link href="https://blog.kaspersky.co.jp/travel-scam-and-phishing-2023/34192/"/>
+        <updated>2023-07-12T03:00:16.000Z</updated>
+        <summary type="html"><![CDATA[2023年夏、旅行者が直面するネットの危険。]]></summary>
+        <author>
+            <name>Alanna Titterington</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Rockwell Automation製Enhanced HIMにおけるクロスサイトリクエストフォージェリの脆弱性]]></title>
         <id>https://jvn.jp/vu/JVNVU93358807/</id>
         <link href="https://jvn.jp/vu/JVNVU93358807/"/>
@@ -93,6 +611,15 @@
         <summary type="html"><![CDATA[Sensormatic Electronicsが提供するiSTARには、不適切な認証の脆弱性が存在します。]]></summary>
         <author>
             <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[トピックス]APNIC56ミーティング参加支援プログラム応募受付開始のお知らせ]]></title>
+        <id>https://www.nic.ad.jp/ja/topics/2023/20230712-02.html</id>
+        <link href="https://www.nic.ad.jp/ja/topics/2023/20230712-02.html"/>
+        <updated>2023-07-12T02:41:05.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
         </author>
     </entry>
     <entry>
@@ -305,6 +832,18 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Enhanced Monitoring to Detect APT Activity Targeting Outlook Online]]></title>
+        <id>/node/18426</id>
+        <link href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-193a"/>
+        <updated>2023-07-11T21:55:00.000Z</updated>
+        <summary type="html"><![CDATA[SUMMARY
+In June 2023, a Federal Civilian Executive Branch (FCEB) agency identified suspicious activity in their Microsoft 365 (M365) cloud environment. The agency reported the activity to Microsoft and the Cybersecurity and Infrastructure Security Agency (CISA), and Microsoft determined that advanced persistent threat (APT) actors accessed and exfiltrated unclassified Exchange Online Outlook data.
+CISA and the Federal Bureau of Investigation (FBI) are releasing this joint Cybersecurity Advisory to provide guidance to critical infrastructure organizations on enhancing monitoring of Microsoft Exchange Online environments. Organizations can enhance their cyber posture and position themselves to detect similar malicious activity by implementing logging recommendations in this advisory. Organiz…]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[地籍調査・14条地図作成システム「Mercury-LAVIS」がアップデート～福井コンピュータ【地図と位置情報】]]></title>
         <id>https://internet.watch.impress.co.jp/docs/column/chizu3/1515704.html</id>
         <link href="https://internet.watch.impress.co.jp/docs/column/chizu3/1515704.html"/>
@@ -362,6 +901,101 @@
         <summary type="html"><![CDATA[情報処理推進機構（IPA）の「実務者向けプログラム 制御システム向けサイバーセキュリティ演習（CyberSTIX）2023年度 第2回 東京開催」に関する情報です。]]></summary>
         <author>
             <name>情報処理推進機構（IPA）</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[マイクロソフト社よりセキュリティ更新プログラム（2023年7月）が公開されました]]></title>
+        <id>https://eset-info.canon-its.jp/malware_info/news/detail/230712_2.html</id>
+        <link href="https://eset-info.canon-its.jp/malware_info/news/detail/230712_2.html"/>
+        <updated>2023-07-11T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[マイクロソフト社より、7月12日 にセキュリティ更新プログラムの情報が公開されました。 今回公開されたプログラムではセキュリティ面での深刻度「緊急」のものが6件含まれています。
+
+今後のこれらの脆弱性を悪用したマルウェアなどによる攻撃に備え、早期にセキュリティ更新プログラムの適用を推奨いたします。今回のセキュリティ更新プログラムで修正した脆弱性には、CVSS 基本値が9.8 と高いスコアで、認証やユーザーの操作なしで悪用が可能なものが複数含まれていますので、早急に更新プログラムの適用を行ってください。
+
+【プログラム一覧】
+以下の情報は、マイクロソフト社のページからのものです。
+2023 年 7 月のセキュリティ更新プログラム (月例) 
+
+更新プログラムの詳細はマイクロソフト社のページでご確認下さい。
+
+
+	
+		
+			最大深刻度
+			製品ファミリ
+			最も大きな影響
+		
+		
+			緊急
+			Windows 11 v22H2、v21H2
+			リモートでコードが実行される
+		
+		
+			緊急
+			Windows 10 v22H2、v21H2
+			リモートでコードが実行される
+		
+		
+			緊急
+			Windows Server 2022 (Server Core installationを含む)
+			リモートでコードが実行される
+		
+		
+			緊急
+			Windows Server 2019、2016 (Server Core installationを含む)
+			リモートでコードが実行される
+		
+		
+			緊急
+			Windows Server 2012 R2, Windows Server 2012 (Server Core installationを含む)
+			リモートでコードが実行される
+		
+		
+			重要
+			Microsoft Office
+			リモートでコードが実行される
+		
+		
+			緊急
+			Microsoft SharePoint
+			リモートでコードが実行される
+		
+		
+			重要
+			Microsoft .NET
+			特権の昇格
+		
+		
+			重要
+			Microsoft Visual Studio
+			リモートでコードが実行される
+		
+		
+			重要
+			Microsoft Dynamics 365
+			なりすまし
+		
+		
+			重要
+			Azure関係のソフトウェア
+			特権の昇格
+		
+		
+			重要
+			Windows Admin Center
+			なりすまし
+		
+		
+			重要
+			Microsoft Malware Protection Engine
+			特権の昇格
+		
+	
+
+
+Windows Update などを用いて、セキュリティ更新プログラムを早急に適用しましょう。更新プログラムを適用することで、パソコンのセキュリティを保つことができます。]]></summary>
+        <author>
+            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
         </author>
     </entry>
     <entry>
@@ -7756,65 +8390,6 @@ https://●●●●.com.cn/jp
         <updated>2023-06-14T02:17:00.000Z</updated>
         <author>
             <name>JPCERT/CC RSS Feed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How to Identify and Protect Yourself From Venmo Scams and Other Cash App Scams]]></title>
-        <id>https://www.mcafee.com/blogs/?p=159875</id>
-        <link href="https://www.mcafee.com/blogs/internet-security/how-to-identify-and-protect-yourself-from-venmo-scams-and-other-cash-app-scams/"/>
-        <updated>2023-06-13T16:26:10.000Z</updated>
-        <summary type="html"><![CDATA[Venmo, quick and convenient. A great way to pay back a friend or split the cost of a meal. Yet...
-The post How to Identify and Protect Yourself From Venmo Scams and Other Cash App Scams appeared first on McAfee Blog.]]></summary>
-        <author>
-            <name>McAfee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ITパスポート試験（令和5年5月実施）の合格者受験番号一覧を掲載しました]]></title>
-        <id>https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pass.html</id>
-        <link href="https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pass.html"/>
-        <updated>2023-06-13T15:00:00.000Z</updated>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[情報セキュリティマネジメント試験・基本情報技術者試験（令和5年5月実施）の合格者受験番号一覧を掲載しました]]></title>
-        <id>https://www.ipa.go.jp/shiken/mousikomi/cbt_sg_fe.html</id>
-        <link href="https://www.ipa.go.jp/shiken/mousikomi/cbt_sg_fe.html"/>
-        <updated>2023-06-13T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「情報セキュリティマネジメント試験、基本情報技術者試験（CBT方式）」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[二重のトラブル：暗号資産を盗むDoubleFinger | カスペルスキー公式ブログ]]></title>
-        <id>https://blog.kaspersky.co.jp/?p=33997</id>
-        <link href="https://blog.kaspersky.co.jp/doublefinger-crypto-stealer/33997/"/>
-        <updated>2023-06-13T06:16:24.000Z</updated>
-        <summary type="html"><![CDATA[高度なマルウェアDoubleFingerが、仮想通貨ウォレットを狙うスティーラーGreetingGhoulをダウンロードする仕組みについて解説します。]]></summary>
-        <author>
-            <name>Kaspersky Team</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[トピックス]「Internet Week ショーケース in 札幌」 プログラム公開・参加登録開始のお知らせ]]></title>
-        <id>https://www.nic.ad.jp/ja/topics/2023/20230613-01.html</id>
-        <link href="https://www.nic.ad.jp/ja/topics/2023/20230613-01.html"/>
-        <updated>2023-06-13T02:17:25.000Z</updated>
-        <author>
-            <name>JPNIC Web</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JPドメイン名登録管理業務移管契約に基づく評価結果受領について]]></title>
-        <id>https://jprs.jp/whatsnew/</id>
-        <link href="https://jprs.jp/whatsnew/"/>
-        <updated>2023-06-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[JPドメイン名の登録管理業務とDNSの運用を行っている株式会社日本レジストリサービス(JPRS)による、JPドメイン名サービス総合案内サイトです。]]></summary>
-        <author>
-            <name>JPRS最新情報</name>
         </author>
     </entry>
 </feed>
