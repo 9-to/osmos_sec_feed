@@ -901,6 +901,16 @@
       "siteUrl": "https://tech-lab.sios.jp",
       "articles": [
         {
+          "id": "https://tech-lab.sios.jp/?p=35011",
+          "author": "baba",
+          "description": "こんにちは、サイオステクノロジーの馬場です。 この記事は、私の考えを綴る、いわばエッセイです。もし、よろしければ、おつきあいください。 私は最近、「デザイン」の前段階・準備を「見立て(みたて)」と呼び始めました。 私のい [...]\n「見立て」のすすめ 〜「デザイン」の前に〜 first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/35011",
+          "publishedOn": "2023-07-16T12:34:48.000Z",
+          "wordCount": 1637,
+          "title": "「見立て」のすすめ 〜「デザイン」の前に〜",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2019/07/georgie-cobbs-bKjHgo_Lbpo-unsplash-1.jpg"
+        },
+        {
           "id": "https://tech-lab.sios.jp/?p=35024",
           "author": "山本",
           "description": "こんにちは。サイオステクノロジー OSS サポート担当 山本 です。 今回は以前お話しした journald のログを永続化するお話しをしてみようと思います。 ■おさらい：journald って何だっけ？ journal [...]\njournald のログを永続化したい first appeared on SIOS Tech. Lab.",
@@ -2086,6 +2096,16 @@
       "siteUrl": "https://security.srad.jp/",
       "articles": [
         {
+          "id": "https://security.srad.jp/story/23/07/17/0333207/",
+          "author": "headless",
+          "description": "Google が 8 月 31 日に Play Console 要件に関するポリシーを更新し、アプリの公開に必要なデベロッパーの身元情報を拡充する\n(Android Developers Blog の記事、\n新ポリシー、\nポリシー変更情報、\nBleepingComputer の記事)。\n\n現行ポリシーには提出の必要な身元情報が明記されておらず、「連絡先情報が最新であることを確認する」のみにとどまっている。新ポリシーでは住所・氏名・連絡先メールアドレス・電話番号のほか、組織として登録するアカウントでは D-U-N-S ナンバーが必須となる。\n\n\nD-U-N-S ナンバーは米 Dun & Bradstreet が開発したユニークな 9 桁のビジネス識別番号で、日本では東京商工リサーチを通じて取得できる。Android Developers Blog の記事では無償で取得できると記載されているが、無償ではないようだ。\n\n今回の変更は Google Play の信頼性と透明性を高めるためのものだという。なお、8 月 31 日時点では新しいデベロッパーアカウントにのみ適用され、既存のアカウントに対する変更は 10 月に詳しい情報を通知する計画とのことだ。\n すべて読む | セキュリティセクション | Google | セキュリティ | デベロッパー | Android |     \n  関連ストーリー： \nGoogle Playでリリース後、1年近くたってマルウェア化したアプリ 2023年05月28日 \nマルウェア Goldoson 感染アプリ、Google Play で 63 本見つかる 2023年04月21日 \nGoogle、アプリのアカウント削除要件を Google Play ポリシーに追加 2023年04月08日 \nGoogle、マルウェアがGoogle Play外のアプリで見つかったことを理由にアプリの公開を停止 2023年03月23日 \nGoogle Playの「データセーフティ」表示、トップアプリの大半でプライバシーポリシーと不一致 2023年02月25日 \nGoogle Play、VPN サービスを使用したアプリ内広告のブロックを禁止へ 2022年09月03日 \nGoogle、全画面広告の表示を大幅に制限する Google Play ポリシー改定 2022年08月01日 \nGoogle Play、強い反発を受けてアプリの権限表示を復活へ 2022年07月24日 \nGoogle Play、データセーフティ表示義務付けを前にアプリの権限表示を削除 2022年07月20日 \nGoogle Play、サードパーティー製の音声通話録音アプリを 5 月 11 日以降禁止 2022年04月23日 \n韓国の法律に合わせて改訂したGoogle Playポリシー、違法状態は解消していないと判断される 2022年04月10日 \nGoogle、長期間更新されていないアプリにアクセスしにくくするGoogle Playポリシー改定 2022年04月09日 \n自由なソフトウェア、メタデータに価格情報を含めることを禁ずる Google Play ポリシーに影響される 2022年01月22日 \nGoogle Playもアプリのプライバシーに関する情報を明示へ 2021年05月11日 \nGoogle、ユーザーをミスリードするアプリをPlayストアから減らすべくポリシー変更へ 2021年05月02日 \nGoogle、日本などで3月からギャンブルアプリの提供を可能にするデベロッパープログラムポリシー改定 2021年01月31日",
+          "link": "https://security.srad.jp/story/23/07/17/0333207/",
+          "publishedOn": "2023-07-17T03:52:00.000Z",
+          "wordCount": 2318,
+          "title": "Google Play、アプリ公開に必要なデベロッパーの身元情報を拡充",
+          "imageUrl": "https://srad.jp/static/topics/android_64.png"
+        },
+        {
           "id": "https://security.srad.jp/story/23/07/16/0119211/",
           "author": "headless",
           "description": "米連邦取引委員会 (FTC) が大規模言語モデル (LLM) を使用する製品に関連して OpenAI の調査を開始し、関係者のリストアップや資料の提出などを求める書状を同社に送ったそうだ\n(The Washington Post の記事、\nReuters の記事、\nThe Register の記事、\nThe Guardian の記事)。\n\n調査の内容は LLM を含む・使用する・依存する製品やサービスを提供・利用可能にするにあたって同社が (1) プライバシーやデータセキュリティプラクティスに関する不正にかかわっていないかどうか、(2) 評判に対する被害を含めて消費者に害を与える FTC 法第 5 条 (合衆国法典第 15 編第 45 条) が禁ずる不正行為にかかわっていないかどうか、それに対し FTC が金銭的救済を求めることが公共の利益にかなうかどうか、といったものだ。\n\n本件に関する FTC の公式な発表はなく、書状の写し (PDF) を入手した The Washington Post が最初に報じている。OpenAI CEO の Sam Altman 氏は同社のテクノロジーが安全かつ消費者本位であることは非常に重要であるとして、違法行為へかかわっていないことに自信を見せつつも FTC の調査に協力する考えを示している。ただし、調査がいきなりリークから始まったことには落胆したと述べ、信頼を築くことには役立たないと批判している。\n すべて読む | セキュリティセクション | セキュリティ | 人工知能 | デベロッパー | アメリカ合衆国 | 政府 | プライバシ |     \n  関連ストーリー： \nChatGPT のトラフィック、6 月は前月比で初の減少 2023年07月09日 \n欧州議会、AI規制案を採択 2023年06月16日 \n人工知能技術への対策を求め多数の著名学者らが書簡を公表 2023年06月05日 \nChatGPTで判例を集めた弁護士、嘘の判例だらけという前代未聞の事態に 2023年05月28日 \nCloudflare、生成型AIへの機密情報漏洩を未然に防ぐサービス 2023年05月26日 \nChatGPT、プライバシー改善によりイタリアで再び利用可能に 2023年05月03日 \nChatGPTでランサムウエアを作成できる方法が存在する 2023年04月25日 \nSamsung、従業員が ChatGPT に社内情報を流出させるトラブル 2023年04月09日 \n豪地方公共団体首長、ChatGPT が事実と異なる主張をしないよう OpenAI に修正を求める 2023年04月08日 \nイタリアのデータ保護当局、イタリアのChatGPTユーザーのデータ処理を一時制限するよう命ずる 2023年04月02日 \nChatGPT 開発の背後にはケニアの労働者による人力作業 2023年01月22日 \nStack OverflowがChatGPTによる回答を禁止、大量のもっともらしい回答に対処できず 2022年12月07日 \n複雑な問いかけにも回答するチャットAI「ChatGPT」がテスト公開 2022年12月05日 \n「GitHub Copilotはオープンソースライセンスを侵害」OSS開発者が集団訴訟を開始 2022年11月07日",
@@ -3239,6 +3259,46 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230717-2727707/",
+          "author": null,
+          "description": "Uptycsはこのほど、GitHub上に偽の概念実証にバックドアが仕込まれていることを報告した。GitHubで見つかったセキュリティ専門家を狙った悪意のあるコードは、LinuxカーネルとVMware Fusionの脆弱性を装ったもので、機密データを盗み出す機能や不正アクセスを許可する機能を持っているという。",
+          "link": "https://news.mynavi.jp/techplus/article/20230717-2727707/",
+          "publishedOn": "2023-07-17T07:33:20.000Z",
+          "wordCount": 1668,
+          "title": "GitHub上のLinuxとVMware Fusionの概念実証(PoC)、実は偽物でバックドア",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230717-2727707/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230717-2728686/",
+          "author": null,
+          "description": "SlashNextはこのほど、生成AIがサイバー攻撃者によって、高度で真偽判断の難しい詐欺に悪用されている実態を報告した。攻撃者は「WormGPT」というChatGPTに似たシステムのセーフティ機能を回避して犯罪に悪用しているという。",
+          "link": "https://news.mynavi.jp/techplus/article/20230717-2728686/",
+          "publishedOn": "2023-07-17T03:52:40.000Z",
+          "wordCount": 1671,
+          "title": "サイバー犯罪に特化したセーフティ機能がない生成AI「WormGPT」登場、注意を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230717-2728686/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230717-2727471/",
+          "author": null,
+          "description": "Avast Softwareは7月13日(米国時間)、旅行アプリによるプライバシー侵害の懸念を指摘し、人気のある旅行アプリであるAirbnbとExpediaについて具体的なリスクを指摘した。これらのアプリは個人情報や位置情報を収集する可能性があり、プライバシー保護のための対策が必要とされている。",
+          "link": "https://news.mynavi.jp/techplus/article/20230717-2727471/",
+          "publishedOn": "2023-07-17T01:10:46.000Z",
+          "wordCount": 2784,
+          "title": "旅行アプリ「Airbnb」と「Expedia」のプライバシー侵害のリスク、回避する設定とは？",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230717-2727471/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230716-2728561/",
+          "author": null,
+          "description": "Lumen Technologiesは7月12日(米国時間)に「AVrecon」というLinuxベースのトロイの木馬について報じた。このマルウェアは小規模オフィス・ホームオフィス(SOHO)のルータを標的にしており、2年以上も検出されないまま活動していたという。",
+          "link": "https://news.mynavi.jp/techplus/article/20230716-2728561/",
+          "publishedOn": "2023-07-16T11:17:08.000Z",
+          "wordCount": 1638,
+          "title": "SOHOルータで隠れるマルウェア「AVrecon」発見、近年最大規模の知られざる脅威",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230716-2728561/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20230716-2727708/",
           "author": null,

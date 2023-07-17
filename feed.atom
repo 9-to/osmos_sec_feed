@@ -2,10 +2,100 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-07-16T08:11:04.969Z</updated>
+    <updated>2023-07-17T08:13:03.676Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[GitHub上のLinuxとVMware Fusionの概念実証(PoC)、実は偽物でバックドア]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230717-2727707/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230717-2727707/"/>
+        <updated>2023-07-17T07:33:20.000Z</updated>
+        <summary type="html"><![CDATA[Uptycsはこのほど、GitHub上に偽の概念実証にバックドアが仕込まれていることを報告した。GitHubで見つかったセキュリティ専門家を狙った悪意のあるコードは、LinuxカーネルとVMware Fusionの脆弱性を装ったもので、機密データを盗み出す機能や不正アクセスを許可する機能を持っているという。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[サイバー犯罪に特化したセーフティ機能がない生成AI「WormGPT」登場、注意を]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230717-2728686/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230717-2728686/"/>
+        <updated>2023-07-17T03:52:40.000Z</updated>
+        <summary type="html"><![CDATA[SlashNextはこのほど、生成AIがサイバー攻撃者によって、高度で真偽判断の難しい詐欺に悪用されている実態を報告した。攻撃者は「WormGPT」というChatGPTに似たシステムのセーフティ機能を回避して犯罪に悪用しているという。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Play、アプリ公開に必要なデベロッパーの身元情報を拡充]]></title>
+        <id>https://security.srad.jp/story/23/07/17/0333207/</id>
+        <link href="https://security.srad.jp/story/23/07/17/0333207/"/>
+        <updated>2023-07-17T03:52:00.000Z</updated>
+        <summary type="html"><![CDATA[Google が 8 月 31 日に Play Console 要件に関するポリシーを更新し、アプリの公開に必要なデベロッパーの身元情報を拡充する
+(Android Developers Blog の記事、
+新ポリシー、
+ポリシー変更情報、
+BleepingComputer の記事)。
+
+現行ポリシーには提出の必要な身元情報が明記されておらず、「連絡先情報が最新であることを確認する」のみにとどまっている。新ポリシーでは住所・氏名・連絡先メールアドレス・電話番号のほか、組織として登録するアカウントでは D-U-N-S ナンバーが必須となる。
+
+
+D-U-N-S ナンバーは米 Dun & Bradstreet が開発したユニークな 9 桁のビジネス識別番号で、日本では東京商工リサーチを通じて取得できる。Android Developers Blog の記事では無償で取得できると記載されているが、無償ではないようだ。
+
+今回の変更は Google Play の信頼性と透明性を高めるためのものだという。なお、8 月 31 日時点では新しいデベロッパーアカウントにのみ適用され、既存のアカウントに対する変更は 10 月に詳しい情報を通知する計画とのことだ。
+ すべて読む | セキュリティセクション | Google | セキュリティ | デベロッパー | Android |     
+  関連ストーリー： 
+Google Playでリリース後、1年近くたってマルウェア化したアプリ 2023年05月28日 
+マルウェア Goldoson 感染アプリ、Google Play で 63 本見つかる 2023年04月21日 
+Google、アプリのアカウント削除要件を Google Play ポリシーに追加 2023年04月08日 
+Google、マルウェアがGoogle Play外のアプリで見つかったことを理由にアプリの公開を停止 2023年03月23日 
+Google Playの「データセーフティ」表示、トップアプリの大半でプライバシーポリシーと不一致 2023年02月25日 
+Google Play、VPN サービスを使用したアプリ内広告のブロックを禁止へ 2022年09月03日 
+Google、全画面広告の表示を大幅に制限する Google Play ポリシー改定 2022年08月01日 
+Google Play、強い反発を受けてアプリの権限表示を復活へ 2022年07月24日 
+Google Play、データセーフティ表示義務付けを前にアプリの権限表示を削除 2022年07月20日 
+Google Play、サードパーティー製の音声通話録音アプリを 5 月 11 日以降禁止 2022年04月23日 
+韓国の法律に合わせて改訂したGoogle Playポリシー、違法状態は解消していないと判断される 2022年04月10日 
+Google、長期間更新されていないアプリにアクセスしにくくするGoogle Playポリシー改定 2022年04月09日 
+自由なソフトウェア、メタデータに価格情報を含めることを禁ずる Google Play ポリシーに影響される 2022年01月22日 
+Google Playもアプリのプライバシーに関する情報を明示へ 2021年05月11日 
+Google、ユーザーをミスリードするアプリをPlayストアから減らすべくポリシー変更へ 2021年05月02日 
+Google、日本などで3月からギャンブルアプリの提供を可能にするデベロッパープログラムポリシー改定 2021年01月31日]]></summary>
+        <author>
+            <name>headless</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[旅行アプリ「Airbnb」と「Expedia」のプライバシー侵害のリスク、回避する設定とは？]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230717-2727471/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230717-2727471/"/>
+        <updated>2023-07-17T01:10:46.000Z</updated>
+        <summary type="html"><![CDATA[Avast Softwareは7月13日(米国時間)、旅行アプリによるプライバシー侵害の懸念を指摘し、人気のある旅行アプリであるAirbnbとExpediaについて具体的なリスクを指摘した。これらのアプリは個人情報や位置情報を収集する可能性があり、プライバシー保護のための対策が必要とされている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「見立て」のすすめ 〜「デザイン」の前に〜]]></title>
+        <id>https://tech-lab.sios.jp/?p=35011</id>
+        <link href="https://tech-lab.sios.jp/archives/35011"/>
+        <updated>2023-07-16T12:34:48.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、サイオステクノロジーの馬場です。 この記事は、私の考えを綴る、いわばエッセイです。もし、よろしければ、おつきあいください。 私は最近、「デザイン」の前段階・準備を「見立て(みたて)」と呼び始めました。 私のい [...]
+「見立て」のすすめ 〜「デザイン」の前に〜 first appeared on SIOS Tech. Lab.]]></summary>
+        <author>
+            <name>baba</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SOHOルータで隠れるマルウェア「AVrecon」発見、近年最大規模の知られざる脅威]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230716-2728561/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230716-2728561/"/>
+        <updated>2023-07-16T11:17:08.000Z</updated>
+        <summary type="html"><![CDATA[Lumen Technologiesは7月12日(米国時間)に「AVrecon」というLinuxベースのトロイの木馬について報じた。このマルウェアは小規模オフィス・ホームオフィス(SOHO)のルータを標的にしており、2年以上も検出されないまま活動していたという。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[3カ月活動が停滞していたCl0pが復活、今もっとも恐ろしいランサムウェア]]></title>
         <id>https://news.mynavi.jp/techplus/article/20230716-2727708/</id>
