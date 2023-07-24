@@ -199,6 +199,16 @@
       "siteUrl": "https://www.ipa.go.jp/about/index.html",
       "articles": [
         {
+          "id": "https://www.ipa.go.jp/security/reports/economics/scrm/cloud2022.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「クラウドサービス（SaaS）のサプライチェーンリスクマネジメント実態調査」に関する情報です。",
+          "link": "https://www.ipa.go.jp/security/reports/economics/scrm/cloud2022.html",
+          "publishedOn": "2023-07-23T15:00:00.000Z",
+          "wordCount": 1258,
+          "title": "クラウドサービス（SaaS）のサプライチェーンリスクマネジメント実態調査を公開しました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
           "id": "https://www.ipa.go.jp/recruit/shokutaku/index.html",
           "author": "情報処理推進機構（IPA）",
           "description": "情報処理推進機構（IPA）の「嘱託職員公募」に関する情報です。",
@@ -935,6 +945,21 @@
       "feedUrl": "https://engineers.ffri.jp/rss",
       "siteUrl": "https://engineers.ffri.jp/",
       "articles": [
+        {
+          "id": "hatenablog://entry/820878482945095589",
+          "author": null,
+          "description": "はじめに\n研究開発第二部リードセキュリティエンジニアの一瀬です。先日は「セキュリティエンジニアを目指す人に知っておいてほしい組織」を公開しました。今回は、セキュリティエンジニアを目指す人に知っておいてほしい制度やガイドライン、サービスについてまとめました。こちらも、セキュリティエンジニアとして働いていると日常的に会話に出てくるものばかりです。これからセキュリティを学ぼうという方の参考になれば幸いです。なお、記載した情報はすべて執筆時点 (2023 年 7 月) のものです。\nはじめに\n制度・ガイドライン\n\n\nセキュリティ設定共通化手順 (SCAP)\n共通脆弱性識別子 (CVE)\n共通脆弱性評価システム (CVSS)\nISMS適合性評価制度\n政府情報システムのためのセキュリティ評価制度 (ISMAP)\nCSIRT Services Framework\nPSIRT Services Framework\nCIS Controls\nTRAFFIC LIGHT PROTOCOL (TLP)\nサービス\n\n\nNATIONAL VULNERABILITY DATABASE (NVD)\nJapan Vulnerability Notes (JVN)\nMITRE ATT&CK\nCAPEC\nVirusTotal\nShodan\n番外編\n\n\n機器のサイバーセキュリティ確保のためのセキュリティ検証の手引き\nおわりに\nエンジニア募集\n制度・ガイドライン\nセキュリティ設定共通化手順 (SCAP) [公式サイト]\n通称は「SCAP (エスキャップ)」です。サイバーセキュリティ対策の自動化と標準化を目的として、アメリカの NIST により開発されています。以下の 6 つの標準仕様により構成されています。\nCVE (脆弱性の識別)\nCCE (セキュリティ設定の識別)\nCPE (製品の識別)\nCVSS (脆弱性の…",
+          "link": "https://engineers.ffri.jp/entry/2023/07/24/110037",
+          "publishedOn": "2023-07-24T02:00:37.000Z",
+          "wordCount": 995,
+          "title": "セキュリティエンジニアを目指す人に知っておいてほしい制度やガイドライン・サービスのまとめ",
+          "enclosure": {
+            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/F/FFRI/20220120/20220120172514.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/F/FFRI/20220120/20220120172514.jpg"
+        },
         {
           "id": "hatenablog://entry/820878482941550264",
           "author": null,
@@ -1807,6 +1832,26 @@
       "siteUrl": "https://jvn.jp/",
       "articles": [
         {
+          "id": "https://jvn.jp/jp/JVN37857022/",
+          "author": "jvn@jvn.jp",
+          "description": "法務省が提供する申請人プログラムには、XML 外部実体参照 (XXE) に関する脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN37857022/",
+          "publishedOn": "2023-07-24T03:00:00.000Z",
+          "wordCount": 185,
+          "title": "申請人プログラムにおける XML 外部実体参照 (XXE) に関する脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU93384719/",
+          "author": "jvn@jvn.jp",
+          "description": "トレンドマイクロ株式会社から、ウイルスバスター クラウド向けのアップデートが公開されました。",
+          "link": "https://jvn.jp/vu/JVNVU93384719/",
+          "publishedOn": "2023-07-24T00:30:00.000Z",
+          "wordCount": 59,
+          "title": "トレンドマイクロ製ウイルスバスター クラウドにおける権限昇格の脆弱性",
+          "imageUrl": null
+        },
+        {
           "id": "https://jvn.jp/vu/JVNVU99432855/",
           "author": "jvn@jvn.jp",
           "description": "Perimeter81のmacOSアプリケーションには、権限昇格の脆弱性が存在します。",
@@ -2133,6 +2178,16 @@
       "siteUrl": "https://security.srad.jp/",
       "articles": [
         {
+          "id": "https://security.srad.jp/story/23/07/23/1245244/",
+          "author": "nagazou",
+          "description": "1990年代に活発な活動をしていた伝説ハッカー、ケビン・ミトニック氏が膵臓がんとの闘病の末に亡くなったと報じられている。59歳だった。同氏はPacific Bell（現在のAT＆T）にハッキングをし、FBIの最重要指名手配犯としておよそ2年半にわたる逃亡生活を送り、そののち1995年に逮捕された。その後はFBIに協力する形でホワイトハッカーとして活動した。SecurityWeekによると、ラスベガスの葬儀場に掲示された記事で死亡が確認されたという（SecurityWeek、GIGAZINE）。\n すべて読む | セキュリティセクション | セキュリティ |     \n  関連ストーリー： \n「セキュリティにおける真の問題は人間」ケビン・ミトニック氏は語る 2013年05月28日 \n「伝説のハッカー」ケビン・ミトニック氏、エクアドル大統領選挙でセキュリティ・コンサルティングを行う 2013年02月19日 \n/.Jインタビュー: アルファギーク、宮川達彦に聞け! 2006年11月19日 \n/.Jインタビュー: サイバー法学者、ローレンス・レッシグ教授に聞け! 2006年09月18日",
+          "link": "https://security.srad.jp/story/23/07/23/1245244/",
+          "publishedOn": "2023-07-24T04:32:00.000Z",
+          "wordCount": 2276,
+          "title": "訃報:伝説のハッカー、ケビン・ミトニック氏",
+          "imageUrl": "https://srad.jp/static/topics/security_64.png"
+        },
+        {
           "id": "https://hardware.srad.jp/story/23/07/22/0236228/",
           "author": "headless",
           "description": "パスワード管理サービスの Specops Software が隣接したキーの組み合わせによるパスワードについて、よく使われるものを調査している\n(Specops のブログ記事、\nBetaNews の記事)。\n\nキーボード上の隣接したキーを順に進んでいくパターンは「キーボードウォーク」パターンと呼ばれ、このパターンによるパスワードは弱いパスワードとして避けるべきとされる。しかし、「qwerty」が人気パスワードランキングの常連となっているように、入力しやすく覚えやすいため人気が高い。Specops では一般的なキーボードウォーク生成ツールを用い、欧文キーボードの代表的な 3 つの配列 (QWERTY/AZERTY/QWERTZ) のキーボードウォークパターンを生成。このうち 5 文字以上に限定し、8 億件の漏洩したパスワードデータのサブセットで確認したそうだ。\n\nQWERTY 配列では「Qwerty」が最も多く、100 万回以上一致。以下「qwert」「werty」「asdfg」など、キーボードの 1 段を左から右に進むパターンが大半を占めるが、2 段にわたる「tress」「drews」「vbnhb」といったものもみられる。なお、「drews」は QWERTZ 配列でもトップ 10 入りしており、「tress」「vbnhb」はすべての配列でトップ 10 入りしている。\n\nフランス語キーボードなどで使われる AZERTY 配列では「xcvbn」が 143,000 回以上で最も多く、この配列でのみキーボードウォークパターンとなる「azerty」「eezer」や、この配列では 2 段となる「asdfg」「asdfgh」といったものも含まれる。ドイツ語キーボードなどで使われる QWERTZ 配列では「qwert」が 140 万回以上で最も多く、この配列で入れ替えられている「Y」と「Z」をいずれか 1 つでも含むパスワードはなかったようだ。\n\n各配列のトップ 10 に興味のある方は Specops のブログ記事を参照していただきたい。\n すべて読む | ハードウェアセクション | 入力デバイス | ハードウェア | セキュリティ |     \n  関連ストーリー： \n流出パスワードトップ 200、2022 年版では「password」が 1 位に 2022年11月27日 \n2021 年版流出パスワードトップ 200、 世界では「123456」が 1 位、日本では「password」が 1 位 2021年11月21日 \n2019年の最悪パスワードは1位は今年も「123456」、2位は「qwerty」に。 2019年12月23日 \n2018年・最悪のパスワードトップ50、今年も「123456」がナンバー1に 2018年12月17日 \nキーボードがなぜQWERTYになったかの歴史的経緯 2018年06月19日 \n最悪なパスワードランキングで「123456」が5年連続ナンバー1に輝く 2017年12月23日 \n「最もよく使われているパスワード」、2016年調査でもトップは「123456」 2017年01月19日 \n不倫サイトから流出したパスワードの解析が進む、罪悪感や言い訳のようなフレーズも多数 2015年09月18日 \n2014年最も人気のあったパスワード、相変わらず「123456」や「password」がトップに 2015年01月22日 \n「ユーザー名 = メールアドレス名」はダメ？ 2012年11月26日 \n「よく使われる危険なパスワードTop500」にご注意を 2009年01月06日",
@@ -2239,6 +2294,86 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/07/24/49709.html",
+          "author": null,
+          "description": "国立大学法人大阪教育大学は7月14日、メール転送先ミスによる情報漏えいについて発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/07/24/49709.html",
+          "publishedOn": "2023-07-23T23:05:09.000Z",
+          "wordCount": 810,
+          "title": "大阪教育大学職員が誤って「＠gmeil」を転送先メールアドレスに設定",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42129.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/07/24/49708.html",
+          "author": null,
+          "description": "東証プライム上場企業のアルプスアルパイン株式会社は7月14日、同社グループ会社へのサイバー攻撃について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/07/24/49708.html",
+          "publishedOn": "2023-07-23T23:05:05.000Z",
+          "wordCount": 783,
+          "title": "アルプスアルパイングループ会社にサイバー攻撃、社員の個人情報が漏えい",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42137.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/07/24/49707.html",
+          "author": null,
+          "description": "国立研究開発法人産業技術総合研究所は7月5日、同所材料・化学領域 触媒化学融合研究センターの元研究職員による秘密情報の持ち出しについて発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/07/24/49707.html",
+          "publishedOn": "2023-07-23T23:05:02.000Z",
+          "wordCount": 827,
+          "title": "産総研の元研究職員 秘密情報持ち出し 逮捕 起訴",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42149.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/07/24/49706.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は7月21日、GBrowse におけるアップロードファイルの検証不備の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/07/24/49706.html",
+          "publishedOn": "2023-07-23T23:00:17.000Z",
+          "wordCount": 896,
+          "title": "GBrowse にアップロードファイルの検証不備の脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/07/24/49705.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は7月21日、NetScaler ADC（旧Citrix ADC）およびNetScaler Gateway（旧Citrix Gateway）に複数の脆弱性について発表した。影響を受けるシステムは以下の通り。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/07/24/49705.html",
+          "publishedOn": "2023-07-23T23:00:14.000Z",
+          "wordCount": 906,
+          "title": "Citrix ADCおよびCitrix Gatewayに複数の脆弱性、悪用した攻撃も確認",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/07/24/49704.html",
+          "author": null,
+          "description": "株式会社ノースグリッドは7月20日、同社のオンラインストレージアプリケーションソフト Proselfにおけるリモートコード実行のゼロデイ脆弱性について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/07/24/49704.html",
+          "publishedOn": "2023-07-23T23:00:09.000Z",
+          "wordCount": 870,
+          "title": "オンラインストレージアプリ Proself にリモートコード実行のゼロデイ脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/07/24/49703.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は7月18日、報告書（XBRL）作成ツールにおける XML 外部実体参照 (XXE) に関する脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/07/24/49703.html",
+          "publishedOn": "2023-07-23T23:00:07.000Z",
+          "wordCount": 879,
+          "title": "金融庁提供の報告書（XBRL）作成ツールに XML 外部実体参照 (XXE) に関する脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/07/24/49702.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は7月19日、Oracle Java の脆弱性について発表した。影響を受けるシステムは以下の通り。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/07/24/49702.html",
+          "publishedOn": "2023-07-23T23:00:04.000Z",
+          "wordCount": 885,
+          "title": "Oracle Java に攻撃された場合の影響が大きい脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2023/07/21/49701.html",
           "author": null,
@@ -3054,6 +3189,116 @@
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
         {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1518451.html",
+          "author": null,
+          "description": "一般財団法人 日本気象協会は7月20日、「Weather Data API」にて、大雨確率、強風・暴風確率、降雪確率の高さを示す「気象災害リスク予想API」の提供を開始した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1518451.html",
+          "publishedOn": "2023-07-24T06:30:00.000Z",
+          "wordCount": 4415,
+          "title": "日本気象協会、「Weather Data API」で大雨確率、強風・暴雨確率、降雪確率の提供開始",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1518/451/02.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1518427.html",
+          "author": null,
+          "description": "米国産の約3トンもの重量物が、KSI官公庁オークションに登場して一部で話題になっている。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1518427.html",
+          "publishedOn": "2023-07-24T04:05:02.000Z",
+          "wordCount": 4306,
+          "title": "今なら2円で落札可能？ 官公庁オークションに出品中の約3トンの米国産重量物とは【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1518/427/yajiuma-watch_2.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1518419.html",
+          "author": null,
+          "description": "AppleのiMessageおよびFaceTimeが英国で使えなくなる可能性が浮上している。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1518419.html",
+          "publishedOn": "2023-07-24T04:02:02.000Z",
+          "wordCount": 4329,
+          "title": "iMessageとFaceTime、英国で使えなくなる可能性。Appleが強硬姿勢を見せる理由とは？【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1518/419/yajiuma-watch_3.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/ranking/1518210.html",
+          "author": null,
+          "description": "前週に閲覧数の多かった記事を、カテゴリーごとに上位5位までレポートします。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/ranking/1518210.html",
+          "publishedOn": "2023-07-24T02:01:00.000Z",
+          "wordCount": 4419,
+          "title": "NTT東西「フレッツ光」の2年契約割引の終了や各種料金の改定について報じた記事に注目集まる【アクセスランキング】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1518/210/01_o.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1518239.html",
+          "author": null,
+          "description": "ヤフー株式会社は7月24日、「Yahoo!天気」のAndroid版アプリおよび「Yahoo!天気・災害」ウェブ版で提供している「雨雲レーダー」にて、線状降水帯の表示機能を追加した。iOS版でも8月に追加を予定している。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1518239.html",
+          "publishedOn": "2023-07-24T02:00:00.000Z",
+          "wordCount": 4399,
+          "title": "線状降水帯の発生状況が分かる新機能、「Yahoo!天気」アプリなどで提供開始　「雨雲レーダー」に最大30分先まで表示",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1518/239/yahoo02.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1518085.html",
+          "author": null,
+          "description": "認定NPO法⼈ふるさと回帰⽀援センターは、移住希望者向けイベント「テーマから探す！移住フェア」を、8月6日に開催する。場所は東京交通会館12階グリーンルーム（東京都千代田区有楽町2-10-1）で、開催時間は11時～16時。参加費は無料で、当日参加も可能だが、公式サイトで事前受付を済ませておくとスムーズだとしている。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1518085.html",
+          "publishedOn": "2023-07-24T02:00:00.000Z",
+          "wordCount": 4391,
+          "title": "「テレワーク」「子育て」など気になるテーマから移住先を見つけられるイベント、8月6日に有楽町で開催",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1518/085/main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1518059.html",
+          "author": null,
+          "description": "フィールドスリー株式会社は、ASUSTORの「NIMBUSTOR」シリーズのNASキット2製品の販売を7月28日に開始する。Amazon.co.jpでは、4ベイの「AS5404T」が8万4900円、2ベイの「AS5402T」が5万9900円で予約販売中だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1518059.html",
+          "publishedOn": "2023-07-23T23:30:00.000Z",
+          "wordCount": 4404,
+          "title": "ASUSTORの4/2ベイNASキット「AS5404T」「AS5402T」、フィールドスリーが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1518/059/230721-000000.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/curation/1518026.html",
+          "author": null,
+          "description": "メタは画像からのテキスト生成にも対応した新たなAIモデル「CM3leon（カメレオン）」を発表した（Impress Watch）。これまでにもありがちの「テキストから画像」を生成するだけでなく、「画像からテキスト」の生成もできる。また、従来の手法よりも少ない計算量で学習するにもかかわらず、テキストから画像への生成の性能は優れているとされる。学習した画像のライセンスについては「ライセンスされた画像とテキストデータのみを含むShutterstockデータセットを使用している」ところは、現状の課題の解決を目指しているといえそうだ。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/curation/1518026.html",
+          "publishedOn": "2023-07-23T22:00:00.000Z",
+          "wordCount": 4440,
+          "title": "画像生成AIをめぐる新たな動き ほか【中島由弘の「いま知っておくべき5つのニュース」2023/7/13～7/19】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1518/026/shutterstock_1019006956_main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/teleworkstory/1517261.html",
+          "author": null,
+          "description": "ホームセンターのカインズが新宿高島屋に新店舗をオープンした。カインズでは初の都市型店舗ということで、多くの話題を集めている。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/teleworkstory/1517261.html",
+          "publishedOn": "2023-07-23T22:00:00.000Z",
+          "wordCount": 4422,
+          "title": "「カインズ新宿がOPEN！ あると便利なPC周りのお掃除グッズ3選」――急遽テレワークを導入した中小企業の顛末記（151）【急遽テレワーク導入！の顛末記】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1517/261/1.JPG"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1518279.html",
+          "author": null,
+          "description": "米Salesforceの日本法人となる株式会社セールスフォース・ジャパンは、同社のプライベートカンファレンス「Salesforce World Tour Tokyo」を7月20日・21日に東京都内で開催した。カンファレンスには、同社が2021年に買収して子会社化したSlack Technologiesも参加しており、7月20日午後にはSlackによる基調講演が行なわれた。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1518279.html",
+          "publishedOn": "2023-07-23T21:10:00.000Z",
+          "wordCount": 4492,
+          "title": "「Slack GPT」で何ができる？ 同社CEO/CTOが詳細を語る――新Slackは会話の要約や文書の自動作成をしてくれる　Salesforceとの統合を一段階引き上げる「Slack Sales Elevate」も発表",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1518/279/001.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/shimizu/1513908.html",
+          "author": null,
+          "description": "普段の業務でMicrosoft Teamsを利用している場合は、MicrosoftのAzure Open AIを活用することで、TeamsのチャットでChatGPTを使えるようになる。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/shimizu/1513908.html",
+          "publishedOn": "2023-07-23T21:00:00.000Z",
+          "wordCount": 4519,
+          "title": "ChatGPTをMicrosoft Teamsのチャットで使う―Azure Open AIを使った設定の手順【イニシャルB】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1513/908/001.png"
+        },
+        {
           "id": "https://internet.watch.impress.co.jp/docs/news/weekly/1517993.html",
           "author": null,
           "description": "「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。",
@@ -3266,6 +3511,56 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230724-2733737/",
+          "author": null,
+          "description": "サテライトオフィスは7月24日、ダークウェブへの情報漏洩調査サービス「Zero Darkweb」の提供を開始したと発表した。同サービスでは、AI利用とともに、ホワイトハッカーがダークウェブ上のデータを収集して分析した上で、独自ソフトを用いて企業の情報漏洩を調査し、精度の高いレポートを提供する。",
+          "link": "https://news.mynavi.jp/techplus/article/20230724-2733737/",
+          "publishedOn": "2023-07-24T05:39:12.000Z",
+          "wordCount": 1637,
+          "title": "サテライトオフィス、ダークウェブへの情報漏洩調査サービス提供開始",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230724-2733737/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230724-2733284/",
+          "author": null,
+          "description": "Wizは7月21日(米国時間)、中国のサイバー攻撃者により漏洩したMicrosoftアカウント（MSA）の署名鍵の影響は、当初の想定よりも広範囲に及んでおり、SharePoint、Teams、OneDriveなどの他のアプリケーションにも拡大している可能性を報じた。脆弱性のあるアプリケーションが数百万に達しており、ユーザーは迅速に対策を講じる必要があると注意を喚起している。",
+          "link": "https://news.mynavi.jp/techplus/article/20230724-2733284/",
+          "publishedOn": "2023-07-24T00:23:41.000Z",
+          "wordCount": 1659,
+          "title": "中国の攻撃者によるMicrosoftの署名鍵の窃取、想定以上に大きな影響か",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230724-2733284/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230724-2732335/",
+          "author": null,
+          "description": "GitHubはこのほど、IT企業の個人アカウントを標的にしたソーシャルエンジニアリングキャンペーンが行われているとして、注意を呼び掛けた。攻撃者はGitHubリポジトリへの招待と悪意のあるnpmパッケージの依存関係を利用し、マルウェアをダウンロードさせる手口を使っている。北朝鮮支援のサイバー犯罪者グループ関連の犯行とみられる。",
+          "link": "https://news.mynavi.jp/techplus/article/20230724-2732335/",
+          "publishedOn": "2023-07-23T23:27:43.000Z",
+          "wordCount": 1653,
+          "title": "GitHubリポジトリへの招待悪用してマルウェアに感染させる攻撃に注意、北朝鮮支援か",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230724-2732335/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230724-2733160/",
+          "author": null,
+          "description": "フィッシング対策協議会は7月21日、2020年に行われたインターネットサービス利用者の認証方法に関するアンケート調査の追跡調査の結果を公表した。調査期間は2022年12月7日～2022年12月12日。 報告書では利用者のフィッシング詐欺に対する意識や行動に焦点を当て、特にスマートフォン利用やパスワード設定、セキュリティ意識の変化などが示されている。",
+          "link": "https://news.mynavi.jp/techplus/article/20230724-2733160/",
+          "publishedOn": "2023-07-23T22:11:10.000Z",
+          "wordCount": 1629,
+          "title": "コロナ禍を経てPCの利用が大幅減少、パスワード使い回しが増加",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230724-2733160/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230723-2732337/",
+          "author": null,
+          "description": "The Hacker Newsは7月20日（米国時間）、リモートデスクトッププロトコル(RDP)の危険性について伝えた。RDPはWindowsベースのシステムでリモートアクセスや管理に広く使用されているが、リモートコード実行(RCE)の危険性が指摘されている。この脆弱性が悪用されるとシステムのセキュリティと完全性が危険にさらされ、データ漏洩や侵害のリスクが高まる。",
+          "link": "https://news.mynavi.jp/techplus/article/20230723-2732337/",
+          "publishedOn": "2023-07-23T09:16:34.000Z",
+          "wordCount": 1677,
+          "title": "Windowsリモートデスクトッププロトコル（RDP）に複数の脆弱性、注意を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230723-2732337/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20230723-2732059/",
           "author": null,
