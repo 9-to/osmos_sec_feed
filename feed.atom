@@ -2,10 +2,216 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-07-28T08:10:28.760Z</updated>
+    <updated>2023-07-29T08:09:46.325Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[GoogleやBingの広告悪用してマルウェアに感染させる攻撃に注意]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230729-2737309/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230729-2737309/"/>
+        <updated>2023-07-29T07:57:05.000Z</updated>
+        <summary type="html"><![CDATA[Sophosは7月26日(英国時間)、悪意のある広告を通じて正規のソフトウェアになりすまして攻撃を行うマルウェアキャンペーン「Nitrogen」について、注意を呼び掛けた。このキャンペーンはGoogleやBingの広告を悪用し、特定のソフトウェアを求めるユーザーをフィッシングサイトへ誘導する。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[米証券取引委員会、重大なサイバーセキュリティインシデントの迅速な開示を義務付ける新ルール]]></title>
+        <id>https://security.srad.jp/story/23/07/29/0619220/</id>
+        <link href="https://security.srad.jp/story/23/07/29/0619220/"/>
+        <updated>2023-07-29T06:41:00.000Z</updated>
+        <summary type="html"><![CDATA[米証券取引委員会 (SEC) は 7 月 26 日、企業に重大なサイバーセキュリティインシデントを投資家の投資判断に役立つような形で開示するよう義務付ける新ルールを採択した
+(プレスリリース、
+The Verge の記事)。
+
+投資家にとって、投資先がサイバーセキュリティインシデントで数百万件のファイルを失うことは火事で工場を失うのと同様に重大であり、既に多くの公開会社は投資家に向けてサイバーセキュリティ関連の開示を行っているが、より一貫して比較可能であり、投資判断に役立つような形で開示すれば、企業も投資家も利益を得られるとのこと。
+
+具体的には、企業が重大なサイバーインシデントと判断してから 4 営業日以内に Form 8-K 報告書の新アイテム 1.05 として報告が義務付けられる。ただし、米司法長官が即時開示を国家安全保障や公共安全へのリスクが高いと判断し、書面で SEC に通知した場合は開示を延期する可能性もある。
+
+また、サイバーセキュリティ対策などの説明を義務付けるアイテム 106 が Regulation S-K 報告要件に追加され、Form 10-K 報告書での年次報告への記載も必要になる。国外企業でも同等の開示が Form 6-K と Form 20-F でそれぞれ義務付けられるとのことだ。
+ すべて読む | セキュリティセクション | ビジネス | セキュリティ |     
+  関連ストーリー： 
+ニューヨーク証券取引所、Twitterの上場廃止計画を米証券取引委員会に報告 2022年10月29日 
+米連邦地裁判事、証券取引委員会との裁判に関する Tesla 側の要請を却下 2022年02月28日 
+証券詐欺で訴追された App Annie、1,000 万ドルの罰金支払いで米証券取引委員会と合意 2021年09月18日 
+米証券取引委、SNS上の株価操作の疑いで15銘柄の取引停止 2021年03月01日 
+スティーブン・セガール、ICO投資勧誘に関する違法行為の罰金など計314,000ドルを支払うことで米証券取引委員会と合意 2020年03月01日 
+Appleの元法務部長、インサイダー取引で起訴される 2019年10月27日 
+米証券取引委員会、証券詐欺容疑でイーロン・マスクを告発 2018年09月29日 
+ビットコインを使った上場投資信託の認可申請、米証券取引委員会が認可を拒否 2017年03月13日 
+米ポートランド、経営者が従業員の100倍以上の報酬を貰っている企業に対し追加課税する条例を制定 2016年12月14日 
+Facebook、マーク・ザッカーバーグ氏がCEOを辞めたら議決権を大幅に減らすルールが提案される 2016年06月05日 
+米証券取引委員会、企業に対し経営トップと一般従業員との報酬差開示を義務付けへ 2015年08月07日]]></summary>
+        <author>
+            <name>headless</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google、Androidデバイスで不明なBluetoothトラッカーを検出する機能をロールアウト]]></title>
+        <id>https://security.srad.jp/story/23/07/29/0217246/</id>
+        <link href="https://security.srad.jp/story/23/07/29/0217246/"/>
+        <updated>2023-07-29T02:55:00.000Z</updated>
+        <summary type="html"><![CDATA[Googleは7月27日、同意なくユーザーの追跡に使われているBluetoothトラッカーをAndroidデバイスで検出・通知する「不明なトラッキングアラート」を今月からロールアウト開始したことを明らかにした
+(The Keyword の記事、
+Android ヘルプの記事、
+Mac Rumors の記事、
+動画)。
+
+不明なトラッキングアラートは所有者のデバイスから離れて Bluetooth 圏外となったトラッカーがユーザーと一緒に移動していることを検出・通知する機能で、5 月に Google I/O で発表されていた。この機能は Android 6.0 以降で利用可能になるとのこと。
+
+不明なトラッキングアラートによるトラッカーの監視を行うには、Bluetooth と位置情報をオンにしておく必要がある。オプションは「設定」の「緊急情報と緊急通報」に追加され、ここで手動スキャンを実行することも可能だ。手動スキャンに位置情報は必要ない。
+
+不明なトラッカーが見つかった場合はユーザーに警告するほか、発見して対処する方法を解説する。通知画面からトラッカーに音を鳴らすよう指示することも可能だ。手元の端末では Android 12 デバイスで利用できるようになっていたが、Android 13 デバイスではまだ利用できなかった。
+ すべて読む | セキュリティセクション | アップグレード | セキュリティ | YRO | ソフトウェア | Android | プライバシ |     
+  関連ストーリー： 
+盗まれたバイクの場所をAirTagで特定したが、取り戻すことのできない米シカゴのバイクオーナー 2023年07月27日 
+米ニューヨーク市警、自動車の窃盗対策に AirTag を推奨 2023年05月04日 
+置き配の荷物を複数盗まれた被害者、AirTag入りの「おとり荷物」で容疑者を追跡 2023年04月21日 
+米捜査当局も犯罪者追跡に AirTag を活用か 2023年03月27日 
+米クラスアクション訴訟、AirTag によるストーカー被害の責任を Apple に問う 2022年12月11日 
+AirTagの不正改造で全国初の摘発。オークションなどで販売 2022年12月03日 
+Appleの「AirTag」が警察の捜査車両に取り付けられる 2022年07月07日 
+米国でAirTagを悪用した殺人事件 2022年06月17日 
+AirTag の幽霊、iPhone ユーザーを悩ませる 2022年05月09日 
+AirTag によるストーキング被害、通知機能で追跡に気付いたケースは 3 分の 1 2022年04月09日 
+Apple によるストーキング防止策をバイパス可能な AirTag クローン 2022年02月24日 
+無断で他人を追跡する行為は犯罪だという AirTag 初回設定時の警告表示、犯罪者にも効果があるか 2022年02月12日 
+スピーカーを無効化した AirTag、オンラインマーケットプレース出品で注目される 2022年02月06日 
+Apple、AirTag を悪用したストーキングへの対策などを含む安全ガイドを公開 2022年01月29日 
+Airtagの悪用が止まらない 2022年01月26日 
+Apple、持ち主から離れた場所にある AirTag を Android で検出可能なアプリを公開 2021年12月16日]]></summary>
+        <author>
+            <name>headless</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[京セラの複合機とプリンタに脆弱性、確認とアップデートを]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230729-2736906/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230729-2736906/"/>
+        <updated>2023-07-29T00:05:27.000Z</updated>
+        <summary type="html"><![CDATA[JPCERTコーディネーションセンターは7月27日、京セラドキュメントソリューションズが提供する複合機およびプリンタのWebインタフェースであるCommand Center RX(CCRX)に複数の脆弱性が見つかったと報じた。詳細を確認した上で、アップデートを適用することが推奨されている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[世界一わかりみの深いAzure Application Gateway]]></title>
+        <id>https://tech-lab.sios.jp/?p=30628</id>
+        <link href="https://tech-lab.sios.jp/archives/30628"/>
+        <updated>2023-07-28T13:42:51.000Z</updated>
+        <summary type="html"><![CDATA[みなさんこんにちは、武井です。今回はAzureのL7ロードバランサーであるApplication Gatewayについて、わかりみの深く解説したいと思います。 L7のロードバランサーとは？ Application Gat [...]
+世界一わかりみの深いAzure Application Gateway first appeared on SIOS Tech. Lab.]]></summary>
+        <author>
+            <name>武井 宜行</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases Malware Analysis Reports on Barracuda Backdoors]]></title>
+        <id>/node/18545</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/07/28/cisa-releases-malware-analysis-reports-barracuda-backdoors"/>
+        <updated>2023-07-28T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA has published three malware analysis reports on malware variants associated with exploitation of CVE-2023-2868. CVE-2023-2868 is a remote command injection vulnerability affecting Barracuda Email Security Gateway (ESG) Appliance, versions 5.1.3.001-9.2.0.006. It was exploited as a zero day as early as October 2022 to gain access to ESG appliances. According to industry reporting, the actors exploited the vulnerability to gain initial access to victim systems and then implanted backdoors to establish and maintain persistence.
+CISA analyzed backdoor malware variants obtained from an organization that had been compromised by threat actors exploiting the vulnerability.
+Barracuda Exploit Payload and Backdoor – The payload exploits CVE-2023-2868, leading to dropping and execution of a rever…]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ivanti Releases Security Updates for EPMM to address CVE-2023-35081]]></title>
+        <id>/node/18533</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/07/28/ivanti-releases-security-updates-epmm-address-cve-2023-35081"/>
+        <updated>2023-07-28T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ivanti has identified and released patches for a directory traversal vulnerability (CVE-2023-35081, CWE-22) in Ivanti Endpoint Manager Mobile (EPMM). This vulnerability allows an attacker with EPMM administrator privileges to write arbitrary files with the operating system privileges of the EPMM web application server. The attacker could then execute the uploaded file, for example, a web shell. To gain EPMM administrator privileges, the attacker could exploit CVE-2023-35078 on an unpatched system.
+Ivanti reports active exploitation of both CVE-2023-35081 and CVE-2023-35078. 
+This vulnerability affects supported EPMM versions 11.10, 11.9, and 11.8. Older, unsupported versions are also affected. 
+CISA urges users and organizations to patch both CVE-2023-35081 and CVE-2023-35078. Patches for CVE-2023-35081 also include patches for CVE-2023-35078 (refer to our prior alert.)]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[禁止なのにファックス利用、しかも宛先を間違えマイナンバー1件漏えい　沖縄労働局]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2307/28/news182.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2307/28/news182.html"/>
+        <updated>2023-07-28T11:06:00.000Z</updated>
+        <summary type="html"><![CDATA[沖縄労働局が、無関係な人物に個人情報を送るミスがあったと発表した。個人情報をやりとりする手段として禁止されているはずのファックスを利用。しかも相手に教えるファックス番号を間違えた結果、無関係な人物に個人情報が渡ったという。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MikroTik RouterOSにrootシェル取得の脆弱性、未修正のシステム多し - 更新を]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230728-2736246/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230728-2736246/"/>
+        <updated>2023-07-28T10:10:05.000Z</updated>
+        <summary type="html"><![CDATA[VulnCheckは7月25日(米国時間)、MikroTik RouterOS Long-termにリモート認証した攻撃者がrootシェルを取得できる脆弱性が存在すると報じた。未対策のシステムが依然多く存在しているとして、管理者に対策を促している。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[見出しでわかる IT界隈・今週の重要ニュース：全103本［2023/7/20～7/26］]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/weekly/1519787.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/weekly/1519787.html"/>
+        <updated>2023-07-28T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[トピックス]DNSSEC実証 体験ハンズオン(オンライン)開催のご案内(8月/9月/10月・参加無料)]]></title>
+        <id>https://www.nic.ad.jp/ja/topics/2023/20230728-02.html</id>
+        <link href="https://www.nic.ad.jp/ja/topics/2023/20230728-02.html"/>
+        <updated>2023-07-28T09:15:28.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AI in the Wild: Malicious Applications of Mainstream AI Tools]]></title>
+        <id>https://www.mcafee.com/blogs/?p=171872</id>
+        <link href="https://www.mcafee.com/blogs/internet-security/ai-in-the-wild-malicious-applications-of-mainstream-ai-tools/"/>
+        <updated>2023-07-28T08:46:25.000Z</updated>
+        <summary type="html"><![CDATA[It’s not all funny limericks, bizarre portraits, and hilarious viral skits. ChatGPT, Bard, DALL-E, Craiyon, Voice.ai, and a whole host...
+The post AI in the Wild: Malicious Applications of Mainstream AI Tools appeared first on McAfee Blog.]]></summary>
+        <author>
+            <name>McAfee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[elasticsearch で10000件以上検索する方法]]></title>
+        <id>https://tech-lab.sios.jp/?p=34150</id>
+        <link href="https://tech-lab.sios.jp/archives/34150"/>
+        <updated>2023-07-28T08:30:32.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、サイオステクノロジーの藤井です。 この記事では、elasticsearchで大量のデータを検索するときの注意点について紹介していきたいと思います。 elasticsearchとは、Elastic社が提供してい [...]
+elasticsearch で10000件以上検索する方法 first appeared on SIOS Tech. Lab.]]></summary>
+        <author>
+            <name>藤井</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PFU、写真を通じた家族の対話を促進する「写真で語ろう」プロジェクトを開始　ScanSnapが当たるSNSキャンペーンも]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1519792.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1519792.html"/>
+        <updated>2023-07-28T08:30:00.000Z</updated>
+        <summary type="html"><![CDATA[株式会社PFUは、一般社団法人生前整理普及協会とともに、家族を通して家族の対話を増やし、写真の価値に気づいてもらうことを目指した「写真で語ろう」プロジェクトを7月29日に開始する。SNSでは同社の「ScanSnap」シリーズが当たるキャンペーンも行われる。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Cisco Silicon One を使用して AI/ML ネットワークを構築]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=47744</id>
+        <link href="https://gblogs.cisco.com/jp/2023/07/building-ai-ml-networks-with-cisco-silicon-one/"/>
+        <updated>2023-07-28T08:00:41.000Z</updated>
+        <summary type="html"><![CDATA[これまでハイパフォーマンス コンピューティング（HPC）で使用してきたネットワークは、AI/ML の需要を満たすまでには拡張できません。したがって業界としては、これまでの考え方を発展させて、AI/ML に対応できるだけの拡張性と持続可能性を備えたネットワークを構築する必要があります。]]></summary>
+        <author>
+            <name>大塚 真也</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[栃木県宇都宮市、UIJターン希望者向け説明会・移住相談会を8月1日に新宿で開催]]></title>
         <id>https://internet.watch.impress.co.jp/docs/news/1519817.html</id>
@@ -408,6 +614,17 @@
 なお、イニシャルアクセスブローカーの中には、不正アクセスのターゲット企業に所属する従業員が協力しているケースもある。このような内部犯行だけでなく、従業員のパソコンなどの端末がマルウェアに感染することで、情報が漏えいしているケースもあるため、適切な従業員への教育、セキュリティ対策が求められている。]]></summary>
         <author>
             <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What is Spyware?]]></title>
+        <id>https://securingtomorrow.mcafee.com/?p=74494</id>
+        <link href="https://www.mcafee.com/blogs/privacy-identity-protection/what-is-spyware/"/>
+        <updated>2023-07-27T14:06:50.000Z</updated>
+        <summary type="html"><![CDATA[Spyware. If the name sounds creepy and invasive, that’s because it is.  The thought of someone virtually looking over your...
+The post What is Spyware? appeared first on McAfee Blog.]]></summary>
+        <author>
+            <name>McAfee</name>
         </author>
     </entry>
     <entry>
@@ -8311,94 +8528,6 @@ The post Be Mindful of These 3 AI Tricks on World Social Media Day appeared firs
         <link href="https://www.itmedia.co.jp/news/articles/2306/30/news066.html"/>
         <updated>2023-06-29T23:00:00.000Z</updated>
         <summary type="html"><![CDATA[米ラトガース大学と米テンプル大学に所属する研究者らは、裏面を指でタッチした際に個人認証を行うスマートフォンケースを提案した研究報告を発表した。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[エポスカードをかたるフィッシングについての注意喚起]]></title>
-        <id>https://eset-info.canon-its.jp/malware_info/news/detail/230630.html</id>
-        <link href="https://eset-info.canon-its.jp/malware_info/news/detail/230630.html"/>
-        <updated>2023-06-29T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[2023年6月30日現在、エポスカードをかたるフィッシングが確認されております。フィッシングサイト上の入力欄には、絶対に情報を入力しないようにお願いします。
-
-このようなフィッシングサイトにて、エポスNet ID、パスワード等を絶対に入力しないよう、ご注意ください
-
-日頃からサービスへログインする際は、メールや SMS 内のリンクではなく、いつも利用しているスマートフォンの公式アプリやブラウザーのブックマークなどからアクセスするよう、心がけてください。
-
-【メールの件名】
-
-【エポスカード】本人情報緊急確認
-【エポスカード】個人情報確認
-【エポスカード】重要なお知らせ
-【エポスカード】重要:必ずお読みください
-【エポスカード】お支払い金額確定のご案内
-【エポスカード】二段階認証の導入についてのお知らせ
-【エポスカード】お客様のアカウント認証に関するお知らせ
-【重要】エポスカード本人確認のお知らせ
-【最終警告】エポスカード からの緊急の連絡
-【重要なお知らせ】エポスカード ご利用確認のお願い
-「エポスカード」ご利用環境確認用ワンタイムURLのお知らせ
-お支払い方法変更のご案内【エポスカード】
-＜緊急!エポスカード 重要なお知らせ＞
-
-※上記以外の件名も使われている可能性があります。
-
-【サイトのURL】
-
-https://www.epcosaed.co.jp.●●●●.cn/
-https://www.epcosard.co.jp.●●●●.cn/
-https://ngh●●●●.cfd/index.php?info=●●●●
-https://hiu●●●●.cfd/index.php?info=●●●●
-https://rng●●●●.cfd/index.php?id=●●●●
-https://yhy●●●●.cfd/index.php?id=●●●●
-
-※上記以外のドメイン、URL も使われている可能性があります。
-※URL にパスやパラメータが付いていることがあります。
-
-2023/6/30 9:00時点では、フィッシングサイトは稼働中です。このサイトが停止しても、類似のフィッシングサイトが公開される恐れもありますので注意してください。
-このようなフィッシングサイトは日々新規に作成されています。ESET製品は、新規に作成されるフィッシングサイトにも随時対応していきますが、お客さま自身でも十分にご注意ください。
-
-【参考情報】
-
-【重要】フィッシングメール詐欺にご注意ください
-
-エポスカードを騙るフィッシングメール・サイトの見分け方
-
-
- 
-
-
-■ ESET製品における検出例
-
-
-
-※ESET Internet Security V16.0/ESET Mobile Security V7.0でフィッシング対策機能が有効な場合は、図のような通知が表示されます。
-
-
-■ フィッシングメール／フィッシングサイトへの対応
-
-
-
-	フィッシングの可能性があるメールをむやみに開かない。
-	フィッシングの可能性があるメールの添付ファイルをむやみに開かない。
-	メール文中のリンク先URLがフィッシングサイトである可能性を考え、リンク先URLへむやみにアクセスしない。
-	フィッシングの可能性があるサイトにアカウント情報やクレジットカード情報などを入力しない。
-
-
-
-
-キヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。]]></summary>
-        <author>
-            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Proton、無料のE2EEパスワードマネジャー「Proton Pass」リリース]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2306/29/news108.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2306/29/news108.html"/>
-        <updated>2023-06-29T00:05:00.000Z</updated>
-        <summary type="html"><![CDATA[E2EEメールサービスを手掛けるProtonが無料のパスワードマネジャー「Proton Pass」をリリースした。Webブラウザの拡張機能とモバイルアプリ版がある。コードはGitHubで公開されている。]]></summary>
         <author>
             <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
         </author>
