@@ -2,10 +2,803 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-08-07T08:11:40.003Z</updated>
+    <updated>2023-08-08T08:10:51.874Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[【2023年7月号】暴露型ランサムウェア攻撃統計CIGマンスリーレポート]]></title>
+        <id>https://www.mbsd.jp/research/20230808/cig-monthly/</id>
+        <link href="https://www.mbsd.jp/research/20230808/cig-monthly/"/>
+        <updated>2023-08-08T13:06:15.000Z</updated>
+        <summary type="html"><![CDATA[【2023年7月号】暴露型ランサムウェア攻撃統計CIGマンスリーレポート]]></summary>
+        <author>
+            <name>三井物産セキュアディレクション株式会社</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Solidity で丁半博打プログラムを作る]]></title>
+        <id>https://tech-lab.sios.jp/?p=35335</id>
+        <link href="https://tech-lab.sios.jp/archives/35335"/>
+        <updated>2023-08-08T07:50:05.000Z</updated>
+        <summary type="html"><![CDATA[サイオステクノロジーの菊地啓哉です。今回は、Solidity でなんちゃって丁半博打を仲介してくれる SmartContract を作ります。 対象 Solidity で簡単な SmartContract を作れる人 前 [...]
+Solidity で丁半博打プログラムを作る first appeared on SIOS Tech. Lab.]]></summary>
+        <author>
+            <name>菊地啓哉</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[内閣サイバーセキュリティセンター（NISC）からメールデータが漏洩]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230808-2745103/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230808-2745103/"/>
+        <updated>2023-08-08T07:43:17.000Z</updated>
+        <summary type="html"><![CDATA[内閣サイバーセキュリティセンターは8月4日、運営する電子メール関連システムに不正な通信があり、個人情報を含むメールデータの一部が外部に漏えいした可能性があると伝えた。発表時点で、個人情報の悪用は確認されていない。不正な通信は当該機器の脆弱性に起因していることが判明したとしているが詳細は公開されていない。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[企業のソースコードと秘密を窃取するnpmパッケージを発見、すぐ確認を]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230808-2744580/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230808-2744580/"/>
+        <updated>2023-08-08T06:42:34.000Z</updated>
+        <summary type="html"><![CDATA[Phylumは8月3日（米国時間）、標的型npmマルウェアが企業のソースコードと秘密の窃取を試みていると報じた。Phylumによると、インストールするだけで特定のファイルを窃取する悪意のあるnpmパッケージが確認され、主にネットワークサービスの開発データや認証情報などを窃取するとしており注意が必要としている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[米国ではAIによるクローン音声がすでに犯罪に使われている]]></title>
+        <id>https://security.srad.jp/story/23/08/07/1155201/</id>
+        <link href="https://security.srad.jp/story/23/08/07/1155201/"/>
+        <updated>2023-08-08T06:13:00.000Z</updated>
+        <summary type="html"><![CDATA[米国でAIによるクローン音声を使った偽装誘拐がおこなわれたという。母親が電話に出ると「助けて!」と叫ぶ声娘の悲鳴を流され、100万ドルの身代金を要求するという事件だった。しかし、本物の娘と少し後に電話がつながったことでこの電話は偽装誘拐詐欺であることが判明した。FBIによれば、米国ではこうした偽装誘拐詐欺が増加しているという（INTERNET Watch）。 
+
+米国ではこうした事件1件当たりで、平均1万1000ドルの被害に遭っているとされ、2022年にはなりすまし詐欺全体での被害金額は26億ドルにも達しているとされる。最近の偽装誘拐詐欺では、AIを用いて被害者の家族の声を模倣する手法が使われており、見破ることが難しくなっている。 
+
+この事例を踏まえ、日本でもオレオレ詐欺にAIによるクローン音声が使われる可能性がある。オレオレ詐欺は現在でも日本で多くの被害をもたらしており、AI技術の進化によって被害が増えることが懸念されている。FBIは家族間の合言葉の設定やSNSに外出情報を投稿しないよう注意するようアドバイスしている。
+ すべて読む | セキュリティセクション | 犯罪 | セキュリティ | アメリカ合衆国 |     
+  関連ストーリー： 
+米カップル、結婚式の司会をChatGPTに丸投げ。AIに永遠の愛を誓う 2023年07月12日 
+YouTube、AIによる吹替サービス提供計画 2023年06月25日 
+NVIDIA、対話できるNPCを実現するAIファウンドリサービス 2023年06月06日 
+Cortana、AIに仕事を奪われる 2023年06月06日]]></summary>
+        <author>
+            <name>nagazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[中国から日本へのサイバー攻撃「機密の漏えい確認していない」　官房長官・防衛大臣が報道にコメント]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2308/08/news130.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2308/08/news130.html"/>
+        <updated>2023-08-08T05:47:00.000Z</updated>
+        <summary type="html"><![CDATA[松野博一内閣官房長官は8月8日の定例会見で、米The Washington Postによる、中国人民解放軍が日本の防衛ネットワークに侵入していたという報道について「報道は承知している。サイバー攻撃により防衛省が保有する機密情報が漏えいした事実は確認していない」とコメントした。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[米政府、学校のサイバーセキュリティ対策に本腰 - AWSなども協力]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230808-2745065/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230808-2745065/"/>
+        <updated>2023-08-08T05:41:57.000Z</updated>
+        <summary type="html"><![CDATA[米政府は8月7日、国内の保育園から小、中、高校向けのサイバーセキュリティ対策に乗り出すことを発表した。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[中国軍、日本の防衛ネットワークへ侵入していた可能性　米紙報道　2020年に「日本史上最も有害なハッキング」]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2308/08/news129.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2308/08/news129.html"/>
+        <updated>2023-08-08T05:36:00.000Z</updated>
+        <summary type="html"><![CDATA[米The Washington Postは、中国軍のサイバースパイが2020年に日本の防衛ネットワークに侵入したことが分かったと報じた。米政府の高官は急きょ日本に駆け付け、脅威について情報共有したという。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「リモートワークは死んだ」Zoom、フルリモート勤務を廃止し社員に出社を指示し波紋【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1522462.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1522462.html"/>
+        <updated>2023-08-08T05:34:09.000Z</updated>
+        <summary type="html"><![CDATA[Zoomが従業員のフルリモート勤務を中止し、オフィスへの出勤を要求していることが明らかになり波紋を呼んでいる。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[プライバシーは大丈夫？ Edge、閲覧したサイトの全スクショを記録する機能をテスト中【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1522461.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1522461.html"/>
+        <updated>2023-08-08T05:31:10.000Z</updated>
+        <summary type="html"><![CDATA[ウェブブラウザーのEdgeで、閲覧したウェブサイト全てのスクリーンショットを記録する機能のテストが行われていることが明らかになった。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[防音効果のあるグリーンバックパネル「breen」、東京防音がMakuakeで先行発売　スタジオだけでなく、自宅撮影用にも扱いやすい素材]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1522596.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1522596.html"/>
+        <updated>2023-08-08T04:50:00.000Z</updated>
+        <summary type="html"><![CDATA[東京防音株式会社は8月7日、応援購入サービスMakuakeにて、防音グリーンバック「breen」の先行予約販売を開始した。同サイトでの応援購入価格は、2m四方のスタジオ向け「スタジオセット」が6万6000円、breen1枚単品が1万2000円、床用シート1mが2200円など。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[カーボンニュートラルを目指すGreen×Digitalコンソーシアム、CO2データ連携の実証実験に成功　「データ連携のための技術仕様（Version 1.0）」公開]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1522247.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1522247.html"/>
+        <updated>2023-08-08T04:15:00.000Z</updated>
+        <summary type="html"><![CDATA[一般社団法人電子情報技術産業協会（JEITA）が事務局を務め、環境関連分野のデジタル化や新たなビジネスモデルの創出などに取り組む「Green×Digitalコンソーシアム」は、仮想サプライチェーン上において、CO2データの連携に成功したと発表した。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新米フロント担当がWEBエンジニアについてざっくりと紹介する：非エンジニアに向けて]]></title>
+        <id>https://tech-lab.sios.jp/?p=35505</id>
+        <link href="https://tech-lab.sios.jp/archives/35505"/>
+        <updated>2023-08-08T02:33:44.000Z</updated>
+        <summary type="html"><![CDATA[エンジニアを知らない人に向けて、WEBエンジニアについてざっくりと分類・紹介するブログ！最近は非エンジニアに向けて、WEBエンジニアについての説明を口頭で4回ほどしました。さすがに口頭だけだと限界があるので、読み物として [...]
+新米フロント担当がWEBエンジニアについてざっくりと紹介する：非エンジニアに向けて first appeared on SIOS Tech. Lab.]]></summary>
+        <author>
+            <name>龍：Ryu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「【重要】dカードが利用停止」ドコモ装うフィッシングメールに注意]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2308/08/news093.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2308/08/news093.html"/>
+        <updated>2023-08-08T02:25:00.000Z</updated>
+        <summary type="html"><![CDATA[「【重要】ｄカードが利用停止のお知らせ」という件名で、ドコモを装い、dアカウントのパスワード、クレジットカード情報などを詐取しようとするフィッシングメールが出回っている。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NTTドコモを偽るフィッシングを確認、注意を]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230808-2744918/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230808-2744918/"/>
+        <updated>2023-08-08T02:18:06.000Z</updated>
+        <summary type="html"><![CDATA[フィッシング対策協議会(Council of Anti-Phishing Japan)は8月7日、NTTドコモを偽るフィッシングの報告を受けていると伝えた。メールの件名としては、「【重要】dカードが利用停止のお知らせ」が確認されており、注意が必要。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rest API とは結局なんぞや]]></title>
+        <id>https://tech-lab.sios.jp/?p=35492</id>
+        <link href="https://tech-lab.sios.jp/archives/35492"/>
+        <updated>2023-08-08T01:35:26.000Z</updated>
+        <summary type="html"><![CDATA[ご挨拶 サイオステクノロジーの紀之定と申すものです。今年から新卒で入社いたしました。これからちょくちょくブログを書いていくつもりなので何卒よろしくお願いいたします。 ただいま絶賛研修を受けている最中でございましてその過程 [...]
+Rest API とは結局なんぞや first appeared on SIOS Tech. Lab.]]></summary>
+        <author>
+            <name>うみのこ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Blog記事]APNIC56ミーティングが京都で開催されます]]></title>
+        <id>https://blog.nic.ad.jp/2023/9000/</id>
+        <link href="https://blog.nic.ad.jp/2023/9000/"/>
+        <updated>2023-08-08T01:00:42.000Z</updated>
+        <summary type="html"><![CDATA[今年9月に、8年ぶりにAPNICミーティングが日本で開催されますので、今回はAPNICミーティングについてご紹介します。参加を予定されている方も、参加を検討されている方も、ぜひ一度ご覧ください。]]></summary>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【第8回】情報セキュリティ事故対応アワード]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230808-2734313/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230808-2734313/"/>
+        <updated>2023-08-08T00:00:00.000Z</updated>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[製品やツールよりも人材・プロセスが肝! 組織としてDevSecOpsを浸透させるには]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230808-2741120/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230808-2741120/"/>
+        <updated>2023-08-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[アクセンチュア テクノロジーコンサルティング本部 セキュリティグループ マネージャー 田原聖也氏が、7月13日、14日に開催されたオンラインセミナー「TECH+フォーラム クラウドインフラ Days 2023 Jul.ビジネスを支えるクラウドの本質」に登壇。この課題に対する実践的な解決策やアイデアについて解説した。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「セキュリティがわからなければお客様に選んでもらえなくなる」リスキリングによる技術者の“プラスセキュリティ人材化”で DX 時代に躍進する SIer と SES]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/08/08/49791.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/08/08/49791.html"/>
+        <updated>2023-08-07T23:15:03.000Z</updated>
+        <summary type="html"><![CDATA[セキュリティが全社で共有する目標のひとつとして全員参加で取り組み、会社の価値を向上させ、そこで働く技術者の市場価値も上がり、顧客もエンドユーザーも笑顔になる。そんなサイクルが夢物語でもきれいごとでもなく、一部で既に始まっている。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Android スマホ位置を三角測量／米 パートナー国へサイバー防衛力強化提言／Virustotal 登録ユーザリスト漏洩／BEC 支援生成 AI サービス登場 ほか [Scan PREMIUM Monthly Executive Summary 2023年7月度]]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/08/08/49790.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/08/08/49790.html"/>
+        <updated>2023-08-07T23:10:03.000Z</updated>
+        <summary type="html"><![CDATA[米国のシンクタンクである民主主義防衛財団が、米国がパートナー国のサイバー防衛能力を強化するための取り組みについて提言をしたレポート「サイバー・オペレーションのためのパートナー能力の構築」を発表しました]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「サイトウハム 公式オンラインストア」に不正アクセス、4,034件のカード情報が漏えい]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/08/08/49789.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/08/08/49789.html"/>
+        <updated>2023-08-07T23:05:03.000Z</updated>
+        <summary type="html"><![CDATA[株式会社サイトウは7月31日、同社が運営する「サイトウハム 公式オンラインストア」への不正アクセスによる個人情報の漏えいについて発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[8月9日「89（バグ）祭2023」開催、SHIFT SECURITY 村上瑛美氏 講演]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/08/08/49788.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/08/08/49788.html"/>
+        <updated>2023-08-07T23:00:23.000Z</updated>
+        <summary type="html"><![CDATA[株式会社SHIFT SECURITYは8月1日、7回目となるSHIFTグループとして最大規模のオンラインイベント「89（バグ）祭2023」を8月9日に開催すると発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[バス タクシー乗務員氏名 掲示義務廃止 プライバシーに配慮]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/08/08/49787.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/08/08/49787.html"/>
+        <updated>2023-08-07T23:00:18.000Z</updated>
+        <summary type="html"><![CDATA[国土交通省は8月1日、バス、タクシーなどの車内における乗務員等の氏名などの掲示義務の廃止を発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[オンラインストレージ構築パッケージ Proself に悪用を確認済みの脆弱性、早急なアップデートを呼びかけ]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/08/08/49786.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/08/08/49786.html"/>
+        <updated>2023-08-07T23:00:13.000Z</updated>
+        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）は8月3日、Proself の脆弱性対策について発表した。影響を受けるシステムは以下の通り。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[経産省がSBOM導入から運用までの手引書公開 「SBOMの誤解と事実」ほか]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/08/08/49785.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/08/08/49785.html"/>
+        <updated>2023-08-07T23:00:07.000Z</updated>
+        <summary type="html"><![CDATA[経済産業省は、「ソフトウェア管理に向けたSBOM（Software Bill of Materials）の導入に関する手引」を策定したと発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[脆弱性診断自動化ツール「AeyeScan」アップデート、長大な脆弱性名称の完全表示や巡回精度向上]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/08/08/49784.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/08/08/49784.html"/>
+        <updated>2023-08-07T23:00:03.000Z</updated>
+        <summary type="html"><![CDATA[株式会社エーアイセキュリティラボは7月29日、脆弱性診断の自動化ツール「AeyeScan」のアップデートについて発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[フィッシング詐欺、悪用ブランドトップはAmazon- 三井住友カードやイオンカードが続く]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230808-2743837/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230808-2743837/"/>
+        <updated>2023-08-07T22:42:17.000Z</updated>
+        <summary type="html"><![CDATA[フィッシング対策協議会は8月4日2023年7月のフィッシング詐欺報告状況を公表した。これによると、Amazonを偽るフィッシング詐欺が全体の約31.0%を占めて最も多く、三井住友カード、イオンカード、セゾンカード、ヤマト運輸、日本航空を偽る詐欺も報告されているという。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Playストアへマルウェアを侵入させる手口、Googleが認めて解説]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230808-2743842/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230808-2743842/"/>
+        <updated>2023-08-07T22:16:03.000Z</updated>
+        <summary type="html"><![CDATA[Bleeping Computerは8月4日（米国時間）、GoogleがGoogle PlayストアにAndroidマルウェアを侵入させる手法について説明したと報じた。この手法は「バージョニング」と呼ばれ、既存の正常なアプリのアップデートを通じて悪意のあるペイロードを導入するなどして、Google Playストアのセキュリティチェックを回避するとされる。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「日本の重要インフラに影響を及ぼした」〜名古屋港へのランサムウェア攻撃をトレンドマイクロが解説]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1520831.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1520831.html"/>
+        <updated>2023-08-07T21:23:00.000Z</updated>
+        <summary type="html"><![CDATA[トレンドマイクロ株式会社は、7月に発生した名古屋港統一コンテナターミナルシステム「NUTS」へのランサムウェア攻撃について、同社が運営するセキュリティ情報サイト「Secytiry GO」で記事を公開し、攻撃の特徴や対策を解説した。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[KDDIら10者が「安全なデータ連携による最適化AI推進コンソーシアム」設立、総務省の委託によりAI開発などを推進]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1522352.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1522352.html"/>
+        <updated>2023-08-07T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[KDDI株式会社らは8月4日、総務省委託研究開発「安全なデータ連携による最適化AI推進コンソーシアム」を設立し、活動内容などを発表した。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VU#947701: Freewill Solutions IFIS new trading web application vulnerable to unauthenticated remote code execution]]></title>
+        <id>https://kb.cert.org/vuls/id/947701</id>
+        <link href="https://kb.cert.org/vuls/id/947701"/>
+        <updated>2023-08-07T15:57:00.716Z</updated>
+        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
+<p>Freewill Solutions IFIS new trading web application version 20.01.01.04 is vulnerable to unauthenticated remote code execution. Successful exploitation of this vulnerability allows an attacker to run arbitrary shell commands on the affected host.</p>
+<h3 id="description">Description</h3>
+<p>Freewill Solutions IFIS new trading web application passes a user controlled variable directly to a shell_exec function call on a specific report page. To exploit the vulnerability, an attacker can add shell meta characters to the user controlled variable so that the application executes attacker specified commands.</p>
+<h3 id="impact">Impact</h3>
+<p>An attacker with access to the applications web interface can execute code on the remote host. This level of access allows for complete compromise of the affected machine.</p>
+<h3 id="solution">Solution</h3>
+<p>The CERT/CC is currently unaware of a practical solution to this problem.</p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thanks to Sameer Mohite (Mandiant) for reporting the vulnerability.</p>
+<p>This document was written by Kevin Stephens.</p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[夏季休暇中のマルウェア対策に関する注意事項について]]></title>
+        <id>https://eset-info.canon-its.jp/malware_info/news/detail/230808_3.html</id>
+        <link href="https://eset-info.canon-its.jp/malware_info/news/detail/230808_3.html"/>
+        <updated>2023-08-07T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[日頃は、ESET製品をご利用いただき、誠にありがとうございます。
+ここでは、夏季休暇中のマルウェア対策に関する注意事項についてご案内しております。
+
+ESET製品の検出エンジン（ウイルス定義データベース）のアップデートについて
+
+ESET製品が使用する検出エンジン（ウイルス定義データベース）は休暇期間に関わらず、日々更新されています。
+休暇明けの初回の検出エンジンのアップデートの際は、複数世代分を取得しますので、サイズが普段の数百KBから数MB程度に増加する可能性があります。
+
+※ 検出エンジン（ウイルス定義データベース）のサイズは、お客さまのご利用環境、および、ウイルスの発生状況などにより前後いたします。
+
+休暇明けには、多量のメール受信などの通常とは異なる通信の発生によって、ネットワーク負荷が高まる可能性があります。
+必要に応じて、各クライアント端末が検出エンジンのアップデートを行うタイミングを分散させるなどの事前対策をご検討ください。
+
+参考URL
+
+
+
+	検出エンジン（ウイルス定義データベース）のサイズと更新頻度について
+	【 バージョン 8 以降の場合 】一時的にクライアント端末のアップデートタイミングを分散させるには
+
+
+
+長期休暇の前後にやっておきたいこと
+
+長期休暇期間のマルウェア感染や外部からの攻撃は、気が付きにくい傾向にあります。
+マルウェア感染を未然に防ぐため、以下を参考に現在ご利用中の環境のセキュリティレベルについても今一度ご確認いただき、必要に応じて対策をご検討ください。
+同時に、休暇期間中にマルウェア感染が発覚した場合に備えて、対応方法や関係者への連絡方法などについて確認・周知しておくことも大切です。
+
+更に、最近どのようなマルウェアが流行しているか、情報を得ることは重要です。
+
+特に近年急増しているランサムウェアへの対策は必要不可欠です。最近はランサムウェアの感染を狙った、malspamと呼ばれるスパムメールが多く観測されています。また、マルウェア配布に使われるメール文面が洗練されており、一読しただけでは不審なメールであると気づくことが難しくなっています。
+その中でもEmotetは正規のメールへの返信を装う手口を使うことがあり、過去にメールのやり取りをしたことのある、実在相手の氏名、メールアドレス、メールの内容等の一部を流用したメールを送信してきますので、不用意に添付ファイルを開いたり、マクロを有効にしたりすることがないよう注意が必要です。2023年3月には Microsoft OneNote形式のファイルを添付したり、展開すると500MBを超えるdocファイルを含むZIPアーカイブを添付したりするなど、新たな手口を採用していますので、動向に注意してください。
+
+ランサムウェアの被害を最小限にするには、データを定期的にバックアップし、メールやインターネットを利用する端末のネットワークからバックアップデータを遮断しておくことを推奨します。
+
+ランサムウェアの中には情報を盗み出し、それを公開すると脅迫して身代金を要求するものもあります。重要な情報の保管の際にはアクセス権の適切な設定、および暗号化などの対策を検討してください。また、外部からリモートで接続する際の認証強化も重要です。
+
+マルウェアの侵入経路として、ネットワーク製品等の脆弱性を悪用する事例が増加しています。またオープンソースで広く使われているコンポーネントに脆弱性が見つかることもあります。 IPA（情報処理推進機構）やJP-CERT/CC 等の脆弱性関連情報を参照し、ファームウェアを修正済みのものに更新する等、必要な処置を講じてください。
+サイバーセキュリティ情報局 2023年4月のマルウェアレポートによると、2017年に発見されたMicrosoft Office 数式エディターの脆弱性を狙ったマルウェアがいまだに多く検出されています。WindowsやOfficeのセキュリティ更新プログラムを忘れずに適用してください。
+
+また IoTデバイス（防犯カメラやルーターなど）を踏み台にした大規模な DDoS攻撃に利用されないように機器を設定することも重要です。ルーターなどの管理画面へのログイン設定を、工場出荷時の設定から変更することを推奨します。
+
+参考URL
+
+
+
+	激増するランサムウェアの傾向と対策
+	「Emotet（エモテット）」と呼ばれるウイルスへの感染を狙うメールについて
+	2022年10月 マルウェアレポート
+	2023年4月 マルウェアレポート
+	JPCERT マルウェアEmotetの感染再拡大に関する注意喚起
+	JVN 脆弱性レポート
+
+
+
+長期休暇前にやっておくべきこと
+
+
+ システム管理者向け
+
+
+①セキュリティインシデント（事故）発生時の緊急連絡体制が明確になっているか確認する
+
+②ご利用中のOSやソフトウェア（サーバーを含む）にセキュリティホールがないか確認する
+
+
+	OSやソフトウェアに最新のセキュリティ更新プログラムが適用されていることを確認する
+	各クライアントPC利用者に向けて最新のセキュリティ更新プログラムの適用を呼び掛ける
+
+
+
+＜確認が必要なものの代表例＞
+
+
+	Oracle Java
+	Microsoft Office
+	Adobe Acrobat/Reader
+	OS X
+	Microsoft Windows / Windows Server
+	Internet Explorer
+	Adobe Flash Player
+	Linux
+
+
+
+③各PCのESET製品に最新の検出エンジン（ウイルス定義データベース）が適用されていることを確認する
+
+④OSやWebサービスに設定しているパスワードが、私用のパスワードを使いまわしたものでないこと、強度が適切であることを確認する
+
+■不適切なパスワード例
+
+
+	
+		
+			パスワード例
+			使用を避けるべき理由
+		
+		
+			123456, qwerty, password
+			使用頻度が高く、容易に推測できるため
+		
+		
+			Alice, Bob, 19800101
+			個人情報から推測できるため
+		
+		
+			9671, odtg, QRFV
+			文字種と桁数が少なく、総当たり攻撃に対して弱いため
+		
+		
+			computer, permission
+			辞書を用いる攻撃に対して弱いため
+		
+	
+
+
+⑤重要なデータのバックアップをおこなう
+
+⑥不要なサービスは無効にし、各種サービスへのアクセス権限は必要最低限に抑え、休暇中に使用しないPCの電源を切る
+
+⑦ルーターや監視カメラなどの機器管理画面へのログイン設定を、工場出荷時の設定から変更する
+
+⑧VPNや認証系システムにセキュリティ修正パッチがあるかを確認し、適用する。休暇前日に作業を行うのではなく、あらかじめ余裕を確保しておくこと
+
+
+
+
+
+ クライアントPC利用者向け
+
+
+①セキュリティインシデント（事故）発生時の連絡先を確認する
+
+②OSやWebサービスに設定しているパスワードが、私用のパスワードを使いまわしたものでないこと、強度が適切であることを確認する
+
+■不適切なパスワード例
+
+
+	
+		
+			パスワード例
+			使用を避けるべき理由
+		
+		
+			123456, qwerty, password
+			使用頻度が高く、容易に推測できるため
+		
+		
+			Alice, Bob, 19800101
+			個人情報から推測できるため
+		
+		
+			9671, odtg, QRFV
+			文字種と桁数が少なく、総当たり攻撃に対して弱いため
+		
+		
+			computer, permission
+			辞書を用いる攻撃に対して弱いため
+		
+	
+
+ 
+
+③重要なデータのバックアップをおこなう
+
+④休暇中に使用しないPCの電源を切る
+
+⑤自宅Wi-Fiルーターのファームウェア更新を確認し、必要であれば適用する
+
+⑥業務で使用しているPCやスマートフォンを持ち出す際には、所属組織のルールを十分に確認し、それに従って利用する。
+
+⑦スマートフォンの盗難や紛失に備え、暗号化やパスワード設定をおこなう。必要に応じてESET Mobile Security for Androidなどの「リモートワイプ機能」を設定し、リモートでデータを消去できるよう準備しておく。
+＜ESET Mobile Security for Androidにおける、リモートワイプの手順＞
+　リモートワイプを利用するには、SMS経由でコマンドを送信します。
+　下記のコマンドを本文に入力し、対象のスマートフォンにSMSを送ります。
+　eset wipe (password)
+　
+
+※(password)の部分には、ESET Mobile Security for Androidで設定したパスワードを入力します。
+
+
+
+
+長期休暇明けにやるべきこと
+
+
+ システム管理者向け
+
+
+①各PCのESET製品の検出エンジン（ウイルス定義データベース）を最新に更新する
+
+②ご利用中のOSやソフトウェアについて、新しいセキュリティ更新プログラムが公開されていないか確認する
+
+
+＜新しいセキュリティ更新プログラムが公開されている場合＞
+
+
+	最新のセキュリティ更新プログラムを適用する
+	各クライアントPC利用者に向けて最新のセキュリティ更新プログラムの適用を呼び掛ける
+
+
+
+③社内におけるウイルス感染の有無を確認する
+
+
+
+	ESET Security Management CenterでクライアントPCを管理している場合は、「脅威」セクションを確認する
+	電子メールなどによる通知機能を利用している場合は、休暇期間中のメールを確認する
+
+
+
+④アクセスログを確認する（監査ログを取得している場合）
+
+
+
+	不正アクセスがないか確認する
+
+
+
+⑤休暇期間中のセキュリティに関するニュースを確認する
+
+
+
+	注意喚起が必要か確認する
+
+
+
+
+
+
+
+ クライアントPC利用者向け
+
+
+①各PCのESET製品の検出エンジン（ウイルス定義データベース）を最新に更新する。溜まったメールの受信前に行うのが効果的
+
+②新しいセキュリティ更新プログラムが公開されている場合は、最新のセキュリティ更新プログラムを適用する
+
+③休暇期間中に社外に持ち出したPCを社内ネットワークに接続する際や、社外で作成したデータを取り込む際は、事前にウイルスチェックを行う
+
+④休暇期間中に受信したメールには細心の注意を払い、不審なメールに添付されているファイルを実行したり、本文中のリンク先にアクセスしたりしない
+
+
+
+参考情報
+
+
+IPA
+
+
+	夏休みにおける情報セキュリティに関する注意喚起
+	長期休暇における情報セキュリティ対策]]></summary>
+        <author>
+            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NTTドコモをかたるフィッシングについての注意喚起]]></title>
+        <id>https://eset-info.canon-its.jp/malware_info/news/detail/230808_2.html</id>
+        <link href="https://eset-info.canon-its.jp/malware_info/news/detail/230808_2.html"/>
+        <updated>2023-08-07T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[2023年8月7日現在、NTTドコモをかたるフィッシングが確認されております。フィッシングサイト上の入力欄には、絶対に情報を入力しないようにお願いします。
+
+このようなフィッシングサイトにて、dアカウントの ID、クレジットカード番号、有効期限、セキュリティコード、ワンタイムパスワード等を絶対に入力しないよう、ご注意ください
+
+日頃からサービスへログインする際は、メールや SMS 内のリンクではなく、いつも利用しているスマートフォンの公式アプリやブラウザーのブックマークなどからアクセスするよう、心がけてください。
+
+【メールの件名】
+
+【重要】dカードが利用停止のお知らせ
+
+※上記以外の件名も使われている可能性があります。
+
+【サイトのURL】
+
+https://www.ty●●●●.club/
+https://www.ix●●●●.cc/
+https://www.ic●●●●.vip/
+https://www.sj●●●●.ren/
+
+※上記以外のドメイン、URL も使われている可能性があります。
+※URL にパスやパラメータが付いていることがあります。
+
+2023/8/7 11:00時点では、フィッシングサイトは稼働中です。このサイトが停止しても、類似のフィッシングサイトが公開される恐れもありますので注意してください。
+このようなフィッシングサイトは日々新規に作成されています。ESET製品は、新規に作成されるフィッシングサイトにも随時対応していきますが、お客さま自身でも十分にご注意ください。
+
+【参考情報】
+
+【注意喚起】ドコモを装った「【重要】ｄカードが利用停止のお知らせ」のフィッシングメールにご注意ください
+
+ 
+
+
+■ ESET製品における検出例
+
+
+
+※ESET Internet Security V16.0/ESET Mobile Security V7.0でフィッシング対策機能が有効な場合は、図のような通知が表示されます。
+
+
+■ フィッシングメール／フィッシングサイトへの対応
+
+
+
+	フィッシングの可能性があるメールをむやみに開かない。
+	フィッシングの可能性があるメールの添付ファイルをむやみに開かない。
+	メール文中のリンク先URLがフィッシングサイトである可能性を考え、リンク先URLへむやみにアクセスしない。
+	フィッシングの可能性があるサイトにアカウント情報やクレジットカード情報などを入力しない。
+
+
+
+
+キヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。]]></summary>
+        <author>
+            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WAFだけでは防ぎきれない？Webサイト防御の次世代型ソリューションWAAPとは？]]></title>
+        <id>https://eset-info.canon-its.jp/malware_info/special/detail/230808.html</id>
+        <link href="https://eset-info.canon-its.jp/malware_info/special/detail/230808.html"/>
+        <updated>2023-08-07T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[日常生活やビジネスで必要不可欠な存在となっているインターネット。その利便性を高めるために、Webアプリケーション、Webサイト間でAPI連携を行うケースが増えている。この記事では、Webアプリケーション、Webサイトを保護するためのソリューションであるWAFと次世代型のWAAPについて、それぞれの機能と違いを解説する。
+
+
+
+
+
+WAFとは？
+
+日常生活やビジネスにおいてインターネットは必要不可欠になっており、SNSや動画視聴、オンラインバンキングをはじめとした利便性の高いWebアプリケーションが数多く提供されている。そうしたWebアプリケーションをサイバー攻撃から保護するのがWAFだ。
+
+WAFは「Web Application Firewall」の頭文字からなる略称であり、Webアプリケーションの防御を目的とするファイアウォールである。ハードウェア、あるいはソフトウェアとして導入することで、SQLインジェクションやXSS（クロスサイトスクリプティング）、ブルートフォース攻撃といったWebアプリケーションの脆弱性を狙った攻撃を検知し防御する役割を果たす。
+
+WAFは主に、Webサイト、アプリケーションが格納されるサーバーの手前に設置され、事前に定義されたシグネチャと呼ばれるルールにより、外部からの不正なリクエストやレスポンスをフィルタリングすることで悪意のある攻撃から防御する。先述のように、日常生活やビジネスにおいてWebサイトの重要性が高まっている中で、WAFはWebサイトのセキュリティ対策に欠かせない存在となっている。
+
+WAFとは？Webサイトのサイバー攻撃を防ぐ決定打となり得るのか？
+
+狙われるAPI連携とWAFの限界
+
+Webサイトの防御策として重要な役割を担うWAFだが、API連携を狙った攻撃への対処は難しいという現実がある。APIとは「Application Programming Interface」の略であり、Webサイトやアプリ間でデータや機能の連携をするために用いられる、インターフェースあるいはプロトコルのことだ。
+
+例えば、登録済みのSNSアカウントを使用して、別のサービスにログインする、といった際にAPIの仕組みが用いられる。あるいは、あるWebサイトで提供しているデータベース上の情報を別のWebサイトで表示する、といった際にも使われる。天気予報など外部の情報を一部加工して表示しているようなWebページでは、こうしたAPI連携が行われている可能性が高い。
+
+APIを使ってアプリケーション同士を連携することで、事業者はユーザーにとって便利なサービスを提供することが容易になった。しかし、スムーズな連携が可能となる一方で、APIによる連携部分はサイバー攻撃の対象ともなりやすい。なぜ攻撃者がAPIを狙うのか。その理由を以下に挙げていく。
+
+1）オープンアーキテクチャという特性
+
+APIは当初、オープンアーキテクチャとして発展した。オープンアーキテクチャとは仕様を公開することで、開発を促進するアーキテクチャのこと。一時期、「APIエコノミー」という言葉で経済圏のように例えられることもあった。このオープンアーキテクチャという特性は相互連携がスムーズになる一方で、仕様が公開されることからAPIの仕様を攻撃者も把握できてしまうため、セキュリティリスクを抱えやすいという側面もある。
+
+1）複雑で多様な仕様の存在
+
+APIは提供事業者ごとに複雑で、多くの仕様が存在している。そのため、API利用側では網羅的にチェックを実施できないのが現状だ。その結果、一部のAPIの脆弱性が残されたままになる可能性は少なくない。攻撃者はこうしたAPIの多様性やチェックの不備を突いて攻撃してくる。
+
+3）サービス間の連携に利用
+
+APIはサービス間の連携に用いられることから、それらのサービスをダウンさせることで大きな被害を与えることが可能となる。そのため、DoS／DDoS攻撃などで狙われやすい。APIがDDoS攻撃などによってダウンした場合、関連するサービスが軒並み影響を受ける可能性もある。実際、過去にはそのようなインシデントも発生している。
+
+このようにAPIには、オープンアーキテクチャである点やほかのサービスと連携されることに使われるといった、APIの特性に起因する潜在的な脆弱性が存在する。現在、APIは多くのWebアプリケーションで活用されており、APIが攻撃を受けることでサービスの遅延・停止といった大きな被害につながりかねない。
+
+さらに、先述のようにAPIの仕様は提供事業者ごとに異なる傾向にあり、外部環境の変化に伴って仕様変更の可能性もあるため、WAFの特徴でもあるシグネチャでは効果的に防御できないケースも出てくる。こうした理由からAPIは狙われやすいのだ。では、実際にどのような被害が起こり得るのだろうか。
+
+実際に起こったAPI関連のセキュリティインシデント
+
+過去にAPIを狙った攻撃として、1つの事例を以下に紹介する。
+
+1）シングルサインオン用のAPIを狙った攻撃
+
+2021年6月、大手ソフトウェア会社のWebアプリケーションが外部からの不正アクセスを受けた。ここで狙われたのはSSO（シングルサインオン）用のAPIだった。同社が提供する関連アプリケーションだけでなく、連携している他社アプリケーションも対象となった。ユーザーアカウントやSSOのアクセストークンが外部に流出した可能性があったという。その後、問題は解消され、ログなどからも不正に悪用された形跡がなかったことが判明している。
+
+2）大手SNSのAPIを狙った攻撃
+
+2022年11月、大手SNSのAPIにおける脆弱性が悪用され、1,700万件以上のユーザーデータが漏えいしてしまった。このユーザーデータには、メールアドレスや電話番号などの非公開情報も含まれる。これらのユーザーデータは後日、ハッカー向けの闇サイトで販売されていたことがわかっている。なお、すでに脆弱性は修正済みである。
+
+Web改ざんはどのように行われるのか？ その手口と対策
+
+WAAPとは？
+
+WAAPとは「Web Application and API Protection」の略で、WAFが進化したサービスと考えるとわかりやすいかもしれない。2017年にガートナー社が提唱した、次世代型のWebアプリケーションセキュリティソリューションの概念だ。
+
+先述のように、APIには潜在的な脆弱性がある場合もあり、それらを攻撃されることで連携するWebアプリケーションにも被害が及びかねない。そのため、APIを含めてWebアプリケーションやWebサイトを包括的に保護する必要性に迫られている。
+
+WAAPが有する機能は、先に解説したWAFの機能に加え、APIの脆弱性や不正なボット、高度なDDoS攻撃といった、巧妙化していくサイバー攻撃の脅威に包括的な対応を可能にする。
+
+1）APIの脆弱性
+
+WAAPではAPIの脆弱性を検出し、その脆弱性を狙う攻撃を防ぐことが可能だ。WAFがシグネチャで攻撃を検知するのに対し、WAAPはシグネチャでの検知に加えて、APIの挙動を分析して、通常の挙動と異なる場合にアラートを発出する。
+
+2）不正なボット
+
+WAAPでは、数あるボットのうち、不正なボットを識別してブロックする機能を備えている。具体的には、IPアドレス、ユーザーエージェントのブラックリストや、不正なアクセスパターンなどからボットのタイプを判別してブロックする。
+
+3）DDoS攻撃
+
+DDoS攻撃は大規模なアクセスを発生させることで、WebアプリケーションやWebサイトをダウン、あるいはサービス停止を狙う攻撃だ。UDPパケット（速度を重視した通信）を大量に送信する「UDPフラッド攻撃」や、送信元IPアドレスを偽装したリクエスト（SYNパケット）を大量に送信する「SYNフラッド攻撃」などが存在する。WAAPには、これらの攻撃からネットワーク帯域やサーバーリソースを保護する機能が搭載されている。
+
+複数のWebアプリケーションでデータを共有・活用できるAPI連携。今後はより一層、API連携によるメリットを享受できるシーンが増えていく。その有用性を最大限活かしていくためにも、Webアプリケーション、Webサイト、そしてAPI連携の適切な保護が重要なポイントとなる。従来のWAFから進化したソリューションであるWAAPを導入して保護レベルを上げることも、選択肢の1つとして検討するとよいだろう。
+
+Web環境を守るために「今すぐ」取り組むべき3つの対策]]></summary>
+        <author>
+            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Adds One Known Exploited Vulnerability to Catalog]]></title>
+        <id>/node/18579</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/08/07/cisa-adds-one-known-exploited-vulnerability-catalog"/>
+        <updated>2023-08-07T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA has added one new vulnerability to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.
+CVE-2017-18368 Zyxel P660HN-T1A Routers Command Injection Vulnerability
+These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise. Note: To view other newly added vulnerabilities in the catalog, click on the arrow in the "Date Added to Catalog" column—which will sort by descending dates.
+Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.
+Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新しい「環境寄生型攻撃バイナリ」が12個発見される、その手法が明らかに]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230807-2742490/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230807-2742490/"/>
+        <updated>2023-08-07T10:42:13.000Z</updated>
+        <summary type="html"><![CDATA[Penteraは8月3日(米国時間)、環境寄生型攻撃に使用できる新しい12のバイナリを発見したと伝えた。発見に使用した手法の基礎部分が開示されており、これらが新しいバイナリ発見に寄与することが期待される。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[メルマガ]vol.2016:【トピックス号】先週のトピックスとWeb更新情報]]></title>
+        <id>https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol2016.html</id>
+        <link href="https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol2016.html"/>
+        <updated>2023-08-07T09:48:11.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Bug Bounty Program Year in Review: $13.8M in Rewards]]></title>
+        <id>https://msrc.microsoft.com/blog/2023/08/microsoft-bug-bounty-program-year-in-review-13.8m-in-rewards/</id>
+        <link href="https://msrc.microsoft.com/blog/2023/08/microsoft-bug-bounty-program-year-in-review-13.8m-in-rewards/"/>
+        <updated>2023-08-07T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[We are thrilled to share the results of our collaboration with over 345 security researchers from +45 countries around the world in the past 12 months. Together, we have discovered and fixed more than a thousand potential security issues before they impacted our customers. In recognition of this valuable collaboration, we have awarded $13.]]></summary>
+        <author>
+            <name>Microsoft Security Response Center</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[内閣サイバーセキュリティセンターでメールデータ漏えいの可能性、不正な通信を確認　原因はメール関連機器における未確認の脆弱性]]></title>
         <id>https://internet.watch.impress.co.jp/docs/news/1522358.html</id>
