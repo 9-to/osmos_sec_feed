@@ -537,36 +537,6 @@
           "wordCount": 327,
           "title": "重要情報を扱うシステムの要求策定ガイドを公開しました",
           "imageUrl": "https://www.ipa.go.jp/digital/kaihatsu/t6hhco0000006s3t-img/system-youkyu-ogp.png"
-        },
-        {
-          "id": "https://www.ipa.go.jp/shiken/mondai-kaiotu/2023r05.html",
-          "author": "情報処理推進機構（IPA）",
-          "description": "情報処理推進機構（IPA）の「問題冊子・配点割合・解答例・採点講評（2023年度、令和5年度）」に関する情報です。",
-          "link": "https://www.ipa.go.jp/shiken/mondai-kaiotu/2023r05.html",
-          "publishedOn": "2023-07-13T15:00:00.000Z",
-          "wordCount": 468,
-          "title": "令和5年度春期試験の採点講評（午後）を掲載しました",
-          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
-        },
-        {
-          "id": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pass.html",
-          "author": "情報処理推進機構（IPA）",
-          "description": "",
-          "link": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pass.html",
-          "publishedOn": "2023-07-13T15:00:00.000Z",
-          "wordCount": 216,
-          "title": "ITパスポート試験（令和5年6月実施）の合格者受験番号一覧を掲載しました",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.ipa.go.jp/shiken/mousikomi/cbt_sg_fe.html",
-          "author": "情報処理推進機構（IPA）",
-          "description": "情報処理推進機構（IPA）の「情報セキュリティマネジメント試験、基本情報技術者試験（CBT方式）」に関する情報です。",
-          "link": "https://www.ipa.go.jp/shiken/mousikomi/cbt_sg_fe.html",
-          "publishedOn": "2023-07-13T15:00:00.000Z",
-          "wordCount": 390,
-          "title": "情報セキュリティマネジメント試験・基本情報技術者試験（令和5年6月実施）の合格者受験番号一覧を掲載しました",
-          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
         }
       ]
     },
@@ -1542,16 +1512,6 @@
           "wordCount": 206,
           "title": "Webブラウザーの拡張機能に潜む危険性、マルウェアとは？",
           "imageUrl": "https://eset-info.canon-its.jp/files/topics/4332_ext_01_0.jpg"
-        },
-        {
-          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/230714.html",
-          "author": null,
-          "description": "概要\n\nHayabusaは、Windowsイベントログのファストフォレンジックタイムライン作成および脅威ハンティングツールです。\n日本のYamato Securityグループによって作成され、フリーソフトウェアとしてGPLv3で公開されています。\n2023年7月現在もルールの更新や関連ツールの開発が積極的に行われており、日本語のドキュメントが数多く存在するため、脅威ハンティングの入門としても扱いやすいツールです。\n\nHayabusaで使用できる主なコマンドを以下に示します。\n\n\n\t\n\t\t\n\t\t\tコマンド\n\t\t\t説明\n\t\t\n\t\t\n\t\t\tcsv-timeline\n\t\t\tcsv形式のタイムラインを出力する\n\t\t\n\t\t\n\t\t\tjson-timeline\n\t\t\tjson形式やjsonl形式のタイムラインを出力する\n\t\t\n\t\t\n\t\t\tlogon-summary\n\t\t\tログイン操作に関するイベントログの統計を表示する\n\t\t\n\t\t\n\t\t\tmetrics\n\t\t\tイベントIDに関する統計を表示する\n\t\t\n\t\t\n\t\t\tpivot-keywords-list\n\t\t\tホスト名、ユーザー名、IPアドレスなどのキーワードを抽出する\n\t\t\n\t\t\n\t\t\tsearch\n\t\t\tキーワードや正規表現を用いてイベントログを検索する\n\t\t\n\t\t\n\t\t\tlevel-tuning\n\t\t\tルールのレベルを調整する\n\t\t\n\t\t\n\t\t\tset-default-profile\n\t\t\tデフォルトのプロファイルを変更する\n\t\t\n\t\t\n\t\t\tlist-profiles\n\t\t\t各コマンドで出力するプロファイルを表示する\n\t\t\n\t\t\n\t\t\thelp\n\t\t\tコマンド一覧や各コマンドの詳細を表示する\n\t\t\n\t\n\n\nWindowsイベントログとは\n\nWindowsイベントログは、Windowsオペレーティングシステムによって生成されるさまざまなイベントやシステムの状態に関する情報を記録するための機能です。専用のビューアであるイベントビューアーとともに、Windows NT系のオペレーティングシステムに標準搭載されています。\nWindowsイベントログの解析結果は、システムの問題の特定や解決、セキュリティ侵害の検知などに役立てることができます。\n\nWindows 10でのWindowsイベントログの出力方法は以下のとおりです。\n\n\n\t左下のスタートボタンを右クリックする\n\tイベント ビューアーを選択する\n\t「Windowsログ」の項目から確認したいイベントの種類を選択する\n\t「すべてのイベントを名前をつけて保存」を実行する\n\n\nこの方法で保存できるのはEVTX形式のファイルになります。そのままの状態ではデータ量が非常に大きく、扱いにくいファイル形式のため、Hayabusaなどのツールを用いてデータを整形することを推奨します。\n\nフォレンジックにおける利用方法\n\nHayabusaは、Windowsイベントログ解析のためのさまざまな機能が搭載されたツールです。解析に用いられるHayabusaの主要なコマンドの出力例を紹介します。\n\ncsv-timeline\n\nWindowsイベントログからCSV形式のタイムラインを出力するコマンドです。複数のイベントログを対象に実行し、1つのCSV形式のファイルにまとめて出力することができます。ログはHayabusaが備えたルールに従ってcritical, high, medium, low, informationalの5つのレベルに分類され、MITRE ATT&amp;CKなどに基づく情報が付加されます。\nまた、非常に膨大な量となるWindowsイベントログからスレットハンティングに必要な情報のみを抽出し、タイムライン形式に整理するHayabusaのベースとなる機能です。特定のパソコンのWindowsイベントログを調査する際にも、複数パソコンにまたがるインシデントを調査する際にも、csv-timelineは非常に有効な手段となります。\n\nコマンドラインの構文は以下のとおりです。&lt;INPUT&gt;には、前述の方法で出力したEVTX形式のファイルを与えます。\n\nHayabusa.exe csv-timeline &lt;INPUT&gt; [OPTIONS]\n\ncsv-timelineコマンドを実行すると、コマンドプロンプトに以下のようなWindowsイベントログの統計情報が出力されます。\n\n\n\nまた、このコマンドによって出力されるCSV形式のファイルの一例を以下に示します。\n\n\n\njson-timeline\n\nWindowsイベントログからJSONまたはJSONL形式のタイムラインを出力するコマンドです。\nより規模の大きいWindowsイベントログを扱う際は、JSON形式で出力し、ElasticSearchなどの可視化ツールを利用して解析を行うことが推奨されています。\n\nコマンドラインの構文は以下のとおりです。&lt;INPUT&gt;には、前述の方法で出力したEVTX形式のファイルを与えます。\n\nHayabusa.exe json-timeline &lt;INPUT&gt; [OPTIONS]\n\nlogon-summary\n\nログイン操作に関わるイベントログの統計情報を表示するコマンドです。不正なログイン試行がどのパソコンで発生していたかを調べる際に有効です。また、複数のイベントログを対象に実行し、合算した結果を表示することも可能です。\n\nコマンドラインの構文は以下のとおりです。&lt;INPUT&gt;には、前述の方法で出力したEVTX形式のファイルを与えます。\n\nHayabusa.exe logon-summary &lt;INPUT&gt; [OPTIONS]\n\nlogon-summaryコマンドを実行した際の出力の一例を以下に示します。\n\n\n\nmetrics\n\nWindowsイベントログのイベントIDに関する統計情報を表示するコマンドです。どのようなタイプのイベントが多く発生し、割合がどの程度なのかを一目で確認することができます。複数ファイルを対象に実行し、合算した結果を表示することも可能です。\n\nコマンドラインの構文は以下のとおりです。&lt;INPUT&gt;には、前述の方法で出力したEVTX形式のファイルを与えます。\n\nHayabusa.exe metrics &lt;INPUT&gt; [OPTIONS]\n\nMetricsコマンドを実行した際の出力の一例を以下に示します。",
-          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/230714.html",
-          "publishedOn": "2023-07-13T15:00:00.000Z",
-          "wordCount": 253,
-          "title": "Hayabusa",
-          "imageUrl": "https://eset-info.canon-its.jp/files/topics/4331_ext_01_0.png"
         }
       ]
     },
@@ -2220,6 +2180,16 @@
       "feedUrl": "https://www.kb.cert.org/vulfeed",
       "siteUrl": "https://kb.cert.org/vuls/",
       "articles": [
+        {
+          "id": "https://kb.cert.org/vuls/id/127587",
+          "author": null,
+          "description": "<h3 id=\"overview\">Overview</h3>\n<p>urllib.parse is a very basic and widely used basic URL parsing function in various applications.</p>\n<h3 id=\"description\">Description</h3>\n<p>An issue in the urllib.parse component of Python before v3.11 allows attackers to bypass blocklisting methods by supplying a URL that starts with blank characters.</p>\n<p>urlparse has a parsing problem when the entire URL starts with blank characters. This problem affects both the parsing of hostname and scheme, and eventually causes any blocklisting methods to fail.</p>\n<p><strong>URL Parsing Security</strong> *</p>\n<p>The <a href=\"https://docs.python.org/3/library/urllib.parse.html#urllib.parse.urlsplit\" title=\"urllib.parse.urlsplit\"><code>urlsplit()</code></a> and <a href=\"https://docs.python.org/3/library/urllib.parse.html#urllib.parse.urlparse\" title=\"urllib.parse.urlparse\"><code>urlparse()</code></a> APIs do not perform <strong>validation</strong> of inputs. They may not raise errors on inputs that other applications consider invalid. They may also succeed on some inputs that might not be considered URLs elsewhere. Their purpose is for practical functionality rather than purity.</p>\n<p>Instead of raising an exception on unusual input, they may instead return some component parts as empty strings. Or components may contain more than perhaps they should.</p>\n<p>We recommend that users of these APIs where the values may be used anywhere with security implications code defensively. Do some verification within your code before trusting a returned component part. Does that <code>scheme</code> make sense? Is that a sensible <code>path</code>? Is there anything strange about that<code>hostname</code>? etc.</p>\n<p>What constitutes a URL is not universally well defined. Different applications have different needs and desired constraints. For instance the living <a href=\"https://url.spec.whatwg.org/#concept-basic-url-parser\">WHATWG spec</a> describes what user facing web clients such as a web browser require. While <a href=\"https://datatracker.ietf.org/doc/html/rfc3986.html\"><strong>RFC 3986</strong></a> is more general. These functions incorporate some aspects of both, but cannot be claimed compliant with either. The APIs and existing user code with expectations on specific behaviors predate both standards leading us to be very cautious about making API behavior changes.</p>\n<p>*Note: This was added as part of the documentation update in https://github.com/python/cpython/pull/102508</p>\n<h3 id=\"impact\">Impact</h3>\n<p>Due to this issue, attackers can bypass any domain or protocol filtering method implemented with a blocklist. Protocol filtering failures can lead to arbitrary file reads, arbitrary command execution, SSRF, and other problems. Failure of domain name filtering may lead to re-access of blocked bad or dangerous websites or to failure of CSRF referer type defense, etc.</p>\n<p>Because this vulnerability exists in the most basic parsing library, more advanced issues are possible.</p>\n<h3 id=\"solution\">Solution</h3>\n<p>The fixes are in the following releases:\n</p><p>fixed in &gt;= 3.12\n<br>fixed in 3.11.x &gt;= 3.11.4\n<br>fixed in 3.10.x &gt;= 3.10.12\n<br>fixed in 3.9.x &gt;= 3.9.17\n<br>fixed in 3.8.x &gt;= 3.8.17\n<br>fixed in 3.7.x &gt;= 3.7.17</p><p></p>\n<h3 id=\"acknowledgements\">Acknowledgements</h3>\n<p>Thanks to the reporter, Yebo Cao for researching and reporting this vulnerability.</p>\n<p>This document was written by Ben Koo.</p>",
+          "link": "https://kb.cert.org/vuls/id/127587",
+          "publishedOn": "2023-08-11T22:22:46.010Z",
+          "wordCount": 626,
+          "title": "VU#127587: Python Parsing Error Enabling Bypass CVE-2023-24329",
+          "imageUrl": null
+        },
         {
           "id": "https://kb.cert.org/vuls/id/947701",
           "author": null,
@@ -4121,26 +4091,6 @@
           "wordCount": 2453,
           "title": "AI「Bard」は位置情報を常に取得　会話を「人間がレビューする可能性」も　Googleが理由説明",
           "imageUrl": "https://image.itmedia.co.jp/news/articles/2307/14/cover_news098.jpg"
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2307/13/news187.html",
-          "author": null,
-          "description": "自治体の情報管理に厳しい目が向けられる近年。非IT系の人材が多くいる中で、特に機密性の高い情報を扱わなければいけない自治体が、インシデントの発生を防ぐには何が必要なのか。総務省に自治体で発生しやすいインシデントについて聞いた。",
-          "link": "https://www.itmedia.co.jp/news/articles/2307/13/news187.html",
-          "publishedOn": "2023-07-13T11:00:00.000Z",
-          "wordCount": 2444,
-          "title": "自治体ではどんなインシデントが発生しやすい？　総務省に聞く自治体セキュリティのトレンド",
-          "imageUrl": "https://image.itmedia.co.jp/news/articles/2307/13/cover_news187.jpg"
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2307/13/news105.html",
-          "author": null,
-          "description": "個人情報保護委員会は7月12日、5月に発生したトヨタ自動車における個人情報漏えいについて行政指導したと発表した。「研修が不十分だった」「個人情報として認識していなかった」「取り扱い状況を把握していなかった」などと指摘している。",
-          "link": "https://www.itmedia.co.jp/news/articles/2307/13/news105.html",
-          "publishedOn": "2023-07-13T02:11:00.000Z",
-          "wordCount": 2437,
-          "title": "個人情報委、トヨタ情報漏えい事案で行政指導　「個人情報と認識していなかった」と指摘",
-          "imageUrl": "https://image.itmedia.co.jp/news/articles/2307/13/cover_news105.jpg"
         }
       ]
     },
@@ -4792,6 +4742,16 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230812-2746096/",
+          "author": null,
+          "description": "Check Point Software Technologiesは8月8日(米国時間)、米国の病院にランサムウェアの脅威が高まっていると報じた。4週平均で米国の病院の29施設につき1施設がランサムウェアの被害を受けたという。医療は患者優先のため脅迫に応じる可能性が高いと考えられ、また機材の保守・点検が不十分なこともあり被害が拡大しているとみられている。",
+          "link": "https://news.mynavi.jp/techplus/article/20230812-2746096/",
+          "publishedOn": "2023-08-12T05:37:46.000Z",
+          "wordCount": 1663,
+          "title": "病院を狙うランサムウェアの脅威が増加、29施設につき1施設が被害",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230812-2746096/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20230811-2746560/",
           "author": null,

@@ -22,11 +22,118 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-11 datetime="2023-08-11T07:44:01.000Z">2023-08-11</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-11 datetime="2023-08-11T07:44:01.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-12 datetime="2023-08-12T05:37:46.000Z">2023-08-12</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-12 datetime="2023-08-12T05:37:46.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >マイナビニュース 企業IT セキュリティ</button>
+                  <a class="source-heading__link" href="https://news.mynavi.jp/top/techplus/enterprise/security/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.mynavi.jp/techplus/article/20230812-2746096/"
+                        open
+                      >
+                        <summary class="article-expander__title">病院を狙うランサムウェアの脅威が増加、29施設につき1施設が被害</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20230812-2746096/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://news.mynavi.jp/techplus/article/20230812-2746096/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Check Point Software Technologiesは8月8日(米国時間)、米国の病院にランサムウェアの脅威が高まっていると報じた。4週平均で米国の病院の29施設につき1施設がランサムウェアの被害を受けたという。医療は患者優先のため脅迫に応じる可能性が高いと考えられ、また機材の保守・点検が不十分なこともあり被害が拡大しているとみられている。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-11 datetime="2023-08-11T22:22:46.010Z">2023-08-11</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-11 datetime="2023-08-11T22:22:46.010Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >CERT Recently Published Vulnerability Notes</button>
+                  <a class="source-heading__link" href="https://kb.cert.org/vuls/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kb.cert.org/vuls/id/127587"
+                        open
+                      >
+                        <summary class="article-expander__title">VU#127587: Python Parsing Error Enabling Bypass CVE-2023-24329</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kb.cert.org/vuls/id/127587">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Overview
+urllib.parse is a very basic and widely used basic URL parsing function in various applications.
+Description
+An issue in the urllib.parse component of Python before v3.11 allows attackers to bypass blocklisting methods by supplying a URL that starts with blank characters.
+urlparse has a parsing problem when the entire URL starts with blank characters. This problem affects both the parsing of hostname and scheme, and eventually causes any blocklisting methods to fail.
+URL Parsing Security *
+The urlsplit() and urlparse() APIs do not perform validation of inputs. They may not raise errors on inputs that other applications consider invalid. They may also succeed on some inputs that might not be considered URLs elsewhere. Their purpose is for practical functionality rather than purity.
+Instead of raising an exception on unusual input, they may instead return some component parts as empty strings. Or components may contain more than perhaps they should.
+We recommend that users of these APIs where the values may be used anywhere with security implications code defensively. Do some verification within your code before trusting a returned component part. Does that scheme make sense? Is that a sensible path? Is there anything strange about thathostname? etc.
+What constitutes a URL is not universally well defined. Different applications have different needs and desired constraints. For instance the living WHATWG spec describes what user facing web clients such as a web browser require. While RFC 3986 is more general. These functions incorporate some aspects of both, but cannot be claimed compliant with either. The APIs and existing user code with expectations on specific behaviors predate both standards leading us to be very cautious about making API behavior changes.
+*Note: This was added as part of the documentation update in https://github.com/python/cpython/pull/102508
+Impact
+Due to this issue, attackers can bypass any domain or protocol filtering method implemented with a blocklist. Protocol filtering failures can lead to arbitrary file reads, arbitrary command execution, SSRF, and other problems. Failure of domain name filtering may lead to re-access of blocked bad or dangerous websites or to failure of CSRF referer type defense, etc.
+Because this vulnerability exists in the most basic parsing library, more advanced issues are possible.
+Solution
+The fixes are in the following releases:
+
+fixed in &gt;&#x3D; 3.12
+fixed in 3.11.x &gt;&#x3D; 3.11.4
+fixed in 3.10.x &gt;&#x3D; 3.10.12
+fixed in 3.9.x &gt;&#x3D; 3.9.17
+fixed in 3.8.x &gt;&#x3D; 3.8.17
+fixed in 3.7.x &gt;&#x3D; 3.7.17
+
+Acknowledgements
+Thanks to the reporter, Yebo Cao for researching and reporting this vulnerability.
+This document was written by Ben Koo.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -17944,276 +18051,6 @@ Check out the full list of researchers recognized this quarter here.</span>
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.itmedia.co.jp/news/articles/2307/13/news187.html"
-                        open
-                      >
-                        <summary class="article-expander__title">自治体ではどんなインシデントが発生しやすい？　総務省に聞く自治体セキュリティのトレンド</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.itmedia.co.jp/news/articles/2307/13/news187.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.itmedia.co.jp/news/articles/2307/13/cover_news187.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>自治体の情報管理に厳しい目が向けられる近年。非IT系の人材が多くいる中で、特に機密性の高い情報を扱わなければいけない自治体が、インシデントの発生を防ぐには何が必要なのか。総務省に自治体で発生しやすいインシデントについて聞いた。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.itmedia.co.jp/news/articles/2307/13/news105.html"
-                        open
-                      >
-                        <summary class="article-expander__title">個人情報委、トヨタ情報漏えい事案で行政指導　「個人情報と認識していなかった」と指摘</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.itmedia.co.jp/news/articles/2307/13/news105.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.itmedia.co.jp/news/articles/2307/13/cover_news105.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>個人情報保護委員会は7月12日、5月に発生したトヨタ自動車における個人情報漏えいについて行政指導したと発表した。「研修が不十分だった」「個人情報として認識していなかった」「取り扱い状況を把握していなかった」などと指摘している。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >独立行政法人情報処理推進機構（IPA）新着情報RSS</button>
-                  <a class="source-heading__link" href="https://www.ipa.go.jp/about/index.html">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.ipa.go.jp/shiken/mondai-kaiotu/2023r05.html"
-                        open
-                      >
-                        <summary class="article-expander__title">令和5年度春期試験の採点講評（午後）を掲載しました</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.ipa.go.jp/shiken/mondai-kaiotu/2023r05.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>情報処理推進機構（IPA）の「問題冊子・配点割合・解答例・採点講評（2023年度、令和5年度）」に関する情報です。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pass.html"
-                        open
-                      >
-                        <summary class="article-expander__title">ITパスポート試験（令和5年6月実施）の合格者受験番号一覧を掲載しました</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pass.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>No content preview</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.ipa.go.jp/shiken/mousikomi/cbt_sg_fe.html"
-                        open
-                      >
-                        <summary class="article-expander__title">情報セキュリティマネジメント試験・基本情報技術者試験（令和5年6月実施）の合格者受験番号一覧を掲載しました</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.ipa.go.jp/shiken/mousikomi/cbt_sg_fe.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>情報処理推進機構（IPA）の「情報セキュリティマネジメント試験、基本情報技術者試験（CBT方式）」に関する情報です。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >キヤノンマーケティングジャパン株式会社の更新情報</button>
-                  <a class="source-heading__link" href="https://eset-info.canon-its.jp/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://eset-info.canon-its.jp/malware_info/special/detail/230714.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Hayabusa</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://eset-info.canon-its.jp/malware_info/special/detail/230714.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://eset-info.canon-its.jp/files/topics/4331_ext_01_0.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>概要
-
-Hayabusaは、Windowsイベントログのファストフォレンジックタイムライン作成および脅威ハンティングツールです。
-日本のYamato Securityグループによって作成され、フリーソフトウェアとしてGPLv3で公開されています。
-2023年7月現在もルールの更新や関連ツールの開発が積極的に行われており、日本語のドキュメントが数多く存在するため、脅威ハンティングの入門としても扱いやすいツールです。
-
-Hayabusaで使用できる主なコマンドを以下に示します。
-
-
-	
-		
-			コマンド
-			説明
-		
-		
-			csv-timeline
-			csv形式のタイムラインを出力する
-		
-		
-			json-timeline
-			json形式やjsonl形式のタイムラインを出力する
-		
-		
-			logon-summary
-			ログイン操作に関するイベントログの統計を表示する
-		
-		
-			metrics
-			イベントIDに関する統計を表示する
-		
-		
-			pivot-keywords-list
-			ホスト名、ユーザー名、IPアドレスなどのキーワードを抽出する
-		
-		
-			search
-			キーワードや正規表現を用いてイベントログを検索する
-		
-		
-			level-tuning
-			ルールのレベルを調整する
-		
-		
-			set-default-profile
-			デフォルトのプロファイルを変更する
-		
-		
-			list-profiles
-			各コマンドで出力するプロファイルを表示する
-		
-		
-			help
-			コマンド一覧や各コマンドの詳細を表示する
-		
-	
-
-
-Windowsイベントログとは
-
-Windowsイベントログは、Windowsオペレーティングシステムによって生成されるさまざまなイベントやシステムの状態に関する情報を記録するための機能です。専用のビューアであるイベントビューアーとともに、Windows NT系のオペレーティングシステムに標準搭載されています。
-Windowsイベントログの解析結果は、システムの問題の特定や解決、セキュリティ侵害の検知などに役立てることができます。
-
-Windows 10でのWindowsイベントログの出力方法は以下のとおりです。
-
-
-	左下のスタートボタンを右クリックする
-	イベント ビューアーを選択する
-	「Windowsログ」の項目から確認したいイベントの種類を選択する
-	「すべてのイベントを名前をつけて保存」を実行する
-
-
-この方法で保存できるのはEVTX形式のファイルになります。そのままの状態ではデータ量が非常に大きく、扱いにくいファイル形式のため、Hayabusaなどのツールを用いてデータを整形することを推奨します。
-
-フォレンジックにおける利用方法
-
-Hayabusaは、Windowsイベントログ解析のためのさまざまな機能が搭載されたツールです。解析に用いられるHayabusaの主要なコマンドの出力例を紹介します。
-
-csv-timeline
-
-WindowsイベントログからCSV形式のタイムラインを出力するコマンドです。複数のイベントログを対象に実行し、1つのCSV形式のファイルにまとめて出力することができます。ログはHayabusaが備えたルールに従ってcritical, high, medium, low, informationalの5つのレベルに分類され、MITRE ATT&amp;CKなどに基づく情報が付加されます。
-また、非常に膨大な量となるWindowsイベントログからスレットハンティングに必要な情報のみを抽出し、タイムライン形式に整理するHayabusaのベースとなる機能です。特定のパソコンのWindowsイベントログを調査する際にも、複数パソコンにまたがるインシデントを調査する際にも、csv-timelineは非常に有効な手段となります。
-
-コマンドラインの構文は以下のとおりです。&lt;INPUT&gt;には、前述の方法で出力したEVTX形式のファイルを与えます。
-
-Hayabusa.exe csv-timeline &lt;INPUT&gt; [OPTIONS]
-
-csv-timelineコマンドを実行すると、コマンドプロンプトに以下のようなWindowsイベントログの統計情報が出力されます。
-
-
-
-また、このコマンドによって出力されるCSV形式のファイルの一例を以下に示します。
-
-
-
-json-timeline
-
-WindowsイベントログからJSONまたはJSONL形式のタイムラインを出力するコマンドです。
-より規模の大きいWindowsイベントログを扱う際は、JSON形式で出力し、ElasticSearchなどの可視化ツールを利用して解析を行うことが推奨されています。
-
-コマンドラインの構文は以下のとおりです。&lt;INPUT&gt;には、前述の方法で出力したEVTX形式のファイルを与えます。
-
-Hayabusa.exe json-timeline &lt;INPUT&gt; [OPTIONS]
-
-logon-summary
-
-ログイン操作に関わるイベントログの統計情報を表示するコマンドです。不正なログイン試行がどのパソコンで発生していたかを調べる際に有効です。また、複数のイベントログを対象に実行し、合算した結果を表示することも可能です。
-
-コマンドラインの構文は以下のとおりです。&lt;INPUT&gt;には、前述の方法で出力したEVTX形式のファイルを与えます。
-
-Hayabusa.exe logon-summary &lt;INPUT&gt; [OPTIONS]
-
-logon-summaryコマンドを実行した際の出力の一例を以下に示します。
-
-
-
-metrics
-
-WindowsイベントログのイベントIDに関する統計情報を表示するコマンドです。どのようなタイプのイベントが多く発生し、割合がどの程度なのかを一目で確認することができます。複数ファイルを対象に実行し、合算した結果を表示することも可能です。
-
-コマンドラインの構文は以下のとおりです。&lt;INPUT&gt;には、前述の方法で出力したEVTX形式のファイルを与えます。
-
-Hayabusa.exe metrics &lt;INPUT&gt; [OPTIONS]
-
-Metricsコマンドを実行した際の出力の一例を以下に示します。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -18269,8 +18106,8 @@ Microsoft has mitigated an attack by a China-based threat actor Microsoft tracks
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/9-to/osmos_sec_feed/actions/runs/5830358232">
-        <time id="build-timestamp" datetime="2023-08-11T08:10:08.518Z">2023-08-11T08:10:08.518Z</time>
+      <a class="footer-link" href="https://github.com/9-to/osmos_sec_feed/actions/runs/5840254332">
+        <time id="build-timestamp" datetime="2023-08-12T08:09:10.324Z">2023-08-12T08:09:10.324Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

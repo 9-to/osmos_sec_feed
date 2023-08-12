@@ -2,10 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-08-11T08:10:08.570Z</updated>
+    <updated>2023-08-12T08:09:10.381Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[病院を狙うランサムウェアの脅威が増加、29施設につき1施設が被害]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230812-2746096/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230812-2746096/"/>
+        <updated>2023-08-12T05:37:46.000Z</updated>
+        <summary type="html"><![CDATA[Check Point Software Technologiesは8月8日(米国時間)、米国の病院にランサムウェアの脅威が高まっていると報じた。4週平均で米国の病院の29施設につき1施設がランサムウェアの被害を受けたという。医療は患者優先のため脅迫に応じる可能性が高いと考えられ、また機材の保守・点検が不十分なこともあり被害が拡大しているとみられている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VU#127587: Python Parsing Error Enabling Bypass CVE-2023-24329]]></title>
+        <id>https://kb.cert.org/vuls/id/127587</id>
+        <link href="https://kb.cert.org/vuls/id/127587"/>
+        <updated>2023-08-11T22:22:46.010Z</updated>
+        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
+<p>urllib.parse is a very basic and widely used basic URL parsing function in various applications.</p>
+<h3 id="description">Description</h3>
+<p>An issue in the urllib.parse component of Python before v3.11 allows attackers to bypass blocklisting methods by supplying a URL that starts with blank characters.</p>
+<p>urlparse has a parsing problem when the entire URL starts with blank characters. This problem affects both the parsing of hostname and scheme, and eventually causes any blocklisting methods to fail.</p>
+<p><strong>URL Parsing Security</strong> *</p>
+<p>The <a href="https://docs.python.org/3/library/urllib.parse.html#urllib.parse.urlsplit" title="urllib.parse.urlsplit"><code>urlsplit()</code></a> and <a href="https://docs.python.org/3/library/urllib.parse.html#urllib.parse.urlparse" title="urllib.parse.urlparse"><code>urlparse()</code></a> APIs do not perform <strong>validation</strong> of inputs. They may not raise errors on inputs that other applications consider invalid. They may also succeed on some inputs that might not be considered URLs elsewhere. Their purpose is for practical functionality rather than purity.</p>
+<p>Instead of raising an exception on unusual input, they may instead return some component parts as empty strings. Or components may contain more than perhaps they should.</p>
+<p>We recommend that users of these APIs where the values may be used anywhere with security implications code defensively. Do some verification within your code before trusting a returned component part. Does that <code>scheme</code> make sense? Is that a sensible <code>path</code>? Is there anything strange about that<code>hostname</code>? etc.</p>
+<p>What constitutes a URL is not universally well defined. Different applications have different needs and desired constraints. For instance the living <a href="https://url.spec.whatwg.org/#concept-basic-url-parser">WHATWG spec</a> describes what user facing web clients such as a web browser require. While <a href="https://datatracker.ietf.org/doc/html/rfc3986.html"><strong>RFC 3986</strong></a> is more general. These functions incorporate some aspects of both, but cannot be claimed compliant with either. The APIs and existing user code with expectations on specific behaviors predate both standards leading us to be very cautious about making API behavior changes.</p>
+<p>*Note: This was added as part of the documentation update in https://github.com/python/cpython/pull/102508</p>
+<h3 id="impact">Impact</h3>
+<p>Due to this issue, attackers can bypass any domain or protocol filtering method implemented with a blocklist. Protocol filtering failures can lead to arbitrary file reads, arbitrary command execution, SSRF, and other problems. Failure of domain name filtering may lead to re-access of blocked bad or dangerous websites or to failure of CSRF referer type defense, etc.</p>
+<p>Because this vulnerability exists in the most basic parsing library, more advanced issues are possible.</p>
+<h3 id="solution">Solution</h3>
+<p>The fixes are in the following releases:
+</p><p>fixed in &gt;= 3.12
+<br>fixed in 3.11.x &gt;= 3.11.4
+<br>fixed in 3.10.x &gt;= 3.10.12
+<br>fixed in 3.9.x &gt;= 3.9.17
+<br>fixed in 3.8.x &gt;= 3.8.17
+<br>fixed in 3.7.x &gt;= 3.7.17</p><p></p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thanks to the reporter, Yebo Cao for researching and reporting this vulnerability.</p>
+<p>This document was written by Ben Koo.</p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Microsoftから2023年8月のセキュリティ更新、重大な脆弱性に対処]]></title>
         <id>https://news.mynavi.jp/techplus/article/20230811-2746560/</id>
@@ -9656,188 +9700,6 @@ Check out the full list of researchers recognized this quarter here.]]></summary
         <link href="https://www.itmedia.co.jp/news/articles/2307/14/news098.html"/>
         <updated>2023-07-13T21:59:00.000Z</updated>
         <summary type="html"><![CDATA[GoogleのAI「Bard」の初期画面に、「人間のレビュアーがBardとの会話を処理する場合があります」と明示。ユーザーの位置情報も利用中常に取得されるようになった。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[令和5年度春期試験の採点講評（午後）を掲載しました]]></title>
-        <id>https://www.ipa.go.jp/shiken/mondai-kaiotu/2023r05.html</id>
-        <link href="https://www.ipa.go.jp/shiken/mondai-kaiotu/2023r05.html"/>
-        <updated>2023-07-13T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「問題冊子・配点割合・解答例・採点講評（2023年度、令和5年度）」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ITパスポート試験（令和5年6月実施）の合格者受験番号一覧を掲載しました]]></title>
-        <id>https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pass.html</id>
-        <link href="https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pass.html"/>
-        <updated>2023-07-13T15:00:00.000Z</updated>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[情報セキュリティマネジメント試験・基本情報技術者試験（令和5年6月実施）の合格者受験番号一覧を掲載しました]]></title>
-        <id>https://www.ipa.go.jp/shiken/mousikomi/cbt_sg_fe.html</id>
-        <link href="https://www.ipa.go.jp/shiken/mousikomi/cbt_sg_fe.html"/>
-        <updated>2023-07-13T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「情報セキュリティマネジメント試験、基本情報技術者試験（CBT方式）」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Hayabusa]]></title>
-        <id>https://eset-info.canon-its.jp/malware_info/special/detail/230714.html</id>
-        <link href="https://eset-info.canon-its.jp/malware_info/special/detail/230714.html"/>
-        <updated>2023-07-13T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[概要
-
-Hayabusaは、Windowsイベントログのファストフォレンジックタイムライン作成および脅威ハンティングツールです。
-日本のYamato Securityグループによって作成され、フリーソフトウェアとしてGPLv3で公開されています。
-2023年7月現在もルールの更新や関連ツールの開発が積極的に行われており、日本語のドキュメントが数多く存在するため、脅威ハンティングの入門としても扱いやすいツールです。
-
-Hayabusaで使用できる主なコマンドを以下に示します。
-
-
-	
-		
-			コマンド
-			説明
-		
-		
-			csv-timeline
-			csv形式のタイムラインを出力する
-		
-		
-			json-timeline
-			json形式やjsonl形式のタイムラインを出力する
-		
-		
-			logon-summary
-			ログイン操作に関するイベントログの統計を表示する
-		
-		
-			metrics
-			イベントIDに関する統計を表示する
-		
-		
-			pivot-keywords-list
-			ホスト名、ユーザー名、IPアドレスなどのキーワードを抽出する
-		
-		
-			search
-			キーワードや正規表現を用いてイベントログを検索する
-		
-		
-			level-tuning
-			ルールのレベルを調整する
-		
-		
-			set-default-profile
-			デフォルトのプロファイルを変更する
-		
-		
-			list-profiles
-			各コマンドで出力するプロファイルを表示する
-		
-		
-			help
-			コマンド一覧や各コマンドの詳細を表示する
-		
-	
-
-
-Windowsイベントログとは
-
-Windowsイベントログは、Windowsオペレーティングシステムによって生成されるさまざまなイベントやシステムの状態に関する情報を記録するための機能です。専用のビューアであるイベントビューアーとともに、Windows NT系のオペレーティングシステムに標準搭載されています。
-Windowsイベントログの解析結果は、システムの問題の特定や解決、セキュリティ侵害の検知などに役立てることができます。
-
-Windows 10でのWindowsイベントログの出力方法は以下のとおりです。
-
-
-	左下のスタートボタンを右クリックする
-	イベント ビューアーを選択する
-	「Windowsログ」の項目から確認したいイベントの種類を選択する
-	「すべてのイベントを名前をつけて保存」を実行する
-
-
-この方法で保存できるのはEVTX形式のファイルになります。そのままの状態ではデータ量が非常に大きく、扱いにくいファイル形式のため、Hayabusaなどのツールを用いてデータを整形することを推奨します。
-
-フォレンジックにおける利用方法
-
-Hayabusaは、Windowsイベントログ解析のためのさまざまな機能が搭載されたツールです。解析に用いられるHayabusaの主要なコマンドの出力例を紹介します。
-
-csv-timeline
-
-WindowsイベントログからCSV形式のタイムラインを出力するコマンドです。複数のイベントログを対象に実行し、1つのCSV形式のファイルにまとめて出力することができます。ログはHayabusaが備えたルールに従ってcritical, high, medium, low, informationalの5つのレベルに分類され、MITRE ATT&amp;CKなどに基づく情報が付加されます。
-また、非常に膨大な量となるWindowsイベントログからスレットハンティングに必要な情報のみを抽出し、タイムライン形式に整理するHayabusaのベースとなる機能です。特定のパソコンのWindowsイベントログを調査する際にも、複数パソコンにまたがるインシデントを調査する際にも、csv-timelineは非常に有効な手段となります。
-
-コマンドラインの構文は以下のとおりです。&lt;INPUT&gt;には、前述の方法で出力したEVTX形式のファイルを与えます。
-
-Hayabusa.exe csv-timeline &lt;INPUT&gt; [OPTIONS]
-
-csv-timelineコマンドを実行すると、コマンドプロンプトに以下のようなWindowsイベントログの統計情報が出力されます。
-
-
-
-また、このコマンドによって出力されるCSV形式のファイルの一例を以下に示します。
-
-
-
-json-timeline
-
-WindowsイベントログからJSONまたはJSONL形式のタイムラインを出力するコマンドです。
-より規模の大きいWindowsイベントログを扱う際は、JSON形式で出力し、ElasticSearchなどの可視化ツールを利用して解析を行うことが推奨されています。
-
-コマンドラインの構文は以下のとおりです。&lt;INPUT&gt;には、前述の方法で出力したEVTX形式のファイルを与えます。
-
-Hayabusa.exe json-timeline &lt;INPUT&gt; [OPTIONS]
-
-logon-summary
-
-ログイン操作に関わるイベントログの統計情報を表示するコマンドです。不正なログイン試行がどのパソコンで発生していたかを調べる際に有効です。また、複数のイベントログを対象に実行し、合算した結果を表示することも可能です。
-
-コマンドラインの構文は以下のとおりです。&lt;INPUT&gt;には、前述の方法で出力したEVTX形式のファイルを与えます。
-
-Hayabusa.exe logon-summary &lt;INPUT&gt; [OPTIONS]
-
-logon-summaryコマンドを実行した際の出力の一例を以下に示します。
-
-
-
-metrics
-
-WindowsイベントログのイベントIDに関する統計情報を表示するコマンドです。どのようなタイプのイベントが多く発生し、割合がどの程度なのかを一目で確認することができます。複数ファイルを対象に実行し、合算した結果を表示することも可能です。
-
-コマンドラインの構文は以下のとおりです。&lt;INPUT&gt;には、前述の方法で出力したEVTX形式のファイルを与えます。
-
-Hayabusa.exe metrics &lt;INPUT&gt; [OPTIONS]
-
-Metricsコマンドを実行した際の出力の一例を以下に示します。]]></summary>
-        <author>
-            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[自治体ではどんなインシデントが発生しやすい？　総務省に聞く自治体セキュリティのトレンド]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2307/13/news187.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2307/13/news187.html"/>
-        <updated>2023-07-13T11:00:00.000Z</updated>
-        <summary type="html"><![CDATA[自治体の情報管理に厳しい目が向けられる近年。非IT系の人材が多くいる中で、特に機密性の高い情報を扱わなければいけない自治体が、インシデントの発生を防ぐには何が必要なのか。総務省に自治体で発生しやすいインシデントについて聞いた。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[個人情報委、トヨタ情報漏えい事案で行政指導　「個人情報と認識していなかった」と指摘]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2307/13/news105.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2307/13/news105.html"/>
-        <updated>2023-07-13T02:11:00.000Z</updated>
-        <summary type="html"><![CDATA[個人情報保護委員会は7月12日、5月に発生したトヨタ自動車における個人情報漏えいについて行政指導したと発表した。「研修が不十分だった」「個人情報として認識していなかった」「取り扱い状況を把握していなかった」などと指摘している。]]></summary>
         <author>
             <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
         </author>
