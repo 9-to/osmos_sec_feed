@@ -2,10 +2,283 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-08-14T08:11:19.322Z</updated>
+    <updated>2023-08-15T08:10:46.871Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[2023年7月度 MBSD-SOCの検知傾向トピックス]]></title>
+        <id>https://www.mbsd.jp/research/20230815/20237-mbsd-soc/</id>
+        <link href="https://www.mbsd.jp/research/20230815/20237-mbsd-soc/"/>
+        <updated>2023-08-15T09:45:30.000Z</updated>
+        <summary type="html"><![CDATA[2023年7月度のMBSD-SOCにおける検知傾向トピックスです。]]></summary>
+        <author>
+            <name>三井物産セキュアディレクション株式会社</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[はじめてのTerraform Custom Providerの設計の進め方]]></title>
+        <id>https://tech-lab.sios.jp/?p=34952</id>
+        <link href="https://tech-lab.sios.jp/archives/34952"/>
+        <updated>2023-08-15T07:13:55.000Z</updated>
+        <summary type="html"><![CDATA[サイオステクノロジーの池田 透です。 今回はTerraform Custom Providerの設計について説明します。 TerraformとはOSSのクラウドリソースのプロビジョニングツールでAWS、Azure、GCP [...]
+はじめてのTerraform Custom Providerの設計の進め方 first appeared on SIOS Tech. Lab.]]></summary>
+        <author>
+            <name>池田 透</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazon Echoシリーズを初購入でさらに1000円OFF!!「Echoシリーズがお買い得」セールが開催中　Echo Show8やEcho Popも安い!!]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1523938.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1523938.html"/>
+        <updated>2023-08-15T06:05:37.000Z</updated>
+        <summary type="html"><![CDATA[Amazon.co.jpでは8月20日までの間、「Echoシリーズがお買い得」セールを開催している。加えて一部製品では、Amazon.co.jpで購入実績があり、かつEchoシリーズは買ったことがない人を対象に、さらに1000円OFFになるキャンペーンも併催。初めてEchoシリーズを買う人にお得なチャンスとなっている。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iPhone 14 Proのバッテリー、他モデルより急速に最大容量が低下しているとして話題に【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1523858.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1523858.html"/>
+        <updated>2023-08-15T04:27:28.000Z</updated>
+        <summary type="html"><![CDATA[iPhone 14 Proのバッテリーの最大容量が、他のモデルに比べて急速に低下しているケースがあるとして、海外を中心に話題になっている。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[これがマウス！？ 人差し指と中指にはめて使用するクリップ型Bluetoothデバイス【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1523859.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1523859.html"/>
+        <updated>2023-08-15T04:24:11.000Z</updated>
+        <summary type="html"><![CDATA[人差し指と中指にはめて使用するクリップ型のマウスがKickstarterに登場して注目を集めている。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[インテルCPUに新たな脆弱性「Downfall」。修正でパフォーマンスに最大50％の影響]]></title>
+        <id>https://security.srad.jp/story/23/08/14/1252209/</id>
+        <link href="https://security.srad.jp/story/23/08/14/1252209/"/>
+        <updated>2023-08-15T04:03:00.000Z</updated>
+        <summary type="html"><![CDATA[Intelは8日、同社製CPUに脆弱性（CVE-2022-40982）が見つかったと発表した。この脆弱性はGoogleの研究者Daniel Moghimi氏が見つけたもので、Intelのメモリ最適化機能を悪用することで、CPU内のレジスタファイルをソフトウェア側に漏洩する可能性があるという。メモリ内に散在するデータへのアクセスを高速化する命令である「Gather」が原因とされている（Daniel Moghimi氏による解説、Intel発表、ITmedia、GIGAZINE）。 
+
+Daniel Moghimi氏によれば、この脆弱性を悪用することで、同じコンピュータを利用する他のユーザーの情報が盗まれる可能性があるとしている。Intelはこの脆弱性に対応したGather命令をブロックするアップデートを提供ずみだが、Gather命令の使用状況によって、一部の特定のワークロードにおいては最大で50％の性能低下が発生する場合もあるとしている。 
+
+この問題を受けてさくらインターネットは10日、クラウドやレンタルサーバなど自社サービスへの影響を調査中と発表した。ITmediaの記事によれば、この問題に関してクラウドベンダーでは、すでにAWSが「問題の影響はない」と対応を発表しているという（さくらインターネット、ITmedia）。 
+
+
+bubu-duke 曰く、影響を受けるのは主に第6～11世代のIntel CPUで、第12世代以降は対象外とのことで随分影響範囲広いですね JVNVU#99796803Intel製品に複数の脆弱性（2023年8月） https://jvn.jp/vu/JVNVU99796803/
+ すべて読む | セキュリティセクション | ハードウェア | セキュリティ | Intel | ニュース |     
+  関連ストーリー： 
+最新版以外の macOS では既知の脆弱性がすべて修正されるとは限らない 2022年10月30日 
+一部Intel製CPUのマイクロコードを抽出可能なソフトウェアが登場 2022年07月22日 
+x86 CPUに新たなサイドチャネル脆弱性「Hertzbleed」が見つかる。リモートでも攻撃可能 2022年06月16日 
+一部のデバイスでMicrosoft Storeからアプリをインストールできない問題、修正される 2022年05月23日]]></summary>
+        <author>
+            <name>nagazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[脅威情報ニュースレター（2023 年 8 月 3 日）：BlackHat 2023 での Talos 関連のイベントのご案内]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=48348</id>
+        <link href="https://gblogs.cisco.com/jp/2023/08/talos-threat-source-newsletter-aug-3-2023/"/>
+        <updated>2023-08-15T03:34:47.000Z</updated>
+        <summary type="html"><![CDATA[今週も脅威情報ニュースレターをお届けします。今年もラスベガスでハッカーサマーキャンプが開催されます。私を含めた多くの Talos 関係者がこぞって参加する予定です。今後数週間にわたり、Cisco Talos の多くのメンバーが BlackHat と DEF CON に参加し、セキュリティコミュニティ向けにプレゼンテーションやデモ、講演などを数多く実施します。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[テレビで使われる証言者の変声処理、もはや素人でも元の声か判別できる処理が可能]]></title>
+        <id>https://security.srad.jp/story/23/08/14/1259205/</id>
+        <link href="https://security.srad.jp/story/23/08/14/1259205/"/>
+        <updated>2023-08-15T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TBSの報道番組「news23」がBPO審議入りした。審議入りの原因は、同番組が今年1月12日に、農協の職員が重すぎる営業ノルマの実態を内部告発者の証言内容を放送する際、証言者の顔だけがモザイク処理されていて、首から下はそのままだったことから告発者の身元が判明したため。この結果、告発者が退職に追い込まれたとされている。この事件について4日、放送倫理・番組向上機構（BPO）が放送倫理違反の疑いを指摘し審議入りを決定した（BPOリリース、弁護士ドットコム）。 
+
+証言者の匿名性保護については、証言者の希望や状況に応じて様々なケースがあり、その程度に合ったモザイク処理や音声加工が求められる。しかし、現在は技術も進化しており、従来のテレビ放送で多用される「声変え」程度の方法では、元の音声に近い状態に戻すことは難しくないとされ、証言者の身元が特定される可能性があることも指摘されている。 
+
+この問題について、ある報道関係者は一般的に匿名証言者の保護についてあまり意識がなく、証言者の安全を最優先すべきであるにもかかわらず、生々しさやリアルさを求める傾向があると指摘しているとのこと。
+ すべて読む | セキュリティセクション | テレビ | セキュリティ |     
+  関連ストーリー： 
+TOKYO MXの「医療ドラマ」打ち切り。「反ワクチン」描写などで  2023年02月10日 
+BPOが「痛みを伴うことを笑いの対象とするバラエティー」に関する見解を示す 2022年04月17日 
+アニメ「ぐんまちゃん」、群馬テレビのみ最新話の放送を見送り 2021年12月15日 
+Python 3.10リリース 2021年10月07日 
+流出したタクシー車内のドライブレコーダー映像のTV放映は放送倫理違反ではないとの判断 2017年01月26日]]></summary>
+        <author>
+            <name>nagazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[インボイス発行事業者になるための申請方法は主に2種類 電子申請ならe-Taxを、郵送はインボイスセンターへ送付【インボイス制度に備える】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/invoice/1523659.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/invoice/1523659.html"/>
+        <updated>2023-08-15T02:55:00.000Z</updated>
+        <summary type="html"><![CDATA[この記事は、書籍『マンガと図解でよくわかる インボイス 消費税の基本と手続きの仕方がわかる本』（酒井富士子 著／西原憲一 監修／株式会社インプレス 発行）より、内容の一部を抜粋・再構成してお届けするものです。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Active Directoryを標的とした攻撃手段を知り、セキュリティの強化を]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230815-2746094/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230815-2746094/"/>
+        <updated>2023-08-15T01:16:36.000Z</updated>
+        <summary type="html"><![CDATA[The Hacker Newsはこのほど、Active Directoryに対して行われた3つのサイバー攻撃の経路を解説し、これをセキュリティ向上に役立てるように促した。攻撃者は侵入したActive Directory下のユーザーがもつ権限から別の権限を取得することを繰り返し、管理者権限の取得を行う傾向があるという。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【注目記事】テレワーク中も熱中症対策!! 旅行にも使える車載冷蔵庫のススメ（その1）　夏に読みたいテレワークグッズレビュー『車載冷蔵庫をテレワークで使ったら予想以上に快適だった』]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/readitnow/1523438.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/readitnow/1523438.html"/>
+        <updated>2023-08-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[「今すぐ読みたい注目記事」コーナーでは、過去に掲載した記事の中から、「今読んでほしい記事」を再紹介しています。記事内容は掲載当時のもので、最新の状況とは異なる場合もあります。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Android アプリ「リクナビNEXT」にアクセス制限不備の脆弱性]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/08/15/49815.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/08/15/49815.html"/>
+        <updated>2023-08-14T23:00:11.000Z</updated>
+        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は8月9日、Android アプリ「リクナビNEXT」におけるアクセス制限不備の脆弱性について「Japan Vulnerability Notes（JVN）」発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[フィッシングによるインターネットバンキング不正送金被害急増]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/08/15/49814.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/08/15/49814.html"/>
+        <updated>2023-08-14T23:00:07.000Z</updated>
+        <summary type="html"><![CDATA[警察庁と金融庁は8月8日、フィッシングによるものとみられるインターネットバンキングに係る不正送金について、注意喚起を発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[エレコム製およびロジテック製ネットワーク機器に複数の脆弱性]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/08/15/49813.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/08/15/49813.html"/>
+        <updated>2023-08-14T23:00:03.000Z</updated>
+        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は8月10日、エレコム製およびロジテック製ネットワーク機器における複数の脆弱性について「Japan Vulnerability Notes（JVN）」発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「ずさんなセキュリティ」「無責任」──不正アクセス巡り、米Microsoftへの批判噴出]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2308/15/news065.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2308/15/news065.html"/>
+        <updated>2023-08-14T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Microsoftのクラウドサービスを利用していた米国務省や商務省の電子メールアカウントが、不正アクセスの被害に遭っていたことが分かった。これを受け、Microsoftに対して「セキュリティ慣行がずさん」「無責任」などと非難する声が上がっている。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[誤りは1069件。点検データの約0.007％。閲覧された事例は5件]]></title>
+        <id>https://security.srad.jp/story/23/08/13/1345237/</id>
+        <link href="https://security.srad.jp/story/23/08/13/1345237/"/>
+        <updated>2023-08-14T22:02:00.000Z</updated>
+        <summary type="html"><![CDATA[河野太郎デジタル大臣は8日、マイナ保険証問題に関する中間報告を発表した。この報告によると、マイナカードと健康保険証が一体化した「マイナ保険証」において、誤って別人の情報がひも付けられた事例は1069件あり、これは全体の約0.007％に相当するという。また、この誤ひも付けによる薬剤情報などが閲覧された件数は5件あったとしている（東京新聞）。 
+
+今回の厚生労働省の点検対象は全国の保険者のうち1313団体で、個人番号を地方公共団体情報システム機構（J-LIS）から取得する際、3情報（カナ氏名、性別、生年月日）で行い登録するなど、厚労省が示している留意事項とは異なる方法で事務処理をしていた団体のみを対象にしていたとのこと。 
+
+
+nemui4 曰く、人が介在するシステムだから誤りはありますね、誤り防止と検出とリカバリの仕組みの充実を望みますその上で、「正しくひも付けられたとしても、カードリーダーでエラーが出て保険資格確認ができないという別の問題をどう解決するのか」と、改めてマイナ保険証の運用には問題があるとの見方を示した。 運用自体の問題もあるらしい >
+ すべて読む | セキュリティセクション | 統計 | 変なモノ | 政府 | Digital | 情報漏洩 |     
+  関連ストーリー： 
+マイナ誤登録で別人の口座に入金ミス。初の事例 2023年07月20日 
+デジタル庁立ち入り検査へ、マイナ問題巡り 2023年07月10日 
+マイナカードの自主返納が急増。誤登録が起きた5月以降に 2023年07月04日]]></summary>
+        <author>
+            <name>nagazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[モバイルディスプレイスタンドと一体化したドッキングステーション「USB-DKM6S」、サンワサプライが発売]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1523843.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1523843.html"/>
+        <updated>2023-08-14T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[サンワサプライ株式会社は8月10日、タブレットやモバイルディスプレイ対応のスタンドと一体化したドッキングステーション「USB-DKM6S」を発売した。市場想定価格は2万1780円。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[地図を使いこなす者が教育を制する！ 高校の地理総合で活用できる「GIS教材」公開へ～Mapboxから　教育現場での活用事例を紹介する無料イベント、8月21日オンライン開催]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1523797.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1523797.html"/>
+        <updated>2023-08-14T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[デジタル地図開発プラットフォーム「Mapbox」を提供するマップボックス・ジャパン合同会社と、フリーでオープンな地理空間情報を市民の手で作るプロジェクト「OpenStreetMap（OSM）」のコミュニティとの交流イベント「mapbox/OpenStreetMap meetup」の第12回が8月21日19時～21時、オンラインで開催される。参加費は無料で、事前申し込みが必要。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 Online Gaming Tips to Stay Safe From Cybercriminals]]></title>
+        <id>/blogs/?p=125738</id>
+        <link href="https://www.mcafee.com/blogs/internet-security/5-online-gaming-tips-to-stay-safe-from-hackers/"/>
+        <updated>2023-08-14T13:18:47.000Z</updated>
+        <summary type="html"><![CDATA[Vanquishing aliens, building virtual amusement parks, mashing buttons in online battles royale. For some, playing video games is a way...
+The post 5 Online Gaming Tips to Stay Safe From Cybercriminals appeared first on McAfee Blog.]]></summary>
+        <author>
+            <name>McAfee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[半年の総括：2023 年上半期に最も多く確認された脅威とセキュリティ動向のまとめ]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=48337</id>
+        <link href="https://gblogs.cisco.com/jp/2023/08/talos-half-year-in-review-2023/"/>
+        <updated>2023-08-14T09:12:47.000Z</updated>
+        <summary type="html"><![CDATA[新たなランサムウェアグループ、拡大するサイバー傭兵市場、スパイ活動、サプライチェーン攻撃、新たな「as a service」ツールの登場など、2023 年は上半期ですでに話題が尽きない状況です。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[偽のWebサイトを通じたマルウェア拡散、Remcosがランキング3位に浮上]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230814-2746541/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230814-2746541/"/>
+        <updated>2023-08-14T09:10:02.000Z</updated>
+        <summary type="html"><![CDATA[Check Point Software Technologiesは8月9日(米国時間)、2023年7月のマルウェアランキングを発表し、遠隔操作ウイルス(RAT)であるRemcosが3位に上昇したことを報告した。Remcosは2016年に初めて観測されMicrosoftのドキュメントやダウンローダを通じて感染が拡散している。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[キーボード音から9割以上の確率でパスワードを推測]]></title>
+        <id>https://yro.srad.jp/story/23/08/13/1330201/</id>
+        <link href="https://yro.srad.jp/story/23/08/13/1330201/"/>
+        <updated>2023-08-14T09:04:00.000Z</updated>
+        <summary type="html"><![CDATA[イギリスの研究者は、AIがオンライン会議中のキーボード入力を解読し、画面やキーボードが見えなくてもタイピング内容を判断できることに成功したと発表した（Hacker News、PCMag）。 
+
+パスワードを入力する際に画面やキーボードを隠すことはよくあるものの、キータイプの音を隠すことはあまり行われない。携帯電話で記録されたキーストロークをAIに学習させたところ、95％の精度で解読可能であることが判明したという。ビデオ会議システムのZoomから記録されたキーストロークを学習したAIに関しても93％の精度を達成することに成功したとしている。 
+
+AIが内容を解読できなかった場合でも、ほとんどの場合キーが一つずれる程度の誤差で、潜在的なハッカーがこの誤差を回避するのは容易だったという。研究者は対策として、タイピングスタイルを変えたり、ソフトウェアベースのキーストローク音声フィルターを使用してキーストローク音を偽装することなどを提案している。
+ すべて読む | YROセクション | セキュリティ | YRO | 情報漏洩 |     
+  関連ストーリー： 
+指先に貼る絆創膏型発電機、発汗や押す動作で発電 2021年11月30日 
+漏えいした3200万のパスワードを米企業が分析、最も使われていたのは「123456」 2010年01月26日]]></summary>
+        <author>
+            <name>nagazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[メルマガ]vol.2017:【トピックス号】先週のトピックスとWeb更新情報]]></title>
+        <id>https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol2017.html</id>
+        <link href="https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol2017.html"/>
+        <updated>2023-08-14T07:56:04.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ITエンジニアなら笑っちゃう？　コント「脆弱カフェ」が話題　“セキュリティ芸人”が投稿]]></title>
         <id>https://www.itmedia.co.jp/news/articles/2308/14/news118.html</id>
@@ -14,6 +287,16 @@
         <summary type="html"><![CDATA[「あ、でた！　『脆弱カフェ』だ！」──“サイバーセキュリティコント”がX上で話題になっている。“セキュリティ芸人”であるアスースン・オンラインさんが投稿した動画。ITエンジニアを中心に「面白い」と盛り上がっている。]]></summary>
         <author>
             <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Blog記事]DNSSEC運用を鍵のライフサイクルから見る －OCTO-035の紹介－]]></title>
+        <id>https://blog.nic.ad.jp/2023/9177/</id>
+        <link href="https://blog.nic.ad.jp/2023/9177/"/>
+        <updated>2023-08-14T07:00:20.000Z</updated>
+        <summary type="html"><![CDATA[ICANNが公開している技術政策文書シリーズの中から、インターネット環境におけるDNSSEC鍵のライフサイクルについて観察したことをまとめている「OCTO-035 Observing DNSSEC Key Lifecycles」の内容をご紹介します。]]></summary>
+        <author>
+            <name>JPNIC Web</name>
         </author>
     </entry>
     <entry>
