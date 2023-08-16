@@ -2,10 +2,347 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-08-15T08:10:46.871Z</updated>
+    <updated>2023-08-16T08:10:58.324Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[DynamicNFTってなに？]]></title>
+        <id>https://tech-lab.sios.jp/?p=35655</id>
+        <link href="https://tech-lab.sios.jp/archives/35655"/>
+        <updated>2023-08-16T07:41:40.000Z</updated>
+        <summary type="html"><![CDATA[サイオステクノロジーの佐々木です。 今までSIOS TECH.LABではオーソドックスなNFT仕組みやの作り方、規格の紹介からフルオンチェーンのNFTの作り方を紹介してきました。 今回はDynamicNFTというNFTの [...]
+DynamicNFTってなに？ first appeared on SIOS Tech. Lab.]]></summary>
+        <author>
+            <name>佐々木寛太</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Short Tips：journald のログ抑制の設定 おまけ]]></title>
+        <id>https://tech-lab.sios.jp/?p=35586</id>
+        <link href="https://tech-lab.sios.jp/archives/35586"/>
+        <updated>2023-08-16T07:01:30.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。サイオステクノロジー OSS サポート担当 山本 です。 今回は前回お話しした、journald の RateLimit のもう一つの設定方法についてお話しします。 ■おさらい：journald と Rate [...]
+Short Tips：journald のログ抑制の設定 おまけ first appeared on SIOS Tech. Lab.]]></summary>
+        <author>
+            <name>山本</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[コードの流出により、新たなランサムウェア攻撃グループが急増]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=48383</id>
+        <link href="https://gblogs.cisco.com/jp/2023/08/talos-code-leaks-new-ransomware-actors/"/>
+        <updated>2023-08-16T06:55:26.000Z</updated>
+        <summary type="html"><![CDATA[Talos の『一年の総括』2022 年版で明らかになったように、ランサムウェア集団は絶えず名前を変えたり、他のグループと合併したりしています。同時期に複数の RaaS（Ransomware as a Service）組織で活動することもあり、常に新しいグループが登場しています。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[カスタマイズ版の Yashma ランサムウェアを使用する新たな攻撃者が登場、ブルガリア、中国、ベトナムなどが標的に]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=48375</id>
+        <link href="https://gblogs.cisco.com/jp/2023/08/talos-new-threat-actor-using-yashma-ransomware/"/>
+        <updated>2023-08-16T06:18:30.000Z</updated>
+        <summary type="html"><![CDATA[Cisco Talos は、ベトナム発祥と思われる正体不明の攻撃グループを発見しました。遅くとも 2023 年 6 月 4 日にはランサムウェア攻撃を開始しています。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[マンション丸ごとインターネットが500万戸を突破。MM総研「全戸一括型マンションISPシェア調査」]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1524098.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1524098.html"/>
+        <updated>2023-08-16T04:20:38.000Z</updated>
+        <summary type="html"><![CDATA[株式会社MM総研は8月2日、「全戸一括型マンションISPシェア調査」の結果を発表した。2023年3月末時点のサービス提供戸数は500万戸で、前年同月末比で57.3万戸増加。2022年度（2022年4月～2023年3月）における成長率は12.9％だった。また、今後3年間の年間成長率は10.8％と予測している]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ヤマハ、「SRv6 MUP」を用いた5G環境でリモート合奏の実証実験　ソフトバンクの技術を活用し、モバイル回線でも低遅延の接続を確保]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1524071.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1524071.html"/>
+        <updated>2023-08-16T03:30:03.000Z</updated>
+        <summary type="html"><![CDATA[ヤマハ株式会社とソフトバンク株式会社は8月7日、遠隔地にいる相手とオンラインでリモート合奏が楽しめるサービス「SYNCROOM（シンクルーム）」にて、モバイル通信の遅延を小さくする技術の実証実験を開始したと発表した。ソフトバンクが開発した「Segment Routing IPv6 Mobile User Plane（SRv6 MUP）」が用いられる。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[上下2画面を折りたためるモバイルディスプレイが登場!! 資金募集中【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1524052.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1524052.html"/>
+        <updated>2023-08-16T03:10:00.000Z</updated>
+        <summary type="html"><![CDATA[15.6型の画面を上下に2つ連結させたモバイルディスプレイがIndiegogoに登場し、人気を博している。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「goo地図」9月27日でサービス終了。二十数年にわたり提供されてきたオンライン地図【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1524051.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1524051.html"/>
+        <updated>2023-08-16T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[オンライン地図サービス「goo地図」がサービスを終了することが明らかになった。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[k3sを Ansible roleを用いて簡単に構築する]]></title>
+        <id>https://tech-lab.sios.jp/?p=35555</id>
+        <link href="https://tech-lab.sios.jp/archives/35555"/>
+        <updated>2023-08-16T02:12:10.000Z</updated>
+        <summary type="html"><![CDATA[はじめに   みなさんこんにちは、サイオステクノロジーの南です。 コンテナオーケストレーションの分野で急速に注目を集めているKubernetes（k8s）ですが、その軽量版であるk3sが存在するの [...]
+k3sを Ansible roleを用いて簡単に構築する first appeared on SIOS Tech. Lab.]]></summary>
+        <author>
+            <name>南 史弥</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[複数のSchneider Electric製品におけるCapture-replayによる認証回避の脆弱性]]></title>
+        <id>https://jvn.jp/vu/JVNVU91985993/</id>
+        <link href="https://jvn.jp/vu/JVNVU91985993/"/>
+        <updated>2023-08-16T02:00:15.000Z</updated>
+        <summary type="html"><![CDATA[Schneider Electricが提供する複数の製品には、Capture-replayによる認証回避の脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Rockwell Automation製Armor PowerFlexにおける計算誤りの脆弱性]]></title>
+        <id>https://jvn.jp/vu/JVNVU95172760/</id>
+        <link href="https://jvn.jp/vu/JVNVU95172760/"/>
+        <updated>2023-08-16T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Rockwell Automationが提供するArmor PowerFlexには、計算誤りの脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[住所の“表記ゆれ”を正規化する自動変換サービス「クイック住所変換」提供開始～Geolonia【地図と位置情報】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/chizu3/1523805.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/chizu3/1523805.html"/>
+        <updated>2023-08-16T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[株式会社Geoloniaは8月16日、住所正規化および緯度・経度追加サービス「クイック住所変換」を提供開始した。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[腐女子特化SNS「ピクブラ」に不正アクセス　メアド・パスワード流出か]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2308/16/news092.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2308/16/news092.html"/>
+        <updated>2023-08-16T01:27:00.000Z</updated>
+        <summary type="html"><![CDATA[BLに特化したSNS「pictBLand」（ピクブラ）が不正アクセスを受け、ユーザーのメールアドレスやパスワードが流出した可能性。被害範囲は明らかにしていないが、サービスの累計ユーザーは130万という。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新米が考えるフロントエンジニアになるためのロードマップ]]></title>
+        <id>https://tech-lab.sios.jp/?p=35606</id>
+        <link href="https://tech-lab.sios.jp/archives/35606"/>
+        <updated>2023-08-16T00:32:49.000Z</updated>
+        <summary type="html"><![CDATA[新米フロントエンドエンジニアが考えるシリーズ！今回はフロントエンドの学習ロードマップについて書いていこうと思います。といいつつ筆者もまだまだ道の途中なので、しれっと次の学習のための調べものしてるテンションでまとめておきま [...]
+新米が考えるフロントエンジニアになるためのロードマップ first appeared on SIOS Tech. Lab.]]></summary>
+        <author>
+            <name>龍：Ryu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: エレコム製およびロジテック製ネットワーク機器に複数の脆弱性]]></title>
+        <id>https://www.jpcert.or.jp/wr/2023/wr230816.html#1</id>
+        <link href="https://www.jpcert.or.jp/wr/2023/wr230816.html#1"/>
+        <updated>2023-08-16T00:05:00.000Z</updated>
+        <summary type="html"><![CDATA[エレコム製およびロジテック製ネットワーク機器に複数の脆弱性]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: Citrix HypervisorおよびXenServerに複数の脆弱性]]></title>
+        <id>https://www.jpcert.or.jp/wr/2023/wr230816.html#2</id>
+        <link href="https://www.jpcert.or.jp/wr/2023/wr230816.html#2"/>
+        <updated>2023-08-16T00:05:00.000Z</updated>
+        <summary type="html"><![CDATA[Citrix HypervisorおよびXenServerに複数の脆弱性]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: 複数のIntel製品に脆弱性]]></title>
+        <id>https://www.jpcert.or.jp/wr/2023/wr230816.html#3</id>
+        <link href="https://www.jpcert.or.jp/wr/2023/wr230816.html#3"/>
+        <updated>2023-08-16T00:05:00.000Z</updated>
+        <summary type="html"><![CDATA[複数のIntel製品に脆弱性]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: Trend Micro Apex Centralにサーバーサイドリクエストフォージェリの脆弱性]]></title>
+        <id>https://www.jpcert.or.jp/wr/2023/wr230816.html#4</id>
+        <link href="https://www.jpcert.or.jp/wr/2023/wr230816.html#4"/>
+        <updated>2023-08-16T00:05:00.000Z</updated>
+        <summary type="html"><![CDATA[Trend Micro Apex Centralにサーバーサイドリクエストフォージェリの脆弱性]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: Androidアプリ「リクナビNEXT」にアクセス制限不備の脆弱性]]></title>
+        <id>https://www.jpcert.or.jp/wr/2023/wr230816.html#5</id>
+        <link href="https://www.jpcert.or.jp/wr/2023/wr230816.html#5"/>
+        <updated>2023-08-16T00:05:00.000Z</updated>
+        <summary type="html"><![CDATA[Androidアプリ「リクナビNEXT」にアクセス制限不備の脆弱性]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: 複数のアドビ製品に脆弱性]]></title>
+        <id>https://www.jpcert.or.jp/wr/2023/wr230816.html#6</id>
+        <link href="https://www.jpcert.or.jp/wr/2023/wr230816.html#6"/>
+        <updated>2023-08-16T00:05:00.000Z</updated>
+        <summary type="html"><![CDATA[複数のアドビ製品に脆弱性]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: 複数のマイクロソフト製品に脆弱性]]></title>
+        <id>https://www.jpcert.or.jp/wr/2023/wr230816.html#7</id>
+        <link href="https://www.jpcert.or.jp/wr/2023/wr230816.html#7"/>
+        <updated>2023-08-16T00:05:00.000Z</updated>
+        <summary type="html"><![CDATA[複数のマイクロソフト製品に脆弱性]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: Fortinet製Forti OSにスタックベースのバッファーオーバーフローの脆弱性]]></title>
+        <id>https://www.jpcert.or.jp/wr/2023/wr230816.html#8</id>
+        <link href="https://www.jpcert.or.jp/wr/2023/wr230816.html#8"/>
+        <updated>2023-08-16T00:05:00.000Z</updated>
+        <summary type="html"><![CDATA[Fortinet製Forti OSにスタックベースのバッファーオーバーフローの脆弱性]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: FFRI yaraiおよびFFRI yarai Home and Business Editionに例外条件の不適切な処理の脆弱性]]></title>
+        <id>https://www.jpcert.or.jp/wr/2023/wr230816.html#9</id>
+        <link href="https://www.jpcert.or.jp/wr/2023/wr230816.html#9"/>
+        <updated>2023-08-16T00:05:00.000Z</updated>
+        <summary type="html"><![CDATA[FFRI yaraiおよびFFRI yarai Home and Business Editionに例外条件の不適切な処理の脆弱性]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: JPCERT/CCがカスタマイズ可能なマルウェア検知ツールYAMAを公開]]></title>
+        <id>https://www.jpcert.or.jp/wr/2023/wr230816.html#10</id>
+        <link href="https://www.jpcert.or.jp/wr/2023/wr230816.html#10"/>
+        <updated>2023-08-16T00:05:00.000Z</updated>
+        <summary type="html"><![CDATA[JPCERT/CCがカスタマイズ可能なマルウェア検知ツールYAMAを公開]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: JPCERT/CCがブログ「なぜ被害公表時に原因を明示するのか／しないのか 個別被害公表と事案全体のコーディネーションの観点から 」を公開]]></title>
+        <id>https://www.jpcert.or.jp/wr/2023/wr230816.html#11</id>
+        <link href="https://www.jpcert.or.jp/wr/2023/wr230816.html#11"/>
+        <updated>2023-08-16T00:05:00.000Z</updated>
+        <summary type="html"><![CDATA[JPCERT/CCがブログ「なぜ被害公表時に原因を明示するのか／しないのか 個別被害公表と事案全体のコーディネーションの観点から 」を公開]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【注目記事】北海道のフェリー旅で使ってみた!! テレワークでも使える車載冷蔵庫のススメ（その2）　夏に読みたいテレワークグッズレビュー『当たり前だがテレワークだけじゃない！ 車載冷蔵庫を旅行でも使い倒してみた』]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/readitnow/1523445.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/readitnow/1523445.html"/>
+        <updated>2023-08-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[「今すぐ読みたい注目記事」コーナーでは、過去に掲載した記事の中から、「今読んでほしい記事」を再紹介しています。記事内容は掲載当時のもので、最新の状況とは異なる場合もあります。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[東北学院のメールサーバに不正アクセス、教職員のメールアカウントを踏み台に迷惑メールを送信]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/08/16/49818.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/08/16/49818.html"/>
+        <updated>2023-08-15T23:05:06.000Z</updated>
+        <summary type="html"><![CDATA[学校法人東北学院は8月3日、同院への不正アクセスによる個人情報の漏えいと迷惑メールの送信について発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[チャットツール「Typetalk」のログ監視システムに不正アクセス、ログデータが漏えいした可能性]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/08/16/49817.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/08/16/49817.html"/>
+        <updated>2023-08-15T23:05:02.000Z</updated>
+        <summary type="html"><![CDATA[株式会社ヌーラボは8月3日、同社のチャットツール「Typetalk」への不正アクセスによる情報漏えいについて発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「Security-JAWS DAYS」の CTF イベント、GMOイエラエ 安里氏が作問]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/08/16/49816.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/08/16/49816.html"/>
+        <updated>2023-08-15T23:00:04.000Z</updated>
+        <summary type="html"><![CDATA[GMOサイバーセキュリティ byイエラエ株式会社は8月4日、同社のエンジニアが Security-JAWS が主催する「Security-JAWS DAYS」のCTFイベントで作問者を務めると発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[カジノの“カードシャッフルマシン”を不正操作するサイバー攻撃　小型機器をUSBに差し込むだけ]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2308/16/news061.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2308/16/news061.html"/>
+        <updated>2023-08-15T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[サイバーセキュリティ会社の米IOActiveに所属する研究者らは、カジノのカードシャッフルマシンをハッキングする手法を発表した。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【注目記事】家族が顔を合わせる機会に考えたい「大切な写真の残し方」]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/readitnow/1523471.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/readitnow/1523471.html"/>
+        <updated>2023-08-15T21:30:00.000Z</updated>
+        <summary type="html"><![CDATA[「今すぐ読みたい注目記事」コーナーでは、過去に掲載した記事の中から、「今読んでほしい記事」を再紹介しています。記事内容は掲載当時のもので、最新の状況とは異なる場合もあります。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[インボイスの登録申請手続きは意外とタイヘン！？ 特にe-Tax未経験者の駆け込み申請は要注意 「制度開始前後にすべきこと」を徹底解説した本の著者＆監修者が本音対談【インボイス制度に備える】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/invoice/1523840.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/invoice/1523840.html"/>
+        <updated>2023-08-15T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[10月1日より施行される「インボイス制度」はフリーランス・個人事業主・自営業者への経済的影響が大きいとされるとともに、実際どういった事務手続きをすればいいか分からないとの声も現場からは漏れ聞こえる。そうした疑問に答えるべく、制度開始前後に取るべき対応を徹底解説した書籍『マンガと図解でよくわかる インボイス 消費税の基本と手続きの仕方がわかる本』が株式会社インプレスから発売された。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases Two Industrial Control Systems Advisories]]></title>
+        <id>/node/18627</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/08/15/cisa-releases-two-industrial-control-systems-advisories"/>
+        <updated>2023-08-15T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA released two Industrial Control Systems (ICS) advisories on August 15, 2023. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS. 
+ICSA-23-227-01 Schneider Electric EcoStruxure Control Expert, Process Expert, Modicon
+ICSA-23-227-02 Rockwell Automation Armor PowerFlex
+CISA encourages users and administrators to review the newly released ICS advisories for technical details and mitigations.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2023年7月度 MBSD-SOCの検知傾向トピックス]]></title>
         <id>https://www.mbsd.jp/research/20230815/20237-mbsd-soc/</id>
@@ -17,6 +354,25 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[アプラスをかたるフィッシング、件名「＜重要＞【APLUS】ご利用確認のお願い」などの不審なメールに注意　偽サイトに誘導し、カード情報や個人情報を詐取]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1523747.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1523747.html"/>
+        <updated>2023-08-15T08:20:22.000Z</updated>
+        <summary type="html"><![CDATA[アプラスをかたるフィッシングの報告が増えているとして、フィッシング対策協議会が情報を公開した。誘導先のフィッシングサイトは8月9日13時時点で稼働中であるため、引き続き注意が必要だ。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[メルマガ]vol.2018:【定期号】特集：「Internet Week ショーケース in 札幌」開催報告]]></title>
+        <id>https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol2018.html</id>
+        <link href="https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol2018.html"/>
+        <updated>2023-08-15T07:17:06.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[はじめてのTerraform Custom Providerの設計の進め方]]></title>
         <id>https://tech-lab.sios.jp/?p=34952</id>
         <link href="https://tech-lab.sios.jp/archives/34952"/>
@@ -25,6 +381,15 @@
 はじめてのTerraform Custom Providerの設計の進め方 first appeared on SIOS Tech. Lab.]]></summary>
         <author>
             <name>池田 透</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[トピックス]IGF 2023に向けた国内IGF活動活発化チーム第38回会合開催のご案内]]></title>
+        <id>https://www.nic.ad.jp/ja/topics/2023/20230815-01.html</id>
+        <link href="https://www.nic.ad.jp/ja/topics/2023/20230815-01.html"/>
+        <updated>2023-08-15T06:23:09.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
         </author>
     </entry>
     <entry>
@@ -713,6 +1078,16 @@ Google、写真から撮影された場所を特定するAI「PlaNet」を開発
         <summary type="html"><![CDATA[JPCERTコーディネーションセンターは（JPCERT/CC）は8月9日、Intelが提供している一部のプロセッサに複数の脆弱性が存在すると伝えた。これら脆弱性には、権限を不正に昇格するものや情報漏えいを引き起こすものが含まれているとされており注意が必要。]]></summary>
         <author>
             <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Azure Serial Console Attack and Defense - Part 1]]></title>
+        <id>https://msrc.microsoft.com/blog/2023/08/azure-serial-console-attack-and-defense-part-1/</id>
+        <link href="https://msrc.microsoft.com/blog/2023/08/azure-serial-console-attack-and-defense-part-1/"/>
+        <updated>2023-08-10T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ever had a virtual machine crash? Azure Serial console is a great way to directly connect to your Virtual machine and debug what went wrong. Azure Serial Console is a feature that’s available for free for everyone. While the primary intent of this feature is to assist users debug their machine, there are several interesting ways to abuse the features and compromise sensitive information.]]></summary>
+        <author>
+            <name>Microsoft Security Response Center</name>
         </author>
     </entry>
     <entry>
@@ -9971,177 +10346,6 @@ QRコードを介して暗号資産を詐取する手口はほかにもある。
         <summary type="html"><![CDATA[米軍宛の数百万件のメールがドメイン名のタイプミスでマリ共和国に誤送信されていたとFinancial Timesが報じた。米国防総省は記者会見でこれを認め、同省のアカウントからの.ml宛メールはブロックしていると説明した。]]></summary>
         <author>
             <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[令和5年度秋期試験（応用情報技術者試験、高度試験、情報処理安全確保支援士試験）における特別措置申請の受付を終了しました]]></title>
-        <id>https://www.ipa.go.jp/shiken/2023/r05aki_exam.html</id>
-        <link href="https://www.ipa.go.jp/shiken/2023/r05aki_exam.html"/>
-        <updated>2023-07-17T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「令和5年度秋期試験について（受験申込み）」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[令和5年度春期試験（応用情報技術者試験・高度試験・情報処理安全確保支援士試験）の合格証書は7月14日（金曜日）発送済です]]></title>
-        <id>https://www.ipa.go.jp/shiken/goukaku/happyobi.html</id>
-        <link href="https://www.ipa.go.jp/shiken/goukaku/happyobi.html"/>
-        <updated>2023-07-17T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「合格発表日、合格証書発送日、官報公示日」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[重要情報を扱うシステムの要求策定ガイドを公開しました]]></title>
-        <id>https://www.ipa.go.jp/digital/kaihatsu/system-youkyu.html</id>
-        <link href="https://www.ipa.go.jp/digital/kaihatsu/system-youkyu.html"/>
-        <updated>2023-07-17T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[「重要情報を扱うシステムの要求策定ガイド」は、重要情報を扱うシステムの安定供給にあたって、そのシステムのオーナーである管理者が必要な対策を策定するためのガイドです。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Webブラウザーの拡張機能に潜む危険性、マルウェアとは？]]></title>
-        <id>https://eset-info.canon-its.jp/malware_info/special/detail/230718.html</id>
-        <link href="https://eset-info.canon-its.jp/malware_info/special/detail/230718.html"/>
-        <updated>2023-07-17T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Webブラウザー向けに、機能追加・拡張の仕組みが用意されている。その利用はユーザーにとってメリットがあることから、積極的に利用していたユーザーも少なくない。一方で、セキュリティ上の懸念が近年指摘されている。この記事では、ブラウザーの拡張機能の概要と、その危険性について解説する。
-
-
-
-
-
-Webブラウザーの拡張機能とは
-
-Webサイトを閲覧する際に必要となるのがWebブラウザーだ。Google Chrome、Microsoft Edge、Safari、FirefoxといったWebブラウザーがパソコン、スマートフォン（以下、スマホ）向けにそれぞれ提供されている。
-
-パソコン向けのWebブラウザーには機能の追加、あるいは強化するための仕組みが用意されている。こうした拡張機能はアドオンとも呼ばれ、初期状態のWebブラウザーでは実現できない機能を追加するプログラムはプラグインと呼ばれる。拡張機能はサードパーティから提供されているものが多く、各ブラウザーの提供事業者が設ける専用ストアから簡単にインストールできるようになっている。
-
-代表的な拡張機能として、Webサイトに表示される広告を自動的にブロックしてくれるアドブロッカー、さまざまなショッピングサイトと価格比較を行う機能、ポイントプログラム用プラグインなどがある。これら拡張機能は、ブラウザーのツールバーにアイコンとして追加されるものが多い。かつては国内大手ポータルサイトでも公式のツールバーを提供していた。
-
-ブラウザーのツールバーは危険！？その実態を検証する
-
-拡張機能の危険性とは
-
-拡張機能を利用することで、Webブラウザーの標準搭載されていない機能が利用できるようになる。そのため、ユーザーにとって利便性が高く、以前から利用し続けているユーザーもいるだろう。しかし、昨今では、セキュリティの観点から以下のような懸念が指摘されている。
-
-強制的に広告を表示するアドウェア
-
-本来、広告が表示されないWebサイトを閲覧している際に突如、広告が表示されることがある。そのような状況で考えられるのが、拡張機能に潜伏するアドウェアの存在だ。最近では、この仕組みを悪用した「サポート詐欺」なる手法の被害も増えている。アドウェアそのものは直接ユーザーに被害を及ぼすものではないが、見たくない広告が強制的に表示されてしまうことでユーザーに不快感を与える。また、先述のように広告を悪用した「サポート詐欺」や「フィッシングサイトへの誘導」など、より悪質な手法も増えており、注意を払う必要がある。
-
-マルバタイジング？アドウェア？ネット閲覧で注意すべき悪質な広告の存在
-
-拡張機能に偽装するマルウェア
-
-拡張機能は先述のように、特定の機能を追加するために特化した小さなプログラムである。しかし、小さなプログラムと言えど、Webブラウザーの内部に組み込まれて動作できるということは、マルウェアを開発する攻撃者にとって開発に値する十分な理由となる。追加機能の裏でキーロガー、スパイウェアとして働く拡張機能をはじめ、巧妙にフィッシングサイトへ誘導しようとする拡張機能も存在する。先述のアドウェアも、こうしたマルウェアの一種と言えるだろう。
-
-スパイウェアとは？ 隠れた脅威となり得るその実態と対策
-
-拡張機能に残された脆弱性
-
-拡張機能自体にマルウェアが仕込まれていない場合でも、過去に開発、リリースされた拡張機能の中にはサポートが終了しているものも少なくない。その場合、露呈した脆弱性が放置されている懸念もあり、そうした脆弱性が狙われるリスクを抱えていることになるのだ。
-
-Webブラウザーのセキュリティ対策、適切にできていますか？
-
-バージョンアップでマルウェア化する拡張機能
-
-拡張機能だけでなく、ソフトウェア、アプリは最新版にアップデートして利用することが推奨されている。しかし、中にはアップデートしたことでマルウェアも意図せずインストールしてしまったというケースもある。
-
-例えば、2023年2月に発覚したGoogle Chrome向け拡張機能「Get cookies.txt」に関する事例だ。この拡張機能は従来、Webブラウザーに保存されているCookieをNetscape形式のCookieファイル形式へエクスポートする機能を提供するものだった。しかし、アップデートによって、ユーザー情報を無断で外部サーバーに送信する機能が秘密裏に追加されていた。いわゆるスパイウェアと呼ばれる動作である。
-
-この拡張機能はChromeウェブストアにて「おすすめバッジ」が付与されていた。おすすめバッジはアプリストアによる審査をクリアしたものに付与される。そのため、多くのユーザーがその安全性に疑いを持たなかっただろう。巧妙にアプリストアの審査をすり抜けた事例だが、こうしたケースは今後も発生する可能性がある。改めて、ユーザーは常に安全性を確認しながらアップデートを行う必要があることを示した形だ。
-
-Webブラウザーの拡張機能を取り巻く状況
-
-Webブラウザーに拡張機能を組み込んで利用するといった発想はFirefoxから広がった。拡張機能がWebサイト開発者から絶大な支持を受けたことで、Firefoxのユーザーシェアが上昇。一時期は、マイクロソフト社が提供し、当時トップシェアのWebブラウザーであったInternet Explorerに迫る勢いも見られた。
-
-その状況を崩したのが2008年にリリースされたGoogle Chromeだった。先行するFirefoxと同様に拡張機能が利用できたことに加え、動作の快適さが評価されるなど、多くのユーザーの支持を得て、今やトップシェアのWebブラウザーとなっている。Google Chromeのシェア拡大と歩調を合わせるように拡張機能もさまざまなものがリリースされ、それらの一部はWebブラウザーの標準機能として取り込まれるようにもなった。
-
-当時、策定が進められていたWeb標準であるHTML5が普及し、Webサイトのリッチコンテンツ化が加速したことでWebブラウザーに求められる機能も変化。Adobe FlashやMicrosoft Silverlightなどのリッチコンテンツ実現のためのプラグインもその役目を終えることとなった。
-
-また、サイバー攻撃の高度化・巧妙化により、Webサイトを狙う攻撃が増加。その際に拡張機能自体やその脆弱性を狙うケースも相次いだことで、拡張機能を利用するメリットを実感しづらいような状況となった。こうした環境の変化に伴い、Webブラウザー向けとして新たに提供される拡張機能も一時期ほどではなくなってきている。
-
-WebブラウザーChromeが頻繁にアップデートを求める理由とは？
-
-拡張機能を利用する場合の対策、ツール
-
-Google Chromeの拡張機能の仕様が、「Manifest V2」から「Manifest V3」に変更されたことで大幅な仕様変更を余儀なくされた結果、拡張機能の提供を取りやめるところも出てきている。しかし、その利便性や業務利用のために、当分は利用を継続せざるを得ないという場合もあるかもしれない。仮に利用する必要がある場合、以下のような対策を講じ、ツールなどを併用することで安全性を高めるようにしたい。
-
-拡張機能自体のアップデート
-
-セキュリティ対策の基本は脆弱性を放置しないことだ。昨今のWebブラウザーはGoogle Chromeを筆頭に、デフォルトで自動更新に設定されているものも少なくない。しかし、拡張機能の中には個別にアップデートする必要があるものも存在する。自らが利用している拡張機能の、アップデートの状況を定期的に確認するようにしたい。ただし、先述したようにアップデートしたことによってマルウェアが潜伏する場合もあるので注意が必要だ。
-
-不要な拡張機能はアンインストール
-
-無料で利用できるからといって、拡張機能を多数インストールしているユーザーもいるだろう。しかし、拡張機能にリスクが生じる可能性があることを考慮すると、不要な拡張機能をそのままインストールしておくことは被害に遭う危険性を高めるだけでしかない。
-
-本当に必要かどうか、あるいは頻繁に利用するもの以外はアンインストールすることで安全性は高まる。その拡張機能の提供元を確認し、信頼がおけるものだけを利用するようにすることも大切だ。また、不要な拡張機能を削除することでメモリー使用量が減少するため、動作の快適性に寄与する場合もある。
-
-セキュリティソフトのインストール
-
-先述のように、今後も拡張機能を狙うサイバー攻撃の手法が生み出される可能性がある。また、安全な拡張機能を装っていたものがある日突然、マルウェアに置き換わる可能性も否定できない。そのため、拡張機能が悪意のある行動をとった場合に備える必要がある。そこで、セキュリティソフトを導入しておくことで、不審な動作が疑われる場合、その動作自体を遮断してくれる。
-
-ユーザー心理としては、利便性の高い機能を使い続けたいと思うのもわからなくはない。しかし、その取り巻く状況が大きく変わっている以上、利用する際の対処も変えていく必要がある。一番重要なことは、ユーザー当人がこれらの拡張機能を利用するにあたって注意を払うことだ。これは何事も同様だが、完全なる安全は幻想だと捉え、適切な対策やツールを利用するなどして、利便性を享受するようにしてほしい。]]></summary>
-        <author>
-            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[10 Artificial Intelligence Buzzwords You Should Know]]></title>
-        <id>https://www.mcafee.com/blogs/?p=171592</id>
-        <link href="https://www.mcafee.com/blogs/internet-security/10-artificial-intelligence-buzzwords-you-should-know/"/>
-        <updated>2023-07-17T10:57:41.000Z</updated>
-        <summary type="html"><![CDATA[Artificial intelligence used to be reserved for the population’s most brilliant scientists and isolated in the world’s top laboratories. Now,...
-The post 10 Artificial Intelligence Buzzwords You Should Know appeared first on McAfee Blog.]]></summary>
-        <author>
-            <name>Jasdev Dhaliwal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[From Bounty Leaderboards to Microsoft Security Researcher, Meet Cameron Vincent!]]></title>
-        <id>https://msrc.microsoft.com/blog/2023/07/from-bounty-leaderboards-to-microsoft-security-researcher-meet-cameron-vincent/</id>
-        <link href="https://msrc.microsoft.com/blog/2023/07/from-bounty-leaderboards-to-microsoft-security-researcher-meet-cameron-vincent/"/>
-        <updated>2023-07-17T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Fun Facts:
-Game you binged: Guitar Hero and Rock Band fanatic. Go to snack: Nutri-Grain Bars. Favorite Drink: Soda – Coca Cola specifically. Favorite Place: Singapore – stayed an extra week after a hacking collaboration and truly fell in love and hopes to get back as soon as possible. Favorite Movie/Genre: Parasite – Korean Cinema, had been watching Koren Cinema before it became a thing.]]></summary>
-        <author>
-            <name>Microsoft Security Response Center</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What to Expect When Reporting Vulnerabilities to Microsoft]]></title>
-        <id>https://msrc.microsoft.com/blog/2023/07/what-to-expect-when-reporting-vulnerabilities-to-microsoft/</id>
-        <link href="https://msrc.microsoft.com/blog/2023/07/what-to-expect-when-reporting-vulnerabilities-to-microsoft/"/>
-        <updated>2023-07-14T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[At the Microsoft Security Response Center (MSRC), our mission is to protect our customers, communities, and Microsoft from current and emerging threats to security and privacy. One of the ways we do this is by working with security researchers to discover security vulnerabilities in our services and products, and then making sure those that pose a threat to customers get fixed.]]></summary>
-        <author>
-            <name>Microsoft Security Response Center</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Congratulations to the Top MSRC 2023 Q2 Security Researchers!]]></title>
-        <id>https://msrc.microsoft.com/blog/2023/07/congratulations-to-the-top-msrc-2023-q2-security-researchers/</id>
-        <link href="https://msrc.microsoft.com/blog/2023/07/congratulations-to-the-top-msrc-2023-q2-security-researchers/"/>
-        <updated>2023-07-14T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Congratulations to all the researchers recognized in this quarter’s Microsoft Researcher Recognition Program leaderboard! Thank you to everyone for your hard work and continued partnership to secure customers.
-The top three researchers of the 2023 Q2 Security Researcher Leaderboard are: Yuki Chen, HAO LI, wkai!
-Check out the full list of researchers recognized this quarter here.]]></summary>
-        <author>
-            <name>Microsoft Security Response Center</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft mitigates China-based threat actor Storm-0558 targeting of customer email]]></title>
-        <id>https://msrc.microsoft.com/blog/2023/07/microsoft-mitigates-china-based-threat-actor-storm-0558-targeting-of-customer-email/</id>
-        <link href="https://msrc.microsoft.com/blog/2023/07/microsoft-mitigates-china-based-threat-actor-storm-0558-targeting-of-customer-email/"/>
-        <updated>2023-07-11T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[UPDATE: Microsoft has released threat analysis on Storm-0558 activity here. Microsoft additionally released additional defense-in-depth security fixes to help customers improve token validation in their custom applications.
-Microsoft has mitigated an attack by a China-based threat actor Microsoft tracks as Storm-0558 which targeted customer emails. Storm-0558 primarily targets government agencies in Western Europe and focuses on espionage, data theft, and credential access.]]></summary>
-        <author>
-            <name>Microsoft Security Response Center</name>
         </author>
     </entry>
 </feed>
