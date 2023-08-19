@@ -577,16 +577,6 @@
           "wordCount": 1266,
           "title": "クラウドサービス（SaaS）のサプライチェーンリスクマネジメント実態調査を公開しました",
           "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
-        },
-        {
-          "id": "https://www.ipa.go.jp/recruit/shokutaku/index.html",
-          "author": "情報処理推進機構（IPA）",
-          "description": "情報処理推進機構（IPA）の「嘱託職員公募」に関する情報です。",
-          "link": "https://www.ipa.go.jp/recruit/shokutaku/index.html",
-          "publishedOn": "2023-07-20T15:00:00.000Z",
-          "wordCount": 316,
-          "title": "嘱託職員公募の情報を更新しました",
-          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
         }
       ]
     },
@@ -718,6 +708,16 @@
       "feedUrl": "https://www.mcafee.com/blogs/feed/",
       "siteUrl": null,
       "articles": [
+        {
+          "id": "https://blogs.mcafee.com/?p=52683",
+          "author": "McAfee",
+          "description": "Instead of getting you out of a jam, tech support scams get you into one. And they can get costly....\nThe post Be on the Lookout for Scam Tech Support Calls appeared first on McAfee Blog.",
+          "link": "https://www.mcafee.com/blogs/internet-security/lookout-scam-tech-support-calls/",
+          "publishedOn": "2023-08-18T14:30:00.000Z",
+          "wordCount": 3748,
+          "title": "Be on the Lookout for Scam Tech Support Calls",
+          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2016/09/300x200_Blog_081823.png"
+        },
         {
           "id": "/blogs/?p=99533",
           "author": "McAfee",
@@ -917,16 +917,6 @@
           "wordCount": null,
           "title": "Scammers Love Barbie: Fake Videos Promote Bogus Ticket Offers That Steal Personal Info",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.mcafee.com/blogs/?p=162263",
-          "author": "McAfee",
-          "description": "Holding the door for someone might open the way to a cyberattack. For anyone who works in a secure building...\nThe post What Are Tailgating Attacks and How to Protect Yourself From Them appeared first on McAfee Blog.",
-          "link": "https://www.mcafee.com/blogs/tips-tricks/what-are-tailgating-attacks-and-how-to-protect-yourself-from-them/",
-          "publishedOn": "2023-07-20T08:00:33.000Z",
-          "wordCount": 2967,
-          "title": "What Are Tailgating Attacks and How to Protect Yourself From Them",
-          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2022/11/300x200_Blog_Tailgating.png"
         }
       ]
     },
@@ -2169,16 +2159,6 @@
           "wordCount": 3364,
           "title": "Preventing Web Application Access Control Abuse",
           "imageUrl": null
-        },
-        {
-          "id": "/node/18482",
-          "author": "CISA",
-          "description": "SUMMARY\nThe Cybersecurity and Infrastructure Security Agency (CISA) is releasing this Cybersecurity Advisory to warn network defenders about exploitation of CVE-2023-3519, an unauthenticated remote code execution (RCE) vulnerability affecting NetScaler (formerly Citrix) Application Delivery Controller (ADC) and NetScaler Gateway. In June 2023, threat actors exploited this vulnerability as a zero-day to drop a webshell on a critical infrastructure organization’s non-production environment NetScaler ADC appliance. The webshell enabled the actors to perform discovery on the victim’s active directory (AD) and collect and exfiltrate AD data. The actors attempted to move laterally to a domain controller but network-segmentation controls for the appliance blocked movement.\nThe victim organization…",
-          "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-201a",
-          "publishedOn": "2023-07-20T19:28:57.000Z",
-          "wordCount": 2665,
-          "title": "Threat Actors Exploiting Citrix CVE-2023-3519 to Implant Webshells",
-          "imageUrl": null
         }
       ]
     },
@@ -2187,6 +2167,16 @@
       "feedUrl": "https://www.cisa.gov/uscert/ncas/current-activity.xml",
       "siteUrl": "https://www.cisa.gov/",
       "articles": [
+        {
+          "id": "/node/18644",
+          "author": "CISA",
+          "description": "Juniper has released a security advisory to address vulnerabilities in Junos OS on SRX Series and EX Series. A remote cyber threat actor could exploit these vulnerabilities to cause a denial-of service condition.\nCISA encourages users and administrators to review Juniper’s Support Portal and apply the necessary updates.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/08/18/juniper-releases-security-advisory-multiple-vulnerabilities-junos-os",
+          "publishedOn": "2023-08-18T12:00:00.000Z",
+          "wordCount": 550,
+          "title": "Juniper Releases Security Advisory for Multiple Vulnerabilities in Junos OS",
+          "imageUrl": null
+        },
         {
           "id": "/node/18631",
           "author": "CISA",
@@ -2472,16 +2462,6 @@
           "publishedOn": "2023-07-27T15:17:19.559Z",
           "wordCount": 458,
           "title": "VU#813349: Software driver for D-Link Wi-Fi USB Adapter vulnerable to service path privilege escalation",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kb.cert.org/vuls/id/653767",
-          "author": null,
-          "description": "<h3 id=\"overview\">Overview</h3>\n<p>A command injection vulnerability can be used in the Perimeter81 macOS application to run arbitrary commands with administrative privileges.</p>\n<h3 id=\"description\">Description</h3>\n<p>At the time, the latest Perimeter81 MacOS application (10.0.0.19) suffers from local privilege escalation vulnerability inside its com.perimeter81.osx.HelperTool. This HelperTool allows main application to setup things which require administrative privileges such as VPN connection, changing routing table, etc.</p>\n<p>By combining insufficient checks of an XPC connection and creating a dictionary with the key \"usingCAPath\" a command can be appended within that value to be run with administrative privileges.</p>\n<h3 id=\"impact\">Impact</h3>\n<p>By exploiting the vulnerability, attackers can run arbitrary commands with administrative privileges.</p>\n<h3 id=\"solution\">Solution</h3>\n<p>Perimeter81 has released a fix in version 10.1.2.318\n(https://support.perimeter81.com/docs/macos-agent-release-notes)</p>\n<h3 id=\"acknowledgements\">Acknowledgements</h3>\n<p>Thanks to Erhad Husovic who also published vulnerability details via (https://www.ns-echo.com/posts/cve_2023_33298.html)</p>\n<p>This document was written by Ben Koo.</p>",
-          "link": "https://kb.cert.org/vuls/id/653767",
-          "publishedOn": "2023-07-20T18:25:22.445Z",
-          "wordCount": 335,
-          "title": "VU#653767: Perimeter81 macOS Application Multiple Vulnerabilities",
           "imageUrl": null
         }
       ]
@@ -2947,16 +2927,6 @@
           "wordCount": 1884,
           "title": "BlueHat October 2023 Call for Papers is Now Open!",
           "imageUrl": null
-        },
-        {
-          "id": "https://msrc.microsoft.com/blog/2023/07/updated-researcher-portal-submission-form-discover-the-new-fields-in-the-submission-form/",
-          "author": null,
-          "description": "Summary: We are excited to announce the release of the updated Researcher Portal submission form. These new fields allow Security Researchers to provide additional context for the reported security issue, providing product teams with more data for analysis, gain insights and identify trends across multiple reported security vulnerabilities. The additional fields are not mandatory fields to submit a report.",
-          "link": "https://msrc.microsoft.com/blog/2023/07/updated-researcher-portal-submission-form-discover-the-new-fields-in-the-submission-form/",
-          "publishedOn": "2023-07-20T07:00:00.000Z",
-          "wordCount": 1893,
-          "title": "Updated Researcher Portal Submission Form: Discover the New Fields in the Submission Form",
-          "imageUrl": null
         }
       ]
     },
@@ -2994,16 +2964,6 @@
           "wordCount": 1308,
           "title": "WordPress 6.3 リリース候補版 2",
           "imageUrl": "https://s.w.org/images/backgrounds/wordpress-bg-medblue.png"
-        },
-        {
-          "id": "https://ja.wordpress.org/?p=6792",
-          "author": "Seisuke Kuraishi",
-          "description": "以下は、Dan Soschin が書いた WordPress.org 公式ブログの記事「WordPress 6.3 Release Candidate 1」を訳したものです。 誤字脱字誤訳などありましたらフォーラムまでお […]",
-          "link": "https://ja.wordpress.org/2023/07/20/wordpress-6-3-release-candidate-1/",
-          "publishedOn": "2023-07-19T21:33:52.000Z",
-          "wordCount": 1483,
-          "title": "WordPress 6.3 リリース候補版 1",
-          "imageUrl": "https://s.w.org/images/backgrounds/wordpress-bg-medblue.png"
         }
       ]
     },
@@ -3012,6 +2972,16 @@
       "feedUrl": "https://srad.jp/security.rss",
       "siteUrl": "https://security.srad.jp/",
       "articles": [
+        {
+          "id": "https://security.srad.jp/story/23/08/17/1416226/",
+          "author": "nagazou",
+          "description": "あるAnonymous Coward 曰く、13日のフジテレビ系「日曜報道 THE PRIME」で、サイバー防衛のための人材を政府が確保できるのかが議論となったことが、（主に給与の面で）SNS上で話題となっているようだ（FNNプライムオンライン, Togetterまとめ）。 番組では議論の中で、自民党の佐藤正久氏が「海外では優秀なホワイトハッカーに1億円以上の報酬を提示する企業もある」「昨年とある防衛産業が初任給2000万円でサイバー人材を集めようとしたが全然集まらなかった」という事例をあげ、公務員の給与制度では上限が事務次官級の年収（約2300万円）となってしまうことから、これを政治主導で壁を越えて採用するしかないのでは？と主張。一方で立憲民主党の中谷一馬氏は「3000万円の給料を出しても、1億円もらっている人からすれば給料が下がることになる。それでも国防にモチベーションを持ってきてくれる人たちはいるかもしれない」として働きやすい環境作りなどの方が重要な課題ではないかと語った。 一方で、X (Twitter) 上では主に給与の部分に多くの人が反応。「そんな条件で来るのはヤバいやつかスパイだ」「国防のために3分の1でやってではなく3倍出すというべき」「最高の人材を集めるなら給与と環境両方が必要」「そもそも日本にそのレベルの人材はいるのか？」「数千万プレーヤー一人を採用してもダメでチームごと抱え込む必要がある」などと多くの批判が寄せられた。果たして日本のサイバー防衛の成否は如何に？\n すべて読む | セキュリティセクション | 軍事 | セキュリティ | Twitter | 政府 | お金 |     \n  関連ストーリー： \n防衛省のサイバーコンテスト2023、今年も応募締め切りを延長 2023年07月26日 \n景気後退でもセキュリティ人材は解雇されにくい傾向 2023年03月01日 \n省庁別の「博士官僚」数公表へ 2023年01月05日 \n政府内にあるアナログ規制などの見直し期限を1年前倒しへ 2022年10月31日 \nデジタル庁、脆弱性診断士を公募中 2022年09月13日",
+          "link": "https://security.srad.jp/story/23/08/17/1416226/",
+          "publishedOn": "2023-08-18T09:05:00.000Z",
+          "wordCount": 3322,
+          "title": "サイバー防衛のために公務員給与の壁は変えられるか？",
+          "imageUrl": "https://srad.jp/static/topics/twitter_64.png"
+        },
         {
           "id": "https://security.srad.jp/story/23/08/16/146237/",
           "author": "nagazou",
@@ -4367,6 +4337,16 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2308/19/news041.html",
+          "author": null,
+          "description": "セキュリティガバガバお嬢様が「平文保存」について疑問を抱いています。",
+          "link": "https://www.itmedia.co.jp/news/articles/2308/19/news041.html",
+          "publishedOn": "2023-08-19T00:00:00.000Z",
+          "wordCount": 2478,
+          "title": "「パスワード平文保存って何か問題あるんですの？」　ITお嬢様と学ぶハッシュ化",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2308/19/cover_news041.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2308/18/news116.html",
           "author": null,
           "description": "AWSを採用して話題になった「たまごっちユニ」。AzureやOracleではなくAWSを選んだのはなぜか。バンダイに取材した。",
@@ -4763,6 +4743,26 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1524723.html",
+          "author": null,
+          "description": "Stability AI Japan株式会社は8月17日、日本語向け画像言語モデル「Japanese InstructBLIP Alpha」を公開した。入力した画像に対して文字で説明を生成できる画像キャプション機能を備えるほか、画像に関する質問を文字入力すると日本語で回答するといったことが可能。なお、研究目的での利用に限定した公開としている。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1524723.html",
+          "publishedOn": "2023-08-18T10:52:19.000Z",
+          "wordCount": 4472,
+          "title": "Stability AI Japan、日本語で画像について説明できる「Japanese InstructBLIP Alpha」をリリース",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1524/723/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/weekly/1524690.html",
+          "author": null,
+          "description": "「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/weekly/1524690.html",
+          "publishedOn": "2023-08-18T10:00:00.000Z",
+          "wordCount": 4602,
+          "title": "見出しでわかる IT界隈・今週の重要ニュース：全172本［2023/8/3～8/16］",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1524/690/shutterstock_1391033204_main.jpg"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/1524676.html",
           "author": null,
