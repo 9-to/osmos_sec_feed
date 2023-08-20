@@ -350,16 +350,6 @@
           "wordCount": 290,
           "title": "注意喚起: Proselfの認証バイパスおよびリモートコード実行の脆弱性に関する注意喚起  (公開)",
           "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
-        },
-        {
-          "id": "https://www.jpcert.or.jp/at/2023/at230013.html",
-          "author": null,
-          "description": "",
-          "link": "https://www.jpcert.or.jp/at/2023/at230013.html",
-          "publishedOn": "2023-07-21T01:50:00.000Z",
-          "wordCount": 366,
-          "title": "注意喚起: Citrix ADCおよびCitrix Gatewayの脆弱性（CVE-2023-3519）に関する注意喚起  (更新)",
-          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
         }
       ]
     },
@@ -684,16 +674,6 @@
           "wordCount": 160,
           "title": "標準化部会主催オンラインセミナー「ゼロトラストと標準化」参加登録を開始しました。8月23日に開催します。",
           "imageUrl": "https://www.jnsa.org/images/obj/img_thumb_seminar-event.png"
-        },
-        {
-          "id": "https://www.jnsa.org/aboutus/ml.html",
-          "author": null,
-          "description": "日本ネットワークセキュリティ協会が発信するメールマガジン「JNSAメルマガ」のご案内",
-          "link": "https://www.jnsa.org/aboutus/ml.html",
-          "publishedOn": "2023-07-21T03:00:00.000Z",
-          "wordCount": 261,
-          "title": "JNSAメールマガジン第267号「なぜJNSA教育部会では、セキュリティ人材育成に関わる活動をしているのでしょうか？」を配信しました。iU情報経営イノベーション専門職大学教授／JNSA教育部会部会長平山敏弘氏にご執筆いただきました。",
-          "imageUrl": "https://www.jnsa.org/images/obj/img_thumb_jnsaml.png"
         }
       ]
     },
@@ -897,26 +877,6 @@
           "wordCount": 3290,
           "title": "Four Ways To Use AI Responsibly",
           "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2023/07/300x200_Blog_072423.png"
-        },
-        {
-          "id": "https://www.mcafee.com/blogs/?p=171750",
-          "author": "McAfee Labs",
-          "description": "Authored by Yukihiro Okutomi  McAfee’s Mobile team observed a smishing campaign against Japanese Android users posing as a power and...\nThe post Android SpyNote attacks electric and water public utility users in Japan appeared first on McAfee Blog.",
-          "link": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/android-spynote-attacks-electric-and-water-public-utility-users-in-japan/",
-          "publishedOn": "2023-07-21T07:00:03.000Z",
-          "wordCount": 2921,
-          "title": "Android SpyNote attacks electric and water public utility users in Japan",
-          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2022/09/300x200_Blog_061323.png"
-        },
-        {
-          "id": "https://www.mcafee.com/blogs/?p=171643",
-          "author": "Jasdev Dhaliwal",
-          "description": "Turns out, scammers really love Barbie.  As Barbie makes her debut on the big screen, scammers are aiming to cash...\nThe post Scammers Love Barbie: Fake Videos Promote Bogus Ticket Offers That Steal Personal Info appeared first on McAfee Blog.",
-          "link": "https://www.mcafee.com/blogs/internet-security/scammers-love-barbie-fake-videos-promote-bogus-ticket-offers-that-steal-personal-info/",
-          "publishedOn": "2023-07-20T20:24:09.000Z",
-          "wordCount": null,
-          "title": "Scammers Love Barbie: Fake Videos Promote Bogus Ticket Offers That Steal Personal Info",
-          "imageUrl": null
         }
       ]
     },
@@ -2054,17 +2014,6 @@
           "title": "[Web更新]2023年度DRP検討委員会第2回会合資料を公開",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "https://blog.nic.ad.jp/2023/8971/",
-          "author": null,
-          "description": "メールマガジンで配信したインターネットに関するコラムを、このブログでもご紹介しています。2023年5月は、ドメイン名マネジメントのエキスパートとしてご活躍なさっている、Com Laude株式会社のLam Phamさんにお書きいただきました。ドメイン名マネジメントの重要性や可能性と共に、Lam Phamさんが大変誇りを持って業務に取り組んでおられる様子が強く伝わってくる内容です。",
-          "link": "https://blog.nic.ad.jp/2023/8971/",
-          "publishedOn": "2023-07-21T08:00:17.000Z",
-          "wordCount": null,
-          "title": "[Blog記事]News & Views コラム：デジタル世界の中の「スペース」",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -2973,6 +2922,16 @@
       "siteUrl": "https://security.srad.jp/",
       "articles": [
         {
+          "id": "https://security.srad.jp/story/23/08/20/0345217/",
+          "author": "headless",
+          "description": "Chrome 117 ではインストール済みの拡張機能が Chrome ウェブストアで提供されなくなった場合、ユーザーに通知する機能が追加されるそうだ\n(Chrome Developers のブログ記事、\nNeowin の記事)。\n\n拡張機能が Chrome ウェブストアで提供されなくなる理由としては、開発者が公開を終了・Chrome ウェブストアポリシー違反・マルウェアと判定された、という 3 つのケースに限られる。ポリシー違反の場合は開発者に警告後、修正や異議申立を行うための猶予期間が設けられるが、この間は拡張機能が公開停止になることはない。そのため、ユーザーにも通知が表示されることはなく、問題が解決すれば通知は自動的に消えるとのこと。マルウェアと判定された拡張機能はこれまで通り自動で無効化される。\n\n拡張機能提供中止の理由は Chrome の拡張機能設定画面 (chrome://extensions/) に表示されるが、「プライバシーとセキュリティ」設定画面 (chrome://settings/privacy) の「安全確認」で通知を目にする可能性が高いという。ここでレビューボタンをクリックすれば、拡張機能設定画面に移動して理由を確認したり、削除したりすることが可能だ。この変更は正規の拡張機能に影響を与えることなく、エコシステムの安全を保つことを目指しているそうだ。\n すべて読む | セキュリティセクション | Chrome | セキュリティ | デベロッパー | IT |     \n  関連ストーリー： \nGoogle、Chorme 拡張の Manifest V2 終息計画を再び先送り 2023年04月08日 \nGoogle、Windows 版 Chrome の望ましくないソフトウェア削除機能を廃止 2023年03月11日 \nChrome拡張機能のGet cookies.txt、スパイウェアに変貌 2023年03月02日 \nChrome 拡張の Manifest V2 サポートタイムライン更新、1 月の変更はすべて延期 2022年12月10日 \nGoogle、Chrome 拡張機能の Manifest V2 終息を半年先送り 2022年10月01日 \nChrome 拡張機能の Manifest V3、未だに利用可能になっていない API も 2022年09月23日 \nChrome ウェブストア、信頼できる拡張機能を見つけやすくする 2 種類のバッジを表示開始 2022年04月27日 \nChromeがついにバージョン100に到達 2022年03月31日 \nEFF、Chrome 拡張機能プラットフォームの Manifest V3 に対する批判を強める 2021年12月18日 \nMicrosoft Authenticatorの偽拡張機能、Chromeウェブストアで見つかる 2021年05月21日 \nURLから追跡要素を削除する拡張機能 \"ClearURLs\" がChrome ウェブストアから削除 2021年03月26日 \nGoogle、マルウェア化したChrome拡張機能をリモートから無効化 2021年02月06日 \nChromeウェブストア、拡張機能がユーザーから収集するデータに関する情報の表示を1月に開始 2020年11月22日",
+          "link": "https://security.srad.jp/story/23/08/20/0345217/",
+          "publishedOn": "2023-08-20T04:09:00.000Z",
+          "wordCount": 2072,
+          "title": "Chrome 117、拡張機能の安全確認機能追加へ",
+          "imageUrl": "https://srad.jp/static/topics/chrome_64.png"
+        },
+        {
           "id": "https://security.srad.jp/story/23/08/17/1416226/",
           "author": "nagazou",
           "description": "あるAnonymous Coward 曰く、13日のフジテレビ系「日曜報道 THE PRIME」で、サイバー防衛のための人材を政府が確保できるのかが議論となったことが、（主に給与の面で）SNS上で話題となっているようだ（FNNプライムオンライン, Togetterまとめ）。 番組では議論の中で、自民党の佐藤正久氏が「海外では優秀なホワイトハッカーに1億円以上の報酬を提示する企業もある」「昨年とある防衛産業が初任給2000万円でサイバー人材を集めようとしたが全然集まらなかった」という事例をあげ、公務員の給与制度では上限が事務次官級の年収（約2300万円）となってしまうことから、これを政治主導で壁を越えて採用するしかないのでは？と主張。一方で立憲民主党の中谷一馬氏は「3000万円の給料を出しても、1億円もらっている人からすれば給料が下がることになる。それでも国防にモチベーションを持ってきてくれる人たちはいるかもしれない」として働きやすい環境作りなどの方が重要な課題ではないかと語った。 一方で、X (Twitter) 上では主に給与の部分に多くの人が反応。「そんな条件で来るのはヤバいやつかスパイだ」「国防のために3分の1でやってではなく3倍出すというべき」「最高の人材を集めるなら給与と環境両方が必要」「そもそも日本にそのレベルの人材はいるのか？」「数千万プレーヤー一人を採用してもダメでチームごと抱え込む必要がある」などと多くの批判が寄せられた。果たして日本のサイバー防衛の成否は如何に？\n すべて読む | セキュリティセクション | 軍事 | セキュリティ | Twitter | 政府 | お金 |     \n  関連ストーリー： \n防衛省のサイバーコンテスト2023、今年も応募締め切りを延長 2023年07月26日 \n景気後退でもセキュリティ人材は解雇されにくい傾向 2023年03月01日 \n省庁別の「博士官僚」数公表へ 2023年01月05日 \n政府内にあるアナログ規制などの見直し期限を1年前倒しへ 2022年10月31日 \nデジタル庁、脆弱性診断士を公募中 2022年09月13日",
@@ -3259,6 +3218,26 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/08/20/49833.html",
+          "author": null,
+          "description": "鹿児島県日置市は8月4日、コンピュータの不適正使用による3件の懲戒処分について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/08/20/49833.html",
+          "publishedOn": "2023-08-19T23:05:06.000Z",
+          "wordCount": 824,
+          "title": "全員懲戒 ～ 三人の市職員がのべ967回不正ログイン",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42381.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/08/20/49832.html",
+          "author": null,
+          "description": "一般財団法人日本情報経済社会推進協会（JIPDEC）は8月10日、プライバシーマーク審査関連資料の漏えいについて発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/08/20/49832.html",
+          "publishedOn": "2023-08-19T23:05:02.000Z",
+          "wordCount": 848,
+          "title": "プライバシーマーク審査員、審査関連資料を漏えい",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42428.jpg"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2023/08/18/49831.html",
           "author": null,
@@ -4725,16 +4704,6 @@
           "wordCount": 2438,
           "title": "日経新聞、「To」に最大1000件のアドレス入れたままメール送信　設定ミスで",
           "imageUrl": "https://image.itmedia.co.jp/news/articles/2307/24/cover_news148.jpg"
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2307/21/news177.html",
-          "author": null,
-          "description": "スカパーJSATは、不正アクセスにより従業員や取引先担当者の個人情報が漏えいした可能性があるとして謝罪した。攻撃者は同社子会社の従業員に成りすまして社内サーバにアクセスしたとみられる。",
-          "link": "https://www.itmedia.co.jp/news/articles/2307/21/news177.html",
-          "publishedOn": "2023-07-21T09:35:00.000Z",
-          "wordCount": 2440,
-          "title": "スカパーJSATに不正アクセス　従業員になりすましてサーバに侵入か",
-          "imageUrl": "https://image.itmedia.co.jp/news/articles/2307/21/cover_news177.jpg"
         }
       ]
     },
@@ -5826,6 +5795,16 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230820-2751919/",
+          "author": null,
+          "description": "シスコシステムズからここ1週間で17個のセキュリティアドバイザリが発行された。そのうち、5個は深刻度が重要に分類されており注意が必要。シスコ製品については、短期間で複数のセキュリティアドバイザリが発行されることがあるため、掲載されているリストを漏れなくチェックすることが望まれる。",
+          "link": "https://news.mynavi.jp/techplus/article/20230820-2751919/",
+          "publishedOn": "2023-08-20T04:29:03.000Z",
+          "wordCount": 1920,
+          "title": "シスコ製品のセキュリティアドバイザリ、1週間で17個発行",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230820-2751919/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20230818-2750180/",
           "author": null,

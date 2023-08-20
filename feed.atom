@@ -2,10 +2,71 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-08-19T08:09:14.522Z</updated>
+    <updated>2023-08-20T08:09:26.293Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[シスコ製品のセキュリティアドバイザリ、1週間で17個発行]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230820-2751919/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230820-2751919/"/>
+        <updated>2023-08-20T04:29:03.000Z</updated>
+        <summary type="html"><![CDATA[シスコシステムズからここ1週間で17個のセキュリティアドバイザリが発行された。そのうち、5個は深刻度が重要に分類されており注意が必要。シスコ製品については、短期間で複数のセキュリティアドバイザリが発行されることがあるため、掲載されているリストを漏れなくチェックすることが望まれる。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chrome 117、拡張機能の安全確認機能追加へ]]></title>
+        <id>https://security.srad.jp/story/23/08/20/0345217/</id>
+        <link href="https://security.srad.jp/story/23/08/20/0345217/"/>
+        <updated>2023-08-20T04:09:00.000Z</updated>
+        <summary type="html"><![CDATA[Chrome 117 ではインストール済みの拡張機能が Chrome ウェブストアで提供されなくなった場合、ユーザーに通知する機能が追加されるそうだ
+(Chrome Developers のブログ記事、
+Neowin の記事)。
+
+拡張機能が Chrome ウェブストアで提供されなくなる理由としては、開発者が公開を終了・Chrome ウェブストアポリシー違反・マルウェアと判定された、という 3 つのケースに限られる。ポリシー違反の場合は開発者に警告後、修正や異議申立を行うための猶予期間が設けられるが、この間は拡張機能が公開停止になることはない。そのため、ユーザーにも通知が表示されることはなく、問題が解決すれば通知は自動的に消えるとのこと。マルウェアと判定された拡張機能はこれまで通り自動で無効化される。
+
+拡張機能提供中止の理由は Chrome の拡張機能設定画面 (chrome://extensions/) に表示されるが、「プライバシーとセキュリティ」設定画面 (chrome://settings/privacy) の「安全確認」で通知を目にする可能性が高いという。ここでレビューボタンをクリックすれば、拡張機能設定画面に移動して理由を確認したり、削除したりすることが可能だ。この変更は正規の拡張機能に影響を与えることなく、エコシステムの安全を保つことを目指しているそうだ。
+ すべて読む | セキュリティセクション | Chrome | セキュリティ | デベロッパー | IT |     
+  関連ストーリー： 
+Google、Chorme 拡張の Manifest V2 終息計画を再び先送り 2023年04月08日 
+Google、Windows 版 Chrome の望ましくないソフトウェア削除機能を廃止 2023年03月11日 
+Chrome拡張機能のGet cookies.txt、スパイウェアに変貌 2023年03月02日 
+Chrome 拡張の Manifest V2 サポートタイムライン更新、1 月の変更はすべて延期 2022年12月10日 
+Google、Chrome 拡張機能の Manifest V2 終息を半年先送り 2022年10月01日 
+Chrome 拡張機能の Manifest V3、未だに利用可能になっていない API も 2022年09月23日 
+Chrome ウェブストア、信頼できる拡張機能を見つけやすくする 2 種類のバッジを表示開始 2022年04月27日 
+Chromeがついにバージョン100に到達 2022年03月31日 
+EFF、Chrome 拡張機能プラットフォームの Manifest V3 に対する批判を強める 2021年12月18日 
+Microsoft Authenticatorの偽拡張機能、Chromeウェブストアで見つかる 2021年05月21日 
+URLから追跡要素を削除する拡張機能 "ClearURLs" がChrome ウェブストアから削除 2021年03月26日 
+Google、マルウェア化したChrome拡張機能をリモートから無効化 2021年02月06日 
+Chromeウェブストア、拡張機能がユーザーから収集するデータに関する情報の表示を1月に開始 2020年11月22日]]></summary>
+        <author>
+            <name>headless</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[全員懲戒 ～ 三人の市職員がのべ967回不正ログイン]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/08/20/49833.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/08/20/49833.html"/>
+        <updated>2023-08-19T23:05:06.000Z</updated>
+        <summary type="html"><![CDATA[鹿児島県日置市は8月4日、コンピュータの不適正使用による3件の懲戒処分について発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[プライバシーマーク審査員、審査関連資料を漏えい]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/08/20/49832.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/08/20/49832.html"/>
+        <updated>2023-08-19T23:05:02.000Z</updated>
+        <summary type="html"><![CDATA[一般財団法人日本情報経済社会推進協会（JIPDEC）は8月10日、プライバシーマーク審査関連資料の漏えいについて発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[「パスワード平文保存って何か問題あるんですの？」　ITお嬢様と学ぶハッシュ化]]></title>
         <id>https://www.itmedia.co.jp/news/articles/2308/19/news041.html</id>
@@ -10548,67 +10609,6 @@ CVSS (脆弱性の…]]></summary>
         <summary type="html"><![CDATA[情報処理推進機構（IPA）の「クラウドサービス（SaaS）のサプライチェーンリスクマネジメント実態調査」に関する情報です。]]></summary>
         <author>
             <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[スカパーJSATに不正アクセス　従業員になりすましてサーバに侵入か]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2307/21/news177.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2307/21/news177.html"/>
-        <updated>2023-07-21T09:35:00.000Z</updated>
-        <summary type="html"><![CDATA[スカパーJSATは、不正アクセスにより従業員や取引先担当者の個人情報が漏えいした可能性があるとして謝罪した。攻撃者は同社子会社の従業員に成りすまして社内サーバにアクセスしたとみられる。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Blog記事]News & Views コラム：デジタル世界の中の「スペース」]]></title>
-        <id>https://blog.nic.ad.jp/2023/8971/</id>
-        <link href="https://blog.nic.ad.jp/2023/8971/"/>
-        <updated>2023-07-21T08:00:17.000Z</updated>
-        <summary type="html"><![CDATA[メールマガジンで配信したインターネットに関するコラムを、このブログでもご紹介しています。2023年5月は、ドメイン名マネジメントのエキスパートとしてご活躍なさっている、Com Laude株式会社のLam Phamさんにお書きいただきました。ドメイン名マネジメントの重要性や可能性と共に、Lam Phamさんが大変誇りを持って業務に取り組んでおられる様子が強く伝わってくる内容です。]]></summary>
-        <author>
-            <name>JPNIC Web</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Android SpyNote attacks electric and water public utility users in Japan]]></title>
-        <id>https://www.mcafee.com/blogs/?p=171750</id>
-        <link href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/android-spynote-attacks-electric-and-water-public-utility-users-in-japan/"/>
-        <updated>2023-07-21T07:00:03.000Z</updated>
-        <summary type="html"><![CDATA[Authored by Yukihiro Okutomi  McAfee’s Mobile team observed a smishing campaign against Japanese Android users posing as a power and...
-The post Android SpyNote attacks electric and water public utility users in Japan appeared first on McAfee Blog.]]></summary>
-        <author>
-            <name>McAfee Labs</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JNSAメールマガジン第267号「なぜJNSA教育部会では、セキュリティ人材育成に関わる活動をしているのでしょうか？」を配信しました。iU情報経営イノベーション専門職大学教授／JNSA教育部会部会長平山敏弘氏にご執筆いただきました。]]></title>
-        <id>https://www.jnsa.org/aboutus/ml.html</id>
-        <link href="https://www.jnsa.org/aboutus/ml.html"/>
-        <updated>2023-07-21T03:00:00.000Z</updated>
-        <summary type="html"><![CDATA[日本ネットワークセキュリティ協会が発信するメールマガジン「JNSAメルマガ」のご案内]]></summary>
-        <author>
-            <name>特定非営利活動法人 日本ネットワークセキュリティ協会（JNSA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[注意喚起: Citrix ADCおよびCitrix Gatewayの脆弱性（CVE-2023-3519）に関する注意喚起  (更新)]]></title>
-        <id>https://www.jpcert.or.jp/at/2023/at230013.html</id>
-        <link href="https://www.jpcert.or.jp/at/2023/at230013.html"/>
-        <updated>2023-07-21T01:50:00.000Z</updated>
-        <author>
-            <name>JPCERT/CC RSS Feed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Scammers Love Barbie: Fake Videos Promote Bogus Ticket Offers That Steal Personal Info]]></title>
-        <id>https://www.mcafee.com/blogs/?p=171643</id>
-        <link href="https://www.mcafee.com/blogs/internet-security/scammers-love-barbie-fake-videos-promote-bogus-ticket-offers-that-steal-personal-info/"/>
-        <updated>2023-07-20T20:24:09.000Z</updated>
-        <summary type="html"><![CDATA[Turns out, scammers really love Barbie.  As Barbie makes her debut on the big screen, scammers are aiming to cash...
-The post Scammers Love Barbie: Fake Videos Promote Bogus Ticket Offers That Steal Personal Info appeared first on McAfee Blog.]]></summary>
-        <author>
-            <name>Jasdev Dhaliwal</name>
         </author>
     </entry>
 </feed>
