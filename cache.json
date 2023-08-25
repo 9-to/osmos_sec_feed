@@ -347,16 +347,6 @@
           "wordCount": 1226,
           "title": "サイバーセキュリティ経営可視化ツール（Excel版、Ver2.1）を公開しました",
           "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
-        },
-        {
-          "id": "https://www.ipa.go.jp/recruit/shokutaku/index.html",
-          "author": "情報処理推進機構（IPA）",
-          "description": "情報処理推進機構（IPA）の「嘱託職員公募」に関する情報です。",
-          "link": "https://www.ipa.go.jp/recruit/shokutaku/index.html",
-          "publishedOn": "2023-07-26T15:00:00.000Z",
-          "wordCount": 313,
-          "title": "嘱託職員公募の情報を更新しました",
-          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
         }
       ]
     },
@@ -468,6 +458,26 @@
       "feedUrl": "https://www.mcafee.com/blogs/feed/",
       "siteUrl": null,
       "articles": [
+        {
+          "id": "https://securingtomorrow.mcafee.com/?p=90079",
+          "author": "McAfee",
+          "description": "Have you ever lost your suitcase on vacation? You arrive at baggage claim, keeping your eyes peeled for your belongings....\nThe post A Traveler’s Guide to International Cybersecurity appeared first on McAfee Blog.",
+          "link": "https://www.mcafee.com/blogs/internet-security/travelers-guide-to-international-cybersecurity/",
+          "publishedOn": "2023-08-24T13:23:01.000Z",
+          "wordCount": 3068,
+          "title": "A Traveler’s Guide to International Cybersecurity",
+          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2018/06/300x200_Blog_082423.png"
+        },
+        {
+          "id": "https://www.mcafee.com/blogs/?p=172887",
+          "author": "McAfee Labs",
+          "description": "Authored by: Neil Tyagi   Scam artists know no bounds—and that also applies to stealing your cryptocurrency. Crypto scams are like...\nThe post Crypto Scam: SpaceX Tokens for Sale appeared first on McAfee Blog.",
+          "link": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/crypto-scam-spacex-tokens-for-sale/",
+          "publishedOn": "2023-08-24T13:19:12.000Z",
+          "wordCount": 2868,
+          "title": "Crypto Scam: SpaceX Tokens for Sale",
+          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2021/06/300x200_Bitcoin.jpg"
+        },
         {
           "id": "/blogs/?p=102613",
           "author": "McAfee",
@@ -647,16 +657,6 @@
           "wordCount": 3331,
           "title": "What is Spyware?",
           "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2022/10/300x200_Blog_101822.png"
-        },
-        {
-          "id": "https://www.mcafee.com/blogs/?p=162066",
-          "author": "McAfee",
-          "description": "Something looks a little … sketchy. Is that website safe or unsafe?   Nowadays, it can take a bit work to...\nThe post How to Tell Whether a Website Is Safe or Unsafe appeared first on McAfee Blog.",
-          "link": "https://www.mcafee.com/blogs/internet-security/how-to-tell-whether-a-website-is-safe-or-unsafe/",
-          "publishedOn": "2023-07-26T09:49:48.000Z",
-          "wordCount": 3752,
-          "title": "How to Tell Whether a Website Is Safe or Unsafe",
-          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2022/11/300x203_Blog_112322.png"
         }
       ]
     },
@@ -905,6 +905,46 @@
       "siteUrl": "https://tech-lab.sios.jp",
       "articles": [
         {
+          "id": "https://tech-lab.sios.jp/?p=35848",
+          "author": "佐藤 陽",
+          "description": "こんにちは、サイオステクノロジーの佐藤 陽です。 今回は AzureDevOpsのサービスであるAzurePipelinesに関する紹介です。 ASP.NET CoreのアプリケーションをAzureのWebAppへデプロ [...]\n【Azure Pipelines】WebAppsへDeployするためのyamlファイルを徹底解説【初心者向け】 first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/35848",
+          "publishedOn": "2023-08-25T04:49:24.000Z",
+          "wordCount": 1871,
+          "title": "【Azure Pipelines】WebAppsへDeployするためのyamlファイルを徹底解説【初心者向け】",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2023/08/eyecatch-1-1.jpg"
+        },
+        {
+          "id": "https://tech-lab.sios.jp/?p=35850",
+          "author": "細川",
+          "description": "はじめに 皆さん、こんにちは。新卒2年目の細川です。普段は、TypeScriptを使って開発をしてます。 突然ですが皆さん、TypeScriptでもっと厳密に型付けをしたいなと思ったことはありませんか？ 以前こちらのブロ [...]\nTypescriptのあれこれ③より厳密に型付けする方法 first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/35850",
+          "publishedOn": "2023-08-25T02:39:53.000Z",
+          "wordCount": 1826,
+          "title": "Typescriptのあれこれ③より厳密に型付けする方法",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2023/08/TypeScript3.png"
+        },
+        {
+          "id": "https://tech-lab.sios.jp/?p=35840",
+          "author": "細川",
+          "description": "はじめに こんにちは、PSの新卒2年目エンジニアの細川です。普段の業務ではTypeScriptやGoを使った開発を行っています。 今回はTypeScriptの部分型についてまとめてみようと思います。 TypeScript [...]\nTypeScriptのあれこれ②違う型なのに代入できる！？ first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/35840",
+          "publishedOn": "2023-08-25T02:38:58.000Z",
+          "wordCount": 1737,
+          "title": "TypeScriptのあれこれ②違う型なのに代入できる！？",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2023/08/TypeScript2.png"
+        },
+        {
+          "id": "https://tech-lab.sios.jp/?p=35828",
+          "author": "龍：Ryu",
+          "description": "今回は「tremor」というUIライブラリについて紹介します。ReactでTailwindCSSを採用していれば、管理画面を楽に作ることができるのでは？というとても良い感触でした。その感動を爆速でブログにまとめてみました [...]\nReact+TailwindCSSで管理画面を作る時の選択肢：tremor first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/35828",
+          "publishedOn": "2023-08-25T01:51:15.000Z",
+          "wordCount": 1628,
+          "title": "React+TailwindCSSで管理画面を作る時の選択肢：tremor",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2023/08/Frame-5680.png"
+        },
+        {
           "id": "https://tech-lab.sios.jp/?p=35798",
           "author": "佐藤 陽",
           "description": "こんにちは、サイオステクノロジー 佐藤 陽です。 今日も Stripe の CustomerPortal のお話をしていきたいと思います。 CustomerPortal にはフローという機能が存在しており この機能を使う [...]\n【Stripe】フロー機能を使ってアプリと Stripe のシンクロ率向上【CustomerPortal】 first appeared on SIOS Tech. Lab.",
@@ -1027,6 +1067,16 @@
       "feedUrl": "https://eset-info.canon-its.jp/RSS.rdf",
       "siteUrl": "https://eset-info.canon-its.jp/",
       "articles": [
+        {
+          "id": "https://eset-info.canon-its.jp/malware_info/term/detail/00203.html",
+          "author": null,
+          "description": "不正アクセスによるネットワークへの侵入を足がかりに、ネットワーク内でシステムやデータ侵害の範囲を拡大する行為\n\n\n\n\nラテラルムーブメントとは、ネットワークに侵入した攻撃者がネットワーク内のほかのシステムやデータへの侵害範囲を拡大しようとする行為のこと。攻撃がほかのシステムへも波及することで、システムの管理権限、あるいは機密情報へのアクセスを取得され、組織のネットワーク全体が危険に晒される懸念が生じる。こうした攻撃は、しばしば組織のセキュリティ体制の脆弱性を突いて行われる。\n\n例えば、ある社員のパソコンに侵入し、そこを経由してネットワーク内のほかのシステムや社員のパソコンへの侵入を試みる。こうした行動を繰り返すことで、重要な権限を保有する従業員や経営幹部といった攻撃対象へたどり着くことを目指す。そして、重要なデータやシステムへアクセス可能となることで攻撃の目的を果たそうとする。\n\nラテラルムーブメントによる影響は、企業・組織にとって極めて深刻なものとなる。攻撃者がネットワーク内を自由に動き回ることができれば、機密データの窃取、システムの破壊、ランサムウェアの展開など、さまざまな悪意を伴う活動が可能となるためだ。これらの攻撃は、組織にとって重大な経済的損失や、顧客からの信頼失墜につながる恐れがある。\n\nラテラルムーブメントへの対策\n\nラテラルムーブメントへの対策としては、ネットワークをセグメント化することが有効だとされる。ネットワークをいくつかの区分に分割するセグメント化により、攻撃者が移動できるネットワークが制限されることになる。また、通信全般を信用せず、不審なアクセスを監視・遮断する「ゼロトラストセキュリティ」に基づく対策も有効だ。ゼロトラストでは、内部ネットワークにおいても信頼性を検証する仕組みが必要とされる。つまり、ユーザー、デバイス、アプリケーションなどの要素を個別に検証し、必要な認証やアクセス制御を行うことで、攻撃者によるネットワーク内の水平展開・横展開を抑制可能となる。\n\n加えて、エンドポイントセキュリティとして、セキュリティソフトの導入、従業員へのセキュリティ教育を徹底し、従業員が利用する個々のパソコンなどのエンドポイント端末を保護することの重要性を理解させるといった基本的な対策も有効である。",
+          "link": "https://eset-info.canon-its.jp/malware_info/term/detail/00203.html",
+          "publishedOn": "2023-08-24T15:00:00.000Z",
+          "wordCount": 161,
+          "title": "ラテラルムーブメント",
+          "imageUrl": "https://eset-info.canon-its.jp/files/user/images/common/sns_thumb.jpg"
+        },
         {
           "id": "https://eset-info.canon-its.jp/malware_info/special/detail/230824.html",
           "author": null,
@@ -1166,16 +1216,6 @@
           "wordCount": 226,
           "title": "サイバー攻撃の種類にはどういうものがあるのか？種類別に解説",
           "imageUrl": "https://eset-info.canon-its.jp/files/topics/4345_ext_01_0.jpg"
-        },
-        {
-          "id": "https://eset-info.canon-its.jp/malware_info/malware_topics/detail/malware2306.html",
-          "author": null,
-          "description": "6月の概況\n\n2023年6月（6月1日～6月30日）にESET製品が国内で検出したマルウェアの検出数の推移は、以下のとおりです。\n\n\n\n国内マルウェア検出数*1の推移\n(2023年1月の全検出数を100%として比較)\n\n*1 検出数にはPUA (Potentially Unwanted/Unsafe Application; 必ずしも悪意があるとは限らないが、コンピューターのパフォーマンスに悪影響を及ぼす可能性があるアプリケーション)を含めています。\n\n\n2023年6月の国内マルウェア検出数は、2023年5月と比較して減少しました。検出されたマルウェアの内訳は以下のとおりです。\n\n国内マルウェア検出数*2上位（2023年6月）\n\n\n\t\n\t\t\n\t\t\t順位\n\t\t\tマルウェア名\n\t\t\t割合\n\t\t\t種別\n\t\t\n\t\t\n\t\t\t1\n\t\t\tJS/Adware.Agent\n\t\t\t39.5%\n\t\t\tアドウェア\n\t\t\n\t\t\n\t\t\t2\n\t\t\tHTML/Phishing.Agent\n\t\t\t11.0%\n\t\t\tメールに添付された不正なHTMLファイル\n\t\t\n\t\t\n\t\t\t3\n\t\t\tDOC/Fraud\n\t\t\t9.7%\n\t\t\t詐欺サイトのリンクが埋め込まれたDOCファイル\n\t\t\n\t\t\n\t\t\t4\n\t\t\tJS/Adware.TerraClicks\n\t\t\t7.0%\n\t\t\tアドウェア\n\t\t\n\t\t\n\t\t\t5\n\t\t\tJS/Adware.Sculinst\n\t\t\t1.7%\n\t\t\tアドウェア\n\t\t\n\t\t\n\t\t\t6\n\t\t\tJS/Agent\n\t\t\t1.5%\n\t\t\t不正なJavaScriptの汎用検出名\n\t\t\n\t\t\n\t\t\t7\n\t\t\tWin32/Exploit.CVE-2017-11882\n\t\t\t1.4%\n\t\t\t脆弱性を悪用するマルウェア\n\t\t\n\t\t\n\t\t\t8\n\t\t\tHTML/Phishing\n\t\t\t1.0%\n\t\t\t詐欺を目的とした不正なHTMLファイル\n\t\t\n\t\t\n\t\t\t9\n\t\t\tPDF/Phishing\n\t\t\t1.0%\n\t\t\t詐欺を目的とした不正なPDFファイル\n\t\t\n\t\t\n\t\t\t10\n\t\t\tHTML/Fraud\n\t\t\t0.9%\n\t\t\t詐欺サイトのリンクが埋め込まれたHTMLファイル\n\t\t\n\t\n\n\n*2 本表にはPUAを含めていません。\n\n6月に国内で最も多く検出されたマルウェアは、JS/Adware.Agentでした。\nJS/Adware.Agentは、悪意のある広告を表示させるアドウェアの汎用検出名です。Webサイト閲覧時に実行されます。\n\n検出数の最も多いJS形式マルウェア\n\nJS形式マルウェアはJavaScriptで記述されたマルウェアであり、ESET製品においては「JS/」というプレフィックスから始まる検出名が該当します。\n6月の概況で示したとおり、国内マルウェア検出数上位10件のうち、JS形式マルウェアが4件と最も多く確認されました。6月の検出数全体で見てもJS形式マルウェアはおよそ60%を占めており、マルウェアとして最も多いファイル形式であることがわかります。\n\n\n\n2023年6月の国内におけるファイル形式別のマルウェア検出数の割合\n\n\nサイバーセキュリティラボが毎年公開している「サイバーセキュリティレポート*3,4」の中で上半期および年間におけるファイル形式別の割合を掲載していますが、国内に限定すると2018年以降はJS形式が最も割合の高いマルウェアとして推移し続けています。\n2023年におけるJS形式マルウェアの傾向を見てみると、2022年以前と同様に検出数は最上位を維持し続けています。加えて、検出数の多いファイル形式上位5種*5のうち、JS形式は検出数が増加傾向にあるマルウェアの1つであることがわかります。\n\n*3 2020年以前は「マルウェアレポート」の名称で公開しています。\n\n*4 「定期レポート」に関する記事一覧 | サイバーセキュリティ情報局\n\n*5 2023年1月～6月における検出数の平均値で算出しました。1位から順にJS形式、HTML形式、DOC形式、Win32形式、MSIL形式の5種が該当します。\n\n\n\n2023年の国内におけるファイル形式別の検出数推移\n（1月のJS形式を100%として比較）\n（図中の直線は各ファイル形式の線形近似直線を表す）\n\n\nこのように、JS形式マルウェアは国内において長らく脅威が続いているマルウェアであり、2023年以降は徐々に脅威が拡大しているため警戒が必要です。\n\nJS形式マルウェアの攻撃対象は広範囲\n\nJS形式マルウェアの検出数が多い要因として、攻撃者にとって多くのユーザーを標的にできることが考えられます。今回は３つの例を紹介します。\n\n1.悪意のあるインターネット広告\n\nWebブラウジングは、多くのユーザーにとって仕事やプライベートに関係なくインターネットに触れる代表的な手段の１つです。現在はWebブラウジング中にインターネット広告を見かけることが一般的となっていますが、この広告に悪意のあるコンテンツを含めることによって不特定多数のユーザーを標的にすることが可能です。6月の国内マルウェア検出数上位に該当する４つのJS形式マルウェアのうち３つがアドウェアであることからも、国内の多くのユーザーにとって脅威となっている様子がわかります。\n\n2.実行環境に応じたマルウェアの配布\n\nJavaScriptはECMAScriptとして標準化*6されており、互換性が高くさまざまなWebブラウザー上で実行することができます。すなわち、さまざまなOSにおいてWebブラウザー上でJavaScriptを実行できることに他なりません。\nJavaScriptにおいて、WebブラウザーやOSなどの実行環境に関する情報を取得する方法の１つに、Navigatorオブジェクト*7が挙げられます。このオブジェクトを利用することで、実行環境に適したマルウェアペイロードをダウンロードして実行させることができる可能性があります。\n\n*6 TC39 | Ecma International\n\n*7 Navigator - Web API | Mozilla Foundation\n\n\n\n実行環境に応じたマルウェア感染のイメージ\n\n\n3.JavaScriptをマルチプラットフォームで動作させる実行環境の存在\n\n例えばNW.jsは、Node.js*8にWebKit*9の機能を追加した実行環境であり、複数のOS上で動作するマルチプラットフォームの実行環境でもあります。Ransom32と呼ばれるJavaScriptベースのランサムウェア*10は、このNW.js上で動作するように設計されているため、NW.jsがインストールされた環境であればOSに関係なく動作します。このように条件が整っている場合、JS形式マルウェアは複数のOSで動作し得るため標的の範囲が広いマルウェアであると言えます。\n\n*8 クライアントサイドであるブラウザー上で動作するJavaScriptを、サーバーサイドで実行できるようにする実行環境です。\n\n*9 Webページを整形して表示するためのHTMLレンダリングエンジンです。\n\n*10 Die erste Ransomware in JavaScript: Ransom32 | Emsisoft\n\nまとめ\n\n今回はJS形式マルウェアについて紹介しました。国内においては最も検出数の多いマルウェアであるため対策は必須です。JS形式はWebブラウザー以外の環境でも実行できる場合があります。よってWebブラウザーを最新の状態に保つこと以外にも、OSのバージョンアップやセキュリティ製品の導入なども実施して、組織の端末を保護するようにしてください。\n\n\n\n常日頃からリスク軽減するための対策について\n\n各記事でご案内しているようなリスク軽減の対策をご案内いたします。\n下記の対策を実施してください。\n\n\n\t1. セキュリティ製品の適切な利用\n\t1-1. ESET製品の検出エンジン（ウイルス定義データベース）をアップデートする\n\tESET製品では、次々と発生する新たなマルウェアなどに対して逐次対応しております。\n\t最新の脅威に対応できるよう、検出エンジン（ウイルス定義データベース）を最新の状態にアップデートしてください。\n\t1-2.複数の層で守る\n\t1つの対策に頼りすぎることなく、エンドポイントやゲートウェイなど複数の層で守ることが重要です。\n\t2. 脆弱性への対応\n\t2-1.セキュリティパッチを適用する\n\tマルウェアの多くは、OSに含まれる「脆弱性」を利用してコンピューターに感染します。「Windows Update」などのOSのアップデートを行ってください。また、マルウェアの多くが狙う「脆弱性」は、Office製品、Adobe Readerなどのアプリケーションにも含まれています。各種アプリケーションのアップデートを行ってください。\n\t2-2.脆弱性診断を活用する\n\tより強固なセキュリティを実現するためにも、脆弱性診断製品やサービスを活用していきましょう。\n\t3. セキュリティ教育と体制構築\n\t3-1.脅威が存在することを知る\n\t「セキュリティ上の最大のリスクは&ldquo;人&rdquo;だ」とも言われています。知らないことに対して備えることができる人は多くありませんが、知っていることには多くの人が「危険だ」と気づくことができます。\n\t3-2.インシデント発生時の対応を明確化する\n\tインシデント発生時の対応を明確化しておくことも、有効な対策です。何から対処すればいいのか、何を優先して守るのか、インシデント発生時の対応を明確にすることで、万が一の事態が発生した時にも、慌てずに対処することができます。\n\t4. 情報収集と情報共有\n\t4-1.情報収集\n\t最新の脅威に対抗するためには、日々の情報収集が欠かせません。弊社をはじめ、各企業・団体から発信されるセキュリティに関する情報に目を向けましょう。\n\t4-2.情報共有\n\t同じ業種・業界の企業は、同じ攻撃者グループに狙われる可能性が高いと考えられます。同じ攻撃者グループの場合、同じマルウェアや戦略が使われる可能性が高いと考えられます。分野ごとのISAC（Information Sharing and Analysis Center）における情報共有は特に効果的です。\n\n\n\n\n\n\n\n\n\t5月\n\t6月\n\t7月\n\n\n \n\n\n2022年サイバーセキュリティレポートを公開",
-          "link": "https://eset-info.canon-its.jp/malware_info/malware_topics/detail/malware2306.html",
-          "publishedOn": "2023-07-26T15:00:00.000Z",
-          "wordCount": 339,
-          "title": "2023年6月 マルウェアレポート",
-          "imageUrl": "https://eset-info.canon-its.jp/files/topics/4343_ext_01_0.png"
         }
       ]
     },
@@ -1218,6 +1258,17 @@
       "feedUrl": "https://www.nic.ad.jp/ja/index.xml",
       "siteUrl": "https://www.nic.ad.jp/",
       "articles": [
+        {
+          "id": "https://www.nic.ad.jp/ja/topics/2023/20230824-02.html",
+          "author": null,
+          "description": "",
+          "link": "https://www.nic.ad.jp/ja/topics/2023/20230824-02.html",
+          "publishedOn": "2023-08-24T09:48:17.000Z",
+          "wordCount": null,
+          "title": "[トピックス]Internet Week 2023のURL変更のお知らせ",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.nic.ad.jp/ja/topics/2023/20230824-01.html",
           "author": null,
@@ -1596,6 +1647,26 @@
       "siteUrl": "https://www.cisa.gov/",
       "articles": [
         {
+          "id": "/node/18677",
+          "author": "CISA",
+          "description": "CISA released six Industrial Control Systems (ICS) advisories on August 24, 2023. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.\nICSA-23-236-01 KNX Protocol\nICSA-23-236-02 Opto 22 SNAP PAC S1\nICSA-23-236-03 CODESYS Development System\nICSA-23-236-04 CODESYS Development System\nICSA-23-236-05 CODESYS Development System\nICSA-23-236-06 Rockwell Automation Input/Output Modules\nCISA encourages users and administrators to review the newly released ICS advisories for technical details and mitigations.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/08/24/cisa-releases-six-industrial-control-systems-advisories",
+          "publishedOn": "2023-08-24T12:00:00.000Z",
+          "wordCount": 564,
+          "title": "CISA Releases Six Industrial Control Systems Advisories",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/18669",
+          "author": "CISA",
+          "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.\nCVE-2023-38831 RARLAB WinRAR Code Execution Vulnerability\nCVE-2023-32315 Ignite Realtime Openfire Path Traversal Vulnerability\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise. Note: To view other newly added vulnerabilities in the catalog, click on the arrow in the \"Date Added to Catalog\" column—which will sort by descending dates.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.\nAlthough BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/08/24/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+          "publishedOn": "2023-08-24T12:00:00.000Z",
+          "wordCount": 691,
+          "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+          "imageUrl": null
+        },
+        {
           "id": "/node/18655",
           "author": "CISA",
           "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.\nCVE-2023-38035 Ivanti Sentry Authentication Bypass Vulnerability \nCVE-2023-27532 Veeam Backup & Replication Cloud Connect Missing Authentication for Critical Function Vulnerability\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise. Note: To view other newly added vulnerabilities in the catalog, click on the arrow in the \"Date Added to Catalog\" column—which will sort by descending dates.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.\nAlthough BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.",
@@ -1749,6 +1820,36 @@
       "feedUrl": "https://jvn.jp/rss/jvn.rdf",
       "siteUrl": "https://jvn.jp/",
       "articles": [
+        {
+          "id": "https://jvn.jp/vu/JVNVU92317693/",
+          "author": "jvn@jvn.jp",
+          "description": "KNX Associationが提供する製品には、過度に制限されたアカウントロックアウトメカニズムの脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU92317693/",
+          "publishedOn": "2023-08-25T06:00:15.000Z",
+          "wordCount": 68,
+          "title": "KNX Association製品に過度に制限されたアカウントロックアウトメカニズムの脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU96204449/",
+          "author": "jvn@jvn.jp",
+          "description": "OPTO 22が提供するSNAP PAC S1には、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU96204449/",
+          "publishedOn": "2023-08-25T06:00:00.000Z",
+          "wordCount": 103,
+          "title": "OPTO 22製SNAP PAC S1における複数の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU97665184/",
+          "author": "jvn@jvn.jp",
+          "description": "Pyramid Solutions社が提供する複数の製品には、境界外書き込みの脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU97665184/",
+          "publishedOn": "2023-08-25T05:00:00.000Z",
+          "wordCount": 123,
+          "title": "複数のPyramid Solutions製品における境界外書き込みの脆弱性",
+          "imageUrl": null
+        },
         {
           "id": "https://jvn.jp/jp/JVN86484824/",
           "author": "jvn@jvn.jp",
@@ -2081,6 +2182,26 @@
       "siteUrl": "https://security.srad.jp/",
       "articles": [
         {
+          "id": "https://security.srad.jp/story/23/08/24/1334234/",
+          "author": "nagazou",
+          "description": "スラドでもたびたび話題になっている5ちゃん発のネタ宗教「恒心教」だが、その恒心教を名乗って、爆弾を仕掛けたという内容のファクスを東京音楽大学に送付、業務を妨害したとして、無職の大熊翔容疑者（26歳）と大学院生の佐藤直容疑者（22歳）が逮捕された（朝日新聞、産経新聞、テレ朝NEWS）。 \n\n二人は2023年1月、東京音楽大学に「高機能爆弾を334個仕掛けたナリ」と書かれた脅迫FAXを送信。金銭的な支払いも要求していた。警視庁によると、2人はネット経由で大量のFAXを送信するサービスを使用して脅迫FAXを送付。またTorやVPNを用いて発信元を特定できないようにしていた。2人は容疑を認め、同様の手法で送信された30万件以上のFAXについても関与を認めている。朝日新聞の見出しによると、二人の立件の鍵となったのは「聖地巡礼」で残した痕跡だったようだ（朝日新聞、その2）。 \n\n\nあるAnonymous Coward 曰く、なお、逮捕されたうちの一人は、2021年度にサイバーセキュリティー人材育成を目的とした国立法人主催のプログラムに参加していたとのことで、いろいろこの方面で問題になるかもしれない\n すべて読む | セキュリティセクション | 犯罪 | セキュリティ |     \n  関連ストーリー： \n防衛省のサイバーコンテスト2023、今年も応募締め切りを延長 2023年07月26日 \n各地の大学に再び爆破予告が相次ぐ 2021年05月28日 \n有名YouTuberの実家と勘違いし、無関係家族に殺害予告などを送付 2020年11月20日 \n今年に入ってなんJ発祥のネタ宗教「恒心教」を名乗る爆破予告が急増。警視庁は捜査第一課を投入 2020年11月11日 \nGoogleマップでイタズラ、皇居内にオウム真理教道場が出現 2015年04月21日",
+          "link": "https://security.srad.jp/story/23/08/24/1334234/",
+          "publishedOn": "2023-08-25T06:08:00.000Z",
+          "wordCount": 2533,
+          "title": "「恒心教」名乗り脅迫FAX30万件以上送信か、男性二人を逮捕",
+          "imageUrl": "https://srad.jp/static/topics/crime_64.png"
+        },
+        {
+          "id": "https://security.srad.jp/story/23/08/24/1327250/",
+          "author": "nagazou",
+          "description": "5月に静岡県で起きた住居侵入事件において、容疑者の36歳の男性が一人暮らしの女性宅に侵入する際、特殊な手法を用いて暗証番号を突き止めていたことが判明した（読売新聞）。 \n\n記事によると、容疑者は女性宅の玄関の暗証番号ボタンに透明な塗料を塗り、その後女性が帰宅して暗証番号を入力した後、特殊な光を当てることで光の反射の濃淡から4桁の番号を推定していたという。また、別の集合住宅でも同様の手法で女性を狙った事件が確認されているとのこと。地元警察は、玄関の暗証番号を複雑に設定するなどの防犯に関する啓発活動を行うとしている。\n すべて読む | セキュリティセクション | 犯罪 | セキュリティ | 暗号 |     \n  関連ストーリー： \n配達員が宅配ボックスを勝手に開け、自分の荷物と入れ替える 2023年06月13日 \n税務署が同姓同名の別人にe-Taxの識別番号と暗証番号を教えてしまう事案 2023年01月12日 \nマイナカードの署名用電子証明書のパスワード、スマホで事前予約しコンビニで再設定可能に 2022年02月18日 \nレオパレス21が賃貸物件44万戸に「スマートロック」を採用 2022年01月26日",
+          "link": "https://security.srad.jp/story/23/08/24/1327250/",
+          "publishedOn": "2023-08-25T05:31:00.000Z",
+          "wordCount": 3030,
+          "title": "女性宅の暗証番号ボタンに透明塗料、特殊な光あて4桁を特定",
+          "imageUrl": "https://srad.jp/static/topics/encryption_64.png"
+        },
+        {
           "id": "https://security.srad.jp/story/23/08/23/231222/",
           "author": "nagazou",
           "description": "headless 曰く、若年層の海賊版ストリーミング利用が問題となっているデンマークで、権利者団体 Rights Alliance が海賊版防止教育コースを作成したそうだ\n(プレスリリース、\nTorrentFreak の記事)。\n\nデンマークでは過去 12 か月に違法コンテンツのストリーミングやダウンロードを行った人の割合が 15 歳 ～ 29 歳の 32% に達するという。Rights Alliance は以前から海賊版防止教育の必要性を主張していた。海賊版防止教育コース「Er du en tyv? (あなたは泥棒ですか)」は出版社 Gyldendal と共同で、デンマーク文化省の支援の下に開発したとのこと。\n\nコースでは著作権について教え、デジタル世界でも自分のものと他人の物を区別する必要があること、合法サイトでは GDPR により守られるデジタル世界での人権が違法サイトでは守られないこと、違法サイトではマルウェア感染の危険もあること、違法にコンテンツを利用すれば創造性により収入を得る人の生活が成り立たなくなることなどを教えていくとのことだ。\n すべて読む | セキュリティセクション | セキュリティ | YRO | EU | 海賊行為 | 教育 | プライバシ |     \n  関連ストーリー： \n米連邦地裁、匿名で発言する権利を上回る重要性がなければRedditに氏名開示を強制できないと判断 2023年08月05日 \n映画館での無断撮影禁止を盛り込んだインドの法案、成立するか 2023年07月29日 \n大手メディアでも任天堂でない「ファミコンの写真」を使ってしまうことがある 2023年07月19日 \n韓国、AIによる海賊版サイト検知技術の開発を計画 2023年06月23日",
@@ -2207,6 +2328,56 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/08/25/49866.html",
+          "author": null,
+          "description": "セイコーグループ株式会社は8月22日、8月10日に公表した同社サーバへの不正アクセスについて、続報を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/08/25/49866.html",
+          "publishedOn": "2023-08-24T23:05:06.000Z",
+          "wordCount": 821,
+          "title": "セイコーグループへのランサムウェア攻撃、従業員と関係者に関する情報の漏えいを確認",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42530.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/08/25/49865.html",
+          "author": null,
+          "description": "レストラン事業やウェディング事業を展開する株式会社HUGEは8月21日、同社が管理運用する顧客管理システム「The HUGE CLUB」への不正アクセスについて発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/08/25/49865.html",
+          "publishedOn": "2023-08-24T23:05:03.000Z",
+          "wordCount": 809,
+          "title": "レストラン会員制ポイントシステム「The HUGE CLUB」に不正アクセス、個人情報流出の可能性を完全に否定することは難しいと判断",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42526.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/08/25/49864.html",
+          "author": null,
+          "description": "SBテクノロジー株式会は8月21日、クラウド保護サービス「クラウドパトロール」を同日から提供すると発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/08/25/49864.html",
+          "publishedOn": "2023-08-24T23:00:10.000Z",
+          "wordCount": 848,
+          "title": "SBT「クラウドパトロール」提供開始 設定不備やインシデント検知",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42517.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/08/25/49863.html",
+          "author": null,
+          "description": "トレンドマイクロ株式会社は8月17日、ヘルスケア業界を標的する新たなランサムウェア「Rhysida」についての解説記事を同社セキュリティブログで発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/08/25/49863.html",
+          "publishedOn": "2023-08-24T23:00:07.000Z",
+          "wordCount": 829,
+          "title": "ヘルスケア業界を標的 新たなランサムウェア「Rhysida」",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42519.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/08/25/49862.html",
+          "author": null,
+          "description": "キャッシュレス推進協議会は、国内外のキャッシュレスの動向についてまとめた「キャッシュレス・ロードマップ2023」を公開した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/08/25/49862.html",
+          "publishedOn": "2023-08-24T23:00:03.000Z",
+          "wordCount": 757,
+          "title": "日本のキャッシュレス決済比率は36％、二酸化炭素排出量を抑制する試算も",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42461.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2023/08/24/49861.html",
           "author": null,
@@ -3112,6 +3283,96 @@
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
         {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1526413.html",
+          "author": null,
+          "description": "KDDI株式会社は8月26日、岐阜県高山市丹生川村にある乗鞍岳畳平バスターミナルにて、衛星インターネット「Starlink」を利用した5G基地局の運用を開始すると発表した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1526413.html",
+          "publishedOn": "2023-08-25T08:00:00.000Z",
+          "wordCount": 4437,
+          "title": "Starlinkを活用した5G基地局、KDDIが岐阜県高山市・乗鞍岳の「日本一高いところにあるバスターミナル」にて運用開始",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1526/413/01s.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1526285.html",
+          "author": null,
+          "description": "東京地方裁判所は8月24日、「ファスト映画」に関する訴訟で所在不明となっていた1人に対し、損害賠償金5億円の支払いを命じる判決を言い渡した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1526285.html",
+          "publishedOn": "2023-08-25T07:30:00.000Z",
+          "wordCount": 4439,
+          "title": "“ファスト映画”訴訟で、所在不明になっていた1人に5億円の損害賠償命令",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1526/285/230825-1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1526211.html",
+          "author": null,
+          "description": "Amazon.co.jpのアイ・オー・データストアでは現在、同社のWi-Fi 6対応ルーターの特選タイムセールが行われている。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1526211.html",
+          "publishedOn": "2023-08-25T04:10:00.000Z",
+          "wordCount": 4467,
+          "title": "アイ・オー・データ機器のWi-Fi 6ルーターが最大39％OFF！ Amazonセール情報　最大4804＋574Mbpsの「WN-DAX5400QR/E」が1万780円",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1526/211/main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1526146.html",
+          "author": null,
+          "description": "来春発売が予想されるGoogleの廉価版スマホ「Pixel 8a」と見られるベンチマークデータが発見されて一部で話題になっている。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1526146.html",
+          "publishedOn": "2023-08-25T03:26:44.000Z",
+          "wordCount": 4383,
+          "title": "いくらなんでも早すぎ？ Google「Pixel 8a」と見られるベンチマークデータが発見される【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1526/146/yajiuma-watch_3.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1526147.html",
+          "author": null,
+          "description": "現在ではすっかり通じなくなった「昔のPCあるある」の調査結果が面白いと話題だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1526147.html",
+          "publishedOn": "2023-08-25T03:25:55.000Z",
+          "wordCount": 4350,
+          "title": "今では通じない「昔のPCあるある」、2位は「ネットが考えられないほど遅い」、1位は？【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1526/147/yajiuma-watch_2.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/teleworkgoods/1526131.html",
+          "author": null,
+          "description": "子供が夏休み中のテレワークはヤバい!! テレワークが始まってから3年以上が経過し、すっかり慣れたと思っていたが、幼稚園に行き始めた娘の初めての夏休みで実感した。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/teleworkgoods/1526131.html",
+          "publishedOn": "2023-08-25T03:12:00.000Z",
+          "wordCount": 4468,
+          "title": "夏休みの子供が騒がしすぎてWeb会議がヤバい!! 35dBノイズカットのヘッドセットが神ツール過ぎた 【テレワークグッズ・ミニレビュー 第81回】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1526/131/001.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/dlis/1525855.html",
+          "author": null,
+          "description": "マイナンバーカードを申請した人に対して最大2万円分のポイントが付与される、マイナポイント第2弾の申し込み期限が2023年9月末に迫りました。このような大規模なポイント配布があると、必ずその状況に乗じたネット詐欺が発生します。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/dlis/1525855.html",
+          "publishedOn": "2023-08-25T00:12:00.000Z",
+          "wordCount": 4485,
+          "title": "マイナポイント第2弾に便乗、「獲得したポイント2万円分が失効する」という詐欺メールが拡散中【詐欺サイトにも注意！】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1525/855/02.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/readitnow/1525771.html",
+          "author": null,
+          "description": "「今すぐ読みたい注目記事」コーナーでは、過去に掲載した記事の中から、「今読んでほしい記事」を再紹介しています。記事内容は掲載当時のもので、最新の状況とは異なる場合もあります。",
+          "link": "https://internet.watch.impress.co.jp/docs/readitnow/1525771.html",
+          "publishedOn": "2023-08-24T20:30:00.000Z",
+          "wordCount": 4370,
+          "title": "【注目記事】本日（8月25日）14時から「YouTube Music weekend」、3日間のオンラインフェス開催",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1525/771/02.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1525812.html",
+          "author": null,
+          "description": "株式会社パーソル総合研究所は8月15日、「第八回・テレワークに関する調査／就業時マスク調査」の結果を発表した。新型コロナウイルス感染症の感染症法上の位置付けが「5類」に移行してから初めての調査となったが、就業時のマスクの着用率は79.8％（「着用している」と「たまに着用している」の合計）と依然として高い。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1525812.html",
+          "publishedOn": "2023-08-24T08:50:00.000Z",
+          "wordCount": 4445,
+          "title": "新型コロナ5類移行後も「就業時にマスク着用」が8割～パーソル総合研究所調べ",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1525/812/persol-mask01.png"
+        },
+        {
           "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1525883.html",
           "author": null,
           "description": "Androidスマホにおいて、アプリの起動時間が最大30％も高速化されるアップデートが間近に迫っていることが明らかになった。",
@@ -3404,6 +3665,46 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230825-2754121/",
+          "author": null,
+          "description": "ThousandEyesはこのほど、Webアプリケーションやサービスにおける部門間の調整の重要性と、部門間でシステムが孤立するサイロ化の緩和について、Slackにおける最近の混乱から教訓が得られると伝えた。",
+          "link": "https://news.mynavi.jp/techplus/article/20230825-2754121/",
+          "publishedOn": "2023-08-25T06:05:15.000Z",
+          "wordCount": 2894,
+          "title": "Slackの問題から学ぶ、複雑なシステムの部門間調整とサイロ化緩和の重要性",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230825-2754121/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230825-2756161/",
+          "author": null,
+          "description": "米国連邦捜査局（FBI）は8月22日、数億ドル相当の盗まれた暗号資産に関連する活動について警告した。過去24時間の調査にて、朝鮮民主主義人民共和国(北朝鮮)が4,000万ドル以上のビットコインを現金化する可能性があるという。盗まれた暗号通貨を保有するビットコインアドレスを公開し、これに関する取引に注意するよう求めている。",
+          "link": "https://news.mynavi.jp/techplus/article/20230825-2756161/",
+          "publishedOn": "2023-08-25T00:48:01.000Z",
+          "wordCount": 1646,
+          "title": "北朝鮮、4000万ドル相当の盗んだ暗号資産を現金化か、FBIが警告",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230825-2756161/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230825-2755895/",
+          "author": null,
+          "description": "Ars Technicaは8月24日（米国時間）、WinRARには悪意のあるZIPファイルを開くと不正なコードが実行される脆弱性が存在し、トレーダーを標的とした攻撃に悪用されていると報じた。",
+          "link": "https://news.mynavi.jp/techplus/article/20230825-2755895/",
+          "publishedOn": "2023-08-25T00:18:39.000Z",
+          "wordCount": 1630,
+          "title": "WinRARに悪意のあるコード実行の脆弱性、ただちにアップデートを",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230825-2755895/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230824-2755903/",
+          "author": null,
+          "description": "Metaは現在実施中のエンド・ツー・エンドの暗号化テストの一環として、年末までにMessengerの1対1のチャットをデフォルトでエンド・ツー・エンドの暗号化にする予定と伝えた。デフォルトでエンド・ツー・エンドの暗号化に触れるには、アプリを最新のビルドに更新する必要があるとしている。",
+          "link": "https://news.mynavi.jp/techplus/article/20230824-2755903/",
+          "publishedOn": "2023-08-24T10:49:28.000Z",
+          "wordCount": 1639,
+          "title": "Metaが年内にMessengerを暗号化、非常に複雑で困難な作業",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230824-2755903/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20230824-2755857/",
           "author": null,
