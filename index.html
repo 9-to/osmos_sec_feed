@@ -22,11 +22,401 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-25 datetime="2023-08-25T08:00:00.000Z">2023-08-25</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-25 datetime="2023-08-25T08:00:00.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-26 datetime="2023-08-26T02:39:00.000Z">2023-08-26</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-26 datetime="2023-08-26T02:39:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >スラド: セキュリティ</button>
+                  <a class="source-heading__link" href="https://security.srad.jp/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://security.srad.jp/story/23/08/26/0216232/"
+                        open
+                      >
+                        <summary class="article-expander__title">Google Play、システムクリーナーアプリを多数削除</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://security.srad.jp/story/23/08/26/0216232/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://srad.jp/static/topics/android_64.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Google Play で最近、不要ファイル削除や空きメモリ確保などを実行するシステムクリーナーアプリが多数削除されているようだ。
+
+Internet Archive が昨年 10 月に保存した Google Play での「cleaner」検索結果のスナップショットをみると、リストアップされているアプリ 30 本のうち、現在は 20 本が削除されている。削除されたアプリの中にはインストール件数が 1 億回を超える「One Booster」や「Nox Cleaner」といったアプリも含まれる。また、「cleaner site:play.google.com」のGoogle検索結果では、最初の 10 本のアプリのうち 4 本が削除 (最初の 20 本では 10 本が削除) されている。
+
+削除されたアプリ「SD Maid」「SD Maid 2/SE」の作者 Matthias Urhahn 氏 (darken) によれば、これらのアプリが「ストーカーウェア」ポリシーに違反するため公開を停止したという 2 件のメールが (おそらく 8 月 21 日の) 21 時 44 分に届き、16 分後の 22 時には 12 年間にわたりアプリを公開していた開発者アカウント darken の削除が通知されたという
+(作者の Google Play Developer Community 投稿、
+Reddit のスレッド [1]、
+[2]、
+Android Police の記事)。
+
+削除理由は開発者アカウントに関連付けられた高リスクまたは悪用のパターンを特定したため、Google Play デベロッパー販売 / 配布契約の 8.3 / 10.3 に従って削除する、というものだ。Reddit のスレッドでは明確にアプリ名は挙げられていないものの、他の開発者からもストーカーウェアポリシーでアプリが削除されたという報告がみられる。
+
+Play Console ヘルプによれば、ストーカーウェアとは「適切な通知や同意なく、永続的な通知を表示せずに、デバイス上の個人情報や機密性の高いユーザーデータを収集、送信するコード」とされる。しかし、SD Maid のデータ セーフティ情報によれば収集するデータはアプリに関するもののみとなっており、プライバシーポリシーでも個人情報は収集しないと明記している。SD Maid 2/SE はオープンソースアプリでもある。
+
+Urhahn 氏はGoogleに異議を申し立てているが、現在のところ受信確認と調査中の報告のみで、特に進捗はみられないとのこと。システムクリーナーアプリは効果が疑問視されることもあり、中には広告が多すぎると批判されるものもあるが、削除されていないアプリもある。最近削除されたすべてのアプリで実際にポリシー違反が確認されたのだろうか。スラドの皆さんのご意見はいかがだろう。
+ すべて読む | セキュリティセクション | Google | セキュリティ | ソフトウェア | デベロッパー | Android | プライバシ |     
+  関連ストーリー： 
+Google、アプリのアカウント削除要件を Google Play ポリシーに追加 2023年04月08日 
+Google、ストーカーウェアの禁止事項が逆の意味になっていた英語版デベロッパーポリシーの誤字を修正 2020年09月20日 
+Microsoft、エラーを誇張して有料版購入を強要するアプリを「望まれないソフトウェア」として削除へ 2018年02月03日 
+Google Playで新規公開/更新するアプリ、最新APIをターゲットにすることが必須に 2017年12月23日 
+Google、ユーザーの合意なく個人情報を収集するAndroidアプリで警告を表示する計画 2017年12月06日 
+Google、13歳未満の子供によるデバイスの使用状況を保護者が管理できるアプリを発表 2017年03月19日 
+「端末が攻撃されている」という偽の表示を出してインストールを促すセキュリティアプリ、レビュー欄では大好評 2016年07月04日 
+MicrosoftのGov Maharaj氏、CCleanerについてはコメントしづらい 2015年10月12日 
+Google、人気ランキング入りした「見せかけだけのセキュリティアプリ」購入者に対し返金へ 2014年04月21日</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >マイナビニュース 企業IT セキュリティ</button>
+                  <a class="source-heading__link" href="https://news.mynavi.jp/top/techplus/enterprise/security/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.mynavi.jp/techplus/article/20230826-2757152/"
+                        open
+                      >
+                        <summary class="article-expander__title">Gmailに強力なセーフティ機能、危ない時に自動で2要素認証求める</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20230826-2757152/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://news.mynavi.jp/techplus/article/20230826-2757152/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Googleは8月23日(米国時間)、Gmailの一部操作に強化されたセーフガードを追加すると伝えた。これはGoogle Workspaceアカウントの機密性の高い操作に昨年追加されたセーフガードと同様とされる。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-08-25 datetime="2023-08-25T23:05:05.000Z">2023-08-25</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-08-25 datetime="2023-08-25T23:05:05.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >ScanNetSecurity</button>
+                  <a class="source-heading__link" href="https://scan.netsecurity.ne.jp/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://scan.netsecurity.ne.jp/article/2023/08/26/49869.html"
+                        open
+                      >
+                        <summary class="article-expander__title">福岡徳洲会病院に不正アクセス、個人情報が外部から閲覧可能な状態に</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://scan.netsecurity.ne.jp/article/2023/08/26/49869.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://scan.netsecurity.ne.jp/imgs/ogp_f/42365.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>医療法人徳洲会 福岡徳洲会病院は7月28日、不正アクセスによる個人情報流出の可能性について発表した。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://scan.netsecurity.ne.jp/article/2023/08/26/49868.html"
+                        open
+                      >
+                        <summary class="article-expander__title">同じシステム使用する別の日本原燃グループ会社に不正アクセス、約1万人の個人情報漏えいの可能性</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://scan.netsecurity.ne.jp/article/2023/08/26/49868.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://scan.netsecurity.ne.jp/imgs/ogp_f/42368.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>日本原燃株式会社は8月3日、株式会社ジェイテックの取引先関係者等の個人情報漏えいの可能性について発表した。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://scan.netsecurity.ne.jp/article/2023/08/26/49867.html"
+                        open
+                      >
+                        <summary class="article-expander__title">NRIセキュア、Proofpoint 製品で標的型攻撃メール対策</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://scan.netsecurity.ne.jp/article/2023/08/26/49867.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://scan.netsecurity.ne.jp/imgs/ogp_f/42345.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>NRIセキュアテクノロジーズ株式会社は8月3日、標的型攻撃メールなどへの対策を支援する「メールセキュリティ管理サービス（Proofpoint Email Protection）」の提供開始を発表した。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >マイナビニュース 企業IT セキュリティ</button>
+                  <a class="source-heading__link" href="https://news.mynavi.jp/top/techplus/enterprise/security/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.mynavi.jp/techplus/article/20230825-2756749/"
+                        open
+                      >
+                        <summary class="article-expander__title">WinRARとOpenfireの脆弱性のサイバー攻撃への悪用確認、CISAが警告</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20230825-2756749/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://news.mynavi.jp/techplus/article/20230825-2756749/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>米国のサイバーセキュリティ・インフラストラクチャセキュリティ庁(CISA)は8月24日(米国時間)、「Known Exploited Vulnerabilities Catalog」にWinRARとIgnite RealtimeのOpenfire脆弱性を追加したと発表した。これは、対象の脆弱性がすでにサイバー犯罪者によって悪用されていることを意味する。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.mynavi.jp/techplus/article/20230825-2757155/"
+                        open
+                      >
+                        <summary class="article-expander__title">Windowsの更新プログラム(KB5029351)にブルースクリーン不具合、現在調査中</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20230825-2757155/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://news.mynavi.jp/techplus/article/20230825-2757155/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Microsoftは8月23日（米国時間）、8月22日(米国時間)にリリースした更新プログラム(KB5029351)にブルースクリーンの不具合があると伝えた。更新プログラム(KB5029351)をインストールした後にデバイスを再起動すると、ブルースクリーン画面となり、「UNSUPPORTED_PROCESSOR」というエラーメッセージが表示されるという。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.mynavi.jp/techplus/article/20230825-2755665/"
+                        open
+                      >
+                        <summary class="article-expander__title">サイバー犯罪者に人気のないQRコード、悪用を模索する動き</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20230825-2755665/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://news.mynavi.jp/techplus/article/20230825-2755665/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Cofenseはこのほど、米国の大手エネルギー会社を標的とする大規模なQRコードキャンペーンを確認したと報じた。Cofenseは2023年5月(米国時間)よりQRコードを利用した大規模なフィッシングキャンペーンを観測しており、これを検証したところ米国の大手エネルギー会社が主な標的だったとの見方を示している。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.mynavi.jp/techplus/article/20230825-2756894/"
+                        open
+                      >
+                        <summary class="article-expander__title">リモートワーク時のフリーWi-Fiへの接続は危険、企業に脅威をもたらす</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20230825-2756894/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://news.mynavi.jp/techplus/article/20230825-2756894/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>The Hacker Newsは8月24日（米国時間）、公衆無線LANに潜む危険性について、例とその対策を紹介した。近年のリモートワークの台頭により、カフェやホテル、空港などの無料の公衆無線LANを利用して仕事ができるようになり、これが企業にとって脅威になっているという。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.mynavi.jp/techplus/article/20230825-2756171/"
+                        open
+                      >
+                        <summary class="article-expander__title">進化するランサムウェアの脅威、AIによる防御は希望</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20230825-2756171/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://news.mynavi.jp/techplus/article/20230825-2756171/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Check Point Software Technologiesは8月23日(米国時間)、2023年の中間セキュリティレポートを公開した。レポートでは世界中でサイバー犯罪が顕著に復活している点や、サイバー犯罪者が最新技術だけでなく既存の脆弱性を組み合わせた悪質な活動を行っている点に懸念を示している。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.mynavi.jp/techplus/article/20230825-2754121/"
+                        open
+                      >
+                        <summary class="article-expander__title">Slackの問題から学ぶ、複雑なシステムの部門間調整とサイロ化緩和の重要性</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20230825-2754121/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://news.mynavi.jp/techplus/article/20230825-2754121/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>ThousandEyesはこのほど、Webアプリケーションやサービスにおける部門間の調整の重要性と、部門間でシステムが孤立するサイロ化の緩和について、Slackにおける最近の混乱から教訓が得られると伝えた。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.mynavi.jp/techplus/article/20230825-2756161/"
+                        open
+                      >
+                        <summary class="article-expander__title">北朝鮮、4000万ドル相当の盗んだ暗号資産を現金化か、FBIが警告</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20230825-2756161/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://news.mynavi.jp/techplus/article/20230825-2756161/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>米国連邦捜査局（FBI）は8月22日、数億ドル相当の盗まれた暗号資産に関連する活動について警告した。過去24時間の調査にて、朝鮮民主主義人民共和国(北朝鮮)が4,000万ドル以上のビットコインを現金化する可能性があるという。盗まれた暗号通貨を保有するビットコインアドレスを公開し、これに関する取引に注意するよう求めている。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.mynavi.jp/techplus/article/20230825-2755895/"
+                        open
+                      >
+                        <summary class="article-expander__title">WinRARに悪意のあるコード実行の脆弱性、ただちにアップデートを</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20230825-2755895/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://news.mynavi.jp/techplus/article/20230825-2755895/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Ars Technicaは8月24日（米国時間）、WinRARには悪意のあるZIPファイルを開くと不正なコードが実行される脆弱性が存在し、トレーダーを標的とした攻撃に悪用されていると報じた。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Alerts</button>
+                  <a class="source-heading__link" href="https://www.cisa.gov/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="/node/18679"
+                        open
+                      >
+                        <summary class="article-expander__title">CISA’s VDP Platform 2022 Annual Report Showcases Success</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.cisa.gov/news-events/alerts/2023/08/25/cisas-vdp-platform-2022-annual-report-showcases-success">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Today, the Cybersecurity and Infrastructure Security Agency (CISA) released its inaugural Vulnerability Disclosure Policy (VDP) Platform 2022 Annual Report, highlighting the service’s progress supporting vulnerability awareness and remediation across the Federal Civilian Executive Branch (FCEB). This report showcases how agencies have used the VDP Platform—launched in July 2021—to safeguard the FCEB and support risk reduction. The VDP platform gives federal agencies a single, user-friendly interface to intake vulnerability information and to collaborate with the public researcher community for vulnerability awareness and remediation.
+CISA urges FCEB agencies to review the VDP Platform 2022 Annual Report and encourages use of the platform to promote good-faith security research if they are not already doing so. By promoting an agency’s VDP to the public security researcher community, the platform benefits users by harnessing researchers’ expertise to search for and detect vulnerabilities that traditional scanning technology might not find.
+CISA is actively seeking to enhance future collaborations with the public security researcher community and welcomes participation and partnership.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -38,6 +428,46 @@
                   <a class="source-heading__link" href="https://internet.watch.impress.co.jp">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://internet.watch.impress.co.jp/docs/news/weekly/1526374.html"
+                        open
+                      >
+                        <summary class="article-expander__title">見出しでわかる IT界隈・今週の重要ニュース：全79本［2023/8/17～8/23］</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/news/weekly/1526374.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1526/374/shutterstock_1391033204_main.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://internet.watch.impress.co.jp/docs/news/1526425.html"
+                        open
+                      >
+                        <summary class="article-expander__title">メタバースの「バーチャル名鉄名古屋ステーション」オープン、26・27日には名鉄百貨店本店内で体験会も</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/news/1526425.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1526/425/01.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>名古屋鉄道株式会社（名鉄）は8月25日、メタバースプラットフォーム「Planeta」内の特設ワールドとして「バーチャル名鉄名古屋ステーション」を期間限定でオープンした。公開期間は9月3日まで。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -188,6 +618,40 @@
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
+                  >ITmedia NEWS セキュリティ 最新記事一覧</button>
+                  <a class="source-heading__link" href="https://www.itmedia.co.jp/news/security/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.itmedia.co.jp/news/articles/2308/25/news152.html"
+                        open
+                      >
+                        <summary class="article-expander__title">え？　同じIDで登録できる？　コンビニ証明書で話題「同時処理」の危険性</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.itmedia.co.jp/news/articles/2308/25/news152.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.itmedia.co.jp/news/articles/2308/25/cover_news152.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>ネット上で商売するのが当たり前な時代。インシデントが発生すれば失うものは計り知れない。本連載では脆弱性診断実習用のWebアプリ「BadTodo」を題材に、ストーリー形式でWebアプリ制作に潜む“ワナ”について学んでいく。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;8
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >スラド: セキュリティ</button>
                   <a class="source-heading__link" href="https://security.srad.jp/">Open</a>
                 </h3>
@@ -246,80 +710,6 @@ Googleマップでイタズラ、皇居内にオウム真理教道場が出現 2
 マイナカードの署名用電子証明書のパスワード、スマホで事前予約しコンビニで再設定可能に 2022年02月18日 
 レオパレス21が賃貸物件44万戸に「スマートロック」を採用 2022年01月26日</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >マイナビニュース 企業IT セキュリティ</button>
-                  <a class="source-heading__link" href="https://news.mynavi.jp/top/techplus/enterprise/security/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.mynavi.jp/techplus/article/20230825-2754121/"
-                        open
-                      >
-                        <summary class="article-expander__title">Slackの問題から学ぶ、複雑なシステムの部門間調整とサイロ化緩和の重要性</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20230825-2754121/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://news.mynavi.jp/techplus/article/20230825-2754121/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>ThousandEyesはこのほど、Webアプリケーションやサービスにおける部門間の調整の重要性と、部門間でシステムが孤立するサイロ化の緩和について、Slackにおける最近の混乱から教訓が得られると伝えた。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.mynavi.jp/techplus/article/20230825-2756161/"
-                        open
-                      >
-                        <summary class="article-expander__title">北朝鮮、4000万ドル相当の盗んだ暗号資産を現金化か、FBIが警告</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20230825-2756161/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://news.mynavi.jp/techplus/article/20230825-2756161/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>米国連邦捜査局（FBI）は8月22日、数億ドル相当の盗まれた暗号資産に関連する活動について警告した。過去24時間の調査にて、朝鮮民主主義人民共和国(北朝鮮)が4,000万ドル以上のビットコインを現金化する可能性があるという。盗まれた暗号通貨を保有するビットコインアドレスを公開し、これに関する取引に注意するよう求めている。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.mynavi.jp/techplus/article/20230825-2755895/"
-                        open
-                      >
-                        <summary class="article-expander__title">WinRARに悪意のあるコード実行の脆弱性、ただちにアップデートを</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20230825-2755895/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://news.mynavi.jp/techplus/article/20230825-2755895/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Ars Technicaは8月24日（米国時間）、WinRARには悪意のあるZIPファイルを開くと不正なコードが実行される脆弱性が存在し、トレーダーを標的とした攻撃に悪用されていると報じた。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;5
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -14430,257 +14820,10 @@ The post AI in the Wild: Malicious Applications of Mainstream AI Tools appeared 
             </li>
         </ul>
       </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-27 datetime="2023-07-27T15:17:19.559Z">2023-07-27</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-27 datetime="2023-07-27T15:17:19.559Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >CERT Recently Published Vulnerability Notes</button>
-                  <a class="source-heading__link" href="https://kb.cert.org/vuls/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://kb.cert.org/vuls/id/813349"
-                        open
-                      >
-                        <summary class="article-expander__title">VU#813349: Software driver for D-Link Wi-Fi USB Adapter vulnerable to service path privilege escalation</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://kb.cert.org/vuls/id/813349">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Overview
-The software driver for D-Link DWA-117 AC600 MU-MIMO Wi-Fi USB Adapter contains a unquoted service path privilege escalation vulnerability. In certain conditions, this flaw can lead to a local privilege escalation.
-Description
-D-Link DWA-117 AC600 MU-MIMO is a Wi-Fi USB Adapter that enables Wi-Fi network accessible over USB. D-Link provides a software driver for Microsoft Windows operating system that enables proper operation of the device with the operating system. The latest software driver (as of Arpil 19, 2023) was found susceptible  to  an unquoted service path vulnerability. Given certain conditions are met, there is potential for a local privilege escalation allowing an attacker to escalate privileges to local administrative user.
-The following conditions are required to trigger this bug
-* The software is installed in a directory with a space in it. (The default settings for directory will work)
-* An unprivileged user should have write access to the directory above the folder that contains the space in its name. (Typical default Windows user permissions is sufficient)
-Impact
-An attacker with low level access can execute code as the system account. The increased privileges allow for access to sensitive files and malicious modifications to the system.
-Solution
-D-Link has provided a patch that addresses the issue. Customers should update their driver to the latest version.
-Acknowledgements
-Thanks to @L1v1ng0ffTh3L4n for reporting the vulnerability.
-This document was written by Kevin Stephens.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >独立行政法人情報処理推進機構（IPA）新着情報RSS</button>
-                  <a class="source-heading__link" href="https://www.ipa.go.jp/about/index.html">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.ipa.go.jp/security/economics/checktool.html"
-                        open
-                      >
-                        <summary class="article-expander__title">サイバーセキュリティ経営可視化ツール（Excel版、Ver2.1）を公開しました</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.ipa.go.jp/security/economics/checktool.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>情報処理推進機構（IPA）の「サイバーセキュリティ経営可視化ツール」に関する情報です。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >McAfee Blog</button>
-                  <a class="source-heading__link" href="">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://securingtomorrow.mcafee.com/?p&#x3D;74494"
-                        open
-                      >
-                        <summary class="article-expander__title">What is Spyware?</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.mcafee.com/blogs/privacy-identity-protection/what-is-spyware/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.mcafee.com/blogs/wp-content/uploads/2022/10/300x200_Blog_101822.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Spyware. If the name sounds creepy and invasive, that’s because it is.  The thought of someone virtually looking over your...
-The post What is Spyware? appeared first on McAfee Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Microsoft Security Response Center</button>
-                  <a class="source-heading__link" href="https://msrc.microsoft.com/blog/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://msrc.microsoft.com/blog/2023/07/bluehat-october-2023-call-for-papers-is-now-open/"
-                        open
-                      >
-                        <summary class="article-expander__title">BlueHat October 2023 Call for Papers is Now Open!</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://msrc.microsoft.com/blog/2023/07/bluehat-october-2023-call-for-papers-is-now-open/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>As you may have seen on social media, the next BlueHat conference will be October 11 – 12, 2023, on Microsoft’s Redmond campus in Washington state, USA.
-The Call for Papers (CFP) is now open through August 18, 2023.
-The BlueHat community is a unique blend of security researchers and responders from both inside and outside of Microsoft, who come together as peers to exchange ideas, experiences, and learnings in the interest of creating a safer and more secure world for all.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-07-26 datetime="2023-07-26T21:58:23.000Z">2023-07-26</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-07-26 datetime="2023-07-26T21:58:23.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >ブログ | WordPress.org 日本語</button>
-                  <a class="source-heading__link" href="https://ja.wordpress.org">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://ja.wordpress.org/?p&#x3D;6796"
-                        open
-                      >
-                        <summary class="article-expander__title">WordPress 6.3 リリース候補版 2</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://ja.wordpress.org/2023/07/27/wordpress-6-3-release-candidate-2/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://s.w.org/images/backgrounds/wordpress-bg-medblue.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>以下は、Meher Bala が書いた WordPress.org 公式ブログの記事「WordPress 6.3 Release Candidate 2」を訳したものです。 誤字脱字誤訳などありましたらフォーラムまでお知 […]</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >CISA Cybersecurity Advisories</button>
-                  <a class="source-heading__link" href="https://www.cisa.gov/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="/node/18511"
-                        open
-                      >
-                        <summary class="article-expander__title">Preventing Web Application Access Control Abuse</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-208a">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>SUMMARY
-The Australian Signals Directorate’s Australian Cyber Security Centre (ACSC), U.S. Cybersecurity and Infrastructure Security Agency (CISA), and U.S. National Security Agency (NSA) are releasing this joint Cybersecurity Advisory to warn vendors, designers, and developers of web applications and organizations using web applications about insecure direct object reference (IDOR) vulnerabilities. IDOR vulnerabilities are access control vulnerabilities enabling malicious actors to modify or delete data or access sensitive data by issuing requests to a website or a web application programming interface (API) specifying the user identifier of other, valid users. These requests succeed where there is a failure to perform adequate authentication and authorization checks.
-These vulnerabilitie…</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;11
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/9-to/osmos_sec_feed/actions/runs/5973500629">
-        <time id="build-timestamp" datetime="2023-08-25T08:10:49.513Z">2023-08-25T08:10:49.513Z</time>
+      <a class="footer-link" href="https://github.com/9-to/osmos_sec_feed/actions/runs/5983711709">
+        <time id="build-timestamp" datetime="2023-08-26T08:09:47.861Z">2023-08-26T08:09:47.861Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

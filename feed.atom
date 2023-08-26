@@ -2,10 +2,167 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-08-25T08:10:49.560Z</updated>
+    <updated>2023-08-26T08:09:47.896Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Google Play、システムクリーナーアプリを多数削除]]></title>
+        <id>https://security.srad.jp/story/23/08/26/0216232/</id>
+        <link href="https://security.srad.jp/story/23/08/26/0216232/"/>
+        <updated>2023-08-26T02:39:00.000Z</updated>
+        <summary type="html"><![CDATA[Google Play で最近、不要ファイル削除や空きメモリ確保などを実行するシステムクリーナーアプリが多数削除されているようだ。
+
+Internet Archive が昨年 10 月に保存した Google Play での「cleaner」検索結果のスナップショットをみると、リストアップされているアプリ 30 本のうち、現在は 20 本が削除されている。削除されたアプリの中にはインストール件数が 1 億回を超える「One Booster」や「Nox Cleaner」といったアプリも含まれる。また、「cleaner site:play.google.com」のGoogle検索結果では、最初の 10 本のアプリのうち 4 本が削除 (最初の 20 本では 10 本が削除) されている。
+
+削除されたアプリ「SD Maid」「SD Maid 2/SE」の作者 Matthias Urhahn 氏 (darken) によれば、これらのアプリが「ストーカーウェア」ポリシーに違反するため公開を停止したという 2 件のメールが (おそらく 8 月 21 日の) 21 時 44 分に届き、16 分後の 22 時には 12 年間にわたりアプリを公開していた開発者アカウント darken の削除が通知されたという
+(作者の Google Play Developer Community 投稿、
+Reddit のスレッド [1]、
+[2]、
+Android Police の記事)。
+
+削除理由は開発者アカウントに関連付けられた高リスクまたは悪用のパターンを特定したため、Google Play デベロッパー販売 / 配布契約の 8.3 / 10.3 に従って削除する、というものだ。Reddit のスレッドでは明確にアプリ名は挙げられていないものの、他の開発者からもストーカーウェアポリシーでアプリが削除されたという報告がみられる。
+
+Play Console ヘルプによれば、ストーカーウェアとは「適切な通知や同意なく、永続的な通知を表示せずに、デバイス上の個人情報や機密性の高いユーザーデータを収集、送信するコード」とされる。しかし、SD Maid のデータ セーフティ情報によれば収集するデータはアプリに関するもののみとなっており、プライバシーポリシーでも個人情報は収集しないと明記している。SD Maid 2/SE はオープンソースアプリでもある。
+
+Urhahn 氏はGoogleに異議を申し立てているが、現在のところ受信確認と調査中の報告のみで、特に進捗はみられないとのこと。システムクリーナーアプリは効果が疑問視されることもあり、中には広告が多すぎると批判されるものもあるが、削除されていないアプリもある。最近削除されたすべてのアプリで実際にポリシー違反が確認されたのだろうか。スラドの皆さんのご意見はいかがだろう。
+ すべて読む | セキュリティセクション | Google | セキュリティ | ソフトウェア | デベロッパー | Android | プライバシ |     
+  関連ストーリー： 
+Google、アプリのアカウント削除要件を Google Play ポリシーに追加 2023年04月08日 
+Google、ストーカーウェアの禁止事項が逆の意味になっていた英語版デベロッパーポリシーの誤字を修正 2020年09月20日 
+Microsoft、エラーを誇張して有料版購入を強要するアプリを「望まれないソフトウェア」として削除へ 2018年02月03日 
+Google Playで新規公開/更新するアプリ、最新APIをターゲットにすることが必須に 2017年12月23日 
+Google、ユーザーの合意なく個人情報を収集するAndroidアプリで警告を表示する計画 2017年12月06日 
+Google、13歳未満の子供によるデバイスの使用状況を保護者が管理できるアプリを発表 2017年03月19日 
+「端末が攻撃されている」という偽の表示を出してインストールを促すセキュリティアプリ、レビュー欄では大好評 2016年07月04日 
+MicrosoftのGov Maharaj氏、CCleanerについてはコメントしづらい 2015年10月12日 
+Google、人気ランキング入りした「見せかけだけのセキュリティアプリ」購入者に対し返金へ 2014年04月21日]]></summary>
+        <author>
+            <name>headless</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Gmailに強力なセーフティ機能、危ない時に自動で2要素認証求める]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230826-2757152/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230826-2757152/"/>
+        <updated>2023-08-26T00:06:20.000Z</updated>
+        <summary type="html"><![CDATA[Googleは8月23日(米国時間)、Gmailの一部操作に強化されたセーフガードを追加すると伝えた。これはGoogle Workspaceアカウントの機密性の高い操作に昨年追加されたセーフガードと同様とされる。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[福岡徳洲会病院に不正アクセス、個人情報が外部から閲覧可能な状態に]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/08/26/49869.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/08/26/49869.html"/>
+        <updated>2023-08-25T23:05:05.000Z</updated>
+        <summary type="html"><![CDATA[医療法人徳洲会 福岡徳洲会病院は7月28日、不正アクセスによる個人情報流出の可能性について発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[同じシステム使用する別の日本原燃グループ会社に不正アクセス、約1万人の個人情報漏えいの可能性]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/08/26/49868.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/08/26/49868.html"/>
+        <updated>2023-08-25T23:05:02.000Z</updated>
+        <summary type="html"><![CDATA[日本原燃株式会社は8月3日、株式会社ジェイテックの取引先関係者等の個人情報漏えいの可能性について発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NRIセキュア、Proofpoint 製品で標的型攻撃メール対策]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/08/26/49867.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/08/26/49867.html"/>
+        <updated>2023-08-25T23:00:03.000Z</updated>
+        <summary type="html"><![CDATA[NRIセキュアテクノロジーズ株式会社は8月3日、標的型攻撃メールなどへの対策を支援する「メールセキュリティ管理サービス（Proofpoint Email Protection）」の提供開始を発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WinRARとOpenfireの脆弱性のサイバー攻撃への悪用確認、CISAが警告]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230825-2756749/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230825-2756749/"/>
+        <updated>2023-08-25T12:47:11.000Z</updated>
+        <summary type="html"><![CDATA[米国のサイバーセキュリティ・インフラストラクチャセキュリティ庁(CISA)は8月24日(米国時間)、「Known Exploited Vulnerabilities Catalog」にWinRARとIgnite RealtimeのOpenfire脆弱性を追加したと発表した。これは、対象の脆弱性がすでにサイバー犯罪者によって悪用されていることを意味する。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windowsの更新プログラム(KB5029351)にブルースクリーン不具合、現在調査中]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230825-2757155/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230825-2757155/"/>
+        <updated>2023-08-25T12:10:17.000Z</updated>
+        <summary type="html"><![CDATA[Microsoftは8月23日（米国時間）、8月22日(米国時間)にリリースした更新プログラム(KB5029351)にブルースクリーンの不具合があると伝えた。更新プログラム(KB5029351)をインストールした後にデバイスを再起動すると、ブルースクリーン画面となり、「UNSUPPORTED_PROCESSOR」というエラーメッセージが表示されるという。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA’s VDP Platform 2022 Annual Report Showcases Success]]></title>
+        <id>/node/18679</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/08/25/cisas-vdp-platform-2022-annual-report-showcases-success"/>
+        <updated>2023-08-25T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today, the Cybersecurity and Infrastructure Security Agency (CISA) released its inaugural Vulnerability Disclosure Policy (VDP) Platform 2022 Annual Report, highlighting the service’s progress supporting vulnerability awareness and remediation across the Federal Civilian Executive Branch (FCEB). This report showcases how agencies have used the VDP Platform—launched in July 2021—to safeguard the FCEB and support risk reduction. The VDP platform gives federal agencies a single, user-friendly interface to intake vulnerability information and to collaborate with the public researcher community for vulnerability awareness and remediation.
+CISA urges FCEB agencies to review the VDP Platform 2022 Annual Report and encourages use of the platform to promote good-faith security research if they are not already doing so. By promoting an agency’s VDP to the public security researcher community, the platform benefits users by harnessing researchers’ expertise to search for and detect vulnerabilities that traditional scanning technology might not find.
+CISA is actively seeking to enhance future collaborations with the public security researcher community and welcomes participation and partnership.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[見出しでわかる IT界隈・今週の重要ニュース：全79本［2023/8/17～8/23］]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/weekly/1526374.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/weekly/1526374.html"/>
+        <updated>2023-08-25T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[サイバー犯罪者に人気のないQRコード、悪用を模索する動き]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230825-2755665/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230825-2755665/"/>
+        <updated>2023-08-25T09:46:03.000Z</updated>
+        <summary type="html"><![CDATA[Cofenseはこのほど、米国の大手エネルギー会社を標的とする大規模なQRコードキャンペーンを確認したと報じた。Cofenseは2023年5月(米国時間)よりQRコードを利用した大規模なフィッシングキャンペーンを観測しており、これを検証したところ米国の大手エネルギー会社が主な標的だったとの見方を示している。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[リモートワーク時のフリーWi-Fiへの接続は危険、企業に脅威をもたらす]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230825-2756894/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230825-2756894/"/>
+        <updated>2023-08-25T08:55:08.000Z</updated>
+        <summary type="html"><![CDATA[The Hacker Newsは8月24日（米国時間）、公衆無線LANに潜む危険性について、例とその対策を紹介した。近年のリモートワークの台頭により、カフェやホテル、空港などの無料の公衆無線LANを利用して仕事ができるようになり、これが企業にとって脅威になっているという。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[メタバースの「バーチャル名鉄名古屋ステーション」オープン、26・27日には名鉄百貨店本店内で体験会も]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1526425.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1526425.html"/>
+        <updated>2023-08-25T08:50:00.000Z</updated>
+        <summary type="html"><![CDATA[名古屋鉄道株式会社（名鉄）は8月25日、メタバースプラットフォーム「Planeta」内の特設ワールドとして「バーチャル名鉄名古屋ステーション」を期間限定でオープンした。公開期間は9月3日まで。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[え？　同じIDで登録できる？　コンビニ証明書で話題「同時処理」の危険性]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2308/25/news152.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2308/25/news152.html"/>
+        <updated>2023-08-25T08:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ネット上で商売するのが当たり前な時代。インシデントが発生すれば失うものは計り知れない。本連載では脆弱性診断実習用のWebアプリ「BadTodo」を題材に、ストーリー形式でWebアプリ制作に潜む“ワナ”について学んでいく。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Starlinkを活用した5G基地局、KDDIが岐阜県高山市・乗鞍岳の「日本一高いところにあるバスターミナル」にて運用開始]]></title>
         <id>https://internet.watch.impress.co.jp/docs/news/1526413.html</id>
@@ -14,6 +171,16 @@
         <summary type="html"><![CDATA[KDDI株式会社は8月26日、岐阜県高山市丹生川村にある乗鞍岳畳平バスターミナルにて、衛星インターネット「Starlink」を利用した5G基地局の運用を開始すると発表した。]]></summary>
         <author>
             <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[進化するランサムウェアの脅威、AIによる防御は希望]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230825-2756171/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230825-2756171/"/>
+        <updated>2023-08-25T07:46:02.000Z</updated>
+        <summary type="html"><![CDATA[Check Point Software Technologiesは8月23日(米国時間)、2023年の中間セキュリティレポートを公開した。レポートでは世界中でサイバー犯罪が顕著に復活している点や、サイバー犯罪者が最新技術だけでなく既存の脆弱性を組み合わせた悪質な活動を行っている点に懸念を示している。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
         </author>
     </entry>
     <entry>
@@ -7896,84 +8063,6 @@ The post AI in the Wild: Malicious Applications of Mainstream AI Tools appeared 
         <summary type="html"><![CDATA[JPドメイン名の登録管理業務とDNSの運用を行っている株式会社日本レジストリサービス(JPRS)による、JPドメイン名サービス総合案内サイトです。]]></summary>
         <author>
             <name>JPRS最新情報</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VU#813349: Software driver for D-Link Wi-Fi USB Adapter vulnerable to service path privilege escalation]]></title>
-        <id>https://kb.cert.org/vuls/id/813349</id>
-        <link href="https://kb.cert.org/vuls/id/813349"/>
-        <updated>2023-07-27T15:17:19.559Z</updated>
-        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
-<p>The software driver for D-Link DWA-117 AC600 MU-MIMO Wi-Fi USB Adapter contains a unquoted service path privilege escalation vulnerability. In certain conditions, this flaw can lead to a local privilege escalation.</p>
-<h3 id="description">Description</h3>
-<p>D-Link DWA-117 AC600 MU-MIMO is a Wi-Fi USB Adapter that enables Wi-Fi network accessible over USB. D-Link provides a software driver for Microsoft Windows operating system that enables proper operation of the device with the operating system. The latest software driver (as of Arpil 19, 2023) was found susceptible  to  an unquoted service path vulnerability. Given certain conditions are met, there is potential for a local privilege escalation allowing an attacker to escalate privileges to local administrative user.</p>
-<p>The following conditions are required to trigger this bug
-* The software is installed in a directory with a space in it. (The default settings for directory will work)
-* An unprivileged user should have write access to the directory above the folder that contains the space in its name. (Typical default Windows user permissions is sufficient)</p>
-<h3 id="impact">Impact</h3>
-<p>An attacker with low level access can execute code as the system account. The increased privileges allow for access to sensitive files and malicious modifications to the system.</p>
-<h3 id="solution">Solution</h3>
-<p>D-Link has provided a patch that addresses the issue. Customers should update their driver to the latest version.</p>
-<h3 id="acknowledgements">Acknowledgements</h3>
-<p>Thanks to @L1v1ng0ffTh3L4n for reporting the vulnerability.</p>
-<p>This document was written by Kevin Stephens.</p>]]></summary>
-        <author>
-            <name>CERT Recently Published Vulnerability Notes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[サイバーセキュリティ経営可視化ツール（Excel版、Ver2.1）を公開しました]]></title>
-        <id>https://www.ipa.go.jp/security/economics/checktool.html</id>
-        <link href="https://www.ipa.go.jp/security/economics/checktool.html"/>
-        <updated>2023-07-27T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「サイバーセキュリティ経営可視化ツール」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[What is Spyware?]]></title>
-        <id>https://securingtomorrow.mcafee.com/?p=74494</id>
-        <link href="https://www.mcafee.com/blogs/privacy-identity-protection/what-is-spyware/"/>
-        <updated>2023-07-27T14:06:50.000Z</updated>
-        <summary type="html"><![CDATA[Spyware. If the name sounds creepy and invasive, that’s because it is.  The thought of someone virtually looking over your...
-The post What is Spyware? appeared first on McAfee Blog.]]></summary>
-        <author>
-            <name>McAfee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BlueHat October 2023 Call for Papers is Now Open!]]></title>
-        <id>https://msrc.microsoft.com/blog/2023/07/bluehat-october-2023-call-for-papers-is-now-open/</id>
-        <link href="https://msrc.microsoft.com/blog/2023/07/bluehat-october-2023-call-for-papers-is-now-open/"/>
-        <updated>2023-07-27T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As you may have seen on social media, the next BlueHat conference will be October 11 – 12, 2023, on Microsoft’s Redmond campus in Washington state, USA.
-The Call for Papers (CFP) is now open through August 18, 2023.
-The BlueHat community is a unique blend of security researchers and responders from both inside and outside of Microsoft, who come together as peers to exchange ideas, experiences, and learnings in the interest of creating a safer and more secure world for all.]]></summary>
-        <author>
-            <name>Microsoft Security Response Center</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WordPress 6.3 リリース候補版 2]]></title>
-        <id>https://ja.wordpress.org/?p=6796</id>
-        <link href="https://ja.wordpress.org/2023/07/27/wordpress-6-3-release-candidate-2/"/>
-        <updated>2023-07-26T21:58:23.000Z</updated>
-        <summary type="html"><![CDATA[以下は、Meher Bala が書いた WordPress.org 公式ブログの記事「WordPress 6.3 Release Candidate 2」を訳したものです。 誤字脱字誤訳などありましたらフォーラムまでお知 […]]]></summary>
-        <author>
-            <name>Seisuke Kuraishi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Preventing Web Application Access Control Abuse]]></title>
-        <id>/node/18511</id>
-        <link href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-208a"/>
-        <updated>2023-07-26T21:10:39.000Z</updated>
-        <summary type="html"><![CDATA[SUMMARY
-The Australian Signals Directorate’s Australian Cyber Security Centre (ACSC), U.S. Cybersecurity and Infrastructure Security Agency (CISA), and U.S. National Security Agency (NSA) are releasing this joint Cybersecurity Advisory to warn vendors, designers, and developers of web applications and organizations using web applications about insecure direct object reference (IDOR) vulnerabilities. IDOR vulnerabilities are access control vulnerabilities enabling malicious actors to modify or delete data or access sensitive data by issuing requests to a website or a web application programming interface (API) specifying the user identifier of other, valid users. These requests succeed where there is a failure to perform adequate authentication and authorization checks.
-These vulnerabilitie…]]></summary>
-        <author>
-            <name>CISA</name>
         </author>
     </entry>
 </feed>
