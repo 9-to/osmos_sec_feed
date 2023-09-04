@@ -2,10 +2,324 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-09-03T08:09:40.113Z</updated>
+    <updated>2023-09-04T08:11:14.366Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[渋谷に監視カメラを設置し顔認証で通行人を追跡するプロジェクト]]></title>
+        <id>https://security.srad.jp/story/23/09/03/1250211/</id>
+        <link href="https://security.srad.jp/story/23/09/03/1250211/"/>
+        <updated>2023-09-04T08:07:00.000Z</updated>
+        <summary type="html"><![CDATA[あるAnonymous Coward 曰く、インテリジェンスデザイン株式会社は渋谷駅周辺に100台のAIカメラを設置してリアルタイムで人流データを取得・解析するプロジェクトを発表しているが、そのホームページで紹介されている事例が「ヤバい」と評判になっている。 「オフライン顧客の見える化」として紹介されているのが「性別・年代・同席者の性別・年代・着用している衣服のブランド・渋谷までの交通機関・昼食を取った場所・移動ルート・今月何回目の渋谷訪問か・前回の訪問日時・今年何度目の渋谷訪問か・商業ビルへの来店回数・前回の買い物履歴」などという実に生々しいもの。 「通年の行動データがリアルタイムで蓄積」とうたわれているだけあり、渋谷の公道を移動してるだけでこれだけの粒度で個人情報が保存されて前回訪問や同行者もデータ化されるというのは恐ろしい。 なおこの記述は高木弘光氏が https://twitter.com/HiromitsuTakagi/status/1697213910267642105 と、問題視したことを受けたのか https://idea.i-d.ai/shibuya-project/ 「当サイト内にて誤解を招く表現がある箇所について内容を一部修正致しました。」と削除されている。 過去のヤバイ記述はこちら。 https://web.archive.org/web/20230804024613/https://idea.i-d.ai/shibuya-project/ ニュースとして報道されたときにはイベント警備の問題解決が主目的のように報じられていたが、詳細な通行人のデータを企業に売ることが目的だったとはビックリだ。 https://www.excite.co.jp/news/article/Techable_210770/ 「渋谷駅周辺にAIカメラ100台設置！人流データを解析し、イベント混雑時の警備問題の解決へ」
+ すべて読む | セキュリティセクション | セキュリティ | 統計 | プライバシ |     
+  関連ストーリー： 
+Twitter、電話番号や電子メールアドレスに関連付けられたアカウントが収集されていたことを認める 2022年08月12日 
+JR東日本、Suicaユーザーの利用データの販売へ。乗降車駅などの情報 2022年01月21日 
+機械学習を用い、犯罪者を顔写真から高い確率で識別できたとの研究結果 2016年11月27日]]></summary>
+        <author>
+            <name>nagazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Visual Studio Codeを使用して、Azure Static Web Apps + Vue.js + Azure FunctionsでWebアプリ開発]]></title>
+        <id>https://tech-lab.sios.jp/?p=36196</id>
+        <link href="https://tech-lab.sios.jp/archives/36196"/>
+        <updated>2023-09-04T07:29:36.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは。サイオステクノロジーの木村です。 こちらの記事「Azure Static Web Apps + Vue.js で SPA を楽々構築（Visual Studio Code使用）」で Azure Static  [...]
+Visual Studio Codeを使用して、Azure Static Web Apps + Vue.js + Azure FunctionsでWebアプリ開発 first appeared on SIOS Tech. Lab.]]></summary>
+        <author>
+            <name>木村</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ASUS製品のレビュー投稿でASUSのAIノイズキャンセルマイクアダプターが当たるキャンペーン、テックウインドが開催]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1528703.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1528703.html"/>
+        <updated>2023-09-04T07:20:00.000Z</updated>
+        <summary type="html"><![CDATA[テックウインド株式会社は、ASUS製デバイスのレビューをX（旧Twitter）にポストすることで、抽選で5人にASUSのAIノイズキャンセルマイクアダプター「ASUS AI NC MIC ADAPTER/USB-A」が当たる「#コレよかったよTEKWIND ASUSデバイスレビューキャンペーン」を実施中だ、募集期間は9月10日まで。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[銭湯にある下駄箱の鍵でパソコンをロック]]></title>
+        <id>https://security.srad.jp/story/23/09/03/1235201/</id>
+        <link href="https://security.srad.jp/story/23/09/03/1235201/"/>
+        <updated>2023-09-04T07:10:00.000Z</updated>
+        <summary type="html"><![CDATA[伝統的な銭湯の下駄箱の鍵をデジタルガジェットにしてしまうというアイデアを実行した人がいるらしい。銭湯や居酒屋などでは、⽊札（下⾜札）を挿すタイプの下駄箱が使用されていることが多い。あの木製のカギはやや大きいが持ったときの物質感や⼿触り感があり独特の存在感がある（EMEDINE Style、動画）。 
+
+このため制作者であるNEKOPLA（ねこぷら）氏は、こうした下駄箱の鍵のデザインや感触に魅了され、これを日常的なアクションに応用できないか考えた。その結果、コンピュータのロック装置として使えるデジタル下駄箱を作成したという。木製の下駄箱の鍵を作り、この鍵をUSB接続してコンピュータに接続。鍵の挿抜動作を検知するスイッチを内部に組み込み、鍵を抜くとコンピュータがロックされ、鍵を挿すとロックが解除されるようにプログラムしたそうだ。実用性はなさそうだが記事では実際の制作過程についても紹介されている。
+ すべて読む | セキュリティセクション | ハードウェア | セキュリティ | 変なモノ |     
+  関連ストーリー： 
+パソコンの電源鳴きから4096ビットのRSA秘密鍵が解析される 2013年12月23日 
+台湾でバーチャルなタッチスクリーンを実現する眼鏡が開発される 2013年10月29日 
+Raspberry Pi をハードウェア的なバックドアとして悪用する 2013年03月21日]]></summary>
+        <author>
+            <name>nagazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[メモリ破損の原因になり得る NVIDIA グラフィックドライバの 3 件の脆弱性]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=48583</id>
+        <link href="https://gblogs.cisco.com/jp/2023/09/talos-nvidia-graphics-driver-vulnerability-roundup/"/>
+        <updated>2023-09-04T06:44:02.000Z</updated>
+        <summary type="html"><![CDATA[本記事で取り上げている脆弱性の発見者：Cisco Talos の Piotr Bania Cisco Talos はこのほど、NVIDIA のグラフィックカードで動作する NVIDIA D3D10 ドライバのシェーダ機能に存在する 3 件の脆弱性について情報を公開しました。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[公式サイトに「破産した」の偽情報　改ざんの被害続々　研修施設、コンサルなどで]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2309/04/news118.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2309/04/news118.html"/>
+        <updated>2023-09-04T06:40:00.000Z</updated>
+        <summary type="html"><![CDATA[公式Webサイトが改ざんされ「破産した」などの偽情報を載せられたとする被害の報告が相次いでいる。いずれも実際には破産しておらず、被害の確認・調査を進めている。被害の関連性は不明。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[メルマガ]vol.2021:【トピックス号】先週のトピックスとWeb更新情報]]></title>
+        <id>https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol2021.html</id>
+        <link href="https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol2021.html"/>
+        <updated>2023-09-04T05:16:30.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【合格体験記】Azure Solutions Architect Expert【AZ-305】]]></title>
+        <id>https://tech-lab.sios.jp/?p=36279</id>
+        <link href="https://tech-lab.sios.jp/archives/36279"/>
+        <updated>2023-09-04T04:56:47.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、サイオステクノロジーの佐藤 陽です。 先日、Azure の資格である Azure Solutions Architect Expert に認定されました！ 今回は、試験の概要や対策について紹介したいと思います [...]
+【合格体験記】Azure Solutions Architect Expert【AZ-305】 first appeared on SIOS Tech. Lab.]]></summary>
+        <author>
+            <name>佐藤 陽</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SB C&S、タニウムらと共同でオリジナルセキュリティサービスパッケージを提供]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230904-2764405/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230904-2764405/"/>
+        <updated>2023-09-04T04:14:24.000Z</updated>
+        <summary type="html"><![CDATA[SB C&Sは9月4日、タニウムおよびAZURE・PLUSと協業し、中小企業向けに、Taniumプラットフォームの導入・運用をサポートする「サイバーハイジーン・ソリューションパッケージ」の提供を開始することを発表した。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iPad用アプリ「twinkle」、新バージョンで“5ch対応”を復活。運営がこの間の経緯を説明【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1528558.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1528558.html"/>
+        <updated>2023-09-04T03:40:00.000Z</updated>
+        <summary type="html"><![CDATA[iPad用アプリ「twinkle for iPad」がバージョンアップし、しばらく対応から外れていた「5ch」を再びサポートすることになった。この間の詳しい経緯についても併せて公開されている。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SHIRASAGI における複数の脆弱性]]></title>
+        <id>https://jvn.jp/jp/JVN82758000/</id>
+        <link href="https://jvn.jp/jp/JVN82758000/"/>
+        <updated>2023-09-04T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SHIRASAGI には、複数の脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「俺が死んだらHDDの中身が消える」デバイス、開発陣のインタビュー記事に注目集まる【アクセスランキング】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/ranking/1528511.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/ranking/1528511.html"/>
+        <updated>2023-09-04T02:50:00.000Z</updated>
+        <summary type="html"><![CDATA[前週に閲覧数の多かった記事を、カテゴリーごとに上位5位までレポートします。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[X（旧Twitter）、職歴や学歴などの収集と、人工知能モデル教育での情報の利用を告知【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1528561.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1528561.html"/>
+        <updated>2023-09-04T02:45:00.000Z</updated>
+        <summary type="html"><![CDATA[X（旧Twitter）のプライバシーポリシーが9月29日付で改定され、生体認証データと職歴、学歴が収集されるようになるほか、それらの情報が機械学習や人工知能モデルのトレーニングに使用されるようになることが明らかになった。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[池袋で9月9日に「北海道U・Iターンフェア2023」開催、道内企業約50社が参加の合同説明会]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1528554.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1528554.html"/>
+        <updated>2023-09-04T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[北海道は、道へのU・Iターン就職希望者のための合同企業説明会「北海道U・Iターンフェア2023」を9月9日に北海道労働局と共催開催する。会場は東京・池袋のサンシャインシティ 展示ホールA-2（東京都豊島区東池袋3丁目1-3）。開催時間は11時〜17時。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Apps Script（GAS）でスプレッドシートを新規作成]]></title>
+        <id>https://tech-lab.sios.jp/?p=36230</id>
+        <link href="https://tech-lab.sios.jp/archives/36230"/>
+        <updated>2023-09-04T02:20:08.000Z</updated>
+        <summary type="html"><![CDATA[Google Apps Script（GAS）でGoogle Sheet（スプレッドシート）にて新規シートを追加する方法についてさくっと解説します。名前がかぶっているシートがある場合は、上書きしてSheetの変数を返答す [...]
+Google Apps Script（GAS）でスプレッドシートを新規作成 first appeared on SIOS Tech. Lab.]]></summary>
+        <author>
+            <name>龍：Ryu</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[研究者が見つけた脆弱性を報告してもらう仕組み「VDP」、導入広がる動き]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230904-2761399/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230904-2761399/"/>
+        <updated>2023-09-04T01:36:02.000Z</updated>
+        <summary type="html"><![CDATA[HackerOneはこのほど、米国共和党のナンシー・メイス下院議員が連邦政府の請負業者に脆弱性開示ポリシーの実施を義務付ける法案を提出したと伝えた。脆弱性開示ポリシーは外部の善意の研究者などが発見した脆弱性情報を報告してもらうためのガイドラインを提供する仕組み。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ネットの国家間対立やAI戦略など巡って世界中の関係者が京都で対話、国際会合が今秋開催　9月7日・8日には日本国内で事前会合、参加費無料～6日17時まで参加者を受付中]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1528532.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1528532.html"/>
+        <updated>2023-09-04T01:33:48.000Z</updated>
+        <summary type="html"><![CDATA[「IGF 2023」の事前会合イベント「日本インターネットガバナンスフォーラム2023」が9月7日・8日に開催される。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ホンダeコマースサイトの不正アクセスから知る、PTaaSの重要性]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230904-2760574/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230904-2760574/"/>
+        <updated>2023-09-04T00:31:06.000Z</updated>
+        <summary type="html"><![CDATA[The Hacker Newsはこのほど、ホンダのeコマースサイトの脆弱性を題材に、ペネトレーションテスト提供サービスの重要性について伝えた。eコマースサイトのセキュリティは、顧客、販売店、事業者など関連するすべての個人情報と財務情報を扱うため保護することが必要不可欠だ。ホンダの例からもサイトの侵入テストの実施が望まれている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[マルウェア「Qakbot」米国ら共同作戦で壊滅、これ以上の被害はない]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230904-2761869/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230904-2761869/"/>
+        <updated>2023-09-03T23:48:42.000Z</updated>
+        <summary type="html"><![CDATA[アメリカ合衆国司法省はこのほど、「Qakbot」として知られるボットネットおよびマルウェアについて、「インフラを壊滅し、倒した」と声明を出した。この作戦には米国、フランス、ドイツ、オランダ、英国、ルーマニア、ラトビアが参加したとされる。Qakbotはすでに被害者のシステムから削除されており、これ以上の被害をもたらすことはない。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ディスレクシアなどの読み書きに困難がある人にも読みやすい「じぶんフォント」、大日本印刷らが有効性を確認と発表]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1528307.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1528307.html"/>
+        <updated>2023-09-03T23:15:00.000Z</updated>
+        <summary type="html"><![CDATA[大日本印刷株式会社（DNP）と国立大学法人東京工業大学らは9月1日、2022年より開発を進めていた文字の読み書きに困難がある人（発達製ディスレクシアの人を含む）にも読みやすい日本語フォント「じぶんフォント」の有効性が確認されたと発表した。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[インタースペースが海外事業で使用している外部クラウドサーバに不正アクセス、スパムメール配信を確認]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/09/04/49901.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/09/04/49901.html"/>
+        <updated>2023-09-03T23:05:06.000Z</updated>
+        <summary type="html"><![CDATA[株式会社インタースペースは8月25日、同社が海外事業で使用している外部クラウドサーバへの第三者からの不正アクセスについて発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[政策研究大学院大学への不正アクセス、2015年の攻撃から2022年まで発覚せず]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/09/04/49900.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/09/04/49900.html"/>
+        <updated>2023-09-03T23:05:02.000Z</updated>
+        <summary type="html"><![CDATA[政策研究大学院大学（GRIPS）は8月22日、同学で発生した情報セキュリティインシデントについて、報告書を発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[サイバー攻撃は「火山噴火」以上「水害未満」～ 東京商工会議所 BCP策定状況調査]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/09/04/49899.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/09/04/49899.html"/>
+        <updated>2023-09-03T23:00:07.000Z</updated>
+        <summary type="html"><![CDATA[東京商工会議所は、会員企業を対象に実施した「会員企業の災害・リスク対策に関するアンケート」2023年調査結果を公開した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[XDRソリューション「ESET PROTECT Elite」提供]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/09/04/49898.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/09/04/49898.html"/>
+        <updated>2023-09-03T23:00:03.000Z</updated>
+        <summary type="html"><![CDATA[キヤノンマーケティングジャパン株式会社は8月28日、XDRソリューション「ESET PROTECT Elite」を9月20日から販売開始すると発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[スターライトセンサー搭載の屋外用パンチルト対応ネットワークカメラ「Tapo C520WS」TP-Linkが発売]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1528295.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1528295.html"/>
+        <updated>2023-09-03T22:30:00.000Z</updated>
+        <summary type="html"><![CDATA[ティーピーリンクジャパン株式会社（TP-Link）は9月14日、高感度センサーを搭載した屋外用のパンチルト対応ネットワークカメラ「Tapo C520WS」の国内販売を開始する。市場想定価格は1万450円。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VMware Toolsに重要な脆弱性、機密情報窃取のリスク]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230904-2763326/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230904-2763326/"/>
+        <updated>2023-09-03T22:22:32.000Z</updated>
+        <summary type="html"><![CDATA[米国土安全保障省のサイバーセキュリティ・インフラストラクチャセキュリティ庁(CISA)は9月1日（米国時間）、VMware Toolsに脆弱性が存在すると警告した。対象の脆弱性を悪用されると、攻撃者によって影響を受けたシステム機密情報が窃取される危険性がある。中間者攻撃が可能な位置にいる攻撃者はSAMLトークン署名の検証をバイパスすることができるとされている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenAIのクローラーを拒否する動き ほか【中島由弘の「いま知っておくべき5つのニュース」2023/8/24～8/30】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/curation/1528268.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/curation/1528268.html"/>
+        <updated>2023-09-03T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[生成AIがコンテンツを学習することについて、「著作権法第30条の4」によって認められていると考えられるが、それを定めたときは検索などのインデックスを想定していて、AIの学習は想定していなかったとして、改めて、著作権法改正を検討する必要があるのではないかという声が上がっている。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「ポータブルSSDで仕事環境を丸ごと持ち歩いてみた！」――急遽テレワークを導入した中小企業の顛末記（156）【急遽テレワーク導入！の顛末記】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/teleworkstory/1526823.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/teleworkstory/1526823.html"/>
+        <updated>2023-09-03T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[M.2 SSDをポータブルデバイス化することで、大容量ファイルも素早くコピーして持ち歩けるようになった（関連記事：「大容量ファイルの持ち運び用にM.2 SSDをUSBメモリ化してみた！」）。ネット経由で受け渡すより、手間も時間もかからないので重宝している。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows 11上でクラウドPCへの切り替えが一瞬！　「Windows 365 Switch」プレビューを体験する【イニシャルB】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/shimizu/1524927.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/shimizu/1524927.html"/>
+        <updated>2023-09-03T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Windows 11のInsider Preview Build 23521が8月10日（米国時間）にリリースされ、「Windows 365 Switch」のプレビューが利用可能になった。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PyPIパッケージマルウェア「VMConnect」に亜種、北朝鮮との関連する証拠発見]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230903-2762624/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230903-2762624/"/>
+        <updated>2023-09-03T10:18:56.000Z</updated>
+        <summary type="html"><![CDATA[ReversingLabsは8月31日（米国時間）、PyPIパッケージのマルウェア「VMConnect」に関連したサプライチェーン攻撃が継続中だと報じた。ReversingLabsはこの攻撃と朝鮮民主主義人民共和国(北朝鮮)のLazarusグループとを結びつける証拠も発見したとしている。新しく発見されたPyPIパッケージ「tablediter」、「request-plus」、「requestspro」は検出を回避するように構築されているとされ注意が必要。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[WordPressプラグイン21個に新たな脆弱性、確認とアップデートを]]></title>
         <id>https://news.mynavi.jp/techplus/article/20230903-2762478/</id>
@@ -8583,26 +8897,6 @@ Web環境を守るために「今すぐ」取り組むべき3つの対策]]></su
         <link href="https://news.mynavi.jp/techplus/article/20230806-2742754/"/>
         <updated>2023-08-06T00:08:30.000Z</updated>
         <summary type="html"><![CDATA[Bleeping ComputerはOutlook Desktopの起動時に予期せずアイテムの再表示を行うかどうか求めるダイアログが表示される問題の対処法をMicrosoftが公開したと報じた。このワークアラウンドで一時的に問題を回避できるとしているが再発の可能性も指摘されている。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[正常なAndroidアプリがある日突然に不正なアプリに更新される危機、注意を]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20230805-2742566/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20230805-2742566/"/>
-        <updated>2023-08-05T09:38:20.000Z</updated>
-        <summary type="html"><![CDATA[Krebs on Securityは8月3日(米国時間)、攻撃者がAndroidのバグを突いて、悪意のあるコードを忍び込ませたアプリのセキュリティスキャンを回避しているとして、注意を呼び掛けた。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Googleに記録されてしまった個人情報を削除するツール、アップデート]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20230805-2742803/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20230805-2742803/"/>
-        <updated>2023-08-05T06:05:17.000Z</updated>
-        <summary type="html"><![CDATA[Googleは8月3日(米国時間)、個人情報を削除できるツール「Results about you」を強化した。このツールを使用することで、個人的な連絡先情報の削除を要求することができる。今回の強化では連絡先情報を検索結果から常に把握できるようになり、見つかった場合はアラートで通知されるようになった。]]></summary>
         <author>
             <name>マイナビニュース 企業IT セキュリティ</name>
         </author>
