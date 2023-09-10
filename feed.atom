@@ -2,10 +2,49 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-09-09T08:09:54.188Z</updated>
+    <updated>2023-09-10T08:09:58.077Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Google、北朝鮮政府支援組織による研究者へのゼロデイ攻撃について警告]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2309/10/news056.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2309/10/news056.html"/>
+        <updated>2023-09-10T04:04:00.000Z</updated>
+        <summary type="html"><![CDATA[Googleの脅威監視チームTAGは、北朝鮮政府支援の攻撃者がセキュリティ研究者を標的とするゼロデイ攻撃を行っていると報告した。X（旧Twitter）などで研究者に近づき、信頼関係を確立するとSignalなどのE2EEに移行してファイルを送りつけるという。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LastPassから流出したパスワード保管庫、クラックされて暗号通貨窃盗に用いられているとの見方]]></title>
+        <id>https://security.srad.jp/story/23/09/10/0020233/</id>
+        <link href="https://security.srad.jp/story/23/09/10/0020233/"/>
+        <updated>2023-09-10T00:59:00.000Z</updated>
+        <summary type="html"><![CDATA[昨年発生した LastPass の不正アクセスで攻撃者がコピー可能だったとされるパスワード保管庫について、実際にコピーされたデータの一部がクラックされ、暗号通貨の窃盗に用いられているとの見方が出ている
+(KrebsOnSecurity の記事、
+The Verge の記事)。
+
+ブロックチェーンワレットアプリ MetaMask の Taylor Monahan 氏によると、昨年末から 150 人以上が合計で 3,500 万ドル以上の暗号通貨盗難にあっているそうだ。被害者は長年の暗号通貨投資者でセキュリティ意識の高い人ばかりだといい、電子メールや携帯電話のアカウント侵害といった暗号通貨盗難の前触れとなるような攻撃も受けていない。
+
+そのため、Monahan 氏は被害者の共通点を特定するのに苦労していたが、ほぼすべての被害者が「シードフレーズ」の保存に LastPass を使用しており、攻撃者が複数の被害者から盗んだ資金を同じブロックチェーンアドレスに送っているという結論に達したとのこと。
+
+暗号通貨ワレット復元サービス Unciphered の Nick Bax 氏は Monahan 氏らが収集したデータを独自に分析し、Monahan 氏と同じ結論に達した。Bax 氏や Monahan 氏らはこのような特徴から新たな被害者を特定することにも成功している。
+
+Bax 氏によればインタビューに合意した被害者の回答から得られた唯一の明白な共通点は LastPass にシードフレーズを保存していたことだといい、LastPass を使用する家族や知人にはパスワードの変更や暗号通貨の移行を強く勧めているとのことだ。
+ すべて読む | セキュリティセクション | 犯罪 | セキュリティ | 暗号 | お金 |     
+  関連ストーリー： 
+LastPass の不正アクセス、エンジニアが自宅 PC のサードパーティソフトウェアを更新していれば防げた可能性 2023年03月05日 
+1Password 曰く、LastPass のパスワード保管庫をクラックするのに百万年もかからない 2023年01月03日 
+LastPass への不正アクセス、攻撃者はパスワード保管庫のバックアップをコピー可能な状態だった 2022年12月24日 
+LastPass にまた不正アクセス、今回は顧客情報の一部にもアクセスされた可能性 2022年12月05日 
+LastPass、8 月の不正アクセスに関する調査の続報を発表 2022年09月20日 
+LastPass の開発環境に不正アクセス、ユーザーデータは影響なし 2022年08月28日 
+多額の盗難被害を出したブロックチェーンワレットアプリ、シードフレーズを無断で保存していたと指摘される 2022年04月23日]]></summary>
+        <author>
+            <name>headless</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[シスコが緊急の脆弱性に関する情報公開、米国CISAも警告]]></title>
         <id>https://news.mynavi.jp/techplus/article/20230909-2767264/</id>
@@ -5508,6 +5547,16 @@ Kubevela とは？ – アーキテクチャのご紹介 first appeared on SIOS 
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[中途採用の情報を更新しました]]></title>
+        <id>https://www.ipa.go.jp/recruit/chuto/index.html</id>
+        <link href="https://www.ipa.go.jp/recruit/chuto/index.html"/>
+        <updated>2023-08-28T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「中途職員採用」に関する情報です。]]></summary>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[嘱託職員公募の情報を更新しました]]></title>
         <id>https://www.ipa.go.jp/recruit/shokutaku/index.html</id>
         <link href="https://www.ipa.go.jp/recruit/shokutaku/index.html"/>
@@ -9521,53 +9570,6 @@ Google Playで多数のクローンが公開されたオープンソースのTor
 <p>This document was written by Ben Koo.</p>]]></summary>
         <author>
             <name>CERT Recently Published Vulnerability Notes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoftから2023年8月のセキュリティ更新、重大な脆弱性に対処]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20230811-2746560/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20230811-2746560/"/>
-        <updated>2023-08-11T07:44:01.000Z</updated>
-        <summary type="html"><![CDATA[米CISAは8月8日（米国時間）、WindowsなどのMicrosoft製品に存在する複数の脆弱性について報告した。これらの脆弱性を悪用されると、システムの制御権が攻撃者に奪われる危険がある。Microsoft .NET CoreおよびVisual Studioに存在するDoSの脆弱性はすでに悪用されている事例が確認されており注意が必要。CISAおよびIPAは、情報のチェックと迅速なアップデートの適用を推奨している。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[全プロセス一括検出可能なマルウェア検知ツール「YAMA」公開、JPCERT/CC]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20230811-2746616/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20230811-2746616/"/>
-        <updated>2023-08-11T05:16:32.000Z</updated>
-        <summary type="html"><![CDATA[JPCERTコーディネーションセンター（JPCERT/CC）は8月9日、カスタマイズ可能なマルウェア検知ツール「YAMA」を公開したと伝えた。YAMAはYARAの仕組みを活用したマルウェア検出ツールで、メモリ上のすべてのプロセスの一括検出が可能としている。今後、オリジナルのYARAルールを同梱したYAMAスキャナをリリース予定としており公開が期待される。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Adobeが脆弱性を修正、Acrobat、Commerce、Dimensionなどアップデートを]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20230811-2746518/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20230811-2746518/"/>
-        <updated>2023-08-10T22:08:05.000Z</updated>
-        <summary type="html"><![CDATA[米国土安全保障省サイバーセキュリティ・インフラストラクチャセキュリティ庁(CISA)は8月8日(米国時間)、、Adobeの複数製品に複数の脆弱性が存在すると発表した。AdobeのAcrobat、Reader、Commerce、Dimension、XMP-Toolkit-SDKなどにおいて、合計33件の緊急および重要な脆弱性が報告されている。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[中国軍が防衛省の機密ネットワークに侵入か。米政府が日本に連絡との報道]]></title>
-        <id>https://security.srad.jp/story/23/08/09/139247/</id>
-        <link href="https://security.srad.jp/story/23/08/09/139247/"/>
-        <updated>2023-08-10T21:04:00.000Z</updated>
-        <summary type="html"><![CDATA[中国人民解放軍のハッカーが、日本の防衛省の高度に機密性のある情報を取り扱うコンピューターシステムに侵入したと、米ワシントン・ポストが7日に報じている。この報道によると、ハッキングは2020年秋に米国家安全保障局（NSA）によって察知され、その後日本政府に通報されていたのだという。日本側の対応が十分でなかったことから、2021年秋にも米国側が対策を促したなどとしている（時事ドットコム、産経新聞）。 
-
-松野博一官房長官は8日の記者会見で、ワシントン・ポストの報道に関して、「サイバー攻撃により防衛省が保有する秘密情報が漏えいしたとの事実は確認されていない」とコメントした。浜田靖一防衛相も閣議後の記者会見で「サイバー攻撃によって任務の遂行に影響が生じる事態は生じていない」と強調している（時事ドットコム）。
- すべて読む | セキュリティセクション | 日本 | 軍事 | セキュリティ | 政府 | 情報漏洩 |     
-  関連ストーリー： 
-内閣サイバーセキュリティセンター、8か月分のメールデータが流出の可能性 2023年08月07日 
-米政府、IoT向けセキュリティ認定・ラベルプログラム「US Cyber Trust Mark」を発表 2023年07月21日 
-「通信の秘密の保護」に制限検討。サイバー攻撃への対処、政府が強化 2023年06月27日]]></summary>
-        <author>
-            <name>nagazou</name>
         </author>
     </entry>
 </feed>

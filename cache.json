@@ -369,6 +369,16 @@
           "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
         },
         {
+          "id": "https://www.ipa.go.jp/recruit/chuto/index.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「中途職員採用」に関する情報です。",
+          "link": "https://www.ipa.go.jp/recruit/chuto/index.html",
+          "publishedOn": "2023-08-28T15:00:00.000Z",
+          "wordCount": 263,
+          "title": "中途採用の情報を更新しました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
           "id": "https://www.ipa.go.jp/recruit/shokutaku/index.html",
           "author": "情報処理推進機構（IPA）",
           "description": "情報処理推進機構（IPA）の「嘱託職員公募」に関する情報です。",
@@ -2947,6 +2957,16 @@
       "siteUrl": "https://security.srad.jp/",
       "articles": [
         {
+          "id": "https://security.srad.jp/story/23/09/10/0020233/",
+          "author": "headless",
+          "description": "昨年発生した LastPass の不正アクセスで攻撃者がコピー可能だったとされるパスワード保管庫について、実際にコピーされたデータの一部がクラックされ、暗号通貨の窃盗に用いられているとの見方が出ている\n(KrebsOnSecurity の記事、\nThe Verge の記事)。\n\nブロックチェーンワレットアプリ MetaMask の Taylor Monahan 氏によると、昨年末から 150 人以上が合計で 3,500 万ドル以上の暗号通貨盗難にあっているそうだ。被害者は長年の暗号通貨投資者でセキュリティ意識の高い人ばかりだといい、電子メールや携帯電話のアカウント侵害といった暗号通貨盗難の前触れとなるような攻撃も受けていない。\n\nそのため、Monahan 氏は被害者の共通点を特定するのに苦労していたが、ほぼすべての被害者が「シードフレーズ」の保存に LastPass を使用しており、攻撃者が複数の被害者から盗んだ資金を同じブロックチェーンアドレスに送っているという結論に達したとのこと。\n\n暗号通貨ワレット復元サービス Unciphered の Nick Bax 氏は Monahan 氏らが収集したデータを独自に分析し、Monahan 氏と同じ結論に達した。Bax 氏や Monahan 氏らはこのような特徴から新たな被害者を特定することにも成功している。\n\nBax 氏によればインタビューに合意した被害者の回答から得られた唯一の明白な共通点は LastPass にシードフレーズを保存していたことだといい、LastPass を使用する家族や知人にはパスワードの変更や暗号通貨の移行を強く勧めているとのことだ。\n すべて読む | セキュリティセクション | 犯罪 | セキュリティ | 暗号 | お金 |     \n  関連ストーリー： \nLastPass の不正アクセス、エンジニアが自宅 PC のサードパーティソフトウェアを更新していれば防げた可能性 2023年03月05日 \n1Password 曰く、LastPass のパスワード保管庫をクラックするのに百万年もかからない 2023年01月03日 \nLastPass への不正アクセス、攻撃者はパスワード保管庫のバックアップをコピー可能な状態だった 2022年12月24日 \nLastPass にまた不正アクセス、今回は顧客情報の一部にもアクセスされた可能性 2022年12月05日 \nLastPass、8 月の不正アクセスに関する調査の続報を発表 2022年09月20日 \nLastPass の開発環境に不正アクセス、ユーザーデータは影響なし 2022年08月28日 \n多額の盗難被害を出したブロックチェーンワレットアプリ、シードフレーズを無断で保存していたと指摘される 2022年04月23日",
+          "link": "https://security.srad.jp/story/23/09/10/0020233/",
+          "publishedOn": "2023-09-10T00:59:00.000Z",
+          "wordCount": 2225,
+          "title": "LastPassから流出したパスワード保管庫、クラックされて暗号通貨窃盗に用いられているとの見方",
+          "imageUrl": "https://srad.jp/static/topics/encryption_64.png"
+        },
+        {
           "id": "https://security.srad.jp/story/23/09/05/1319218/",
           "author": "nagazou",
           "description": "企業の公式サイトなどが改ざんされ、「破産手続きを開始しました」といったう虚偽の情報が表示される被害が相次いでいるという。鹿児島県で中華料理チェーン「餃子の王将」を運営する鹿児島王将は1日、不正アクセスによりホームページが改ざんされたと発表。破産手続きの情報はまったくの事実無根であると説明して警察に被害届を提出したとしている（ねとらぼ）。 ねとらぼの記事によれば、同様の被害が全国で報告されており、映像教材を提供する新宿スタジオや精肉店・ミートプラザニシジマ、多目的施設「湘南国際村センター」なども同様の改ざん被害を受けたとされる。改ざんされたページには実在する弁護士の名前が代理人として記載されているケースもあるが、そのような業務を受任したという事実はございませんと関係を否定している。\n すべて読む | セキュリティセクション | ビジネス | 犯罪 | セキュリティ | ニュース |     \n  関連ストーリー： \n「全人類に対する罪 核下水排出」、業務用ルータで脆弱性つかれ画面改ざん被害 2023年09月01日 \n「恒心教」名乗り脅迫FAX30万件以上送信か、男性二人を逮捕 2023年08月25日 \n中国軍が防衛省の機密ネットワークに侵入か。米政府が日本に連絡との報道 2023年08月11日 \n各地の大学に再び爆破予告が相次ぐ 2021年05月28日 \n今年に入ってなんJ発祥のネタ宗教「恒心教」を名乗る爆破予告が急増。警視庁は捜査第一課を投入 2020年11月11日",
@@ -3195,16 +3215,6 @@
           "wordCount": 2348,
           "title": "画面がオフの時だけバックグラウンドで広告を表示するAndroidアプリが発見される",
           "imageUrl": "https://srad.jp/static/topics/advertising_64.png"
-        },
-        {
-          "id": "https://security.srad.jp/story/23/08/09/139247/",
-          "author": "nagazou",
-          "description": "中国人民解放軍のハッカーが、日本の防衛省の高度に機密性のある情報を取り扱うコンピューターシステムに侵入したと、米ワシントン・ポストが7日に報じている。この報道によると、ハッキングは2020年秋に米国家安全保障局（NSA）によって察知され、その後日本政府に通報されていたのだという。日本側の対応が十分でなかったことから、2021年秋にも米国側が対策を促したなどとしている（時事ドットコム、産経新聞）。 \n\n松野博一官房長官は8日の記者会見で、ワシントン・ポストの報道に関して、「サイバー攻撃により防衛省が保有する秘密情報が漏えいしたとの事実は確認されていない」とコメントした。浜田靖一防衛相も閣議後の記者会見で「サイバー攻撃によって任務の遂行に影響が生じる事態は生じていない」と強調している（時事ドットコム）。\n すべて読む | セキュリティセクション | 日本 | 軍事 | セキュリティ | 政府 | 情報漏洩 |     \n  関連ストーリー： \n内閣サイバーセキュリティセンター、8か月分のメールデータが流出の可能性 2023年08月07日 \n米政府、IoT向けセキュリティ認定・ラベルプログラム「US Cyber Trust Mark」を発表 2023年07月21日 \n「通信の秘密の保護」に制限検討。サイバー攻撃への対処、政府が強化 2023年06月27日",
-          "link": "https://security.srad.jp/story/23/08/09/139247/",
-          "publishedOn": "2023-08-10T21:04:00.000Z",
-          "wordCount": 2916,
-          "title": "中国軍が防衛省の機密ネットワークに侵入か。米政府が日本に連絡との報道",
-          "imageUrl": "https://srad.jp/static/topics/leakage_64.png"
         }
       ]
     },
@@ -4420,6 +4430,16 @@
       "feedUrl": "https://rss.itmedia.co.jp/rss/2.0/news_security.xml",
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2309/10/news056.html",
+          "author": null,
+          "description": "Googleの脅威監視チームTAGは、北朝鮮政府支援の攻撃者がセキュリティ研究者を標的とするゼロデイ攻撃を行っていると報告した。X（旧Twitter）などで研究者に近づき、信頼関係を確立するとSignalなどのE2EEに移行してファイルを送りつけるという。",
+          "link": "https://www.itmedia.co.jp/news/articles/2309/10/news056.html",
+          "publishedOn": "2023-09-10T04:04:00.000Z",
+          "wordCount": 2442,
+          "title": "Google、北朝鮮政府支援組織による研究者へのゼロデイ攻撃について警告",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2309/10/cover_news056.jpg"
+        },
         {
           "id": "https://www.itmedia.co.jp/news/articles/2309/08/news177.html",
           "author": null,
@@ -7269,36 +7289,6 @@
           "wordCount": 2978,
           "title": "病院を狙うランサムウェアの脅威が増加、29施設につき1施設が被害",
           "imageUrl": "https://news.mynavi.jp/techplus/article/20230812-2746096/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20230811-2746560/",
-          "author": null,
-          "description": "米CISAは8月8日（米国時間）、WindowsなどのMicrosoft製品に存在する複数の脆弱性について報告した。これらの脆弱性を悪用されると、システムの制御権が攻撃者に奪われる危険がある。Microsoft .NET CoreおよびVisual Studioに存在するDoSの脆弱性はすでに悪用されている事例が確認されており注意が必要。CISAおよびIPAは、情報のチェックと迅速なアップデートの適用を推奨している。",
-          "link": "https://news.mynavi.jp/techplus/article/20230811-2746560/",
-          "publishedOn": "2023-08-11T07:44:01.000Z",
-          "wordCount": 1944,
-          "title": "Microsoftから2023年8月のセキュリティ更新、重大な脆弱性に対処",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20230811-2746560/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20230811-2746616/",
-          "author": null,
-          "description": "JPCERTコーディネーションセンター（JPCERT/CC）は8月9日、カスタマイズ可能なマルウェア検知ツール「YAMA」を公開したと伝えた。YAMAはYARAの仕組みを活用したマルウェア検出ツールで、メモリ上のすべてのプロセスの一括検出が可能としている。今後、オリジナルのYARAルールを同梱したYAMAスキャナをリリース予定としており公開が期待される。",
-          "link": "https://news.mynavi.jp/techplus/article/20230811-2746616/",
-          "publishedOn": "2023-08-11T05:16:32.000Z",
-          "wordCount": 1641,
-          "title": "全プロセス一括検出可能なマルウェア検知ツール「YAMA」公開、JPCERT/CC",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20230811-2746616/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20230811-2746518/",
-          "author": null,
-          "description": "米国土安全保障省サイバーセキュリティ・インフラストラクチャセキュリティ庁(CISA)は8月8日(米国時間)、、Adobeの複数製品に複数の脆弱性が存在すると発表した。AdobeのAcrobat、Reader、Commerce、Dimension、XMP-Toolkit-SDKなどにおいて、合計33件の緊急および重要な脆弱性が報告されている。",
-          "link": "https://news.mynavi.jp/techplus/article/20230811-2746518/",
-          "publishedOn": "2023-08-10T22:08:05.000Z",
-          "wordCount": 1856,
-          "title": "Adobeが脆弱性を修正、Acrobat、Commerce、Dimensionなどアップデートを",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20230811-2746518/ogp_images/ogp.jpg"
         }
       ]
     }
