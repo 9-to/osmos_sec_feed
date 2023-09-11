@@ -869,6 +869,36 @@
       "siteUrl": "https://gblogs.cisco.com/jp",
       "articles": [
         {
+          "id": "https://gblogs.cisco.com/jp/?p=48677",
+          "author": "TALOS Japan",
+          "description": "今週も脅威情報ニュースレターをお届けします。今週は Jon が休暇を取っているので、私が代わりを務めます。何を取り上げようかと考えていたら、『Slotherhouse』という新しいホラー映画が頭に浮かびました。",
+          "link": "https://gblogs.cisco.com/jp/2023/09/talos-new-open-source-infostealer-and-reflections-on-2023-so-far/",
+          "publishedOn": "2023-09-11T04:01:21.000Z",
+          "wordCount": 713,
+          "title": "オープンソースの新たな情報窃取マルウェアと 2023 年のこれまでの傾向",
+          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/25AS86425_eyecatch-460x230.jpg"
+        },
+        {
+          "id": "https://gblogs.cisco.com/jp/?p=48661",
+          "author": "TALOS Japan",
+          "description": "オープンソースの情報窃取マルウェアである SapphireStealer は、2022 年 12 月に初めて公開されて以来、マルウェアの公開リポジトリで頻繁に確認されるようになっています。",
+          "link": "https://gblogs.cisco.com/jp/2023/09/talos-sapphirestealer-goes-open-source/",
+          "publishedOn": "2023-09-11T01:08:27.000Z",
+          "wordCount": 801,
+          "title": "SapphireStealer：ログイン情報とデータを盗み出すオープンソースの情報窃取マルウェア",
+          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/24AR02390_eyecatch-460x230.jpg"
+        },
+        {
+          "id": "https://gblogs.cisco.com/jp/?p=48648",
+          "author": "若村 友行",
+          "description": "エコシステムパートナーの持つ製品やサービスは、シスコのさまざまなテクノロジーに、API やプログラマビリティを使って連携することで、医療機関のシステムや患者サービスのデジタルトランスフォーメーション「DX」の流れの中で新しいソリューションが生まれています。その一例をご紹介いたします。",
+          "link": "https://gblogs.cisco.com/jp/2023/09/opening-a-digital-front-door-for-healthcare-with-ecosystem-partners/",
+          "publishedOn": "2023-09-11T01:00:14.000Z",
+          "wordCount": 477,
+          "title": "エコシステムパートナーと切り開くヘルスケアのデジタルフロントドア",
+          "imageUrl": "https://storage.googleapis.com/gblogs-bucket/sites/2/GettyImages-1204436253_RP-460x230.jpg"
+        },
+        {
           "id": "https://gblogs.cisco.com/jp/?p=48637",
           "author": "渡邊 剛",
           "description": "東京体育館で開催されたパラ卓球の国際大会ジャパン・オープンの結果です。",
@@ -1154,6 +1184,46 @@
       "feedUrl": "https://tech-lab.sios.jp/feed",
       "siteUrl": "https://tech-lab.sios.jp",
       "articles": [
+        {
+          "id": "https://tech-lab.sios.jp/?p=35649",
+          "author": "前田周哉",
+          "description": "こんにちはサイオステクノロジーの前田です。今回は、Azure OpenAI で独自データを利用するための Add your  dataについて紹介していきます。この機能はAzure Cognitive Searchの独自 [...]\n独自データを利用したチャット_AzureOpenAI_Add_your_data first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/35649",
+          "publishedOn": "2023-09-11T05:04:03.000Z",
+          "wordCount": 1866,
+          "title": "独自データを利用したチャット_AzureOpenAI_Add_your_data",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2023/09/5ff039122f83ab4e1b6da2b43a98d7fb-1-e1694408342397.jpg"
+        },
+        {
+          "id": "https://tech-lab.sios.jp/?p=36520",
+          "author": "龍：Ryu",
+          "description": "今回は、YouTube APIを用いて「自分のチャンネルで投稿しているすべての動画に対して、特定の月の分析情報を取得」というシナリオを実現する方法について解説しています。YouTube APIでは、癖が結構あるのでコピペ [...]\nYouTube APIを使って自動で自分の動画の分析情報を収集する【GAS】 first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/36520",
+          "publishedOn": "2023-09-11T04:29:59.000Z",
+          "wordCount": 2096,
+          "title": "YouTube APIを使って自動で自分の動画の分析情報を収集する【GAS】",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2023/09/Frame-5484.png"
+        },
+        {
+          "id": "https://tech-lab.sios.jp/?p=36460",
+          "author": "やまなか",
+          "description": "Jaegerは、マイクロサービスのリクエストとデータフローを可視化する分散トレーシングシステムです。 Jaegerとは マイクロサービスは複数のサービスを呼び出して１つの大きなリクエストを実現しています。そのため、サービ [...]\n新卒でもわかる！Jaegerとは？ first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/36460",
+          "publishedOn": "2023-09-11T02:42:08.000Z",
+          "wordCount": 1765,
+          "title": "新卒でもわかる！Jaegerとは？",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2023/09/Jaeger_Logo_Final_PANTONE.png"
+        },
+        {
+          "id": "https://tech-lab.sios.jp/?p=36511",
+          "author": "龍：Ryu",
+          "description": "今回は、社内アプリケーションを爆速でMVP開発したことについて振り返りを兼ねてブログにまとめていきたいと思います。実際に社内で利用が始まったので、フィードバックを見ながら改善に取り組んでいる毎日です。つらい！プロダクトの [...]\n新米フロントエンドエンジニアが社内アプリケーションを爆速でMVP開発した話 first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/36511",
+          "publishedOn": "2023-09-11T01:12:21.000Z",
+          "wordCount": 1647,
+          "title": "新米フロントエンドエンジニアが社内アプリケーションを爆速でMVP開発した話",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2023/09/Frame-5700.png"
+        },
         {
           "id": "https://tech-lab.sios.jp/?p=36471",
           "author": "うみのこ",
@@ -1673,6 +1743,17 @@
       "siteUrl": "https://www.nic.ad.jp/",
       "articles": [
         {
+          "id": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol2023.html",
+          "author": null,
+          "description": "",
+          "link": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol2023.html",
+          "publishedOn": "2023-09-11T05:22:13.000Z",
+          "wordCount": null,
+          "title": "[メルマガ]vol.2023:【トピックス号】先週のトピックスとWeb更新情報",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "https://blog.nic.ad.jp/2023/9222/",
           "author": null,
           "description": "メールマガジンで配信したインターネットに関するコラムを、このブログでもご紹介しています。2023年6月は、情報セキュリティ技術の専門家で技術導入や普及にもご尽力なさっている、株式会社三菱総合研究所の小川博久さんにお書きいただきました。AIの台頭が叫ばれる昨今ですが、インターネット業界であっても、人にしかできない仕事はまだまだありそうです。",
@@ -1680,6 +1761,17 @@
           "publishedOn": "2023-09-08T04:30:08.000Z",
           "wordCount": null,
           "title": "[Blog記事]News & Views コラム：ISOC-JPのIETF報告会を拝見して思うこと",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nic.ad.jp/ja/topics/2023/20230908-01.html",
+          "author": null,
+          "description": "",
+          "link": "https://www.nic.ad.jp/ja/topics/2023/20230908-01.html",
+          "publishedOn": "2023-09-08T02:11:05.000Z",
+          "wordCount": null,
+          "title": "[トピックス]IGF 2023に向けた国内IGF活動活発化チーム第39回会合開催のご案内",
           "itunes": {},
           "imageUrl": null
         },
@@ -2395,6 +2487,16 @@
       "feedUrl": "https://jvn.jp/rss/jvn.rdf",
       "siteUrl": "https://jvn.jp/",
       "articles": [
+        {
+          "id": "https://jvn.jp/jp/JVN41113329/",
+          "author": "jvn@jvn.jp",
+          "description": "Pylons Project が提供する Pyramid には、ディレクトリトラバーサルの脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN41113329/",
+          "publishedOn": "2023-09-11T03:00:00.000Z",
+          "wordCount": 225,
+          "title": "Pyramid におけるディレクトリトラバーサルの脆弱性",
+          "imageUrl": null
+        },
         {
           "id": "https://jvn.jp/vu/JVNVU98894480/",
           "author": "jvn@jvn.jp",
@@ -3223,6 +3325,66 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/09/11/49932.html",
+          "author": null,
+          "description": "リバースプロキシの脅威（特に EvilProxy）は、今日のダイナミックなサイバー情勢における強力な脅威であり、過去の性能の低いフィッシュキットとはまったく異なります。その人気は著しく上昇し、組織の防御戦略において決定的なギャップを露呈しています。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/09/11/49932.html",
+          "publishedOn": "2023-09-10T23:15:02.000Z",
+          "wordCount": 1474,
+          "title": "Proofpoint Blog 29回「EvilProxyを用いたクラウドアカウントを乗っ取る攻撃キャンペーンが100以上のグローバル組織の経営陣を狙う」",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42648.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/09/11/49931.html",
+          "author": null,
+          "description": "神奈川県は9月4日、委託事業者による個人情報の流出について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/09/11/49931.html",
+          "publishedOn": "2023-09-10T23:05:08.000Z",
+          "wordCount": 815,
+          "title": "神奈川県 委託事業者に不正アクセス、バックアップはなくデータ復旧困難",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42629.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/09/11/49930.html",
+          "author": null,
+          "description": "公益財団法人福岡市緑のまちづくり協会は9月1日、同協会の公園管理事務所（東平尾公園内）での個人情報流出について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/09/11/49930.html",
+          "publishedOn": "2023-09-10T23:05:02.000Z",
+          "wordCount": 863,
+          "title": "勤務中ニュースサイトを閲覧、サポート詐欺で 104 人分個人情報流出の可能性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42620.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/09/11/49929.html",
+          "author": null,
+          "description": "10月11日に開催されるRSA Security Japan主催のセミナーに、イエラエ執行役員（ISOG-J副代表）の阿部氏が登壇する。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/09/11/49929.html",
+          "publishedOn": "2023-09-10T23:00:13.000Z",
+          "wordCount": 949,
+          "title": "RSA 主催セミナーに ISOG-J 副代表の阿部氏登壇",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42650.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/09/11/49928.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月6日、「direct」デスクトップ版アプリ Mac版におけるアクセス制限不備の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/09/11/49928.html",
+          "publishedOn": "2023-09-10T23:00:08.000Z",
+          "wordCount": 913,
+          "title": "「direct」デスクトップ版アプリ Mac版にアクセス制限不備の脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/09/11/49927.html",
+          "author": null,
+          "description": "日本銀行金融研究所 情報技術研究センター情報技術研究グループは9月4日、「量子コンピュータが暗号を解読する日はくるのか？～耐量子計算機暗号（PQC）への移行に向けた取組み～」のテーマで情報セキュリティ・セミナーを9月21日に開催すると発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/09/11/49927.html",
+          "publishedOn": "2023-09-10T23:00:03.000Z",
+          "wordCount": 933,
+          "title": "耐量子計算機暗号（PQC）への移行に向けた取組み GMOイエラエ菅野氏紹介 ～ 日本銀行金融研究所セミナー",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2023/09/08/49926.html",
           "author": null,
@@ -4431,6 +4593,16 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2309/11/news112.html",
+          "author": null,
+          "description": "マイナポイント事務局をかたるフィッシングの報告が増えている。メールで「マイナポイントが間もなく失効する」などと案内して偽サイトに誘導し、クレジットカード情報や住所、氏名などを入力させる。",
+          "link": "https://www.itmedia.co.jp/news/articles/2309/11/news112.html",
+          "publishedOn": "2023-09-11T07:00:00.000Z",
+          "wordCount": 2430,
+          "title": "マイナポイント事務局かたるフィッシング増加中　「ポイントが失効する」などウソで誘導",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2309/11/cover_news112.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2309/10/news056.html",
           "author": null,
           "description": "Googleの脅威監視チームTAGは、北朝鮮政府支援の攻撃者がセキュリティ研究者を標的とするゼロデイ攻撃を行っていると報告した。X（旧Twitter）などで研究者に近づき、信頼関係を確立するとSignalなどのE2EEに移行してファイルを送りつけるという。",
@@ -4817,6 +4989,116 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1530354.html",
+          "author": null,
+          "description": "Amazon.co.jpのKindleストアでは、現在「Kindle本ポイントキャンペーン」を開催中だ。対象書籍を購入すると、支払金額の30％がポイント還元される。コンピュータ・IT関連書籍も400冊弱がラインアップ。キャンペーン期間は9月21日まで。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1530354.html",
+          "publishedOn": "2023-09-11T06:00:00.000Z",
+          "wordCount": 4594,
+          "title": "Amazonで電子書籍が30％ポイント還元！　Kindle本ポイントキャンペーン　1万冊以上が対象。コンピュータ・IT関連書籍も約400冊ラインアップ",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1530/354/kindle0911.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1530348.html",
+          "author": null,
+          "description": "アンカー・ジャパン株式会社と日本交通株式会社は9月8日、日本交通が運行する一部のワゴンタクシー車両、およびタクシーアプリ「GO」で指定注文可能な「GO PREMIUM」車両に使用しているトヨタ「アルファード」約140台に、AnkerのUSB急速充電器とケーブル2種、ケーブルホルダーを設置した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1530348.html",
+          "publishedOn": "2023-09-11T05:50:00.000Z",
+          "wordCount": 4700,
+          "title": "Ankerと日本交通、ワゴンタクシーなどにUSB急速充電器を設置",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1530/348/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1530059.html",
+          "author": null,
+          "description": "静岡県沼津市の沼津未来クリエイティブ事務局は、「沼住クエスト冒険セット」を9月13日に発売する。同市が行うゲーム感覚の移住検討者向けイベント「移住情報ハンティング・沼住クエスト」への参加権が得られるもの。価格は1000円で、沼津駅南口の駅ビル「アントレ」2階にある沼津観光案内所にて、先着100人の限定販売となる。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1530059.html",
+          "publishedOn": "2023-09-11T02:30:00.000Z",
+          "wordCount": 4558,
+          "title": "静岡県沼津市が「沼住クエスト」、沼津駅から始まるゲーム感覚の移住検討イベント、9月13日から",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1530/059/00.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1530225.html",
+          "author": null,
+          "description": "iPhoneユーザーは、Androidユーザーの7倍以上も、アプリの購入にコストをかけていることが明らかになった。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1530225.html",
+          "publishedOn": "2023-09-11T02:25:00.000Z",
+          "wordCount": 4490,
+          "title": "「iPhoneユーザーは優良顧客」アプリの購入額、iPhoneユーザーはAndroidユーザーの7倍超？【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1530/225/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1530220.html",
+          "author": null,
+          "description": "X（旧Twitter）が、広告表示なしで多数の広告ポストを配信していることが判明し、海外で物議を醸している。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1530220.html",
+          "publishedOn": "2023-09-11T02:25:00.000Z",
+          "wordCount": 4481,
+          "title": "X（旧Twitter）、広告表示のない広告ポストを多数配信していると判明し海外で物議【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1530/220/yajiuma-watch_4.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/ranking/1530202.html",
+          "author": null,
+          "description": "前週に閲覧数の多かった記事を、カテゴリーごとに上位5位までレポートします。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/ranking/1530202.html",
+          "publishedOn": "2023-09-11T02:15:00.000Z",
+          "wordCount": 4592,
+          "title": "床でもソファーに座っても使える、ニトリの高さ調節可能な「2WAYこたつ」に関する記事に注目集まる【アクセスランキング】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1530/202/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1529961.html",
+          "author": null,
+          "description": "サンワサプライ株式会社は9月6日、4個口の電源タップ「700-TAP052」を発売した。直販サイト「サンワダイレクト」での販売価格は980円。カラーはブラックとグレー。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1529961.html",
+          "publishedOn": "2023-09-10T23:45:00.000Z",
+          "wordCount": 4562,
+          "title": "コンパクトながら4個口、干渉しにくい電源タップ「700-TAP052」、サンワサプライが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1529/961/sub2.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1529956.html",
+          "author": null,
+          "description": "NECプラットフォームズ株式会社は9月7日、Wi-Fi 6対応ルーター「Aterm WX5400HP」のファームウェアアップデートにより、UPnP IPv6に対応したと発表した。アップデートにより新機能「使って快適ネット（UPnP IPv6連携）」が搭載される。同社によれば、国内の家庭向けWi-FiルーターがUPnP IPv6に対応するのは初。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1529956.html",
+          "publishedOn": "2023-09-10T22:50:00.000Z",
+          "wordCount": 4603,
+          "title": "NECプラットフォームズ、国内初のUPnP IPv6対応。「Aterm WX5400HP」のアップデートにより　コナミデジタルエンタテインメント「eFootball 2024」が対応",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1529/956/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/curation/1529972.html",
+          "author": null,
+          "description": "NTTドコモのモバイル社会研究所がシニア層（60歳から79歳）のメール・SNS利用に関する調査結果を公表した（INTERNET Watch）。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/curation/1529972.html",
+          "publishedOn": "2023-09-10T22:00:00.000Z",
+          "wordCount": 4620,
+          "title": "高精細画像・カラー化技術の成果～NHK「関東大震災 ～帝都壊滅の三日間～」 ほか【中島由弘の「いま知っておくべき5つのニュース」2023/8/31～9/6】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1529/972/shutterstock_1019006956_main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/teleworkstory/1529029.html",
+          "author": null,
+          "description": "先日はモバイルバッテリーを使い、iPhoneの充電時における電力消費量をテストすることに。その結果として、USB給電では最大50%程度の電力量をロスしていることが分かった。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/teleworkstory/1529029.html",
+          "publishedOn": "2023-09-10T22:00:00.000Z",
+          "wordCount": 4591,
+          "title": "「100円ショップの乾電池でiPhoneをどこまで充電できるかテストしてみた！」――急遽テレワークを導入した中小企業の顛末記（157）【急遽テレワーク導入！の顛末記】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1529/029/1.JPG"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/topic/shimizu_sp/1526819.html",
+          "author": null,
+          "description": "TP-Linkから、いろいろな意味で手に取りやすいWi-Fi 6ルーター「Archer AX23V」が登場した。",
+          "link": "https://internet.watch.impress.co.jp/docs/topic/shimizu_sp/1526819.html",
+          "publishedOn": "2023-09-10T21:00:00.000Z",
+          "wordCount": 4604,
+          "title": "高さはiPhone並みの小さなWi-Fi 6ルーターが登場！ 安くて高性能、そして「日本仕様」なTP-Link「Archer AX23V」【イニシャルB【特別編】】[Sponsored]",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1526/819/001.jpg"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/weekly/1529969.html",
           "author": null,
@@ -6311,6 +6593,56 @@
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
         {
+          "id": "https://news.mynavi.jp/techplus/article/20230911-2769188/",
+          "author": null,
+          "description": "Bleeping Computerは9月9日(米国時間)、Googleが新しい「プライバシーサンドボックス」を導入して、Google Chromeのブラウジング履歴を広告に利用すると報じた。これはサードパーティCookieが持つプライバシ問題を解決し、広告配信業者がユーザーのアクセス履歴の収集を困難にするための策となる。",
+          "link": "https://news.mynavi.jp/techplus/article/20230911-2769188/",
+          "publishedOn": "2023-09-11T06:36:31.000Z",
+          "wordCount": 1728,
+          "title": "Google、Chromeのブラウジング履歴を広告に利用 - 問題は？",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230911-2769188/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230911-2767706/",
+          "author": null,
+          "description": "Googleはこのほど、朝鮮民主主義人民共和国(北朝鮮)のサイバー攻撃者の標的となっているセキュリティ研究者に関する情報を報じた。脅威分析グループは数年にわたり北朝鮮のサイバー攻撃者の攻撃を追跡・妨害してきたところ、この攻撃者が実行しているとみられる新しいキャンペーンを発見したという。",
+          "link": "https://news.mynavi.jp/techplus/article/20230911-2767706/",
+          "publishedOn": "2023-09-11T00:24:27.000Z",
+          "wordCount": 1661,
+          "title": "北朝鮮の脅威者がセキュリティ研究者を狙うサイバー攻撃発見、Googleが警告",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230911-2767706/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230911-2766212/",
+          "author": null,
+          "description": "Tripwireはこのほど、IBMが2023年のデータ侵害のコストレポートを発表したと伝えた。同レポートによると、データ侵害の平均総費用額は2023年に445万ドルと過去最高に達し、昨年の435万ドルから2.3%の増加となったとしている。同レポートから学ぶべきこととは何か。",
+          "link": "https://news.mynavi.jp/techplus/article/20230911-2766212/",
+          "publishedOn": "2023-09-10T23:51:54.000Z",
+          "wordCount": 1708,
+          "title": "データ侵害の被害総額が過去最高を更新、攻撃者の魔の手から逃れるには",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230911-2766212/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230910-2768589/",
+          "author": null,
+          "description": "QNAP Systemsは9月8日(現地時間)、複数のQNAP製品にXSS (クロスサイトスクリプティング) の脆弱性が存在すると報じた。この脆弱性はQuLog Centerに影響を及ぼすもので、認証されたユーザーが悪意のあるコードを注入できてしまうというリスクがある。",
+          "link": "https://news.mynavi.jp/techplus/article/20230910-2768589/",
+          "publishedOn": "2023-09-10T11:23:48.000Z",
+          "wordCount": 1735,
+          "title": "QNAP製品に重要な脆弱性、アップデートを",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230910-2768589/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230910-2767708/",
+          "author": null,
+          "description": "Doctor Webは9月6日(現地時間)、Android TVなどのAndroidデバイスを侵害するトロイの木馬「Android.Pandora」を特定したとして、注意を呼び掛けた。非公式サイトからファームウェアアップデートを行った場合や、海賊版の映画やテレビをストリーミングするアプリケーションをインストールした場合に感染するとみられる。",
+          "link": "https://news.mynavi.jp/techplus/article/20230910-2767708/",
+          "publishedOn": "2023-09-10T09:20:25.000Z",
+          "wordCount": 1747,
+          "title": "Android TV狙うトロイの木馬に注意、廉価版デバイスは確認を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230910-2767708/ogp_images/ogp.jpg"
+        },
+        {
           "id": "https://news.mynavi.jp/techplus/article/20230909-2767264/",
           "author": null,
           "description": "シスコシステムズはここ1週間で6つのセキュリティアドバイザリを発行した。これには「緊急」と「重要」として分類された脆弱性情報も含まれる。米国のCISAもこれらの脆弱性情報に関して注意喚起を行っている。",
@@ -7279,16 +7611,6 @@
           "wordCount": 1691,
           "title": "経営陣を狙うフィッシング詐欺が急増中、多要素認証(MFA)を回避",
           "imageUrl": "https://news.mynavi.jp/techplus/article/20230814-2746846/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20230812-2746096/",
-          "author": null,
-          "description": "Check Point Software Technologiesは8月8日(米国時間)、米国の病院にランサムウェアの脅威が高まっていると報じた。4週平均で米国の病院の29施設につき1施設がランサムウェアの被害を受けたという。医療は患者優先のため脅迫に応じる可能性が高いと考えられ、また機材の保守・点検が不十分なこともあり被害が拡大しているとみられている。",
-          "link": "https://news.mynavi.jp/techplus/article/20230812-2746096/",
-          "publishedOn": "2023-08-12T05:37:46.000Z",
-          "wordCount": 2978,
-          "title": "病院を狙うランサムウェアの脅威が増加、29施設につき1施設が被害",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20230812-2746096/ogp_images/ogp.jpg"
         }
       ]
     }
