@@ -259,6 +259,16 @@
       "siteUrl": "https://www.ipa.go.jp/about/index.html",
       "articles": [
         {
+          "id": "https://www.ipa.go.jp/digital/dx-suishin/syucyu.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「お知らせ：9月・10月はDX推進指標の集中実施期間です」に関する情報です。",
+          "link": "https://www.ipa.go.jp/digital/dx-suishin/syucyu.html",
+          "publishedOn": "2023-09-11T15:00:00.000Z",
+          "wordCount": 308,
+          "title": "【お知らせ】9月・10月はDX推進指標の集中実施期間です",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
           "id": "https://www.ipa.go.jp/news/2023/shiken/ex20230908.html",
           "author": "情報処理推進機構（IPA）",
           "description": "情報処理推進機構（IPA）の「令和5年度秋期情報処理技術者試験及び情報処理安全確保支援士試験の応募者数について」に関する情報です。",
@@ -446,36 +456,6 @@
           "publishedOn": "2023-08-14T15:00:00.000Z",
           "wordCount": 412,
           "title": "情報セキュリティマネジメント試験・基本情報技術者試験（令和5年7月実施）の合格者受験番号一覧を掲載しました",
-          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
-        },
-        {
-          "id": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pass.html",
-          "author": "情報処理推進機構（IPA）",
-          "description": "",
-          "link": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pass.html",
-          "publishedOn": "2023-08-13T15:00:00.000Z",
-          "wordCount": 216,
-          "title": "ITパスポート試験（令和5年6月実施）の合格証書は8月10日（木曜日）発送済です",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.ipa.go.jp/shiken/mousikomi/cbt_sg_fe.html",
-          "author": "情報処理推進機構（IPA）",
-          "description": "情報処理推進機構（IPA）の「情報セキュリティマネジメント試験、基本情報技術者試験（CBT方式）」に関する情報です。",
-          "link": "https://www.ipa.go.jp/shiken/mousikomi/cbt_sg_fe.html",
-          "publishedOn": "2023-08-13T15:00:00.000Z",
-          "wordCount": 412,
-          "title": "情報セキュリティマネジメント試験・基本情報技術者試験（令和5年6月実施）の合格証書は8月10日（木曜日）発送済です",
-          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
-        },
-        {
-          "id": "https://www.ipa.go.jp/jinzai/mitou/target/2023_reservoir/pm.html",
-          "author": "情報処理推進機構（IPA）",
-          "description": "情報処理推進機構（IPA）の「2023年度未踏ターゲット事業(リザバーコンピューティング技術を活用したソフトウェア開発分野)プロジェクトマネージャー」に関する情報です。",
-          "link": "https://www.ipa.go.jp/jinzai/mitou/target/2023_reservoir/pm.html",
-          "publishedOn": "2023-08-13T15:00:00.000Z",
-          "wordCount": 405,
-          "title": "2023年度未踏ターゲット事業(リザバーコンピューティング技術を活用したソフトウェア開発分野)プロジェクトマネージャーを公開しました",
           "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
         }
       ]
@@ -1185,6 +1165,26 @@
       "siteUrl": "https://tech-lab.sios.jp",
       "articles": [
         {
+          "id": "https://tech-lab.sios.jp/?p=36585",
+          "author": "佐藤 陽",
+          "description": "こんにちは、サイオステクノロジーの佐藤 陽です。 今日は、Stripe の Webhook のハンドリングを Azure 環境で実際に組み立ててみたいと思います。 Azure上でStripe の Webhook を活用し [...]\n【Stripe】Webhookの実装をAzure環境に構築する【後編】 first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/36585",
+          "publishedOn": "2023-09-12T00:00:36.000Z",
+          "wordCount": 2033,
+          "title": "【Stripe】Webhookの実装をAzure環境に構築する【後編】",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2023/09/eyecatch_stripeazure.png"
+        },
+        {
+          "id": "https://tech-lab.sios.jp/?p=36528",
+          "author": "佐藤 陽",
+          "description": "こんにちは、サイオステクノロジーの佐藤 陽です。 今日は、Stripe の Webhook のハンドリングを Azure 環境で実際に組み立ててみたいと思います。 Azure上でStripe の Webhook を活用し [...]\n【Stripe】Webhookの実装をAzure環境に構築する【前編】 first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/36528",
+          "publishedOn": "2023-09-11T23:59:42.000Z",
+          "wordCount": 2148,
+          "title": "【Stripe】Webhookの実装をAzure環境に構築する【前編】",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2023/09/eyecatch_stripeazure.png"
+        },
+        {
           "id": "https://tech-lab.sios.jp/?p=35649",
           "author": "前田周哉",
           "description": "こんにちはサイオステクノロジーの前田です。今回は、Azure OpenAI で独自データを利用するための Add your  dataについて紹介していきます。この機能はAzure Cognitive Searchの独自 [...]\n独自データを利用したチャット_AzureOpenAI_Add_your_data first appeared on SIOS Tech. Lab.",
@@ -1602,6 +1602,36 @@
       "feedUrl": "https://eset-info.canon-its.jp/RSS.rdf",
       "siteUrl": "https://eset-info.canon-its.jp/",
       "articles": [
+        {
+          "id": "https://eset-info.canon-its.jp/malware_info/news/detail/230912_3.html",
+          "author": null,
+          "description": "2023年9月11 日現在、マイナポイント事務局をかたるフィッシングが確認されております。フィッシングサイト上の入力欄には、絶対に情報を入力しないようにお願いします。\n\nこのようなフィッシングサイトにて、メールアドレス、パスワード、名前、フリガナ、生年月日、電話番号、郵便番号、都道府県、市区町村、丁目、番地、建物名、マンション名、部屋番号、クレジットカード情報 (カード番号、カード名義人、有効期限、カードセキュリティコード)、3-D セキュアの認証情報 (Web サービスアカウント、Web サービスのパスワード) 等を絶対に入力しないよう、ご注意ください\n\n日頃からサービスへログインする際は、メールや SMS 内のリンクではなく、いつも利用しているスマートフォンの公式アプリやブラウザーのブックマークなどからアクセスするよう、心がけてください。\n\n【メールの件名】\n\n【マイナポイント第2弾】で獲得した20,000円ポイントはまもなく失効します\n【マイナポイント第2弾】締め切り間近：20,000円のマイナポイントを有効活用しましょう！\n【マイナポイント第2弾】20,000円分のポイントプレゼント！\n［マイナンバーカードに関する重要なお知らせ］\nポイントプレゼントのお知らせ\n\n※上記以外の件名も使われている可能性があります。\n\n【サイトのURL】\n\nhttps://zmd●●●●.com/\nhttps://legonc●●●●.com/\nhttps://dogankentce●●●●.com/\nhttps://mynumbercard-point-●●●●.com/\nhttps://mynabarcerd.point.soumu.jq.●●●●.top/\nhttp://charlottepina●●●●.com/\n\n※上記以外のドメイン、URL も使われている可能性があります。\n※URL にパスやパラメータが付いていることがあります。\n\n2023/9/11 15:00時点では、フィッシングサイトは稼働中です。このサイトが停止しても類似のフィッシングサイトが公開される恐れもありますので注意してください。\nこのようなフィッシングサイトは日々新規に作成されています。ESET製品は、新規に作成されるフィッシングサイトにも随時対応していきますが、お客さま自身でも十分にご注意ください。\n\n【参考情報】\n\nマイナポイントに乗じた詐欺にご注意ください\n\n \n\n\n■ ESET製品における検出例\n\n\n\n※ESET Internet Security V16.0/ESET Mobile Security V7.0でフィッシング対策機能が有効な場合は、図のような通知が表示されます。\n\n\n■ フィッシングメール／フィッシングサイトへの対応\n\n\n\n\tフィッシングの可能性があるメールをむやみに開かない。\n\tフィッシングの可能性があるメールの添付ファイルをむやみに開かない。\n\tメール文中のリンク先URLがフィッシングサイトである可能性を考え、リンク先URLへむやみにアクセスしない。\n\tフィッシングの可能性があるサイトにアカウント情報やクレジットカード情報などを入力しない。\n\n\n\n\nキヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。",
+          "link": "https://eset-info.canon-its.jp/malware_info/news/detail/230912_3.html",
+          "publishedOn": "2023-09-11T15:00:00.000Z",
+          "wordCount": 212,
+          "title": "マイナポイント事務局をかたるフィッシングについての注意喚起",
+          "imageUrl": "https://eset-info.canon-its.jp/files/user/images/common/sns_thumb.jpg"
+        },
+        {
+          "id": "https://eset-info.canon-its.jp/malware_info/news/detail/230912_2.html",
+          "author": null,
+          "description": "2023年9月11 日現在、日本生命をかたるフィッシングが確認されております。フィッシングサイト上の入力欄には、絶対に情報を入力しないようにお願いします。\n\nこのようなフィッシングサイトにて、お名前 (姓、名)、誕生日、メールアドレス、郵便番号、都道府県、市区郡以下、電話番号、クレジットカード番号、有効期限、セキュリティコード等を絶対に入力しないよう、ご注意ください\n\n日頃からサービスへログインする際は、メールや SMS 内のリンクではなく、いつも利用しているスマートフォンの公式アプリやブラウザーのブックマークなどからアクセスするよう、心がけてください。\n\n【メールの件名】\n\nALPS処理水放出による国民への被害に対しては\n\n※上記以外の件名も使われている可能性があります。\n\n【サイトのURL】\n\nhttps://www.thewise●●●●.net/\nhttps://www.yeguan●●●●.net/\n\n※上記以外のドメイン、URL も使われている可能性があります。\n※URL にパスやパラメータが付いていることがあります。\n\n2023/9/11 10:00時点では、フィッシングサイトは稼働中です。このサイトが停止しても、類似のフィッシングサイトが公開される恐れもありますので注意してください。\nこのようなフィッシングサイトは日々新規に作成されています。ESET製品は、新規に作成されるフィッシングサイトにも随時対応していきますが、お客さま自身でも十分にご注意ください。\n\n【参考情報】\n\n詐欺等の金融犯罪にご注意ください。\n\n \n\n\n■ ESET製品における検出例\n\n\n\n※ESET Internet Security V16.0/ESET Mobile Security V7.0でフィッシング対策機能が有効な場合は、図のような通知が表示されます。\n\n\n■ フィッシングメール／フィッシングサイトへの対応\n\n\n\n\tフィッシングの可能性があるメールをむやみに開かない。\n\tフィッシングの可能性があるメールの添付ファイルをむやみに開かない。\n\tメール文中のリンク先URLがフィッシングサイトである可能性を考え、リンク先URLへむやみにアクセスしない。\n\tフィッシングの可能性があるサイトにアカウント情報やクレジットカード情報などを入力しない。\n\n\n\n\nキヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。",
+          "link": "https://eset-info.canon-its.jp/malware_info/news/detail/230912_2.html",
+          "publishedOn": "2023-09-11T15:00:00.000Z",
+          "wordCount": 199,
+          "title": "日本生命をかたるフィッシングについての注意喚起",
+          "imageUrl": "https://eset-info.canon-its.jp/files/user/images/common/sns_thumb.jpg"
+        },
+        {
+          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/230912.html",
+          "author": null,
+          "description": "スマートフォンの普及で活用が広がる顔認証技術。過去には写真で認証が突破されたという報告もあり、リスクが懸念されるような状況だったが、目覚ましい技術革新によりセキュリティも向上している。この記事では、顔認証や生体認証技術全般について、その利用状況やセキュリティ事情について解説する。\n\n\n\n\n\n顔認証の利用状況\n\nIT機器が日常生活に深く浸透するのとともに、端末やサービスを利用するために本人確認を必要とする場面が増えている。例えば、認証方式の1つとして、顔認証がさまざまな場面で用いられるようになっている。具体的には、スマートフォン（以下、スマホ）のロック解除やパソコンへのログインに日常的に利用しているはずだ。\n\n近年はオフィスや工場の出退勤や入退場の管理をはじめ、スポーツジムやイベント施設、受験会場、空港の出入国管理など、本人確認が必要なあらゆる場面でセキュリティレベルの強化を狙い、顔認証が利用されるようになっている。\n\n顔認証が広まってきた背景には、認証における利便性と安全性の双方を高いバランスで成り立たせることを可能とした点が挙げられる。どうしても管理が煩雑になりがちなパスワード管理の手間も必要なく、加えて、紛失・盗難の心配もない。\n\nまた、両手がふさがっていても、カメラの前に顔を向けるだけですぐに認証が完了する手軽さは、ユーザーにとって大きなメリットと言える。さらに、コロナ禍を経て、非接触で手続きが済むことが衛生的だと考えられるようになった点も、普及を後押ししているものと考えられる。\n\n生体認証技術のトレンド\n\n顔認証は、数ある生体認証技術の1つに分類される。この生体認証とは人間固有の特徴を活用して本人確認を行うものであり、代表的な生体認証の手段として、顔に加えて、指紋・静脈・虹彩・音声などが挙げられる。\n\nスマホやパソコンでは顔認証と並び、指紋認証が導入されているケースも多い。指紋認証は長らく、犯罪捜査などでも利用されてきた技術だ。最近のスマホでは光センサーや超音波センサーといった技術を用いて、より精度の高い判定が行えるようになっている。\n\n一方、指紋認証の課題は、手袋をしているときや指を負傷した際に認証が行えない可能性がある点だ。また、手が濡れていてエラーと判別されたり、手がふさがってそもそも認証できなかったりと利便性が低いと感じてしまうユーザーもいる。その点、顔認証ではこのような不便さを感じさせることなく、スマホのカメラに顔をかざせば認証できる。\n\n顔認証はユーザーの使い勝手を向上させながらも、なりすましのリスクを軽減できるのがメリットだ。一方で、眼鏡・マスクの着用、周辺の明るさなどといった要因で顔認証が困難になる場合もある。\n\nそもそも、顔認証の技術は1960年代から研究が始まったとされている。その後、2001年に起こった米国同時多発テロを契機に、空港で顔認証技術が導入されるようになった。そして、顔認証アルゴリズムが進歩するのに伴い、社会への普及も広がってきている。さらに、2010年代以降に見られたディープラーニングの登場により、その精度が急速に向上してきた。\n\n顔認証のアルゴリズムでは一般的に、瞳の中心、鼻翼、口の両端といった特徴的なポイントである「特徴点」の位置を計測する。 加えて、目鼻の凹凸や傾きといった特徴を抽出し、個人を識別する仕組みだ。\n\n先述のように、ディープラーニングの適用やコンピューターの計算能力の向上もあり、マスクの有無や顔の向きが異なっているような場合でも、精度の高い識別ができるよう進化してきている。本人が年を重ねて見た目に変化があったり、顔の似た人が登録されたりした場合でも、誤認識を軽減するような工夫が導入されてきた。\n\n近年では、なりすましの被害を防ぐため、二要素認証・多要素認証に用いる認証手段の1つとして顔認証を導入するケースも増えている。また、今後は管理が煩雑で不正侵入のリスクとなり得るパスワードが不要となる、パスワードレス認証を目指すのがトレンドだ。そのような潮流の変化もあり、生体認証の利用がさらに広がっていくことが見込まれている。\n\n顔認証や指紋認証などの生体認証を利用して安全性を高めよう\n\n顔認証の安全性\n\n当初、顔認証技術は状況によって認証の精度が落ちるケースがあったため、セキュリティ上のリスクが指摘されていた。具体的には、実物大で印刷した写真やお面、タブレットなどに表示した本人の画像、あるいは3Dスキャン技術で作成したマスクやマネキンで顔認証が突破されたとの報告も過去にはあった。ほかにも、双子やよく似た兄弟で、適切に判別できなかった例もある。\n\nまた、本人の寝ている隙に、寝顔でスマホのロックを解除されたという報告もあったため、安心して利用できないと考えるユーザーがいても不思議ではなかった。\n\n加えて、近年は映像合成技術を用いて、あたかも本人が動いているような動画を自動で生成する、ディープフェイク動画も発展してきた。こうした技術が悪用されることで、顔認証が突破されるリスクがある。しかし、最近では、以下のような新たな技術が顔認証に導入されたことで、先述のようなリスクが軽減される傾向にある。\n\n1）赤外線センサーによる3D顔認証\n\n従来の顔認証では、二次元（2D）の画像を解析して目や鼻の特徴を抽出していた。近年では赤外線センサーが導入され、レーザー光によって対象物を識別し、顔を三次元（3D）の立体データとして認証できるようになった。\n\nその結果、写真や画面に映した顔だけで不正にログインされてしまうようなことはほぼ起こらなくなった。また、化粧や照明などの影響も受けにくくなっている。\n\n2）画面注視認識機能による開眼状況の確認\n\n自然な状態でカメラへ視線を向けているかどうかを判定する機能が、顔認証のアルゴリズムに導入されるようになった。先述した寝顔のケースを含め、本人の意思がないにも関わらず、スマホのロックが解除されるのを防ぐのが目的だ。Face IDを搭載しているiPhoneであれば、この画面注視認識機能が設定できる。\n\n3）マスク着用時の認証\n\n顔の特徴を識別する精度が向上し、マスク着用時の場合でも判別できる技術が開発されてきた。iPhoneをはじめとした対応機種では、マスクや眼鏡を着用したままでの顔認証を有効にするかどうかを選択できる。\n\nAndroidスマートフォンの顔認証、写真でも突破できる！？\n\n生体認証の利用において考慮すべき「誤検知」問題\n\n生体認証の精度について考える際は、「誤検知」について理解しておくと良い。認証という行為における誤検知には2種類ある。まず、1つ目は「False Positive（偽陽性、誤検知）」であり、もう1つは「False Negative（偽陰性、見逃し）」だ。\n\n認証技術の開発において、この2つは一般的に反比例の関係となる。False Positiveの発生率を下げようとすると、False Negativeの発生率が上がってしまうのだ。言い換えると、間違って検知するのを避けようとするほど、その一方で正しいはずの検知が拒否されてしまう確率が高まることになる。\n\n近年の認証技術を向上させる取り組みは、False PositiveとFalse Negativeの両方を改善させる仕組みが含まれている。そのため今では、以前のように紙に印刷した写真で顔認証を突破されるような問題が解決に向かっているのだ。\n\nしかし、あらゆる認証技術に共通してFalse PositiveとFalse Negativeは、原則として相反する関係にあると認識しておく必要がある。\n\n例えば、自らの端末内のデータを慎重に取り扱いたい場合、安全性を重視して指紋認証を採用する、利便性を重視する場合は顔認証を設定するといったように、用途に応じて認証手段を使い分けるという考え方もあるだろう。しかし、先述のように顔認証の技術レベルが向上した結果、安全性と利便性を高いレベルで両立しつつあるため、顔認証は今後より一層一般的になっていくものと思われる。\n\n私たちが使用するスマホやパソコンには、守るべき個人情報や決済情報などが含まれている。重要な情報の窃取を防ぐためにも、認証技術の安全性について理解を深め、利便性を保ちつつも適切な設定をするよう心掛けたい。\n\n改めて知っておきたい、生体認証の仕組みと利用する際のリスク",
+          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/230912.html",
+          "publishedOn": "2023-09-11T15:00:00.000Z",
+          "wordCount": 201,
+          "title": "顔認証のセキュリティ事情、今でも写真で突破され得るのか？",
+          "imageUrl": "https://eset-info.canon-its.jp/files/topics/4373_ext_01_0.jpg"
+        },
         {
           "id": "https://eset-info.canon-its.jp/malware_info/term/detail/00204.html",
           "author": null,
@@ -2080,6 +2110,16 @@
       "siteUrl": "https://jprs.jp/",
       "articles": [
         {
+          "id": "https://jprs.jp/whatsnew/notice/2023/231112.html",
+          "author": null,
+          "description": "",
+          "link": "https://jprs.jp/whatsnew/notice/2023/231112.html",
+          "publishedOn": "2023-09-12T00:00:00.000Z",
+          "wordCount": 475,
+          "title": "「公開・開示対象情報一覧」の改訂について（改訂主旨）",
+          "imageUrl": null
+        },
+        {
           "id": "https://jprs.jp/whatsnew/topics/2023/20230906-keyceremony.html",
           "author": null,
           "description": "",
@@ -2133,6 +2173,16 @@
       "feedUrl": "https://www.cisa.gov/uscert/ncas/current-activity.xml",
       "siteUrl": "https://www.cisa.gov/",
       "articles": [
+        {
+          "id": "/node/18763",
+          "author": "CISA",
+          "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.\nCVE-2023-41064 Apple iOS, iPadOS, and macOS ImageIO Buffer Overflow\nCVE-2023-41061 Apple iOS, iPadOS, and watchOS Wallet Code Execution Vulnerability\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise. Note: To view other newly added vulnerabilities in the catalog, click on the arrow in the \"Date Added to Catalog\" column—which will sort by descending dates.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.\nAlthough BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/09/11/cisa-adds-two-known-vulnerabilities-catalog",
+          "publishedOn": "2023-09-11T12:00:00.000Z",
+          "wordCount": 705,
+          "title": "CISA Adds Two Known Vulnerabilities to Catalog",
+          "imageUrl": null
+        },
         {
           "id": "/node/18749",
           "author": "CISA",
@@ -2487,6 +2537,36 @@
       "feedUrl": "https://jvn.jp/rss/jvn.rdf",
       "siteUrl": "https://jvn.jp/",
       "articles": [
+        {
+          "id": "https://jvn.jp/vu/JVNVU96140980/",
+          "author": "jvn@jvn.jp",
+          "description": "OpenSSL Projectより、OpenSSL Security Advisory [8th September 2023]（POLY1305 MAC implementation corrupts XMM registers on Windows (CVE-2023-4807)）が公開されました。",
+          "link": "https://jvn.jp/vu/JVNVU96140980/",
+          "publishedOn": "2023-09-12T08:00:00.000Z",
+          "wordCount": 127,
+          "title": "OpenSSLのPOLY1305 MAC実装におけるWindows上のXMMレジスタが破損する問題（Security Advisory [8th September 2023]）",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU95282683/",
+          "author": "jvn@jvn.jp",
+          "description": "株式会社ジェイテクトエレクトロニクスが提供するKostac PLC Programming Softwareには、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU95282683/",
+          "publishedOn": "2023-09-12T04:00:00.000Z",
+          "wordCount": 141,
+          "title": "ジェイテクトエレクトロニクス製Kostac PLC Programming Softwareにおける複数の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU94650413/",
+          "author": "jvn@jvn.jp",
+          "description": "三菱電機製MELSECシリーズのCPUユニットには、バッファオーバーフローの脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU94650413/",
+          "publishedOn": "2023-09-12T03:15:00.000Z",
+          "wordCount": 197,
+          "title": "三菱電機製MELSECシリーズのCPUユニットにおけるバッファオーバーフローの脆弱性",
+          "imageUrl": null
+        },
         {
           "id": "https://jvn.jp/jp/JVN41113329/",
           "author": "jvn@jvn.jp",
@@ -3059,6 +3139,16 @@
       "siteUrl": "https://security.srad.jp/",
       "articles": [
         {
+          "id": "https://security.srad.jp/story/23/09/11/1347222/",
+          "author": "nagazou",
+          "description": "米テキサス州ルボックで、電子デバイスを使用して地域全体のATMから現金を盗んでいたとして2023年8月3日、3人の男が逮捕された。逮捕されたのはAbel Valdes（38歳）、Yordanesz Sanchez（41歳）、およびCarlos Jordano Herrera-Ruiz（33歳）（Nexstar）。 \n\n裁判所の文書によれば、彼らは西テキサス地域のATMを狙う窃盗グループとして知られていたという。裁判所の記録によれば、3人は犯行にRaspberry Piを使用、ラズパイをATMに接続してセキュリティシステムを無効にし、キャッシュドロアと呼ばれる現金の保管ブロックを取り外すことに成功していた。容疑者には逮捕される直前、50番街のATMから5700ドル以上を盗んでいたとされている。\n すべて読む | セキュリティセクション | 犯罪 | セキュリティ | アメリカ合衆国 | お金 |     \n  関連ストーリー： \nRaspberry Piを体内に埋め込むバイオハッキング 2019年09月12日 \nNASA、誰かが無許可でネットワーク内に設置したRaspberry Pi経由で不正アクセスを受けデータ流出 2019年06月25日",
+          "link": "https://security.srad.jp/story/23/09/11/1347222/",
+          "publishedOn": "2023-09-12T05:32:00.000Z",
+          "wordCount": 2200,
+          "title": "Raspberry Piを使ってATMのセキュリティを無効化、金を盗んだ3人組を逮捕",
+          "imageUrl": "https://srad.jp/static/topics/money_64.png"
+        },
+        {
           "id": "https://security.srad.jp/story/23/09/10/0020233/",
           "author": "headless",
           "description": "昨年発生した LastPass の不正アクセスで攻撃者がコピー可能だったとされるパスワード保管庫について、実際にコピーされたデータの一部がクラックされ、暗号通貨の窃盗に用いられているとの見方が出ている\n(KrebsOnSecurity の記事、\nThe Verge の記事)。\n\nブロックチェーンワレットアプリ MetaMask の Taylor Monahan 氏によると、昨年末から 150 人以上が合計で 3,500 万ドル以上の暗号通貨盗難にあっているそうだ。被害者は長年の暗号通貨投資者でセキュリティ意識の高い人ばかりだといい、電子メールや携帯電話のアカウント侵害といった暗号通貨盗難の前触れとなるような攻撃も受けていない。\n\nそのため、Monahan 氏は被害者の共通点を特定するのに苦労していたが、ほぼすべての被害者が「シードフレーズ」の保存に LastPass を使用しており、攻撃者が複数の被害者から盗んだ資金を同じブロックチェーンアドレスに送っているという結論に達したとのこと。\n\n暗号通貨ワレット復元サービス Unciphered の Nick Bax 氏は Monahan 氏らが収集したデータを独自に分析し、Monahan 氏と同じ結論に達した。Bax 氏や Monahan 氏らはこのような特徴から新たな被害者を特定することにも成功している。\n\nBax 氏によればインタビューに合意した被害者の回答から得られた唯一の明白な共通点は LastPass にシードフレーズを保存していたことだといい、LastPass を使用する家族や知人にはパスワードの変更や暗号通貨の移行を強く勧めているとのことだ。\n すべて読む | セキュリティセクション | 犯罪 | セキュリティ | 暗号 | お金 |     \n  関連ストーリー： \nLastPass の不正アクセス、エンジニアが自宅 PC のサードパーティソフトウェアを更新していれば防げた可能性 2023年03月05日 \n1Password 曰く、LastPass のパスワード保管庫をクラックするのに百万年もかからない 2023年01月03日 \nLastPass への不正アクセス、攻撃者はパスワード保管庫のバックアップをコピー可能な状態だった 2022年12月24日 \nLastPass にまた不正アクセス、今回は顧客情報の一部にもアクセスされた可能性 2022年12月05日 \nLastPass、8 月の不正アクセスに関する調査の続報を発表 2022年09月20日 \nLastPass の開発環境に不正アクセス、ユーザーデータは影響なし 2022年08月28日 \n多額の盗難被害を出したブロックチェーンワレットアプリ、シードフレーズを無断で保存していたと指摘される 2022年04月23日",
@@ -3325,6 +3415,76 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/09/12/49939.html",
+          "author": null,
+          "description": "Experian は、人々にオプトアウトの選択肢を提供せずにスパムを送信したとして告発された後、65 万ドルを支払うことに同意した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/09/12/49939.html",
+          "publishedOn": "2023-09-11T23:10:03.000Z",
+          "wordCount": 978,
+          "title": "「オプトアウト方法がわかりづらい」メール送信 罰金 65 万ドル",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42651.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/09/12/49938.html",
+          "author": null,
+          "description": "東京都教育委員会は9月5日、都立高等学校における個人情報の漏えいについて発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/09/12/49938.html",
+          "publishedOn": "2023-09-11T23:05:12.000Z",
+          "wordCount": 832,
+          "title": "都立高校 生徒アンケートの結果閲覧可能に ～ Microsoft Forms 使用",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42668.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/09/12/49937.html",
+          "author": null,
+          "description": "高知県公立大学法人高知工科大学は9月4日、不正アクセスによる個人情報漏えいの可能性について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/09/12/49937.html",
+          "publishedOn": "2023-09-11T23:05:06.000Z",
+          "wordCount": 834,
+          "title": "高知工科大学に不正アクセス「個人情報が参照された可能性を排除できないと判断」",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42656.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/09/12/49936.html",
+          "author": null,
+          "description": "株式会社ベネフィット-イオンは9月4日、同社が運営する「体臭対策ドットコム」への不正アクセスによる個人情報の漏えいについて発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/09/12/49936.html",
+          "publishedOn": "2023-09-11T23:05:02.000Z",
+          "wordCount": 823,
+          "title": "「体臭対策ドットコム」に不正アクセス、227名のカード情報が漏えい",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42663.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/09/12/49935.html",
+          "author": null,
+          "description": "株式会社エーアイセキュリティラボは9月22日に、オンラインセミナー「まだ間に合う！脆弱性診断内製化～3か月で運用を軌道に乗せる方法～」を開催すると発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/09/12/49935.html",
+          "publishedOn": "2023-09-11T23:00:11.000Z",
+          "wordCount": 929,
+          "title": "診断内製化 まだ年度末に間に合う ～ エーアイセキュリティラボ 執行役員 関根鉄平氏 解説",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42677.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/09/12/49934.html",
+          "author": null,
+          "description": "日本プルーフポイント株式会社は9月6日、組織が直面している最大のリスクに対処する統合ソリューションを年次カンファレンス「Proofpoint Protect 2023」で発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/09/12/49934.html",
+          "publishedOn": "2023-09-11T23:00:08.000Z",
+          "wordCount": 923,
+          "title": "プルーフポイント「攻撃者のプレイブックを破壊する業界初のイノベーション」年次カンファレンス発表",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/09/12/49933.html",
+          "author": null,
+          "description": "Visionalグループは9月4日、同グループが運営する脆弱性管理クラウド「yamory」での「医療機関向け導入支援コンサルティングサービス」の提供を開始すると発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/09/12/49933.html",
+          "publishedOn": "2023-09-11T23:00:03.000Z",
+          "wordCount": 876,
+          "title": "脆弱性管理クラウド「yamory」医療機関向けに導入支援コンサル",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42676.jpg"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2023/09/11/49932.html",
           "author": null,
@@ -4990,6 +5150,96 @@
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
         {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1530657.html",
+          "author": null,
+          "description": "フリービット株式会社は9月11日、どのような通信環境でも固定IP（固定されたIPv4アドレス）が利用できるサービス「どこでもIP」の提供を開始した。料金は月額550円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1530657.html",
+          "publishedOn": "2023-09-12T04:30:00.000Z",
+          "wordCount": 4557,
+          "title": "フリービット、通信環境に依存せず同じ固定IPアドレスが利用できる「どこでもIP」サービス提供開始",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1530/657/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1530507.html",
+          "author": null,
+          "description": "初代Macintoshにそっくりな画面付きドッキングステーションがKickstarterに登場し、わずか2日で目標額の900％の資金を集めるなど人気を博している。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1530507.html",
+          "publishedOn": "2023-09-12T02:45:56.000Z",
+          "wordCount": 4484,
+          "title": "Appleに怒られない？ 初代Macintoshに激似の画面付きドッキングステーションが資金調達中【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1530/507/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1530508.html",
+          "author": null,
+          "description": "デジタル庁が、政策などの進捗が一目で分かる各分野の「データダッシュボード」を公開した。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1530508.html",
+          "publishedOn": "2023-09-12T02:45:11.000Z",
+          "wordCount": 4470,
+          "title": "デジタル庁、政策などの進捗が一目で分かる各分野のデータダッシュボードを公開【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1530/508/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1530343.html",
+          "author": null,
+          "description": "ネットギアジャパン合同会社は、L3フルマネージスイッチングハブ「M4350」シリーズ7製品のほか、追加用電源ユニットを発売した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1530343.html",
+          "publishedOn": "2023-09-12T01:45:00.000Z",
+          "wordCount": 4584,
+          "title": "ネットギア、ProAV向けスイッチングハブ「M4350」シリーズ7製品を発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1530/343/230911-0.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1530506.html",
+          "author": null,
+          "description": "ティーピーリンクジャパン株式会社（TP-Link）は、スマートホーム機器の共通規格「Matter」に対応した電力モニタリング機能付きミニスマートWi-Fiプラグ「Tapo P110M」を9月18日に発売する。市場想定価格は1760円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1530506.html",
+          "publishedOn": "2023-09-11T22:30:00.000Z",
+          "wordCount": 4570,
+          "title": "TP-Link、Matter対応の電力モニタリング機能付きミニスマートプラグ「Tapo P110M」発売、",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1530/506/main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1530399.html",
+          "author": null,
+          "description": "株式会社インターネットイニシアティブ（IIJ）は、個人向けMVNOサービス「IIJmio（アイアイジェイミオ）モバイルサービス」のギガプラン タイプD（NTTドコモ網）において、音声通話機能付きeSIMの提供を9月22日に開始する。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1530399.html",
+          "publishedOn": "2023-09-11T21:30:00.000Z",
+          "wordCount": 4575,
+          "title": "「IIJmioモバイルサービス ギガプラン」で、「タイプD」の音声通話機能付きeSIMを9月22日から提供　物理SIMからの交換0円キャンペーンも実施",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1530/399/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1530445.html",
+          "author": null,
+          "description": "ESRIジャパン株式会社と株式会社レスキューナウは、ESRIジャパンが提供するGIS（地理情報システム）プラットフォーム「ArcGIS」上で、レスキューナウのライフライン情報を、リアルタイムおよびアーカイブデータとして配信する「ESRIジャパン データコンテンツ Online Suite ライフライン情報オンラインサービス」を開始した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1530445.html",
+          "publishedOn": "2023-09-11T21:00:00.000Z",
+          "wordCount": 4568,
+          "title": "ESRIジャパンとレスキューナウ、全国のライフライン情報をArcGIS上で可視化できる「ライフライン情報オンラインサービス」提供開始",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1530/445/00.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1530479.html",
+          "author": null,
+          "description": "沖縄セルラー株式会社、KDDI株式会社と、株式会社バイオームは、沖縄県西表島で、スマホアプリ「Biome」（バイオーム）と「Starlink Business」を活用した外来種調査の実施を発表した。Starlink Businessを活用した外来種調査は国内で初めてという。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1530479.html",
+          "publishedOn": "2023-09-11T10:00:00.000Z",
+          "wordCount": 4560,
+          "title": "Starlinkと生物判定アプリ「Biome」を活用した外来種調査、沖縄セルラーらが西表島で実施",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1530/479/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1530421.html",
+          "author": null,
+          "description": "株式会社ニトリ、同社が開発するゲーミング家具を紹介し、あわせて、9月21日から開催される「東京ゲームショウ2023」への出展を発表した。「ゲームを楽しむ全てのユーザーに快適なゲーム環境を実現していただきたい」とし、ゲーミング家具の開発とそれらを組み合わせてつくるコーディネートの提案に力を入れるとしている。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1530421.html",
+          "publishedOn": "2023-09-11T08:30:00.000Z",
+          "wordCount": 4569,
+          "title": "ニトリ、L型コーナーデスクなど同社製ゲーミング家具を紹介　「東京ゲームショウ2023」にも出展予定",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1530/421/1.jpg"
+        },
+        {
           "id": "https://internet.watch.impress.co.jp/docs/news/1530354.html",
           "author": null,
           "description": "Amazon.co.jpのKindleストアでは、現在「Kindle本ポイントキャンペーン」を開催中だ。対象書籍を購入すると、支払金額の30％がポイント還元される。コンピュータ・IT関連書籍も400冊弱がラインアップ。キャンペーン期間は9月21日まで。",
@@ -6592,6 +6842,76 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230912-2770130/",
+          "author": null,
+          "description": "日本IBMは9月11日、オンラインで「2023年データ侵害のコストに関する調査レポート」の日本語版を公開した。",
+          "link": "https://news.mynavi.jp/techplus/article/20230912-2770130/",
+          "publishedOn": "2023-09-12T07:42:26.000Z",
+          "wordCount": 1830,
+          "title": "データ侵害による平均額が過去最高の445万ドル - IBMが調査",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230912-2770130/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230912-2769940/",
+          "author": null,
+          "description": "CISAは9月11日(米国時間)、Appleの新たな脆弱性を公式カタログに追加したと発表した。該当する脆弱性はiOS、iPadOS、macOS、watchOSに影響を及ぼしサイバー犯罪者が積極的に悪用していることが確認されている。この脆弱性を悪用すると、悪意のある画像や添付ファイルを使用して任意のコードを実行することができる。",
+          "link": "https://news.mynavi.jp/techplus/article/20230912-2769940/",
+          "publishedOn": "2023-09-12T04:05:31.000Z",
+          "wordCount": 1675,
+          "title": "iPhoneやMacなどApple製品の脆弱性の悪用確認、アップデートを - CISA警告",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230912-2769940/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230912-2769196/",
+          "author": null,
+          "description": "Notepad++は9月8日(現地時間)、v8.5.7をリリースしたと報じた。v8.5.7では複数の脆弱性が修正されている。これら脆弱性のうち最も深刻なものは深刻度が重要(Important)に分類されており、注意が必要。ほかにも多くの修正が含まれているため、Notepad++を使用している場合は速やかなアップデートが望まれる。",
+          "link": "https://news.mynavi.jp/techplus/article/20230912-2769196/",
+          "publishedOn": "2023-09-12T02:43:48.000Z",
+          "wordCount": 1637,
+          "title": "Notepad++ v8.5.7リリース、複数の脆弱性を修正",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230912-2769196/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230912-2769459/",
+          "author": null,
+          "description": "フィッシング対策協議会(Council of Anti-Phishing Japan)は9月11日、日本生命を偽るフィッシングの報告を受けているとして、注意を喚起した。メールの件名として、「ALPS処理水放出による国民への被害に対しては」が確認されており注意が必要。",
+          "link": "https://news.mynavi.jp/techplus/article/20230912-2769459/",
+          "publishedOn": "2023-09-12T00:32:42.000Z",
+          "wordCount": 1645,
+          "title": "日本生命を偽るフィッシング確認、注意を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230912-2769459/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230912-2769467/",
+          "author": null,
+          "description": "ReliaQuestは9月8日（米国時間）、ここ1年ほどでmacOSを標的とするインフォスティーラ(情報窃取マルウェア)の機能が大幅に強化されていることを確認したとして、注意を呼び掛けた。",
+          "link": "https://news.mynavi.jp/techplus/article/20230912-2769467/",
+          "publishedOn": "2023-09-11T23:42:53.000Z",
+          "wordCount": 3031,
+          "title": "Macユーザーへの警告、忍び寄る情報窃取マルウェアの脅威",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230912-2769467/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230912-2769451/",
+          "author": null,
+          "description": "フィッシング対策協議会は9月11日、マイナポイント事務局を偽るフィッシングの報告を受けていると伝えた。メールの件名として、「【マイナポイント第2弾】で獲得した20,000円ポイントはまもなく失効します」「【マイナポイント第2弾】20,000円分のポイントプレゼント！」など、複数確認されており注意が必要。",
+          "link": "https://news.mynavi.jp/techplus/article/20230912-2769451/",
+          "publishedOn": "2023-09-11T23:16:03.000Z",
+          "wordCount": 1632,
+          "title": "マイナポイント第2弾を偽装したフィッシング確認、注意を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230912-2769451/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230911-2769197/",
+          "author": null,
+          "description": "Kaspersky Labは9月8日（現地時間）、非公式のTelegramアプリを偽装した繁体字中国語、簡体字中国語、ウイグル語圏を標的とするスパイウェア「Evil Telegram」を発見したとして、注意を喚起した。これらスパイウェアの動作は公式のTelegramと何ら変わらないという。",
+          "link": "https://news.mynavi.jp/techplus/article/20230911-2769197/",
+          "publishedOn": "2023-09-11T10:03:14.000Z",
+          "wordCount": 1680,
+          "title": "Telegramアプリに偽装したスパイウェアに注意",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230911-2769197/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20230911-2769188/",
           "author": null,
