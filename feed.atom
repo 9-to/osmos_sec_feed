@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-09-15T08:11:08.872Z</updated>
+    <updated>2023-09-16T08:09:51.942Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
@@ -14,6 +14,90 @@
         <summary type="html"><![CDATA[このブログは私が所属するCIGチームが2023年1月号から毎月公開しているランサムウェアの統計情報からいくつか抜粋してご紹介するブログです。]]></summary>
         <author>
             <name>三井物産セキュアディレクション株式会社</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases Continuous Diagnostics and Mitigation Program: Identity, Credential, and Access Management (ICAM) Reference Architecture]]></title>
+        <id>/node/18788</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/09/15/cisa-releases-continuous-diagnostics-and-mitigation-program-identity-credential-and-access"/>
+        <updated>2023-09-15T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today, CISA released the Continuous Diagnostics and Mitigation Program: Identity, Credential, and Access Management (ICAM) Reference Architecture to help federal civilian departments and agencies integrate their identity and access management (IDAM) capabilities into their ICAM architectures. Prior to this release, there was no singular, authoritative, and recognized reference for architecting an ICAM capability across an enterprise. 
+This publication provides:
+a description of the federal ICAM practice area, including how ICAM services and components implement ICAM use cases,
+a description of related CDM capabilities,
+an introduction to federation services, and 
+a high-level notional physical implementation.
+In addition, it explores zero trust architecture and illustrates how ICAM and CDM help enable it.
+CISA encourages federal departments and agencies to use this publication to create their most robust and effective ICAM capability. CISA’s Continuous Diagnostics and Mitigation Program web page offers additional resources.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Fortinet Releases Security Updates for Multiple Products]]></title>
+        <id>/node/18790</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/09/15/fortinet-releases-security-updates-multiple-products"/>
+        <updated>2023-09-15T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Fortinet has released security updates to address vulnerabilities (CVE-2023-29183 and CVE-2023-34984) affecting FortiOS, FortiProxy, and FortiWeb. A cyber threat actor can exploit one of these vulnerabilities to take control of an affected system.
+CISA encourages users and administrators to review Fortinet security advisories (FG-IR-23-106 and FG-IR-23-068) and apply the necessary updates.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[見出しでわかる IT界隈・今週の重要ニュース：全73本［2023/9/7～2023/9/13］]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/weekly/1532017.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/weekly/1532017.html"/>
+        <updated>2023-09-15T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[メルマガ]vol.2024:【定期号】特集：集まれ！インターネットワーキング！ ～Internet Week 2023開催に寄せて～]]></title>
+        <id>https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol2024.html</id>
+        <link href="https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol2024.html"/>
+        <updated>2023-09-15T09:54:03.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[トピックス]自分が働く"ネット業界"をよく知ろう!「インターネット入門」開催のご案内]]></title>
+        <id>https://www.nic.ad.jp/ja/topics/2023/20230915-01.html</id>
+        <link href="https://www.nic.ad.jp/ja/topics/2023/20230915-01.html"/>
+        <updated>2023-09-15T09:53:30.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Web更新]gTLDの登録数を更新　2023年5月分を追加]]></title>
+        <id>https://www.nic.ad.jp/ja/stat/dom/gtld.html</id>
+        <link href="https://www.nic.ad.jp/ja/stat/dom/gtld.html"/>
+        <updated>2023-09-15T08:59:57.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「秘密計算技術」のISO国際標準が発行、NTT提案]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230915-2772483/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230915-2772483/"/>
+        <updated>2023-09-15T08:53:19.000Z</updated>
+        <summary type="html"><![CDATA[NTTは9月15日、同社が研究開発を行い標準化活動を推進してきた、データを暗号化したままで処理ができる秘密計算技術について、初の標準規格「ISO/IEC 4922-1:2023」が発行されたと発表した。同標準をベースに、秘密分散技術を利用した秘密計算を規定する、ISO/IEC 4922-2も規格化の最終段階に入っている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Web更新]gTLD・GNSO動向紹介を新規公開]]></title>
+        <id>https://www.nic.ad.jp/ja/icann/gnso.html</id>
+        <link href="https://www.nic.ad.jp/ja/icann/gnso.html"/>
+        <updated>2023-09-15T08:34:51.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
         </author>
     </entry>
     <entry>
@@ -89,6 +173,16 @@ API初心者が紹介するOpenWeatherMapAPI first appeared on SIOS Tech. Lab.]]
         <summary type="html"><![CDATA[マツダは、サーバ機器に不正アクセスを受け、個人情報を外部へ漏えいした可能性があると発表した。漏えいした可能性のある個人情報は10万件超。同社は「深くおわび申し上げます」と謝罪している。]]></summary>
         <author>
             <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Blog記事]APrIGF 2023報告]]></title>
+        <id>https://blog.nic.ad.jp/2023/9228/</id>
+        <link href="https://blog.nic.ad.jp/2023/9228/"/>
+        <updated>2023-09-15T06:00:54.000Z</updated>
+        <summary type="html"><![CDATA[2023 Asia Pacific Regional Internet Governance Forum (APrIGF 2023)が、オーストラリア・クイーンズランド州ブリスベンで2023年8月29日から31日にかけて開催されました。JPNICのスタッフも参加しましたので、APrIGF 2023の模様をご報告します。]]></summary>
+        <author>
+            <name>JPNIC Web</name>
         </author>
     </entry>
     <entry>
@@ -2637,6 +2731,17 @@ LastPass の開発環境に不正アクセス、ユーザーデータは影響�
 The post How Typosquatting Scams Work appeared first on McAfee Blog.]]></summary>
         <author>
             <name>McAfee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Agent Tesla’s Unique Approach: VBS and Steganography for Delivery and Intrusion]]></title>
+        <id>https://www.mcafee.com/blogs/?p=173859</id>
+        <link href="https://www.mcafee.com/blogs/other-blogs/mcafee-labs/agent-teslas-unique-approach-vbs-and-steganography-for-delivery-and-intrusion/"/>
+        <updated>2023-09-08T15:47:49.000Z</updated>
+        <summary type="html"><![CDATA[Authored by Yashvi Shah Agent Tesla functions as a Remote Access Trojan (RAT) and an information stealer built on the...
+The post Agent Tesla’s Unique Approach: VBS and Steganography for Delivery and Intrusion appeared first on McAfee Blog.]]></summary>
+        <author>
+            <name>McAfee Labs</name>
         </author>
     </entry>
     <entry>
@@ -11243,301 +11348,6 @@ CISA encourages users and administrators to review Juniper’s Support Portal an
         <summary type="html"><![CDATA[フィッシング対策協議会(Council of Anti-Phishing Japan)は8月16日、LINE Payを偽るフィッシングの報告を受けていると伝えた。メールの件名として、「LINEPAY利用に関する重要なお知らせ：お手続きにご協力ください」「」など、10件以上確認されており注意が必要。]]></summary>
         <author>
             <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[How Secure is Video Conferencing?]]></title>
-        <id>/blogs/?p=99533</id>
-        <link href="https://www.mcafee.com/blogs/internet-security/how-secure-is-video-conferencing/"/>
-        <updated>2023-08-17T14:20:27.000Z</updated>
-        <summary type="html"><![CDATA[For millions of people, it’s not a workday without it—video conferencing. And plenty of business gets done that way, which...
-The post How Secure is Video Conferencing? appeared first on McAfee Blog.]]></summary>
-        <author>
-            <name>McAfee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Atlassian Releases Security Update for Confluence Server and Data Center]]></title>
-        <id>/node/18631</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2023/08/17/atlassian-releases-security-update-confluence-server-and-data-center"/>
-        <updated>2023-08-17T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Atlassian has released its security bulletin for August 2023 to address a vulnerability in Confluence Server and Data Center, CVE-2023-28709. A remote attacker can exploit this vulnerability to cause a denial-of-service condition.
-CISA encourages users and administrators to review Atlassian’s August 2003 Security Bulletin and apply the necessary update.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cisco Releases Security Advisories for Multiple Products]]></title>
-        <id>/node/18636</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2023/08/17/cisco-releases-security-advisories-multiple-products"/>
-        <updated>2023-08-17T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Cisco has released security advisories for vulnerabilities affecting multiple Cisco products. A cyber threat actor can exploit some of these vulnerabilities to take control of an affected system or cause a denial-of service condition.
-CISA encourages users and administrators to review the following advisories and apply the necessary updates.
-ThousandEyes Enterprise Agent
-Duo Device Health Application
-Unified CM
-ClamAV HFS+
-ClamAV]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Releases Three Industrial Control Systems Advisories]]></title>
-        <id>/node/18640</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2023/08/17/cisa-releases-three-industrial-control-systems-advisories"/>
-        <updated>2023-08-17T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CISA released three Industrial Control Systems (ICS) advisories on August 17, 2023. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
-ICSA-23-229-01 ICONICS and Mitsubishi Electric Products
-ICSA-23-229-03 Schnieder Electric PowerLogic ION7400 PM8000 ION9000 Power Meters
-ICSA-23-229-04 Walchem Intuition 9
-CISA encourages users and administrators to review the newly released ICS advisories for technical details and mitigations.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[クルーズ船は現代の蝗害か。入港を禁止する都市も]]></title>
-        <id>https://security.srad.jp/story/23/08/16/146237/</id>
-        <link href="https://security.srad.jp/story/23/08/16/146237/"/>
-        <updated>2023-08-17T08:04:00.000Z</updated>
-        <summary type="html"><![CDATA[コロナ禍が終始即したことでクルーズ船の運行数が回復しつつある。ただ、大型のクルーズ船では一隻に数千人から1万人近い乗員を詰め込んでいるため、寄港地でトラブルが相次いでおり、ヨーロッパでは寄港拒否なども起きているそうだ（Business Insider Japan、クーリエ・ジャポン、Togetter）。 
-
-オランダの首都アムステルダムでは市議会が7月20日、クルーズ船の入港を禁止する法案を可決する事態となったという。このほかにも2021年にはイタリア当局が観光を抑制し、一定規模以上のクルーズ船がベネチアに入港することを禁止している。フランス領ポリネシアも2022年、地元のインフラや生態系保全の負担を懸念し、メガクルーズ船の乗り入れを禁じたとされる。 
-
-このような措置は観光客の数を制限し、環境汚染に歯止めをかけるためのものだとされる。先のような規模の大きなクルーズ船が、小さなヨーロッパの都市に乗り付けると、町が一瞬で混雑し、問題が発生している。大量の乗客が降りて観光地や宿泊施設に押し寄せ、ゴミを残して去ることも増えており、一種の蝗害のような問題も発生したとしている。また、クルーズ船の排ガスなども環境問題を引き起こす可能性も指摘されているようだ。
- すべて読む | セキュリティセクション | 地球 | セキュリティ | 変なモノ | 交通 |     
-  関連ストーリー： 
-マレーシアやタイ、コロナウイルス感染リスクのためクルーズ船の入港を拒否 2020年03月12日 
-フロリダ・ディズニーワールドのクルーズ船、ゲストを乗せたまま水没 2020年02月29日 
-新型コロナウイルス、検疫終了後の感染確認続々と 2020年02月23日 
-海賊に襲われたクルーズ船が非殺傷兵器で応戦 2005年11月09日]]></summary>
-        <author>
-            <name>nagazou</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[商用スパイウェアとは何か]]></title>
-        <id>https://gblogs.cisco.com/jp/?p=48418</id>
-        <link href="https://gblogs.cisco.com/jp/2023/08/talos-what-is-commercial-spyware/"/>
-        <updated>2023-08-17T07:54:45.000Z</updated>
-        <summary type="html"><![CDATA[近頃はよくスパイウェアが話題になっていますが、これには十分な理由があります。このところ、商用スパイウェアツールの急増と、標的にされる被害者に対してどのようにスパイウェアが使用されているのかについての懸念が高まっています。]]></summary>
-        <author>
-            <name>TALOS Japan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[人気の化学ソフトウェアに境界外書き込みの脆弱性を発見、Foxit PDF Reader ではリモートコード実行の問題を確認]]></title>
-        <id>https://gblogs.cisco.com/jp/?p=48413</id>
-        <link href="https://gblogs.cisco.com/jp/2023/08/talos-vulnerability-roundup-august-9-23/"/>
-        <updated>2023-08-17T07:40:39.000Z</updated>
-        <summary type="html"><![CDATA[Cisco Talos は先ごろ、ベンダー 2 社と協力して複数の脆弱性にパッチを適用しました。脆弱性が確認されたのは、化学研究所で好んで使用されているソフトウェアライブラリと、Adobe Acrobat に代わる PDF リーダーとして人気を博している Foxit PDF Reader です。]]></summary>
-        <author>
-            <name>TALOS Japan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[台東区、廃棄したマイナカード13件分の情報を漏えい　原因は“不十分なシュレッダー処理”]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2308/17/news130.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2308/17/news130.html"/>
-        <updated>2023-08-17T07:32:00.000Z</updated>
-        <summary type="html"><![CDATA[台東区は、廃棄したマイナンバーカード13件と住民基本台帳カード1件の券面情報の漏えいが判明したと発表した。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft 社が 8 月のセキュリティ更新プログラムで 6 件の「緊急」の脆弱性を公開]]></title>
-        <id>https://gblogs.cisco.com/jp/?p=48408</id>
-        <link href="https://gblogs.cisco.com/jp/2023/08/talos-patch-tuesday-august-2023/"/>
-        <updated>2023-08-17T07:28:39.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft 社は本日、同社の製品とソフトウェアで確認された 73 件の脆弱性について情報を公開しました。そのうち 6 件は「緊急」に分類される脆弱性です。]]></summary>
-        <author>
-            <name>TALOS Japan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Azure Functionsのアーキテクチャとスケーリングについて]]></title>
-        <id>https://tech-lab.sios.jp/?p=35541</id>
-        <link href="https://tech-lab.sios.jp/archives/35541"/>
-        <updated>2023-08-17T07:08:32.000Z</updated>
-        <summary type="html"><![CDATA[みなさん、こんにちは。サイオステクノロジー武井です。今回はAzure Functionsのアーキテクチャーとスケーリングについてお話したいと思います。 Azure Functionsは、イベント駆動なサーバーレスコンピュ [...]
-Azure Functionsのアーキテクチャとスケーリングについて first appeared on SIOS Tech. Lab.]]></summary>
-        <author>
-            <name>武井 宜行</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenSSLに複数の脆弱性]]></title>
-        <id>https://jvn.jp/vu/JVNVU91213144/</id>
-        <link href="https://jvn.jp/vu/JVNVU91213144/"/>
-        <updated>2023-08-17T05:50:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenSSLには、複数の脆弱性が存在します。]]></summary>
-        <author>
-            <name>jvn@jvn.jp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[EC-CUBE 2系におけるクロスサイトスクリプティングの脆弱性]]></title>
-        <id>https://jvn.jp/jp/JVN46993816/</id>
-        <link href="https://jvn.jp/jp/JVN46993816/"/>
-        <updated>2023-08-17T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[株式会社イーシーキューブが提供する EC-CUBE 2系には、クロスサイトスクリプティングの脆弱性が存在します。]]></summary>
-        <author>
-            <name>jvn@jvn.jp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ランサムウェア Rhysida について Cisco Talos が確認した情報]]></title>
-        <id>https://gblogs.cisco.com/jp/?p=48396</id>
-        <link href="https://gblogs.cisco.com/jp/2023/08/talos-rhysida-ransomware/"/>
-        <updated>2023-08-17T03:39:19.000Z</updated>
-        <summary type="html"><![CDATA[Cisco Talos は、HHS（米国保健福祉省）が先日公開したアドバイザリを確認しました。内容は、ランサムウェア Rhysida の活動について医療業界に警告するものです。]]></summary>
-        <author>
-            <name>TALOS Japan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[フィッシングでなりすまされたブランド、世界1位はMicrosoft　日本含むアジアは？]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2308/17/news100.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2308/17/news100.html"/>
-        <updated>2023-08-17T03:32:00.000Z</updated>
-        <summary type="html"><![CDATA[フィッシング詐欺でなりすまされたブランドの世界1位はMicrosoft。日本を含むアジア太平洋はあのブランド。米Cloudflareのリポートより。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[サイバーセキュリティ産学連携推進協議会「JNSA-IAC3公開シンポジウム2023」9月21日開催の参加登録を開始しました。]]></title>
-        <id>https://www.jnsa.org/seminar/iac3/index.html</id>
-        <link href="https://www.jnsa.org/seminar/iac3/index.html"/>
-        <updated>2023-08-17T03:00:00.000Z</updated>
-        <summary type="html"><![CDATA[�{�V���|�W�E���ł́A�T�C�o�[�Z�L�����e�B����Ō���������Ă��錤���҂̔��\�Ɗ�Ƒ����Q�������p�l�����_���s���āA�䂪���ɂ����ăT�C�o�[�Z�L�����e�B����̌����̑��i�ƍ��Y�Z�L�����e�B���i�̊J�������������邽�߂̎Y�w�A�g�̕���ɂ��ċc�_���܂��B]]></summary>
-        <author>
-            <name>特定非営利活動法人 日本ネットワークセキュリティ協会（JNSA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[学生限定の体験型セミナー「セキュチャレ・実践編 第1回」を9月8日に開催。これからセキュリティを学ぶ方もぜひご参加ください。]]></title>
-        <id>https://www.jnsa.org/seminar/2023/edu/index.html</id>
-        <link href="https://www.jnsa.org/seminar/2023/edu/index.html"/>
-        <updated>2023-08-17T03:00:00.000Z</updated>
-        <summary type="html"><![CDATA[JNSA �Z�L�����e�B �`�������W �X�N�[��]]></summary>
-        <author>
-            <name>特定非営利活動法人 日本ネットワークセキュリティ協会（JNSA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[BL特化SNSのpictBLandが不正アクセス、ユーザーのパスワードも流出で被害拡大]]></title>
-        <id>https://security.srad.jp/story/23/08/16/1345219/</id>
-        <link href="https://security.srad.jp/story/23/08/16/1345219/"/>
-        <updated>2023-08-17T03:00:00.000Z</updated>
-        <summary type="html"><![CDATA[ボーイズラブ（BL）に特化したイラスト・小説投稿SNS「pictBLand」およびオンライン即売会サービス「pictSQUARE」の運営会社であるGMWは15日、データベースに不正アクセスがあり、第三者によって情報が流出した可能性があると発表した（pictBLand公式Xポスト、ねとらぼ）。 
-
-流出した可能性がある情報には、pictBLandのログインメールアドレス、ログインパスワード、pictSQUAREのログインメールアドレス、ログインパスワード、振込先口座情報、配送先住所情報が含まれるという。同社は現在両サイトのサーバを停止し、pictSQUAREの振込先口座情報や配送先住所情報を削除したと説明している。復旧時期は判明次第連絡するとしている。pictBLandでは14日以降、不審な表示やリダイレクトが発生する問題が起きていたという（ねとらぼ）。 
-
-あるAnonymous Coward 曰く、Twitter情報だと犯人が盗んだDBを売ろうと投稿していたようだ。パスワードはSalt無しのMD5で保存されていたという事で、簡単に復号されて、X (Twitter) でID/パスワードを使い回しているアカウントが多数乗っ取られている模様（Togetter）。
- すべて読む | セキュリティセクション | セキュリティ | SNS | 情報漏洩 |     
-  関連ストーリー： 
-トヨタ、約10年間約215万人分の車両情報が漏洩。クラウド設定ミスが原因 2023年05月16日 
-クラフトボスが「#カフェで大事な仕事すな」というCMを展開 2023年04月20日 
-eBay に出品された米軍の生体識別デバイス、2,600 人以上のデータが含まれていた 2022年12月30日 
-杉並区職員が住基ネット閲覧で情報漏洩。暴力団関与か 2022年12月07日 
-LINEで台湾要人約100人の個人情報がハッキングにより流出、国内では握手会動画が中国に流出 2021年07月30日 
-恋活・婚活マッチングアプリ「Omiai」で不正アクセス被害、171万人分の個人情報漏洩の可能性 2021年05月24日]]></summary>
-        <author>
-            <name>nagazou</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VPNFilter の後に Talos が発見した SOHO ルータと産業用ワイヤレスルータの数々の脆弱性]]></title>
-        <id>https://gblogs.cisco.com/jp/?p=48390</id>
-        <link href="https://gblogs.cisco.com/jp/2023/08/talos-router-researcher-vulnerability-spotlight-23/"/>
-        <updated>2023-08-17T01:50:22.000Z</updated>
-        <summary type="html"><![CDATA[2018 年に VPNFilter マルウェアが蔓延していることが確認されて以来、Cisco Talos の研究者は SOHO（小規模オフィスやホームオフィス）向けルータと産業用ルータの脆弱性を調査してきました。]]></summary>
-        <author>
-            <name>TALOS Japan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[セキュリティガバガバお嬢様と学ぶ、本当は怖いパスワードの使いまわし]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2308/16/news115.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2308/16/news115.html"/>
-        <updated>2023-08-17T01:02:00.000Z</updated>
-        <summary type="html"><![CDATA[セキュリティガバガバお嬢様がまた何かやらかしたようです。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Metabase においてセットアップ用アクセストークンの漏えいにより認証が回避可能となる脆弱性（Scan Tech Report）]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2023/08/17/49825.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2023/08/17/49825.html"/>
-        <updated>2023-08-16T23:10:03.000Z</updated>
-        <summary type="html"><![CDATA[2023 年 7 月に、データ可視化ソフトウェアである Metabase に、遠隔からの任意のコード実行が可能となる脆弱性が報告されています。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[医療ISACのウェブサイトに不正アクセス、複数ファイルの追加と改ざん確認]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2023/08/17/49824.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2023/08/17/49824.html"/>
-        <updated>2023-08-16T23:05:14.000Z</updated>
-        <summary type="html"><![CDATA[一般社団法人医療ISACは8月7日、同法人のウェブサイトへの不正アクセスについて発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Teamsの設定誤りで小学校の指導資料と班別名簿が閲覧可能に]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2023/08/17/49823.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2023/08/17/49823.html"/>
-        <updated>2023-08-16T23:05:12.000Z</updated>
-        <summary type="html"><![CDATA[山口県宇部市は8月4日、宇部市教育ネットワーク内での個人情報の漏えいについて発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[堺化学工業 役員を名乗る英文の不審メールに注意を呼びかけ]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2023/08/17/49822.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2023/08/17/49822.html"/>
-        <updated>2023-08-16T23:05:07.000Z</updated>
-        <summary type="html"><![CDATA[堺化学工業株式会社は8月10日、同社役員を名乗る不審メールへの注意喚起を発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[市納税課職員、FAX 誤送信で厳重注意]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2023/08/17/49821.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2023/08/17/49821.html"/>
-        <updated>2023-08-16T23:05:02.000Z</updated>
-        <summary type="html"><![CDATA[沖縄県石垣市は7月31日、7月20日に公表した同市納税課でのFAX誤送信による個人情報について、職員の懲戒処分を発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[東京都が中小企業のサイバーセキュリティ対策を支援]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2023/08/17/49820.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2023/08/17/49820.html"/>
-        <updated>2023-08-16T23:00:08.000Z</updated>
-        <summary type="html"><![CDATA[東京都は8月7日、サイバーセキュリティ対策の支援対象企業の募集について発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NISCのメール関連システムへの不正アクセス、JPCERT/CCへの影響]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2023/08/17/49819.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2023/08/17/49819.html"/>
-        <updated>2023-08-16T23:00:03.000Z</updated>
-        <summary type="html"><![CDATA[一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は8月7日、内閣サイバーセキュリティセンター（NISC）でのメール関連システムへの不正アクセスにおける同センターへの被害について発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
         </author>
     </entry>
 </feed>
