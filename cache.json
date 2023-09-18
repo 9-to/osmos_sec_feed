@@ -596,6 +596,26 @@
       "siteUrl": "https://www.jnsa.org/",
       "articles": [
         {
+          "id": "https://www.jnsa.org/aboutus/ml.html",
+          "author": null,
+          "description": "日本ネットワークセキュリティ協会が発信するメールマガジン「JNSAメルマガ」のご案内",
+          "link": "https://www.jnsa.org/aboutus/ml.html",
+          "publishedOn": "2023-09-15T06:00:00.000Z",
+          "wordCount": 265,
+          "title": "JNSAメールマガジン第271号「日本の裁判においてサイバー関係の事案がどのように取り扱われているか・争われているかと今後の展望とそこから学ぶべきこと」を配信しました。名古屋地方裁判所・判事の西尾太一様からご寄稿いただきました。",
+          "imageUrl": "https://www.jnsa.org/images/obj/img_thumb_jnsaml.png"
+        },
+        {
+          "id": "https://www.jnsa.org/aboutus/ml.html",
+          "author": null,
+          "description": "日本ネットワークセキュリティ協会が発信するメールマガジン「JNSAメルマガ」のご案内",
+          "link": "https://www.jnsa.org/aboutus/ml.html",
+          "publishedOn": "2023-09-01T03:00:00.000Z",
+          "wordCount": 265,
+          "title": "JNSAメールマガジン第270号「新たな攻撃により迅速に追随できる組織と人材作りに寄与する任意団体サイバーセキュリティイニシアティブジャパンのご紹介」を配信しました。サイバーセキュリティイニシアティブジャパン事務局長持田啓司氏のご寄稿です。",
+          "imageUrl": "https://www.jnsa.org/images/obj/img_thumb_jnsaml.png"
+        },
+        {
           "id": "https://www.youtube.com/watch?v=uagob4jjC0g",
           "author": null,
           "description": "",
@@ -948,6 +968,26 @@
       "feedUrl": "https://gblogs.cisco.com/jp/feed/",
       "siteUrl": "https://gblogs.cisco.com/jp",
       "articles": [
+        {
+          "id": "https://gblogs.cisco.com/jp/?p=48739",
+          "author": "TALOS Japan",
+          "description": "今週も脅威情報ニュースレターをお届けします。先週まで、詐欺のタイミングが重要であると考えたことは一度もありませんでした。普段は特に時間を決めずにメールやテキストメッセージをチェックしているので、もし悪事を企む人間にとって千載一遇のタイミングで詐欺を仕掛けられたらどうなるかなど考えたこともなかったのです。",
+          "link": "https://gblogs.cisco.com/jp/2023/09/talos-threat-source-newsletter-sept-7-23/",
+          "publishedOn": "2023-09-18T07:26:44.000Z",
+          "wordCount": 705,
+          "title": "最悪のタイミングで詐欺が仕掛けられたら何が起こり得るか",
+          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/28AS90181_eyecatch-460x230.jpg"
+        },
+        {
+          "id": "https://gblogs.cisco.com/jp/?p=48731",
+          "author": "TALOS Japan",
+          "description": "サイバー犯罪者は Advanced Installer（ソフトウェアパッケージの作成に使用される正規の Windows ツール）を悪用して、暗号通貨マイニングマルウェアを感染マシンにドロップしています。この活動は、遅くとも 2021 年 11 月から続いています。",
+          "link": "https://gblogs.cisco.com/jp/2023/09/talos-cybercriminals-target-graphic-designers-with-gpu-miners/",
+          "publishedOn": "2023-09-18T06:10:30.000Z",
+          "wordCount": 1182,
+          "title": "サイバー犯罪者がグラフィックデザイナーのコンピュータの GPU を使用して暗号通貨をマイニング",
+          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/27AS89499_eyecatch-460x230.jpg"
+        },
         {
           "id": "https://gblogs.cisco.com/jp/?p=48696",
           "author": "TALOS Japan",
@@ -5122,16 +5162,6 @@
           "wordCount": 2503,
           "title": "後ろからスマホをのぞかれた時だけ“画面がぼやける”システム　米研究者らが開発",
           "imageUrl": "https://image.itmedia.co.jp/news/articles/2308/21/cover_news051.jpg"
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2308/19/news041.html",
-          "author": null,
-          "description": "セキュリティガバガバお嬢様が「平文保存」について疑問を抱いています。",
-          "link": "https://www.itmedia.co.jp/news/articles/2308/19/news041.html",
-          "publishedOn": "2023-08-19T00:00:00.000Z",
-          "wordCount": 2469,
-          "title": "「パスワード平文保存って何か問題あるんですの？」　ITお嬢様と学ぶハッシュ化",
-          "imageUrl": "https://image.itmedia.co.jp/news/articles/2308/19/cover_news041.jpg"
         }
       ]
     },
@@ -7153,6 +7183,56 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230918-2770338/",
+          "author": null,
+          "description": "eSecurity Planetはこのほど、コンテナに関するセキュリティの重要なポイントを考察して伝えた。コンテナはさまざまな利点をもたらす独自のコンピューティング環境だが、その設計によっては新しい脆弱性や課題を発生させる可能性があるという。",
+          "link": "https://news.mynavi.jp/techplus/article/20230918-2770338/",
+          "publishedOn": "2023-09-18T07:05:58.000Z",
+          "wordCount": 1677,
+          "title": "被害急増、知っておくべきコンテナセキュリティ10のポイント",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230918-2770338/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230918-2772625/",
+          "author": null,
+          "description": "Microsoftは9月14日(米国時間)、テキストユーザーインタフェースライブラリ「ncurses」にメモリ破損の脆弱性があると発表した。この脆弱性はすでに2023年4月8日に修正されている。Microsoftはこの脆弱性を悪用して不正なコードを実行できる可能性があるとし、関連するシステムやアプリケーションのアップデートを推奨している。",
+          "link": "https://news.mynavi.jp/techplus/article/20230918-2772625/",
+          "publishedOn": "2023-09-18T04:40:23.000Z",
+          "wordCount": 3002,
+          "title": "MacやLinuxで使う「ncurses」に重要な脆弱性、Microsoftが報告",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230918-2772625/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230918-2771773/",
+          "author": null,
+          "description": "Malwarebytesはこのほど、Web会議ソフトウェア「Webex」の企業ユーザーを標的としたマルバタイジングキャンペーンが進行中だとして、警告した。悪意のある広告が1週間にわたりオンライン上に存在することから警告するために情報を公開したという（Webex自体は侵害されていないことに注意）。",
+          "link": "https://news.mynavi.jp/techplus/article/20230918-2771773/",
+          "publishedOn": "2023-09-18T04:05:24.000Z",
+          "wordCount": 1672,
+          "title": "Google検索のWebexの偽広告用いるサイバー攻撃を確認、注意を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230918-2771773/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230918-2772569/",
+          "author": null,
+          "description": "The Hacker Newsは9月14日（米国時間）、著名なロシア人ジャーナリスト、ガリーナ・ティムチェンコ氏のiPhoneがNSO Groupのスパイウェア「Pegasus」によって侵害されていたと報じた。PegasusはNSO Groupが開発したマルウェアで、ユーザーの操作を一切必要とすることなく標的のiPhoneへ侵入できるとされる。",
+          "link": "https://news.mynavi.jp/techplus/article/20230918-2772569/",
+          "publishedOn": "2023-09-18T01:06:33.000Z",
+          "wordCount": 1644,
+          "title": "iPhoneを乗っ取るマルウェア「Pegasus」、ロシア人ジャーナリストを攻撃",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230918-2772569/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230917-2772562/",
+          "author": null,
+          "description": "Kaspersky Labはこのほど、Free Download Managerサイトが侵害され、3年間にわたりマルウェアを含んだLinux向けFree Download Managerのダウンロードに悪用されていたと報じた。侵害期間は2020年から2022年までの3年間とみられ現在は解決している。",
+          "link": "https://news.mynavi.jp/techplus/article/20230917-2772562/",
+          "publishedOn": "2023-09-17T11:46:20.000Z",
+          "wordCount": 1782,
+          "title": "マルウェア含むFree Download Manager3年間配布される、利用者は確認を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230917-2772562/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20230917-2771778/",
           "author": null,
