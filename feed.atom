@@ -2,10 +2,732 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-09-18T08:11:54.612Z</updated>
+    <updated>2023-09-19T08:11:58.685Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[FINSプロトコルにおけるセキュリティ上の問題について]]></title>
+        <id>https://jvn.jp/ta/JVNTA91513661/</id>
+        <link href="https://jvn.jp/ta/JVNTA91513661/"/>
+        <updated>2023-09-19T07:50:00.000Z</updated>
+        <summary type="html"><![CDATA[FINS(Factory Interface Network Service)は、オムロン社製品で構成されたFA(Factory Automation)ネットワークで使用されるメッセージ通信プロトコルです。FINSはクローズドなFAネットワークで使用されることを前提として設計されています。近年の産業制御システムのセキュリティの視点でFINSプロトコルや対応機器のセキュリティ調査が行われた結果、FINSプロトコルの仕様に起因する問題が報告されています。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[神奈川県真鶴町にWi-Fi完備の「クスクスグランピング真鶴」10月25日オープン、ワーケーション向けサービスも充実　企業・個人向け会員制度も]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1532406.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1532406.html"/>
+        <updated>2023-09-19T07:30:00.000Z</updated>
+        <summary type="html"><![CDATA[エコツーリズム事業の開発・運用などを目指すスチームン株式会社は、神奈川県真鶴町にグランピング施設「COUSCOUS Glamping Manazuru（クスクスグランピング真鶴）」（神奈川県足柄下郡真鶴町岩812-8）を10月25日にオープンする。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[複数のトレンドマイクロ製企業向けエンドポイントセキュリティ製品において任意のコードを実行される脆弱性]]></title>
+        <id>https://jvn.jp/vu/JVNVU90967486/</id>
+        <link href="https://jvn.jp/vu/JVNVU90967486/"/>
+        <updated>2023-09-19T06:30:00.000Z</updated>
+        <summary type="html"><![CDATA[複数のトレンドマイクロ製企業向けエンドポイントセキュリティ製品には、任意のコードが実行可能な脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「SoftBank光・10ギガ」が6カ月目まで利用料金500円になるキャンペーン、9月22日より実施]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1532378.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1532378.html"/>
+        <updated>2023-09-19T06:15:00.000Z</updated>
+        <summary type="html"><![CDATA[ソフトバンク株式会社は、NTT東西が提供する上り下りとも最大10Gbpsの「フレッツ 光クロス」回線を利用した光コラボレーションモデル「SoftBank 光・10ギガ」を、月額利用料500円で6カ月目まで利用できる「超高速！ SoftBank 光・10ギガ 500円ではじめようキャンペーン」を9月22日から実施する。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[注意喚起: 複数のトレンドマイクロ製企業向けエンドポイントセキュリティ製品における任意のコード実行の脆弱性に関する注意喚起  (公開)]]></title>
+        <id>https://www.jpcert.or.jp/at/2023/at230021.html</id>
+        <link href="https://www.jpcert.or.jp/at/2023/at230021.html"/>
+        <updated>2023-09-19T06:13:00.000Z</updated>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[人工衛星のセキュリティ対策は不十分？プロトコルの隠蔽のみや脆弱なファームウェアも]]></title>
+        <id>https://security.srad.jp/story/23/09/18/1255211/</id>
+        <link href="https://security.srad.jp/story/23/09/18/1255211/"/>
+        <updated>2023-09-19T06:13:00.000Z</updated>
+        <summary type="html"><![CDATA[AC0x01 曰く、ドイツの研究者が人工衛星のサイバーセキュリティの現状を分析したところによると、現役の衛星の中にも適切なセキュリティ対策が施されていないとみられるものがあることが明らかになったという（UchuBizの記事）。 人工衛星のセキュリティ対策はもともと、そもそも人工衛星と通信することは難しく、そのアクセス手段なども知られていない、ということを前提とした「隠蔽によるセキュリティ」に頼ってきた傾向があるという。しかし今日では、超小型衛星やキューブサットを中心にオープン化したコンポーネントが用いられ、また教育機関などで衛星開発についてかかわった人も増えてきていることから、こうした過去の常識が通用しなくなっているとのこと。 今回の調査ではキューブサットに提供されている既存のファームウェアの脆弱性をエミュレータで調査。結果は任意コードの実行が可能で、外部から制御を奪うことが可能だったという。また衛星エンジニアへのアンケート調査では、セキュリティ対策をしているとの回答は約半数（17機中9機）に留まり、その他は対策されていないや分からないといった回答が寄せられたとのこと。また実施しているセキュリティ対策も、「プロトコルの隠蔽」と「プロトコルの暗号化」が半々で、隠蔽に頼った対策が現在でも多く取られているようだ。
+ すべて読む | セキュリティセクション | セキュリティ | 宇宙 |     
+  関連ストーリー： 
+欧州宇宙機関、超小型人工衛星に対するサイバー攻撃のアイディアを募集 2022年01月15日 
+Facebook、高精度な時刻同期システムをオープンソース化 2021年08月18日 
+中国進出した企業に義務化されている税務ソフトにスパイウェア。ドイツとの関係も悪化 2020年12月11日]]></summary>
+        <author>
+            <name>nagazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ネット上に誹謗中傷を書かれたことがある人は10.9％、書いたことがある人は6.3％　BIGLOBE調べ]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1532358.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1532358.html"/>
+        <updated>2023-09-19T06:10:00.000Z</updated>
+        <summary type="html"><![CDATA[ビッグローブ株式会社（BIGLOBE）は9月7日、「インターネット上の誹謗中傷に関する意識調査」の結果を発表した。インターネット上に誹謗中傷や悪質なコメントを書き込まれたことがある人は10.9％、書き込んだことがある人は6.3％だったという。調査は、20代～50代の各年代250人ずつ合計1000人を対象に、8月8日・9日にインターネットを用いて行ったもの。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[バッファロー製Wi-Fi 6E/6ルーター＆中継機が安い！ Amazonで「Gaming Week」実施中　Wi-Fi 6E対応のフラッグシップモデル「WXR-11000XE12/N」が15％OFFなど]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1532336.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1532336.html"/>
+        <updated>2023-09-19T05:55:00.000Z</updated>
+        <summary type="html"><![CDATA[Amazon.co.jpでは、9月29日までの期間限定でゲーミングデバイスの特集「Amazon Gaming Week」を実施中だ。その一環として、バッファロー製Wi-Fi 6E/6対応ルーターや中継機のセールも行われている。以下に紹介する全モデルがメッシュ標準規格「Wi-Fi EasyMesh」に対応している。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【UPSERTだけじゃない！】SQLのMERGE句の使い方を丁寧解説【初心者向け】]]></title>
+        <id>https://tech-lab.sios.jp/?p=36923</id>
+        <link href="https://tech-lab.sios.jp/archives/36923"/>
+        <updated>2023-09-19T05:34:00.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、サイオステクノロジーの佐藤 陽です。 今回は、T-SQLなどで使われるMERGE句について紹介したいと思います。 追加・削除・更新が一気に行える便利なSQL句なので是非使いこなしていきましょう！ 「DBに存在 [...]
+【UPSERTだけじゃない！】SQLのMERGE句の使い方を丁寧解説【初心者向け】 first appeared on SIOS Tech. Lab.]]></summary>
+        <author>
+            <name>佐藤 陽</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ラック、ランサムウェア対策の充足度を自己診断できる無償サービス提供]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230919-2774489/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230919-2774489/"/>
+        <updated>2023-09-19T05:06:27.000Z</updated>
+        <summary type="html"><![CDATA[ラックは9月19日、組織のランサムウェアに対する防御策の充足度を自己診断できる、無料のWebサービス「ランサムウェア対策簡易チェック」の提供を開始した。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ガーミンが日本初開催、全員がGPSウォッチを着用して走るイベント「GARMIN RUN JAPAN」12月10日に横浜で　GPSウォッチの計測タイムが公式記録に。持っていない人には無料貸出も]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1532322.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1532322.html"/>
+        <updated>2023-09-19T03:41:33.000Z</updated>
+        <summary type="html"><![CDATA[ガーミンジャパン株式会社（Garmin）は、同社製ランニングGPSウォッチを活用したランニングイベント「GARMIN RUN JAPAN」を12月10日に横浜・臨港パークにて開催すると発表し、9月15日より参加エントリーの受付を開始した。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[元をたどれば1つの招待コード…Bluesky、スパムボット排除のための取り組みを紹介【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1532056.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1532056.html"/>
+        <updated>2023-09-19T03:07:58.000Z</updated>
+        <summary type="html"><![CDATA[SNS「Bluesky」が、スパムボットを排除するための取り組みを紹介している。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「これはもしかして」バンダイ、ガンプラを3Dスキャンして仮想空間内で使える技術の特許を出願【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1532057.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1532057.html"/>
+        <updated>2023-09-19T02:24:28.000Z</updated>
+        <summary type="html"><![CDATA[ガンダムのプラモデル、通称ガンプラを3Dスキャンして仮想空間内で使える技術の特許をバンダイが出願したことが判明して一部で話題になっている。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[床でもソファーに座っても使える、ニトリの高さ調節可能な「2WAYこたつ」に関する記事が2週連続トップ【アクセスランキング】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/ranking/1532055.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/ranking/1532055.html"/>
+        <updated>2023-09-19T01:31:00.000Z</updated>
+        <summary type="html"><![CDATA[前週に閲覧数の多かった記事を、カテゴリーごとに上位5位までレポートします。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[コード品質が悪い新マルウェアローダ「HijackLoader」発見]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230919-2770334/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230919-2770334/"/>
+        <updated>2023-09-18T23:46:41.000Z</updated>
+        <summary type="html"><![CDATA[Zscalerはこのほど、「HijackLoader」と呼ばれる新しいマルウェアローダを分析した検証結果を公表した。HijackLoaderにはさまざまな検出回避技術とモジュール式アーキテクチャが存在し、柔軟なコードの挿入と実行を可能とする特徴がある。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Active Directoryが侵害されている兆候を検出する方法]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230919-2772755/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230919-2772755/"/>
+        <updated>2023-09-18T23:16:36.000Z</updated>
+        <summary type="html"><![CDATA[eSecurity Planetはこのほど、重要なActive Directoryコンポーネントに侵害の兆候がないかどうかを確認する方法について伝えた。侵害の兆候を検知するには、あらゆるイベントログの監視を続ける必要がある。しかし、現実には困難だ。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TwoFive メールセキュリティ Blog 第12回「SPF/DKIMがPassなのに、DMARCがPassにならないのは何故か？～メールシステムごとに設定の確認と変更が必要な理由」]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/09/19/49966.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/09/19/49966.html"/>
+        <updated>2023-09-18T23:10:02.000Z</updated>
+        <summary type="html"><![CDATA[この記事では、DMARC導入直後のお客様から少なからずお尋ねいただく「SPF/DKIM が Pass なのに DMARC が Pass にならないのは何故なのか？」というご質問についてご説明したいと思います。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[コクヨグループへのランサムウェア攻撃、商品直送サービス委託のアスクルにも影響]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/09/19/49965.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/09/19/49965.html"/>
+        <updated>2023-09-18T23:05:02.000Z</updated>
+        <summary type="html"><![CDATA[アスクル株式会社は9月12日、コクヨ社グループ情報システムへの外部攻撃について発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[9月のセキュリティ更新プログラムを公開、2つの脆弱性で悪用を確認]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/09/19/49964.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/09/19/49964.html"/>
+        <updated>2023-09-18T23:00:32.000Z</updated>
+        <summary type="html"><![CDATA[IPAとJPCERT/CCは、マイクロソフトが「2023年9月のセキュリティ更新プログラム」を公開したことを受け、注意喚起を発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[アドビが脆弱性情報を公開、最新版へのバージョンアップを呼びかけ]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/09/19/49963.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/09/19/49963.html"/>
+        <updated>2023-09-18T23:00:29.000Z</updated>
+        <summary type="html"><![CDATA[IPAとJPCERT/CCは、アドビがAdobe AcrobatおよびAdobe Acrobat Readerにおける脆弱性に関する情報（APSB23-34）を公開したことを受け、注意喚起を発表している。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apache Struts 2にサービス運用妨害（DoS）の脆弱性]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/09/19/49962.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/09/19/49962.html"/>
+        <updated>2023-09-18T23:00:24.000Z</updated>
+        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月14日、Apache Struts 2におけるサービス運用妨害（DoS）の脆弱性（S2-065）について「Japan Vulnerability Notes（JVN）」で発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apache Tomcat Connectors（mod_jk）に情報漏えいの脆弱性]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/09/19/49961.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/09/19/49961.html"/>
+        <updated>2023-09-18T23:00:21.000Z</updated>
+        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月14日、Apache Tomcat Connectors（mod_jk）における情報漏えいの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Array Networks Array AGシリーズの脆弱性を悪用する複数の標的型サイバー攻撃活動に注意を呼びかけ]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/09/19/49960.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/09/19/49960.html"/>
+        <updated>2023-09-18T23:00:17.000Z</updated>
+        <summary type="html"><![CDATA[一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月14日、Array Networks Array AGシリーズの脆弱性を悪用する複数の標的型サイバー攻撃活動に関する注意喚起を発表した。影響を受けるシステムは以下の通り。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EGセキュアソリューションズ「AeyeScan」の販売店契約締結]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/09/19/49959.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/09/19/49959.html"/>
+        <updated>2023-09-18T23:00:13.000Z</updated>
+        <summary type="html"><![CDATA[イー・ガーディアン株式会社は9月12日、同社グループ会社のEGセキュアソリューションズ株式会社が株式会社エーアイセキュリティラボとSaaS型Webアプリケーション診断ツール「AeyeScan」の販売店契約を締結したと発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[X が反ユダヤ主義に継続的取り組み]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/09/19/49958.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/09/19/49958.html"/>
+        <updated>2023-09-18T23:00:08.000Z</updated>
+        <summary type="html"><![CDATA[X Corp.は9月11日、反ユダヤ主義に対する同社の継続的な取り組みを発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TwoFive「フィッシングトレンド 2023年1月~6月 調査結果」公表]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/09/19/49957.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/09/19/49957.html"/>
+        <updated>2023-09-18T23:00:03.000Z</updated>
+        <summary type="html"><![CDATA[株式会社TwoFiveは9月11日、「フィッシングトレンド 2023年1月~6月 調査結果」を発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Wi-Fiからスマホの入力キーを盗む攻撃　他人のパスワード取得に成功 中国チームなどが発表]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2309/19/news030.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2309/19/news030.html"/>
+        <updated>2023-09-18T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[中国の湖南大学、シンガポールの南洋理工大学などに所属する研究者らは、Wi-Fiハードウェアをハッキングすることなく、Wi-Fi経由でスマートフォンのキーストロークからパスワードを特定する攻撃を提案した研究報告を発表した。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[サイバー犯罪者にとっては便利すぎる!?　SMSを使ったフィッシングが急増するワケ【知って防ごう！ スミッシング詐欺】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/smishing/1518208.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/smishing/1518208.html"/>
+        <updated>2023-09-18T22:11:00.000Z</updated>
+        <summary type="html"><![CDATA[「フィッシング詐欺といえばメール」、そんなイメージをお持ちの方も多いと思いますが、近年は、SMSを利用したフィッシング詐欺である 「スミッシング」 詐欺が目立つようになってきました。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ウクライナの戦線でも使われたスターリンク ほか【中島由弘の「いま知っておくべき5つのニュース」2023/9/7～9/13】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/curation/1532037.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/curation/1532037.html"/>
+        <updated>2023-09-18T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[9月13日、アップルがiPhoneとApple Watchの新型を発表した。発表には多くの情報が含まれているが、ケータイWatchの「9月13日のアップル発表会まとめ！　ついにUSB-Cに対応したiPhone 15シリーズなど進化したポイントを一気に紹介」という記事（ケータイWatch）で一通り紹介されているので、全体を把握しやすい。ポイントはiPhoneのカメラ性能の向上、そしてApple Watchのダブルタップのジェスチャーによる操作。そして、ついにUSB-Cへの対応だ。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TP-Link、訪問者への応対が手軽になるカメラ付きスマートドアホンキット「Tapo D230S1」発売]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1531951.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1531951.html"/>
+        <updated>2023-09-18T21:50:00.000Z</updated>
+        <summary type="html"><![CDATA[ティーピーリンクジャパン株式会社（TP-Link）は、カメラ付きスマートドアホンキット「Tapo D230S1」を10月5日に発売する。市場想定価格は2万1890円。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「UniFi U6 Enterprise」、5万円を切る法人向けWi-Fi 6Eアクセスポイントの実力を検証【イニシャルB】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/shimizu/1525062.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/shimizu/1525062.html"/>
+        <updated>2023-09-18T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ubquitiから、Wi-Fi 6E対応のアクセスポイント「UniFi U6 Enterprise」が発売された。同社のラインアップの中ではハイエンドクラスに位置づけられる製品だが、法人向けのソリューションとしては、相変わらず格安、いや爆安で、しかも簡単に設定できる。その実力を検証してみた。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ワタクシのテック系ライブ配信環境を紹介します]]></title>
+        <id>https://tech-lab.sios.jp/?p=30935</id>
+        <link href="https://tech-lab.sios.jp/archives/30935"/>
+        <updated>2023-09-18T15:23:52.000Z</updated>
+        <summary type="html"><![CDATA[みなさん、こんにちは。武井です。 ワタクシ、月イチか月二くらいで「世界一わかりみの深いクラウドネイティブ on Azure」というライブ配信を行っており、その名の通り、Azureによるクラウドネイティブのイロハをわかりや [...]
+ワタクシのテック系ライブ配信環境を紹介します first appeared on SIOS Tech. Lab.]]></summary>
+        <author>
+            <name>武井 宜行</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[令和5年度秋期試験のSG・FE（特別措置試験）受験の方は、受験票のダウンロードが可能となりました]]></title>
+        <id>https://www.ipa.go.jp/news/2023/shiken/ex20230919.html</id>
+        <link href="https://www.ipa.go.jp/news/2023/shiken/ex20230919.html"/>
+        <updated>2023-09-18T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「令和5年度秋期試験のSG・FE（特別措置試験）受験の方は、受験票のダウンロードが可能となりました」に関する情報です。]]></summary>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[第2回 サイバーセキュリティ経営プラクティス検討会の議事要旨を公開しました。]]></title>
+        <id>https://www.ipa.go.jp/security/economics/practice2023.html</id>
+        <link href="https://www.ipa.go.jp/security/economics/practice2023.html"/>
+        <updated>2023-09-18T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「サイバーセキュリティ経営プラクティス検討会」に関する情報です。]]></summary>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「企業間取引のデジタル化状況に関する調査」の調査結果について公開しました]]></title>
+        <id>https://www.ipa.go.jp/digital/architecture/project/btob/finance-contract/transaction_enq_20230130.html</id>
+        <link href="https://www.ipa.go.jp/digital/architecture/project/btob/finance-contract/transaction_enq_20230130.html"/>
+        <updated>2023-09-18T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「「企業間取引のデジタル化状況に関する調査」の調査結果について」に関する情報です。]]></summary>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[サイバー攻撃における代表的な12の手法、関連する事例と対策を交えながら解説]]></title>
+        <id>https://eset-info.canon-its.jp/malware_info/special/detail/230919.html</id>
+        <link href="https://eset-info.canon-its.jp/malware_info/special/detail/230919.html"/>
+        <updated>2023-09-18T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[AIをはじめとしたテクノロジーの進化に伴い、サイバー攻撃はさらに巧妙化し、あらゆる企業・組織が狙われている。サイバー攻撃を防ぐには、その手法や仕組みを理解することが重要だ。この記事では、多くのサイバー攻撃のうち、代表的な12の手法と関連する事例、そして具体的な対策について解説する。
+
+
+
+
+
+1. マルウェア攻撃
+
+マルウェアとは「Malicious（悪意ある）」と「Software（ソフトウェア）」を組み合わせた造語で、悪意ある目的を果たすために作成されたプログラムやソフトウェア全般を指す。近年では、感染力の高いマルウェアである「Emotet」が大きな脅威として知られている。
+
+マルウェア攻撃による被害事例
+
+・従業員のパソコンがEmotetに感染
+2023年3月に発生した電池製造企業におけるケースでは、従業員のパソコンがEmotetに感染したことがきっかけとなった。個人情報を含むデータが外部に流出した可能性があるとし、取引先などの関係者に対してなりすましメールへの注意喚起がされた。同社では第三者機関の指導・協力のもとで、すべてのパソコンにEDRを緊急導入している。
+
+・なりすましメールによるEmotetへの感染
+2022年5月、自治体の電子申請のヘルプデスクを担当する企業のパソコンがEmotetに感染。このケースでは、申請者からのメールと勘違いして添付ファイルを開封した結果、住民からヘルプデスクへ送信されたメール2,312件が外部に流出した可能性があると報告されている。
+
+マルウェア攻撃への基本的な対策
+
+・不審な添付ファイルやリンクはクリックしない
+見知らぬ送信者からのメールやWebサイト上に設置された不審なリンクをクリックすることで、マルウェア感染に至るケースは少なくない。そのため、メールやSMSのリンクはクリックしない、そして不審な添付ファイルは開かずに削除することが基本的な対策となる。
+
+・マクロを無効化する
+マクロウイルスは、オフィスソフトの自動実行機能を悪用する。近年のオフィスソフトでは、ファイル開封時にマクロは原則として無効化されている。しかし、攻撃者はあらゆる方法を用いてマクロを有効化させようとする。そのため、マクロを有効化する場合は送信者に対して事前に確認するなど、安全性を確保できる場合のみに限定すべきだろう。
+
+・セキュリティソフトを導入する
+セキュリティソフトが搭載するウイルス対策機能は、インストールしたパソコンなどの端末をマルウェアから保護する。また、マルウェアと疑われるファイルの隔離・駆除を行う。ただし、ウイルスの定義ファイルは随時更新されているため、セキュリティソフトを常に最新の状態に保つことが重要だ。
+
+・ゲートウェイ型のメールセキュリティを導入
+先述のように、メールはマルウェアの感染源となり得る。ゲートウェイ型セキュリティを導入することで、メールサーバーとネットワーク内のパソコンなどの端末間の通信を監視し、不審なメールを検出・除去することが可能となる。
+
+・従業員への教育を行う
+安全な環境を構築していると考えていても、ユーザーとなる従業員が適切な行動を取らなければ、セキュリティリスクは解消されない。セキュリティの脅威を理解し、適切な対処が個々の従業員にも求められる。そのため、定期的なセキュリティ教育やトレーニングが必要とされる。
+
+マルウェアに感染した！？スマホやパソコンはどうなる？
+
+2. ランサムウェア攻撃
+
+ランサムウェアとは、マルウェアの一種であり、感染した端末のデータを不正に暗号化し、その復号と引き換えに身代金を要求する攻撃手法だ。その対象となるのは、主に企業や組織であり、窃取したデータの公開などでも脅す、といった二重の脅迫（ダブルエクストーション）と呼ばれる手口が用いられることもある。これらの手口は、ますます悪質化しており、その被害は甚大化する傾向にある。
+
+ランサムウェア攻撃の被害事例
+
+・VPN経由でランサムウェアに感染
+ランサムウェア攻撃による具体的な被害事例としては、2022年9月に発生した大手酒造企業への攻撃が挙げられる。この事件では、VPNを経由して不正アクセスが行われ、その結果ランサムウェアに感染。過去の注文情報に連結されたクレジットカード情報が流出した可能性があることが発覚した。
+
+・11台のサーバーがランサムウェアに感染
+2022年10月にはスーパーマーケットやECを展開する団体がランサムウェアに感染し、11台ものサーバーが影響を受けた。この被害では、基幹システムを含む大部分のシステム内のデータが暗号化され、業務再開までに約1ヶ月を要する事態となった。
+
+ランサムウェア攻撃への基本的な対策
+
+・データをバックアップする
+仮にランサムウェア攻撃を受けた場合でも、最新に近い状態のデータがバックアップされていれば、対処する際の選択肢も増える。そのためにも、定期的なデータのバックアップが求められる。なお、バックアップはセグメントが異なるネットワーク、あるいは外部メディアへ保存しておくのが望ましい。
+
+・多要素認証を導入する
+パスワードだけでなく、指紋認証や認証アプリといった異なる要素の手段を組み合わせて認証させることで、不正なログインを防ぐことができる。
+
+・脆弱性診断
+脆弱性診断を行うことで、システム内のセキュリティホールを発見し、その修正対応が可能となる。言うまでもないが、脆弱性は見つけられなければ対処することができない。また、定期的に診断することで、攻撃者よりも先に未知の脆弱性を把握、対処して被害を未然に防止することにもつながる。
+
+・OSやアプリケーションを最新バージョンに維持する
+OSやアプリケーションは、セキュリティ上の問題点が発覚次第、セキュリティパッチを提供して不具合を修正している。そのため、OSやアプリケーションは最新バージョンを常に維持することが重要だ。
+
+・不審な添付ファイルやリンクはクリックしない
+先述のとおり、不審なリンクはクリックしない、そして不審な添付ファイルは開かずに削除することはランサムウェア攻撃対策でも有効だ。
+
+ランサムウェアとは？過去の事例から求められるセキュリティ対策とは？
+
+3. SQLインジェクション攻撃
+
+SQLインジェクションとは、Webアプリケーションの入力フォームにSQL文を意図的に注入し、データベースに不正な操作を行わせる攻撃手法である。
+
+SQLインジェクション攻撃の被害事例
+
+・SQLインジェクション攻撃によるクレジットカード情報流出
+2021年4月に発生した宅配クリーニングサービス企業への攻撃では、システムの入れ替えに伴い、新システムがSQLインジェクションによる攻撃を受けた。その結果、会員のクレジットカード情報の約5.9万件が外部に流出した可能性があった。
+
+SQLインジェクション攻撃の基本的な対策
+
+・セキュアコーディングを行う
+セキュアコーディングとは、開発時に安全性の高さを優先してプログラミングすること。SQLインジェクション攻撃に対しては、入力されたデータに対する適切な検証とフィルタリングを行うことで、不正なSQL文の注入を防止することが可能となる。具体的には、プレースホルダやバインドパラメータの使用といった対策が挙げられる。
+
+・WAF（Web Application Firewall）を導入する
+WAFはWebアプリケーションを狙う、さまざまな攻撃を防ぐことに特化したファイアウォールである。不正なリクエストを検出・阻止し、アプリケーションの安全性を向上する。
+
+・脆弱性診断を実施する
+先述した脆弱性診断も当然ながらSQLインジェクション攻撃への対策として有効だ。
+
+・OSやアプリケーションを最新バージョンに維持する
+アプリケーションを配置するWebサーバーはもちろんのこと、開発する従業員の端末をはじめ、関係者のパソコンなどの端末は最新バージョンに維持することが求められる。
+
+今なお継続するSQLインジェクションによる攻撃を防ぐための対策とは？
+
+4. パスワードリスト攻撃
+
+パスワードリスト攻撃とは、ダークウェブなどを通じて不正に取得したパスワードのリストを用いて、総当たりでログインを試みる攻撃である。
+
+パスワードリスト攻撃の被害事例
+
+・転職情報サイトへのパスワードリスト攻撃
+2023年4月に転職情報サイトがパスワードリスト攻撃を受け、25万5,765人が不正アクセスを受ける可能性があると報告された。同サイトではパスワードをハッシュ化した状態で管理しており、これらのデータが流出して悪用されたとは考えられず、外部で入手した「ID」と「パスワード」を用いた攻撃と結論付けられた。
+
+パスワードリスト攻撃の基本的な対策
+
+・ログイン時の認証の強化、パスワード管理のポリシーを設定する
+パスワードの強度を確保するためのポリシーを設定し、複雑で推測されにくいパスワードへの変更を求めるなど、ユーザーの認証管理を強化する。また、連続したログイン失敗に対するアカウントロックなど、ログイン試行に対する制限も求められる。
+
+・多要素認証を導入する
+不正なログインを防ぐためにも、二要素認証などで認証を強化することが重要だ。
+
+・WAF（Web Application Firewall）を導入する
+Webアプリケーションへの攻撃を防ぐために有効なWAFは、パスワードリスト攻撃に対しても有効だ。
+
+&ldquo;ありがち&rdquo;なパスワードのセキュリティリスクとその対策
+
+5. ブルートフォース攻撃
+
+ブルートフォース攻撃とは、パスワードの組み合わせを総当たりで試行していくことで不正なログインを行う攻撃だ。パスワードリスト攻撃とは異なり、すべてのパスワードの組み合わせを試していくため、桁数が少ない、単純な文字列など、判別しやすいパスワードを使用しているユーザーアカウントは脆弱性が高まる。
+
+ブルートフォース攻撃の被害事例
+
+・ブルートフォース攻撃による不正ログイン被害
+2013年4月、あるポータルサービスがブルートフォース攻撃を受け、約3万アカウントへの不正ログインが行われたと報告されている。同サービスの運営元がサービスの一時凍結などの対処を行った結果、主要な情報へのアクセスは確認されなかった。
+
+ブルートフォース攻撃の基本的な対策
+
+・ファイアウォールやUTM（Unified Threat Management）を設置する
+ファイアウォールやUTMはネットワークトラフィックを監視し、異常な挙動や不正な接続試行を検出・阻止する。これにより、ブルートフォース攻撃のような大量のログイン試行を制限することが可能だ。
+
+・ログイン時の試行回数を制限する
+特定の時間内に許されるログイン試行回数を制限することで、ブルートフォース攻撃を防ぐことができる。ログイン試行の失敗が一定回数を超えた場合、アカウントを一時的にロックすることで、不正なアクセスを防止する。
+
+・ログイン時の認証の強化や、パスワード管理のポリシーを設定する
+パスワードリスト攻撃と同様に、ログインの認証を強化することが重要だ。また、パスワードを適切に設定、管理するためのポリシーを策定し、社内で共有することも同様に求められる。
+
+辞書攻撃とは？どういった手法でどのようなリスクがあるのか
+
+6. 標的型攻撃
+
+標的型攻撃とは、特定の組織や個人を狙い、巧妙ななりすましや詐欺的な手法によってシステムに侵入し、情報窃取や金銭詐取を試みる攻撃である。
+
+標的型攻撃の被害事例
+
+・標的型攻撃によるマルウェア感染
+2022年7月に大学の研究施設が標的型攻撃メールを受け取り、それによってパソコンがマルウェアに感染した。これにより、学生のメールアドレスや学生番号、銀行口座、研究者のメールアドレスなどが窃取された可能性があった。
+
+標的型攻撃の基本的な対策
+
+・エンドポイントセキュリティを導入する
+エンドポイントセキュリティの導入は、パソコンやスマートフォン（以下、スマホ）といった端末を保護するための主要な対策となる。マルウェアの感染を防止し、不正な挙動を検知・阻止することは標的型攻撃の被害を防ぐ上でも重要である。
+
+・ゲートウェイセキュリティを導入する
+ゲートウェイセキュリティは、ネットワークの出入り口であるゲートウェイにおける通信を監視・制御し、不正な通信を遮断する。これにより、標的型攻撃のような外部からの不正な侵入を防ぐことが可能となる。
+
+・ユーザーへの教育を行う
+標的型攻撃では、ユーザーの認識不足という盲点を突き、メールやWebサイトを経由して攻撃が仕掛けられる。そのため、ユーザー自身のセキュリティ意識を向上させるための教育が不可欠だ。
+
+・EDR/XDRを導入する
+EDR（Endpoint Detection and Response）やXDR（Extended Detection and Response）は、システム全体のセキュリティ状況を監視し、検知・対応を行うセキュリティ対策だ。これにより、標的型攻撃のような複雑で高度な攻撃にも迅速に対応することが可能となる。
+
+標的型攻撃とは？どのような手口で攻撃を行うのか？
+
+7. ゼロデイ攻撃
+
+ゼロデイ攻撃とは、ゼロデイ脆弱性、すなわち未知の脆弱性を突いて、システムに不正な操作や侵入を試みる攻撃だ。
+
+ゼロデイ攻撃の被害事例
+
+・ゼロデイ攻撃により社内の複数台の端末がマルウェア感染
+2019年3月、大手総合電機メーカーの海外拠点で運用していたサーバーが、未知の脆弱性を悪用したゼロデイ攻撃を受けた。この攻撃により、132台の端末がマルウェアに感染するに至った。
+
+ゼロデイ攻撃の基本的な対策
+
+・OSやアプリケーションを最新バージョンに維持する
+先述のように、ゼロデイ攻撃では未知の脆弱性を悪用する。そのため、脆弱性が発覚したらすぐに対処できるよう、OSやアプリケーションを最新バージョンに維持していくことが重要だ。
+
+・エンドポイントセキュリティを導入する
+従業員の端末の安全性を確保することがゼロデイ攻撃対策として有効だ。そのためにも、セキュリティソフトといったエンドポイントセキュリティのソリューションを活用することが求められる。
+
+・EDR/XDRを導入する
+ゼロデイ攻撃の場合、初期対応が重要となる。そのため、EDRやXDRといったソリューションを導入することで、インシデント発生後の対応を迅速に行える。
+
+高まるゼロデイ攻撃のリスクにどう対処すべきか
+
+8. DoS/DDoS攻撃
+
+DoS攻撃とは、1台のパソコンからサーバーに大量のデータを送りつけ、サーバーダウンやサービス停止を狙う攻撃である。これに対し、DDoS攻撃は複数のパソコンから分散的に一斉攻撃を行うという違いがある。
+
+DoS/DDoS攻撃の被害事例
+
+・感染したIoTデバイスで構成されたボットネットによる攻撃
+2016年には、IoTデバイスを狙うボットネットMiraiがセキュリティメディアなどを次々に攻撃。大手SNSや決済システムなどが一時アクセスできなくなる被害が生じた。
+
+DoS/DDoS攻撃の基本的な対策
+
+・IoT機器の認証情報を初期設定から変更する
+IoTデバイスが不正に利用され、攻撃の一部となることを防ぐ対策だ。初期設定のパスワードは簡単に推測されてしまうため、個別に設定を変更する必要がある。
+
+・ファームウェアを常に最新のものにする
+デバイスのファームウェアを最新に保つことは、新たに発見されたセキュリティ上の脆弱性を修正し、攻撃から保護するために重要な対策である。
+
+・ネットワークトラフィックを監視する
+異常なトラフィックの急増を検知することで、DoS/DDoS攻撃の開始を早期に察知し、迅速に対処することができる。
+
+・ネットワークをゲートウェイで守る
+ゲートウェイでのセキュリティ対策は、外部からの不正なアクセスをブロックし、ネットワークを保護する。
+
+・IPアドレスなどのアクセス制限を行う
+特定のIPアドレスからの接続を制限することで、攻撃者による不正なアクセスを防ぐことができる。
+
+Miraiボットネット？大規模なDDoS攻撃を仕掛けるその仕組みとは
+
+9. セッションハイジャック攻撃
+
+セッションハイジャックとは、Webサービスのユーザーとサーバー間でやり取りされるセッションIDを盗み出し、そのIDが付されたユーザーになりすましてサービスに不正にアクセスしようとする攻撃である。
+
+セッションハイジャック攻撃の被害事例
+
+・大手SNSの脆弱性を突いた攻撃
+2010年に大手SNSがクロスサイトスクリプティング（XSS）の脆弱性を突かれたケースがある。この攻撃では、投稿に記載されたリンクにマウスオーバーするだけでスクリプトが実行され、ユーザーの意思とは関係なく再投稿が行われる事態となった。その影響は全世界の数百万人に及んだと推測されている。
+
+セッションハイジャック攻撃の基本的な対策
+
+・セッションIDを適切に取り扱う
+セッション情報が第三者に漏れるのを防ぐための対策として、例えば、一定時間ごとにセッションIDを変更するなど、適切な仕組みの導入とIDの管理が求められる。
+
+・セキュアコーディングを行う
+セッションハイジャック攻撃においても、Webサイト内の入力フォームは狙われやすい。そのため、設計段階からセキュリティを考慮するといったように、適切な開発方法にて進めていく必要がある。
+
+・WAF、FWを導入する
+ほかの攻撃手法と同様に、Webアプリケーションが狙われるため、WAFやファイアウォールの導入といった対策が有効だ。
+
+セッションハイジャックはなぜ起こるのか？攻撃の仕組みと求められる対策
+
+10. バッファオーバーフロー攻撃
+
+バッファオーバーフロー攻撃とは、プログラムのメモリー領域（バッファ）に対して、許容範囲を超える量のデータを送り込み、システムにエラーを生じさせて異常な動作を引き起こす攻撃である。
+
+バッファオーバーフロー攻撃の被害事例
+
+・グループウェア製品の一部機能にバッファオーバーフローの懸念
+2014年11月に国内のIT企業が提供するグループウェア製品の一部機能で、バッファオーバーフローの脆弱性が発覚した。メールの送受信機能に脆弱性が存在し、この脆弱性を悪用されると、攻撃者によって任意のコードが実行される可能性があった。
+
+バッファオーバーフロー攻撃の基本的な対策
+
+・IDS/IPSを導入する
+IDS（Intrusion Detection System：不正侵入検知システム）はネットワークに対する不正なアクセスやOS、ミドルウェアの脆弱性を狙う攻撃を検出し、管理者に知らせるシステムだ。一方、IPS（Intrusion Prevention System：不正侵入防止システム）はIDSよりさらに一歩踏み込み、不正なアクセスを検出した際に、自動的にその侵入を遮断するなどのアクションを行うものだ。
+
+・セキュアコーディングを行う
+バッファオーバーフロー攻撃は先述のとおり、Webアプリケーションの脆弱性を突いて、許容量を超えるバッファを送り込むことでメモリーを書き換える攻撃だ。そのため、入力値がメモリーの許容量を超えないように制限するなど、適切な開発方法にてプログラミングを行う必要がある。
+
+・脆弱性診断を実施する
+バッファオーバーフロー攻撃は先述のとおり、脆弱性を突いて行われる。そのため、脆弱性診断も対策として有効だ。
+
+セキュリティホールが招くセキュリティリスクとその対策とは？
+
+11. サプライチェーン攻撃
+
+サプライチェーン攻撃は、企業取引のサプライチェーン上にあるセキュリティが相対的に弱い中小企業や組織のネットワークや端末に侵入し、サプライチェーンの上流に位置する大企業を狙う攻撃である。また、ソフトウェア開発のサプライチェーンに入り込み、最終製品にマルウェアを仕込むケースも存在する。
+
+サプライチェーン攻撃の被害事例
+
+・委託業者の脆弱性に起因した電子カルテシステムの停止
+2022年11月に総合医療センターがランサムウェアの攻撃を受け、電子カルテシステムが停止したケースでは、同病院の委託業者が運営するデータセンターでVPN機器の脆弱性が突かれた。その結果、ランサムウェアに感染し、VPNを通じた閉域網の接続領域が攻撃者に利用され、感染が広まったとみられる。
+
+サプライチェーン攻撃の基本的な対策
+
+・経営者、従業員のセキュリティ意識を醸成する
+組織全体でセキュリティリスクを理解することで、適切な対策を講じることが可能となる。従業員はもちろんのこと、組織の意思決定に関わる経営者の意識を高めることも求められる。
+
+・取引先のセキュリティ対策を確認する
+サプライチェーン攻撃は取引先から広がるケースが過去に数多く確認されている。そのため、自社だけでなく、取引先のセキュリティ対策も確認し、適切な対策が取られていることを確認することも重要だ。
+
+・ネットワークを常時監視する
+組織内のネットワークの異常や侵入を早期に発見することで、迅速な対応を可能にする。そのためにも、ネットワークを常時監視するためのソリューションの導入、運用が必要となる。
+
+・エンドポイントセキュリティを導入する
+取引先を含めて、エンドポイントである従業員が利用する端末へのマルウェア感染がきっかけでサプライチェーン攻撃に至ったケースは少なくない。そのため、エンドポイントセキュリティソリューションを従業員の利用する端末に導入することは重要な対策となる。
+
+・脆弱性診断
+サプライチェーン攻撃においても脆弱性を狙った攻撃から広がるケースがある。そのため、脆弱性診断を行うことも有効だ。
+
+サプライチェーン攻撃はなぜ起こる？中小・零細企業が講じるべき対策とは？
+
+12. フィッシング攻撃
+
+フィッシング攻撃は、実在の組織に偽装したWebサイトを設置し、個人情報やクレジットカード番号などを詐取しようとする攻撃である。近年では、個人だけでなく企業を狙ったビジネスメール詐欺（BEC）も増えている。
+
+フィッシング攻撃の被害事例
+
+・IT企業の従業員やサポートセンターを騙るフィッシング詐欺
+2023年4月、IT企業の従業員を装ったフィッシング詐欺が発覚した。攻撃者は電話をかけて信用させ、その後フィッシングメールを送りつけるという巧妙な手口を用いた。このケースでは、ソーシャルエンジニアリングの手法を活用し、ターゲットに対してIDやパスワードを騙し取ろうとする行為も確認された。同社では注意喚起を行うとともに、二要素認証の設定を呼び掛けている。
+
+フィッシング攻撃の基本的な対策
+
+・従業員への教育
+フィッシングのターゲットとなるのは個別の従業員である。そのため、従業員への教育はフィッシング攻撃の予防に不可欠と言える。そして、攻撃の手法は時間を追うとともに新たな手法が開発されるため、定期的に知識をアップデートするための研修も必要だろう。
+
+・ゲートウェイ型のメールセキュリティ対策
+フィッシング攻撃の起点となるメールへの対策は重要となる。ゲートウェイ型のメールセキュリティ対策は不審なメールを自動的にフィルタリングし、攻撃を防ぐ助けとなる。
+
+・不審なメール本文中のURLはクリックしない
+先述のとおり、不審なメールのリンクはクリックしない、そして不審な添付ファイルは開かずに削除することは基本的な対策だが、フィッシング攻撃に対しても有効だ。
+
+・セキュリティソフトを導入する
+近年、攻撃者の手法は巧妙化している。そのため、注意を払っていたとしても騙されてしまう恐れもある。仮にリンクをクリックした場合、その誘導先のWebサイトが不正である場合、セキュリティソフトを導入しておけば、アクセスを遮断するといった対応が自動で行われる。
+
+今回挙げたサイバー攻撃以外にも、多くの手法が存在する。さらに、こうした手法は時間を追うごとに巧妙化している。被害に遭わないための対策はもちろんのこと、仮に被害に遭遇した場合、被害を最小限に抑えるための対策も並行して行う必要があるだろう。事後対策も含めた「多層防御」の観点でセキュリティ対策を講じることが求められている。
+
+「防御」だけでは守り切れない！検知・対処を含めた包括的なセキュリティ対策とは]]></summary>
+        <author>
+            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Adds Eight Known Exploited Vulnerabilities to Catalog]]></title>
+        <id>/node/18811</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/09/18/cisa-adds-eight-known-exploited-vulnerabilities-catalog"/>
+        <updated>2023-09-18T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA has added eight new vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.
+CVE-2022-22265 Samsung Mobile Devices Use-After-Free Vulnerability
+CVE-2014-8361 Realtek SDK Improper Input Validation Vulnerability
+CVE-2017-6884 Zyxel EMG2926 Routers Command Injection Vulnerability
+CVE-2021-3129 Laravel Ignition File Upload Vulnerability
+CVE-2022-31459 Owl Labs Meeting Owl Inadequate Encryption Strength Vulnerability
+CVE-2022-31461 Owl Labs Meeting Owl Missing Authentication for Critical Function Vulnerability
+CVE-2022-31462 Owl Labs Meeting Owl Use of Hard-coded Credentials Vulnerability
+CVE-2022-31463 Owl Labs Meeting Owl Improper Authentication Vulnerability
+These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise. Note: To view other newly added vulnerabilities in the catalog, click on the arrow in the "Date Added to Catalog" column—which will sort by descending dates.
+Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.
+Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Authenticatorの同期機能がフィッシング詐欺の被害を拡大したという話]]></title>
+        <id>https://it.srad.jp/story/23/09/18/1020224/</id>
+        <link href="https://it.srad.jp/story/23/09/18/1020224/"/>
+        <updated>2023-09-18T11:59:00.000Z</updated>
+        <summary type="html"><![CDATA[ビジネスソフトウェア構築プラットフォームを提供する Retool がスピア型のフィッシング攻撃を受けたのだが、Google Authenticator によりその被害が大きくなったそうだ
+(Retool のブログ記事、
+Ars Technica の記事、
+Bleeping Computer の記事)。
+
+複数の Retool 従業員は 8 月 27 日、ユーザーアカウントの問題で健康保険関連の登録が妨げられているといった内容のフィッシング SMS を受信する。社内ログインシステムの Okta への変更が告知された直後であり、社内ポータルに似せた偽の URL が添付されていたそうだ。一人だけ騙された従業員が多要素認証 (MFA) フォームを含む偽ポータルにログインすると、ディープフェイクボイスで社員になりすました偽の IT スタッフから電話がかかってくる。話をする間に従業員は疑いを深めていったものの、結局ワンタイムパスワード (OTP) を教えてしまったという。
+
+OTP を入手したことで攻撃者は自分のデバイスを従業員の Okta アカウントに追加することが可能となり、Google アカウントにもアクセス可能となる。Google は Google Authenticator を複数デバイスで利用可能にする OTP 同期機能を 4 月に追加しており、普通にセットアップすると同期が有効になるよう誘導される。同期を有効にした状態で Google アカウントが侵害されれば、OTP コードもすべて侵害されることになる。
+
+Retool ではさまざまな場面で OTP を使用しており、攻撃者は内部の管理システムにもアクセス可能になったという。これにより、27 の顧客アカウントも乗っ取りの被害にあったとのことだ。
+ すべて読む | ITセクション | Google | セキュリティ |     
+  関連ストーリー： 
+「Google認証システム」がアカウント同期対応に 2023年04月26日 
+Twitter、無料ユーザー向けのSMS経由の2要素認証を19日に終了 2023年02月20日 
+Microsoft Authenticatorの偽拡張機能、Chromeウェブストアで見つかる 2021年05月21日 
+Microsoft、SMSや音声通話による多要素認証をやめてアプリベースの多要素認証への移行を推奨 2020年11月13日 
+Google のトークン認証システム、オープンソースで公開中 2011年03月07日]]></summary>
+        <author>
+            <name>headless</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[最悪のタイミングで詐欺が仕掛けられたら何が起こり得るか]]></title>
         <id>https://gblogs.cisco.com/jp/?p=48739</id>
@@ -24,6 +746,16 @@
         <summary type="html"><![CDATA[eSecurity Planetはこのほど、コンテナに関するセキュリティの重要なポイントを考察して伝えた。コンテナはさまざまな利点をもたらす独自のコンピューティング環境だが、その設計によっては新しい脆弱性や課題を発生させる可能性があるという。]]></summary>
         <author>
             <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft mitigated exposure of internal information in a storage account due to overly-permissive SAS token]]></title>
+        <id>https://msrc.microsoft.com/blog/2023/09/microsoft-mitigated-exposure-of-internal-information-in-a-storage-account-due-to-overly-permissive-sas-token/</id>
+        <link href="https://msrc.microsoft.com/blog/2023/09/microsoft-mitigated-exposure-of-internal-information-in-a-storage-account-due-to-overly-permissive-sas-token/"/>
+        <updated>2023-09-18T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Summary Summary As part of a recent Coordinated Vulnerability Disclosure (CVD) report from Wiz.io, Microsoft investigated and remediated an incident involving a Microsoft employee who shared a URL for a blob store in a public GitHub repository while contributing to open-source AI learning models. This URL included an overly-permissive Shared Access Signature (SAS) token for an internal storage account.]]></summary>
+        <author>
+            <name>Microsoft Security Response Center</name>
         </author>
     </entry>
     <entry>
@@ -11077,148 +11809,6 @@ CISA, NSA, and NIST urge organizations to review the joint factsheet and to begi
         <summary type="html"><![CDATA[米ミシガン大学に所属する研究者らは、後ろからスマートフォンをのぞき見られる行為を防止するためのシステムを提案した研究報告を発表した。]]></summary>
         <author>
             <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[生成AI時代の人材育成に関する座談会のレポートを公開しました]]></title>
-        <id>https://www.ipa.go.jp/jinzai/skill-standard/dss/zadankai.html</id>
-        <link href="https://www.ipa.go.jp/jinzai/skill-standard/dss/zadankai.html"/>
-        <updated>2023-08-20T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「生成AI時代の人材育成に関する座談会」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LINE Payをかたるフィッシングについての注意喚起]]></title>
-        <id>https://eset-info.canon-its.jp/malware_info/news/detail/230821.html</id>
-        <link href="https://eset-info.canon-its.jp/malware_info/news/detail/230821.html"/>
-        <updated>2023-08-20T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[2023年8月16日現在、LINE Payをかたるフィッシングが確認されております。フィッシングサイト上の入力欄には、絶対に情報を入力しないようにお願いします。
-
-このようなフィッシングサイトにて、携帯電話番号、E メールアドレス、パスワード、カード番号、有効期限、セキュリティコード、認証コード等を絶対に入力しないよう、ご注意ください
-
-日頃からサービスへログインする際は、メールや SMS 内のリンクではなく、いつも利用しているスマートフォンの公式アプリやブラウザーのブックマークなどからアクセスするよう、心がけてください。
-
-【メールの件名】
-
-LINEPAY利用に関する重要なお知らせ：お手続きにご協力ください
-LINEPAYからの重要な通知：お取引目的等のご確認をお願いします
-LINEPAYからの重要なお知らせ：ご協力をお願い申し上げます
-LINEPAYからの通知：お客さまのご利用に感謝申し上げます
-LINEPAYの一部機能制限の可能性にご注意ください
-LINEPAYのご利用に関する重要なお知らせ
-LINEPAYの一部機能制限の可能性にご注意ください
-LINEPAYサービスデスクからのお知らせ
-LINEPAYサービスデスクよりお知らせ：お取引目的等のご確認
-LINEPAYサービスデスク：お取引目的等のご確認のお願い
-LINEPAY：お取引目的等のご確認について
-【LINE Pay】アカウントの確認のお願い
-
-※上記以外の件名も使われている可能性があります。
-
-【サイトのURL】
-
-https://rga●●●●.cn/●●●●
-https://hn●●●●.icu/
-https://line●●●●.org/
-
-※上記以外のドメイン、URL も使われている可能性があります。
-※URL にパスやパラメータが付いていることがあります。
-
-2023/8/16 9:00時点では、フィッシングサイトは停止しておりますが、類似のフィッシングサイトが公開される恐れもありますので注意してください。
-このようなフィッシングサイトは日々新規に作成されています。ESET製品は、新規に作成されるフィッシングサイトにも随時対応していきますが、お客さま自身でも十分にご注意ください。
-
-【参考情報】
-
-LINE Payを装うフィッシングサイトにご注意ください
-
- 
-
-
-■ ESET製品における検出例
-
-
-
-※ESET Internet Security V16.0/ESET Mobile Security V7.0でフィッシング対策機能が有効な場合は、図のような通知が表示されます。
-
-
-■ フィッシングメール／フィッシングサイトへの対応
-
-
-
-	フィッシングの可能性があるメールをむやみに開かない。
-	フィッシングの可能性があるメールの添付ファイルをむやみに開かない。
-	メール文中のリンク先URLがフィッシングサイトである可能性を考え、リンク先URLへむやみにアクセスしない。
-	フィッシングの可能性があるサイトにアカウント情報やクレジットカード情報などを入力しない。
-
-
-
-
-キヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。]]></summary>
-        <author>
-            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[シスコ製品のセキュリティアドバイザリ、1週間で17個発行]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20230820-2751919/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20230820-2751919/"/>
-        <updated>2023-08-20T04:29:03.000Z</updated>
-        <summary type="html"><![CDATA[シスコシステムズからここ1週間で17個のセキュリティアドバイザリが発行された。そのうち、5個は深刻度が重要に分類されており注意が必要。シスコ製品については、短期間で複数のセキュリティアドバイザリが発行されることがあるため、掲載されているリストを漏れなくチェックすることが望まれる。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chrome 117、拡張機能の安全確認機能追加へ]]></title>
-        <id>https://security.srad.jp/story/23/08/20/0345217/</id>
-        <link href="https://security.srad.jp/story/23/08/20/0345217/"/>
-        <updated>2023-08-20T04:09:00.000Z</updated>
-        <summary type="html"><![CDATA[Chrome 117 ではインストール済みの拡張機能が Chrome ウェブストアで提供されなくなった場合、ユーザーに通知する機能が追加されるそうだ
-(Chrome Developers のブログ記事、
-Neowin の記事)。
-
-拡張機能が Chrome ウェブストアで提供されなくなる理由としては、開発者が公開を終了・Chrome ウェブストアポリシー違反・マルウェアと判定された、という 3 つのケースに限られる。ポリシー違反の場合は開発者に警告後、修正や異議申立を行うための猶予期間が設けられるが、この間は拡張機能が公開停止になることはない。そのため、ユーザーにも通知が表示されることはなく、問題が解決すれば通知は自動的に消えるとのこと。マルウェアと判定された拡張機能はこれまで通り自動で無効化される。
-
-拡張機能提供中止の理由は Chrome の拡張機能設定画面 (chrome://extensions/) に表示されるが、「プライバシーとセキュリティ」設定画面 (chrome://settings/privacy) の「安全確認」で通知を目にする可能性が高いという。ここでレビューボタンをクリックすれば、拡張機能設定画面に移動して理由を確認したり、削除したりすることが可能だ。この変更は正規の拡張機能に影響を与えることなく、エコシステムの安全を保つことを目指しているそうだ。
- すべて読む | セキュリティセクション | Chrome | セキュリティ | デベロッパー | IT |     
-  関連ストーリー： 
-Google、Chorme 拡張の Manifest V2 終息計画を再び先送り 2023年04月08日 
-Google、Windows 版 Chrome の望ましくないソフトウェア削除機能を廃止 2023年03月11日 
-Chrome拡張機能のGet cookies.txt、スパイウェアに変貌 2023年03月02日 
-Chrome 拡張の Manifest V2 サポートタイムライン更新、1 月の変更はすべて延期 2022年12月10日 
-Google、Chrome 拡張機能の Manifest V2 終息を半年先送り 2022年10月01日 
-Chrome 拡張機能の Manifest V3、未だに利用可能になっていない API も 2022年09月23日 
-Chrome ウェブストア、信頼できる拡張機能を見つけやすくする 2 種類のバッジを表示開始 2022年04月27日 
-Chromeがついにバージョン100に到達 2022年03月31日 
-EFF、Chrome 拡張機能プラットフォームの Manifest V3 に対する批判を強める 2021年12月18日 
-Microsoft Authenticatorの偽拡張機能、Chromeウェブストアで見つかる 2021年05月21日 
-URLから追跡要素を削除する拡張機能 "ClearURLs" がChrome ウェブストアから削除 2021年03月26日 
-Google、マルウェア化したChrome拡張機能をリモートから無効化 2021年02月06日 
-Chromeウェブストア、拡張機能がユーザーから収集するデータに関する情報の表示を1月に開始 2020年11月22日]]></summary>
-        <author>
-            <name>headless</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[全員懲戒 ～ 三人の市職員がのべ967回不正ログイン]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2023/08/20/49833.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2023/08/20/49833.html"/>
-        <updated>2023-08-19T23:05:06.000Z</updated>
-        <summary type="html"><![CDATA[鹿児島県日置市は8月4日、コンピュータの不適正使用による3件の懲戒処分について発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[プライバシーマーク審査員、審査関連資料を漏えい]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2023/08/20/49832.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2023/08/20/49832.html"/>
-        <updated>2023-08-19T23:05:02.000Z</updated>
-        <summary type="html"><![CDATA[一般財団法人日本情報経済社会推進協会（JIPDEC）は8月10日、プライバシーマーク審査関連資料の漏えいについて発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
         </author>
     </entry>
 </feed>
