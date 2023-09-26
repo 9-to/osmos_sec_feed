@@ -1371,6 +1371,16 @@
       "siteUrl": "https://tech-lab.sios.jp",
       "articles": [
         {
+          "id": "https://tech-lab.sios.jp/?p=37143",
+          "author": "前田周哉",
+          "description": "こんにちはサイオステクノロジーの前田です。グループウェアの2台巨頭　Google Workspace と Microsoft Officeに関して公式の生成AIの導入＆利用情報が発表されました。生成AIはChatGPTし [...]\nグループウェアAI動向 Duet AI と Microsoft Copilot first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/37143",
+          "publishedOn": "2023-09-26T02:47:13.000Z",
+          "wordCount": 1809,
+          "title": "グループウェアAI動向 Duet AI と Microsoft Copilot",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2023/09/a96668e1b461b86f2fc6a8e68df59844-e1695694032371.jpg"
+        },
+        {
           "id": "https://tech-lab.sios.jp/?p=37145",
           "author": "佐藤 陽",
           "description": "こんにちはサイオステクノロジーの佐藤 陽です。 今日も今日とて Stripe に関する話題なんですが、今回の記事は完全なる自分のための備忘録です。 バックエンドだけで「カード情報が紐づいた顧客を作成する」方法をメモしてお [...]\n【Stripe】バックエンドで完結！支払方法が紐づいたCustomerの作成方法を紹介 first appeared on SIOS Tech. Lab.",
@@ -1884,6 +1894,16 @@
       "siteUrl": "https://eset-info.canon-its.jp/",
       "articles": [
         {
+          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/190625.html",
+          "author": null,
+          "description": "ビジネスチャットが多くの企業・組織で利用されている中、今なおメールはビジネス上の主要なコミュニケーションツールとして利用されている。そうした状況を狙い、上司や取引先になりすまして詐欺を働くのがビジネスメール詐欺（BEC）だ。この記事では、その手口、実際の事例、そして講じるべき対策について解説する。\n\n本記事は2019年6月25日に掲載した「ビジネスメールへの詐欺（BEC）が蔓延中！？ その対策とは？」に加筆修正をしたものです。\n\n\n\n\n\nビジネスメールの利用動向と詐欺の蔓延\n\n働き方改革やコロナ禍を経て、ビジネスにおけるコミュニケーションツールの利用動向は変化しつつある。例えば、ZoomやTeamsを用いたWeb会議の普及、そしてSlackやLINE WORKS、Chatworkといったビジネスチャットの利用も着実に広がっている。\n\nしかし、メールは今もビジネスで多く利用されていることが、2023年6月に発表された一般社団法人日本ビジネスメール協会による調査でも分かっている。この「ビジネスメール実態調査 2023」によると、業務におけるメールの使用率は98.35%となっており、調査対象の1日平均では送信数が15.24通、受信数が49.97通となっている。\n\n結局のところ、Web会議やビジネスチャットなど新しいコミュニケーションツールが登場したからと言って、メールの役割がなくなったわけではない。それぞれのツールの特性を活かした、ビジネス上のコミュニケーションの最適化が進んでいるとも捉えられる。こうした傾向は当面続くことが見込まれ、今後もメールを悪用したサイバー攻撃が有効なことを意味しているとも言えるだろう。\n\n結果的に、こうした状況はサイバー攻撃者にとって望ましい状況となってしまっている。メールを悪用したサイバー攻撃の代表格として、今なお流行と沈静化を繰り返すEmotetがあるが、ビジネスメール詐欺による被害も一定数に上っている。\n\n\n\n図1：IPAで確認しているビジネスメール詐欺の事例件数\n※引用：ビジネスメール詐欺（BEC）の特徴と対策\n\n\n図1のように、IPAが発行している「ビジネスメール詐欺（BEC）の特徴と対策」における、「IPAへ情報提供されたビジネスメール詐欺事例の統計情報」によると、IPAが情報提供を受けたビジネスメール詐欺の事例数は、2020年に155件と過去最高を記録。2021年以降も一定の事例数が報告されている。\n\nセキュアなコミュニケーションツール！？ビジネスチャットのメリットと運用上の注意点\n\nビジネスメール詐欺の2つの攻撃パターン\n\nビジネスメール詐欺とは言葉のとおり、ビジネスメールを悪用して詐欺を働こうとする手口のことだ。以前から企業・組織を狙う攻撃メールは少なくなかったが、その多くは無作為かつ大量にばら撒かれるものだった。確率論で一定数は手口に引っ掛かることを前提にメールを大量送信し、マルウェア感染や情報漏えい、あるいはワンクリック詐欺やフィッシング詐欺を試みる。\n\n一方、ビジネスメール詐欺ではピンポイントでターゲットを定め、巧妙な手口によって詐欺を仕掛ける。昨今、ビジネスメール詐欺で得られるリターンが大きくなっており、攻撃者は成功確率を上げるための手間を惜しまず、ますます巧妙化している。特定の従業員の業務内容を把握するため、メールサーバーに不正アクセスを行う、あるいはソーシャル・エンジニアリングによって一定の期間、情報収集を行うといった具合だ。こうした準備段階を経て攻撃に至ることから、受信者はメール内容の真偽を判別することが難しいのだ。\n\nまた、攻撃者にとって、人物を特定してメールアドレスを入手することもそれほど難しくない。多くの企業では一定のルールのもとでメールアドレスを設定しているため、氏名や部署といった情報がわかれば推測することも容易だ。ほかにも、名簿業者からも購入できる。展示会などのイベントや営業活動を通じて名刺を多数配布している場合、特定できる可能性も高まっている。すなわち、メールアドレスが犯罪者にも知られていることを前提とした対応が必要ということだ。\n\n先のIPAによる「ビジネスメール詐欺（BEC）の特徴と対策」では、ビジネスメール詐欺を2つのパターンに分類している。1つ目は攻撃者が取引先に偽装し、偽りの請求書を発行するというもの。自社のグループ企業を含む、海外の企業とやり取り、取引している企業で多く確認されている。このパターンは、「偽の請求書詐欺（The Bogus Invoice Scheme）」、「サプライヤー詐欺（The Supplier Swindle）」などとも呼ばれている。\n\n２つ目のパターンは攻撃者が経営者になりすますというものだ。経営者になりすました攻撃者はその企業の社員に対して、攻撃者の口座への入金を促す。その理由を機密案件という口実で、周囲の社員に情報を漏らさずに対処することを指示するのだ。当然ながらメールアドレスなども巧妙に偽装されていることから、一目では判断が付かない。また、攻撃者はターゲットとする企業の内部情報をあらかじめ入念に調査しているため、狙われた社員も信じ込んでしまうほど、巧妙にストーリーを作り上げる。このタイプの詐欺は「企業幹部詐欺（Business Executive Scam）」、「なりすまし詐欺（Masquerading）」などとも呼ばれる。\n\n甚大な被害をもたらすビジネスメール詐欺を阻止するために\n\nビジネスメール詐欺の攻撃ステップ\n\n先述のように、ビジネスメール詐欺を仕掛ける攻撃者は攻撃前段階で入念に準備を行う。攻撃者は段階を追ってターゲットにアプローチを行うが、その手口を段階ごとに紹介する。\n\n１）準備段階におけるアプローチとその手口\n\nビジネスメール詐欺では準備段階での情報収集が攻撃の成否を大きく左右することになる。そのため、攻撃者はあらゆる手を用いて情報収集を試みる。\n\n・マルウェアを用いた情報窃取\n企業で利用されるパソコン、スマートフォン（以下、スマホ）などの端末の内部には機密情報が多く保存されている。マルウェアをそうした端末にインストールさせ、情報の窃取を試みる。また、企業のネットワークに侵入し、社内で利用するサーバーに不正アクセスする、といった手法が検討される場合もあるだろう。\n\n・メールサーバー、アカウントへの不正アクセス\nメールでのやり取りが主要なコミュニケーション手段となっている企業では、攻撃者にとってメールサーバー、アカウントは機密情報の宝庫だと言える。これらへの不正アクセスが成功すれば、機密情報だけでなく、社員や取引先の関係性なども浮かび上がってくる。攻撃者にとってはそれほどの価値があることを強く認識しておくべきだ。\n\n・ソーシャル・エンジニアリング\nSNSの黎明期には、企業の機密情報がSNSを通じて漏えいするという事例がたびたび発生していた。しかし、企業内研修などを通じて、従業員におけるSNSリテラシーは高まっている。そのため、昨今では直接的な情報をSNSで入手するのは攻撃者にとって困難になっているが、攻撃者は時間をかけて執拗にSNSなどをチェックして、断片的な情報を収集・整理して機密情報を探し出すのだ。\n\nまた、近年ではプライベートのSNSアカウントで友達となったアカウントとのコミュニケーションで情報が盗み出されるケースも確認されている。今後も、さまざまな手段を用いて攻撃者は情報窃取を試みるはずだ。くれぐれも、SNSを利用する時には頭の片隅に置いておくようにしたい。\n\n２）攻撃段階におけるアプローチとその手口\n\n攻撃段階では、準備段階の情報を元にして、ターゲットに巧妙な手口で接近を試みる。\n\n・メール文面の引用\n過去のメール文面が引用され、いつものアドレスとほぼ同じメールアドレスから送信されたメールであれば、ほぼ疑うことなくやり取りしてしまうことがほとんどではないだろうか。攻撃者がメールサーバー、アカウントに不正アクセスされ、監視していれば、こうした攻撃も可能となる。\n\n・請求先、入金口座の変更要求\n先述のように、攻撃者がメールのやり取りを監視できる状態にあれば、何らかの支払いが生じる時点でそのやり取りに割り込み、請求先や入金口座を攻撃者の指定先に変更するよう促すことも可能だ。それまでのやり取りを見ていれば、攻撃者にとって適当な理由をでっちあげることも難しくはないだろう。\n\n・秘密の案件としての相談\n自社の経営者や責任者から秘密の相談をされた場合、疑ってかかるのは一般的にハードルが高いものだ。ましてや、メールアドレスなどが完全に偽装されていれば疑念を持つことも少なくないだろう。このようなアプローチを行う攻撃者の場合、事前に経営者やその企業の内情を精緻に調べ上げており、巧みな文面でやり取りが続けば、最初は疑いの目を持っていたとしても信じ込まされてしまう。\n\n・送信元などのメール情報の偽装\nメール本文が本物のようであっても、送信元情報が本来のものと見分けが付けば、騙されることも少ないかもしれない。しかし、攻撃者はメールに表示されるあらゆる情報を巧妙に偽装する。そのため、簡単には見分けが付かないように工夫しているのが、ビジネスメール詐欺の厄介なところだ。\n\nソーシャル・エンジニアリングとは？　複雑化、巧妙化するその手口\n\nビジネスメール詐欺の実例\n\n詐欺メール先進国となっている米国では、図2のようにビジネスメール詐欺による年間被害総額は増加の一途を辿っている。米国の企業にとって大きな脅威となっているが、日本国内の企業にとっても脅威であることに変わりはないはずだ。\n\n\n\n図2：IC3の年次報告書による年間被害額（各年次報告書を基にIPAで作成）\n※引用：ビジネスメール詐欺（BEC）の特徴と対策\n\n\n先述（図1）のように、国内では2020年に過去最高の被害数が報告され、翌年以降は沈静化しているように見られるが、今後もこの状況が続くと考えるのは早計だろう。実際、2022年に発生したビジネスメール詐欺の事例がIPAのWebサイトにも掲載されている。以下に2つの事例を紹介する。\n\n・M&amp;A案件への協力依頼\n東南アジアのグループ企業の役員宛に、国内企業の社長になりすました攻撃者からメールが送り付けられた。その内容はM&amp;A案件への協力ということで早急な返信を要求。メールのやり取りを進める中で、その内容に不審な点が多かったことから、直接電話でコンタクトを取ったところ、詐欺であることが発覚した。後日、なりすました攻撃者から特定の口座への支払いを要求するメールが届いたものの、詐欺であることが判明していたことから振込は行われず、金銭的な被害は生じなかった。\n\n・取引への割り込み\n国内企業と海外企業との間で取引に関してやり取りされていたメールが、攻撃者によって盗み見されてしまった。そのやり取りに攻撃者が割り込み、国内企業、海外企業それぞれの担当者になりすまして口座情報の変更などを企んだ。最終的に、国内企業の担当者が海外企業の担当者のメールアドレスが正規のものでないことを見破り、犯行は未遂に終わった。\n\n従業員へのフィッシング対策研修とは\n\nビジネスメール詐欺への対策\n\n年々巧妙化する詐欺メールの手口。今後はChatGPTなど、生成系AIを悪用した攻撃が行われることも見込まれる。しかし、このような標的型のメール詐欺へ対抗する決定打は存在しないのが実情だ。ユーザーがそれぞれのやり取りに対し、最大限の注意を払うしかない。例えば、特に高額な金銭の振込を行う場合、メールだけで完結すべきではない。ほかにも、以下のような観点で注意を払う必要があるだろう。\n\n・メール以外の手段での連絡・確認\nメールだけでなく、特に送金を行う前には電話やチャットといった別のコミュニケーションツールも併用することで、本人確認や重要な情報の伝達を行うと良いだろう。\n\n具体的には、ファイルを送信する際のパスワードは、メールではなくチャットや電話で伝えるといった方法が挙げられる。銀行の振込先については電話などで確認を取り、急な振込先の変更があった場合は、その都度必ず電話で確認するといった対応も有効だ。十分に注意を払うためにも、ルールに則った運用フローを徹底し、取引先への周知もしておきたい。また、従業員への教育も実施しておく必要があるだろう。\n\n・マルウェア対策\n先述のように、攻撃者は準備段階で入念な情報収集を行う。そして、そのためにマルウェアが用いられることも少なくない。パソコンやスマホなどへのセキュリティソフトの導入に加え、社内ネットワークの通信を常時監視し、不審な動きを検出する、IDS/IPS、NDRなどのソリューションの導入も有効だ。また、脆弱性を突かれないためにも、利用するソフトウェアやOSを常に更新するといった基本的な対策も欠かせない。\n\n・不正アクセス対策\n攻撃者はメールサーバー、アカウントをはじめ、重要な情報が格納されている場所への不正アクセスを試みる。そのため、そうした場所には適切なセキュリティ対策が求められる。サーバーであればファイアウォール、WAFなどのソリューションの利用。アカウントの保護として、認証を強化する二段階認証の採用や、IDや認証管理を行うIDaaSといったソリューションも検討の余地があるだろう。\n\n・メールの電子署名（S/MIME）\nS/MIME（Secure / Multipurpose Internet Mail Extensions）は証明書を用いてのメール暗号化方式であり、メールの暗号化と電子署名に対応するソリューションだ。Outlookなど主要なメールソフトで利用することが可能だ。ビジネスメール詐欺では攻撃者の盗聴、改ざんを防ぐことが重要となる。そのためにも、S/MIMEの利用は選択肢の1つとなり得る。\n\n先述の事例のとおり、攻撃者がメールのやりとりを盗聴していることを前提に対策を講じる必要がある。また、攻撃の手口は現在進行形で悪化しており、今後はこうした詐欺に特化した、生成系AIを用いたソフトウェアが闇マーケットなどに出回る可能性も否定できない。攻撃者による詐欺の手口を把握して備えることも重要だが、仮に攻撃者の術中にはまってしまった場合でも最悪な事態を回避できるよう、複合的な対策を講じることで安全性を高めるようにしたい。\n\nハイブリッドワークで広がるコミュニケーションツールのリスク",
+          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/190625.html",
+          "publishedOn": "2023-09-25T15:00:00.000Z",
+          "wordCount": 240,
+          "title": "ビジネスメール詐欺（BEC）、標的型メールにどう対抗すべきか？[更新]",
+          "imageUrl": "https://eset-info.canon-its.jp/files/topics/2815_ext_01_0.jpg"
+        },
+        {
           "id": "https://eset-info.canon-its.jp/malware_info/term/detail/00205.html",
           "author": null,
           "description": "脅威の監視・検知・対処を包括して委託するアウトソーシングサービス\n\n\n\n\nMDRとは、多層防御によってエンドポイントを保護する事前対策から、インシデントの検知・対応を含めた事後対策まで、その運用を社外のセキュリティ専門家が支援するマネージドサービスのこと。24時間365日体制で高度なスキルを持った人材を社内SOC（Security Operation Center）に配置するのが難しい企業でも、外部の力を借りて脅威に対処できるようになる。\n\nMDRでは一般的に、インシデントの検知からトリアージ、調査・復旧に至る一連のプロセスに対する運用支援を行う。具体的には、エンドポイント保護の初期チューニング、脅威モニタリング、インシデント発生時の初動対応と解析支援、検知・運用レポートの作成などが含まれる。例えば、駆除が困難なマルウェアやランサムウェアに感染した場合にも、専門家の支援により、その影響を軽減できる。\n\n新たな脅威を特定するノウハウやツールによって、検知率を上昇、並びに、誤検知率を低下させ、セキュリティレベルを向上させるのがメリットだ。MDRを担うベンダーによっては、優先度を上げて対応したり、追加でツールの導入・更新を支援したりと、付加的なサービスが提供される場合もある。MDRは、その監視対象によって以下の3つに分類される。\n\nMEDR（Managed Endpoint Detection and Response）\n\n社内ネットワーク内の端末から収集された情報を分析し、侵入した脅威を検知・対応するEDR（Endpoint Detection and Response）、あるいはEPP（Endpoint Protection Platform：エンドポイント保護プラットフォーム）の運用を委任するサービスである。\n\nMNDR（Managed Network Detection and Response）\n\n社内のトラフィックを常時監視し、マルウェアへ対応するNDR（Network Detection and Response）の運用を行うサービスである。\n\nMXDR（Managed Extended Detection and Response）\n\nEDRとNDRを統合し、エンドポイントからネットワークにわたって監視を行うXDR（Extended Detection and Response）の運用をアウトソーシングするサービスである。\n\nベンダーによっては、検知から対応に至る一連のプロセスすべてを委託する「フルマネージド型」MDRと、部分的にサービス提供する「セミマネージド型」MDRが提供されている。そのため、自社の運用体制に基づいて最適なサービスを選択する必要がある。自社とベンダーとの役割分担を明確にした上で、経営層や社外のステークホルダーへの報告といった、委託するのが難しい社内手続きについては、事前にそのプロセスを確認しておくことが推奨される。\n\n高まるサイバー攻撃の巧妙化を受け、未知のマルウェアなどへの対策・対処が困難となる中、疑わしい挙動を素早く検知し、対処する取り組みがより一層重要になっている。監視やインシデント対応のスキルを持った人材を確保するのが難しい企業に対し、MDRは有効なソリューションとして期待されている。",
@@ -2078,14 +2098,14 @@
           "imageUrl": "https://blogs.trellix.jp/wp-content/uploads/2022/09/Door-IoT_eye.jpg"
         },
         {
-          "id": "https://blogs.trellix.jp/?p=20482",
+          "id": "https://blogs.trellix.jp/?p=20746",
           "author": "mcafee_admin",
-          "description": "要旨 2023年7月11日、マイクロソフトは、アクティブに悪用される複数のRCE脆弱性を修正するパッチをリリースし、Storm-0978として特定された攻撃者がヨーロッパと北米の企業をターゲットに行ったフィッシングキャン […]",
-          "link": "https://blogs.trellix.jp/breaking-down-cve-2023-36884-and-the-infection-chain",
-          "publishedOn": "2023-08-27T02:05:05.000Z",
-          "wordCount": 1012,
-          "title": "CVE-2023-36884と感染チェーンの解明",
-          "imageUrl": "https://blogs.trellix.jp/wp-content/uploads/2022/10/ransom22_eye.jpg"
+          "description": "要旨 Emotetは2014年に初めて登場し、2021年初頭に法執行機関が駆除を試みたにもかかわらず、危険で回復力のあるマルウェアであり続けています。Europolによる大規模な駆除活動の後でも、Emotetは時を経ても […]",
+          "link": "https://blogs.trellix.jp/iicymi-emotet-reappeared-early-this-year-unfortunately",
+          "publishedOn": "2023-09-08T00:52:53.000Z",
+          "wordCount": 1752,
+          "title": "ICYMI：Emotetが再び出現",
+          "imageUrl": "https://blogs.trellix.jp/wp-content/uploads/2017/03/Spanish-eye.jpg"
         }
       ]
     },
@@ -2543,6 +2563,16 @@
       "feedUrl": "https://www.cisa.gov/uscert/ncas/current-activity.xml",
       "siteUrl": "https://www.cisa.gov/",
       "articles": [
+        {
+          "id": "/node/18861",
+          "author": "CISA",
+          "description": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.\nCVE-2023-41991 Apple Multiple Products Improper Certificate Validation Vulnerability \nCVE-2023-41992 Apple Multiple Products Kernel Privilege Escalation Vulnerability\nCVE-2023-41993 Apple Multiple Products WebKit Code Execution Vulnerability\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise. Note: To view other newly added vulnerabilities in the catalog, click on the arrow in the \"Date Added to Catalog\" column—which will sort by descending dates.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.\nAlthough BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/09/25/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+          "publishedOn": "2023-09-25T12:00:00.000Z",
+          "wordCount": 701,
+          "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+          "imageUrl": null
+        },
         {
           "id": "/node/18860",
           "author": "CISA",
@@ -3007,6 +3037,16 @@
       "feedUrl": "https://jvn.jp/rss/jvn.rdf",
       "siteUrl": "https://jvn.jp/",
       "articles": [
+        {
+          "id": "https://jvn.jp/vu/JVNVU95549489/",
+          "author": "jvn@jvn.jp",
+          "description": "Panasonicが提供するKW Watcherには、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU95549489/",
+          "publishedOn": "2023-09-26T04:30:00.000Z",
+          "wordCount": 95,
+          "title": "Panasonic製KW Watcherにおける複数の脆弱性",
+          "imageUrl": null
+        },
         {
           "id": "https://jvn.jp/vu/JVNVU95732401/",
           "author": "jvn@jvn.jp",
@@ -3505,6 +3545,16 @@
       "siteUrl": "https://msrc.microsoft.com/blog/",
       "articles": [
         {
+          "id": "https://msrc.microsoft.com/blog/2023/09/journey-down-under-how-rocco-became-australias-premier-hacker/",
+          "author": null,
+          "description": "Fun facts about Rocco:\nMicrosoft MVR: Rocco is a 2023 Microsoft Most Valuable Researcher.\nFitness fanatic: Inspired by old-school body building and countless hours of chopping and carrying wood in the mountains during his youth, Rocco remains a fitness enthusiast, setting himself challenges and pushing his limits.\nOld-school cinema enthusiast: Rocco’s favorite movies are the “Rocky” series, especially “Rocky 2,” and he also has a deep appreciation for the mafia film series “The Godfather.",
+          "link": "https://msrc.microsoft.com/blog/2023/09/journey-down-under-how-rocco-became-australias-premier-hacker/",
+          "publishedOn": "2023-09-25T07:00:00.000Z",
+          "wordCount": 2501,
+          "title": "Journey Down Under: How Rocco Became Australia’s Premier Hacker",
+          "imageUrl": null
+        },
+        {
           "id": "https://msrc.microsoft.com/blog/2023/09/microsoft-mitigated-exposure-of-internal-information-in-a-storage-account-due-to-overly-permissive-sas-token/",
           "author": null,
           "description": "Summary Summary As part of a recent Coordinated Vulnerability Disclosure (CVD) report from Wiz.io, Microsoft investigated and remediated an incident involving a Microsoft employee who shared a URL for a blob store in a public GitHub repository while contributing to open-source AI learning models. This URL included an overly-permissive Shared Access Signature (SAS) token for an internal storage account.",
@@ -3548,6 +3598,26 @@
       "feedUrl": "https://srad.jp/security.rss",
       "siteUrl": "https://security.srad.jp/",
       "articles": [
+        {
+          "id": "https://security.srad.jp/story/23/09/25/1336200/",
+          "author": "nagazou",
+          "description": "国立研究開発法人情報通信研究機構（NICT）は9月21日、業務委託先であるTBSグロウディアが、NICTのセキュリティ人材育成プログラム「SecHack365」の2023年度受講生の情報を含むノートPCを9月16日に紛失したことが判明したと発表した。TBSグロウディアは警察署に遺失届を提出したが、現時点でノートPCは見つかっていない（NICT）。 \n\nこのノートPCにはSecHack365の2023年度受講生の氏名、フリガナ、受講コース・ゼミの情報が保存されている。ただ、情報漏洩対策がされていたため、情報の不正使用の兆候は確認されていないという。情報漏洩対策としては、以下の措置が取られていたという。 \n\n・OSのディスク暗号化機能の有効化とPINによるデータの保護\n・OSへのログインパスワードの長さと複雑さの確保\n・OSへの2段階認証の設定（トークンなどの紛失はない）\n・商用のIT資産管理ツールの導入によるログ管理\n・紛失時にノートPCがシャットダウンし、OSからログオフされていたこと \n\n以上の措置により、情報漏洩の危険性は最小限に抑えられたが、引き続き対策の強化に努めるとしている。\n すべて読む | セキュリティセクション | セキュリティ |     \n  関連ストーリー： \n尼崎市、USBメモリ紛失問題で損害賠償請求へ。市のイメージダウンになった 2022年11月30日 \n名取市、尼崎USB紛失事件を受け、「個人情報データ持ち出しケース」を導入へ 2022年07月04日 \n尼崎市の個人情報USBメモリ流出事件、紛失したのは再々委託先の社員だった 2022年06月28日 \nリモートワーク中の置き忘れ・紛失経験52.2%、会社への報告は13%しかなく 2022年06月28日",
+          "link": "https://security.srad.jp/story/23/09/25/1336200/",
+          "publishedOn": "2023-09-26T08:02:00.000Z",
+          "wordCount": 2003,
+          "title": "NICTの業務委託先がノートPCを紛失、実施されていた情報漏洩対策の詳細を公開",
+          "imageUrl": "https://srad.jp/static/topics/security_64.png"
+        },
+        {
+          "id": "https://security.srad.jp/story/23/09/25/1325234/",
+          "author": "nagazou",
+          "description": "ITmediaの記事によると、2021年にサービスを終了したNTTドコモのウォレットサービス「ドコモ口座」のドメイン「docomokouza.jp」が、購入可能な状態になっていたという。このドメインのリンクが現在でも金融機関などでリンクが掲載されているため、第三者の手に渡ると、詐欺サイトやドコモ口座を模倣したフィッシングサイトが作成されるリスクがある（ITmedia）。 \n\nフィッシングサイトに元々の本物のドメインが使用された場合、ブラウザのセキュリティ機能をすり抜けたり、パスワード管理ツールがIDやパスワードを自動入力したりする危険性も考えられる。このドメインは、ドコモ口座のサービスが終了した後に失効したと考えられ、このオークションは9月25日午後7時15分に終了した。132件の入札があり、最終的に402万円で落札されている（ITmedia）。\n すべて読む | セキュリティセクション | セキュリティ | NTT | インターネット |     \n  関連ストーリー： \nhotmail.comメールアドレス、送信失敗やスパム扱いされるトラブル 2023年08月24日 \n旅行をテーマにしたスパムメール、6割以上が詐欺目的 2023年08月17日 \nX(旧Twitter)の短縮リンク(t.co)、2014年頃より古いデータが参照不可に 2023年08月16日 \nプレミアムフライデーのウェブサイト、ドメイン失効が迫る 2023年08月02日",
+          "link": "https://security.srad.jp/story/23/09/25/1325234/",
+          "publishedOn": "2023-09-26T03:00:00.000Z",
+          "wordCount": 2689,
+          "title": "サービスを終了したNTTドコモのウォレットサービス『ドコモ口座』のドメインがオークションに",
+          "imageUrl": "https://srad.jp/static/topics/ntt_64.png"
+        },
         {
           "id": "https://science.srad.jp/story/23/09/24/0740214/",
           "author": "headless",
@@ -3775,6 +3845,66 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/09/26/49994.html",
+          "author": null,
+          "description": "古くは WannaCry、最近では LockBit など、世界中で猖獗（しょうけつ）を極めるランサムウェアだが、同種のランサムウェアに感染しても、その被害の程度や事業へのインパクトは、企業や組織によって大きく異なる。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/09/26/49994.html",
+          "publishedOn": "2023-09-25T23:15:03.000Z",
+          "wordCount": 1085,
+          "title": "ランサムウェア被害を最小限に留め 事業再開を迅速に ～ サイバーレジリエンスとは？",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42723.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/09/26/49993.html",
+          "author": null,
+          "description": "クレア・オニール内務大臣は昨日、オーストラリアは国のサイバーセキュリティ戦略の一環として「我が国の周囲に 6 つのサイバーシールドを構築する」と表明した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/09/26/49993.html",
+          "publishedOn": "2023-09-25T23:10:02.000Z",
+          "wordCount": 951,
+          "title": "豪規制当局が警告「サイバーセキュリティは完全に経営陣の責務」",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42735.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/09/26/49992.html",
+          "author": null,
+          "description": "南海電気鉄道株式会社は9月20日、7月7日に公表した同社運営のシェアオフィス「Lieffice」公式ウェブサイトへの不正アクセスについて、調査結果を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/09/26/49992.html",
+          "publishedOn": "2023-09-25T23:05:02.000Z",
+          "wordCount": 783,
+          "title": "南海電鉄運営のシェアオフィス「Lieffice」公式サイトへの不正アクセス、顧客情報DBへ到達は不可能なため漏えいはないと判断",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42719.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/09/26/49991.html",
+          "author": null,
+          "description": "株式会社セキュアヴェイルは9月20日、医療機関向けのサイバーセキュリティ対策に特化した「NetStare for Medical」シリーズを10月1日から提供すると発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/09/26/49991.html",
+          "publishedOn": "2023-09-25T23:00:15.000Z",
+          "wordCount": 893,
+          "title": "セキュアヴェイル、医療機関向けセキュリティ対策に特化「NetStare for Medical」",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42730.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/09/26/49990.html",
+          "author": null,
+          "description": "ユービーセキュアは、安心安全なアプリケーション提供を実現するための2023年版最新「スマートフォンアプリケーション開発ガイドライン」を9月1日付でリリースした。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/09/26/49990.html",
+          "publishedOn": "2023-09-25T23:00:11.000Z",
+          "wordCount": 852,
+          "title": "スマホアプリ開発ガイドラインを開発、コンサルサービスとして提供",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/09/26/49989.html",
+          "author": null,
+          "description": "NECは、高専機構が主催する高専女子学生向け「KOSEN SECURITY CAMP FOR GIRLS in KISARAZU」において、NECの女性セキュリティエンジニア3名とのキャリアワークショップや社内のCTF問題を活用したテクニカルワークショップを実施した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/09/26/49989.html",
+          "publishedOn": "2023-09-25T23:00:03.000Z",
+          "wordCount": 936,
+          "title": "NECと高専機構 “セキュ女子” が交流、CTF体験など実施",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42717.jpg"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2023/09/25/49988.html",
           "author": null,
@@ -4973,6 +5103,36 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2309/26/news117.html",
+          "author": null,
+          "description": "2021年に終了した、NTTドコモのウォレットサービス「ドコモ口座」のドメイン「docomokouza.jp」が、「お名前ドットコム」にて出品されていた件について、ドコモは原因を「社内管理の不手際」と説明した。加えて、出品されていたドメインはドコモが取り戻しており、現在同社の管理下にあることも明かした。",
+          "link": "https://www.itmedia.co.jp/news/articles/2309/26/news117.html",
+          "publishedOn": "2023-09-26T03:50:00.000Z",
+          "wordCount": 2437,
+          "title": "「ドコモ口座」のドメイン、ドコモが取り戻す　出品の経緯をGMO含め聞いた",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2309/26/cover_news117.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2309/26/news051.html",
+          "author": null,
+          "description": "カリフォルニア大学サンディエゴ校などに所属する研究者らは、政府や主要な金融機関、報道機関など有名なドメインになりすまして電子メールを送る攻撃を提案した研究報告を発表した。",
+          "link": "https://www.itmedia.co.jp/news/articles/2309/26/news051.html",
+          "publishedOn": "2023-09-25T23:00:00.000Z",
+          "wordCount": 2523,
+          "title": "米国政府から突然メールがきた？　有名ドメインでなりすましメールを送る攻撃　米研究者が発表",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2309/26/cover_news051.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2309/25/news165.html",
+          "author": null,
+          "description": "NTTドコモが2021年にサービスを終了したウォレットサービス「ドコモ口座」のドメイン「docomokouza.jp」が、GMOインターネットのドメイン登録サービス「お名前ドットコム」にて出品されていた件について、オークションが9月25日午後7時15分に終了した。",
+          "link": "https://www.itmedia.co.jp/news/articles/2309/25/news165.html",
+          "publishedOn": "2023-09-25T11:00:00.000Z",
+          "wordCount": 2440,
+          "title": "「ドコモ口座」のドメイン、落札される　402万円で",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2309/25/cover_news165.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2309/25/news138.html",
           "author": null,
           "description": "パスワード管理ツールの定番「1Password」のiOS版が、パスワードレス認証「パスキー」に対応した。",
@@ -5329,6 +5489,106 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1534376.html",
+          "author": null,
+          "description": "大日本印刷株式会社（DNP）は9月25日、メタバース空間「バーチャル秋葉原」内にオープン「警視庁サイバーセキュリティセンター」をオープンした。サイバーセキュリティに関するユーザーの知識を高め、脅威への対処能力向上を目指すとしている。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1534376.html",
+          "publishedOn": "2023-09-26T07:45:00.000Z",
+          "wordCount": 4561,
+          "title": "「警視庁サイバーセキュリティセンター」がバーチャル秋葉原にオープン、脅威への対処能力向上を目指しDNPが実施",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1534/376/01s.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1534360.html",
+          "author": null,
+          "description": "YouTube Japanは、バーチャルシンガー「初音ミク」の誕生16周年を記念し、YouTubeショートにてユーザー参加型オンライン企画「#MikuChallenge 踊ってみた・歌ってみたチャレンジ」を10月2日から開催する。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1534360.html",
+          "publishedOn": "2023-09-26T06:30:00.000Z",
+          "wordCount": 4611,
+          "title": "初音ミク誕生16周年記念企画「踊ってみた・歌ってみた #MikuChallenge（#ミクチャレ）」、YouTubeショートにて開催　YouTube Musicではボカロ曲プレイリストを公開",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1534/360/02.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1534354.html",
+          "author": null,
+          "description": "サンワサプライ株式会社は9月22日、デスクなどにクランプで設置できるUSBポート付き電源タップ「700-TAP047UC-3DBRM」を発売した。直販サイト「サンワダイレクト」での販売価格は5980円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1534354.html",
+          "publishedOn": "2023-09-26T03:45:00.000Z",
+          "wordCount": 4558,
+          "title": "クランプで固定できるUSB Type-C/Aポート付き4口電源タップ「700-TAP047UC-3DBRM」、サンワサプライが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1534/354/00.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1534272.html",
+          "author": null,
+          "description": "厚生労働省およびドコモが運営していた元サイトの有力ドメイン名がオークションに出品され、物議を醸している。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1534272.html",
+          "publishedOn": "2023-09-26T03:02:31.000Z",
+          "wordCount": 4465,
+          "title": "厚労省のCOVID-19サイト、ドコモ口座…相次ぐ有力ドメイン名のオークション出品で物議【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1534/272/yajiuma-watch_4.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1534340.html",
+          "author": null,
+          "description": "株式会社インターネットイニシアティブ（IIJ）は、警察や消防など、公共機関向けの新たなモバイルサービス「IIJ公共安全モバイルサービス」を2024年4月1日から提供開始する。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1534340.html",
+          "publishedOn": "2023-09-26T03:00:00.000Z",
+          "wordCount": 4563,
+          "title": "IIJ、警察・消防など公共機関向けに災害時優先電話対応「IIJ公共安全モバイルサービス」を2024年4月から提供開始",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1534/340/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1534323.html",
+          "author": null,
+          "description": "独立行政法人国民生活センターは9月20日、インターネットで予約したホテルや航空券のトラブルに関する相談が増えているとして、注意喚起を実施した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1534323.html",
+          "publishedOn": "2023-09-26T02:30:00.000Z",
+          "wordCount": 4559,
+          "title": "申込前によく確認を！ ネット予約したホテルや航空券のトラブル増加に国民生活センターが注意喚起",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1534/323/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1534269.html",
+          "author": null,
+          "description": "メディアなどでお決まりとなっている「X（旧Twitter）」という表記を、Xが自ら採用しているのが見つかり、話題になっている。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1534269.html",
+          "publishedOn": "2023-09-26T02:18:10.000Z",
+          "wordCount": 4470,
+          "title": "みんな見つけて！ メディアで多用される「旧Twitter」という表現をXが自ら採用して話題に【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1534/269/yajiuma-watch_2.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/ranking/mousepro/1533539.html",
+          "author": null,
+          "description": "本記事では、マウスコンピューターの法人向けブランド「MousePro」の売れ筋PCを紹介しています。なお、順位、価格、構成は随時変動しており、最新情報はリンク先にてご確認ください。",
+          "link": "https://internet.watch.impress.co.jp/docs/ranking/mousepro/1533539.html",
+          "publishedOn": "2023-09-26T02:00:00.000Z",
+          "wordCount": 4497,
+          "title": "15.6型ノートPC「MousePro Lシリーズ」が人気。DVDスーパーマルチドライブ内蔵、メモリは最大64GBまでカスタマイズ可能【MousePro 売れ筋ビジネスPCランキング ノート編 2023/9/26版】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1533/539/MousePro_L.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/shunlabo/1532330.html",
+          "author": null,
+          "description": "Ubiquitiが販売するUniFiシリーズで、強力なSD-WAN機能「Site Magic」が利用可能になった。UniFi Dream Routerなどの機器から無料で利用でき、設定画面のガイドに従って数クリックするだけで、離れた拠点同士を安全に接続できる。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/shunlabo/1532330.html",
+          "publishedOn": "2023-09-25T21:00:00.000Z",
+          "wordCount": 4671,
+          "title": "SD-WANを手軽に実現！ Ubiquiti「Site Magic」なら2ステップで拠点同士がつながり、専門知識も不要【\"ここ\"がイチ押し！ 旬モノ実験室】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1532/330/001.PNG"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1534108.html",
+          "author": null,
+          "description": "サンワサプライ株式会社は、デスク下に取り付けるマルチホルダー「100-UDS001」を発売した。直販サイト「サンワダイレクト」での販売価格は1380円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1534108.html",
+          "publishedOn": "2023-09-25T08:30:00.000Z",
+          "wordCount": 4551,
+          "title": "デスク下収納を充実させるマルチホルダー「100-UDS001」、サンワサプライが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1534/108/02s.jpg"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/1533969.html",
           "author": null,
@@ -7492,6 +7752,86 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230926-2779361/",
+          "author": null,
+          "description": "IIJは26日、SaaS型の「IIJ統合運用管理サービス(UOM)」に、ルータやファイアウォールなど主要メーカーのネットワーク機器のインベントリ情報を自動収集する機能を追加した。",
+          "link": "https://news.mynavi.jp/techplus/article/20230926-2779361/",
+          "publishedOn": "2023-09-26T07:05:31.000Z",
+          "wordCount": 1583,
+          "title": "IIJ、統合運用管理サービスに機器のインベントリ情報を自動収集する機能を追加",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230926-2779361/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230926-2778864/",
+          "author": null,
+          "description": "Check Point Software Technologiesはこのほど、ラテンアメリカにてバンキング型トロイの木馬「BBTok」の新しい亜種を運用および展開するサイバー攻撃を発見したと報じた。今回発見されたサイバー攻撃は従来の攻撃とは異なり、フィッシングリンクによりコマンド＆コントロールサーバからマルウェアが配布されていることが確認されたという。",
+          "link": "https://news.mynavi.jp/techplus/article/20230926-2778864/",
+          "publishedOn": "2023-09-26T03:21:55.000Z",
+          "wordCount": 1702,
+          "title": "サイバー攻撃者が進化していく様子を間近に観察、Check Point報告",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230926-2778864/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230926-2778784/",
+          "author": null,
+          "description": "Akamai Technologiesは9月21日(米国時間)、ホテル、予約サイト、旅行代理店を標的とするサイバー攻撃キャンペーンの第2の標的はサイトの顧客だとして、注意を呼び掛けた。顧客は正規の連絡方法でメッセージを受け取るため、メッセージを信用してしまうという。",
+          "link": "https://news.mynavi.jp/techplus/article/20230926-2778784/",
+          "publishedOn": "2023-09-26T01:43:52.000Z",
+          "wordCount": 1636,
+          "title": "正規の連絡手段を悪用する新たなフィッシング攻撃に注意",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230926-2778784/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230926-2777037/",
+          "author": null,
+          "description": "企業では、セキュリティ人材に対する高まるニーズとその確保に追われるイタチごっこのような状態になっています。そのループから抜け出すうえで、SASEが有効です。",
+          "link": "https://news.mynavi.jp/techplus/article/20230926-2777037/",
+          "publishedOn": "2023-09-26T01:05:43.000Z",
+          "wordCount": 1759,
+          "title": "セキュリティ人材の不足を解消できるSASEの7つの効果とは",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230926-2777037/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230926-2775995/",
+          "author": null,
+          "description": "9月12日から15日に開催された「TECH+ EXPO for セキュリティ2023」のDay 3「外部公開システムの安全運用」に、Emurasoft Presidentの江村豊氏が登壇。事故対応アワード受賞事例講演として、2014年8月にEmEditorで発生したセキュリティインシデントの内容および発見の経緯、セキュリティインシデント後に講じた具体的な対処方法や得られた教訓などについて語った。",
+          "link": "https://news.mynavi.jp/techplus/article/20230926-2775995/",
+          "publishedOn": "2023-09-26T00:00:00.000Z",
+          "wordCount": 1685,
+          "title": "EmEditorのセキュリティインシデントはどう発覚したのか - 経験者が語る教訓とは",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230926-2775995/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230926-2778779/",
+          "author": null,
+          "description": "Malwarebytesは9月22日（米国時間）、移動体通信サービスを提供するT-Mobileが他人の請求情報とアカウント情報を流出させたと報じた。2023年9月20日(米国時間)にT-Mobileの一部ユーザーが自身のアカウントにログインした際に、別のユーザの請求情報とアカウント情報が表示されているのを確認したという。",
+          "link": "https://news.mynavi.jp/techplus/article/20230926-2778779/",
+          "publishedOn": "2023-09-25T23:51:22.000Z",
+          "wordCount": 1623,
+          "title": "T-Mobileから一部ユーザーの請求情報とアカウント情報が流出",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230926-2778779/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230925-2776886/",
+          "author": null,
+          "description": "Palo Alto Networksはこのほど、サイバー脅威者が偽の概念実証(PoC: Proof of Concept)コードを作成してマルウェアを配布したと報じた。この偽のコードは、CVE-2023-25157で追跡される別の脆弱性に対する概念実証コードを改造したもの。脅威者に対する攻撃の可能性が指摘されている。",
+          "link": "https://news.mynavi.jp/techplus/article/20230925-2776886/",
+          "publishedOn": "2023-09-25T09:20:34.000Z",
+          "wordCount": 1698,
+          "title": "脅威者が脅威者を攻撃、WinRAR脆弱性の偽PoCで同業者を狙う",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230925-2776886/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20230925-2778615/",
+          "author": null,
+          "description": "QNAP Systemsは9月22日(現地時間)、QNAPの複数のプロダクトに脆弱性が存在するとして、注意を呼び掛けた。この脆弱性はすでに対処済み（Resolved）とされている。修正対象となっている脆弱性の深刻度は重要(Important)とされていることから注意が必要。",
+          "link": "https://news.mynavi.jp/techplus/article/20230925-2778615/",
+          "publishedOn": "2023-09-25T08:46:49.000Z",
+          "wordCount": 1742,
+          "title": "QNAPに重要な脆弱性、アップデートを",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20230925-2778615/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20230925-2774920/",
           "author": null,
