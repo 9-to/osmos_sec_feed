@@ -2,10 +2,71 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-09-29T08:11:15.285Z</updated>
+    <updated>2023-09-30T08:09:45.121Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[シスコの複数製品に緊急の脆弱性、CISAが警告]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230930-2781442/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230930-2781442/"/>
+        <updated>2023-09-30T07:06:34.000Z</updated>
+        <summary type="html"><![CDATA[米国CISAは9月28日(米国時間)、シスコシステムズの複数製品に存在する脆弱性について警告を発した。攻撃者がこれらの脆弱性を悪用してシステムの制御権を奪取するリスクがある。1週間で16個のセキュリティアドバイザリが発行または更新され、その中には「緊急」と評価されたものが含まれる。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[QRコードを含むメールに注意、フィッシングメールに悪用される可能性あり]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20230930-2781154/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20230930-2781154/"/>
+        <updated>2023-09-30T04:32:44.000Z</updated>
+        <summary type="html"><![CDATA[Kaspersky Labは9月27日(現地時間)、フィッシングメールでQRコードが悪用される理由について伝えた。通常、メールではリンクを本文に書き込めるため、わざわざQRコードに変換して画像を添付したりHTMLメールに埋め込んだりしない。にもかかわらず、サイバー犯罪者がQRコード悪用する理由はセキュリティソリューションによる検知を回避できる可能性があるからだという。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Shibboleth IdPのログをGrafanaで可視化する]]></title>
+        <id>https://tech-lab.sios.jp/?p=37250</id>
+        <link href="https://tech-lab.sios.jp/archives/37250"/>
+        <updated>2023-09-29T15:35:10.000Z</updated>
+        <summary type="html"><![CDATA[みなさん、こんにちは。サイオステクノロジー武井です。今回はShibboleth IdPのログをGrafanaで可視化してみたいと思います。 Shibboleth IdPとは？ Shibbolethとは大学などでよく使われ [...]
+Shibboleth IdPのログをGrafanaで可視化する first appeared on SIOS Tech. Lab.]]></summary>
+        <author>
+            <name>武井 宜行</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mozilla Releases Security Updates for Multiple Products]]></title>
+        <id>/node/18895</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/09/29/mozilla-releases-security-updates-multiple-products"/>
+        <updated>2023-09-29T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Mozilla has released security updates to address a vulnerability affecting Firefox, Firefox ESR, Firefox Focus for Android, and Firefox for Android. A cyber threat actor can exploit this vulnerability to take control of an affected system.
+CISA encourages users and administrators to review Mozilla’s security advisory (MFSA 2023-44) and apply necessary updates.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[見出しでわかる IT界隈・今週の重要ニュース：全95本［2023/9/21～9/27］]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/weekly/1535419.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/weekly/1535419.html"/>
+        <updated>2023-09-29T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Web更新]ICANN通常理事会(2023年9月10日開催)決議概要を掲載]]></title>
+        <id>https://www.nic.ad.jp/ja/icann/topics/2023/20230929-01.html</id>
+        <link href="https://www.nic.ad.jp/ja/icann/topics/2023/20230929-01.html"/>
+        <updated>2023-09-29T09:32:28.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Threat Actors Exploiting Citrix CVE-2023-3519 to Implant Webshells]]></title>
         <id>/node/18482</id>
@@ -417,6 +478,17 @@ Google、LaMDAを利用する実験的対話型サービス Bard を発表 2023�
         <summary type="html"><![CDATA[地方への移住を考えてはいるものの、仕事や生活環境はどうなんだろう？　果たして移住先でうまくやっていけるのか？　実際のところを知りたいのだけれど、情報収集や仕事探しのやり方が分からない――そんな人は自治体などが主催する移住・転職をテーマにしたイベントに参加してみてはいかがだろうか。]]></summary>
         <author>
             <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Hold onto Your Phone, and Your Wallet – The Top Five Text Scams]]></title>
+        <id>https://www.mcafee.com/blogs/?p=175087</id>
+        <link href="https://www.mcafee.com/blogs/internet-security/hold-onto-your-phone-and-your-wallet-the-top-five-text-scams/"/>
+        <updated>2023-09-28T16:56:24.000Z</updated>
+        <summary type="html"><![CDATA[Getting a text message is a lot like someone calling out your name. It’s tough to ignore. Delivery notifications, messages...
+The post Hold onto Your Phone, and Your Wallet – The Top Five Text Scams appeared first on McAfee Blog.]]></summary>
+        <author>
+            <name>McAfee</name>
         </author>
     </entry>
     <entry>
@@ -6454,6 +6526,16 @@ error-handling update-fault-tolerance</p>
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[ICSCoE中核人材育成プログラム第6期の卒業プロジェクトを2件公開しました]]></title>
+        <id>https://www.ipa.go.jp/jinzai/ics/core_human_resource/final_project/2023/index.html</id>
+        <link href="https://www.ipa.go.jp/jinzai/ics/core_human_resource/final_project/2023/index.html"/>
+        <updated>2023-09-12T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「中核人材育成プログラム 卒業プロジェクト 第6期生」に関する情報です。]]></summary>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[ITパスポート試験（令和5年7月実施）の合格証書は9月12日（火曜日）発送済です]]></title>
         <id>https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pass.html</id>
         <link href="https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pass.html"/>
@@ -11852,419 +11934,6 @@ Kubevela – Workflowとデプロイプロセス first appeared on SIOS Tech. La
         <link href="https://internet.watch.impress.co.jp/docs/news/1527815.html"/>
         <updated>2023-08-31T21:00:00.000Z</updated>
         <summary type="html"><![CDATA[株式会社ウェザーニューズは9月1日、気象情報番組「ウェザーニュースLiVE」にて、地震防災に関する特別番組を配信する。20時より、YouTube、ニコニコ動画、TikTok LIVEなどで無料で視聴できる。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Secret Selfies: Can Phones Take Pictures and Videos of You Without Your Knowledge?]]></title>
-        <id>https://www.mcafee.com/blogs/?p=173116</id>
-        <link href="https://www.mcafee.com/blogs/internet-security/secret-selfies-can-phones-take-pictures-and-videos-of-you-without-your-knowledge/"/>
-        <updated>2023-08-31T15:00:22.000Z</updated>
-        <summary type="html"><![CDATA[It’s a longstanding question: can your phone really take selfies without your knowledge?  The answer is yes, but with a...
-The post Secret Selfies: Can Phones Take Pictures and Videos of You Without Your Knowledge? appeared first on McAfee Blog.]]></summary>
-        <author>
-            <name>Jasdev Dhaliwal</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DX認定制度 認定事業者の公表（2023年9月1日認定適用）]]></title>
-        <id>https://disclosure.dx-portal.ipa.go.jp/</id>
-        <link href="https://disclosure.dx-portal.ipa.go.jp/"/>
-        <updated>2023-08-31T15:00:00.000Z</updated>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【事前相談受付中】2024年度インキュベーションラボ テーマ募集について事前告知を掲載しました]]></title>
-        <id>https://www.ipa.go.jp/digital/architecture/lab/about.html</id>
-        <link href="https://www.ipa.go.jp/digital/architecture/lab/about.html"/>
-        <updated>2023-08-31T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「インキュベーションラボの取り組み」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[デジタル時代の組織・スキル変革ウェビナー2023開催のご案内]]></title>
-        <id>https://www.ipa.go.jp/event/2023/skill-henkaku2023.html</id>
-        <link href="https://www.ipa.go.jp/event/2023/skill-henkaku2023.html"/>
-        <updated>2023-08-31T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「デジタル時代の組織・スキル変革ウェビナー2023」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[新人福田のランサム統計だより：2023年7月号]]></title>
-        <id>https://www.mbsd.jp/research/20230831/blog/</id>
-        <link href="https://www.mbsd.jp/research/20230831/blog/"/>
-        <updated>2023-08-31T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[このブログは私が所属するCIGチームが2023年1月号から毎月公開しているランサムウェアの統計情報からいくつか抜粋してご紹介するブログです。]]></summary>
-        <author>
-            <name>三井物産セキュアディレクション株式会社</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Releases Four Industrial Control Systems Advisories]]></title>
-        <id>/node/18718</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2023/08/31/cisa-releases-four-industrial-control-systems-advisories"/>
-        <updated>2023-08-31T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CISA released four Industrial Control Systems (ICS) advisories on August 31, 2023. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
-ICSA-23-243-01 ARDEREG Sistemas SCADA
-ICSA-23-243-02 GE Digital CIMPLICITY
-ICSA-23-243-03 PTC Kepware KepServerEX
-ICSA-23-243-04 Digi RealPort Protocol
-CISA encourages users and administrators to review the newly released ICS advisories for technical details and mitigations.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA and International Partners Release Malware Analysis Report on Infamous Chisel Mobile Malware]]></title>
-        <id>/node/18719</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2023/08/31/cisa-and-international-partners-release-malware-analysis-report-infamous-chisel-mobile-malware"/>
-        <updated>2023-08-31T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Today, the United Kingdom’s National Cyber Security Centre (NCSC-UK), the United States’ Cybersecurity and Infrastructure Security Agency (CISA), National Security Agency (NSA), and Federal Bureau of Investigation (FBI), New Zealand’s National Cyber Security Centre (NCSC-NZ), the Canadian Centre for Cyber Security (CCCS), and the Australian Signals Directorate (ASD) published a joint Malware Analysis Report (MAR), on Infamous Chisel, a new mobile malware targeting Android devices that has capabilities to enable unauthorized access to compromised devices, scan files, monitor traffic, and periodically steal sensitive information. Infamous Chisel mobile malware has been used in a malware campaign targeting Android devices used by the Ukrainian military.
-Infamous Chisel is a collection of components targeting Android devices that the authoring organizations have attributed to Sandworm, the Russian Main Intelligence Directorate’s (GRU’s) Main Centre for Special Technologies, GTsST. The malware’s capability includes network monitoring, traffic collection, network backdoor access via The Onion Router (Tor) and Secure Shell (SSH), network scanning, and Secure Copy Protocol (SCP) file transfer. 
-The authoring organizations urge cybersecurity defenders to review the malware analysis report for indicators of compromise (IOCs), detection rules, and signatures to determine system compromise. For more information about malware, see CISA’s Malware, Phishing, and Ransomware page. The joint MAR can also be read in full on the NCSC-UK website. Associated files relating to this report can also be accessed via the NCSC's Malware Analysis Reports page. For more information on Russian state-sponsored cyber activity, please see CISA’s Russia Cyber Threat Overview and Advisories webpage.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Warns of Hurricane-Related Scams]]></title>
-        <id>/node/18721</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2023/08/31/cisa-warns-hurricane-related-scams"/>
-        <updated>2023-08-31T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CISA urges users to remain on alert for malicious cyber activity following natural disasters, such as hurricanes, as attackers target disaster victims and concerned citizens by leveraging social engineering tactics, techniques, and procedures (TTPs).
-Social engineering TTPs include phishing, in which threat actors pose as trustworthy persons/organizations—such as disaster-relief charities—to solicit personal information via email or malicious websites. CISA recommends exercising caution in handling emails with disaster-related subject lines, attachments, or hyperlinks. In addition, be wary of social media pleas and texts messages related to severe weather events.
-CISA encourages users to review the following resources to avoid falling victim to malicious cyber activity:
-Federal Trade Commission’s Staying Alert to Disaster-related Scams and Before Giving to a Charity,
-Consumer Financial Protection Bureau's Frauds and scams, and
-CISA’s Using Caution with Email Attachments and Avoiding Social Engineering and Phishing Attacks.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Web更新]ccTLDの登録数を更新　2023年7月分を追加]]></title>
-        <id>https://www.nic.ad.jp/ja/stat/dom/cctld.html</id>
-        <link href="https://www.nic.ad.jp/ja/stat/dom/cctld.html"/>
-        <updated>2023-08-31T10:42:20.000Z</updated>
-        <author>
-            <name>JPNIC Web</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[処理水海洋放出に起因した日本企業へのサイバー攻撃、相次ぐ - 犯行表明も]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20230831-2762079/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20230831-2762079/"/>
-        <updated>2023-08-31T10:39:15.000Z</updated>
-        <summary type="html"><![CDATA[ラックは8月31日、東京電力が福島第一原発の処理水を放出したことを受けて、「嫌がらせ」行為が日本企業を標的としたサイバー攻撃に発展しているとして、注意を呼び掛けた。日本企業はどのような対策を講じるべきか。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[保守契約になくてもベンダーは医療機関にセキュリティ情報を提供すべき？]]></title>
-        <id>https://security.srad.jp/story/23/08/30/1246240/</id>
-        <link href="https://security.srad.jp/story/23/08/30/1246240/"/>
-        <updated>2023-08-31T09:08:00.000Z</updated>
-        <summary type="html"><![CDATA[日本医師会総合政策研究機構（日医総研）が8月24日に公開した「サイバー事故に関し システムベンダーが負う責任:医療DXを推進するために[PDF]」という文書が、SNS上で物議を醸しているようだ。その文章の内容は、医療機関とITベンダーの契約において、サイバー被害の責任をどのように分担するかについての内容。文書は、ベンダーからのリスク説明が不十分だった場合でも、「信義誠実の原則」に基づいて、既知の脆弱性についてベンダーが適切な情報提供を怠った場合、契約に明記されていなくても一定の責任を問うことができるように求めている（日医総研発表文書、上原 哲太郎氏のXポスト、ITmedia、The Key Questions）。 
-
-日医総研によると、保守契約の中に情報提供義務が明記されていないケースが多いという。こうした情報提供義務が明記されていない場合、ベンダー側に責任を問えるケースは「極めて少ない」。日医総研のアンケート調査（全数4件）によると、システムの保守契約において、ベンダーが脆弱性情報などのリスクについて医療機関に知らせる義務を明記している事例はなかったそうだ。実際に脆弱性情報を知らせた事例は1件で、サイバー攻撃による損害の一定割合をベンダーが負担した事例も1件にとどまったとしている。 
-
-この文章に対してSNS上では文章で出す前に、情報提供義務を契約に明記すべきだという意見が多く見られる。ただ過去記事でも取り上げているように医療業界では、ランサムウェアを利用したサイバー攻撃による被害が増加しており、具体的な事例として、徳島県の拠点病院がサイバー攻撃を受けたり、大阪の医療センターが被害を把握できなかったりした例も出ている。とはいえ、医療機関側ではセキュリティ対策に予算が限られており、政府やITベンダーによる支援も必要ではないかといった意見も見られる模様。
- すべて読む | セキュリティセクション | セキュリティ | 医療 |     
-  関連ストーリー： 
-全国280の大規模病院でIDとパスワード使い回しが判明。サイバー攻撃被害の一因に 2023年03月31日 
-昨年ランサムウェア被害に遭った大阪急性期・総合医療センターが復旧 2023年01月13日 
-大阪急性期・総合医療センターがランサムウェア感染、31日から診療が停止 2022年11月02日 
-徳島県の病院のランサムウェア被害、VPN過信でほぼ無防備状態だった 2022年06月21日 
-2月16日以降、サイバー攻撃が最大25倍増との調査結果 2022年03月09日 
-ハッカーが医療業界への攻撃を強めている理由 2016年06月30日]]></summary>
-        <author>
-            <name>nagazou</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[新卒でもわかる！Istioとは？]]></title>
-        <id>https://tech-lab.sios.jp/?p=35957</id>
-        <link href="https://tech-lab.sios.jp/archives/35957"/>
-        <updated>2023-08-31T08:01:56.000Z</updated>
-        <summary type="html"><![CDATA[Istioは、複雑なマイクロサービスアーキテクチャのためのサービスメッシュプラットフォームです。 Istioとは Istioは、マイクロサービスにおける通信やセキュリティ、監視、トラフィック制御を監視します。具体的にはサ [...]
-新卒でもわかる！Istioとは？ first appeared on SIOS Tech. Lab.]]></summary>
-        <author>
-            <name>やまなか</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ヤフーとLINEが“防災の日”特設企画、避難シミュレーションや「LINE安否」体験版など　ユーザーの募金額と同額をヤフーも寄付する「災害復興みらい募金」も実施中]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1527850.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1527850.html"/>
-        <updated>2023-08-31T07:50:00.000Z</updated>
-        <summary type="html"><![CDATA[ヤフー株式会社とLINE株式会社は、「9.1防災の日 #災害に備える」特設サイトを公開し、防災の日にちなんだ複数のコンテンツを公開した。関東大震災から100年の節目にあたる防災の日にちなみ、地震と水害の防災啓発を目的としている。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[サイバー攻撃のインフラを特定して制圧する作戦、その効果は限定的 - JPCERT/CC]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20230831-2761161/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20230831-2761161/"/>
-        <updated>2023-08-31T07:26:56.000Z</updated>
-        <summary type="html"><![CDATA[JPCERTコーディネーションセンター（JPCERT/CC）は8月29日、サイバー攻撃に対抗する防御手段のうち、侵害性の高いoffensiveなオペレーションについて、その手段や効果に関する考察を紹介した。JPCERT/CCはoffensiveなオペレーションだけでは防御として不十分であるとし、他の防衛的手段と組み合わせる必要があると指摘している。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TP-Link、文庫本サイズのWi-Fi 6ルーター「Archer AX23V」をAmazon限定で発売、5980円]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1527786.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1527786.html"/>
-        <updated>2023-08-31T05:45:00.000Z</updated>
-        <summary type="html"><![CDATA[ティーピーリンクジャパン株式会社（TP-Link）は、Wi-Fi 6対応ルーター「Archer AX23V」を9月7日にAmazon.co.jp限定モデルとして発売する。販売価格は5980円。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【Azure Pipelines】Azure FunctionsへDeployするためのyamlファイルを徹底解説【初心者向け】]]></title>
-        <id>https://tech-lab.sios.jp/?p=36109</id>
-        <link href="https://tech-lab.sios.jp/archives/36109"/>
-        <updated>2023-08-31T05:01:42.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは、サイオステクノロジーの佐藤 陽です。 今回も AzureDevOpsのサービスであるAzurePipelinesに関する内容です。 前回はWebAppsへデプロイする内容を徹底解説しました。 今回は、双璧をな [...]
-【Azure Pipelines】Azure FunctionsへDeployするためのyamlファイルを徹底解説【初心者向け】 first appeared on SIOS Tech. Lab.]]></summary>
-        <author>
-            <name>佐藤 陽</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FFRI yarai および FFRI yarai Home and Business Edition における例外条件の不適切な処理の脆弱性]]></title>
-        <id>https://jvn.jp/jp/JVN42527152/</id>
-        <link href="https://jvn.jp/jp/JVN42527152/"/>
-        <updated>2023-08-31T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[株式会社ＦＦＲＩセキュリティが提供する FFRI yarai および FFRI yarai Home and Business Edition、その OEM 製品には、例外条件の不適切な処理の脆弱性が存在します。]]></summary>
-        <author>
-            <name>jvn@jvn.jp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[セイコーソリューションズのルータに緊急の脆弱性、すでに被害発生]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20230831-2761699/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20230831-2761699/"/>
-        <updated>2023-08-31T04:21:37.000Z</updated>
-        <summary type="html"><![CDATA[IPAは8月30日、セイコーソリューションズのLTE対応IoTルータ「SkyBridge」およびPoE対応 Wi-Fiアクセスポイント「SkySpider」に脆弱性が存在するとして、注意を呼び掛けた。対象の脆弱性を悪用されるとシステムの破壊、データ盗用や改ざん、任意の内蔵コマンドの実行などの危険性がある。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[複数枚の領収書などをまとめて読み取れるスタンド型ドキュメントスキャナー「DDDCA30001BK」発売　電子帳簿保存法対応のリネームソフト「命名くん」がバンドル]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1527738.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1527738.html"/>
-        <updated>2023-08-31T04:05:10.000Z</updated>
-        <summary type="html"><![CDATA[株式会社ダダンドールは、複数枚の領収書などをまとめて読み取れるスタンド型ドキュメントスキャナー「DDDCA30001BK」を9月上旬から販売する。同製品には、電子帳簿保存法に対応する株式会社アイ・オー・データ機器のソフト「命名くん」の1年間1台分がバンドルされる。オープンプライスだが、店頭売価は2万9900円と想定されている。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[東武鉄道と日立製作所が生体認証による決済システムを開発]]></title>
-        <id>https://security.srad.jp/story/23/08/30/1321229/</id>
-        <link href="https://security.srad.jp/story/23/08/30/1321229/"/>
-        <updated>2023-08-31T04:05:00.000Z</updated>
-        <summary type="html"><![CDATA[東武鉄道と日立製作所は8月29日、2023年度内に共通プラットフォームを立ち上げて、生体認証を利用した「手ぶら決済」を実現することで合意した。同プラットフォームに個人の属性情報を登録すると、プラットフォームと接続された施設では、スマートフォンやICカードを使うことなく生体認証のみで、キャッシュレス決済やポイント付与、年齢確認などをワンストップで行うことができるようになる（東武鉄道リリース[PDF]、日立製作所リリース、Impress Watch、ITmedia）。 
-
-認証方式は指整脈認証と顔認証の2つの方式が利用できる。スマートフォンのブラウザに表示したQRコードを用いての認証も可能だという。最初に東武ストアに対応するセルフレジを導入する計画。セルフレジは年齢確認にも対応しており、店員による確認無しで酒類などが購入可能（特許出願中）だそうだ。このプラットフォームは将来的には鉄道や他の施設への導入を視野に入れており、社会インフラとしての役割を果たすことを目指しているとのこと。
- すべて読む | セキュリティセクション | テクノロジー | ビジネス | セキュリティ | お金 |     
-  関連ストーリー： 
-1Password、パスワードを不要にする計画 2023年02月12日 
-ゆうちょ銀行、生体認証サービスを終了しスマホのアプリ認証へ移行 2022年11月19日 
-指紋認証や顔認証に続く「歯ぎしり認証」が提案される 2022年04月21日 
-EUで包括的なAI規制案が提案へ。ハイリスクAI技術の利用には事前審査も 2021年04月23日]]></summary>
-        <author>
-            <name>nagazou</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[バッファロー、セキュリティ機能を刷新した8千円台のWi-Fi 6ルーター「WSR-1800AX4P」発売]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1527733.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1527733.html"/>
-        <updated>2023-08-31T03:45:00.000Z</updated>
-        <summary type="html"><![CDATA[株式会社バッファローは、セキュリティ機能「ネット脅威ブロッカー2 ベーシック」を搭載したWi-Fi 6対応ルーター「WSR-1800AX4P」を発売する。9月下旬出荷予定で、市場想定価格は8800円。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[i-PRO 製 VI Web Client における複数の脆弱性]]></title>
-        <id>https://jvn.jp/jp/JVN60140221/</id>
-        <link href="https://jvn.jp/jp/JVN60140221/"/>
-        <updated>2023-08-31T03:00:00.000Z</updated>
-        <summary type="html"><![CDATA[i-PRO株式会社が提供する VI Web Client には、複数の脆弱性が存在します。]]></summary>
-        <author>
-            <name>jvn@jvn.jp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[総務省がヤフーに行政指導、位置情報などをNAVERと試験共有]]></title>
-        <id>https://it.srad.jp/story/23/08/30/1238206/</id>
-        <link href="https://it.srad.jp/story/23/08/30/1238206/"/>
-        <updated>2023-08-31T03:00:00.000Z</updated>
-        <summary type="html"><![CDATA[総務省は8月30日、ヤフーに対して行政指導を実施した。発表文書によると、ヤフーは、Yahoo! JAPANの検索エンジン技術の開発・検証を目的として、NAVERに対して、特定の期間内に検索関連データを提供する試験を実施していた。この際、位置情報などの重要な情報について、事前にユーザー側に周知せずにNAVER社に提供したとされ、その情報の安全管理が不十分であったことが判明したとしている（総務省、ケータイ Watch）。 
-
-提供されたデータのなかには、約410万件の位置情報を含む約756万件のユニークブラウザの検索クエリなどが含まれていた。この間、提供されていた情報はNAVERにより物理的にコピーが可能だったことから、総務省は安全管理措置が不十分だったと指摘している。 
-
-この問題に関して総務省は、利用者に対し、提供される位置情報や利用目的を事前に十分に理解できるよう適切な方法で周知すること、情報提供に同意しない手段を用意すること、NAVERによる位置情報のコピーを物理的に不可能な状態にする措置を講じること、NAVERへの監査体制を構築することなどの対応を求めている。
- すべて読む | ITセクション | セキュリティ | 通信 | IT | Yahoo! | 情報漏洩 |     
-  関連ストーリー： 
-ソフトバンクグループ、「ユーザープライバシーファースト」を基本方針として掲げる 2022年05月28日 
-政府、個人情報保護の規制強化案。個人情報管理責任者の設置を義務付け 2022年02月07日 
-LINE問題で調査員による最終報告書。韓国色を隠す意図があったなどと指摘 2021年10月19日 
-政府、LINE等のサービスで機密情報の取り扱いを決めるガイドライン策定 2021年05月07日]]></summary>
-        <author>
-            <name>nagazou</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CODESYS GmbH製CODESYS Development Systemにおける複数の脆弱性]]></title>
-        <id>https://jvn.jp/vu/JVNVU92007249/</id>
-        <link href="https://jvn.jp/vu/JVNVU92007249/"/>
-        <updated>2023-08-31T02:30:00.000Z</updated>
-        <summary type="html"><![CDATA[CODESYS GmbHが提供するCODESYS Development Systemには、複数の脆弱性が存在します。]]></summary>
-        <author>
-            <name>jvn@jvn.jp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[シニア層におけるLINEの利用率が上昇、メールの利用率を初めて上回る【やじうまWatch】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1527643.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1527643.html"/>
-        <updated>2023-08-31T02:30:00.000Z</updated>
-        <summary type="html"><![CDATA[シニア層のLINE利用率が初めてメール利用率を上回ったことが明らかになった。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[災害時にインターネットがつながらない場合に備えている人は1割程度にすぎないと判明【やじうまWatch】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1527656.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1527656.html"/>
-        <updated>2023-08-31T02:20:48.000Z</updated>
-        <summary type="html"><![CDATA[災害時にインターネットがつながらない場合に備えている人は、全体の1割程度にすぎないことが調査により判明した。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ヤフー、全国を走行中の列車が地図上で動き回る新機能「トレインキャスト」提供開始　700路線・10万超の列車の位置、時刻表に基づき可視化]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1527629.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1527629.html"/>
-        <updated>2023-08-31T02:10:00.000Z</updated>
-        <summary type="html"><![CDATA[ヤフー株式会社は8月31日、乗換検索サービス「Yahoo!乗換案内」のiOS版アプリにて、「路線図」を「公共交通マップ」としてリニューアルした。あわせて、同サービスの提供開始15周年を記念し、全国を走行中の列車の動きをアイコンで地図上に表示する新機能「トレインキャスト」を提供開始した。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[​PTC製Codebeamerにおけるクロスサイトスクリプティングの脆弱性]]></title>
-        <id>https://jvn.jp/vu/JVNVU96671664/</id>
-        <link href="https://jvn.jp/vu/JVNVU96671664/"/>
-        <updated>2023-08-31T00:45:00.000Z</updated>
-        <summary type="html"><![CDATA[PTCが提供するCodebeamerには、クロスサイトスクリプティングの脆弱性が存在します。]]></summary>
-        <author>
-            <name>jvn@jvn.jp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[攻撃者が「Citrix NetScaler」を標的、手口が巧妙になっており要注意]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20230831-2761393/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20230831-2761393/"/>
-        <updated>2023-08-31T00:43:17.000Z</updated>
-        <summary type="html"><![CDATA[The Hacker Newsは8月29日（米国時間）、インターネット上にあるパッチが適用されていないCitrix NetScalerが攻撃者の標的になっていると報じた。この攻撃チェーンには認証されていない第3者によって任意のコードが実行される可能性のある脆弱性「CVE-2023-3519」が含まれているという。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Android狙うバンキング型トロイの木馬「MMRat」が増加中、警戒を]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20230831-2761397/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20230831-2761397/"/>
-        <updated>2023-08-31T00:03:11.000Z</updated>
-        <summary type="html"><![CDATA[Trend Microは8月29日(米国時間)、同社のモバイルアプリケーションレピュテーションサービスチームが東南アジアのAndroidユーザーを標的にしている新しいバンキング型トロイの木馬「MMRat」を発見したとして、注意を喚起した。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[今日もどこかで情報漏えい 第15回「2023年7月の情報漏えい」全件調査 新潟県品質]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2023/08/31/49890.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2023/08/31/49890.html"/>
-        <updated>2023-08-30T23:10:03.000Z</updated>
-        <summary type="html"><![CDATA[今日もどこかで情報漏えいは起きている。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[パソコンの遠隔操作が行われ公用パソコンから個人情報が流出した可能性]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2023/08/31/49889.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2023/08/31/49889.html"/>
-        <updated>2023-08-30T23:05:06.000Z</updated>
-        <summary type="html"><![CDATA[長野県は8月24日、県立高等学校の公用パソコンからの個人情報流出の可能性について発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[湘南ゼミナールの一部サーバにランサムウェア攻撃]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2023/08/31/49888.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2023/08/31/49888.html"/>
-        <updated>2023-08-30T23:05:02.000Z</updated>
-        <summary type="html"><![CDATA[株式会社スプリックスは8月23日、同社子会社の株式会社湘南ゼミナールにおけるランサムウェア被害について発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[東京都が文章生成 AI 利活用のガイドライン公開、活用事例も]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2023/08/31/49887.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2023/08/31/49887.html"/>
-        <updated>2023-08-30T23:00:03.000Z</updated>
-        <summary type="html"><![CDATA[東京都は、都の職員向けに「文章生成AIの利活用に関するガイドライン」を策定、公開した。ChatGPTの利用上のルールを定めるとともに、効果的な活用事例を掲載している。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2402Mbpsに増速で1万円強！の高コスパWi-Fiルータ「RT-AX57」を試す　「当たればもう一台」キャンペーンの対象モデル]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/review/1523009.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/review/1523009.html"/>
-        <updated>2023-08-30T21:55:00.000Z</updated>
-        <summary type="html"><![CDATA[ASUSからWi-Fi 6対応ルーター「RT-AX57」が発売された。本機は実売価格1万円強というエントリー機ながら、Wi-Fiの5GHz帯の速度が2402Mbpsとなり、従来機種から倍増しているのが特徴だ。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[インボイス制度「対応完了」の事業者は3割未満、期限までに対応予定を合わせても4割～MM総研調べ 【インボイス制度に備える】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/column/invoice/1527582.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/column/invoice/1527582.html"/>
-        <updated>2023-08-30T21:50:00.000Z</updated>
-        <summary type="html"><![CDATA[国税庁によると、6月末の時点で、およそ300万の課税事業者のうち、適格請求書発行事業者の登録を済ませたのは8割を超える256万。しかし、インボイス制度に対応するには適格請求書発行事業者の登録だけではなく、ソフトウェアの導入や帳票フォーマットの変更も必要だ。株式会社MM総研（MMRI）が8月21日に発表した「インボイス制度への対応実態調査」の結果によると、適格請求書発行事業者の登録やソフトウェアの導入などを完了し、インボイス制度への対応を完了しているとした事業者は26.8％と、3割以下にとどまるという。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[チューナーレステレビを家族で使いやすく、スマホを使って1人ずつのアカウントを登録しよう【自宅Wi-Fiの“わからない”をスッキリ！】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/column/homewifi/1524956.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/column/homewifi/1524956.html"/>
-        <updated>2023-08-30T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[チューナーレステレビをリビングルームなどに置いて家族で使うときに便利な、複数アカウントの登録をしてみよう。アプリやコンテンツを選んで視聴するチューナーレステレビでは、個人の好みに合わせてホーム画面を切り替えた方が使いやすい。]]></summary>
         <author>
             <name>INTERNET Watch</name>
         </author>
