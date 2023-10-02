@@ -2,10 +2,357 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-10-01T08:09:52.176Z</updated>
+    <updated>2023-10-02T08:12:14.617Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[GoogleがChromeの脆弱性としてCVEに報告していたWebPの脆弱性を改めて報告、却下される]]></title>
+        <id>https://security.srad.jp/story/23/10/01/2215244/</id>
+        <link href="https://security.srad.jp/story/23/10/01/2215244/"/>
+        <updated>2023-10-02T08:03:00.000Z</updated>
+        <summary type="html"><![CDATA[headless 曰く、Google が WebP コーデック (libwebp) のヒープバッファーフロー脆弱性を 9 月 22 日に CVE へ報告したが、CVE-2023-4863 と重複するとして数日後に却下された
+(CVE-2023-5129)。
+
+この脆弱性は libwebp を使用する多数のアプリに影響するものの、Google は CVE-2023-4863 を Google Chrome における WebP の脆弱性として報告した (Internet Archive のスナップショット)。Google はプラットフォームによって WebP の実装が異なるため、Chromium 以外の製品への脆弱性の影響を判断できないなどと説明したが、他の製品が影響を受けないような印象を与えると批判を受けた。
+
+そのため、CVE-2023-5129 は CVE-2023-4863 と同じ脆弱性を libwebp の脆弱性として報告するもので、詳細な動作の説明が添えられていた (Internet Archive のスナップショット)。しかし、CVE では 2 件を重複するものと判断して CVE-2023-5129 を削除。CVE-2023-4863 側は対象に libwebp を追加するのにとどまり、詳細な説明は参照できなくなっている。
+ すべて読む | セキュリティセクション | Chrome | セキュリティ | グラフィック | バグ | Chromium |     
+  関連ストーリー： 
+画像のウォーターマークをAIの力で消すWatermark Remover 2023年02月01日 
+JPEG XL、Google Chromeでの対応は当分先送りか 2022年11月02日 
+SeaMonkey 2.53.5がリリース。WebPとAV1をサポートなどの機能追加 2020年11月20日 
+画像フォーマット「WebP」のリファレンス実装「libwebp、バージョン1になる 2018年05月07日]]></summary>
+        <author>
+            <name>nagazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[フルノシステムズ製無線LANアクセスポイント（STモード利用時）における複数の脆弱性]]></title>
+        <id>https://jvn.jp/vu/JVNVU94497038/</id>
+        <link href="https://jvn.jp/vu/JVNVU94497038/"/>
+        <updated>2023-10-02T06:30:00.000Z</updated>
+        <summary type="html"><![CDATA[株式会社フルノシステムズが提供する無線LANアクセスポイント製品（STモード利用時）には、複数の脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IIJ、マネージドWAFサービスのDDoS対策を標準機能化‐別契約が不要に]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20231002-2783402/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20231002-2783402/"/>
+        <updated>2023-10-02T06:28:10.000Z</updated>
+        <summary type="html"><![CDATA[IIJは2日、「IIJマネージドWAFサービス」で別途契約が必要だったDDoS対策機能を、標準機能として追加費用無しで利用可能にした。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[攻撃グループが発表するプレスリリースの狙いとは]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=49047</id>
+        <link href="https://gblogs.cisco.com/jp/2023/10/talos-threat-source-newsletter-sept-21-23/"/>
+        <updated>2023-10-02T06:15:44.000Z</updated>
+        <summary type="html"><![CDATA[今週も脅威情報ニュースレターをお届けします。私はもともと記者だったこともあり、これまでかなりの数のプレスリリースを目にしてきました。そんな私から見ても、先週ある攻撃グループが発表したプレスリリースのような代物を見たのは間違いなく初めてです。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazonで電子書籍が最大50％OFF！Kindle本読書の秋キャンペーン　4万冊以上が対象。コンピュータ・IT関連書籍も1000冊弱がラインアップ]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1535929.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1535929.html"/>
+        <updated>2023-10-02T06:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Amazon.co.jpのKindleストアでは現在、「Kindle本読書の秋キャンペーン」を開催中だ。4万冊以上が対象となっており、コンピュータ・IT関連書籍も1000冊弱ラインアップ。キャンペーン期間は10月12日までとなっている。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GMOグループ、会社全体のサイバー攻撃リスクを可視化する国産ASMツールを提供]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20231002-2783386/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20231002-2783386/"/>
+        <updated>2023-10-02T06:14:11.000Z</updated>
+        <summary type="html"><![CDATA[GMOサイバーセキュリティ byイエラエは10月2日、自社が保有するWebサイトやネットワーク機器を洗い出し、定期的なセキュリティ診断を行うことで会社全体のサイバー攻撃リスクを可視化する「GMOサイバー攻撃 ネットde診断 エンタープライズプラン」を、同日より提供開始したことを発表した。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[パナソニック、「CEATEC 2023」に5年ぶり出展。「GREEN IMPACT」への取り組みを紹介]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1535924.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1535924.html"/>
+        <updated>2023-10-02T05:45:00.000Z</updated>
+        <summary type="html"><![CDATA[パナソニックグループは、10月17日～20日に幕張メッセで開催される「CEATEC 2023は」に、5年ぶりに出展することを発表し、展示内容について説明を行った。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[トピックス]IPレジストリシステムおよびJPIRRシステム10月のメンテナンスに伴うサービス一時停止のお知らせ]]></title>
+        <id>https://www.nic.ad.jp/ja/topics/2023/20231002-01.html</id>
+        <link href="https://www.nic.ad.jp/ja/topics/2023/20231002-01.html"/>
+        <updated>2023-10-02T04:45:06.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Black Hat USA 2023 注目発表 1 ～ プライバシー関連の発表紹介]]></title>
+        <id>hatenablog://entry/820878482963340041</id>
+        <link href="https://engineers.ffri.jp/entry/2023/10/02/121058"/>
+        <updated>2023-10-02T03:10:58.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+基礎技術研究部リサーチ・エンジニアの加藤です。
+例年夏に開催される Black Hat USA が今年も開催されました。本ブログでも毎年注目発表を紹介しており、本記事では近年注目を集めているプライバシーに関連する発表を紹介します。
+Black Hat USA 2023 では、Privacy トラックの発表が 4 つありました。この内、2023 年 8 月末時点で発表スライドやホワイトペーパーが公開されている次の 3 つを取り上げます。
+Know Thy Enemy: The Taxonomies That Meta Uses to Map the Offensive Privacy Space
+The Yandex Leak: How a Russian Search Giant Uses Consumer Data
+Civil Cyber Defense: Use Your Resources to Defend Non-Profits as They Combat Human Trafficking and Subvert Authoritarian Regimes
+Know Thy Enemy: The Taxonomies That Meta Uses to Map the Offensive Privacy Space
+最初に紹介するのは Meta の Privacy Red Team による、プライバシーに対する攻撃や脆弱性の分類に関する発表です。Meta と言えば、Facebook や Instagram、Threads といった SNS を運営する世界有数の IT 企業であり、膨大な個人情報を管理しています。そういった背景からか、プライバシーに対しては特に力を入れており、昨年の Black Hat USA においてもプライバシーに対する Red T…]]></summary>
+        <author>
+            <name>FFRIエンジニアブログ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[医薬品医療機器等法対応医薬品等電子申請ソフトにおける XML 外部実体参照 (XXE) に関する脆弱性]]></title>
+        <id>https://jvn.jp/jp/JVN39596244/</id>
+        <link href="https://jvn.jp/jp/JVN39596244/"/>
+        <updated>2023-10-02T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[厚生労働省が提供する医薬品医療機器等法対応医薬品等電子申請ソフトには、XML 外部実体参照 (XXE) に関する脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Twitterの終了をテーマとした「Twitterなき世界」を描く小説集、11月に発刊決定【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1535852.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1535852.html"/>
+        <updated>2023-10-02T02:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Twitterの終了をテーマとした小説集が11月に発刊される。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iPhone 15、モバイルバッテリーにつなぐと逆にモバイルバッテリー側が充電されるトラブル？【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1535845.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1535845.html"/>
+        <updated>2023-10-02T02:40:00.000Z</updated>
+        <summary type="html"><![CDATA[USB Type-Cポートの搭載で注目されている新型iPhone「iPhone 15」シリーズで、USB Type-C接続のモバイルバッテリーが利用できないトラブルが相次いで報告されているという。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Blog記事]プライベート用途TLDについてのアドバイザリ -SAC113の紹介-]]></title>
+        <id>https://blog.nic.ad.jp/2023/9261/</id>
+        <link href="https://blog.nic.ad.jp/2023/9261/"/>
+        <updated>2023-10-02T02:00:04.000Z</updated>
+        <summary type="html"><![CDATA[前回に引き続き、ICANNが公開している技術政策文書シリーズの中からSAC113 SSAC Advisory on Private-Use TLDsを紹介します。SAC113はICANNのSSACから公開されている、プライベート用途TLDについて運用的・管理的および登録上の側面からの助言を行う文書です。]]></summary>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[0サイズのフォント使った斬新なフィッシング詐欺が発見される]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20231002-2780428/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20231002-2780428/"/>
+        <updated>2023-10-02T01:46:21.000Z</updated>
+        <summary type="html"><![CDATA[SANS Internet Storm Centerはこのほど、ZeroFontフィッシングの新しい手法を発見したと伝えた。2018年にAvananによって文書化されたZeroFontフィッシングと似て非なる斬新な方法で攻撃が行われたという。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iPhoneの画面をテレビにミラーリングする方法は？　連載「ミラーリングとかの基礎知識」の記事に注目集まる【アクセスランキング】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/ranking/1535780.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/ranking/1535780.html"/>
+        <updated>2023-10-02T01:32:00.000Z</updated>
+        <summary type="html"><![CDATA[前週に閲覧数の多かった記事を、カテゴリーごとに上位5位までレポートします。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【注目記事】インボイス制度開始で何が変わる？ 請求書の様式と、もう1つは……？　マンガと図解でよくわかる 解説本の著者＆税理士が本音対談]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/readitnow/1535654.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/readitnow/1535654.html"/>
+        <updated>2023-10-02T01:10:21.000Z</updated>
+        <summary type="html"><![CDATA[「今すぐ読みたい注目記事」コーナーでは、過去に掲載した記事の中から、「今読んでほしい記事」を再紹介しています。記事内容は掲載当時のもので、最新の状況とは異なる場合もあります。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2023年8月に発覚したWordPressの脆弱性とパッチ情報公開、Sucuri]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20231002-2781740/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20231002-2781740/"/>
+        <updated>2023-10-02T00:50:34.000Z</updated>
+        <summary type="html"><![CDATA[Sucuriは9月28日(米国時間)、2023年8月に発覚したWordPressの脆弱性およびセキュリティパッチの情報を公表した。8月には25の脆弱性が特定され、セキュリティリスクの内訳は「重要」8件、「警告」14件、「低」3件となっている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Firefoxに緊急の脆弱性、他の製品で悪用を確認 - すぐ更新を]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20231002-2782295/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20231002-2782295/"/>
+        <updated>2023-10-02T00:20:53.000Z</updated>
+        <summary type="html"><![CDATA[Mozillaは9月28日(米国時間)、FirefoxとThunderbirdに存在する緊急の脆弱性「CVE-2023-5217」を公表した。この脆弱性はlibvpxに関連し、悪意のあるVP8メディアストリームを用いて攻撃が可能とされている。影響を受けるプロダクトに対してセキュリティアップデートが配布されており、速やかにアップデートを適用することが推奨されている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[徳島のホワイトハッカー もうひとつの四半世紀 ～ ティエスエスリンク]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/10/02/50018.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/10/02/50018.html"/>
+        <updated>2023-10-01T23:15:03.000Z</updated>
+        <summary type="html"><![CDATA[百年に一度の大雪のため取材を断念せざるを得なかった徳島のセキュリティ企業ティエスエスリンク社もまた、その四半世紀にならんとする社史は負けず劣らず波乱に富んでいる。晴天の青空よりは風雪の日が多かったはずだ。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「運用のトレンドマイクロ」再発見、良い EDR 運用サービスの条件とは？]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/10/02/50017.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/10/02/50017.html"/>
+        <updated>2023-10-01T23:10:02.000Z</updated>
+        <summary type="html"><![CDATA[セキュリティベンダ各社が提供する EDR / XDR 製品等が、検知能力や機能の面で互いに大きな差がなくなりつつあることによって、それ以外の性能として、運用面での使い勝手や便利さが重要な比較項目になっている]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[観光庁公表 IR 関連資料、一部の黒塗りが適切に処理されず]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/10/02/50016.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/10/02/50016.html"/>
+        <updated>2023-10-01T23:05:03.000Z</updated>
+        <summary type="html"><![CDATA[観光庁は9月26日、同庁のホームページで公表した資料で黒塗りが適切に処理されていなかったと発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[中国語話者標的のマルウェア エコシステム拡大 ～ Proofpoint 調べ]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/10/02/50015.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/10/02/50015.html"/>
+        <updated>2023-10-01T23:00:07.000Z</updated>
+        <summary type="html"><![CDATA[日本プルーフポイント株式会社は9月20日、サイバー犯罪の脅威に中国製マルウェアが本格的に参入したと発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WEBCAS の WOW WORLD が「DMARC/25 Analyze」の販売で TwoFive と提携]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/10/02/50014.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/10/02/50014.html"/>
+        <updated>2023-10-01T23:00:03.000Z</updated>
+        <summary type="html"><![CDATA[株式会社 TwoFiveは9月27日、「DMARC/25 Analyze」の販売で株式会社WOW WORLDと業務提携したと発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ショッピングの代金、「○○ペイで返金します」という新手の詐欺に、国民生活センターが注意喚起　LINEの友だち登録を指示し、だまして送金させる事例]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1535546.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1535546.html"/>
+        <updated>2023-10-01T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[独立行政法人国民生活センターは、ネットショッピングで商品を購入した消費者が、販売業者から「決済アプリ（○○ペイ）を使って返金する」と言われ、いつのまにか送金させられてしまう、という詐欺について、新手の詐欺であるとして注意喚起を行った。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dropboxを悪用した新しいビジネスメール詐欺に注意]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20231002-2781743/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20231002-2781743/"/>
+        <updated>2023-10-01T22:29:05.000Z</updated>
+        <summary type="html"><![CDATA[Check Point Software Technologiesは9月28日（米国時間）、Dropboxを使用したビジネスメール詐欺を確認したとして、注意を呼び掛けた。Dropboxから直接送られてくるメールから攻撃が始まるとされる。メールおよびメールに記載されたリンク先はどちらも正規のDropboxのもので、この時点で脅威を認識することは困難だ。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[生成AIの機能向上が進む――ChatGPT、Bard、Alexa ほか【中島由弘の「いま知っておくべき5つのニュース」2023/9/21～9/27】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/curation/1535615.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/curation/1535615.html"/>
+        <updated>2023-10-01T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[生成AIが目と耳と口を持った。OpenAIはChatGPTに音声機能や画像機能を追加した。音声で会話したり、画像とメッセージを使ってやり取りしたりといったことが可能となる。「ChatGPT PlusおよびEnterpriseのユーザー向けに今後2週間ほどで提供予定」とされる（PC Watch）。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「議事録作成にAIを使った自動文字起こしが便利すぎる!! なので操作をもっと簡単にしてみた」――急遽テレワークを導入した中小企業の顛末記（159）【急遽テレワーク導入！の顛末記】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/teleworkstory/1534445.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/teleworkstory/1534445.html"/>
+        <updated>2023-10-01T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[先日は会社で行われたミーティングの議事録を、文字起こしAI「Whisper」を使って作成した。これがかなり便利だったので、引き続き会議や取材の録音データのテキスト化に利用している。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CEATEC 2023会場でJEITAが学生向け展示、昨年話題の「半導体産業人生ゲーム」もパワーアップ　JEITA 半導体フォーラム 2023]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1535500.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1535500.html"/>
+        <updated>2023-10-01T21:30:00.000Z</updated>
+        <summary type="html"><![CDATA[一般社団法人電子情報技術産業協会（JEITA）は、10月17日～20日に幕張で開催されるCEATEC　2023会場内で、「JEITA 半導体フォーラム 2023」を実施する。2022年に話題になった「半導体人生ゲーム」もパワーアップするという。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IIJ、10GbE×2ポート搭載の「SEIL」法人向けルーター提供開始。「フレッツ 光クロス」などにも対応　クラウド利用でトラフィックが増大する拠点間接続を想定]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1535554.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1535554.html"/>
+        <updated>2023-10-01T21:15:00.000Z</updated>
+        <summary type="html"><![CDATA[株式会社インターネットイニシアティブ（IIJ）は、SEILアプライアンスシリーズの新たなラインアップとして、10ギガビット対応の法人向けルーター「CA10」の提供を9月28日に開始した。2つの10GbEポートを備えており、それぞれWAN・LANに割り当てることにより最大10Gbpsのネットワーク構築が可能。クラウドの利用拡大でトラフィックが増大する企業の拠点間ネットワーク接続に最適だとしている。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[初めてでもできる！ 自宅PCのGPUを「Google Colab」から使い、生成AIをカンタンに動かす方法【イニシャルB】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/shimizu/1531958.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/shimizu/1531958.html"/>
+        <updated>2023-10-01T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[大規模言語モデル（LLM）に画像生成、ボイスクローニング、そしてこれらを組み合わせたマルチモーダルと、いろいろな生成系AIを家庭用PCのGPUでも試せる時代が到来した。ただし、簡単に使えるといっても、実行環境を用意しなければならず、この点が入門者にとっての高いハードルとなっている。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DX認定制度 認定事業者の公表（2023年10月1日認定適用）]]></title>
+        <id>https://disclosure.dx-portal.ipa.go.jp/</id>
+        <link href="https://disclosure.dx-portal.ipa.go.jp/"/>
+        <updated>2023-10-01T15:00:00.000Z</updated>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[攻撃者がGitHubリポジトリをこっそりと改ざん、マルウェアに変更される]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20231001-2781612/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20231001-2781612/"/>
+        <updated>2023-10-01T11:48:17.000Z</updated>
+        <summary type="html"><![CDATA[Checkmarxはこのほど、サイバー攻撃者がGitHubの依存関係管理ツール「Dependabot」の自動コミットに偽装したコミットログでリポジトリを侵害したと報じた。偽装したコミットログで開発者をだますことで、侵害の発見を回避しようとしたとみられている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[トロイの木馬を配布する偽のパスワードマネージャに注意]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20231001-2781149/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20231001-2781149/"/>
+        <updated>2023-10-01T09:47:36.000Z</updated>
+        <summary type="html"><![CDATA[Proofpointはこのほど、パスワードマネージャ「Bitwarden」の偽のインストールパッケージを介してマルウェア「ZenRAT」が配布されているとして、注意を呼び掛けた。ZenRATは主にWindowsユーザーを標的とした情報窃取機能を備えたモジュール型のトロイの木馬とされる。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2023年版 WordPress 年次アンケートに参加して、WordPress の未来に声を届けよう]]></title>
         <id>https://ja.wordpress.org/?p=6867</id>
@@ -5228,6 +5575,15 @@ API初心者が紹介するOpenWeatherMapAPI first appeared on SIOS Tech. Lab.]]
         <summary type="html"><![CDATA[2023 Asia Pacific Regional Internet Governance Forum (APrIGF 2023)が、オーストラリア・クイーンズランド州ブリスベンで2023年8月29日から31日にかけて開催されました。JPNICのスタッフも参加しましたので、APrIGF 2023の模様をご報告します。]]></summary>
         <author>
             <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[標準化部会主催オンラインセミナー「ゼロトラストと標準化」基調講演、講演4、講演5、パネルディスカッションをYouTube JNSAChannelで公開しました。]]></title>
+        <id>https://www.youtube.com/watch?v=uagob4jjC0g</id>
+        <link href="https://www.youtube.com/watch?v=uagob4jjC0g"/>
+        <updated>2023-09-15T06:00:00.000Z</updated>
+        <author>
+            <name>特定非営利活動法人 日本ネットワークセキュリティ協会（JNSA）</name>
         </author>
     </entry>
     <entry>
@@ -11325,34 +11681,6 @@ Google Apps Script（GAS）でスプレッドシートを新規作成 first appe
         <summary type="html"><![CDATA[Sucuriは8月31日(米国時間)、2023年8月に明らかになったWordPressの脆弱性とセキュリティパッチに関する情報を公開した。報告には21個の脆弱性が掲載され、それぞれには緩和策が提案されている。脆弱性のセキュリティリスクレベルは「緊急」が2項目、「重要」が4項目、「警告」が12項目、「低」が3項目となっている。]]></summary>
         <author>
             <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[英教育省、強化された軽量気泡コンクリートを含む教室等の使用中止を勧告、イングランドの104校に影響]]></title>
-        <id>https://security.srad.jp/story/23/09/02/0229226/</id>
-        <link href="https://security.srad.jp/story/23/09/02/0229226/"/>
-        <updated>2023-09-02T02:49:00.000Z</updated>
-        <summary type="html"><![CDATA[英教育省は 8 月 31 日、強化された軽量気泡コンクリート (RAAC) に対する安全対策が行われていない教育機関の建物について、イングランドでの使用中止を勧告する新ガイダンスを発表した
-(ガイダンス、
-ニュースリリース、
-The Education Hub の記事、
-The Guardian の記事)。
-
-RAAC は教育機関の建物で 1950 年代から 1990 年代半ばにかけて用いられており、この期間に建設または増改築された学校などの建物には例外なく含まれているという。英政府ではこのような建物の危険性を認識して対策を進めてきたが、最近の状況から未対策の RAAC を含む場所を使用し続けるべきではないと判断したとのこと。
-
-イングランドでは 156 の学校で RAAC が用いられているが、安全対策が行われているのは 52 校に過ぎない。ただし、残り 104 校でも全面閉鎖が必要になるわけではなく、中には教室単位での使用中止で済むものもあるとのことだ。
- すべて読む | セキュリティセクション | 英国 | セキュリティ | 教育 | 政府 |     
-  関連ストーリー： 
-英教育省支給のノートPC、プリインストールのマルウェアで注目される 2021年01月28日 
-珪藻土製品から基準超のアスベストが検出、ニトリはバスマットなど240万個を回収へ 2020年12月23日 
-古い校舎へのエアコン設置を高騰化させる電気容量不足、弱い構造、隠蔽配管ルール 2018年07月25日 
-ドイツ連邦ネットワーク庁、リモートから周囲の音を聞くことのできる子供向けスマートウォッチを禁止 2017年11月19日 
-YouTubeで自分の子供の動画を公開することは安全か 2015年09月25日 
-1980年代製のAmiga、ミシガン州の公立学校19校の冷暖房を現在も制御 2015年06月14日 
-小学校で鉛筆の持ち込みを禁止 @ マサチューセッツ州 2010年11月26日 
-壁から剥離せずにアスベストを無害化 2008年01月24日]]></summary>
-        <author>
-            <name>headless</name>
         </author>
     </entry>
 </feed>
