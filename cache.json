@@ -1306,6 +1306,46 @@
       "siteUrl": "https://tech-lab.sios.jp",
       "articles": [
         {
+          "id": "https://tech-lab.sios.jp/?p=37336",
+          "author": "細川",
+          "description": "はじめに 皆さんこんにちは。PSSLの2年目エンジニアの細川です。 今回は短めの記事ですが、VSCodeのTodo Treeという拡張機能に関するtipsを共有しようと思います。 Todo Treeとは Todo Tre [...]\nvscodeの拡張 Todo Treeで認識してくれないコメント中のTODOも認識させる方法 first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/37336",
+          "publishedOn": "2023-10-03T07:49:15.000Z",
+          "wordCount": 1648,
+          "title": "vscodeの拡張 Todo Treeで認識してくれないコメント中のTODOも認識させる方法",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2023/10/4c85c234076325c638e2c305400f29d6.jpg"
+        },
+        {
+          "id": "https://tech-lab.sios.jp/?p=37213",
+          "author": "前田周哉",
+          "description": "こんにちはサイオステクノロジーの前田です。AI導入の波がPCのOSにも導入される時代が来ました。Windows11 にCopilot in Windows　という形で導入されます。本記事ではWindowsのAIで一番最初 [...]\nOSにもAI導入 Copilot in Windows first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/37213",
+          "publishedOn": "2023-10-03T02:06:03.000Z",
+          "wordCount": 1766,
+          "title": "OSにもAI導入 Copilot in Windows",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2023/10/46478a062b400d35749750149dc6e560-e1696297240486.jpg"
+        },
+        {
+          "id": "https://tech-lab.sios.jp/?p=37241",
+          "author": "nha",
+          "description": "こんにちは。サイオステクノロジーの塙です。 前回は、KubeVelaのWorkflowとデプロイプロセスについて紹介しました。 今回は、Kubevelaを使用してAzure OpenAIと連携する手段を試してみたいと思い [...]\nKubeVela  – Azure OpenAI(ChatGPT)との統合 first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/37241",
+          "publishedOn": "2023-10-03T01:45:13.000Z",
+          "wordCount": 2045,
+          "title": "KubeVela  – Azure OpenAI(ChatGPT)との統合",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2023/08/kubevela_icon.png"
+        },
+        {
+          "id": "https://tech-lab.sios.jp/?p=37299",
+          "author": "tina",
+          "description": "はじめに サイオステクノロジーの佐々木千奈です。CORSについて復習したのでまとめ直しました。 自分の今までのCORSについての認識は、なんとなく、別のサーバーからのリクエストを受け付けない設定を行うもの、みたいな認識だ [...]\nCORSについて簡単に説明する first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/37299",
+          "publishedOn": "2023-10-03T01:09:13.000Z",
+          "wordCount": 1743,
+          "title": "CORSについて簡単に説明する",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2023/10/366017e1086c13e0845fd5b94980ddb1.jpg"
+        },
+        {
           "id": "https://tech-lab.sios.jp/?p=37250",
           "author": "武井 宜行",
           "description": "みなさん、こんにちは。サイオステクノロジー武井です。今回はShibboleth IdPのログをGrafanaで可視化してみたいと思います。 Shibboleth IdPとは？ Shibbolethとは大学などでよく使われ [...]\nShibboleth IdPのログをGrafanaで可視化する first appeared on SIOS Tech. Lab.",
@@ -1769,6 +1809,16 @@
       "siteUrl": "https://eset-info.canon-its.jp/",
       "articles": [
         {
+          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/231003.html",
+          "author": null,
+          "description": "Windows 10/11には標準でWindowsセキュリティと呼ばれるセキュリティ対策機能が搭載されている。果たして、このWindowsセキュリティだけでパソコンのセキュリティ対策は十分なのだろうか？この記事では、Windowsセキュリティの基本的な機能と、セキュリティベンダーが提供するセキュリティソフトとの違いについて解説する。\n\n\n\n\n\nWindowsセキュリティとは\n\nWindowsセキュリティとは、Windows 10/11に標準で搭載されているセキュリティ機能の総称である。以前は、Windows Defender セキュリティセンターと呼ばれていた。\n\nそのルーツはWindows XPに搭載されていたスパイウェア対策ソフト「Windows Defender」であるが、Windows 8でマイクロソフト社が無償で提供していたウイルス対策ソフトである「Microsoft Security Essentials」が「Windows Defender」と統合されたことで、総合型セキュリティソフトとほぼ同等の機能を備えるようになった。\n\nその後、新たな機能追加や名称の変更などが行われたが、2023年時点では「Windowsセキュリティ」と呼ばれるようになっている。なお、Windowsセキュリティとは別にMicrosoft 365の有償ユーザー向けとして、Microsoft Defenderも存在する。\n\nWindows Defenderを無効にすることで何が起こるのか？\n\nWindowsセキュリティの機能\n\n統合型セキュリティソフトと同等の機能を有するとされるWindowsセキュリティには、主に以下7つの機能が搭載されている。\n\n１）ウイルスと脅威の防止\n\nセキュリティ機能の中核となるもので、デバイスへの脅威を監視する。定期的にシステムのスキャンを実行し、マルウェアの検出・削除を行う。また、パソコンのOS自体がルートキットなどに汚染されている可能性がある場合は、通常の手段でマルウェアを削除することは難しいが、「Microsoft Defenderオフラインスキャン」により、OSを起動せずにオフラインスキャンを行い、脅威を排除することが可能だ。\n\n２）アカウントの保護\n\nパスワードの管理やWindows Hello、デバイスロックなどの機能を設定できる。Windows Helloでは顔認証や指紋認証などの生体認証を利用できるため、IDとパスワードによる認証よりも強固なセキュリティを実現できる。また、デバイスロックではキー操作によるロックのほか、ペアリングしたデバイスがパソコンから離れると自動的にロックをかける動的ロックも利用できる。\n\n３）ファイアウォールとネットワーク保護\n\n外部からの不正なアクセスを遮断するパーソナルファイアウォール機能に関する設定を行う。Windowsセキュリティのパーソナルファイアウォール機能では、ネットワークを「ドメインネットワーク」、「プライベートネットワーク」、「パブリックネットワーク」の3種類に分け、それぞれファイアウォールの設定が可能だ。また、受信ルールや送信ルール、接続セキュリティ規則を細かく設定し、監視ログを確認することもできる。\n\n４）アプリとブラウザーコントロール\n\n危険性のあるアプリ、ファイル、Webサイト、ダウンロードファイルからデバイスを保護できる機能であり、「Microsoft Defender SmartScreen」を設定することが可能だ。また、脆弱性を悪用したエクスプロイト攻撃からの保護も設定できる。\n\n５）デバイスのセキュリティ\n\nデバイスに搭載されているハードウェアによるセキュリティ機能の設定を行う。CPUに搭載されているコア分離機能やメモリ整合性、暗号化を強化するセキュリティ プロセッサ（TPM：Trusted Platform Module）の設定、ルートキットが読み込まれることを防ぐセキュアブートの設定が可能だ。\n\n６）デバイスのパフォーマンスと正常性\n\nストレージの残容量やバッテリー駆動時間など、デバイスの正常性をチェックできる。デバイスの正常性でチェックできる項目は、「ストレージ容量」、「アプリとソフトウェア」、「バッテリー駆動時間」、「Windowsタイムサービス」の4つで、定期的にチェックしておくと安心できる。\n\n７）ファミリーのオプション\n\n子供に対するアクセス制限を行うことができる。教育上、不適切なWebサイトだけでなく、アプリやゲームをブロックすることやデバイスの利用時間の制限、Microsoft Storeでの購入に利用できる金額の管理が可能だ。\n\nWindows 10のマシンにウイルス対策ソフトは不要か？\n\nMicrosoft Defenderの機能\n\n先述のように、有償のMicrosoft 365ユーザー向けには別途セキュリティ機能が用意されている。Microsoft 365とは、もともとOffice 365と呼ばれるサブスクリプションのオフィススイートにセキュリティ機能や業務効率化のためのツールが付加され、2020年に名称変更されたサービスだ。現在では個人向け、法人向けともにMicrosoft 365の名称で統一され、個人向けの追加セキュリティ機能はMicrosoft Defenderとして提供される。主な機能は以下のとおりだ。\n\n１）マルウェア対策\n\nユーザーが利用する端末のバックグラウンドに常駐し、定期的にデバイスのスキャンを行うことでマルウェアを検出する。マルウェアが検出された場合、ユーザー向けに通知が表示されるため、ユーザーは駆除を承認、あるいは手動で対応することが求められる。\n\n２）有害なWebサイトへのアクセス遮断\n\nフィッシング詐欺と疑われるWebサイトをはじめ、危険性が過去に認められたWebサイトへユーザーがアクセスしようとする場合、このWeb保護機能がアクセスを遮断する。\n\n３）ID情報の盗難監視\n\n近年、何かしらの方法で盗み出されたID情報は闇マーケットにて販売されることが少なくない。Microsoft DefenderではID盗難防止などを支援するエクスペリアン社と提携し、パブリックなインターネット、ダークウェブ双方で情報が流出していないかをチェックする。\n\n４）統合的なデバイス保護\n\nMicrosoft Defenderでは、ユーザーごとに最大5台のデバイスを保護することが可能だ。統合的に管理することで、保有するデバイスのセキュリティ状態を網羅的にチェックできる。\n\n総合型のセキュリティソフトが必要とされる理由\n\nWindowsセキュリティでは、すでに解説したように複数のセキュリティ機能を備えており、OSのバージョンアップに伴い機能も年々強化されている。加えて、Microsoft Defenderも提供されていることから、Windows 10/11にはセキュリティベンダーが提供する有償のセキュリティソフトは必要ないという意見もある。しかし、有償の総合セキュリティソフトには、Windowsセキュリティにはない3つの特長がある。\n\n１）総合的なセキュリティ対策\n\n有償の総合セキュリティソフトは、迷惑メールやフィッシング詐欺対策、ネットバンキング保護、ホームネットワーク保護、パスワードマネージャー、Webカメラ保護など、より広範囲にわたるセキュリティ対策機能を提供する。Windowsセキュリティで提供されるセキュリティ対策は、有償の総合セキュリティソフトの機能と比較すると限定的となる。\n\n２）高度なウイルス検出エンジン\n\nセキュリティベンダーが提供している総合セキュリティソフトは、機械学習や振る舞い検知、サンドボックスを利用した高度なウイルス検出エンジンを搭載する。そのため、修正パッチが公開される前にその脆弱性を突いて攻撃を行う、「ゼロデイ攻撃」への対処も期待される。\n\n３）利用時のサポート\n\n有償オプション扱いの場合も多いが、総合セキュリティソフトでは何か困ったことがあった際に、ユーザーが電話やメールで個別サポートを受けることが可能だ。Windowsセキュリティの場合は、基本的にフォーラムの掲示板に書き込み、返信を待つことになり、必ずしも回答が得られるとは限らない。\n\nこのように、Windowsセキュリティがあっても、より強固な対策を行いたい場合や、利便性を重視する場合、あるいはITスキルに自信があまりないユーザーや、セキュリティを高めたい場合、有償の総合セキュリティソフトを導入するメリットは大きいと言える。\n\nセキュリティソフトはやっぱり必要と言い切れる3つの理由\n\nMicrosoft 365の法人向けセキュリティ機能\n\nWindowsセキュリティに加え、マイクロソフト社のサブスクリプションサービス「Microsoft 365」を契約することで、Microsoft 365を利用できるのは先述のとおりだ。加えて、法人向けとしてセキュリティ機能が強化されるサービスも存在する。\n\n法人向けでは、サブスクリプションの月額費用によって利用できるセキュリティ機能が異なり、自社に必要なセキュリティ機能に応じたプランを選択できる。以下に、法人向けMicrosoft 365で提供されるセキュリティ機能を紹介する。\n\n多要素認証による不正アクセス防止\n\nID/パスワードだけでなく、電話やSMS、モバイルアプリによる多要素認証を利用できるため、なりすましによる不正アクセスの抑制に寄与する。\n\nデータ転送時の暗号化\n\nMicrosoft 365では、データの保存時に暗号化を行い、サーバー上のデータを保護する。さらに、SSL/TLSを利用し、ユーザーとサーバー間で送信されるデータを保護するため、安全性が高まる。\n\nマルウェア対策\n\nEOP（Exchange Online Protection）と呼ばれる高度なセキュリティ機能により、メールを保護し、ランサムウェアやスパイウェアからシステムを守ることができる。また、クラウドストレージのSharePoint Onlineにもマルウェア検知機能が搭載されており、ファイルをアップロードする際もマルウェアを検出する。さらに、万一ランサムウェアの被害に遭った場合でも、回復策が用意されているため安心だ。\n\nアクセス制限による不正防止\n\n管理者がアプリケーション・ユーザー・グループといった単位でアクセス制限をかけることが可能であり、不正を防止できる。Exchange Onlineは、グローバルIPアドレスで接続制限がかけられるため、社内からのアクセスだけを許可することも可能だ。\n\nデータの損失を防ぐDLP\n\n予期せぬトラブルによってデータの破壊・損失・流出を防止するDLP（Data Loss Prevention）により、クレジットカード番号やマイナンバーなどの機密情報が共有されないように設定できる。\n\nOffice 365 Advanced Threat Protection\n\nランサムウェアをはじめとする各種マルウェアや有害なリンクからユーザーを保護する、クラウドベースのメールフィルタリングサービスを利用できる。AIを利用し、危険なメールを高い精度で検出する。\n\nMicrosoft Intune\n\n統合的なエンドポイント管理プラットフォームであり、企業が貸与している端末や従業員がBYODによって業務に使っている端末を管理し、常にセキュリティを最適な状態に保つことができる。また、iOSやAndroid、Windows、macOSといった異なるOSのデバイスも一元的に管理できる。\n\nWindows 10/11に標準搭載されているWindowsセキュリティとMicrosoft 365のセキュリティ機能を組み合せることで、法人では総合的なセキュリティ対策を低コストで実現できる。ただし、個人向けMicrosoft 365を利用していたとしても、Windowsセキュリティに新たなセキュリティ機能が付加されるわけではないことに注意が必要だ。\n\n安全なセキュリティ対策、充実したサポート体制を求めるのであれば、セキュリティベンダーが提供する有償の総合セキュリティソフトの導入を検討してほしい。",
+          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/231003.html",
+          "publishedOn": "2023-10-02T15:00:00.000Z",
+          "wordCount": 273,
+          "title": "Windowsセキュリティとは？セキュリティソフトはもう必要ないのか？",
+          "imageUrl": "https://eset-info.canon-its.jp/files/topics/4391_ext_01_0.jpg"
+        },
+        {
           "id": "https://eset-info.canon-its.jp/malware_info/malware_topics/detail/malware2308.html",
           "author": null,
           "description": "7月と8月の概況\n\n2023年7月（7月1日～7月31日）と8月（8月1日～8月31日）にESET製品が国内で検出したマルウェアの検出数の推移は、以下のとおりです。\n\n\n\n国内マルウェア検出数*1の推移\n(2023年3月の全検出数を100%として比較)\n\n*1 検出数にはPUA (Potentially Unwanted/Unsafe Application; 必ずしも悪意があるとは限らないが、コンピューターのパフォーマンスに悪影響を及ぼす可能性があるアプリケーション)を含めています。\n\n\n2023年7月と8月の国内マルウェア検出数は、2023年6月と比較して減少しました。検出されたマルウェアの内訳は以下のとおりです。\n\n国内マルウェア検出数*2上位（2023年7月・8月）\n\n\n\t\n\t\t\n\t\t\t順位\n\t\t\tマルウェア名\n\t\t\t割合\n\t\t\t種別\n\t\t\n\t\t\n\t\t\t1\n\t\t\tJS/Adware.Agent\n\t\t\t34.7%\n\t\t\tアドウェア\n\t\t\n\t\t\n\t\t\t2\n\t\t\tHTML/Phishing.Agent\n\t\t\t11.2%\n\t\t\tメールに添付された不正なHTMLファイル\n\t\t\n\t\t\n\t\t\t3\n\t\t\tDOC/Fraud\n\t\t\t8.8%\n\t\t\t詐欺サイトのリンクが埋め込まれたDOCファイル\n\t\t\n\t\t\n\t\t\t4\n\t\t\tJS/Adware.TerraClicks\n\t\t\t8.2%\n\t\t\tアドウェア\n\t\t\n\t\t\n\t\t\t5\n\t\t\tJS/Adware.Sculinst\n\t\t\t3.6%\n\t\t\tアドウェア\n\t\t\n\t\t\n\t\t\t6\n\t\t\tHTML/Fraud\n\t\t\t2.3%\n\t\t\t詐欺サイトのリンクが埋め込まれたHTMLファイル\n\t\t\n\t\t\n\t\t\t7\n\t\t\tJS/Agent\n\t\t\t2.2%\n\t\t\t不正なJavaScriptの汎用検出名\n\t\t\n\t\t\n\t\t\t8\n\t\t\tMSIL/TrojanDownloader.Agent\n\t\t\t1.5%\n\t\t\tダウンローダー\n\t\t\n\t\t\n\t\t\t9\n\t\t\tWin32/Exploit.CVE-2017-11882\n\t\t\t1.3%\n\t\t\t脆弱性を悪用するマルウェア\n\t\t\n\t\t\n\t\t\t10\n\t\t\tHTML/Phishing\n\t\t\t1.3%\n\t\t\t詐欺を目的とした不正なHTMLファイル\n\t\t\n\t\n\n\n*2 本表にはPUAを含めていません。\n\n\n▼各月の内訳をご覧になりたい方は、こちらをクリックしてください。\n\n▼各月の内訳をご覧になりたい方は、こちらをタップしてください。\n\n\n\n国内マルウェア検出数*2上位（2023年7月）\n\n\n\n\t\n\t\t\n\t\t\t順位\n\t\t\tマルウェア名\n\t\t\t割合\n\t\t\t種別\n\t\t\n\t\t\n\t\t\t1\n\t\t\tJS/Adware.Agent\n\t\t\t36.2%\n\t\t\tアドウェア\n\t\t\n\t\t\n\t\t\t2\n\t\t\tDOC/Fraud\n\t\t\t11.9%\n\t\t\t詐欺サイトのリンクが埋め込まれたDOCファイル\n\t\t\n\t\t\n\t\t\t3\n\t\t\tHTML/Phishing.Agent\n\t\t\t9.5%\n\t\t\tメールに添付された不正なHTMLファイル\n\t\t\n\t\t\n\t\t\t4\n\t\t\tJS/Adware.TerraClicks\n\t\t\t7.9%\n\t\t\tアドウェア\n\t\t\n\t\t\n\t\t\t5\n\t\t\tHTML/Fraud\n\t\t\t3.2%\n\t\t\t詐欺サイトのリンクが埋め込まれたHTMLファイル\n\t\t\n\t\t\n\t\t\t6\n\t\t\tJS/Adware.Sculinst\n\t\t\t2.1%\n\t\t\tアドウェア\n\t\t\n\t\t\n\t\t\t7\n\t\t\tWin32/Exploit.CVE-2017-11882\n\t\t\t1.4%\n\t\t\t脆弱性を悪用するマルウェア\n\t\t\n\t\t\n\t\t\t8\n\t\t\tJS/Agent\n\t\t\t1.3%\n\t\t\t不正なJavaScriptの汎用検出名\n\t\t\n\t\t\n\t\t\t9\n\t\t\tMSIL/TrojanDownloader.Agent\n\t\t\t1.0%\n\t\t\tダウンローダー\n\t\t\n\t\t\n\t\t\t10\n\t\t\tHTML/Phishing\n\t\t\t1.0%\n\t\t\t詐欺を目的とした不正なHTMLファイル\n\t\t\n\t\n\n\n\n国内マルウェア検出数*2上位（2023年8月）\n\n\n\n\t\n\t\t\n\t\t\t順位\n\t\t\tマルウェア名\n\t\t\t割合\n\t\t\t種別\n\t\t\n\t\t\n\t\t\t1\n\t\t\tJS/Adware.Agent\n\t\t\t33.2%\n\t\t\tアドウェア\n\t\t\n\t\t\n\t\t\t2\n\t\t\tHTML/Phishing.Agent\n\t\t\t12.8%\n\t\t\tメールに添付された不正なHTMLファイル\n\t\t\n\t\t\n\t\t\t3\n\t\t\tJS/Adware.TerraClicks\n\t\t\t8.5%\n\t\t\tアドウェア\n\t\t\n\t\t\n\t\t\t4\n\t\t\tDOC/Fraud\n\t\t\t5.7%\n\t\t\t詐欺サイトのリンクが埋め込まれたDOCファイル\n\t\t\n\t\t\n\t\t\t5\n\t\t\tJS/Adware.Sculinst\n\t\t\t5.0%\n\t\t\tアドウェア\n\t\t\n\t\t\n\t\t\t6\n\t\t\tJS/Agent\n\t\t\t3.2%\n\t\t\t不正なJavaScriptの汎用検出名\n\t\t\n\t\t\n\t\t\t7\n\t\t\tMSIL/TrojanDownloader.Agent\n\t\t\t2.0%\n\t\t\tダウンローダー\n\t\t\n\t\t\n\t\t\t8\n\t\t\tHTML/Phishing\n\t\t\t1.7%\n\t\t\t詐欺を目的とした不正なHTMLファイル\n\t\t\n\t\t\n\t\t\t9\n\t\t\tHTML/Fraud\n\t\t\t1.5%\n\t\t\t詐欺サイトのリンクが埋め込まれたHTMLファイル\n\t\t\n\t\t\n\t\t\t10\n\t\t\tWin32/Exploit.CVE-2017-11882\n\t\t\t1.3%\n\t\t\t脆弱性を悪用するマルウェア\n\t\t\n\t\n\n\n*2 本表にはPUAを含めていません。\n\n\n\n7月と8月に国内で最も多く検出されたマルウェアは、JS/Adware.Agentでした。\nJS/Adware.Agentは、悪意のある広告を表示させるアドウェアの汎用検出名です。Webサイト閲覧時に実行されます。\n\nWebサーバーに対する侵害\n\n2023年8月1日に、IPAより「【注意喚起】インターネット境界に設置された装置に対するサイバー攻撃について～ネットワーク貫通型攻撃に注意しましょう～」*3という記事が公開されました。「企業や組織のネットワークとインターネットとの境界に設置されるセキュリティ製品の脆弱性が狙われ、ネットワーク貫通型攻撃としてAPT攻撃に利用されている」という趣旨の記事です。攻撃者によるネットワーク内部への侵入を許してしまった場合、バックドアの設置やWebサーバーの改ざんといった被害に遭ってしまいます。\nまた、サイバーセキュリティラボでは、独自にセキュリティインシデントの情報を収集しています。それによると、2023年7月・8月にも国内のWebサーバーに対する改ざん被害が複数発生しており、ユーザーのパスワードやクレジットカード情報が窃取されるインシデントも確認されています。\n\n*3 【注意喚起】インターネット境界に設置された装置に対するサイバー攻撃について～ネットワーク貫通型攻撃に注意しましょう～ | IPA 独立行政法人情報処理推進機構\n\nこうしたWebサーバーへの侵害は、Webサイトの画像やテキストの改ざんなど目に見える被害が発生するまで、なかなか気づくことができません。\nこうした背景を踏まえ、今月のマルウェアレポートでは、Win32/Chopperを例にWebサーバーに対して設置されるバックドアの実例と対策について紹介します。\n\nWin32/Chopperの概要\n\nWin32/Chopperは攻撃対象のWebサーバーにあらかじめ設置されたバックドアに対し、さまざまな指令を与えるために使用されるマルウェアです。Win32/Chopperを使用することで、攻撃者はWebサーバーに対するファイルのアップロードやダウンロード、システムコマンドの実行を容易に行うことができます。これはつまり、バックドアの設置を許してしまった場合、攻撃者の任意のタイミングでWebページの改ざんや機密情報の閲覧が可能となってしまうことを意味します。\nWin32/Chopperで悪用されるバックドアは、ASP/Webshell.DDなど複数の検出名で検出されます。与えられた文字列をプログラムのコードとして評価し実行するeval関数を用いて、Webサーバー側で任意のコードを実行させる非常にシンプルな仕組みとなっており、Webページ内に設置されたわずか1行のコードがバックドアとして機能します。\n攻撃者がバックドアを通じてWebサーバーに指示を出す様子を以下に示します。\n\n\n\n攻撃者がWebサーバーに指示を出す様子\n\n\nWin32/Chopperは2012年ごろから悪用が報告されており、2021年には大規模な攻撃キャンペーンで使用されたことが確認されています。*4\n\n*4 China Chopper Webシェルを使用したMicrosoft Exchange Serverに対する攻撃の分析 | Palo Alt Networks\n\nWin32/Chopperの動作\n\nバックドアが設置されたWebサーバーに対し、Win32/Chopperがどのように指示を出すのかを解説します。 攻撃対象としてテスト用のIIS（Internet Information Services）サーバーを用意し、そのサーバー内にバックドアとして機能するaspxファイルを設置しました。ネットワーク内の別のパソコンでWin32/Chopperを実行し、テスト用のIISサーバーに対し指示を送ります。\n\nWin32/Chopperを実行すると以下のような画面が表示されます。この画面から、設定された攻撃対象のWebサーバーを一覧で確認することができます。\n\n\n\nWin32/Chopper実行時の画面\n\n\nWin32/Chopperの機能をいくつか確認します。\nまず、ファイル操作を行う機能です。攻撃対象のWebサーバーを選択し、右クリックで表示されるメニューから「Files Management」を実行すると、以下のような画面が表示されます。\n\n\n\nWebサーバーのファイル構造が表示された画面\n\n\n表示されているのは、Webサーバー内のフォルダーとファイルです。左側にフォルダー構造が表示され、右側に選択したフォルダー内のファイルが表示されています。Webサーバーの権限設定が正しく行われていない場合、以下に示す動作を攻撃者に許してしまう可能性があります。\n\n\n\tインターネットに公開していないファイルの閲覧\n\tファイルの改ざん、アップロード、削除\n\n\n次に、システムコマンドの実行を試します。Win32/Chopperでは、攻撃対象のWebサーバーを選択してターミナルを呼び出すことができます。\n\n\n\n攻撃対象のWebサーバーからpingコマンドを実行する様子\n\n\n呼び出したWebサーバーのターミナルからpingコマンドを実行する様子を上の画像に示しました。Webサーバーが日本語環境で動作しているためか文字化けしていますが、pingコマンドは正しく実行されていることがわかります。\n攻撃者による任意の外部サーバーへの接続など、システムコマンドが実行されることによって発生する可能性のある被害は多岐にわたります。\n\nWin32/Chopperの特徴\n\nWin32/ChopperはWebサーバーに対して操作を行う際に、POST通信を使用します。\n\n\n\nバックドアが設置されたページにPOST通信が行われている様子\n\n\n上の画像は、Win32/Chopperを実行しているパソコン（192.168.236.120）からWebサーバー（192.168.236.100）に対して操作を行う様子をWireSharkで確認したものです。赤枠で示したように、バックドアが設置されたページに対してPOST通信が行われています。\n\n\n\nWin32/Chopperが送るPOST通信\n\n\nWin32/Chopperが送るPOST通信の中身の一部を上に示しました。この通信では、Webサーバーでnetstatコマンドを実行させ、TCPコネクションの状態を表示させています。Webサーバーに対する命令はBase64形式でエンコードされており、内容を読むためにはデコードする必要があります。\nPOST通信はWin32/Chopperが操作を行うたびに発生するため、上記のようにBase64形式でエンコードされた不審なPOST通信がWebサーバーに対して複数回行われていた場合、バックドアの存在を疑う必要があります。\n\nバックドアによる被害を受けないために\n\nWin32/Chopperなどバックドアを利用するマルウェアによる被害を受けないために何より大切なことは、バックドアを設置させないことです。攻撃者はサーバーに侵入する際に、機器やソフトウェアの脆弱性を悪用したり、無害を装ったファイルを実行させたりします。ネットワークや各種ソフトウェア、機器のログをチェックし、異常を検知できる体制を整えてください。\nまた、既知のバックドアの多くは、セキュリティソフトによって検知されます。Webサーバーのセキュリティソフトは常に最新を保つようにしてください。仮にバックドアの設置を許してしまったとしても、被害が発生する前にバックドアを削除できる可能性があります。\n\nこれらの対策を実施しても、バックドアが設置されてしまうことがあります。そうした場合の被害を最小にするために、以下のような対策も必要です。\n\n\n\tWebサーバー内のファイルに対するアクセス権限を正しく設定する\n\tWebサーバー内のファイルが改ざんされていないか定期的にチェックする\n\t使用している機器、ソフトウェアの脆弱性情報を収集する\n\n\nWebサーバー内のファイルに対するアクセスを制限することで、ファイルの改ざんを防ぎ、被害の範囲を抑えることができます。\nまた、バックドアの存在に早期に気づくために、定期的なファイルのチェックや使用している機器、ソフトウェアの脆弱性情報の収集を行ってください。例えば、今回紹介したWin32/ChopperはPOST通信が多数発生するという特徴があります。そうした個々の動作の特徴を把握することで、見逃してしまいがちな痕跡に気づくことができます。\n\nまとめ\n\n今月のマルウェアレポートでは、Webサーバーに設置されるバックドアの実例と対策について紹介しました。Webサーバーに対して設置されたバックドアの存在には、なかなか気づくことができません。セキュリティソフトなどで侵入を防いだ上で、万が一侵入されてしまった場合の対策も用意しておくことが大切です。本記事の対策の項も参考に、今一度Webサーバーのセキュリティについて見直してみてください。\n\n\n\n常日頃からリスク軽減するための対策について\n\n各記事でご案内しているようなリスク軽減の対策をご案内いたします。\n下記の対策を実施してください。\n\n\n\t1. セキュリティ製品の適切な利用\n\t1-1. ESET製品の検出エンジン（ウイルス定義データベース）をアップデートする\n\tESET製品では、次々と発生する新たなマルウェアなどに対して逐次対応しております。\n\t最新の脅威に対応できるよう、検出エンジン（ウイルス定義データベース）を最新の状態にアップデートしてください。\n\t1-2.複数の層で守る\n\t1つの対策に頼りすぎることなく、エンドポイントやゲートウェイなど複数の層で守ることが重要です。\n\t2. 脆弱性への対応\n\t2-1.セキュリティパッチを適用する\n\tマルウェアの多くは、OSに含まれる「脆弱性」を利用してコンピューターに感染します。「Windows Update」などのOSのアップデートを行ってください。また、マルウェアの多くが狙う「脆弱性」は、Office製品、Adobe Readerなどのアプリケーションにも含まれています。各種アプリケーションのアップデートを行ってください。\n\t2-2.脆弱性診断を活用する\n\tより強固なセキュリティを実現するためにも、脆弱性診断製品やサービスを活用していきましょう。\n\t3. セキュリティ教育と体制構築\n\t3-1.脅威が存在することを知る\n\t「セキュリティ上の最大のリスクは&ldquo;人&rdquo;だ」とも言われています。知らないことに対して備えることができる人は多くありませんが、知っていることには多くの人が「危険だ」と気づくことができます。\n\t3-2.インシデント発生時の対応を明確化する\n\tインシデント発生時の対応を明確化しておくことも、有効な対策です。何から対処すればいいのか、何を優先して守るのか、インシデント発生時の対応を明確にすることで、万が一の事態が発生した時にも、慌てずに対処することができます。\n\t4. 情報収集と情報共有\n\t4-1.情報収集\n\t最新の脅威に対抗するためには、日々の情報収集が欠かせません。弊社をはじめ、各企業・団体から発信されるセキュリティに関する情報に目を向けましょう。\n\t4-2.情報共有\n\t同じ業種・業界の企業は、同じ攻撃者グループに狙われる可能性が高いと考えられます。同じ攻撃者グループの場合、同じマルウェアや戦略が使われる可能性が高いと考えられます。分野ごとのISAC（Information Sharing and Analysis Center）における情報共有は特に効果的です。\n\n\n\n\n\n\n\n\n\t6月\n\t7月・8月\n\t9月\n\n\n \n\n\n2023年上半期サイバーセキュリティレポートを公開",
@@ -1979,6 +2029,17 @@
       "feedUrl": "https://www.nic.ad.jp/ja/index.xml",
       "siteUrl": "https://www.nic.ad.jp/",
       "articles": [
+        {
+          "id": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol2028.html",
+          "author": null,
+          "description": "",
+          "link": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol2028.html",
+          "publishedOn": "2023-10-02T07:38:55.000Z",
+          "wordCount": null,
+          "title": "[メルマガ]vol.2028:【トピックス号】先週のトピックスとWeb更新情報",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.nic.ad.jp/ja/topics/2023/20231002-01.html",
           "author": null,
@@ -2468,6 +2529,16 @@
       "feedUrl": "https://www.cisa.gov/uscert/ncas/current-activity.xml",
       "siteUrl": "https://www.cisa.gov/",
       "articles": [
+        {
+          "id": "/node/18902",
+          "author": "CISA",
+          "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.\nCVE-2023-5217 Google Chrome libvpx Heap Buffer Overflow Vulnerability\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise. Note: To view other newly added vulnerabilities in the catalog, click on the arrow in the \"Date Added to Catalog\" column—which will sort by descending dates.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.\nAlthough BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/10/02/cisa-adds-one-known-exploited-vulnerability-catalog",
+          "publishedOn": "2023-10-02T12:00:00.000Z",
+          "wordCount": 683,
+          "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+          "imageUrl": null
+        },
         {
           "id": "/node/18895",
           "author": "CISA",
@@ -3350,6 +3421,16 @@
       "siteUrl": "https://msrc.microsoft.com/blog/",
       "articles": [
         {
+          "id": "https://msrc.microsoft.com/blog/2023/10/microsofts-response-to-open-source-vulnerabilities-cve-2023-4863-and-cve-2023-5217/",
+          "author": null,
+          "description": "Microsoft is aware and has released patches associated with the two Open-Source Software security vulnerabilities, CVE-2023-4863 and CVE-2023-5217. Through our investigation, we found that these affect a subset of our products and as of today, we have addressed them in our products as outlined below: CVE-2023-4863\nMicrosoft Edge Microsoft Teams for Desktop Skype for Desktop Webp Image Extensions (Released on Windows and updates through Microsoft Store) CVE-2023-5217",
+          "link": "https://msrc.microsoft.com/blog/2023/10/microsofts-response-to-open-source-vulnerabilities-cve-2023-4863-and-cve-2023-5217/",
+          "publishedOn": "2023-10-02T07:00:00.000Z",
+          "wordCount": 1713,
+          "title": "Microsoft’s Response to Open-Source Vulnerabilities - CVE-2023-4863 and CVE-2023-5217",
+          "imageUrl": null
+        },
+        {
           "id": "https://msrc.microsoft.com/blog/2023/09/journey-down-under-how-rocco-became-australias-premier-hacker/",
           "author": null,
           "description": "Fun facts about Rocco:\nMicrosoft MVR: Rocco is a 2023 Microsoft Most Valuable Researcher.\nFitness fanatic: Inspired by old-school body building and countless hours of chopping and carrying wood in the mountains during his youth, Rocco remains a fitness enthusiast, setting himself challenges and pushing his limits.\nOld-school cinema enthusiast: Rocco’s favorite movies are the “Rocky” series, especially “Rocky 2,” and he also has a deep appreciation for the mafia film series “The Godfather.",
@@ -3403,6 +3484,26 @@
       "feedUrl": "https://srad.jp/security.rss",
       "siteUrl": "https://security.srad.jp/",
       "articles": [
+        {
+          "id": "https://security.srad.jp/story/23/10/02/1334211/",
+          "author": "nagazou",
+          "description": "三重県の9月27日の発表によると、三重県立高校でメールを誤送信する問題が再発したという。最初の問題は、同校が9月19日に高校生活入門講座に参加登録した中学生421人に対してアンケートメールを送信。その際、BCCに記載するべきアドレスを宛先部分に誤って記載したことから、メールアドレスが漏洩。同校はこの問題を公表、謝罪していた。ところが同月26日に再び誤送信が発生しまったという（三重県リリース、Security NEXT）。 \n\n2回目の誤送信の原因は、学校の教頭が「Microsoft Outlook」の「メッセージの取り消し機能」を誤って利用していたことにある。この機能は、同一ドメイン内で同じ「Microsoft Exchange」環境を使用している場合、一部の条件下でメールを削除できるものだが、外部宛のメールには適用されない。この際、19日付メールの送信先全員に「このメールを取り消します」という内容が自動的に送信される仕組みが発動したことで、再びメールアドレスが漏洩した。学校側は対象者に謝罪し、誤送信したメールの削除を依頼しているという。\n すべて読む | セキュリティセクション | セキュリティ | idle | 情報漏洩 |     \n  関連ストーリー： \n数百万通の米軍宛てメールがマリのアドレスに送られていたことが覚発 2023年07月19日 \n管理者用の非公開URLを契約者へメールで送信してしまい情報漏洩、マニュライフ生命保険 2022年10月28日 \nトレンドマイクロが感謝しまくるメールを誤送信 2022年08月01日 \nTwitter、用もないのにアカウント確認メールを多数のユーザーへ送るトラブル 2021年04月25日",
+          "link": "https://security.srad.jp/story/23/10/02/1334211/",
+          "publishedOn": "2023-10-03T06:10:00.000Z",
+          "wordCount": 2685,
+          "title": "Microsoft Outlookの「メッセージの取り消し機能」を誤使用しメールアドレスが再流出",
+          "imageUrl": "https://srad.jp/static/topics/leakage_64.png"
+        },
+        {
+          "id": "https://it.srad.jp/story/23/10/01/2217231/",
+          "author": "nagazou",
+          "description": "headless 曰く、Cloudflare による保護のメカニズムを Cloudflare を用いてバイパスする手法について、発見した Certitude が解説している\n(Certitude Blog の記事、\nBleeping Computer の記事)。\n\nCloudflare を利用して Cloudflare のバイパスが可能になる原因は、すべてのテナントが利用可能な共有インフラストラクチャーにある。攻撃が成立するにはターゲットが特定の保護の仕組みを使用していることに加え、攻撃者がターゲットの IP アドレスを知っている必要はあるものの、攻撃者は Cloudflare でカスタムドメインを作成して DNS A レコードでターゲットの IP アドレスを指定するだけでいい。あとはすべての保護を無効化したカスタムドメインを通じて攻撃を実行すれば、ターゲットのオリジンサーバーを攻撃できる。\n\n攻撃が可能になる問題を含む保護機能としては、トランスポート層の「Authenticated Origin Pulls」とネットワーク層の「Allowlist Cloudflare IP addresses」が挙げられている。前者は「非常にセキュア」と区分されているが、証明書のオプションで Cloudflare の証明書を選択すると攻撃が可能になる。顧客が自前で用意したカスタム証明書を使用することで攻撃は回避できるが、使用は API で設定する必要があり、多くの顧客が Cloudflare の証明書を選択していると考えられるとのこと。\n\n「中程度にセキュア」と区分される後者の場合、Cloudflare の IP アドレス範囲からの接続のみをオリジンサーバーが許可することによる保護機能だ。そのため、Cloudflare を利用した接続はすべて許可されてしまう。攻撃は Cloudflare Aegis を使用すれば回避できるが、すべての顧客が利用できるわけではない。\n\nCertitude は HackerOne 報奨金プログラムを通じて報告したが、Cloudflare が報告を緊急の対応を必要としない「参考になる (Informative)」と区分してバグをクローズしたため、一般公開することにしたという。Cloudflare に対しては、これらの攻撃から保護する仕組みの導入を推奨している。\n すべて読む | ITセクション | セキュリティ | クラウド | バグ | 変なモノ |     \n  関連ストーリー： \nCloudflare、生成型AIへの機密情報漏洩を未然に防ぐサービス 2023年05月26日 \nMicrosoft Edge の組み込み VPN 機能、通信量が 5GB に増量されたとの報告 2023年05月26日 \nオーストリアの裁判所、Cloudflare の IP アドレスをブロックするよう ISP に命ずる 2022年08月31日 \nTwilio、フィッシングで奪われた従業員の認証情報による不正アクセスで顧客の情報が漏洩 2022年08月11日 \nx86 CPUに新たなサイドチャネル脆弱性「Hertzbleed」が見つかる。リモートでも攻撃可能 2022年06月16日",
+          "link": "https://it.srad.jp/story/23/10/01/2217231/",
+          "publishedOn": "2023-10-02T23:06:00.000Z",
+          "wordCount": 2128,
+          "title": "Cloudflareを利用してCloudflareをバイパスする手法",
+          "imageUrl": "https://srad.jp/static/topics/cloud_64.png"
+        },
         {
           "id": "https://security.srad.jp/story/23/10/01/2215244/",
           "author": "nagazou",
@@ -3620,6 +3721,56 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/10/03/50023.html",
+          "author": null,
+          "description": "JPAAWG 6th General Meetingでは問題意識に立って、課題解決の糸口を探り、前進させるためさまざまなセッションが予定されている。M3AAWGのメンバーらが来日する他、通信事業者、企業、そして官公庁などさまざまな立場からスピーカーを招いてセッションを行う予定だ。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/10/03/50023.html",
+          "publishedOn": "2023-10-02T23:15:03.000Z",
+          "wordCount": 1159,
+          "title": "メールを軸に、インターネットの安全をさまざまな角度で知り、議論する「JPAAWG 6th General Meeting」の見どころとは",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42797.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/10/03/50022.html",
+          "author": null,
+          "description": "「SQL インジェクション」など、どういう攻撃を防ぐためのルールであるかは名前を見れば想像がつくのですが、実際にその中身はログから追えない形になっています。これが、パブリッククラウド WAF の一番の課題点であり、運用の難易度を上げています。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/10/03/50022.html",
+          "publishedOn": "2023-10-02T23:10:03.000Z",
+          "wordCount": 1019,
+          "title": "安価で導入しやすい AWS や Azure の WAF、その一方でユーザーが抱える運用課題とは？ ～ サイバーセキュリティクラウド",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42791.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/10/03/50021.html",
+          "author": null,
+          "description": "富⼠ソフト株式会社は9月27日、同社の社内システムへの不正アクセスについて発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/10/03/50021.html",
+          "publishedOn": "2023-10-02T23:05:02.000Z",
+          "wordCount": 799,
+          "title": "富⼠ソフトの社内システムに不正アクセス、被害は最小限にとどめられていると判断",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42785.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/10/03/50020.html",
+          "author": null,
+          "description": "アイブリッジ株式会社は9月28日、同社が展開するセルフ型アンケートツール「Freeasy」で「顔認証に関する調査－どの程度、受容され期待されているのか－」の結果を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/10/03/50020.html",
+          "publishedOn": "2023-10-02T23:00:08.000Z",
+          "wordCount": 826,
+          "title": "顔認証「抵抗ない」半数越える",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42787.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/10/03/50019.html",
+          "author": null,
+          "description": "株式会社エーアイセキュリティラボは9月28日、ウェビナー「生成AI活用による脆弱性診断内製化」を10月13日に開催すると発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/10/03/50019.html",
+          "publishedOn": "2023-10-02T23:00:03.000Z",
+          "wordCount": 865,
+          "title": "生成 AI をフル活用するためのリスク対策とポイント、エーアイセキュリティラボ 執行役員 関根氏解説",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42790.jpg"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2023/10/02/50018.html",
           "author": null,
@@ -4838,6 +4989,36 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2310/03/news146.html",
+          "author": null,
+          "description": "静岡県立浜松城北工業高校で、教員個人のGoogleドライブにアクセスできる状態のiPad 4台が生徒に貸し出され、Googleドライブに保存されていた生徒の氏名やテストの点が閲覧可能になっていた。",
+          "link": "https://www.itmedia.co.jp/news/articles/2310/03/news146.html",
+          "publishedOn": "2023-10-03T07:19:00.000Z",
+          "wordCount": 2436,
+          "title": "静岡県立高校で生徒のテストの点など漏えい　教員の個人Googleドライブにアクセス可能なiPadを生徒に貸し出し",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2310/03/cover_news146.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2310/02/news117.html",
+          "author": null,
+          "description": "ITお嬢様がChatGPTとの付き合い方を考えるようです。",
+          "link": "https://www.itmedia.co.jp/news/articles/2310/02/news117.html",
+          "publishedOn": "2023-10-03T02:00:00.000Z",
+          "wordCount": 2488,
+          "title": "もしかして“野良ChatGPT\"って怖くね？　ITお嬢様と考えるAIとの付き合い方",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2310/02/cover_news117.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2310/02/news098.html",
+          "author": null,
+          "description": "メタップスクラウドをSmartHRに譲渡。サービスはいったん終了し、SmartHRとシステムを一体化するという。",
+          "link": "https://www.itmedia.co.jp/news/articles/2310/02/news098.html",
+          "publishedOn": "2023-10-02T05:12:00.000Z",
+          "wordCount": 2432,
+          "title": "「メタップスクラウド」サービス終了へ　SmartHRに譲渡・統合",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2310/02/cover_news098.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2309/29/news142.html",
           "author": null,
           "description": "ISMAP運営委員会が、政府のクラウドサービス認定制度「ISMAP」について、一部認定サービスの再監査手続きを始めた。対象は富士通のクラウドサービス「FUJITSU Hybrid IT Service FJcloud」。",
@@ -5174,6 +5355,96 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1536186.html",
+          "author": null,
+          "description": "台湾の内政部警政署（NPA）刑事警察局（CIB）電信偵査大隊と内政部警政署保安警察第二総隊刑事警察大隊（IPR警察）は、日本などの放送番組や信号を違法に提供する違法テレビ視聴アプリと不正ストリーミング視聴機器を2件刑事摘発し、アプリ運営者など11人を逮捕した。一般社団法人コンテンツ海外流通促進機構（CODA）が発表した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1536186.html",
+          "publishedOn": "2023-10-03T03:00:00.000Z",
+          "wordCount": 4558,
+          "title": "台湾で違法テレビ視聴アプリや不正ストリーミング視聴機器を刑事摘発、11人逮捕　被害額は83億円以上",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1536/186/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1536182.html",
+          "author": null,
+          "description": "ASUS JAPAN株式会社は、USB Type-C接続のドッキングステーション「ASUS SimPro Dock 2」を発売した。市場想定価格は2万9800円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1536182.html",
+          "publishedOn": "2023-10-03T02:50:00.000Z",
+          "wordCount": 4599,
+          "title": "ISO/IEC 7816準拠カードリーダーなどを備えた多機能ドッキングステーション「ASUS SimPro Dock 2」、ASUSが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1536/182/00.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1536136.html",
+          "author": null,
+          "description": "Chrome拡張機能「CustomBlocker」が開発を停止し、Chromeウェブストアからも削除されたことが明らかになった。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1536136.html",
+          "publishedOn": "2023-10-03T02:46:00.000Z",
+          "wordCount": 4473,
+          "title": "キーワードでウェブページの一部を非表示にできるChrome拡張機能「CustomBlocker」が開発停止【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1536/136/yajiuma-watch_4.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1536137.html",
+          "author": null,
+          "description": "「MSXマガジン」のバックナンバーが、オンラインで無料公開中だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1536137.html",
+          "publishedOn": "2023-10-03T02:41:00.000Z",
+          "wordCount": 4469,
+          "title": "「MSXマガジン」のバックナンバーが無料公開中。1983年の創刊以来の全号の掲載を目指す【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1536/137/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/d4g/1536111.html",
+          "author": null,
+          "description": "9月25日に「日本インターネットガバナンスフォーラム2023」の動画が公開された。このイベントでは、京都で開催されるIGF 2023の日本提案セッションの紹介を中心に、各トピックの背景説明や議論が行われた。IGF参加者には予習として、そうでない方にはIGFへの興味を持つきっかけとしてご覧いただきたい。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/d4g/1536111.html",
+          "publishedOn": "2023-10-03T01:00:00.000Z",
+          "wordCount": 4707,
+          "title": "「IGF京都2023」の開催が迫る！ 日本からの提案セッションを紹介 「日本インターネットガバナンスフォーラム2023」の公開動画より【D for Good！】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1536/111/00.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1536085.html",
+          "author": null,
+          "description": "サンワサプライ株式会社は、スタンド機能付きドッキングステーション「400-HUBC14BK」を発売した。直販サイト「サンワダイレクト」での販売価格は6980円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1536085.html",
+          "publishedOn": "2023-10-02T22:50:00.000Z",
+          "wordCount": 4576,
+          "title": "スマホスタンドにもなる折りたたみ式ドッキングステーション「400-HUBC14BK」、サンワサプライが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1536/085/01s.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/tengoku/1535103.html",
+          "author": null,
+          "description": "都内で暮らす70代の女性・Yさんから、メールでこんな相談を受けました。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/tengoku/1535103.html",
+          "publishedOn": "2023-10-02T21:55:00.000Z",
+          "wordCount": 4599,
+          "title": "第15回：うっかり初期化してしまった亡夫のiPhone、もう一度データを戻す作業に挑戦した記録【天国へのプロトコル】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1535/103/01.JPG"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/event/1535963.html",
+          "author": null,
+          "description": "都内で開催されたイベント「日経クロステックNEXT 東京 2023」において、講演「インテルが仕掛ける『AIの民主化』／AI化を加速する製品戦略とは？」が行われた。",
+          "link": "https://internet.watch.impress.co.jp/docs/event/1535963.html",
+          "publishedOn": "2023-10-02T21:00:00.000Z",
+          "wordCount": 4593,
+          "title": "インテルが語る「AIの民主化」、 新命令「AMX」やAIエンジン搭載で画像生成AIも「CPUだけ」で実現可能に【日経クロステックNEXT 東京 2023】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1535/963/001.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/nettech/1534078.html",
+          "author": null,
+          "description": "自動車向けの光によるGbE超えの規格は、「IEEE 802.3cz-2022」として標準化を完了したことを、前回説明した。ただ、これはガラスベースの光ファイバーであるOM3を利用した規格で、GI-POF（GI型プラスチック光ファイバー）に関してはサポート外とされた。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/nettech/1534078.html",
+          "publishedOn": "2023-10-02T21:00:00.000Z",
+          "wordCount": 4800,
+          "title": "自動車用ネットワークの標準化（10） GI-POFによる光マルチギガ伝送「IEEE P802.3dh」の論点【ネット新技術】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1534/078/Photo01.jpg"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/1535929.html",
           "author": null,
@@ -7258,6 +7529,56 @@
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
         {
+          "id": "https://news.mynavi.jp/techplus/article/20231003-2783230/",
+          "author": null,
+          "description": "ReliaQuestは9月28日(米国時間)、脅威アクターが多要素認証(MFA: Multi-Factor Authentication)を回避する攻撃手法について伝えた。近年、多要素認証回避の試みが大幅に増加していることが確認されているが、今後この動きが拡大する可能性があるとして注意を促している。",
+          "link": "https://news.mynavi.jp/techplus/article/20231003-2783230/",
+          "publishedOn": "2023-10-03T04:17:56.000Z",
+          "wordCount": 1630,
+          "title": "狙われる多要素認証、巧みに回避する攻撃手法に注意",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231003-2783230/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231003-2783577/",
+          "author": null,
+          "description": "ESETはこのほど、セキュリティ分野で使用されているプログラミング言語について紹介した。セキュリティ分野においてプログラミング技術が明確に要求されているわけではないが、少なくともこれら言語の基本は理解しておく必要があるという。",
+          "link": "https://news.mynavi.jp/techplus/article/20231003-2783577/",
+          "publishedOn": "2023-10-02T23:44:16.000Z",
+          "wordCount": 1645,
+          "title": "サイバーセキュリティで使われるプログラミング言語トップ5は？",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231003-2783577/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231003-2780934/",
+          "author": null,
+          "description": "Malwarebytesはこのほど、カナダの医療機関であるBetter Outcomes Registry & Network(BORN)が侵害を受け、個人の健康情報を含むデータが流出したと報じた。侵害調査によると、2010年1月から2023年5月までにオンタリオ州で医療施設、医療提供者から提供された生殖能力、妊娠、新生児、小児の医療に関するデータが流出したとみられている。",
+          "link": "https://news.mynavi.jp/techplus/article/20231003-2780934/",
+          "publishedOn": "2023-10-02T23:16:06.000Z",
+          "wordCount": 1684,
+          "title": "カナダの医療機関から子供の健康情報が流出、被害は全米の学校にも",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231003-2780934/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231003-2781659/",
+          "author": null,
+          "description": "The Hacker Newsは9月28日(現地時間)、「ブラウザ分離のダークサイドと次世代ブラウザセキュリティ」と題したLayerXの新しいレポートについて伝えた。ブラウザ分離にはCPUリソースを大量に消費するという欠点が存在し、導入はあまり進んでいないとされる。これら問題を解決するため、Secure Browser Extensionsが開発されたという。",
+          "link": "https://news.mynavi.jp/techplus/article/20231003-2781659/",
+          "publishedOn": "2023-10-02T22:16:09.000Z",
+          "wordCount": 1653,
+          "title": "ブラウザ分離の課題を解決した新しいブラウザセキュリティが登場",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231003-2781659/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231002-2783578/",
+          "author": null,
+          "description": "Zero Day Initiativeは9月27日(米国時間)、メール転送エージェントのEximにゼロデイの脆弱性が存在するとして、注意を喚起した。この脆弱性を悪用されると、遠隔から任意のコードを実行される危険性があるとされており注意が必要。Zero Day Initiativeは同日、Eximのゼロデイの脆弱性をさらに5件公開している。",
+          "link": "https://news.mynavi.jp/techplus/article/20231002-2783578/",
+          "publishedOn": "2023-10-02T10:04:48.000Z",
+          "wordCount": 1641,
+          "title": "メール転送エージェント「Exim」緊急のゼロデイ脆弱性、軽減策の適用を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231002-2783578/ogp_images/ogp.jpg"
+        },
+        {
           "id": "https://news.mynavi.jp/techplus/article/20231002-2783402/",
           "author": null,
           "description": "IIJは2日、「IIJマネージドWAFサービス」で別途契約が必要だったDDoS対策機能を、標準機能として追加費用無しで利用可能にした。",
@@ -8626,26 +8947,6 @@
           "wordCount": 1749,
           "title": "VMware Toolsに重要な脆弱性、機密情報窃取のリスク",
           "imageUrl": "https://news.mynavi.jp/techplus/article/20230904-2763326/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20230903-2762624/",
-          "author": null,
-          "description": "ReversingLabsは8月31日（米国時間）、PyPIパッケージのマルウェア「VMConnect」に関連したサプライチェーン攻撃が継続中だと報じた。ReversingLabsはこの攻撃と朝鮮民主主義人民共和国(北朝鮮)のLazarusグループとを結びつける証拠も発見したとしている。新しく発見されたPyPIパッケージ「tablediter」、「request-plus」、「requestspro」は検出を回避するように構築されているとされ注意が必要。",
-          "link": "https://news.mynavi.jp/techplus/article/20230903-2762624/",
-          "publishedOn": "2023-09-03T10:18:56.000Z",
-          "wordCount": 1680,
-          "title": "PyPIパッケージマルウェア「VMConnect」に亜種、北朝鮮との関連する証拠発見",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20230903-2762624/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20230903-2762478/",
-          "author": null,
-          "description": "Sucuriは8月31日(米国時間)、2023年8月に明らかになったWordPressの脆弱性とセキュリティパッチに関する情報を公開した。報告には21個の脆弱性が掲載され、それぞれには緩和策が提案されている。脆弱性のセキュリティリスクレベルは「緊急」が2項目、「重要」が4項目、「警告」が12項目、「低」が3項目となっている。",
-          "link": "https://news.mynavi.jp/techplus/article/20230903-2762478/",
-          "publishedOn": "2023-09-03T06:49:17.000Z",
-          "wordCount": 1908,
-          "title": "WordPressプラグイン21個に新たな脆弱性、確認とアップデートを",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20230903-2762478/ogp_images/ogp.jpg"
         }
       ]
     }
