@@ -419,6 +419,36 @@
       "siteUrl": "https://www.ipa.go.jp/about/index.html",
       "articles": [
         {
+          "id": "https://www.ipa.go.jp/shiken/mondai-kaiotu/2023r05.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「問題冊子・配点割合・解答例・採点講評（2023年度、令和5年度）」に関する情報です。",
+          "link": "https://www.ipa.go.jp/shiken/mondai-kaiotu/2023r05.html",
+          "publishedOn": "2023-10-07T15:00:00.000Z",
+          "wordCount": 621,
+          "title": "令和5年度秋期試験の問題冊子と解答例（午前）を掲載しました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
+          "id": "https://www.ipa.go.jp/shiken/2023/20231008_schedule.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「令和5年度秋期試験 合格発表スケジュール」に関する情報です。",
+          "link": "https://www.ipa.go.jp/shiken/2023/20231008_schedule.html",
+          "publishedOn": "2023-10-07T15:00:00.000Z",
+          "wordCount": 349,
+          "title": "令和5年度秋期試験の合格発表スケジュールを掲載しました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
+          "id": "https://www.ipa.go.jp/news/2023/shiken/ex20231008.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「令和5年度秋期試験における試験会場での忘れ物等について」に関する情報です。",
+          "link": "https://www.ipa.go.jp/news/2023/shiken/ex20231008.html",
+          "publishedOn": "2023-10-07T15:00:00.000Z",
+          "wordCount": 169,
+          "title": "令和5年度秋期試験における試験会場での忘れ物等について",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
           "id": "https://www.ipa.go.jp/news/2023/shiken/ex20231006.html",
           "author": "情報処理推進機構（IPA）",
           "description": "情報処理推進機構（IPA）の「令和5年度秋期試験の実施について」に関する情報です。",
@@ -3296,6 +3326,16 @@
       "feedUrl": "https://srad.jp/security.rss",
       "siteUrl": "https://security.srad.jp/",
       "articles": [
+        {
+          "id": "https://security.srad.jp/story/23/10/09/0328248/",
+          "author": "headless",
+          "description": "あるAnonymous Coward 曰く、技術系メディアの日経クロステック (xTECH) が 4 日に公開した「偽サイトもアドレス欄に鍵マーク、証明書を確認してフィッシング詐欺を見抜こう」という記事が問題になっているので共有したい\n(はてなブックマーク)。\n\n問題になっているのは、現代では SSL の有無だけで本物かどうか判断できないため証明書の種類を見るべきだとする以下のような記述。このうち詐欺で悪用されるのがDV証明書。「Let's Encrypt」という認証局では無料で発行しており、フィッシング対策協議会によれば、一部の例外を除いて大半のフィッシングサイトでこの証明書が利用されているという。大手企業が利用するケースは考えにくい。ブラウザーの証明書ビューアーで、発行者が「Let's Encrypt」ならまず詐欺なので用心しよう。\nこれにセキュリティ専門家の徳丸氏が米大統領官邸ホワイトハウスのウェブサイト (www.whitehouse.gov) でも Let's Encrypt の証明書を使用していることや、詐欺サイトの大半が Let's Encrypt を使用しているからといって、Let's Encrypt を使用しているサイトの大半が詐欺サイトとはいえないことを指摘したのを始め、それでは判断できないという声が多々上がっている。\n すべて読む | セキュリティセクション | セキュリティ | 暗号 |     \n  関連ストーリー： \nLet's Encrypt、DST Root CA X3の2021年9月30日期限切れを告知 2021年05月20日 \n 無料SSL「Let's Encrypt」のDSTルート証明書の有効期限、3年間延長へ 2020年12月23日 \nLet's Encrypt、ルート証明書切り替えに向けて古いAndroidへの対策を呼びかけ 2020年11月08日 \nLet's Encrypt証明書を使用しているWebサイト、Android 7.1以前の端末での閲覧に影響か 2020年08月12日 \nLet's Encrypt、証明書およそ300万件の強制失効処理を取りやめ 2020年03月08日 \nEFF曰く、あなたが思うよりずっと公衆Wi-Fiは安全 2020年02月06日 \n無料SSL「Let’s Encrypt」のルート証明書がすべての端末で直接信頼されるには5年必要 2018年08月10日 \n上場企業やgo.jpドメインでもLet's Encryptのサーバ証明書の利用が広がる 2018年06月07日 \nはてな、Let's Encryptへの継続的な寄付を開始 2018年06月05日 \nLet's Encrypt、ワイルドカード証明書の発行を開始 2018年03月16日 \nLet's Encrypt、2018年1月よりワイルドカード証明書にも対応へ 2017年07月13日 \nLet’s Encryptのアクティブな証明書が2000万を超える 2017年01月12日 \nLet's Encrypt、ほかのユーザーのメールアドレスを記載したメールをユーザーに送信 2016年06月17日 \n無料でSSL/TLS証明書を発行するLet's Encryptが正式サービスを開始 2016年04月18日 \nLet's Encryptの証明書、不正広告攻撃に悪用される 2016年01月11日",
+          "link": "https://security.srad.jp/story/23/10/09/0328248/",
+          "publishedOn": "2023-10-09T07:38:00.000Z",
+          "wordCount": 2379,
+          "title": "日経XTECH曰く「SSL証明書の発行者がLet's Encryptならまず詐欺」",
+          "imageUrl": "https://srad.jp/static/topics/encryption_64.png"
+        },
         {
           "id": "https://security.srad.jp/story/23/10/08/0612222/",
           "author": "headless",
@@ -6981,6 +7021,36 @@
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
         {
+          "id": "https://news.mynavi.jp/techplus/article/20231009-2786929/",
+          "author": null,
+          "description": "Malwarebytesはこのほど、Z世代はどの世代よりもオンラインでの身体的暴力を恐れていることが判明したと伝えた。Malwarebytesが行った調査結果によると、Z世代はプラベートな個人情報の暴露によるさまざまな影響を上の世代よりも懸念しているとされる。Malwarebytesはサイバーセキュリティに対する正しい知識が欠けていることも恐怖の要因として、正しい教育の必要性を訴えている。",
+          "link": "https://news.mynavi.jp/techplus/article/20231009-2786929/",
+          "publishedOn": "2023-10-09T05:36:54.000Z",
+          "wordCount": 1687,
+          "title": "Z世代はどの世代よりもインターネットを恐れている?",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231009-2786929/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231009-2786679/",
+          "author": null,
+          "description": "Amazon Web Servicesはこのほど、2024年半ば以降すべてのAmazon Web Services(AWS)の特権アカウントに多要素認証(MFA)の使用を義務付けると発表した。AWS Organizations管理アカウントのルートユーザーを使用してAWSマネジメントコンソールにサインインする顧客は多要素認証を有効にする必要があるという。",
+          "link": "https://news.mynavi.jp/techplus/article/20231009-2786679/",
+          "publishedOn": "2023-10-09T03:07:05.000Z",
+          "wordCount": 3108,
+          "title": "Amazon Web Services(AWS)、2024年半ばから多要素認証(MFA)が必須に",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231009-2786679/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231009-2787491/",
+          "author": null,
+          "description": "Check Point Software Technologiesは10月6日(米国時間)、2023年9月のマルウェアランキングを発表した。9月の注目すべき動向として、コロンビアを中心に40以上の組織を対象とした新しい大規模なステルスフィッシングキャンペーンが報告されている。",
+          "link": "https://news.mynavi.jp/techplus/article/20231009-2787491/",
+          "publishedOn": "2023-10-09T00:32:55.000Z",
+          "wordCount": 2078,
+          "title": "9月のマルウェアランキング、第1位は？FBIの「Qbotマルウェア撲滅」作戦は成功",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231009-2787491/ogp_images/ogp.jpg"
+        },
+        {
           "id": "https://news.mynavi.jp/techplus/article/20231008-2786471/",
           "author": null,
           "description": "フィッシング対策協議会はこのほど、2023年9月のフィッシング報告状況を発表した。前月に引き続き、Amazonをかたるフィッシング詐欺の報告が多く、報告数全体の約40.8%を占めた。フィッシング報告件数は先月から約14.9%増加した。9月末がマイナポイント受け取り申請の期限であったことから、9月はマイナポイント事務局を偽るフィッシング詐欺に関する報告や相談が多かった。",
@@ -8259,16 +8329,6 @@
           "wordCount": 1747,
           "title": "Android TV狙うトロイの木馬に注意、廉価版デバイスは確認を",
           "imageUrl": "https://news.mynavi.jp/techplus/article/20230910-2767708/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20230909-2767264/",
-          "author": null,
-          "description": "シスコシステムズはここ1週間で6つのセキュリティアドバイザリを発行した。これには「緊急」と「重要」として分類された脆弱性情報も含まれる。米国のCISAもこれらの脆弱性情報に関して注意喚起を行っている。",
-          "link": "https://news.mynavi.jp/techplus/article/20230909-2767264/",
-          "publishedOn": "2023-09-09T04:40:42.000Z",
-          "wordCount": 1828,
-          "title": "シスコが緊急の脆弱性に関する情報公開、米国CISAも警告",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20230909-2767264/ogp_images/ogp.jpg"
         }
       ]
     }
