@@ -139,6 +139,16 @@
       "siteUrl": "https://www.ipa.go.jp/about/index.html",
       "articles": [
         {
+          "id": "https://www.ipa.go.jp/digital/data/data-space.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「データスペースの推進」に関する情報です。",
+          "link": "https://www.ipa.go.jp/digital/data/data-space.html",
+          "publishedOn": "2023-10-16T15:00:00.000Z",
+          "wordCount": 360,
+          "title": "「データスペース入門」を公開しました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
           "id": "https://www3.jitec.ipa.go.jp/JitesCbt/html/openinfo/pass.html",
           "author": "情報処理推進機構（IPA）",
           "description": "",
@@ -446,6 +456,16 @@
       "siteUrl": "https://www.jnsa.org/",
       "articles": [
         {
+          "id": "https://isog-j.org/output/2023/Textbook_soc-csirt_v3.html",
+          "author": null,
+          "description": "活動紹介｜ISOG-J 日本セキュリティオペレーション事業者協議会",
+          "link": "https://isog-j.org/output/2023/Textbook_soc-csirt_v3.html",
+          "publishedOn": "2023-10-17T01:00:00.000Z",
+          "wordCount": 95,
+          "title": "日本セキュリティオペレーション事業者協議会(ISOG-J)セキュリティオペレーション連携WG(WG6)が「セキュリティ対応組織(SOC/CSIRT)の教科書 第3.1版」を公開しました。",
+          "imageUrl": null
+        },
+        {
           "id": "https://www.jnsa.org/result/soshiki/index.html",
           "author": null,
           "description": "",
@@ -739,6 +759,16 @@
       "siteUrl": "https://gblogs.cisco.com/jp",
       "articles": [
         {
+          "id": "https://gblogs.cisco.com/jp/?p=49294",
+          "author": "TALOS Japan",
+          "description": "Jaeson Schultz は現在までのキャリアにおいて、ほぼあらゆる種類のオンライン詐欺を目にしてきました。",
+          "link": "https://gblogs.cisco.com/jp/2023/10/talos-jaeson-schultz-researcher-spotlight/",
+          "publishedOn": "2023-10-17T06:54:23.000Z",
+          "wordCount": 615,
+          "title": "2000 年問題からメタバース、暗号通貨まで、数十年にわたってスパムを調べてきた Jaeson Schultz を導いたものとは",
+          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/12AS91226_eyecatch-460x230.jpg"
+        },
+        {
           "id": "https://gblogs.cisco.com/jp/?p=49227",
           "author": "石黒 圭祐",
           "description": "Meraki + SASEは、中堅中小企業向けの最新セキュリティ対策です。Cisco+ Secure Connect と Meraki MX で、単一ベンダーによる統合SASEを実現します。",
@@ -946,6 +976,36 @@
       "siteUrl": "https://tech-lab.sios.jp",
       "articles": [
         {
+          "id": "https://tech-lab.sios.jp/?p=37544",
+          "author": "龍：Ryu",
+          "description": "今回は、Nest JSでStripeのWebhookを運用する際に必要となる署名検証について実装してみました。Webhookをセキュアに運用するために必要な知識について軽く触れて、具体的にNest JSで実装するまでを解 [...]\n【Stripe】Nest.jsでWebhookの検証を行う first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/37544",
+          "publishedOn": "2023-10-17T07:12:34.000Z",
+          "wordCount": 1830,
+          "title": "【Stripe】Nest.jsでWebhookの検証を行う",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2023/10/6f66fee3ff9e226af6eeb91ddc96ef3b.png"
+        },
+        {
+          "id": "https://tech-lab.sios.jp/?p=37537",
+          "author": "あさり",
+          "description": "はじめに はじめまして、こんにちは、サイオステクノロジー新卒エンジニアのあさりです。ここ数年、Webページを閲覧しているとCookieの取得と同意を求めるポップアップを見かけることが多くなった気がします。学生時代は、Co [...]\nCookieってなんだろう？ first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/37537",
+          "publishedOn": "2023-10-17T06:55:47.000Z",
+          "wordCount": 1596,
+          "title": "Cookieってなんだろう？",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2023/10/288f92fa6dc8bf9aca65425594b99509.png"
+        },
+        {
+          "id": "https://tech-lab.sios.jp/?p=37523",
+          "author": "龍：Ryu",
+          "description": "今回も失敗談を書き連ねていきたいと思います。Nest JSを用いて、Azure AD B2Cのアクセストークンを検証する方法を調べてみました。公式が提供しているライブラリではなく、Auth0が提供しているライブラリとpa [...]\n【Nest.js】アクセストークンの検証方法がわからん first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/37523",
+          "publishedOn": "2023-10-17T00:52:57.000Z",
+          "wordCount": 1668,
+          "title": "【Nest.js】アクセストークンの検証方法がわからん",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2023/10/3f01f2edd9f533166c537a6cc71ad12f-1.png"
+        },
+        {
           "id": "https://tech-lab.sios.jp/?p=37489",
           "author": "龍：Ryu",
           "description": "今回は、StripeでCustomerにデフォルトの支払い情報を設定する方法についてまとめました。調べた限りだと、3つのパターンがありました。Checkout・Customer Portal・SetupIntentsのそ [...]\n【Stripe】CustomerにdefaultPaymentを設定する３つの方法 first appeared on SIOS Tech. Lab.",
@@ -1058,6 +1118,26 @@
       "feedUrl": "https://eset-info.canon-its.jp/RSS.rdf",
       "siteUrl": "https://eset-info.canon-its.jp/",
       "articles": [
+        {
+          "id": "https://eset-info.canon-its.jp/malware_info/news/detail/231017.html",
+          "author": null,
+          "description": "2023年10月17日現在、セディナカードをかたるフィッシングが確認されております。フィッシングサイト上の入力欄には、絶対に情報を入力しないようにお願いします。\n\nこのようなフィッシングサイトにて、ログイン情報 (ID、パスワード)、カード番号、カード有効期限、セキュリティコード、口座番号下 4 桁、暗証番号、生年月日、電話番号等を絶対に入力しないよう、ご注意ください\n\n日頃からサービスへログインする際は、メールや SMS 内のリンクではなく、いつも利用しているブラウザーのブックマークなどからアクセスするよう、心がけてください。\n\n【メールの件名】\n\n【セディナカード】ご登録お客様情報の定期的な確認のお願いにつきまして\n10月度ご請求額のお知らせ【Cedyna】\n\n※上記以外の件名も使われている可能性があります。\n\n【サイトのURL】\n\nhttps://pup●●●●.cn/\nhttps://feh●●●●.cn/\nhttps://771●●●●.cn/\n\n※上記以外のドメイン、URL も使われている可能性があります。\n※URL にパスやパラメータが付いていることがあります。\n\n2023/10/16 15:00時点では、フィッシングサイトは稼働中です。このサイトが停止しても類似のフィッシングサイトが公開される恐れもありますので注意してください。\nこのようなフィッシングサイトは日々新規に作成されています。ESET製品は、新規に作成されるフィッシングサイトにも随時対応していきますが、お客さま自身でも十分にご注意ください。\n\n【参考情報】\n\nお客さま情報を盗み取ろうとする不審なメールや画面にご注意ください\n\n \n\n\n■ ESET製品における検出例\n\n\n\n※ESET Internet Security V16.0/ESET Mobile Security V7.0でフィッシング対策機能が有効な場合は、図のような通知が表示されます。\n\n\n■ フィッシングメール／フィッシングサイトへの対応\n\n\n\n\tフィッシングの可能性があるメールをむやみに開かない。\n\tフィッシングの可能性があるメールの添付ファイルをむやみに開かない。\n\tメール文中のリンク先URLがフィッシングサイトである可能性を考え、リンク先URLへむやみにアクセスしない。\n\tフィッシングの可能性があるサイトにアカウント情報やクレジットカード情報などを入力しない。\n\n\n\n\nキヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。",
+          "link": "https://eset-info.canon-its.jp/malware_info/news/detail/231017.html",
+          "publishedOn": "2023-10-16T15:00:00.000Z",
+          "wordCount": 201,
+          "title": "セディナカードをかたるフィッシングについての注意喚起",
+          "imageUrl": "https://eset-info.canon-its.jp/files/user/images/common/sns_thumb.jpg"
+        },
+        {
+          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/191107.html",
+          "author": null,
+          "description": "AndroidスマホはiPhoneよりもセキュリティ的に脆弱でウイルスに狙われやすい、というのは今も変わらない。デジタル技術が日常生活に浸透する中で、どのようなセキュリティ対策を講じるべきか。この記事では、Androidスマホのユーザー向けに、知っておきたいセキュリティリスク、そして必要な対策について解説する。\n\n本記事は2019年11月7日に掲載した「Androidはウイルスに狙われやすい？必要なセキュリティ対策は？」に加筆修正をしたものです。\n\n\n\n\n\nオープンソースのOSを採用しているAndroidスマホ\n\nスマートフォン（以下、スマホ）はもはや現代に生きる人々にとって、日常生活を送るために欠かせない存在となりつつある。音楽や動画視聴といった趣味的な利用だけでなく、ネットバンキング、ECサイトでのショッピング、行政手続きに至るまで、生活の幅広い分野に浸透している。それだけに、手元から離れると、不便を感じるユーザーも少なくないかもしれない。\n\n一方で、そうした状況をサイバー攻撃者は好機と捉えていることを、ユーザーとしては理解しておかねばならない。攻撃者はあらゆる手法を用いて、情報や金銭の収奪を試みようとする。現時点では振り込め詐欺的な手法の多くは電話でのアプローチが多いものの、今後は、スマホのSMSやSNSのDMなどを用いるようになっていくことも想像に難くない。\n\nそうした状況を踏まえ、ユーザーとしてはスマホのセキュリティを強化する必要がある。中でも、iPhoneと比較すると安全性に劣るとされるAndroidスマホのユーザーであればなおさらだろう。AndroidスマホはAndroid OSと呼ばれるオープンソースのOSを利用することで、スマホベンダーは低価格の機種を販売することが可能となっている。しかし一方で、そうした特性が攻撃者から狙われやすい状況を生み出しているとも言える。\n\n実際、Androidスマホを狙うマルウェアの脅威は高まっている。2023年5月に発覚した、「Guerrilla」と呼ばれるマルウェアが含まれるアプリをはじめ、マルウェアが仕込まれた状態で工場出荷されるAndroidスマホなどのデバイスが断続的に確認されている。このGuerrillaの場合、バックドアを設置して外部のC&amp;Cサーバーと通信し、マルウェアをインストールする。そして、正規のアプリに不正な広告を表示させるといった挙動を引き起こすのだ。\n\nスマホがハッキングされたことを確認する方法\n\nなぜAndroidスマホは狙われるのか\n\n以前よりiPhoneはセキュリティの堅牢性の高さが特長の1つとされてきた。App Storeにおける厳格な審査、サンドボックス内でアプリが動作すること、そしてOSのソースコードが非公開となっていることがその主な理由だ。厳格なセキュリティポリシーに基づいていることから、今後もこの状況は当面変わることはないだろう。\n\n一方で、Android OSをめぐるセキュリティ事情も改善の取り組みが続けられている。Android OSを管轄するGoogleとしても、こうした状況を看過せず、Google Playにおける審査を厳格化するといった対策を講じているのだ。例えば、「Google Play プロテクト」はユーザーがアプリをインストールする際、そのアプリをチェックして安全性を検証するだけでなく、定期的にバックグラウンドでスキャンを行うことで不審な動きをチェックする。\n\nまた、現在ではAndroidスマホにおいてもアプリはサンドボックス内で動作することから、ほかのアプリにマルウェアが感染するといった事態はほぼ発生しないようになっている。そして、脆弱性が発覚次第、速やかに修正パッチを配布するといった体制も強化されており、以前ほどAndroidスマホが脆弱だとは言えなくなってきている。\n\nしかし、先述のGuerrillaのようなマルウェアがアプリに潜伏するケースは後を絶たない。原因は特定されていないものの、アプリの開発環境において利用可能なオープンソースのコードにマルウェアが仕込まれるといったことが推測される。アプリの機能の一部にマルウェアが含まれるオープンソースのコードを組み込んでしまった場合、開発者自身も気づかないうちにマルウェアがアプリに仕込まれていることになるのだ。\n\nこうしたアプリ開発の過程においてマルウェアを仕込み、アプリがユーザーの手元に配布された後に攻撃を行う手法をサプライチェーン攻撃と呼ぶ。Guerrillaの場合、主に低価格帯のスマホなどのデバイスに組み込まれていたが、ハイエンドと呼ばれる高価格帯のデバイスでは確認されていない。たまに高機能を謳いながら、驚くほど安い価格で販売されているデバイスがあるが、ユーザーの見えないところでこうした動きがあることも踏まえながら判断するのが賢明だろう。\n\nスマホのマルウェアは削除できるの？無料アプリ利用の危険性とは？\n\niPhoneのセキュリティレベルに落とし穴は？\n\n先述のように、堅牢さが売りの1つでもあるiPhone。昔ながらのコンピューターに詳しいユーザーであれば、Macを含めたアップル社の製品は総じてセキュリティレベルが高いという判断になりがちだ。現状を踏まえると、こうした見解の半分は正解だが、半分は間違いだと言える。\n\nというのも、iPhoneとて完璧ではなく、これまでにもさまざまな脆弱性が生じてきた。また、ゼロデイ脆弱性が生じたことで被害が起こったケースもあった。特に、脱獄と呼ばれるようなカスタマイズをOSに施したデバイスでは、ゼロクリック攻撃といった手法のターゲットになるなど、iPhoneであってもセキュリティリスクは伴うのだ。\n\nまた、昨今の攻撃手法はWebブラウザーを経由するものも増えており、こうした場合だとOSの違いは関係ない。加えて、言葉巧みにユーザーを陥れようとするフィッシング詐欺も SMS、SNSのDMを用いるなど、OSを問わない手法が一般的になっており、逆にiPhoneだから安全だと信じ切ってしまうユーザーが狙われることもあるのだ。\n\nデジタル技術の急速な発展により、IoT機器をはじめ、さまざまなデバイスが登場し、周辺のサービスも次々と立ち上がっている。こうした環境において、完全たる安全は保障されないことはiPhoneも例外ではない。そうした認識のもと、ユーザー自身がセキュリティの意識を高め、防犯のための対策を講じることが最も重要だと言える。\n\niPhoneがハッキングされる？ iOSのセキュリティについて知っておくべきこと\n\nAndroidスマホに必要な７つのセキュリティ対策\n\nAndroidスマホを利用していくにあたり、iPhone以上にセキュリティ対策が重要なことは先述した背景からも明らかだろう。しかし、それぞれの対策は決して難しいものではない。少しの意識と時間を向けることで対応は可能だ。以下に７つの対策を紹介していく。\n\n１）OSやアプリのバージョンを最新に\n\nAndroidスマホに限らないが、基本的なセキュリティ対策としてまず行うべきは、OSやアプリを常に最新バージョンにアップデートしておくことだ。マルウェアはOSやアプリの脆弱性を突いて感染する。また、不正アクセスなども脆弱性を悪用する場合が少なくない。OSやアプリをアップデートし、脆弱性を解消しておくことでセキュリティリスクは低減する。\n\n近年、「ゼロデイ攻撃」と呼ばれる攻撃手法が一般化している。ゼロデイ攻撃では、攻撃時点で未知の脆弱性を突くマルウェアを迅速に開発して拡散される。ゼロデイ脆弱性の情報を売買するためのダークウェブも存在するなど、脆弱性が残されている状況は攻撃者にとって好都合であることをユーザーとして認識しておきたい。\n\nソフトウェアやデバイスを最新に保つべき5つの理由\n\n２）アプリのダウンロードは信用できる配布元から\n\nAndroidの場合、Google公式の「Google Playストア」以外の場所で配布されている、「野良アプリ」と呼ばれるアプリがダウンロードできてしまう。先述のように、Google Playでダウンロードしたアプリであってもマルウェアが潜伏している場合もあるが、それは極めて一部に限定される。Google Play以外でダウンロードする場合、配布元の信頼性を見極めてからダウンロードするようにしたい。\n\n３）アプリのアクセス権限の設定は適切に\n\nアプリから求められる権限を不用意に許可することは避けること。例えば、懐中電灯のアプリが個人情報へのアクセスを要求するような場合、絶対に許可しないことだ。そのためにも、インストール時にどういった権限を要求するのかは必ず確認し、必要のない権限を与えることがないようにしておきたい。\n\nアプリが求めるアクセス許可にどこまで応じるべきか\n\n４）不用意なネットワークへの接続は控える\n\nスマホのパケットを節約するためとして、外出時に近くにあるWi-Fiスポットに手あたり次第接続するユーザーもいるようだが、こうした行為は盗聴のリスクを伴うため、できれば避けるようにしたい。Wi-Fiへ接続する際には、その接続先のネットワークが暗号化されているか、暗号強度は「WPA2（AES）」、あるいは「WPA3」など安全性が高いものであるかを確認した上で接続すると良いだろう。\n\n自宅のWi-Fi環境で押さえておきたい4つのセキュリティ対策のポイント\n\n５）端末内のデータをバックアップ\n\n近年、企業や組織を狙ったランサムウェア攻撃が国内でも相次いでいる。この攻撃では、初期段階でユーザーのパソコンやスマホの内部に侵入し、中のデータを不正に暗号化する。そして、その復号と引き換えに金銭（身代金）を要求するのだ。\n\nこうした攻撃が今後、企業や組織以外に一般ユーザーを標的にする可能性もゼロではない。そのような攻撃に遭ってからでは後の祭りとなる。また、紛失時の落下で強い衝撃が加わり、動作不能になるようなケースもある。そうした場合であってもバックアップがあることで、データ消失によるダメージは最小限に抑えられる。\n\nバックアップをしておくことと、ウイルスやマルウェアへの対策とは一見無関係に思えるかもしれない。しかし、一番重要なのはスマホ本体ではなく、その中で扱われているデータではないだろうか。もはや、スマホなしでは生活が成り立たないというほどそのインパクトは大きい。だからこそ、バックアップは重要な対策の1つと言えるのだ。\n\nAndroidスマホのバックアップ方法は？ セキュリティ対策としての必要性とは？\n\n６）プライベート情報の扱いは適切に\n\nスマホであらゆることができてしまう時代となり、ネットバンキングやショッピング、旅行の予約に加えて旅の記録を付けるなど、ユーザーそれぞれで多様な使い方をしていることだろう。加えて、SNSにおいてはタイムラインへの投稿をはじめ、DMで知人とのやり取りなどに使うケースも多い。こうした状況はすなわち、スマホはプライベートな情報の宝庫であるということだ。\n\nだからこそ、攻撃者はプライベートな情報を入手するために個人のスマホを狙おうとする。スマホに不正に侵入され、中の情報を盗み出されないためにも、スマホ自体のロックは適切に設定しておきたい。また、SNSなどのアカウントにおいても、二段階認証をはじめ、セキュリティ設定を適切に行っておくことで、仮にスマホ自体を紛失した際にも対処が可能となる。\n\nSNSは危険！？利用時に頭に入れておくべきセキュリティの考え方\n\n７）セキュリティソフトの導入\n\nAndroidスマホのユーザーで、あまりITに詳しくないユーザーにおすすめしたいのが、セキュリティソフトの導入だ。ウイルス対策機能をはじめ、総合的なセキュリティ対策がパッケージ化されていることから、インストールしておくことでスマホの安全性は高まる。\n\n例えば、キヤノンMJが提供しているAndroid専用セキュリティソフト「ESET モバイル セキュリティ」は、ウイルスやランサムウェア、スパイウェアなどの感染から保護してくれるだけでなく、メールやWebサイトのリンク経由で詐欺サイト（フィッシングサイト）へアクセスすることもブロックする。さらに、アンチセフト（盗難対策）機能もあり、紛失や盗難にあったスマホの位置情報の確認やアクセス制御、リモートワイプ（データの遠隔消去）などが可能だ。\n\n先述のように、スマホの利便性が増している分、攻撃を受けた際のリスクは高まっている。だからこそ、セキュリティ対策は万全にしておく必要があるのだ。ウイルス、マルウェア対策はもちろんのこと、スマホに関するセキュリティ対策全般を改めて見直しておくことで、安心・安全にスマホを利用してほしい。\n\nスマホにもセキュリティアプリが必要とされている背景・理由とは",
+          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/191107.html",
+          "publishedOn": "2023-10-16T15:00:00.000Z",
+          "wordCount": 219,
+          "title": "Androidスマホのセキュリティを高めるために必要な7つの対策とは[更新]",
+          "imageUrl": "https://eset-info.canon-its.jp/files/topics/2960_ext_01_0.jpg"
+        },
         {
           "id": "https://eset-info.canon-its.jp/malware_info/special/detail/231012.html",
           "author": null,
@@ -1188,6 +1268,28 @@
       "feedUrl": "https://www.nic.ad.jp/ja/index.xml",
       "siteUrl": "https://www.nic.ad.jp/",
       "articles": [
+        {
+          "id": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol2031.html",
+          "author": null,
+          "description": "",
+          "link": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol2031.html",
+          "publishedOn": "2023-10-16T09:35:48.000Z",
+          "wordCount": null,
+          "title": "[メルマガ]vol.2031:【定期号】特集：APNIC 56カンファレンス報告 全体概要およびアドレスポリシー関連報告",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol2030.html",
+          "author": null,
+          "description": "",
+          "link": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol2030.html",
+          "publishedOn": "2023-10-16T09:05:48.000Z",
+          "wordCount": null,
+          "title": "[メルマガ]vol.2030:【トピックス号】先週のトピックスとWeb更新情報",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://blog.nic.ad.jp/2023/9285/",
           "author": null,
@@ -1402,6 +1504,170 @@
       ]
     },
     {
+      "title": "CISA Cybersecurity Advisories",
+      "feedUrl": "https://www.cisa.gov/uscert/ncas/alerts.xml",
+      "siteUrl": "https://www.cisa.gov/",
+      "articles": [
+        {
+          "id": "/node/18970",
+          "author": "CISA",
+          "description": "SUMMARY\nThe Cybersecurity and Infrastructure Security Agency (CISA), Federal Bureau of Investigation (FBI), and Multi-State Information Sharing and Analysis Center (MS-ISAC) are releasing this joint Cybersecurity Advisory (CSA) in response to the active exploitation of CVE-2023-22515. This recently disclosed vulnerability affects certain versions of Atlassian Confluence Data Center and Server, enabling malicious cyber threat actors to obtain initial access to Confluence instances by creating unauthorized Confluence administrator accounts. Threat actors exploited CVE-2023-22515 as a zero-day to obtain access to victim systems and continue active exploitation post-patch. Atlassian has rated this vulnerability as critical; CISA, FBI, and MS-ISAC expect widespread, continued exploitation due t…",
+          "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-289a",
+          "publishedOn": "2023-10-13T20:48:38.000Z",
+          "wordCount": 2056,
+          "title": "Threat Actors Exploit Atlassian Confluence CVE-2023-22515 for Initial Access to Networks",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/18935",
+          "author": "CISA",
+          "description": "SUMMARY\nNote: This joint Cybersecurity Advisory (CSA) is part of an ongoing #StopRansomware effort to publish advisories for network defenders that detail various ransomware variants and ransomware threat actors. These #StopRansomware advisories include recently and historically observed tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) to help organizations protect against ransomware. Visit stopransomware.gov to see all #StopRansomware advisories and to learn more about other ransomware threats and no-cost resources.\nThe Federal Bureau of Investigation (FBI) and the Cybersecurity and Infrastructure Security Agency (CISA) are releasing this joint Cybersecurity Advisory (CSA) to disseminate known IOCs, TTPs, and detection methods associated with the AvosLocker v…",
+          "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-284a",
+          "publishedOn": "2023-10-10T15:46:58.000Z",
+          "wordCount": 3145,
+          "title": "#StopRansomware: AvosLocker Ransomware (Update)",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/18905",
+          "author": "CISA",
+          "description": "A plea for network defenders and software manufacturers to fix common problems.\nEXECUTIVE SUMMARY\nThe National Security Agency (NSA) and Cybersecurity and Infrastructure Security Agency (CISA) are releasing this joint cybersecurity advisory (CSA) to highlight the most common cybersecurity misconfigurations in large organizations, and detail the tactics, techniques, and procedures (TTPs) actors use to exploit these misconfigurations.\nThrough NSA and CISA Red and Blue team assessments, as well as through the activities of NSA and CISA Hunt and Incident Response teams, the agencies identified the following 10 most common network misconfigurations:\nDefault configurations of software and applications\nImproper separation of user/administrator privilege\nInsufficient internal network monitoring\nLa…",
+          "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-278a",
+          "publishedOn": "2023-10-02T19:42:24.000Z",
+          "wordCount": 10134,
+          "title": "NSA and CISA Red and Blue Teams Share Top Ten Cybersecurity Misconfigurations",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/18871",
+          "author": "CISA",
+          "description": "Executive Summary\nThe United States National Security Agency (NSA), the U.S. Federal Bureau of Investigation (FBI), the U.S. Cybersecurity and Infrastructure Security Agency (CISA), the Japan National Police Agency (NPA), and the Japan National Center of Incident Readiness and Strategy for Cybersecurity (NISC) (hereafter referred to as the “authoring agencies”) are releasing this joint cybersecurity advisory (CSA) to detail activity of the People’s Republic of China (PRC)-linked cyber actors known as BlackTech. BlackTech has demonstrated capabilities in modifying router firmware without detection and exploiting routers’ domain-trust relationships for pivoting from international subsidiaries to headquarters in Japan and the U.S. — the primary targets. The authoring agencies recommend implem…",
+          "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-270a",
+          "publishedOn": "2023-09-26T19:45:20.000Z",
+          "wordCount": 3174,
+          "title": "People's Republic of China-Linked Cyber Actors Hide in Router Firmware",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/18822",
+          "author": "CISA",
+          "description": "SUMMARY\nNote: This joint Cybersecurity Advisory (CSA) is part of an ongoing #StopRansomware effort to publish advisories for network defenders that detail various ransomware variants and ransomware threat actors. These #StopRansomware advisories include recently and historically observed tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) to help organizations protect against ransomware. Visit stopransomware.gov to see all #StopRansomware advisories and to learn more about other ransomware threats and no-cost resources.\nThe Federal Bureau of Investigation (FBI) and the Cybersecurity and Infrastructure Security Agency (CISA) are releasing this joint CSA to disseminate known ransomware IOCs and TTPs associated with the Snatch ransomware variant identified through F…",
+          "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-263a",
+          "publishedOn": "2023-09-18T21:27:04.000Z",
+          "wordCount": 4166,
+          "title": "#StopRansomware: Snatch Ransomware",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
+      "title": "Alerts",
+      "feedUrl": "https://www.cisa.gov/uscert/ncas/current-activity.xml",
+      "siteUrl": "https://www.cisa.gov/",
+      "articles": [
+        {
+          "id": "/node/18972",
+          "author": "CISA",
+          "description": "Today, CISA, the Federal Bureau of Investigation (FBI), and the Multi-State Information Sharing and Analysis Center (MS-ISAC) released a joint Cybersecurity Advisory (CSA) in response to the active exploitation of CVE-2023-22515. This critical vulnerability affects certain versions of Atlassian Confluence Data Center and Server, enabling malicious threat actors to obtain initial access to Confluence instances by creating unauthorized Confluence administrator accounts.\nCISA strongly encourages upgrading to a fixed version or taking servers offline to apply necessary updates. For upgrade instructions, a complete list of affected product versions, and indicators of compromise, see Atlassian’s security advisory.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/10/16/cisa-fbi-and-ms-isac-release-joint-advisory-atlassian-confluence-vulnerability-cve-2023-22515",
+          "publishedOn": "2023-10-16T12:00:00.000Z",
+          "wordCount": 606,
+          "title": "CISA, FBI, and MS-ISAC Release Joint Advisory on Atlassian Confluence Vulnerability CVE-2023-22515",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/18973",
+          "author": "CISA",
+          "description": "Cisco released a security advisory to address a vulnerability (CVE-2023-20198) affecting IOS XE Software Web UI. A cyber threat actor can exploit this vulnerability to take control of an affected device.\nCISA encourages users and administrators to review the Cisco security advisory, apply the necessary recommendations, hunt for any malicious activity and report any positive findings to CISA, and apply patches when made available.\nSee the following for additional guidance and resources: \nBOD 23-02: Mitigating the Risk from Internet-Exposed Management Interfaces\nKnown Exploited Vulnerabilities Catalog",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/10/16/cisco-releases-security-advisory-ios-xe-software-web-ui",
+          "publishedOn": "2023-10-16T12:00:00.000Z",
+          "wordCount": 594,
+          "title": "Cisco Releases Security Advisory for IOS XE Software Web UI",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/18974",
+          "author": "CISA",
+          "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.\nCVE-2023-20198 Cisco IOS XE Web UI Privilege Escalation Vulnerability\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise. Note: To view other newly added vulnerabilities in the catalog, click on the arrow in the \"Date Added to Catalog\" column—which will sort by descending dates.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.\nAlthough BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/10/16/cisa-adds-one-known-exploited-vulnerability-catalog",
+          "publishedOn": "2023-10-16T12:00:00.000Z",
+          "wordCount": 698,
+          "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/18963",
+          "author": "CISA",
+          "description": "CISA released nineteen Industrial Control Systems (ICS) advisories on October 12, 2023. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.\nICSA-23-285-01 Siemens SIMATIC CP products\nICSA-23-285-02 Siemens SCALANCE W1750D\nICSA-23-285-03 Siemens SICAM A8000 Devices\nICSA-23-285-04 Siemens Xpedition Layout Browser\nICSA-23-285-05 Siemens Simcenter Amesim\nICSA-23-285-06 Siemens SICAM PAS/PQS\nICSA-23-285-07 Siemens RUGGEDCOM APE180\nICSA-23-285-08 Siemens SINEC NMS\nICSA-23-285-09 Siemens CPCI85 Firmware of SICAM A8000 Devices\nICSA-23-285-10 Siemens Tecnomatix Plant Simulation \nICSA-23-285-11 Siemens Mendix Forgot Password Module\nICSA-23-285-12 Weintek cMT3000 HMI Web CGI\nICSA-23-285-13 Mitsubishi Electric MELSEC-F Series\nICSA-23-285-14 Hikvision Access Control and Intercom Products\nICSA-23-285-15 Advantech WebAccess\nICSA-23-285-16 Schneider Electric IGSS\nICSMA-23-285-01 Santesoft Sante DICOM Viewer Pro\nICSMA-23-285-02 Santesoft Sante FFT Imaging\nICSA-23-243-03 PTC Kepware KepServerEX (Update A)\nCISA encourages users and administrators to review the newly released ICS advisories for technical details and mitigations.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/10/12/cisa-releases-nineteen-industrial-control-systems-advisories",
+          "publishedOn": "2023-10-12T12:00:00.000Z",
+          "wordCount": 645,
+          "title": "CISA Releases Nineteen Industrial Control Systems Advisories",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/18964",
+          "author": "CISA",
+          "description": "Today, as part of the Ransomware Vulnerability Warning Pilot (RVWP), CISA launched two new resources for combating ransomware campaigns:\nA “Known to be Used in Ransomware Campaigns” column in the KEV Catalog that identifies KEVs associated with ransomware campaigns.\nA “Misconfigurations and Weaknesses Known to be Used in Ransomware Campaigns” table on StopRansomware.gov that identifies misconfigurations and weaknesses associated with ransomware campaigns. The table features a column that identifies the Cyber Performance Goal (CPG) action for each misconfiguration or weakness.\nThese two new resources will help organizations become more cybersecure by providing mitigations that protect against specific KEVs, misconfigurations, and weaknesses associated with ransomware.\nCISA encourages all organizations to review the blog about this RVWP effort, as well as the new KEV catalog column and updated StopRansomware.gov site and implement applicable mitigations today.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/10/12/cisa-releases-new-resources-identifying-known-exploited-vulnerabilities-and-misconfigurations-linked",
+          "publishedOn": "2023-10-12T12:00:00.000Z",
+          "wordCount": 674,
+          "title": "CISA Releases New Resources Identifying Known Exploited Vulnerabilities and Misconfigurations Linked to Ransomware",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/18944",
+          "author": "CISA",
+          "description": "Fortinet has released security advisories addressing vulnerabilities in multiple products. These vulnerabilities may allow cyber threat actors to take control of the affected systems. \nCISA encourages users and administrators to review the following Fortinet security advisories and apply the recommended updates:\nFG-IR-23-189: FortiManager, FortiAnalyzer – Path traversal via unrestricted file upload\nFG-IR-23-062: FortiManager – Improper inter ADOM access control\nFG-IR-23-167: FortiManager, FortiAnalyzer – OS command injection\nFG-IR-22-352: FortiManager, FortiAnalyzer, FortiADC – Command injection due to an unsafe usage of function\nFG-IR-23-318: FortiOS – Improper authorization via prof-admin profile\nFG-IR-23-085: FortiSIEM - Multiple path traversal vulnerabilities",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/10/11/fortinet-releases-security-updates-multiple-products",
+          "publishedOn": "2023-10-11T12:00:00.000Z",
+          "wordCount": 595,
+          "title": "Fortinet Releases Security Updates for Multiple Products",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/18941",
+          "author": "CISA",
+          "description": "Today, the Federal Bureau of Investigation (FBI) and the Cybersecurity and Infrastructure Security Agency (CISA) released a joint Cybersecurity Advisory (CSA), #StopRansomware: AvosLocker Ransomware (Update) to disseminate known indicators of compromise (IOCs), tactics, techniques, and procedures (TTPs), and detection methods associated with the AvosLocker variant identified through FBI investigations as recently as May 2023.\nThis release updates the March 17, 2022 joint CSA, Indicators of Compromise Associated with AvosLocker ransomware, released by FBI, CISA, and the Department of the Treasury’s Financial Crimes Enforcement Network (FinCEN). This update includes IOCs and TTPs not included in the previous advisory and a YARA rule developed after analyzing a tool associated with an AvosLocker compromise.\nFBI and CISA encourage critical infrastructure organizations to implement the recommendations in the joint CSA to reduce the likelihood and impact of AvosLocker ransomware and other ransomware incidents. For more information, see CISA’s #StopRansomware webpage.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/10/11/fbi-and-cisa-release-update-avoslocker-advisory",
+          "publishedOn": "2023-10-11T12:00:00.000Z",
+          "wordCount": 648,
+          "title": "FBI and CISA Release Update on AvosLocker Advisory",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/18939",
+          "author": "CISA",
+          "description": "Citrix has released security updates to address vulnerabilities affecting multiple products. A malicious cyber actor can exploit one of these vulnerabilities to take control of an affected system.\nCISA encourages users and administrators to review the following Citrix security bulletins and apply the necessary updates:\nNetScaler ADC and NetScaler Gateway Security Bulletin for CVE-2023-4966 and CVE-2023-4967 \nCitrix Hypervisor Multiple Security Updates",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/10/10/citrix-releases-security-updates-multiple-products",
+          "publishedOn": "2023-10-10T12:00:00.000Z",
+          "wordCount": 566,
+          "title": "Citrix Releases Security Updates for Multiple Products",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/18934",
+          "author": "CISA",
+          "description": "CISA has added five new vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation:\nCVE-2023-21608 Adobe Acrobat and Reader Use-After-Free Vulnerability\nCVE-2023-20109 Cisco IOS and IOS XE Group Encrypted Transport VPN Out-of-Bounds Write Vulnerability\nCVE-2023-41763 Microsoft Skype for Business Privilege Escalation Vulnerability\nCVE-2023-36563 Microsoft WordPad Information Disclosure Vulnerability\nCVE-2023-44487 HTTP/2 Rapid Reset Attack Vulnerability\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise. Note: To view other newly added vulnerabilities in the catalog, click on the arrow in the \"Date Added to Catalog\" column—which will sort by descending dates.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.\nAlthough BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/10/10/cisa-adds-five-known-vulnerabilities-catalog",
+          "publishedOn": "2023-10-10T12:00:00.000Z",
+          "wordCount": 722,
+          "title": "CISA Adds Five Known Vulnerabilities to Catalog",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/18940",
+          "author": "CISA",
+          "description": "Microsoft has released updates to address multiple vulnerabilities in Microsoft software. A cyber threat actor can exploit some of these vulnerabilities to take control of an affected system.\nCISA encourages users and administrators to review Microsoft’s October 2023 Security Update Guide and apply the necessary updates.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/10/10/microsoft-releases-october-2023-security-updates",
+          "publishedOn": "2023-10-10T12:00:00.000Z",
+          "wordCount": 544,
+          "title": "Microsoft Releases October 2023 Security Updates",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
       "title": "CERT Recently Published Vulnerability Notes",
       "feedUrl": "https://www.kb.cert.org/vulfeed",
       "siteUrl": "https://kb.cert.org/vuls/",
@@ -1412,6 +1678,16 @@
       "feedUrl": "https://jvn.jp/rss/jvn.rdf",
       "siteUrl": "https://jvn.jp/",
       "articles": [
+        {
+          "id": "https://jvn.jp/vu/JVNVU98392064/",
+          "author": "jvn@jvn.jp",
+          "description": "株式会社ジェイテクトエレクトロニクスが提供するOnSinView2には、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU98392064/",
+          "publishedOn": "2023-10-17T04:00:00.000Z",
+          "wordCount": 90,
+          "title": "ジェイテクトエレクトロニクス製OnSinView2における複数の脆弱性",
+          "imageUrl": null
+        },
         {
           "id": "https://jvn.jp/vu/JVNVU98207673/",
           "author": "jvn@jvn.jp",
@@ -1615,6 +1891,83 @@
       ]
     },
     {
+      "title": "Microsoft Security Response Center",
+      "feedUrl": "https://msrc-blog.microsoft.com/feed/",
+      "siteUrl": "https://msrc.microsoft.com/blog/",
+      "articles": [
+        {
+          "id": "https://msrc.microsoft.com/blog/2023/10/congratulations-to-the-top-msrc-2023-q3-security-researchers/",
+          "author": null,
+          "description": "Congratulations to all the researchers recognized in this quarter’s Microsoft Researcher Recognition Program leaderboard! Thank you to everyone for your hard work and continued partnership to secure customers.\nThe top three researchers of the 2023 Q3 Security Researcher Leaderboard are Wei, VictorV, and Anonymous!\nCheck out the full list of researchers recognized this quarter here.",
+          "link": "https://msrc.microsoft.com/blog/2023/10/congratulations-to-the-top-msrc-2023-q3-security-researchers/",
+          "publishedOn": "2023-10-16T07:00:00.000Z",
+          "wordCount": 1812,
+          "title": "Congratulations to the Top MSRC 2023 Q3 Security Researchers!",
+          "imageUrl": null
+        },
+        {
+          "id": "https://msrc.microsoft.com/blog/2023/10/introducing-the-microsoft-ai-bug-bounty-program-featuring-the-ai-powered-bing-experience/",
+          "author": null,
+          "description": "Today at BlueHat we announced the new Microsoft AI bug bounty program with awards up to $15,000. This new bounty program features the AI-powered Bing experience as the first in scope product. The following products and integrations are eligible for bounty awards:\nAI-powered Bing experiences on bing.com in Browser (All major vendors are supported, including Bing Chat, Bing Chat for Enterprise, and Bing Image Creator) AI-powered Bing integration in Microsoft Edge (Windows), including Bing Chat for Enterprise AI-powered Bing integration in the Microsoft Start Application (iOS and Android) AI-powered Bing integration in the Skype Mobile Application (iOS and Android) Full details can be found on our bounty program website.",
+          "link": "https://msrc.microsoft.com/blog/2023/10/introducing-the-microsoft-ai-bug-bounty-program-featuring-the-ai-powered-bing-experience/",
+          "publishedOn": "2023-10-12T07:00:00.000Z",
+          "wordCount": 1934,
+          "title": "Introducing the Microsoft AI Bug Bounty Program featuring the AI-powered Bing experience",
+          "imageUrl": null
+        },
+        {
+          "id": "https://msrc.microsoft.com/blog/2023/10/microsoft-response-to-distributed-denial-of-service-ddos-attacks-against-http/2/",
+          "author": null,
+          "description": "Summary Summary Beginning in September 2023, Microsoft was notified by industry partners about a newly identified Distributed Denial-of-Service (DDoS) attack technique being used in the wild targeting HTTP/2 protocol. This vulnerability (CVE-2023-44487) impacts any internet exposed HTTP/2 endpoints. As an industry leader, Microsoft promptly opened an investigation and subsequently began working with industry partners for a coordinated disclosure and mitigation plan.",
+          "link": "https://msrc.microsoft.com/blog/2023/10/microsoft-response-to-distributed-denial-of-service-ddos-attacks-against-http/2/",
+          "publishedOn": "2023-10-10T07:00:00.000Z",
+          "wordCount": 2632,
+          "title": "Microsoft Response to Distributed Denial of Service (DDoS) Attacks against HTTP/2",
+          "imageUrl": null
+        },
+        {
+          "id": "https://msrc.microsoft.com/blog/2023/10/cybersecurity-awareness-month-2023-elevating-security-together/",
+          "author": null,
+          "description": "As the 20th anniversary of Cybersecurity Awareness Month begins, I find myself reflecting on the strides made since its inception. The journey to enhance and improve cybersecurity is ongoing and extends beyond October. It’s not merely a technological challenge; it is fundamentally about people. It’s about the customers and communities that we at Microsoft work tirelessly to safeguard and defend.",
+          "link": "https://msrc.microsoft.com/blog/2023/10/cybersecurity-awareness-month-2023-elevating-security-together/",
+          "publishedOn": "2023-10-05T07:00:00.000Z",
+          "wordCount": 2296,
+          "title": "Cybersecurity Awareness Month 2023: Elevating Security Together",
+          "imageUrl": null
+        },
+        {
+          "id": "https://msrc.microsoft.com/blog/2023/10/microsofts-response-to-open-source-vulnerabilities-cve-2023-4863-and-cve-2023-5217/",
+          "author": null,
+          "description": "Microsoft is aware and has released patches associated with the two Open-Source Software security vulnerabilities, CVE-2023-4863 and CVE-2023-5217. Through our investigation, we found that these affect a subset of our products and as of today, we have addressed them in our products as outlined below: CVE-2023-4863\nMicrosoft Edge Microsoft Teams for Desktop Skype for Desktop Webp Image Extensions (Released on Windows and updates through Microsoft Store) CVE-2023-5217",
+          "link": "https://msrc.microsoft.com/blog/2023/10/microsofts-response-to-open-source-vulnerabilities-cve-2023-4863-and-cve-2023-5217/",
+          "publishedOn": "2023-10-02T07:00:00.000Z",
+          "wordCount": 1709,
+          "title": "Microsoft’s Response to Open-Source Vulnerabilities - CVE-2023-4863 and CVE-2023-5217",
+          "imageUrl": null
+        },
+        {
+          "id": "https://msrc.microsoft.com/blog/2023/09/journey-down-under-how-rocco-became-australias-premier-hacker/",
+          "author": null,
+          "description": "Fun facts about Rocco Calvi (@TecR0c):\nMicrosoft MVR: Rocco is a 2023 Microsoft Most Valuable Researcher.\nFitness fanatic: Inspired by old-school body building and countless hours of chopping and carrying wood in the mountains during his youth, Rocco remains a fitness enthusiast, setting himself challenges and pushing his limits.",
+          "link": "https://msrc.microsoft.com/blog/2023/09/journey-down-under-how-rocco-became-australias-premier-hacker/",
+          "publishedOn": "2023-09-25T07:00:00.000Z",
+          "wordCount": 2498,
+          "title": "Journey Down Under: How Rocco Became Australia’s Premier Hacker",
+          "imageUrl": null
+        },
+        {
+          "id": "https://msrc.microsoft.com/blog/2023/09/microsoft-mitigated-exposure-of-internal-information-in-a-storage-account-due-to-overly-permissive-sas-token/",
+          "author": null,
+          "description": "Summary Summary As part of a recent Coordinated Vulnerability Disclosure (CVD) report from Wiz.io, Microsoft investigated and remediated an incident involving a Microsoft employee who shared a URL for a blob store in a public GitHub repository while contributing to open-source AI learning models. This URL included an overly-permissive Shared Access Signature (SAS) token for an internal storage account.",
+          "link": "https://msrc.microsoft.com/blog/2023/09/microsoft-mitigated-exposure-of-internal-information-in-a-storage-account-due-to-overly-permissive-sas-token/",
+          "publishedOn": "2023-09-18T07:00:00.000Z",
+          "wordCount": 2737,
+          "title": "Microsoft mitigated exposure of internal information in a storage account due to overly-permissive SAS token",
+          "imageUrl": null
+        }
+      ]
+    },
+    {
       "title": "ブログ | WordPress.org 日本語",
       "feedUrl": "https://ja.wordpress.org/news/feed/",
       "siteUrl": "https://ja.wordpress.org",
@@ -1676,6 +2029,26 @@
       "feedUrl": "https://srad.jp/security.rss",
       "siteUrl": "https://security.srad.jp/",
       "articles": [
+        {
+          "id": "https://opensource.srad.jp/story/23/10/16/2329204/",
+          "author": "nagazou",
+          "description": "headless 曰く、CD のトラック情報を格納した CUE シートを処理する libcue の 2.2.1 までのバージョンで配列範囲外へのアクセスに対する脆弱性 (CVE-2023-43641) が見つかり、バージョン 2.3.0 で修正された\n(The GitHub Blog の記事、\nArs Technica の記事)。\n\nこの脆弱性は CUE シート (.cue) の INDEX 文の処理に関するバグによるもので、攻撃者は細工した INDEX 文を含めることでコード実行が可能になる。これにより、GNOME では 1 クリックでのリモートコード実行につながるという。\n\nGNOME ユーザーがウェブサイトのダウンロードリンクをクリックするとファイルが「~/Downloads」に保存され、ファイルのインデックス生成のため tracker-miners によるスキャンが自動的に行われる。ダウンロードされたファイルが CUE シートの場合は解析に libcue が用いられるため、INDEX 文が細工されていればリモートからコードを実行される結果となる。\n\nそのため特に GNOME ユーザーに対し、なるべく早い更新が呼びかけられている。\n すべて読む | オープンソースセクション | メディア | セキュリティ | バグ | GNOME | IT |     \n  関連ストーリー： \nネットワークディスプレイ機能をGNOMEに統合 2023年08月10日 \nGNOME Shellの 「アクティビティ」ボタンの新デザインの提案がされる 2023年08月03日 \nGNOMEプロジェクト、10 月末でメーリングリストを廃止 2022年10月29日",
+          "link": "https://opensource.srad.jp/story/23/10/16/2329204/",
+          "publishedOn": "2023-10-17T06:07:00.000Z",
+          "wordCount": 2174,
+          "title": "GNOMEでは1クリックでのリモートコード実行につながるlibcueの脆弱性が修正される",
+          "imageUrl": "https://srad.jp/static/topics/bug_64.png"
+        },
+        {
+          "id": "https://security.srad.jp/story/23/10/15/1427200/",
+          "author": "nagazou",
+          "description": "headless 曰く、Microsoft が Windows 11 で NTLM (NT LAN Manager) 認証を廃止する計画を示している\n(Windows IT Pro Blog の記事、\nBleeping Computer の記事)。\n\nWindows では 2000 年から Kerberos がデフォルトの認証プロトコルとなっているが、NTLM へのフォールバックが必要になる場面もある。このような場面に対応するため、Windows 11 では Kerberos に重要な機能が追加されているという。追加された重要な機能はクライアントがより多様なネットワークトポロジーで Kerberos 認証を利用できるようにする IAKerb (Initial and pass through Authentication using Kerberos)と、ローカルアカウントで Kerberos をサポートする Local KDC (Key Distribution Center) の2つだ。また、NTLM にも管理者が容易に使用状況を把握したり、ブロックしたりできるようにするための機能追加が進められているとのこと。\n\nこのようにして Microsoft は段階的に NTLM の依存関係を減らしていき、最終的には Windows 11 で NTLM を無効化する計画だ。ただし、無効化時期については示されておらず、安全に無効化できるようになるのを待つことになる。NTLM の使用削減に向けて IT プロフェッショナルが準備すべきこととして、NTLM の使用状況と無効化の妨げになるアプリケーションを把握すること、アプリケーション開発者は NTLM の使用がハードコードされている部分がないか調べて修正を行うこと、日本時間 10 月 25 日 0 時開始のウェビナー「The Evolution of Windows Authentication」に登録すること、Kerberos の今後の機能改善に注目すること、が挙げられている。\n すべて読む | セキュリティセクション | セキュリティ | ネットワーク | Windows | IT |     \n  関連ストーリー： \nNTLM関連の新たな脆弱性が見つかる 2017年07月16日 \nデフォルト設定のWindowsおよびWindows Serverにおける権限昇格の可能性が指摘される 2016年01月20日 \n 「Firebird」から「Firefox」へ、Mozilla Firefox 0.8リリース 2004年02月09日",
+          "link": "https://security.srad.jp/story/23/10/15/1427200/",
+          "publishedOn": "2023-10-16T22:06:00.000Z",
+          "wordCount": 3274,
+          "title": "Microsoft、Windows 11でNTLM認証を廃止する計画",
+          "imageUrl": "https://srad.jp/static/topics/windows_64.png"
+        },
         {
           "id": "https://apple.srad.jp/story/23/10/15/1333207/",
           "author": "nagazou",
@@ -1783,6 +2156,96 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/10/17/50102.html",
+          "author": null,
+          "description": "その瞬間、返す言葉が見当たらず、何も言うことができない沈黙の時間が流れた。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/10/17/50102.html",
+          "publishedOn": "2023-10-16T23:15:03.000Z",
+          "wordCount": 995,
+          "title": "日本企業の９割が満足にできていないセキュリティ対策「ログ管理」の重要性 ～ 網屋・ＧＳＸ",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42899.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/10/17/50101.html",
+          "author": null,
+          "description": "民間のオンライン攻撃者に適用される全規則は次のとおりである。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/10/17/50101.html",
+          "publishedOn": "2023-10-16T23:10:05.000Z",
+          "wordCount": 948,
+          "title": "「民間人サイバー交戦ルール」の指針となるか？ 赤十字がハクティビズム法制定",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42979.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/10/17/50100.html",
+          "author": null,
+          "description": "調査テーマ自体は “ありふれた” ものにも感じられるが、このアンケート結果を読み取る視点が非常にソリトンらしい。情報システム部門に寄り添うメーカーとしての姿勢が、そこに凝縮されていた。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/10/17/50100.html",
+          "publishedOn": "2023-10-16T23:10:02.000Z",
+          "wordCount": 1052,
+          "title": "トレードオフという言葉に甘えない ～ ソリトンシステムズが追求する「運用負荷フリー」のセキュリティ製品開発",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42963.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/10/17/50099.html",
+          "author": null,
+          "description": "三重県は9月27日、宇治山田高校での個人メールアドレスの再漏えいについて発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/10/17/50099.html",
+          "publishedOn": "2023-10-16T23:05:12.000Z",
+          "wordCount": 813,
+          "title": "教頭 理解不足「メッセージ取消」機能 メールアドレス再度漏えい",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42858.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/10/17/50098.html",
+          "author": null,
+          "description": "株式会社酒商山田は9月22日、同社社員を装った迷惑メールについて発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/10/17/50098.html",
+          "publishedOn": "2023-10-16T23:05:06.000Z",
+          "wordCount": 831,
+          "title": "メールアドレスを不正利用、酒商山田の社員を装った迷惑メール確認",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42919.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/10/17/50097.html",
+          "author": null,
+          "description": "原子力規制委員会は10月4日、メール誤送信によるメールアドレスの漏えいについて発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/10/17/50097.html",
+          "publishedOn": "2023-10-16T23:05:02.000Z",
+          "wordCount": 806,
+          "title": "核物質防護関係者のメールアドレス 105 件漏えい ～ 原子力規制委員会でメール誤送信",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42870.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/10/17/50096.html",
+          "author": null,
+          "description": "株式会社エーアイセキュリティラボは10月10日、「生成AIを活用した脆弱性診断」に関する特許の取得と生成AIオプション機能の提供を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/10/17/50096.html",
+          "publishedOn": "2023-10-16T23:00:15.000Z",
+          "wordCount": 782,
+          "title": "エーアイセキュリティラボ「生成AIを活用した脆弱性診断」に関する特許 3 件取得、生成AIオプション機能提供",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42909.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/10/17/50095.html",
+          "author": null,
+          "description": "株式会社カスペルスキーは10月5日、Linuxを標的としたバックドアの3年間にわたる拡散を発見したと発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/10/17/50095.html",
+          "publishedOn": "2023-10-16T23:00:09.000Z",
+          "wordCount": 900,
+          "title": "人気の無料ソフト公式サイトを侵害、Linux 標的としたバックドア 3 年間拡散",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/10/17/50094.html",
+          "author": null,
+          "description": "マイクロソフトは10月6日、2022年7月から2023年6月にかけての国家活動、サイバー犯罪、防衛手法の動向を網羅した年次報告書「Microsoft Digital Defense Report」（第4版）から得られた知見の一部を同社ブログで発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/10/17/50094.html",
+          "publishedOn": "2023-10-16T23:00:03.000Z",
+          "wordCount": 889,
+          "title": "AP地域で最もサイバー攻撃の標的にされた国家：1位韓国 2位台湾 ～ Microsoft Digital Defense Report",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2023/10/16/50093.html",
           "author": null,
@@ -2291,6 +2754,26 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2310/17/news121.html",
+          "author": null,
+          "description": "NTT西日本グループのNTTマーケティングアクトProCXは、マーケティング業務を代行するためにクライアントから預かっていた顧客情報900万件が不正に持ち出されたと発表した。",
+          "link": "https://www.itmedia.co.jp/news/articles/2310/17/news121.html",
+          "publishedOn": "2023-10-17T06:18:00.000Z",
+          "wordCount": 2702,
+          "title": "派遣社員が“クライアントの顧客情報”900万件を不正持ち出し　NTT西グループ",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2310/17/cover_news121.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2310/16/news151.html",
+          "author": null,
+          "description": "電気通信事業などを手掛けるQTnetは、特撮ドラマ「仮面ライダー」シリーズとコラボレーションしたWebCMを公開した。仮面ライダー1号と2号、V3を起用した全4種の映像を作成した。",
+          "link": "https://www.itmedia.co.jp/news/articles/2310/16/news151.html",
+          "publishedOn": "2023-10-16T10:19:00.000Z",
+          "wordCount": 2722,
+          "title": "仮面ライダー vs. サイバー攻撃？　通信事業者が次回予告風コラボCM公開",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2310/16/cover_news151.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2310/13/news107.html",
           "author": null,
           "description": "ガートナージャパンが「生成AIのハイプ・サイクル」2023年版を公開。大規模言語モデル（LLM）やプロンプトエンジニアリングといった技術は「過度な期待のピーク」にあるとした。",
@@ -2598,6 +3081,156 @@
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
         {
+          "id": "https://internet.watch.impress.co.jp/docs/event/1539797.html",
+          "author": null,
+          "description": "10月17日～20日に幕張メッセで「CEATEC 2023」が開催中だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/event/1539797.html",
+          "publishedOn": "2023-10-17T07:09:45.000Z",
+          "wordCount": 4567,
+          "title": "しゃべれる3Dキャラの接客サービス「AIバイト」を展示するGatebox【CEATEC 2023】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1539/797/001.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1539036.html",
+          "author": null,
+          "description": "株式会社MetaMoJiは10月11日、書き込み可能な巻き取り式カレンダー「ロールカレンダー 2024」を発売した。市場想定価格は3960円、リフィルが3300円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1539036.html",
+          "publishedOn": "2023-10-17T06:55:00.000Z",
+          "wordCount": 4556,
+          "title": "巻物タイプ＆ホワイトボードのように書き込める「ロールカレンダー」、MetaMoJiが発売　長さを調整し、最長6カ月の予定をまとめて見られる",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1539/036/00.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/event/1539767.html",
+          "author": null,
+          "description": "10月17日～20日に幕張メッセで「CEATEC 2023」が開催中だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/event/1539767.html",
+          "publishedOn": "2023-10-17T06:30:00.000Z",
+          "wordCount": 4553,
+          "title": "AIによる安価な「バーチャルヒューマン」を3DIGがデモ、「早期の社会実装を」【CEATEC 2023】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1539/767/a2.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1539755.html",
+          "author": null,
+          "description": "株式会社BI.Garageとメディア企業30社が共同運営するコンテンツメディアコンソーシアムは10月17日、「クオリティメディア宣言を発表」し、団体名を「クオリティメディアコンソーシアム」に変更した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1539755.html",
+          "publishedOn": "2023-10-17T05:35:00.000Z",
+          "wordCount": 4576,
+          "title": "コンテンツメディアコンソーシアム、「クオリティメディア宣言」を発表し団体名も変更、デジタル広告の信頼性向上に取り組む",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1539/755/00.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1539732.html",
+          "author": null,
+          "description": "CEATEC 2023のシャープブースは「Next-generation global environment」をテーマに、「創・蓄・省で実現するSHARPのカーボンニュートラル」「SHARPのサスティナビリティ」「DIGITAL HEALTHCARE」「独自技術（ネイチャーテクノロジー）」の4つのゾーンで、参考展示を含む最新技術やソリューションを展示している。そのなかから、注目の展示を見てみよう。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1539732.html",
+          "publishedOn": "2023-10-17T05:15:00.000Z",
+          "wordCount": 4584,
+          "title": "フクロウから着想を得た「羽ばたき型送風機」や次世代ユニバーサルUIなど、シャープブースでは多様な最新技術を展示　「Next-generation global environment」がテーマ",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1539/732/IMG_0500.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1539667.html",
+          "author": null,
+          "description": "CEATEC 2023のオープニングレセプションが、10月16日午後6時から、東京・大手町のパレスホテル東京で開催された。会場には、IT／エレクトロニクス産業の経営トップをはじめとする経済界関係者、岸田文雄首相をはじめとする政府関係者、在日大使館関係者など、約700人が参加した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1539667.html",
+          "publishedOn": "2023-10-17T04:10:00.000Z",
+          "wordCount": 4592,
+          "title": "岸田首相がCEATECにメッセージ「国境の枠にとらわれず、共に未来を創るイベントになることを期待している」　CEATEC 2023 オープニングレセプション",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1539/667/02.JPG"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1539686.html",
+          "author": null,
+          "description": "CEATEC 2023のソニーブースのテーマは、「誰もが自分らしく、感動を分かち合える未来のために。」だ。アクセシビリティに配慮した製品、サービスのほか、インクルーシブデザインについて展示を行った。昨年は、サステナビリティにテーマを絞り込んだ展示を行ったが、今年もアクセシビリティにテーマを絞り込んだ「尖った」展示が注目を集めそうだ。CEATEC 2023のソニーブースの展示を見てみよう。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1539686.html",
+          "publishedOn": "2023-10-17T03:45:00.000Z",
+          "wordCount": 4607,
+          "title": "ソニー、視覚補助カメラ、読み上げ機能つきテレビなどアクセシビリティに絞った展示で注目を集める　テーマは「誰もが自分らしく、感動を分かち合える未来のために。」",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1539/686/00.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1539545.html",
+          "author": null,
+          "description": "味の素冷凍食品が、ユーザーが使い込んだ中古のフライパン約3500個を3Dデータ化した特設サイトを公開して話題になっている。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1539545.html",
+          "publishedOn": "2023-10-17T03:35:45.000Z",
+          "wordCount": 4458,
+          "title": "味の素、フライパン約3500個を3Dデータ化した狂気の特設サイトを公開。その理由は？【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1539/545/yajiuma-watch_2.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1539544.html",
+          "author": null,
+          "description": "FedExの梱包箱の中に入ったまま十数年にわたって眠り続けてきた未開封の初代iPhoneがオークションに出品されて注目を集めている。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1539544.html",
+          "publishedOn": "2023-10-17T03:34:24.000Z",
+          "wordCount": 4481,
+          "title": "またしても未開封の初代iPhoneがオークションに登場、今回はなんと「FedExの箱入り」【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1539/544/yajiuma-watch_3.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1539638.html",
+          "author": null,
+          "description": "東北電力フロンティア株式会社は、光回線によるインターネット接続サービス「東北電力フロンティア光」を、宮城県エリアで提供開始した。上り下りとも最大10Gbpsのプランは戸建て向け、最大1Gbpsのプランは戸建て／集合住宅向けで、同社や東北電力株式会社の電気契約者（一部プランを除く）には「東北電力グループでんき＆ひかりセット割」が適用される。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1539638.html",
+          "publishedOn": "2023-10-17T02:55:00.000Z",
+          "wordCount": 4550,
+          "title": "最大10Gbpsの光回線接続サービス「東北電力フロンティア光」、宮城県エリアで提供開始",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1539/638/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/event/1539635.html",
+          "author": null,
+          "description": "10月17日～20日に幕張メッセで「CEATEC 2023」が開催中だ。その中でBluetooth SIGは「Auracast ブロードキャスト オーディオ」（以下、Auracast）のデモ展示を実施している。",
+          "link": "https://internet.watch.impress.co.jp/docs/event/1539635.html",
+          "publishedOn": "2023-10-17T02:10:08.000Z",
+          "wordCount": 4578,
+          "title": "Bluetoothの新機能「Auracast」で何ができる？Bluetooth SIGがデモを国内初出展【CEATEC 2023】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1539/635/001.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/event/1539512.html",
+          "author": null,
+          "description": "10月17日～20日に幕張メッセで「CEATEC 2023」が開催される。そのグローバルエリアにおいて、ウクライナが初めてパビリオンを出展し、同国のICT企業に関する展示やビジネスマッチングなどを実施している。",
+          "link": "https://internet.watch.impress.co.jp/docs/event/1539512.html",
+          "publishedOn": "2023-10-16T21:00:00.000Z",
+          "wordCount": 4564,
+          "title": "ウクライナがCEATEC 2023に初出展!! 知る人ぞ知るIT先進国の11企業が来日する貴重なチャンス【CEATEC 2023】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1539/512/001.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/event/1539361.html",
+          "author": null,
+          "description": "CEATEC 2023が、10月17日から20日まで、千葉県千葉市の幕張メッセで開催される。",
+          "link": "https://internet.watch.impress.co.jp/docs/event/1539361.html",
+          "publishedOn": "2023-10-16T20:30:00.000Z",
+          "wordCount": 4619,
+          "title": "「CEATEC 2023」本日17日から開催、参加方法や見どころをおさらいしよう【CEATECの歩き方】【CEATEC 2023】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1539/361/01.JPG"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/event/1539466.html",
+          "author": null,
+          "description": "幕張メッセで10月17日から開催されるCEATEC 2023では、昨年に引き続き、今年も「半導体産業人生ゲーム」が出展されている。",
+          "link": "https://internet.watch.impress.co.jp/docs/event/1539466.html",
+          "publishedOn": "2023-10-16T08:51:53.000Z",
+          "wordCount": 4563,
+          "title": "「人生ゲーム」で実在の企業に就職決定？ 今年のCEATEC「半導体産業人生ゲーム」では、企業が実名で登場！【CEATEC 2023】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1539/466/a3.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/event/1539476.html",
+          "author": null,
+          "description": "超スマート社会「Society 5.0」の実現をテーマとした総合展示会「CEATEC 2023」が、10月17日から開幕する。期間は20日までの4日間で、会場は幕張メッセ。本日は報道関係者向けに一部展示ブースが公開されているが、これに先駆けてプレスブリーフィングが実施された。",
+          "link": "https://internet.watch.impress.co.jp/docs/event/1539476.html",
+          "publishedOn": "2023-10-16T08:26:56.000Z",
+          "wordCount": 4574,
+          "title": "「CEATEC 2023」が明日（17日）開幕、200超のコンファレンスで“リアル開催”回帰【CEATEC 2023】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1539/476/001.jpg"
+        },
+        {
           "id": "https://internet.watch.impress.co.jp/docs/news/1539452.html",
           "author": null,
           "description": "Amazon.co.jpのKindle本ストアでは現在、10月26日までの期間限定で「Kindle本ストア11周年キャンペーン」を開催中だ。3万冊以上の電子書籍が最大60％OFFで販売されている。コンピュータ・IT関連書籍800冊弱もセール対象だ。",
@@ -2810,6 +3443,46 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231017-2795009/",
+          "author": null,
+          "description": "NTT-ATは10月17日、企業におけるCSIRT（Computer Security Incident Response Team）の成熟を支援する「CS＠T PLUS」の提供を開始することを発表した。価格は要問い合わせ。",
+          "link": "https://news.mynavi.jp/techplus/article/20231017-2795009/",
+          "publishedOn": "2023-10-17T07:19:47.000Z",
+          "wordCount": 1640,
+          "title": "NTT-AT、CSIRTの成熟を促しセキュリティ対応を支援するサービスを提供開始",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231017-2795009/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231017-2794165/",
+          "author": null,
+          "description": "QNAP Systemsは10月14日(現地時間)、QNAPのVideo Stationに複数の脆弱性が存在するとして、注意を呼び掛けた。この脆弱性は悪用されると認証されたユーザーによりネットワーク経由で悪意のあるコードを注入できる可能性があるとされている。",
+          "link": "https://news.mynavi.jp/techplus/article/20231017-2794165/",
+          "publishedOn": "2023-10-17T06:51:13.000Z",
+          "wordCount": 1678,
+          "title": "QNAPのVideo Stationに重要な脆弱性、確認と更新を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231017-2794165/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231017-2794761/",
+          "author": null,
+          "description": "フィッシング対策協議会(Council of Anti-Phishing Japan)は10月16日、セディナカードを偽るフィッシングの報告を受けていると伝えた。メールの件名として、「【セディナカード】ご登録お客様情報の定期的な確認のお願いにつきまして」などが確認されており、注意が必要。",
+          "link": "https://news.mynavi.jp/techplus/article/20231017-2794761/",
+          "publishedOn": "2023-10-17T03:26:01.000Z",
+          "wordCount": 1663,
+          "title": "セディナカードを偽るフィッシング確認、注意を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231017-2794761/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231017-2794163/",
+          "author": null,
+          "description": "Microsoftは10月11日(米国時間)、Windows11のNTLM認証プロトコルを将来的に廃止する予定と発表した。Microsoftはより優れたセキュリティと拡張性を提供するKerberos認証を2000年からデフォルトの認証プロトコルとしており、NLTM認証の使用は推奨していない。",
+          "link": "https://news.mynavi.jp/techplus/article/20231017-2794163/",
+          "publishedOn": "2023-10-16T23:19:08.000Z",
+          "wordCount": 3097,
+          "title": "Microsoft、Windowsの古い認証(NTLM)の廃止を発表",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231017-2794163/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20231016-2793964/",
           "author": null,
