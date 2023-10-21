@@ -677,16 +677,6 @@
           "wordCount": 3406,
           "title": "Could ChatGPT Be The Best Thing That’s Ever Happened To Your Family?",
           "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2023/09/300x200_Blog_092923-2.png"
-        },
-        {
-          "id": "https://www.mcafee.com/blogs/?p=175052",
-          "author": "Alex Merton-McCann",
-          "description": "Let’s be honest, talking to your kids about identity theft isn’t probably top of your list. There’s a long list...\nThe post How To Talk To Your Kids About Identity Theft appeared first on McAfee Blog.",
-          "link": "https://www.mcafee.com/blogs/internet-security/how-to-talk-to-your-kids-about-identity-theft/",
-          "publishedOn": "2023-09-21T16:53:40.000Z",
-          "wordCount": 3825,
-          "title": "How To Talk To Your Kids About Identity Theft",
-          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2023/09/300x200_Blog_092123.png"
         }
       ]
     },
@@ -714,16 +704,6 @@
           "wordCount": 1049,
           "title": "APAC Cybersecurity Weekend 2023 | カスペルスキー公式ブログ",
           "imageUrl": "https://media.kasperskydaily.com/wp-content/uploads/sites/98/2023/09/28064528/apac-cybersecurity-weekend-2023-featured.jpg"
-        },
-        {
-          "id": "https://blog.kaspersky.co.jp/?p=34674",
-          "author": "Kaspersky Team",
-          "description": "スパイウェアに感染したTelegramとSignalの偽アプリが、Google Play ストアで複数発見されました。",
-          "link": "https://blog.kaspersky.co.jp/telegram-signal-malware-in-google-play/34674/",
-          "publishedOn": "2023-09-21T02:45:32.000Z",
-          "wordCount": 1051,
-          "title": "Google Playのスパイウェアメッセンジャー | カスペルスキー公式ブログ",
-          "imageUrl": "https://media.kasperskydaily.com/wp-content/uploads/sites/98/2023/09/19203751/telegram-signal-whatsapp-spyware-featured.jpg"
         }
       ]
     },
@@ -1399,26 +1379,6 @@
           "wordCount": 2730,
           "title": "JPRSの掲載記事を追加しました。",
           "imageUrl": null
-        },
-        {
-          "id": "https://jprs.jp/whatsnew/",
-          "author": null,
-          "description": "JPドメイン名の登録管理業務とDNSの運用を行っている株式会社日本レジストリサービス(JPRS)による、JPドメイン名サービス総合案内サイトです。",
-          "link": "https://jprs.jp/whatsnew/",
-          "publishedOn": "2023-09-21T00:00:00.000Z",
-          "wordCount": 2730,
-          "title": "（緊急）BIND 9.18.xの脆弱性（DNSサービスの停止）について（CVE-2023-4236）",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jprs.jp/whatsnew/",
-          "author": null,
-          "description": "JPドメイン名の登録管理業務とDNSの運用を行っている株式会社日本レジストリサービス(JPRS)による、JPドメイン名サービス総合案内サイトです。",
-          "link": "https://jprs.jp/whatsnew/",
-          "publishedOn": "2023-09-21T00:00:00.000Z",
-          "wordCount": 2730,
-          "title": "（緊急）BIND 9.xの脆弱性（DNSサービスの停止）について（CVE-2023-3341）",
-          "imageUrl": null
         }
       ]
     },
@@ -1474,6 +1434,26 @@
       "feedUrl": "https://www.cisa.gov/uscert/ncas/current-activity.xml",
       "siteUrl": "https://www.cisa.gov/",
       "articles": [
+        {
+          "id": "/node/19005",
+          "author": "CISA",
+          "description": "Today, the Cybersecurity and Infrastructure Security Agency (CISA) released a fact sheet on the effort to revise the National Cyber Incident Response Plan (NCIRP). Through the Joint Cyber Defense Collaborative (JCDC), CISA will work to ensure that the updated NCIRP addresses significant changes in policy and cyber operations since the initial NCIRP was released.\nFirst published in 2016, the NCIRP was developed in accordance with Presidential Policy Directive 41 (PPD-41) on U.S. Cyber Incident Coordination and describes how federal government, private sector, and state, local, tribal, territorial (SLTT) government entities will organize to manage, respond to, and mitigate the consequences of significant cyber incidents. \nNCIRP 2024 will address changes to the cyber threat landscape and in the nation’s cyber defense ecosystem by incorporating principles grounded in four main areas:\n\nUnification \nShared Responsibility \nLearning from the Past \nKeeping Pace with Evolutions in Cybersecurity \nCISA encourages all organizations to read the fact sheet and visit CISA's NCIRP webpage to learn about this long-term effort and stay updated on the development of the NCIRP 2024.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/10/20/cisa-releases-fact-sheet-effort-revise-national-cyber-incident-response-plan-ncirp",
+          "publishedOn": "2023-10-20T12:00:00.000Z",
+          "wordCount": 687,
+          "title": "CISA Releases Fact Sheet on Effort to Revise the National Cyber Incident Response Plan (NCIRP)",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/19012",
+          "author": "CISA",
+          "description": "Today, CISA, in response to active, widespread exploitation, released guidance addressing two vulnerabilities, CVE-2023-20198 and CVE-2023-20273, affecting Cisco’s Internetworking Operating System (IOS) XE Software Web User Interface (UI). An unauthenticated remote actor could exploit these vulnerabilities to take control of an affected system. Specifically, these vulnerabilities allow the actor to create a privileged account that provides complete control over the device.   \nCISA urges organizations running Cisco IOS XE Web UI to review CISA’s guidance and immediately implement the mitigations outlined in:\nCisco Security Advisory: Multiple Vulnerabilities in Cisco IOS XE Software Web UI Feature\nCisco Talos blog: Active exploitation of Cisco IOS XE Software Web Management User Interface vulnerabilities\nThese mitigations include disabling the HTTP Server feature on internet-facing systems, and hunt for malicious activity on their network.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/10/20/cisa-releases-guidance-addressing-cisco-ios-xe-web-ui-vulnerabilities",
+          "publishedOn": "2023-10-20T12:00:00.000Z",
+          "wordCount": 654,
+          "title": "CISA Releases Guidance for Addressing Cisco IOS XE Web UI Vulnerabilities",
+          "imageUrl": null
+        },
         {
           "id": "/node/18992",
           "author": "CISA",
@@ -2840,6 +2820,26 @@
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
         {
+          "id": "https://internet.watch.impress.co.jp/docs/news/weekly/1540834.html",
+          "author": null,
+          "description": "「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/weekly/1540834.html",
+          "publishedOn": "2023-10-20T10:00:00.000Z",
+          "wordCount": 4674,
+          "title": "見出しでわかる IT界隈・今週の重要ニュース：全107本［2023/10/12～10/18］",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1540/834/shutterstock_1391033204_main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1540848.html",
+          "author": null,
+          "description": "Amazon.co.jpでは現在、Lenovo製ノートPCの割引クーポンを配布中だ。クーポンの有効期限は10月22日までとなっている。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1540848.html",
+          "publishedOn": "2023-10-20T08:30:00.000Z",
+          "wordCount": 4607,
+          "title": "Lenovo製ノートPCが最大1万5000円OFF！ Amazonクーポン情報　15.6インチ液晶搭載「IdeaPad Slim 170」は5000円OFFクーポン適用で6万4800円から",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1540/848/lenovo.jpg"
+        },
+        {
           "id": "https://internet.watch.impress.co.jp/docs/news/1540780.html",
           "author": null,
           "description": "エレコム株式会社は、24/16ポートのギガビット対応スイッチングハブ2製品を10月中旬より順次発売する。カラーはホワイトのみ。市場想定価格は24ポートモデルの「EHB-UG2B24-S」が4万997円、16ポートモデルの「EHB-UG2B16-S」が2万7687円。",
@@ -3052,6 +3052,16 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231020-2797729/",
+          "author": null,
+          "description": "Recorded Futureは10月19日(米国時間)、過激派組織であるハマスの構成員または支援者が使用するTelegramチャンネルで配布されているアプリケーションを特定したと報じた。このアプリケーションはハマスのメッセージ発信を強化するためのものとされる。",
+          "link": "https://news.mynavi.jp/techplus/article/20231020-2797729/",
+          "publishedOn": "2023-10-20T09:46:05.000Z",
+          "wordCount": 1669,
+          "title": "ハマスが配布したAndroidアプリ発見、分析レポートが公開",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231020-2797729/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20231020-2797485/",
           "author": null,
