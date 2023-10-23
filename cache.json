@@ -466,6 +466,16 @@
       "siteUrl": "https://www.jnsa.org/",
       "articles": [
         {
+          "id": "https://www.jnsa.org/",
+          "author": null,
+          "description": "日本ネットワークセキュリティ協会は、情報セキュリティに係わる企業が結集し、情報セキュリティの諸問題を解決することを目的として活動している非営利活動法人です。",
+          "link": "https://www.jnsa.org/",
+          "publishedOn": "2023-10-20T10:00:00.000Z",
+          "wordCount": 297,
+          "title": "「JNSA セキュリティ カフェ「セキュリティなんもわからん！だけど勉強してみたい学生あつまれ」」参加受付を開始しました。",
+          "imageUrl": "https://www.jnsa.org/images/obj/img_thumb_general.png"
+        },
+        {
           "id": "https://www.jnsa.org/seminar/nsf/2020/index.html",
           "author": null,
           "description": "「Network Security Forum（NSF）」は、JNSAが年に一度行っている主催シンポジウムです。プログラムは、時事の話題に関する基調講演やJNSAの部会・WG活動のテーマを中心としたセッションやパネルディスカッションで構成しております。",
@@ -676,6 +686,16 @@
       "siteUrl": "https://blog.kaspersky.co.jp",
       "articles": [
         {
+          "id": "https://blog.kaspersky.co.jp/?p=34914",
+          "author": "Stan Kaminsky",
+          "description": "組み込みLinuxは、サーバーOSとして広く知られていますが、実は私たちが毎日使う身近な製品にも使用されており、保護が必須です。",
+          "link": "https://blog.kaspersky.co.jp/linux-at-home-threats-and-protection/34914/",
+          "publishedOn": "2023-10-23T02:50:10.000Z",
+          "wordCount": 1076,
+          "title": "家庭にある組み込みLinuxシステムを狙う３つの攻撃 | カスペルスキー公式ブログ",
+          "imageUrl": "https://media.kasperskydaily.com/wp-content/uploads/sites/98/2023/10/23084830/linux-at-home-threats-and-protection-featured.jpg"
+        },
+        {
           "id": "https://blog.kaspersky.co.jp/?p=34787",
           "author": "Kaspersky Team",
           "description": "当社の専門家は、サイバー犯罪向けの生成AIツール「WormGPT」の人気の高まりを利用して金銭を窃取する一連のウェブサイトを、ダークネット上で発見しました。",
@@ -858,6 +878,16 @@
       "feedUrl": "https://www.mbsd.jp/research/atom.xml",
       "siteUrl": "https://www.mbsd.jp/",
       "articles": [
+        {
+          "id": "https://www.mbsd.jp/research/20231023/blog/",
+          "author": null,
+          "description": "このブログは私が所属するCIGチームが2023年1月号から毎月公開しているランサムウェアの統計情報からいくつか抜粋してご紹介するブログです。",
+          "link": "https://www.mbsd.jp/research/20231023/blog/",
+          "publishedOn": "2023-10-23T12:20:00.000Z",
+          "wordCount": 466,
+          "title": "CIG安田のランサム統計だより：　　2023年9月号",
+          "imageUrl": "https://www.mbsd.jp/2023/10/23/assets/images/20231023_thumb_cig_report.jpg"
+        },
         {
           "id": "https://www.mbsd.jp/research/20231013/20239-mbsd-soc/",
           "author": null,
@@ -1536,6 +1566,26 @@
       "siteUrl": "https://jvn.jp/",
       "articles": [
         {
+          "id": "https://jvn.jp/vu/JVNVU98683567/",
+          "author": "jvn@jvn.jp",
+          "description": "オムロン株式会社が提供するCX-Designerには、XML外部実体参照（XXE）の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU98683567/",
+          "publishedOn": "2023-10-23T04:00:00.000Z",
+          "wordCount": 122,
+          "title": "オムロン製CX-DesignerにおけるXML外部実体参照（XXE）の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/jp/JVN02058996/",
+          "author": "jvn@jvn.jp",
+          "description": "HP ThinUpdate には、サーバ証明書の検証不備の脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN02058996/",
+          "publishedOn": "2023-10-23T03:00:00.000Z",
+          "wordCount": 196,
+          "title": "HP ThinUpdate におけるサーバ証明書の検証不備の脆弱性",
+          "imageUrl": null
+        },
+        {
           "id": "https://jvn.jp/vu/JVNVU93413100/",
           "author": "jvn@jvn.jp",
           "description": "The Apache Software Foundationから、Apache HTTP Server 2.4系における複数の脆弱性に対応したApache HTTP Server 2.4.58が公開されました。",
@@ -1877,6 +1927,26 @@
       "siteUrl": "https://security.srad.jp/",
       "articles": [
         {
+          "id": "https://security.srad.jp/story/23/10/22/0911203/",
+          "author": "headless",
+          "description": "Outpost24 の調査によると、管理者ポータルの流出したパスワードで最も多いのは「admin」だったそうだ\n(Outpost24 のブログ記事、\nBleeping Computer の記事)。\n\n調査はマルウェアによる認証情報取得を検出してセキュリティチームに通知する Threat Compass が収集したデータによるもの。管理者ポータルと区分されているサイトの流出パスワード 180 万件に絞り込んだところ、「admin」が 4 万件以上あったという。admin 以外もトップ 20 はすべて既知のデフォルトパスワードか、容易に推測可能なパスワードばかりだったとのこと。\n\n管理者パスワードトップ20は以下の通り。Outpost24はパスワードの予想しやすさに関していえばIT管理者もエンドユーザーと変わりないと評しているが、エンドユーザーの方がましな気もする。スラドの皆さんのご意見はいかがだろうか。\n \nadmin\n123456\n12345678\n1234\nPassword\n123\n12345\nadmin123\n123456789\nadminisp\ndemo\nroot\n123123\nadmin@123\n123456aA@\n01031974\nAdmin@123\n111111\nadmin1234\nadmin1\n すべて読む | セキュリティセクション | セキュリティ | IT |     \n  関連ストーリー： \n米NSAとCISAが選ぶ、ネットワーク誤設定トップ10 2023年10月11日 \n数種類のパスワードで大半のウェブサービスを利用するユーザーは8割、トレンドマイクロ調査 2023年09月05日 \n隣接したキーを組み合わせたパスワード、欧文キーボード配列別調査結果 2023年07月22日 \n流出パスワードトップ 200、2022 年版では「password」が 1 位に 2022年11月27日 \n2021 年版流出パスワードトップ 200、 世界では「123456」が 1 位、日本では「password」が 1 位 2021年11月21日 \nセキュリティ上の問題が発生したドイツの大学、電子メールアカウント38,000件のパスワードを手渡しで再発行 2019年12月22日 \n英国家サイバーセキュリティセンター、繰り返し使われているパスワード上位10万件のリストを公開 2019年04月27日 \nGoogle、ユーザー名とパスワードの流出を通知するChrome拡張機能を公開 2019年02月09日 \n2018年・最悪のパスワードトップ50、今年も「123456」がナンバー1に 2018年12月17日 \n最悪なパスワードランキングで「123456」が5年連続ナンバー1に輝く 2017年12月23日 \n「最もよく使われているパスワード」、2016年調査でもトップは「123456」 2017年01月19日 \n2014年最も人気のあったパスワード、相変わらず「123456」や「password」がトップに 2015年01月22日 \n「最悪なパスワード」、2013年版トップは「123456」 2014年01月22日 \n漏えいした3200万のパスワードを米企業が分析、最も使われていたのは「123456」 2010年01月26日 \nphpbb.comから流出したパスワード、その傾向は？ 2009年03月14日 \n「よく使われる危険なパスワードTop500」にご注意を 2009年01月06日 \n危ないユーザ名とパスワードの特徴は? 2007年09月19日 \n身近にある安易なパスワード 2006年07月02日",
+          "link": "https://security.srad.jp/story/23/10/22/0911203/",
+          "publishedOn": "2023-10-22T11:50:00.000Z",
+          "wordCount": 3381,
+          "title": "管理者ポータルで最も人気のパスワードは「admin」",
+          "imageUrl": "https://srad.jp/static/topics/security_64.png"
+        },
+        {
+          "id": "https://security.srad.jp/story/23/10/22/0910207/",
+          "author": "headless",
+          "description": "カシオ計算機は 18 日、同社の ICT 教育アプリ「Classpad.net」のシステムが不正アクセスを受け、国内外の一部の登録ユーザーの個人情報が外部に漏洩したことを明らかにした\n(不正アクセスによる個人情報漏えいのお詫びとご報告、\n質問と回答、\nHackRead の記事、\nBleeping Computer の記事)。\n\n不正アクセスを受けたのは開発環境のデータベース。10 月 11 日夕方に担当者が開発環境で作業しようとした際にデータベースの障害発生を確認し、翌 12 日夕方に個人情報漏洩を確認したという。開発環境ではネットワークセキュリティ設定の一部が解除状態になっていたことが確認されており、第三者が外部からアクセスできる状況にあったことが原因と考えられるとのこと。\n\n不正アクセスの影響を受けたのは国内が個人と 1,108 教育機関の計 91,921 件、海外が 148 か国・地域の計 35,049 件。漏洩した個人情報は氏名・メールアドレス・国や地域・学校に関する情報・購買に関する情報・サービス利用履歴やニックネームなど。クレジットカード情報は保持していなかったという。漏洩の対象となったのは 2023 年 7 月 17 日以前に登録したユーザーで、ログインにメールアドレスを使用している場合は対象外となる。アプリ自体は不正アクセスを受けておらず、利用に関しては影響ないとのこと。\n\n今後はセキュリティ強化施策を行うほか、セキュリティ運用ルール見直しやセキュリティ対策に関する教育を継続して行うとのことだ。\n すべて読む | セキュリティセクション | セキュリティ | 教育 | 情報漏洩 |     \n  関連ストーリー： \n練馬区の中学校で生徒からSNSパスワードを収集し問題に。区教委が作成したリーフレットが発端 2021年12月07日 \ngmailをgmaiと誤入力して新入生135人の個人情報が流出。京都市立芸術大 2021年04月02日 \n共通テスト「情報」試作問題はどこから漏れたのか？ 2020年12月07日 \n飲み会の場で院試の内容を事前に漏らしていた首都大学東京の教授、懲戒解雇に 2019年12月26日 \n大阪大学、不正アクセスを受けて個人情報約7万件を漏えい 2017年12月14日 \n一部の教育機関ではネット接続された複合機等で不適切な設定によりデータ丸見え 2016年01月07日 \nトランスコスモスのコールセンターでベネッセの顧客情報流出、「紙に書き写す」手口 2015年03月18日 \nPC管理運用システムを無効化するソフトを組み込んだ中学教諭 2013年05月14日",
+          "link": "https://security.srad.jp/story/23/10/22/0910207/",
+          "publishedOn": "2023-10-22T10:19:00.000Z",
+          "wordCount": 2238,
+          "title": "カシオのICT教育アプリClasspad.net開発環境に不正アクセス、セキュリティ機能解除が原因か",
+          "imageUrl": "https://srad.jp/static/topics/leakage_64.png"
+        },
+        {
           "id": "https://security.srad.jp/story/23/10/19/1338254/",
           "author": "nagazou",
           "description": "あるAnonymous Coward 曰く、バンダイがメタベース向けのコンテンツを開始。その中にモビルスーツのミュージアムを閲覧できるコンテンツがあるのだが、そのモデルデータはプラモデルのCADデータをそのまま使用してしまった模様。CADデータの中にはMGモデルを多く含まれ、中には未発売のモデルデータもあった事でお祭り騒ぎ。さっそく３Dプリントする人が出てきているようで被害が拡散し続けている。\n\nBANDAI SPIRITSが運営している「ガンダムメタバース」で情報漏洩が指摘されている。これに伴い同社は19日、アクセスに必要なクライアントファイルのダウンロードを一時的に停止した。ガンダムメタバースは期間限定でオープンしたプロジェクトで、一般アクセスに移行したばかりであった（クライアントファイルダウンロード一時停止のお知らせ、ITmedia、メタバース速報）。 \n\nX（旧Twitter）で指摘されていたのは、ガンプラの3D-CADデータが漏洩したというもの。一部のデータは暗号化されていない状態で公開されており、その中には未発売のガンプラ部品の画像も含まれていたとされている。一現在、バンダイナムコエンターテインメントは「事実確認中」とのコメントをだしている。\n すべて読む | セキュリティセクション | グラフィック | ガンダム | 情報漏洩 |     \n  関連ストーリー： \nメタバース事業は9割が失敗する 2023年06月02日 \nメタ社、メタバースをやめる 2023年04月25日 \n米ディズニーが従業員7000人を削減、メタバース部門も廃止に 2023年04月03日",
@@ -1983,6 +2053,86 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/10/23/50132.html",
+          "author": null,
+          "description": "IPAおよびJPCERT/CCは、ジャストシステムの製品に複数の脆弱性が存在すると「JVN」で発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/10/23/50132.html",
+          "publishedOn": "2023-10-22T23:05:08.000Z",
+          "wordCount": 889,
+          "title": "一太郎ほか複数のジャストシステム製品に異常終了の脆弱性、Cisco が報告",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/10/23/50131.html",
+          "author": null,
+          "description": "株式会社リコーは10月13日、不正アクセスによる情報流出について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/10/23/50131.html",
+          "publishedOn": "2023-10-22T23:05:06.000Z",
+          "wordCount": 795,
+          "title": "リコーのクラウドストレージサービス「RICOH Drive」に不正アクセス",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42949.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/10/23/50130.html",
+          "author": null,
+          "description": "バカラパシフィック株式会社は10月、同社サーバへの不正アクセスについて発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/10/23/50130.html",
+          "publishedOn": "2023-10-22T23:05:03.000Z",
+          "wordCount": 792,
+          "title": "バカラのサーバに不正アクセス、オンラインショップ等の活動に制限",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/42947.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/10/23/50129.html",
+          "author": null,
+          "description": "IPAおよびJPCERT/CCは、厚生労働省が提供する医薬品等電子申請ソフトにXML外部実体参照（XXE）に関する脆弱性が存在すると「JVN」で発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/10/23/50129.html",
+          "publishedOn": "2023-10-22T23:00:20.000Z",
+          "wordCount": 874,
+          "title": "厚生労働省が提供する医薬品等電子申請ソフトにXXEの脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/10/23/50128.html",
+          "author": null,
+          "description": "岡山県は10月17日、同県が使用していたドメインの第三者による再取得について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/10/23/50128.html",
+          "publishedOn": "2023-10-22T23:00:15.000Z",
+          "wordCount": 865,
+          "title": "自治体がドロップキャッチに注意喚起 ～ 岡山県が使用していた五つのドメインを第三者が取得",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/10/23/50127.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は10月18日、Proself における XML 外部実体参照（XXE）に関する脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/10/23/50127.html",
+          "publishedOn": "2023-10-22T23:00:11.000Z",
+          "wordCount": 911,
+          "title": "Proself に XML 外部実体参照（XXE）に関する脆弱性、悪用した攻撃も確認",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/10/23/50126.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）は10月18日、Oracle Java の脆弱性対策について発表した。影響を受けるシステムは以下の通り。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/10/23/50126.html",
+          "publishedOn": "2023-10-22T23:00:07.000Z",
+          "wordCount": 900,
+          "title": "Oracle Java SE に攻撃された場合の影響が大きい脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/10/23/50125.html",
+          "author": null,
+          "description": "一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は10月18日、Cisco IOS XEのWeb UIにおける権限昇格の脆弱性に関する注意喚起を発表した。影響を受けるシステムは以下の通り。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/10/23/50125.html",
+          "publishedOn": "2023-10-22T23:00:03.000Z",
+          "wordCount": 908,
+          "title": "Cisco IOS XEのWeb UIに権限昇格の脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2023/10/20/50124.html",
           "author": null,
@@ -2491,6 +2641,26 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2310/23/news100.html",
+          "author": null,
+          "description": "NTT西日本の子会社で働いていた元派遣社員が約900万件の顧客情報を不正流出させた問題で、NTT側が2022年4月、業務委託元の企業から顧客情報が漏えいした可能性を指摘されながら、約3カ月後に社内調査に基づき「漏えいはない」と回答していたことが21日、分かった。",
+          "link": "https://www.itmedia.co.jp/news/articles/2310/23/news100.html",
+          "publishedOn": "2023-10-23T03:58:00.000Z",
+          "wordCount": 2440,
+          "title": "NTT西系の情報流出　指摘後社内調査3カ月も「漏えいない」　委託元の指摘見逃し検証へ",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2310/23/cover_news100.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2310/23/news077.html",
+          "author": null,
+          "description": "スマートフォン向けゲーム事業を手掛けるモバイルファクトリーが、子会社のSuishowが手掛ける位置情報アプリ「NauNau」について、少なくとも200万人以上のユーザーの位置情報やチャット履歴が外部から閲覧可能だった可能性があったと発表した。",
+          "link": "https://www.itmedia.co.jp/news/articles/2310/23/news077.html",
+          "publishedOn": "2023-10-23T02:19:00.000Z",
+          "wordCount": 2706,
+          "title": "位置情報アプリ「NauNau」で漏えいか、200万人以上のチャット履歴などが外部から丸見えだった可能性　提供元「確認中」",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2310/23/cover_news077.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2310/19/news193.html",
           "author": null,
           "description": "山田養蜂場が、NTT西日本子会社のNTTマーケティングアクトProCX（大阪市）で発生した情報の不正持ち出しの影響で、個人情報など約400万件が漏えいした可能性があると発表した。",
@@ -2798,6 +2968,126 @@
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
         {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1541250.html",
+          "author": null,
+          "description": "10月17日〜20日に幕張メッセにて開催された「CEATEC 2023」が閉幕した。一般社団法人電子情報技術産業協会（JEITA）によると、会期4日間の登録来場者数は8万9047人で、前年から9.1％増加したという。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1541250.html",
+          "publishedOn": "2023-10-23T06:30:00.000Z",
+          "wordCount": 4595,
+          "title": "「CEATEC 2023」閉幕、約9万人が来場",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1541/250/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/ranking/1540955.html",
+          "author": null,
+          "description": "前週に閲覧数の多かった記事を、カテゴリーごとに上位5位までレポートします。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/ranking/1540955.html",
+          "publishedOn": "2023-10-23T03:22:16.000Z",
+          "wordCount": 4609,
+          "title": "セディナカードをかたるフィッシング詐欺について報じた記事に注目集まる【アクセスランキング】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1540/955/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1540918.html",
+          "author": null,
+          "description": "佐賀県は11月5日、移住希望者向けイベント「佐賀さいこう！暮らし＆しごと体感フェア」を開催する。開催場所は東京交通会館12階（東京都千代田区有楽町2-10-1）で、時間は11時～16時。事前予約制。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1540918.html",
+          "publishedOn": "2023-10-23T02:50:00.000Z",
+          "wordCount": 4582,
+          "title": "佐賀県の移住イベント、11月5日に有楽町で開催　事前予約者には、九州でおなじみリョーユーパンの「マンハッタン」をプレゼント",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1540/918/main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/event/1540905.html",
+          "author": null,
+          "description": "日立製作所は、CEATEC 2023において、「＃あなたとつくる未来社会」をテーマに、8つのソリューションを展示した。",
+          "link": "https://internet.watch.impress.co.jp/docs/event/1540905.html",
+          "publishedOn": "2023-10-23T02:00:00.000Z",
+          "wordCount": 4612,
+          "title": "日立ブース、VRゴーグルなしの設備保全やCO2排出可視化サービスなどを展示【CEATEC 2023】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1540/905/P2390352.JPG"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1541076.html",
+          "author": null,
+          "description": "X（旧Twitter）のイーロン・マスク氏が、新しい2つのサブスクリプションプランの投入を予告した。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1541076.html",
+          "publishedOn": "2023-10-23T01:30:00.000Z",
+          "wordCount": 4491,
+          "title": "X（旧Twitter）に広告なしのサブスクプランが近日登場か。イーロン・マスク氏が予告【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1541/076/yajiuma-watch_4.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1541075.html",
+          "author": null,
+          "description": "スマホでただ表示するだけで、使っているのがiPhoneかAndroidかを当てるX（旧Twitter）のポストが話題だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1541075.html",
+          "publishedOn": "2023-10-23T01:25:00.000Z",
+          "wordCount": 4490,
+          "title": "表示中のスマホがiPhoneかAndroidかをズバリ回答するX（旧Twitter）のポストが話題【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1541/075/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1540825.html",
+          "author": null,
+          "description": "サンワサプライ株式会社は、LANケーブルを2分配することで最大100mまで延長できる産業用PoEエクステンダー、「LAN-EXPOE3」を発売した。市場想定価格は2万8380円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1540825.html",
+          "publishedOn": "2023-10-22T23:30:00.000Z",
+          "wordCount": 4582,
+          "title": "両端最大100mずつ延長できる防水PoEエクステンダー「LAN-EXPOE3」、サンワサプライが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1540/825/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/interview/1532060.html",
+          "author": null,
+          "description": "迷惑メール対策などメッセージングのセキュリティに関する対策を検討・実施する国内の業界団体「JPAAWG（Japan Anti-Abuse Working Group）」は、カンファレンスイベント「JPAAWG 6th General Meeting」を11月6日～7日に開催する。会場は金沢市文化ホール（石川県金沢市）で、一部セッションをオンライン配信するハイブリッド形式をとっており、会員以外も登録して参加できる。",
+          "link": "https://internet.watch.impress.co.jp/docs/interview/1532060.html",
+          "publishedOn": "2023-10-22T22:15:00.000Z",
+          "wordCount": 4685,
+          "title": "迷惑メール・スミッシング対策の最前線はここ！技術者が集結する「JPAAWG 6th General Meeting」の注目ポイントを聞いた　金沢市で11月開催、\"現地中心”で議論の活性化に注力",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1532/060/a1.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/curation/1540952.html",
+          "author": null,
+          "description": "10月17日～20日、「CEATEC 2023」が開催された。コロナ禍を経て、フルリアルイベントとしては4年ぶりの開催となる。デジタル家電見本市として発展してきたCEATECは2016年にコンセプトを大きく変更して以来「Society 5.0の総合展」という位置付けになった（CNET Japan）。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/curation/1540952.html",
+          "publishedOn": "2023-10-22T22:00:00.000Z",
+          "wordCount": 4663,
+          "title": "個人情報約900万件が漏洩――NTT傘下企業から ほか【中島由弘の「いま知っておくべき5つのニュース」2023/10/12～10/18】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1540/952/shutterstock_1019006956_main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/teleworkstory/1540113.html",
+          "author": null,
+          "description": "ここ最近、オフィスで仕事をする機会が増えている。そこで気になったのがオフィスで長いこと利用してきたデスクトップPC。性能的にはテレワーク開始時に支給されたノートPCの方が優れているので、この機会に交換したいと思う。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/teleworkstory/1540113.html",
+          "publishedOn": "2023-10-22T22:00:00.000Z",
+          "wordCount": 4631,
+          "title": "「USB Type-CポートのないノートPCでも、マルチディスプレイ環境にしたい！」――急遽テレワークを導入した中小企業の顛末記（161）【急遽テレワーク導入！の顛末記】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1540/113/01.JPG"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1540814.html",
+          "author": null,
+          "description": "KDDI株式会社、ソフトバンク株式会社、楽天モバイル株式会社ほか通信事業者や地方自治体など180者は10月19日、日本電信電話株式会社等に関する法律（NTT法）に関して、廃止については慎重な議論を求める要望書を、自由民主党の政務調査会長と「『日本電信電話株式会社等に関する法律』の在り方に関するプロジェクトチーム」の座長、および総務大臣に提出した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1540814.html",
+          "publishedOn": "2023-10-22T21:50:00.000Z",
+          "wordCount": 4592,
+          "title": "KDDI、ソフトバンクら、NTT法の見直しに関する要望書を自民党などに提出",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1540/814/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/shimizu/1539313.html",
+          "author": null,
+          "description": "2023年9月末、Microsoft Researchから「AutoGen」と呼ばれる実験的なAIアプリケーション開発フレームワークが発表された。Advanced Data Analytics（旧Code Interpreter）のようなコード実行環境としても機能するが、最大の特徴は「マルチエージェント」を簡単に利用できる点だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/shimizu/1539313.html",
+          "publishedOn": "2023-10-22T21:00:00.000Z",
+          "wordCount": 4665,
+          "title": "Microsoft「AutoGen」で、生成AIの新時代“マルチエージェント”を試す【イニシャルB】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1539/313/001.png"
+        },
+        {
           "id": "https://internet.watch.impress.co.jp/docs/news/weekly/1540834.html",
           "author": null,
           "description": "「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。",
@@ -3030,6 +3320,56 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231023-2799838/",
+          "author": null,
+          "description": "QNAP Systemsは10月21日(現地時間)、QNAP QUSBCam2に脆弱性が存在すると伝えた。この脆弱性が悪用されると、ネットワーク経由でコマンドを実行されるリスクがあるため注意が必要。この脆弱性はすでに修正されており、該当するプロダクトを使っている場合は最新のバージョンに更新することが望まれる。",
+          "link": "https://news.mynavi.jp/techplus/article/20231023-2799838/",
+          "publishedOn": "2023-10-23T02:48:48.000Z",
+          "wordCount": 1661,
+          "title": "QNAP QUSBCam2に重要な脆弱性、アップデートを",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231023-2799838/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231023-2799832/",
+          "author": null,
+          "description": "JPCERTコーディネーションセンター(JPCERT/CC)は10月20日、Citrix NetScaler ADC(Citrix ADC)およびNetScaler Gateway(Citrix Gateway)に複数の脆弱性が存在するとして、注意を呼び掛けた。これら脆弱性が悪用されると、認証されていないリモートの第三者によって、認証を回避して機密情報を窃取される危険性がある。",
+          "link": "https://news.mynavi.jp/techplus/article/20231023-2799832/",
+          "publishedOn": "2023-10-23T02:22:34.000Z",
+          "wordCount": 1815,
+          "title": "Citrix ADCとCitrix Gatewayにゼロデイの脆弱性、ただちに対応を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231023-2799832/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231023-2792315/",
+          "author": null,
+          "description": "Sucuriはこのほど、サイバー攻撃者がWebサイトとその利用者との間のトラフィックを改竄または傍受することを困難にするポリシーである「HTTP Strict Transport Security(HSTS)」について解説した。HTTP Strict Transport Security(HSTS)とは、ブラウザにHTTPS経由でのみ接続するよう指示するWebサーバディレクティブの一つ。",
+          "link": "https://news.mynavi.jp/techplus/article/20231023-2792315/",
+          "publishedOn": "2023-10-23T00:46:49.000Z",
+          "wordCount": 1738,
+          "title": "サイバー攻撃からWebサイトとユーザーを守る「HSTS」とは",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231023-2792315/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231023-2797864/",
+          "author": null,
+          "description": "Symantecはこのほど、イランのサイバー攻撃グループ「Crambus」による中東の政府を標的としたキャンペーンを確認したと報じた。この攻撃により、少なくとも12台のコンピュータに悪意のある活動が発生し、さらに数十台のコンピュータにバックドアとキーロガーが設置されたという。",
+          "link": "https://news.mynavi.jp/techplus/article/20231023-2797864/",
+          "publishedOn": "2023-10-23T00:09:06.000Z",
+          "wordCount": 1703,
+          "title": "イランのサイバー攻撃グループ「Crambus」、中東政府狙う活動を確認",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231023-2797864/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231023-2791947/",
+          "author": null,
+          "description": "9月12日～15日に開催された「TECH+ EXPO for セキュリティ 2023」にEGセキュアソリューションズ 取締役 CTOで独立行政法人情報処理推進機構（IPA）非常勤研究員 技術士（情報工学部門）の徳丸浩氏が登壇。脆弱性対応の基本となる知識と、必要なスキルについて話した。",
+          "link": "https://news.mynavi.jp/techplus/article/20231023-2791947/",
+          "publishedOn": "2023-10-23T00:00:00.000Z",
+          "wordCount": 1749,
+          "title": "徳丸浩氏が解説するセキュリティ対策の第一歩「脆弱性対応」の基本の基",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231023-2791947/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20231022-2798392/",
           "author": null,
