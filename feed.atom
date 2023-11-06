@@ -2,10 +2,320 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-11-05T08:10:34.968Z</updated>
+    <updated>2023-11-06T08:12:02.274Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Microsoftが新しいセキュリティ改善案「Secure Future Initiative」を発表]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20231106-2811428/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20231106-2811428/"/>
+        <updated>2023-11-06T08:02:36.000Z</updated>
+        <summary type="html"><![CDATA[Microsoftは11月2日(米国時間)、Microsoft製品とプラットフォームに組み込まれたセキュリティを継続的に改善する取り組みに「Secure Future Initiative」を追加すると発表した。Secure Future Initiativeは「ソフトウェア開発の変革」、「新しいアイデンティティ保護の実装」、「脆弱性への迅速な対応」の3点で構成される。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ChatGPTで脆弱性を探す]]></title>
+        <id>https://www.mbsd.jp/research/20231106/chatgpt-as-sast-tool/</id>
+        <link href="https://www.mbsd.jp/research/20231106/chatgpt-as-sast-tool/"/>
+        <updated>2023-11-06T07:37:45.000Z</updated>
+        <summary type="html"><![CDATA[テストサイトのソースコードの脆弱性をChatGPTに探させた結果を紹介します。]]></summary>
+        <author>
+            <name>三井物産セキュアディレクション株式会社</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Laravelのパラメータ取得方法]]></title>
+        <id>https://www.mbsd.jp/research/20231106/laravel-param/</id>
+        <link href="https://www.mbsd.jp/research/20231106/laravel-param/"/>
+        <updated>2023-11-06T07:15:37.000Z</updated>
+        <summary type="html"><![CDATA[Laravelのリクエストパラメータの取得方法によって生じうる問題について説明します。]]></summary>
+        <author>
+            <name>三井物産セキュアディレクション株式会社</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[中東のサイバー攻防激化　ガザ情勢受けて欧米や日本にも飛び火]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2311/06/news129.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2311/06/news129.html"/>
+        <updated>2023-11-06T06:39:00.000Z</updated>
+        <summary type="html"><![CDATA[イスラエル軍とイスラム原理主義組織ハマスの大規模戦闘が続く中、親パレスチナや親ロシア、親イランのハッカー集団がイスラエルへのサイバー攻撃を強めている。攻撃の対象はイスラエルの自衛権を支持する欧米諸国や、イスラエルとサイバー協力を進める日本にも拡大。サイバー空間上の攻防が紛争の激化につながる恐れも懸念されている。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[メルマガ]vol.2034:【トピックス号】先週のトピックスとWeb更新情報]]></title>
+        <id>https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol2034.html</id>
+        <link href="https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol2034.html"/>
+        <updated>2023-11-06T06:26:45.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[床などに広がった燃料への着火を抑える放射器が開発・配備されていた]]></title>
+        <id>https://security.srad.jp/story/23/11/05/1420255/</id>
+        <link href="https://security.srad.jp/story/23/11/05/1420255/"/>
+        <updated>2023-11-06T06:01:00.000Z</updated>
+        <summary type="html"><![CDATA[10月31日に埼玉県蕨市の郵便局で発生した人質立てこもり事件において、警察が持っていた「デカい消火器」がSNS上で話題になっていたようだ。この立てこもり事件では、容疑者が拳銃を持って立てこもっており、その際、液体が入った灯油を入れる容器（18リットル）なども所持していたことから、警察が対応に際して特別な機器を用意していたという（Togetter）。 
+
+このデカい消火器は実は消火器ではなく、京都アニメーション事件を教訓に開発された「クイックスプラッシャーワイド」と呼ばれる「火災抑制剤放射器」だという。クイックスプラッシャーは液体の火災を抑制する効果があり、ガソリンなどの可燃性液体をまいた場合でも着火を防ぐことができる。現在、クイックスプラッシャーは警察や自衛隊などに提供されているとのことで、これによりガソリンを使用した放火事件に対する対応能力が向上したとしている（同製品を取り上げた朝日新聞記事、メーカー動画）。
+ すべて読む | セキュリティセクション | セキュリティ | ニュース |     
+  関連ストーリー： 
+京都アニメーション放火殺人事件、被告が盗用と主張しているシーンを法廷で上映 2023年09月08日 
+NHK、京アニ放火事件でNHKが事件に関与したかのような虚偽情報を掲載したとしてまとめサイトを提訴 2020年01月27日 
+政府、京アニへの寄付を「地方公共団体への寄付金」に位置付け税務上の優遇措置を受けられるよう検討 2019年08月22日 
+京大防災研、京アニ放火火災の分析結果速報を公開。出火から30秒程度で生死が決まる厳しい状況 2019年08月05日 
+京都アニメーション放火事件でサーバーから原画を含む全データが回収される 2019年07月31日 
+京都アニメーションのスタジオで火災、負傷者多数 2019年07月18日]]></summary>
+        <author>
+            <name>nagazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[サンワサプライ、4K対応で給電も可能なHDMI−USB Type-C変換アダプター「AD-HD26TC」を発売]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1544650.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1544650.html"/>
+        <updated>2023-11-06T05:30:00.000Z</updated>
+        <summary type="html"><![CDATA[サンワサプライ株式会社は、HDMI信号をUSB Type-C（DisplayPort Alt Mode）出力に変換し、ディスプレイやプロジェクターへ出力できるケーブル一体型4K変換アダプター「AD-HD26TC」を発売した。市場想定価格は6820円。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[約7年分の個人情報漏えいの可能性、ビッグモーターの不正アクセス被害について報じた記事に注目集まる【アクセスランキング】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/ranking/1544628.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/ranking/1544628.html"/>
+        <updated>2023-11-06T04:32:44.000Z</updated>
+        <summary type="html"><![CDATA[前週に閲覧数の多かった記事を、カテゴリーごとに上位5位までレポートします。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Black Hat USA 2023 注目発表 2 ～ AI とサイバーセキュリティの発表紹介]]></title>
+        <id>hatenablog://entry/820878482974617113</id>
+        <link href="https://engineers.ffri.jp/entry/2023/11/06/121502"/>
+        <updated>2023-11-06T03:15:02.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+こんにちは。基礎技術研究部の茂木です。
+今年の夏は例年以上に暑かったですね。暑いと言えば、昨年 ChatGPT[1]が OpenAI によって公開されてから AI 周りが熱くなっています。公開当時も凄いと思いましたが、それでもここまで大規模な社会現象になるとは想像できませんでした。
+さて、そんな生成 AI*1を含む AI は、様々な領域へ応用が広まっています。そして当然というべきか、(サイバー)セキュリティへの応用も始まっています。
+大きな応用事例として、メガクラウドが生成 AI をセキュリティに応用したサービスを展開したことが挙げられます。Google Cloud は、セキュリティに特化した大規模言語モデル(Large Language Model、以下 LLM)である Sec-PaLM 2 を用いた Google Cloud Security AI Workbench を公開し[3]、Microsoft は OpenAI の GPT-4 を活用した Security Copilot を公開しました[4]。
+こうした潮流の中、Black Hat USA 2023 でも興味深い AI 関連の発表がありました。そこで今回は "AI, ML, & Data Science" トラックの発表からいくつかを、発表の関連論文や Whitepaper の内容も踏まえ、背景情報も補足しつつご紹介します。
+Poisoning Web-Scale Training Datasets is Practical
+Black Hat USA での発表リンク
+関連論文のリンク
+AI への攻撃手法は様々なものがあります*2。その中でも AI の訓練データを汚染する攻撃についてここでは取り上げられています。まずはこの「AI の訓練データを汚染する攻撃」を解説します。
+この攻撃の事例としては、M…]]></summary>
+        <author>
+            <name>FFRIエンジニアブログ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「テレワークの前後で使っていた2台のPCでメール環境を統合したい！」――急遽テレワークを導入した中小企業の顛末記（163）【急遽テレワーク導入！の顛末記】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/teleworkstory/1543355.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/teleworkstory/1543355.html"/>
+        <updated>2023-11-06T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[テレワーク以降に使っていたノートPCを、会社の据え置きマシンとして使うことになった。そこで、以前に会社で使っていたデスクトップPCから、Thunderbirdに保存されたメールやアドレス帳、メッセージの振り分けルールなどを、どうやって移行するか悩んでいる。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ブラウザのパスワード保存機能は使っても大丈夫か？]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20231106-2811426/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20231106-2811426/"/>
+        <updated>2023-11-06T02:52:32.000Z</updated>
+        <summary type="html"><![CDATA[Malwarebytesは11月2日(米国時間)、ブラウザにパスワードを記憶させるべきか否かについて説明した。Malwarebytesは結論として、ブラウザのパスワードマネージャは使いやすさを提供するが、セキュリティを犠牲にしているとして推奨していない。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[YouTubeの取締強化で広告ブロックツールを削除する人続出、一方で導入する人も続出？【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1544530.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1544530.html"/>
+        <updated>2023-11-06T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[YouTubeが広告ブロックツールの取り締まりを強化したことで、同ツールをアンインストールする人が激増する一方、新規にインストールする人もまた激増していることが明らかになった。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[写真を4枚並べた投稿を装いスパムサイトに誘導するポスト、X（旧Twitter）で増殖中【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1544529.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1544529.html"/>
+        <updated>2023-11-06T02:25:00.000Z</updated>
+        <summary type="html"><![CDATA[X（旧Twitter）で、ユーザーに意図せずスパムサイトへのリンクをクリックさせる手口が相次いで報告されている。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[中部電力パワーグリッドが電力制御システムに脆弱性管理を導入、その効果とは]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20231106-2807263/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20231106-2807263/"/>
+        <updated>2023-11-06T02:05:03.000Z</updated>
+        <summary type="html"><![CDATA[人々の生活や社会に与えるインパクトの大きさから、電力や水道といった重要インフラを狙うサイバー攻撃が増えている。中部電力の送配電事業を担っている中部電力パワーグリッドも国内の電力供給を支えるという重要なミッションを負っている。同社は安定した電力供給に向け、どのようなセキュリティ対策を講じているのだろうか。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[脆弱性の新評価基準「CVSSバージョン4.0」が登場、何がどう変わったか]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20231106-2809252/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20231106-2809252/"/>
+        <updated>2023-11-06T01:16:07.000Z</updated>
+        <summary type="html"><![CDATA[FIRST (Forum of Incident Response and Security Teams)は11月1日(米国時間)、共通脆弱性評価システム(CVSS: Common Vulnerability Scoring System)バージョン4.0のリリースを発表した。主な変更点は、新しい命名法の追加、新しい基本メトリクスと値の追加、影響メトリクスの開示の強化など。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[11月15日開催セミナー「欧州と日本のトラストサービスの動向～eIDAS規則とEUDIW(欧州IDウォレット)の現状～」参加登録を開始しました。（connpassへリンク）]]></title>
+        <id>https://maturi-eswg-jnsa.connpass.com/event/300560/</id>
+        <link href="https://maturi-eswg-jnsa.connpass.com/event/300560/"/>
+        <updated>2023-11-06T01:00:00.000Z</updated>
+        <summary type="html"><![CDATA[■タイトル：欧州と日本のトラストサービスの動向   ～eIDAS規則とEUDIW(欧州IDウォレット)の現状～  ■主催：   NPO日本ネットワークセキュリティ協会（JNSA） 標準化部会 電子署名WG   日本トラストテクノロジー協議会（JT2A）  ■セミナー概要   2016年7月に施行のeIDAS 規制はEU加盟国内における電子取引に関する信頼性やセキュリティを保護を定めています。その後、eIDAS1.0規制の問題や課題を整理し、2021年6月にeIDAS規制の改訂版であるeIDAS2.0規制が欧州議会に立法提案されました。eIDAS規制ではデジタル署名やeシールなどのトラスト...]]></summary>
+        <author>
+            <name>特定非営利活動法人 日本ネットワークセキュリティ協会（JNSA）</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windowsドライバに脆弱性、悪用によりデバイスが完全に制御される恐れ]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20231106-2811370/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20231106-2811370/"/>
+        <updated>2023-11-06T00:37:57.000Z</updated>
+        <summary type="html"><![CDATA[The Hacker Newsは11月2日(現地時間)、Microsoft Windowsのドライバに脆弱性が存在し、特権のないユーザーがシステム上で任意のコードを実行できる可能性があると伝えた。これはVMware Carbon Black上級脅威研究者の春山敬宏氏のブログに投稿された研究報告で明らかになったもの。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ジチタイワークスのサーバに第三者から不正アクセス、個人情報を含むデータが削除]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/11/06/50191.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/11/06/50191.html"/>
+        <updated>2023-11-05T23:05:08.000Z</updated>
+        <summary type="html"><![CDATA[自治体特化のサービス業を展開する株式会社ホープは10月27日、同社子会社の株式会社ジチタイワークスへの不正アクセスについて発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iOS版 TVer アプリに不具合、ユーザーの意思に反しデータを外部提供]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/11/06/50190.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/11/06/50190.html"/>
+        <updated>2023-11-05T23:05:05.000Z</updated>
+        <summary type="html"><![CDATA[株式会社TVerは10月26日、プライバシーポリシーの更新に伴うアプリの不具合とユーザーデータの不適切な取扱いについて発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「マイナビ」の管理ツールで他企業の応募者データが取得される不具合]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/11/06/50189.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/11/06/50189.html"/>
+        <updated>2023-11-05T23:05:02.000Z</updated>
+        <summary type="html"><![CDATA[株式会社マイナビは10月25日、就職情報サイト「マイナビ」の応募者管理ツールにおける個人情報の漏えいについて発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[JPCERT/CC、2023年7月上旬に確認したドメインハイジャック事例解説]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/11/06/50188.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/11/06/50188.html"/>
+        <updated>2023-11-05T23:00:08.000Z</updated>
+        <summary type="html"><![CDATA[一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は10月25日、フィッシングサイト経由の認証情報窃取とドメイン名ハイジャック事件について、ブログで発表した。インシデントレスポンスグループの水野哲也氏が執筆している。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「規定変更」「研修通知」人事からのメールはフィッシング要注意]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/11/06/50187.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/11/06/50187.html"/>
+        <updated>2023-11-05T23:00:03.000Z</updated>
+        <summary type="html"><![CDATA[KnowBe4 Japan 合同会社は10月24日、2023年第3四半期の最新フィッシングメール動向を発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ChatGPTでデータベースに侵入　機密情報を漏えいさせるコードを生成　英国と中国の研究者らが実証]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2311/06/news027.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2311/06/news027.html"/>
+        <updated>2023-11-05T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[英国のシェフィールド大学と中国の北方工業大学に所属する研究者らは、ChatGPTなどのAIツールを操作してオンラインデータベースからの機密情報の流出させる、悪意のあるコードを作成するテストを行った研究報告を発表した。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2023年第3四半期のランサムウェア攻撃、前年同期比約2倍の被害]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20231106-2809627/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20231106-2809627/"/>
+        <updated>2023-11-05T22:32:55.000Z</updated>
+        <summary type="html"><![CDATA[ReliaQuestはこのほど、2023年第3四半期のランサムウェア攻撃とデータ漏洩サイトに関する分析結果ついて伝えた。ランサムウェアを使用した脅威グループがデータ漏洩サイトに公開した組織名は前四半期に対し、2023年第3四半期では6.9%減少だったが、前年同期との比較では約2倍と、依然として脅威であることに変わりはないことがわかった。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[宮城県の移住相談会「みやぎ移住・交流フェア」、11月18日に有楽町で開催]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1544092.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1544092.html"/>
+        <updated>2023-11-05T22:30:00.000Z</updated>
+        <summary type="html"><![CDATA[宮城県は、11月18日に、移住希望者向けイベント「みやぎ移住・交流フェア」を開催する。開催場所は東京交通会館12階「カトレアサロン」（東京都千代田区有楽町2-10-1）。時間は11時～16時で、参加費は無料。当日参加も可能だが、事前申込を行うと、宮城の絶品和菓子をプレゼントするとしている。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[AIが「長期記憶」を手に入れて進化、相手の名前や予定を覚え、文脈を共有して話せる「MemGPT」【イニシャルB】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/shimizu/1542181.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/shimizu/1542181.html"/>
+        <updated>2023-11-05T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[AIがあなたの名前を呼び、先週話した話題の続きを語り、家族について聞いてきたり、今週のスケジュールやTo Doについて教えてくれたりする――そんなAIアプリの登場も目の前だ。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[令和6年度 情報処理技術者試験・情報処理安全確保支援士試験の実施予定について]]></title>
+        <id>https://www.ipa.go.jp/shiken/2024/yotei.html</id>
+        <link href="https://www.ipa.go.jp/shiken/2024/yotei.html"/>
+        <updated>2023-11-05T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「令和6年度 情報処理技術者試験・情報処理安全確保支援士試験の実施予定について」に関する情報です。]]></summary>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[シスコ製品に続出する脆弱性、多数のセキュリティアドバイザリ発行]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20231105-2810614/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20231105-2810614/"/>
+        <updated>2023-11-05T09:32:38.000Z</updated>
+        <summary type="html"><![CDATA[シスコシステムズからここ1週間で複数のセキュリティアドバイザリが発行された。これらのアドバイザリは同社製品に影響を及ぼすさまざまな脆弱性について伝えるものであり、脆弱性のレベルは緊急から警告まで幅広い。これらの情報を確認するとともに、必要に応じて適切に対応することが望まれている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[生成AIでブログ記事の宣伝(画像付き)を作成してXにPostするOSSを作り、ブログのPRを効率化しました]]></title>
+        <id>https://tech-lab.sios.jp/?p=37796</id>
+        <link href="https://tech-lab.sios.jp/archives/37796"/>
+        <updated>2023-11-05T08:22:59.000Z</updated>
+        <summary type="html"><![CDATA[みなさん、こんにちは。サイオステクノロジー武井です。今回は。表題の通り、生成AIでブログ記事の宣伝(画像付き)を生成してXにPostするOSSを作ったので、それを紹介したいと思います。 どんなもの？ WordPressや [...]
+生成AIでブログ記事の宣伝(画像付き)を作成してXにPostするOSSを作り、ブログのPRを効率化しました first appeared on SIOS Tech. Lab.]]></summary>
+        <author>
+            <name>武井 宜行</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[「情報セキュリティマネジメント・セミナー2019」参加登録受付を開始しました。]]></title>
         <id>https://www.jnsa.org/seminar/2019/1204/</id>
@@ -103,6 +413,28 @@ The post Unmasking AsyncRAT New Infection Chain appeared first on McAfee Blog.]]
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Cisco Releases Security Advisories for Multiple Products]]></title>
+        <id>/node/19144</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/11/03/cisco-releases-security-advisories-multiple-products"/>
+        <updated>2023-11-03T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Cisco released security advisories for vulnerabilities affecting multiple Cisco products. A cyber threat actor could exploit some of these vulnerabilities to take control of an affected system.
+CISA encourages users and administrators to review the following advisories and apply the necessary updates:
+Cisco Firepower Management Center Software Command Injection Vulnerability
+Cisco Identity Services Engine Command Injection Vulnerabilities
+Cisco Identity Services Engine Vulnerabilities
+Cisco Firepower Threat Defense Software for Cisco Firepower 2100 Series Firewalls Inspection Rules Denial of Service Vulnerability
+Cisco Firepower Threat Defense Software ICMPv6 with Snort 2 Denial of Service Vulnerability
+Cisco Firepower Threat Defense Software and Firepower Management Center Software Code Injection Vulnerability
+Cisco Firepower Management Center Software Log API Denial of Service Vulnerability
+Cisco Firepower Management Center Software Command Injection Vulnerabilities
+Cisco Adaptive Security Appliance Software and Firepower Threat Defense Software Remote Access VPN Denial of Service Vulnerability
+Cisco Adaptive Security Appliance Software and Firepower Threat Defense Software ICMPv6 Message Processing Denial of Service Vulnerability
+For updates addressing lower severity vulnerabilities, see the Cisco Security Advisories page.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[北朝鮮のサイバー攻撃グループ「Lazarus」、macOSのブロックチェーンエンジニア狙う]]></title>
         <id>https://news.mynavi.jp/techplus/article/20231103-2809626/</id>
         <link href="https://news.mynavi.jp/techplus/article/20231103-2809626/"/>
@@ -190,6 +522,48 @@ The post The Benefits of Protection – The Case for Digital Wellness in the Wor
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[CISA Adds One Known Exploited Vulnerability to Catalog]]></title>
+        <id>/node/19106</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/11/02/cisa-adds-one-known-exploited-vulnerability-catalog"/>
+        <updated>2023-11-02T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA has added one new vulnerability to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.
+CVE-2023-46604 Apache ActiveMQ Deserialization of Untrusted Data Vulnerability
+These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise. Note: To view other newly added vulnerabilities in the catalog, click on the arrow in the "Date Added to Catalog" column—which will sort by descending dates.
+Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.
+Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Atlassian Releases Security Advisory for Confluence Data Center and Server]]></title>
+        <id>/node/19107</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/11/02/atlassian-releases-security-advisory-confluence-data-center-and-server"/>
+        <updated>2023-11-02T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Atlassian released a security advisory to address a vulnerability (CVE-2023-22518) affecting Confluence Data Center and Server. A cyber actor could exploit this vulnerability to obtain sensitive information.
+CISA encourages users and administrators to review CVE-2023-22518 - Improper Authorization Vulnerability In Confluence Data Center and Server and apply the necessary updates or mitigations.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases Six Industrial Control Systems Advisories]]></title>
+        <id>/node/19116</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/11/02/cisa-releases-six-industrial-control-systems-advisories"/>
+        <updated>2023-11-02T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA released six Industrial Control Systems (ICS) advisories on November 2, 2023. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
+ICSA-23-306-01 Red Lion Crimson
+ICSA-23-306-02 Mitsubishi Electric MELSEC iQ-F Series CPU Module
+ICSA-23-306-03 Mitsubishi Electric MELSEC Series
+ICSA-23-306-04 Franklin Fueling System TS-550
+ICSA-23-306-05 Weintek EasyBuilder Pro
+ICSA-23-306-06 Schneider Electric SpaceLogic C-Bus Toolkit
+CISA encourages users and administrators to review the newly released ICS advisories for technical details and mitigations.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[不正アクセスで個人情報漏えいか　近商ストア5店舗のネットスーパー会員]]></title>
         <id>https://www.itmedia.co.jp/news/articles/2311/02/news168.html</id>
         <link href="https://www.itmedia.co.jp/news/articles/2311/02/news168.html"/>
@@ -237,6 +611,15 @@ hinatan 曰く、iPhone向けには対応策がないようです。
 AMDのZen世代全CPUに脆弱性 2022年08月17日]]></summary>
         <author>
             <name>nagazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Web更新]APNIC56参加支援　報告書を掲載]]></title>
+        <id>https://www.nic.ad.jp/ja/intl/fellowship-program/apnic56.html</id>
+        <link href="https://www.nic.ad.jp/ja/intl/fellowship-program/apnic56.html"/>
+        <updated>2023-11-02T06:10:52.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
         </author>
     </entry>
     <entry>
@@ -563,6 +946,21 @@ MSSP（セキュリティ監視・運用支援を提供するセキュリティ�
 The post ’Tis the Season for Holiday Scams: 5 Common Schemes to Look Out For appeared first on McAfee Blog.]]></summary>
         <author>
             <name>McAfee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Updates Guidance for Addressing Cisco IOS XE Web UI Vulnerabilities]]></title>
+        <id>/node/19102</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/11/01/cisa-updates-guidance-addressing-cisco-ios-xe-web-ui-vulnerabilities"/>
+        <updated>2023-11-01T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today, CISA updated its guidance addressing two vulnerabilities, CVE-2023-20198 and CVE-2023-20273, affecting Cisco’s Internetworking Operating System (IOS) XE Software Web User Interface (UI).
+The guidance now notes that Cisco has fixed these vulnerabilities for the 17.3 Cisco IOS XE software release train with version 17.3.8a. CISA urges organizations to immediately apply necessary updates.
+CISA urges organizations to review:
+CISA’s updated guidance
+Cisco Security Advisory: Multiple Vulnerabilities in Cisco IOS XE Software Web UI Feature
+Cisco Talos Threat Advisory: Active exploitation of Cisco IOS XE Software Web Management User Interface vulnerabilities]]></summary>
+        <author>
+            <name>CISA</name>
         </author>
     </entry>
     <entry>
@@ -1101,6 +1499,35 @@ The post Advances in Our Use of AI Keep You Even Safer Online appeared first on 
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[CISA Releases Three Industrial Control Systems Advisories]]></title>
+        <id>/node/19080</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/10/31/cisa-releases-three-industrial-control-systems-advisories"/>
+        <updated>2023-10-31T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA released three Industrial Control Systems (ICS) advisories on October 31, 2023. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
+ICSA-23-304-02 INEA ME RTU
+ICSA-23-304-03 Zavio IP Camera 
+ICSA-23-208-03 Mitsubishi Electric CNC Series (Update B)
+CISA encourages users and administrators to review the newly released ICS advisories for technical details and mitigations.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Adds Two Known Exploited Vulnerabilities to Catalog]]></title>
+        <id>/node/19077</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/10/31/cisa-adds-two-known-exploited-vulnerabilities-catalog"/>
+        <updated>2023-10-31T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.
+CVE-2023-46747 F5 BIG-IP Authentication Bypass Vulnerability
+CVE-2023-46748 F5 BIG-IP SQL Injection Vulnerability
+These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise. Note: To view other newly added vulnerabilities in the catalog, click on the arrow in the "Date Added to Catalog" column—which will sort by descending dates.
+Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.
+Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[[Web更新]ccTLDの登録数を更新　2023年9月分を追加]]></title>
         <id>https://www.nic.ad.jp/ja/stat/dom/cctld.html</id>
         <link href="https://www.nic.ad.jp/ja/stat/dom/cctld.html"/>
@@ -1597,6 +2024,17 @@ Qakbotボットネットが8月にテイクダウンされました。この作�
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[VMware Releases Advisory for VMware Tools Vulnerabilities]]></title>
+        <id>/node/19076</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/10/30/vmware-releases-advisory-vmware-tools-vulnerabilities"/>
+        <updated>2023-10-30T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[VMware released a security advisory addressing multiple vulnerabilities (CVE-2023-34057, CVE-2023-34058) in VMware Tools. A cyber actor could exploit one of these vulnerabilities to take control of an affected system.
+CISA encourages users and administrators to review the VMware advisory VMSA-2023-0024 and apply the necessary updates.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[CEOの7割「サイバー攻撃への対応力に懸念」　セキュリティ意識と実態にギャップ　アクセンチュア調査]]></title>
         <id>https://www.itmedia.co.jp/news/articles/2310/30/news160.html</id>
         <link href="https://www.itmedia.co.jp/news/articles/2310/30/news160.html"/>
@@ -1944,6 +2382,35 @@ The post US-B Careful: Public iPhone Chargers Lie in Wait appeared first on McAf
 The post Cyber Monday: Protect Yourself and Your Family from Online Shopping Scams appeared first on McAfee Blog.]]></summary>
         <author>
             <name>McAfee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Updates Guidance for Addressing Cisco IOS XE Web UI Vulnerabilities With Additional Releases]]></title>
+        <id>/node/19065</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/10/27/cisa-updates-guidance-addressing-cisco-ios-xe-web-ui-vulnerabilities-additional-releases"/>
+        <updated>2023-10-27T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today, CISA updated its guidance addressing two vulnerabilities, CVE-2023-20198 and CVE-2023-20273, affecting Cisco’s Internetworking Operating System (IOS) XE Software Web User Interface (UI).
+The guidance now notes that Cisco has fixed these vulnerabilities for the 17.6 Cisco IOS XE software release train with the 17.6.6a update. According to Cisco's Security Advisory: Multiple Vulnerabilities in Cisco IOS XE Software Web UI Feature, fixes are still to be determined for the following Cisco IOS XE software release trains: 17.3, 16.12 (Catalyst 3650 and 3850 only). Cisco previously published the fixed release for 17.9, which is 17.9.4a, on Oct. 22. CISA urges organizations with the 17.9 and 17.6 Cisco IOS XE software release train to immediately update to the 17.9.4a and 17.6.6a releases, respectively.
+CISA urges organizations to review:
+CISA’s updated guidance
+Cisco Security Advisory: Multiple Vulnerabilities in Cisco IOS XE Software Web UI Feature
+Cisco Product Support: Software Fix Availability for Cisco IOS XE Software Web UI Privilege Escalation Vulnerability - CVE-2023-20198
+Cisco Talos Threat Advisory: Active exploitation of Cisco IOS XE Software Web Management User Interface vulnerabilities
+CISA has added CVE-2023-20198 (on Oct. 16, 2023) and CVE-2023-20273 (on Oct. 23, 2023) to its Known Exploited Vulnerabilities Catalog, which, per Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities, requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the specified due date to protect FCEB networks against active threats.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Announces Launch of Logging Made Easy]]></title>
+        <id>/node/19060</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/10/27/cisa-announces-launch-logging-made-easy"/>
+        <updated>2023-10-27T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today, CISA announces the launch of a new version of Logging Made Easy (LME), a straightforward log management solution for Windows-based devices that can be downloaded and self-installed for free. CISA’s version reimagines technology developed by the United Kingdom’s National Cyber Security Centre (NCSC), making it available to a wider audience.
+Log management makes systems more secure. Until now, it has been a heavy lift for many targeted organizations, especially those with limited resources. CISA’s LME is a turnkey solution for public and private organizations seeking to strengthen their cybersecurity while reducing their log management burden.
+As CISA’s newest shared services product offering, LME builds upon the success of the NCSC's log management solution, which was decommissioned in March 2023. CISA urges organizations to secure their Windows-based devices today by downloading the free LME technical solution.]]></summary>
+        <author>
+            <name>CISA</name>
         </author>
     </entry>
     <entry>
@@ -4032,6 +4499,18 @@ Androidスマホのユーザーで、あまりITに詳しくないユーザー�
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Congratulations to the Top MSRC 2023 Q3 Security Researchers!]]></title>
+        <id>https://msrc.microsoft.com/blog/2023/10/congratulations-to-the-top-msrc-2023-q3-security-researchers/</id>
+        <link href="https://msrc.microsoft.com/blog/2023/10/congratulations-to-the-top-msrc-2023-q3-security-researchers/"/>
+        <updated>2023-10-16T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Congratulations to all the researchers recognized in this quarter’s Microsoft Researcher Recognition Program leaderboard! Thank you to everyone for your hard work and continued partnership to secure customers.
+The top three researchers of the 2023 Q3 Security Researcher Leaderboard are Wei, VictorV, and Anonymous!
+Check out the full list of researchers recognized this quarter here.]]></summary>
+        <author>
+            <name>Microsoft Security Response Center</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[JNSAインターンシップ主催の「産学情報セキュリティ人材育成交流会」12月2日開催の参加登録を開始しました。]]></title>
         <id>https://www.jnsa.org/internship/index.html</id>
         <link href="https://www.jnsa.org/internship/index.html"/>
@@ -4115,6 +4594,17 @@ Androidスマホのユーザーで、あまりITに詳しくないユーザー�
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Threat Actors Exploit Atlassian Confluence CVE-2023-22515 for Initial Access to Networks]]></title>
+        <id>/node/18970</id>
+        <link href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-289a"/>
+        <updated>2023-10-13T20:48:38.000Z</updated>
+        <summary type="html"><![CDATA[SUMMARY
+The Cybersecurity and Infrastructure Security Agency (CISA), Federal Bureau of Investigation (FBI), and Multi-State Information Sharing and Analysis Center (MS-ISAC) are releasing this joint Cybersecurity Advisory (CSA) in response to the active exploitation of CVE-2023-22515. This recently disclosed vulnerability affects certain versions of Atlassian Confluence Data Center and Server, enabling malicious cyber threat actors to obtain initial access to Confluence instances by creating unauthorized Confluence administrator accounts. Threat actors exploited CVE-2023-22515 as a zero-day to obtain access to victim systems and continue active exploitation post-patch. Atlassian has rated this vulnerability as critical; CISA, FBI, and MS-ISAC expect widespread, continued exploitation due t…]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[2023年9月度 MBSD-SOCの検知傾向トピックス]]></title>
         <id>https://www.mbsd.jp/research/20231013/20239-mbsd-soc/</id>
         <link href="https://www.mbsd.jp/research/20231013/20239-mbsd-soc/"/>
@@ -4192,6 +4682,17 @@ The post User Data from 23andMe Leaked Online – What Users Should Do, and the 
         <summary type="html"><![CDATA[以下は WordPress.org 公式ブログの記事「WordPress 6.4 Beta 3」を訳したものです。 誤字脱字誤訳などありましたらフォーラムまでお知らせください。 WordPress 6.4 ベータ 3 を […]]]></summary>
         <author>
             <name>Takayuki Miyoshi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing the Microsoft AI Bug Bounty Program featuring the AI-powered Bing experience]]></title>
+        <id>https://msrc.microsoft.com/blog/2023/10/introducing-the-microsoft-ai-bug-bounty-program-featuring-the-ai-powered-bing-experience/</id>
+        <link href="https://msrc.microsoft.com/blog/2023/10/introducing-the-microsoft-ai-bug-bounty-program-featuring-the-ai-powered-bing-experience/"/>
+        <updated>2023-10-12T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today at BlueHat we announced the new Microsoft AI bug bounty program with awards up to $15,000. This new bounty program features the AI-powered Bing experience as the first in scope product. The following products and integrations are eligible for bounty awards:
+AI-powered Bing experiences on bing.com in Browser (All major vendors are supported, including Bing Chat, Bing Chat for Enterprise, and Bing Image Creator) AI-powered Bing integration in Microsoft Edge (Windows), including Bing Chat for Enterprise AI-powered Bing integration in the Microsoft Start Application (iOS and Android) AI-powered Bing integration in the Skype Mobile Application (iOS and Android) Full details can be found on our bounty program website.]]></summary>
+        <author>
+            <name>Microsoft Security Response Center</name>
         </author>
     </entry>
     <entry>
@@ -4313,6 +4814,18 @@ Facebookなどのソーシャルメディアを10年以上使っている人も�
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[#StopRansomware: AvosLocker Ransomware (Update)]]></title>
+        <id>/node/18935</id>
+        <link href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-284a"/>
+        <updated>2023-10-10T15:46:58.000Z</updated>
+        <summary type="html"><![CDATA[SUMMARY
+Note: This joint Cybersecurity Advisory (CSA) is part of an ongoing #StopRansomware effort to publish advisories for network defenders that detail various ransomware variants and ransomware threat actors. These #StopRansomware advisories include recently and historically observed tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) to help organizations protect against ransomware. Visit stopransomware.gov to see all #StopRansomware advisories and to learn more about other ransomware threats and no-cost resources.
+The Federal Bureau of Investigation (FBI) and the Cybersecurity and Infrastructure Security Agency (CISA) are releasing this joint Cybersecurity Advisory (CSA) to disseminate known IOCs, TTPs, and detection methods associated with the AvosLocker v…]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[ICSCoE中核人材育成プログラム第6期の卒業プロジェクトを1件公開しました]]></title>
         <id>https://www.ipa.go.jp/jinzai/ics/core_human_resource/final_project/2023/index.html</id>
         <link href="https://www.ipa.go.jp/jinzai/ics/core_human_resource/final_project/2023/index.html"/>
@@ -4420,6 +4933,16 @@ Facebookなどのソーシャルメディアを10年以上使っている人も�
 Windows Update などを用いて、セキュリティ更新プログラムを早急に適用しましょう。更新プログラムを適用することで、パソコンのセキュリティを保つことができます。]]></summary>
         <author>
             <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Response to Distributed Denial of Service (DDoS) Attacks against HTTP/2]]></title>
+        <id>https://msrc.microsoft.com/blog/2023/10/microsoft-response-to-distributed-denial-of-service-ddos-attacks-against-http/2/</id>
+        <link href="https://msrc.microsoft.com/blog/2023/10/microsoft-response-to-distributed-denial-of-service-ddos-attacks-against-http/2/"/>
+        <updated>2023-10-10T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Summary Summary Beginning in September 2023, Microsoft was notified by industry partners about a newly identified Distributed Denial-of-Service (DDoS) attack technique being used in the wild targeting HTTP/2 protocol. This vulnerability (CVE-2023-44487) impacts any internet exposed HTTP/2 endpoints. As an industry leader, Microsoft promptly opened an investigation and subsequently began working with industry partners for a coordinated disclosure and mitigation plan.]]></summary>
+        <author>
+            <name>Microsoft Security Response Center</name>
         </author>
     </entry>
     <entry>
@@ -4566,56 +5089,6 @@ BECと標的型攻撃メールは、表面的には似ているように見え�
 壊滅的なサイバー攻撃から従業員を守るため、2022年に検討すべきこと]]></summary>
         <author>
             <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[令和5年度秋期試験の問題冊子と解答例（午前）を掲載しました]]></title>
-        <id>https://www.ipa.go.jp/shiken/mondai-kaiotu/2023r05.html</id>
-        <link href="https://www.ipa.go.jp/shiken/mondai-kaiotu/2023r05.html"/>
-        <updated>2023-10-07T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「問題冊子・配点割合・解答例・採点講評（2023年度、令和5年度）」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[令和5年度秋期試験の合格発表スケジュールを掲載しました]]></title>
-        <id>https://www.ipa.go.jp/shiken/2023/20231008_schedule.html</id>
-        <link href="https://www.ipa.go.jp/shiken/2023/20231008_schedule.html"/>
-        <updated>2023-10-07T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「令和5年度秋期試験 合格発表スケジュール」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[令和5年度秋期試験における試験会場での忘れ物等について]]></title>
-        <id>https://www.ipa.go.jp/news/2023/shiken/ex20231008.html</id>
-        <link href="https://www.ipa.go.jp/news/2023/shiken/ex20231008.html"/>
-        <updated>2023-10-07T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「令和5年度秋期試験における試験会場での忘れ物等について」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WordPress 6.4 ベータ 2]]></title>
-        <id>https://ja.wordpress.org/?p=6920</id>
-        <link href="https://ja.wordpress.org/2023/10/07/wordpress-6-4-beta-2/"/>
-        <updated>2023-10-07T08:08:46.000Z</updated>
-        <summary type="html"><![CDATA[以下は WordPress.org 公式ブログの記事「WordPress 6.4 Beta 2」を訳したものです。 誤字脱字誤訳などありましたらフォーラムまでお知らせください。 WordPress 6.4 ベータ 2 を […]]]></summary>
-        <author>
-            <name>Takayuki Miyoshi</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WordPress 6.4 ベータ 1]]></title>
-        <id>https://ja.wordpress.org/?p=6862</id>
-        <link href="https://ja.wordpress.org/2023/10/07/wordpress-6-4-beta-1/"/>
-        <updated>2023-10-07T04:51:27.000Z</updated>
-        <summary type="html"><![CDATA[以下は WordPress.org 公式ブログの記事「WordPress 6.4 Beta 1」を訳したものです。 誤字脱字誤訳などありましたらフォーラムまでお知らせください。 WordPress 6.4 ベータ 1 を […]]]></summary>
-        <author>
-            <name>Takayuki Miyoshi</name>
         </author>
     </entry>
 </feed>
