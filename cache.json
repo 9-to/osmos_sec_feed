@@ -179,6 +179,16 @@
       "siteUrl": "https://www.ipa.go.jp/about/index.html",
       "articles": [
         {
+          "id": "https://www.ipa.go.jp/digital/chousa/discussion-paper/index.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「IPA調査分析ディスカッション・ペーパー」に関する情報です。",
+          "link": "https://www.ipa.go.jp/digital/chousa/discussion-paper/index.html",
+          "publishedOn": "2023-11-06T15:00:00.000Z",
+          "wordCount": 301,
+          "title": "「日本の中小企業のDX推進についての考察」と「 DX推進の段階毎の企業の課題と考察」を公開しました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
           "id": "https://www.ipa.go.jp/shiken/2024/yotei.html",
           "author": "情報処理推進機構（IPA）",
           "description": "情報処理推進機構（IPA）の「令和6年度 情報処理技術者試験・情報処理安全確保支援士試験の実施予定について」に関する情報です。",
@@ -706,6 +716,16 @@
       "siteUrl": "https://blog.kaspersky.co.jp",
       "articles": [
         {
+          "id": "https://blog.kaspersky.co.jp/?p=35015",
+          "author": "Roman Dedenok",
+          "description": "メール内に表示される QR コードがフィッシングに使用される例。",
+          "link": "https://blog.kaspersky.co.jp/qr-codes-in-phishing-emails/35015/",
+          "publishedOn": "2023-11-06T02:00:35.000Z",
+          "wordCount": 1064,
+          "title": "QR コード付きのメールを受信した場合はご注意ください | カスペルスキー公式ブログ",
+          "imageUrl": "https://media.kasperskydaily.com/wp-content/uploads/sites/98/2023/11/03102529/qr-codes-in-phishing-emails-feature.jpg"
+        },
+        {
           "id": "https://blog.kaspersky.co.jp/?p=34999",
           "author": "Stan Kaminsky",
           "description": "最新の自動車はどのような個人情報を収集しているのでしょうか。また自動車の監視やハッキングを避けるにはどうすればいいのでしょうか。",
@@ -1079,6 +1099,16 @@
       "siteUrl": "https://eset-info.canon-its.jp/",
       "articles": [
         {
+          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/231107.html",
+          "author": null,
+          "description": "近年、急速に進化を遂げるAIはさまざまな場面での活用が進められている。サイバーセキュリティの領域においても、攻撃側、防御側の双方にAIの進化は大きな影響をもたらしている。この記事では、AIの進化がセキュリティ対策に及ぼしている影響について、脅威と対策それぞれの面から解説する。\n\n\n\n\n\nAIとは\n\nAIとは「Artificial Intelligence」の頭文字からなる略語であり、日本語では「人工知能」と訳される。人工知能とは文字通り、「人が持つ知能を人工的に再現するもの」であるが、この言葉が指す範囲は広い。\n\nChatGPTに代表される生成AIの登場による現在のAIブームは第4次AIブームと呼ばれ、これまでにも3回、AIがブームとなった時期があった。AI黎明期の第1次AIブームは1960年代に起こり、エキスパートシステムに期待が集まった第2次AIブームは1980～1990年代であった。そして、2006年頃からの第3次AIブームで、その火付け役として注目が集まったのがディープラーニングと呼ばれる技術だ。\n\nディープラーニングはAIの1分野である機械学習の手法の1つだが、大量の並列処理を得意とするGPU（画像処理装置）の急激な進化やインターネット上のデータの爆発的増加、加えて誤差逆伝播法を用いた深いニューラルネットワークの効率的な学習方法が確立したことにより、精度が大きく向上した。\n\n2012年に物体認識の精度を競う国際コンテスト「ILSVRC」において、ディープラーニングが2位を大きく引き離す認識率を達成し、一躍注目を集めることとなった。その後、ディープラーニングをベースとしたAIは急速に発達し、画像認識の精度向上に伴い、さまざまな分野で活用されるようになっていった。\n\n中でも近年、注目を集めているのが、生成AIと呼ばれる分野だ。生成AIは、文字通り新たな画像や文章などを生成するAIのことを指す。生成AIの代表として知られるのが、テキストから画像を生成する「Stable Diffusion」と、会話形式で適切なプロンプト（指示文）を与えることでその答えとなる文章を生成する「ChatGPT」だろう。\n\nこれらの技術は2023年以降、実際のビジネスの現場にて実証実験が進んでおり、こうした動きが第4次AIブームと呼ばれるようになっている。\n\nサイバーセキュリティとAIの関係\n\nさまざまな分野で活用されているAIは、サイバーセキュリティ分野に関しても大きな影響をもたらすようになっている。\n\nAIは例えるなら、切れ味の鋭いナイフのようなものであり、使い方次第で世の中に対して危険を与える存在にも、世の中を安全にする存在にもなり得る。サイバーセキュリティの領域においては、サイバー攻撃を行う攻撃側と、その攻撃からシステムを守る防御側のそれぞれが、AIの活用によってより高いレベルに到達することが可能になると想定されている。\n\nAIによるサイバー攻撃の脅威\n\nまずは、攻撃側について考えてみよう。AIを悪用することで脅威が増大するサイバー攻撃としては、以下のようなものが挙げられる。\n\nディープフェイクによるなりすまし\n\nディープフェイクとは、AIによって自らの声や顔を別人のものに変換する技術である。最近は、音声によるなりすましであるビッシング詐欺において、ディープフェイクを使って他人の声色になりすますといった事例や、同様になりすました偽動画を用いて詐欺を働く事例も実際に起こっている。\n\nパスワードクラッキング\n\nパスワードを破るための攻撃手法としては、従来から辞書攻撃やブルートフォース攻撃などが知られている。パスワードの文字数や文字の種類を増やすことで、これらの攻撃ではパスワードを破られる可能性が低下する。しかし、AIを悪用したパスワードクラッキングツールを使用することで、一般的なパスワードは短時間で突破されてしまう懸念が生じている。過去に流出したパスワードをAIが学習することで、解読の精度が高まるのだ。\n\nAIファジング\n\nファジングとは、ソフトウェアテストの手法の1つで、ファズ（fuzz）と呼ばれる通常想定されていない「不正データ」、「予期せぬデータ」、「ランダムなデータ」を対象の製品・システムに与えて意図的に例外を発生させ、潜在的なバグ・脆弱性を検出する手法だ。このファジングはAIを活用することで、より効率良くバグや脆弱性を見つけ出すことが可能となる。攻撃側が悪用することで、短時間で脆弱性を見つけ出し、ゼロデイ攻撃を行うことが見込まれている。\n\n機械学習ポイズニング\n\n最近のセキュリティ製品には、機械学習を用いてマルウェアを検出する機能を備えたものも少なくない。ポイズニングとは、AIの判断を誤らせるようなデータを入力することであり、セキュリティ製品の機械学習の判断を狂わせることを狙う。\n\nフィッシングメール\n\n生成AIを使ってフィッシングメールの文面を自動生成、あるいは自動でやり取りをさせることで、より巧妙で見分けが付きにくいフィッシング詐欺を仕掛けることが可能となる。\n\nAIを用いたサイバー攻撃とセキュリティ対策の関係性\n\nAIによって防御側も強化される\n\nAIにより脅威が増したサイバー攻撃に対処するためには、防御側もAIを活用することが求められる。防御側の主なAI活用例を以下に挙げていく。\n\n機械学習によるマルウェアの検出\n\n既知のマルウェアの特徴を抽出して学習させていくことで、未知のマルウェア検出を可能にする。最近はディープラーニングを活用することで、より精度の高いマルウェア検出を実現している。\n\nログの監視・解析\n\n過去の膨大なセキュリティログから、平時の特徴と攻撃を受けたときの特徴をAIに学習させることにより、取得した新しいログから攻撃やその兆候をいち早く検知することが可能になる。\n\nトラフィックの監視・解析\n\nログと同様に、ネットワークトラフィックを常に監視し、攻撃時の特徴をAIに学習させることで、通常とは異なるトラフィックパターンを検出した場合、いち早くその対処や報告を行うことが可能になる。\n\nペネトレーションテスト\n\nAIを利用することで、脆弱性を発見するペネトレーションテストをより効率良く行うことが可能となる。実際にネットワークに接続し、システムに攻撃を仕掛けて侵入を試みることで、未知の脆弱性を攻撃される前に見つけ出す可能性が高まる。\n\nAI時代の到来で気をつけるべきセキュリティ対策とは？\n\nAI時代に求められるセキュリティ対策とは\n\n先述したように、攻撃側、防御側の双方でAIの活用が進められている。この状況はいわば、矛と盾それぞれが一様に強化されていくようなものだと言える。こうした状況下において、サイバー攻撃に対処していくためにも、改めて以下に示すような基本的な対策の徹底が求められる。\n\nOSやアプリを最新にアップデートする\n\nOSやアプリを常に最新のものへアップデートすることは、もはや基本中の基本の対策となる。アップデートを速やかに行うことで、既知の脆弱性を解消できるため、サイバー攻撃の被害に遭うリスクを低減する。\n\nパスワードを破られにくい強固なものにする\n\nAIを活用したパスワードクラッキングツールでは、過去に流出したパスワードから利用頻度が高いパスワードを候補として生成していく。そのため、ランダムかつ15桁以上の長い文字列を採用するなどして、破られにくい強固なパスワードにすることが重要だ。\n\nセキュリティを高めるために知っておくべきパスワード管理の基本\n\n利用できるのであれば二要素認証を採用する\n\nIDとパスワードだけによる認証だけでなく、指紋認証やSMS認証など別の要素を組み合わせた二要素認証を採用することで、認証を突破されるリスクを大きく減らせる。\n\n二要素認証と二段階認証の違いを理解していますか？\n\n不審なメールの添付ファイルは決して開封しない\n\nAIを活用して生成されたフィッシングメールは非常に巧妙だ。今後はより精緻な件名、文面で送られてくることも想定しておく必要がある。そのため、少しでも不審に感じたら、メールに添付されたファイルは開封しないようにしたい。また、付き合いのある取引先や社内ではメールにファイルを添付せず、クラウドストレージやビジネスチャットなどのツール経由でファイルをやりとりするのも有効だ。\n\nヒューマンエラーが起こる前提で、ソリューションやツールなどを活用する\n\nどんなに注意していても、必ずヒューマンエラーを起こしてしまうのが人間というものだ。ヒューマンエラーが起きることを前提にして、ソリューションやツールでフォローアップできるようなセキュリティ体制を構築することが肝要だ。\n\nこうしたセキュリティソリューション、ツールの中には、先述のようにAIを用いているものも増えてきている。そのような高度なセキュリティソリューション、ツールを導入することは防御を固める一助となるだろう。ただし、こうした対応はいたちごっこの側面があることも否めない。そのためにも、万一リスクが現実のものとなった場合に備え、被害を最小限にとどめるための対策を並行して進めていくことも重要だと言えるだろう。",
+          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/231107.html",
+          "publishedOn": "2023-11-06T15:00:00.000Z",
+          "wordCount": 209,
+          "title": "AIの進化はセキュリティ対策にどのような影響を及ぼすのか？",
+          "imageUrl": "https://eset-info.canon-its.jp/files/topics/4424_ext_01_0.jpg"
+        },
+        {
           "id": "https://eset-info.canon-its.jp/malware_info/special/detail/231102.html",
           "author": null,
           "description": "欧州におけるサイバーレジリエンスを高め、インシデントに備えて検出し、対応する能力を強化することを目的とした法律「EUサイバー連帯法」が採択された。\n\n\nこの記事は、ESET社が運営するマルウェアやセキュリティに関する情報サイト「WeLiveSecurity」の記事を翻訳したものである。\n\n\n\n\n\n\n欧州連合（以下、EU）は、デジタル分野における重要なプレイヤーとして2030年代を迎えるため、デジタル技術に対する認識、安全性、生産性を備えた姿へと変貌を遂げようとしている。\n\nこの変革のベースとなる考え方の1つが「デジタル・ディケイド（Digital Decade）」プログラムだ。デジタル領域に関する複数の目標や指針、EUのデジタル・インフラ全体を変革するためのアイデアが含まれている。同プログラムでは、ビジネスの展望や政府のセキュリティ、有効性、個人のデータプライバシー、その他の対策が考慮されている。\n\nサイバーセキュリティは、EUが最も重視する分野の1つだ。中でも、NIS2指令（NIS2 Directive）は、デジタル化が進み、サイバー脅威のリスクが高い重要な業界がデジタル技術に依存している状況を考慮し、EU全体でサイバーレジリエンスを強化することを目的として推進するものだ。\n\nEUサイバー連帯法の提案は、最も重要な動きと言えるだろう。この法律は、EUにおける大規模なサイバーセキュリティへの準備や検出、対応を強化するのが狙いだ。また、サイバー脅威の検出と対応を任務とする国内、あるいは国境を越えた最先端のSOC（Security Operation Center）を用いた、EUサイバーセキュリティシールド（European Cybersecurity Shield）とサイバー緊急メカニズム（Cyber Emergency Mechanism）の設立も含まれている。\n\nサイバーセキュリティに対するEUの取り組み。「ブリュッセル効果」の影響\n\nEUの諸機関がポリシーを策定するのには2つの意味がある。すべての利害関係者や国家に適合すべき基準を設けることで、EUの枠組みに影響を及ぼすこと。そして、いわゆる「ブリュッセル効果」によって、これらの基準が世界中により大きな影響を与えることだ。つまり、EUのルールや技術的な要件がグローバルに広がっていくのである。\n\n企業にとって、複数の異なる基準を適用するのは過剰なコストを要する場合が多い。そのため、単一の国家に対して特定の基準を作成するよりも、ほぼ大陸全体で共有されたものを採用する方が合理的だ。国際的なビジネス環境を形成する規制を普及させ、世界的な基準を高め、国際取引における重要な要素を欧州化に導くことで、EUは影響力を発揮してきた。具体的には、データやデジタルプライバシー、消費者の健康と安全、環境保護、独占禁止、オンライン上のヘイトスピーチなどの分野におけるポリシー策定が含まれる。\n\nつまり、EU圏外の企業であっても、EUの法律に従わざるを得なくなる。例えば、GDPR（一般データ保護規則）は全世界に影響を与え、大手企業は遵守するようになった。GDPRはデータの透明性を高め、組織のセキュリティを向上させている。\n\nEUは臭いものに蓋をするようなことはしない。先述のNIS2指令やEUサイバー連帯法が示すように、デジタル化の進展はサイバーセキュリティ業界に根本的な変化をもたらすだろう。良くも悪くも、政府は重要なデジタル・インフラやサプライチェーンに対する管理レベルを高める必要があるからだ。今後もEUは、この分野に投資し続けると予測される。サイバーセキュリティに注力する企業が発展する環境を整え、将来的には世界的な新基準となる可能性があるのだ。\n\n\n\n多国間プロジェクトによるSOC\n\nEUは、加盟国のブロック内でサイバー脅威に対処する方法の一例として、SOCのネットワークを構築するというアイデアを提案した。AIや高度なデータ分析を駆使して、国やEUを標的としたサイバー攻撃を予測、検出、対応しようとするものだ。\n\nインシデントの検出や対応は、多くのサイバーセキュリティ事業者が実績を重ねてきた分野だ。EDRやMDR（社内に専門知識がない場合）、XDR（社内に専門家がいる場合）などを通して、サイバー攻撃への備えを強化したい企業やMSSP（Managed Security Service　Providers）に対して、必要なツールを提供している。\n\n※MSSPとは：MSS（Managed Security Service｜セキュリティ監視・運用支援）を提供するセキュリティ事業者\n\nEUでSOCのネットワークを構築するというアイデアは興味深いものだが、未知の脅威に対応するには、その実装方法が鍵を握る。各国政府を企業と見立てるならば、通常24時間365日サービスを提供するMSSPによって、SOCが十分に機能できるだろう。EUはすでに、必要な設備や運用サービスを提供できる企業を選定するために資金や補助金を提供している。\n\n複数の国にまたがるサイバー攻撃の場合、SOCネットワークへの依存は国家の行く末を左右する。世界中の国々がサイバー空間を戦争に利用することへの対応として、国家的なサイバーセキュリティ戦略を推進している場合、SOCネットワークの重要性が理解できるだろう。さまざまなSOC間の相互運用性は、事実上、国家の安全保障に大きく影響するセーフティネットとなり、それは企業のセキュリティ強化にもつながるかもしれない。これがどのようにMSPやMSSPに影響するかは未知数だが、必要なツールはサイバーセキュリティ分野の人なら誰でも知っているものかもしれない。\n\nSOCとツールの効用\n\n24時間365日体制でセキュリティを提供するSOCは、顧客を保護するための重要なツールを使用してきた。また、組織のサイバーセキュリティ技術の選択、運用、保守を行い、脅威データを継続的に分析し、企業のセキュリティ体制を改善している。さらに、インシデントに対応するツールやプロセスを一元管理し、統合・調整する取り組みも行ってきた。\n\nその結果、予防的対策やポリシーの改善、脅威の迅速な検出、費用対効果の高い脅威への対応を実現している。加えて、SOCは業界の標準や関連するプライバシー法令への遵守を強化し、顧客企業の信頼を向上させる効果もある。\n\n技術的な観点から見ても、SOCは幅広い役割を担う。アセットの管理、インシデント対応計画の実施、定期的な脆弱性評価、最新のセキュリティソリューションや技術の導入、最新情報を入手するためのメディアの情報監視などが含まれる。\n\n同様に、脅威を監視し、検出や対応までカバーするツールも欠かせない。ESETセキュリティソリューションシリーズのような最新のXDRソリューションを導入し、ITインフラ全体の検査やセキュリティ情報の適用、イベント管理などを継続的に実施する必要がある。XDRソリューションは、詳細なテレメトリや監視を提供するとともに、インシデントの自動的な検知や対応の機能を有する。\n\nSOCは攻撃後の回復プロセスも担い、最終的には該当のインシデントが分析を要するような、サイバーセキュリティの新たなトレンドであるかも判断する。GDPRのようなデータプライバシーの規制やポリシーに対し、すべてのアプリやシステム、セキュリティツールが遵守できているかを確認する役割もSOCは担う。インシデント発生後、所定の規制に従ってユーザーや規制当局、その他の関係者に通知し、必要なインシデント情報は監査や証拠保全のために管理される。\n\nEUのサイバーセキュリティにおける変化。MSSPの新たな時代へ\n\n予測とは、現在の状況を継続的に観察し、将来何が起こるかを考えることだ。EUがデジタル統治の領域へ進出するに従い、サイバーセキュリティは、そのデジタル領域を保護する安全装置として重要な役割を果たすだろう。歩みを進めようとすると、妨げようとする勢力によって批判されるのが常だ。デジタル移行戦略が止まることなく安全に進むためには、保護的措置は欠かせない。\n\nMSSP（セキュリティ監視・運用支援を提供するセキュリティ事業者）にとっても魅力的な市場だろう。サイバーセキュリティの専門性を活かしてサービスを提供できるからだ。EUは、デジタル脅威への対処法に精通している専門家からの助言を求めており、国内および国境を越えたSOCは実績のあるセキュリティ事業者によって提供される見通しだ。\n\n技術が進歩するほどに、それが意味するものを理解する必要がある。戦争に必要となるのは武器と兵士だけではないことをEUが理解しているのは間違いないだろう。テクノロジーが発展し、戦争は物理的なものだけではなくなり、サイバー空間は現代の事実上の戦場となってしまった。こうした目的を含め、デジタル・ディケイドはサイバーセキュリティが主役となることで、永続的なパクス・エウロパエア（Pax Europaea：ヨーロッパによる平和）へとつながるだろう。\n\n「ESET Research webinar: How APT groups have turned Ukraine into a cyber?battlefield (ESET研究ウェビナー：APTグループがウクライナをサイバー戦場に変えた方法)(英語のみ)」",
@@ -1258,6 +1288,17 @@
       "feedUrl": "https://www.nic.ad.jp/ja/index.xml",
       "siteUrl": "https://www.nic.ad.jp/",
       "articles": [
+        {
+          "id": "https://www.nic.ad.jp/ja/materials/igf/20230911/",
+          "author": null,
+          "description": "",
+          "link": "https://www.nic.ad.jp/ja/materials/igf/20230911/",
+          "publishedOn": "2023-11-07T02:52:59.000Z",
+          "wordCount": null,
+          "title": "[Web更新]IGF2023に向けた国内IGF活動活発化チーム 第39回会合の資料を掲載",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol2034.html",
           "author": null,
@@ -1497,6 +1538,16 @@
       "siteUrl": "https://www.cisa.gov/",
       "articles": [
         {
+          "id": "/node/19207",
+          "author": "CISA",
+          "description": "Today, CISA published When to Issue Vulnerability Exploitability eXchange (VEX) Information, developed by a community of industry and government experts with the goal to offer some guidance and structure for the software security world, including the large and growing global SBOM community.\nThis guide explains the circumstances and events that could lead an entity to issue VEX information and describes the entities that create or consume VEX information. Whether, and when, to issue VEX information is a business decision for most suppliers and possibly a more individual decision for independent open source developers. This document identifies factors that influence the decision.\nFor more information, read the new reference material When to Issue Vulnerability Exploitability eXchange (VEX) Information.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/11/06/cisa-published-when-issue-vex-information",
+          "publishedOn": "2023-11-06T12:00:00.000Z",
+          "wordCount": 612,
+          "title": "CISA Published When to Issue VEX Information",
+          "imageUrl": null
+        },
+        {
           "id": "/node/19144",
           "author": "CISA",
           "description": "Cisco released security advisories for vulnerabilities affecting multiple Cisco products. A cyber threat actor could exploit some of these vulnerabilities to take control of an affected system.\nCISA encourages users and administrators to review the following advisories and apply the necessary updates:\nCisco Firepower Management Center Software Command Injection Vulnerability\nCisco Identity Services Engine Command Injection Vulnerabilities\nCisco Identity Services Engine Vulnerabilities\nCisco Firepower Threat Defense Software for Cisco Firepower 2100 Series Firewalls Inspection Rules Denial of Service Vulnerability\nCisco Firepower Threat Defense Software ICMPv6 with Snort 2 Denial of Service Vulnerability\nCisco Firepower Threat Defense Software and Firepower Management Center Software Code Injection Vulnerability\nCisco Firepower Management Center Software Log API Denial of Service Vulnerability\nCisco Firepower Management Center Software Command Injection Vulnerabilities\nCisco Adaptive Security Appliance Software and Firepower Threat Defense Software Remote Access VPN Denial of Service Vulnerability\nCisco Adaptive Security Appliance Software and Firepower Threat Defense Software ICMPv6 Message Processing Denial of Service Vulnerability\nFor updates addressing lower severity vulnerabilities, see the Cisco Security Advisories page.",
@@ -1609,6 +1660,56 @@
       "feedUrl": "https://jvn.jp/rss/jvn.rdf",
       "siteUrl": "https://jvn.jp/",
       "articles": [
+        {
+          "id": "https://jvn.jp/jp/JVN29195731/",
+          "author": "jvn@jvn.jp",
+          "description": "株式会社イーシーキューブが提供する EC-CUBE 3系および 4系には、任意のコードが実行可能な脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN29195731/",
+          "publishedOn": "2023-11-07T03:00:00.000Z",
+          "wordCount": 209,
+          "title": "EC-CUBE 3系および 4系において任意のコードを実行される脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU93436992/",
+          "author": "jvn@jvn.jp",
+          "description": "Red Lion社が提供するCrimsonには、NullバイトまたはNUL文字の不適切な無害化処理の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU93436992/",
+          "publishedOn": "2023-11-07T01:00:45.000Z",
+          "wordCount": 71,
+          "title": "Red Lion製CrimsonにおけるNullバイトまたはNUL文字の不適切な無害化処理の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU93518708/",
+          "author": "jvn@jvn.jp",
+          "description": "Franklin Electricが提供するT5シリーズには、強度が不十分なパスワードハッシュの使用の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU93518708/",
+          "publishedOn": "2023-11-07T01:00:30.000Z",
+          "wordCount": 71,
+          "title": "Franklin Electric製T5シリーズにおける強度が不十分なパスワードハッシュの使用の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU96908561/",
+          "author": "jvn@jvn.jp",
+          "description": "Weintekが提供するEasyBuilder Proには、ハードコードされた認証情報の使用の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU96908561/",
+          "publishedOn": "2023-11-07T01:00:15.000Z",
+          "wordCount": 65,
+          "title": "Weintek製EasyBuilder Proにおけるハードコードされた認証情報の使用の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU94501804/",
+          "author": "jvn@jvn.jp",
+          "description": "Schneider Electricが提供するSpaceLogic C-Bus Toolkitには、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU94501804/",
+          "publishedOn": "2023-11-07T01:00:00.000Z",
+          "wordCount": 100,
+          "title": "Schneider Electric製SpaceLogic C-Bus Toolkitにおける複数の脆弱性",
+          "imageUrl": null
+        },
         {
           "id": "https://jvn.jp/vu/JVNVU94620134/",
           "author": "jvn@jvn.jp",
@@ -1911,6 +2012,16 @@
       "siteUrl": "https://security.srad.jp/",
       "articles": [
         {
+          "id": "https://security.srad.jp/story/23/11/05/1444213/",
+          "author": "nagazou",
+          "description": "headless 曰く、Google Play に「独自のセキュリティ審査」バッジが導入され、VPN アプリを皮切りに表示が開始されている\n(Google Security Blog の記事、\nThe Register の記事、\nBleeping Computer の記事)。\n\n新しいバッジは Google 認定ラボパートナーが実施するモバイルアプリセキュリティ評価 (MASA) により、業界標準 OWASP の基本的なセキュリティ要件 MASVS が満たされていることを示すものだ。バッジがアプリに脆弱性がないことを保証するわけではないが、開発者がユーザーの安全を保つためセキュリティとプライバシーを重視していることを示すものとなる。\n\n既に Google Play では NordVPN や Google One、ExpressVPN をはじめとして数多くの VPN アプリの「データセーフティ」セクションにバッジが表示されており、セキュリティ審査を希望する開発者向けに申請フォームも公開されている。\n すべて読む | セキュリティセクション | Google | セキュリティ | ソフトウェア | デベロッパー | IT | Android | プライバシ |     \n  関連ストーリー： \nGoogle Playの「データセーフティ」表示、トップアプリの大半でプライバシーポリシーと不一致 2023年02月25日 \nGoogle Play、VPN サービスを使用したアプリ内広告のブロックを禁止へ 2022年09月03日 \nGoogle Play、データセーフティ表示義務付けを前にアプリの権限表示を削除 2022年07月20日 \nGoogle、Google Play のアプリがサードパーティ決済システムを利用できるようにする仕組みを解説 2021年11月06日",
+          "link": "https://security.srad.jp/story/23/11/05/1444213/",
+          "publishedOn": "2023-11-06T23:02:00.000Z",
+          "wordCount": 2378,
+          "title": "Google Play、「独自のセキュリティ審査」バッジを導入",
+          "imageUrl": "https://srad.jp/static/topics/google_64.png"
+        },
+        {
           "id": "https://security.srad.jp/story/23/11/05/1420255/",
           "author": "nagazou",
           "description": "10月31日に埼玉県蕨市の郵便局で発生した人質立てこもり事件において、警察が持っていた「デカい消火器」がSNS上で話題になっていたようだ。この立てこもり事件では、容疑者が拳銃を持って立てこもっており、その際、液体が入った灯油を入れる容器（18リットル）なども所持していたことから、警察が対応に際して特別な機器を用意していたという（Togetter）。 \n\nこのデカい消火器は実は消火器ではなく、京都アニメーション事件を教訓に開発された「クイックスプラッシャーワイド」と呼ばれる「火災抑制剤放射器」だという。クイックスプラッシャーは液体の火災を抑制する効果があり、ガソリンなどの可燃性液体をまいた場合でも着火を防ぐことができる。現在、クイックスプラッシャーは警察や自衛隊などに提供されているとのことで、これによりガソリンを使用した放火事件に対する対応能力が向上したとしている（同製品を取り上げた朝日新聞記事、メーカー動画）。\n すべて読む | セキュリティセクション | セキュリティ | ニュース |     \n  関連ストーリー： \n京都アニメーション放火殺人事件、被告が盗用と主張しているシーンを法廷で上映 2023年09月08日 \nNHK、京アニ放火事件でNHKが事件に関与したかのような虚偽情報を掲載したとしてまとめサイトを提訴 2020年01月27日 \n政府、京アニへの寄付を「地方公共団体への寄付金」に位置付け税務上の優遇措置を受けられるよう検討 2019年08月22日 \n京大防災研、京アニ放火火災の分析結果速報を公開。出火から30秒程度で生死が決まる厳しい状況 2019年08月05日 \n京都アニメーション放火事件でサーバーから原画を含む全データが回収される 2019年07月31日 \n京都アニメーションのスタジオで火災、負傷者多数 2019年07月18日",
@@ -2027,6 +2138,66 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/11/07/50197.html",
+          "author": null,
+          "description": "REvilプラットフォームのテイクダウン、グループの解体は、FBIやユーロポール、ロシアFSB、さらに米露政府も異例の国際連携の成果だが、捜査プロセスを細かに調べると不明な部分もあり、課題も残している。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/11/07/50197.html",
+          "publishedOn": "2023-11-06T23:15:03.000Z",
+          "wordCount": 936,
+          "title": "弁護士視点で見た REvil 解体の論点 ～ ユーロポール・FBI・FSB 連携は快挙なのか？",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/40922.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/11/07/50196.html",
+          "author": null,
+          "description": "Internet Week 2023が、11月15日から11月22日にかけて開催される。前半はオンライン開催、後半の3日間はリアル会場(東京大学伊藤謝恩ホール)で開催される。主催は一般社団法人日本ネットワークインフォメーションセンター（JPNIC）。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/11/07/50196.html",
+          "publishedOn": "2023-11-06T23:10:02.000Z",
+          "wordCount": 1175,
+          "title": "非公開情報満載：フィッシング対策 会場だけで聞ける話 Internet Week 2023",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/43084.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/11/07/50195.html",
+          "author": null,
+          "description": "一般社団法人PyCon JP Associationは10月30日、同法人が主催する「PyCon APAC 2023」におけるNOCコンテンツの一部にプライバシーの配慮に欠けた内容が含まれていたと発表した。代表理事の鈴木たかのり氏が投稿している。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/11/07/50195.html",
+          "publishedOn": "2023-11-06T23:05:06.000Z",
+          "wordCount": 855,
+          "title": "「PyCon APAC 2023」の NOC コンテンツにプライバシー配慮に欠けた内容、会場 WiFi 利用者に謝罪",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/43117.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/11/07/50194.html",
+          "author": null,
+          "description": "株式会社ビッグモーターは10月30日、同社が運営するウェブサイトへの不正アクセスによる個人情報の漏えいについて発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/11/07/50194.html",
+          "publishedOn": "2023-11-06T23:05:02.000Z",
+          "wordCount": 822,
+          "title": "ビッグモーターのウェブサイトに不正アクセス、約 7 年間の問合せフォーム利用者の個人情報等漏えい",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/43107.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/11/07/50193.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は11月2日、e-Taxソフトにおける XML 外部実体参照（XXE）に関する脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/11/07/50193.html",
+          "publishedOn": "2023-11-06T23:00:09.000Z",
+          "wordCount": 907,
+          "title": "国税庁提供の e-Taxソフトに XML 外部実体参照（XXE）に関する脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/11/07/50192.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）は11月2日、Cisco 製 Cisco IOS XE の Web UI の脆弱性について発表した。影響を受けるシステムは以下の通り。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/11/07/50192.html",
+          "publishedOn": "2023-11-06T23:00:03.000Z",
+          "wordCount": 959,
+          "title": "Cisco 製 Cisco IOS XE の Web UI の脆弱性、修正プログラムを公開",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2023/11/06/50191.html",
           "author": null,
@@ -2585,6 +2756,26 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2311/07/news129.html",
+          "author": null,
+          "description": "10月に発生した全銀ネットの障害をめぐり、システム構築を担当したNTTデータが11月6日に謝罪会見を開いた。",
+          "link": "https://www.itmedia.co.jp/news/articles/2311/07/news129.html",
+          "publishedOn": "2023-11-07T04:51:00.000Z",
+          "wordCount": 2708,
+          "title": "全銀ネット障害、根底に“開発体制の不備”か　NTTデータの見解",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2311/07/cover_news129.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2311/07/news106.html",
+          "author": null,
+          "description": "11月2日午前11時43分（現地時間、以下同）から4日午前4時25分ごろまでの約40時間にわたり、米Cloudflareのサービスで障害が発生。同社は障害の解決後、状況の詳細を4日中に公開した。",
+          "link": "https://www.itmedia.co.jp/news/articles/2311/07/news106.html",
+          "publishedOn": "2023-11-07T03:11:00.000Z",
+          "wordCount": 2709,
+          "title": "Cloudflareで起きた約40時間の障害、原因はデータセンター事業者の不手際？",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2311/07/cover_news106.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2311/06/news129.html",
           "author": null,
           "description": "イスラエル軍とイスラム原理主義組織ハマスの大規模戦闘が続く中、親パレスチナや親ロシア、親イランのハッカー集団がイスラエルへのサイバー攻撃を強めている。攻撃の対象はイスラエルの自衛権を支持する欧米諸国や、イスラエルとサイバー協力を進める日本にも拡大。サイバー空間上の攻防が紛争の激化につながる恐れも懸念されている。",
@@ -2912,6 +3103,106 @@
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
         {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1544815.html",
+          "author": null,
+          "description": "Kindle本のページに価格推移グラフを表示してくれるウェブブラウザー拡張機能「キセッペ（Kiseppe）」の新バージョンが公開された。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1544815.html",
+          "publishedOn": "2023-11-07T06:15:51.000Z",
+          "wordCount": 4503,
+          "title": "Kindle本のページに価格推移グラフを表示する拡張機能「キセッペ」新バージョンが登場【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1544/815/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1544816.html",
+          "author": null,
+          "description": "クルミの殻を用いた超小型の自作Bluetoothスピーカーの制作動画がYouTubeで話題だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1544816.html",
+          "publishedOn": "2023-11-07T06:09:06.000Z",
+          "wordCount": 4498,
+          "title": "これぞ紛れもないウォールナット製、クルミの殻を使った超小型の自作Bluetoothスピーカー【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1544/816/yajiuma-watch_2.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1544943.html",
+          "author": null,
+          "description": "タンスのゲン株式会社は10月30日、使用シーンに合わせてワンタッチで角度や高さを調節可能な昇降式サイドテーブルを発売した。直販サイト「タンスのゲン」での販売価格は1万5990円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1544943.html",
+          "publishedOn": "2023-11-07T05:00:00.000Z",
+          "wordCount": 4584,
+          "title": "ワンタッチで角度や高さを調節可能な昇降式サイドテーブル、タンスのゲンが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1544/943/00.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1544652.html",
+          "author": null,
+          "description": "rinna株式会社は10月31日、米Metaが提供する「Llama 2」に日本語の学習データで継続事前学習を行った「Youri 7B」シリーズを開発し、公開した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1544652.html",
+          "publishedOn": "2023-11-07T03:00:00.000Z",
+          "wordCount": 4630,
+          "title": "rinna、日本語LLM「Youri 7B」シリーズを公開。Llama 2を日本語データで継続事前学習",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1544/652/main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1544768.html",
+          "author": null,
+          "description": "株式会社オカムラ、株式会社ブイキューブ、テレキューブ株式会社は、3社で共同開発したフルクローズ型ワークブース「TELECUBE by OKAMURA C Type」の新モデル4種類を11月に発売する。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1544768.html",
+          "publishedOn": "2023-11-07T02:15:00.000Z",
+          "wordCount": 4610,
+          "title": "車いす対応ワークブースなど、多様化するニーズに応えた「TELECUBE by OKAMURA C Type」新モデル4種発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1544/768/main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1544740.html",
+          "author": null,
+          "description": "シー・エフ・デー販売株式会社のPCパーツブランド「玄人志向」は、同ブランドでは初となるIntel製コントローラー「I225-V B3ステッピング」を搭載し、2.5GBASE-Tに対応したLANカード「GbE2.5i-PCIE」を11月10日に発売する。市場想定価格は5000円前後。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1544740.html",
+          "publishedOn": "2023-11-07T01:50:00.000Z",
+          "wordCount": 4592,
+          "title": "玄人志向、2.5GBASE-T対応のPCIe LANカード「GbE2.5i-PCIE」発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1544/740/main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/special/1544406.html",
+          "author": null,
+          "description": "「年末調整」がそろそろ盛り上がる時期だ。お勤めの会社によって年末調整の提出日は早い人は10月下旬、遅めの人は12月上旬、最も多いのが11月中旬。今週、そして来週、日本中の多くのサラリーマンに提出期限が迫っているだろう。",
+          "link": "https://internet.watch.impress.co.jp/docs/special/1544406.html",
+          "publishedOn": "2023-11-06T21:00:00.000Z",
+          "wordCount": 4768,
+          "title": "年末調整の記入漏れで税金の優遇措置を受け損ねているかも！「扶養親族」欄の注意点とは？ 年末調整の書き方【2023年(令和5年分)最新版4】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1544/406/012.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/nettech/1537050.html",
+          "author": null,
+          "description": "自動車向けのGI-POFによる光マルチギガ転送のための規格「IEEE P802.3dh」の続きだ。前回は2022年11月末までの動向を紹介したので、今回はそこからの話となる。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/nettech/1537050.html",
+          "publishedOn": "2023-11-06T21:00:00.000Z",
+          "wordCount": 4844,
+          "title": "自動車用ネットワークの標準化（11） IEEE 802.3dh標準化までの難航する議論と遅れる結論【ネット新技術】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1537/050/Photo01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1544672.html",
+          "author": null,
+          "description": "Amazon.co.jpのAtermストアページでは現在、同社のWi-Fi 6対応ルーターの割引クーポンが配布されている。クーポンの有効期限は11月21日。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1544672.html",
+          "publishedOn": "2023-11-06T08:30:38.000Z",
+          "wordCount": 4642,
+          "title": "NEC「Aterm」シリーズのWi-Fi 6ルーターが最大20％OFF！ Amazonクーポン情報　メッシュ対応で最大4804＋574Mbpsの「AM-AX5400HP」が15％OFFなど",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1544/672/01s.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1544667.html",
+          "author": null,
+          "description": "株式会社アイ・オー・データ機器は、最大18.5インチ対応のGOPPA社製モバイルディスプレイスタンド「GP-DPS18PAT/B」を発売する。出荷予定は11月上旬で、価格は3630円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1544667.html",
+          "publishedOn": "2023-11-06T08:10:00.000Z",
+          "wordCount": 4588,
+          "title": "回転できる18.5インチ対応のモバイルディスプレイスタンド「GP-DPS18PAT/B」、アイ・オーが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1544/667/01s.jpg"
+        },
+        {
           "id": "https://internet.watch.impress.co.jp/docs/news/1544650.html",
           "author": null,
           "description": "サンワサプライ株式会社は、HDMI信号をUSB Type-C（DisplayPort Alt Mode）出力に変換し、ディスプレイやプロジェクターへ出力できるケーブル一体型4K変換アダプター「AD-HD26TC」を発売した。市場想定価格は6820円。",
@@ -3194,6 +3485,36 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231107-2812703/",
+          "author": null,
+          "description": "アイ・ティ・アール（ITR）は11月7日、国内のSASE（Secure Access Service Edge）運用監視サービス市場規模推移および予測を発表した。SASEの概念の浸透と提供ベンダーの増加により、2022年度、2023年度ともに40%近い成長率を継続するという。",
+          "link": "https://news.mynavi.jp/techplus/article/20231107-2812703/",
+          "publishedOn": "2023-11-07T05:02:46.000Z",
+          "wordCount": 1620,
+          "title": "SASE運用監視サービス市場、22年度・23年度ともに40%近い成長率を継続- ITR予測",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231107-2812703/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231107-2811369/",
+          "author": null,
+          "description": "Oktaは2023年11月3日(米国時間)、2023年10月20日(米国時間)に発表した内部サポートシステムが侵害された事案について続報を伝えた。この事案は9月28日から10月17日(米国時間)にかけて、カスタマーサポートシステム内のファイルに脅威アクターが不正アクセスし、顧客のOktaセッションをハイジャックしたというもの。1Password、BeyondTrust、Cloudflareを含む5つの企業が影響を受けたとされる。",
+          "link": "https://news.mynavi.jp/techplus/article/20231107-2811369/",
+          "publishedOn": "2023-11-07T00:29:06.000Z",
+          "wordCount": 1691,
+          "title": "Oktaの不正アクセス問題の続報、1PasswordやCloudflareなど5企業に影響",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231107-2811369/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231107-2808301/",
+          "author": null,
+          "description": "「TECH+ EXPO for セキュリティ 2023」では、セキュリティの専門家や企業でセキュリティを担当する方々を招き、セキュリティのトレンドや採るべき対策についての講演が行われた。",
+          "link": "https://news.mynavi.jp/techplus/article/20231107-2808301/",
+          "publishedOn": "2023-11-07T00:00:00.000Z",
+          "wordCount": 2495,
+          "title": "「TECH+ EXPO for セキュリティ 2023」講演レポート一覧",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231107-2808301/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20231106-2811428/",
           "author": null,
