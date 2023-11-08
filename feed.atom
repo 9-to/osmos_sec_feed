@@ -2,10 +2,469 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-11-07T08:11:49.310Z</updated>
+    <updated>2023-11-08T08:11:08.941Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Discord、マルウェアによるCDN悪用対策としてファイルのリンクを期限付きに]]></title>
+        <id>https://security.srad.jp/story/23/11/07/239246/</id>
+        <link href="https://security.srad.jp/story/23/11/07/239246/"/>
+        <updated>2023-11-08T08:06:00.000Z</updated>
+        <summary type="html"><![CDATA[headless 曰く、Discord では CDN で多数のマルウェアが配布されていると報告されたことを受け、ファイルのリンクを 24 時間の期限付きにするそうだ
+(Bleeping Computer の記事、
+The Verge の記事、
+Ghacks の記事)。
+
+Trellix の調査によれば、Discord の CDN ではおよそ 10,000 件のマルウェアが見つかっているという。Discord が Bleeping Computer に語ったところによれば、年内にロールアウトするファイルリンク変更は CDN が恒久的なファイルホスティングに用いられることを避けるためのもので、Discord のサーバーにアップロードされてから 24 時間後にはファイルのリンクが無効になる。ただし、Discord 内ではリンクが自動で更新され、リンク切れになることはないとのことだ。
+ すべて読む | セキュリティセクション | セキュリティ | インターネット | SNS |     
+  関連ストーリー： 
+Discordクライアント、32ビット版Windowsサポートを11月いっぱいで終了 2023年10月09日 
+Microsoft、Xboxのリテールモードでエミュレーターを実行するユーザーにアクセス制限 2023年07月30日 
+アイルランドの町、小学生のスマートデバイス使用を禁ずる自主規制ルールを制定 2023年06月10日 
+米政府のウクライナ関連の機密文書がネット上に流出 2023年04月12日]]></summary>
+        <author>
+            <name>nagazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Dacrane】本当にインフラからアプリまでを1つのツールで統合できるのか？]]></title>
+        <id>https://tech-lab.sios.jp/?p=37593</id>
+        <link href="https://tech-lab.sios.jp/archives/37593"/>
+        <updated>2023-11-08T07:47:47.000Z</updated>
+        <summary type="html"><![CDATA[サイオステクノロジーの池田 透です。 弊社で開発中の1からアプリケーションを動かすためのデプロイメントツールDacraneを紹介します。 ぜひ、前回のDacraneの構想に関するブログもご覧ください。 デプロイをコード化 [...]
+【Dacrane】本当にインフラからアプリまでを1つのツールで統合できるのか？ first appeared on SIOS Tech. Lab.]]></summary>
+        <author>
+            <name>池田 透</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USBメモリーは原則禁止→全面禁止に　NTT西子会社の情報漏えいで、NTT島田社長が表明]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2311/08/news136.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2311/08/news136.html"/>
+        <updated>2023-11-08T06:20:00.000Z</updated>
+        <summary type="html"><![CDATA[11月7日に開かれたNTTの2023年度第2四半期決算会見では、NTT西日本グループのNTTマーケティングアクトProCXで起こった情報漏えいに関する質問が記者から飛び出した。これに対し同社の島田社長は「誠に申し訳ない」と謝罪した。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[赤羽署の架空請求対策がアタマいい？　コンビニに「未納料金支払いの方はお持ちください」カード設置　実施の経緯を聞いた]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2311/08/news143.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2311/08/news143.html"/>
+        <updated>2023-11-08T06:06:00.000Z</updated>
+        <summary type="html"><![CDATA[警視庁赤羽警察署が実施している架空請求詐欺対策がユニークな一手として話題に。同署に実施の経緯を聞いた。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Outlook.comで一部の電子メールの送受信に障害]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20231108-2813511/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20231108-2813511/"/>
+        <updated>2023-11-08T05:33:49.000Z</updated>
+        <summary type="html"><![CDATA[Microsoftは11月6日(米国時間)、一部のユーザーがOutlook.comのメールボックスから添付ファイルを含む電子メールを送信できない場合があると伝えた。Microsoftは問題が解決するまでの回避策として、ファイルをOneDriveのリンクとして送信することを提案している。なお、MicrosoftコミュニティのMicrosoftのエージェント兼モデレーターはこの問題はすでに解決したと述べている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「nanaco」コールセンターで顧客の電子マネー残高を詐取、NTTネクシア元社員]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2311/08/news129.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2311/08/news129.html"/>
+        <updated>2023-11-08T04:49:00.000Z</updated>
+        <summary type="html"><![CDATA[NTTネクシアは2日、「nanacoお問い合わせセンター」業務において、元社員が一部顧客の情報を不正に利用し、残高を私的に詐取していたと公表した。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[バッファロー、壁掛けも可能なWi-Fi 6ルーター「WSR-3000AX4P」12月発売、約1万円]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1545251.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1545251.html"/>
+        <updated>2023-11-08T02:55:00.000Z</updated>
+        <summary type="html"><![CDATA[株式会社バッファローは、Wi-Fi 6対応ルーター「WSR-3000AX4P」を12月上旬に発売する。市場想定価格は1万980円。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[トピックス]Internet Week 2023開幕まであと1週間！～銀行振り込みは本日が締め切りです～]]></title>
+        <id>https://www.nic.ad.jp/ja/topics/2023/20231108-1.html</id>
+        <link href="https://www.nic.ad.jp/ja/topics/2023/20231108-1.html"/>
+        <updated>2023-11-08T02:49:00.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[General Electric製MiCOM S1 Agileにおけるファイル検索パスの制御不備の脆弱性]]></title>
+        <id>https://jvn.jp/vu/JVNVU91988072/</id>
+        <link href="https://jvn.jp/vu/JVNVU91988072/"/>
+        <updated>2023-11-08T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[General Electric社が提供するMiCOM S1 Agileには、ファイル検索パスの制御不備の脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[サイバーセキュリティに関わる仕事を紹介するハンドブックが無料公開中【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1545195.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1545195.html"/>
+        <updated>2023-11-08T01:55:00.000Z</updated>
+        <summary type="html"><![CDATA[小学生から大人までの幅広い層に対し、サイバーセキュリティに関わる仕事を紹介するハンドブックを、株式会社ラックがオンラインで無料公開している。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google、検索結果の途中に一定間隔で広告を挟み込む“改悪”を実験中か【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1545196.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1545196.html"/>
+        <updated>2023-11-08T01:50:00.000Z</updated>
+        <summary type="html"><![CDATA[Googleが検索結果の途中に一定間隔で広告を挟み込む新しいアルゴリズムをテスト中であることが報じられ、波紋を呼んでいる。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: e-TaxソフトにXML外部実体参照（XXE）に関する脆弱性]]></title>
+        <id>https://www.jpcert.or.jp/wr/2023/wr231108.html#1</id>
+        <link href="https://www.jpcert.or.jp/wr/2023/wr231108.html#1"/>
+        <updated>2023-11-08T00:07:00.000Z</updated>
+        <summary type="html"><![CDATA[e-TaxソフトにXML外部実体参照（XXE）に関する脆弱性]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: 複数のCisco製品に脆弱性]]></title>
+        <id>https://www.jpcert.or.jp/wr/2023/wr231108.html#2</id>
+        <link href="https://www.jpcert.or.jp/wr/2023/wr231108.html#2"/>
+        <updated>2023-11-08T00:07:00.000Z</updated>
+        <summary type="html"><![CDATA[複数のCisco製品に脆弱性]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: Google Chromeに複数の脆弱性]]></title>
+        <id>https://www.jpcert.or.jp/wr/2023/wr231108.html#3</id>
+        <link href="https://www.jpcert.or.jp/wr/2023/wr231108.html#3"/>
+        <updated>2023-11-08T00:07:00.000Z</updated>
+        <summary type="html"><![CDATA[Google Chromeに複数の脆弱性]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: 富士フイルムビジネスイノベーション製およびXerox Corporation製複合機（MFP）に脆弱性]]></title>
+        <id>https://www.jpcert.or.jp/wr/2023/wr231108.html#4</id>
+        <link href="https://www.jpcert.or.jp/wr/2023/wr231108.html#4"/>
+        <updated>2023-11-08T00:07:00.000Z</updated>
+        <summary type="html"><![CDATA[富士フイルムビジネスイノベーション製およびXerox Corporation製複合機（MFP）に脆弱性]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: Atlassian製Confluence Data CenterおよびConfluence Serverに不適切な認可の脆弱性]]></title>
+        <id>https://www.jpcert.or.jp/wr/2023/wr231108.html#5</id>
+        <link href="https://www.jpcert.or.jp/wr/2023/wr231108.html#5"/>
+        <updated>2023-11-08T00:07:00.000Z</updated>
+        <summary type="html"><![CDATA[Atlassian製Confluence Data CenterおよびConfluence Serverに不適切な認可の脆弱性]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: サイボウズ リモートサービスにリソース枯渇の脆弱性]]></title>
+        <id>https://www.jpcert.or.jp/wr/2023/wr231108.html#6</id>
+        <link href="https://www.jpcert.or.jp/wr/2023/wr231108.html#6"/>
+        <updated>2023-11-08T00:07:00.000Z</updated>
+        <summary type="html"><![CDATA[サイボウズ リモートサービスにリソース枯渇の脆弱性]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: MCL Technologies製MCL-Netにディレクトリトラバーサルの脆弱性]]></title>
+        <id>https://www.jpcert.or.jp/wr/2023/wr231108.html#7</id>
+        <link href="https://www.jpcert.or.jp/wr/2023/wr231108.html#7"/>
+        <updated>2023-11-08T00:07:00.000Z</updated>
+        <summary type="html"><![CDATA[MCL Technologies製MCL-Netにディレクトリトラバーサルの脆弱性]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: Inkdropにコードインジェクションの脆弱性]]></title>
+        <id>https://www.jpcert.or.jp/wr/2023/wr231108.html#8</id>
+        <link href="https://www.jpcert.or.jp/wr/2023/wr231108.html#8"/>
+        <updated>2023-11-08T00:07:00.000Z</updated>
+        <summary type="html"><![CDATA[Inkdropにコードインジェクションの脆弱性]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: 複数のVMware製品に脆弱性]]></title>
+        <id>https://www.jpcert.or.jp/wr/2023/wr231108.html#9</id>
+        <link href="https://www.jpcert.or.jp/wr/2023/wr231108.html#9"/>
+        <updated>2023-11-08T00:07:00.000Z</updated>
+        <summary type="html"><![CDATA[複数のVMware製品に脆弱性]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: JPCERT/CCが「TSUBAMEレポート Overflow（2023年7-9月）」を公開]]></title>
+        <id>https://www.jpcert.or.jp/wr/2023/wr231108.html#10</id>
+        <link href="https://www.jpcert.or.jp/wr/2023/wr231108.html#10"/>
+        <updated>2023-11-08T00:07:00.000Z</updated>
+        <summary type="html"><![CDATA[JPCERT/CCが「TSUBAMEレポート Overflow（2023年7-9月）」を公開]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: JPCERT/CC ベストレポーター賞 2023]]></title>
+        <id>https://www.jpcert.or.jp/wr/2023/wr231108.html#11</id>
+        <link href="https://www.jpcert.or.jp/wr/2023/wr231108.html#11"/>
+        <updated>2023-11-08T00:07:00.000Z</updated>
+        <summary type="html"><![CDATA[JPCERT/CC ベストレポーター賞 2023]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[群馬県の移住イベント「オールぐんま移住フェア2023」、11月19日に有楽町で開催]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1545057.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1545057.html"/>
+        <updated>2023-11-07T23:30:00.000Z</updated>
+        <summary type="html"><![CDATA[群馬県と認定NPO法人ふるさと回帰支援センターは、同県の移住イベント「オールぐんま移住フェア2023」を、11月19日に東京交通会館12階のカトレアサロン（東京都千代田区有楽町2-10-1）にて開催する。開催時間は11時〜16時（最終受付は15時半）。参加は無料で、事前予約も不要だが、事前予約者にはプレゼントが用意されている（詳細は後述）。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[サイバー攻撃に最も狙われたのはゲームは「Minecraft」]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20231108-2812945/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20231108-2812945/"/>
+        <updated>2023-11-07T23:28:42.000Z</updated>
+        <summary type="html"><![CDATA[Kaspersky Labは11月6日(現地時間)、ゲーム関連で最も多くサイバー攻撃の標的となったのはMinecraftユーザーだと伝えた。ゲーム環境は支払い情報から電子メールアドレスなどの個人情報まで、豊富な情報が保存されているため、サイバー攻撃者にとって魅力的な標的とされる。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[サイバーインテリジェンスに関する４大誤解と CISO が理解しておくべきポイント]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/11/08/50205.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/11/08/50205.html"/>
+        <updated>2023-11-07T23:15:03.000Z</updated>
+        <summary type="html"><![CDATA[アンダーグラウンドのサイバー犯罪社会は、実際には神秘的でも不可知でもありません。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows Error Reporting サービスにおけるシンボリックリンク検証不備により権限昇格が可能となる脆弱性（Scan Tech Report）]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/11/08/50204.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/11/08/50204.html"/>
+        <updated>2023-11-07T23:10:03.000Z</updated>
+        <summary type="html"><![CDATA[2023 年 7 月に修正された、Microsoft Windows OS での権限昇格が可能となる脆弱性のエクスプロイトコードが公開されています。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CVSS 4.0正式リリース]]></title>
+        <id>https://security.srad.jp/story/23/11/06/1610226/</id>
+        <link href="https://security.srad.jp/story/23/11/06/1610226/"/>
+        <updated>2023-11-07T23:08:00.000Z</updated>
+        <summary type="html"><![CDATA[headless 曰く、FIRST は 1 日、CVSS 4.0 を正式リリースした
+(プレスリリース、
+ドキュメントとリソース、
+HackRead の記事、
+Bleeping Computer の記事)。
+
+6 月に第 35 回 FIRST 年次カンファレンスでプレビュー版が公開された CVSS 4.0 では消費者向けの基本評価基準の粒状度がより細かくなり、下流の採点法からあいまいさを除いたほか、脅威の判定基準の単純化や、環境評価基準のセキュリティ要求度ならびに代替管理策の評価の有効性向上などが行われている。
+
+また、攻撃の自動化可能性 (AU) や攻撃を受けた場合の復元可能性 (R)、1回の攻撃で支配下に置くことのできるリソースの密度 (V)、消費者による脆弱性対応の容易さ (RE)、評価提供者による緊急性評価 (U)といった補助的な脆弱性評価基準が追加されており、OT/ICS/IoT への追加の適用性が含まれるとのことだ。
+ すべて読む | セキュリティセクション | セキュリティ |]]></summary>
+        <author>
+            <name>nagazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[県実施ユーチューバートークイベントで申込者の個人情報が閲覧可能に]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/11/08/50203.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/11/08/50203.html"/>
+        <updated>2023-11-07T23:05:06.000Z</updated>
+        <summary type="html"><![CDATA[三重県は10月28日、委託事業におけるイベント申込者の個人情報の誤掲載について発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ジーンズカジュアルチェーン大手のライトオンにランサムウェア攻撃]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/11/08/50202.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/11/08/50202.html"/>
+        <updated>2023-11-07T23:05:03.000Z</updated>
+        <summary type="html"><![CDATA[ジーンズカジュアルチェーン大手の株式会社ライトオンは10月27日、同社サーバへの外部攻撃について発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Intelli-CSIRT による「サイバー攻撃被害に係る情報の共有・公表ガイダンス」解説]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/11/08/50201.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/11/08/50201.html"/>
+        <updated>2023-11-07T23:00:14.000Z</updated>
+        <summary type="html"><![CDATA[NTTデータ先端技術株式会社は10月27日、同社が有償で提供している「INTELLILINK セキュリティ情報配信サービス」のオプションとして配信しているセキュリティレポートの一部を公開した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NFT詐欺に遭わないための学習コンテンツと検定、合格証も変化 ～ DeNA 提供]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/11/08/50200.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/11/08/50200.html"/>
+        <updated>2023-11-07T23:00:11.000Z</updated>
+        <summary type="html"><![CDATA[株式会社ディー・エヌ・エー（DeNA）は10月26日、「NFTリテラシー検定」の提供を同日から開始すると発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[サポート詐欺の電話番号「010」で始まる国際電話番号利用手口も]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/11/08/50199.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/11/08/50199.html"/>
+        <updated>2023-11-07T23:00:08.000Z</updated>
+        <summary type="html"><![CDATA[トビラシステムズ株式会社は10月26日、同社の「迷惑情報データベース」をもとにした、特殊詐欺に関する独自調査レポートを公開した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[課題に合わせたセキュリティ支援「GMOサイバーセキュリティfor医療」]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/11/08/50198.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/11/08/50198.html"/>
+        <updated>2023-11-07T23:00:03.000Z</updated>
+        <summary type="html"><![CDATA[GMOサイバーセキュリティ byイエラエ株式会社は10月26日、医療機器メーカーや医療機関向けに総合的なサイバーセキュリティの支援を行う「GMOサイバーセキュリティfor医療」を提供すると発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[足裏刺激やストレッチもできる3WAYフットレスト「100-FR032」、サンワサプライが発売]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1545018.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1545018.html"/>
+        <updated>2023-11-07T22:30:00.000Z</updated>
+        <summary type="html"><![CDATA[サンワサプライ株式会社は11月6日、3WAYフットレスト「100-FR032」を発売した。直販サイト「サンワダイレクト」での販売価格は8480円。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USB Type-C/A接続の骨伝導有線ヘッドセット「HS-BC05CBK」「HS-BC05UBK」、エレコムが5千円台で発売]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1545118.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1545118.html"/>
+        <updated>2023-11-07T21:50:00.000Z</updated>
+        <summary type="html"><![CDATA[エレコム株式会社は、オープンイヤータイプの骨伝導有線ヘッドセット2製品を11月中旬より発売する。市場想定価格は、USB Type-C接続の「HS-BC05CBK」が5980円、USB Type-A接続の「HS-BC05UBK」が5779円。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[オカムラ、オフィス向け電動昇降デスク「Swift Nex」（スイフト ネックス）を発売]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1544981.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1544981.html"/>
+        <updated>2023-11-07T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[株式会社オカムラは、オフィス向け電動昇降デスク・ミーティングテーブル「Swift Nex」（スイフト ネックス）を2023年11月に発売する。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Adds One Known Exploited Vulnerability to Catalog]]></title>
+        <id>/node/19234</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/11/07/cisa-adds-one-known-exploited-vulnerability-catalog"/>
+        <updated>2023-11-07T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA has added one new vulnerability to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.
+CVE-2023-22518 Atlassian Confluence Data Center and Server Improper Authorization Vulnerability
+These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise. Note: To view other newly added vulnerabilities in the catalog, click on the arrow in the "Date Added to Catalog" column—which will sort by descending dates.
+Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.
+Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FEMA and CISA Release Joint Guidance on Planning Considerations for Cyber Incidents]]></title>
+        <id>/node/19235</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/11/07/fema-and-cisa-release-joint-guidance-planning-considerations-cyber-incidents"/>
+        <updated>2023-11-07T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today, the Federal Emergency Management Agency (FEMA) and the Cybersecurity and Infrastructure Security Agency (CISA) released the joint guide Planning Considerations for Cyber Incidents: Guidance for Emergency Managers to provide state, local, tribal, and territorial (SLTT) emergency managers with foundational knowledge of cyber incidents to increase cyber preparedness efforts in their jurisdictions.
+Emergency managers should be able to understand and prepare for the potential impacts of cyber incidents on their communities and emergency operations. FEMA and CISA encourage emergency managers to review this guide for recommendations on how to plan for and respond to cyber incidents.
+For continued updates on efforts related to the guide, including webinars, please visit FEMA’s webpage.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases One Industrial Control Systems Advisory]]></title>
+        <id>/node/19233</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/11/07/cisa-releases-one-industrial-control-systems-advisory"/>
+        <updated>2023-11-07T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA released one Industrial Control Systems (ICS) advisory on November 7, 2023. This advisory provides timely information about current security issues, vulnerabilities, and exploits surrounding ICS. 
+ICSA-23-311-01 GE MiCOM S1 Agile
+CISA encourages users and administrators to review the newly released ICS advisory for technical details and mitigations.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases Guidance for Addressing Citrix NetScaler ADC and Gateway Vulnerability CVE-2023-4966, Citrix Bleed]]></title>
+        <id>/node/19237</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/11/07/cisa-releases-guidance-addressing-citrix-netscaler-adc-and-gateway-vulnerability-cve-2023-4966"/>
+        <updated>2023-11-07T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today, CISA, in response to active, targeted exploitation, released guidance for addressing Citrix NetScaler ADC and Gateway vulnerability CVE-2023-4966. The vulnerability, also known as Citrix Bleed, could allow a cyber actor to take control of an affected system.
+CISA recommends organizations patch unmitigated appliances, hunt for any malicious activity, and report any positive findings to CISA. Review CISA’s guidance for more information.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ガンダムメタバース、3Dデータの漏えいを確認　「クライアントファイル内のデータが外部から解析」]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2311/07/news181.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2311/07/news181.html"/>
+        <updated>2023-11-07T11:04:00.000Z</updated>
+        <summary type="html"><![CDATA[ガンプラの3Dデータが漏えいした可能性を指摘されていた「ガンダムメタバース」について、バンダイナムコエンターテインメントが事実確認の結果を発表した。「クライアントファイル内のデータが外部から解析され、ガンダムメタバース用に制作した3Dデータが公開されたものと考えている」（同社）という。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Android 13のセキュリティ機能「制限付き設定」を回避するマルウェアに警戒を]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20231107-2812940/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20231107-2812940/"/>
+        <updated>2023-11-07T09:52:33.000Z</updated>
+        <summary type="html"><![CDATA[ThreatFabricは11月6日(現地時間)、GoogleがAndroid 13で導入したセキュリティ対策の「制限付き設定(Restricted Settings)」を回避するマルウェア「SecuriDropper」の仕組みについて伝えた。SecuriDropperは正規の手順と同じAndroid APIを使用して追加のマルウェアをインストールするという。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[doda、個人ユーザー約10万人の情報が元勤務先から丸見えだった可能性　ブロック機能が「全角半角・大文字小文字が完全一致」でないと動かず]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2311/07/news161.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2311/07/news161.html"/>
+        <updated>2023-11-07T08:13:00.000Z</updated>
+        <summary type="html"><![CDATA[転職サイト「doda」に不具合があり、個人ユーザー9万6338人の個人情報などが、本来権限がないはずの法人ユーザーでも確認可能になっていた可能性があると、パーソルキャリアが発表した。過去の勤務先から情報を見られないようにするブロック機能の設計に不備があったという。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Kindle本のページに価格推移グラフを表示する拡張機能「キセッペ」新バージョンが登場【やじうまWatch】]]></title>
         <id>https://internet.watch.impress.co.jp/docs/yajiuma/1544815.html</id>
@@ -5379,152 +5838,6 @@ Windows Update などを用いて、セキュリティ更新プログラムを�
         <summary type="html"><![CDATA[Summary Summary Beginning in September 2023, Microsoft was notified by industry partners about a newly identified Distributed Denial-of-Service (DDoS) attack technique being used in the wild targeting HTTP/2 protocol. This vulnerability (CVE-2023-44487) impacts any internet exposed HTTP/2 endpoints. As an industry leader, Microsoft promptly opened an investigation and subsequently began working with industry partners for a coordinated disclosure and mitigation plan.]]></summary>
         <author>
             <name>Microsoft Security Response Center</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[第25回コラボレーションプラットフォーム開催関連レポートを公開しました]]></title>
-        <id>https://www.ipa.go.jp/security/seminar/collapla.html</id>
-        <link href="https://www.ipa.go.jp/security/seminar/collapla.html"/>
-        <updated>2023-10-09T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「コラボレーション・プラットフォームについて」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[巧妙化する標的型攻撃メールの手法と求められる対策]]></title>
-        <id>https://eset-info.canon-its.jp/malware_info/special/detail/231010.html</id>
-        <link href="https://eset-info.canon-its.jp/malware_info/special/detail/231010.html"/>
-        <updated>2023-10-09T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[近年、増加傾向にある標的型攻撃メールは、特定の組織や個人をターゲットとして狙い撃ちすることから、気づかぬうちに被害に遭遇していることも少なくない。この記事では、標的型攻撃メールが用いる特徴的な攻撃手法の概要と実際の被害事例、加えて効果的な対策方法について詳しく解説する。
-
-
-
-
-
-標的型攻撃とは
-
-標的型攻撃とは、特定の組織や個人を狙って行われる攻撃である。この攻撃は主に、クレジットカードをはじめとした個人情報や企業の機密情報などの窃取を目的として実施される。その手法の多くは「標的型攻撃メール」として知られ、メールをきっかけとして実行されるものが多い。
-
-この標的型攻撃メールは、スパムメールのように不特定多数の対象にばらまかれるメールとは異なり、標的型攻撃では事前にターゲットを詳細に調査し、実際の取引先や顧客、従業員に巧妙に偽装してメールを送信する。そのため、送信されるメールの内容は極めて自然で、狙われたユーザーが真偽を判別するのは困難な場合が多い。
-
-標的型攻撃とは？どのような手口で攻撃を行うのか？
-
-標的型攻撃の手法
-
-標的型攻撃にはいくつかの攻撃手法が存在する。以下に主な手法を解説する。
-
-１）標的型攻撃メール
-
-標的型攻撃メールは、事前に研究されたターゲットに対して送信される。このメールは、ターゲットが誤った判断を行うように工夫されていることから、不審に思わず開封してしまうリスクが高い。
-
-２）ソーシャル・エンジニアリング
-
-ソーシャル・エンジニアリングは、人の心理や行動を操る技術である。攻撃者は、信用させるために巧妙な手口や言葉を駆使して情報を詐取する。
-
-３）やり取り型攻撃
-
-やり取り型攻撃は、ターゲットとの間に信頼関係を築き、情報を引き出すことを目的とした手法である。通常、攻撃者はターゲットとの間で幾度もやり取りを重ね、信用させることで機密情報やアクセス権限を詐取する。
-
-４）水飲み場型攻撃
-
-水飲み場型攻撃は、ターゲットが頻繁に訪れるWebサイトを悪用して攻撃を仕掛けるものである。訪問者のデバイスにマルウェアを感染させることで情報を窃取するといった手法だ。
-
-ビジネスメール詐欺（BEC）との違い
-
-特定のターゲット、すなわち、ある組織や個人を狙うという点では、ビジネスメール詐欺（BEC）も広義の標的型攻撃と言えるだろう。しかし、その根本的な目的や手法には明確な違いが見受けられる。
-
-BECと標的型攻撃メールの大きな違いとして、その背後にある目的が挙げられる。BECは、犯罪者が金銭的な利益を追求するための手段として行われることが多い。すなわち、BECにおける主な狙いは、企業や組織から金銭を騙し取ることにある。
-
-これに対して、標的型攻撃メールは機密情報、重要なデータ、または企業の内部情報などの情報を詐取することを主な目的としている。その結果、これらの情報を利用してさらなる攻撃を仕掛ける、あるいはほかの犯罪行為へと発展させていくことも想定される。
-
-BECと標的型攻撃メールは、表面的には似ているように見えるかもしれないが、その実態は趣の異なるものであると言えるだろう。
-
-詐欺メールとは？どのような手口でどういった被害が生じ得るのか？
-
-標的型攻撃メールの特徴
-
-標的型攻撃メールは、昨今でも危険な脅威の1つであり、その特徴を知ることが防御につながる。以下に独自の特徴について解説する。
-
-１）実際の取引先や従業員へのなりすまし
-
-標的型攻撃メールは、あたかも正しいと思える情報を用いて実際の取引先や従業員になりすますことが多い。これにより、受信者はメールが偽装されたものだと思わず、いとも簡単に信じてしまう可能性が高まる。
-
-２）正規のものに近似したメールアドレスを使用
-
-攻撃者は受信者を欺くために、正規の送信メールのアドレスによく似たものを使用する。例えば、1文字だけ異なる文字列やドメインに一部の文字列を付加する、といったようにパッと見ではわからないように偽装することが一般的だ。
-
-３）ターゲットの業務内容に関連するメール本文
-
-攻撃者は受信者に不審なメールと感じさせないように、業務に密接に関連した内容を送り付ける。また、送信元も偽装されていること、さらには「Re:」などの件名で返信を装っていることもあり、受信者がそうしたメールを不審なものと判断することは容易ではない。
-
-４）件名や本文の言い回しが不自然
-
-先述のとおり、攻撃者は非常に綿密な調査や研究を行っている。しかし、外国から国内を狙うような場合、翻訳エンジンを利用することになり、その結果としてネイティブにとっては不自然な表現、助詞の使用方法が不適切、あるいは誤字脱字が含まれるようなものがある。
-
-５）ウイルスを仕込んだファイルを添付
-
-攻撃メールには、ウイルスやマルウェアに感染したファイルが添付されていることも少なくない。受信者が添付ファイルを開くことでパソコンは感染リスクに晒される。マルウェアが感染したパソコンをきっかけとして、攻撃が波状的に広がるなど、さまざまなリスクが生じる。
-
-６）ウイルス対策機能では検出が困難
-
-標的型攻撃メールは特定の組織に合わせて高度に設計されていることも多く、一般的なセキュリティソフトのウイルス対策機能では検出が難しい場合が少なくない。そのため、被害を防ぐためにはセキュリティソフトの導入以外にも複合的な対策が求められる。
-
-７）海外のIPアドレスを使用
-
-多くの場合、攻撃元を特定させないために、海外のIPアドレスが使用される。また、使用されるIPアドレスは頻繁に切り替わることもあり、リストに登録してブロックするといった対処が難しい場合もある。
-
-８）長期間にわたる繰り返しの攻撃
-
-攻撃者は幾度にもわたって執拗に攻撃を繰り返して目的の達成を狙う。そのため、受信者に対して手を替え品を替え、攻撃を重ねることも少なくない。
-
-標的型攻撃メールの被害事例
-
-標的型攻撃メールによって起きた被害事例を以下に紹介する。
-
-１）125万件の個人情報が流出
-
-2015年6月、国内の公的機関が標的型攻撃を受けた結果、約125万件の性別や住所をはじめとした個人情報が流出したとされる。この攻撃の起点となったのが標的型攻撃メールだった。メールは業務に関する内容のもので、一見すると怪しいものとは認識できなかったと発表されている。しかし、このメールをきっかけに組織内で急激に被害が拡散し、最終的に31台の端末が感染するに至った。
-
-２）学生の個人情報が流出
-
-2022年7月、ある大学の研究機関が標的型攻撃メールを受け、マルウェアに感染。その結果、同大学生のメールアドレスや学籍番号、住所、銀行口座などの個人情報が流出した可能性があったとされる。
-
-標的型攻撃メールへの対策
-
-一般的な標的型攻撃メールへの対策を以下に解説する。
-
-１）従業員教育
-
-従業員教育は、標的型攻撃メールの対策として最も重要な対策の1つだ。抜き打ちでのテストを行った上で、そのフィードバックを兼ねた研修会を実施すればより高い効果が期待できる。加えて、定期的なセキュリティ教育を行うことで、従業員のセキュリティ意識の向上が期待できる。
-
-２）メールセキュリティ対策
-
-メールセキュリティに関するソリューションを導入するのも有効だ。キヤノンMJが提供する「GUARDIANWALL Inbound Security for Microsoft 365」は、メール本文を検査することで、標的型攻撃メールやBECを検出する。
-
-また、メールに含まれる添付ファイルやURLの検査を行い、不審なURLが含まれている場合にはメールを削除または隔離する。これらの機能により標的型攻撃メールのリスクを抑制できる。
-
-３）メールの電子署名（S/MIME）
-
-電子署名を使用することで、メールの送信者の真正性やメール内容の改ざんを検出することができる。この署名が付加されていることで、受信者は安心してメールを開封できるようになる。
-
-４）基本的なマルウェア対策
-
-定期的なOSやソフトウェアなどのアップデート、セキュリティソフトの導入といったマルウェアへの対策は標的型攻撃メールにおいても重要だ。マルウェアの感染を起点にした標的型攻撃メールも少なくないため、基本的な対策として徹底しておきたい。
-
-５）不正アクセス対策
-
-不正アクセスにてメールサーバーに侵入し、サーバー内に格納されたメールの履歴を精査し悪用するといった攻撃手法も存在する。そのため、メールサーバーをはじめとして不正アクセスをさせないための対策が重要となる。具体的には、二要素認証の導入や強固なパスワードポリシーの策定、アカウントの監視などが挙げられるだろう。
-
-６）EDR/XDR
-
-高度な標的型攻撃メールへの対策として、企業・組織で導入が進んでいるのがEDRやXDRといったセキュリティソリューションだ。高度な攻撃はエンドポイントのセキュリティソリューションで防ぐには限界がある。そのため、仮に侵入された場合に速やかに対応していくことで被害を最小限に抑える必要がある。そういった観点から、これらセキュリティソリューションの導入が広がっている。
-
-デジタル技術の進展と歩調を合わせるかのように、標的型攻撃メールの手法も進化している。未知の攻撃手法への対応は困難を極めるものの、基本的な対策が重要で大きな役割を果たすことには変わりないだろう。今後もさらなる巧妙な手法が登場することが想像に難くないため、適切な対策を常に講じておくこと、そして常に心構えをしておくことで被害を最小限に防げるようにしておきたい。
-
-壊滅的なサイバー攻撃から従業員を守るため、2022年に検討すべきこと]]></summary>
-        <author>
-            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
         </author>
     </entry>
 </feed>
