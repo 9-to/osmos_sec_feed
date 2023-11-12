@@ -2,10 +2,57 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-11-11T08:10:17.566Z</updated>
+    <updated>2023-11-12T08:09:50.261Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[WordPress 6.4.1 メンテナンスリリース]]></title>
+        <id>https://ja.wordpress.org/?p=7078</id>
+        <link href="https://ja.wordpress.org/2023/11/12/wordpress-6-4-1-maintenance-release/"/>
+        <updated>2023-11-12T03:53:35.000Z</updated>
+        <summary type="html"><![CDATA[以下は WordPress.org 公式ブログの記事「WordPress 6.4.1 Maintenance Release」を訳したものです。 誤字脱字誤訳などありましたらフォーラムまでお知らせください。 WordPr […]]]></summary>
+        <author>
+            <name>Takayuki Miyoshi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows Server 2012/R2 拡張セキュリティ更新プログラム、提供開始]]></title>
+        <id>https://security.srad.jp/story/23/11/12/0217256/</id>
+        <link href="https://security.srad.jp/story/23/11/12/0217256/"/>
+        <updated>2023-11-12T02:39:00.000Z</updated>
+        <summary type="html"><![CDATA[Microsoft は 9 日、Windows Server 2012/R2 ファミリーで拡張セキュリティ更新プログラム (ESU) が利用可能になったと改めて発表した
+(Windows IT Pro Blog の記事、
+BetaNews の記事、
+BleepingComputer の記事)。
+
+Windows Server 2012/R2 の延長サポートは 10 月 10 日に終了しているが、ESU の提供計画は以前から示されており、10 月 10 日から購入可能になっていた
+(Windows Server 2012 のライフサイクル)。ESU は 1 年単位で 3 年間提供され、1 年目からの連続購入が必要だ。これにより、最長で 2026 年 10 月 13 日まで重要なセキュリティ更新プログラムを受け取ることが可能となる。既に Windows Server 2012/R2 を Azure へ移行している場合、ESU は無料で自動的に適用される。なお、いずれの場合も 8 月 8 日以降のサービス スタック更新プログラムの適用が必要だ。スラドの皆さんの管理下に Windows Server 2012/R2 はどれぐらいあるだろうか。
+ すべて読む | セキュリティセクション | アップグレード | セキュリティ | Windows | IT |     
+  関連ストーリー： 
+Windows 8.1 サポート終了、Windows 7 ESU 終了 2023年01月12日 
+Windows Server 2012/2012 R2は10月で延長サポート終了 2023年01月10日 
+Windows 7 拡張セキュリティ更新プログラム、2年目が間もなく終了し、最終年の3年目へ 2021年11月16日 
+Microsoft、Windows Server と SQL Server 2012/2012 R2 の拡張セキュリティ更新プログラム提供計画を発表 2021年07月19日 
+Windows 7 拡張セキュリティ更新プログラム1年目、間もなく終了 2020年11月14日 
+新Microsoft Edge、Windows 7のサポートは2021年7月15日まで 2020年04月14日 
+オーストラリア政府、Windows 7/Server 2008/2008 R2の有料セキュリティアップデートに870万豪ドル以上を支払う 2020年01月20日 
+Microsoft、Windows 10 E5などの利用者にWindows 7サポート終了後のセキュリティ更新1年目を無料提供 2019年08月29日 
+Windows 7延長サポート終了後の有料セキュリティアップデートオプション、4月1日から販売開始 2019年03月09日]]></summary>
+        <author>
+            <name>headless</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WordPress 6.4「シャーリー」]]></title>
+        <id>https://ja.wordpress.org/?p=7024</id>
+        <link href="https://ja.wordpress.org/2023/11/11/shirley/"/>
+        <updated>2023-11-11T09:35:17.000Z</updated>
+        <summary type="html"><![CDATA[以下は WordPress.org 公式ブログの記事「WordPress 6.4 “Shirley”」を訳したものです。 誤字脱字誤訳などありましたらフォーラムまでお知らせください。 WordPress 6.4「シャーリ […]]]></summary>
+        <author>
+            <name>Takayuki Miyoshi</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ガンプラの3Dデータ流出問題、外部からファイル内のデータが解析されたと発表]]></title>
         <id>https://security.srad.jp/story/23/11/09/1415249/</id>
@@ -6547,45 +6594,6 @@ Check out the full list of researchers recognized this quarter here.]]></summary
 The Cybersecurity and Infrastructure Security Agency (CISA), Federal Bureau of Investigation (FBI), and Multi-State Information Sharing and Analysis Center (MS-ISAC) are releasing this joint Cybersecurity Advisory (CSA) in response to the active exploitation of CVE-2023-22515. This recently disclosed vulnerability affects certain versions of Atlassian Confluence Data Center and Server, enabling malicious cyber threat actors to obtain initial access to Confluence instances by creating unauthorized Confluence administrator accounts. Threat actors exploited CVE-2023-22515 as a zero-day to obtain access to victim systems and continue active exploitation post-patch. Atlassian has rated this vulnerability as critical; CISA, FBI, and MS-ISAC expect widespread, continued exploitation due t…]]></summary>
         <author>
             <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2023年9月度 MBSD-SOCの検知傾向トピックス]]></title>
-        <id>https://www.mbsd.jp/research/20231013/20239-mbsd-soc/</id>
-        <link href="https://www.mbsd.jp/research/20231013/20239-mbsd-soc/"/>
-        <updated>2023-10-13T10:30:00.000Z</updated>
-        <summary type="html"><![CDATA[2023年9月度のMBSD-SOCにおける検知傾向トピックスです。]]></summary>
-        <author>
-            <name>三井物産セキュアディレクション株式会社</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「みんなの「サイバーセキュリティコミック」ファイナルシーズン」第3話公開。「オープンソースにおける秘策」が公開されました。]]></title>
-        <id>https://twitter.com/jnsa</id>
-        <link href="https://twitter.com/jnsa"/>
-        <updated>2023-10-13T10:00:00.000Z</updated>
-        <author>
-            <name>特定非営利活動法人 日本ネットワークセキュリティ協会（JNSA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JNSAメールマガジン第273号「ISO／IEC27001：2022の移行対応について」を公開しました。標準化部会 日本ISMSユーザグループ WGリーダー 魚脇雅晴氏のご寄稿です。]]></title>
-        <id>https://www.jnsa.org/aboutus/ml.html</id>
-        <link href="https://www.jnsa.org/aboutus/ml.html"/>
-        <updated>2023-10-13T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[日本ネットワークセキュリティ協会が発信するメールマガジン「JNSAメルマガ」のご案内]]></summary>
-        <author>
-            <name>特定非営利活動法人 日本ネットワークセキュリティ協会（JNSA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WordPress 6.3.2 メンテナンスとセキュリティのリリース]]></title>
-        <id>https://ja.wordpress.org/?p=6954</id>
-        <link href="https://ja.wordpress.org/2023/10/13/wordpress-6-3-2-maintenance-and-security-release/"/>
-        <updated>2023-10-13T03:20:15.000Z</updated>
-        <summary type="html"><![CDATA[以下は、Jb Audras による WordPress.org 公式ブログの記事「WordPress 6.3.2 – Maintenance and Security release」を訳したものです。 誤字脱字誤訳など […]]]></summary>
-        <author>
-            <name>Seisuke Kuraishi</name>
         </author>
     </entry>
 </feed>

@@ -624,26 +624,6 @@
           "wordCount": 142,
           "title": "JNSAインターンシップ主催の「産学情報セキュリティ人材育成交流会」12月2日開催の参加登録を開始しました。",
           "imageUrl": "https://www.jnsa.org/images/obj/img_thumb_internship02.png"
-        },
-        {
-          "id": "https://twitter.com/jnsa",
-          "author": null,
-          "description": "",
-          "link": "https://twitter.com/jnsa",
-          "publishedOn": "2023-10-13T10:00:00.000Z",
-          "wordCount": 511,
-          "title": "「みんなの「サイバーセキュリティコミック」ファイナルシーズン」第3話公開。「オープンソースにおける秘策」が公開されました。",
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.jnsa.org/aboutus/ml.html",
-          "author": null,
-          "description": "日本ネットワークセキュリティ協会が発信するメールマガジン「JNSAメルマガ」のご案内",
-          "link": "https://www.jnsa.org/aboutus/ml.html",
-          "publishedOn": "2023-10-13T06:00:00.000Z",
-          "wordCount": 268,
-          "title": "JNSAメールマガジン第273号「ISO／IEC27001：2022の移行対応について」を公開しました。標準化部会 日本ISMSユーザグループ WGリーダー 魚脇雅晴氏のご寄稿です。",
-          "imageUrl": "https://www.jnsa.org/images/obj/img_thumb_jnsaml.png"
         }
       ]
     },
@@ -1077,16 +1057,6 @@
           "wordCount": 466,
           "title": "CIG安田のランサム統計だより：　　2023年9月号",
           "imageUrl": "https://www.mbsd.jp/2023/10/23/assets/images/20231023_thumb_cig_report.jpg"
-        },
-        {
-          "id": "https://www.mbsd.jp/research/20231013/20239-mbsd-soc/",
-          "author": null,
-          "description": "2023年9月度のMBSD-SOCにおける検知傾向トピックスです。",
-          "link": "https://www.mbsd.jp/research/20231013/20239-mbsd-soc/",
-          "publishedOn": "2023-10-13T10:30:00.000Z",
-          "wordCount": 482,
-          "title": "2023年9月度 MBSD-SOCの検知傾向トピックス",
-          "imageUrl": "https://www.mbsd.jp/2023/10/11/assets/images/b97cc882d52eb5eb4847ad402253508c6bc69698.png"
         }
       ]
     },
@@ -2301,6 +2271,26 @@
       "siteUrl": "https://ja.wordpress.org",
       "articles": [
         {
+          "id": "https://ja.wordpress.org/?p=7078",
+          "author": "Takayuki Miyoshi",
+          "description": "以下は WordPress.org 公式ブログの記事「WordPress 6.4.1 Maintenance Release」を訳したものです。 誤字脱字誤訳などありましたらフォーラムまでお知らせください。 WordPr […]",
+          "link": "https://ja.wordpress.org/2023/11/12/wordpress-6-4-1-maintenance-release/",
+          "publishedOn": "2023-11-12T03:53:35.000Z",
+          "wordCount": 1252,
+          "title": "WordPress 6.4.1 メンテナンスリリース",
+          "imageUrl": "https://s.w.org/images/backgrounds/wordpress-bg-medblue.png"
+        },
+        {
+          "id": "https://ja.wordpress.org/?p=7024",
+          "author": "Takayuki Miyoshi",
+          "description": "以下は WordPress.org 公式ブログの記事「WordPress 6.4 “Shirley”」を訳したものです。 誤字脱字誤訳などありましたらフォーラムまでお知らせください。 WordPress 6.4「シャーリ […]",
+          "link": "https://ja.wordpress.org/2023/11/11/shirley/",
+          "publishedOn": "2023-11-11T09:35:17.000Z",
+          "wordCount": 1394,
+          "title": "WordPress 6.4「シャーリー」",
+          "imageUrl": "https://s.w.org/images/backgrounds/wordpress-bg-medblue.png"
+        },
+        {
           "id": "https://ja.wordpress.org/?p=7008",
           "author": "Takayuki Miyoshi",
           "description": "以下は WordPress.org 公式ブログの記事「WordPress 6.4 Release Candidate 3」を訳したものです。 誤字脱字誤訳などありましたらフォーラムまでお知らせください。 WordPres […]",
@@ -2329,16 +2319,6 @@
           "wordCount": null,
           "title": "WordPress 6.4 リリース候補版 1",
           "imageUrl": null
-        },
-        {
-          "id": "https://ja.wordpress.org/?p=6954",
-          "author": "Seisuke Kuraishi",
-          "description": "以下は、Jb Audras による WordPress.org 公式ブログの記事「WordPress 6.3.2 – Maintenance and Security release」を訳したものです。 誤字脱字誤訳など […]",
-          "link": "https://ja.wordpress.org/2023/10/13/wordpress-6-3-2-maintenance-and-security-release/",
-          "publishedOn": "2023-10-13T03:20:15.000Z",
-          "wordCount": null,
-          "title": "WordPress 6.3.2 メンテナンスとセキュリティのリリース",
-          "imageUrl": null
         }
       ]
     },
@@ -2347,6 +2327,16 @@
       "feedUrl": "https://srad.jp/security.rss",
       "siteUrl": "https://security.srad.jp/",
       "articles": [
+        {
+          "id": "https://security.srad.jp/story/23/11/12/0217256/",
+          "author": "headless",
+          "description": "Microsoft は 9 日、Windows Server 2012/R2 ファミリーで拡張セキュリティ更新プログラム (ESU) が利用可能になったと改めて発表した\n(Windows IT Pro Blog の記事、\nBetaNews の記事、\nBleepingComputer の記事)。\n\nWindows Server 2012/R2 の延長サポートは 10 月 10 日に終了しているが、ESU の提供計画は以前から示されており、10 月 10 日から購入可能になっていた\n(Windows Server 2012 のライフサイクル)。ESU は 1 年単位で 3 年間提供され、1 年目からの連続購入が必要だ。これにより、最長で 2026 年 10 月 13 日まで重要なセキュリティ更新プログラムを受け取ることが可能となる。既に Windows Server 2012/R2 を Azure へ移行している場合、ESU は無料で自動的に適用される。なお、いずれの場合も 8 月 8 日以降のサービス スタック更新プログラムの適用が必要だ。スラドの皆さんの管理下に Windows Server 2012/R2 はどれぐらいあるだろうか。\n すべて読む | セキュリティセクション | アップグレード | セキュリティ | Windows | IT |     \n  関連ストーリー： \nWindows 8.1 サポート終了、Windows 7 ESU 終了 2023年01月12日 \nWindows Server 2012/2012 R2は10月で延長サポート終了 2023年01月10日 \nWindows 7 拡張セキュリティ更新プログラム、2年目が間もなく終了し、最終年の3年目へ 2021年11月16日 \nMicrosoft、Windows Server と SQL Server 2012/2012 R2 の拡張セキュリティ更新プログラム提供計画を発表 2021年07月19日 \nWindows 7 拡張セキュリティ更新プログラム1年目、間もなく終了 2020年11月14日 \n新Microsoft Edge、Windows 7のサポートは2021年7月15日まで 2020年04月14日 \nオーストラリア政府、Windows 7/Server 2008/2008 R2の有料セキュリティアップデートに870万豪ドル以上を支払う 2020年01月20日 \nMicrosoft、Windows 10 E5などの利用者にWindows 7サポート終了後のセキュリティ更新1年目を無料提供 2019年08月29日 \nWindows 7延長サポート終了後の有料セキュリティアップデートオプション、4月1日から販売開始 2019年03月09日",
+          "link": "https://security.srad.jp/story/23/11/12/0217256/",
+          "publishedOn": "2023-11-12T02:39:00.000Z",
+          "wordCount": 2175,
+          "title": "Windows Server 2012/R2 拡張セキュリティ更新プログラム、提供開始",
+          "imageUrl": "https://srad.jp/static/topics/windows_64.png"
+        },
         {
           "id": "https://security.srad.jp/story/23/11/09/1415249/",
           "author": "nagazou",
