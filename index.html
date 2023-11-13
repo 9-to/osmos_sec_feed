@@ -22,11 +22,832 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-11-12 datetime="2023-11-12T03:53:35.000Z">2023-11-12</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-11-12 datetime="2023-11-12T03:53:35.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-11-13 datetime="2023-11-13T08:08:00.000Z">2023-11-13</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-11-13 datetime="2023-11-13T08:08:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >スラド: セキュリティ</button>
+                  <a class="source-heading__link" href="https://security.srad.jp/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://it.srad.jp/story/23/11/12/200233/"
+                        open
+                      >
+                        <summary class="article-expander__title">Googleの検索広告を悪用してトロイの木馬化したCPU-Zをダウンロードさせる不正広告キャンペーン</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://it.srad.jp/story/23/11/12/200233/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://srad.jp/static/topics/google_64.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>headless 曰く、Google の検索広告を悪用し、トロイの木馬化した CPU-Z のインストーラーをダウンロードさせる不正広告攻撃キャンペーンが確認された
+(Malwarebytes のブログ記事、
+BleepingComputer の記事)。
+
+不正広告は CPU-Z の Google 検索結果に表示される。リンク先は普通のブログのように見えるが、リンクをクリックしたのが実際に CPU-Z をダウンロードしようとするユーザーだと判定すると偽の CPU-Z ダウンロードページにリダイレクトされる。偽ページは Windows Report の CPU-Z ダウンロードページをコピーしたものだ。
+
+今回の不正広告攻撃との関連は不明だが、コピー元となった Windows Report の正規のページは最近削除されたようだ。11 月 6 日に保存された Google キャッシュでみると、ダウンロードリンクは CPU-Z の公式サイトにリンクしているが、ダウンロードされるファイルは CPU-Z 1.91 で、2019 年にリリースされた古いものだ。
+
+一方、偽ページからダウンロードできるファイルはデジタル署名された MSIX インストーラーで、FakeBat として知られる悪意ある PowerShell スクリプトのローダーが含まれていたそうだ。スクリプトのペイロードは情報窃取型マルウェア Redline Stealer だという。
+
+Google は BleepingComputer に対し、マルウェアを含む広告を許容しないと述べ、問題の広告を削除して関連するアカウントに適切な対応を行ったなどと説明したとのことだ。
+ すべて読む | ITセクション | Google | セキュリティ | 広告 |     
+  関連ストーリー： 
+Huawei、Googleアプリをマルウェアと誤検知 2023年11月03日 
+中国製貨物クレーンは偵察用か。米当局が懸念 2023年03月08日 
+UAParser.jsにマルウェアが混入 2021年10月29日 
+Apple、Unreal Engineの開発者アカウント停止を再主張。Epicが別の「トロイの木馬」を仕込む可能性があるとして 2020年09月23日</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://security.srad.jp/story/23/11/12/1341229/"
+                        open
+                      >
+                        <summary class="article-expander__title">NTT社長いわく「USBメモリーは使用禁止で許可制」</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://security.srad.jp/story/23/11/12/1341229/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://srad.jp/static/topics/ntt_64.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>NTT西日本の子会社であるNTTマーケティングアクトProCXで発生した個人情報流出の問題に対応するため、NTTの島田明代表取締役社長は、7日のNTT決算会見でUSBメモリの業務使用を一切禁じる方針を発表した（ケータイ Watch）。 
+
+島田社長は会見で事件について謝罪。NTTグループ内では、記録媒体の持ち込み禁止や操作を検知するソフトウェアの導入などルール化はされていたと説明。実際にガバナンスがきちんと効いていなかったこととして、対策として、グループ全体でのルールの確認と見直しを行うことを明らかにした。 
+
+さらにUSBメモリーの業務使用に関しては、従来の「業務のなかで基本的には原則使わない」とする方針から、「原則」もなく一切使わないような形にすると説明した。例外的に使用する場合は許可制とする考えを示した。同時に、操作検知の仕組みの徹底と抜き打ち監査も検討していると述べている。
+ すべて読む | セキュリティセクション | セキュリティ | NTT | 情報漏洩 |     
+  関連ストーリー： 
+NTT西日本子会社から顧客情報900万件が流出 2023年10月18日 
+NICTの業務委託先がノートPCを紛失、実施されていた情報漏洩対策の詳細を公開 2023年09月26日 
+尼崎市の個人情報USBメモリ流出事件、紛失したのは再々委託先の社員だった 2022年06月28日 
+NTTドコモ、無断で遺跡に基地局を建設。孫請け業者が書類を偽造していた 2016年11月29日</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://security.srad.jp/story/23/11/12/1324259/"
+                        open
+                      >
+                        <summary class="article-expander__title">極めて深刻な食料不足に陥った場合、カロリーが高い作物への転換を指示できる制度を検討</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://security.srad.jp/story/23/11/12/1324259/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://srad.jp/static/topics/earth_64.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>農林水産省は、世界的な穀物不作や紛争による深刻な食料不足時に、国内の生産者に対し、高カロリー作物への転換を指示できる制度を検討する方針を決定した（NHK）。 
+
+食料安全保障の有識者会議で示された対応案によれば、極端な食料不足時には政府対策本部を設置し、さつまいもやコメといった高カロリー作物の生産者に対し増産を指示することが考えられている。同時に、野菜などほかの作物の生産者に対しても、高カロリー作物への転換を指示する可能性が検討されている。ただし、指示時には生産効率や栄養バランス、食生活への影響などを考慮する必要があるとしている。異論は出なかったとされ、今後は具体的な制度の検討が進められる予定としている。
+ すべて読む | セキュリティセクション | 日本 | 地球 | セキュリティ | 政府 |     
+  関連ストーリー： 
+中国で食糧危機に警戒。バイキング店では125グラム以上残すと罰金取られるように 2020年08月22日 
+シリコンバレーでは4人に1人が飢えに瀕している 2017年12月19日 
+南極・昭和基地への物資輸送、厳しい状況に 2012年11月14日 
+地球上の植物はもう増えない？ 2012年09月26日 
+食糧問題を解決する鍵は「昆虫」と「人工肉」 2012年08月08日</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >マイナビニュース 企業IT セキュリティ</button>
+                  <a class="source-heading__link" href="https://news.mynavi.jp/top/techplus/enterprise/security/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.mynavi.jp/techplus/article/20231113-2817371/"
+                        open
+                      >
+                        <summary class="article-expander__title">富士電機の遠隔監視ソフト「TELLUS」「V-Sever」に複数の脆弱性</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20231113-2817371/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://news.mynavi.jp/techplus/article/20231113-2817371/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>JPCERTコーディネーションセンター(JPCERT/CC)は11月10日、富士電機の複数の製品に複数の脆弱性が存在すると伝えた。これら脆弱性を悪用されると、細工されたファイルを開くことで情報漏洩や任意のコードが実行される可能性があるとされており注意が必要。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.mynavi.jp/techplus/article/20231113-2815557/"
+                        open
+                      >
+                        <summary class="article-expander__title">企業が知っておきたい、AI・生成AI・機械学習に関する5つの予測</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20231113-2815557/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://news.mynavi.jp/techplus/article/20231113-2815557/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Zscalerは11月9日(米国時間)、企業から見たAI、機械学習（ML: Machine learning）、生成AIの今後のトレンドに関する5つの予測を発表した。同社は。A|Iの拡大の方向性や、企業がAIを採用するにあたって注意が必要となっていく点、そしてセキュリティ対策としてのAIについて解説している。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.mynavi.jp/techplus/article/20231113-2816142/"
+                        open
+                      >
+                        <summary class="article-expander__title">ITサービス自動化ソフトウェア「SysAid」にゼロデイの脆弱性、更新を</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20231113-2816142/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://news.mynavi.jp/techplus/article/20231113-2816142/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Malwarebytesは11月9日(米国時間)、ITサービス自動化ソフトウェアの「SysAid」にゼロデイの脆弱性が存在し、悪用されているとして、注意を呼び掛けた。脅威アクターはこの脆弱性を悪用して不正アクセスとシステムの制御を可能にし、マルウェアローダ「Gracewire」を展開、さらに侵入の形跡などの消去を試みたと見られる。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.mynavi.jp/techplus/article/20231113-2807748/"
+                        open
+                      >
+                        <summary class="article-expander__title">Windowsのポリシー設定の小さな変更でセキュリティ機能が無効に、その顛末</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20231113-2807748/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://news.mynavi.jp/techplus/article/20231113-2807748/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Tripwireは2023年、セキュリティ侵害はサイバー攻撃に限らず従業員の些細なミスでも発生するとして警告した。Windowsグループポリシの設定において、わずかな変更によりセキュリティ対応能力が大幅に損なわれた事案を取り上げている。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.mynavi.jp/techplus/article/20231113-2815559/"
+                        open
+                      >
+                        <summary class="article-expander__title">「CPU-Z」の偽インストーラ発見、新たなサイバー攻撃に注意</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20231113-2815559/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://news.mynavi.jp/techplus/article/20231113-2815559/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Malwarebytesは11月8日(米国時間)、マルウェアを配布する新しいマルバタイジングキャンペーンを発見したと報じた。このキャンペーンでは、ハードウェア情報収集ツール「CPU-Z」を検索したユーザーに偽の広告を表示して、Windowsニュースポータル「WindowsReport.com」を複製した偽のWebサイトへ誘導する。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.mynavi.jp/techplus/article/20231113-2813370/"
+                        open
+                      >
+                        <summary class="article-expander__title">今、日本企業に求められているプライバシー・データ保護人材「DPO」とは</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20231113-2813370/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://news.mynavi.jp/techplus/article/20231113-2813370/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Google、Meta、Amazonなど米国のプラットフォーマーはGDPRに違反としたとして、多額の罰金を科せられている。グローバル化やDX推進を標榜する日本企業にとっても、プライバシー保護は重要な課題である。今、グローバルの情勢を見据え、適切なデータ保護が行える人材が日本企業に求められている。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >ITmedia NEWS セキュリティ 最新記事一覧</button>
+                  <a class="source-heading__link" href="https://www.itmedia.co.jp/news/security/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.itmedia.co.jp/news/articles/2311/13/news133.html"
+                        open
+                      >
+                        <summary class="article-expander__title">“プライバシーマーク認証団体”が情報漏えい　審査員が個人PCで書類保存、約3年間外部から丸見えに</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.itmedia.co.jp/news/articles/2311/13/news133.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.itmedia.co.jp/news/articles/2311/13/cover_news133.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>個人情報の取り扱い体制について評価・認証する「プライバシーマーク制度」を運営する日本情報経済社会推進協会（JIPDEC）は、8月に発表したPマークの審査関連書類が漏えいした事案について、調査結果を発表した。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >JPNIC Web</button>
+                  <a class="source-heading__link" href="https://www.nic.ad.jp/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol2035.html"
+                        open
+                      >
+                        <summary class="article-expander__title">[メルマガ]vol.2035:【トピックス号】先週のトピックスとWeb更新情報</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol2035.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >JVNRSS Feed - Update Entry</button>
+                  <a class="source-heading__link" href="https://jvn.jp/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://jvn.jp/jp/JVN96209256/"
+                        open
+                      >
+                        <summary class="article-expander__title">プリザンターにおける複数の脆弱性</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://jvn.jp/jp/JVN96209256/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>株式会社インプリムが提供するプリザンターには、複数の脆弱性が存在します。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://jvn.jp/jp/JVN17806703/"
+                        open
+                      >
+                        <summary class="article-expander__title">Cisco Firepower Management Center Software における複数の脆弱性</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://jvn.jp/jp/JVN17806703/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Cisco Systems が提供する Cisco Firepower Management Center Software には、複数の脆弱性が存在します。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >INTERNET Watch</button>
+                  <a class="source-heading__link" href="https://internet.watch.impress.co.jp">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://internet.watch.impress.co.jp/docs/news/ranking/1546425.html"
+                        open
+                      >
+                        <summary class="article-expander__title">ETC 利用照会サービスをかたるフィッシング詐欺について報じた記事に注目集まる【アクセスランキング】</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/news/ranking/1546425.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1546/425/01_o.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>前週に閲覧数の多かった記事を、カテゴリーごとに上位5位までレポートします。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://internet.watch.impress.co.jp/docs/news/1546003.html"
+                        open
+                      >
+                        <summary class="article-expander__title">モバイルバッテリーにもなる小型LEDライト「800-LED077」、サンワサプライが発売</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/news/1546003.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1546/003/main.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>サンワサプライ株式会社は、懐中電灯としても手持ちとしても使え、モバイルバッテリーにもなるLEDランタン「800-LED077」を発売した。ブラック、ホワイトの2色があり、直販サイト「サンワダイレクト」での販売価格は3980円。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://internet.watch.impress.co.jp/docs/yajiuma/1546353.html"
+                        open
+                      >
+                        <summary class="article-expander__title">AIを使ってストリートビューの街並みを“サイクリングがしたくなる街路”へと描き換えるサイト【やじうまWatch】</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/yajiuma/1546353.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1546/353/yajiuma-watch_1.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Googleストリートビューで任意のスポットを読み込ませると、AIを用いてそれらの風景をサイクリングがしたくなる街路に描き換えてくれるサイトが登場した。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://internet.watch.impress.co.jp/docs/yajiuma/1546352.html"
+                        open
+                      >
+                        <summary class="article-expander__title">ビットコインの生みの親「サトシ・ナカモト」に迫る番組、今夜22時からNHK総合で放送【やじうまWatch】</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/yajiuma/1546352.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1546/352/yajiuma-watch_3.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>ビットコインの生みの親である謎の人物「サトシ・ナカモト」に迫る番組が、今日11月13日の22時よりNHK総合で放送される。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://internet.watch.impress.co.jp/docs/news/1545937.html"
+                        open
+                      >
+                        <summary class="article-expander__title">機器に合わせて幅を調整できるキャスター付きCPUスタンド「CP-052」、サンワサプライが発売</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/news/1545937.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1545/937/sub7.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>サンワサプライ株式会社は、キャスター付きCPUスタンド「CP-052」を発売した。市場想定価格は9350円。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >JPRS最新情報</button>
+                  <a class="source-heading__link" href="https://jprs.jp/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://jprs.jp/whatsnew/notice/2023/231112.html"
+                        open
+                      >
+                        <summary class="article-expander__title">「公開・開示対象情報一覧」の改訂について（改訂主旨）（更新）</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://jprs.jp/whatsnew/notice/2023/231112.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2023-11-12 datetime="2023-11-12T23:15:02.000Z">2023-11-12</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2023-11-12 datetime="2023-11-12T23:15:02.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >ScanNetSecurity</button>
+                  <a class="source-heading__link" href="https://scan.netsecurity.ne.jp/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://scan.netsecurity.ne.jp/article/2023/11/13/50226.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Proofpoint Blog 31回「GoogleとYahooの新Eメール認証要件への短い対応タイムライン」</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://scan.netsecurity.ne.jp/article/2023/11/13/50226.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://scan.netsecurity.ne.jp/imgs/ogp_f/43188.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Googleは、2024年2月から、Gmailアカウントにメッセージを送信する際にメール認証が必要になると発表しました。Gmailアカウントに1日あたり5,000通以上のメールを送信する大量送信者は、さらに多くの要件を満たす必要があります。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://scan.netsecurity.ne.jp/article/2023/11/13/50225.html"
+                        open
+                      >
+                        <summary class="article-expander__title">生成 AI 活用「AeyeScan」最新機能をデモ公開、エーアイセキュリティラボ 執行役員 関根氏解説</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://scan.netsecurity.ne.jp/article/2023/11/13/50225.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://scan.netsecurity.ne.jp/imgs/ogp_f/43187.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>株式会社エーアイセキュリティラボは11月、オンラインセミナー「生成AIを活用した機能をデモで一挙公開！ 知っておきたい脆弱性診断の最先端」を11月10日、11月17日に開催すると発表した。11月2日に配信したセミナーの再放送となる。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://scan.netsecurity.ne.jp/article/2023/11/13/50224.html"
+                        open
+                      >
+                        <summary class="article-expander__title">再発防止策 注意書き掲示ほか ～ 三重県環境学習情報センターでオンライン講座受講者へのメール誤送信</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://scan.netsecurity.ne.jp/article/2023/11/13/50224.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://scan.netsecurity.ne.jp/imgs/ogp_f/43150.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>三重県は11月3日、三重県環境学習情報センターの指定管理者による講座受講者の個人メールアドレスの流出について発表した。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://scan.netsecurity.ne.jp/article/2023/11/13/50223.html"
+                        open
+                      >
+                        <summary class="article-expander__title">近商ストアのサーバにランサムウェア攻撃、ネットスーパーの営業は当面見合わせ</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://scan.netsecurity.ne.jp/article/2023/11/13/50223.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://scan.netsecurity.ne.jp/imgs/ogp_f/43154.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>近鉄グループの株式会社近商ストアは11月2日、同社サーバへのランサムウェアによる不正アクセスについて発表した。文字の選択やコピーができないPDFファイルで公開している。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://scan.netsecurity.ne.jp/article/2023/11/13/50222.html"
+                        open
+                      >
+                        <summary class="article-expander__title">共同通信に不正アクセス、職員の個人情報が外部流出した可能性を完全に否定することができず</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://scan.netsecurity.ne.jp/article/2023/11/13/50222.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://scan.netsecurity.ne.jp/imgs/ogp_f/43163.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>一般社団法人共同通信社は11月2日、不正アクセスによる職員等の個人情報の漏えいについて発表した。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://scan.netsecurity.ne.jp/article/2023/11/13/50221.html"
+                        open
+                      >
+                        <summary class="article-expander__title">日経225企業の7割がDMARC導入、金融機関の増加顕著 ～ TwoFive調査</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://scan.netsecurity.ne.jp/article/2023/11/13/50221.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://scan.netsecurity.ne.jp/imgs/ogp_f/43180.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>株式会社TwoFiveは11月6日、なりすましメール対策実態調査の最新結果を発表した。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >INTERNET Watch</button>
+                  <a class="source-heading__link" href="https://internet.watch.impress.co.jp">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://internet.watch.impress.co.jp/docs/news/1546076.html"
+                        open
+                      >
+                        <summary class="article-expander__title">地下の光ファイバーに伝わる振動から路面状態を推定し除雪の必要性を判断、NTT、NECらが世界初</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/news/1546076.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1546/076/01.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>日本電信電話株式会社（NTT）、東日本電信電話株式会社（NTT東日本）、日本電気株式会社（NEC）の3社は、光ファイバーを用いた振動センシング技術により、豪雪地帯で道路除雪判断を行う実証実験に世界で初めて成功したと発表した。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://internet.watch.impress.co.jp/docs/news/1546032.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Lenovo社員が登壇、Androidタブレットの活用方法や事例が分かる無料ウェビナーをテックウインドが11月30日に実施</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/news/1546032.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1546/032/231110-1.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>テックウインド株式会社は、システム開発企業や飲食店、ホテル、教育、小売業など向けに、Androidタブレットの最新の活用方法や成功事例を紹介するウェビナー「Androidタブレット再評価の時！レノボ社員が語る最新技術とビジネス活用術～LenovoタブレットAPIサービスでビジネスの未来を切り拓く～」を、11月30日に実施する。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://internet.watch.impress.co.jp/docs/news/1546090.html"
+                        open
+                      >
+                        <summary class="article-expander__title">「Web担当者Forum ミーティング／ネットショップ担当者フォーラム 2023 秋」11月21・22日に虎ノ門ヒルズフォーラムにて開催　会場でテレワーク可能、カフェセッション・ランチセッションも実施</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/news/1546090.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1546/090/00.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>株式会社インプレスは、ウェブ担当者やEC担当者、マーケター向けの無料セミナーイベント「Web担当者Forum ミーティング 2023 秋／ネットショップ担当者フォーラム 2023 秋」を11月21・22日に虎ノ門ヒルズフォーラム（東京都港区虎ノ門1-23-3）にて開催する。開催時間は10時30分～17時15分（受付開始は10時）。参加費は無料。事前登録制でウェブページから申し込める。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://internet.watch.impress.co.jp/docs/column/curation/1546008.html"
+                        open
+                      >
+                        <summary class="article-expander__title">各国・各地域でAIに対するルール策定の議論が進む ほか【中島由弘の「いま知っておくべき5つのニュース」2023/10/26～11/8】</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/column/curation/1546008.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1546/008/shutterstock_1019006956_main.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>生成AIによる画像や動画の生成の技術進歩は目覚ましいものがある。一方で、それを悪用した事案が相次いでいる。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://internet.watch.impress.co.jp/docs/column/teleworkstory/1545679.html"
+                        open
+                      >
+                        <summary class="article-expander__title">「会議用にプロジェクターをスクリーン（？）ごと持ち歩いてみた」――急遽テレワークを導入した中小企業の顛末記（164）【急遽テレワーク導入！の顛末記】</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/column/teleworkstory/1545679.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1545/679/01.JPG" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>最近ではリアルな会議が戻りつつある一方で、ビデオ会議も毎日のように行われている。そのため会議室が埋まりやすく、コンパクトなミーティングスペースなどで打ち合わせを行うことも増えたが、こういう場所にはモニターを置いていないことがある。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://internet.watch.impress.co.jp/docs/topic/shimizu_sp/1538426.html"
+                        open
+                      >
+                        <summary class="article-expander__title">「技術の無駄遣い」でネットワークカメラを使い倒す!! API制御で趣味にビジネス、果ては「動くパペット」まで……【イニシャルB【特別編】】[Sponsored]</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/topic/shimizu_sp/1538426.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1538/426/001.JPG" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>アイ・オー・データ機器のネットワークカメラ「Qwatch」シリーズの自由度がすごい。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >独立行政法人情報処理推進機構（IPA）新着情報RSS</button>
+                  <a class="source-heading__link" href="https://www.ipa.go.jp/about/index.html">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.ipa.go.jp/event/2023/agile20231207.html"
+                        open
+                      >
+                        <summary class="article-expander__title">「アジャイルで組織を幸せにしよう」ウェビナー開催のご案内</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.ipa.go.jp/event/2023/agile20231207.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.ipa.go.jp/event/2023/doe3um00000034we-img/doe3um000000353c.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>情報処理推進機構（IPA）の「アジャイルで組織を幸せにしよう：５つの原則の活用」に関する情報です。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -3777,6 +4598,26 @@ CISA recommends organizations patch unmitigated appliances, hunt for any malicio
                             <span class="media-object__text">
                               <span>11月2日午前11時43分（現地時間、以下同）から4日午前4時25分ごろまでの約40時間にわたり、米Cloudflareのサービスで障害が発生。同社は障害の解決後、状況の詳細を4日中に公開した。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.itmedia.co.jp/news/articles/2311/06/news003.html"
+                        open
+                      >
+                        <summary class="article-expander__title">PR: 地図×人流×リサーチのビッグデータで「未来予測」　自動車、スマートシティ、マーケティング――3種のデータでビジネスはどう変わるのか？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.itmedia.co.jp/news/articles/2311/06/news003.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.itmedia.co.jp/news/articles/2311/06/l_kh_gt_02.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -9943,6 +10784,40 @@ As CISA’s newest shared services product offering, LME builds upon the success
                     class="source-heading__name"
                     data-action="toggle-accordions"
                     title="Click to toggle the source, Ctrl + click to toggle all."
+                  >特定非営利活動法人 日本ネットワークセキュリティ協会（JNSA）</button>
+                  <a class="source-heading__link" href="https://www.jnsa.org/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.jnsa.org/aboutus/ml.html"
+                        open
+                      >
+                        <summary class="article-expander__title">JNSAメールマガジン第274号「悪質な不正送金の実態」を公開しました。一般財団法人日本サイバー犯罪対策センター（ＪＣ３）研究員 佐々木雅敏氏にご寄稿いただきました。</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.jnsa.org/aboutus/ml.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.jnsa.org/images/obj/img_thumb_jnsaml.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>日本ネットワークセキュリティ協会が発信するメールマガジン「JNSAメルマガ」のご案内</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
                   >ブログ | WordPress.org 日本語</button>
                   <a class="source-heading__link" href="https://ja.wordpress.org">Open</a>
                 </h3>
@@ -13892,8 +14767,8 @@ The Cybersecurity and Infrastructure Security Agency (CISA), Federal Bureau of I
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/9-to/osmos_sec_feed/actions/runs/6839497219">
-        <time id="build-timestamp" datetime="2023-11-12T08:09:50.217Z">2023-11-12T08:09:50.217Z</time>
+      <a class="footer-link" href="https://github.com/9-to/osmos_sec_feed/actions/runs/6847256593">
+        <time id="build-timestamp" datetime="2023-11-13T08:12:06.224Z">2023-11-13T08:12:06.224Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>

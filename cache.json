@@ -269,6 +269,16 @@
       "siteUrl": "https://www.ipa.go.jp/about/index.html",
       "articles": [
         {
+          "id": "https://www.ipa.go.jp/event/2023/agile20231207.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「アジャイルで組織を幸せにしよう：５つの原則の活用」に関する情報です。",
+          "link": "https://www.ipa.go.jp/event/2023/agile20231207.html",
+          "publishedOn": "2023-11-12T15:00:00.000Z",
+          "wordCount": 279,
+          "title": "「アジャイルで組織を幸せにしよう」ウェビナー開催のご案内",
+          "imageUrl": "https://www.ipa.go.jp/event/2023/doe3um00000034we-img/doe3um000000353c.png"
+        },
+        {
           "id": "https://www.ipa.go.jp/news/2023/announce/ex20231110-2.html",
           "author": "情報処理推進機構（IPA）",
           "description": "情報処理推進機構（IPA）の「長崎県警等とサイバーセキュリティに関する相互協力協定を締結」に関する情報です。",
@@ -564,6 +574,16 @@
           "wordCount": null,
           "title": "日本トラストテクノロジー協議会（JT2A）による「リモート署名ガイドライン」修正版を公開しました。",
           "imageUrl": null
+        },
+        {
+          "id": "https://www.jnsa.org/aboutus/ml.html",
+          "author": null,
+          "description": "日本ネットワークセキュリティ協会が発信するメールマガジン「JNSAメルマガ」のご案内",
+          "link": "https://www.jnsa.org/aboutus/ml.html",
+          "publishedOn": "2023-10-27T06:00:00.000Z",
+          "wordCount": 269,
+          "title": "JNSAメールマガジン第274号「悪質な不正送金の実態」を公開しました。一般財団法人日本サイバー犯罪対策センター（ＪＣ３）研究員 佐々木雅敏氏にご寄稿いただきました。",
+          "imageUrl": "https://www.jnsa.org/images/obj/img_thumb_jnsaml.png"
         },
         {
           "id": "https://www.jnsa.org/result/incidentdamage/index.html",
@@ -1409,6 +1429,17 @@
       "siteUrl": "https://www.nic.ad.jp/",
       "articles": [
         {
+          "id": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol2035.html",
+          "author": null,
+          "description": "",
+          "link": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol2035.html",
+          "publishedOn": "2023-11-13T05:02:37.000Z",
+          "wordCount": null,
+          "title": "[メルマガ]vol.2035:【トピックス号】先週のトピックスとWeb更新情報",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nic.ad.jp/ja/topics/2023/20231110-01.html",
           "author": null,
           "description": "",
@@ -1680,6 +1711,16 @@
       "siteUrl": "https://jprs.jp/",
       "articles": [
         {
+          "id": "https://jprs.jp/whatsnew/notice/2023/231112.html",
+          "author": null,
+          "description": "",
+          "link": "https://jprs.jp/whatsnew/notice/2023/231112.html",
+          "publishedOn": "2023-11-13T00:00:00.000Z",
+          "wordCount": 477,
+          "title": "「公開・開示対象情報一覧」の改訂について（改訂主旨）（更新）",
+          "imageUrl": null
+        },
+        {
           "id": "https://jprs.jp/whatsnew/",
           "author": null,
           "description": "",
@@ -1906,6 +1947,26 @@
       "feedUrl": "https://jvn.jp/rss/jvn.rdf",
       "siteUrl": "https://jvn.jp/",
       "articles": [
+        {
+          "id": "https://jvn.jp/jp/JVN96209256/",
+          "author": "jvn@jvn.jp",
+          "description": "株式会社インプリムが提供するプリザンターには、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN96209256/",
+          "publishedOn": "2023-11-13T05:00:00.000Z",
+          "wordCount": 181,
+          "title": "プリザンターにおける複数の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/jp/JVN17806703/",
+          "author": "jvn@jvn.jp",
+          "description": "Cisco Systems が提供する Cisco Firepower Management Center Software には、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN17806703/",
+          "publishedOn": "2023-11-13T03:00:00.000Z",
+          "wordCount": 146,
+          "title": "Cisco Firepower Management Center Software における複数の脆弱性",
+          "imageUrl": null
+        },
         {
           "id": "https://jvn.jp/vu/JVNVU98040889/",
           "author": "jvn@jvn.jp",
@@ -2328,6 +2389,36 @@
       "siteUrl": "https://security.srad.jp/",
       "articles": [
         {
+          "id": "https://it.srad.jp/story/23/11/12/200233/",
+          "author": "nagazou",
+          "description": "headless 曰く、Google の検索広告を悪用し、トロイの木馬化した CPU-Z のインストーラーをダウンロードさせる不正広告攻撃キャンペーンが確認された\n(Malwarebytes のブログ記事、\nBleepingComputer の記事)。\n\n不正広告は CPU-Z の Google 検索結果に表示される。リンク先は普通のブログのように見えるが、リンクをクリックしたのが実際に CPU-Z をダウンロードしようとするユーザーだと判定すると偽の CPU-Z ダウンロードページにリダイレクトされる。偽ページは Windows Report の CPU-Z ダウンロードページをコピーしたものだ。\n\n今回の不正広告攻撃との関連は不明だが、コピー元となった Windows Report の正規のページは最近削除されたようだ。11 月 6 日に保存された Google キャッシュでみると、ダウンロードリンクは CPU-Z の公式サイトにリンクしているが、ダウンロードされるファイルは CPU-Z 1.91 で、2019 年にリリースされた古いものだ。\n\n一方、偽ページからダウンロードできるファイルはデジタル署名された MSIX インストーラーで、FakeBat として知られる悪意ある PowerShell スクリプトのローダーが含まれていたそうだ。スクリプトのペイロードは情報窃取型マルウェア Redline Stealer だという。\n\nGoogle は BleepingComputer に対し、マルウェアを含む広告を許容しないと述べ、問題の広告を削除して関連するアカウントに適切な対応を行ったなどと説明したとのことだ。\n すべて読む | ITセクション | Google | セキュリティ | 広告 |     \n  関連ストーリー： \nHuawei、Googleアプリをマルウェアと誤検知 2023年11月03日 \n中国製貨物クレーンは偵察用か。米当局が懸念 2023年03月08日 \nUAParser.jsにマルウェアが混入 2021年10月29日 \nApple、Unreal Engineの開発者アカウント停止を再主張。Epicが別の「トロイの木馬」を仕込む可能性があるとして 2020年09月23日",
+          "link": "https://it.srad.jp/story/23/11/12/200233/",
+          "publishedOn": "2023-11-13T08:08:00.000Z",
+          "wordCount": 2027,
+          "title": "Googleの検索広告を悪用してトロイの木馬化したCPU-Zをダウンロードさせる不正広告キャンペーン",
+          "imageUrl": "https://srad.jp/static/topics/google_64.png"
+        },
+        {
+          "id": "https://security.srad.jp/story/23/11/12/1341229/",
+          "author": "nagazou",
+          "description": "NTT西日本の子会社であるNTTマーケティングアクトProCXで発生した個人情報流出の問題に対応するため、NTTの島田明代表取締役社長は、7日のNTT決算会見でUSBメモリの業務使用を一切禁じる方針を発表した（ケータイ Watch）。 \n\n島田社長は会見で事件について謝罪。NTTグループ内では、記録媒体の持ち込み禁止や操作を検知するソフトウェアの導入などルール化はされていたと説明。実際にガバナンスがきちんと効いていなかったこととして、対策として、グループ全体でのルールの確認と見直しを行うことを明らかにした。 \n\nさらにUSBメモリーの業務使用に関しては、従来の「業務のなかで基本的には原則使わない」とする方針から、「原則」もなく一切使わないような形にすると説明した。例外的に使用する場合は許可制とする考えを示した。同時に、操作検知の仕組みの徹底と抜き打ち監査も検討していると述べている。\n すべて読む | セキュリティセクション | セキュリティ | NTT | 情報漏洩 |     \n  関連ストーリー： \nNTT西日本子会社から顧客情報900万件が流出 2023年10月18日 \nNICTの業務委託先がノートPCを紛失、実施されていた情報漏洩対策の詳細を公開 2023年09月26日 \n尼崎市の個人情報USBメモリ流出事件、紛失したのは再々委託先の社員だった 2022年06月28日 \nNTTドコモ、無断で遺跡に基地局を建設。孫請け業者が書類を偽造していた 2016年11月29日",
+          "link": "https://security.srad.jp/story/23/11/12/1341229/",
+          "publishedOn": "2023-11-13T06:11:00.000Z",
+          "wordCount": 2820,
+          "title": "NTT社長いわく「USBメモリーは使用禁止で許可制」",
+          "imageUrl": "https://srad.jp/static/topics/ntt_64.png"
+        },
+        {
+          "id": "https://security.srad.jp/story/23/11/12/1324259/",
+          "author": "nagazou",
+          "description": "農林水産省は、世界的な穀物不作や紛争による深刻な食料不足時に、国内の生産者に対し、高カロリー作物への転換を指示できる制度を検討する方針を決定した（NHK）。 \n\n食料安全保障の有識者会議で示された対応案によれば、極端な食料不足時には政府対策本部を設置し、さつまいもやコメといった高カロリー作物の生産者に対し増産を指示することが考えられている。同時に、野菜などほかの作物の生産者に対しても、高カロリー作物への転換を指示する可能性が検討されている。ただし、指示時には生産効率や栄養バランス、食生活への影響などを考慮する必要があるとしている。異論は出なかったとされ、今後は具体的な制度の検討が進められる予定としている。\n すべて読む | セキュリティセクション | 日本 | 地球 | セキュリティ | 政府 |     \n  関連ストーリー： \n中国で食糧危機に警戒。バイキング店では125グラム以上残すと罰金取られるように 2020年08月22日 \nシリコンバレーでは4人に1人が飢えに瀕している 2017年12月19日 \n南極・昭和基地への物資輸送、厳しい状況に 2012年11月14日 \n地球上の植物はもう増えない？ 2012年09月26日 \n食糧問題を解決する鍵は「昆虫」と「人工肉」 2012年08月08日",
+          "link": "https://security.srad.jp/story/23/11/12/1324259/",
+          "publishedOn": "2023-11-13T04:31:00.000Z",
+          "wordCount": 2946,
+          "title": "極めて深刻な食料不足に陥った場合、カロリーが高い作物への転換を指示できる制度を検討",
+          "imageUrl": "https://srad.jp/static/topics/earth_64.png"
+        },
+        {
           "id": "https://security.srad.jp/story/23/11/12/0217256/",
           "author": "headless",
           "description": "Microsoft は 9 日、Windows Server 2012/R2 ファミリーで拡張セキュリティ更新プログラム (ESU) が利用可能になったと改めて発表した\n(Windows IT Pro Blog の記事、\nBetaNews の記事、\nBleepingComputer の記事)。\n\nWindows Server 2012/R2 の延長サポートは 10 月 10 日に終了しているが、ESU の提供計画は以前から示されており、10 月 10 日から購入可能になっていた\n(Windows Server 2012 のライフサイクル)。ESU は 1 年単位で 3 年間提供され、1 年目からの連続購入が必要だ。これにより、最長で 2026 年 10 月 13 日まで重要なセキュリティ更新プログラムを受け取ることが可能となる。既に Windows Server 2012/R2 を Azure へ移行している場合、ESU は無料で自動的に適用される。なお、いずれの場合も 8 月 8 日以降のサービス スタック更新プログラムの適用が必要だ。スラドの皆さんの管理下に Windows Server 2012/R2 はどれぐらいあるだろうか。\n すべて読む | セキュリティセクション | アップグレード | セキュリティ | Windows | IT |     \n  関連ストーリー： \nWindows 8.1 サポート終了、Windows 7 ESU 終了 2023年01月12日 \nWindows Server 2012/2012 R2は10月で延長サポート終了 2023年01月10日 \nWindows 7 拡張セキュリティ更新プログラム、2年目が間もなく終了し、最終年の3年目へ 2021年11月16日 \nMicrosoft、Windows Server と SQL Server 2012/2012 R2 の拡張セキュリティ更新プログラム提供計画を発表 2021年07月19日 \nWindows 7 拡張セキュリティ更新プログラム1年目、間もなく終了 2020年11月14日 \n新Microsoft Edge、Windows 7のサポートは2021年7月15日まで 2020年04月14日 \nオーストラリア政府、Windows 7/Server 2008/2008 R2の有料セキュリティアップデートに870万豪ドル以上を支払う 2020年01月20日 \nMicrosoft、Windows 10 E5などの利用者にWindows 7サポート終了後のセキュリティ更新1年目を無料提供 2019年08月29日 \nWindows 7延長サポート終了後の有料セキュリティアップデートオプション、4月1日から販売開始 2019年03月09日",
@@ -2524,6 +2615,66 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/11/13/50226.html",
+          "author": null,
+          "description": "Googleは、2024年2月から、Gmailアカウントにメッセージを送信する際にメール認証が必要になると発表しました。Gmailアカウントに1日あたり5,000通以上のメールを送信する大量送信者は、さらに多くの要件を満たす必要があります。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/11/13/50226.html",
+          "publishedOn": "2023-11-12T23:15:02.000Z",
+          "wordCount": 1121,
+          "title": "Proofpoint Blog 31回「GoogleとYahooの新Eメール認証要件への短い対応タイムライン」",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/43188.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/11/13/50225.html",
+          "author": null,
+          "description": "株式会社エーアイセキュリティラボは11月、オンラインセミナー「生成AIを活用した機能をデモで一挙公開！ 知っておきたい脆弱性診断の最先端」を11月10日、11月17日に開催すると発表した。11月2日に配信したセミナーの再放送となる。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/11/13/50225.html",
+          "publishedOn": "2023-11-12T23:10:03.000Z",
+          "wordCount": 807,
+          "title": "生成 AI 活用「AeyeScan」最新機能をデモ公開、エーアイセキュリティラボ 執行役員 関根氏解説",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/43187.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/11/13/50224.html",
+          "author": null,
+          "description": "三重県は11月3日、三重県環境学習情報センターの指定管理者による講座受講者の個人メールアドレスの流出について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/11/13/50224.html",
+          "publishedOn": "2023-11-12T23:05:09.000Z",
+          "wordCount": 811,
+          "title": "再発防止策 注意書き掲示ほか ～ 三重県環境学習情報センターでオンライン講座受講者へのメール誤送信",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/43150.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/11/13/50223.html",
+          "author": null,
+          "description": "近鉄グループの株式会社近商ストアは11月2日、同社サーバへのランサムウェアによる不正アクセスについて発表した。文字の選択やコピーができないPDFファイルで公開している。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/11/13/50223.html",
+          "publishedOn": "2023-11-12T23:05:06.000Z",
+          "wordCount": 852,
+          "title": "近商ストアのサーバにランサムウェア攻撃、ネットスーパーの営業は当面見合わせ",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/43154.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/11/13/50222.html",
+          "author": null,
+          "description": "一般社団法人共同通信社は11月2日、不正アクセスによる職員等の個人情報の漏えいについて発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/11/13/50222.html",
+          "publishedOn": "2023-11-12T23:05:03.000Z",
+          "wordCount": 790,
+          "title": "共同通信に不正アクセス、職員の個人情報が外部流出した可能性を完全に否定することができず",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/43163.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/11/13/50221.html",
+          "author": null,
+          "description": "株式会社TwoFiveは11月6日、なりすましメール対策実態調査の最新結果を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/11/13/50221.html",
+          "publishedOn": "2023-11-12T23:00:03.000Z",
+          "wordCount": 881,
+          "title": "日経225企業の7割がDMARC導入、金融機関の増加顕著 ～ TwoFive調査",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/43180.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2023/11/10/50220.html",
           "author": null,
@@ -3372,6 +3523,16 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2311/13/news133.html",
+          "author": null,
+          "description": "個人情報の取り扱い体制について評価・認証する「プライバシーマーク制度」を運営する日本情報経済社会推進協会（JIPDEC）は、8月に発表したPマークの審査関連書類が漏えいした事案について、調査結果を発表した。",
+          "link": "https://www.itmedia.co.jp/news/articles/2311/13/news133.html",
+          "publishedOn": "2023-11-13T07:32:00.000Z",
+          "wordCount": 2712,
+          "title": "“プライバシーマーク認証団体”が情報漏えい　審査員が個人PCで書類保存、約3年間外部から丸見えに",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2311/13/cover_news133.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2311/10/news120.html",
           "author": null,
           "description": "いなげやネットスーパーの入会案内に記載したQRコードが、予定していない不正サイトにアクセスする事象が発生し、一部の顧客のクレジットカード情報が抜き取られる被害が発生した。",
@@ -3480,6 +3641,16 @@
           "wordCount": 2709,
           "title": "Cloudflareで起きた約40時間の障害、原因はデータセンター事業者の不手際？",
           "imageUrl": "https://image.itmedia.co.jp/news/articles/2311/07/cover_news106.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2311/06/news003.html",
+          "author": null,
+          "description": "",
+          "link": "https://www.itmedia.co.jp/news/articles/2311/06/news003.html",
+          "publishedOn": "2023-11-07T01:00:00.000Z",
+          "wordCount": 1498,
+          "title": "PR: 地図×人流×リサーチのビッグデータで「未来予測」　自動車、スマートシティ、マーケティング――3種のデータでビジネスはどう変わるのか？",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2311/06/l_kh_gt_02.png"
         },
         {
           "id": "https://www.itmedia.co.jp/news/articles/2311/06/news129.html",
@@ -3808,6 +3979,116 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/ranking/1546425.html",
+          "author": null,
+          "description": "前週に閲覧数の多かった記事を、カテゴリーごとに上位5位までレポートします。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/ranking/1546425.html",
+          "publishedOn": "2023-11-13T03:37:00.000Z",
+          "wordCount": 4616,
+          "title": "ETC 利用照会サービスをかたるフィッシング詐欺について報じた記事に注目集まる【アクセスランキング】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1546/425/01_o.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1546003.html",
+          "author": null,
+          "description": "サンワサプライ株式会社は、懐中電灯としても手持ちとしても使え、モバイルバッテリーにもなるLEDランタン「800-LED077」を発売した。ブラック、ホワイトの2色があり、直販サイト「サンワダイレクト」での販売価格は3980円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1546003.html",
+          "publishedOn": "2023-11-13T03:00:00.000Z",
+          "wordCount": 4584,
+          "title": "モバイルバッテリーにもなる小型LEDライト「800-LED077」、サンワサプライが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1546/003/main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1546353.html",
+          "author": null,
+          "description": "Googleストリートビューで任意のスポットを読み込ませると、AIを用いてそれらの風景をサイクリングがしたくなる街路に描き換えてくれるサイトが登場した。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1546353.html",
+          "publishedOn": "2023-11-13T02:05:00.000Z",
+          "wordCount": 4497,
+          "title": "AIを使ってストリートビューの街並みを“サイクリングがしたくなる街路”へと描き換えるサイト【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1546/353/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1546352.html",
+          "author": null,
+          "description": "ビットコインの生みの親である謎の人物「サトシ・ナカモト」に迫る番組が、今日11月13日の22時よりNHK総合で放送される。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1546352.html",
+          "publishedOn": "2023-11-13T02:00:00.000Z",
+          "wordCount": 4496,
+          "title": "ビットコインの生みの親「サトシ・ナカモト」に迫る番組、今夜22時からNHK総合で放送【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1546/352/yajiuma-watch_3.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1545937.html",
+          "author": null,
+          "description": "サンワサプライ株式会社は、キャスター付きCPUスタンド「CP-052」を発売した。市場想定価格は9350円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1545937.html",
+          "publishedOn": "2023-11-13T00:00:00.000Z",
+          "wordCount": 4580,
+          "title": "機器に合わせて幅を調整できるキャスター付きCPUスタンド「CP-052」、サンワサプライが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1545/937/sub7.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1546076.html",
+          "author": null,
+          "description": "日本電信電話株式会社（NTT）、東日本電信電話株式会社（NTT東日本）、日本電気株式会社（NEC）の3社は、光ファイバーを用いた振動センシング技術により、豪雪地帯で道路除雪判断を行う実証実験に世界で初めて成功したと発表した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1546076.html",
+          "publishedOn": "2023-11-12T23:00:00.000Z",
+          "wordCount": 4590,
+          "title": "地下の光ファイバーに伝わる振動から路面状態を推定し除雪の必要性を判断、NTT、NECらが世界初",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1546/076/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1546032.html",
+          "author": null,
+          "description": "テックウインド株式会社は、システム開発企業や飲食店、ホテル、教育、小売業など向けに、Androidタブレットの最新の活用方法や成功事例を紹介するウェビナー「Androidタブレット再評価の時！レノボ社員が語る最新技術とビジネス活用術～LenovoタブレットAPIサービスでビジネスの未来を切り拓く～」を、11月30日に実施する。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1546032.html",
+          "publishedOn": "2023-11-12T22:30:00.000Z",
+          "wordCount": 4592,
+          "title": "Lenovo社員が登壇、Androidタブレットの活用方法や事例が分かる無料ウェビナーをテックウインドが11月30日に実施",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1546/032/231110-1.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1546090.html",
+          "author": null,
+          "description": "株式会社インプレスは、ウェブ担当者やEC担当者、マーケター向けの無料セミナーイベント「Web担当者Forum ミーティング 2023 秋／ネットショップ担当者フォーラム 2023 秋」を11月21・22日に虎ノ門ヒルズフォーラム（東京都港区虎ノ門1-23-3）にて開催する。開催時間は10時30分～17時15分（受付開始は10時）。参加費は無料。事前登録制でウェブページから申し込める。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1546090.html",
+          "publishedOn": "2023-11-12T22:10:00.000Z",
+          "wordCount": 4605,
+          "title": "「Web担当者Forum ミーティング／ネットショップ担当者フォーラム 2023 秋」11月21・22日に虎ノ門ヒルズフォーラムにて開催　会場でテレワーク可能、カフェセッション・ランチセッションも実施",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1546/090/00.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/curation/1546008.html",
+          "author": null,
+          "description": "生成AIによる画像や動画の生成の技術進歩は目覚ましいものがある。一方で、それを悪用した事案が相次いでいる。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/curation/1546008.html",
+          "publishedOn": "2023-11-12T22:00:00.000Z",
+          "wordCount": 4644,
+          "title": "各国・各地域でAIに対するルール策定の議論が進む ほか【中島由弘の「いま知っておくべき5つのニュース」2023/10/26～11/8】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1546/008/shutterstock_1019006956_main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/teleworkstory/1545679.html",
+          "author": null,
+          "description": "最近ではリアルな会議が戻りつつある一方で、ビデオ会議も毎日のように行われている。そのため会議室が埋まりやすく、コンパクトなミーティングスペースなどで打ち合わせを行うことも増えたが、こういう場所にはモニターを置いていないことがある。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/teleworkstory/1545679.html",
+          "publishedOn": "2023-11-12T22:00:00.000Z",
+          "wordCount": 4615,
+          "title": "「会議用にプロジェクターをスクリーン（？）ごと持ち歩いてみた」――急遽テレワークを導入した中小企業の顛末記（164）【急遽テレワーク導入！の顛末記】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1545/679/01.JPG"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/topic/shimizu_sp/1538426.html",
+          "author": null,
+          "description": "アイ・オー・データ機器のネットワークカメラ「Qwatch」シリーズの自由度がすごい。",
+          "link": "https://internet.watch.impress.co.jp/docs/topic/shimizu_sp/1538426.html",
+          "publishedOn": "2023-11-12T21:00:00.000Z",
+          "wordCount": 4622,
+          "title": "「技術の無駄遣い」でネットワークカメラを使い倒す!! API制御で趣味にビジネス、果ては「動くパペット」まで……【イニシャルB【特別編】】[Sponsored]",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1538/426/001.JPG"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/special/1545958.html",
           "author": null,
@@ -4481,6 +4762,66 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231113-2817371/",
+          "author": null,
+          "description": "JPCERTコーディネーションセンター(JPCERT/CC)は11月10日、富士電機の複数の製品に複数の脆弱性が存在すると伝えた。これら脆弱性を悪用されると、細工されたファイルを開くことで情報漏洩や任意のコードが実行される可能性があるとされており注意が必要。",
+          "link": "https://news.mynavi.jp/techplus/article/20231113-2817371/",
+          "publishedOn": "2023-11-13T07:51:13.000Z",
+          "wordCount": 1709,
+          "title": "富士電機の遠隔監視ソフト「TELLUS」「V-Sever」に複数の脆弱性",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231113-2817371/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231113-2815557/",
+          "author": null,
+          "description": "Zscalerは11月9日(米国時間)、企業から見たAI、機械学習（ML: Machine learning）、生成AIの今後のトレンドに関する5つの予測を発表した。同社は。A|Iの拡大の方向性や、企業がAIを採用するにあたって注意が必要となっていく点、そしてセキュリティ対策としてのAIについて解説している。",
+          "link": "https://news.mynavi.jp/techplus/article/20231113-2815557/",
+          "publishedOn": "2023-11-13T03:25:54.000Z",
+          "wordCount": 1663,
+          "title": "企業が知っておきたい、AI・生成AI・機械学習に関する5つの予測",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231113-2815557/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231113-2816142/",
+          "author": null,
+          "description": "Malwarebytesは11月9日(米国時間)、ITサービス自動化ソフトウェアの「SysAid」にゼロデイの脆弱性が存在し、悪用されているとして、注意を呼び掛けた。脅威アクターはこの脆弱性を悪用して不正アクセスとシステムの制御を可能にし、マルウェアローダ「Gracewire」を展開、さらに侵入の形跡などの消去を試みたと見られる。",
+          "link": "https://news.mynavi.jp/techplus/article/20231113-2816142/",
+          "publishedOn": "2023-11-13T01:54:05.000Z",
+          "wordCount": 1685,
+          "title": "ITサービス自動化ソフトウェア「SysAid」にゼロデイの脆弱性、更新を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231113-2816142/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231113-2807748/",
+          "author": null,
+          "description": "Tripwireは2023年、セキュリティ侵害はサイバー攻撃に限らず従業員の些細なミスでも発生するとして警告した。Windowsグループポリシの設定において、わずかな変更によりセキュリティ対応能力が大幅に損なわれた事案を取り上げている。",
+          "link": "https://news.mynavi.jp/techplus/article/20231113-2807748/",
+          "publishedOn": "2023-11-13T00:56:44.000Z",
+          "wordCount": 1645,
+          "title": "Windowsのポリシー設定の小さな変更でセキュリティ機能が無効に、その顛末",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231113-2807748/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231113-2815559/",
+          "author": null,
+          "description": "Malwarebytesは11月8日(米国時間)、マルウェアを配布する新しいマルバタイジングキャンペーンを発見したと報じた。このキャンペーンでは、ハードウェア情報収集ツール「CPU-Z」を検索したユーザーに偽の広告を表示して、Windowsニュースポータル「WindowsReport.com」を複製した偽のWebサイトへ誘導する。",
+          "link": "https://news.mynavi.jp/techplus/article/20231113-2815559/",
+          "publishedOn": "2023-11-13T00:26:51.000Z",
+          "wordCount": 1681,
+          "title": "「CPU-Z」の偽インストーラ発見、新たなサイバー攻撃に注意",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231113-2815559/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231113-2813370/",
+          "author": null,
+          "description": "Google、Meta、Amazonなど米国のプラットフォーマーはGDPRに違反としたとして、多額の罰金を科せられている。グローバル化やDX推進を標榜する日本企業にとっても、プライバシー保護は重要な課題である。今、グローバルの情勢を見据え、適切なデータ保護が行える人材が日本企業に求められている。",
+          "link": "https://news.mynavi.jp/techplus/article/20231113-2813370/",
+          "publishedOn": "2023-11-13T00:00:08.000Z",
+          "wordCount": 1703,
+          "title": "今、日本企業に求められているプライバシー・データ保護人材「DPO」とは",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231113-2813370/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20231110-2815229/",
           "author": null,
