@@ -320,16 +320,6 @@
           "wordCount": 384,
           "title": "注意喚起: Citrix ADCおよびCitrix Gatewayの脆弱性（CVE-2023-4966）に関する注意喚起  (公開)",
           "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
-        },
-        {
-          "id": "https://www.jpcert.or.jp/at/2023/at230024.html",
-          "author": null,
-          "description": "",
-          "link": "https://www.jpcert.or.jp/at/2023/at230024.html",
-          "publishedOn": "2023-10-18T04:19:00.000Z",
-          "wordCount": 315,
-          "title": "注意喚起: 2023年10月Oracle製品のクリティカルパッチアップデートに関する注意喚起  (公開)",
-          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
         }
       ]
     },
@@ -527,16 +517,6 @@
           "wordCount": 508,
           "title": "「ニューヨークだより（2023年10月）米国における企業のデジタル活用事例調査」を公開しました",
           "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
-        },
-        {
-          "id": "https://www.ipa.go.jp/security/reports/vuln/software/2023q3.html",
-          "author": "情報処理推進機構（IPA）",
-          "description": "情報処理推進機構（IPA）の「ソフトウェア等の脆弱性関連情報に関する届出状況[2023年第3四半期（7月～9月）]」に関する情報です。",
-          "link": "https://www.ipa.go.jp/security/reports/vuln/software/2023q3.html",
-          "publishedOn": "2023-10-18T15:00:00.000Z",
-          "wordCount": 1327,
-          "title": "「ソフトウェア等の脆弱性関連情報に関する届出状況[2023年第3四半期（7月～9月）]」を公開しました",
-          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
         }
       ]
     },
@@ -698,6 +678,16 @@
       "feedUrl": "https://www.mcafee.com/blogs/feed/",
       "siteUrl": null,
       "articles": [
+        {
+          "id": "https://www.mcafee.com/blogs/?p=176338",
+          "author": "McAfee Labs",
+          "description": "Authored by Dexter Shin Most people have smartphones these days which can be used to easily search for various topics...\nThe post Fake Android and iOS apps steal SMS and contacts in South Korea appeared first on McAfee Blog.",
+          "link": "https://www.mcafee.com/blogs/other-blogs/mcafee-labs/fake-android-and-ios-apps-steal-sms-and-contacts-in-south-korea/",
+          "publishedOn": "2023-11-15T15:09:35.000Z",
+          "wordCount": 3685,
+          "title": "Fake Android and iOS apps steal SMS and contacts in South Korea",
+          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2023/11/300x200_Blog_Fake-Apps-Sout-Korea.png"
+        },
         {
           "id": "https://www.mcafee.com/blogs/?p=176225",
           "author": "Amy Bunn",
@@ -928,6 +918,16 @@
       "feedUrl": "https://gblogs.cisco.com/jp/feed/",
       "siteUrl": "https://gblogs.cisco.com/jp",
       "articles": [
+        {
+          "id": "https://gblogs.cisco.com/jp/?p=49517",
+          "author": "TALOS Japan",
+          "description": "更新 11 月 2 日：BadCandy インプラントの 第 3 のバージョンを特定。感染デバイスの確認に使用される HTTP リクエストの 1 つに対して、新バージョンのインプラントで予期されるレスポンスを追加。",
+          "link": "https://gblogs.cisco.com/jp/2023/11/talos-active-exploitation-of-cisco-ios-xe-software/",
+          "publishedOn": "2023-11-17T02:21:54.000Z",
+          "wordCount": 990,
+          "title": "Cisco IOS XE ソフトウェア、Web 管理 UI の脆弱性が悪用される",
+          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/17AS85612_eyecatch-460x230.jpg"
+        },
         {
           "id": "https://gblogs.cisco.com/jp/?p=49506",
           "author": "TALOS Japan",
@@ -1442,16 +1442,6 @@
           "wordCount": null,
           "title": "MITER ATT&amp;CK",
           "imageUrl": null
-        },
-        {
-          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/231019.html",
-          "author": null,
-          "description": "メールやカレンダー機能を備えたZimbra Collaborationのユーザーアカウントを狙う大規模なフィッシングキャンペーンについて、ESET社の研究者が解説します。\n\n\n本記事はESET Japanが提供する「ESETブログ」に掲載された「Zimbraユーザーを標的とする大規模フィッシングキャンペーンが展開」を再編集したものです。\n\n\n\n\n\n\nESET社の研究者は、Zimbraアカウントユーザーの認証情報を収集することを目的とした大規模なフィッシングキャンペーンが、少なくとも2023年4月から現在も継続していることを特定しました。Zimbra Collaborationは、オープンコアモデルで提供されているコラボレーションソフトウェアプラットフォームであり、情報共有機能を備えた高機能なエンタープライズ向けのメールソリューションとして広く利用されています。このキャンペーンは不特定多数のユーザーに対して大規模に実行されており、さまざまな中小企業や政府機関が攻撃対象になっています。\n\nESET社のテレメトリ（監視データ）によると、最も多くの攻撃を受けている国はポーランドであり、エクアドルとイタリアが続きます。標的となっている組織はさまざまであり、サイバー攻撃者は特定の業界に焦点を当てて攻撃しているわけではありません。被害者の唯一の共通点はZimbraを使用していることでした。現在までのところ、このキャンペーンを実行しているサイバー攻撃者は特定されていません。\n\n\n\n図1. このキャンペーンで被害を受けた国（ESET社のテレメトリより）\n\n\n最初に、HTMLファイルに添付されたフィッシングページを含むメールが標的ユーザーに送信されます。図2、図3、図4に示すように、メールはメールサーバーの更新、アカウントの無効化、または同様の問題があることを標的ユーザーに警告し、添付ファイルをクリックするように求めます。この攻撃者は、メールのFrom:（送信元）フィールドを偽装し、メールサーバーの管理者から送信されているように見せかけます。\n\n\n\n図2. 標的ユーザーのZimbraアカウントが無効になっているとポーランド語で警告してフィッシングを仕掛けるメール\n\n\n\n\n図3. フィッシングメールの内容の機械翻訳（原文はポーランド語）\n\n\n\n\n図4. イタリア語で記述されたフィッシングメール（内容は図3と同じ）\n\n\n添付ファイルを開くと、図5に示すように、標的の組織に合わせてカスタマイズされた偽のZimbraログインページが表示されます。標的ユーザーがHTMLファイルをブラウザーで開くと、URLはローカルにあるファイルのパスを示していますが、ユーザーは正規のログインページが表示されたと思い込む恐れがあります。ログインフォームのUsernameフィールドは、正規のページにより見せかけるために、あらかじめ入力されています。\n\n\n\n図5. 偽のZimbraログインページ\n\n\n図6に、正規のZimbra Webメールのログインページを比較用に示します。\n\n\n\n図6. 正規のZimbraログインページの例\n\n\nバックグラウンドでは、送信された認証情報がHTMLフォームから収集されており、HTTPS POSTリクエストによって攻撃者が管理するサーバーに送信されます（図7）。POSTリクエストの送信先のURLは、以下のパターンを使用しています。\nhttps://&lt;SERVER_ADDRESS&gt;/wp-admin/ZimbraNew.php\n\n\n\n図7. POSTリクエストにより標的ユーザーの認証情報を外部に送信するコードスニペット\n\n\ndonotreply[redacted]@[redacted].comのような、過去に標的となった正規の企業のZimbraアカウントからフィッシングメールが複数回送信されていることにも注意が必要です。攻撃者は、標的ユーザーの組織の管理者アカウントを侵害して、新しいメールアカウントを作成し、そのアカウントからフィッシングメールを送信している可能性があります。管理者はメールと管理の両方に同じ認証情報を使用していたために、フィッシング攻撃で窃取された管理者のパスワードが、メールシステムの管理にも利用された可能性があります。入手できたデータからは、この仮説を確認することはできていません。\n\nESET社が確認したキャンペーンは、ソーシャルエンジニアリングとユーザーによる操作が必要となっていますが、すべての攻撃がそうであるとは限らない可能性もあります。Proofpointが2023年3月に報告した過去のキャンペーンでは、APTグループ「Winter Vivern」（別名TA473）が、欧州各国の軍、政府、外交機関のWebメールのポータルを標的として、CVE-2022-27926の脆弱性を攻撃しています。Volexityが2022年2月に報告した別の例では、TEMP_Hereticという名前のグループが、Zimbra Collaborationのカレンダー機能に存在する別の脆弱性（CVE-2022-24682）を攻撃し、欧州の政府機関や報道機関のメールを取得しています。最近では、EclecticIQの研究者が、ESET社のブログで説明しているのと同じキャンペーンを分析しています。主な違いは、偽のZimbraログインページを表示するためのHTMLリンクがメール本文に直接記載されていることです。\n\n結論\n\nこのキャンペーンは、技術的にはそれほど高度ではないにもかかわらず、Zimbra Collaborationを使用している広範な組織に対して攻撃を成功させていることから、攻撃者にとってZimbra Collaborationは今後も魅力的な標的となるでしょう。攻撃者は、HTMLの添付ファイルには正規のコードが含まれているという思い込みを悪用しています。また、攻撃であることを示す唯一の証拠は、悪意のあるホストへのリンクになっています。この方法では、悪意のあるリンクをメール本文に直接記述するフィッシング手法に比べ、レピュテーションベースのスパム対策ポリシーを回避することがはるかに容易になります。IT予算が限られている組織ではZimbra Collaborationが広く利用されており、攻撃者から今後も狙われ続けられる恐れがあります。\n\nIOC（セキュリティ侵害の痕跡）\n\nESETの検出名\n\nHTML/Phishing.Gen\n\nファイル\n\n検体に機密情報が含まれているため、ファイルのIoCを共有することはできません。\n\nネットワーク\n\n大量に収集された認証情報を外部に送信するために使用されるホストは、共有サーバー上でホストされています。IPアドレスのみを利用した検出では、誤検知となる可能性があります。\n\n\n\t\n\t\t\n\t\t\tIP\n\t\t\tドメイン\n\t\t\tホスティングプロバイダー\n\t\t\t最初に確認された日付\n\t\t\t詳細\n\t\t\n\t\t\n\t\t\t145.14.144[.]174\n\t\t\tfmaildd.000webhostapp[.]com\n\t\t\tHostinger International Ltd, NL\n\t\t\t2019年12月31日\n\t\t\t大量に収集された認証情報を外部に送信するために使用された悪意のあるホスト\n\t\t\n\t\t\n\t\t\t145.14.145[.]248\n\t\t\tnmailddt.000webhostapp[.]com\n\t\t\tHostinger International Ltd, NL\n\t\t\t2019年12月31日\n\t\t\t大量に収集された認証情報を外部に送信するために使用された悪意のあるホスト\n\t\t\n\t\t\n\t\t\t145.14.145[.]122\n\t\t\ttmaxd.000webhostapp[.]com\n\t\t\tHostinger International Ltd, NL\n\t\t\t2019年12月31日\n\t\t\t大量に収集された認証情報を外部に送信するために使用された悪意のあるホスト\n\t\t\n\t\t\n\t\t\t145.14.144[.]58\n\t\t\tposderd.000webhostapp[.]com\n\t\t\tHostinger International Ltd, NL\n\t\t\t2019年12月31日\n\t\t\t大量に収集された認証情報を外部に送信するために使用された悪意のあるホスト\n\t\t\n\t\t\n\t\t\t145.14.145[.]94\n\t\t\tridddtd.000webhostapp[.]com\n\t\t\tHostinger International Ltd, NL\n\t\t\t2019年12月31日\n\t\t\t大量に収集された認証情報を外部に送信するために使用された悪意のあるホスト\n\t\t\n\t\t\n\t\t\t145.14.145[.]36\n\t\t\tmtatdd.000webhostapp[.]com\n\t\t\tHostinger International Ltd, NL\n\t\t\t2019年12月31日\n\t\t\t大量に収集された認証情報を外部に送信するために使用された悪意のあるホスト\n\t\t\n\t\t\n\t\t\t173.44.236[.]125\n\t\t\tzimbra.y2kportfolio[.]com\n\t\t\tEonix Corporation, US\n\t\t\t2022年5月27日\n\t\t\t大量に収集された認証情報を外部に送信するために使用された悪意のあるホスト\n\t\t\n\t\n\n\nURL\n\nfmaildd.000webhostapp[.]com/wp-admin/ZimbraNew.php\nmtatdd.000webhostapp[.]com/wp-admin/ZimbraNew.php\nnmailddt.000webhostapp[.]com/wp-admin/ZimbraNew.php\nposderd.000webhostapp[.]com/wp-admin/ZimbraNew.php\nridddtd.000webhostapp[.]com/wp-admin/ZimbraNew.php\ntmaxd.000webhostapp[.]com/wp-admin/ZimbraNew.php\nzimbra.y2kportfolio[.]com/wp/wp-admin/ZimbraNew.php\n\nMITRE ATT&amp;CKの技術\n\nこの表は、エンタープライズに対する攻撃手法をまとめたMITRE ATT&amp;CKフレームワークのバージョン13を使用して作成されています。\n\n\n\t\n\t\t\n\t\t\t手法\n\t\t\tID\n\t\t\t名前\n\t\t\t説明\n\t\t\n\t\t\n\t\t\tリソース開発\n\t\t\tT1586.002\n\t\t\tアカウントの乗っ取り:メールアカウント\n\t\t\t攻撃者は、キャンペーンを拡散するために、過去に侵害したメールアカウントを使用しています\n\t\t\n\t\t\n\t\t\tT1585.002\n\t\t\tアカウントの確立:メールアカウント\n\t\t\t攻撃者はキャンペーンを展開するために新しいメールアカウントを作成しています。\n\t\t\n\t\t\n\t\t\t初期アクセス\n\t\t\tT1566.001\n\t\t\tフィッシング:スピアフィッシングの添付ファイル\n\t\t\tこのキャンペーンは、メールに添付された悪意のあるHTMLファイルによって拡散されています\n\t\t\n\t\t\n\t\t\t実行\n\t\t\tT1204.002\n\t\t\tユーザーによる実行:悪意のあるファイル\n\t\t\t攻撃が成功するかどうかは、標的のユーザーが添付ファイルの悪意のあるファイルをクリックするかどうかに依存します\n\t\t\n\t\t\n\t\t\t常駐化\n\t\t\tT1136\n\t\t\tアカウントの作成\n\t\t\t攻撃者は、侵害したZimbraインスタンスで新しいメールアカウントを作成し、フィッシングキャンペーンをさらに拡散させています\n\t\t\n\t\t\n\t\t\t収集\n\t\t\tT1056.003\n\t\t\t入力情報の取得:Web ポータルキャプチャ\n\t\t\t攻撃者は、偽のログインページに挿入された認証情報を取得しています\n\t\t\n\t\t\n\t\t\t情報の外部への送信\n\t\t\tT1048.002\n\t\t\t代替プロトコルを使用したデータの外部への送信:既存のC2プロトコルではなく、非対称暗号化されたネットワークトラフィックを介したデータの外部への送信\n\t\t\t攻撃者は、HTTPSプロトコルで送信されたPOSTリクエストによってパスワードを外部に送信しています",
-          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/231019.html",
-          "publishedOn": "2023-10-18T15:00:00.000Z",
-          "wordCount": null,
-          "title": "Zimbraメールサーバーを狙う広範囲のフィッシングキャンペーンを確認",
-          "imageUrl": null
         }
       ]
     },
@@ -1483,6 +1473,28 @@
       "feedUrl": "https://www.nic.ad.jp/ja/index.xml",
       "siteUrl": "https://www.nic.ad.jp/",
       "articles": [
+        {
+          "id": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol2037.html",
+          "author": null,
+          "description": "",
+          "link": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol2037.html",
+          "publishedOn": "2023-11-16T09:29:04.000Z",
+          "wordCount": null,
+          "title": "[メルマガ]vol.2037:【臨時号】IGF 2023(第18回インターネットガバナンスフォーラム)報告 [後編]",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.nic.ad.jp/2023/9381/",
+          "author": null,
+          "description": "Internet Week 2023が開幕しました！11月15日～17日までの3日間はオンラインWeek、来週20日～22日までの3日間はカンファレンスWeekで、東京大学・伊藤謝恩ホールでの開催となります。会期中も参加登録可能です。皆さまのご参加をお待ちしております！！",
+          "link": "https://blog.nic.ad.jp/2023/9381/",
+          "publishedOn": "2023-11-16T09:00:02.000Z",
+          "wordCount": null,
+          "title": "[Blog記事]Internet Week 2023が開幕しました！",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol2036.html",
           "author": null,
@@ -1799,6 +1811,16 @@
       "siteUrl": "https://jprs.jp/",
       "articles": [
         {
+          "id": "https://jprs.jp/whatsnew/notice/2023/231117.html",
+          "author": null,
+          "description": "",
+          "link": "https://jprs.jp/whatsnew/notice/2023/231117.html",
+          "publishedOn": "2023-11-17T00:00:00.000Z",
+          "wordCount": 470,
+          "title": "都道府県型JPドメイン名における予約ドメイン名リスト（市区町村名）の改訂について（改訂主旨）",
+          "imageUrl": null
+        },
+        {
           "id": "https://jprs.jp/whatsnew/notice/2023/231112.html",
           "author": null,
           "description": "",
@@ -1826,6 +1848,16 @@
       "siteUrl": "https://www.cisa.gov/",
       "articles": [
         {
+          "id": "/node/20328",
+          "author": "CISA",
+          "description": "SUMMARY\nThe Federal Bureau of Investigation (FBI) and Cybersecurity and Infrastructure Security Agency (CISA) are releasing this joint Cybersecurity Advisory (CSA) in response to recent activity by Scattered Spider threat actors against the commercial facilities sectors and subsectors. This advisory provides tactics, techniques, and procedures (TTPs) obtained through FBI investigations as recently as November 2023.\nScattered Spider is a cybercriminal group that targets large companies and their contracted information technology (IT) help desks. Scattered Spider threat actors, per trusted third parties, have typically engaged in data theft for extortion and have also been known to utilize BlackCat/ALPHV ransomware alongside their usual TTPs.\nThe FBI and CISA encourage critical infrastructur…",
+          "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-320a",
+          "publishedOn": "2023-11-15T14:55:52.000Z",
+          "wordCount": 4277,
+          "title": "Scattered Spider",
+          "imageUrl": null
+        },
+        {
           "id": "/node/19275",
           "author": "CISA",
           "description": "SUMMARY\nNote: This joint Cybersecurity Advisory (CSA) is part of an ongoing #StopRansomware effort to publish advisories for network defenders detailing various ransomware variants and ransomware threat actors. These #StopRansomware advisories include recently and historically observed tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) to help organizations protect against ransomware. Visit stopransomware.gov to see all #StopRansomware advisories and to learn more about other ransomware threats and no-cost resources.\nThe Federal Bureau of Investigation (FBI), Cybersecurity and Infrastructure Security Agency (CISA), and the Multi-State Information Sharing and Analysis Center (MS-ISAC) are releasing this joint CSA to disseminate known Rhysida ransomware IOCs and T…",
@@ -1842,6 +1874,56 @@
       "feedUrl": "https://www.cisa.gov/uscert/ncas/current-activity.xml",
       "siteUrl": "https://www.cisa.gov/",
       "articles": [
+        {
+          "id": "/node/20335",
+          "author": "CISA",
+          "description": "Today, the Federal Bureau of Investigation (FBI) and the Cybersecurity and Infrastructure Security Agency (CISA) released a joint Cybersecurity Advisory (CSA) on Scattered Spider—a cybercriminal group targeting commercial facilities sectors and subsectors. The advisory provides tactics, techniques, and procedures (TTPs) obtained through FBI investigations as recently as November 2023.\nScattered Spider threat actors typically engage in data theft for extortion using multiple social engineering techniques and have recently leveraged BlackCat/ALPHV ransomware alongside their usual TTPs.\nFBI and CISA encourage network defenders and critical infrastructure organizations to review the joint CSA for recommended mitigations to reduce the likelihood and impact of a cyberattack by Scattered Spider actors. For more information, visit StopRansomware and see the updated #StopRansomware Guide.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/11/16/fbi-and-cisa-release-advisory-scattered-spider-group",
+          "publishedOn": "2023-11-16T12:00:00.000Z",
+          "wordCount": 616,
+          "title": "FBI and CISA Release Advisory on Scattered Spider Group",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/20357",
+          "author": "CISA",
+          "description": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.\nCVE-2023-36584 Microsoft Windows Mark of the Web (MOTW) Security Feature Bypass Vulnerability\nCVE-2023-1671 Sophos Web Appliance Command Injection Vulnerability\nCVE-2023-2551 Oracle Fusion Middleware Unspecified Vulnerability\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise. Note: To view other newly added vulnerabilities in the catalog, click on the arrow in the \"Date Added to Catalog\" column—which will sort by descending dates.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.\nAlthough BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/11/16/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+          "publishedOn": "2023-11-16T12:00:00.000Z",
+          "wordCount": 705,
+          "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/20351",
+          "author": "CISA",
+          "description": "CISA released fourteen Industrial Control Systems (ICS) advisories on November 16, 2023. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.\nICSA-23-320-01 Red Lion Sixnet RTUs\nICSA-23-320-02 Hitachi Energy MACH System Software\nICSA-23-320-03 Siemens Desigo CC product family\nICSA-23-320-04 Siemens Mendix Runtime\nICSA-23-320-05 Siemens SCALANCE W700\nICSA-23-320-06 Siemens SIMATIC PCS neo\nICSA-23-320-07 Siemens OPC UA Modeling Editor (SiOME)\nICSA-23-320-08 Siemens SCALANCE Family Products\nICSA-23-320-09 Siemens COMOS\nICSA-23-320-10 Siemens SIPROTEC 4 7SJ66\nICSA-23-320-11 Siemens Mendix Studio Pro\nICSA-23-320-12 Siemens PNI\nICSA-23-320-13 Siemens SIMATIC MV500\nICSA-23-320-14 Siemens RUGGEDCOM APE1808 Devices\nCISA encourages users and administrators to review the newly released ICS advisories for technical details and mitigations.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/11/16/cisa-releases-fourteen-industrial-control-systems-advisories",
+          "publishedOn": "2023-11-16T12:00:00.000Z",
+          "wordCount": 607,
+          "title": "CISA Releases Fourteen Industrial Control Systems Advisories",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/20334",
+          "author": "CISA",
+          "description": "CISA has opened a 30-day Federal Register notice to receive public comment on the draft Secure Software Development Attestation Form. CISA developed this form in coordination with the Office of Management and Budget.\nWith the Secure Software Development Attestation Form, federal departments and agencies will be able to obtain attestation of product security from a software producer before using the software on government systems. This form will establish a standardized process for the federal government and software producers that will create transparency on the security of software development efforts.\nAll interested parties are encouraged to review the form and submit input through the Federal Register. Comments will be received through Dec. 18, 2023.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/11/16/cisa-requests-comment-draft-secure-software-development-attestation-form",
+          "publishedOn": "2023-11-16T12:00:00.000Z",
+          "wordCount": 613,
+          "title": "CISA Requests Comment on Draft Secure Software Development Attestation Form",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/20353",
+          "author": "CISA",
+          "description": "Citrix has released security updates addressing vulnerabilities in Citrix Hypervisor 8.2 CU1 LTSR. A cyber threat actor could exploit these vulnerabilities to take control of an affected system.\nCISA encourages users and administrators to review Citrix Hypervisor Security Bulletin for CVE-2023-23583 and CVE-2023-46835 and apply the necessary updates.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/11/16/citrix-releases-security-updates-citrix-hypervisor-0",
+          "publishedOn": "2023-11-16T12:00:00.000Z",
+          "wordCount": 545,
+          "title": "Citrix Releases Security Updates for Citrix Hypervisor",
+          "imageUrl": null
+        },
         {
           "id": "/node/19288",
           "author": "CISA",
@@ -2165,6 +2247,56 @@
       "feedUrl": "https://jvn.jp/rss/jvn.rdf",
       "siteUrl": "https://jvn.jp/",
       "articles": [
+        {
+          "id": "https://jvn.jp/vu/JVNVU93704294/",
+          "author": "jvn@jvn.jp",
+          "description": "Red Lionが提供するSixTRAKおよびVersaTRAKシリーズのRTUには、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU93704294/",
+          "publishedOn": "2023-11-17T05:30:00.000Z",
+          "wordCount": 116,
+          "title": "Red Lion製SixTRAKおよびVersaTRAKシリーズのRTUにおける複数の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU98954968/",
+          "author": "jvn@jvn.jp",
+          "description": "日本電気株式会社が提供するCLUSTERPRO XのWebManager/Cluster WebUIには、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU98954968/",
+          "publishedOn": "2023-11-17T05:00:00.000Z",
+          "wordCount": 245,
+          "title": "CLUSTERPRO Xにおける複数の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU94195279/",
+          "author": "jvn@jvn.jp",
+          "description": "Hitachi Energyが提供するMACH System Software（SSW）には、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU94195279/",
+          "publishedOn": "2023-11-17T04:00:00.000Z",
+          "wordCount": 103,
+          "title": "Hitachi Energy製MACH System Softwareにおける複数の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/jp/JVN22220399/",
+          "author": "jvn@jvn.jp",
+          "description": "CubeCart Limited が提供する CubeCart には、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN22220399/",
+          "publishedOn": "2023-11-17T03:00:15.000Z",
+          "wordCount": 169,
+          "title": "CubeCart における複数の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/jp/JVN13618065/",
+          "author": "jvn@jvn.jp",
+          "description": "Redmine には、クロスサイトスクリプティングの脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN13618065/",
+          "publishedOn": "2023-11-17T03:00:00.000Z",
+          "wordCount": 188,
+          "title": "Redmine におけるクロスサイトスクリプティングの脆弱性",
+          "imageUrl": null
+        },
         {
           "id": "https://jvn.jp/vu/JVNVU98585341/",
           "author": "jvn@jvn.jp",
@@ -2963,6 +3095,86 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/11/17/50254.html",
+          "author": null,
+          "description": "株式会社いなげやは11月9日、ネットスーパーの入会案内に記載したQRコードにおける予期せぬ不正サイトへの誘導について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/11/17/50254.html",
+          "publishedOn": "2023-11-16T23:05:03.000Z",
+          "wordCount": 795,
+          "title": "いなげやのネットスーパー入会案内記載 QRコード、不正サイト誘導広告が表示されカード情報が抜き取り被害",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/43200.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/11/17/50253.html",
+          "author": null,
+          "description": "日本銀行は11月8日、日本銀行を装う偽サイトへの注意喚起を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/11/17/50253.html",
+          "publishedOn": "2023-11-16T23:00:24.000Z",
+          "wordCount": 847,
+          "title": "日本銀行を装う偽サイトに注意を呼びかけ",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/11/17/50252.html",
+          "author": null,
+          "description": "奈良県警察は9月26日、サイバー犯罪対策課をかたった X（旧Twitter）の偽アカウントへの注意喚起を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/11/17/50252.html",
+          "publishedOn": "2023-11-16T23:00:20.000Z",
+          "wordCount": 864,
+          "title": "奈良県警察 サイバー犯罪対策課をかたった X（旧Twitter）の偽アカウントに注意を呼びかけ",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/11/17/50251.html",
+          "author": null,
+          "description": "独立行政法人 情報処理推進機構（IPA）は11月15日、「Microsoft 製品の脆弱性対策について(2023年11月)」を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/11/17/50251.html",
+          "publishedOn": "2023-11-16T23:00:17.000Z",
+          "wordCount": 899,
+          "title": "マイクロソフトが11月のセキュリティ情報公開、悪用の事実を確認済みの脆弱性が3件",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/11/17/50250.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は11月15日、Adobe Acrobat および Reader の脆弱性対策について発表した。影響を受けるシステムは以下の通り。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/11/17/50250.html",
+          "publishedOn": "2023-11-16T23:00:15.000Z",
+          "wordCount": 942,
+          "title": "Adobe Acrobat および Reader に緊急度がクリティカルも含む脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/11/17/50249.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は11月15日、ASUSTeK COMPUTER製RT-AC87Uにおける不適切なアクセス制御の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/11/17/50249.html",
+          "publishedOn": "2023-11-16T23:00:12.000Z",
+          "wordCount": 871,
+          "title": "ASUSTeK COMPUTER製RT-AC87Uに不適切なアクセス制御の脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/11/17/50248.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は11月14日、エレコム製およびロジテック製ルータにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/11/17/50248.html",
+          "publishedOn": "2023-11-16T23:00:08.000Z",
+          "wordCount": 889,
+          "title": "エレコム製およびロジテック製ルータに複数の脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/11/17/50247.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は11月14日、エレコム製およびロジテック製ネットワーク機器における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/11/17/50247.html",
+          "publishedOn": "2023-11-16T23:00:03.000Z",
+          "wordCount": 896,
+          "title": "エレコム製およびロジテック製ネットワーク機器に複数の脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2023/11/16/50246.html",
           "author": null,
@@ -4559,16 +4771,6 @@
           "wordCount": null,
           "title": "「ガンダムメタバース」でガンプラのCADデータ漏えいか　バンダイ「事実確認中」",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2310/18/news179.html",
-          "author": null,
-          "description": "全国銀行協会は18日、銀行間の送金を行う「全国銀行データ通信システム」で10日から11日にかけて発生した障害について会見を行い、現状を説明した。",
-          "link": "https://www.itmedia.co.jp/news/articles/2310/18/news179.html",
-          "publishedOn": "2023-10-18T12:34:00.000Z",
-          "wordCount": null,
-          "title": "全銀ネット障害、いまだ根本原因特定できず　メモリ不足の指摘には「分からない」",
-          "imageUrl": null
         }
       ]
     },
@@ -4577,6 +4779,96 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1547815.html",
+          "author": null,
+          "description": "株式会社日本HPは11月16日、ハイブリッドワークに最適化した法人向けPCソリューションを発表した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1547815.html",
+          "publishedOn": "2023-11-17T06:10:00.000Z",
+          "wordCount": 4712,
+          "title": "日本HP、auと実現した5年間通信し放題の「HP eSIM Connect」など、ハイブリッドワークに最適化した法人向けPCソリューションを発表",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1547/815/P2460571.JPG"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1547814.html",
+          "author": null,
+          "description": "Amazon.co.jpのバッファローストアページでは現在、同社製HDDレコーダー「nasne」やWi-Fi 6E/6対応ルーターのお得なセールが行われている。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1547814.html",
+          "publishedOn": "2023-11-17T05:50:00.000Z",
+          "wordCount": 4628,
+          "title": "バッファローの「nasne」やWi-Fi 6E/6対応ルーターがお買い得　Amazonセール情報　nasne NS-N100が2万8300円など",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1547/814/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1547824.html",
+          "author": null,
+          "description": "ワークアット株式会社と、OSS-Vision株式会社は、ワーケーションプログラム「Ruby開発者まつもとゆきひろ氏と過ごす3泊4日ワーケーション @Rubyの街島根県松江市 ～Matzが考えるプロダクトマネジメントとは～」を実施する。日程は2024年1月24日～27日の3泊4日で、料金は12万円（現地までの交通費別）。定員10人の先着順で、ワークアットのウェブサイトから申し込み可能。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1547824.html",
+          "publishedOn": "2023-11-17T03:55:00.000Z",
+          "wordCount": 4590,
+          "title": "Rubyの聖地・島根県松江市で、まつもとゆきひろ氏と過ごす3泊4日ワーケーション、2024年1月に実施",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1547/824/00.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/teleworkgoods/1547708.html",
+          "author": null,
+          "description": "すっかり間が空いてしまったが、以前お伝えした電源タップリフレッシュ計画の続きをお伝えしたい。テレワークでは欠かせない電源タップだが、実はその寿命は3～5年とのことで、いつ買ったのか記憶がないけど5年以上は経過しているであろう電源タップを買い換えることにした話の続きだ。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/teleworkgoods/1547708.html",
+          "publishedOn": "2023-11-17T03:15:00.000Z",
+          "wordCount": 4653,
+          "title": "4口＋USB電源タップをアレクサでスマートにコントロール！ さらに6万ボルトの雷サージで落雷対策もバッチリ!! 【テレワークグッズ・ミニレビュー 第87回】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1547/708/001.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1547739.html",
+          "author": null,
+          "description": "株式会社Francfranc（フランフラン）は、パネルヒーター、ヒーター付きハンドウォーマーなど「インテリアに馴染む」デザインの冬の新作家電を、全国のFrancfranc店舗およびFrancfrancオンラインショップで販売中だ。価格はパネルヒーターが8900円、ヒーター付きハンドウォーマーが3300円など。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1547739.html",
+          "publishedOn": "2023-11-17T02:40:00.000Z",
+          "wordCount": 4605,
+          "title": "Francfranc、冬の新作家電。パネルヒーター、ヒーター付きハンドウォーマーなど「インテリアに馴染む」デザイン",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1547/739/00.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1547744.html",
+          "author": null,
+          "description": "Amazonのスマートディスプレイ「Echo Show」シリーズで、時計の表示が1時間ずれる不具合が発生しているようだ。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1547744.html",
+          "publishedOn": "2023-11-17T02:25:00.000Z",
+          "wordCount": 4503,
+          "title": "Amazon「Echo Show」、時計の表示が1時間ずれる不具合。今なお解消せず？【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1547/744/yajiuma-watch_4.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1547743.html",
+          "author": null,
+          "description": "安室奈美恵さんの楽曲配信が突如停止となり、ファンの間で悲鳴が上がっている。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1547743.html",
+          "publishedOn": "2023-11-17T02:25:00.000Z",
+          "wordCount": 4501,
+          "title": "「これだからサブスクは」安室奈美恵さんの楽曲配信、予告なく一斉停止でファンから悲鳴【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1547/743/yajiuma-watch_3.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1547207.html",
+          "author": null,
+          "description": "サンワサプライ株式会社は、天然木を使用したコンパクトなキャスター付きデスク「100-DESKH078」を発売した。直販サイト「サンワダイレクト」での価格は1万9800円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1547207.html",
+          "publishedOn": "2023-11-16T21:30:00.000Z",
+          "wordCount": 4580,
+          "title": "天然木を使用したスリムなキャスター付きデスク「100-DESKH078」、サンワサプライが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1547/207/231115-01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1547631.html",
+          "author": null,
+          "description": "11月15日、一般社団法人集合住宅デジタル高度化協議会（Consortium of Digital Enhancement for Condominium:：CDEfC――シーデック）が設立された。集合住宅のインターネットを中心としたデジタル高度化を推進することを目的としている。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1547631.html",
+          "publishedOn": "2023-11-16T21:00:00.000Z",
+          "wordCount": 4591,
+          "title": "「一般社団法人集合住宅デジタル高度化協議会」設立、マンション・アパートのネット環境を改善",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1547/631/01.png"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/1547563.html",
           "author": null,
@@ -5670,6 +5962,66 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231117-2820785/",
+          "author": null,
+          "description": "Bleeping Computerは11月16日(米国時間)、トヨタファイナンシャルサービスがランサムウェア「Medusa」の攻撃を受け、ヨーロッパとアフリカの一部システムに不正アクセスが検出されたと報じた。これまでのところ、トヨタファイナンシャルサービスはデータ漏洩を確認していないが、Medusaは800万ドルの身代金を要求したとされる。",
+          "link": "https://news.mynavi.jp/techplus/article/20231117-2820785/",
+          "publishedOn": "2023-11-17T04:57:16.000Z",
+          "wordCount": 1725,
+          "title": "トヨタファイナンシャルサービスにランサムウェア被害、身代金要求",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231117-2820785/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231117-2820241/",
+          "author": null,
+          "description": "Microsoftは11月15日(米国時間)、セキュリティ情報およびイベント管理(SIEM)、拡張検出と応答(XDR)、生成AIの主要ソリューションを統合した初の「統合セキュリティ運用プラットフォーム(Unified Security Operations Platfom)」を発表した。同プラットフォームにより、セキュリティオペレーションセンター(SOC)の保護と効率化が可能になるとしている。",
+          "link": "https://news.mynavi.jp/techplus/article/20231117-2820241/",
+          "publishedOn": "2023-11-17T01:33:48.000Z",
+          "wordCount": 1781,
+          "title": "Microsoft、生成AI統合したセキュリティ運用プラットフォーム発表",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231117-2820241/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231117-2775329/",
+          "author": null,
+          "description": "「TECH+ EXPO for セキュリティ 2023」から、日本ハッカー協会 代表理事の杉浦隆幸氏による特別講演の内容をお届けする。",
+          "link": "https://news.mynavi.jp/techplus/article/20231117-2775329/",
+          "publishedOn": "2023-11-17T00:00:00.000Z",
+          "wordCount": 1764,
+          "title": "ハッカー協会 代表理事が徹底解説 - ランサムウエアに備えて攻撃者の視点から学ぶ",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231117-2775329/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231117-2820238/",
+          "author": null,
+          "description": "Intelは11月14日(米国時間)、一部のIntelプロセッサに潜在的な脆弱性が存在すると発表した。この脆弱性が悪用されると、攻撃者によりローカルアクセスを介して権限の昇格や情報開示、サービス拒否が行われる可能性があるとしており注意が必要。",
+          "link": "https://news.mynavi.jp/techplus/article/20231117-2820238/",
+          "publishedOn": "2023-11-16T23:17:51.000Z",
+          "wordCount": 3176,
+          "title": "Intelプロセッサに権限昇格の脆弱性、更新を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231117-2820238/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231116-2819193/",
+          "author": null,
+          "description": "VMwareは11月14日(米国時間)、VMware Cloud Director Applianceに重大な認証バイパスの脆弱性(CVE-2023-34060)が存在するとして、注意を呼び掛けた。この脆弱性は古いバージョンからアップグレードした10.5バージョン(Photon OS版)に限定されており、CVSS v3で9.8という高い深刻度で評価されている。",
+          "link": "https://news.mynavi.jp/techplus/article/20231116-2819193/",
+          "publishedOn": "2023-11-16T09:41:12.000Z",
+          "wordCount": 1740,
+          "title": "VMware VCDにログイン制限回避の緊急脆弱性、CVSSで9.8評価",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231116-2819193/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231116-2820057/",
+          "author": null,
+          "description": "データ管理ソリューションを手掛ける米Cohesity(コヒシティ)の日本法人であるコヒシティ ジャパンは16日、AIでデータから洞察を引き出すためのソリューション「Cohesity Turing 」が、AWSが提供する生成AIサービス「Amazon Bedrock」と統合すると発表した。またマイクロソフトとの協業を拡大し、「Microsoft 365」のデータセキュリティとバックアップ保護機能を強化することも発表した。",
+          "link": "https://news.mynavi.jp/techplus/article/20231116-2820057/",
+          "publishedOn": "2023-11-16T08:21:34.000Z",
+          "wordCount": 1956,
+          "title": "米コヒシティ、AWSやMicrosoft 365との連携を加速‐生成AIを活用",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231116-2820057/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20231116-2819873/",
           "author": null,
