@@ -310,16 +310,6 @@
           "wordCount": 403,
           "title": "注意喚起: Cisco IOS XEのWeb UIの脆弱性(CVE-2023-20198)に関する注意喚起  (更新)",
           "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
-        },
-        {
-          "id": "https://www.jpcert.or.jp/at/2023/at230026.html",
-          "author": null,
-          "description": "",
-          "link": "https://www.jpcert.or.jp/at/2023/at230026.html",
-          "publishedOn": "2023-10-20T04:07:00.000Z",
-          "wordCount": 384,
-          "title": "注意喚起: Citrix ADCおよびCitrix Gatewayの脆弱性（CVE-2023-4966）に関する注意喚起  (公開)",
-          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
         }
       ]
     },
@@ -634,26 +624,6 @@
           "wordCount": 168,
           "title": "JNSA西日本支部主催セミナー「NSF 2023 in Kansai｜品質＆生産性向上活動を意識される中小製造業 生産現場の皆さまへ」参加受付を開始しました。",
           "imageUrl": "https://www.jnsa.org/images/obj/img_thumb_seminar-event.png"
-        },
-        {
-          "id": "https://www.jnsa.org/",
-          "author": null,
-          "description": "日本ネットワークセキュリティ協会は、情報セキュリティに係わる企業が結集し、情報セキュリティの諸問題を解決することを目的として活動している非営利活動法人です。",
-          "link": "https://www.jnsa.org/",
-          "publishedOn": "2023-10-20T10:00:00.000Z",
-          "wordCount": 303,
-          "title": "「JNSA セキュリティ カフェ「セキュリティなんもわからん！だけど勉強してみたい学生あつまれ」」参加受付を開始しました。",
-          "imageUrl": "https://www.jnsa.org/images/obj/img_thumb_general.png"
-        },
-        {
-          "id": "https://twitter.com/jnsa",
-          "author": null,
-          "description": "",
-          "link": "https://twitter.com/jnsa",
-          "publishedOn": "2023-10-20T10:00:00.000Z",
-          "wordCount": 511,
-          "title": "「みんなの「サイバーセキュリティコミック」ファイナルシーズン」第4話公開。「グローバルな視点でのサイバーセキュリティ」が公開されました。",
-          "imageUrl": null
         }
       ]
     },
@@ -1464,6 +1434,17 @@
       "siteUrl": "https://www.nic.ad.jp/",
       "articles": [
         {
+          "id": "https://www.nic.ad.jp/ja/stat/dom/gtld.html",
+          "author": null,
+          "description": "",
+          "link": "https://www.nic.ad.jp/ja/stat/dom/gtld.html",
+          "publishedOn": "2023-11-17T03:35:47.000Z",
+          "wordCount": null,
+          "title": "[Web更新]gTLDの登録数を更新　2023年7月分を追加",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2023/vol2037.html",
           "author": null,
           "description": "",
@@ -1746,28 +1727,6 @@
           "publishedOn": "2023-10-24T03:01:56.000Z",
           "wordCount": null,
           "title": "[トピックス]Internet Week 2023 BoFプログラム決定のお知らせ",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nic.ad.jp/ja/stat/ip/20231019.html",
-          "author": null,
-          "description": "",
-          "link": "https://www.nic.ad.jp/ja/stat/ip/20231019.html",
-          "publishedOn": "2023-10-20T08:30:01.000Z",
-          "wordCount": null,
-          "title": "[Web更新]JPNICが管理するIPアドレス・AS番号・IRRサービスに関する統計を更新　2023年9月のデータを追加",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nic.ad.jp/ja/topics/2023/20231020-01.html",
-          "author": null,
-          "description": "",
-          "link": "https://www.nic.ad.jp/ja/topics/2023/20231020-01.html",
-          "publishedOn": "2023-10-20T04:21:14.000Z",
-          "wordCount": null,
-          "title": "[トピックス]Internet Week 2023 - 集まれ！インターネット・ワーキング！- ～ITコーディネータポイント・CPEクレジット・各種割引のご案内～",
           "itunes": {},
           "imageUrl": null
         }
@@ -2836,6 +2795,16 @@
       "feedUrl": "https://srad.jp/security.rss",
       "siteUrl": "https://security.srad.jp/",
       "articles": [
+        {
+          "id": "https://security.srad.jp/story/23/11/18/1129255/",
+          "author": "headless",
+          "description": "Apple や Google、Microsoft などはパスワードレス化への取り組みを進めているが、Delinea の報告書 The Future of Workplace Passwords: Not Dead, but Evolving によれば米国の IT 意思決定者 300 人の 68% がパスワードは死んでいないと答えたそうだ\n(ニュースリリース、\nBetaNews の記事)。\n\n53% はパスワードが新しい形に進化していくと考えており、パスワードを置き換えるものとしては生体認証 (58%) やその他の多要素認証技術 (46%)、ワンタイムパスワード (37%)、パスキー (35%) が挙げられている。\n\nスラドの皆さんの周辺ではパスワードレス化が進んでいるだろうか。\n すべて読む | セキュリティセクション | セキュリティ |     \n  関連ストーリー： \nMicrosoft Authenticator、怪しいログイン要求で通知のポップアップを抑制 2023年11月09日 \n1Password、パスワードを不要にする計画 2023年02月12日 \nAppleとGoogle、Microsoft、パスワードレスサインイン標準のサポート拡大を共同発表 2022年05月08日 \nMicrosoft アカウント、パスワードレスアカウントとして設定可能に 2021年09月18日 \nMicrosoft、SMSや音声通話による多要素認証をやめてアプリベースの多要素認証への移行を推奨 2020年11月13日 \n米国とカナダでの調査、最近90日以内にパスワードを忘れてパスワードリセットが必要になったとの回答が78％ 2019年12月19日 \nMicrosoft、過去に流出したパスワードを使用するMicrosoftアカウントを多数発見 2019年12月08日 \nMicrosoft曰く、多要素認証を使用すれば自動攻撃の99.9％がブロックできる 2019年08月30日 \n普及が進むパスワードなし生体認証規格「FIDO」 2018年12月14日 \nMicrosoft、ありがちなパスワードの使用を禁ずることで他社サービスから流出したパスワードによる攻撃に対抗 2016年05月28日",
+          "link": "https://security.srad.jp/story/23/11/18/1129255/",
+          "publishedOn": "2023-11-18T11:50:00.000Z",
+          "wordCount": 3483,
+          "title": "パスワードレス化、進んでる？",
+          "imageUrl": "https://srad.jp/static/topics/security_64.png"
+        },
         {
           "id": "https://security.srad.jp/story/23/11/18/0742247/",
           "author": "headless",
@@ -5980,6 +5949,26 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231119-2820088/",
+          "author": null,
+          "description": "ESETは11月14日(現地時間)、サイバーセキュリティについて楽しく遊んで学べる6つのゲームについて伝えた。サイバー犯罪の脅威が年々増してい中、生きていく上でサイバーセキュリティは重要なスキルとなりつつあり、興味が持てないユーザーもゲームを利用することで、サイバーセキュリティへの理解を深めることができるかもしれない。",
+          "link": "https://news.mynavi.jp/techplus/article/20231119-2820088/",
+          "publishedOn": "2023-11-19T07:35:07.000Z",
+          "wordCount": 1752,
+          "title": "遊んで学べるセキュリティゲーム6選",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231119-2820088/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231118-2820082/",
+          "author": null,
+          "description": "Malwarebytesは11月15日(米国時間)、ダークWeb上のランサムウェア活動に関する2023年10月の調査結果を伝えた。10月は新しく318件の被害者のデータがランサムウェア漏洩サイトに投稿された。このうち最も投稿件数が多いランサムウェアグループは先月に引き続きLockBit(64件)で、これにNoEscape(40件)、PLAY(36件)が続いている。",
+          "link": "https://news.mynavi.jp/techplus/article/20231118-2820082/",
+          "publishedOn": "2023-11-18T08:32:24.000Z",
+          "wordCount": 3145,
+          "title": "10月ダークWeb調査結果、複数のランサムウェアグループが解体",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231118-2820082/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20231118-2818412/",
           "author": null,
