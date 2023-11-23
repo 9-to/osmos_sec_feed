@@ -2,10 +2,118 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-11-22T08:11:46.977Z</updated>
+    <updated>2023-11-23T08:11:29.452Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[新たな動画シリーズ、Google フォームを悪用したスパム、サイバー攻撃に見られるグレーゾーン]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=49609</id>
+        <link href="https://gblogs.cisco.com/jp/2023/11/talos-threat-source-newsletter-nov-9-23/"/>
+        <updated>2023-11-23T08:00:01.000Z</updated>
+        <summary type="html"><![CDATA[この 1 週間余りで Talos のブログに掲載された記事の並びを見ていたらちょっと面白いと感じました。まず、最も危険なマルウェアの 1 種であるスパイウェアを拡散させている Arid Viper について長文の記事を掲載しました。Arid Viper は今話題になっているガザを拠点に活動している中東の攻撃グループです。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Twenty Twenty-Four の紹介]]></title>
+        <id>https://ja.wordpress.org/?p=7092</id>
+        <link href="https://ja.wordpress.org/2023/11/23/introducing-twenty-twenty-four/"/>
+        <updated>2023-11-23T07:54:03.000Z</updated>
+        <summary type="html"><![CDATA[以下は WordPress.org 公式ブログの記事「Introducing Twenty Twenty-Four」を訳したものです。 誤字脱字誤訳などありましたらフォーラムまでお知らせください。 ウェブサイトをデザイン […]]]></summary>
+        <author>
+            <name>Takayuki Miyoshi</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[11 月 3 日から 11 月 10 日の 1 週間における脅威のまとめ]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=49599</id>
+        <link href="https://gblogs.cisco.com/jp/2023/11/talos-threat-roundup-1103-1110/"/>
+        <updated>2023-11-23T07:09:41.000Z</updated>
+        <summary type="html"><![CDATA[本日（11 月 9 日）の投稿では、11 月 3 日～ 11 月 10 日の 1 週間で Talos が確認した、最も蔓延している脅威をまとめています。これまでのまとめ記事と同様に、この記事でも詳細な分析は目的としていません。脅威の主な行動特性やセキュリティ侵害の指標に焦点を当て、シスコのお客様がこれらの脅威からどのように保護されるかについて説明しています。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[スパム送信者が Google フォームのテストを詐欺に悪用]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=49592</id>
+        <link href="https://gblogs.cisco.com/jp/2023/11/talos-google-forms-quiz-spam/"/>
+        <updated>2023-11-23T07:06:31.000Z</updated>
+        <summary type="html"><![CDATA[スパム送信者が Google フォームのテストの「スコアを通知」機能を悪用して電子メールを配信しています。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[EU の新たなサイバーセキュリティ要件「NIS2」とは何か、どう備えるのがベストか]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=49587</id>
+        <link href="https://gblogs.cisco.com/jp/2023/11/talos-what-is-nis2-and-how-can-you-best-prepare-for-the-new-cybersecurity-requirements-in-the-eu/"/>
+        <updated>2023-11-23T06:37:11.000Z</updated>
+        <summary type="html"><![CDATA[欧州の指令である NIS2 には、欧州連合（EU）で事業を行う組織がネットワークとインフラに関して同じレベルの高いセキュリティを確保するための新たな措置が盛り込まれています。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ランサムウェアグループ、米証券取引委員会にサイバー攻撃を報告]]></title>
+        <id>https://security.srad.jp/story/23/11/21/2337223/</id>
+        <link href="https://security.srad.jp/story/23/11/21/2337223/"/>
+        <updated>2023-11-22T23:14:00.000Z</updated>
+        <summary type="html"><![CDATA[headless 曰く、ALPHV/BlackCat として知られるランサムウェアグループが攻撃を実行した企業について、重大なサイバーセキュリティインシデント発生時の開示義務を怠っていると米証券取引委員会 (SEC) に報告したそうだ
+(DataBreaches.net の記事、
+Ghacks の記事)。
+
+ALPHV によれば 11 月 7 日、金融機関向けにデジタルレンディングプラットフォームを提供する MeridianLink を攻撃し、ファイルの暗号化は行わずにファイルを盗み出したという。ALPHV は MeridianLink がその日のうちに攻撃を察知してパッチを当てたと主張している。ALPHV が 15 日までに行った SEC への報告では、重大なサイバーセキュリティインシデント発生後 4 営業日以内に義務付けられている Form 8-K での報告を MeridianLink が行わなかったと主張しているとのこと。
+
+一方、MeridianLink では投資家向けページで 15 日に発表した第 1 報でサイバーセキュリティインシデント発生を報告し、本番環境のプラットフォームへの不正アクセスはなく、業務への影響は最低限だったと説明した。20 日の第 2 報では非特権ユーザーアカウントへの不適切なアクセスを 10 日に確認したこと、攻撃者は同社のネットワークやサーバーなどにはアクセスしておらず、ランサムウェアやマルウェアの侵入もないことなどを追記している。
+
+両者の主張するサイバーセキュリティインシデント判明日は異なっており、MeridianLink の主張する 11 月 10 日であれば、15 日が 4 営業日目となる。ただし、SEC の Form 8-K による報告義務付けルールが発効するのは 12 月 18 日であり、現時点で報告は義務付けられていない。ALPHV が DataBreaches.net に提供した SEC の応答も自動返信によるものであり、ルール違反が確認されたわけではないようだ。
+ すべて読む | セキュリティセクション | セキュリティ |     
+  関連ストーリー： 
+米証券取引委員会、重大なサイバーセキュリティインシデントの迅速な開示を義務付ける新ルール 2023年07月29日 
+Sophos の名をかたるランサムウェアが見つかる 2023年07月20日 
+MSI、ランサムウェアグループに侵入されソースコードを盗難される 2023年04月11日 
+復号ツール提供条件として被害者に善行を求めるランサムウェア「GoodWill」 2022年05月29日]]></summary>
+        <author>
+            <name>nagazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mozilla Releases Security Updates for Firefox and Thunderbird]]></title>
+        <id>/node/20373</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/11/22/mozilla-releases-security-updates-firefox-and-thunderbird"/>
+        <updated>2023-11-22T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Mozilla has released security updates to address vulnerabilities in Firefox and Thunderbird. A cyber threat actor could exploit some of these vulnerabilities to take control of an affected system.
+CISA encourages users and administrators to review the following advisories and apply the necessary updates:
+Firefox iOS 120
+Firefox 120
+Firefox ESR 115.5
+Thunderbird 115.5.0]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Adobe Releases Security Updates for ColdFusion]]></title>
+        <id>/node/20374</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2023/11/22/adobe-releases-security-updates-coldfusion"/>
+        <updated>2023-11-22T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[On Nov. 14, 2023, Adobe released security updates addressing vulnerabilities affecting unpatched ColdFusion software. Exploitation of some of these vulnerabilities may allow a malicious cyber actor to take control of an affected system.
+CISA urges organizations to review Adobe ColdFusion security bulletin APSB23-52 for more information and to:
+Apply the recommended updates in APSB23-52.
+Follow Adobe recommendations on ColdFusion hardening.  
+
+ColdFusion 2023 Lockdown Guide
+ColdFusion 2021 Lockdown Guide
+
+Consider adding a web application firewall (WAF) filter for CFIDE for external users.
+Consider using CISA’s Cybersecurity Incident and Vulnerability Response Playbooks for other actionable steps.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[富士電機製Tellus Lite V-Simulatorにおける複数の脆弱性]]></title>
         <id>https://jvn.jp/vu/JVNVU98886797/</id>
@@ -34,6 +142,15 @@
         <summary type="html"><![CDATA[KDDI株式会社は11月22日、国際衛星通信の開始から60周年を迎え、これまでを振り返る「KDDI、国際衛星通信60周年のお知らせ」を発表した。]]></summary>
         <author>
             <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Web更新]ICANN理事会決議を掲載]]></title>
+        <id>https://www.nic.ad.jp/ja/icann/topics/2023/</id>
+        <link href="https://www.nic.ad.jp/ja/icann/topics/2023/"/>
+        <updated>2023-11-22T05:31:40.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
         </author>
     </entry>
     <entry>
@@ -9618,167 +9735,6 @@ Google Pixel 8 / 8 Pro 発表、Android 14 も正式リリース 2023年10月05�
 Microsoft、クラウド上でパスワード付きZIPファイルをスキャンか。Googleは公式発表 2023年05月19日]]></summary>
         <author>
             <name>nagazou</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[世界一わかりみの深いAzure OpenAI Service]]></title>
-        <id>https://tech-lab.sios.jp/?p=36497</id>
-        <link href="https://tech-lab.sios.jp/archives/36497"/>
-        <updated>2023-10-24T15:39:30.000Z</updated>
-        <summary type="html"><![CDATA[みなさん、こんにちは。サイオステクノロジー武井です。今回は、今話題沸騰の生成AIサービスであるAzure OpenAI Serviceについて、世界一わかりみの深い説明をしたいと思います。 ※ 本記事の内容がベースとなっ [...]
-世界一わかりみの深いAzure OpenAI Service first appeared on SIOS Tech. Lab.]]></summary>
-        <author>
-            <name>武井 宜行</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[The Top Facebook Marketplace Scams to Look Out For]]></title>
-        <id>https://www.mcafee.com/blogs/?p=175447</id>
-        <link href="https://www.mcafee.com/blogs/internet-security/the-top-facebook-marketplace-scams-to-look-out-for/"/>
-        <updated>2023-10-24T14:10:49.000Z</updated>
-        <summary type="html"><![CDATA[Reels of another kind rack up the views online. Stories about Facebook Marketplace scams.  Recently, TikTok’er Michel Janse (@michel.c.janse) got...
-The post The Top Facebook Marketplace Scams to Look Out For appeared first on McAfee Blog.]]></summary>
-        <author>
-            <name>McAfee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Spot Those Black Friday and Cyber Monday Shopping Scams]]></title>
-        <id>https://www.mcafee.com/blogs/?p=131008</id>
-        <link href="https://www.mcafee.com/blogs/internet-security/spot-those-black-friday-and-cyber-monday-shopping-scams/"/>
-        <updated>2023-10-24T13:39:44.000Z</updated>
-        <summary type="html"><![CDATA[We’re not the only ones looking forward to the big holiday sales like Black Friday and Cyber Monday. Hackers are too. As people flock to retailers big and small in search of the best deals online, hackers have their shopping scams ready.
-The post Spot Those Black Friday and Cyber Monday Shopping Scams appeared first on McAfee Blog.]]></summary>
-        <author>
-            <name>McAfee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[東大、個人情報など4000件超漏えいか　教員に標的型攻撃メール]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2310/24/news159.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2310/24/news159.html"/>
-        <updated>2023-10-24T08:30:00.000Z</updated>
-        <summary type="html"><![CDATA[東京大学教養学部と同大学院総合文化研究科が、職員や学生の個人情報など4000件超が漏えいした可能性があると発表した。教員のPCが標的型攻撃メールによってマルウェアに感染したという。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[インド中央調査局、MicrosoftとAmazonになりすます複数の偽コールセンターを閉鎖]]></title>
-        <id>https://security.srad.jp/story/23/10/23/2118230/</id>
-        <link href="https://security.srad.jp/story/23/10/23/2118230/"/>
-        <updated>2023-10-24T08:06:00.000Z</updated>
-        <summary type="html"><![CDATA[headless 曰く、インド中央調査局 (CBI) は 19 日、インドにおける組織化されたサイバー金融犯罪のインフラストラクチャーの解体を目指す、国内外の捜査機関や民間の巨大企業との共同作戦「Operation Chakra-II」の実施を発表した
-(プレスリリースの Google キャッシュ、
-Microsoft On the Issues の記事、
-Amazon News の記事)。
-
-CBI のプレスリリースでは社名が明かされておらず、「世界的 IT 大手」と「オンライン商取引プラットフォームを持つ多国籍企業」のように記載されているが、Microsoft と Amazon になりすました 2 件のテクニカルサポート詐欺も捜査対象となっている。テクニカルサポート詐欺には複数の詐欺グループが関与しており、5 つの州・連邦直轄領に複数の偽コールセンターを設置し、過去 5 年にわたって運営していたという。
-
-テクニカルサポート詐欺の主な手口はウェブサイトを通じて虚偽のセキュリティ警告メッセージをポップアップさせ、トールフリー番号を表示して偽コールセンターに電話させるといったものだ。偽コールセンターでは被害者に存在しない問題が存在するかのように伝え、被害者のコンピューターのリモート操作などで信じさせて偽のサブスクリプションや不要なサービスを売りつけていたという。被害者の所在地は主に米国・英国・ドイツなど。2 件は米国とインドの共同訴追合意を受け、Microsoft と Amazon が照会したものとのことだ。
- すべて読む | セキュリティセクション | 犯罪 | セキュリティ | マイクロソフト |     
-  関連ストーリー： 
-おたくま経済新聞、ロマンス詐欺案件の記事掲載後に詐欺側からよく意見を頂戴する 2023年10月16日 
-日経XTECH曰く「SSL証明書の発行者がLet's Encryptならまず詐欺」 2023年10月09日 
-フィッシング詐欺にあった結果、eSIMを書き換えられスマホごと乗っ取られる被害 2023年10月02日 
-漫画村の元運営者「ネット広告は抜け穴だらけ。稼ぐ方法は腐るほどある」 2023年09月26日]]></summary>
-        <author>
-            <name>nagazou</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[調査研究部会インシデント被害調査ワーキングループによる「サイバー攻撃被害組織アンケート調査（速報版）」を公開しました。]]></title>
-        <id>https://www.jnsa.org/result/incidentdamage/index.html</id>
-        <link href="https://www.jnsa.org/result/incidentdamage/index.html"/>
-        <updated>2023-10-24T07:00:00.000Z</updated>
-        <summary type="html"><![CDATA[���{�l�b�g���[�N�Z�L�����e�B����@������������b�C���V�f���g��Q�������[�L���O�O���[�v�̐��ʕ��u�T�C�o�[�U����Q�g�D�A���P�[�g�����i����Łj�v]]></summary>
-        <author>
-            <name>特定非営利活動法人 日本ネットワークセキュリティ協会（JNSA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Web更新]IPアドレスに関する統計・各種リスト以下のグラフを更新　2023年9月のデータを追加]]></title>
-        <id>https://www.nic.ad.jp/ja/stat/ip/</id>
-        <link href="https://www.nic.ad.jp/ja/stat/ip/"/>
-        <updated>2023-10-24T06:59:05.000Z</updated>
-        <author>
-            <name>JPNIC Web</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[トピックス]Internet Week 2023 BoFプログラム決定のお知らせ]]></title>
-        <id>https://www.nic.ad.jp/ja/topics/2023/20231024-01.html</id>
-        <link href="https://www.nic.ad.jp/ja/topics/2023/20231024-01.html"/>
-        <updated>2023-10-24T03:01:56.000Z</updated>
-        <author>
-            <name>JPNIC Web</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「娘のアレルギー情報はこちら」→マルウェアDLさせる　ホテルなど狙うサイバー攻撃増加]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2310/24/news088.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2310/24/news088.html"/>
-        <updated>2023-10-24T01:48:00.000Z</updated>
-        <summary type="html"><![CDATA[「宿泊を楽しみにしていますが、娘は特定の食べ物にアレルギーがあります。以下のURLよりダウンロードしてご確認お願いします」。こんなメールでマルウェアをダウンロードさせる宿泊業向けサイバー攻撃が増加している。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JNSA西日本支部主催セミナー「NSF 2023 in Kansai｜品質＆生産性向上活動を意識される中小製造業 生産現場の皆さまへ」参加受付を開始しました。]]></title>
-        <id>https://www.jnsa.org/seminar/nsf/2023kansai/index.html</id>
-        <link href="https://www.jnsa.org/seminar/nsf/2023kansai/index.html"/>
-        <updated>2023-10-24T01:00:00.000Z</updated>
-        <summary type="html"><![CDATA[��������Ɍg��鑽���̕��X�́A�u����̈��S�v�u���C���̈���E�p���ғ��v�u�i������v�u����������v�u�Ǖi������v�ɂ��āA�����̎��Ԃ������A�S���ӂ��Ă���ꂽ���Ǝv���܂��B����ɂ���1�A�u�T�C�o�[�U���̃��X�N�v�Ƃ����ϓ_�������Ă݂܂��񂩁B]]></summary>
-        <author>
-            <name>特定非営利活動法人 日本ネットワークセキュリティ協会（JNSA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amazon、WebとiOSで「パスキー（passkey）」サポート　Androidも間もなく]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2310/24/news082.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2310/24/news082.html"/>
-        <updated>2023-10-23T23:21:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazonは、WebとiOSのショッピングアプリで「パスキー（passkey）」でのログインを可能にした。Android版でも間もなく対応する計画だ。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TwoFive メールセキュリティ Blog 第13回「“受信側”のDMARC対応状況と次の課題」]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2023/10/24/50139.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2023/10/24/50139.html"/>
-        <updated>2023-10-23T23:15:02.000Z</updated>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA がソーシャルメディアとの連携を裁判所から禁じられる]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2023/10/24/50138.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2023/10/24/50138.html"/>
-        <updated>2023-10-23T23:10:03.000Z</updated>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「ふるいち店舗情報サイト」で他の抽選申込者の個人情報が閲覧可能に、最大237名が対象]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2023/10/24/50137.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2023/10/24/50137.html"/>
-        <updated>2023-10-23T23:05:07.000Z</updated>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「署名をUSBメモリで渡す」の是非　“FAX縛り”の取材に見た、国政DXの遅れ]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2310/23/news138.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2310/23/news138.html"/>
-        <updated>2023-10-23T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[国や企業などに要望を伝えるための署名活動が変化してきている。最近は、署名データをUSBメモリに格納して渡す例も出てきたが、情報漏えいなどのセキュリティリスクも指摘されている。大量の署名を安全に受け渡すにはどうすればいいのか考える。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
         </author>
     </entry>
 </feed>
