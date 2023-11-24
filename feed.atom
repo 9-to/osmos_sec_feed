@@ -2,10 +2,339 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2023-11-23T08:11:29.452Z</updated>
+    <updated>2023-11-24T08:11:18.075Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[2023年10月度 MBSD-SOCの検知傾向トピックス]]></title>
+        <id>https://www.mbsd.jp/research/20231124/202310-mbsd-soc/</id>
+        <link href="https://www.mbsd.jp/research/20231124/202310-mbsd-soc/"/>
+        <updated>2023-11-24T09:17:00.000Z</updated>
+        <summary type="html"><![CDATA[2023年10月度のMBSD-SOCにおける検知傾向トピックスです。]]></summary>
+        <author>
+            <name>三井物産セキュアディレクション株式会社</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[セキュリティリサーチャー、Windows Hello指紋認証の突破に成功]]></title>
+        <id>https://security.srad.jp/story/23/11/23/1947245/</id>
+        <link href="https://security.srad.jp/story/23/11/23/1947245/"/>
+        <updated>2023-11-24T08:01:00.000Z</updated>
+        <summary type="html"><![CDATA[headless 曰く、Blackwing Intelligence が Windows Hello 指紋認証を用いるノート PC の指紋センサーを調査し、指紋認証の突破に成功したそうだ
+(Blackwing Intelligence のブログ記事、
+The Verge の記事、
+Ghacks の記事、
+Bleeping Computer の記事)。
+
+Windows Hello 指紋認証ではチップ上に指紋データを確認して認証を行う Match on Chip (MoC) と呼ばれる指紋センサーを用いる。MoC では指紋データがホストに送られることはなく、バイオメトリック情報の盗難を懸念する必要もない。MoC 自体にはセンサーのなりすましを識別する機能が搭載されていないが、指紋センサーのセキュリティを確実にする Secure Device Connection Protocol (SDCP) も用意されている。
+
+Blackwing Intelligence は Microsoft Offensive Research and Security Engineering (MORSE) の依頼を受け、Dell Inspiron 15 と Lenovo ThinkPad T14、Microsoft Surface Pro 8 (指紋センサー搭載タイプカバー) を調査。3 機種はそれぞれ指紋センサーも実装も異なるが、最終的にはなりすましの指紋センサーで認証を突破できたという。なお、SDCP が完全にサポートされ、有効になっていたのは Inspiron 15 のみ。ThinkPad T14 と Surface Pro 8 では SDCP が使用できなかったとのことだ。
+ すべて読む | セキュリティセクション | セキュリティ | ノートPC | Windows |     
+  関連ストーリー： 
+Surface Pro X、カメラが使用できなくなる 2023年05月27日 
+Microsoft アカウント、パスワードレスアカウントとして設定可能に 2021年09月18日 
+21H2 ビルドの Windows 10 Insider Preview、提供開始 2021年07月18日 
+Microsoft、プロセッサをIntelとAMDから選べるSurface Laptop 4を発表 2021年04月15日]]></summary>
+        <author>
+            <name>nagazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「Microsoft 365 Personal」1年版などがAmazonブラックフライデーセール期間に特売中　買い切り版「Microsoft Office Home & Business 2021」も安い]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1549463.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1549463.html"/>
+        <updated>2023-11-24T06:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Amazon.co.jpでは、11月24日～12月1日の8日間、年に一度のビッグセール「Amazon ブラックフライデー 2023」を開催中だ。その一環としてPCソフトのセールが行われており、「ブラックフライデー」のマークは付いていないが、マイクロソフトの「Office」シリーズなども割引価格で販売されている。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ファーウェイ製Wi-Fi 6ルーターが7040円から！ Amazonブラックフライデーセール　Wi-Fi 6対応トライバンドメッシュルーター「HUAWEI Mesh 7 AX6600」2台セットは3万1380円]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1549489.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1549489.html"/>
+        <updated>2023-11-24T06:05:00.000Z</updated>
+        <summary type="html"><![CDATA[Amazon.co.jpでは、11月24日～12月1日の8日間、年に一度のビッグセール「Amazon ブラックフライデー 2023」を開催中だ。その一環としてファーウェイ（HUAWEI）製Wi-Fiルーターのセールが行われている。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TCL製チューナーレステレビが安い！ Amazonブラックフライデー　32型のフルHDモデルが2万4800円から]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1549452.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1549452.html"/>
+        <updated>2023-11-24T04:55:00.000Z</updated>
+        <summary type="html"><![CDATA[Amazon.co.jpでは、11月24日～12月1日の8日間、年に一度のビッグセール「Amazon ブラックフライデー 2023」を開催中だ。その一環としてTCL製チューナーレステレビも特売となっている。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[複数のKeysight Technologies製品における信頼できないデータのデシリアライゼーションの脆弱性]]></title>
+        <id>https://jvn.jp/vu/JVNVU97193440/</id>
+        <link href="https://jvn.jp/vu/JVNVU97193440/"/>
+        <updated>2023-11-24T04:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Keysight Technologies社が提供する複数の製品には、信頼できないデータのデシリアライゼーションの脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[アイ・オー・データ機器のNASがお買い得！ Amazonブラックフライデー　8TBの2ベイNAS「HDL2-AAX8/E」が3万9720円など]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1549479.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1549479.html"/>
+        <updated>2023-11-24T04:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Amazon.co.jpでは、11月24日～12月1日の8日間、年に一度のビッグセール「Amazon ブラックフライデー 2023」を開催中だ。その一環としてパソコン・ゲーミング・周辺機器・スマホ・カメラのセールが行われており、アイ・オー・データ機器製のNASがブラックフライデー価格となっている。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iPhone、iPad、MacBookが、Amazonブラックフライデーでお買い得！　「iPhone 13」SIMフリーモデル512GBが13万900円など]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1549459.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1549459.html"/>
+        <updated>2023-11-24T04:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Amazon.co.jpでは、11月24日～12月1日の8日間、年に一度のビッグセール「Amazon ブラックフライデー 2023」を開催中だ。その一環でApple製品のセールも実施され、iPhone、iPad、MacBookなどがお買い得になっている。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[iPhone 13 miniをはじめとした日本人の小型スマホ好きの傾向、海外で物珍しげに報じられる【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1549490.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1549490.html"/>
+        <updated>2023-11-24T04:13:28.000Z</updated>
+        <summary type="html"><![CDATA[日本人が「iPhone 13 mini」など小型スマホを好むことを物珍しげに報じた中国メディアの記事が話題だ。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[海外のブラックフライデー、Appleの忘れ物トラッカー「AirTag」が異例の大幅値引きで話題【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1549493.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1549493.html"/>
+        <updated>2023-11-24T04:11:57.000Z</updated>
+        <summary type="html"><![CDATA[海外のブラックフライデーにおけるAppleの忘れ物トラッカー「AirTag」の値引き率の高さが話題になっている。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[公邸の設備不具合で首相が異例の急遽外泊]]></title>
+        <id>https://security.srad.jp/story/23/11/24/0131252/</id>
+        <link href="https://security.srad.jp/story/23/11/24/0131252/"/>
+        <updated>2023-11-24T03:31:00.000Z</updated>
+        <summary type="html"><![CDATA[あるAnonymous Coward 曰く、 朝日新聞の記事によると、11月23日夜、岸田文雄首相が、急遽移動し、首相官邸に近いホテルに宿泊したそうだ。
+ 関係者によると、首相公邸の設備不具合が理由で、詳細は安全上の理由から明らかにできないそうだ。夜になってから首相が急遽移動して、ホテルに泊まるのは極めて異例らしい。
+ すべて読む | セキュリティセクション | 日本 | セキュリティ | ニュース |]]></summary>
+        <author>
+            <name>nagazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[次世代マイナンバーカードは、電子証明書の有効期間を延長。性別記載はない方向]]></title>
+        <id>https://security.srad.jp/story/23/11/23/1343242/</id>
+        <link href="https://security.srad.jp/story/23/11/23/1343242/"/>
+        <updated>2023-11-24T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[政府が2026年に導入予定の新しいマイナンバーカードの概要が明らかになった。読売新聞の記事によれば、新しいカードでは、ICチップに組み込まれた電子証明書の有効期間が現行の5年から10年に延長される。マイナンバーカードは本人確認手段として広く利用されているため、カードの券面には氏名、生年月日、住所、顔写真が引き続き記載される。ただ、性的少数者への配慮を求める声が出ていることから、性別は記載されない方向で検討されているという（読売新聞）。 
+
+非公開の作業部会が21日、中間骨子案をまとめた。政府はパブリックコメントを募り、年内に中間取りまとめを行う予定。電子証明書はオンラインの行政手続きで使用され、更新時は役所などに出向く必要があるが、カードと有効期間を合わせることで更新が1回で済むようになるとしている。
+ すべて読む | セキュリティセクション | 日本 | セキュリティ | 政府 | Digital |     
+  関連ストーリー： 
+兵庫県養父市、マイナンバーカードを使う公職選挙のスマホ投票の実現を目指す 2023年11月17日 
+救急隊がマイナ保険証経由で医療情報を読み取り、救命措置などに役立てるシステム導入へ 2023年11月15日 
+マイナ制度は「なりすまし犯罪の温床」。情報システム学会が制度設計に根本的な問題と提言 2023年11月02日 
+マイナポイント第2弾、受け取る資格がありながら未申し込みが約2000万人 2023年09月21日 
+音楽フェスなどでマイナカードを活用した実証実験 2023年09月12日]]></summary>
+        <author>
+            <name>nagazou</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[J:COM、メッシュWi-Fi利用者の個人情報が漏えい、約23万件の氏名など]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1549466.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1549466.html"/>
+        <updated>2023-11-24T02:45:00.000Z</updated>
+        <summary type="html"><![CDATA[JCOM株式会社は11月22日、同社のメッシュWi-Fiのユーザー、および同社がメッシュWi-Fiを提供するケーブルテレビ事業者のユーザーの、個人情報の一部が漏えいしたとして、情報を公開した。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazon ブラックフライデーでテレワークグッズが安い!! これまで紹介したグッズのお得情報を調べてみた 新しくなったEcho Show5が4980円!! さらにSwitchBot、エルゴトロンのモニターアーム、MX ERGOトラックボールなどが特別価格【テレワークグッズ・ミニレビュー 番外編】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/teleworkgoods/1549317.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/teleworkgoods/1549317.html"/>
+        <updated>2023-11-24T02:34:18.000Z</updated>
+        <summary type="html"><![CDATA[いつもテレワークグッズ・ミニレビューを楽しみにしている読者の皆さま、こんにちは、あるいはこんばんは。すでにご存じの通り、11月24日～12月1日の8日間にわたり、年に一度のビッグセール「Amazon ブラックフライデー 2023」を開催している。そこで今回は番外編として、これまで紹介してきたグッズの中から、ブラックフライデーでセールになっている製品を紹介していきたい。気になっていたあの商品をお得にゲットするチャンス、あるいは購入前に今一度レビューを読み返してみてはいかがだろう。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ディスプレイの背面にも取り付け可能、Wi-Fi 6＆拡張ポートも搭載した小型PC「MousePro CRシリーズ」が人気【MousePro 売れ筋ビジネスPCランキング デスクトップ編 2023/11/24版】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/ranking/mousepro/1548712.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/ranking/mousepro/1548712.html"/>
+        <updated>2023-11-24T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[本記事では、マウスコンピューターの法人向けブランド「MousePro」の売れ筋PCを紹介しています。なお、順位、価格、構成は随時変動しており、最新情報はリンク先にてご確認ください。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[タニウム、年次イベントで発表した新戦略「自律型プラットフォーム」を紹介]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20231124-2825131/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20231124-2825131/"/>
+        <updated>2023-11-24T01:17:40.000Z</updated>
+        <summary type="html"><![CDATA[タニウムは11月22日、米国で開催されたフラッグシップイベント「Tanium Converge 2023」で行われた主要な発表を紹介した。同イベントでは、新たな製品として、自律型エンドポイント管理（AEM）プラットフォームのロードマップが発表された。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[東京都交通局、ホームページで公文書開示請求者の個人情報公開]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/11/24/50285.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/11/24/50285.html"/>
+        <updated>2023-11-23T23:05:08.000Z</updated>
+        <summary type="html"><![CDATA[東京都交通局は11月16日、交通局ホームページでの個人情報の漏えいについて発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[観光庁が注意喚起、Booking.com 利用者へのフィッシング被害]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/11/24/50284.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/11/24/50284.html"/>
+        <updated>2023-11-23T23:05:05.000Z</updated>
+        <summary type="html"><![CDATA[観光庁は11月15日、Booking.com利用者へのフィッシング被害に関する注意喚起を発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[日本コンクリート工業へのランサムウェア攻撃、第93期 第2四半期報告書 提出期限を延長]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/11/24/50283.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/11/24/50283.html"/>
+        <updated>2023-11-23T23:05:03.000Z</updated>
+        <summary type="html"><![CDATA[東証プライム上場企業の日本コンクリート工業株式会社は11月14日、ランサムウェア攻撃による第93期第2四半期報告書の提出期限延長に関する承認申請書の提出を発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[サイバー攻撃の賠償や保険料要求 ～ NISC 騙る不審な電話に注意喚起]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/11/24/50282.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/11/24/50282.html"/>
+        <updated>2023-11-23T23:00:18.000Z</updated>
+        <summary type="html"><![CDATA[内閣サイバーセキュリティセンター（NISC）は11月20日、NISCを騙った不審な電話への注意喚起を発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Citrix ADCおよびCitrix Gatewayに情報漏えいの脆弱性、悪用する攻撃を確認]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/11/24/50281.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/11/24/50281.html"/>
+        <updated>2023-11-23T23:00:15.000Z</updated>
+        <summary type="html"><![CDATA[一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は11月21日、Citrix ADCおよびCitrix Gatewayの脆弱性について発表した。影響を受けるシステムは以下の通り。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apache ActiveMQに遠隔コード実行の脆弱性、リコー製品に影響]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/11/24/50280.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/11/24/50280.html"/>
+        <updated>2023-11-23T23:00:11.000Z</updated>
+        <summary type="html"><![CDATA[株式会社リコーは11月21日、Apache ActiveMQにおける遠隔コード実行の脆弱性（CVE-2023-46604）によるリコー製品への影響について発表した。影響を受ける製品・サービスは以下の通り。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LuxCal Web Calendar に複数の脆弱性]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/11/24/50279.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/11/24/50279.html"/>
+        <updated>2023-11-23T23:00:09.000Z</updated>
+        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は11月20日、LuxCal Web Calendar における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ファースト製 DVR がサイバー攻撃の踏み台とならないよう対策を呼びかけ]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2023/11/24/50278.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2023/11/24/50278.html"/>
+        <updated>2023-11-23T23:00:04.000Z</updated>
+        <summary type="html"><![CDATA[株式会社ファーストは11月14日、同社DVRがサイバー攻撃の踏み台となっている事案について、注意喚起を発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「AirTag」に車の盗難防止効果を期待、米警察が現地住民に無料配布　カナダではBMWを取り戻した例も]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2311/24/news071.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2311/24/news071.html"/>
+        <updated>2023-11-23T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[米首都ワシントンやニューヨーク市の警察が、車の盗難防止対策としてAppleの紛失防止タグ「AirTag」を住民に無料で配布している。米国では車の盗難が急増し、警察や自治体が対応を模索していた。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[高齢者をターゲットにした「幻のハッカー詐欺」が登場【だまされないように注意！】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/dlis/1549311.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/dlis/1549311.html"/>
+        <updated>2023-11-23T22:26:00.000Z</updated>
+        <summary type="html"><![CDATA[米連邦捜査局（FBI）のインターネット犯罪苦情センター（IC3）は9月29日、「ファントムハッカー詐欺」について注意喚起を行いました。手口としてはサポート詐欺を進化させたもので、存在しないハッカーをでっち上げて詐欺を仕掛けることから、ファントム（幻の）ハッカー詐欺と呼ばれています。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windowsの画面をチューナーレステレビに「Miracast」でミラーリングする【自宅Wi-Fiの“わからない”をスッキリ！】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/homewifi/1548216.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/homewifi/1548216.html"/>
+        <updated>2023-11-23T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[TCLのチューナーレステレビ「50P63J」を使って、ここまでスマホやMacの画面をそのままテレビに表示するミラーリングを実践してみている。今回はWindows 11の画面を無線ミラーリングする方法を実践してみよう。手持ちのチューナーレステレビをリモートワーク時のサブモニターとして使うこともできる。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DMARC（Domain-based Message Authentication Reporting and Conformance）]]></title>
+        <id>https://eset-info.canon-its.jp/malware_info/term/detail/00209.html</id>
+        <link href="https://eset-info.canon-its.jp/malware_info/term/detail/00209.html"/>
+        <updated>2023-11-23T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[SPFやDKIMの技術を応用した、なりすましを予防するための送信ドメインの認証技術
+
+
+
+
+なりすましメールへの対策として、SPFやDKIMといった送信者ドメインの有効性を確認する技術が利用されてきた。しかし、SPFやDKIMの場合、送信元ドメインの詐称はチェックできるものの、迷惑メールを遮断するには確実性に欠ける面がある。メーラーの表示名の偽装を見抜くことができない、あるいは認証に失敗したメールがブロックされないといった特性がある。DMARCはこうしたDKIMやSPFのデメリットを補強した技術として、迷惑メールに対抗する。
+
+DMARCはメールの認証を行うDKIM、SPFをベースとしており、それぞれの技術的メリットを相互補完することで、メールの信頼性を判断して認証できるようになる。また、メールがこれらの認証に失敗した場合、迷惑メールに振り分ける、あるいはブロックするといったルールを送信者側で受信サーバーに指示できるため、なりすましメールを排除しながら誤検知の可能性も低減できる。
+
+DMARCのメリット
+
+DMARCの技術を利用することで、多くのメリットが得られる。その1つがなりすましメール対策だ。昨今、企業を狙うなりすましメールは巧妙化の一途を辿っている。DMARCを利用することで、こうしたなりすましメールの多くを排除することが可能となり、昨今問題となっている標的型攻撃のようなピンポイントで企業・組織の従業員を狙うメールの脅威を低減する。また、フィッシング詐欺のような、ユーザーに被害を与えることを目的に、自社になりすますメールの排除も可能となる。その結果、自社のブランド失墜といった事態を防ぐことができる。
+
+なりすましメール、迷惑メールが社会問題となって久しいが、DMARCを導入する企業・組織が増えることで、そうしたメールがエンドユーザーに到達する可能性は低くなることが期待されている。]]></summary>
+        <author>
+            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Sextortion – What Every Parent Needs To Know]]></title>
+        <id>https://www.mcafee.com/blogs/?p=177114</id>
+        <link href="https://www.mcafee.com/blogs/internet-security/sextortion-what-every-parent-needs-to-know/"/>
+        <updated>2023-11-23T12:48:18.000Z</updated>
+        <summary type="html"><![CDATA[Imagine this. You’re 15, feeling unsure about yourself in the world, possibly even a little lonely. One day, a pretty...
+The post Sextortion – What Every Parent Needs To Know appeared first on McAfee Blog.]]></summary>
+        <author>
+            <name>Alex Merton-McCann</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[新たな動画シリーズ、Google フォームを悪用したスパム、サイバー攻撃に見られるグレーゾーン]]></title>
         <id>https://gblogs.cisco.com/jp/?p=49609</id>
@@ -1855,6 +2184,17 @@ Facebook、年齢や性別、郵便番号で広告主が広告表示対象を絞
         <summary type="html"><![CDATA[JPCERTコーディネーションセンター(JPCERT/CC)は11月16日、国内で運用されている複数のネットワーク製品を標的にしたサイバー攻撃が報告されているとして注意を呼びかけた。攻撃が確認されている製品は、「Array Networks Array AGシリーズ」「ノースグリッド Proself」「Fortinet FortiOSおよびFortiProxy」とのこと。]]></summary>
         <author>
             <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spot Those Black Friday and Cyber Monday Shopping Scams]]></title>
+        <id>https://www.mcafee.com/blogs/?p=131008</id>
+        <link href="https://www.mcafee.com/blogs/internet-security/spot-those-black-friday-and-cyber-monday-shopping-scams/"/>
+        <updated>2023-11-17T14:39:44.000Z</updated>
+        <summary type="html"><![CDATA[We’re not the only ones looking forward to the big holiday sales like Black Friday and Cyber Monday. Hackers are too. As people flock to retailers big and small in search of the best deals online, hackers have their shopping scams ready.
+The post Spot Those Black Friday and Cyber Monday Shopping Scams appeared first on McAfee Blog.]]></summary>
+        <author>
+            <name>McAfee</name>
         </author>
     </entry>
     <entry>
@@ -5014,6 +5354,15 @@ CISA encourages cybersecurity defenders to review this guidance and to speak to 
         <summary type="html"><![CDATA[新聞社やメディア業界出身者としては、目立つ見出しをつけたくなる人の気持ちがよくわかります。「誰それの邸宅、X 百万ドルで売約」などという記事を書いたこともあります。]]></summary>
         <author>
             <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Web更新]IPアドレスに関する統計・各種リスト以下のグラフを更新　2023年10月のデータを追加]]></title>
+        <id>https://www.nic.ad.jp/ja/stat/ip/</id>
+        <link href="https://www.nic.ad.jp/ja/stat/ip/"/>
+        <updated>2023-11-09T05:19:35.000Z</updated>
+        <author>
+            <name>JPNIC Web</name>
         </author>
     </entry>
     <entry>
@@ -9359,382 +9708,6 @@ Azure：Microsoft Entra IDの「エンタープライズアプリケーション
         <updated>2023-10-25T23:00:03.000Z</updated>
         <author>
             <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ICSCoEの活動を紹介する広報誌「ICSCoE REPORT」第17号を公開しました]]></title>
-        <id>https://www.ipa.go.jp/jinzai/ics/icscoereport.html</id>
-        <link href="https://www.ipa.go.jp/jinzai/ics/icscoereport.html"/>
-        <updated>2023-10-25T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「産業サイバーセキュリティセンター 広報誌 「ICSCoE REPORT」」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[パソコンの動作を速くする10の方法]]></title>
-        <id>https://eset-info.canon-its.jp/malware_info/special/detail/231026.html</id>
-        <link href="https://eset-info.canon-its.jp/malware_info/special/detail/231026.html"/>
-        <updated>2023-10-25T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[パソコンの動作が遅くなった場合、新しい端末を購入するよりも先に、ここで解説する高速化の方法を試してほしい。
-
-
-この記事は、ESET社が運営するマルウェアやセキュリティに関する情報サイト「WeLiveSecurity」の記事を翻訳したものである。
-
-
-
-
-
-
-動作の遅いパソコンは悩みの種となる。生産性の低下や、不必要なストレスの原因になるからだ。
-
-新しい端末を買いに走る前に、現在のパソコンを高速化させる簡単で効果的な方法を試してほしい。例えば、ハードディスクの容量を空けたり、ドライバーを更新したりすると、動作の遅いパソコンを復活させ、効率的に仕事ができるようになる。
-
-数年前までは、ITの専門家にしかできない対処方法と思われていたが、最近のWindowsであれば誰でも簡単にこれらの設定ができるようになった。
-
-パソコンの動きを高速化する方法
-
-Windows 11とWindows 10で、パソコンの動きを速くするために試すべき10の方法を以下に解説する。（詳細手順はWindows 11をベースに説明）
-
-1）容量を空ける
-
-動作が遅くなったパソコンを数年間使用している場合、「ダウンロード」フォルダーを最後に整理したのがいつだったか思い出せないのではないだろうか。まずはそこから始めよう。
-
-
-	ダウンロードフォルダーと、文書や写真、動画を保存しているすべてのフォルダーを確認し、不要なファイルを削除する
-	日常的に使わない容量の大きいファイルを、バックアップドライブやクラウドストレージへアップロードして保存する方法もある。動作が遅くなったパソコンは、前触れなく故障してしまう可能性もあるため、重要なファイルは常にバックアップをとっておくことが推奨される
-	加えて、「ゴミ箱」を空にするのを忘れないことが重要だ
-
-
-2）アプリを整理する
-
-スタートメニューから「設定」をクリックする。次に、左側のサイドメニューから「アプリ」を選択し、「インストールされているアプリ」へ進める。パソコン内にあるすべてのソフトウェアを確認し、不要なものがあれば右端の3点リーダーをクリックし、「アンインストール」を選択する。
-
-アプリを整理すると、空き容量が増えるだけでない。アンインストールしたアプリの関連サービスが不必要なメモリーを占有しなくなるため、バックグラウンドの活動も大幅に抑えられる。
-
-3）ストレージを整理する
-
-Windows 10以降、Microsoftではストレージセンサー（Storage Sense）と呼ばれる優れた機能が導入された。パソコンのストレージがどのように使われているかを分析し、Windowsのクリーンアップを管理するものだ。具体的には、一時ファイルや古いダウンロードファイルを自動で削除する機能や、ゴミ箱を空にする機能が含まれる。ストレージセンサーを有効化するには、「設定」を開き、左側から「システム」をクリックし、「ストレージ」を選択するとよい。
-
-Windowsが必要なファイルまで削除してしまうのを避けたい場合は、手動で行う方法もある。「ストレージ」から「クリーンアップ対象候補」を選択する。ここでは、しばらく開いておらず、多くの容量を占めるファイルを確認できる。確認が終わったら、「詳細オプションを表示」をクリックし、削除されるファイルの一覧を確認する。最後に「ファイルの削除」を押下する。ただし、ダウンロードフォルダーを維持したいのであれば、「ファイルの削除」をクリックしないよう注意したい。
-
-
-
-1）～3）までを実施すると、必要なアプリとファイルだけがパソコンに残ったはずだ。
-
-4）起動時に必要なアプリを整理する
-
-動作の遅いパソコンを使っている場合、起動時に最もストレスを感じるだろう。起動時の待ち時間をなくしたいからといって、何週間も電源を入れっぱなしにしておくのは良い判断とは言えない。そこで、適切な対策を講じる必要がある。
-
-パソコンと自身のメンタルのためにも、ログインしたときに起動するアプリを限定しておくべきだ。「スタートメニュー」から「タスクマネージャー」を入力し、Enterキーを押下する。左側のメニューから「スタートアップ アプリ」を選択する。パソコンの起動時に、ほとんど必要ないアプリが設定されているのに驚くだろう。知っているアプリのみを選択し、よく知らないアプリは変更しないよう注意が必要だ。Windowsが正常に起動するのに必要な場合があるからだ。不要なアプリがあれば、マウスオーバーさせて右クリックし、無効化する。これで、毎朝の数秒を節約できるだろう。
-
-
-
-5）プライバシー設定を調整する
-
-プライバシー設定は極めて重要なポイントだ。パソコンの動作を高速化するだけでなく、位置情報やマイクなどアプリの使用方法に関する設定もできる。
-
-スタートメニューの「設定」から、「プライバシーとセキュリティ」を選択する。「アプリのアクセス許可」の下にある位置情報、カメラ、マイクなどの項目を確認し、不要なアプリのアクセスを無効化する。
-
-例えば、Microsoftアシスタントを使わないなら、Cortanaのマイク機能を無効化すると良いだろう。また、アプリの通知サービスをすべて無効化することも可能だ。警告を発するようプログラムされているサービスに関しても通知されないようになるが、システムのパフォーマンス向上にとって大きな助けとなるだろう。
-
-インストール済みのアプリに許可している権限を正確に把握できるため、パソコンが正常に動作している場合でも、この設定を確認すると良い。
-
-
-
-
-
-
-
-6）電源オプションを変更する
-
-Windowsの特筆すべき特徴として、電源モードがある。電源に未接続のノートパソコンを使用するときに便利な機能だ。「設定」から「システム」を選択し、「電源とバッテリー」で設定する。「バランス」モードを選択するか、バッテリーが少ないときは「トップクラスの電力効率」を選択する。コンピューターを電源に接続しているにもかかわらず動作が遅い場合は、「最適なパフォーマンス」を選択すると良い。パソコンが高温になり、ファンが大きな音を立てるかもしれないが、高速で動作するだろう。
-
-
-
-7）視覚効果を無効化する
-
-視覚効果のあるアニメーションを無効化するため、Windowsの見栄えが悪くなるかもしれない。しかし、パソコンの動作が非常に遅い場合、見栄えを犠牲にしても高速化する価値はあるだろう。「設定」に進み、「アクセシビリティ」を選択して「視覚効果」をクリックする。続けて、「透明効果」と「アニメーション効果」を無効にする。
-
-
-
-8）パソコンを更新する
-
-パソコンの更新も重要なポイントだ。使われているアプリが最適なパフォーマンスを発揮できるよう修正するために、パソコンを更新することでユーザー体験をより高められる。同時に、攻撃者が悪用する脆弱性に対する必要不可欠な保護を適用できる。
-
-スタートメニューから「Windows Update」と入力して、Enterを押下する。適用可能な更新が一覧表示されるだろう。そして、「ダウンロードとインストール」をクリックするだけだ。必要な更新があればWindowsから通知されるが、最新であることを確認したい場合、この機能を定期的に利用すると良い。
-
-
-
-9）マルウェアを検査する
-
-セキュリティソフトが各種マルウェアをスキャンしている間、メモリー使用量は上昇するが、実行する価値はある。バックグラウンドでスキャンが実行されるのを避けるには、手動で実行するオプションを選択するべきだ。加えて、使用しているセキュリティソフトが最新バージョンになっていることを確認しておきたい。あるいは、ESETの無料オンラインスキャナーを使用する方法も考えられる。マルウェアからパソコンを保護すると、悪意のある目的でパソコンのリソースが犯罪者に使われるのを防ぎ、ファイルやアクティビティ、個人情報の保護にも寄与する。
-
-10）パソコンを再セットアップする
-
-パソコンを完全に初期化するわけではないが、専門家の援助を必要とすることなく、自宅でできる最後の手段だ。上記の対策を講じても効果がなく、初期設定に近い状態からやり直したい場合、パソコンを再セットアップするオプションがある。「設定」、「システム」と進み、「回復」を選択する。そうすると、個人用ファイルを保持するか、すべてを削除して工場出荷時の状態に戻すかのオプションが選べる。「ファイルを保持する」の選択肢を選んだ場合でも、問題が発生すればファイルは失われるリスクがある点は覚えておいてほしい。重要な文書やデータは、必ずバックアップしておく必要がある。
-
-
-
-最後に、起動時に時間がかかりストレスを感じるからといって、何日もシャットダウンせずにパソコンを稼働させ続けるのは避けるべきだ。シャットダウンの代わりにスリープを用いてもよいだろう。しかし、数日に1回はパソコンを再起動しておくべきだ。パソコンの電源を切っても実行中のすべてのプロセスが終了するわけではなく、パソコンを再起動することで必要なインストールや更新が行われ、すべてのアプリが停止されるのだ。]]></summary>
-        <author>
-            <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ランサムウェア攻撃「hit and run」に警戒を、復元するつもり端からなし]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20231025-2802031/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20231025-2802031/"/>
-        <updated>2023-10-25T10:31:10.000Z</updated>
-        <summary type="html"><![CDATA[Impervaは10月24日(米国時間)、ORDBMS（オブジェクトリレーショナルデータベースマネージメントシステム）である「PostgreSQL」に対するランサムウェア攻撃について、実際に観察された攻撃の手法と最近の特徴について伝えた。これまでの一般的な攻撃手法と異なり、「hit and run」をトレードマークとする攻撃の特徴が観察されたという。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「サイバー攻撃を受けた企業」に聞く被害金額　日本ネットワークセキュリティ協会が70社にアンケート]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2310/25/news156.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2310/25/news156.html"/>
-        <updated>2023-10-25T09:54:00.000Z</updated>
-        <summary type="html"><![CDATA[サイバー攻撃を受けた企業は、金額にしてどれだけの被害を受けるのか──日本ネットワークセキュリティ協会が、実際にサイバー攻撃の被害に遭ったことがある企業70社から回答を得たこんなアンケートの結果を公開した。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Movable Type におけるクロスサイトスクリプティングの脆弱性]]></title>
-        <id>https://jvn.jp/jp/JVN39139884/</id>
-        <link href="https://jvn.jp/jp/JVN39139884/"/>
-        <updated>2023-10-25T09:00:00.000Z</updated>
-        <summary type="html"><![CDATA[シックス・アパート株式会社が提供する Movable Type には、クロスサイトスクリプティングの脆弱性が存在します。]]></summary>
-        <author>
-            <name>jvn@jvn.jp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Blog記事]News & Views コラム：変わりゆく未来に想いを馳せて]]></title>
-        <id>https://blog.nic.ad.jp/2023/9322/</id>
-        <link href="https://blog.nic.ad.jp/2023/9322/"/>
-        <updated>2023-10-25T08:00:30.000Z</updated>
-        <summary type="html"><![CDATA[メールマガジンで配信したインターネットに関するコラムを、このブログでもご紹介しています。2023年8月は、IPアドレスやInternet Weekに関連するJPNICの活動でご協力いただいている、株式会社Geolocation Technologyの風間勇人さんにお書きいただきました。業界のお仕事も、伝統文化に関する活動も、全力投球で取り組んでいらっしゃる様子がうかがえます。]]></summary>
-        <author>
-            <name>JPNIC Web</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【React】Viteを使って爆速で環境構築を行う]]></title>
-        <id>https://tech-lab.sios.jp/?p=37726</id>
-        <link href="https://tech-lab.sios.jp/archives/37726"/>
-        <updated>2023-10-25T06:47:12.000Z</updated>
-        <summary type="html"><![CDATA[今回は、ViteでReactの環境を構築する方法について書きました。内容はいろんなところの焼き増し記事になります。なので、自分の考えを多めに書いておきます。それでも短くなってしまったので、軽めに誰かの手助けになればよいな [...]
-【React】Viteを使って爆速で環境構築を行う first appeared on SIOS Tech. Lab.]]></summary>
-        <author>
-            <name>龍：Ryu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[トピックス]IGF 2023に向けた国内IGF活動活発化チーム第41回会合開催のご案内]]></title>
-        <id>https://www.nic.ad.jp/ja/topics/2023/20231025-01.html</id>
-        <link href="https://www.nic.ad.jp/ja/topics/2023/20231025-01.html"/>
-        <updated>2023-10-25T06:18:27.000Z</updated>
-        <author>
-            <name>JPNIC Web</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[QNAP、NASへの攻撃を確認し攻撃元サーバを停止させる]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20231025-2800907/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20231025-2800907/"/>
-        <updated>2023-10-25T06:05:52.000Z</updated>
-        <summary type="html"><![CDATA[QNAP Systemsはこのほど、インターネット上に公開されているNASデバイスを標的としたパスワード攻撃を検出し、これを防止したと発表した。QNAP製品セキュリティインシデント対応チーム(QNAP PSIRT)はこの攻撃を検出後、7時間以内にQuFirewallを介して数百のゾンビネットワークIPをブロックしたという。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rockwell Automation製Stratix 5800およびStratix 5200における権限昇格の問題]]></title>
-        <id>https://jvn.jp/vu/JVNVU98496793/</id>
-        <link href="https://jvn.jp/vu/JVNVU98496793/"/>
-        <updated>2023-10-25T05:30:15.000Z</updated>
-        <summary type="html"><![CDATA[Rockwell Automationが提供するStratix 5800およびStratix 5200には、Cisco IOS XE Softwareの既知の脆弱性を悪用され、権限を昇格される問題が存在します。]]></summary>
-        <author>
-            <name>jvn@jvn.jp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenSSLにおける暗号鍵と初期化ベクトルの長さに関する処理の問題（OpenSSL Security Advisory [24th October 2023]）]]></title>
-        <id>https://jvn.jp/vu/JVNVU99631663/</id>
-        <link href="https://jvn.jp/vu/JVNVU99631663/"/>
-        <updated>2023-10-25T05:30:00.000Z</updated>
-        <summary type="html"><![CDATA[OpenSSL Projectより、OpenSSL Security Advisory [24th October 2023]（Incorrect cipher key & IV length processing (CVE-2023-5363)）が公開されました。]]></summary>
-        <author>
-            <name>jvn@jvn.jp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1Passwordが脅威アクターの活動を検出、原因はOktaサポートシステム]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20231025-2800855/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20231025-2800855/"/>
-        <updated>2023-10-25T04:48:49.000Z</updated>
-        <summary type="html"><![CDATA[1Passwordは10月23日(加国時間)、サポートシステムのインシデントに関連して自社のOktaインスタンスで不審なアクティビティを検出したと伝えた。1Passwordはアイデンティティ・アクセス管理企業「Okta」のサービスを従業員向けアプリの管理に使用しており、9月29日にこのOktaのインスタンスで不審な活動を検出したという。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[セイコー、6万件の漏えい明らかに　8月発表のランサムウェア攻撃で]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2310/25/news091.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2310/25/news091.html"/>
-        <updated>2023-10-25T02:15:00.000Z</updated>
-        <summary type="html"><![CDATA[セイコーグループ社が、8月に発表したランサムウェア攻撃の被害によって、グループ企業で管理していた個人情報など約6万件が漏えいしたことが分かったと発表した。同社は8月にランサムウェア攻撃を受けたことを公表。情報漏えいの事実を確認したとし、影響範囲の調査を進めていた。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1PasswordにOkta悪用のサイバー攻撃　「ユーザーデータなどは侵害されていない」]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2310/25/news086.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2310/25/news086.html"/>
-        <updated>2023-10-25T01:27:00.000Z</updated>
-        <summary type="html"><![CDATA[パスワード管理ツールの1Passwordは、従業員向けアプリ管理に使っているOktaのツール経由で不審なアクティビティが検出されたと発表した。その後の調査でユーザーデータなどは侵害されていなかったと報告した。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[知っておくとちょっと便利！時刻の確認や修正を行う date コマンド～その2～]]></title>
-        <id>https://tech-lab.sios.jp/?p=37360</id>
-        <link href="https://tech-lab.sios.jp/archives/37360"/>
-        <updated>2023-10-24T23:55:23.000Z</updated>
-        <summary type="html"><![CDATA[今号では、前号に引き続き date コマンドの使い方やオプションについてご紹介します！ 前号でご紹介した「知っておくとちょっと便利！正規表現の活用法1」もぜひご参照くださいね。 時刻のフォーマットを指定する date コ [...]
-知っておくとちょっと便利！時刻の確認や修正を行う date コマンド～その2～ first appeared on SIOS Tech. Lab.]]></summary>
-        <author>
-            <name>貝野 友香</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【2023年10月】OSSサポートエンジニアが気になった！OSS最新ニュース]]></title>
-        <id>https://tech-lab.sios.jp/?p=37358</id>
-        <link href="https://tech-lab.sios.jp/archives/37358"/>
-        <updated>2023-10-24T23:53:17.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは！ 今月も「OSSのサポートエンジニアが気になった！OSSの最新ニュース」をお届けします。 日経 BP が隔月で発行している情報誌「日経Linux」が、2024年1月号 (2023年12月発売) をもってで休刊 [...]
-【2023年10月】OSSサポートエンジニアが気になった！OSS最新ニュース first appeared on SIOS Tech. Lab.]]></summary>
-        <author>
-            <name>貝野 友香</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[シスコのネットワークOS「 IOS XE」に複数の重大な脆弱性、すぐに更新を]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20231025-2800832/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20231025-2800832/"/>
-        <updated>2023-10-24T23:44:52.000Z</updated>
-        <summary type="html"><![CDATA[2023年10月、シスコシステムズのネットワークOS「Cisco IOS XE」において、2つの重大な脆弱性が発覚した。2つの脆弱性とは深刻度10.0の「CVE-2023-20198」と深刻度7.2の「CVE-2023-20273」。同社からセキュリティアップデートが提供されており、アップデートを適用することが推奨されている。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NTTマーケティングアクトProCX 元派遣社員による不正持ち出し、森永乳業も被害に]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2023/10/25/50148.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2023/10/25/50148.html"/>
-        <updated>2023-10-24T23:05:12.000Z</updated>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NTTマーケティングアクトProCX 元派遣社員による不正持ち出し、山田養蜂場も被害に]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2023/10/25/50147.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2023/10/25/50147.html"/>
-        <updated>2023-10-24T23:05:07.000Z</updated>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NTTマーケティングアクトProCX 元派遣社員 約900万件の顧客情報を不正に持ち出し、一部カード情報も含む]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2023/10/25/50146.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2023/10/25/50146.html"/>
-        <updated>2023-10-24T23:05:03.000Z</updated>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「セキュリティ対応組織の教科書」第3.1版公開、追加説明やフィードバック反映]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2023/10/25/50145.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2023/10/25/50145.html"/>
-        <updated>2023-10-24T23:00:27.000Z</updated>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2023年第3四半期の脆弱性届出状況、引き続きWebアプリとXSSが最多]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2023/10/25/50144.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2023/10/25/50144.html"/>
-        <updated>2023-10-24T23:00:22.000Z</updated>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[HP ThinUpdate にサーバ証明書の検証不備の脆弱性]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2023/10/25/50143.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2023/10/25/50143.html"/>
-        <updated>2023-10-24T23:00:18.000Z</updated>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Cisco 製 Cisco IOS XE の Web UI に権限昇格の脆弱性]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2023/10/25/50142.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2023/10/25/50142.html"/>
-        <updated>2023-10-24T23:00:13.000Z</updated>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Citrix ADCおよびCitrix Gatewayの脆弱性（CVE-2023-4966）に注意を呼びかけ]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2023/10/25/50141.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2023/10/25/50141.html"/>
-        <updated>2023-10-24T23:00:07.000Z</updated>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apache HTTP Server 2.4 に複数の脆弱性]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2023/10/25/50140.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2023/10/25/50140.html"/>
-        <updated>2023-10-24T23:00:03.000Z</updated>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Play Protect、アプリインストール時のコードレベルでのスキャン機能追加へ]]></title>
-        <id>https://security.srad.jp/story/23/10/23/2120249/</id>
-        <link href="https://security.srad.jp/story/23/10/23/2120249/"/>
-        <updated>2023-10-24T22:09:00.000Z</updated>
-        <summary type="html"><![CDATA[headless 曰く、Google が Android でアプリインストール時の Google Play Protect によるリアルタイムスキャン機能を強化するそうだ
-(Google Security Blog の記事、
-Ars Technica の記事、
-Android Police の記事、
-Bleeping Computer の記事)。
-
-Google Play Protect は Google Play 以外で入手したアプリに対しても、インストール時にリアルタイムスキャンを行うが、これまでは既知のマルウェアおよび、デバイス上の機械学習による疑わしいアプリを検出する仕組みだった。今回のリアルタイムスキャン機能強化では、コードレベルでのスキャンが可能となり、これまでにスキャンされたことのないアプリのインストール時にはスキャン実行が推奨される。
-
-推奨といってもスキャンせずにインストールするオプションが用意されているわけではなく、もう一つのオプションはインストールしないというものだ。スキャン実行時にはアプリの一部の情報が Google に送信され、問題が見つかった場合はインストールできない。新機能はインドで最初にロールアウトし、今後数か月の間にすべての地域に拡大していくとのことだ。
- すべて読む | セキュリティセクション | Google | セキュリティ | ソフトウェア | Android |     
-  関連ストーリー： 
-Google Pixel 8 / 8 Pro 発表、Android 14 も正式リリース 2023年10月05日 
-米政府、IoT向けセキュリティ認定・ラベルプログラム「US Cyber Trust Mark」を発表 2023年07月21日 
-Microsoft、クラウド上でパスワード付きZIPファイルをスキャンか。Googleは公式発表 2023年05月19日]]></summary>
-        <author>
-            <name>nagazou</name>
         </author>
     </entry>
 </feed>
