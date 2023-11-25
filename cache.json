@@ -470,16 +470,6 @@
           "wordCount": 391,
           "title": "Weekly Report: JPCERT/CCが「フィッシングサイト経由の認証情報窃取とドメイン名ハイジャック事件」を公開",
           "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
-        },
-        {
-          "id": "https://www.jpcert.or.jp/at/2023/at230022.html",
-          "author": null,
-          "description": "",
-          "link": "https://www.jpcert.or.jp/at/2023/at230022.html",
-          "publishedOn": "2023-10-26T06:10:00.000Z",
-          "wordCount": 373,
-          "title": "注意喚起: ProselfのXML外部実体参照（XXE）に関する脆弱性を悪用する攻撃の注意喚起  (更新)",
-          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
         }
       ]
     },
@@ -997,26 +987,6 @@
           "wordCount": 3515,
           "title": "Black Friday and Cyber Monday Scams: Beware of the Pitfalls",
           "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2022/10/300x200_Blog_092522.png"
-        },
-        {
-          "id": "https://www.mcafee.com/blogs/?p=175680",
-          "author": "Amy Bunn",
-          "description": "Hackers love Ryan Gosling. In fact, hackers use his name as bait more than any other celebrity.  With that, the...\nThe post McAfee 2023 Hacker Celebrity Hot List – Why Hackers Love Ryan Gosling so Much appeared first on McAfee Blog.",
-          "link": "https://www.mcafee.com/blogs/internet-security/mcafee-2023-hacker-celebrity-hot-list/",
-          "publishedOn": "2023-10-26T14:18:20.000Z",
-          "wordCount": 3698,
-          "title": "McAfee 2023 Hacker Celebrity Hot List – Why Hackers Love Ryan Gosling so Much",
-          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2023/10/300x200_Blog_Hacker-List.png"
-        },
-        {
-          "id": "https://securingtomorrow.mcafee.com/?p=97282",
-          "author": "McAfee",
-          "description": "Black Friday and Cyber Monday have practically become holidays themselves, as each year, they immediately shift our attention from turkey and pumpkin pie to holiday shopping. Let’s look at these two holidays and how their popularity can impact users’ online security.\nThe post Secure Your Black Friday & Cyber Monday Purchases appeared first on McAfee Blog.",
-          "link": "https://www.mcafee.com/blogs/family-safety/black-friday-cyber-monday-safe-online-shopping/",
-          "publishedOn": "2023-10-26T13:00:57.000Z",
-          "wordCount": 3282,
-          "title": "Secure Your Black Friday & Cyber Monday Purchases",
-          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2023/08/300x200_Blog_RemcosRat-Malware.png"
         }
       ]
     },
@@ -1549,36 +1519,6 @@
           "wordCount": 1864,
           "title": "生成AIでブログ記事の宣伝(画像付き)を作成してXにPostするOSSを作り、ブログのPRを効率化しました",
           "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2023/11/Picture4.png"
-        },
-        {
-          "id": "https://tech-lab.sios.jp/?p=37740",
-          "author": "山本",
-          "description": "こんにちは。サイオステクノロジー OSS サポート担当 山本 です。 今回は systemd + rsyslog な環境でどうしてもシステムパフォーマンスを優先させたい場合にもしかしたら役に立つかもしれない、journa [...]\njournald をログファイルに記録させずに rsyslog のログファイルに記録する first appeared on SIOS Tech. Lab.",
-          "link": "https://tech-lab.sios.jp/archives/37740",
-          "publishedOn": "2023-10-26T01:33:41.000Z",
-          "wordCount": null,
-          "title": "journald をログファイルに記録させずに rsyslog のログファイルに記録する",
-          "imageUrl": null
-        },
-        {
-          "id": "https://tech-lab.sios.jp/?p=37757",
-          "author": "なーが",
-          "description": "はじめに こんにちは！中途入社のなーがです。前回はAzure Pipelinesのクラスターエンドポイント変更時の認証エラー解決方法でしたが、今回はIP ネットワーク制限をかけたストレージアカウントにアクセスする方法につ [...]\nAzure：IP ネットワーク制限をかけたストレージアカウントにアクセスする方法 first appeared on SIOS Tech. Lab.",
-          "link": "https://tech-lab.sios.jp/archives/37757",
-          "publishedOn": "2023-10-26T01:22:53.000Z",
-          "wordCount": null,
-          "title": "Azure：IP ネットワーク制限をかけたストレージアカウントにアクセスする方法",
-          "imageUrl": null
-        },
-        {
-          "id": "https://tech-lab.sios.jp/?p=37743",
-          "author": "なーが",
-          "description": "はじめに こんにちは！中途入社のなーがです。前回はAzure Service Local Fabric Clusterの環境構築方法についての内容でしたが、今回はMicrosoft Entra IDの「エンタープライズア [...]\nAzure：Microsoft Entra IDの「エンタープライズアプリケーション」と「アプリの登録」の違いでハマった話 first appeared on SIOS Tech. Lab.",
-          "link": "https://tech-lab.sios.jp/archives/37743",
-          "publishedOn": "2023-10-26T01:15:07.000Z",
-          "wordCount": null,
-          "title": "Azure：Microsoft Entra IDの「エンタープライズアプリケーション」と「アプリの登録」の違いでハマった話",
-          "imageUrl": null
         }
       ]
     },
@@ -2608,6 +2548,16 @@
       "siteUrl": "https://jvn.jp/",
       "articles": [
         {
+          "id": "https://jvn.jp/vu/JVNVU98496793/",
+          "author": "jvn@jvn.jp",
+          "description": "Rockwell Automationが提供するStratix 5800およびStratix 5200には、Cisco IOS XE Softwareの既知の脆弱性を悪用され、権限を昇格されるなどの問題が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU98496793/",
+          "publishedOn": "2023-11-24T04:30:15.000Z",
+          "wordCount": 142,
+          "title": "Rockwell Automation製Stratix 5800およびStratix 5200における複数の脆弱性",
+          "imageUrl": null
+        },
+        {
           "id": "https://jvn.jp/vu/JVNVU97193440/",
           "author": "jvn@jvn.jp",
           "description": "Keysight Technologies社が提供する複数の製品には、信頼できないデータのデシリアライゼーションの脆弱性が存在します。",
@@ -3126,16 +3076,6 @@
           "wordCount": null,
           "title": "baserCMS における複数の脆弱性",
           "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU97149791/",
-          "author": "jvn@jvn.jp",
-          "description": "Advanced Micro Devices Inc. の提供する複数のWindowsカーネルドライバーには、IOCTLに対する不十分なアクセス制御の脆弱性が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU97149791/",
-          "publishedOn": "2023-10-26T01:00:00.000Z",
-          "wordCount": null,
-          "title": "Advanced Micro Devices製WindowsカーネルドライバーにおけるIOCTLに対する不十分なアクセス制御の脆弱性",
-          "imageUrl": null
         }
       ]
     },
@@ -3253,6 +3193,16 @@
       "feedUrl": "https://srad.jp/security.rss",
       "siteUrl": "https://security.srad.jp/",
       "articles": [
+        {
+          "id": "https://apple.srad.jp/story/23/11/25/0650214/",
+          "author": "headless",
+          "description": "不正に改変したウェブページを通じて偽のブラウザーアップデートをダウンロードさせる ClearFake キャンペーンはこれまで Windows ユーザーをターゲットにしていたが、Mac ユーザーを対象にしたものが登場した\n(Malwarebytes のブログ記事、\n9to5Mac の記事)。\n\nMac 版の ClearFake キャンペーンは Apple SafariやGoogle Chromeの偽アップデートをダウンロードさせるものだ。Safariの偽ダウンロードページに掲載されているアイコンは古いデザインだが、サポートページへのリンクもあり、ダウンロードファイルの説明も本物らしく見える。しかし、ダウンロードした.dmgファイルの内容はAtomic macOS Stealer (AMOS) と呼ばれる情報収集型マルウェア(stealer)だという。\n\nAMOSはパスワードやキーチェーンのほか、さまざまなファイルを収集してサーバーに送信する。今春初めて発見され、9月にはGoogle検索を通じた不正広告キャンペーンで配布されていた。\n すべて読む | アップルセクション | Chrome | セキュリティ | Safari | アップル |     \n  関連ストーリー： \niPhone全モデルと2020年以降のMacからパスワード等を盗み出す方法が発見される 2023年11月02日 \nAppleの新しいソフトウェアリリース形態「緊急セキュリティ対応」 2023年05月04日 \n最新版以外の macOS では既知の脆弱性がすべて修正されるとは限らない 2022年10月30日 \nMicrosoft が発見した macOS の脆弱性「Shrootless」 2021年10月31日 \n3万台近いMacに感染しているが、まだ活動開始していないマルウェア「Silver Sparrow」 2021年02月23日 \nAppleの公証を受けたマルウェアによるアドウェアキャンペーンが発生 2020年09月03日 \nMalwarebytes調べ、Macに対する脅威がWindowsに対する脅威を初めて上回る 2020年02月12日 \nMac App Store、不正な処理を行っていたアプリについて通報後も1か月放置 2018年09月13日 \n10年以上にわたり、数百万人から情報をこっそり収集していたMac向けマルウェア 2018年01月17日 \n偽のSymantecブログを通じてMacのマルウェアが配布される 2017年11月29日 \nMacを狙うマルウェア、2016年に前年比で744％も増加 2017年04月11日 \nMac OS XのKeychainアクセス許可ダイアログを自動でクリックするマルウェア 2015年09月07日 \nThunderbolt経由でMacに感染するマルウェア 2015年01月13日 \n猛威をふるうMacを狙ったマルウェア「iWorm」 2014年10月06日",
+          "link": "https://apple.srad.jp/story/23/11/25/0650214/",
+          "publishedOn": "2023-11-25T07:10:00.000Z",
+          "wordCount": 2013,
+          "title": "偽のブラウザーアップデートをダウンロードさせるClearFakeキャンペーン、Mac版が登場",
+          "imageUrl": "https://srad.jp/static/topics/chrome_64.png"
+        },
         {
           "id": "https://security.srad.jp/story/23/11/23/1947245/",
           "author": "nagazou",
@@ -3551,16 +3501,6 @@
           "publishedOn": "2023-10-28T06:53:00.000Z",
           "wordCount": null,
           "title": "セイコーグループ、7月に発生したランサムウェア被害で6万人の個人情報流出を確認",
-          "imageUrl": null
-        },
-        {
-          "id": "https://security.srad.jp/story/23/10/25/1310241/",
-          "author": "nagazou",
-          "description": "東京大学は24日、大学のコンピューターシステムが標的型攻撃メールによってマルウェアに感染し、学生や教職員などの約4300人分の個人情報（氏名、住所など）が流出した可能性があると発表した。在宅勤務の教員が実在する組織名をかたったメールを2022年7月に受信、感染したファイルを開いた結果、個人情報が流出したとされている（東京大学発表、日経新聞）。 \n\n漏洩した可能性のある情報は以下の通り。\n・東京大学関係者の個人情報（2409件）\n・学会会員やイベント参加者の情報（1082件）\n・他大学で授業を受けていた学生の情報（796件）\n・過去の成績や試験問題（24件）\n・教員の評価（30件）\n すべて読む | セキュリティセクション | セキュリティ | 教育 | 情報漏洩 |     \n  関連ストーリー： \nパスワードに『,』を含めておくと、流出時の被害確率が下がるかもしれない 2022年10月14日 \nインド政府、企業や政府機関にサイバーインシデント認識後 6 時間以内の報告義務付けへ 2022年05月03日 \nメールによるパスワード付きファイルの受信禁止広がる。マルウェア拡散防止で 2020年11月20日 \nマルウエア「Emotet」を拡散させる攻撃メール、7月中旬から拡散再開を観測 2020年08月03日 \n三菱電機に対する不正アクセス、同社が概要を公開 2020年02月17日",
-          "link": "https://security.srad.jp/story/23/10/25/1310241/",
-          "publishedOn": "2023-10-26T05:27:00.000Z",
-          "wordCount": null,
-          "title": "東京大学、マルウェア感染で個人情報流出か",
           "imageUrl": null
         }
       ]
@@ -4869,76 +4809,6 @@
           "wordCount": null,
           "title": "マルウェアのアンチデバッグ機能自動識別ツール「AntiDebugSeeker」",
           "imageUrl": null
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2023/10/26/50155.html",
-          "author": null,
-          "description": "",
-          "link": "https://scan.netsecurity.ne.jp/article/2023/10/26/50155.html",
-          "publishedOn": "2023-10-25T23:15:03.000Z",
-          "wordCount": null,
-          "title": "サイバーセキュリティ版「賽の河原」？ CVE フィード自動化への Airbnb の挑戦",
-          "imageUrl": null
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2023/10/26/50154.html",
-          "author": null,
-          "description": "",
-          "link": "https://scan.netsecurity.ne.jp/article/2023/10/26/50154.html",
-          "publishedOn": "2023-10-25T23:10:03.000Z",
-          "wordCount": null,
-          "title": "困っている人みんなあつまれ！ セキュリティ運用の森（前編）Internet Week 2023",
-          "imageUrl": null
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2023/10/26/50153.html",
-          "author": null,
-          "description": "",
-          "link": "https://scan.netsecurity.ne.jp/article/2023/10/26/50153.html",
-          "publishedOn": "2023-10-25T23:05:12.000Z",
-          "wordCount": null,
-          "title": "カシオの ICT教育アプリ「ClassPad.net」への不正アクセス、千葉県の県立学校職員及び生徒も被害対象に",
-          "imageUrl": null
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2023/10/26/50152.html",
-          "author": null,
-          "description": "",
-          "link": "https://scan.netsecurity.ne.jp/article/2023/10/26/50152.html",
-          "publishedOn": "2023-10-25T23:05:07.000Z",
-          "wordCount": null,
-          "title": "カシオの ICT教育アプリ「ClassPad.net」開発環境データベースに不正アクセス、国内外の顧客の個人情報漏えい",
-          "imageUrl": null
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2023/10/26/50151.html",
-          "author": null,
-          "description": "",
-          "link": "https://scan.netsecurity.ne.jp/article/2023/10/26/50151.html",
-          "publishedOn": "2023-10-25T23:05:03.000Z",
-          "wordCount": null,
-          "title": "メーカーで確認できていなかった脆弱性が原因 ～ 国立科学博物館のメール関連システムに不正アクセス",
-          "imageUrl": null
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2023/10/26/50150.html",
-          "author": null,
-          "description": "",
-          "link": "https://scan.netsecurity.ne.jp/article/2023/10/26/50150.html",
-          "publishedOn": "2023-10-25T23:00:09.000Z",
-          "wordCount": null,
-          "title": "BAS SSE SASE 他が期待ピークに ～ ガートナー セキュリティ ハイプ・サイクル2023 日本版",
-          "imageUrl": null
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2023/10/26/50149.html",
-          "author": null,
-          "description": "",
-          "link": "https://scan.netsecurity.ne.jp/article/2023/10/26/50149.html",
-          "publishedOn": "2023-10-25T23:00:03.000Z",
-          "wordCount": null,
-          "title": "IPA、オンラインストレージの脆弱性対策呼びかけ",
-          "imageUrl": null
         }
       ]
     },
@@ -4947,6 +4817,16 @@
       "feedUrl": "https://rss.itmedia.co.jp/rss/2.0/news_security.xml",
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2311/24/news166.html",
+          "author": null,
+          "description": "バンダイナムコホールディングスは、子会社の元派遣社員が許可なく商品を外部に持ち出す不正行為を行っていたと発表した。",
+          "link": "https://www.itmedia.co.jp/news/articles/2311/24/news166.html",
+          "publishedOn": "2023-11-24T08:50:00.000Z",
+          "wordCount": 2704,
+          "title": "バンダイナムコでまた内部不正　廃棄庫から商品持ち出し、8700万円の利益　8年間気付かず",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2311/24/cover_news166.jpg"
+        },
         {
           "id": "https://www.itmedia.co.jp/news/articles/2311/24/news071.html",
           "author": null,
@@ -5346,16 +5226,6 @@
           "wordCount": null,
           "title": "安易すぎるパスワード「admin」、IT管理者も使っていた　管理者用パスワードランキング、スウェーデンの企業が公開",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2310/26/news097.html",
-          "author": null,
-          "description": "就職情報サイト「マイナビ」の応募者管理システム「MIWS」で、企業が応募者データのCSVをダウンロードする際に、別の企業の応募者データが取得される問題が発生していた。",
-          "link": "https://www.itmedia.co.jp/news/articles/2310/26/news097.html",
-          "publishedOn": "2023-10-26T01:53:00.000Z",
-          "wordCount": null,
-          "title": "「マイナビ」で応募者の個人情報漏えい　別の企業の応募者データ取得できる状態、1年半にわたり",
-          "imageUrl": null
         }
       ]
     },
@@ -5364,6 +5234,16 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/weekly/1549442.html",
+          "author": null,
+          "description": "「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/weekly/1549442.html",
+          "publishedOn": "2023-11-24T10:00:00.000Z",
+          "wordCount": 4604,
+          "title": "見出しでわかる IT界隈・今週の重要ニュース：全84本［2023/11/16～11/22］",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1549/442/shutterstock_1391033204_main.jpg"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/1549463.html",
           "author": null,
@@ -7128,6 +7008,76 @@
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
         {
+          "id": "https://news.mynavi.jp/techplus/article/20231125-2825229/",
+          "author": null,
+          "description": "米国土安全保障省サイバーセキュリティ・インフラストラクチャセキュリティ庁(CISA)は11月21日(米国時間)、「Citrix Bleed」と名付けられた脆弱性CVE-2023-4966を悪用するランサムウェア「LockBit 3.0」に関連する戦術、技術、手順(TTPs)、および検出方法を公開した。今回はアップデート適用後に侵害の有無を調査することが推奨されている。",
+          "link": "https://news.mynavi.jp/techplus/article/20231125-2825229/",
+          "publishedOn": "2023-11-25T07:47:58.000Z",
+          "wordCount": 1799,
+          "title": "ランサムウェア「LockBit 3.0」がCitrixの脆弱性悪用して攻撃、CISAが警戒発表",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231125-2825229/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231125-2826164/",
+          "author": null,
+          "description": "米国土安全保障省サイバーセキュリティ・インフラストラクチャセキュリティ庁（CISA）は11月22日(米国時間)、Mozilla FirefoxおよびThunderbirdに複数の脆弱性が存在するとして、注意を喚起した。これらの脆弱性を悪用して、攻撃者がシステムの制御権を奪う可能性がある。",
+          "link": "https://news.mynavi.jp/techplus/article/20231125-2826164/",
+          "publishedOn": "2023-11-25T06:05:19.000Z",
+          "wordCount": 1917,
+          "title": "FirefoxとThunderbirdに脆弱性、更新プログラムの適用を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231125-2826164/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231125-2826113/",
+          "author": null,
+          "description": "米国土安全保障省サイバーセキュリティ・インフラストラクチャセキュリティ庁（CISA）は11月22日(米国時間)、Adobe ColdFusionに複数の脆弱性が存在するとして、注意を喚起した。攻撃者がこの脆弱性を悪用して、システム制御権を奪う危険性がある。",
+          "link": "https://news.mynavi.jp/techplus/article/20231125-2826113/",
+          "publishedOn": "2023-11-25T01:10:49.000Z",
+          "wordCount": 3152,
+          "title": "Adobe ColdFusionの緊急脆弱性、CISAが更新を勧告",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231125-2826113/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231125-2826101/",
+          "author": null,
+          "description": "Blackwing Intelligenceは11月21日(米国時間)、Windows Hello指紋認証に使用される上位3つの指紋センサーに認証をバイパスできる脆弱性が存在すると報じた。このセキュリティ評価では3社のノートPCやタブレットに搭載された指紋センサーについて検証している。",
+          "link": "https://news.mynavi.jp/techplus/article/20231125-2826101/",
+          "publishedOn": "2023-11-24T23:31:30.000Z",
+          "wordCount": 1755,
+          "title": "Windows Helloの指紋認証センサーに脆弱性、ノートPCの認証バイパスに成功",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231125-2826101/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231124-2826378/",
+          "author": null,
+          "description": "Bleeping Computerは11月21日(米国時間)、情報窃取マルウェア「Lumma」の開発者が期限切れのGoogle Cookieを復元する新機能を宣伝したと報じた。この新機能によりGoogleアカウントを乗っ取ることができるという。",
+          "link": "https://news.mynavi.jp/techplus/article/20231124-2826378/",
+          "publishedOn": "2023-11-24T13:51:47.000Z",
+          "wordCount": 1704,
+          "title": "GoogleのセッションCookieを復元できると主張するマルウェア発見",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231124-2826378/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231124-2826370/",
+          "author": null,
+          "description": "Akamai Technologiesは11月21日(米国時間)、ボットネット構築のためにリモートコード実行のゼロデイの脆弱性が悪用されているとして、注意を呼び掛けた。この攻撃ではマルウェア「Mirai」の亜種が悪用、デフォルトの資格情報のまま公開されているルータとネットワークビデオレコーダが標的になっているという。",
+          "link": "https://news.mynavi.jp/techplus/article/20231124-2826370/",
+          "publishedOn": "2023-11-24T12:59:32.000Z",
+          "wordCount": 1729,
+          "title": "国内メーカー製ルータとネットワークビデオレコーダに脆弱性、注意を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231124-2826370/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231124-2825225/",
+          "author": null,
+          "description": "Check Point Software Technologiesは11月21日(米国時間)、LinuxとWindowsのランサムウェア攻撃を比較研究した調査結果を伝えた。Linuxを標的とするランサムウェアがWindowsのランサムウェアと異なる点は実装の単純さとされ、Linuxの多くはコア部分が基本的な暗号処理のみとされる。",
+          "link": "https://news.mynavi.jp/techplus/article/20231124-2825225/",
+          "publishedOn": "2023-11-24T12:36:27.000Z",
+          "wordCount": 1745,
+          "title": "Linuxのランサムウェアは捉えどころなく検出困難、Windowsには歴史あり",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231124-2825225/ogp_images/ogp.jpg"
+        },
+        {
           "id": "https://news.mynavi.jp/techplus/article/20231124-2825131/",
           "author": null,
           "description": "タニウムは11月22日、米国で開催されたフラッグシップイベント「Tanium Converge 2023」で行われた主要な発表を紹介した。同イベントでは、新たな製品として、自律型エンドポイント管理（AEM）プラットフォームのロードマップが発表された。",
@@ -8385,56 +8335,6 @@
           "publishedOn": "2023-10-26T22:29:41.000Z",
           "wordCount": null,
           "title": "ドメインハイジャック攻撃に警戒を、国内のドメインが不正に移管",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20231026-2803172/",
-          "author": null,
-          "description": "Sucuriは10月25日(米国時間)、Google Chromeのアップデートを装う偽のアップデートによって感染するマルウェア「FakeUpdateRU」の分析と対策を伝えた。最近、このマルウェアの大規模な発生をMalwareBytesのセキュリティ専門家が確認したという。",
-          "link": "https://news.mynavi.jp/techplus/article/20231026-2803172/",
-          "publishedOn": "2023-10-26T11:04:13.000Z",
-          "wordCount": null,
-          "title": "Google Chromeの偽アップデートに注意、マルウェアに感染 - 広範囲で発生中",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20231026-2802841/",
-          "author": null,
-          "description": "セイコーグループは10月25日、2023年7月28日に発生したランサムウェア攻撃により一部サーバが侵害され、約6万件の個人情報が漏洩したと発表した。セキュリティ専門会社との調査の結果、セイコーグループ、セイコーウオッチおよびセイコーインスツルの保有する個人情報の漏洩を確認したという。",
-          "link": "https://news.mynavi.jp/techplus/article/20231026-2802841/",
-          "publishedOn": "2023-10-26T10:00:40.000Z",
-          "wordCount": null,
-          "title": "セイコーグループにランサムウェア攻撃、約6万件の個人情報が流出",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20231026-2803036/",
-          "author": null,
-          "description": "クラウドストライクは10月25日、9月に開催した年次イベント「Fal.Con 2023」で発表された製品の最新情報に関する説明会を開催した。説明会では、次世代プラットフォーム「Raptor」や生成AI分析機能「Charlotte AI」などの紹介が行われた。",
-          "link": "https://news.mynavi.jp/techplus/article/20231026-2803036/",
-          "publishedOn": "2023-10-26T07:05:41.000Z",
-          "wordCount": null,
-          "title": "クラウドストライク、生成AI搭載の次世代セキュリティプラットフォーム「Raptor」について説明",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20231026-2801877/",
-          "author": null,
-          "description": "Zscalerは10月24日(米国時間)、「Zscaler ThreatLabz 2023エンタープライズIoT/OT脅威レポート」の概要を伝えた。Zscaler ThreatLabzによると、IoTデバイスの導入は増加傾向にあるが、それにつれてサイバー攻撃も増加しており、IoTデバイスへの攻撃は400%も急増していることが明らかになったという。",
-          "link": "https://news.mynavi.jp/techplus/article/20231026-2801877/",
-          "publishedOn": "2023-10-26T03:07:38.000Z",
-          "wordCount": null,
-          "title": "IoTデバイス狙うマルウェアを介したサイバー攻撃が400%増",
-          "imageUrl": null
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20231026-2801895/",
-          "author": null,
-          "description": "このところ、シスコシステムズのネットワークOS「Cisco IOS XE Software」において、脆弱性の発見が相次いでいる。いずれも攻撃者による悪用が確認されている。同社はセキュリティアドバイザリを繰り返し更新し情報提供を続けているが、状況は依然として厳しい。チェックのタイミングによって侵害の確認が適切に機能しなかった可能性があり、再度の確認が求められる。",
-          "link": "https://news.mynavi.jp/techplus/article/20231026-2801895/",
-          "publishedOn": "2023-10-25T23:25:50.000Z",
-          "wordCount": null,
-          "title": "Cisco IOS XEの脆弱性の確認を、タイミング次第で侵害チェックが機能せず",
           "imageUrl": null
         }
       ]
