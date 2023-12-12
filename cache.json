@@ -597,26 +597,6 @@
           "wordCount": 325,
           "title": "官公需取引におけるBPRに向けたフィージビリティスタディー報告書を公開しました",
           "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
-        },
-        {
-          "id": "https://www.ipa.go.jp/security/seminar/sme/seminar.html",
-          "author": "情報処理推進機構（IPA）",
-          "description": "情報処理推進機構（IPA）の「講習能力養成セミナー」に関する情報です。",
-          "link": "https://www.ipa.go.jp/security/seminar/sme/seminar.html",
-          "publishedOn": "2023-11-12T15:00:00.000Z",
-          "wordCount": 1259,
-          "title": "「講習能力養成セミナー」2023年度の動画配信を開始しました",
-          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
-        },
-        {
-          "id": "https://www.ipa.go.jp/event/2023/agile20231207.html",
-          "author": "情報処理推進機構（IPA）",
-          "description": "情報処理推進機構（IPA）の「アジャイルで組織を幸せにしよう：５つの原則の活用」に関する情報です。",
-          "link": "https://www.ipa.go.jp/event/2023/agile20231207.html",
-          "publishedOn": "2023-11-12T15:00:00.000Z",
-          "wordCount": 279,
-          "title": "「アジャイルで組織を幸せにしよう」ウェビナー開催のご案内",
-          "imageUrl": "https://www.ipa.go.jp/event/2023/doe3um00000034we-img/doe3um000000353c.png"
         }
       ]
     },
@@ -977,26 +957,6 @@
           "wordCount": 3760,
           "title": "10 Tips to Keep Your Data Private Online",
           "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2023/07/300x200_Blog_071423.png"
-        },
-        {
-          "id": "http://blogs.mcafee.com/?p=22747",
-          "author": "McAfee",
-          "description": "Android has, over time, become a popular target for hackers. Recently, McAfee Labs™ found that all new forms of malicious mobile software were solely designed to exploit vulnerabilities in the Android operating system.\nThe post Understanding the Risks of Using an Android Device appeared first on McAfee Blog.",
-          "link": "https://www.mcafee.com/blogs/family-safety/be-aware-android/",
-          "publishedOn": "2023-11-12T15:00:16.000Z",
-          "wordCount": 3275,
-          "title": "Understanding the Risks of Using an Android Device",
-          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2022/09/300x200_Blog_phonetracking.jpg"
-        },
-        {
-          "id": "https://www.mcafee.com/blogs/?p=153065",
-          "author": "McAfee",
-          "description": "Imagine, if you will, a person who goes online each day with the sole mission of triggering confrontation, provoking conflict,...\nThe post Understanding Online Trolls and How to Deal with Them appeared first on McAfee Blog.",
-          "link": "https://www.mcafee.com/blogs/family-safety/6-ways-to-help-your-kids-deal-with-haters-and-harassers-online/",
-          "publishedOn": "2023-11-12T00:30:19.000Z",
-          "wordCount": 3681,
-          "title": "Understanding Online Trolls and How to Deal with Them",
-          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2022/05/300x200_Blog_MFE_Blogs_050922_Blog.jpg"
         }
       ]
     },
@@ -1527,6 +1487,16 @@
       "feedUrl": "https://eset-info.canon-its.jp/RSS.rdf",
       "siteUrl": "https://eset-info.canon-its.jp/",
       "articles": [
+        {
+          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/200903.html",
+          "author": null,
+          "description": "サイバー攻撃を受けるリスクが広く知られ、インターネット通信の安全性が重要視されるようになって久しい。しかし、一般的には、SSLやTLSなどの暗号化通信に関わる用語だけが一人歩きしているような状況かもしれない。この記事では、SSLとTLSの概要と違い、そしてそうした技術に潜む危険性について解説していく｡\n\n本記事は2020年9月3日に掲載した「安全な接続方法「SSL」や「TLS」とは？」に加筆修正をしたものです。\n\n\n\n\n\nSSLとTLSはどのように生まれたのか\n\nSSL（Secure Sockets Layer）やTLS（Transport Layer Security）はインターネット上における通信データを暗号化することで、データの秘匿性を確保するための技術である。そもそも、インターネットにおける通信はパケットと呼ばれる単位で送受信され、原則として暗号化されない。\n\nというのも、インターネットの送受信技術のベースが登場したタイミングでは、今のような全世界的な利用が想定されていなかった。当時、基本的には閉鎖的な環境でのやり取りを前提として設計されたため、通信を暗号化して送受信するという考えには至らなかったのだ。\n\nしかし、1991年にインターネットの父とも言われる、ティム・バーナーズ＝リー（Tim Berners-Lee）によって、インターネットの概念およびWorld Wide Webと呼ばれるWebブラウザーの開発をきっかけに、インターネット利用が普及していくことになった。その過程で、送受信するデータの盗聴リスクが顕在化し、データ暗号化の必要性が認識されるようになった。\n\nSSLのWebブラウザーへの実装は、当時の主要ブラウザーであったNetscape Navigatorの開発元であったネットスケープ社によって進められた。当初開発されていたSSL 1.0では致命的な脆弱性が発覚したことから実装は見送られ、その修正を受けて1994年にSSL 2.0としてリリースされるに至った。\n\n\n\t\n\t\t\n\t\t\tSSL1.0、SSL2.0\n\t\t\t1990年代に発表\n\t\t\n\t\t\n\t\t\tSSL3.0\n\t\t\t1995年にリリースされたが、現在は利用禁止\n\t\t\n\t\t\n\t\t\tTLS 1.0\n\t\t\t1999年に発表され、SSLから移行\n\t\t\n\t\t\n\t\t\tTLS 1.1\n\t\t\t2006年に発表\n\t\t\n\t\t\n\t\t\tTLS 1.2\n\t\t\t2008年に発表\n\t\t\n\t\t\n\t\t\tTLS 1.3\n\t\t\t2018年に発表\n\t\t\n\t\n\n\nSSL、TLSのバージョンと発表年\n\nその後、SSL 2.0が抱える多数の脆弱性を解消したSSL 3.0が1995年にリリースされた。以降、多くのWebサーバー、ブラウザーへ実装されていくことになる。一方で1999年には、IETF（Internet Engineering Task Force）と呼ばれるインターネット技術の標準化、規格を策定する委員会において、TLS 1.0が公表された。\n\nSSLとTLSには原則として互換性がなく、しばらくは併存していたものの、2014年に発覚したPOODLE攻撃に対する脆弱性を踏まえ、TLSへの完全な移行が推奨されることになった。その結果、実質上暗号化通信はTLSに一本化されることになり、SSL自体は暗号化技術としての役目を終えることになった。\n\nしかし、インターネットの歴史において、長らく暗号化通信の代名詞としてSSLが使われてきたことから、今なお暗号化通信を表す言葉としてSSLは用いられる。「SSL/TLS」のように併記されるのはこういった背景が理由であるが、現在では暗号化通信の技術としてはTLSの系譜の技術が利用されている。\n\nSSL/TLS通信とは\n\n盗聴や改ざん、なりすましを防ぐことを目的とした暗号化通信のプロトコルを総称してSSL/TLSと呼ぶ。暗号化通信は今や広く普及し、Webブラウザーを用いてのWebサイトへのアクセス、メールやFTP（File Transfer Protocol）、VPN（Virtual Private Network）などで利用されている。\n\n中でも、オンラインバンキングやECサイトのような金銭のやり取り、あるいは個人情報を収集するようなWebサービスの場合、SSL/TLSの導入は必須とも言える。SSL/TLSの暗号化通信に対応しているWebサイトではWebブラウザーのアドレスバーに鍵のマークが表示される。また、検索エンジンを提供するグーグル社などによる啓蒙活動の結果、ほとんどのWebサイトでSSL/TLSが導入されるようになった。\n\nSSL/TLSを用いた通信は、WebサイトとWebブラウザー間の通信だけではなく、メールサーバーでも利用されてきた。メールクライアントとメールサーバー間のSSL/TLS通信においては、受信時の「POP over SSL/TLS」、送信時の「SMTP over SSL/TLS」の設定が可能となっている。\n\n セキュアなプロトコルとは？通信規格の基本をおさらいする  \n\nサーバー証明書とは\n\nSSL/TLSを用いた暗号化通信の際、サーバーとクライアントでは図1のようなやり取りが行われている。共通鍵暗号方式と公開鍵暗号方式の双方を組み合わせているのが特徴と言える。このような複雑な仕組みになっているのは、通信に関わるさまざまな脅威から守るためだ。これら一連のやり取りにおいて、サーバー証明書は重要な役割を担っている。\n\n\n\n図1：暗号化通信における送受信プロセス\n\n\n送受信のプロセスでは、サーバー証明書の公開鍵を使った暗号化通信によって盗聴を防いでいる。また、暗号化通信にハッシュ関数を含めることで、通信途中での改ざんを検知する。なお、サーバー証明書は、第三者機関がサイト運営元を保証するため、なりすまし対策としても有効だ。サーバー証明書は、認証のレベルによって種類が異なり、担保される安全性のレベルも変わってくる。以下にそれぞれの概要を紹介する。\n\nドメイン認証（DV）\n\nドメイン名の利用権のみを認証する。無料のものもあるなど、低価格かつ短期間で容易に取得できるのが特長だ。ユーザーのデバイスとWebサーバー間の暗号化通信を目的とするため、WebサイトやWebサービスの運営元の実在証明は行われない。そのため、「なりすまし」を防ぐ効果は極めて限定的と言える。\n\n近年、無料で利用できる「Let&rsquo;s Encrypt」といったサーバー証明書もあり、フィッシング詐欺サイトではこうした暗号化通信の証明書が利用されているケースが多くを占めている。こうした背景からも、もはやドメイン認証の導入が安全性を担保しているわけではないと認識しておく必要があるだろう。このように、証明書のレベルとしては高くないため、社内サーバーやメールサーバーなどに適した認証レベルと言える。\n\n企業実在認証（OV）\n\n第三者機関によって、ドメイン名の利用権やWebサイトの運営組織が実在することを証明する。登記事項証明書や電話確認を元に審査が実施されるため、DV認証と比較すると、信頼性が高いと言える。企業・組織のWebサイトや会員情報を保持するWebサービスなどに利用され、ユーザーからの信頼性を向上させる効果が期待できる。\n\nEV認証（EV）\n\nEVはExtended Validationの略であり、先述の企業実在認証（OV）を拡張したものとして提供されている。企業実在認証よりも厳格な審査が必須であり、Webサイトの運営組織が信頼できる点を証明するため、組織の物理的存在、承認者・署名者の認証などが行われる。ECサイトやオンラインバンキングなど、強固なセキュリティが求められるサイトなどで利用される。\n\nなお、サーバー証明書は図2のように、パソコンではユーザーでも容易に確認することができる。ただし、スマートフォン（以下、スマホ）の場合、利用するWebブラウザーによっては確認できない場合もある。参考までに、iPhone版のGoogle Chromeではアドレスバーの「・・・」から、表示される「サイト情報」のメニューをタップすることで確認が可能だ。\n\n\n\n図2：サイバーセキュリティ情報局の証明書の例\n\n\n SSLサーバー証明書はWebサイトの安全性を担保できるのか？  \n\nSSL/TLSに関連する脆弱性\n\nそもそも暗号化通信を利用する経緯を踏まえると、関連する技術が脆弱性を抱えている状態は深刻な被害を招きかねない。しかし、日夜進化を遂げるインターネット技術においては時に脆弱性が生じる。SSL/TLS通信においても、過去に以下のような脆弱性が指摘されてきた。\n\nHeartbleed\n\nSSL/TLS通信を実装するライブラリである、OpenSSLからデータが不正に読み取られる可能性が指摘された。「ハートビート」と呼ばれるOpenSSLの拡張機能を用いることで、ログが残されずにシステムメモリーから情報が漏えいするというこの脆弱性は、多大な被害を及ぼす可能性があったことから、致命的な脆弱性として、当時大きな話題となった。\n\nPOODLE\n\n先述のとおり、SSL3.0が原則利用禁止になるきっかけとなった、深刻な脆弱性として知られている。WebブラウザーとWebサーバー間でやり取りされるデータのうち、クッキーなどに保存された個人情報・機密情報が盗聴されてしまう可能性があった。この脆弱性を受け、WebブラウザーではSSL 3.0が無効化されたバージョンを配付。SSL3.0を利用していたWebサーバーではSSL 3.0を無効にし、最新のTLSを利用することが勧告された。\n\nFREAK\n\n2015年に複数のライブラリで発見された脆弱性であり、「Factoring RSA Export Keys」の略である。過去に利用されていた、強度の弱い暗号鍵を狙い、MITM攻撃によって通信内容を盗聴・改ざんするといった攻撃が可能となる脆弱性だ。該当するライブラリを無効化し、強固な暗号システムを採用したライブラリに更新することで対応がされた。\n\nLogJam\n\n同じく2015年に発覚した脆弱性として知られるのがLogJamだ。DH（Diffie-Hellman）鍵交換における脆弱性であり、この脆弱性を悪用することで、MITM攻撃が可能になり、暗号強度が下がって通信内容が盗聴されてしまう恐れがあった。\n\nPOODLEの脆弱性が発覚した結果、SSLは実質的に利用されなくなったが、TLSも過去のバージョンを含めて脆弱性が発覚している。Heartbleedはその代表例とも言えるが、先述のようにほかにも多くの脆弱性が過去に発覚している。2023年時点で最新バージョンであるTLS 1.3は過去のバージョンの問題点を踏まえて策定されたことから、セキュリティ面、パフォーマンス面で改善を図っている。\n\nSSL-VPNに関する脆弱性\n\n近年、パソコンやスマホなどのモバイル端末が支給され、オフィス外からVPN経由で社内システムへアクセスする機会も増えている。このような場合に利用されるのがSSL-VPNと呼ばれる技術だ。しかし、こうした技術を実装するための製品、ソリューションが脆弱性を抱えている場合がある。過去に大手VPN事業者の製品に脆弱性が発覚したこともあった。\n\nまた、SSL/TLSのサーバー証明書を複数のWebサイトで利用できるワイルドカードについて、その多用を危険視する注意喚起がNSA（米国家安全保障局）からされている。SSL/TLS通信が実装されているからといって、万全ではないという認識がサービスの提供事業者、ユーザーにも求められていると言えるだろう。\n\n SSL-VPNとは？より安全に外部接続を行うために求められる対策を考える  \n\n総合的な対策でWebサイトの安全性確保を\n\nビジネス環境の変化により、かつてないほどにコンプライアンスが重視される時代となった。また、関連して情報漏えいも厳しく問われることとなり、企業・組織における情報セキュリティに対する意識は以前と比較すると高まっている。コロナ禍を経て急速に進んだデジタル化を踏まえて、さまざまな対策を講じた企業・組織も少なくないだろう。\n\nしかし、デジタルの世界では日夜技術革新が進んでおり、そうした技術の悪用を試みる攻撃者の存在がある。すなわち、そうした動きを踏まえ、企業・組織においてもセキュリティ対策を定期的にアップデートしていくことが求められている。\n\nサイバー攻撃の巧妙化は著しく、そうしたセキュリティリスクを適切に評価せず対策を講じなければ、結果として被害は甚大となり得る。その結果として、経営を揺るがしかねないほどの影響を及ぼす可能性もあるとの前提に立ち、自社が提供するWebサイト、Webサービスにおいても適切な対策を講じること、そしてその対策を状況に応じて継続的に改善していくことが重要だ。\n\n Web環境を守るために「今すぐ」取り組むべき3つの対策",
+          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/200903.html",
+          "publishedOn": "2023-12-11T15:00:00.000Z",
+          "wordCount": 259,
+          "title": "SSLやTLSは安全な接続方法なのか？[更新]",
+          "imageUrl": "https://eset-info.canon-its.jp/files/topics/3218_ext_01_0.jpg"
+        },
         {
           "id": "https://eset-info.canon-its.jp/malware_info/term/detail/00210.html",
           "author": null,
@@ -2202,6 +2172,16 @@
       "siteUrl": "https://www.cisa.gov/",
       "articles": [
         {
+          "id": "/node/20469",
+          "author": "CISA",
+          "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.\nCVE-2023-6448 Unitronics Vision PLC and HMI Insecure Default Password \nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.\nAlthough BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.",
+          "link": "https://www.cisa.gov/news-events/alerts/2023/12/11/cisa-adds-one-known-exploited-vulnerability-catalog",
+          "publishedOn": "2023-12-11T12:00:00.000Z",
+          "wordCount": 665,
+          "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+          "imageUrl": null
+        },
+        {
           "id": "/node/20460",
           "author": "CISA",
           "description": "Atlassian has released security updates to address vulnerabilities affecting multiple Atlassian products. A cyber threat actor could exploit one of these vulnerabilities to take control of an affected system.\nCISA encourages users and administrators to review the following advisories and apply the necessary updates or mitigations.\nCVE-2023-22522 - RCE Vulnerability In Confluence Data Center and Confluence Server\nCVE-2023-22524 - RCE Vulnerability in Atlassian Companion App for MacOS\nCVE-2023-22523 - RCE Vulnerability in Assets Discovery\nCVE-2022-1471 - SnakeYAML library RCE Vulnerability impacts Multiple Products",
@@ -2665,6 +2645,36 @@
       "feedUrl": "https://jvn.jp/rss/jvn.rdf",
       "siteUrl": "https://jvn.jp/",
       "articles": [
+        {
+          "id": "https://jvn.jp/vu/JVNVU97499577/",
+          "author": "jvn@jvn.jp",
+          "description": "エレコム株式会社が提供する複数の無線LANルーターには、OSコマンドインジェクションの脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU97499577/",
+          "publishedOn": "2023-12-12T04:00:00.000Z",
+          "wordCount": 171,
+          "title": "エレコム製無線LANルーターにおけるOSコマンドインジェクションの脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU96883262/",
+          "author": "jvn@jvn.jp",
+          "description": "三菱電機製MELSEC iQ-RシリーズおよびMELIPCシリーズのEthernetポートには、リソースの不適切なシャットダウンおよびリリースの脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU96883262/",
+          "publishedOn": "2023-12-12T03:15:00.000Z",
+          "wordCount": 186,
+          "title": "三菱電機製MELSEC iQ-RシリーズおよびMELIPCシリーズのEthernetポートにおけるリソースの不適切なシャットダウンおよびリリースの脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU90984676/",
+          "author": "jvn@jvn.jp",
+          "description": "UEFI実装に用いられる複数の画像処理ライブラリに、種々の脆弱性が発見されています。",
+          "link": "https://jvn.jp/vu/JVNVU90984676/",
+          "publishedOn": "2023-12-12T00:30:00.000Z",
+          "wordCount": 72,
+          "title": "UEFI実装に組み込まれた画像処理ライブラリにおける複数の脆弱性",
+          "imageUrl": null
+        },
         {
           "id": "https://jvn.jp/jp/JVN34145838/",
           "author": "jvn@jvn.jp",
@@ -3170,6 +3180,16 @@
       "siteUrl": "https://ja.wordpress.org",
       "articles": [
         {
+          "id": "https://ja.wordpress.org/?p=7165",
+          "author": "Naoko Takano",
+          "description": "以下は WordPress.org 公式ブログの記事「State of the Word 2023 Recap」を訳したものです。 誤字脱字誤訳などありましたらフォーラムまでお知らせください。 12月11日、WordPr […]",
+          "link": "https://ja.wordpress.org/2023/12/12/state-of-the-word-2023-recap/",
+          "publishedOn": "2023-12-12T01:39:57.000Z",
+          "wordCount": 1564,
+          "title": "State of the Word 2023 の総括",
+          "imageUrl": "https://ja.wordpress.org/files/2023/12/sotw_thumbnail_small.jpg"
+        },
+        {
           "id": "https://ja.wordpress.org/?p=7148",
           "author": "Takayuki Miyoshi",
           "description": "以下は WordPress.org 公式ブログの記事「WordPress 6.4.2 Maintenance & Security Release」を訳したものです。 誤字脱字誤訳などありましたらフォーラムまでお […]",
@@ -3202,16 +3222,6 @@
             "length": "6747134",
             "type": "video/mp4"
           },
-          "imageUrl": "https://s.w.org/images/backgrounds/wordpress-bg-medblue.png"
-        },
-        {
-          "id": "https://ja.wordpress.org/?p=7078",
-          "author": "Takayuki Miyoshi",
-          "description": "以下は WordPress.org 公式ブログの記事「WordPress 6.4.1 Maintenance Release」を訳したものです。 誤字脱字誤訳などありましたらフォーラムまでお知らせください。 WordPr […]",
-          "link": "https://ja.wordpress.org/2023/11/12/wordpress-6-4-1-maintenance-release/",
-          "publishedOn": "2023-11-12T03:53:35.000Z",
-          "wordCount": 1252,
-          "title": "WordPress 6.4.1 メンテナンスリリース",
           "imageUrl": "https://s.w.org/images/backgrounds/wordpress-bg-medblue.png"
         }
       ]
@@ -3450,16 +3460,6 @@
           "wordCount": 2946,
           "title": "極めて深刻な食料不足に陥った場合、カロリーが高い作物への転換を指示できる制度を検討",
           "imageUrl": "https://srad.jp/static/topics/earth_64.png"
-        },
-        {
-          "id": "https://security.srad.jp/story/23/11/12/0217256/",
-          "author": "headless",
-          "description": "Microsoft は 9 日、Windows Server 2012/R2 ファミリーで拡張セキュリティ更新プログラム (ESU) が利用可能になったと改めて発表した\n(Windows IT Pro Blog の記事、\nBetaNews の記事、\nBleepingComputer の記事)。\n\nWindows Server 2012/R2 の延長サポートは 10 月 10 日に終了しているが、ESU の提供計画は以前から示されており、10 月 10 日から購入可能になっていた\n(Windows Server 2012 のライフサイクル)。ESU は 1 年単位で 3 年間提供され、1 年目からの連続購入が必要だ。これにより、最長で 2026 年 10 月 13 日まで重要なセキュリティ更新プログラムを受け取ることが可能となる。既に Windows Server 2012/R2 を Azure へ移行している場合、ESU は無料で自動的に適用される。なお、いずれの場合も 8 月 8 日以降のサービス スタック更新プログラムの適用が必要だ。スラドの皆さんの管理下に Windows Server 2012/R2 はどれぐらいあるだろうか。\n すべて読む | セキュリティセクション | アップグレード | セキュリティ | Windows | IT |     \n  関連ストーリー： \nWindows 8.1 サポート終了、Windows 7 ESU 終了 2023年01月12日 \nWindows Server 2012/2012 R2は10月で延長サポート終了 2023年01月10日 \nWindows 7 拡張セキュリティ更新プログラム、2年目が間もなく終了し、最終年の3年目へ 2021年11月16日 \nMicrosoft、Windows Server と SQL Server 2012/2012 R2 の拡張セキュリティ更新プログラム提供計画を発表 2021年07月19日 \nWindows 7 拡張セキュリティ更新プログラム1年目、間もなく終了 2020年11月14日 \n新Microsoft Edge、Windows 7のサポートは2021年7月15日まで 2020年04月14日 \nオーストラリア政府、Windows 7/Server 2008/2008 R2の有料セキュリティアップデートに870万豪ドル以上を支払う 2020年01月20日 \nMicrosoft、Windows 10 E5などの利用者にWindows 7サポート終了後のセキュリティ更新1年目を無料提供 2019年08月29日 \nWindows 7延長サポート終了後の有料セキュリティアップデートオプション、4月1日から販売開始 2019年03月09日",
-          "link": "https://security.srad.jp/story/23/11/12/0217256/",
-          "publishedOn": "2023-11-12T02:39:00.000Z",
-          "wordCount": 2175,
-          "title": "Windows Server 2012/R2 拡張セキュリティ更新プログラム、提供開始",
-          "imageUrl": "https://srad.jp/static/topics/windows_64.png"
         }
       ]
     },
@@ -3468,6 +3468,56 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/12/12/50349.html",
+          "author": null,
+          "description": "サイバーレジリエンス法に対する懸念は、10 月にも表明化していた。サイバーレジリエンス法をまとめる際に欧州委員会がオープンソースコミュニティをほとんど無視していたことが明らかになったからだ。幸いなことに最新バージョンはこれらの懸念に対処しているようだ。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/12/12/50349.html",
+          "publishedOn": "2023-12-11T23:10:03.000Z",
+          "wordCount": 927,
+          "title": "オープンソース開発者をパニックに陥れた EUサイバーレジリエンス法 最終決定",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/43438.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/12/12/50348.html",
+          "author": null,
+          "description": "カシオ計算機株式会社は11月8日、10月18日に公表した同社のICT教育アプリ「ClassPad.net」への不正アクセスについて、続報を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/12/12/50348.html",
+          "publishedOn": "2023-12-11T23:05:02.000Z",
+          "wordCount": 792,
+          "title": "カシオの ICT教育アプリ「ClassPad.net」への不正アクセス、人的ミス抑止システムの未整備が原因に挙がる",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/43423.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/12/12/50347.html",
+          "author": null,
+          "description": "フィッシング対策協議会は、マイナポータルを騙るフィッシングの報告を受けているとして、注意喚起を発表した。デジタル庁も同様の注意喚起を発表している。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/12/12/50347.html",
+          "publishedOn": "2023-12-11T23:00:13.000Z",
+          "wordCount": 893,
+          "title": "マイナポータルを騙るフィッシングに注意喚起、第 2 弾はすでに終了",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/43410.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/12/12/50346.html",
+          "author": null,
+          "description": "三菱電機株式会社は12月5日、ペネトレーションテスト支援ツール「CATSploit」の開発を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/12/12/50346.html",
+          "publishedOn": "2023-12-11T23:00:08.000Z",
+          "wordCount": 859,
+          "title": "攻撃シナリオ自動生成、ペネトレーションテスト支援ツール「CATSploit」三菱電機開発",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/43411.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2023/12/12/50345.html",
+          "author": null,
+          "description": "JPCERT/CCは、「JPCERT/CC Eyes」において佐々木勇人氏による「サイバー攻撃被害に係る情報の意図しない開示がもたらす情報共有活動への影響について」と題する記事を公開した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2023/12/12/50345.html",
+          "publishedOn": "2023-12-11T23:00:04.000Z",
+          "wordCount": 914,
+          "title": "「サイバー攻撃被害情報」は誰のものか？ 情報共有のあるべき姿",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/43406.jpg"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2023/12/11/50344.html",
           "author": null,
@@ -4716,6 +4766,26 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2312/12/news112.html",
+          "author": null,
+          "description": "ダイヤモンド社がランサムウェア攻撃を受けたと発表した。現在は「サーバ内に保存されていた情報について確認中」という。",
+          "link": "https://www.itmedia.co.jp/news/articles/2312/12/news112.html",
+          "publishedOn": "2023-12-12T03:33:00.000Z",
+          "wordCount": 2700,
+          "title": "ダイヤモンド社にランサムウェア攻撃　情報漏えいの可能性は",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2312/12/cover_news112.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2312/11/news164.html",
+          "author": null,
+          "description": "VTuberグループ「にじさんじ」を運営するANYCOLORは、同社所属VTuberをかたる詐欺被害が発生したと発表した。金銭や物品をだまし取る被害が起きたと通報があったという。",
+          "link": "https://www.itmedia.co.jp/news/articles/2312/11/news164.html",
+          "publishedOn": "2023-12-11T09:22:00.000Z",
+          "wordCount": 2707,
+          "title": "人気VTuberになりきり金銭を窃取、にじさんじ運営が注意喚起　声や話し方まねて本人と信じ込ませる",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2312/11/cover_news164.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2312/11/news089.html",
           "author": null,
           "description": "人気インディーゲーム「8番出口」の偽アプリを確認したとして、開発者のコタケノトケケさんが注意を呼び掛けている。",
@@ -5172,6 +5242,66 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1553859.html",
+          "author": null,
+          "description": "株式会社コンテックは12月12日、IEEE 802.11ahに対応したイーサネット無線コンバーター2製品を発売した。アンテナ付きの長距離伝送タイプ「RP-WAH-SR1」とアンテナのないコンパクトタイプ「RP-WAH-SR2」で、いずれも価格はオープン。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1553859.html",
+          "publishedOn": "2023-12-12T04:45:00.000Z",
+          "wordCount": 4604,
+          "title": "IEEE 802.11ah対応で最長1km伝送可能なイーサネット無線コンバーター「RP-WAH-SR1/SR2」、コンテックが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1553/859/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1553730.html",
+          "author": null,
+          "description": "X（旧Twitter）のメディアタイムラインがリニューアルされ、利用者の間で賛否両論となっている。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1553730.html",
+          "publishedOn": "2023-12-12T03:27:00.000Z",
+          "wordCount": 4507,
+          "title": "見やすい？ 見づらい？ Xのメディアタイムラインがリニューアル。「初めて知った」の声も【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1553/730/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1553729.html",
+          "author": null,
+          "description": "Apple Watchの所有者のうち、毎日着用する人は半数にも満たないことがMMD研究所が行った「Apple Watchの購入と利用に関する調査」で明らかになった。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1553729.html",
+          "publishedOn": "2023-12-12T03:14:00.000Z",
+          "wordCount": 4511,
+          "title": "せっかく買ったのに…Apple Watchを毎日着用する人は所有者の半数以下、使わない人も4分の1超え【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1553/729/yajiuma-watch_3.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1553789.html",
+          "author": null,
+          "description": "全国で温浴施設の運営を手掛ける株式会社極楽湯とCarstay株式会社は、日帰り温浴施設「極楽湯」の6店舗を車中泊スポットとして提供開始した。車中泊スポット検索サービス「Carstay」から予約できる。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1553789.html",
+          "publishedOn": "2023-12-12T02:50:00.000Z",
+          "wordCount": 4611,
+          "title": "青森～三重の日帰り温浴施設「極楽湯」、フリーWi-Fiつきなどの6店舗が車中泊スポットとしてCarstayで予約可能に",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1553/789/main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1553716.html",
+          "author": null,
+          "description": "株式会社クラスが運営する家具と家電のレンタル・サブスクサービス「CLAS」（クラス）は12月7日、ホームルーター「Speed Wi-Fi HOME 5G L13」の提供を開始した。月額料金は6237円（24カ月プラン、後述の「セット割」利用時）から。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1553716.html",
+          "publishedOn": "2023-12-11T21:50:00.000Z",
+          "wordCount": 4630,
+          "title": "家具・家電サブスクのCLAS、新生活シーズンに“置くだけ”のホームルーター「Speed Wi-Fi HOME 5G L13」提供開始",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1553/716/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/shunlabo/1551237.html",
+          "author": null,
+          "description": "ティーピーリンクジャパン（TP-Link）から、屋外対応のPoEスイッチ「SG2005P-PD」が発売された。防水、防塵、UV耐性の筐体により、屋外にそのまま設置可能となっており、PoE++のInポート×1＆PoE+のOutポート×4の全5ポートが1Gbpsに対応している。これで市場想定価格1万6900円はリーズナブルだ。実際に製品を試してみた。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/shunlabo/1551237.html",
+          "publishedOn": "2023-12-11T21:00:00.000Z",
+          "wordCount": 4641,
+          "title": "屋外配線の悩みを解決するTP-Link「SG2005P-PD」、プルボックスなしで設置でき、PoEで給電・配電も！【\"ここ\"がイチ押し！ 旬モノ実験室】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1551/237/001.JPG"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1553541.html",
           "author": null,
@@ -7325,6 +7455,76 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231212-2839543/",
+          "author": null,
+          "description": "PFUは12月12日、さまざまなIT機器を検知し管理する不正接続防止ツールシェア「iNetSec SF」について、2024年3月1日より新機能を追加して提供することを発表した。",
+          "link": "https://news.mynavi.jp/techplus/article/20231212-2839543/",
+          "publishedOn": "2023-12-12T06:41:19.000Z",
+          "wordCount": 1675,
+          "title": "PFUのiNetSec SFにシャドーIT検知と自動遮断の2機能が追加、3月より",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231212-2839543/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231212-2839421/",
+          "author": null,
+          "description": "Appleは12月11日(米国時間)、iPhone、iPad、Mac、Apple Watchなど複数の製品に複数の脆弱性が存在するとし、アップデートの配信を開始した。今回のセキュリティアップデートには合計43件の脆弱性に対する修正と、さまざまな機能の追加が含まれている。",
+          "link": "https://news.mynavi.jp/techplus/article/20231212-2839421/",
+          "publishedOn": "2023-12-12T04:51:19.000Z",
+          "wordCount": 1949,
+          "title": "Apple製品のセキュリティアップデート開始、iPhoneは新機能追加",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231212-2839421/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231212-2830442/",
+          "author": null,
+          "description": "近年、サプライチェーンの脆弱性を突いたサイバー攻撃が増えている。これについては、世界中の政府が危機感を持っており、例えば、バイデン政権は国家サイバーセキュリティ戦略（National Cybersecurity Strategy）を発表した。本稿では、サプライチェーンに対するサイバー攻撃の現状と対策について説明する。",
+          "link": "https://news.mynavi.jp/techplus/article/20231212-2830442/",
+          "publishedOn": "2023-12-12T04:11:09.000Z",
+          "wordCount": 1812,
+          "title": "サプライチェーンに対するサイバー攻撃の現状と対策",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231212-2830442/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/manufacturesec-3/",
+          "author": null,
+          "description": "製造業に焦点を当てサイバーセキュリティやデータ保護について、さまざまな角度から解説する本連載。第3回は、スマートファクトリー化が製造過程や経営にどのような影響を与えるのか、それに伴って需要が高まるクラウドストレージとはどのようなメリットがあるかなどをみていきます。",
+          "link": "https://news.mynavi.jp/techplus/article/manufacturesec-3/",
+          "publishedOn": "2023-12-12T01:14:21.000Z",
+          "wordCount": 1701,
+          "title": "サイバー攻撃者に狙われる製造業におけるデータ保護 第3回 スマートファクトリーにおけるクラウドストレージの役割とは",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/manufacturesec-3/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231212-2832734/",
+          "author": null,
+          "description": "ESETはこのほど、組織の幹部がサイバーセキュリティの脅威になっているとして、対策を公開した。幹部のセキュリティ意識の低さが従業員へ波及することがあるため、幹部は率先してセキュリティ強化に取り組む姿勢を示すことが重要だとして、5つの対策が紹介されている。",
+          "link": "https://news.mynavi.jp/techplus/article/20231212-2832734/",
+          "publishedOn": "2023-12-12T00:32:20.000Z",
+          "wordCount": 1681,
+          "title": "幹部がサイバーセキュリティの脅威になっている、5つの対策",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231212-2832734/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231212-2838383/",
+          "author": null,
+          "description": "JPCERTコーディネーションセンター(JPCERT/CC)は12月8日、Apache Strutsに脆弱性が存在するとして、注意を喚起した。この脆弱性を悪用されると、攻撃者によって悪意のあるファイルがアップロードされ、リモートコードが実行される恐れがある。",
+          "link": "https://news.mynavi.jp/techplus/article/20231212-2838383/",
+          "publishedOn": "2023-12-11T23:48:19.000Z",
+          "wordCount": 1750,
+          "title": "Apache Strutsにリモートコード実行の脆弱性、速やかに更新を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231212-2838383/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20231212-2838376/",
+          "author": null,
+          "description": "CyberNewsは12月8日(現地時間)、Androidアプリの「Barcode to Sheet」からユーザー情報と企業データが漏洩していることを発見したとして、注意を呼び掛けた。Barcode to Sheetは10万回以上ダウンロードされた人気のバーコードスキャナアプリ。この問題はまだ解決していないと見られ、Barcode to Sheetを利用している場合、すでにデータが漏洩している可能性がある。",
+          "link": "https://news.mynavi.jp/techplus/article/20231212-2838376/",
+          "publishedOn": "2023-12-11T23:24:08.000Z",
+          "wordCount": 1703,
+          "title": "Androidバーコードアプリ「Barcode to Sheet」からデータ漏洩、警戒を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20231212-2838376/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20231211-2838650/",
           "author": null,
