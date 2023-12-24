@@ -1267,16 +1267,6 @@
           "wordCount": 396,
           "title": "【2023年11月号】暴露型ランサムウェア攻撃統計CIGマンスリーレポート",
           "imageUrl": "https://www.mbsd.jp/2023/12/08/assets/images/Thumb_CIG_Monthly_Common.jpg"
-        },
-        {
-          "id": "https://www.mbsd.jp/research/20231124/202310-mbsd-soc/",
-          "author": null,
-          "description": "2023年10月度のMBSD-SOCにおける検知傾向トピックスです。",
-          "link": "https://www.mbsd.jp/research/20231124/202310-mbsd-soc/",
-          "publishedOn": "2023-11-24T09:17:00.000Z",
-          "wordCount": 477,
-          "title": "2023年10月度 MBSD-SOCの検知傾向トピックス",
-          "imageUrl": "https://www.mbsd.jp/2023/11/21/assets/images/8f2cb2aa6b0d5b35fa37ad63d21ff7cb9752051a.PNG"
         }
       ]
     },
@@ -3022,26 +3012,6 @@
           "wordCount": 158,
           "title": "BD製FACSChorusにおける複数の脆弱性",
           "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU98496793/",
-          "author": "jvn@jvn.jp",
-          "description": "Rockwell Automationが提供するStratix 5800およびStratix 5200には、Cisco IOS XE Softwareの既知の脆弱性を悪用され、権限を昇格されるなどの問題が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU98496793/",
-          "publishedOn": "2023-11-24T04:30:15.000Z",
-          "wordCount": 142,
-          "title": "Rockwell Automation製Stratix 5800およびStratix 5200における複数の脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU97193440/",
-          "author": "jvn@jvn.jp",
-          "description": "Keysight Technologies社が提供する複数の製品には、信頼できないデータのデシリアライゼーションの脆弱性が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU97193440/",
-          "publishedOn": "2023-11-24T04:30:00.000Z",
-          "wordCount": 91,
-          "title": "複数のKeysight Technologies製品における信頼できないデータのデシリアライゼーションの脆弱性",
-          "imageUrl": null
         }
       ]
     },
@@ -3293,36 +3263,6 @@
           "wordCount": 2013,
           "title": "偽のブラウザーアップデートをダウンロードさせるClearFakeキャンペーン、Mac版が登場",
           "imageUrl": "https://srad.jp/static/topics/chrome_64.png"
-        },
-        {
-          "id": "https://security.srad.jp/story/23/11/23/1947245/",
-          "author": "nagazou",
-          "description": "headless 曰く、Blackwing Intelligence が Windows Hello 指紋認証を用いるノート PC の指紋センサーを調査し、指紋認証の突破に成功したそうだ\n(Blackwing Intelligence のブログ記事、\nThe Verge の記事、\nGhacks の記事、\nBleeping Computer の記事)。\n\nWindows Hello 指紋認証ではチップ上に指紋データを確認して認証を行う Match on Chip (MoC) と呼ばれる指紋センサーを用いる。MoC では指紋データがホストに送られることはなく、バイオメトリック情報の盗難を懸念する必要もない。MoC 自体にはセンサーのなりすましを識別する機能が搭載されていないが、指紋センサーのセキュリティを確実にする Secure Device Connection Protocol (SDCP) も用意されている。\n\nBlackwing Intelligence は Microsoft Offensive Research and Security Engineering (MORSE) の依頼を受け、Dell Inspiron 15 と Lenovo ThinkPad T14、Microsoft Surface Pro 8 (指紋センサー搭載タイプカバー) を調査。3 機種はそれぞれ指紋センサーも実装も異なるが、最終的にはなりすましの指紋センサーで認証を突破できたという。なお、SDCP が完全にサポートされ、有効になっていたのは Inspiron 15 のみ。ThinkPad T14 と Surface Pro 8 では SDCP が使用できなかったとのことだ。\n すべて読む | セキュリティセクション | セキュリティ | ノートPC | Windows |     \n  関連ストーリー： \nSurface Pro X、カメラが使用できなくなる 2023年05月27日 \nMicrosoft アカウント、パスワードレスアカウントとして設定可能に 2021年09月18日 \n21H2 ビルドの Windows 10 Insider Preview、提供開始 2021年07月18日 \nMicrosoft、プロセッサをIntelとAMDから選べるSurface Laptop 4を発表 2021年04月15日",
-          "link": "https://security.srad.jp/story/23/11/23/1947245/",
-          "publishedOn": "2023-11-24T08:01:00.000Z",
-          "wordCount": 2082,
-          "title": "セキュリティリサーチャー、Windows Hello指紋認証の突破に成功",
-          "imageUrl": "https://srad.jp/static/topics/windows_64.png"
-        },
-        {
-          "id": "https://security.srad.jp/story/23/11/24/0131252/",
-          "author": "nagazou",
-          "description": "あるAnonymous Coward 曰く、 朝日新聞の記事によると、11月23日夜、岸田文雄首相が、急遽移動し、首相官邸に近いホテルに宿泊したそうだ。\n 関係者によると、首相公邸の設備不具合が理由で、詳細は安全上の理由から明らかにできないそうだ。夜になってから首相が急遽移動して、ホテルに泊まるのは極めて異例らしい。\n すべて読む | セキュリティセクション | 日本 | セキュリティ | ニュース |",
-          "link": "https://security.srad.jp/story/23/11/24/0131252/",
-          "publishedOn": "2023-11-24T03:31:00.000Z",
-          "wordCount": 2731,
-          "title": "公邸の設備不具合で首相が異例の急遽外泊",
-          "imageUrl": "https://srad.jp/static/topics/japan_64.png"
-        },
-        {
-          "id": "https://security.srad.jp/story/23/11/23/1343242/",
-          "author": "nagazou",
-          "description": "政府が2026年に導入予定の新しいマイナンバーカードの概要が明らかになった。読売新聞の記事によれば、新しいカードでは、ICチップに組み込まれた電子証明書の有効期間が現行の5年から10年に延長される。マイナンバーカードは本人確認手段として広く利用されているため、カードの券面には氏名、生年月日、住所、顔写真が引き続き記載される。ただ、性的少数者への配慮を求める声が出ていることから、性別は記載されない方向で検討されているという（読売新聞）。 \n\n非公開の作業部会が21日、中間骨子案をまとめた。政府はパブリックコメントを募り、年内に中間取りまとめを行う予定。電子証明書はオンラインの行政手続きで使用され、更新時は役所などに出向く必要があるが、カードと有効期間を合わせることで更新が1回で済むようになるとしている。\n すべて読む | セキュリティセクション | 日本 | セキュリティ | 政府 | Digital |     \n  関連ストーリー： \n兵庫県養父市、マイナンバーカードを使う公職選挙のスマホ投票の実現を目指す 2023年11月17日 \n救急隊がマイナ保険証経由で医療情報を読み取り、救命措置などに役立てるシステム導入へ 2023年11月15日 \nマイナ制度は「なりすまし犯罪の温床」。情報システム学会が制度設計に根本的な問題と提言 2023年11月02日 \nマイナポイント第2弾、受け取る資格がありながら未申し込みが約2000万人 2023年09月21日 \n音楽フェスなどでマイナカードを活用した実証実験 2023年09月12日",
-          "link": "https://security.srad.jp/story/23/11/23/1343242/",
-          "publishedOn": "2023-11-24T03:00:00.000Z",
-          "wordCount": 2875,
-          "title": "次世代マイナンバーカードは、電子証明書の有効期間を延長。性別記載はない方向",
-          "imageUrl": "https://srad.jp/static/topics/digital_64.png"
         }
       ]
     },
@@ -4400,86 +4340,6 @@
           "wordCount": 892,
           "title": "「サイボウズ バグハンター合宿 2023」脆弱性 36 件認定",
           "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2023/11/24/50285.html",
-          "author": null,
-          "description": "東京都交通局は11月16日、交通局ホームページでの個人情報の漏えいについて発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2023/11/24/50285.html",
-          "publishedOn": "2023-11-23T23:05:08.000Z",
-          "wordCount": 787,
-          "title": "東京都交通局、ホームページで公文書開示請求者の個人情報公開",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/43235.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2023/11/24/50284.html",
-          "author": null,
-          "description": "観光庁は11月15日、Booking.com利用者へのフィッシング被害に関する注意喚起を発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2023/11/24/50284.html",
-          "publishedOn": "2023-11-23T23:05:05.000Z",
-          "wordCount": 829,
-          "title": "観光庁が注意喚起、Booking.com 利用者へのフィッシング被害",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/43257.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2023/11/24/50283.html",
-          "author": null,
-          "description": "東証プライム上場企業の日本コンクリート工業株式会社は11月14日、ランサムウェア攻撃による第93期第2四半期報告書の提出期限延長に関する承認申請書の提出を発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2023/11/24/50283.html",
-          "publishedOn": "2023-11-23T23:05:03.000Z",
-          "wordCount": 849,
-          "title": "日本コンクリート工業へのランサムウェア攻撃、第93期 第2四半期報告書 提出期限を延長",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/43220.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2023/11/24/50282.html",
-          "author": null,
-          "description": "内閣サイバーセキュリティセンター（NISC）は11月20日、NISCを騙った不審な電話への注意喚起を発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2023/11/24/50282.html",
-          "publishedOn": "2023-11-23T23:00:18.000Z",
-          "wordCount": 858,
-          "title": "サイバー攻撃の賠償や保険料要求 ～ NISC 騙る不審な電話に注意喚起",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2023/11/24/50281.html",
-          "author": null,
-          "description": "一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は11月21日、Citrix ADCおよびCitrix Gatewayの脆弱性について発表した。影響を受けるシステムは以下の通り。",
-          "link": "https://scan.netsecurity.ne.jp/article/2023/11/24/50281.html",
-          "publishedOn": "2023-11-23T23:00:15.000Z",
-          "wordCount": 925,
-          "title": "Citrix ADCおよびCitrix Gatewayに情報漏えいの脆弱性、悪用する攻撃を確認",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2023/11/24/50280.html",
-          "author": null,
-          "description": "株式会社リコーは11月21日、Apache ActiveMQにおける遠隔コード実行の脆弱性（CVE-2023-46604）によるリコー製品への影響について発表した。影響を受ける製品・サービスは以下の通り。",
-          "link": "https://scan.netsecurity.ne.jp/article/2023/11/24/50280.html",
-          "publishedOn": "2023-11-23T23:00:11.000Z",
-          "wordCount": 859,
-          "title": "Apache ActiveMQに遠隔コード実行の脆弱性、リコー製品に影響",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2023/11/24/50279.html",
-          "author": null,
-          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は11月20日、LuxCal Web Calendar における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2023/11/24/50279.html",
-          "publishedOn": "2023-11-23T23:00:09.000Z",
-          "wordCount": 883,
-          "title": "LuxCal Web Calendar に複数の脆弱性",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2023/11/24/50278.html",
-          "author": null,
-          "description": "株式会社ファーストは11月14日、同社DVRがサイバー攻撃の踏み台となっている事案について、注意喚起を発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2023/11/24/50278.html",
-          "publishedOn": "2023-11-23T23:00:04.000Z",
-          "wordCount": 840,
-          "title": "ファースト製 DVR がサイバー攻撃の踏み台とならないよう対策を呼びかけ",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
         }
       ]
     },
@@ -4987,26 +4847,6 @@
           "wordCount": 2739,
           "title": "「あの企業、実は情報漏えいしてますよ！」──ランサムウェア集団が自ら政府機関に“告げ口”　米国で新たな手口",
           "imageUrl": "https://image.itmedia.co.jp/news/articles/2311/27/cover_news055.jpg"
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2311/24/news166.html",
-          "author": null,
-          "description": "バンダイナムコホールディングスは、子会社の元派遣社員が許可なく商品を外部に持ち出す不正行為を行っていたと発表した。",
-          "link": "https://www.itmedia.co.jp/news/articles/2311/24/news166.html",
-          "publishedOn": "2023-11-24T08:50:00.000Z",
-          "wordCount": 2704,
-          "title": "バンダイナムコでまた内部不正　廃棄庫から商品持ち出し、8700万円の利益　8年間気付かず",
-          "imageUrl": "https://image.itmedia.co.jp/news/articles/2311/24/cover_news166.jpg"
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2311/24/news071.html",
-          "author": null,
-          "description": "米首都ワシントンやニューヨーク市の警察が、車の盗難防止対策としてAppleの紛失防止タグ「AirTag」を住民に無料で配布している。米国では車の盗難が急増し、警察や自治体が対応を模索していた。",
-          "link": "https://www.itmedia.co.jp/news/articles/2311/24/news071.html",
-          "publishedOn": "2023-11-23T23:00:00.000Z",
-          "wordCount": 2745,
-          "title": "「AirTag」に車の盗難防止効果を期待、米警察が現地住民に無料配布　カナダではBMWを取り戻した例も",
-          "imageUrl": "https://image.itmedia.co.jp/news/articles/2311/24/cover_news071.jpg"
         }
       ]
     },
@@ -6984,136 +6824,6 @@
           "wordCount": 4634,
           "title": "ChatGPTの新機能「GPTs」「Assistants」を試す。特別なツール不要でカスタムChatGPTを開発可能に！【イニシャルB】",
           "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1546/371/001.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/weekly/1549442.html",
-          "author": null,
-          "description": "「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/weekly/1549442.html",
-          "publishedOn": "2023-11-24T10:00:00.000Z",
-          "wordCount": 4604,
-          "title": "見出しでわかる IT界隈・今週の重要ニュース：全84本［2023/11/16～11/22］",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1549/442/shutterstock_1391033204_main.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1549463.html",
-          "author": null,
-          "description": "Amazon.co.jpでは、11月24日～12月1日の8日間、年に一度のビッグセール「Amazon ブラックフライデー 2023」を開催中だ。その一環としてPCソフトのセールが行われており、「ブラックフライデー」のマークは付いていないが、マイクロソフトの「Office」シリーズなども割引価格で販売されている。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1549463.html",
-          "publishedOn": "2023-11-24T06:15:00.000Z",
-          "wordCount": 4574,
-          "title": "「Microsoft 365 Personal」1年版などがAmazonブラックフライデーセール期間に特売中　買い切り版「Microsoft Office Home & Business 2021」も安い",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1549/463/01.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1549489.html",
-          "author": null,
-          "description": "Amazon.co.jpでは、11月24日～12月1日の8日間、年に一度のビッグセール「Amazon ブラックフライデー 2023」を開催中だ。その一環としてファーウェイ（HUAWEI）製Wi-Fiルーターのセールが行われている。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1549489.html",
-          "publishedOn": "2023-11-24T06:05:00.000Z",
-          "wordCount": 4556,
-          "title": "ファーウェイ製Wi-Fi 6ルーターが7040円から！ Amazonブラックフライデーセール　Wi-Fi 6対応トライバンドメッシュルーター「HUAWEI Mesh 7 AX6600」2台セットは3万1380円",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1549/489/01.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1549452.html",
-          "author": null,
-          "description": "Amazon.co.jpでは、11月24日～12月1日の8日間、年に一度のビッグセール「Amazon ブラックフライデー 2023」を開催中だ。その一環としてTCL製チューナーレステレビも特売となっている。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1549452.html",
-          "publishedOn": "2023-11-24T04:55:00.000Z",
-          "wordCount": 4516,
-          "title": "TCL製チューナーレステレビが安い！ Amazonブラックフライデー　32型のフルHDモデルが2万4800円から",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1549/452/01.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1549479.html",
-          "author": null,
-          "description": "Amazon.co.jpでは、11月24日～12月1日の8日間、年に一度のビッグセール「Amazon ブラックフライデー 2023」を開催中だ。その一環としてパソコン・ゲーミング・周辺機器・スマホ・カメラのセールが行われており、アイ・オー・データ機器製のNASがブラックフライデー価格となっている。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1549479.html",
-          "publishedOn": "2023-11-24T04:30:00.000Z",
-          "wordCount": 4523,
-          "title": "アイ・オー・データ機器のNASがお買い得！ Amazonブラックフライデー　8TBの2ベイNAS「HDL2-AAX8/E」が3万9720円など",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1549/479/01.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1549459.html",
-          "author": null,
-          "description": "Amazon.co.jpでは、11月24日～12月1日の8日間、年に一度のビッグセール「Amazon ブラックフライデー 2023」を開催中だ。その一環でApple製品のセールも実施され、iPhone、iPad、MacBookなどがお買い得になっている。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1549459.html",
-          "publishedOn": "2023-11-24T04:20:00.000Z",
-          "wordCount": 4547,
-          "title": "iPhone、iPad、MacBookが、Amazonブラックフライデーでお買い得！　「iPhone 13」SIMフリーモデル512GBが13万900円など",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1549/459/main.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1549490.html",
-          "author": null,
-          "description": "日本人が「iPhone 13 mini」など小型スマホを好むことを物珍しげに報じた中国メディアの記事が話題だ。",
-          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1549490.html",
-          "publishedOn": "2023-11-24T04:13:28.000Z",
-          "wordCount": 4431,
-          "title": "iPhone 13 miniをはじめとした日本人の小型スマホ好きの傾向、海外で物珍しげに報じられる【やじうまWatch】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1549/490/yajiuma-watch_1.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1549493.html",
-          "author": null,
-          "description": "海外のブラックフライデーにおけるAppleの忘れ物トラッカー「AirTag」の値引き率の高さが話題になっている。",
-          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1549493.html",
-          "publishedOn": "2023-11-24T04:11:57.000Z",
-          "wordCount": 4411,
-          "title": "海外のブラックフライデー、Appleの忘れ物トラッカー「AirTag」が異例の大幅値引きで話題【やじうまWatch】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1549/493/yajiuma-watch_2.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1549466.html",
-          "author": null,
-          "description": "JCOM株式会社は11月22日、同社のメッシュWi-Fiのユーザー、および同社がメッシュWi-Fiを提供するケーブルテレビ事業者のユーザーの、個人情報の一部が漏えいしたとして、情報を公開した。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1549466.html",
-          "publishedOn": "2023-11-24T02:45:00.000Z",
-          "wordCount": 4498,
-          "title": "J:COM、メッシュWi-Fi利用者の個人情報が漏えい、約23万件の氏名など",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1549/466/01.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/column/teleworkgoods/1549317.html",
-          "author": null,
-          "description": "いつもテレワークグッズ・ミニレビューを楽しみにしている読者の皆さま、こんにちは、あるいはこんばんは。すでにご存じの通り、11月24日～12月1日の8日間にわたり、年に一度のビッグセール「Amazon ブラックフライデー 2023」を開催している。そこで今回は番外編として、これまで紹介してきたグッズの中から、ブラックフライデーでセールになっている製品を紹介していきたい。気になっていたあの商品をお得にゲットするチャンス、あるいは購入前に今一度レビューを読み返してみてはいかがだろう。",
-          "link": "https://internet.watch.impress.co.jp/docs/column/teleworkgoods/1549317.html",
-          "publishedOn": "2023-11-24T02:34:18.000Z",
-          "wordCount": 4704,
-          "title": "Amazon ブラックフライデーでテレワークグッズが安い!! これまで紹介したグッズのお得情報を調べてみた 新しくなったEcho Show5が4980円!! さらにSwitchBot、エルゴトロンのモニターアーム、MX ERGOトラックボールなどが特別価格【テレワークグッズ・ミニレビュー 番外編】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1549/317/001.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/ranking/mousepro/1548712.html",
-          "author": null,
-          "description": "本記事では、マウスコンピューターの法人向けブランド「MousePro」の売れ筋PCを紹介しています。なお、順位、価格、構成は随時変動しており、最新情報はリンク先にてご確認ください。",
-          "link": "https://internet.watch.impress.co.jp/docs/ranking/mousepro/1548712.html",
-          "publishedOn": "2023-11-24T02:00:00.000Z",
-          "wordCount": 4436,
-          "title": "ディスプレイの背面にも取り付け可能、Wi-Fi 6＆拡張ポートも搭載した小型PC「MousePro CRシリーズ」が人気【MousePro 売れ筋ビジネスPCランキング デスクトップ編 2023/11/24版】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1548/712/MousePro_CR.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/column/dlis/1549311.html",
-          "author": null,
-          "description": "米連邦捜査局（FBI）のインターネット犯罪苦情センター（IC3）は9月29日、「ファントムハッカー詐欺」について注意喚起を行いました。手口としてはサポート詐欺を進化させたもので、存在しないハッカーをでっち上げて詐欺を仕掛けることから、ファントム（幻の）ハッカー詐欺と呼ばれています。",
-          "link": "https://internet.watch.impress.co.jp/docs/column/dlis/1549311.html",
-          "publishedOn": "2023-11-23T22:26:00.000Z",
-          "wordCount": 4545,
-          "title": "高齢者をターゲットにした「幻のハッカー詐欺」が登場【だまされないように注意！】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1549/311/00.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/column/homewifi/1548216.html",
-          "author": null,
-          "description": "TCLのチューナーレステレビ「50P63J」を使って、ここまでスマホやMacの画面をそのままテレビに表示するミラーリングを実践してみている。今回はWindows 11の画面を無線ミラーリングする方法を実践してみよう。手持ちのチューナーレステレビをリモートワーク時のサブモニターとして使うこともできる。",
-          "link": "https://internet.watch.impress.co.jp/docs/column/homewifi/1548216.html",
-          "publishedOn": "2023-11-23T21:00:00.000Z",
-          "wordCount": 4515,
-          "title": "Windowsの画面をチューナーレステレビに「Miracast」でミラーリングする【自宅Wi-Fiの“わからない”をスッキリ！】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1548/216/housewifi2_173-01.jpg"
         }
       ]
     },
@@ -8687,46 +8397,6 @@
           "wordCount": 1755,
           "title": "Windows Helloの指紋認証センサーに脆弱性、ノートPCの認証バイパスに成功",
           "imageUrl": "https://news.mynavi.jp/techplus/article/20231125-2826101/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20231124-2826378/",
-          "author": null,
-          "description": "Bleeping Computerは11月21日(米国時間)、情報窃取マルウェア「Lumma」の開発者が期限切れのGoogle Cookieを復元する新機能を宣伝したと報じた。この新機能によりGoogleアカウントを乗っ取ることができるという。",
-          "link": "https://news.mynavi.jp/techplus/article/20231124-2826378/",
-          "publishedOn": "2023-11-24T13:51:47.000Z",
-          "wordCount": 1704,
-          "title": "GoogleのセッションCookieを復元できると主張するマルウェア発見",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20231124-2826378/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20231124-2826370/",
-          "author": null,
-          "description": "Akamai Technologiesは11月21日(米国時間)、ボットネット構築のためにリモートコード実行のゼロデイの脆弱性が悪用されているとして、注意を呼び掛けた。この攻撃ではマルウェア「Mirai」の亜種が悪用、デフォルトの資格情報のまま公開されているルータとネットワークビデオレコーダが標的になっているという。",
-          "link": "https://news.mynavi.jp/techplus/article/20231124-2826370/",
-          "publishedOn": "2023-11-24T12:59:32.000Z",
-          "wordCount": 1729,
-          "title": "国内メーカー製ルータとネットワークビデオレコーダに脆弱性、注意を",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20231124-2826370/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20231124-2825225/",
-          "author": null,
-          "description": "Check Point Software Technologiesは11月21日(米国時間)、LinuxとWindowsのランサムウェア攻撃を比較研究した調査結果を伝えた。Linuxを標的とするランサムウェアがWindowsのランサムウェアと異なる点は実装の単純さとされ、Linuxの多くはコア部分が基本的な暗号処理のみとされる。",
-          "link": "https://news.mynavi.jp/techplus/article/20231124-2825225/",
-          "publishedOn": "2023-11-24T12:36:27.000Z",
-          "wordCount": 1745,
-          "title": "Linuxのランサムウェアは捉えどころなく検出困難、Windowsには歴史あり",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20231124-2825225/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20231124-2825131/",
-          "author": null,
-          "description": "タニウムは11月22日、米国で開催されたフラッグシップイベント「Tanium Converge 2023」で行われた主要な発表を紹介した。同イベントでは、新たな製品として、自律型エンドポイント管理（AEM）プラットフォームのロードマップが発表された。",
-          "link": "https://news.mynavi.jp/techplus/article/20231124-2825131/",
-          "publishedOn": "2023-11-24T01:17:40.000Z",
-          "wordCount": 1794,
-          "title": "タニウム、年次イベントで発表した新戦略「自律型プラットフォーム」を紹介",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20231124-2825131/ogp_images/ogp.jpg"
         }
       ]
     }
