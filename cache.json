@@ -787,16 +787,6 @@
           "wordCount": 3852,
           "title": "Five Ways To Protect Your Kids From Inappropriate Online Content",
           "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2023/12/300x200_Blog_121323.png"
-        },
-        {
-          "id": "https://www.mcafee.com/blogs/?p=178061",
-          "author": "McAfee",
-          "description": "A disturbing story out of western Spain spotlights challenges of technological evolution. Unwitting children and teenagers were victims of users...\nThe post Deepfake Defense: Your 8-Step Shield Against Digital Deceit appeared first on McAfee Blog.",
-          "link": "https://www.mcafee.com/blogs/internet-security/deepfake-defense-your-8-step-shield-against-digital-deceit/",
-          "publishedOn": "2023-12-08T23:19:33.000Z",
-          "wordCount": 3106,
-          "title": "Deepfake Defense: Your 8-Step Shield Against Digital Deceit",
-          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2023/11/300x200_Blog_113023.png"
         }
       ]
     },
@@ -2194,6 +2184,16 @@
           "imageUrl": null
         },
         {
+          "id": "https://jvn.jp/vu/JVNVU95344542/",
+          "author": "jvn@jvn.jp",
+          "description": "Johnson Controlsが提供する複数のビルディングオートメーション製品には、リソースの枯渇の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU95344542/",
+          "publishedOn": "2023-12-20T01:00:00.000Z",
+          "wordCount": 104,
+          "title": "Johnson Controls製の複数のビルディングオートメーション製品におけるリソースの枯渇の脆弱性",
+          "imageUrl": null
+        },
+        {
           "id": "https://jvn.jp/vu/JVNVU91654304/",
           "author": "jvn@jvn.jp",
           "description": "Cambium Networksが提供するePMP Force 300-25には、コードインジェクションの脆弱性が存在します。",
@@ -2384,6 +2384,16 @@
       "feedUrl": "https://srad.jp/security.rss",
       "siteUrl": "https://security.srad.jp/",
       "articles": [
+        {
+          "id": "https://security.srad.jp/story/24/01/08/0611219/",
+          "author": "headless",
+          "description": "ランサムウェアの被害を止めるには身代金支払いを世界的に禁ずるしかないと Emsisoft が主張している\n(Emsisoft のブログ記事、\nThe Register の記事)。\n\nランサムウェアは身代金収入を目的としているため、収入が得られなくなれば攻撃も止まるというのがその理由だ。被害者に身代金支払いを禁ずることで短期的には問題が起きるものの、長期的には問題が解消していくという。また、資金源を断つことで攻撃規模の拡大や新たなゼロデイ購入といった投資もできなくなり、規模が縮小していくとのこと。身代金支払い禁止が効果を示した例として、公的機関による身代金支払いを禁じた米ノースカロライナ州とフロリダ州を挙げ、壊滅的なデータ消失や異常に長いダウンタイムを経験した機関はないと主張する。\n\nただし、州単位で特定の組織にのみ身代金支払いを禁じた場合は、容易なターゲットに流れているだけの可能性もある。The Registerでは、全面的に身代金支払いを禁じるとしても重要なインフラストラクチャーや医療機関などには例外を設けることになるだろうとして、これらをターゲットにした攻撃が増加する可能性を指摘する。Palo Alto Networks のサム・ルービン氏によれば、被害者にならないための積極的な対策を行うことが最大の防御になるとのこと\n(The Register の記事 [2])。\n\nランサムウェア被害時の身代金支払いについて、スラドの皆さんのご意見はいかがだろうか。\n すべて読む | セキュリティセクション | 暗号 | お金 |     \n  関連ストーリー： \n保守契約になくてもベンダーは医療機関にセキュリティ情報を提供すべき？ 2023年08月31日 \nランサムウェアの身代金支払いで全データを復旧できたのは、日本でわずか13% 2023年05月26日 \n昨年ランサムウェア被害に遭った大阪急性期・総合医療センターが復旧 2023年01月13日 \n大阪急性期・総合医療センターがランサムウェア感染、31日から診療が停止 2022年11月02日 \n千葉南房総市の情シスにランサムウェア攻撃、身代金払わねば成績表公開と脅迫 2022年09月02日 \n2019 年にランサムウェア被害にあったマーストリヒト大学、身代金を取り戻せることに 2022年07月08日 \nランサムウェア攻撃の被害にあった日本企業、75%が未公表 2022年05月27日 \nランサムウェアの被害にあった企業の重役の 88 %、また被害にあったら身代金を支払うと回答 2022年05月15日 \nランサムウェア市場は職業化が進み、犯罪ビジネスモデルが確立 2022年02月11日 \n米国土安全保障省、ランサムウェア攻撃からセンシティブ情報と個人情報を守るためのファクトシートを公開 2021年08月23日 \n北米で主要な病院の 80 ％ が使用する気送管システムに脆弱性 2021年08月05日 \nランサムウェア攻撃者に身代金を支払うと「お得意様」になってしまう可能性 2021年06月19日 \n米パイプラインのサイバー攻撃事件、FBIが身代金の大半を奪還に成功 2021年06月09日 \n米司法省、ランサムウェア対策をテロ対策と同様の優先度で行う方針 2021年06月07日 \nランサムウェア被害にあったスコットランド環境保護庁、身代金は支払わないと明言 2021年01月23日 \nランサムウェア攻撃の結果として初の死者、ドイツ・ケルンの検察が過失致死容疑で捜査 2020年09月20日 \n米ルイジアナ州地裁、ランサムウェア攻撃を受けて裁判所文書が流出 2020年09月14日 \nランサムウェア耐性が売りの歯科医院向けクラウドバックアップサービス、ランサムウェアの被害にあう 2019年09月01日 \n奈良県・宇陀市立病院の電子カルテシステムがランサムウェアに感染 2018年10月25日 \nウイルス対策プログラムの検疫機能を悪用してローカルでの権限昇格を可能にする攻撃 2017年11月15日 \nNSAに対し米下院議員が対処方法の公開を求める書簡を出す 2017年07月05日",
+          "link": "https://security.srad.jp/story/24/01/08/0611219/",
+          "publishedOn": "2024-01-08T06:32:00.000Z",
+          "wordCount": 2313,
+          "title": "ランサムウェアの被害を止めるには身代金支払いを禁止するしかないとの主張",
+          "imageUrl": "https://srad.jp/static/topics/money_64.png"
+        },
         {
           "id": "https://security.srad.jp/story/24/01/06/0941218/",
           "author": "headless",
@@ -6757,26 +6767,6 @@
           "wordCount": 1804,
           "title": "米国連邦民間行政機関にサイバー攻撃、Adobe ColdFusionの脆弱性が狙われる",
           "imageUrl": "https://news.mynavi.jp/techplus/article/20231211-2835282/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20231209-2824151/",
-          "author": null,
-          "description": "ReliaQuestはこのほど、ホリデーシーズンに向けて増加が懸念されるサイバー犯罪に対抗するため、インシデント対応(IR)チームが実行すべき3つのベストプラクティスを伝えた。サイバー犯罪の増加により、インシデント対応チームの業務が逼迫することがないよう、これらベストプラクティスの活用が望まれている。",
-          "link": "https://news.mynavi.jp/techplus/article/20231209-2824151/",
-          "publishedOn": "2023-12-09T07:31:12.000Z",
-          "wordCount": 1759,
-          "title": "年末年始に増えるサイバーインシデントを迎え撃つ3つの対抗策",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20231209-2824151/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20231209-2836313/",
-          "author": null,
-          "description": "Bleeping Computerは12月6日(米国時間)、AMD、Intel、Armの次世代CPUのセキュリティを向上させるために設計されたハードウェア機能を悪用し、カーネルメモリからルートパスワードハッシュ(シャドウパスワードのハッシュ値)を取得する「SLAM」と呼ばれるサイドチャネル攻撃がVUSecにより開発されたと報じた。攻撃の対象となったハードウェア機能はベンダーによって名称が異なる。",
-          "link": "https://news.mynavi.jp/techplus/article/20231209-2836313/",
-          "publishedOn": "2023-12-09T00:00:05.000Z",
-          "wordCount": 1770,
-          "title": "次世代CPUのセキュリティ機能に新たな脆弱性、Intelは対応を発表",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20231209-2836313/ogp_images/ogp.jpg"
         }
       ]
     }
