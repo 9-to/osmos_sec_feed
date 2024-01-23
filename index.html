@@ -22,11 +22,91 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-01-22 datetime="2024-01-22T07:15:00.000Z">2024-01-22</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-01-22 datetime="2024-01-22T07:15:00.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-01-23 datetime="2024-01-23T08:05:00.000Z">2024-01-23</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-01-23 datetime="2024-01-23T08:05:00.000Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >スラド: セキュリティ</button>
+                  <a class="source-heading__link" href="https://security.srad.jp/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://security.srad.jp/story/24/01/22/2314202/"
+                        open
+                      >
+                        <summary class="article-expander__title">Microsoft、重大なサイバーセキュリティインシデントを米証券取引委員会に報告</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://security.srad.jp/story/24/01/22/2314202/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://srad.jp/static/topics/microsoft_64.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>headless 曰く、Microsoft が従業員の電子メールアカウントに対する不正アクセスを受け、4 営業日以内の報告が義務付けられた重大なサイバーセキュリティインシデントとして米証券取引委員会 (SEC) に報告している
+(Microsoft Security Response Center Blog の記事、
+The Verge の記事、
+Neowin の記事、
+Form 8-K 報告書)。
+
+不正アクセスは国民国家に関係する脅威アクターによるもので、Microsoft ではロシアの支援を受けた Midnight Blizzard (Nobelium) だと特定している。脅威アクターは 11 月下旬からパスワードスプレー攻撃でレガシーなテスト用テナントアカウントを乗っ取って足場を作り、そのアカウントのパーミッションを利用して Microsoft の従業員向け電子メールアカウントのごく一部にアクセスしたのだという。
+
+不正アクセスされたアカウントの中には Microsoft 幹部のアカウントのほか、サイバーセキュリティや法務などにかかわる従業員のアカウントも含まれるといい、電子メールメッセージや添付ファイルが盗み出されたそうだ。この問題は 1 月 12 日に発覚し、Microsoftが不正アクセスを止めるための対策を行った。調査の結果、Midnight Blizzard が自身に関する情報を収集しようとして開始した攻撃とみられている。
+
+今回の攻撃は Microsoft 製品やサービスの脆弱性によるものではなく、顧客の環境やソースコード、AI システムなどが不正アクセスを受けた証拠はないとのことだ。
+ すべて読む | セキュリティセクション | セキュリティ | マイクロソフト | ニュース | インターネット |     
+  関連ストーリー： 
+米証券取引委員会、重大なサイバーセキュリティインシデントの迅速な開示を義務付ける新ルール 2023年07月29日 
+Microsoft、気象用語を使用した脅威アクター新命名法 2023年04月21日</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://security.srad.jp/story/24/01/22/1438245/"
+                        open
+                      >
+                        <summary class="article-expander__title">UEFIのPXEブートに脆弱性が見つかる。多くのBIOSに影響</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://security.srad.jp/story/24/01/22/1438245/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://srad.jp/static/topics/news_64.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>サイバーセキュリティ会社のQuarkslabによると、多くのUEFI/BIOSに実装されているPXE（Preboot Execution Environment）ブート機能には、9件の共通の脆弱性「PixieFAIL」が存在すると報告されている。これは、多くのUEFIにはネットワーク経由でブートを行なう「PXE」がTianocoreのオープンソースプロジェクト「EDK II」に基づいて実装されており、そのEDK IIのIPv4およびIPv6の実装に脆弱性があったためだという（Quarkslab、PC Watch）。
+
+ EDK IIを実装していて影響を受けるUEFIは下記の通り。
+
+ArmのリファレンスソリューションInsyde SoftwareのInsyde H20 UEFI/BIOSAmerican Megatrends Inc（AMI）のAptio OpenEditionPhoenix TechnologiesのSecureCoreMicrosoftのProject MuPixieFAILは、PXEブートの初期段階でDHCPサーバーとのやり取りに問題があり、次のような脆弱性が報告されている。
+
+整数アンダーフロー（CVE-2023-45229）バッファオーバーフロー（CVE-2023-45230）境界外読み取り（CVE-2023-45231）無限ループ（CVE-2023-45232、CVE-2023-45233）TCPセッションハイジャック攻撃の可能性（CVE-2023-45236）擬似乱数ジェネレーターの使用（CVE-2023-45237）ただし、この脆弱性はPXEブートを使用していない環境では影響を受けないため、一般ユーザーにとってはほとんど脅威にならないとされている。最新のUEFIへの更新、PXEブートの無効化またはネットワーク分離を強制した環境での実行、安全なOSの導入などによって、この脆弱性から保護することができるとしている。
+ すべて読む | セキュリティセクション | オープンソース | ハードウェア | セキュリティ | ニュース | バグ |     
+  関連ストーリー： 
+AMD製CPUに脆弱性見つかる 2023年07月27日 
+セキュアブートを無効化可能な脆弱性、Acer の個人向けノート PC でも見つかる 2022年12月03日 
+Lenovo の個人向けノート PC、セキュアブートを無効化可能な脆弱性がまた見つかる 2022年11月13日 
+Dell の BIOS に脆弱性、129機種が影響を受ける 2021年06月26日</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;7
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -42,14 +122,14 @@
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://jvn.jp/jp/JVN34565930/"
+                        data-accordion-key="https://jvn.jp/jp/JVN96154238/"
                         open
                       >
-                        <summary class="article-expander__title">a-blog cms における複数の脆弱性</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://jvn.jp/jp/JVN34565930/">
+                        <summary class="article-expander__title">Android アプリ「Spoon (スプーン)」に外部サービスの API キーがハードコードされている問題</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://jvn.jp/jp/JVN96154238/">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
-                              <span>a-blog cms には、複数の脆弱性が存在します。</span>
+                              <span>Android アプリ「Spoon (スプーン)」には、外部サービスの API キーがハードコードされています。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
@@ -61,14 +141,14 @@
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://jvn.jp/jp/JVN73587943/"
+                        data-accordion-key="https://jvn.jp/jp/JVN77736613/"
                         open
                       >
-                        <summary class="article-expander__title">アクセス解析CGI An-Analyzer におけるオープンリダイレクトの脆弱性</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://jvn.jp/jp/JVN73587943/">
+                        <summary class="article-expander__title">国土交通省が提供する電子納品チェックシステムおよび電子納品物検査支援システムにおける XML 外部実体参照 (XXE) に関する脆弱性</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://jvn.jp/jp/JVN77736613/">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
-                              <span>有限会社アングラーズネットが提供するアクセス解析CGI An-Analyzer には、オープンリダイレクトの脆弱性が存在します。</span>
+                              <span>国土交通省が提供する電子納品チェックシステムおよび電子納品物検査支援システムには、XML 外部実体参照 (XXE) に関する脆弱性が存在します。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;1
                                   min&hairsp;)</span>
                             </span>
@@ -80,14 +160,16 @@
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://jvn.jp/vu/JVNVU90042047/"
+                        data-accordion-key="https://jvn.jp/jp/JVN01434915/"
                         open
                       >
-                        <summary class="article-expander__title">AVEVA製PI Serverにおける複数の脆弱性</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://jvn.jp/vu/JVNVU90042047/">
+                        <summary class="article-expander__title">電子納品チェックシステム（農林水産省農業農村整備事業版）における XML 外部実体参照 (XXE) に関する脆弱性</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://jvn.jp/jp/JVN01434915/">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
-                              <span>AVEVAが提供するPI Serverには、複数の脆弱性が存在します。</span>
+                              <span>農林水産省が提供する電子納品チェックシステム（農林水産省農業農村整備事業版）には、XML 外部実体参照 (XXE) に関する脆弱性が存在します。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -97,14 +179,73 @@
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://jvn.jp/vu/JVNVU98698305/"
+                        data-accordion-key="https://jvn.jp/jp/JVN40049211/"
                         open
                       >
-                        <summary class="article-expander__title">Apache Tomcatにおける情報漏えいの脆弱性</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://jvn.jp/vu/JVNVU98698305/">
+                        <summary class="article-expander__title">防衛省が提供する電子納品物作成支援ツールにおける XML 外部実体参照 (XXE) に関する脆弱性</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://jvn.jp/jp/JVN40049211/">
                           <div class="article-summary-box-inner media-object">
                             <span class="media-object__text">
-                              <span>Apache Tomcatには、情報漏えいの脆弱性が存在します。</span>
+                              <span>防衛省が提供する「電子納品物作成支援ツール（工事版）」および「電子納品物作成支援ツール（業務版）」には、XML 外部実体参照 (XXE) に関する脆弱性が存在します。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://jvn.jp/vu/JVNVU91630351/"
+                        open
+                      >
+                        <summary class="article-expander__title">エレコム製およびロジテック製ネットワーク機器における複数の脆弱性</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://jvn.jp/vu/JVNVU91630351/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>エレコム株式会社およびロジテック株式会社が提供するネットワーク機器には、複数の脆弱性が存在します。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://jvn.jp/vu/JVNVU90908488/"
+                        open
+                      >
+                        <summary class="article-expander__title">エレコム製無線LANルーターにおけるOSコマンドインジェクションの脆弱性</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://jvn.jp/vu/JVNVU90908488/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>エレコム株式会社が提供する複数の無線LANルーターには、OSコマンドインジェクションの脆弱性が存在します。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://jvn.jp/vu/JVNVU99896362/"
+                        open
+                      >
+                        <summary class="article-expander__title">ヤマハ製無線LANアクセスポイントに利用可能なデバッグ機能が存在している脆弱性</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://jvn.jp/vu/JVNVU99896362/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>ヤマハ株式会社が提供する無線LANアクセスポイント製品には、利用可能なデバッグ機能が存在しています。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
                             </span>
                           </div>
                         </a>
@@ -128,15 +269,15 @@
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://internet.watch.impress.co.jp/docs/news/1562608.html"
+                        data-accordion-key="https://internet.watch.impress.co.jp/docs/news/1562857.html"
                         open
                       >
-                        <summary class="article-expander__title">NTT東西、「フレッツ 光ライト」終了後の移行措置を発表。2025年4月1日から「フレッツ 光ネクスト」へ自動移行　2024年4月1日からは従量課金停止</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/news/1562608.html">
+                        <summary class="article-expander__title">アイ・オー、USB Type-C接続の23.8型ワイド液晶ディスプレイ「LCD-C241D」シリーズ発売　キーボードやマウスも接続でき、ケーブル1本で作業環境が整う</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/news/1562857.html">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1562/608/00.png" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1562/857/01.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>東日本電信電話株式会社（NTT東日本）および西日本電信電話株式会社（NTT西日本）は、2025年3月31日にサービスを終了する「フレッツ 光ライト」（NTT東日本／西日本）、「フレッツ 光ライトプラス」（NTT東日本）に関して、サービス終了後の移行措置を発表した。</span>
+                              <span>株式会社アイ・オー・データ機器は、USB Type-C接続の23.8型ワイド液晶ディスプレイ「LCD-C241D」シリーズを発売する。通常モデルのほか、回転などが可能なフリースタンドモデルがあり、オープン価格で、直販サイト「io PLAZA」での販売価格は通常モデルが2万8600円、フリースタンドモデルが3万1900円。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;15
                                   min&hairsp;)</span>
                             </span>
@@ -148,15 +289,15 @@
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://internet.watch.impress.co.jp/docs/yajiuma/1562499.html"
+                        data-accordion-key="https://internet.watch.impress.co.jp/docs/yajiuma/1562740.html"
                         open
                       >
-                        <summary class="article-expander__title">Windows 11の最新ビルドで、USB4のメジャーバージョンアップ「USB 80Gbps」がテスト中【やじうまWatch】</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/yajiuma/1562499.html">
+                        <summary class="article-expander__title">子供の科学、創刊100周年を記念しティザーサイトを開設。かつての読者からのメッセージも【やじうまWatch】</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/yajiuma/1562740.html">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1562/499/yajiuma-watch_1.png" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1562/740/yajiuma-watch_1.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>「Windows 11 Insider Preview」で配布されているWindows 11の最新ビルドで、USB 80Gbpsがテストされていることが明らかになった。</span>
+                              <span>「子供の科学」が創刊100周年を記念し、ティザーサイトを開設した。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;15
                                   min&hairsp;)</span>
                             </span>
@@ -168,15 +309,15 @@
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://internet.watch.impress.co.jp/docs/news/ranking/1562376.html"
+                        data-accordion-key="https://internet.watch.impress.co.jp/docs/yajiuma/1562739.html"
                         open
                       >
-                        <summary class="article-expander__title">件名「【Mastercard】重要なお知らせ」など、マスターカードをかたるフィッシング詐欺について報じた記事に注目集まる【アクセスランキング】</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/news/ranking/1562376.html">
+                        <summary class="article-expander__title">掲示板サイト「スラド」が23年の歴史に幕。古参ユーザーからは感謝のメッセージが続々【やじうまWatch】</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/yajiuma/1562739.html">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1562/376/01_o.png" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1562/739/yajiuma-watch_3.png" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>前週に閲覧数の多かった記事を、カテゴリーごとに上位5位までレポートします。</span>
+                              <span>掲示板サイト「スラド」が23年の歴史に幕を下ろすことになった。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;15
                                   min&hairsp;)</span>
                             </span>
@@ -184,73 +325,21 @@
                         </a>
                       </details>
                     </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >ITmedia NEWS セキュリティ 最新記事一覧</button>
-                  <a class="source-heading__link" href="https://www.itmedia.co.jp/news/security/">Open</a>
-                </h3>
-                <section class="articles-per-source">
                     <article>
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.itmedia.co.jp/news/articles/2401/22/news124.html"
+                        data-accordion-key="https://internet.watch.impress.co.jp/docs/news/1562774.html"
                         open
                       >
-                        <summary class="article-expander__title">「中古PCを買ったら、NTT Comの社内用設定画面が出て使えない」Xで話題　同社が事情を説明、謝罪</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.itmedia.co.jp/news/articles/2401/22/news124.html">
+                        <summary class="article-expander__title">電力供給状況が見えるLED搭載の8 in 1ドッキングステーション「LHB-PMP8U3PS」、ロジテックが発売</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/news/1562774.html">
                           <div class="article-summary-box-inner media-object">
-                              <img src="https://image.itmedia.co.jp/news/articles/2401/22/cover_news124.jpg" loading="lazy" class="media-object__media article-image" />
+                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1562/774/img_01.jpg" loading="lazy" class="media-object__media article-image" />
                             <span class="media-object__text">
-                              <span>「中古PCを購入してWindowsを入れようとしたら、NTTコミュニケーションズ（NTT Com）の設定画面が表示されてしまい、利用できない」――こんな投稿がXで話題になった。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
+                              <span>ロジテックINAソリューションズ株式会社は、USB Type-Cケーブル1本でPCに接続するドッキングステーション「LHB-PMP8U3PS」を発売した。ウェブ専売モデルの型番は「LHB-LPMWP8U3PSD」で、仕様は同じ。オープン価格で、直販サイト「ロジテックダイレクト」での販売価格は8531円。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
                                   min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >JPNIC Web</button>
-                  <a class="source-heading__link" href="https://www.nic.ad.jp/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.nic.ad.jp/ja/topics/2024/20240122-01.html"
-                        open
-                      >
-                        <summary class="article-expander__title">[トピックス]APRICOT 2024参加支援プログラム応募期限延長のお知らせ(1月24日(水) 10:00まで)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.nic.ad.jp/ja/topics/2024/20240122-01.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>2024年1月22日
-各位
-一般社団法人日本ネットワークインフォメーションセンター
-APRICOT 2024参加支援プログラム応募期限延長のお知らせ(1月24日(水) 10:00まで)
-APRICOT 2024 参加支援プログラム応募受付開始のお知らせ
-              をご確認の上、期限までにご応募をお願いいたします。
-            
-以上</span>
                             </span>
                           </div>
                         </a>
@@ -270,6 +359,363 @@ APRICOT 2024 参加支援プログラム応募受付開始のお知らせ
                   <a class="source-heading__link" href="https://news.mynavi.jp/top/techplus/enterprise/security/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.mynavi.jp/techplus/article/20240123-2868356/"
+                        open
+                      >
+                        <summary class="article-expander__title">Appleを偽るフィッシング確認、注意を</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20240123-2868356/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://news.mynavi.jp/techplus/article/20240123-2868356/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>フィッシング対策協議会(Council of Anti-Phishing Japan)は1月22日、Appleを騙るフィッシングの報告を受けているとして、注意を喚起した。メールの件名としては、「Apple お客様のアカウント認証に関する重要なお知らせ」が確認されており注意が必要。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.mynavi.jp/techplus/article/20240123-2868360/"
+                        open
+                      >
+                        <summary class="article-expander__title">メルカリを偽るフィッシング確認、注意を</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20240123-2868360/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://news.mynavi.jp/techplus/article/20240123-2868360/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>フィッシング対策協議会(Council of Anti-Phishing Japan)は1月22日、フリマアプリ「メルカリ」を偽るフィッシングの報告を受けているとして、注意を呼び掛けた。メールの件名として、「【重要】メルカリの本人確認通知」「【メルカリ】認証なお知らせ！」など、複数確認されており注意が必要。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.mynavi.jp/techplus/article/20240123-2860419/"
+                        open
+                      >
+                        <summary class="article-expander__title">サイバー攻撃からヘルプデスクを守る方法</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20240123-2860419/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://news.mynavi.jp/techplus/article/20240123-2860419/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Bleeping Computerはこのほど、企業・組織においてユーザーサポートを担うヘルプデスクに対するソーシャルエンジニアリング攻撃から担当者を保護する方法について解説した。2023年に発生した「MGMリゾーツ」への攻撃では高度なソーシャルエンジニアリング戦術が用いられ、ヘルプデスクの担当者がだまされて大きな被害が生じた。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.mynavi.jp/techplus/article/20240123-2866408/"
+                        open
+                      >
+                        <summary class="article-expander__title">Docker悪用して「XMRig」と「9Hits」で稼ぐサイバー攻撃が展開中</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20240123-2866408/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://news.mynavi.jp/techplus/article/20240123-2866408/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Cado Securityは1月18日(英国時間)、脆弱なDockerサービスを標的とした新しいサイバー攻撃のキャンペーンを発見したと報じた。このキャンペーンではマイニング型マルウェア「XMRig」とトラフィック交換アプリ「9Hits」の悪用が確認されている。これは、9Hitsをペイロードとして展開するマルウェアが文書化された初のケースだという。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >SIOS Tech. Lab</button>
+                  <a class="source-heading__link" href="https://tech-lab.sios.jp">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://tech-lab.sios.jp/?p&#x3D;38738"
+                        open
+                      >
+                        <summary class="article-expander__title">【React】LINE LIFFアプリの初期開発：エラーハンドリングとHooks</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://tech-lab.sios.jp/archives/38738">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://tech-lab.sios.jp/wp-content/uploads/2024/01/6de949520e0c3bc9e2568cadc854d360.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>どもども！今回は、LIFF（LINE Front-end Framework）アプリケーションをReactで開発する際の初期開発のセットアップを行いました。SWRとreact-error-boundayのエラーハンドリン [...]
+【React】LINE LIFFアプリの初期開発：エラーハンドリングとHooks first appeared on SIOS Tech. Lab.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+        </ul>
+      </section>
+      <section class="daily-content js-toggle-accordions-scope">
+        <h2 class="daily-heading">
+          <button
+            class="daily-heading-toggle"
+            data-action="toggle-accordions"
+            title="Click to toggle the day, Ctrl + click to toggle all."
+          >
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2024-01-22 datetime="2024-01-22T23:10:03.000Z">2024-01-22</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2024-01-22 datetime="2024-01-22T23:10:03.000Z"></time>
+          </button>
+        </h2>
+        <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >ScanNetSecurity</button>
+                  <a class="source-heading__link" href="https://scan.netsecurity.ne.jp/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://scan.netsecurity.ne.jp/article/2024/01/23/50484.html"
+                        open
+                      >
+                        <summary class="article-expander__title">「企業のお粗末なセキュリティ対策の違法化」「身代金支払い全面禁止」～ 有効な立法施策とは？</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://scan.netsecurity.ne.jp/article/2024/01/23/50484.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://scan.netsecurity.ne.jp/imgs/ogp_f/43774.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>ランサムウェアとの戦いにおける次の一手は、立法府からもたらされなければならない。2024 年は脅威を永久に抑えつけるのに役立つ効果の高い政策決定が行われた年としても、人々に記憶されるようにすることができるし、そうならなければならない。とはいえ、この問題に完璧な解決策はない。立法を通したランサムウェア対策に関してはいくつかの考え方があるが、その中で最も注目されるのは、民間企業および公共機関の両方に身代金の支払いを全面禁止することだ。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://scan.netsecurity.ne.jp/article/2024/01/23/50483.html"
+                        open
+                      >
+                        <summary class="article-expander__title">島根県が使用していたドメインを第三者が取得、GoToEat キャンペーンやスモウルビー・プログラミング甲子園ほか</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://scan.netsecurity.ne.jp/article/2024/01/23/50483.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://scan.netsecurity.ne.jp/base/images/img_ogp.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>島根県は1月15日、同県が使用していたドメインの第三者による利用について、注意喚起を発表した。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://scan.netsecurity.ne.jp/article/2024/01/23/50482.html"
+                        open
+                      >
+                        <summary class="article-expander__title">ラシェール化粧品でクレジットカード決済を停止、過去分も取消</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://scan.netsecurity.ne.jp/article/2024/01/23/50482.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://scan.netsecurity.ne.jp/base/images/img_ogp.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>ラシェール化粧品株式会社は1月15日、クレジットカードの不正利用について発表した。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://scan.netsecurity.ne.jp/article/2024/01/23/50481.html"
+                        open
+                      >
+                        <summary class="article-expander__title">12月のフィッシング報告、ETC利用照会サービスのなりすましが最多に</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://scan.netsecurity.ne.jp/article/2024/01/23/50481.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://scan.netsecurity.ne.jp/imgs/ogp_f/43723.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>フィッシング対策協議会は、2023年12月の「フィッシング報告状況」を公開した。12月に協議会へ寄せられた海外を含むフィッシング報告件数は、前月より6,444件増加し90,792件となった。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://scan.netsecurity.ne.jp/article/2024/01/23/50480.html"
+                        open
+                      >
+                        <summary class="article-expander__title">旅色Instagram アカウントが乗っ取り被害、1月13日以降のダイレクトメッセージの破棄を呼びかけ</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://scan.netsecurity.ne.jp/article/2024/01/23/50480.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://scan.netsecurity.ne.jp/imgs/ogp_f/43755.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>株式会社ブランジスタは1月13日、同社連結子会社の株式会社ブランジスタメディアが運営する旅色Instagram公式アカウントへの不正アクセスについて発表した。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://scan.netsecurity.ne.jp/article/2024/01/23/50479.html"
+                        open
+                      >
+                        <summary class="article-expander__title">複数の Dahua Technology 製品に認証不備の脆弱性</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://scan.netsecurity.ne.jp/article/2024/01/23/50479.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://scan.netsecurity.ne.jp/base/images/img_ogp.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は1月18日、複数の Dahua Technology 製品における認証不備の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://scan.netsecurity.ne.jp/article/2024/01/23/50478.html"
+                        open
+                      >
+                        <summary class="article-expander__title">FusionPBX にXSSの脆弱性</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://scan.netsecurity.ne.jp/article/2024/01/23/50478.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://scan.netsecurity.ne.jp/base/images/img_ogp.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は1月19日、FusionPBX におけるクロスサイトスクリプティングの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;3
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >マイナビニュース 企業IT セキュリティ</button>
+                  <a class="source-heading__link" href="https://news.mynavi.jp/top/techplus/enterprise/security/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.mynavi.jp/techplus/article/20240123-2866443/"
+                        open
+                      >
+                        <summary class="article-expander__title">UEFIのオープンソース実装に脆弱性、各PCベンダーにも影響</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20240123-2866443/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://news.mynavi.jp/techplus/article/20240123-2866443/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>The Hacker Newsは1月18日(現地時間)、オペレーティングシステムとファームウェア間のインタフェースを定義するUEFI（ユニファイド・エクステンシブル・ファームウェア・インタフェース）のオープンソース実装「Tianocore EDK II」に複数の脆弱性が発見されたと報じた。Quarkslabはこれら脆弱性を総称して「PixieFail」と命名している。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.mynavi.jp/techplus/article/20240123-2867417/"
+                        open
+                      >
+                        <summary class="article-expander__title">VMware vCenter Serverの脆弱性、中国の脅威グループが1年半にわたり悪用</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20240123-2867417/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://news.mynavi.jp/techplus/article/20240123-2867417/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Mandiant(Google Cloud)は1月19日(米国時間)、中国の脅威グループ「UNC3886」がVMwareの仮想環境管理ソフト「vCenter Server」に存在するゼロデイの脆弱性を2021年後半から1年半にわたり悪用していたと報じた。悪用された脆弱性は「CVE-2023-34048」で、vCenter ServerのDCERPCプロトコルの実装に境界外書き込みの不具合が存在するというもの。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.mynavi.jp/techplus/article/20240122-2867836/"
+                        open
+                      >
+                        <summary class="article-expander__title">パナソニック系、製造実行システムに顔認証を導入‐作業者のなりすまし防止</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20240122-2867836/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://news.mynavi.jp/techplus/article/20240122-2867836/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>パナソニック プロダクションエンジニアリングは22日、製造業向けのMES（製造実行システム）ソリューション「MP（Manufacturing Processes）-Connect（エムピイコネクト）」に、パナソニック コネクトの顔認証技術を導入したパッケージを提供開始すると発表した。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -384,6 +830,742 @@ APRICOT 2024 参加支援プログラム応募受付開始のお知らせ
                             <span class="media-object__text">
                               <span>Microsoftは1月19日(米国時間)、ロシアの支援を受けているとみられる脅威アクター「Midnight Blizzard(別名:Nobelium)」の攻撃を受け、Microsoftの企業メールアカウントが不正アクセスを受けたと発表した。この攻撃により、一部のMicrosoft企業メールアカウントについて、メールや添付ファイルが漏洩したという。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;6
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >INTERNET Watch</button>
+                  <a class="source-heading__link" href="https://internet.watch.impress.co.jp">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://internet.watch.impress.co.jp/docs/news/1562726.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Web会議用、定点撮影用など幅広く使えるクランプ式カメラマウント「CR-LACAM」シリーズ3製品、サンワサプライが発売</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/news/1562726.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1562/726/00s.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>サンワサプライ株式会社は、クランプ式カメラマウント「CR-LACAM」シリーズの新製品3種類を発売した。市場想定価格は、コンパクトな「CR-LACAM5」が5500円、最長1025mmまで伸ばせる「CR-LACAM6」が6600円、3つの関節を持つ「CR-LACAM7」が9900円。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://internet.watch.impress.co.jp/docs/news/1562716.html"
+                        open
+                      >
+                        <summary class="article-expander__title">ネットワーク機器の死活監視や遠隔での再起動が可能な自動リブートタップ「T1901」、ラトックシステムが販売</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/news/1562716.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1562/716/01.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>ラトックシステム株式会社は、大和電器株式会社製のリブートタップ「T1901」の販売を開始した。オープン価格で、Amazon.co.jpでの販売価格は2万7000円。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://internet.watch.impress.co.jp/docs/news/1562599.html"
+                        open
+                      >
+                        <summary class="article-expander__title">TerraMasterのNASキットや外付けHDDケースがセール価格で販売中！ Amazonお得情報　2.5GbE×2の2ベイモデル「F2-223」が2万9792円など</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/news/1562599.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1562/599/01.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>Amazon.co.jpのTerraMasterストアページでは現在、同社のNASキットのセールを実施中だ。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://internet.watch.impress.co.jp/docs/news/1562608.html"
+                        open
+                      >
+                        <summary class="article-expander__title">NTT東西、「フレッツ 光ライト」終了後の移行措置を発表。2025年4月1日から「フレッツ 光ネクスト」へ自動移行　2024年4月1日からは従量課金停止</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/news/1562608.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1562/608/00.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>東日本電信電話株式会社（NTT東日本）および西日本電信電話株式会社（NTT西日本）は、2025年3月31日にサービスを終了する「フレッツ 光ライト」（NTT東日本／西日本）、「フレッツ 光ライトプラス」（NTT東日本）に関して、サービス終了後の移行措置を発表した。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://internet.watch.impress.co.jp/docs/yajiuma/1562499.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Windows 11の最新ビルドで、USB4のメジャーバージョンアップ「USB 80Gbps」がテスト中【やじうまWatch】</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/yajiuma/1562499.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1562/499/yajiuma-watch_1.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>「Windows 11 Insider Preview」で配布されているWindows 11の最新ビルドで、USB 80Gbpsがテストされていることが明らかになった。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://internet.watch.impress.co.jp/docs/news/ranking/1562376.html"
+                        open
+                      >
+                        <summary class="article-expander__title">件名「【Mastercard】重要なお知らせ」など、マスターカードをかたるフィッシング詐欺について報じた記事に注目集まる【アクセスランキング】</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/news/ranking/1562376.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1562/376/01_o.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>前週に閲覧数の多かった記事を、カテゴリーごとに上位5位までレポートします。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;15
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >独立行政法人情報処理推進機構（IPA）新着情報RSS</button>
+                  <a class="source-heading__link" href="https://www.ipa.go.jp/about/index.html">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.ipa.go.jp/security/anshin/reports/2023q4outline.html"
+                        open
+                      >
+                        <summary class="article-expander__title">情報セキュリティ安心相談窓口の相談状況［2023年第4四半期（10月～12月）］を公開しました</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.ipa.go.jp/security/anshin/reports/2023q4outline.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>情報処理推進機構（IPA）の「情報セキュリティ安心相談窓口の相談状況［2023年第4四半期（10月～12月）］」に関する情報です。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >キヤノンマーケティングジャパン株式会社の更新情報</button>
+                  <a class="source-heading__link" href="https://eset-info.canon-its.jp/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://eset-info.canon-its.jp/malware_info/news/detail/240123_3.html"
+                        open
+                      >
+                        <summary class="article-expander__title">メルカリをかたるフィッシングについての注意喚起</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://eset-info.canon-its.jp/malware_info/news/detail/240123_3.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://eset-info.canon-its.jp/files/user/images/common/sns_thumb.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>2024年1月22日現在、メルカリをかたるフィッシングが確認されております。フィッシングサイト上の入力欄には、絶対に情報を入力しないようにお願いします。
+
+このようなフィッシングサイトにて、メールアドレス、電話番号、パスワード、氏名 (漢字、カナ)、生年月日、郵便番号、都道府県、市区町村、番地、建物名、運転免許証写真、マイナンバーカード写真等を絶対に入力しないよう、ご注意ください
+
+日頃からサービスへログインする際は、メールや SMS 内のリンクではなく、いつも利用しているスマートフォンの公式アプリやブラウザーのブックマークなどからアクセスするよう、心がけてください。
+
+【メールの件名】
+
+【重要】メルカリの事務局からのお知らせ
+【重要】メルカリの本人確認通知
+【メルカリ】認証なお知らせ！
+【メルカリ】個人情報確認
+【メルカリ】お客様のアカウント認証に関するお知らせ
+【メルカリ】アカウントの停止
+[メルカリ]アカウントが停止される可能性がございます。
+メルカリアカウントのセキュリティ更新が必要です - お願いします。
+
+※上記以外の件名も使われている可能性があります。
+
+【サイトのURL】
+
+https://mercari.●●●●.com/●●●
+http://jp.mercari●●●●.●●●●.com/
+https://help.mericar.co.●●●●.●●●●.cn/
+https://acces-mer●●●●.top/
+https://zui●●●●.net/
+
+※上記以外のドメイン、URL も使われている可能性があります。
+※URL にパスやパラメータが付いていることがあります。
+
+2024/1/22 17:00時点では、フィッシングサイトは稼働中です。このサイトが停止しても、類似のフィッシングサイトが公開される恐れもありますので注意してください。
+このようなフィッシングサイトは日々新規に作成されています。ESET製品は、新規に作成されるフィッシングサイトにも随時対応していきますが、お客さま自身でも十分にご注意ください。
+
+【参考情報】
+
+メルカリを装った不審なメール・ウェブサイトにご注意ください
+
+ 
+
+
+■ ESET製品における検出例
+
+
+
+※ESET Internet Security V17.0/ESET Mobile Security V8.2でフィッシング対策機能が有効な場合は、図のような通知が表示されます。
+
+
+■ フィッシングメール／フィッシングサイトへの対応
+
+
+
+	フィッシングの可能性があるメールをむやみに開かない。
+	フィッシングの可能性があるメールの添付ファイルをむやみに開かない。
+	メール文中のリンク先URLがフィッシングサイトである可能性を考え、リンク先URLへむやみにアクセスしない。
+	フィッシングの可能性があるサイトにアカウント情報やクレジットカード情報などを入力しない。
+
+
+
+
+キヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://eset-info.canon-its.jp/malware_info/special/detail/240123.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Hack The Boxで、実践的なペネトレーションテスト技術者のスキルを学ぼう</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://eset-info.canon-its.jp/malware_info/special/detail/240123.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://eset-info.canon-its.jp/files/topics/4482_ext_01_0.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>ペネトレーションテストは、システムの脆弱性やセキュリティ上の問題点を洗い出すための侵入テストです。またHack The Boxは、ペネトレーションテスト技術者に必要な知識やスキルを、実際に手を動かして、楽しみながら学べるサイトです。脆弱性がどのように攻撃に利用されるのか、といった具体例を理解できるため、サイバーセキュリティ技術をこれから学びたい方にもお勧めです。
+
+
+
+
+
+ペネトレーションテストは「侵入テスト」とも呼ばれており、その名のとおり対象のシステムに対して実際にサイバー攻撃の各種手法を用いて侵入を試みることで、システムの脆弱性やセキュリティ上の問題点を洗い出すテスト手法だ。そのため、ペンテスター（ペネトレーションテストの技術者）は、さまざまな攻撃手法に関する知識やスキルを習得する必要がある。
+
+今回紹介する「Hack The Box」は、実際に手を動かして、ペンテスターに必要な知識やスキルを学習できるコンテンツが多数用意されているWebサイトで、実践的に、かつ楽しみながら効果的に技術を身に着けることができる。Hack The Boxでは、サイバーセキュリティリスクになる脆弱性が実際に、どのようにして攻撃に利用されるのか、といった具体例を理解することができるため、ペンテスター以外の方にもお勧めしたい。サーバーやWebサイトの管理者であれば、得られる知識を元に自身の環境に対してペネトレーションテストを実施するなどして、セキュリティの強化や対策に活用できるだろう。
+
+Hack The Boxとは
+
+Hack The Boxは、サイバーセキュリティのオンライン学習プラットフォームだ。サイバーセキュリティ、特にペネトレーションテストのようなシステムの脆弱性の発見や、悪用の可否を判断するためのスキルを磨くことができる。Webサイトのコンテンツは無料の会員登録を行うことで利用を開始できるが、有料会員になると利用制限が解除され、すべての機能が利用できるようになる。メニューはいくつか存在するが、メインコンテンツとして「Machines」と「Challenges」の2つがある。それぞれの特徴を説明する。
+
+
+
+Hack The Box
+
+
+Machines
+
+Machinesは、脆弱性を悪用してシステムへの侵入を試みる問題（Machine）が複数用意されている。それぞれの問題には、あらかじめ何らかの脆弱性が組み込まれた仮想マシンが用意されており、挑戦者には仮想マシンのIPアドレスのみが提供される。挑戦者は、そのIPアドレスにアクセスし、利用可能なサービスや脆弱性を見極め、適切な攻撃手法を用いてシステムへの侵入を試みる。システム内には目標となるテキストファイルが配置されており、その中身（Flag）を確認し、解答できれば対象の問題はクリアとなる。
+
+実際に挑戦するには、まずメニューの「Machines」をクリックして問題の一覧を表示し、次に難易度や使用しているOSなどでフィルタリングを行い挑戦したいものを選ぶ。難易度はEasy、Medium、Hard、Insaneの4段階だが、ユーザーによるレーティングにより、難易度がグラフで表示されている。最初は難易度やグラフの表示を参考にEasyの中から問題を選ぶと良いだろう。
+
+問題をクリックすると選択した問題に関する詳細が表示される。「Spawn Machine」ボタンをクリックすると、仮想マシンが起動し、IPアドレスが表示される。仮想マシンに関して提供される情報は、このIPアドレスのみで、ユーザー名やパスワードなどのログイン情報は一切提供されない。つまり、このIPアドレスに対してポートスキャンやWebページへのアクセスなどを行い、脆弱性を見つけてシステムへの侵入を行う必要がある。
+
+通常、ペネトレーションテストは計画やスコープの設定から始まり、情報収集や脆弱性の調査、実際の攻撃（エクスプロイトの実行）を経て、結果をまとめて報告する、といったプロセスで行われる。特に脆弱性の調査や攻撃といった行為は、そのために準備された環境でしか学習をすることができない。しかし、そのような環境をさまざまなバリエーションで多数用意することは、準備のための工数やリソースにおいて非常に難しい。Machinesでは、これらを容易に準備でき、すぐに挑戦することができるため、ペネトレーションテストの知識やスキルを学ぶには非常に有用な問題と言えるだろう。
+
+Challenges
+
+Challengesは、いわゆるCTF（Capture The Flag）だ。暗号技術、リバースエンジニアリング、フォレンジックなど、カテゴリーごとに問題が用意されている。Machinesと同様に、問題を解くと得られるFlagを発見・解答することが目標となる。
+
+問題に挑戦するには、メニューの「Challenges」をクリックして問題の一覧を表示する。問題のカテゴリーや難易度を参考に、この中からチャレンジしたい問題を選ぶ。難易度はVery Easyからあり、Machinesと同様にユーザーによるレーティングがグラフで表示される。最初は最も簡単なVery Easyからチャレンジしてみると良いだろう。
+
+Challengesの問題では、基本的に「Download Files」から問題ファイルをダウンロードし、これを元に問題を解いていく。解いた結果としてFlagが得られれば問題クリアだ。Machinesのようにシナリオに沿った問題の攻略ではなく、各問題を解いていくことでセキュリティ全般の知識や、Machinesの攻略に役立つ知識が習得できる。
+
+そのほかのメニューや楽しい要素
+
+MachinesやChallengesのほかにも、ペネトレーションテストの基礎を学習できる「Starting Point」や複数の問題を目的別にまとめた「Tracks」、一定期間に連続して出題される問題に挑戦し、ポイントを競う「Open Beta Season」などのメニューが用意されている。また、MachinesやChallengesでは、随時新しい問題が追加され、特にMachinesでは、新たに発見・公開された脆弱性を取り入れた問題も追加される。例えば、2021年12月に公開されたLog4jの脆弱性「Log4Shell」は、12月中に、この脆弱性を取り入れた問題が作成されていた。なお、問題の追加と入れ替わりで、少し古くなった問題は取り下げ（Retired）となるようだ。
+
+また、Hack The Boxでは、ゲーミフィケーション（ゲームデザイン要素やゲーム原則）を学習設計に取り入れている点も魅力の1つだ。問題を解くごとにポイントが追加され、一定のポイントを獲得するとユーザーのランクがアップする（ランクはNoob、Script Kiddie、Hacker、Pro Hacker、Elite Hacker、Guru、Omniscientの7つ）。チームに所属したり、ほかの参加者とポイントランキングで競い合ったりすることができるため、ゲーム感覚で学習できる仕組みとなっている。
+
+なお、有料会員になると、Retiredとなった過去の問題や特別に用意された問題にチャレンジすることができる。また、Machinesで起動する仮想マシンの利用環境に関する制限が解除されたり、ブラウザーから利用できる攻撃用の仮想マシン「Pwnbox」の利用時間が延長できたりと、アドバンテージが得られる。ただし、無料会員でもファーストステップとして十分に学習できる。
+
+Starting Point（Machinesの始め方）
+
+実際にMachinesの問題に挑戦してみようと思っても、はじめは調査方法や脆弱性の特定方法、システムへの侵入方法などが分からないため戸惑うだろう。そのためHack The BoxではMachinesに挑戦する前の準備として、初学者向けの問題「Starting Point」が用意されている。内容はMachinesと同様に仮想マシンを起動してFlagを得ることが目標となるが、クリアまでの道筋が細かなタスクとして提示されるため、タスクを解くことでMachinesの問題を解くための基礎的な知識を得ることができるようになっている。
+
+メニューの「Starting Point」をクリックすると、TIRE 0からTIRE 2にレベル分けされた問題が一覧に表示される。最初はTIER 1と2はロックされているので、TIER 0の問題から挑戦していく必要がある。難易度はVery Easyからで、仮想マシンの起動からアクセス方法などについての説明も記載されている。 Starting Pointの問題では、用語を解答するものからコマンドの実行結果を求めるものまで、ペネトレーションテストのスキルや基礎知識をステップバイステップで学ぶことができるタスクが用意されている。またStarting Pointの各問題（と前述のRetiredとなった問題）には、公式のWalkthrough（手順付きの解答）が用意されている。そのため、わからない問題はこれらに沿って解きながら学ぶことも可能だ。 したがって、Hack The Boxに興味を持ったが、何から始めれば良いかわからないという場合は、Starting Pointから始めると良いだろう。
+
+なお、Hack The Box のWebサイトは基本的にすべて英語だが、ブラウザーの翻訳機能（例： Microsoft Edgeであればブラウザーの画面上で右クリックから日本語に翻訳を選択）を使用すれば、日本語で利用することができる。また、問題を解くためには、ブラウザー以外にも、調査を行うためのパソコン（一般的にはKali LinuxやParrot OSをインストールしたもの）があるとよい。用意が難しい場合は、VirtualBoxやVMWareなどの仮想環境を用いれば、これらの環境を簡単に準備することができるだろう。なお、これらの環境の準備も難しい場合は、先述のブラウザーから利用できる「Pwnbox」で問題に挑戦することも可能だ。
+
+類似の学習プラットフォーム
+
+ここまでHack The Boxについて紹介してきたが、類似の学習プラットフォームである「Try Hack Me」と「VulnHub」の2つのサービスも解説しておこう。
+
+Try Hack Me
+
+Try Hack Meは、Hack The Boxと同様に、ゲーミフィケーションを取り入れた学習プラットフォームであり、ステップバイステップで解いていく問題が、数多く用意されている。また、使用するツールや脆弱性の種類、あるいはサイバーセキュリティ上の職種に対応した学習コースが組まれており、ポイントを絞った学習ができるようになっている。Hack The Boxと比較すると、より初学者向けの内容となっている。
+
+
+
+Try Hack Me
+
+
+VulnHub
+
+VulnHubは、予め脆弱性が組み込まれた仮想マシンのイメージを無料で公開しているWebサイトである。2023年時点で、約700個の仮想マシンイメージが登録されている。ほかのサービスは、問題の対象となる仮想マシンを起動してIPアドレスが提供されるため、オンラインでアクセスして問題を解く形式だが、VulnHubは仮想イメージをダウンロードして、自分の所有する環境で起動する必要がある。また、各問題は今まで紹介した2つのサービスほどカテゴライズされていないため、挑戦したい問題を見つけるのが少し難しいかもしれない。
+
+
+
+VulnHub
+
+
+最後に
+
+今回はペネトレーションテストの実践的な学習方法の1つとしてHack The Boxを紹介した。脆弱性の調査や悪用の可否、それらを用いたシステムへの侵入といった調査方法を学ぶことは一見難しそうに感じるだろう。しかしStarting Pointの問題やWalkthroughを利用することで、サイバーセキュリティの初学者でもスムーズに、そして楽しく知識やスキルの習得が可能だ。さらに基礎が学べたらMachinesやChallengesでより技術を磨くことができる。興味を持った方は挑戦してみてはいかがだろうか。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://eset-info.canon-its.jp/malware_info/news/detail/240123_2.html"
+                        open
+                      >
+                        <summary class="article-expander__title">Appleをかたるフィッシングについての注意喚起</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://eset-info.canon-its.jp/malware_info/news/detail/240123_2.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://eset-info.canon-its.jp/files/user/images/common/sns_thumb.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>2024年1月22日現在、Appleをかたるフィッシングが確認されております。フィッシングサイト上の入力欄には、絶対に情報を入力しないようにお願いします。
+
+このようなフィッシングサイトにて、メールアドレス、電話番号、パスワード、カード情報 (クレジット / デビットカード番号、有効期限、セキュリティコード)、認証コード等を絶対に入力しないよう、ご注意ください
+
+日頃からサービスへログインする際は、メールや SMS 内のリンクではなく、いつも利用しているブラウザーのブックマークなどからアクセスするよう、心がけてください。
+
+【メールの件名】
+
+Apple お客様のアカウント認証に関する重要なお知らせ
+
+※上記以外の件名も使われている可能性があります。
+
+【サイトのURL】
+
+メール内の URL
+https://tmb●●●●.com/
+https://ukg●●●●.com/
+
+転送先の URL
+https://ape●●●●.xyz/
+
+※上記以外のドメイン、URL も使われている可能性があります。
+※URL にパスやパラメータが付いていることがあります。
+
+2024/1/22 17:00時点では、フィッシングサイトは稼働中です。このサイトが停止しても、類似のフィッシングサイトが公開される恐れもありますので注意してください。
+このようなフィッシングサイトは日々新規に作成されています。ESET製品は、新規に作成されるフィッシングサイトにも随時対応していきますが、お客さま自身でも十分にご注意ください。
+
+【参考情報】
+
+App Store や iTunes Store からの正規のメールを識別する
+
+フィッシングメールや偽のサポート電話などの詐欺を見抜き、被害に遭わないようにする
+
+ 
+
+
+■ ESET製品における検出例
+
+
+
+※ESET Internet Security V17.0/ESET Mobile Security V8.2でフィッシング対策機能が有効な場合は、図のような通知が表示されます。
+
+
+■ フィッシングメール／フィッシングサイトへの対応
+
+
+
+	フィッシングの可能性があるメールをむやみに開かない。
+	フィッシングの可能性があるメールの添付ファイルをむやみに開かない。
+	メール文中のリンク先URLがフィッシングサイトである可能性を考え、リンク先URLへむやみにアクセスしない。
+	フィッシングの可能性があるサイトにアカウント情報やクレジットカード情報などを入力しない。
+
+
+
+
+キヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >SIOS Tech. Lab</button>
+                  <a class="source-heading__link" href="https://tech-lab.sios.jp">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://tech-lab.sios.jp/?p&#x3D;38700"
+                        open
+                      >
+                        <summary class="article-expander__title">早くて安くてウマい(￣ー￣)IT勉強会のためのハイブリッド配信環境構築ガイド</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://tech-lab.sios.jp/archives/38700">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://tech-lab.sios.jp/wp-content/uploads/2024/01/Screenshot-2024-01-22-at-23.54.04.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>みなさん、こんにちは。サイオステクノロジー武井です。今回はIT勉強会を実施する際のハイブリッド配信環境の構築方法についてお話したいと思います。 ハイブリッド配信 ここ最近、ハイブリッド配信環境の機運が高まっているように感 [...]
+早くて安くてウマい(￣ー￣)IT勉強会のためのハイブリッド配信環境構築ガイド first appeared on SIOS Tech. Lab.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://tech-lab.sios.jp/?p&#x3D;38723"
+                        open
+                      >
+                        <summary class="article-expander__title">LINE LIFFアプリケーションの環境構築: React</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://tech-lab.sios.jp/archives/38723">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://tech-lab.sios.jp/wp-content/uploads/2024/01/c2f09883cfe42ac688147fc93325d5dd.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>どもども！今回は、LINEの内部ブラウザを使ってアプリ構築ができるLIFF（LINE Front-end Framework：LINEログイン）の開発環境構築についてまとめました。良い開発体験のためにngrokを使って効 [...]
+LINE LIFFアプリケーションの環境構築: React first appeared on SIOS Tech. Lab.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >Alerts</button>
+                  <a class="source-heading__link" href="https://www.cisa.gov/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="/node/20759"
+                        open
+                      >
+                        <summary class="article-expander__title">CISA Adds One Known Exploited Vulnerability to Catalog</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.cisa.gov/news-events/alerts/2024/01/22/cisa-adds-one-known-exploited-vulnerability-catalog">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>CISA has added one new vulnerability to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.
+CVE-2023-34048 VMware vCenter Server Out-of-Bounds Write Vulnerability
+These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.
+Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.
+Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;2
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >JPNIC Web</button>
+                  <a class="source-heading__link" href="https://www.nic.ad.jp/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.nic.ad.jp/ja/mailmagazine/backnumber/2024/vol2052.html"
+                        open
+                      >
+                        <summary class="article-expander__title">[メルマガ]vol.2052:【トピックス号】先週のトピックスとWeb更新情報</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.nic.ad.jp/ja/mailmagazine/backnumber/2024/vol2052.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>https://www.nic.ad.jp/ja/topics/2024/20240111-01.html
+
+┏◆ 先週公開のJPNICブログ記事 計1件
+┗━━━━━━━━━━━━━━━━━━━━━━
+
+・地域インターネットレジストリの統治機構に関する2023年のまとめと2024年
+  の展望(2024/1/17)
+     | 
+     | 2023年は、地域インターネットレジストリ(RIR)にとって、統治機構の
+     | 問題に揺れた1年となりました。2023年の流れを整理した上で、2024年
+     | の展望をお伝えしたいと思います...
+     |
+     | 続きを読む →
+     | https://blog.nic.ad.jp/2024/9469/
+
+
+┏◆ 先週のトピックスとお知らせ 計1件
+┗━━━━━━━━━━━━━━━━━━━━━━
+
+・「IGF 2023に向けた国内IGF活動活発化チーム」
+  第44回会合開催のご案内(2024/1/16)
+  https://www.nic.ad.jp/ja/topics/2024/20240116-01.html
+
+
+┏◆ 先週のWeb更新情報 計4件
+┗━━━━━━━━━━━━━━━━━━━━━━
+
+・IGF 2023報告会の資料に各セッションの要約を追加(2024/1/19)
+  https://www.nic.ad.jp/ja/materials/igf/20231226/
+
+・IPアドレスに関する統計・各種リスト以下のグラフを更新
+  2023年12月のデータを追加(2024/1/18)
+  https://www.nic.ad.jp/ja/stat/ip/
+
+・JPNICが管理するIPアドレス・AS番号・IRRサービスに関する統計を更新
+  2023年12月のデータを追加(2024/1…</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.nic.ad.jp/ja/topics/2024/20240122-01.html"
+                        open
+                      >
+                        <summary class="article-expander__title">[トピックス]APRICOT 2024参加支援プログラム応募期限延長のお知らせ(1月24日(水) 10:00まで)</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.nic.ad.jp/ja/topics/2024/20240122-01.html">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>2024年1月22日
+各位
+一般社団法人日本ネットワークインフォメーションセンター
+APRICOT 2024参加支援プログラム応募期限延長のお知らせ(1月24日(水) 10:00まで)
+APRICOT 2024 参加支援プログラム応募受付開始のお知らせ
+              をご確認の上、期限までにご応募をお願いいたします。
+            
+以上</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >JVNRSS Feed - Update Entry</button>
+                  <a class="source-heading__link" href="https://jvn.jp/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://jvn.jp/jp/JVN34565930/"
+                        open
+                      >
+                        <summary class="article-expander__title">a-blog cms における複数の脆弱性</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://jvn.jp/jp/JVN34565930/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>a-blog cms には、複数の脆弱性が存在します。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://jvn.jp/jp/JVN73587943/"
+                        open
+                      >
+                        <summary class="article-expander__title">アクセス解析CGI An-Analyzer におけるオープンリダイレクトの脆弱性</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://jvn.jp/jp/JVN73587943/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>有限会社アングラーズネットが提供するアクセス解析CGI An-Analyzer には、オープンリダイレクトの脆弱性が存在します。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;1
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://jvn.jp/vu/JVNVU90042047/"
+                        open
+                      >
+                        <summary class="article-expander__title">AVEVA製PI Serverにおける複数の脆弱性</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://jvn.jp/vu/JVNVU90042047/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>AVEVAが提供するPI Serverには、複数の脆弱性が存在します。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://jvn.jp/vu/JVNVU98698305/"
+                        open
+                      >
+                        <summary class="article-expander__title">Apache Tomcatにおける情報漏えいの脆弱性</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://jvn.jp/vu/JVNVU98698305/">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Apache Tomcatには、情報漏えいの脆弱性が存在します。</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >ITmedia NEWS セキュリティ 最新記事一覧</button>
+                  <a class="source-heading__link" href="https://www.itmedia.co.jp/news/security/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.itmedia.co.jp/news/articles/2401/22/news124.html"
+                        open
+                      >
+                        <summary class="article-expander__title">「中古PCを買ったら、NTT Comの社内用設定画面が出て使えない」Xで話題　同社が事情を説明、謝罪</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.itmedia.co.jp/news/articles/2401/22/news124.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.itmedia.co.jp/news/articles/2401/22/cover_news124.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>「中古PCを購入してWindowsを入れようとしたら、NTTコミュニケーションズ（NTT Com）の設定画面が表示されてしまい、利用できない」――こんな投稿がXで話題になった。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -17039,383 +18221,12 @@ Dockerで起動したSQL Serverの既定のデータベースを変更したユ�
                 </section>
               </section>
             </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >独立行政法人情報処理推進機構（IPA）新着情報RSS</button>
-                  <a class="source-heading__link" href="https://www.ipa.go.jp/about/index.html">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.ipa.go.jp/shiken/syllabus/henkou/2023/20231225.html"
-                        open
-                      >
-                        <summary class="article-expander__title">情報処理技術者試験及び情報処理安全確保支援士試験における出題範囲・シラバスの一部改訂について（近年の技術動向・環境変化などを踏まえた改訂）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.ipa.go.jp/shiken/syllabus/henkou/2023/20231225.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>情報処理推進機構（IPA）の「情報処理技術者試験及び情報処理安全確保支援士試験における出題範囲・シラバスの一部改訂について（近年の技術動向・環境変化などを踏まえた改訂）」に関する情報です。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >キヤノンマーケティングジャパン株式会社の更新情報</button>
-                  <a class="source-heading__link" href="https://eset-info.canon-its.jp/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://eset-info.canon-its.jp/malware_info/news/detail/231225.html"
-                        open
-                      >
-                        <summary class="article-expander__title">年末年始のマルウェア対策に関する注意事項について</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://eset-info.canon-its.jp/malware_info/news/detail/231225.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://eset-info.canon-its.jp/files/user/images/common/sns_thumb.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>日頃は、ESET製品をご利用いただき、誠にありがとうございます。
-ここでは、年末年始のマルウェア対策に関する注意事項についてご案内しております。
-
-ESET製品の検出エンジン（ウイルス定義データベース）のアップデートについて
-
-ESET製品が使用する検出エンジン（ウイルス定義データベース）は休暇期間に関わらず、日々更新されています。
-休暇明けの初回の検出エンジンのアップデートの際は、複数世代分を取得しますので、サイズが普段の数百KBから数MB程度に増加する可能性があります。
-
-※ 検出エンジン（ウイルス定義データベース）のサイズは、お客さまのご利用環境、および、ウイルスの発生状況などにより前後いたします。
-
-休暇明けには、多量のメール受信などの通常とは異なる通信の発生によって、ネットワーク負荷が高まる可能性があります。
-必要に応じて、各クライアント端末が検出エンジンのアップデートを行うタイミングを分散させるなどの事前対策をご検討ください。
-
-参考URL
-
-
-
-	検出エンジン（ウイルス定義データベース）のサイズと更新頻度について
-	【 バージョン 8 以降の場合 】一時的にクライアント端末のアップデートタイミングを分散させるには
-
-
-
-長期休暇の前後にやっておきたいこと
-
-長期休暇期間のマルウェア感染や外部からの攻撃は、気が付きにくい傾向にあります。
-マルウェア感染を未然に防ぐため、以下を参考に現在ご利用中の環境のセキュリティレベルについても今一度ご確認いただき、必要に応じて対策をご検討ください。
-同時に、休暇期間中にマルウェア感染が発覚した場合に備えて、対応方法や関係者への連絡方法などについて確認・周知しておくことも大切です。
-
-更に、最近どのようなマルウェアが流行しているか、情報を得ることは重要です。
-
-特に近年急増しているランサムウェアへの対策は必要不可欠です。最近はランサムウェアの感染を狙った、malspamと呼ばれるスパムメールが多く観測されています。また、マルウェア配布に使われるメール文面が洗練されており、一読しただけでは不審なメールであると気づくことが難しくなっています。
-その中でもEmotetは正規のメールへの返信を装う手口を使うことがあり、過去にメールのやり取りをしたことのある、実在相手の氏名、メールアドレス、メールの内容等の一部を流用したメールを送信してきますので、不用意に添付ファイルを開いたり、マクロを有効にしたりすることがないよう注意が必要です。
-またサイバーセキュリティ情報局 2023年10月のマルウェアレポートによると、PDF形式のマルウェアが増加傾向にあります。MS Office文書に対する警告が多くなされている中で、それに代替する攻撃手法としてPDF形式ファイルの悪用が増加している可能性があります。
-
-ランサムウェアの被害を最小限にするには、データを定期的にバックアップし、メールやインターネットを利用する端末のネットワークからバックアップデータを遮断しておくことを推奨します。
-
-ランサムウェアの中には情報を盗み出し、それを公開すると脅迫して身代金を要求するものもあります。重要な情報の保管の際にはアクセス権の適切な設定、および暗号化などの対策を検討してください。また、外部からリモートで接続する際の認証強化も重要です。
-
-マルウェアの侵入経路として、ネットワーク製品等の脆弱性を悪用する事例が増加しています。またオープンソースで広く使われているコンポーネントに脆弱性が見つかることもあります。 IPA（情報処理推進機構）やJPCERT/CC 等の脆弱性関連情報を参照し、ファームウェアを修正済みのものに更新する等、必要な処置を講じてください。
-
-また IoTデバイス（防犯カメラやルーターなど）を踏み台にした大規模な DDoS攻撃に利用されないように機器を設定することも重要です。ルーターなどの管理画面へのログイン設定を、工場出荷時の設定から変更することを推奨します。
-
-参考URL
-
-
-
-	激増するランサムウェアの傾向と対策
-	「Emotet（エモテット）」と呼ばれるウイルスへの感染を狙うメールについて
-	2023年10月 マルウェアレポート
-	JPCERT/CC マルウェアEmotetの感染再拡大に関する注意喚起
-	JVN 脆弱性レポート
-
-
-
-長期休暇前にやっておくべきこと
-
-
- システム管理者向け
-
-
-①セキュリティインシデント（事故）発生時の緊急連絡体制が明確になっているか確認する
-
-②ご利用中のOSやソフトウェア（サーバーを含む）にセキュリティホールがないか確認する
-
-
-
-	OSやソフトウェアに最新のセキュリティ更新プログラムが適用されていることを確認する
-	各クライアントPC利用者に向けて最新のセキュリティ更新プログラムの適用を呼び掛ける
-
- 
-
-
-＜確認が必要なものの代表例＞
-
-
-・Oracle Java
-・Microsoft Office
-・Adobe Acrobat/Reader
-・OS X
-
-
-
-・Microsoft Windows / Windows Server
-・Internet Explorer
-・Adobe Flash Player
-・Linux
-
-
- 
- 
-
-③各PCのESET製品に最新の検出エンジン（ウイルス定義データベース）が適用されていることを確認する
-
-④OSやWebサービスに設定しているパスワードが、私用のパスワードを使いまわしたものでないこと、強度が適切であることを確認する
-
-■不適切なパスワード例
-
-
-	
-		
-			パスワード例
-			使用を避けるべき理由
-		
-		
-			123456, qwerty, password
-			使用頻度が高く、容易に推測できるため
-		
-		
-			Alice, Bob, 19800101
-			個人情報から推測できるため
-		
-		
-			9671, odtg, QRFV
-			文字種と桁数が少なく、総当たり攻撃に対して弱いため
-		
-		
-			computer, permission
-			辞書を用いる攻撃に対して弱いため
-		
-	
-
-
-⑤重要なデータのバックアップをおこなう
-
-⑥不要なサービスは無効にし、各種サービスへのアクセス権限は必要最低限に抑え、休暇中に使用しないPCの電源を切る
-
-⑦ルーターや監視カメラなどの機器管理画面へのログイン設定を、工場出荷時の設定から変更する
-
-⑧VPNや認証系システムにセキュリティ修正パッチがあるかを確認し、適用する。休暇前日に作業を行うのではなく、あらかじめ余裕を確保しておくこと
-
-
-
-
-
- クライアントPC利用者向け
-
-
-①セキュリティインシデント（事故）発生時の連絡先を確認する
-
-②OSやWebサービスに設定しているパスワードが、私用のパスワードを使いまわしたものでないこと、強度が適切であることを確認する
-
-■不適切なパスワード例
-
-
-	
-		
-			パスワード例
-			使用を避けるべき理由
-		
-		
-			123456, qwerty, password
-			使用頻度が高く、容易に推測できるため
-		
-		
-			Alice, Bob, 19800101
-			個人情報から推測できるため
-		
-		
-			9671, odtg, QRFV
-			文字種と桁数が少なく、総当たり攻撃に対して弱いため
-		
-		
-			computer, permission
-			辞書を用いる攻撃に対して弱いため
-		
-	
-
- 
-
-③重要なデータのバックアップをおこなう
-
-④休暇中に使用しないPCの電源を切る
-
-⑤自宅Wi-Fiルーターのファームウェア更新を確認し、必要であれば適用する
-
-⑥業務で使用しているPCやスマートフォンを持ち出す際には、所属組織のルールを十分に確認し、それに従って利用する
-
-⑦スマートフォンの盗難や紛失に備え、暗号化やパスワード設定をおこなう。必要に応じてESET Mobile Security for Androidなどの「リモートワイプ機能」を設定し、リモートでデータを消去できるよう準備しておく
-＜ESET Mobile Security for Androidにおける、リモートワイプの手順＞
-　リモートワイプを利用するには、SMS経由でコマンドを送信します。
-　下記のコマンドを本文に入力し、対象のスマートフォンにSMSを送ります。
-　eset wipe (password)
-
-※(password)の部分には、ESET Mobile Security for Androidで設定したパスワードを入力します。
-
-
-
-
-長期休暇明けにやるべきこと
-
-
- システム管理者向け
-
-
-①各PCのESET製品の検出エンジン（ウイルス定義データベース）を最新に更新する
-
-②ご利用中のOSやソフトウェアについて、新しいセキュリティ更新プログラムが公開されていないか確認する
-
-
-＜新しいセキュリティ更新プログラムが公開されている場合＞
-
-
-	最新のセキュリティ更新プログラムを適用する
-	各クライアントPC利用者に向けて最新のセキュリティ更新プログラムの適用を呼び掛ける
-
-
-
-③社内におけるウイルス感染の有無を確認する
-
-
-
-	ESET PROTECTでクライアントPCを管理している場合は、「検出」セクションを確認する
-	電子メールなどによる通知機能を利用している場合は、休暇期間中のメールを確認する
-
-
-
-④アクセスログを確認する（監査ログを取得している場合）
-
-
-
-	不正アクセスがないか確認する
-
-
-
-⑤休暇期間中のセキュリティに関するニュースを確認する
-
-
-
-	注意喚起が必要か確認する
-
-
-
-
-
-
-
- クライアントPC利用者向け
-
-
-①各PCのESET製品の検出エンジン（ウイルス定義データベース）を最新に更新する。溜まったメールの受信前に行うのが効果的
-
-②新しいセキュリティ更新プログラムが公開されている場合は、最新のセキュリティ更新プログラムを適用する
-
-③休暇期間中に社外に持ち出したPCを社内ネットワークに接続する際や、社外で作成したデータを取り込む際は、事前にウイルスチェックを行う
-
-④休暇期間中に受信したメールには細心の注意を払い、不審なメールに添付されているファイルを実行したり、本文中のリンク先にアクセスしたりしない
-
-
-
-【参考情報】
-
-IPA
-2023年度 年末年始における情報セキュリティに関する注意喚起
-長期休暇における情報セキュリティ対策</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >スラド: セキュリティ</button>
-                  <a class="source-heading__link" href="https://security.srad.jp/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://security.srad.jp/story/23/12/24/1046200/"
-                        open
-                      >
-                        <summary class="article-expander__title">FBIとランサムウェアグループ、URLの奪い合いに</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://security.srad.jp/story/23/12/24/1046200/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://srad.jp/static/topics/crime_64.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>米法務省は 12 月 19 日、ALPHV/Blackcat ランサムウェアグループの妨害作戦に成功し、世界 500 件以上の被害者を救済可能な復号ツールを作成したと発表した
-(プレスリリース、
-捜査令状、
-BleepingComputer の記事 [1]、
-[2]、
-[3])。
-
-今回の作戦は連邦捜査局 (FBI) に協力する秘密の情報提供者 (CHS) が Blackcatのアフィリエイトとなって内部調査を行い、何らかの方法でアフィリエイトには提供されない復号鍵や Tor の秘密鍵を入手したのだという。FBI は Tor の秘密鍵を用いてサイト URL を差し押さえたが、同じ鍵を持つランサムウェアグループが URL を奪い返し、URL の奪い合いになったとのこと。
-
-URL を奪い返されては作戦の一部が失敗したことにもなるが、ターゲットが救済されたランサムウェアグループにも大きなダメージとなった。アフィリエイトの中には信頼を失ってほかのランサムウェアグループに移る者もあり、Blackcat もほかのランサムウェアグループとカルテルを結ぶべく話し合いを行っているとのことだ。
- すべて読む | セキュリティセクション | 犯罪 | セキュリティ | 暗号 |     
-  関連ストーリー： 
-ロシア連邦保安庁、サイバー犯罪組織 REvil を無力化 2022年01月16日 
-豪連邦警察、FBIが運営する組織犯罪専用暗号化通信アプリで犯罪組織を摘発 2021年06月10日 
-米パイプラインのサイバー攻撃事件、FBIが身代金の大半を奪還に成功 2021年06月09日 
-30桁の複雑なパスワードで暗号化されたTrueCryptの隠しボリューム、FBIが復号に成功？ 2015年08月08日 
-米司法省が差し押さえていたはずのMegaupload関連ドメイン、サイバー犯罪者に悪用される 2015年05月30日</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
         </ul>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/9-to/osmos_sec_feed/actions/runs/7608203936">
-        <time id="build-timestamp" datetime="2024-01-22T08:12:53.127Z">2024-01-22T08:12:53.127Z</time>
+      <a class="footer-link" href="https://github.com/9-to/osmos_sec_feed/actions/runs/7622783656">
+        <time id="build-timestamp" datetime="2024-01-23T08:12:29.692Z">2024-01-23T08:12:29.692Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
