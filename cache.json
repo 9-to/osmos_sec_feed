@@ -987,16 +987,6 @@
           "wordCount": 868,
           "title": "Intellexa 社（旧 Cytrox 社）：売りに出された企業が諜報機関並みのスパイウェア企業に生まれ変わるまでの軌跡",
           "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/24AR02390_eyecatch-460x230.jpg"
-        },
-        {
-          "id": "https://gblogs.cisco.com/jp/?p=49940",
-          "author": "TALOS Japan",
-          "description": "サイバーセキュリティの世界で 2023 年に学んだことがあるとすれば、それはセキュリティの世界の悪者を数え上げることはできない、ということです。",
-          "link": "https://gblogs.cisco.com/jp/2023/12/talos-year-in-malware-2023-timeline/",
-          "publishedOn": "2023-12-29T01:18:32.000Z",
-          "wordCount": 774,
-          "title": "2023 年のマルウェア：この 1 年の主なサイバーセキュリティ事例のまとめ",
-          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/23AM80719_eyecatch-460x230.jpg"
         }
       ]
     },
@@ -1671,7 +1661,28 @@
       "title": "JPRS最新情報",
       "feedUrl": "https://jprs.jp/whatsnew/rss/jprs.rdf",
       "siteUrl": "https://jprs.jp/",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://jprs.jp/whatsnew/",
+          "author": null,
+          "description": "JPドメイン名の登録管理業務とDNSの運用を行っている株式会社日本レジストリサービス(JPRS)による、JPドメイン名サービス総合案内サイトです。",
+          "link": "https://jprs.jp/whatsnew/",
+          "publishedOn": "2024-01-22T00:00:00.000Z",
+          "wordCount": 2785,
+          "title": "メールマガジン（FROM JPRS）バックナンバーを更新しました。",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jprs.jp/whatsnew/",
+          "author": null,
+          "description": "JPドメイン名の登録管理業務とDNSの運用を行っている株式会社日本レジストリサービス(JPRS)による、JPドメイン名サービス総合案内サイトです。",
+          "link": "https://jprs.jp/whatsnew/",
+          "publishedOn": "2024-01-12T00:00:00.000Z",
+          "wordCount": 2785,
+          "title": "JPRSは「JANOG53 Meeting」に協賛しています",
+          "imageUrl": null
+        }
+      ]
     },
     {
       "title": "CISA Cybersecurity Advisories",
@@ -3565,46 +3576,6 @@
           "wordCount": 802,
           "title": "教頭が引き継ぎ内容失念、学籍記録記載文書を書き写すよう保護者に指示",
           "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/43671.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2023/12/29/50422.html",
-          "author": null,
-          "description": "株式会社朝日新聞社は12月19日、9月6日に公表した個人情報の流出について、調査結果を発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2023/12/29/50422.html",
-          "publishedOn": "2023-12-28T23:05:10.000Z",
-          "wordCount": 798,
-          "title": "朝日新聞デジタルと紙面ビューアーの会員情報流出、外部からのアクセス拒否が設計通り実装されず",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/43647.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2023/12/29/50421.html",
-          "author": null,
-          "description": "京都市立芸術大学は12月22日、日本伝統音楽研究センターウェブサイトへの不正アクセスについて発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2023/12/29/50421.html",
-          "publishedOn": "2023-12-28T23:05:05.000Z",
-          "wordCount": 805,
-          "title": "京都市立芸術大学 日本伝統音楽研究センターのウェブサイトに不正アクセス、データ削除被害",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/43637.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2023/12/29/50420.html",
-          "author": null,
-          "description": "株式会社長野日報社は12月22日、同社サーバへのランサムウェア感染について発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2023/12/29/50420.html",
-          "publishedOn": "2023-12-28T23:05:02.000Z",
-          "wordCount": 845,
-          "title": "長野日報社サーバへのランサムウェア攻撃、通常よりページ数を減らした特別紙面で発行",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/43617.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2023/12/29/50419.html",
-          "author": null,
-          "description": "警察庁と金融庁は12月25日、フィッシングによるものとみられるインターネットバンキングに係る不正送金被害の急増について、注意喚起を発表した。日本サイバー犯罪対策センター（JC3）でも12月25日に、同様の注意を呼びかけている。",
-          "link": "https://scan.netsecurity.ne.jp/article/2023/12/29/50419.html",
-          "publishedOn": "2023-12-28T23:00:02.000Z",
-          "wordCount": 873,
-          "title": "フィッシングによるインターネットバンキングへの不正送金被害が急増、「不正アクセス」「個人情報の確認」「取引の停止」等のワードに注意呼びかけ",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/43646.jpg"
         }
       ]
     },
@@ -5499,16 +5470,6 @@
           "wordCount": 4782,
           "title": "ネットワーク機器メーカーに聞く「今年の意気込み」と「去年の売れ筋」【2024年版】　今年の注目は？",
           "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1557/812/rss.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/special/1557080.html",
-          "author": null,
-          "description": "2023年を振り返って、INTERNET Watch編集部がオススメしたい今年の記事を各スタッフが1本ずつ紹介！　注目しているジャンルやここでしか見れない記事制作時の裏話などを自由に語りました。",
-          "link": "https://internet.watch.impress.co.jp/docs/special/1557080.html",
-          "publishedOn": "2023-12-28T21:05:00.000Z",
-          "wordCount": 4657,
-          "title": "2023年を振り返って、INTERNET Watch編集部スタッフのオススメ記事をまとめてみた",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1557/080/t1.png"
         }
       ]
     },
@@ -5523,6 +5484,16 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240127-2870306/",
+          "author": null,
+          "description": "Security Affairsは1月24日(現地時間)、オンラインに公開されているGitLabサーバのうち5,379台が緊急の脆弱性(CVE-2023-7028)を対策していないとして警告した。この脆弱性は悪用されると、ユーザーの関与なしにパスワードがリセットされ、アカウントが乗っ取られる危険性がある。",
+          "link": "https://news.mynavi.jp/techplus/article/20240127-2870306/",
+          "publishedOn": "2024-01-27T00:05:18.000Z",
+          "wordCount": 1750,
+          "title": "GitLabサーバの脆弱性、日本も149台に影響 - アップデートを",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240127-2870306/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20240126-2870639/",
           "author": null,
@@ -6672,26 +6643,6 @@
           "wordCount": 1761,
           "title": "Androidの新しいマルウェア「Xamalicious」、25種類のアプリに混入",
           "imageUrl": "https://news.mynavi.jp/techplus/article/20231230-2853250/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20231229-2852237/",
-          "author": null,
-          "description": "Webブラウザに使いたい機能がない時、拡張機能を追加すれば、必要な機能を入手できる。しかし、ブラウザの拡張機能はセキュリティの脅威を抱えている。そこで、最近発生した拡張機能による被害、リスクから身を守るための対策を紹介しよう。",
-          "link": "https://news.mynavi.jp/techplus/article/20231229-2852237/",
-          "publishedOn": "2023-12-29T03:16:56.000Z",
-          "wordCount": 1703,
-          "title": "ブラウザの拡張機能にご注意、アカウント乗っ取りなどの恐れ",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20231229-2852237/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20231229-2852134/",
-          "author": null,
-          "description": "Windowsに比べて、Macは安全と言われてきた。そう信じているAppleユーザーは多いだろう。だが実のところ、どうなのだろうか。Windowsよりは少ないが、macOSを狙うマルウェアはいくつも確認されている。",
-          "link": "https://news.mynavi.jp/techplus/article/20231229-2852134/",
-          "publishedOn": "2023-12-29T01:05:48.000Z",
-          "wordCount": 1689,
-          "title": "Macは本当に安全か？2023年に悪用されたゼロデイ脆弱性は10を超える",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20231229-2852134/ogp_images/ogp.jpg"
         }
       ]
     }
