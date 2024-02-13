@@ -867,26 +867,6 @@
           "wordCount": 385,
           "title": "「2023年度ソフトウェア開発に関するアンケート調査」 調査結果データ734件を公開しました",
           "imageUrl": "https://www.ipa.go.jp/digital/chousa/software-engineering/nq6ept000000476m-img/ogp-image.jpg"
-        },
-        {
-          "id": "https://www.ipa.go.jp/event/2023/agile20240207.html",
-          "author": "情報処理推進機構（IPA）",
-          "description": "情報処理推進機構（IPA）の「アジャイル開発成功の秘訣は、正しい準備にあり！」に関する情報です。",
-          "link": "https://www.ipa.go.jp/event/2023/agile20240207.html",
-          "publishedOn": "2024-01-14T15:00:00.000Z",
-          "wordCount": 263,
-          "title": "「アジャイル開発成功の秘訣は、正しい準備にあり！」ウェビナー開催のご案内",
-          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
-        },
-        {
-          "id": "https://www.ipa.go.jp/about/disclosure/publiccomment.html",
-          "author": "情報処理推進機構（IPA）",
-          "description": "情報処理推進機構（IPA）の「障害を理由とする差別の解消の推進に関する対応要領（改正案）に対する意見募集」に関する情報です。",
-          "link": "https://www.ipa.go.jp/about/disclosure/publiccomment.html",
-          "publishedOn": "2024-01-14T15:00:00.000Z",
-          "wordCount": 216,
-          "title": "障害を理由とする差別の解消の推進に関する対応要領（改正案）に対する意見募集を開始しました",
-          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
         }
       ]
     },
@@ -1178,6 +1158,16 @@
       "feedUrl": "https://gblogs.cisco.com/jp/feed/",
       "siteUrl": "https://gblogs.cisco.com/jp",
       "articles": [
+        {
+          "id": "https://gblogs.cisco.com/jp/?p=50417",
+          "author": "TALOS Japan",
+          "description": "新しく買った電気自動車についてニュースレターの冒頭で 2 回も連続して触れると「カーマニア」だと思われてしまいかねないのですが、やはり話題に触れずにはいられません。",
+          "link": "https://gblogs.cisco.com/jp/2024/02/talos-threat-source-newsletter-feb-1-2024/",
+          "publishedOn": "2024-02-12T07:50:35.000Z",
+          "wordCount": 650,
+          "title": "電気自動車がハッキングされるさまざまな方法と、現実世界におけるその重要性",
+          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/04AS85271_eyecatch-460x230.jpg"
+        },
         {
           "id": "https://gblogs.cisco.com/jp/?p=50138",
           "author": "Sana Kobayashi",
@@ -1703,6 +1693,16 @@
       "feedUrl": "https://eset-info.canon-its.jp/RSS.rdf",
       "siteUrl": "https://eset-info.canon-its.jp/",
       "articles": [
+        {
+          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/240213.html",
+          "author": null,
+          "description": "AndroidスマホやiPhone、Windows 11以降のパソコンなどで利用が可能なパスワードレス認証の手段であるパスキー。容易な設定ながら、高いセキュリティレベルを誇ることから、利用可能なシーンが着実に増加している。この記事では、パスキーの概要、仕組み、設定方法と注意点に加え、FIDO認証との違いについて解説していく。\n\n\n\n\n\nパスワードに代わる認証方法「パスキー」\n\nパスワードを使わずとも認証が可能となる技術の1つとして知られるパスキー。マルチデバイスに対応し、生体認証を用いて認証を行うことが特徴だ。パスキーを用いることで、パスワードレスのログインが可能となる。そのため、複雑で推測されづらいパスワードを設定することも不要となり、複数のサービスでパスワードを使い回すといった問題への対策ともなり得る。\n\nまた、なりすましによるアカウントの不正ログインといったセキュリティリスクを回避でき、安全な利用環境を実現する。ほかにも、正規のサイトに偽装してアカウント情報を詐取するといった行為も未然に防ぐことができることから、フィッシング詐欺の解決手段としても注目されている。\n\nパスキーは、FIDO（ファイド）アライアンスとWeb標準化団体のW3Cが制定した規格である。マイクロソフト社、アップル社、グーグル社など、いわゆる巨大プラットフォーマーが対応し、国内でもNTTドコモ社やKDDI社など多数のサービスでも次々と対応しており、日本国内でも普及し始めている。\n\nなお、NTTドコモ社などではパスワードの代わりに使われる生体認証やパターンなどを用いた認証手段を「パスキー」と呼んでいる。すなわち、認証機構そのものでなく、認証を行う手段を「パスキー」と定義していることになる。例えば、ログインする場合に、「パスキーでログイン」と表示される。そのため、混同しやすく注意が必要だが、この記事内でパスキーという言葉は技術概念として扱う。\n\n改めて知っておきたい、生体認証の仕組みと利用する際のリスク\n\nパスキーの仕組み\n\nパスキーは認証技術として、公開鍵暗号方式を用いるFIDO2を採用している。また、W3CによるWeb標準の勧告候補ともなっているWebAuthnをサポートしており、こうした技術を用いることでWeb経由でのパスワードレスを実現している。\n\n\n\n図1：パスキー認証のプロセス\n\n\nパスキーでは、図１のようにWebサービスへのアクセス時にFIDOサーバーへ接続する。FIDOサーバーにて、チャレンジと呼ばれる要求をWebサービスへ送付。ユーザーは手元のスマートフォン（以下、スマホ）などのデバイスにて秘密鍵で署名したチャレンジを公開鍵とともにサーバーへ返送する。そのチャレンジをサーバーにて検証し、認証されればサービスへの登録が完了する。すなわち、サーバー側では署名認証のみを行うため、安全性が高まる。\n\nまた、このプロセスで用いられる認証情報はパソコンやスマホ内の隔離された実行環境である、TEE（Trusted Execution Environment）やセキュアエレメントなどへサービスごとに保存される。こうすることで、ログイン時には生体認証を使うだけでのログインが可能となる。\n\n加えて、パスキーを用いることでパスワードが不要となるため、パスワードリスト攻撃への耐性がある。Webサイトごとに設定した認証情報を用いるため、公式サイトに偽装したフィッシングサイトではログインができず安全性が高まる。\n\nパスキーとFIDO認証の違い\n\nパスキーは3種類あるFIDO認証のうち、FIDO2を採用している。FIDO認証はパスキーの前身とも言え、FIDO認証のデメリットを補ったものがパスキーとみなせる。\n\nFIDO認証を用いることでも、パスワードレスなログインが可能となる。また、パスキー同様に認証情報が安全な領域に保管されるため、秘密鍵漏えいのリスクが低く、そもそもFIDO2による認証自体が二要素認証となっているため、サービスごとの二段階認証の設定の必要性が下がる。\n\n二要素認証と二段階認証の違いを理解していますか？\n\nこうした仕組みにより、フィッシングサイトを用いた認証情報の詐取を難しくしているのだ。しかしその一方で、FIDO認証にも決定的な課題が存在する。認証情報をデバイス内に保管する仕様のため、ログインできるデバイスが制限されることになる。\n\nデジタル全盛時代、複数のデバイスを所有することが一般的となっているが、FIDO認証は複数のデバイスをまたがって利用することができないのだ。このような仕様の場合、デバイスを紛失、あるいは買い替えした際などに不便を極めてしまう。\n\nこうした課題解消のためにパスキーが規格化された。パスキーでは認証情報を複数のデバイス間で同期できる仕組みとなっている。Microsoftアカウント、Apple ID、Googleアカウント、国内ではNTTドコモ社のdアカウントといったアカウントサービスが対応している。例えば、同じApple IDを登録したMacとiPhone、iPadの各デバイスで共通した生体認証を設定することで、それぞれのデバイスで共通のログインが可能となる。\n\nデバイスごとに異なるパスキーの設定方法\n\nパスキーの設定は、基本的にほかのOSの認証やWeb認証などと大きく変わるわけではない。例えば、iPhoneの場合、パスキーの登録はTouchIDもしくはFaceIDといった生体認証をそのまま流用する。以下、各デバイスにおけるアカウントのパスキー作成方法を紹介する。\n\nAndroid OS搭載デバイス\n\nまず、使用しているデバイスでパスキー設定ページへアクセスする。画面の表示に従い、Google アカウントにログインする。続けて、デバイスを使った認証、指紋認証・顔認証・画面のアンロックなどを進めていく。こうした手順でパスキーを作成できる。\n\niOS搭載デバイス\n\niPhoneなどiOS搭載デバイスの場合、FaceIDもしくはTouchIDを用いて、アプリやWebサービスごとにパスキーを作成することになる。iPhoneでパスキーに対応しているWebサイトやアプリで、「新しいアカウントを設定」、もしくは「既存のアカウント名とパスワード」を使ってサインインし、アカウント設定または管理画面に移動。アカウントのパスキーを保存するオプションが表示されたら、「続ける」をタップ。こうした方法でパスキーが保存される。\n\nWindows OS搭載デバイス\n\nWindows 11からパスキーに対応しており、Windowsアカウントのパスキー作成が可能だ。パスキーを作成するには、Webサイトまたはアプリを開きアカウント設定から行う。パスキーの保存は、Windowsデバイスのローカル上（認証はWindows Helloを用いる）、iPhone・iPad（QRコードスキャンを要する）、Androidデバイス（QRコードやアプリのリンクを経由）、セキュリティーキー（FIDO2）が利用可能となる。\n\nNTTドコモ社契約のデバイス\n\nNTTドコモ社で契約されているスマホでは、「いつもパスキー設定（旧パスワードレス設定）」からパスキーの設定が可能だ。パスキーを設定するにはdアカウント設定アプリを使用する。「生体認証または画面ロックで認証」メニューから、「機能説明・ご注意事項」を確認し、「次へ」と進む。デバイスがネットワークの暗証番号を確認、続けて生体認証もしくは画面ロックを使った認証を要求するため、認証をクリアする。画面の指示通りに進めれば設定は完了となる。\n\nいずれも複雑なプロセスを経ることなく、手順に沿って進めれば容易に設定できる。また、いずれの方法も従来のソーシャルログインに近いため、慣れれば問題なく利用できるだろう。\n\nパスキー利用における注意点\n\n利便性と安全性の両立を高いレベルで実現するパスキーだが、注意が必要な点もある。それは、パスキーを設定したアカウントに大きく依存し、制約を受ける場合も生じ得るということだ。具体的にどういった懸念があるのかを以下に解説する。\n\n同一アカウントの利用が前提となる\n\nパスキーは先述のように、Apple IDやMicrosoftアカウント、Googleアカウントに紐づくことになる。そのため、複数のデバイス間で同期して利用する場合、アカウントを横断して利用することはできない。例えば、Microsoftアカウントで保管したパスキーは、Androidデバイスに登録したGoogleアカウントと同期しない。ほかにも、仮にiPhoneからAndroidスマホへ機種変更する場合、パスキーが同期されないため、再設定が必要となる。\n\nパスキー対応のアプリ、Webサービスに限定される\n\nパスキーは現在、普及期にある技術のため、対応しているWebサービス、アプリが限定される。そのため、すべてのサービスにおいてパスワードレスとはならない点に注意が必要だ。\n\nデバイス紛失時に悪用される可能性がある\n\n先述のように、パスキーはデバイス内に保管されるため、デバイスを紛失した際に悪用されるリスクが生じ得る。ただし、認証を生体認証に設定しておけば、そもそも第三者がログインすることも難しくなるため、パスキーを設定する際は顔認証や指紋認証などの生体認証を選択するようにしたい。\n\n繰り返しになるが、パスキーは顔認証や指紋認証などの生体認証を用いることで高いセキュリティレベルを実現する。そして、これら認証の方法は紛失時のリスクも抑制することが可能だ。今後、対応するアプリやWebサービスが増えていけば、安全性と利便性を両立したパスワードレスの認証方法である。アカウントに依存するという課題はつきまとうものの、そうしたデメリットを上回るメリットを享受できる認証方法として、今後の普及が見込まれている。",
+          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/240213.html",
+          "publishedOn": "2024-02-12T15:00:00.000Z",
+          "wordCount": 206,
+          "title": "パスキーはパスワード代わり？どうすれば使えるのか",
+          "imageUrl": "https://eset-info.canon-its.jp/files/topics/4503_ext_01_0.jpg"
+        },
         {
           "id": "https://eset-info.canon-its.jp/malware_info/news/detail/240208_3.html",
           "author": null,
@@ -2285,6 +2285,26 @@
       "siteUrl": "https://www.cisa.gov/",
       "articles": [
         {
+          "id": "/node/20912",
+          "author": "CISA",
+          "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.\nCVE-2023-43770 Roundcube Webmail Persistent Cross-Site Scripting (XSS) Vulnerability\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.\nAlthough BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.",
+          "link": "https://www.cisa.gov/news-events/alerts/2024/02/12/cisa-adds-one-known-exploited-vulnerability-catalog",
+          "publishedOn": "2024-02-12T12:00:00.000Z",
+          "wordCount": 656,
+          "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/20918",
+          "author": "CISA",
+          "description": "Today, CISA—on behalf of the collective group of industry and government partners that comprise the Joint Cyber Defense Collaborative (JCDC)—released JCDC’s 2024 Priorities. Similar to the 2023 JCDC Planning Agenda, JCDC’s 2024 Priorities will help focus the collective group on developing high-impact and collaborative solutions to the most pressing cybersecurity challenges.\nResulting from the trusted partnerships the collaborative has fostered, the focused goals of the 2024 priorities are to:\nDefend against Advanced Persistent Threat (APT) operations.\nRaise critical infrastructure’s cybersecurity baseline.\nAnticipate emerging technology and risks.\nCISA encourages organizations to review JCDC’s 2024 Priorities and the related blog post by CISA Associate Director Clayton Romans. Visit CISA.gov/JCDC for more information on the work the collaborative is doing to secure cyberspace.",
+          "link": "https://www.cisa.gov/news-events/alerts/2024/02/12/priorities-joint-cyber-defense-collaborative-2024",
+          "publishedOn": "2024-02-12T12:00:00.000Z",
+          "wordCount": 613,
+          "title": "Priorities of the Joint Cyber Defense Collaborative for 2024",
+          "imageUrl": null
+        },
+        {
           "id": "/node/20908",
           "author": "CISA",
           "description": "Fortinet released security updates to address critical remote code execution vulnerabilities in FortiOS (CVE-2024-21762, CVE-2024-23313). A cyber threat actor could exploit these vulnerabilities to take control of an affected system. Note: According to Fortinet, CVE-2024-21762 is potentially being exploited in the wild. \nCISA encourages users and administrators to review the following advisories and apply necessary updates:\nFG-IR-24-015 FortiOS\nFG-IR-24-029 FortiOS",
@@ -2768,6 +2788,36 @@
       "feedUrl": "https://jvn.jp/rss/jvn.rdf",
       "siteUrl": "https://jvn.jp/",
       "articles": [
+        {
+          "id": "https://jvn.jp/vu/JVNVU95085830/",
+          "author": "jvn@jvn.jp",
+          "description": "三菱電機株式会社が提供するMELSEC iQ-Rシリーズ安全CPUおよびSIL2プロセスCPUユニットには、不適切な権限設定の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU95085830/",
+          "publishedOn": "2024-02-13T03:15:00.000Z",
+          "wordCount": 143,
+          "title": "三菱電機製MELSEC iQ-Rシリーズ安全CPUおよびSIL2プロセスCPUユニットにおける不適切な権限設定の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU97099584/",
+          "author": "jvn@jvn.jp",
+          "description": "株式会社バッファローが提供するルータ等のネットワーク製品には、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU97099584/",
+          "publishedOn": "2024-02-13T02:00:00.000Z",
+          "wordCount": 328,
+          "title": "バッファロー製ネットワーク機器における複数の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU94777495/",
+          "author": "jvn@jvn.jp",
+          "description": "Qolsysが提供するIQ Panel 4およびIQ4 Hubには、認可されていないActorへの機微な情報の漏えいの脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU94777495/",
+          "publishedOn": "2024-02-13T00:30:00.000Z",
+          "wordCount": 86,
+          "title": "Qolsys製IQ Panel 4およびIQ4 Hubにおける情報漏えいの脆弱性",
+          "imageUrl": null
+        },
         {
           "id": "https://jvn.jp/vu/JVNVU92344106/",
           "author": "jvn@jvn.jp",
@@ -3426,6 +3476,76 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/02/13/50584.html",
+          "author": null,
+          "description": "モイ株式会社は2月6日、同社サーバへの外部攻撃について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/02/13/50584.html",
+          "publishedOn": "2024-02-12T23:05:09.000Z",
+          "wordCount": 886,
+          "title": "「ツイキャス」サーバに大規模な DDoS 攻撃、アクセスしづらくなる事象",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/43972.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/02/13/50583.html",
+          "author": null,
+          "description": "環境保全株式会社は1月23日、同社メールアカウントへの不正アクセスについて発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/02/13/50583.html",
+          "publishedOn": "2024-02-12T23:05:05.000Z",
+          "wordCount": 911,
+          "title": "環境保全のメールアカウントに不正アクセス、Amazon.co.jp 装った不審メール送信の踏み台に",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/43951.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/02/13/50582.html",
+          "author": null,
+          "description": "厚生労働省は2月5日、私用メールアドレスの誤登録による第三者への個人情報の漏えいについて発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/02/13/50582.html",
+          "publishedOn": "2024-02-12T23:05:02.000Z",
+          "wordCount": 842,
+          "title": "厚生労働省で緊急連絡先の私用メールアドレスを誤登録しメール送信、4ヶ月気付かず",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/43946.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/02/13/50581.html",
+          "author": null,
+          "description": "株式会社TwoFiveは2月9日、なりすましメール対策実態調査の2024年2月版を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/02/13/50581.html",
+          "publishedOn": "2024-02-12T23:00:15.000Z",
+          "wordCount": 980,
+          "title": "日経 225 企業の 85.8%、Gmail 新ガイドライン適用受け DMARC 導入加速 ～ TwoFive 調査",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/43994.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/02/13/50580.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は2月7日、Zeroshell における OS コマンドインジェクションの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/02/13/50580.html",
+          "publishedOn": "2024-02-12T23:00:09.000Z",
+          "wordCount": 982,
+          "title": "2021年にプロジェクト終了の Zeroshell に OS コマンドインジェクションの脆弱性、2023年11月に開発者への連絡を確立",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/02/13/50579.html",
+          "author": null,
+          "description": "株式会社アクトは2月2日、経営者層330人を対象としたサイバーセキュリティ対策に関するインターネット意識調査の結果を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/02/13/50579.html",
+          "publishedOn": "2024-02-12T23:00:07.000Z",
+          "wordCount": 960,
+          "title": "経営者が実施したい対策「セキュリティ教育」が 73.7％",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/43929.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/02/13/50578.html",
+          "author": null,
+          "description": "米CISA（Cybersecurity & Infrastructure Security Agency）と米連邦捜査局（FBI）は現地時間1月31日、「SOHO機器メーカーのためのセキュリティ設計改善」に関するガイダンスを発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/02/13/50578.html",
+          "publishedOn": "2024-02-12T23:00:03.000Z",
+          "wordCount": 1016,
+          "title": "米 CISA と FBI「SOHO機器メーカーのためのセキュリティ設計改善」に関するガイダンスを公表",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2024/02/09/50577.html",
           "author": null,
@@ -4774,6 +4894,26 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2402/13/news089.html",
+          "author": null,
+          "description": "ネット上で商売するのが当たり前な時代。インシデントが発生すれば失うものは計り知れない。本連載では脆弱性診断実習用のWebアプリ「BadTodo」を題材に、ストーリー形式でWebアプリ制作に潜む“ワナ”について学んでいく。",
+          "link": "https://www.itmedia.co.jp/news/articles/2402/13/news089.html",
+          "publishedOn": "2024-02-13T04:00:00.000Z",
+          "wordCount": 2866,
+          "title": "対策できてる？　Webアプリの「アップロード機能」に潜む、見落としがちなワナの数々",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2402/13/cover_news089.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2402/13/news045.html",
+          "author": null,
+          "description": "シンガポール国立大学に所属する研究者らは、開錠時に鍵穴に鍵を挿入した際の音をスマートフォンのマイクで捉え、その音響信号だけで鍵の形状を推測する攻撃を提案した研究報告を発表した。",
+          "link": "https://www.itmedia.co.jp/news/articles/2402/13/news045.html",
+          "publishedOn": "2024-02-12T23:00:00.000Z",
+          "wordCount": 2941,
+          "title": "鍵の“挿入音”をスマホで録音→スペアキーを作る攻撃　シンガポール国立大「SpiKey」発表",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2402/13/cover_news045.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2402/09/news161.html",
           "author": null,
           "description": "法人向け名刺管理システム「Sansan」の運営会社社員になりすまし、利用者からIDとパスワードを入手してシステムに不正アクセスしたとして、警視庁サイバー犯罪対策課は不正アクセス禁止法違反の疑いで、不動産販売会社「GRANDCITY」社員、片岡和真容疑者（37）＝東京都台東区小島＝を逮捕した。容疑を否認している。",
@@ -5250,6 +5390,76 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1568391.html",
+          "author": null,
+          "description": "テックウインド株式会社は2月13日、台湾IPEVO（アイピーボ）と代理店契約を締結し、同社の法人向けWeb会議ソリューションの国内販売を開始した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1568391.html",
+          "publishedOn": "2024-02-13T06:20:00.000Z",
+          "wordCount": 4989,
+          "title": "AIフレーミングカメラなどIPEVOのWeb会議ソリューションをテックウインドが販売開始",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1568/391/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1568227.html",
+          "author": null,
+          "description": "昭和生まれにとっては懐かしいデザインのNHK時計のアプリが、X（旧Twitter）で注目を集めている。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1568227.html",
+          "publishedOn": "2024-02-13T03:10:00.000Z",
+          "wordCount": 4521,
+          "title": "昭和生まれには懐かしい「NHK時計」のアプリ、SNSで再び脚光。それに至る経緯とは【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1568/227/yajiuma-watch_2.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1568236.html",
+          "author": null,
+          "description": "前週に閲覧数の多かった記事を、カテゴリーごとに上位5位までレポートします。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1568236.html",
+          "publishedOn": "2024-02-13T03:08:00.000Z",
+          "wordCount": 4556,
+          "title": "UR賃貸初のスマートホーム化物件「グリーンタウン小金井団地」に関する記事に注目集まる【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1568/236/13_o.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1568233.html",
+          "author": null,
+          "description": "コラボレーションツールを提供するNotionがメールなどの暗号化プラットフォーム「Skiff」を買収したことが明らかになった。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1568233.html",
+          "publishedOn": "2024-02-13T03:04:00.000Z",
+          "wordCount": 4530,
+          "title": "Notion、エンドツーエンド暗号化メールなどを提供する「Skiff」を買収。新サービスの布石か【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1568/233/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1567919.html",
+          "author": null,
+          "description": "YouTubeは2月7日、同社CEOであるニール・モーハン（Neal Mohan）氏のメッセージを日本版公式ブログで公開し、2024年の重点投資対象4点について説明した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1567919.html",
+          "publishedOn": "2024-02-12T22:30:00.000Z",
+          "wordCount": 4986,
+          "title": "YouTube、「創造性を強化するAI」「クリエイターの多様な収益化手段」など2024年の投資対象4点を発表",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1567/919/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1567892.html",
+          "author": null,
+          "description": "サンワサプライ株式会社は、ノートPCに粘着シートで貼り付けてマウスなどの小物を収納できる後付式ポケット「200-INPK1BK」を発売した。直販サイト「サンワダイレクト」での販売価格は1980円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1567892.html",
+          "publishedOn": "2024-02-12T21:50:00.000Z",
+          "wordCount": 4960,
+          "title": "ノートPCに直接貼り付ける小物ポケット「200-INPK1BK」、サンワサプライが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1567/892/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/shimizu/1566393.html",
+          "author": null,
+          "description": "無料で使えるCopilot（旧Bing Chat）に、「ノートブック」という機能が追加された。と言っても、現状はまだテスト段階の機能のようで、2024年2月12日時点では、消えてしまった幻の機能となっている。ユーザーによって有効/無効を切り替えながらテストしているのか、何等かの理由でいったん無効かした可能性がある。複雑なプロンプトを作成するのに適したインターフェースで、入力できる文字数も1万8000文字（！）に拡張されている。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/shimizu/1566393.html",
+          "publishedOn": "2024-02-12T21:00:00.000Z",
+          "wordCount": 5160,
+          "title": "短い小説なら丸ごとプロンプトに含められる！ Microsoft Copilotの新機能「ノートブック」を試す【イニシャルB】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1566/393/001.png"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/1567816.html",
           "author": null,
@@ -7094,6 +7304,66 @@
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
         {
+          "id": "https://news.mynavi.jp/techplus/article/20240213-2882095/",
+          "author": null,
+          "description": "Microsoftはこのほど、OutlookのデスクトップクライアントにおいてExchange ActiveSync接続が使えない問題が発生していると警告した。この問題はOutlookクライアントのバージョン2401ビルド17231.20182で発生しており、Microsoftでは暫定的な回避策として問題が発生しないバージョンに戻す方法を説明している。",
+          "link": "https://news.mynavi.jp/techplus/article/20240213-2882095/",
+          "publishedOn": "2024-02-13T00:41:36.000Z",
+          "wordCount": 1703,
+          "title": "OutlookクライアントでExchange ActiveSync接続が使えない問題が発生中",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240213-2882095/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240213-2881985/",
+          "author": null,
+          "description": "Fortinetは2024年2月8日(米国時間)、同社のネットワークOS「FortiOS」に境界外書き込みの脆弱性が存在すると発表した。この脆弱性を悪用されると、リモートの認証されていない攻撃者により任意のコードを実行される可能性がある。Fortinetは、この脆弱性が悪用される可能性があると指摘しており、速やかに影響を確認してアップデートすることが推奨されている。",
+          "link": "https://news.mynavi.jp/techplus/article/20240213-2881985/",
+          "publishedOn": "2024-02-12T23:23:39.000Z",
+          "wordCount": 3103,
+          "title": "Fortinet FortiOSに緊急の脆弱性、確認と対策を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240213-2881985/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240213-2881996/",
+          "author": null,
+          "description": "Tripwireはこのほど、ディープフェイクによる「顔交換」攻撃の急増について注意を呼びかけた。一般的に顔認証ではライブネス検証が実施される。これは写真などを使用して認証を突破する攻撃を回避するため、画面の注視や顔の動作を求めるもの。サイバー攻撃者はこの検証技術を回避して顔認証を突破するために、ディープフェイクによる「顔交換」動画を悪用する。",
+          "link": "https://news.mynavi.jp/techplus/article/20240213-2881996/",
+          "publishedOn": "2024-02-12T22:44:38.000Z",
+          "wordCount": 1750,
+          "title": "ディープフェイクの「顔交換」攻撃が704%増加、警戒を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240213-2881996/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240213-2880748/",
+          "author": null,
+          "description": "Microsoftはこのほど、Azure Active Directory (Azure AD) を利用した分散化IDシステム「Microsoft Entra Verified ID」にFace Check(顔認証)を追加したと発表した。Face Checkは現在プレビュー段階にあるが、プライバシーを尊重した高精度の認証機能とされる。ユーザーのリアルタイムの自撮り写真と本人確認書類(パスポートや運転免許証など)の写真を照合することで本人確認の保護層を追加する。",
+          "link": "https://news.mynavi.jp/techplus/article/20240213-2880748/",
+          "publishedOn": "2024-02-12T22:16:44.000Z",
+          "wordCount": 1877,
+          "title": "Microsoft Entra Verified IDにFace Check(顔認証)追加",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240213-2880748/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240212-2881995/",
+          "author": null,
+          "description": "Bitdefenderは2月9日(現地時間)、プログラミング言語「Rust」で書かれた新しいmacOS向けのバックドア型マルウェア「RustDoor」を発見したと伝えた。RustDoorはMicrosoft Visual Studioの更新を偽装しており、複数の亜種が確認されている。",
+          "link": "https://news.mynavi.jp/techplus/article/20240212-2881995/",
+          "publishedOn": "2024-02-12T10:37:52.000Z",
+          "wordCount": 1713,
+          "title": "Mac狙う新しいバックドアに注意、Visual Studioアップデート偽装",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240212-2881995/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240212-2880275/",
+          "author": null,
+          "description": "シスコシステムズから複数のセキュリティアドバイザリーが発行された。2024年2月5日から7日にかけて、Cisco Unity ConnectionとCisco Expressway Seriesに関連する緊急(Critical)と重要(High)の脆弱性が報告されており注意が必要。シスコ製品のユーザーは最新のセキュリティアドバイザリーを確認し、必要に応じてアップデートを行うことが望まれる。",
+          "link": "https://news.mynavi.jp/techplus/article/20240212-2880275/",
+          "publishedOn": "2024-02-12T07:37:16.000Z",
+          "wordCount": 1742,
+          "title": "シスコのセキュリティアップデート確認を、深刻度「クリティカル」の脆弱性あり",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240212-2880275/ogp_images/ogp.jpg"
+        },
+        {
           "id": "https://news.mynavi.jp/techplus/article/20240212-2880674/",
           "author": null,
           "description": "LastPassは2月8日(米国時間)、LastPassになりすました偽の詐欺アプリがApple App Storeから配布されているとして警告した。詐欺アプリは「LassPass Password Manager」という1文字違いのアプリ名を名乗っており、外観も正規アプリからコピーしたかのような作りとなっている。この詐欺アプリをインストールし、利用した場合は登録したパスワードが窃取された恐れがある。",
@@ -8552,26 +8822,6 @@
           "wordCount": 1674,
           "title": "OpenSSHからDSAを削除、スケジュールを発表",
           "imageUrl": "https://news.mynavi.jp/techplus/article/20240115-2861513/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20240114-2861799/",
-          "author": null,
-          "description": "Recorded Futureは1月11日(米国時間)、GitHubを悪用するサイバー攻撃者が増加していると伝えた。GitHubの主な悪用目的にはペイロードの配信、デッドドロップ・リゾルバ、コマンド＆コントロール、情報漏洩などがある。",
-          "link": "https://news.mynavi.jp/techplus/article/20240114-2861799/",
-          "publishedOn": "2024-01-14T10:25:01.000Z",
-          "wordCount": 1760,
-          "title": "GitHubの悪用が増加、サイバー犯罪者に大人気の理由は",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20240114-2861799/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20240114-2860400/",
-          "author": null,
-          "description": "Malwarebytesはこのほど、人工知能(AI: Artificial Intelligence)がバグ報奨金プログラムの厄介者になっていると伝えた。一般的にバグ報奨金プログラムは経済的利益を求める研究者・開発者と問題を未然に解決したい企業双方に有益な仕組みとされる。ところが近年、大規模言語モデル(LLM)が登場したことにより、もっともらしい無価値なレポートが送られてくるようになったという。",
-          "link": "https://news.mynavi.jp/techplus/article/20240114-2860400/",
-          "publishedOn": "2024-01-14T07:52:07.000Z",
-          "wordCount": 1696,
-          "title": "生成AIによるバグレポートが厄介、頭を抱える開発者",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20240114-2860400/ogp_images/ogp.jpg"
         }
       ]
     }
