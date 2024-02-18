@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-02-17T08:10:16.743Z</updated>
+    <updated>2024-02-18T08:10:37.971Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Microsoft Exchange Serverに緊急の脆弱性、アップデートを]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20240218-2884241/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20240218-2884241/"/>
+        <updated>2024-02-18T02:36:54.000Z</updated>
+        <summary type="html"><![CDATA[Bleeping Computerはこのほど、Microsoft Exchange Serverのゼロデイの脆弱性が悪用されたとして、注意を呼び掛けた。この脆弱性はMicrosoft内部で発見され「CVE-2024-21410」として追跡されており、悪用されるとリモートの認証されていない攻撃者に特権を昇格される可能性がある。この脆弱性の深刻度は緊急(Critical)と評価されており注意が必要。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2024年1月度 MBSD-SOCの検知傾向トピックス]]></title>
         <id>https://www.mbsd.jp/research/20240216/20241-mbsd-soc/</id>
@@ -1735,6 +1745,98 @@ ISBN：978-4-295-60252-1
         <summary type="html"><![CDATA[テックウインド株式会社は2月13日、台湾IPEVO（アイピーボ）と代理店契約を締結し、同社の法人向けWeb会議ソリューションの国内販売を開始した。]]></summary>
         <author>
             <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Web更新]IPアドレスに関する統計・各種リスト以下のグラフを更新　2024年1月のデータを追加]]></title>
+        <id>https://www.nic.ad.jp/ja/stat/ip/</id>
+        <link href="https://www.nic.ad.jp/ja/stat/ip/"/>
+        <updated>2024-02-13T06:16:57.000Z</updated>
+        <summary type="html"><![CDATA[IPアドレスに関する統計・各種リスト English Page
+
+            
+IANA、APNICが管理するIPアドレス・AS番号の統計
+地域インターネットレジストリ(RIR)ごとのIPv4アドレス、IPv6アドレス、AS番号配分状況(最終更新日2024年1月18日)
+アジア太平洋地域の国別IPv4アドレス、IPv6アドレス、AS番号配分状況(最終更新日2024年2月13日)
+JPNICが管理するIPアドレス・AS番号などの統計
+IPアドレスの割り振り/割り当てに関するホスト数、返却ホスト数、サイズ別の内訳
+APNICから割り振りを受けた/返却を行ったIPv4アドレスのホスト数
+IPアドレスに関する申請処理件数
+IPアドレス管理指定事業者数
+AS番号割り当て状況
+JPIRRサービスにおける登録オブジェクト数……等
+JPNICが管理するIPアドレス・AS番号・IRRサービスに関する統計(最終更新日:2024年2月9日)
+            
+過去の統計
+1年ごとの過去の統計は以下のリンクからご参照ください。
+2023年
+2022年
+2021年
+2020年
+2019年
+2018年
+2017年
+2016年
+2015年
+2014年
+2013年
+2012年
+2011年
+2010年
+2009年
+2008年
+2007年
+2006年
+2005年
+2004年
+2003年
+2002年
+2001年
+2000年(2～12月)
+JPNICが管理するIPv4アドレスの割り振りホスト数の推移(最終更新日2024年2月13日)
+
+              
+                グラフをクリックすると拡大します
+              
+            
+
+            
+JPNICが管理するIPv6アドレス割り振り件数の推移(最終更新日2024年2月13日)
+
+              
+                グラフをクリックすると拡大します
+              
+            
+
+            
+IPアドレス管理指定事業者数の推移(最終更新日2024年2月13日)
+
+              
+                グラフをクリックすると拡大します
+              
+            
+
+            
+JPIRRに登録されているオブジェクト数の推移(最終更新日2024年2月13日)
+
+              
+                グラフをクリックすると拡大します
+              
+            
+
+            
+各種のリスト
+JPNICが管理しているIPアドレスリスト
+WHOIS検索
+AS番号リスト(自動生成されたテキストファイル)
+JPNICが管理する逆引きゾーンのネームサーバ一覧
+IPv4アドレス移転申請履歴
+IPv4アドレス移転希望者リスト
+IPv4アドレス移転対象レジストリ一覧
+AS番号移転履歴
+AS番号移転対象レジストリ一覧]]></summary>
+        <author>
+            <name>JPNIC Web</name>
         </author>
     </entry>
     <entry>
@@ -10690,403 +10792,6 @@ CODE BLUE は日本発の世界トップレベルのサイバーセキュリテ�
         <summary type="html"><![CDATA[ESETは1月17日(現地時間)、オンラインマーケットプレイス「Temu」を取り巻く問題点を取り上げ、Temuを利用する際の注意点を伝えた。Temuは中国の拼多多(Pinduoduo)を親会社とする越境オンライン通販サイトおよびアプリで、主に中国企業の製品を低価格で直接購入することができる。]]></summary>
         <author>
             <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Issues Emergency Directive on Ivanti Vulnerabilities]]></title>
-        <id>/node/20757</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2024/01/19/cisa-issues-emergency-directive-ivanti-vulnerabilities"/>
-        <updated>2024-01-19T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CISA has issued Emergency Directive (ED) 24-01 Mitigate Ivanti Connect Secure and Ivanti Policy Secure Vulnerabilities in response to active vulnerabilities in the following Ivanti products: Ivanti Connect Secure and Ivanti Policy Secure.
-Implement the mitigations as detailed in the ED.
-Report indications of compromise to CISA.
-Remove compromised products from agency networks and follow the ED’s comprehensive instructions for restoring and bringing the products back into service.
-Apply the updates to the products within 48 hours of Ivanti releasing the updates.
-Provide CISA with a report that includes:
-
-A complete inventory of all instances of Ivanti Connect Secure and Ivanti Policy Secure products on agency networks.
-Details on actions taken and results.
-
-
-Although this directive is only for FCEB agencies, CISA strongly encourages all organizations to address the vulnerabilities in Ivanti Connect Secure and Ivanti Policy Secure. For additional details, see CISA’s Alert, Ivanti Releases Security Update for Connect Secure and Policy Secure Gateways, which CISA will update with further mitigations and patches as these become available.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[見出しでわかる IT界隈・今週の重要ニュース：全98本［2024/1/10～1/17］]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/weekly/1562128.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/weekly/1562128.html"/>
-        <updated>2024-01-19T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2023年12月度 MBSD-SOCの検知傾向トピックス]]></title>
-        <id>https://www.mbsd.jp/research/20240119/202312-mbsd-soc/</id>
-        <link href="https://www.mbsd.jp/research/20240119/202312-mbsd-soc/"/>
-        <updated>2024-01-19T09:50:00.000Z</updated>
-        <summary type="html"><![CDATA[2023年12月度のMBSD-SOCにおける検知傾向トピックスです。]]></summary>
-        <author>
-            <name>三井物産セキュアディレクション株式会社</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NURO 光、はじめしゃちょーとのコラボ企画にあわせ、新規申込者に5000円キャッシュバックのクーポン配布]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1562294.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1562294.html"/>
-        <updated>2024-01-19T09:30:00.000Z</updated>
-        <summary type="html"><![CDATA[ソニーネットワークコミュニケーションズ株式会社は1月19日、光回線によるインターネット接続サービス「NURO 光」において、動画クリエイター「はじめしゃちょー」とのコラボレーションを発表した。また、新規申込者を対象に5000円をキャッシュバックする「はじめしゃちょースペシャルクーポン」の配布を開始した。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「店長」の残業が月11.1時間増加したとの調査結果～「デューダ」が職種別の平均残業時間ランキング発表　「社内SE」「Webエンジニア」などでは大きく減少]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1562262.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1562262.html"/>
-        <updated>2024-01-19T08:52:15.000Z</updated>
-        <summary type="html"><![CDATA[パーソルキャリア株式会社は1月15日、転職サービス「doda（デューダ）」が調査した「平均残業時間ランキング【91職種別】」を発表した。平均残業時間が最も少なかったのは「一般事務」、最も多かったのは「プロデューサー／ディレクター／プランナー」だった。また、経済活動の再開・オフラインの需要回復を受け、「店長」の残業時間が2022年の前回調査から月11時間以上増加していることも分かった。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[トピックス]ICANNの動向に関する情報提供ページ刷新のお知らせ]]></title>
-        <id>https://www.nic.ad.jp/ja/topics/2024/20240119-01.html</id>
-        <link href="https://www.nic.ad.jp/ja/topics/2024/20240119-01.html"/>
-        <updated>2024-01-19T08:48:06.000Z</updated>
-        <summary type="html"><![CDATA[2024年1月19日
-各位
-一般社団法人日本ネットワークインフォメーションセンター
-ICANNの動向に関する情報提供ページ刷新のお知らせ
-ICANN情報
-              https://www.nic.ad.jp/ja/icann/
-            
-
-            
-技術政策情報のご提供
-ICANN技術政策文書の記事一覧
-              https://blog.nic.ad.jp/category/icann%e6%8a%80%e8%a1%93%e6%94%bf%e7%ad%96%e6%96%87%e6%9b%b8/
-            
-
-            
-GNSO動向のご紹介
-gTLD・GNSO動向紹介
-              https://www.nic.ad.jp/ja/icann/gnso.html
-            
-            
-連絡先
-              query@nic.ad.jp
-            
-
-
-            
-以上]]></summary>
-        <author>
-            <name>JPNIC Web</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google、画面上のものを指で囲むだけで検索できる新機能「かこって検索」提供]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1562243.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1562243.html"/>
-        <updated>2024-01-19T08:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Googleは、画面上の調べたい部分を丸く囲むことで検索できる新しい検索機能「かこって検索」を、一部のAndroid端末向けに、1月31日から順次提供する。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Actions Following Attack by Nation State Actor Midnight Blizzard]]></title>
-        <id>https://msrc.microsoft.com/blog/2024/01/microsoft-actions-following-attack-by-nation-state-actor-midnight-blizzard/</id>
-        <link href="https://msrc.microsoft.com/blog/2024/01/microsoft-actions-following-attack-by-nation-state-actor-midnight-blizzard/"/>
-        <updated>2024-01-19T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Microsoft security team detected a nation-state attack on our corporate systems on January 12, 2024, and immediately activated our response process to investigate, disrupt malicious activity, mitigate the attack, and deny the threat actor further access. Microsoft has identified the threat actor as Midnight Blizzard, the Russian state-sponsored actor also known as Nobelium.]]></summary>
-        <author>
-            <name>Microsoft Security Response Center</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[デロイト トーマツ×住友ゴム、サイバーセキュリティ領域における包括的な協業]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20240119-2866248/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20240119-2866248/"/>
-        <updated>2024-01-19T07:11:59.000Z</updated>
-        <summary type="html"><![CDATA[デロイト トーマツ サイバーと住友ゴムは1月19日、サイバーセキュリティ領域における包括的な協業に関する契約を締結したことを発表した。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2023年の個人情報漏えい・紛失事故、件数・人数ともに過去最多]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20240119-2866241/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20240119-2866241/"/>
-        <updated>2024-01-19T06:33:22.000Z</updated>
-        <summary type="html"><![CDATA[東京商工リサーチが19日に発表した調査結果によると、2023年の個人情報漏えい・紛失事故は175件、流出・紛失情報は4090万人分で、2012年以降で最多を更新した。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Notion、ドキュメント内の日付や予定を取り込んで一元管理できる「Notionカレンダー」提供]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1562209.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1562209.html"/>
-        <updated>2024-01-19T06:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Notion Labs Japan合同会社は1月18日、コラボレーションソフトウェア「Notion」の新機能「Notionカレンダー」の提供を開始した。Notionの全てのドキュメントにある日付やスケジュールなどの情報を取り込み、一元管理できる。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft 社、比較的件数の少ないセキュリティ更新プログラムで新年をスタート、ゼロデイ脆弱性はなし]]></title>
-        <id>https://gblogs.cisco.com/jp/?p=50117</id>
-        <link href="https://gblogs.cisco.com/jp/2024/01/talos-microsoft-patch-tuesday-january-2024/"/>
-        <updated>2024-01-19T06:14:05.000Z</updated>
-        <summary type="html"><![CDATA[Microsoft 社の発表によると、12 月に発表された近年で最少のセキュリティ更新プログラムに続き、今月もゼロデイ脆弱性はなく「緊急」の問題は 2 件だけでした。]]></summary>
-        <author>
-            <name>TALOS Japan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Babuk Tortilla ランサムウェア亜種に対応した新しい復号ツールがリリース]]></title>
-        <id>https://gblogs.cisco.com/jp/?p=50111</id>
-        <link href="https://gblogs.cisco.com/jp/2024/01/talos-decryptor-babuk-tortilla/"/>
-        <updated>2024-01-19T05:46:01.000Z</updated>
-        <summary type="html"><![CDATA[Cisco Talos は、Babuk Tortilla ランサムウェア亜種に感染したファイルを復号できる実行可能コードを入手しました。これにより、攻撃者が使用する秘密復号キーを抽出して共有できるようになりました。]]></summary>
-        <author>
-            <name>TALOS Japan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[違反ないのに「下請法違反のおそれ」通知7800件　判定ロジックミスで　中小企業庁]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2401/19/news135.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2401/19/news135.html"/>
-        <updated>2024-01-19T04:17:00.000Z</updated>
-        <summary type="html"><![CDATA[中小企業庁は、下請法違反の可能性を判定するシステムにロジックミスがあり、7806事業者に対して、一部で違反のおそれがないのに関わらず通知を送っていたと、1月18日に発表した。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anker製USB PD対応充電器＆モバイルバッテリーが安い！ Amazonセール情報　USB Type-C×2で最大120Wの「737 Charger」が1500円OFFなど]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1562054.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1562054.html"/>
-        <updated>2024-01-19T03:45:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazon.co.jpのAnkerストアでは現在、同社のUSB充電やモバイルバッテリーのお得なクーポン配布・タイムセールを実施中だ。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[デスクまわりの電源整理に!! PD100WにACコンセントもUSB Type-Aも持つUGREEN DigiNest Pro 100Wがちょうどいい 【テレワークグッズ・ミニレビュー 第91回】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/column/teleworkgoods/1562111.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/column/teleworkgoods/1562111.html"/>
-        <updated>2024-01-19T03:24:17.000Z</updated>
-        <summary type="html"><![CDATA[ガジェット好きの悩みのタネは、電源の供給だ。筆者も含めて、デスクまわりは電源ケーブルだらけ…… という人も少なくないだろう。電源を挿しっぱなしでは電気も無駄になるし、ショートや漏電などの危険もある。できるなら整理してシンプルにした方がいい。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Teams、生き永らえていた旧クライアントが3月31日をもって終了すると決定【やじうまWatch】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1562098.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1562098.html"/>
-        <updated>2024-01-19T03:06:00.000Z</updated>
-        <summary type="html"><![CDATA[「Microsoft Teams」の旧クライアントが、3月31日に終了することが決定した。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amazon、Alexaの新バージョンをサブスク形式で提供か。6月末リリースに向け開発中の噂【やじうまWatch】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1562094.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1562094.html"/>
-        <updated>2024-01-19T03:00:33.000Z</updated>
-        <summary type="html"><![CDATA[Amazonの音声アシスタント「Alexa」の新バージョンが、6月末にリリースされるとの噂が海外で報じられている。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FusionPBX におけるクロスサイトスクリプティングの脆弱性]]></title>
-        <id>https://jvn.jp/jp/JVN67215338/</id>
-        <link href="https://jvn.jp/jp/JVN67215338/"/>
-        <updated>2024-01-19T03:00:00.000Z</updated>
-        <summary type="html"><![CDATA[FusionPBX には、クロスサイトスクリプティングの脆弱性が存在します。]]></summary>
-        <author>
-            <name>jvn@jvn.jp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ビデオシリーズ：2023 年からの主な攻撃者の動向を議論する]]></title>
-        <id>https://gblogs.cisco.com/jp/?p=50104</id>
-        <link href="https://gblogs.cisco.com/jp/2024/01/talos-video-series/"/>
-        <updated>2024-01-19T02:53:09.000Z</updated>
-        <summary type="html"><![CDATA[本ビデオシリーズでは、Matt Olney（Talos 脅威インテリジェンスと脅威防御担当ディレクタ）と Nick Biasini（アウトリーチ責任者）が、昨年発生した最も重大なサイバーセキュリティの脅威に関して見識を共有します。]]></summary>
-        <author>
-            <name>TALOS Japan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[マイナンバーカードの民間利用の実証実験が始まる ほか【中島由弘の「いま知っておくべき5つのニュース」2024/1/11～1/17】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/column/curation/1562102.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/column/curation/1562102.html"/>
-        <updated>2024-01-19T02:50:00.000Z</updated>
-        <summary type="html"><![CDATA[AI導入コンサルティング会社のLifePromptが、今年度の大学入試共通テストを3つの生成AIに解かせ、その結果を公表している（LifePrompt）。記事では、それぞれの特性が表形式でまとまっているので、なかなか面白く読める。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JRA、スマホアプリにOracle Cloud採用　100万人の利用を想定した認証基盤で]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2401/19/news111.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2401/19/news111.html"/>
-        <updated>2024-01-19T02:01:00.000Z</updated>
-        <summary type="html"><![CDATA[日本中央競馬会（JRA）の公式スマートフォンアプリ「JRAアプリ」が、認証基盤にOracle Cloudのサービスを採用した。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Android TVなど標的とする大規模なボットネット発見、8年間潜伏]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20240119-2865738/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20240119-2865738/"/>
-        <updated>2024-01-19T00:51:27.000Z</updated>
-        <summary type="html"><![CDATA[Xlabsは1月15日(現地時間)、AndroidおよびeCos(Embedded Configurable Operating System)を搭載したセットトップボックスを標的とするボットネットを発見したとして、その分析結果を公開した。攻撃者はは2015年ごろから活動しているとみられ、無料まはた安価なオーディオアプリやファームウェアのアップデートを装ってマルウェアを配布する手法をとる。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PAXのAndroidベースのPOS端末に脆弱性、確認を]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20240119-2865744/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20240119-2865744/"/>
-        <updated>2024-01-19T00:31:39.000Z</updated>
-        <summary type="html"><![CDATA[STM Cyberは1月15日(現地時間)、PAX TechnologyのPOS(Point Of Sales)端末に脆弱性が存在するとして、注意を呼び掛けた。該当するデバイスはAndroidを搭載したモデルで、合計6つの脆弱性が発見されている。STM Cyberはこれら脆弱性を悪用してデバイスの管理者権限を入手できれば、決済を含めアプリケーションを改ざん可能と指摘している。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[保険代理店向けシステムの参照範囲設定誤り、閲覧できない顧客情報にアクセス可能に]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/01/19/50471.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/01/19/50471.html"/>
-        <updated>2024-01-18T23:05:06.000Z</updated>
-        <summary type="html"><![CDATA[Chubb損害保険株式会社は1月12日、保険代理店向けシステムの参照範囲設定誤りによる情報漏えいについて発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[フットウェアブランド「YOAK」のInstagramアカウントが乗っ取り被害、1月8日以降のダイレクトメッセージの破棄を呼びかけ]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/01/19/50470.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/01/19/50470.html"/>
-        <updated>2024-01-18T23:05:02.000Z</updated>
-        <summary type="html"><![CDATA[フットウェアブランド「YOAK」を扱う株式会社FAMは1月12日、同社Instagram公式アカウントへの不正アクセスについて発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[脆弱性診断自動化ツール「AeyeScan」アップデート、「ELインジェクション」のスキャンルールを追加]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/01/19/50469.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/01/19/50469.html"/>
-        <updated>2024-01-18T23:00:22.000Z</updated>
-        <summary type="html"><![CDATA[株式会社エーアイセキュリティラボは1月13日、脆弱性診断の自動化ツール「AeyeScan」のアップデートについて発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[OpenSSL に不正な RSA 公開鍵のチェックに時間を要する問題]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/01/19/50468.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/01/19/50468.html"/>
-        <updated>2024-01-18T23:00:18.000Z</updated>
-        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は1月16日、OpenSSLにおける不正なRSA公開鍵のチェックに時間を要する問題について「Japan Vulnerability Notes（JVN）」で発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Drupal に特定の構造を持つ入力に対する不適切な取り扱いの脆弱性]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/01/19/50467.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/01/19/50467.html"/>
-        <updated>2024-01-18T23:00:15.000Z</updated>
-        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は1月16日、Drupal における特定の構造を持つ入力に対する不適切な取り扱いの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SMTP のデータの終端の処理の実装に関する問題、発見者が攻撃手法を「SMTP Smuggling」と呼称]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/01/19/50466.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/01/19/50466.html"/>
-        <updated>2024-01-18T23:00:10.000Z</updated>
-        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は1月17日、SMTPのデータの終端の処理の実装に関する問題について「Japan Vulnerability Notes（JVN）」で発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Oracle Java SE に脆弱性、利用中の PC やサーバに対象製品が含まれている場合も]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/01/19/50465.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/01/19/50465.html"/>
-        <updated>2024-01-18T23:00:03.000Z</updated>
-        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）は1月17日、Oracle Java の脆弱性対策について発表した。影響を受けるシステムは以下の通り。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[世界の筆頭リスクは「虚偽情報」、世界経済フォーラムが発表　AI台頭で危険増大か　“AI×核兵器”にも警告]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2401/19/news067.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2401/19/news067.html"/>
-        <updated>2024-01-18T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[世界経済フォーラムがまとめた「グローバルリスクレポート2024」で、「虚偽情報」が初めて今後2年の10大リスクの筆頭に浮上した。背景にあるのはAIの台頭で、選挙介入からサイバー犯罪、軍事目的などでAIが利用される危険性を指摘している。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[都市伝説「M資金」なども利用、万全に準備した大掛かりな「投資詐欺」の手口に要注意！【だまされないように注意！】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/column/dlis/1561666.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/column/dlis/1561666.html"/>
-        <updated>2024-01-18T22:34:00.000Z</updated>
-        <summary type="html"><![CDATA[ネット詐欺の多くは、大量に詐欺メールをばらまき、運悪く引っ掛かってしまう被害者からお金を盗み、すぐに撤収するという手口です。詐欺師もあまり手間をかけないため、メールアドレスやURL、メールの文面などにミスや手落ちがあるケースがほとんどです。これらは、事例を知り、注意深くチェックすれば判別できますし、メールやメッセージに記載されているURLを開かない、という自衛手段で被害をほぼ回避できます。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Facebookの不自然な詐欺投稿に注意]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20240119-2865060/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20240119-2865060/"/>
-        <updated>2024-01-18T22:21:06.000Z</updated>
-        <summary type="html"><![CDATA[Malwarebytesは1月16日(米国時間)、Facebookで繰り返される詐欺投稿とその対策について解説した。調査によると、この詐欺投稿では偽のニュース画像を使用して興味を引き付け、ニュース動画にアクセスしているように見せかけて別の悪意あるサイトへリダイレクトする手法が使われているという。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[キングジム、ふせんのように書いて貼れる、やわらかい電子メモ「ブギーボード ペーパリー」を2月発売]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1561899.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1561899.html"/>
-        <updated>2024-01-18T21:30:00.000Z</updated>
-        <summary type="html"><![CDATA[株式会社キングジムは、電子メモパッドBoogie Board papery」 （ブギーボード ペーパリー。型番「BB-18」）を2月28日に発売する。市場想定価格は、Sサイズのスターターセット「BB-18S-S2A」が5170円、Mサイズスターターセット「BB-18M-S2A」が5940円。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[遠隔で機器を再起動できる6ポートのスマート電源ユニット「BPD-CMU06」、アイ・オーが発売]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1561966.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1561966.html"/>
-        <updated>2024-01-18T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[株式会社アイ・オー・データ機器は、遠隔で管理できるスマート電源ユニット「BPD-CMU06」を発売する。1月下旬の出荷予定で、市場想定価格は8万5800円。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
         </author>
     </entry>
 </feed>
