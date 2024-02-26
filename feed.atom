@@ -2,10 +2,338 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-02-25T08:09:51.072Z</updated>
+    <updated>2024-02-26T08:11:37.320Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Apache HTTP Server 2.4における複数の脆弱性に対するアップデート]]></title>
+        <id>https://jvn.jp/vu/JVNVU94155938/</id>
+        <link href="https://jvn.jp/vu/JVNVU94155938/"/>
+        <updated>2024-02-26T07:00:45.000Z</updated>
+        <summary type="html"><![CDATA[The Apache Software Foundationから、Apache HTTP Server 2.4系における複数の脆弱性に対応したApache HTTP Server 2.4.56が公開されました。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apache TomcatのApache Commons FileUploadにおけるサービス運用妨害（DoS）の脆弱性]]></title>
+        <id>https://jvn.jp/vu/JVNVU91253151/</id>
+        <link href="https://jvn.jp/vu/JVNVU91253151/"/>
+        <updated>2024-02-26T07:00:30.000Z</updated>
+        <summary type="html"><![CDATA[Apache TomcatにはApache Commons FileUploadによる、サービス運用妨害（DoS）の脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[OpenSSLのBN_mod_sqrt()における法が非素数のときに無限ループを引き起こす問題]]></title>
+        <id>https://jvn.jp/vu/JVNVU90813125/</id>
+        <link href="https://jvn.jp/vu/JVNVU90813125/"/>
+        <updated>2024-02-26T07:00:15.000Z</updated>
+        <summary type="html"><![CDATA[OpenSSLのBN_mod_sqrt()には、法が非素数の場合、無限ループを引き起こす問題があります。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IEEE802.11 規格のフレームアグリゲーションやフラグメンテーションに関する複数の問題（FragAttack）]]></title>
+        <id>https://jvn.jp/vu/JVNVU93485736/</id>
+        <link href="https://jvn.jp/vu/JVNVU93485736/"/>
+        <updated>2024-02-26T07:00:00.000Z</updated>
+        <summary type="html"><![CDATA[IEEE802.11 規格のフレームアグリゲーションやフラグメンテーションに、設計上の問題点が複数発見されました。また、発見者は複数の無線ネットワーク機器に共通する実装上の問題が存在していることも確認しています。これらの問題は総称して「FragAttack」と呼ばれています。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazonで電子書籍が最大50％ポイント還元! Kindle本ポイントキャンペーン　最大70％割引の「Kindle本 新生活セール」も実施中！]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1571433.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1571433.html"/>
+        <updated>2024-02-26T04:45:00.000Z</updated>
+        <summary type="html"><![CDATA[Amazon.co.jpのKindle本ストアでは、2月29日までの期間限定で「Kindle本ポイントキャンペーン」を開催中だ。支払金額の最大50％がポイント還元される。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Blog記事]APNIC 57でのIPアドレス・AS番号分配ポリシーに関する提案のご紹介]]></title>
+        <id>https://blog.nic.ad.jp/2024/9567/</id>
+        <link href="https://blog.nic.ad.jp/2024/9567/"/>
+        <updated>2024-02-26T04:00:42.000Z</updated>
+        <summary type="html"><![CDATA[2024年2月21日(水)～3月1日(金)の日程で、APRICOT 2024/APNIC 57カンファレンスが開催されます。今回のオープンポリシーミーティングでは、継続議論1点、新規提案が3点の計4点の提案に関して議論が予定されていますので、それらの内容をご紹介します。]]></summary>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apple、iMessage用量子暗号プロトコル「PQ3」発表 - iOS 17.4などでリリース]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20240226-2892286/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20240226-2892286/"/>
+        <updated>2024-02-26T03:21:43.000Z</updated>
+        <summary type="html"><![CDATA[Appleは2月21日(米国時間)、同社が開発したエンド・ツー・エンドの最先端で安全なメッセージングを実現する量子暗号プロトコル「PQ3」をiMessageに導入すると発表した。PQ3は耐量子計算機暗号(PQC)のレベル3に該当する暗号化技術。PQ3のサポートはiOS 17.4、iPadOS 17.4、macOS 14.4、watchOS 10.4のパブリックリリースにて開始予定。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[トピックス]障害報告：WHOISおよびIPレジストリシステムの障害について]]></title>
+        <id>https://www.nic.ad.jp/ja/topics/2024/20240226-01.html</id>
+        <link href="https://www.nic.ad.jp/ja/topics/2024/20240226-01.html"/>
+        <updated>2024-02-26T03:10:24.000Z</updated>
+        <summary type="html"><![CDATA[2024年2月26日
+各位
+一般社団法人日本ネットワークインフォメーションセンター
+障害報告：WHOISおよびIPレジストリシステムの障害について
+障害によって影響があったサービス
+本件に関する問い合わせ先
+ip-service@nic.ad.jp
+            
+以上]]></summary>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Introducing Social Privacy Manager]]></title>
+        <id>https://www.mcafee.com/blogs/?p=183540</id>
+        <link href="https://www.mcafee.com/blogs/internet-security/introducing-social-privacy-manager/"/>
+        <updated>2024-02-26T03:07:54.000Z</updated>
+        <summary type="html"><![CDATA[If you’re concerned about your privacy on social media, you have plenty of company. Here’s something else you have —...
+The post Introducing Social Privacy Manager appeared first on McAfee Blog.]]></summary>
+        <author>
+            <name>McAfee</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2020年にサイバー攻撃受けたNTTコムに聞く“当時の教訓”　反省を踏まえ、どう変わったか]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2402/26/news035.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2402/26/news035.html"/>
+        <updated>2024-02-26T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[2020年にサイバー攻撃を受けたNTTコムに当時の反省とセキュリティ改善の現況を聞く。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[マスターカードをかたるフィッシング詐欺について報じた記事に注目集まる【アクセスランキング】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/ranking/1571394.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/ranking/1571394.html"/>
+        <updated>2024-02-26T02:56:00.000Z</updated>
+        <summary type="html"><![CDATA[前週に閲覧数の多かった記事を、カテゴリーごとに上位5位までレポートします。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[セキュリティソフトメーカーAvast、FTCから1650万ドルという巨額の罰金を科せられる【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1571378.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1571378.html"/>
+        <updated>2024-02-26T02:55:00.000Z</updated>
+        <summary type="html"><![CDATA[個人向けのアンチウイルスソフトで知られるセキュリティソフトメーカーのAvastが、米連邦取引委員会（FTC）から1650万ドルという巨額の罰金を科せられたことが明らかになった。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1年の目標はこれで立てる！ 年間スケジュールをざっくり書き出せる無料サービス登場【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1571376.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1571376.html"/>
+        <updated>2024-02-26T02:55:00.000Z</updated>
+        <summary type="html"><![CDATA[年間スケジュールをざっくりと書き出せる無料ウェブサービスが登場した。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MacやiPhoneのショートカットの悪用でデータ窃取が可能、アップデートを]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20240226-2892294/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20240226-2892294/"/>
+        <updated>2024-02-26T02:45:14.000Z</updated>
+        <summary type="html"><![CDATA[Bitdefenderは2月22日(現地時間)、iOS 17.3、iPadOS 17.3、macOS Sonoma 14.3、watchOS 10.3で修正された脆弱性「CVE-2024-23204」について詳しく解説した。この脆弱性は、ショートカットの特定の操作を悪用することでユーザープロンプトを回避してデバイス上の機密情報にアクセスできる不具合。攻撃者はギャラリーを介して悪意のあるショートカットを容易に配布できる。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Delta Electronics製CNCSoft-BのDOPSoftコンポーネントにおけるファイル検索パスの制御不備の脆弱性]]></title>
+        <id>https://jvn.jp/vu/JVNVU91060415/</id>
+        <link href="https://jvn.jp/vu/JVNVU91060415/"/>
+        <updated>2024-02-26T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Delta Electronicsが提供するCNCSoft-BのコンポーネントであるDOPSoftには、ファイル検索パスの制御不備の脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[MicrosoftとOpenAI、自社のAI悪用したサイバー攻撃の情報公開 - ロシアや中国関与]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20240226-2885023/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20240226-2885023/"/>
+        <updated>2024-02-26T00:31:42.000Z</updated>
+        <summary type="html"><![CDATA[Microsoftはこのほど、同社の提供するAIサービスを悪用して不正なサイバー活動を行う脅威アクターに関する調査レポートを公開した。Microsoftでは、OpenAIの研究チームと共同で、サイバー攻撃にAIを悪用しようとした脅威アクターの行動を追跡し、特定の国家が関与している可能性が高い5つの脅威アクターによる攻撃の妨害に成功したという。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[検索で見つけたESTA申請サイトから高額な手数料!? 海外渡航認証トラブルに国民生活センターが注意喚起]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1571045.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1571045.html"/>
+        <updated>2024-02-25T23:30:00.000Z</updated>
+        <summary type="html"><![CDATA[独立行政法人国民生活センターは、海外へ渡航する際に必要となるESTA（Electronic System for Travel Authorization：電子渡航認証システム）申請を行った際に、実は公式の申請サイトではなく申請代行サイトを利用していて、手数料を含めた高額な請求をされるトラブルに注意喚起を行った。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google ＆ 米Yahoo! の迷惑メール対策強化について～ JPAAWG 緊急ウェビナーで喫緊課題への具体的な疑問が続出]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2024/02/26/50634.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2024/02/26/50634.html"/>
+        <updated>2024-02-25T23:15:03.000Z</updated>
+        <summary type="html"><![CDATA[ガイドラインの適用開始は 2024 年 2 月。この喫緊の課題にどう対応すればよいのか…。紙幅の都合上、一部しか紹介できないが、Ｑ＆Ａセッションでは「5,000通はFROMアドレス基準か」「拒否はドメイン単位か IPアドレス単位か」「外部サービスでは SPFアライメントは失敗する」等々の 30 を超える質疑応答が行われた。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[到来する「脆弱性対策義務化時代」に脆弱性管理サービス「SIDfm」が果たす役割]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2024/02/26/50633.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2024/02/26/50633.html"/>
+        <updated>2024-02-25T23:10:03.000Z</updated>
+        <summary type="html"><![CDATA[DX（デジタルトランスフォーメーション）が声高に叫ばれる世の中で、決して誇張ではなく、一部のユーザー企業と一部の SIer等との間には、恐ろしい認識のズレが長らく存在していた。ユーザー企業はもちろんだが、最終的なエンドユーザーこそたまったものではない。もはや「ズレ」や「すれ違い」などという言葉ではぬるすぎる。これは「ニッポン サイバー 無責任時代」である、そう本誌がここで命名しよう。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ダイヤモンド社にランサムウェア攻撃、約70,000件の個人情報が漏えいしたおそれ]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2024/02/26/50632.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2024/02/26/50632.html"/>
+        <updated>2024-02-25T23:05:11.000Z</updated>
+        <summary type="html"><![CDATA[株式会社ダイヤモンド社は2月14日、2023年12月11日に公表した同社の一部のサーバへのランサムウェア攻撃について、続報を発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LINEヤフー委託先への不正アクセス、社外のサービスシステムについての調査結果を公表]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2024/02/26/50631.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2024/02/26/50631.html"/>
+        <updated>2024-02-25T23:05:06.000Z</updated>
+        <summary type="html"><![CDATA[LINEヤフー株式会社は2月14日、2023年11月27日に公表した不正アクセスによる情報漏えいについて、続報を発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[東和エンジニアリングへのランサムウェア攻撃、VPN機器の脆弱性を悪用しブルートフォース攻撃でID・パスワードを不正に取得]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2024/02/26/50630.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2024/02/26/50630.html"/>
+        <updated>2024-02-25T23:05:02.000Z</updated>
+        <summary type="html"><![CDATA[株式会社東和エンジニアリングは2月13日、2023年12月15日に公表した同社内ネットワークへの不正アクセスについて、第4報を発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[エレコム製無線 LAN ルータに複数の脆弱性]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2024/02/26/50629.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2024/02/26/50629.html"/>
+        <updated>2024-02-25T23:00:16.000Z</updated>
+        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は2月20日、エレコム製無線 LAN ルータにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[エレコム製無線ルータにOSコマンドインジェクションの脆弱性]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2024/02/26/50628.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2024/02/26/50628.html"/>
+        <updated>2024-02-25T23:00:12.000Z</updated>
+        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は2月20日、エレコム製無線ルータにおけるOSコマンドインジェクションの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GMOイエラエ、ドローン運用におけるセキュリティ対策をサポート]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2024/02/26/50627.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2024/02/26/50627.html"/>
+        <updated>2024-02-25T23:00:08.000Z</updated>
+        <summary type="html"><![CDATA[株式会社トルビズオンは2月19日、GMOサイバーセキュリティ byイエラエ株式会社とGMOグローバルサイン株式会社が提供するドローンに関するサイバーセキュリティソリューションの販売を開始すると発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[1月のフィッシング報告は分散化が進む、報告件数は減少もURL件数は増加]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2024/02/26/50626.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2024/02/26/50626.html"/>
+        <updated>2024-02-25T23:00:03.000Z</updated>
+        <summary type="html"><![CDATA[フィッシング対策協議会は、2024年1月の「フィッシング報告状況」を公開した。1月に協議会へ寄せられた海外を含むフィッシング報告件数は、前月より減少している。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[セキュリティを身近に感じる機会に『スマホを落としただけなのに』スペシャル対談]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20240226-2887683/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20240226-2887683/"/>
+        <updated>2024-02-25T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ミステリー小説『スマホを落としただけなのに』の作者である小説家 志駕晃氏と、同作の実写映画にてサイバーセキュリティ監修を務めたSBテクノロジー プリンシパルセキュリティリサーチャー 辻伸弘氏によるスペシャル対談が行われた。本稿では、その様子の一部をお届けする。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NTTとNTTドコモ、6G時代に向けた「コンピューティング機能を備えるモバイルネットワーク」の実証実験に成功、世界初]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1571067.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1571067.html"/>
+        <updated>2024-02-25T22:30:00.000Z</updated>
+        <summary type="html"><![CDATA[日本電信電話株式会社（NTT）と株式会社NTTドコモは2月21日、NTTの「インクルーシブコア」構想に基づいた、コンピューティング機能を備えたモバイルネットワークを構築し、共同での実証実験に成功したと発表した。両社によれば、ネットワーク内に専用コンピューティング機能を構築し、高性能なアプリケーションを低遅延で利用できることを実証したのは世界初。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「iPhoneとWindowsの連携機能はかなり便利!!　着信もSMSもPCから対応できるようにしてみた」――急遽テレワークを導入した中小企業の顛末記（176）【急遽テレワーク導入！の顛末記】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/teleworkstory/1570506.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/teleworkstory/1570506.html"/>
+        <updated>2024-02-25T22:00:00.000Z</updated>
+        <summary type="html"><![CDATA[先日はWindows 11の標準機能を使って、iPhoneの通知をPCの画面上で確認できるようにした。その結果、仕事中にiPhoneを見る機会が減り、より作業に集中できるようになった気がする。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NVIDIA「Chat With RTX」を、RTX4060搭載ノートPCで動かす〜ローカルLLMでRAGを実現【イニシャルB】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/shimizu/1569783.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/shimizu/1569783.html"/>
+        <updated>2024-02-25T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[NVIDIAから、PDFやWordなどの文書を元に大規模言語モデルでチャットできるアプリ「Chat With RTX」が公開された。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CODE BLUE 2023 発表紹介]]></title>
+        <id>hatenablog://entry/6801883189079192063</id>
+        <link href="https://engineers.ffri.jp/entry/2024/02/26/000000"/>
+        <updated>2024-02-25T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[はじめに
+基礎技術研究部リサーチ・エンジニアの加藤です。
+2023 年 11 月 8, 9 日の 2 日間に亘って開催された CODE BLUE 2023 に参加しました。
+本記事では、私が聴講した講演の中から特に興味を惹かれた「シンボリック実行とテイント解析による WDM ドライバーの脆弱性ハンティングの強化」を紹介します。この講演は発表者の Zeze Lin 氏によってスライドが公開されているため、そちらもご参照ください。
+この発表で扱われたツールは "IOCTLance" と呼ばれ、検証に使われたドライバーのデータセットなどと共にソースコードが GitHub で公開されています。本記事ではこのリポジトリからソースコードを参照し、動作や特徴をコードベースで解説します。
+なお、ソースコードは本稿執筆時点における最新コミット (73e6e32)を参照しています。今後このリポジトリにおいて変更が行われた場合に、本記事の内容や参照している行番号等が最新のコミットと異なる可能性があります。
+技術的な背景
+発表を紹介する前に、この発表で対象としている WDM ドライバーと、解析手法として使われているシンボリック実行とテイント解析について簡単に説明します。
+WDM ドライバー
+この発表で対象としている WDM ドライバーは、Windows Driver Model と呼ばれる Windows におけるデバイスドライバーのフレームワークに準拠したドライバーです。ユーザーモードのアプリケーションがドライバーの機能を利用する際は、Windows API を用いて I/O マネージャーにリクエストを送信します。よく用いられる API として DeviceIoControl が挙げられます。この API は制御コードと入出力用のバッファーを引数にとり、対応する操作をドライバーに行わせる API…]]></summary>
+        <author>
+            <name>FFRIエンジニアブログ</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[サイバー攻撃への悪用を確認、ファイルレスSSHツール「SSH-Snake」に注意を]]></title>
         <id>https://news.mynavi.jp/techplus/article/20240225-2889088/</id>
@@ -784,6 +1112,24 @@ CISA, EPA, and FBI urge all WWS Sector and critical infrastructure organizations
         <summary type="html"><![CDATA[SIerのNDIソリューションズ（東京都港区）の生成AIサービスが稼働するパブリッククラウド環境に不正アクセスがあった。ユーザーアカウントと暗号通貨のマイニング用と思しきインスタンスが不正に作成されていたという。]]></summary>
         <author>
             <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[トピックス]JPNIC第74回総会および講演会(3/15)傍聴のお知らせ]]></title>
+        <id>https://www.nic.ad.jp/ja/topics/2024/20240221-01.html</id>
+        <link href="https://www.nic.ad.jp/ja/topics/2024/20240221-01.html"/>
+        <updated>2024-02-21T02:53:50.000Z</updated>
+        <summary type="html"><![CDATA[2024年2月21日
+各位
+一般社団法人日本ネットワークインフォメーションセンター
+JPNIC第74回総会および講演会(3/15)傍聴のお知らせ
+JPNIC総会および講演会の傍聴に関するお知らせです。
+secretariat@nic.ad.jp
+              宛にご返送ください。
+            
+以上]]></summary>
+        <author>
+            <name>JPNIC Web</name>
         </author>
     </entry>
     <entry>
@@ -9835,16 +10181,6 @@ https://www.moneyket.●●●●.com/
 キヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。]]></summary>
         <author>
             <name>キヤノンマーケティングジャパン株式会社の更新情報</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitLabサーバの脆弱性、日本も149台に影響 - アップデートを]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20240127-2870306/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20240127-2870306/"/>
-        <updated>2024-01-27T00:05:18.000Z</updated>
-        <summary type="html"><![CDATA[Security Affairsは1月24日(現地時間)、オンラインに公開されているGitLabサーバのうち5,379台が緊急の脆弱性(CVE-2023-7028)を対策していないとして警告した。この脆弱性は悪用されると、ユーザーの関与なしにパスワードがリセットされ、アカウントが乗っ取られる危険性がある。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
         </author>
     </entry>
 </feed>
