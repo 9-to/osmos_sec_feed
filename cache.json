@@ -429,6 +429,26 @@
       "siteUrl": "https://www.ipa.go.jp/about/index.html",
       "articles": [
         {
+          "id": "https://www.ipa.go.jp/security/anshin/attention/2023/mgdayori20240227.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「サポート詐欺の偽セキュリティ警告はどんなときに出るのか？」に関する情報です。",
+          "link": "https://www.ipa.go.jp/security/anshin/attention/2023/mgdayori20240227.html",
+          "publishedOn": "2024-02-26T15:00:00.000Z",
+          "wordCount": 1340,
+          "title": "安心相談窓口だより「サポート詐欺の偽セキュリティ警告はどんなときに出るのか？」を公開しました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
+          "id": "https://www.ipa.go.jp/recruit/shokutaku/index.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「嘱託職員公募」に関する情報です。",
+          "link": "https://www.ipa.go.jp/recruit/shokutaku/index.html",
+          "publishedOn": "2024-02-26T15:00:00.000Z",
+          "wordCount": 330,
+          "title": "嘱託職員公募の情報を更新しました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
           "id": "https://www.ipa.go.jp/shiken/about/jirei/koukou/tuis.html",
           "author": "情報処理推進機構（IPA）",
           "description": "情報処理推進機構（IPA）の「東京情報大学」に関する情報です。",
@@ -707,26 +727,6 @@
           "wordCount": 356,
           "title": "「DX認定申請書分析レポート 申請書の記述内容の分析と作成のポイント」を公開しました",
           "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
-        },
-        {
-          "id": "https://www.ipa.go.jp/jinzai/ics/core_human_resource/2024.html",
-          "author": "情報処理推進機構（IPA）",
-          "description": "情報処理推進機構（IPA）の「中核人材育成プログラム 2024年度」に関する情報です。",
-          "link": "https://www.ipa.go.jp/jinzai/ics/core_human_resource/2024.html",
-          "publishedOn": "2024-01-28T15:00:00.000Z",
-          "wordCount": 426,
-          "title": "第8期中核人材育成プログラム一般募集を開始しました",
-          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
-        },
-        {
-          "id": "https://www.ipa.go.jp/security/hyogo/index.html",
-          "author": "情報処理推進機構（IPA）",
-          "description": "",
-          "link": "https://www.ipa.go.jp/security/hyogo/index.html",
-          "publishedOn": "2024-01-28T15:00:00.000Z",
-          "wordCount": 48,
-          "title": "第19回IPA「ひろげよう情報セキュリティコンクール」2023の結果を発表しました",
-          "imageUrl": null
         }
       ]
     },
@@ -1599,10 +1599,20 @@
       "articles": []
     },
     {
-      "title": "キヤノンマーケティングジャパン株式会社の更新情報",
+      "title": "キヤノンマーケティングジャパン株式会社",
       "feedUrl": "https://eset-info.canon-its.jp/RSS.rdf",
       "siteUrl": "https://eset-info.canon-its.jp/",
       "articles": [
+        {
+          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/240227.html",
+          "author": null,
+          "description": "SAML認証はシングルサインオン（SSO）を実現する方式の1つとして広く利用され、その都度パスワードの入力が不要でログインが可能になる、ユーザーの利便性や安全性の向上に寄与する技術だ。この記事では、SAML認証の概要とともに、利用する上でのメリットとデメリット、そして、関連する認証技術について解説する。\n\n\n\n\n\nSAML認証とは\n\nSAMLは、認証と認可に関する情報をXML形式でやり取りするための標準規格である。Security Assertion Markup Languageの頭文字からなる略称であり、「サムル」と呼称される。XMLに関する標準化を推進する団体OASIS（Organization for the Advancement of Structured Information Standards）によって2002年にSAMLは策定された。そして、2005年には新たなバージョンであるSAML v2.0が公開され、現在に至る。\n\nSAMLは、異なるドメイン間でのシングルサインオン（SSO）を実現する方法の1つだ。ユーザーは一度ログインを行えば、SAML対応の各種アプリケーションへログインできるようになる。自社ネットワーク内のオンプレミス環境だけでなく、異なるパブリック・クラウド上のアプリケーション間であっても、ドメインをまたがったSSOを実現する。\n\nSAMLを用いたSSOはフェデレーション方式と呼ばれる。SAML以外にもOpenID Connect、OAuthなどのプロトコルも利用されているが、一般的にはSAMLを採用しているケースが多い。\n\nSSOの一種として、ソーシャルログインがある。一度、ソーシャルメディアにログインすることで、連携するサービスもユーザーが連携を許可することで利用できることから、利便性が高く、導入するWebサービスが増えている。このソーシャルログインを実現する技術としても、SAMLが利用されている。\n\nソーシャルログインとは？利便性の裏で注意すべき危険性とは\n\nSAML認証導入によるメリット\n\nSAMLを用いた認証を導入することで得られるメリットを以下に解説する。\n\n1）ユーザーの利便性向上\n\nSAMLに限らず、SSO全般に言えることだが、一度のログインで複数のサービスが利用できるのは、ユーザーにとっての利便性を大きく向上させる。近年は特に、ユーザーが利用するクラウドサービスの数も増えており、それぞれのログイン情報を管理するのが煩雑になっているという背景がある。\n\n2）セキュリティの向上\n\n利用するクラウドサービスが増加したことから、認証情報の管理が煩雑になり、パスワードの使い回しなどが生じる恐れがある。その結果、情報漏えいや不正アクセスにつながるリスクが高まってしまう。そこで、SSOを導入することで1つのパスワードに集約できるため、パスワードの使い回しが起こらず、セキュリティ向上に寄与する。\n\n3）IT部門の負担軽減\n\n先述した認証情報の管理に関連して、従業員のパスワード再発行のような社内サポート業務が削減できるため、IT部門の負担が軽減される。加えて、従業員の入退社、組織変更、企業合併といった場合でも、アカウント情報の変更作業に関わる工数を削減できるのがメリットだ。\n\nまた、SAMLはユーザーの属性情報などを設定できるため、クラウドサービスが提供する機能のうち、どのように利用権限を付与するかといった、認可の管理が容易に行える。こうした特長を活用し、部門ごとにアクセスできる機能や、閲覧できるデータを制限するといった使い方が想定される。\n\nSAML認証のデメリット\n\nSAMLの導入には、上記のメリットだけでなく、以下のようなデメリットも生じ得る。\n\n1）導入先の認証プロトコルに依存する\n\nクラウドサービスのすべてがSAML認証に対応しているわけではない。対応していない場合、クラウドサービスへSSOを実装するには、別途費用が生じる可能性がある。あるいは、別途、リバースプロキシ経由でのSSO実装を余儀なくされるケースがある。\n\n2）不正アクセス時の被害が甚大になりやすい\n\n認証システムを1つにまとめているため、不正アクセスを受けた場合、ネットワーク全体へと被害が広がりやすいというリスクもある。また、SSOの認証システムが停止した場合、すべてのシステムへログインできなくなり、業務が停止してしまう。インシデント発生時の可用性や、事業継続性について事前に対策を練っておく必要がある。\n\nシングルサインオンの仕組みと導入のメリット・デメリット\n\nSAML認証の仕組み\n\nSAML認証では、IDプロバイダー（IdP：Identity Provider）と呼ばれるサーバーが認証情報を保存・管理する。そして、ユーザーが利用するサービス（メールやストレージ、CRMなど）の提供元をサービスプロバイダー（Service Provider）と呼ぶ。ユーザーがSAMLを介したSSOの対象になっているサービスにアクセスした場合のログインのプロセスは以下のとおりだ。\n\n\n\n図1：SAML認証要求のプロセス\n\n\n\n\tユーザーがサービスプロバイダーにアクセスする\n\tサービスプロバイダーがSAML認証を要求し、ユーザーはIDプロバイダーへリダイレクトされる\n\tユーザーが、IDプロバイダーによって表示された認証画面で認証情報を入力する\n\tIDプロバイダーが認証を確認し、許可された場合、ユーザーはサービスプロバイダーへリダイレクトされる\n\t上記処理完了後、ユーザーはサービスプロバイダーへログイン可能となる\n\n\nSAML認証を実現する上で、重要な要素としてSAMLアサーションが挙げられる。SAMLアサーションとは、認証に成功したときにIDプロバイダーが発行するメッセージだ。ユーザーに関する認証・認可の情報がXML形式で出力されるもので、サービスプロバイダーが受信し、内容を確認する。このSAMLアサーションには、以下3種類の形式がある。\n\n1）認証アサーション\n\nユーザーがログインした時間や場所、認証方法（パスワードや多要素認証）に関する情報を含む。\n\n2）属性アサーション\n\n名前や年齢、決済情報といったユーザーに関する情報を提供する。\n\n3）認可決定アサーション\n\n特定のファイルへのアクセス要求に対し、ユーザーに権限が付与されているかどうかを判定した結果を示す。\n\nSAMLアサーションを受信したサービスプロバイダーは、これらの情報に基づいてサービスを提供する。SAMLに準拠した各サービスがこのアサーションに対応できることから、SSOが実現されるのだ。\n\nSAMLに関連した認証技術\n\nSAMLのほかにも、SSOを実現するのに用いられる認証技術はいくつか知られている。代表的な技術を以下に紹介する。\n\n1）OAuth\n\nSSOを実現する代表的な規格として、OAuthが挙げられる。SAMLが認証と認可の両方に対応していたのに対し、OAuthでは主に認可を扱う。サードパーティのアプリケーションに対し、特定の操作への権限を付与するもので、例えば、アプリにクラウドストレージ上のファイルを閲覧する許可を与えるといった使い方が考えられる。\n\n2）OpenID Connect\n\nOAuthを拡張させた規格としてOpenID Connectが使われている。この規格では、認証情報を保存・管理するOpenID Providerと、サービスを提供するRelying Partyが用いられる。OpenID Providerで認証に成功したユーザーにはトークンが発行され、Relying Partyへのアクセスが許可される仕組みだ。\n\nソーシャルメディアや大手Webサービスのアカウント情報でSSOを実現するソーシャルログインでは、OpenID ConnectとOAuthが利用されているケースが多い。\n\nまた、SAMLやOAuthといった技術は外部クラウドサービスも含めて利用されているのに対し、社内ネットワークにおけるSSOに用いられるケルベロス認証もある。基本的にWindowsを中心としたActive Directoryでの認証において、ケルベロス認証が用いられてきた。認証技術は、ユーザーの利便性とともにセキュリティを高めるのに欠かせないものだ。それぞれのメリットやデメリットについて理解を深めて、自らの環境に応じた適切な選択を行うようにしたい。\n\nケルベロス認証？シングルサインオンの認証方式の定番と新技術はどう違う？",
+          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/240227.html",
+          "publishedOn": "2024-02-26T15:00:00.000Z",
+          "wordCount": 227,
+          "title": "SAML認証とは？シングルサインオン（SSO）を実現する仕組み",
+          "imageUrl": "https://eset-info.canon-its.jp/files/topics/4511_ext_01_0.jpg"
+        },
         {
           "id": "https://eset-info.canon-its.jp/malware_info/special/detail/240222.html",
           "author": null,
@@ -1742,16 +1752,6 @@
           "wordCount": 315,
           "title": "2023年12月 マルウェアレポート",
           "imageUrl": "https://eset-info.canon-its.jp/files/topics/4496_ext_01_0.png"
-        },
-        {
-          "id": "https://eset-info.canon-its.jp/malware_info/news/detail/240129.html",
-          "author": null,
-          "description": "2024年1月29日現在、ソニー銀行をかたるフィッシングが確認されております。フィッシングサイト上の入力欄には、絶対に情報を入力しないようにお願いします。\n\nこのようなフィッシングサイトにて、店番号、口座番号、ログインパスワード等を絶対に入力しないよう、ご注意ください\n\n日頃からサービスへログインする際は、メールや SMS 内のリンクではなく、いつも利用しているスマートフォンの公式アプリやブラウザーのブックマークなどからアクセスするよう、心がけてください。\n\n【メールの件名】\n\n【ソニー銀行】【重要】お客様の口座が凍結されました。\n\n【サイトのURL】\n\nメール内の URL\nhttps://●●●●.ru/●●●●\nhttp://www.moneyket.link.●●●●.com/\n\n転送先の URL\nhttps://www.moneyket.●●●●.com/\n\n※上記以外のドメイン、URL も使われている可能性があります。\n※URL にパスやパラメータが付いていることがあります。\n\n2024/1/29 13:00時点では、フィッシングサイトは稼働中です。このサイトが停止しても、類似のフィッシングサイトが公開される恐れもありますので注意してください。\nこのようなフィッシングサイトは日々新規に作成されています。ESET製品は、新規に作成されるフィッシングサイトにも随時対応していきますが、お客さま自身でも十分にご注意ください。\n\n【参考情報】\n\n【重要】新たなフィッシングメールにご注意ください（1月29日更新）\n\nフィッシング詐欺にご注意ください\n\n \n\n\n■ ESET製品における検出例\n\n\n\n※ESET Internet Security V17.0/ESET Mobile Security V8.2でフィッシング対策機能が有効な場合は、図のような通知が表示されます。\n\n\n■ フィッシングメール／フィッシングサイトへの対応\n\n\n\n\tフィッシングの可能性があるメールをむやみに開かない。\n\tフィッシングの可能性があるメールの添付ファイルをむやみに開かない。\n\tメール文中のリンク先URLがフィッシングサイトである可能性を考え、リンク先URLへむやみにアクセスしない。\n\tフィッシングの可能性があるサイトにアカウント情報やクレジットカード情報などを入力しない。\n\n\n\n\nキヤノンITソリューションズ株式会社（記事提供：サイバーセキュリティラボ）は、フィッシング対策協議会の正会員です。",
-          "link": "https://eset-info.canon-its.jp/malware_info/news/detail/240129.html",
-          "publishedOn": "2024-01-28T15:00:00.000Z",
-          "wordCount": 201,
-          "title": "ソニー銀行をかたるフィッシングについての注意喚起",
-          "imageUrl": "https://eset-info.canon-its.jp/files/user/images/common/sns_thumb.jpg"
         }
       ]
     },
@@ -2299,6 +2299,16 @@
       "siteUrl": "https://www.cisa.gov/",
       "articles": [
         {
+          "id": "/node/21015",
+          "author": "CISA",
+          "description": "How SVR-Attributed Actors are Adapting to the Move of Government and Corporations to Cloud Infrastructure\nOVERVIEW\nThis advisory details recent tactics, techniques, and procedures (TTPs) of the group commonly known as APT29, also known as Midnight Blizzard, the Dukes, or Cozy Bear.\nThe UK National Cyber Security Centre (NCSC) and international partners assess that APT29 is a cyber espionage group, almost certainly part of the SVR, an element of the Russian intelligence services. The US National Security Agency (NSA), the US Cybersecurity and Infrastructure Security Agency (CISA), the US Cyber National Mission Force (CNMF), the Federal Bureau of Investigation (FBI), Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC), the Canadian Centre for Cyber Security (CCCS),…",
+          "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa24-057a",
+          "publishedOn": "2024-02-23T17:37:53.000Z",
+          "wordCount": 2172,
+          "title": "SVR Cyber Actors Adapt Tactics for Initial Cloud Access",
+          "imageUrl": null
+        },
+        {
           "id": "/node/20941",
           "author": "CISA",
           "description": "SUMMARY\nThe Cybersecurity and Infrastructure Security Agency (CISA) and the Multi-State Information Sharing & Analysis Center (MS-ISAC) conducted an incident response assessment of a state government organization’s network environment after documents containing host and user information, including metadata, were posted on a dark web brokerage site. Analysis confirmed that an unidentified threat actor compromised network administrator credentials through the account of a former employee—a technique commonly leveraged by threat actors—to successfully authenticate to an internal virtual private network (VPN) access point, further navigate the victim’s on-premises environment, and execute various lightweight directory access protocol (LDAP) queries against a domain controller.[1] Analysis also…",
@@ -2325,6 +2335,16 @@
       "feedUrl": "https://www.cisa.gov/uscert/ncas/current-activity.xml",
       "siteUrl": "https://www.cisa.gov/",
       "articles": [
+        {
+          "id": "/node/21017",
+          "author": "CISA",
+          "description": "CISA, in partnership with UK National Cyber Security Centre (NCSC) and other U.S. and international partners released the joint advisory, SVR Cyber Actors Adapt Tactics for Initial Cloud Access. This advisory provides recent tactics, techniques, and procedures (TTPs) used by Russian Foreign Intelligence Service (SVR) cyber actors—also known as APT29, the Dukes, CozyBear, and NOBELIUM/Midnight Blizzard—to gain initial access into a cloud environment.\nThe authoring agencies encourage network defenders and organizations review the joint advisory for recommended mitigations. For more information on APT29, see joint CSA Russian Foreign Intelligence Service (SVR) Exploiting JetBrains TeamCity CVE Globally or visit CISA’s Russia Cyber Threat Overview and Advisories page. For more guidance on cloud security best practices, see CISA’s Secure Cloud Business Applications (SCuBA) Project.",
+          "link": "https://www.cisa.gov/news-events/alerts/2024/02/26/cisa-ncsc-uk-and-partners-release-advisory-russian-svr-actors-targeting-cloud-infrastructure",
+          "publishedOn": "2024-02-26T12:00:00.000Z",
+          "wordCount": 627,
+          "title": "CISA, NCSC-UK, and Partners Release Advisory on Russian SVR Actors Targeting Cloud Infrastructure",
+          "imageUrl": null
+        },
         {
           "id": "/node/21018",
           "author": "CISA",
@@ -2708,6 +2728,26 @@
       "feedUrl": "https://jvn.jp/rss/jvn.rdf",
       "siteUrl": "https://jvn.jp/",
       "articles": [
+        {
+          "id": "https://jvn.jp/vu/JVNVU96145466/",
+          "author": "jvn@jvn.jp",
+          "description": "複数の三菱電機製FA製品のEthernet機能には、不十分なリソースプールに起因するサービス運用妨害（DoS）の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU96145466/",
+          "publishedOn": "2024-02-27T03:15:00.000Z",
+          "wordCount": 138,
+          "title": "複数の三菱電機製FA製品のEthernet機能におけるサービス運用妨害（DoS）の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/jp/JVN73283159/",
+          "author": "jvn@jvn.jp",
+          "description": "baserCMSユーザー会が提供する baserCMS には、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN73283159/",
+          "publishedOn": "2024-02-27T03:00:00.000Z",
+          "wordCount": 148,
+          "title": "baserCMS における複数の脆弱性",
+          "imageUrl": null
+        },
         {
           "id": "https://jvn.jp/vu/JVNVU94155938/",
           "author": "jvn@jvn.jp",
@@ -3176,6 +3216,16 @@
       "siteUrl": "https://msrc.microsoft.com/blog/",
       "articles": [
         {
+          "id": "https://msrc.microsoft.com/blog/2024/02/from-indiana-jones-to-cybersecurity-the-inspiring-journey-of-devin/",
+          "author": null,
+          "description": "As a young boy, Devin found himself captivated by the adventures of Indiana Jones, the whip-wielding archaeologist from the VHS movies his grandfather showed him. The thrill of unearthing history and the allure of the unknown ignited a spark in Devin, leading him to dream of becoming an archaeologist. However, as he grew older and learned more about the realities of archaeology, he realized that his passion lay elsewhere.",
+          "link": "https://msrc.microsoft.com/blog/2024/02/from-indiana-jones-to-cybersecurity-the-inspiring-journey-of-devin/",
+          "publishedOn": "2024-02-26T08:00:00.000Z",
+          "wordCount": 2664,
+          "title": "From Indiana Jones to Cybersecurity: The Inspiring Journey of Devin",
+          "imageUrl": null
+        },
+        {
           "id": "https://msrc.microsoft.com/blog/2024/02/an-obsession-with-impact-the-inspiring-journey-of-a-dreamer-that-led-to-a-career-at-microsoft/",
           "author": null,
           "description": "Bruce’s story unfolds in Cincinnati, Ohio. As a young boy, he had an ambitious dream of one day becoming the President of the United States. This aspiration remained his guiding star until he began his professional career after college. His mother, amused by his",
@@ -3266,6 +3316,86 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/02/27/50642.html",
+          "author": null,
+          "description": "また別な観点もありうる。セキュリティ技術、もっと言うならテクノロジー全般の進歩は早く、1、2 年のうちに「時代遅れ」と化してしまうと考えられる。「たとえばサイバーセキュリティ研究で学位を取る場合、4 年間のコースが待ち受けています。しかしその 4 年間にテクノロジーが急速に進歩するため、1、2 年目に得た知識は 3、4 年目には時代遅れになってしまうのです」と、ブラジルで銀行の CIO を勤めるある回答者は述べている。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/02/27/50642.html",
+          "publishedOn": "2024-02-26T23:15:03.000Z",
+          "wordCount": 1070,
+          "title": "考察：高等教育はセキュリティの仕事の役に立つか？",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/44125.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/02/27/50641.html",
+          "author": null,
+          "description": "講演には、端末の管理やパッチファイル適用など、社内の IT 基盤をどうやって守るのかというテーマと、自社で次々と Web アプリを開発して公開していく時代に、これまでは製造業だけが考えていればよかった「製品の品質管理」を一般企業がどう考えていくのか／対処していくのかという二つのテーマが含まれています。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/02/27/50641.html",
+          "publishedOn": "2024-02-26T23:10:03.000Z",
+          "wordCount": 1144,
+          "title": "IT を「使う」から「作る」まで ～ 「HCL BigFix」「HCL AppScan」でできること",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/44124.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/02/27/50640.html",
+          "author": null,
+          "description": "トヨタモビリティサービス株式会社は2月16日、同社が提供する社用車専用クラウドサービス「Booking Car」を利用していた企業・自治体の従業員・職員のメールアドレスが漏えいした可能性について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/02/27/50640.html",
+          "publishedOn": "2024-02-26T23:05:09.000Z",
+          "wordCount": 858,
+          "title": "トヨタモビリティサービスの「Booking Car」を利用していた企業等のメールアドレスが漏えいした可能性、AWSアクセスキーの不適切な取り扱いが原因",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/44076.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/02/27/50639.html",
+          "author": null,
+          "description": "ダイキン工業株式会社は2月16日、仕入先様情報が漏えいした可能性について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/02/27/50639.html",
+          "publishedOn": "2024-02-26T23:05:06.000Z",
+          "wordCount": 863,
+          "title": "ダイキン工業の再々委託先の作業者が仕入先情報を不正にダウンロード",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/44081.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/02/27/50638.html",
+          "author": null,
+          "description": "株式会社イズミは2月16日、同社グループへのランサムウェア攻撃について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/02/27/50638.html",
+          "publishedOn": "2024-02-26T23:05:02.000Z",
+          "wordCount": 895,
+          "title": "ゆめタウン運営イズミにランサムウェア攻撃、発注システムに支障あり一部品薄状態も",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/44087.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/02/27/50637.html",
+          "author": null,
+          "description": "一般財団法人全日本情報学習振興協会は2月20日、「会社員の個人情報保護に対する取り組み」に関する調査結果を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/02/27/50637.html",
+          "publishedOn": "2024-02-26T23:00:15.000Z",
+          "wordCount": 840,
+          "title": "個人情報保護ルールを「あまり／まったく守れていない」のは部課長が最多",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/44113.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/02/27/50636.html",
+          "author": null,
+          "description": "JC3は、「ランサムウェア攻撃に対する捜査ハンドブック（JC3監修）」が立花書房より出版されたと発表した。JC3の特徴である「官民連携」により作り出されたハンドブックとなっている。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/02/27/50636.html",
+          "publishedOn": "2024-02-26T23:00:09.000Z",
+          "wordCount": 854,
+          "title": "JC3、捜査員向けのランサムウェア捜査ハンドブックを出版",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/44071.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/02/27/50635.html",
+          "author": null,
+          "description": "フィッシング対策協議会は、「フィッシングメール詐欺の手口と対策 解説ドキュメント」を公開したと発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/02/27/50635.html",
+          "publishedOn": "2024-02-26T23:00:03.000Z",
+          "wordCount": 873,
+          "title": "「フィッシングメール詐欺の手口と対策」公開",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/44072.jpg"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2024/02/26/50634.html",
           "author": null,
@@ -4524,6 +4654,26 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2402/27/news051.html",
+          "author": null,
+          "description": "中国の湖南大学などに所属する研究者らは、イヤフォン／ヘッドフォンで聞いている音を離れた場所から盗聴できる手法を提案した研究報告を発表した。",
+          "link": "https://www.itmedia.co.jp/news/articles/2402/27/news051.html",
+          "publishedOn": "2024-02-26T23:00:00.000Z",
+          "wordCount": 2932,
+          "title": "「電車内のあの人は今、何聞いてるのかなぁ……」――イヤフォンで聞いている音を1m先から盗聴する攻撃",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2402/27/cover_news051.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2402/26/news119.html",
+          "author": null,
+          "description": "中国の浙江大学や米ミシガン大学、米ノースイースタン大学に所属する研究者らは、電磁干渉（EMI）を利用して、他人のキーボードに物理的に触れることなく偽のキーストロークを注入できる攻撃を提案した研究報告を発表した。",
+          "link": "https://www.itmedia.co.jp/news/articles/2402/26/news119.html",
+          "publishedOn": "2024-02-26T23:00:00.000Z",
+          "wordCount": 2945,
+          "title": "他人のキーボードに“1分で2万回の誤入力”をする攻撃　DoS攻撃やDeleteキー連打で妨害",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2402/26/cover_news119.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2402/26/news035.html",
           "author": null,
           "description": "2020年にサイバー攻撃を受けたNTTコムに当時の反省とセキュリティ改善の現況を聞く。",
@@ -5030,6 +5180,76 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1571648.html",
+          "author": null,
+          "description": "Microsoftが過去にBingの採用をAppleに持ちかけるも、品質の低さを理由に拒絶されていたことが明らかになった。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1571648.html",
+          "publishedOn": "2024-02-27T03:30:16.000Z",
+          "wordCount": 4531,
+          "title": "理由は「品質の低さ」。Microsoft、Bingの採用提案をAppleに拒絶されていたことが判明【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1571/648/yajiuma-watch_4.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1571718.html",
+          "author": null,
+          "description": "ENGAWA株式会社は、佐賀県の子育て環境にスポットライトを当てた移住イベント「佐賀移住でのびのび安心♪子育てライフセミナー」を、3月9日に、六本木ヒルズ森タワービル31階のENGAWAオフィスにて開催する。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1571718.html",
+          "publishedOn": "2024-02-27T03:30:00.000Z",
+          "wordCount": 4966,
+          "title": "新米ママ・丸山桂里奈氏も登壇、「佐賀移住でのびのび安心♪子育てライフセミナー」を3月9日に六本木ヒルズで開催　オンライン参加も可能",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1571/718/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1571647.html",
+          "author": null,
+          "description": "X（旧Twitter）の音声通話およびビデオ通話機能が、無料ユーザーにも提供が開始されたことが明らかになった。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1571647.html",
+          "publishedOn": "2024-02-27T03:15:47.000Z",
+          "wordCount": 4519,
+          "title": "X（旧Twitter）の音声通話およびビデオ通話機能、無料ユーザーにもいよいよ提供開始【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1571/647/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/ranking/mousepro/1571508.html",
+          "author": null,
+          "description": "本記事では、マウスコンピューターの法人向けブランド「MousePro」の売れ筋PCを紹介しています。なお、順位、価格、構成は随時変動しており、最新情報はリンク先にてご確認ください。",
+          "link": "https://internet.watch.impress.co.jp/docs/ranking/mousepro/1571508.html",
+          "publishedOn": "2024-02-27T02:00:00.000Z",
+          "wordCount": 4560,
+          "title": "有線LANにも対応の14型ノートPC「MousePro Cシリーズ」が人気。筐体を一新した15.6型スタンダートノートPC「MousePro Lシリーズ」も【MousePro 売れ筋ビジネスPCランキング ノート編 2024/2/27版】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1571/508/MousePro_C.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1571571.html",
+          "author": null,
+          "description": "株式会社ターリン・インターナショナルは、カプセルトイ「カプセルコレクション」の新ラインアップとして「手のひらネットワーク機器2」を発売する。6月中旬より全国のカプセルトイ自販機コーナーで展開予定で、価格は1回500円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1571571.html",
+          "publishedOn": "2024-02-26T22:30:00.000Z",
+          "wordCount": 4982,
+          "title": "カプセルトイ「手のひらネットワーク機器2」でAPRESIA・Dell・Extreme Networks・フォーティネット製品が登場、第1弾も再販",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1571/571/main.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1571637.html",
+          "author": null,
+          "description": "株式会社GameWithは2月26日、同社が提供するオンラインゲーム向けインターネット回線「GameWith光」において、全国の学校のeスポーツ部専用「GameWith光eスポーツ部応援プラン」の提供を開始した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1571637.html",
+          "publishedOn": "2024-02-26T21:30:00.000Z",
+          "wordCount": 4963,
+          "title": "全国の学校のeスポーツ部に専用回線、「GameWith光」が提供",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1571/637/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1571642.html",
+          "author": null,
+          "description": "四国電力グループの株式会社STNetは、法人向け光インターネットサービス「お仕事ピカラ」において、最大通信速度10Gbpsの「お仕事ピカラ10G」の提供を、7月1日より開始する。それに先がけ、3月1日から先行受付キャンペーンを実施する。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1571642.html",
+          "publishedOn": "2024-02-26T21:00:00.000Z",
+          "wordCount": 4965,
+          "title": "法人向け10Gbps回線を四国4県で。「お仕事ピカラ10G」、STNetが3月1日から先行受付開始、7月提供予定",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1571/642/01.png"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/1571433.html",
           "author": null,
@@ -6733,6 +6953,16 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240226-2892563/",
+          "author": null,
+          "description": "ラックは2月26日、AIを使用してパブリッククラウド、ID、SaaSアプリケーション、およびデータセンター全体の脅威を検出する「Vectra AI NDR」の運用サービス「JSOC MSS NDR監視運用 for Vectra AI」の提供を開始した。",
+          "link": "https://news.mynavi.jp/techplus/article/20240226-2892563/",
+          "publishedOn": "2024-02-26T07:29:00.000Z",
+          "wordCount": 1667,
+          "title": "ラック、Vectra AI NDR向けマネージドセキュリティサービス提供",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240226-2892563/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20240226-2892286/",
           "author": null,
