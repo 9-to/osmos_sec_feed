@@ -2,10 +2,207 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-03-19T08:11:34.888Z</updated>
+    <updated>2024-03-20T08:10:58.448Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[GhostSec によるランサムウェア連携攻撃と、使用する攻撃ツールの進化]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=50716</id>
+        <link href="https://gblogs.cisco.com/jp/2024/03/talos-ghostsec-ghostlocker2-ransomware/"/>
+        <updated>2024-03-20T07:07:40.000Z</updated>
+        <summary type="html"><![CDATA[Cisco Talos は、ハッキンググループ GhostSec の悪意のある活動がこの 1 年活発化していることを確認しました。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[情報セキュリティをさらに強靭に、かつ高性能で使いやすく―無害化ソリューションを刷新した富士市の取り組み]]></title>
+        <id>https://news.mynavi.jp/techplus/kikaku/20240320-2904446/</id>
+        <link href="https://news.mynavi.jp/techplus/kikaku/20240320-2904446/"/>
+        <updated>2024-03-20T01:00:00.000Z</updated>
+        <summary type="html"><![CDATA[静岡県富士市はこれまで使用していた無害化システムで浮かび上がっていた問題点の改善を目指し、メール無害化/ファイル無害化/ファイル交換システムをリプレイスしました。その選定のポイントやメリットなどを紐解いていきますｖ。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[miniOrange製WordPressプラグインに緊急の脆弱性、速やかに削除を]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20240320-2910169/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20240320-2910169/"/>
+        <updated>2024-03-20T00:43:30.000Z</updated>
+        <summary type="html"><![CDATA[Defiantはこのほど、WordPressプラグイン「Malware Scanner」および「Web Application Firewall」に緊急の脆弱性が発見されたとして、注意を喚起した。これらプラグインはサイバーセキュリティ企業「miniOrange」により開発・公開されたが、脆弱性の報告を受けて2024年3月7日に閉鎖されている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[豚の屠殺詐欺：大規模な仮想通貨詐欺 | カスペルスキー公式ブログ]]></title>
+        <id>https://blog.kaspersky.co.jp/?p=36039</id>
+        <link href="https://blog.kaspersky.co.jp/pig-butchering-crypto-investment-scam/36039/"/>
+        <updated>2024-03-19T22:53:27.000Z</updated>
+        <summary type="html"><![CDATA[豚の屠殺詐欺とは何か、その仕組み、なぜ危険なのか、そして詐欺から身を守る方法について説明します。]]></summary>
+        <author>
+            <name>Alanna Titterington</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VU#417980: UDP-based, application-layer protocol implementations are vulnerable to network loops]]></title>
+        <id>https://kb.cert.org/vuls/id/417980</id>
+        <link href="https://kb.cert.org/vuls/id/417980"/>
+        <updated>2024-03-19T19:49:45.063Z</updated>
+        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
+<p>A novel traffic-loop vulnerability has been identified against certain implementations of UDP-based applications protocols.  An unauthenticated attacker can use maliciously-crafted packets against a UDP-based vulnerable implementation of application protocols (e.g., DNS, NTP, TFTP) that can lead to Denial-of-Service (DOS) and/or abuse of resources.</p>
+<h3 id="description">Description</h3>
+<p>The User Datagram Protocol (<a href="https://datatracker.ietf.org/doc/html/rfc768">UDP</a>) is a simple, connectionless protocol that is still commonly used in many internet-based applications. UDP has a limited packet-verification capability and is susceptible to IP spoofing.  Security researchers have identified that certain implementations of the UDP protocol in applications can be triggered to create a network-loop of seemingly never-ending packets. Software implementations of UDP-based application protocols DNS, NTP, TFTP, Echo (RFC862), Chargen (RFC864), and QOTD (RFC865) were specifically found to be vulnerable to such network loops. </p>
+<p>As an example, if two application servers have a vulnerable implementation of said protocol, an attacker can initiate a communication with the first server, spoofing the network address of the second server (victim). In many cases, the first server will respond with an error message to the victim, which will also trigger a similar behavior of another error message back to the first server. This behavior has been demonstrated to be resource exhausting and can cause services to become either unresponsive or unstable.  </p>
+<h3 id="impact">Impact</h3>
+<p>Successful exploitation of this vulnerability could result in the following scenarios: 
+1. Overload of a vulnerable service, causing it to become unstable or unusable.
+2. DOS attack of the network backbone, causing network outage to other services.
+3. Amplification attacks that involve network loops causing amplified DOS or DDOS attacks.</p>
+<h3 id="solution">Solution</h3>
+<h4 id="apply-updates">Apply updates</h4>
+<p>CERT/CC recommends that you apply the latest patch provided by the affected vendor that addresses this vulnerability in the vendor-specific implementations. Review the vendor-specific information below. If the product is end-of-life/unsupported, vendors will be unlikely to release a patch; thus, we recommend replacing the device.</p>
+<h4 id="protect-or-replace-udp-applications">Protect or replace UDP applications</h4>
+<p>When possible, protect UDP-based applications using network firewall rules and/or other access-control lists to prevent unauthorized access. If the same service can be implemented using a TCP or with any request-validation capability (e.g., <a href="https://freeradius.org/rfc/rfc2869.html#Message-Authenticator">Message-Authenticator</a>) available in the UDP-based application protocol, implement such protection to prevent unknown or spoofed requests. It is recommended that you disable unnecessary and unused UDP services that may be enabled as part of your operating system to prevent exposure of these services for abuse.</p>
+<h4 id="deploy-anti-spoofing">Deploy anti-spoofing</h4>
+<p>Network providers should deploy available anti-spoofing techniques (<a href="https://www.rfc-editor.org/info/bcp38">BCP38</a>) such as Unicast Reverse Path Forwarding (<a href="https://datatracker.ietf.org/doc/html/rfc3704">uRPF</a>) to prevent IP spoofing in protecting their internet-facing resources against spoofing and abuse.  </p>
+<h4 id="enforce-network-rate-limiting">Enforce network rate-limiting</h4>
+<p>Service providers should employ network rate-limiting capabilities, such Quality-of-Service (QoS) to protect their network from abuse from network loops and amplifications and to ensure their critical resources/services are protected.</p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thanks to the reporters Yepeng Pan and Christian Rossow from the CISPA Helmholtz Center for Information Security, Germany. This document was written by Elke Drennan and Vijay Sarvepalli.</p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Can Thieves Steal Identities With Only a Name and Address?]]></title>
+        <id>https://www.mcafee.com/blogs/?p=131266</id>
+        <link href="https://www.mcafee.com/blogs/privacy-identity-protection/can-thieves-steal-identities-with-only-a-name-and-address/"/>
+        <updated>2024-03-19T13:11:50.000Z</updated>
+        <summary type="html"><![CDATA[Can thieves steal identities with only a name and address?   In short, the answer is “no.” Which is a good...
+The post Can Thieves Steal Identities With Only a Name and Address? appeared first on McAfee Blog.]]></summary>
+        <author>
+            <name>Amy Bunn</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[セキュリティー・クリアランス法案が審議入り　恣意的規制や不利益防止が焦点に]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2403/19/news184.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2403/19/news184.html"/>
+        <updated>2024-03-19T12:09:00.000Z</updated>
+        <summary type="html"><![CDATA[経済安全保障上の機密情報へのアクセスを官民の有資格者に限る「セキュリティー・クリアランス（SC、適格性評価）」制度を創設する「重要経済安保情報保護・活用法案」が衆院本会議で審議入りした。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases One Industrial Control Systems Advisory]]></title>
+        <id>/node/21125</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2024/03/19/cisa-releases-one-industrial-control-systems-advisory"/>
+        <updated>2024-03-19T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA released one Industrial Control Systems (ICS) advisory on March 19, 2024. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
+ICSA-24-079-01 Franklin Fueling System EVO 550/5000
+CISA encourages users and administrators to review the newly released ICS advisory for technical details and mitigations.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA and Partners Release Joint Fact Sheet for Leaders on PRC-sponsored Volt Typhoon Cyber Activity]]></title>
+        <id>/node/21126</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2024/03/19/cisa-and-partners-release-joint-fact-sheet-leaders-prc-sponsored-volt-typhoon-cyber-activity"/>
+        <updated>2024-03-19T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Today, CISA, the National Security Agency (NSA), Federal Bureau of Investigation (FBI), and other U.S. and international partners are issuing a joint fact sheet, People’s Republic of China State-Sponsored Cyber Activity: Actions for Critical Infrastructure Leaders. Partners of this publication include: 
+U.S. Department of Energy (DOE) 
+U.S. Environmental Protection Agency (EPA) 
+U.S. Transportation Security Administration (TSA) 
+U.S. Department of Treasury  
+Australian Signals Directorate’s (ASD’s) Australian Cyber Security Centre (ACSC) 
+Canadian Centre for Cyber Security (CCCS) a part of the Communications Security Establishment (CSE) 
+United Kingdom’s National Cyber Security Centre (NCSC-UK) 
+New Zealand’s National Cyber Security Centre (NCSC-NZ) 
+The U.S. authoring agencies assess that the PRC-sponsored advanced persistent threat group known as “Volt Typhoon” are seeking to pre-position themselves—using living off the land (LOTL) techniques—on IT networks for disruptive or destructive cyber activity against U.S. critical infrastructure in the event of a major crisis or conflict with the United States. The fact sheet warns critical infrastructure leaders of the urgent risk posed by Volt Typhoon and provides guidance on specific actions to prioritize the protection of their organization from this threat activity.  
+CISA and its partners strongly urge critical infrastructure organizations leaders to read the guidance provided in the joint fact sheet to defend against this threat. For more information on Volt Typhoon related activity, see PRC State-Sponsored Actors Compromise and Maintain Persistent Access to U.S. Critical Infrastructure alongside supplemental Joint Guidance: Identifying and Mitigating Living off the Land Techniques. To learn more about secure by design principles and practices, visit Secure by Design.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TP-Link、Wi-Fi 7メッシュルーター「Deco BE85」の320MHz幅対応について声明。メーカーに送付し技適マーク貼付]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1577668.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1577668.html"/>
+        <updated>2024-03-19T08:45:00.000Z</updated>
+        <summary type="html"><![CDATA[ティーピーリンクジャパン株式会社（TP-Link）は、Wi-Fi 7対応メッシュルーター「Deco BE85」の320MHz幅対応に関して公式声明を発表した。技術基準適合証明（技適マーク）の貼り付けを行うため、本体を同社に送付してほしいと案内している。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[トピックス]臨時システムメンテナンスに伴うIPレジストリシステム一時停止のお知らせ]]></title>
+        <id>https://www.nic.ad.jp/ja/topics/2024/20240319-01.html</id>
+        <link href="https://www.nic.ad.jp/ja/topics/2024/20240319-01.html"/>
+        <updated>2024-03-19T08:07:27.000Z</updated>
+        <summary type="html"><![CDATA[2024年3月19日
+各位
+一般社団法人日本ネットワークインフォメーションセンター
+臨時システムメンテナンスに伴うIPレジストリシステム一時停止のお知らせ
+皆様にはご迷惑をおかけいたし
+ますが、ご理解とご協力をお願い申し上げます。
+            
+記
+
+             
+メンテナンス日時
+2024年3月29日(金) 22:00 ～ 4月 1日(月) 10:00
+停止するサービス
+※ご注意
+              
+お問い合わせ先
+IPアドレスに関する申請について
+              JPNIC IPアドレス担当：ip-service@nir.nic.ad.jp
+
+            
+
+
+            
+以上]]></summary>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[トピックス]JPNIC Newsletter 86号発行のお知らせ～読者アンケートにご協力をお願いします～]]></title>
+        <id>https://www.nic.ad.jp/ja/topics/2024/20240319-02.html</id>
+        <link href="https://www.nic.ad.jp/ja/topics/2024/20240319-02.html"/>
+        <updated>2024-03-19T08:07:26.000Z</updated>
+        <summary type="html"><![CDATA[2024年3月19日
+各位
+一般社団法人日本ネットワークインフォメーションセンター
+JPNIC Newsletter 86号発行のお知らせ
+～読者アンケートにご協力をお願いします～
+JPNIC Newsletter 86号掲載URL:
+              
+                https://www.nic.ad.jp/ja/newsletter/No86/
+                
+JPNIC Newsletter 86号 読者アンケート
+              https://forms.gle/4hzFa5PQoecdddB88
+            
+            
+今回発行された86号の誌面構成は以下となっています。
+2023年10月～2024年1月のインターネット動向紹介
+JPNIC活動ダイアリー
+統計情報／会員リスト／From JPNIC
+jpnic-news@nic.ad.jp
+              (JPNIC Newsletter担当)までお気軽にお寄せください。
+            
+今後とも、どうぞよろしくお願いいたします。
+以上]]></summary>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[東京電力をかたるフィッシング、件名「【重要なお知らせ】未払いの電気料金についてご連絡させていただくものです。お客様のお支払い方法が承認されません」の不審なメールに注意　偽サイトに誘導し、カード情報を詐取]]></title>
         <id>https://internet.watch.impress.co.jp/docs/news/1577487.html</id>
@@ -44,6 +241,16 @@
         <summary type="html"><![CDATA[Firefoxなどで知られるMozillaが、趣味の記録に特化したメモブログサービス「Didthis」を開始した。]]></summary>
         <author>
             <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Blog記事]個々のDNSルートサーバーで利用される名前構造は本当に最適か? – RSSAC028とStudy Reportのご紹介 –]]></title>
+        <id>https://blog.nic.ad.jp/2024/9633/</id>
+        <link href="https://blog.nic.ad.jp/2024/9633/"/>
+        <updated>2024-03-19T03:00:53.000Z</updated>
+        <summary type="html"><![CDATA[ICANNが公開している技術政策文書シリーズの中からRSSAC028 Technical Analysis of the Naming Scheme Used For Individual Root Serversと、その勧告に基づいた調査レポートであるRSSAC028 Implementation study reportをご紹介します。]]></summary>
+        <author>
+            <name>JPNIC Web</name>
         </author>
     </entry>
     <entry>
@@ -10569,465 +10776,6 @@ React Springでオープニングアニメーションを作成する first appe
         <link href="https://internet.watch.impress.co.jp/docs/news/1569875.html"/>
         <updated>2024-02-19T21:00:00.000Z</updated>
         <summary type="html"><![CDATA[東日本旅客鉄道株式会社（JR東日本）と三井不動産株式会社は、シェアオフィス事業にける連携を発表した。JR東日本の個人向けシェアオフィス「STATION WORK」と、三井不動産の法人向けシェアオフィス「ワークスタイリング」の相互利用を、2月21日より開始する。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「サイト越えトラッキングを防ぐ」のオンオフ、それぞれのメリットとデメリットとは]]></title>
-        <id>https://eset-info.canon-its.jp/malware_info/special/detail/240220.html</id>
-        <link href="https://eset-info.canon-its.jp/malware_info/special/detail/240220.html"/>
-        <updated>2024-02-19T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[iPhoneのWebブラウザーであるSafariには「サイト越えトラッキングを防ぐ」機能があり、デフォルトでオンになっている。しかし、この機能をオンにする意味を適切に理解しているユーザーは多くないかもしれない。
-この記事では、「サイト越えトラッキングを防ぐ」とはどういうことか、オフにするとどうなるのかを解説する。
-
-
-
-
-
-トラッキングとは
-
-トラッキングとは追跡という意味の単語で、IT業界ではWebサイトやアプリなどにおけるユーザーの行動履歴を収集・記録・追跡・分析することを指す。トラッキングが行われることで、ユーザーの興味のある情報を収集し、ユーザーそれぞれに最適化された広告を表示させたり、ECサイトなどで閲覧履歴に応じたおすすめ商品などが表示されたりする。また、サイト内で入力した情報を一時的に保存するような場合にも用いられるなど、ユーザーにとっては興味のある情報を得られるメリットがあるだろう。
-
-1つのWebサイト、アプリ内だけでトラッキングを行う場合と、複数のサイトを跨ってユーザーの一連の行動をトラッキングする場合がある。後者が、近年社会問題化している「サイト越えトラッキング」である。
-
-インターネットにおけるトラッキングは主に、企業などのマーケティング活動のために行われる。Webサイトやアプリ内にタグと呼ばれるコードを埋め込み、ユーザーのアクセス時の情報を分析・利用することで、広告の最適化などに役立てるのだ。
-
-その際、単一のWebサイト、アプリ内だけでトラッキングするよりも、サイト間を跨ってトラッキングできれば、より高い精度でユーザーの嗜好を知ることができ、ターゲティング広告の成果も上がる。そのため、これまでサイト越えトラッキングは多くの企業が行ってきた経緯がある。
-
-サイト越えトラッキングを実現する仕組み
-
-サイト越えトラッキングの実現には、Webサイトやアプリ側がユーザーを一意に識別する必要がある。そのための方法として用いられているのが、「Cookie」と「フィンガープリント」といった技術だ。
-
-Cookie
-
-ユーザーのパソコンやスマートフォン（以下、スマホ）のWebブラウザーに保存されるテキストファイル。Webサイトを訪れた日時や訪問回数、認証情報などが記録されるのが一般的だ。Cookieという言葉の由来は、お菓子のクッキーとされる。ホストとなるWebサーバーが発行し、クライアントのWebブラウザーが受け取る仕組みから、ホストが客へのコーヒーやお茶にクッキーを添えて出すさまに例えて、そう呼ばれるようになったとされる。Cookieにはログインに必要な認証情報も含まれることがあり、その情報を利用することで、2回目以降のアクセス時にはスムーズにWebサイトへログインが可能になる。
-
-CookieはファーストパーティCookieと、セカンドパーティCookie、サードパーティCookieの3種類に大別される。ファーストパーティCookieは閲覧しているWebサイトのドメインが発行するCookieであり、原則として閲覧しているWebサイトのドメイン上に限定して機能する。セカンドパーティCookieは、他社が管理するドメインが発行しているCookieであり、他社のファーストパーティCookieでもある。そして、サードパーティCookieは、閲覧しているWebサイトのドメイン管理者以外の第三者が発行するCookieであり、ドメインを横断したトラッキングを実現する。
-
-フィンガープリント
-
-フィンガープリントとは、指紋という意味の単語だが、転じて個々のユーザーを判別する情報を表すようになった。ブラウザーフィンガープリントとも呼ばれる。判別のために、ユーザーのWebブラウザーやデバイスの情報を取得し、そこから固有の識別子を生成。その識別子はWebサイト側のサーバー上で保存・管理される。
-
-Cookieとは？ その役割と重要性をわかりやすく解説
-
-サイト越えトラッキングが問題視されるようになった背景
-
-先述のとおり、サイト越えトラッキングはユーザーのサイト間の行動履歴を追跡するものであり、その情報を活用して、ユーザーの興味・関心にマッチしたターゲティング広告を表示させることが可能だ。こうしたターゲティング広告は、従来の一斉配信型の広告に比べて費用対効果が高く、さまざまな企業が利用してきた。
-
-しかし近年、世界的に個人のプライバシー保護の機運が高まっており、第三者がユーザーの意図しないところでユーザーの行動を追跡することをプライバシー侵害とみなすようになってきている。そうした背景にあるのが、EUにおけるGDPRと日本における改正個人情報保護法の施行だ。
-
-GDPR（General Data Protection Regulation：EU一般データ保護規則）の施行
-
-GDPRとはEUが2018年5月25日に施行した、個人データの保護やその取り扱いに関する法令のことで、個人や企業のコントロールが及ばない範囲で「個人の権利」が侵害されることを防ぐことを目的としている。GDPRで保護対象となる個人データは、個人の氏名や識別番号、位置情報のほかに、IPアドレスやCookieも該当する。
-
-改正個人情報保護法の施行
-
-国内でも個人情報を保護する機運が高まり、「個人情報保護法」が2003年5月に制定され、2005年4月に全面施行された。個人情報保護法で定義する個人情報とは、氏名や住所、生年月日、顔写真など、生存する個人を識別できる情報のことである。
-
-個人情報保護法は定期的に改正が行われており、2020年6月12日に最新の改正が行われ、2022年4月1日から施行された。この改正によって、サードパーティCookieを個人情報と紐付けて取得する場合、ユーザーの同意が求められるようになった。
-
-GDPRがデータ保護の転機となった5つの理由
-
-iPhoneの「サイト越えトラッキングを防ぐ」機能とは
-
-世界的なサードパーティCookie規制の潮流に合わせるべく、主要なWebブラウザーでは、サードパーティCookieの利用を制限する機能が搭載されるようになってきている。
-
-例えば、iPhoneでは「サイト越えトラッキングを防ぐ」機能が搭載されている。この機能は2017年9月にリリースされたiOS 11以降のSafariにおいて、デフォルトでオンになっている。この機能がオンになっていると、iPhoneの標準WebブラウザーであるSafari上にCookieが残らなくなる。この「サイト越えトラッキングを防ぐ」がオンになっていることでのメリットは以下のとおりだ。
-
-ユーザーのプライバシーが守られる
-
-ユーザーの行動が追跡されなくなるため、ユーザーの嗜好などがサードパーティCookieの発行元に収集されることがなくなり、ユーザーのプライバシーが保護されることになる。
-
-セッションハイジャックの標的となる可能性を減らせる
-
-セッションハイジャックは、Webサイトへの一連の通信であるセッションごとに作られるセッションIDを窃取するなどしてセッションを乗っ取る行為であり、クレジットカードの不正利用や情報漏えいなどの被害につながる。セッションIDはCookieとして保存されることも多いため、「サイト越えトラッキングを防ぐ」をオンにしてCookieを残さない設定にしておくことで、セッションハイジャックの被害に遭う可能性を減らせる。
-
-ただし、「サイト越えトラッキングを防ぐ」をオンにすることで、Webサイトやアプリの利便性が低下するといったデメリットが生じることもある。主なデメリットは以下のとおりだ。
-
-サイトが正常に表示されなくなったり、一部のサービスが利用できなくなったりする
-
-Webサイトによっては、Cookieを利用してユーザーの情報を把握し、それに応じて表示を変えるものや、サービスにCookieが必須になっているものもある。そうしたサイトは、正常に表示されなくなったり、一部のサービスが利用できなくなったりする可能性がある。
-
-ポイント取得サービスにおいて、閲覧ポイントが正常に加算されなくなる
-
-Webサイトを閲覧したり、そこからほかのサイトに移動したりすることによってポイントが加算されるサービスがある。そうしたサービスではCookieを利用してポイントを記録しているものもあり、その場合、閲覧ポイントが正常に加算されなくなる。
-
-自分の興味無い分野の広告が表示されるようになる
-
-サイト越えトラッキングを防ぐと、広告の配信システムがユーザーの嗜好や興味を適切に把握できなくなる。そうした場合、システムは別のロジックをもとに広告配信を行うため、ターゲティングされていない広告、つまり、自分に興味の無い分野の広告が多く表示されがちになる。
-
-セッションハイジャックはなぜ起こるのか？攻撃の仕組みと求められる対策
-
-iPhoneの「サイト越えトラッキングを防ぐ」をオンにすべきか
-
-このように、「サイト越えトラッキングを防ぐ」をオンにしておくことは、プライバシー保護やセキュリティの観点からは望ましいと言える。しかし、多くのWebサイト、アプリではCookieによるトラッキングで利便性を高めている側面もあり、トラッキングをすべて遮断してしまうことで、正しく表示されないWebサイトや一部のサービスが利用できなくなるWebサイトもある。
-
-例えば、Yahoo! JAPANの場合、「サイト越えトラッキングを防ぐ」をオンにしていると、サービスの機能が制限される場合がある。そうしたサイトを利用する場合は、「サイト越えトラッキングを防ぐ」をオフにすることになるが、先述したように、サイト越えトラッキングを許可することには、メリットとデメリットの両面がある。
-
-世界的な潮流としては、サイト越えトラッキングを許可しない方向に進んでいるのは間違いない。そのため、プラットフォーマーではその代替技術の開発が進められている。ただし、どのような技術、道具であっても、功罪の両面があるものだ。ユーザーとしては、その両面を適切に理解して、上手に利用していくことが求められる。
-
-トラッキングとは、Cookieとはどういったものなのか。まずは基礎的な知識を身につけ、自らの判断で利用できるようにしておきたい。
-
-トラッキングを許可しても大丈夫？セキュリティ的視点から解説]]></summary>
-        <author>
-            <name>キヤノンマーケティングジャパン株式会社</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[5 Ways to Protect Your Online Privacy]]></title>
-        <id>/blogs/?p=121702</id>
-        <link href="https://www.mcafee.com/blogs/privacy-identity-protection/5-ways-to-protect-your-online-privacy/"/>
-        <updated>2024-02-19T14:13:38.000Z</updated>
-        <summary type="html"><![CDATA[When you open your laptop or your mobile device, what is the first thing you do? Do you head to your...
-The post 5 Ways to Protect Your Online Privacy appeared first on McAfee Blog.]]></summary>
-        <author>
-            <name>McAfee</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Blog記事]『インターネット白書2024  AI化する社会のデータガバナンス』発刊、アーカイブには2023年版を追加！]]></title>
-        <id>https://blog.nic.ad.jp/2024/9561/</id>
-        <link href="https://blog.nic.ad.jp/2024/9561/"/>
-        <updated>2024-02-19T10:00:53.000Z</updated>
-        <summary type="html"><![CDATA[インターネットの最新動向がわかる年鑑『インターネット白書』の最新版、『インターネット白書2024  AI化する社会のデータガバナンス』が発行され、また「インターネット白書ARCHIVES」には2023年版が追加されました。「インターネット白書ARCHIVES」では1996年からのインターネット白書が無料で読めますので、ぜひご活用ください。]]></summary>
-        <author>
-            <name>JPNIC Web</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TP-LinkのWi-Fi 6E/6ルーターや中継機が安い！ Amazonお買い得情報　薄型Wi-Fi 6ルーター「Archer Air R5/A」が1万880円など]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1569800.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1569800.html"/>
-        <updated>2024-02-19T09:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazon.co.jpのTP-Linkストアページでは現在、同社製のWi-Fi 6E/6対応ルーターと中継機がお買い得なセール価格で販売されている。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ロシアの「.ru」ドメインが停止、影響は？最新インターネット障害情報]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20240219-2886942/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20240219-2886942/"/>
-        <updated>2024-02-19T07:53:07.000Z</updated>
-        <summary type="html"><![CDATA[ThousandEyesは2月16日(米国時間)、過去2週間(1月29日から2月11日まで)にインターネット全体で発生した障害と傾向の分析レポートを公開した。同期間ｍ決裁プラットフォームの「Square」は2月6日(米国時間)、加盟店の2段階認証を含む複数のサービスに障害が発生したほか、ロシアの「.ru」ドメインが停止したという。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PCRE と PCRE2]]></title>
-        <id>https://tech-lab.sios.jp/?p=39221</id>
-        <link href="https://tech-lab.sios.jp/archives/39221"/>
-        <updated>2024-02-19T06:59:34.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは。サイオステクノロジー OSS サポート担当 山本 です。 今回は正規表現を実装するために使用されるライブラリ PCRE についてのお話です。 PCRE は 2015年に新バージョン PCRE2 へと移行してお [...]
-PCRE と PCRE2 first appeared on SIOS Tech. Lab.]]></summary>
-        <author>
-            <name>山本</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[トピックス]『インターネット白書ARCHIVES』に2023年版が追加掲載]]></title>
-        <id>https://www.nic.ad.jp/ja/topics/2024/20240219-01.html</id>
-        <link href="https://www.nic.ad.jp/ja/topics/2024/20240219-01.html"/>
-        <updated>2024-02-19T05:39:58.000Z</updated>
-        <summary type="html"><![CDATA[2024年2月19日
-各位
-一般社団法人日本ネットワークインフォメーションセンター
-『インターネット白書ARCHIVES』に2023年版が追加掲載
-インターネット白書ARCHIVES
-              https://iwparchives.jp/
-            
-
-            
-https://iwparchives.jp/）に、昨年版の『インターネット白
-書2023（副題：分断する世界とインターネットガバナンス）』の記事を追加
-掲載いたしました。
-
-
-＜＜「インターネット白書ARCHIVES」とは＞＞
-
-「インターネット白書ARCHIVES」（インターネット白書アーカイブス）は、
-インターネットの黎明期（1996年）からの歴史を年鑑として発行し続けてい
-る「インターネット白書」のバックナンバーをデジタル化し、無料で検索・
-閲覧できるようにしたWebサービスです。発行後１年を経過した「インター
-ネット白書」をアーカイブスに登録しています。昨年5月には、1994年から
-2006年までインプレスより発行していた月刊誌『インターネットマガジン』
-のバックナンバー検索サービスを統合し、より多くの記事が検索できるよう
-になりました。
-
-
-＜＜今回、追加された主な記事＞＞
-
-この度、追加したインターネット白書2023年版は、主に2021年末から2022年
-にかけての状況を踏まえて構成しています。新型コロナウイルス感染症
-（COVID-19）の影響でライフスタイルが変化し、その後も成長を続けるデジ
-タルサービスの話題、ロシアによるウクライナ侵攻など国際紛争を背景にし
-たサイバー攻撃やフェイクニュースの攻防、偽情報問題に対応するファクト
-チェック機関の開設、また翌年に京都で開催されるIGF 2023を前に国境を超
-えるグローバルなインターネットガバナンスの…]]></summary>
-        <author>
-            <name>JPNIC Web</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【Processing】開発を始める前に理解しておきたいこと]]></title>
-        <id>https://tech-lab.sios.jp/?p=39211</id>
-        <link href="https://tech-lab.sios.jp/archives/39211"/>
-        <updated>2024-02-19T05:19:36.000Z</updated>
-        <summary type="html"><![CDATA[ども！今回はProcessingで開発する際に、最初に抑えておきたい知識についてまとめました。画面周りの定義とキーボードやマウスの入力を受け取る方法についてまとめています。Processingは簡単なゲームを作成できるの [...]
-【Processing】開発を始める前に理解しておきたいこと first appeared on SIOS Tech. Lab.]]></summary>
-        <author>
-            <name>龍：Ryu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Infoblox、「BloxOne Threat Defense」にAI搭載した「SOC Insights」]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20240219-2886812/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20240219-2886812/"/>
-        <updated>2024-02-19T03:15:20.000Z</updated>
-        <summary type="html"><![CDATA[Infobloxはこのほど、AI主導型セキュリティオペレーションソリューション「SOC Insights」を発表した。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[🐿️゛「リスの絵文字＋濁点＝尻尾を振っているように見える」和むワザの発見に称賛の声【やじうまWatch】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1569782.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1569782.html"/>
-        <updated>2024-02-19T03:15:00.000Z</updated>
-        <summary type="html"><![CDATA[リスの絵文字に濁点（゛）を付けると尻尾を振っているように見えるというワザがネットで報告され、和むとして話題になっている。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[iOSで顔認識データを収集するトロイの木馬が見つかる。ディープフェイク動画にして銀行の顔認証を突破か【やじうまWatch】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1569779.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1569779.html"/>
-        <updated>2024-02-19T03:05:00.000Z</updated>
-        <summary type="html"><![CDATA[銀行口座への不正アクセスに使うための顔認識データを収集する、初のiOSトロイの木馬「GoldPickaxe.iOS」が発見された。すでに海外の一部では被害も出ているようだ。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[トヨタの社用車クラウドで情報漏えい　過去プロダクトのAWSアクセスキー無効化忘れ]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2402/19/news107.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2402/19/news107.html"/>
-        <updated>2024-02-19T03:04:00.000Z</updated>
-        <summary type="html"><![CDATA[トヨタの社用車クラウドで個人情報漏えいの可能性。別プロダクトで使っていたAWSの領域を流用した際、過去のアクセスキーを有効なままにしていたため。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[バッファローのWi-Fiルーターなどの脆弱性について報じた記事に注目集まる【アクセスランキング】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/ranking/1569784.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/ranking/1569784.html"/>
-        <updated>2024-02-19T02:57:43.000Z</updated>
-        <summary type="html"><![CDATA[前週に閲覧数の多かった記事を、カテゴリーごとに上位5位までレポートします。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[脆弱性対応における生成AIプロンプトの効果的な使い方とは]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20240219-2880743/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20240219-2880743/"/>
-        <updated>2024-02-19T01:08:56.000Z</updated>
-        <summary type="html"><![CDATA[HackerOneはこのほど、脆弱性対応におけるプロンプトの使い方を紹介した。AIプロンプトとはChatGPTのような対話型生成AIにおいてユーザーが入力する指示や質問のこと。生成AIを効果的に活用するには最適な指示や質問を行う必要があり、これがAIプロンプトの課題となっている。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VMware ESXiにランサムウェアを自動展開するツール発見、要注意]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20240219-2885464/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20240219-2885464/"/>
-        <updated>2024-02-19T00:22:39.000Z</updated>
-        <summary type="html"><![CDATA[Trellixはこのほど、複数のVMware ESXiハイパーバイザー上で動作してランサムウェアを自動展開するツール「MrAgent」を発見したとして、注意を喚起した。同ツールはランサムウェアグループ「RansomHouse」が開発したと見られる。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[10分でp5.js環境構築：ViteでGitHub Pageに公開]]></title>
-        <id>https://tech-lab.sios.jp/?p=39196</id>
-        <link href="https://tech-lab.sios.jp/archives/39196"/>
-        <updated>2024-02-19T00:20:19.000Z</updated>
-        <summary type="html"><![CDATA[ども！今回はProcessingをWebで実装するためにp5.jsの環境をViteで作成しました。ゴールとして、GitHub Pagesにアップロードとして公開を目標としています。Webに動きを付ける選択肢の中でさっくり [...]
-10分でp5.js環境構築：ViteでGitHub Pageに公開 first appeared on SIOS Tech. Lab.]]></summary>
-        <author>
-            <name>龍：Ryu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「インターネット白書ARCHIVES」に2023年版が追加掲載]]></title>
-        <id>https://jprs.jp/whatsnew/</id>
-        <link href="https://jprs.jp/whatsnew/"/>
-        <updated>2024-02-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[JPドメイン名の登録管理業務とDNSの運用を行っている株式会社日本レジストリサービス(JPRS)による、JPドメイン名サービス総合案内サイトです。]]></summary>
-        <author>
-            <name>JPRS最新情報</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JPRSが「第26回全国中学高校Webコンテスト」に協賛し、JPドメイン名の利用体験を提供]]></title>
-        <id>https://jprs.jp/whatsnew/</id>
-        <link href="https://jprs.jp/whatsnew/"/>
-        <updated>2024-02-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[JPドメイン名の登録管理業務とDNSの運用を行っている株式会社日本レジストリサービス(JPRS)による、JPドメイン名サービス総合案内サイトです。]]></summary>
-        <author>
-            <name>JPRS最新情報</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[メールマガジン（FROM JPRS）バックナンバーを更新しました。]]></title>
-        <id>https://jprs.jp/whatsnew/</id>
-        <link href="https://jprs.jp/whatsnew/"/>
-        <updated>2024-02-19T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[JPドメイン名の登録管理業務とDNSの運用を行っている株式会社日本レジストリサービス(JPRS)による、JPドメイン名サービス総合案内サイトです。]]></summary>
-        <author>
-            <name>JPRS最新情報</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ケーブル類を整理する太さ3種類の配線ダクト「CA-D3xL」シリーズ、サンワサプライが発売]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1569299.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1569299.html"/>
-        <updated>2024-02-18T23:30:00.000Z</updated>
-        <summary type="html"><![CDATA[サンワサプライ株式会社は2月15日、ケーブルやコード類を整理する配線ダクト「CA-D3xL」シリーズ3製品を発売した。市場想定価格は、太さ25mmの「CA-D30L」が2640円、太さ33mmの「CA-D31L」が2970円、太さ45mmの「CA-D32L」が3300円。長さは全て1m。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「Command not found」が偽パッケージを提案する恐れ、注意を]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20240219-2884250/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20240219-2884250/"/>
-        <updated>2024-02-18T23:07:57.000Z</updated>
-        <summary type="html"><![CDATA[Aqua Securityはこのほど、Linuxディストリビューション「Ubuntu」の標準コマンド「command-not-found」から悪意のある不正パッケージが提案され、システムを侵害される可能性があるとして、注意を喚起した。攻撃者が悪意のあるパッケージを登録し、command-not-foundがそのパッケージを提案することで侵害につながる可能性があると警告している。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[求職サイト「ホワイトメーカーズ」が改ざん被害、個人情報が外部流出した可能性否定できず]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/02/19/50608.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/02/19/50608.html"/>
-        <updated>2024-02-18T23:05:07.000Z</updated>
-        <summary type="html"><![CDATA[株式会社日刊工業新聞社は2月9日、同社が運営する求職情報ウェブサイト「ホワイトメーカーズ」における個人情報流出の可能性について発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[住友重機械工業のサーバに不正アクセス、「なりすましメール」への注意喚起も発表]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/02/19/50607.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/02/19/50607.html"/>
-        <updated>2024-02-18T23:05:05.000Z</updated>
-        <summary type="html"><![CDATA[住友重機械工業株式会社は2月9日、同社サーバへの不正アクセスについて発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[セキュリティ強化費用で利益大幅減、エムケイシステムへのランサムウェア攻撃]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/02/19/50606.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/02/19/50606.html"/>
-        <updated>2024-02-18T23:05:02.000Z</updated>
-        <summary type="html"><![CDATA[株式会社エムケイシステムは2月5日、2023年6月6日に公表した同社サーバのランサムウェア感染被害による2024年3月期通期の連結業績予想の修正について発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[マイクロソフトが 2 月のセキュリティ情報を公開、CVE ベースで 73 件の脆弱性に対応]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/02/19/50605.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/02/19/50605.html"/>
-        <updated>2024-02-18T23:00:10.000Z</updated>
-        <summary type="html"><![CDATA[マイクロソフトが2024年2月度のセキュリティ更新プログラムを公開したことを受け、IPAとJPCERT/CCが注意喚起を発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ISC BIND に複数の脆弱性、バージョンアップを強く推奨]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/02/19/50604.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/02/19/50604.html"/>
-        <updated>2024-02-18T23:00:07.000Z</updated>
-        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は2月14日、ISC BINDにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[中小企業で数千万円単位の被害も、JNSA「インシデント損害額調査レポート 第2版」公開]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/02/19/50603.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/02/19/50603.html"/>
-        <updated>2024-02-18T23:00:03.000Z</updated>
-        <summary type="html"><![CDATA[特定非営利活動法人日本ネットワークセキュリティ協会（JNSA）は2月9日、「インシデント損害額調査レポート 第2版」を発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[スマホ指紋認証の“摩擦音”を録音→指紋を復元する攻撃　中国の研究者らが開発]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2402/19/news041.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2402/19/news041.html"/>
-        <updated>2024-02-18T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[中国の華中科技大学などに所属する研究者らは、スマートフォンによる指紋認証時の摩擦音を録音し解析することで、その指紋を復元する自動指紋識別システム（AFIS）へのサイドチャネル攻撃を提案した研究報告を発表した。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[根岸征史氏×辻伸弘氏×piyokango氏スペシャル座談会 - セキュリティ人材の必須スキルと育成方法とは]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20240219-2882278/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20240219-2882278/"/>
-        <updated>2024-02-18T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報セキュリティリスクが多様化・複雑化する一方で、セキュリティ人材の不足が叫ばれている。今、企業で求められるセキュリティ人材とはどのような人材なのか。セキュリティ人材はどのようにして育成すべきなのか。1月23日にマイナビPLACE歌舞伎座タワーにて開催されたセミナー「THE SECURITY 2024 January 最新のセキュリティトレンドを知る」のパネルディスカッションで、セキュリティの専門家3名が語った。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[PCを守る鍵付きラック＆スタンド「RAC-SL」シリーズ、サンワサプライが発売]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1569372.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1569372.html"/>
-        <updated>2024-02-18T22:45:00.000Z</updated>
-        <summary type="html"><![CDATA[サンワサプライ株式会社は2月14日、PCや周辺機器を収納できる鍵付きのセキュリティラックとオプションスタンド4製品を発売した。市場想定価格は大サイズのラック「RAC-SL4」が11万8800円、小サイズのラック「RAC-SL5」が10万4500円、大サイズのスタンド「RAC-SL4STN」が8万300円、小サイズのスタンド「RAC-SL5STN」が7万3700円。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[デュアルSIM端末に月額528円からのビジネス用回線を追加、5G対応「freebit mobile Biz」、フリービットが提供]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1569540.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1569540.html"/>
-        <updated>2024-02-18T22:30:00.000Z</updated>
-        <summary type="html"><![CDATA[フリービット株式会社は、デュアルSIM対応の端末に2枚目のSIMとして導入する、法人向け5G対応eSIM/SIM「freebit mobile Biz」を、3月上旬から提供する。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「iPhoneとPCが連携できる!? 仕事関係の通知をPCでまとめてチェックできるようにしてみた」――急遽テレワークを導入した中小企業の顛末記（175）【急遽テレワーク導入！の顛末記】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/column/teleworkstory/1568280.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/column/teleworkstory/1568280.html"/>
-        <updated>2024-02-18T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[先日は自動化ツールを使い、「Trello」の通知を「Chatwork」や「Confluence」でも確認できるようにしてみたが、通知を見過ごさないためには、これらのサービスを常時ブラウザー上に表示させる必要が出てきた。ブラウザーのタブが占有されてしまうのが、微妙にストレスになってきた。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“Wi-Fi 7対応”最新PCと、バッファローのWi-Fi 7ルーターで、実効3Gbpsを体験する！【イニシャルB】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/column/shimizu/1567837.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/column/shimizu/1567837.html"/>
-        <updated>2024-02-18T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[ノートPCであれば、すでにWi-Fi 7が実質的に利用可能なようだ。]]></summary>
         <author>
             <name>INTERNET Watch</name>
         </author>
