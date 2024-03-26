@@ -369,6 +369,36 @@
       "siteUrl": "https://www.ipa.go.jp/about/index.html",
       "articles": [
         {
+          "id": "https://www.ipa.go.jp/security/anshin/attention/2023/mgdayori20240326.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「企業をかたるメッセージから海外SMS送信に誘導される手口を確認」に関する情報です。",
+          "link": "https://www.ipa.go.jp/security/anshin/attention/2023/mgdayori20240326.html",
+          "publishedOn": "2024-03-25T15:00:00.000Z",
+          "wordCount": 1342,
+          "title": "安心相談窓口だより「企業をかたるメッセージから海外SMS送信に誘導される手口を確認」を公開しました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
+          "id": "https://www.ipa.go.jp/jinzai/riss/interview/soshiki/katsuyo-interview05.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「株式会社マイクロリンク インタビュー」に関する情報です。",
+          "link": "https://www.ipa.go.jp/jinzai/riss/interview/soshiki/katsuyo-interview05.html",
+          "publishedOn": "2024-03-25T15:00:00.000Z",
+          "wordCount": 427,
+          "title": "国家資格「情報処理安全確保支援士」 株式会社マイクロリンクの活用企業・組織インタビューを公開しました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
+          "id": "https://www.ipa.go.jp/jinzai/riss/interview/soshiki/katsuyo-interview06.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「中部電力株式会社、中部電力パワーグリッド株式会社 インタビュー」に関する情報です。",
+          "link": "https://www.ipa.go.jp/jinzai/riss/interview/soshiki/katsuyo-interview06.html",
+          "publishedOn": "2024-03-25T15:00:00.000Z",
+          "wordCount": 454,
+          "title": "国家資格「情報処理安全確保支援士」 中部電力株式会社、中部電力パワーグリッド株式会社の活用企業・組織インタビューを公開しました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
           "id": "https://www.ipa.go.jp/digital/dx/dxjirei-roadmap.html",
           "author": "情報処理推進機構（IPA）",
           "description": "情報処理推進機構（IPA）の「DX事例情報提供サイト」に関する情報です。",
@@ -788,6 +818,16 @@
       "feedUrl": "https://www.mcafee.com/blogs/feed/",
       "siteUrl": null,
       "articles": [
+        {
+          "id": "https://securingtomorrow.mcafee.com/?p=69588",
+          "author": "McAfee",
+          "description": "W-2 phishing scams often involve emails that appear to be from the IRS or another official source, requesting personal information. The goal is to trick the recipient into revealing confidential data, such as social security numbers and financial information, which the perpetrator can then use for fraudulent purposes.\nThe post Phishing for W-2s: Keeping Your Financial Data Safe During Tax Season appeared first on McAfee Blog.",
+          "link": "https://www.mcafee.com/blogs/privacy-identity-protection/tax-season-scams/",
+          "publishedOn": "2024-03-25T13:00:17.000Z",
+          "wordCount": 3825,
+          "title": "Phishing for W-2s: Keeping Your Financial Data Safe During Tax Season",
+          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2023/03/300x200_Blog_Protect-Tax-Scams.png"
+        },
         {
           "id": "https://www.mcafee.com/blogs/?p=158520",
           "author": "Amy Bunn",
@@ -1324,21 +1364,6 @@
             "length": "0"
           },
           "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/F/FFRI/20210519/20210519142247.jpg"
-        },
-        {
-          "id": "hatenablog://entry/6801883189079192063",
-          "author": null,
-          "description": "はじめに\n基礎技術研究部リサーチ・エンジニアの加藤です。\n2023 年 11 月 8, 9 日の 2 日間に亘って開催された CODE BLUE 2023 に参加しました。\n本記事では、私が聴講した講演の中から特に興味を惹かれた「シンボリック実行とテイント解析による WDM ドライバーの脆弱性ハンティングの強化」を紹介します。この講演は発表者の Zeze Lin 氏によってスライドが公開されているため、そちらもご参照ください。\nこの発表で扱われたツールは \"IOCTLance\" と呼ばれ、検証に使われたドライバーのデータセットなどと共にソースコードが GitHub で公開されています。本記事ではこのリポジトリからソースコードを参照し、動作や特徴をコードベースで解説します。\nなお、ソースコードは本稿執筆時点における最新コミット (73e6e32)を参照しています。今後このリポジトリにおいて変更が行われた場合に、本記事の内容や参照している行番号等が最新のコミットと異なる可能性があります。\n技術的な背景\n発表を紹介する前に、この発表で対象としている WDM ドライバーと、解析手法として使われているシンボリック実行とテイント解析について簡単に説明します。\nWDM ドライバー\nこの発表で対象としている WDM ドライバーは、Windows Driver Model と呼ばれる Windows におけるデバイスドライバーのフレームワークに準拠したドライバーです。ユーザーモードのアプリケーションがドライバーの機能を利用する際は、Windows API を用いて I/O マネージャーにリクエストを送信します。よく用いられる API として DeviceIoControl が挙げられます。この API は制御コードと入出力用のバッファーを引数にとり、対応する操作をドライバーに行わせる API…",
-          "link": "https://engineers.ffri.jp/entry/2024/02/26/000000",
-          "publishedOn": "2024-02-25T15:00:00.000Z",
-          "wordCount": 1371,
-          "title": "CODE BLUE 2023 発表紹介",
-          "enclosure": {
-            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/F/FFRI/20200513/20200513102711.jpg",
-            "type": "image/jpeg",
-            "length": "0"
-          },
-          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/F/FFRI/20200513/20200513102711.jpg"
         }
       ]
     },
@@ -1390,6 +1415,26 @@
       "feedUrl": "https://tech-lab.sios.jp/feed",
       "siteUrl": "https://tech-lab.sios.jp",
       "articles": [
+        {
+          "id": "https://tech-lab.sios.jp/?p=29528",
+          "author": "Nakaya",
+          "description": "はじめに みなさんこんにちは。サイオステクノロジーのNakayaです。 今回、HAProxyという多機能ロードバランサーのアクティブヘルスチェック機能を試してみました。 細かい説明は以下のHAProxyドキュメントを参照 [...]\nHAProxyのアクティブヘルスチェック機能を試してみる first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/29528",
+          "publishedOn": "2024-03-26T08:10:42.000Z",
+          "wordCount": 2795,
+          "title": "HAProxyのアクティブヘルスチェック機能を試してみる",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2024/03/haproxy-samune.drawio.png"
+        },
+        {
+          "id": "https://tech-lab.sios.jp/?p=40338",
+          "author": "服部祥大",
+          "description": "サイオステクノロジーの服部です。 今回はShibboleth IdPを構築する際にJettyのバージョン情報を隠す方法をまとめます。 今回想定する環境は、学認から提供されている以下の技術ガイドに従ってShibboleth [...]\nShibbolethのJettyバージョン情報を隠す方法 first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/40338",
+          "publishedOn": "2024-03-25T09:10:15.000Z",
+          "wordCount": null,
+          "title": "ShibbolethのJettyバージョン情報を隠す方法",
+          "imageUrl": null
+        },
         {
           "id": "https://tech-lab.sios.jp/?p=40317",
           "author": "うみのこ",
@@ -1523,6 +1568,16 @@
       "feedUrl": "https://eset-info.canon-its.jp/RSS.rdf",
       "siteUrl": "https://eset-info.canon-its.jp/",
       "articles": [
+        {
+          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/240326.html",
+          "author": null,
+          "description": "2023年に発生したサイバー攻撃の事例や、総合セキュリティソフトESETにより日本国内および全世界で検出されたマルウェアなどについて解説した、2023年サイバーセキュリティレポートです。\n本レポートでは、新興のプログラミング言語「Go」で実装されたマルウェア（以下Goマルウェア）、WAF（Web Application Firewall）をすり抜けた攻撃事例およびペネトレーションテストによる改善方法など、2023年に発生したサイバーセキュリティの主な脅威動向について、サイバーセキュリティラボ独自の視点で分析・考察しており、セキュリティ対策に役立つ情報をまとめています。\n\n\n\nトピック\n\n\n\t第1章：2023年マルウェア検出統計\n\n\n日本国内における2023年下半期の検出数は2023年上半期から引き続き減少し、2020年上半期以降で最も低い値となり2019年下半期と同水準でした。\n国内の月ごとの検出数は5月が1月と比較して136%と突出していますが、これはHTML/Phishing.AgentやDOC/Fraudといったフィッシングや詐欺を目的としたマルウェアの検出が増加したためです。国内の10月の検出数は1月と比較して86%と低い値になった一方で、全世界での10月検出数は前後の月と比べて変化がありませんでした。これには全世界・国内でのJS/Agentの増加幅の違いが影響しています。12月には、1月と比較して日本が72％、全世界が75%と大きく検出数が減少しました。この傾向は2019年、2022年にも見られたもので、検出数の多いマルウェアJS/Adware.Agentの検出数減少が全体にも反映されました。\n\n本章では、国内・全世界における半期ごとのマルウェア検出数の推移や2023年におけるマルウェア検出数のTOP10、ファイル形式別・カテゴリー別のマルウェア検出数に関する分析結果を紹介します。\n\n\n\t第2章：「Go」で実装されたマルウェアの脅威動向\n\n\n「Go」は、2009年にGoogle社によって開発されたオープンソースのプログラミング言語です。Goマルウェアは近年サイバー攻撃者から注目を集めており、国内において2023年5月3～10日と9月19～20日に検出数が増大しました。国内の検出数増加と同時期における全世界での検出傾向を比較すると、5月中旬と9月下旬に一部地域を除いて増加しました。\n一般的にマルウェアは、プログラミング言語「C」や「C++」で開発されることが多い傾向にあります。「C」や「C++」が古くから主要な開発言語として使われてきたことをはじめ、従来からシェア率の高いOSであるMicrosoft Windows向けのプログラムとして開発しやすかったこと、ポインタ演算によるメモリーの利用といった複雑な処理を実装しやすかったことなどが理由として考えられます。\nしかし近年はこれらの言語の代替として「Go」、「Rust」、「Nim」、「D」といったプログラミング言語がマルウェア開発のコミュニティで注目され、特に「Go」が多く採用されているとの発表があります。\n\n本章では、「Go」や検出数の推移について解説し、クロスコンパイルの機能、マルウェア解析者の視点、セキュリティ製品による検知の3つの観点から、Goマルウェアがサイバー攻撃者から関心を寄せられている理由について考察します。\n\n\n\t第3章：Webの脆弱性からビジネスを守る効果的な方法\n\n\nWebアプリケーションは、現代の企業活動においてオンライン上のさまざまなシステムの中でも、機密情報や個人情報と密接な関わりがあります。Webアプリケーションのセキュリティを強化する手段として、WAFが広く採用されています。WAFはWebアプリケーションへの入力リクエストを検査し、不正なトラフィックや悪意のあるパラメータを特定することが可能なセキュリティ対策です。Webアプリケーションに対する攻撃を設定に従い自動的に24時間体制で防げるメリットがあり、管理者の負荷軽減、攻撃の兆候の見落とし軽減にもつながります。\n一方で、WAFは正当なトラフィックを模倣する攻撃や、特定のアプリケーションに合わせてサイバー攻撃者が作成したカスタムエクスプロイトなど特定の脅威に対しては効果を実感しにくい場合があります。その一例として、リクエストの中に改行コードを挿入することで、WAFによる検査を回避して攻撃コードを実行させる手法が知られています。WAFで防げない攻撃に対しては人の目で脆弱性を確認し対策を講じる必要があり、その方法の一つがペネトレーションテストです。ペネトレーションテストはWAFが検知できない潜在的な脆弱性を発見し組織のセキュリティを強化できる有力な方法です。\n\n本章では、WAFとWAFの弱みを補完するペネトレーションテストの基本的な概念、強みと弱み、運用上のポイントなどについて、キヤノンMJグループにおける具体的な事例を交えながら解説します。またWAFとペネトレーションテストを組み合わせた脆弱性対策のアプローチについて提言します。\n\n\n\t第4章：サイバーセキュリティにおける国際連携\n\n\nサイバー犯罪の国際化は、OSやサーバー・PC・モバイル機器がグローバルでほぼ共通であること、AI技術などの発達により相手国の言語に精通する必要が薄れていること、暗号資産というサイバー犯罪者にとって好都合な送金手段が普及しているといった事情から、より一層深刻化しています。国際的なサイバー犯罪に対応するには、各国政府や司法当局などの国際連携が必要です。\n\n本章では、各国が協力しサイバー犯罪者を検挙した例や、ESET社がサイバー犯罪者の摘発に協力・貢献した国際連携の事例を複数紹介します。また日本国内の各省庁の動向についても説明します。\n\n解説動画公開中！\n\n「2023年サイバーセキュリティレポート紹介動画」\n各章の内容を要約して解説いたしました。\n\n\n\n\n詳細レポートは、下記よりダウンロードしていただきご覧ください。",
+          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/240326.html",
+          "publishedOn": "2024-03-25T15:00:00.000Z",
+          "wordCount": 185,
+          "title": "2023年サイバーセキュリティレポート 新興言語「Go」で実装されたマルウェアや、ペネトレーションテストの事例を解説",
+          "imageUrl": "https://eset-info.canon-its.jp/files/topics/4533_ext_01_0.jpg"
+        },
         {
           "id": "https://eset-info.canon-its.jp/malware_info/news/detail/240319_2.html",
           "author": null,
@@ -2495,6 +2550,36 @@
       "siteUrl": "https://jvn.jp/",
       "articles": [
         {
+          "id": "https://jvn.jp/vu/JVNVU99444194/",
+          "author": "jvn@jvn.jp",
+          "description": "エレコム株式会社が提供する複数の無線LANルーターには、OSコマンドインジェクションの脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU99444194/",
+          "publishedOn": "2024-03-26T04:30:00.000Z",
+          "wordCount": 183,
+          "title": "エレコム製無線ルーターにおけるOSコマンドインジェクションの脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/jp/JVN44166658/",
+          "author": "jvn@jvn.jp",
+          "description": "エレコム株式会社が提供する複数の無線 LAN ルーターには、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN44166658/",
+          "publishedOn": "2024-03-26T04:15:00.000Z",
+          "wordCount": 137,
+          "title": "エレコム製無線 LAN ルーターにおける複数の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU95381465/",
+          "author": "jvn@jvn.jp",
+          "description": "エレコム株式会社が提供する複数の無線ルーターには、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU95381465/",
+          "publishedOn": "2024-03-26T04:00:00.000Z",
+          "wordCount": 116,
+          "title": "エレコム製無線ルーターにおける複数の脆弱性",
+          "imageUrl": null
+        },
+        {
           "id": "https://jvn.jp/jp/JVN46874970/",
           "author": "jvn@jvn.jp",
           "description": "ぜろちゃんねるが提供するぜろちゃんねるスクリプト (0ch) には、クロスサイトスクリプティングの脆弱性が存在します。",
@@ -3061,6 +3146,56 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/03/26/50767.html",
+          "author": null,
+          "description": "ソフォス株式会社は3月5日、サイバーセキュリティ組織の構造が成果に及ぼす影響についての分析を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/03/26/50767.html",
+          "publishedOn": "2024-03-25T23:00:23.000Z",
+          "wordCount": 965,
+          "title": "ランサムウェアに身代金を支払う傾向の強い組織の構造が明らかに",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/03/26/50766.html",
+          "author": null,
+          "description": "文部科学省は3月15日、文部科学省大臣官房政策課サイバーセキュリティ・情報化推進室 セキュリティ対応支援員の採用について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/03/26/50766.html",
+          "publishedOn": "2024-03-25T23:00:18.000Z",
+          "wordCount": 923,
+          "title": "日給11,990円 ～ 文部科学省、セキュリティ対応支援員1名を募集",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/03/26/50765.html",
+          "author": null,
+          "description": "株式会社エーアイセキュリティラボは3月16日、脆弱性診断の自動化ツール「AeyeScan」のアップデートについて発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/03/26/50765.html",
+          "publishedOn": "2024-03-25T23:00:15.000Z",
+          "wordCount": 932,
+          "title": "脆弱性診断自動化ツール「AeyeScan」アップデート、画面遷移図の英語での PDF 出力が可能に",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/03/26/50764.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は3月21日、UDPベースのアプリケーション層プロトコル実装におけるサービス運用妨害（DoS）の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/03/26/50764.html",
+          "publishedOn": "2024-03-25T23:00:08.000Z",
+          "wordCount": 959,
+          "title": "UDP ベースのアプリケーション層プロトコル実装にサービス運用妨害（DoS）の脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/03/26/50763.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は3月21日、Sangoma Technologies製CG/MG family driver cg6kwin2k.sysにおけるIOCTLに対する不十分なアクセス制御の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/03/26/50763.html",
+          "publishedOn": "2024-03-25T23:00:03.000Z",
+          "wordCount": 996,
+          "title": "Sangoma Technologies製 CG/MG family driver cg6kwin2k.sys に IOCTL に対する不十分なアクセス制御の脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2024/03/25/50762.html",
           "author": null,
@@ -4439,6 +4574,46 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2403/26/news116.html",
+          "author": null,
+          "description": "英政府は、中国当局とつながりのあるハッカー集団APT31が英選挙管理委員会のシステムにサイバー攻撃を仕掛けたほか、複数の英国会議員のアカウントへの侵入を試みたとして、APT31の関係者2人とフロント企業を制裁対象に指定したと発表した。英国内の資産が凍結され、英国への入国も禁じられる。",
+          "link": "https://www.itmedia.co.jp/news/articles/2403/26/news116.html",
+          "publishedOn": "2024-03-26T01:43:00.000Z",
+          "wordCount": 2542,
+          "title": "英、中国ハッカー集団関連の個人・企業に制裁　英選管システムに侵入、約4000万人分の名簿に不正アクセス",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2403/26/cover_news116.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2403/25/news170.html",
+          "author": null,
+          "description": "西日本高速道路が、個人情報191人分を保存していた可能性があるUSBメモリを紛失したと発表した。データは暗号化していたものの、メモリ本体にパスワードを貼り付けていたという。",
+          "link": "https://www.itmedia.co.jp/news/articles/2403/25/news170.html",
+          "publishedOn": "2024-03-25T10:13:00.000Z",
+          "wordCount": 2820,
+          "title": "NEXCO西日本がUSBメモリ紛失　データは暗号化済……ただしパスワードは本体に貼り付け",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2403/25/cover_news170.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2403/25/news154.html",
+          "author": null,
+          "description": "個人情報保護委員会が、社会保険労務士向けクラウドサービス「社労夢」を提供するエムケイシステム（大阪市）に対し、個人情報保護法に基づく指導を行ったと発表した。",
+          "link": "https://www.itmedia.co.jp/news/articles/2403/25/news154.html",
+          "publishedOn": "2024-03-25T08:47:00.000Z",
+          "wordCount": 2818,
+          "title": "個情委、ランサムウェアで約1カ月停止の社労士向けクラウド提供元に指導　「管理者権限のパスワード類推可能」「深刻な脆弱性が残存」",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2403/25/cover_news154.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2403/25/news152.html",
+          "author": null,
+          "description": "兼松や兼松エレクトロニクスなど4社が、日本のセキュリティ企業に投資を行うファンド「日本サイバーセキュリティファンド1号投資事業有限責任組合」を発表した。4月1日に正式に設立する。セキュリティ企業や金融機関などに働きかけ、最大100億円規模のファンド組成を目指す。",
+          "link": "https://www.itmedia.co.jp/news/articles/2403/25/news152.html",
+          "publishedOn": "2024-03-25T08:40:00.000Z",
+          "wordCount": 2816,
+          "title": "国内セキュリティ企業専門ファンド　兼松など4社が組成へ　最大100億円規模に",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2403/25/cover_news152.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2403/25/news085.html",
           "author": null,
           "description": "再生可能エネルギー導入に向けた規制の見直しを目指す内閣府のタスクフォースで提出された資料の一部に、中国企業の透かしが入っていたことが分かった。",
@@ -4805,6 +4980,76 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1579054.html",
+          "author": null,
+          "description": "株式会社インターネットイニシアティブ（IIJ）は、法人向けのモバイルサービスにおいて、富士ソフト株式会社製の5G対応モバイルWi-Fiルーター「+F FS050W」を4月1日より提供する。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1579054.html",
+          "publishedOn": "2024-03-26T04:30:00.000Z",
+          "wordCount": 5029,
+          "title": "IIJ、法人向けモバイルサービスでデュアルSIMの5G対応モバイルWi-Fiルーター「FS050W」を提供開始",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1579/054/02.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1579162.html",
+          "author": null,
+          "description": "Amazon.co.jpでは、3月29日から実施される「新生活SALE FINAL」に先駆けた事前セールを実施中だ。その一環として、Synologyのパーソナルクラウド「BeeStation」が割引価格で販売中となっている。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1579162.html",
+          "publishedOn": "2024-03-26T03:50:00.000Z",
+          "wordCount": 5026,
+          "title": "Synologyのパーソナルクラウド「BeeStation」がセール中！ Amazon新生活SALE FINAL事前セール",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1579/162/beestation.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1579076.html",
+          "author": null,
+          "description": "スマホメーカー全18社のフラッグシップモデルを図案化したアイコン集が一部で評判になっている。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1579076.html",
+          "publishedOn": "2024-03-26T03:07:21.000Z",
+          "wordCount": 4577,
+          "title": "スマホメーカー全18社のフラッグシップを図案化したアイコン集が評判、作者は現役の…【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1579/076/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1579078.html",
+          "author": null,
+          "description": "NTTドコモ モバイル社会研究所が行った、スマホ購入にまつわる調査が興味深いと話題になっている。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1579078.html",
+          "publishedOn": "2024-03-26T03:05:57.000Z",
+          "wordCount": 4581,
+          "title": "iPhoneは若年層、Androidは中高年に人気？ スマホ購入にまつわる調査が興味深いと話題に【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1579/078/yajiuma-watch_3.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/ranking/mousepro/1577836.html",
+          "author": null,
+          "description": "本記事では、マウスコンピューターの法人向けブランド「MousePro」の売れ筋PCを紹介しています。なお、順位、価格、構成は随時変動しており、最新情報はリンク先にてご確認ください。",
+          "link": "https://internet.watch.impress.co.jp/docs/ranking/mousepro/1577836.html",
+          "publishedOn": "2024-03-26T02:00:00.000Z",
+          "wordCount": 4614,
+          "title": "Webカメラにプライバシーシャッター搭載、Wi-Fi 6Eへの対応も。筐体を一新した15.6型ノートPC「MousePro Lシリーズ」が人気【MousePro 売れ筋ビジネスPCランキング ノート編 2024/3/26版】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1577/836/MousePro_L.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1578961.html",
+          "author": null,
+          "description": "NTTコミュニケーションズ株式会社（NTT Com）は3月25日、日本電信電話株式会社（NTT）が開発した大規模言語モデル（LLM）「tsuzumi」を活用した生成AIソリューションの提供を開始した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1578961.html",
+          "publishedOn": "2024-03-25T21:00:00.000Z",
+          "wordCount": 5045,
+          "title": "NTTが開発したLLM「tsuzumi」、NTT Comより商用生成AIサービスとして提供開始",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1578/961/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/topic/special/1574672.html",
+          "author": null,
+          "description": "1ギガの光回線が登場したのは、実はもう20年も昔のことだったりする。20年前と言えば一家に1台PCがあるかないかという時代だったが、今やPC以外に1人1台のスマホを持ち、テレビも家電もがネットにつながる時代。宅内のLAN環境も無線、有線ともにギガビッド超えが普及して、1ギガの回線がボトルネックになるケースも少なくないはずだ。",
+          "link": "https://internet.watch.impress.co.jp/docs/topic/special/1574672.html",
+          "publishedOn": "2024-03-25T21:00:00.000Z",
+          "wordCount": 4676,
+          "title": "夢の10ギガ回線が1ギガと同じ値段で!? ひと味ちがう「ビッグローブ光 10ギガ」のポイントは？[Sponsored]",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1574/672/020.jpg"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/1578800.html",
           "author": null,
@@ -6679,6 +6924,76 @@
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
         {
+          "id": "https://news.mynavi.jp/techplus/article/20240325-2913993/",
+          "author": null,
+          "description": "電通総研は3月25日、イスラエルKELAが提供する「脅威インテリジェンスサービス」の再販売業務契約を締結したことを発表した。",
+          "link": "https://news.mynavi.jp/techplus/article/20240325-2913993/",
+          "publishedOn": "2024-03-25T09:38:36.000Z",
+          "wordCount": 1598,
+          "title": "電通総研、KELAの「脅威インテリジェンスサービス」を提供開始",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240325-2913993/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240325-2914076/",
+          "author": null,
+          "description": "サイバーリーズンは3月25日、年次イベント「SDR WORLD 2024」を都内のホテルで開催した。同イベントにCybereason会長 兼 CEOのエリック・ガン氏が登場し、新ソリューションである「SDR（SIEM Detection and Response）」を発表した。",
+          "link": "https://news.mynavi.jp/techplus/article/20240325-2914076/",
+          "publishedOn": "2024-03-25T07:44:26.000Z",
+          "wordCount": 1880,
+          "title": "サイバーリーズンの新ソリューション「Cybereason SDR」提供開始",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240325-2914076/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240325-2913933/",
+          "author": null,
+          "description": "ガートナージャパン（Gartner）は3月25日、企業が事業継続計画（BCP）の策定や見直しに際して押さえておくべき3つのポイントを発表した。",
+          "link": "https://news.mynavi.jp/techplus/article/20240325-2913933/",
+          "publishedOn": "2024-03-25T05:42:51.000Z",
+          "wordCount": 1630,
+          "title": "ガートナー、企業がBCPの策定や見直しのために押さえるべき3つのポイントを発表",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240325-2913933/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240325-2912115/",
+          "author": null,
+          "description": "The Hacker Newsは3月21日(現地時間)、JavaScriptパッケージマネージャーの「npm(Node Package Manager)」からレジストリーエントリーと矛盾するパッケージを800件以上発見したと報じた。これらパッケージのうち18件はマニフェストコンフュージョンと呼ばれる攻撃手法を用いている。",
+          "link": "https://news.mynavi.jp/techplus/article/20240325-2912115/",
+          "publishedOn": "2024-03-25T02:16:31.000Z",
+          "wordCount": 1723,
+          "title": "npmの公開情報と異なるパッケージを800件超発見、うち18件は悪用の可能性",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240325-2912115/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240325-2912418/",
+          "author": null,
+          "description": "日本テラデータとラックは3月25日、セキュリティ分野において協業を開始することを発表した。ラックのセキュリティ監視サービスのデータ収集および分析基盤の一部において、クラウドデータ分析基盤「Teradata VantageCloud」を採用する。",
+          "link": "https://news.mynavi.jp/techplus/article/20240325-2912418/",
+          "publishedOn": "2024-03-25T02:00:00.000Z",
+          "wordCount": 1852,
+          "title": "テラデータとラックが協業、セキュリティ製品にTeradata VantageCloudを採用",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240325-2912418/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/kikaku/20240325-2911302/",
+          "author": null,
+          "description": "デジタルテクノロジーが進化する一方、サイバーセキュリティリスクの増大も目立っている。しかし、セキュリティ対策に対して悩んでいる経営層や情報システム部門担当者は少なくない。本稿では、予防医療の観点から企業のセキュリティ対策を支援するサービスを提供するアクトの代表取締役社長 小林 智彦 氏に、サイバーセキュリティ市場の最新動向や、企業が実践すべきセキュリティ対策のアプローチについて話を伺った。",
+          "link": "https://news.mynavi.jp/techplus/kikaku/20240325-2911302/",
+          "publishedOn": "2024-03-25T01:00:00.000Z",
+          "wordCount": 1546,
+          "title": "企業成長に欠かせない「セキュリティ対策」のポイント──予防医療の観点でみるサイバー攻撃からの防御策",
+          "imageUrl": "https://news.mynavi.jp/techplus/kikaku/20240325-2911302/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240325-2905341/",
+          "author": null,
+          "description": "3月5日～8日に開催された「TECH+フォーラム - セキュリティ 2024 Mar. 『推奨』と事例に学ぶ事前対策」にデジタル庁 戦略・組織グループ セキュリティストラテジストの鈴木研吾氏が登壇。ゼロトラストアーキテクチャ（ZTA）の基本的な考え方について説明した。",
+          "link": "https://news.mynavi.jp/techplus/article/20240325-2905341/",
+          "publishedOn": "2024-03-25T00:00:00.000Z",
+          "wordCount": 1702,
+          "title": "デジタル庁が適用を推進するゼロトラストアーキテクチャ、そのポイントを解説",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240325-2905341/ogp_images/ogp.jpg"
+        },
+        {
           "id": "https://news.mynavi.jp/techplus/article/20240324-2911523/",
           "author": null,
           "description": "GitHubは3月20日(米国時間)、GitHub Advanced Securityの顧客向けにコードの脆弱性を自動的に修正する機能を導入したと発表した。この機能はGitHub CopilotとCodeQLを利用しており、JavaScript、Typescript、Java、Pythonの既知の脆弱性の3分の2以上を編集せずに修正できるという。",
@@ -8177,36 +8492,6 @@
           "wordCount": 1718,
           "title": "セキュリティを身近に感じる機会に『スマホを落としただけなのに』スペシャル対談",
           "imageUrl": "https://news.mynavi.jp/techplus/article/20240226-2887683/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20240225-2889088/",
-          "author": null,
-          "description": "Sysdigは2月20日(米国時間)、ネットワークトラバーサルツール「SSH-Snake」の悪用が確認されたと報じた。Sysdigは、SSH-SnakeがシステムのSSH認証情報を悪用して拡散を開始する自己改変型ワームであり、サイバー攻撃に悪用されているとして注意を呼びかけている。",
-          "link": "https://news.mynavi.jp/techplus/article/20240225-2889088/",
-          "publishedOn": "2024-02-25T05:33:54.000Z",
-          "wordCount": 1750,
-          "title": "サイバー攻撃への悪用を確認、ファイルレスSSHツール「SSH-Snake」に注意を",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20240225-2889088/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20240225-2885670/",
-          "author": null,
-          "description": "Bleeping Computerはこのほど、Windowsユーザーを標的とするマルウェア「Qakbot(別名:Qbot)」の新しい亜種を確認したと報じた。昨年にアメリカ合衆国司法省(DOJ)が発表した通り、Qakbotを操る脅威グループは一度壊滅に追い込まれたが、逮捕者が出なかったこともあり復活に至ったとみられている。",
-          "link": "https://news.mynavi.jp/techplus/article/20240225-2885670/",
-          "publishedOn": "2024-02-25T02:33:28.000Z",
-          "wordCount": 1740,
-          "title": "共同作戦で壊滅したマルウェア「Qakbot」復活、米国は犯行グループを逮捕できず",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20240225-2885670/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20240225-2889952/",
-          "author": null,
-          "description": "ReversingLabsは2月20日(米国時間)、DLL(Dynamic Link Library：ダイナミックリンクライブラリ)のサイドローディング技術を悪用して検出を回避する悪意のあるPythonパッケージをPyPIから2つ発見したと報じた。発見されたパッケージは「NP6HelperHttptest」と「NP6HelperHttper」の2つ。これらはいずれも正規パッケージ「NP6HelperHttp」と「NP6HelperConfig」に名前を似せたものと推測されている。",
-          "link": "https://news.mynavi.jp/techplus/article/20240225-2889952/",
-          "publishedOn": "2024-02-25T00:28:51.000Z",
-          "wordCount": 1704,
-          "title": "悪意あるPythonパッケージを2つ発見、DLLサイドローディング技術悪用",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20240225-2889952/ogp_images/ogp.jpg"
         }
       ]
     }
