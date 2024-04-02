@@ -369,6 +369,16 @@
       "siteUrl": "https://www.ipa.go.jp/about/index.html",
       "articles": [
         {
+          "id": "https://www.ipa.go.jp/news/2024/shiken_20240402.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「令和6年度春期試験のSG・FE（特別措置試験）受験の方は、受験票のダウンロードが可能となりました」に関する情報です。",
+          "link": "https://www.ipa.go.jp/news/2024/shiken_20240402.html",
+          "publishedOn": "2024-04-01T15:00:00.000Z",
+          "wordCount": 171,
+          "title": "令和6年度春期試験のSG・FE（特別措置試験）受験の方は、受験票のダウンロードが可能となりました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
           "id": "https://www.ipa.go.jp/security/sme/otasuketai/index.html",
           "author": "情報処理推進機構（IPA）",
           "description": "情報処理推進機構（IPA）の「サイバーセキュリティお助け隊サービス制度」に関する情報です。",
@@ -707,26 +717,6 @@
           "wordCount": 498,
           "title": "アジャイルに関する取り組みのインタビュー「ア・ジャパン」のvol.4を公開",
           "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
-        },
-        {
-          "id": "https://www.ipa.go.jp/digital/architecture/conferences/smartbuilding-fv/news_202403_1.html",
-          "author": "情報処理推進機構（IPA）",
-          "description": "情報処理推進機構（IPA）の「第5回 スマートビル将来ビジョン検討会」に関する情報です。",
-          "link": "https://www.ipa.go.jp/digital/architecture/conferences/smartbuilding-fv/news_202403_1.html",
-          "publishedOn": "2024-03-03T15:00:00.000Z",
-          "wordCount": 373,
-          "title": "第5回 スマートビル将来ビジョン検討会 会議資料を公開しました",
-          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
-        },
-        {
-          "id": "https://www.ipa.go.jp/event/2023/opendata20240307.html",
-          "author": "情報処理推進機構（IPA）",
-          "description": "情報処理推進機構（IPA）の「オープンデータ・リブート会議」に関する情報です。",
-          "link": "https://www.ipa.go.jp/event/2023/opendata20240307.html",
-          "publishedOn": "2024-03-03T15:00:00.000Z",
-          "wordCount": 250,
-          "title": "【3月7日（木曜日）開催】オープンデータ・リブート会議のご案内",
-          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
         }
       ]
     },
@@ -838,6 +828,16 @@
       "feedUrl": "https://www.mcafee.com/blogs/feed/",
       "siteUrl": null,
       "articles": [
+        {
+          "id": "/blogs/?p=98662",
+          "author": "McAfee",
+          "description": "It’s time to get those W-2 and 1099 tax forms ready. On January 29th, the IRS began accepting paper and...\nThe post Watch Out For IRS Scams and Avoid Identity Theft appeared first on McAfee Blog.",
+          "link": "https://www.mcafee.com/blogs/privacy-identity-protection/tax-season-scams-identity-theft/",
+          "publishedOn": "2024-04-01T16:52:22.000Z",
+          "wordCount": 3406,
+          "title": "Watch Out For IRS Scams and Avoid Identity Theft",
+          "imageUrl": "https://www.mcafee.com/blogs/wp-content/uploads/2020/02/twitter28.jpg"
+        },
         {
           "id": "https://www.mcafee.com/blogs/?p=187318",
           "author": "Jasdev Dhaliwal",
@@ -1391,6 +1391,21 @@
       "siteUrl": "https://engineers.ffri.jp/",
       "articles": [
         {
+          "id": "hatenablog://entry/6801883189087287442",
+          "author": null,
+          "description": "Summary\nＦＦＲＩセキュリティでは、既存のクラウド環境における Observability ツールがほとんど Linux コンテナ向けである事に注目しました。そこで Windows コンテナ向けの Eolh を開発し OSS として GitHub に公開いたしました。\nBackground\nクラウドネイティブ時代において、注目を集めている概念が Observability です。\nObservability とは、元は 1960 年に Kalman によって提唱された概念であり、制御システムにおいてその出力から内部状態を推定することに関する数学的な性質です[1]。\n今日では、Observability ツールの多くは次のように使われています。\n分散アプリケーションアーキテクチャにおいて、システム全体の状態やシステムコンポーネント間の相互作用をリアルタイムで観察しその依存関係、相互作用によって発生する問題を調査する、というものです[2]。\n特に Extended Berkeley Packet Filter (以下、eBPF) はその中核をなすテクノロジーとしてホットなトピックです。\neBPF はカーネルなどの特権的なコンテキストでサンドボックス化されたプログラムを実行できるテクノロジーであり、eBPF のユースケースには、eXpress Data Path (XDP)、トレーシング、ネットワーキングなどが含まれます[3]。\nSecurity 上の脅威をリアルタイムに可視化する Security Observability を eBPF で実現するツールとしては、Falco や Tracee、Tetragon があります。これらを用いることで Kubernetes 上で動作するコンテナの Security Observability を向上できます*1。\nさて、ここで述…",
+          "link": "https://engineers.ffri.jp/entry/2024/04/02/000000",
+          "publishedOn": "2024-04-01T15:00:00.000Z",
+          "wordCount": 990,
+          "title": "Eolh のご紹介 ～ Windows コンテナにおける Security Observability の実現に向けて",
+          "enclosure": {
+            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/F/FFRI/20240402/20240402135334.png",
+            "type": "image/png",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/F/FFRI/20240402/20240402135334.png"
+        },
+        {
           "id": "hatenablog://entry/6801883189081049039",
           "author": null,
           "description": "はじめに\n基礎技術研究部の末吉です。\nバグを検知するツールにサニタイザー(Sanitizer)というものがあります。\n英語で Sanitizer は「消毒剤」という意味で、Hand Sanitizer なら手指消毒剤を意味します。\nここで紹介するサニタイザーは、菌の代わりにバグを消毒してくれます。\nサニタイザーは通常、GCC などのコンパイラに付属していて、コンパイル時にアプリケーションにバグの検知・報告機構を計装(instrument)します。\nそしてアプリケーションの実行中にバグの発生を検知したらバグの調査に有用な情報を出力してアプリケーションを終了させます。\nここではサニタイザーの中でもおそらく最もよく使われているであろう AddressSanitizer(ASan) について複数回にわたって説明することとし、今回はその仕組みについてその源流である Google の発表した論文を読んでいきます。\n次回の記事では Clang(LLVM) ではどのように実装されているか、ソースコードを読んでいきます。\n使い方\nサニタイザーについて色々御託を並べるより使ったほうが理解しやすいので使い方から説明します。\n本記事での環境は以下の通りです。Clang, GCC は sudo apt install clang, gcc ですぐインストールできるものを使用しています*1。\nOS: Ubuntu 22.04 LTS\nClang: 14.0.0-1ubuntu1.1\nGCC: 11.4.0-1ubuntu1~22.04\n試しに以下のプログラム test1.c をコンパイルして動かしてみましょう。\n第一引数に入った文字列を buf にコピーして表示するだけのプログラムです。\n#include <stdio.h>\n\nint main(int argc, char** argv){\n    …",
@@ -1669,6 +1684,16 @@
       "siteUrl": "https://eset-info.canon-its.jp/",
       "articles": [
         {
+          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/240402.html",
+          "author": null,
+          "description": "過去に発生した事例を見ていくと、情報漏えいの主な要因はヒューマンエラーによるものが多い。従業員向けにセキュリティ教育を実施したからと言って、こうした事態を防ぎ切れるものではない。この記事では、過去の事例を紹介しながら、企業・組織におけるメールの誤送信対策について解説していく。\n\n\n\n\n\nメールの誤送信で生じる被害\n\nメールは2000年初頭からビジネスの世界でも活用されるようになり、多くの企業で業務にパソコンを利用する頻度が高まるのにつれて浸透してきた。メールアドレスさえ把握していれば、必要に応じてファイルを添付できるため、物理的な距離に関係なくデータの授受も容易に行える。こうした手軽さもあり、メールはビジネスコミュニケーションの主流となった。\n\nそうした利便性の反面、問題を引き起こしてきた側面もある。メールで受け渡す情報の中には、機密情報・個人情報が含まれるケースもある。こうした情報は特に厳格に取り扱われるべきで、ミスが生じてはならない。しかし、現実的には大小問わず、何かしらヒューマンエラーは発生してしまうものだ。\n\nそうしたミスが起こった場合、情報漏えいとなり、企業・組織にとって致命傷ともなりかねない。実際に、情報漏えいに対する損害賠償請求は過去に起こされており、漏えいした情報が機微なものの場合、高額になった判例も存在する。\n\nまた、メディアに報道された結果、利害関係者からの信用失墜を招き、主要な顧客との取引停止や売上ダウンといった直接的な被害を受ける場合もあるだろう。メールの誤送信を起因とする情報漏えいが、直接的、間接的を問わず、甚大な被害につながるという認識を持つ必要がある。\n\nメールの誤送信に起因する３つの事例\n\n先述のとおり、メールの誤送信による事例は今なお数多く発生している。以下に、過去生じた事例を3つ紹介する。\n\n１）某県庁における月に3度のメール誤送信\n\n2023年12月、某県庁において、立て続けにメール誤送信に起因するインシデントが発生した。最初の2件については、Bccに入力すべきメールアドレスをToに入力してしまったことでメールアドレスが流出。3件目は機密情報を誤送信してしまうインシデントであり、いずれも適切な確認プロセスが徹底されていないことが原因であった。\n\n２）某市役所において幼稚園児童のデータを誤送信\n\n某市役所の幼稚園を管轄する部署の担当者が、本来送付すべき内容と異なるファイルを添付したメールを管轄の複数の幼稚園に送付。その結果、市内の幼稚園に通う児童の氏名、生年月日が送付先の幼稚園に流出するに至った。送付前に添付内容の確認を怠ったことが原因であった。\n\n３）某スポーツチームにおける顧客情報の誤送信\n\nメール配信を業務委託されていた業者がプロモーションメールを配信する際、手順を誤ってしまった。その結果、会員登録されていたメールアドレス152件分が記載されたファイルを誤送付する事態となった。このケースでも、前の事例と同様に送付前の段階で、送付内容を適切にチェックできていないことが原因となった。\n\nいずれの事例からもわかるように、従業員によるチェックに依存したことが、ヒューマンエラーの発生につながった。再発を防止するためには、メール送付の業務において、起こり得る要因を洗い出し、適切な対策を講じておく必要があるだろう。\n\nメールの誤送信による情報漏えいが生じる２大要因\n\n先述の事例のように、人が行うことに完璧・完全はなく、ヒューマンエラーというリスクは生じ得る。某県庁の事例では実際の担当者が極度の疲労状態にあったと明らかにされており、多忙による疲労が誤認、あるいは確認漏れといったエラーを招く原因になっている。\n\n以下、ヒューマンエラーに起因するミスについて大きく2つに分けて解説する。\n\n１）メール宛先の設定ミス\n\n・メールアドレスの入力ミス\n多くの場合、エラーとなり返送されるが、誤って入力したメールアドレスが実在すれば、そのままメールが送信されてしまうことになる。実際、そういったミスを狙う手口が確認されている。ドッペルゲンガードメインと呼ばれるもので、Gmailのドメインに似せた「@gmai.com」のドメインが実在する。こうしたドメインへの誤送信が過去に複数報告されている。\n\n・オートコンプリート機能、アドレス帳からの誤選択\n近年、メールソフトのオートコンプリート（自動入力）機能によるミスが後を絶たない。本来、利便性が高い機能として重宝するものの、急いでいる際などに誤った候補を選択してしまい、誤送信となったケースがある。また、取り扱うメールアドレスが多くなることで、同じ苗字、似た名前、同姓同名のユーザーのアドレスを誤って選択してしまうケースもある。\n\n・To、Cc、Bccの使い分けミス\n比較的頻繁に生じているのが、Cc（カーボンコピー）の使い分けミスによる誤送信だ。本来、Bccに入力すべき宛先をCcにしてしまったことで、メールアドレスが漏えいしてしまう。先述の某県庁の事例が該当する。こうしたミスの場合、メールアドレスに紐づく企業・組織情報、所属情報、氏名なども一緒に漏えいしてしまう可能性がある。こうした情報は個人情報に該当するため、その責任を追及されかねない。\n\n２）ファイルの添付ミス\n\n・添付ファイルの誤選択\n先述の某市役所の事例のように、本来送るべきであったものとは異なるファイルを添付してしまうケースがある。そうしたファイルに機密情報、個人情報が含まれる場合、情報漏えい事件になってしまう。また、ドラッグ＆ドロップでファイルを添付できることは利便性が高いものの、別作業を行いながらの場合、うっかりミスで異なるファイルを添付してしまう恐れもある。\n\n・転送、引用メールの取り扱いミス\nメールを転送する際に誤って、転送すべきではない文面や転送元のメールに添付されていたファイルまで転送してしまうケースがある。あるいはメール内容を引用しようとして、不要な内容まで引用してしまうこともある。こういった場合、ファイルや文面の内容によっては情報漏えいになりかねない。\n\n企業・組織で講じるべき誤送信対策\n\nまず行うべきは従業員に誤送信が招く結果が深刻であること認識させることだ。自社だけでなく、場合によっては自らが責任を問われる可能性もあると認識することで、他人事から自分事化され、うっかりのヒューマンエラーを抑えられるだろう。\n\nそのためにも、はじめに自社の状況に応じたセキュリティポリシーを策定すること。そして、策定したポリシーの運用を徹底するために、人事評価などと連動した罰則規定を設けることも選択肢に入れる必要もある。その上で、従業員に向けた研修、教育の機会を提供していくことが求められる。\n\nしかし、現実問題として、こうした対策だけでヒューマンエラーの発生を防ぐことは難しいとも言える。むしろ、ヒューマンエラーは必然的に発生してしまうという前提のもと、ソリューションの利活用も含めて検討しておくべきだろう。以下に、先述した誤送信による情報漏えいの主要因を踏まえ、導入を検討すべきシステムの機能を2つ紹介する。\n\n・承認機能によるダブルチェック\nメールの宛先設定のミスは起こり得るものだとみなし、ダブルチェックによるミスの検出を行うソリューションの導入が望ましい。ただし、こうした機能も従業員が慣れてしまうことで運用がおざなりになることも少なくない。くれぐれもソリューションを導入すれば万全とは考えず、運用ルールを策定し、絶えず注意を払うことを徹底するよう習慣づけたい。\n\nGUARDIANWALL MailFilterでは、送信メールを一度保留にする遅延配信の機能が備わっている。メール送信の承認ルールを設定することで、上長承認（承認後にメールを送信）と、自己査閲（送信者自身で再確認）により、誤送信対策が可能となる。またメール本文や添付ファイルに含まれる個人情報を検知するため、情報漏えいを軽減できる。\n\n・ダウンロードリンク化機能\n添付ファイルをダウンロードリンク化して送付することで、仮に送付先を誤ってメールを送信してしまった場合でも、ダウンロードの許可を取り消すことでファイルの流出を未然に防ぐための猶予ができる。また、ダウンロード時に認証プロセスを追加することで、仮に誤送付してしまった場合でも、ダウンロードしたユーザーを追跡しやすくなる。\n\n例えば、GUARDIANWALL MailConvertはダウンロードリンク化の機能、そして一斉配信時に強制的にメールアドレスの追加先をBccに変換する機能が備わっている。こうしたソリューションを導入し利用するだけでも、先の事例のようなインシデントは起こりづらくなる。このGUARDIANWALL MailConvertは、Microsoft 365やGoogle Workspaceといったオフィススイートのアドインとして導入できるため、導入・利用のハードルは高くないと言える。\n\nコンプライアンス重視の潮流もあり、情報漏えいに対する世間の目は厳しくなっている。ある日突然、「何か」が起こってしまえば、大きな問題となってしまう可能性が高い。そうした事態を未然に防ぐためにも、社内教育の機会を定期的に提供していくことが重要だ。そして、ヒューマンエラーは起こり得るという前提のもと、こうしたメールセキュリティソリューションの導入も検討してほしい。",
+          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/240402.html",
+          "publishedOn": "2024-04-01T15:00:00.000Z",
+          "wordCount": 204,
+          "title": "改めて問われるメール誤送信対策において押さえておくべき2つの要因",
+          "imageUrl": "https://eset-info.canon-its.jp/files/topics/4538_ext_01_0.jpg"
+        },
+        {
           "id": "https://eset-info.canon-its.jp/malware_info/malware_topics/detail/malware2402.html",
           "author": null,
           "description": "1月と2月の概況\n\n2024年1月（1月1日～1月31日）と2月（2月1日～2月29日）にESET製品が国内で検出したマルウェアの検出数の推移は、以下のとおりです。\n\n\n\n国内マルウェア検出数*1の推移\n(2023年1月の全検出数を100%として比較)\n\n*1 検出数にはPUA (Potentially Unwanted/Unsafe Application; 必ずしも悪意があるとは限らないが、コンピューターのパフォーマンスに悪影響を及ぼす可能性があるアプリケーション)を含めています。\n\n\n2024年2月の国内マルウェア検出数は、2023年12月と比較して増加しました。\n2024年1月2月に検出されたマルウェアの内訳は以下のとおりです。\n\n国内マルウェア検出数*2上位（2024年1月2月）\n\n\n\t\n\t\t\n\t\t\t順位\n\t\t\tマルウェア名\n\t\t\t割合\n\t\t\t種別\n\t\t\n\t\t\n\t\t\t1\n\t\t\tJS/Adware.TerraClicks\n\t\t\t18.1%\n\t\t\tアドウェア\n\t\t\n\t\t\n\t\t\t2\n\t\t\tJS/Adware.Agent\n\t\t\t17.3%\n\t\t\tアドウェア\n\t\t\n\t\t\n\t\t\t3\n\t\t\tHTML/Phishing.Agent\n\t\t\t17.0%\n\t\t\tメールに添付された不正なHTMLファイル\n\t\t\n\t\t\n\t\t\t4\n\t\t\tJS/Adware.Sculinst\n\t\t\t4.2%\n\t\t\tアドウェア\n\t\t\n\t\t\n\t\t\t5\n\t\t\tJS/Agent\n\t\t\t4.1%\n\t\t\t不正なJavaScriptの汎用検出名\n\t\t\n\t\t\n\t\t\t6\n\t\t\tDOC/Fraud\n\t\t\t3.3%\n\t\t\t詐欺サイトのリンクが埋め込まれたDOCファイル\n\t\t\n\t\t\n\t\t\t7\n\t\t\tPDF/Phishing\n\t\t\t2.1%\n\t\t\t詐欺を目的とした不正なPDFファイル\n\t\t\n\t\t\n\t\t\t8\n\t\t\tHTML/Fraud\n\t\t\t1.6%\n\t\t\t詐欺サイトのリンクが埋め込まれたHTMLファイル\n\t\t\n\t\t\n\t\t\t9\n\t\t\tMSIL/TrojanDownloader.Agent\n\t\t\t1.0%\n\t\t\tダウンローダー\n\t\t\n\t\t\n\t\t\t10\n\t\t\tHTML/Phishing\n\t\t\t1.0%\n\t\t\t詐欺を目的とした不正なHTMLファイル\n\t\t\n\t\n\n\n*2 本表にはPUAを含めていません。\n\n\n▼各月の内訳をご覧になりたい方は、こちらをクリックしてください。\n\n▼各月の内訳をご覧になりたい方は、こちらをタップしてください。\n\n\n\n国内マルウェア検出数*2上位（2024年1月）\n\n\n\n\t\n\t\t\n\t\t\t順位\n\t\t\tマルウェア名\n\t\t\t割合\n\t\t\t種別\n\t\t\n\t\t\n\t\t\t1\n\t\t\tJS/Adware.Agent\n\t\t\t16.0%\n\t\t\tアドウェア\n\t\t\n\t\t\n\t\t\t2\n\t\t\tHTML/Phishing.Agent\n\t\t\t14.6%\n\t\t\tメールに添付された不正なHTMLファイル\n\t\t\n\t\t\n\t\t\t3\n\t\t\tJS/Adware.TerraClicks\n\t\t\t14.3%\n\t\t\tアドウェア\n\t\t\n\t\t\n\t\t\t4\n\t\t\tJS/Adware.Sculinst\n\t\t\t5.5%\n\t\t\tアドウェア\n\t\t\n\t\t\n\t\t\t5\n\t\t\tJS/Agent\n\t\t\t4.3%\n\t\t\t不正なJavaScriptの汎用検出名\n\t\t\n\t\t\n\t\t\t6\n\t\t\tHTML/Fraud\n\t\t\t2.8%\n\t\t\t詐欺サイトのリンクが埋め込まれたHTMLファイル\n\t\t\n\t\t\n\t\t\t7\n\t\t\tDOC/Fraud\n\t\t\t2.3%\n\t\t\t詐欺サイトのリンクが埋め込まれたDOCファイル\n\t\t\n\t\t\n\t\t\t8\n\t\t\tPDF/Phishing\n\t\t\t1.4%\n\t\t\t詐欺を目的とした不正なPDFファイル\n\t\t\n\t\t\n\t\t\t9\n\t\t\tWin64/Riskware.PEMalform\n\t\t\t1.1%\n\t\t\tブラウザーハイジャッカー\n\t\t\n\t\t\n\t\t\t10\n\t\t\tJS/ScrInject\n\t\t\t0.9%\n\t\t\t不正なJavaScriptの汎用検出名\n\t\t\n\t\n\n\n\n国内マルウェア検出数*2上位（2024年2月）\n\n\n\n\t\n\t\t\n\t\t\t順位\n\t\t\tマルウェア名\n\t\t\t割合\n\t\t\t種別\n\t\t\n\t\t\n\t\t\t1\n\t\t\tJS/Adware.TerraClicks\n\t\t\t20.8%\n\t\t\tアドウェア\n\t\t\n\t\t\n\t\t\t2\n\t\t\tHTML/Phishing.Agent\n\t\t\t18.7%\n\t\t\tメールに添付された不正なHTMLファイル\n\t\t\n\t\t\n\t\t\t3\n\t\t\tJS/Adware.Agent\n\t\t\t18.3%\n\t\t\tアドウェア\n\t\t\n\t\t\n\t\t\t4\n\t\t\tDOC/Fraud\n\t\t\t4.0%\n\t\t\t詐欺サイトのリンクが埋め込まれたDOCファイル\n\t\t\n\t\t\n\t\t\t5\n\t\t\tJS/Agent\n\t\t\t3.9%\n\t\t\t不正なJavaScriptの汎用検出名\n\t\t\n\t\t\n\t\t\t6\n\t\t\tJS/Adware.Sculinst\n\t\t\t3.3%\n\t\t\tアドウェア\n\t\t\n\t\t\n\t\t\t7\n\t\t\tPDF/Phishing\n\t\t\t2.6%\n\t\t\t詐欺を目的とした不正なPDFファイル\n\t\t\n\t\t\n\t\t\t8\n\t\t\tMSIL/TrojanDownloader.Agent\n\t\t\t1.4%\n\t\t\tダウンローダー\n\t\t\n\t\t\n\t\t\t9\n\t\t\tHTML/Phishing\n\t\t\t1.2%\n\t\t\t詐欺を目的とした不正なHTMLファイル\n\t\t\n\t\t\n\t\t\t10\n\t\t\tHTML/Fraud\n\t\t\t0.7%\n\t\t\t詐欺サイトのリンクが埋め込まれたHTMLファイル\n\t\t\n\t\n\n\n*2 本表にはPUAを含めていません。\n\n\n\n1月と2月に国内で最も多く検出されたマルウェアは、JS/Adware.TerraClicksでした。\nJS/Adware.TerraClicksは、悪意のある広告を表示させるアドウェアの検出名です。Webサイト閲覧時に実行されます。\n\n検出数が増加したJS/Agent\n\n2024年1月2月は、2023年12月と比較してJS/Agentの検出数が増加しました。JS/Agentは、不正なJavaScriptの汎用検出名です。汎用検出名であるため検出されるJavaScriptは多岐に渡り、攻撃者が用意した通信先へのリダイレクトや通信先から別のマルウェアのダウンロードをおこなうJavaScriptを確認しています。統計を見ると、1月2月を合わせた検出数TOP10において検出数第5位となっており、1月と2月それぞれのTOP10でも検出数第5位に入っています。2023年1月から2024年2月までの検出数推移は以下のとおりです。\n\n\n\nJS/Agentの検出数月別推移（2023年～2024年、国内）\n※2023年1月の検出数を100％として比較\n\n\nJS/Agentの検出数は、ピークを迎えた2023年10月以降減少傾向にありましたが、2024年に入り再び増加しています。2023年におけるJS/Agentについては、2023年サイバーセキュリティレポートの第1章やESET脅威レポート2023年下半期版（2023年6月～11月）で紹介しています。\n汎用検出名であるJS/Agentのうち2024年1月2月に多数検出されたのは、亜種である「JS/Agent.PIV」「JS/Agent.PHC」でした。この2つの検出数を合算すると、2024年1月2月に検出されたJS/Agentの半数を超えています。\n\n\n\nJS/Agentの亜種検出数内訳（2024年1月2月、国内）\n\n\nここからは、JS/Agent.PIVとJS/Agent.PHCがどのような脅威であるかを紹介します。\n\nJS/Agentの亜種「JS/Agent.PIV」「JS/Agent.PHC」について\n\nJS/Agent.PIVとJS/Agent.PHCは、攻撃者が用意した通信先へリダイレクトさせる、あるいは別のマルウェアをダウンロードするJavaScriptです。正規のJavaScriptが改ざんされたWebサイトにアクセスした際に検出されます。 JS/Agent.PIVやJS/Agent.PHCの設置におけるWebサイト改ざんには特徴があり、改ざん部分に「(ndsw == undefined)」や「(ndsj == undefined)」という文字列が含まれています。改ざんされたJavaScriptにアクセスすると攻撃者の用意した通信先へリダイレクトされます。多数のJavaScriptを改ざんすることによって、Webサーバーでマルウェアの配布を行うインフラを形成しています。\nこのインフラは、Parrot TDS（Traffic Direction System）と呼ばれています。Parrot TDSは、ソフトウェアの偽のアップデートを装ったマルウェアFAKEUPDATE（別名：SocGholish）の配布キャンペーンに悪用されたことが確認されています。\nJS/Agent.PIVの検体の1つを見ていきます。JS/Agent.PIVは、改ざんされたJavaScriptです。改ざん時に追加されたコードは以下のとおりです。\n\n\n\nJS/Agent.PIVに書かれていたコードの一部\n\n\nこの検体では難読化が行われており、配列から文字列を抽出して繋げることで意味のある文字列を生成しています。配列から文字列を取り出す際は、コード内の変数に対応する数値を計算して利用しています。生成される文字列の中には、攻撃者が用意したURLがあることを確認しています。\n\n\n\n文字列が格納された変数\n\n\n変数に格納されていたURLは、JavaScriptをダウンロードするものでした。ダウンロードされるJavaScriptの動作は特定できていませんが、マルウェアのダウンロードや情報窃取などを行う可能性があります。\n\n対策について\n\nJS/Agent.PIVやJS/Agent.PHCは、正規のJavaScriptが改ざんされたものです。\n対策としては、サーバー管理者とユーザーで大きく分かれます。\n\nサーバー管理者\n\n\n\tWebサイト構築に利用しているCMSやプラグインなどのツールを最新の状態に保つ\n\tCMSの管理者権限を適切に管理し、管理者パスワードを強固なものに設定する\n\t脆弱性情報を収集し、迅速にセキュリティパッチを適応する\n\tWAFを導入し、検出ルールを改善し続ける\n\t新たな脅威や潜在的な脅威に備えるためにペネトレーションテストを実施する\n\tWebブラウジング中に遭遇する脅威について組織内へ情報共有する\n\n\nユーザー\n\n\n\tWebブラウザー、OSやセキュリティ製品を最新の状態に保つ\n\tセキュリティ製品が提供しているセキュアブラウザー機能を活用する\n\tWebブラウザーからの警告を不用意に許可しない\n\tWebブラウジング中に遭遇する脅威への感染方法を知る\n\n\n2024年1月2月では、多数のJS/Agentを検出しました。このような脅威の被害に遭わないためにも、本レポートで紹介した管理者/ユーザーごとの対策を実施してください。\nまた、セキュリティベンダーや機関による注意喚起を収集し、組織内で共有を行ってください。\n\n\n\n常日頃からリスク軽減するための対策について\n\n各記事でご案内しているようなリスク軽減の対策をご案内いたします。\n下記の対策を実施してください。\n\n\n\t1. セキュリティ製品の適切な利用\n\t1-1. ESET製品の検出エンジン（ウイルス定義データベース）をアップデートする\n\tESET製品では、次々と発生する新たなマルウェアなどに対して逐次対応しております。\n\t最新の脅威に対応できるよう、検出エンジン（ウイルス定義データベース）を最新の状態にアップデートしてください。\n\t1-2.複数の層で守る\n\t1つの対策に頼りすぎることなく、エンドポイントやゲートウェイなど複数の層で守ることが重要です。\n\t2. 脆弱性への対応\n\t2-1.セキュリティパッチを適用する\n\tマルウェアの多くは、OSに含まれる「脆弱性」を利用してコンピューターに感染します。「Windows Update」などのOSのアップデートを行ってください。また、マルウェアの多くが狙う「脆弱性」は、Office製品、Adobe Readerなどのアプリケーションにも含まれています。各種アプリケーションのアップデートを行ってください。\n\t2-2.脆弱性診断を活用する\n\tより強固なセキュリティを実現するためにも、脆弱性診断製品やサービスを活用していきましょう。\n\t3. セキュリティ教育と体制構築\n\t3-1.脅威が存在することを知る\n\t「セキュリティ上の最大のリスクは&ldquo;人&rdquo;だ」とも言われています。知らないことに対して備えることができる人は多くありませんが、知っていることには多くの人が「危険だ」と気づくことができます。\n\t3-2.インシデント発生時の対応を明確化する\n\tインシデント発生時の対応を明確化しておくことも、有効な対策です。何から対処すればいいのか、何を優先して守るのか、インシデント発生時の対応を明確にすることで、万が一の事態が発生した時にも、慌てずに対処することができます。\n\t4. 情報収集と情報共有\n\t4-1.情報収集\n\t最新の脅威に対抗するためには、日々の情報収集が欠かせません。弊社をはじめ、各企業・団体から発信されるセキュリティに関する情報に目を向けましょう。\n\t4-2.情報共有\n\t同じ業種・業界の企業は、同じ攻撃者グループに狙われる可能性が高いと考えられます。同じ攻撃者グループの場合、同じマルウェアや戦略が使われる可能性が高いと考えられます。分野ごとのISAC（Information Sharing and Analysis Center）における情報共有は特に効果的です。\n\n\n\n\n\n\n\n\n\t12月\n\t1月・2月\n\t3月\n\n\n \n\n\n2023年上半期サイバーセキュリティレポートを公開",
@@ -1768,6 +1793,28 @@
       "feedUrl": "https://www.nic.ad.jp/ja/index.xml",
       "siteUrl": "https://www.nic.ad.jp/",
       "articles": [
+        {
+          "id": "https://www.nic.ad.jp/ja/intl/fellowship-program/apricot-2024.html",
+          "author": null,
+          "description": "APRICOT 2024参加支援\n2024年2月6日\nAPRICOT 2024\n              」への参加を希望する国内の若手に対し、\n              旅費をはじめとした会議参加に必要な費用の補助、\n              会議に参加する上での参考情報の提供等を行います。\n              支援する方(フェロー)は公募を行い、書類選考の上、決定します。\n            \n参加報告書\n滝田 愛澄\n(早稲田大学)\n                \n                  \n報告書(163KB)\nスライド(1.17MB)\n寧 飛越\n(DODO株式会社)\n                \n                  \n報告書(708KB)\nスライド(2.04MB)\n募集要項 ※応募受付は終了しました\n\n            \nご応募いただく方へのお願い\n対象者\n                \n                  以下の条件をすべて満たす方\n                  \n日本国内在住\n応募締切日時点で18歳以上30歳以下\n過去5年間、他のAPRICOTまたはAPNICカンファレンスの参加支援プログラムの支援を受けていない\n支援内容\n                \n                  \nカンファレンス参加費　※会期前半のワークショップは対象外\n日本での最寄り空港と開催地間の往復航空運賃(国内旅費を含みます)\n会期中の宿泊費\n参加報告会出席のための交通費(遠方の方のみ)\n事前情報交換会、\n募集人数\n                2名程度\n              \n応募方法\n                \n                  以下の書類を電子メールにてご送…",
+          "link": "https://www.nic.ad.jp/ja/intl/fellowship-program/apricot-2024.html",
+          "publishedOn": "2024-04-02T05:20:34.000Z",
+          "wordCount": null,
+          "title": "[Web更新]APRICOT 2024参加支援　報告書を掲載",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nic.ad.jp/ja/topics/2024/20240401-03.html",
+          "author": null,
+          "description": "2024年4月1日\n一般社団法人日本ネットワークインフォメーションセンター\n障害復旧報告：JPNIC資源管理認証局システムの障害について\n記\n\n            \n影響を受けていたサービス\n影響を受けていた時間帯\nお問い合わせ先\nIPアドレスに関する申請について\n              ip-service@nir.nic.ad.jp\n\n              JPNIC資源管理認証局について\n              ca-query@nic.ad.jp\n            \n\n\n            \n以上",
+          "link": "https://www.nic.ad.jp/ja/topics/2024/20240401-03.html",
+          "publishedOn": "2024-04-01T09:34:13.000Z",
+          "wordCount": null,
+          "title": "[トピックス]障害復旧報告：JPNIC資源管理認証局システムの障害について",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2024/vol2069.html",
           "author": null,
@@ -3137,6 +3184,96 @@
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
         {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/04/02/50805.html",
+          "author": null,
+          "description": "2023 年 11 月 6 日、7 日にわたって金沢で開催された「JPAAWG 6th General Meeting」では、警察庁と総務省の担当者が登壇し、官民連携の成果と重要性を確認するセッションが行われた。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/04/02/50805.html",
+          "publishedOn": "2024-04-01T23:15:03.000Z",
+          "wordCount": 1201,
+          "title": "警察庁、総務省それぞれの最新の取り組みは？ 官民連携、国際連携を通してより安全なサイバー空間の実現を ～ JPAAWG 6th General Meeting レポート",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/44337.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/04/02/50804.html",
+          "author": null,
+          "description": "FBI によると、昨年 2023 年に国民から報告されたサイバー犯罪の被害届件数は 79,474 件のみ増加し、わずかな増加にとどまりました。しかし損失額は 125 億ドル（約 1 兆 8750 億円）を超え、2022 年から 22 ％増加し、2023 年は過去最高を記録しています。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/04/02/50804.html",
+          "publishedOn": "2024-04-01T23:10:03.000Z",
+          "wordCount": 1256,
+          "title": "Proofpoint Blog 35回「【FBI/IC3 インターネット犯罪レポート解説】サイバー犯罪による損失が過去最高 125 億ドルを突破」",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/44434.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/04/02/50803.html",
+          "author": null,
+          "description": "株式会社オートバックスセブンは3月26日、3月1日に公表したAUTOBACS JEGT GRAND PRIX 公式XおよびYouTubeアカウントの乗っ取り被害について、続報を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/04/02/50803.html",
+          "publishedOn": "2024-04-01T23:05:05.000Z",
+          "wordCount": 980,
+          "title": "e モータースポーツ公式 X と YouTube が乗っ取り被害、キャンペーンエントリーユーザーの個人情報が閲覧できる状態に",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/44411.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/04/02/50802.html",
+          "author": null,
+          "description": "株式会社アテックスは3月25日、不正アクセスによる顧客の個人情報流出について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/04/02/50802.html",
+          "publishedOn": "2024-04-01T23:05:03.000Z",
+          "wordCount": 954,
+          "title": "Instagram アカウントがフィッシングによる乗っ取り被害、復旧極めて困難",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/44401.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/04/02/50801.html",
+          "author": null,
+          "description": "日本電気株式会社（NEC）とサイバートラスト株式会社は3月21日、信頼性のある自由なデータ流通（Data Free Flow with Trust：DFFT）の実現を支えるデジタルトラストの推進に向けて、協業を強化すると発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/04/02/50801.html",
+          "publishedOn": "2024-04-01T23:00:25.000Z",
+          "wordCount": 1025,
+          "title": "NECとサイバートラストが協業を強化、「iTrust e シール用証明書」を eDoc サービス等に採用",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/04/02/50800.html",
+          "author": null,
+          "description": "経済産業省は3月22日、電気事業者向けに「電力システムにおけるサイバーセキュリティリスク点検ガイド」と「電力システムにおけるサイバーセキュリティ対策状況可視化ツール」を公表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/04/02/50800.html",
+          "publishedOn": "2024-04-01T23:00:21.000Z",
+          "wordCount": 836,
+          "title": "経産省、事業者向け「電力システムにおけるサイバーセキュリティリスク点検ガイド」と「電力システムにおけるサイバーセキュリティ対策状況可視化ツール」公表",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/44378.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/04/02/50799.html",
+          "author": null,
+          "description": "株式会社カスペルスキーは3月21日、企業や団体が社内で開発するWebアプリケーションの脆弱性についての調査結果を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/04/02/50799.html",
+          "publishedOn": "2024-04-01T23:00:17.000Z",
+          "wordCount": 935,
+          "title": "内製開発のアプリの脆弱性調査「アクセス制御の不備」が最多",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/44396.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/04/02/50798.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は3月27日、SEEnergy製SVR-116におけるOSコマンドインジェクションの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/04/02/50798.html",
+          "publishedOn": "2024-04-01T23:00:15.000Z",
+          "wordCount": 974,
+          "title": "SEEnergy 製 SVR-116 に OSコマンドインジェクションの脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/04/02/50797.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は3月29日、スマートフォンアプリ「Yahoo! JAPAN」におけるクロスサイトスクリプティングの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/04/02/50797.html",
+          "publishedOn": "2024-04-01T23:00:03.000Z",
+          "wordCount": 986,
+          "title": "スマートフォンアプリ「Yahoo! JAPAN」にXSSの脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
           "id": "https://scan.netsecurity.ne.jp/article/2024/04/01/50796.html",
           "author": null,
           "description": "TMTマシナリー株式会社は3月26日、同社システムへの不正アクセスについて発表した。",
@@ -4504,6 +4641,26 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2404/01/news154.html",
+          "author": null,
+          "description": "子会社を通じて約928万件の顧客情報が流出したNTT西日本の新社長に4月1日付で就任した北村亮太氏が同日、大阪市内で会見し、「信頼回復に全力を尽くしていく」と述べ、社内の情報セキュリティー強化を進める姿勢を強調した。",
+          "link": "https://www.itmedia.co.jp/news/articles/2404/01/news154.html",
+          "publishedOn": "2024-04-01T10:15:00.000Z",
+          "wordCount": 2553,
+          "title": "928万件顧客情報流出のNTT西日本新社長「ずさんな運用が問題拡大」　信頼回復目指す",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2404/01/cover_news154.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2404/01/news144.html",
+          "author": null,
+          "description": "米議会下院が職員に対し、米Microsoftの生成AI支援機能「Copilot」の使用を禁止したことが分かった。米ネットメディア「Axios」が報じた。",
+          "link": "https://www.itmedia.co.jp/news/articles/2404/01/news144.html",
+          "publishedOn": "2024-04-01T08:58:00.000Z",
+          "wordCount": 2766,
+          "title": "米下院、職員による「Copilot」使用禁止に　生成AIによる業務支援機能",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2404/01/cover_news144.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2404/01/news081.html",
           "author": null,
           "description": "ワークスタイルテック（東京都港区）が、同社の労務管理クラウドサービス「WelcomeHR」について、ユーザー情報が外部から閲覧可能な状態になっていたと発表した。16万2830人分の情報が閲覧可能だったとしており、うち15万4650人分の情報が実際に第三者にダウンロードされたという。",
@@ -4870,6 +5027,86 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1581109.html",
+          "author": null,
+          "description": "エレコム株式会社は4月2日、はさんで固定できるクリップ式電源タップの、USBポート付きモデル「T-U05-3225」を発売した。ブラック、ホワイトの2色で、直販サイト「エレコムダイレクトショップ」での販売価格は4280円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1581109.html",
+          "publishedOn": "2024-04-02T05:30:00.000Z",
+          "wordCount": 5006,
+          "title": "クリップ式電源タップのUSBポート付きモデル「T-U05-3225」、エレコムが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1581/109/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1581005.html",
+          "author": null,
+          "description": "デジタル庁が「新型コロナワクチン接種証明書アプリ」のサービス提供を3月31日で終了した。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1581005.html",
+          "publishedOn": "2024-04-02T03:04:00.000Z",
+          "wordCount": 4558,
+          "title": "デジタル庁、新型コロナワクチン接種証明書アプリを提供終了。機能停止バージョンを公開【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1581/005/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1581001.html",
+          "author": null,
+          "description": "未発表の「12.9インチiPad Air」の保護ケースがAmazonに続々と登場しつつある。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1581001.html",
+          "publishedOn": "2024-04-02T03:02:00.000Z",
+          "wordCount": 4585,
+          "title": "未発表の「12.9インチiPad Air」の保護ケース、当初のスケジュールに沿って？ 続々登場中【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1581/001/yajiuma-watch_3.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1581011.html",
+          "author": null,
+          "description": "ソニーネットワークコミュニケーションズ株式会社は、光回線によるインターネット接続サービス「NURO 光」の提供エリアを福島県、山形県に拡大し、最大10Gbpsの「NURO 光 10ギガ」を提供する。4月15日より順次提供・申し込み受付を開始予定としている。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1581011.html",
+          "publishedOn": "2024-04-02T02:00:00.000Z",
+          "wordCount": 5026,
+          "title": "「NURO 光 10ギガ」東北でエリア拡大、福島・山形で4月15日から",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1581/011/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1580052.html",
+          "author": null,
+          "description": "国立研究開発法人情報通信研究機構（NICT）フォトニックネットワーク研究室を中心とした国際共同研究グループは、既存の光ファイバー伝送で世界最大となる37.6THzの周波数帯を活用し、378.9Tbpsの伝送実験に成功した。NICTが3月29日に発表した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1580052.html",
+          "publishedOn": "2024-04-01T22:15:00.000Z",
+          "wordCount": 5005,
+          "title": "既存光ファイバーで37.6THz、378.9Tbpsの伝送に成功し、世界記録を達成。NICTら国際グループ",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1580/052/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/shunlabo/1580302.html",
+          "author": null,
+          "description": "UbiquitiのUniFiブランドから、24ポートPoEスイッチの新製品「Switch Pro Max 24 PoE」が発売された。10GbE SFP+×2、2.5GbE PoE++×8、GbE×16（PoE+×8、PoE++×8）のレイヤー3スイッチで、中小規模の環境を1台でまかなえるオールインワンの製品だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/shunlabo/1580302.html",
+          "publishedOn": "2024-04-01T21:30:00.000Z",
+          "wordCount": 5134,
+          "title": "光るLANポートが美しくて実用的！　Ubiquitiの24ポートPoEスイッチ「Switch Pro Max 24 PoE」【\"ここ\"がイチ押し！ 旬モノ実験室】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1580/302/002.JPG"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/vpro_tomonokai_info/1580837.html",
+          "author": null,
+          "description": "リモートワークが広まったことで増えたのがPCの持ち出し。どこでも仕事ができるようになって便利になった一方で、PCを管理する情シスにとっては苦労のタネにも。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/vpro_tomonokai_info/1580837.html",
+          "publishedOn": "2024-04-01T21:00:00.000Z",
+          "wordCount": 5064,
+          "title": "「会社のPCを無人でコントロールしたい！」インテルEMAでクライアントPCの管理を行う方法を指南【「vPro友の会」情報】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1580/837/001.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/nettech/1576673.html",
+          "author": null,
+          "description": "引き続き、IEEE P802.3djについて紹介する。前々回「800G/1.6Tbpsを実現する『IEEE P802.3df』の進捗と、『IEEE P802.3dj』の分離」、前回「『800GBASE-DR4/-DR4-2』『800GBASE-FR4』など複数の仕様策定を目指す「IEEE P802.3dj』の動向」までで、IEEE P802.3dfから分離したIEEE P802.3djの、2022年中頃までの動向、Coherent標準化に関する動きなどを紹介してきた。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/nettech/1576673.html",
+          "publishedOn": "2024-04-01T21:00:00.000Z",
+          "wordCount": 5794,
+          "title": "「IEEE P802.3dj」標準化完了は2026年ごろか？ 議論が収束せず、スケジュールに遅れ【ネット新技術】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1576/673/Photo01.jpg"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/1580764.html",
           "author": null,
@@ -6624,6 +6861,76 @@
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
         {
+          "id": "https://news.mynavi.jp/techplus/article/20240401-2918752/",
+          "author": null,
+          "description": "Red Hatは3月29日(米国時間)、圧縮ツールおよびライブラリの「xz」から悪意のあるコードを発見したとして、注意を喚起した。このコードの影響を受けるライブラリ「liblzma」により、攻撃者はsshdを介してシステムに不正アクセスする可能性がある。",
+          "link": "https://news.mynavi.jp/techplus/article/20240401-2918752/",
+          "publishedOn": "2024-04-01T06:32:42.000Z",
+          "wordCount": 1744,
+          "title": "緊急警告、圧縮ツールxzにsshdを介した不正アクセスの可能性 - 利用の中止を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240401-2918752/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240401-2918763/",
+          "author": null,
+          "description": "The Hacker Newsは3月29日(現地時間)、アクセスソリューション企業「Dormakaba」のSaflokを使用するRFIDドアロックから脆弱性が発見されたと報じた。131カ国の1万3,000を超える施設(ホテルなど)の300万枚以上のドアが解錠される恐れがあるとみられている。",
+          "link": "https://news.mynavi.jp/techplus/article/20240401-2918763/",
+          "publishedOn": "2024-04-01T05:53:43.000Z",
+          "wordCount": 1756,
+          "title": "ホテルの電子錠に脆弱性、131カ国300万枚超のドアに解錠の危険性",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240401-2918763/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240401-2918683/",
+          "author": null,
+          "description": "Keeper Security APACはこのほど、2024 Keeper Securityインサイトレポート「サイバー攻撃対策の未来：前例のない脅威に備えるITリーダー（The Future of Defense: IT Leaders Brace for Unprecedented Cyber Threat）」を発表した。同レポートの回答者の51％がAIを駆使した攻撃を目にしているという。",
+          "link": "https://news.mynavi.jp/techplus/article/20240401-2918683/",
+          "publishedOn": "2024-04-01T03:43:23.000Z",
+          "wordCount": 1639,
+          "title": "企業で目にする新たな攻撃手法、第1位はAIを駆使した攻撃",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240401-2918683/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240401-2916838/",
+          "author": null,
+          "description": "Malwarebytesはこのほど、Metaがデータ分析ツール「CrowdTangle」を廃止すると報じた。このツールは注目を集めている投稿をメディアに提供するために利用されてきたが、恣意的に投稿を宣伝したとの告発や規制を受け、新しい「Meta Content Library」に移行する。",
+          "link": "https://news.mynavi.jp/techplus/article/20240401-2916838/",
+          "publishedOn": "2024-04-01T03:21:25.000Z",
+          "wordCount": 1753,
+          "title": "Metaがデータ分析ツール「CrowdTangle」廃止、懸念の声も",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240401-2916838/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240401-2917157/",
+          "author": null,
+          "description": "Checkmarxは3月28日(米国時間)、Pythonのパッケージリポジトリ「PyPI」が進行中のサイバー攻撃に対処するため、ユーザーの新規登録とプロジェクトの作成を一時的に停止したと伝えた。今回確認されたサイバー攻撃においては、500件を超える悪意のあるPythonパッケージがPyPIに一斉にアップロードされた。",
+          "link": "https://news.mynavi.jp/techplus/article/20240401-2917157/",
+          "publishedOn": "2024-04-01T00:49:52.000Z",
+          "wordCount": 1682,
+          "title": "PyPIが登録を一時停止、悪意あるパッケージの大量アップロードに対抗",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240401-2917157/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240401-2917329/",
+          "author": null,
+          "description": "米シスコシステムズから3月27日に複数のセキュリティアドバイザリが発行された。これらのアドバイザリには深刻度が「重要」のものが10件、「警告」のものが7件、合計17件の脆弱性が報告されている。",
+          "link": "https://news.mynavi.jp/techplus/article/20240401-2917329/",
+          "publishedOn": "2024-03-31T23:47:47.000Z",
+          "wordCount": 1860,
+          "title": "シスコ製品に複数の重要な脆弱性、アップデートを",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240401-2917329/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240401-2917321/",
+          "author": null,
+          "description": "Bleeping Computerは3月28日(米国時間)、Linuxの「wall」コマンドから脆弱性が発見されたと報じた。この脆弱性を悪用することで、複数のユーザーが端末に接続する環境において、偽の「sudo」コマンドのプロンプトを表示して管理者パスワードを窃取できるリスクがある。",
+          "link": "https://news.mynavi.jp/techplus/article/20240401-2917321/",
+          "publishedOn": "2024-03-31T23:26:15.000Z",
+          "wordCount": 1706,
+          "title": "Linuxのwallコマンドにパスワード流出につながる脆弱性、更新を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240401-2917321/ogp_images/ogp.jpg"
+        },
+        {
           "id": "https://news.mynavi.jp/techplus/article/20240330-2916924/",
           "author": null,
           "description": "Malwarebytesは3月28日(米国時間)、旧FacebookがSnapchatユーザーの通信を盗聴するなどの反競争的な行為に従事してユーザーデータを悪用していたと報じた。これは2024年3月23日(米国時間)にカリフォルニア州連邦裁判所に提出された文書で明らかになったもの。",
@@ -8142,26 +8449,6 @@
           "wordCount": 1729,
           "title": "新たなLinuxマルウェア登場、VMwareドメインを模倣して検出を回避",
           "imageUrl": "https://news.mynavi.jp/techplus/article/20240304-2896360/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20240303-2895513/",
-          "author": null,
-          "description": "Recorded Futureはこのほど、ランサムウェアの脅迫モデルを誘拐事件に照らし合わせて考察した文章を公開した。ランサムウェアはデータを人質に取り金銭を要求する。過去の誘拐事件では主に3つの対策が実行されてきた。これらはいずれも賛否ある対策で、有効性は証明されていない。それらを踏まえた上で結論を述べている。",
-          "link": "https://news.mynavi.jp/techplus/article/20240303-2895513/",
-          "publishedOn": "2024-03-03T03:05:00.000Z",
-          "wordCount": 1740,
-          "title": "ランサムウェア攻撃と誘拐事件を比較、法執行機関の対策は有効か",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20240303-2895513/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20240303-2895522/",
-          "author": null,
-          "description": "Mandiant(Google Cloud)はこのほど、イランとの関係が疑われている脅威アクター「UNC1549」によるイスラエル、アラブ首長国連邦の航空宇宙、防衛産業を標的としたキャンペーンを観察したと伝えた。標的にはトルコ、インド、アルバニアなどの中東諸国が含まれる可能性があるという。",
-          "link": "https://news.mynavi.jp/techplus/article/20240303-2895522/",
-          "publishedOn": "2024-03-03T00:33:13.000Z",
-          "wordCount": 1748,
-          "title": "イランの脅威アクター、航空宇宙や防衛産業を狙ってサイバー攻撃",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20240303-2895522/ogp_images/ogp.jpg"
         }
       ]
     }
