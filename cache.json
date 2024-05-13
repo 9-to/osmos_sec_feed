@@ -330,16 +330,6 @@
           "wordCount": 407,
           "title": "Weekly Report: 複数のマイクロソフト製品に脆弱性",
           "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
-        },
-        {
-          "id": "https://www.jpcert.or.jp/at/2024/at240009.html",
-          "author": null,
-          "description": "",
-          "link": "https://www.jpcert.or.jp/at/2024/at240009.html",
-          "publishedOn": "2024-04-13T05:11:00.000Z",
-          "wordCount": 379,
-          "title": "注意喚起: Palo Alto Networks社製PAN-OS GlobalProtectのOSコマンドインジェクションの脆弱性（CVE-2024-3400）に関する注意喚起  (公開)",
-          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
         }
       ]
     },
@@ -959,6 +949,46 @@
       "siteUrl": "https://gblogs.cisco.com/jp",
       "articles": [
         {
+          "id": "https://gblogs.cisco.com/jp/?p=51131",
+          "author": "TALOS Japan",
+          "description": "国家支援の攻撃グループの狙いを 1 つ挙げるとすれば、それはインターネット上に恐怖と不確実性を広めることです。",
+          "link": "https://gblogs.cisco.com/jp/2024/05/talos-researcher-spotlight-james-nutland/",
+          "publishedOn": "2024-05-13T07:26:13.000Z",
+          "wordCount": 566,
+          "title": "攻撃グループの動機を研究する James Nutland から APT の現状について学べること",
+          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/20AS88216_eyecatch-460x230.jpg"
+        },
+        {
+          "id": "https://gblogs.cisco.com/jp/?p=51127",
+          "author": "TALOS Japan",
+          "description": "サンフランシスコで開催される RSAC を 1 週間後に控え、Cisco Talos は今年も準備を進めています。サイバーセキュリティ関連の最新の主要な発表、リサーチ、ニュースをご紹介する予定です。",
+          "link": "https://gblogs.cisco.com/jp/2024/05/talos-cisco-talos-at-rsac-2024/",
+          "publishedOn": "2024-05-13T07:17:56.000Z",
+          "wordCount": 554,
+          "title": "RSAC 2024 に Cisco Talos が参加",
+          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/19AS87169_eyecatch-460x230.jpg"
+        },
+        {
+          "id": "https://gblogs.cisco.com/jp/?p=51112",
+          "author": "秦 寛樹",
+          "description": "新学期が始まるにあたり、Cisco Duo では、高等教育機関のお客様の環境で確認された脅威活動に関する調査結果と傾向をご紹介したいと思います。最も一般的な傾向と攻撃パターンについて概説し、ユーザーを最も効果的に保護するための Duo ポリシーの設定方法について説明します。",
+          "link": "https://gblogs.cisco.com/jp/2024/05/%e9%ab%98%e7%ad%89%e6%95%99%e8%82%b2%e3%81%ab%e3%81%8a%e3%81%91%e3%82%8b%e3%82%a2%e3%82%a4%e3%83%87%e3%83%b3%e3%83%86%e3%82%a3%e3%83%86%e3%82%a3%e3%81%ae%e8%84%85%e5%a8%81%e3%81%ae%e5%82%be%e5%90%91/",
+          "publishedOn": "2024-05-13T04:46:39.000Z",
+          "wordCount": 564,
+          "title": "高等教育におけるアイデンティティの脅威の傾向",
+          "imageUrl": "https://storage.googleapis.com/gblogs-bucket/sites/2/1_29-460x230.jpg"
+        },
+        {
+          "id": "https://gblogs.cisco.com/jp/?p=51102",
+          "author": "秦 寛樹",
+          "description": "今日の複雑な IT 環境において、最高情報セキュリティ責任者（CISO）と IT セキュリティチームが直面する最大の問題の 1 つは、パスワードを忘れたり盗まれたりすることです。従業員は平均して年間 11 時間をパスワードのリセットに費やしており、平均的な企業はパスワードの設定とリセットに年間約 500 万ドルを費やしています。これはパスワードをリセットするためだけに必要なコストです。パスワードが盗まれた場合、企業はそれ以上の損害を被る可能性があります。",
+          "link": "https://gblogs.cisco.com/jp/2024/05/%e3%82%bb%e3%82%ad%e3%83%a5%e3%83%aa%e3%83%86%e3%82%a3%e3%82%92%e6%90%8d%e3%81%aa%e3%81%86%e3%81%93%e3%81%a8%e3%81%aa%e3%81%8f%e3%83%91%e3%82%b9%e3%83%af%e3%83%bc%e3%83%89%e3%81%8b%e3%82%89%e8%a7%a3/",
+          "publishedOn": "2024-05-13T03:58:55.000Z",
+          "wordCount": 624,
+          "title": "セキュリティを損なうことなくパスワードから解放される方法とは",
+          "imageUrl": "https://storage.googleapis.com/gblogs-bucket/sites/2/1_26-460x230.jpg"
+        },
+        {
           "id": "https://gblogs.cisco.com/jp/?p=51097",
           "author": "TALOS Japan",
           "description": "先週のブログで、米国 National Vulnerability Database（NVD）の大量の脆弱性バックログから生じている問題を取り上げました。",
@@ -987,6 +1017,16 @@
           "wordCount": 672,
           "title": "ブルートフォース攻撃で使用されるパスワードから学べること",
           "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/22AS90763_eyecatch-460x230.jpg"
+        },
+        {
+          "id": "https://gblogs.cisco.com/jp/?p=51077",
+          "author": "TALOS Japan",
+          "description": "ArcaneDoor は、境界に設置されている複数のベンダーのネットワークデバイスを標的にした、国家支援の攻撃者による最新の攻撃事例です。境界にあるネットワークデバイスは国家の支援を受けた攻撃者がこぞって狙う対象であり、スパイ活動に重点を置く攻撃にうってつけの侵入ポイントです。",
+          "link": "https://gblogs.cisco.com/jp/2024/05/talos-arcanedoor-new-espionage-focused-campaign-found-targeting-perimeter-network-devices/",
+          "publishedOn": "2024-05-10T06:21:01.000Z",
+          "wordCount": 1151,
+          "title": "スパイ活動に重点を置く新たな攻撃 ArcaneDoor を発見、境界ネットワークデバイスが標的に",
+          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/16AR02220_eyecatch-460x230.jpg"
         },
         {
           "id": "https://gblogs.cisco.com/jp/?p=51057",
@@ -2070,6 +2110,16 @@
       "siteUrl": "https://jvn.jp/",
       "articles": [
         {
+          "id": "https://jvn.jp/jp/JVN28869536/",
+          "author": "jvn@jvn.jp",
+          "description": "サイボウズ株式会社が提供するサイボウズGaroonには、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN28869536/",
+          "publishedOn": "2024-05-13T04:15:00.000Z",
+          "wordCount": 144,
+          "title": "サイボウズGaroonに複数の脆弱性",
+          "imageUrl": null
+        },
+        {
           "id": "https://jvn.jp/vu/JVNVU92223138/",
           "author": "jvn@jvn.jp",
           "description": "Rockwell Automationが提供するFactoryTalk Historian SEには、複数の脆弱性が存在します。",
@@ -2536,6 +2586,66 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/05/13/50986.html",
+          "author": null,
+          "description": "これらは Google 等が求めている新基準には合致しない為、6 月以降 Gmail には届かなくなる可能性があります。新基準では「本文中の解除リンク」「ランディングページでの解除」だけでは要件を満たしているとはみなされないのです。それでは新基準が求める List-Unsubscribe についておさらいしておきましょう。公式の記載は次の通りです。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/05/13/50986.html",
+          "publishedOn": "2024-05-12T23:15:03.000Z",
+          "wordCount": 1305,
+          "title": "TwoFive メールセキュリティ Blog 第14回「いよいよ6月、メルマガが届かなくなる…!? ～ メルマガ配信している皆さん ワンクリック購読解除の List Unsubscribe対応は済んでますか？」",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/44800.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/05/13/50985.html",
+          "author": null,
+          "description": "東京地下鉄株式会社（東京メトロ）は5月2日、駅社員による遺失物の着服について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/05/13/50985.html",
+          "publishedOn": "2024-05-12T23:05:06.000Z",
+          "wordCount": 865,
+          "title": "東京メトロ社員が遺失者になりすまし、現金総額 235,458円 ほか遺失物着服",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/44730.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/05/13/50984.html",
+          "author": null,
+          "description": "株式会社テレビ東京ホールディングスは5月9日、同社が放送する番組「ヤギと大悟」の公式X（旧Twitter）アカウントの乗っ取り被害について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/05/13/50984.html",
+          "publishedOn": "2024-05-12T23:05:02.000Z",
+          "wordCount": 951,
+          "title": "テレ東「ヤギと大悟」公式 X アカウントが乗っ取り被害、意図しないポストが数件行われる",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/44798.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/05/13/50983.html",
+          "author": null,
+          "description": "警察庁は5月8日、ランサムウェア「LockBit」被疑者の起訴等について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/05/13/50983.html",
+          "publishedOn": "2024-05-12T23:00:16.000Z",
+          "wordCount": 939,
+          "title": "ランサムウェア「LockBit」被疑者の資産を凍結し起訴",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/05/13/50982.html",
+          "author": null,
+          "description": "アメリカ国家安全保障局（National Security Agency：NSA）は現地時間5月2日、米連邦捜査局（FBI）および米国務省とともに「北朝鮮の攻撃者は弱いDMARCセキュリティ・ポリシーを悪用して、スピアフィッシングの取り組みを隠蔽する」を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/05/13/50982.html",
+          "publishedOn": "2024-05-12T23:00:08.000Z",
+          "wordCount": 1043,
+          "title": "脆弱な DMARC セキュリティ・ポリシーを悪用、北朝鮮スピアフィッシング詐欺",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/05/13/50981.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は5月9日、MosP勤怠管理における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/05/13/50981.html",
+          "publishedOn": "2024-05-12T23:00:04.000Z",
+          "wordCount": 989,
+          "title": "MosP勤怠管理に複数の脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2024/05/10/50980.html",
           "author": null,
@@ -3654,6 +3764,26 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2405/13/news120.html",
+          "author": null,
+          "description": "ウイスキーなどを製造・販売する松井酒造合名会社は13日、直販サイトが第三者の不正アクセスを受け、利用者のクレジットカード情報174件が漏えいした可能性があると発表した。",
+          "link": "https://www.itmedia.co.jp/news/articles/2405/13/news120.html",
+          "publishedOn": "2024-05-13T05:43:00.000Z",
+          "wordCount": 2784,
+          "title": "明治創業の酒造会社に不正アクセス　直販サイト利用者のクレカ情報174件が漏えいした可能性",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2405/13/cover_news120.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2405/13/news052.html",
+          "author": null,
+          "description": "米ボイシ州立大学などに所属する研究者らは、インターネット接続を遮断された規制の厳しいPCであっても、CPUの処理速度を意図的に操作することで、一部のアプリケーションでひそかにデータをやりとりできる攻撃を提案した研究報告を発表した。",
+          "link": "https://www.itmedia.co.jp/news/articles/2405/13/news052.html",
+          "publishedOn": "2024-05-12T23:00:00.000Z",
+          "wordCount": 2845,
+          "title": "職場の「一部ネット接続できない規制PC」から機密データを盗むサイバー攻撃　米研究者らが発表",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2405/13/cover_news052.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2405/11/news056.html",
           "author": null,
           "description": "情報漏えいで揺れるLINEヤフーの資本関係について、ソフトバンクの宮川潤一氏（同社代表取締役社長執行役員 兼 CEO）は、5月9日の決算会見でLINEヤフーの株式取得を含めた協議を韓国NAVER側と行っていることを明かした。具体的な比率についてはまだ決まってないとしている。",
@@ -4150,6 +4280,86 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1590896.html",
+          "author": null,
+          "description": "Amazon.co.jpのNETGEARストアでは現在、LAN関連製品のタイムセールが行われている。その一環で、同社のスイッチングハブ（いずれもアンマネージスイッチ）各種がタイムセール価格で販売中だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1590896.html",
+          "publishedOn": "2024-05-13T04:39:30.000Z",
+          "wordCount": 5009,
+          "title": "2.5GbEやPoE対応のNETGEARスイッチングハブがタイムセール中！　Amazonお買い得情報　8ポートでPoE++にも対応する「MS108UP-100JPS」は4万7000円",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1590/896/netgear2.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1590895.html",
+          "author": null,
+          "description": "Amazon.co.jpのKindleストアでは現在、5月23日までの期間限定で「Kindle本 コンピューター＆IT関連本 セール」を開催中だ。コンピュータ・IT関連の書籍が、最大55％の割引販売となっている。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1590895.html",
+          "publishedOn": "2024-05-13T04:32:29.000Z",
+          "wordCount": 5022,
+          "title": "最大55％OFF！Amazonで「コンピューター＆IT関連本セール」開催中　「Notionライフハック」が924円など500冊以上がセール対象",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1590/895/kindle0513.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1590844.html",
+          "author": null,
+          "description": "LG Electronicsが15年ほど前に制作したスマートフォンの宣伝動画が、先日Appleが公開した“クラッシュ動画”にそっくりだと話題になっている。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1590844.html",
+          "publishedOn": "2024-05-13T02:55:00.000Z",
+          "wordCount": 4606,
+          "title": "15年前のLG製スマホの宣伝動画、批判殺到のiPad Proのクラッシュ動画に酷似で話題に【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1590/844/yajiuma-watch_3.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1590590.html",
+          "author": null,
+          "description": "サンワサプライ株式会社は5月9日、USB Type-Cケーブル「500-USB081」を発売した。直販サイト「サンワダイレクト」での価格は、ケーブル長1mの「500-USB081-1BK」が980円、2mの「500-USB081-2BK」が1080円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1590590.html",
+          "publishedOn": "2024-05-12T22:30:00.000Z",
+          "wordCount": 5009,
+          "title": "片側L字コネクタ採用、60Wまで対応する高耐久USB Type-Cケーブル「500-USB081」シリーズ、サンワサプライが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1590/590/sub9.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/teleworkstory/1586871.html",
+          "author": null,
+          "description": "2020年の緊急事態宣言発令によって、テレワークが始まってから4年が経った。その時に会社から支給されたノートPCやヘッドセット、マウスなどが、そろそろボロくなってきた気がする。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/teleworkstory/1586871.html",
+          "publishedOn": "2024-05-12T22:00:00.000Z",
+          "wordCount": 5037,
+          "title": "「テレワーク開始から4年……。周辺機器を格安でリフレッシュしてみた」――急遽テレワークを導入した中小企業の顛末記(185)【急遽テレワーク導入！の顛末記】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1586/871/1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/curation/1590596.html",
+          "author": null,
+          "description": "アップルは日本時間5月7日に新製品発表イベントを開催し、「iPad Air」と「iPad Pro」の新モデルなどを発表した（ケータイWatch）。最も注目されるのは、新しい高性能プロセッサ「M4」を初搭載し、これまでになく薄くなった「iPad Pro（M4）」だ。今後のAIでの用途を見込んでのものと思われるが、具体的なことは発表されていない。予定されている開発者会議「WWDC」での話題となるのだろうか。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/curation/1590596.html",
+          "publishedOn": "2024-05-12T21:55:00.000Z",
+          "wordCount": 5054,
+          "title": "【いま知っておくべき5つのニュース】コンテンツホルダーはOpenAIと協業すべきか敵対すべきか ほか［2024/4/25～5/8］",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1590/596/shutterstock_1019006956_main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1590620.html",
+          "author": null,
+          "description": "一般社団法人LBMA Japanは、位置情報データの活用をテーマとしたイベント「ロケーションビジネス＆マーケティングEXPO（LBM EXPO）2024」を5月21日・22日の2日間、東京都立産業貿易センター浜松町館（東京都港区）にて開催する。入場は無料で、事前オンライン登録が必要。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1590620.html",
+          "publishedOn": "2024-05-12T21:10:00.000Z",
+          "wordCount": 5046,
+          "title": "位置情報データのマネタイズと社会実装がテーマのイベント、5月21日・22日に「ロケーションビジネス＆マーケティングEXPO2024」開催　求職者・大学院生・大学生が対象のリクルーティングフェアも5月22日に同時開催",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1590/620/lbmexpo01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/shimizu/1586340.html",
+          "author": null,
+          "description": "総務省、国立研究開発法人情報通信研究機構（NICT）、一般社団法人ICT-ISACの連携プロジェクト「NOTICE」の新バージョンが、2024年4月から開始された。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/shimizu/1586340.html",
+          "publishedOn": "2024-05-12T21:00:00.000Z",
+          "wordCount": 5067,
+          "title": "管理放棄状態のルーターが多いのは個人？ 法人？ 「NOTICE」で浮かび上がってきた他人まかせの惨状【イニシャルB】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1586/340/001.jpg"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/weekly/1590563.html",
           "author": null,
@@ -5613,6 +5823,26 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240512-2944118/",
+          "author": null,
+          "description": "Google Chromeチームは5月9日(米国時間)、Google Chrome安定版のセキュリティアップデートを公開した。このアップデートには1件の脆弱性の修正が含まれている。Googleは脆弱性のエクスプロイト(侵害手段)が存在することを認識していると報告しており、すでに悪用されているものとみられる。",
+          "link": "https://news.mynavi.jp/techplus/article/20240512-2944118/",
+          "publishedOn": "2024-05-12T10:31:05.000Z",
+          "wordCount": 1753,
+          "title": "Google Chrome、ゼロデイの脆弱性修正するセキュリティアップデート - 悪用確認済み",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240512-2944118/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240512-2944117/",
+          "author": null,
+          "description": "Malwarebytesは5月10日(米国時間)、Dellから4,900万件の顧客情報が流出したと報じた。Dellは、「Menelik」と名乗る脅威アクターが同社の情報を窃取したとサイバー犯罪フォーラムに投稿したことを受け、対象の顧客に通知を開始したとみられる。窃取された情報には電話番号および電子メールアドレスは含まれないという。",
+          "link": "https://news.mynavi.jp/techplus/article/20240512-2944117/",
+          "publishedOn": "2024-05-12T09:11:42.000Z",
+          "wordCount": 1733,
+          "title": "Dellから4,900万件の顧客情報が流出か",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240512-2944117/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20240510-2943310/",
           "author": null,
