@@ -289,6 +289,26 @@
       "siteUrl": "https://www.ipa.go.jp/about/index.html",
       "articles": [
         {
+          "id": "https://www.ipa.go.jp/digital/dx/suidou-case-study-guidebook.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「水道情報活用システムに係る事例集・ガイドブックについて」に関する情報です。",
+          "link": "https://www.ipa.go.jp/digital/dx/suidou-case-study-guidebook.html",
+          "publishedOn": "2024-06-17T15:00:00.000Z",
+          "wordCount": 511,
+          "title": "水道情報活用システムリーフレットを公開しました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
+          "id": "https://www.ipa.go.jp/security/10threats/10threats2024.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「情報セキュリティ10大脅威 2024」に関する情報です。",
+          "link": "https://www.ipa.go.jp/security/10threats/10threats2024.html",
+          "publishedOn": "2024-06-17T15:00:00.000Z",
+          "wordCount": 1371,
+          "title": "「情報セキュリティ10大脅威 2024」簡易説明資料 [個人編]（一般利用者向け）および知っておきたい用語や仕組みを公開しました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
           "id": "https://www.ipa.go.jp/jinzai/mitou/advanced/2023/seika.html",
           "author": "情報処理推進機構（IPA）",
           "description": "情報処理推進機構（IPA）の「2023年度未踏アドバンスト事業プロジェクト成果」に関する情報です。",
@@ -1160,6 +1180,26 @@
       "siteUrl": "https://tech-lab.sios.jp",
       "articles": [
         {
+          "id": "https://tech-lab.sios.jp/?p=41876",
+          "author": "佐々木寛太",
+          "description": "初めに PS/SLの佐々木です。 今までWeb3チームではEthereumのようなパブリックチェーンを使用しての開発や技術検証を行ってきましたが、今年から新しい取り組みとしてコンソーシアム型のチェーンやプライベートチェー [...]\nHyperledeger Fabricのチュートリアルをやってみる Part1 first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/41876",
+          "publishedOn": "2024-06-18T04:25:49.000Z",
+          "wordCount": 3137,
+          "title": "Hyperledeger Fabricのチュートリアルをやってみる Part1",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2024/06/647b0ed6cdda2423f8ba17b03f37ded3.png"
+        },
+        {
+          "id": "https://tech-lab.sios.jp/?p=41862",
+          "author": "うみのこ",
+          "description": "想定読者 オブジェクト指向プログラミングに興味がある 可読性が高く、変更に強いプログラムを作りたい SOLID原則を理解して周りに「ドヤァ( ^)o(^ )」したい（自己満足でも可） はじめに SOLID原則は以下の5つ [...]\nSOLID原則って何ぞや？（開放閉鎖の原則編） first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/41862",
+          "publishedOn": "2024-06-18T01:57:31.000Z",
+          "wordCount": 3187,
+          "title": "SOLID原則って何ぞや？（開放閉鎖の原則編）",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2024/06/Frame-5.png"
+        },
+        {
           "id": "https://tech-lab.sios.jp/?p=41823",
           "author": "AM",
           "description": "Azure OpenAI ServiceによるRAGハンズオン開催のお知らせ 〜独自データを用いた生成AIの利活用を学ぶ〜【初級編】 この度、「Azure OpenAI ServiceによるRAG実装ガイド」をダウンロー [...]\n【7/24無料開催】Azure OpenAI ServiceによるRAGハンズオン 〜独自データを用いた生成AIの利活用を学ぶ〜初級編 first appeared on SIOS Tech. Lab.",
@@ -1343,6 +1383,16 @@
       "siteUrl": "https://eset-info.canon-its.jp/",
       "articles": [
         {
+          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/240618.html",
+          "author": null,
+          "description": "高度化・巧妙化するサイバー攻撃への対策として、セキュリティ業務のアウトソーシングサービスが登場している。中でも、SOCの機能を代替するとされるMDRへの注目度が高まっている。この記事では、MDRの概要や、どういったインシデントに有効なのかを踏まえながら、セキュリティ体制構築のベストプラクティスを考察していく。\n\n\n\n\n\nMDRとSOCの違いは？\n\n日増しに巧妙化するサイバー攻撃に対抗すべく、企業・組織ではセキュリティ体制の強化が急務となっている。そうした状況において、セキュリティ領域の業務を一部アウトソーシングする動きも進んでいる。そこで注目を集めているのがMDR（Managed Detection and Response）だ。\n\nMDRとは、簡潔にまとめると、EDRやXDRといった脅威の侵入のモニタリングを行うソリューションの運用、そして侵入後の事後対応をアウトソーシングできるサービスだ。MDRでは、セキュリティを専門とするベンダーが支援を行うが、あくまですべての業務をアウトソーシングするわけではなく、社内の専任組織との連携が前提となる。したがって、そもそもセキュリティ体制が社内で構築されていない場合、SOCやCSIRTといったセキュリティ専任組織の設置が求められる。\n\nSOCとは\n\n端的に言えば、セキュリティインシデントの検知に重点を置くのがSOC（Security Operation Center）だ。サーバーや社内ネットワーク、エンドポイントなどの常時監視が求められる。設置するセキュリティソリューションから出力されるログを分析し、攻撃の兆候を検知するなどの業務を行う。\n\nCSIRTとは\n\nSOCで検知された攻撃やインシデントへの対応を行うのがCSIRT（Computer Security Incident Response Team）だ。侵入を最小限に食い止めるための初動対応だけでなく、緊急時以外はセキュリティ情報の収集や従業員教育などを担うこともある。\n\nSOCもCSIRTも担当する領域が広く、業務も多岐にわたることから、企業・組織内でチームとして活動するケースが多い。ただし、そのためにはセキュリティの専門性を有する人材を配置する必要があり、設置を検討する企業・組織にとっては、そうしたセキュリティ人材の不足が大きなハードルとなっている場合も少なくないだろう。\n\nMDRのサービスによっては、こうしたSOCやCSIRTの業務の一部を代替するものもある。そのため、セキュリティの専門人材を自社で配置することが難しい企業・組織において、MDRを導入する動きが進んでいる。\n\nSOCとCSIRTは何が違う？インシデント対応で求められる組織構成とは？\n\nMDRが請け負うセキュリティ領域\n\nMDRは厳密に言えば、EDRやNDR、XDRなどの高度なセキュリティソリューションの運用を請け負うサービスだ。EDR、NDR、XDRはいずれもインシデントの検知・対処に重点を置くソリューションだが、それぞれカバーする範囲が異なる。\n\nEDR（Endpoint Detection and Response）\n\nエンドポイントでマルウェアによる不審な動きがないかどうか常時監視を行い、ログを取得するソリューションがEDRだ。ログデータはサーバー上に集積され、分析処理が行われる。疑わしい挙動の兆候が検知されると、すぐに管理者に通知し、速やかに隔離する。システムへの侵入を前提に、事後対応を効率的かつ迅速に行うことで、被害の最小化を目指す。\n\nNDR（Network Detection and Response）\n\n社内のネットワークを流れるトラフィックを包括的に監視することで、未知・既知のリスクにリアルタイムで対応するというゼロトラストのセキュリティ概念をもとにしているソリューションがNDRだ。専用のハードウェアをネットワークに組み込み、行き交うパケットのふるまいを監視してネットワーク全体の異常を検知する。\n\nXDR（Extended Detection and Response）\n\nEDR、NDRのように監視対象を限定せず、統合的に集中管理するソリューションがXDRだ。XDRの「X」は「Cross（横断した）」あるいは「Extended（拡張した）」の意味であり、全体を俯瞰してリスクを監視、可視化する。\n\nつまり、EDR、NDR、XDRの中で最も広範囲をカバーするのがXDRだ。昨今のランサムウェアをはじめとするマルウェアの脅威はエンドポイント、ネットワーク、いずれかを常時監視すれば防げるものではなく、それぞれをシームレスに監視・分析することが求められる。\n\nこうした時代背景によりXDRが登場したものの、監視範囲が広がる分だけ、分析すべき領域も増えてしまうことがネックとなる。また、こうしたソリューションの運用にも専門的な知識・経験を有した人材の配置が必要となる。そのため、そうした運用を「マネージド（Managed）」するアウトソーシングサービスとしてMDRが注目されているのだ。\n\n次世代のセキュリティソリューション？XDRとEDRの違い\n\nMDRが有効なインシデント例\n\n近年のサイバー攻撃において攻撃者は侵入の糸口を掴むべく、「隙」を探し出し狙いを定める。そうした一連の攻撃活動を高度な監視体制によって早い段階で検知し、対処できれば被害の影響を最小限に抑えられる。昨今、世間を賑わせた以下のようなインシデント例にもMDRが有効な対策となり得る。\n\nランサムウェア攻撃\n\nランサムウェア攻撃ではVPN機器やRDPの脆弱性を悪用するケースが多い。これらの攻撃は従来の監視だけでは初期段階の検知が難しく、侵入後にラテラルムーブメント（水平展開または横展開）などでランサムウェアが拡散され、データの窃取や不正に暗号化をされてしまった後では被害の影響を抑えられない。そのため、高度な監視体制で不正な侵入を迅速に検知し、早い段階から対処していくことが求められる。MDRの導入が有効だと言えるのはそのためだ。\n\nEmotetなどのマルウェア攻撃\n\nたびたび流行を繰り返すマルウェアの1つがEmotetだ。再流行のたびに手口を巧妙化させることもあり、IPAをはじめ、公的機関などではたびたび注意喚起が行われている。Emotetの主な侵入経路はメールとなるが、手口が進化していることから完全なる予防は困難となりつつある。\nそのため、仮にEmotetに感染してしまった場合でも、その影響範囲が広がらないうちに感染端末を隔離することが重要だ。MDRのように、エンドポイントなどの兆候を常時監視することで、こうした対処も可能となる。\n\nサプライチェーン攻撃\n\nサプライチェーン攻撃もマルウェア攻撃同様、昨今の日本国内の企業・組織を狙うサイバー攻撃の代表例だ。近年のサプライチェーン攻撃では、関連企業や海外拠点、委託先などから初期侵入を試み、そこを踏み台として本命のターゲット企業へ侵入を行っていく。そうした攻撃の兆候を早い段階で掴み、隔離するためにも、高度な監視体制を確立するMDRが有効だ。\n\nいずれのインシデントにおいても、何かしら不正な兆候が見つかった際に、どれだけ迅速に対処できるかがその後の被害を最小化できるかの明暗を分ける。このように、インシデントの発生を前提に、その兆候を可能な限り早いタイミングで検知するためにも、高度な監視体制が求められる。MDRは監視・運用をアウトソースすることで、高度な監視体制を実現するソリューションなのだ。\n\nサプライチェーン攻撃はなぜ起こる？中小・零細企業が講じるべき対策とは？\n\nMDR選定時に注意すべき5つのポイント\n\n先述のとおり、昨今の高度なサイバー攻撃に対抗するために有効なMDRだが、選定する際に注意すべきポイントを以下に挙げていく。\n\n検知力の高さ、誤検知の低さ\n\nゼロデイ攻撃を挙げるまでもなく、昨今のサイバー攻撃はその攻撃サイクルが自動化・高速化している。そのため、未知・既知を問わずセキュリティインシデントを検知するエンドポイント保護（EPP）とXDRの検知率の高さはもちろんのこと、誤検知率の低さが製品には求められる。\n\n24時間365日対応\n\nサイバー攻撃は、いつ何時起こるかわからない。そのために常時監視を行う必要性があり、何かしら攻撃の兆候を検知したりインシデントが生じたりした際には、速やかな対処が求められる。24時間365日で対応可能という点はMDRでは当然の要件となる。\n\n国内、日本語対応\n\nインシデント発生時、多くの場合で社内は少なからず混乱に陥ってしまう。そのため、普段から外国語を使用していても、緊急時には理解がおぼつかなくなるものだ。緊急時は一刻も早く、正確な判断・対処が求められるため、母国語で対応するサービスが望ましいだろう。\n\n自社に応じたチューニング\n\n企業によって事業内容、社内体制が異なるのに加え、インシデントの起こるパターンも異なる。また、企業・組織によって利用するシステムやアプリケーションが異なるのは言うまでもない。さらには、通信のデータも異なることから、ソリューションから発せられるアラートもそれぞれ違う。平時の段階から、そうした誤検知アラートを除外、精査しておくことでアラートの精度が向上する。MDRのベンダーには、そうしたアラートの精査のための対処力、専門性が求められる。\n\n運用負荷の軽減\n\n先述したとおり、サイバー攻撃の巧妙化・高度化を含め、さまざまな背景から企業・組織ではセキュリティ体制の構築が急務となっている。その一方で、XDRの運用をはじめマルウェアの駆除など、専門性が求められるものの、高度な業務を担う人材は多くの企業・組織において慢性的な不足状態に陥っている。そのため、MDRを導入することで、自社で担うことが難しい領域を補完するなど、運用負荷の軽減につながるかどうかも重要な選定の要素となり得る。\n\n\n\n図1：ESET PROTECT MDR導入による運用負荷軽減のイメージ\n\n\nESET PROTECT MDRでは、図1のようにインシデント発生時の初動対応、脅威モニタリング、初期最適化（チューニング）といった作業が不要となり、XDRの運用負荷は大きく軽減されることになる。また、脅威侵入の予防や検知のエンドポイント保護（EPP）／XDRと、それらソリューションの運用監視を担うMDRをワンストップで提供しているため、1つの監視ツールで一元管理が可能だ。\n\n従来、こうした範囲の業務はSOCが担ってきたが、その代替としてMDRのようなアウトソーシングサービスの利用が増えているのだ。今後の企業・組織を取り巻く環境を鑑みても、サイバー攻撃に対処していくための業務量は増大していくことが見込まれる。結果的にこうした業務がおざなりとなれば、インシデント発生時に甚大な被害につながりかねない。\n\n大手企業だけでなく、中堅企業などでMDRの導入機運が高まっているのも、こうした時代背景や今後を見据えた動きであることは想像に難くない。サイバー攻撃がますます激化していくことが確実視される時代において、何かが起きる前の平時にこそ、何をどのように選択するかが企業・組織には問われている。",
+          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/240618.html",
+          "publishedOn": "2024-06-17T15:00:00.000Z",
+          "wordCount": 220,
+          "title": "MDRとSOC、セキュリティ体制構築のベストプラクティスとは",
+          "imageUrl": "https://eset-info.canon-its.jp/files/topics/4572_ext_01_0.jpg"
+        },
+        {
           "id": "https://eset-info.canon-its.jp/malware_info/news/detail/240612.html",
           "author": null,
           "description": "マイクロソフト社より、6月12日 にセキュリティ更新プログラムの情報が公開されました。\n今回公開されたプログラムではセキュリティ面での深刻度「緊急」のものが4件含まれています。\n\n今後のこれらの脆弱性を悪用したマルウェアなどによる攻撃に備え、早期にセキュリティ更新プログラムの適用を推奨いたします。今回のセキュリティ更新プログラムで修正した脆弱性には、更新プログラムが公開されるよりも前に脆弱性の詳細が公開されているものが含まれていますので、早急に更新プログラムの適用を行ってください。\n\n【プログラム一覧】\n以下の情報は、マイクロソフト社のページからのものです。\n2024 年 6 月のセキュリティ更新プログラム (月例)\n\n更新プログラムの詳細はマイクロソフト社のページでご確認下さい。\n\n\n\t\n\t\t\n\t\t\t最大深刻度\n\t\t\t製品ファミリ\n\t\t\t最も大きな影響\n\t\t\n\t\t\n\t\t\t緊急\n\t\t\tWindows 11 v23H2, v22H2、v21H2\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t緊急\n\t\t\tWindows 10 v22H2、v21H2\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t緊急\n\t\t\tWindows Server 2022, 23H2 (Server Core installationを含む)\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t緊急\n\t\t\tWindows Server 2019、2016 (Server Core installationを含む)\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t重要\n\t\t\tMicrosoft Office\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t重要\n\t\t\tMicrosoft SharePoint\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t重要\n\t\t\tMicrosoft Visual Studio\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t重要\n\t\t\tMicrosoft Dynamics 365\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t重要\n\t\t\tMicrosoft Azure\n\t\t\t特権の昇格\n\t\t\n\t\n\n\nWindows Update などを用いて、セキュリティ更新プログラムを早急に適用しましょう。更新プログラムを適用することで、パソコンのセキュリティを保つことができます。",
@@ -1432,6 +1482,39 @@
       "feedUrl": "https://www.nic.ad.jp/ja/index.xml",
       "siteUrl": "https://www.nic.ad.jp/",
       "articles": [
+        {
+          "id": "https://www.nic.ad.jp/ja/stat/dom/gtld.html",
+          "author": null,
+          "description": "gTLDの登録数\n＜注意＞\n以下のデータは、各gTLDレジストリ(またはスポンサー組織)がICANNに提出する月間報告書に基づいています。\nデータが公開されていないgTLD(.edu/.gov/.int/.mil)については含まれていません。\nカッコ内の数字は日本国内での登録数を示しています。\n2012年に実施された「新gTLDプログラム」に基づいて、 2013年10月以降に追加された新gTLDについては、上記月間報告書をご覧ください。 \n\n                  .aero\n                  .asia\n                  .biz\n                  .cat\n                  .com\n                  .coop\n                  .info\n                  .jobs\n                  .mobi\n                  .museum\n                  .name\n                  .net\n                  .org\n                  .post\n                  .pro\n                  .tel\n                  .travel\n                  .xxx\n                  \n                \n2024年\n                  2月\n                  13,414\n                  \n                  339,201\n                …",
+          "link": "https://www.nic.ad.jp/ja/stat/dom/gtld.html",
+          "publishedOn": "2024-06-17T09:00:12.000Z",
+          "wordCount": null,
+          "title": "[Web更新]gTLDの登録数を更新　2024年2月分を追加",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2024/vol2084.html",
+          "author": null,
+          "description": "https://www.packetfabric.co.jp/release/?p=1096           □\n■■■■■■■■   （旧ユニタスグローバル株式会社）   ■■■■■■■■\n----------------------------------------------------------------------\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n◆ News & Views vol.2084 です\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n毎月15日(土日祝の場合はその翌営業日)に発行している定期号では、特集記\n事のみならず、業界メンバーのコラムや用語解説、統計などもお届けしてい\nます。\n\n本号の特集では、2024年7月25日(木)・26日(金)に福岡県福岡市で開催する、\n「Internet Week ショーケース in 福岡」を取り上げます。2023年11月に開\n催したInternet Week 2023のプログラムから厳選・再構成・アップデートし、\n無料でお届けするイベントとなります。今回はなんと、会場がeスポーツ施設\nということで、eスポーツ体験の交流イベントもありますよ。\n\nプログラムを公開し、参加申込も開始しましたので、ぜひご登録ください。\n\n   Internet Week ショーケース in 福岡 Webサイト\n   https://internetweek.jp/sc-fukuoka/\n\n   参加登録はこちらから(参加費無料)\n   https://internetweek.jp/sc-fukuoka/application\n\nNews & Views Columnでは、サイバーセキュリティ分野の第一線でご活躍な\nさっている、SBI EVERSPIN株式会社の尹慈…",
+          "link": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2024/vol2084.html",
+          "publishedOn": "2024-06-17T05:51:18.000Z",
+          "wordCount": null,
+          "title": "[メルマガ]vol.2084:【定期号】特集：「Internet Week ショーケース in 福岡」を開催します",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2024/vol2083.html",
+          "author": null,
+          "description": "https://blog.nic.ad.jp/2024/9809/\n\n\n┏◆ 先週のトピックスとお知らせ 計2件\n┗━━━━━━━━━━━━━━━━━━━━━━\n\n・JPNICが「マルチステークホルダー主義を支持する技術コミュニティ連合」\n  (TCCM)に加入(2024/6/13)\n  https://www.nic.ad.jp/ja/topics/2024/20240613-01.html\n\n・IGF 2023に向けた国内IGF活動活発化チーム第50回会合開催のご案内\n  (2024/6/12)\n  https://www.nic.ad.jp/ja/topics/2024/20240612-01.html\n\n\n┏◆ 先週のWeb更新情報 計1件\n┗━━━━━━━━━━━━━━━━━━━━━━\n\n・IPアドレスに関する統計・各種リスト以下のグラフを更新(2024/6/12)\n  2024年5月のデータを追加\n  https://www.nic.ad.jp/ja/stat/ip/\n\n\n┏◆ イベント等のお知らせ 計5件\n┗━━━━━━━━━━━━━━━━━━━━━━\n\n  ◇ IGF 2023に向けた国内IGF活動活発化チーム第50回会合 ◇\n\n     本日6月17日(月)17時よりオンラインで開催します。本チーム会合は、\n     京都で開催されたIGF 2023に向けてNational IGFとしての活動を準備す\n     るために有志が集まって開催してきました。IGF開催後は、国内IGF活動\n     として継続できるよう検討を進めています。\n\n       IGF 2023に向けた国内IGF活動活発化チーム第50回会合開催のご案内\n       https://www.nic.ad.jp/ja/topics/2024/20240612-01.html\n\n\n  ◇ …",
+          "link": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2024/vol2083.html",
+          "publishedOn": "2024-06-17T04:36:54.000Z",
+          "wordCount": null,
+          "title": "[メルマガ]vol.2083:【トピックス号】先週のトピックスとWeb更新情報",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://blog.nic.ad.jp/2024/9809/",
           "author": null,
@@ -2002,6 +2085,26 @@
       "siteUrl": "https://jvn.jp/",
       "articles": [
         {
+          "id": "https://jvn.jp/jp/JVN00442488/",
+          "author": "jvn@jvn.jp",
+          "description": "株式会社リコーが提供するRicoh Streamline NX PC Clientには、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN00442488/",
+          "publishedOn": "2024-06-18T05:00:00.000Z",
+          "wordCount": 218,
+          "title": "Ricoh Streamline NX PC Clientにおける複数の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/jp/JVN65171386/",
+          "author": "jvn@jvn.jp",
+          "description": "エフサステクノロジーズ株式会社が提供するID リンク・マネージャーおよびFUJITSU Software TIME CREATORには複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN65171386/",
+          "publishedOn": "2024-06-18T03:00:00.000Z",
+          "wordCount": 163,
+          "title": "ID リンク・マネージャーおよびFUJITSU Software TIME CREATORにおける複数の脆弱性",
+          "imageUrl": null
+        },
+        {
           "id": "https://jvn.jp/vu/JVNVU96920775/",
           "author": "jvn@jvn.jp",
           "description": "富士電機が提供するTellus Lite V-Simulatorには、複数の脆弱性が存在します。",
@@ -2459,6 +2562,16 @@
       "siteUrl": "https://msrc.microsoft.com/blog/",
       "articles": [
         {
+          "id": "https://msrc.microsoft.com/blog/2024/06/mitigating-ssrf-vulnerabilities-impacting-azure-machine-learning/",
+          "author": null,
+          "description": "Summary On May 9, 2024, Microsoft successfully addressed multiple vulnerabilities within the Azure Machine Learning (AML) service, which were initially discovered by security research firms Wiz and Tenable. These vulnerabilities, which included Server-Side Request Forgeries (SSRF) and a path traversal vulnerability, posed potential risks for information exposure and service disruption via Denial-of-Service (DOS).",
+          "link": "https://msrc.microsoft.com/blog/2024/06/mitigating-ssrf-vulnerabilities-impacting-azure-machine-learning/",
+          "publishedOn": "2024-06-17T07:00:00.000Z",
+          "wordCount": 2024,
+          "title": "Mitigating SSRF Vulnerabilities Impacting Azure Machine Learning",
+          "imageUrl": null
+        },
+        {
           "id": "https://msrc.microsoft.com/blog/2024/06/improved-guidance-for-azure-network-service-tags/",
           "author": null,
           "description": "Summary Microsoft Security Response Center (MSRC) was notified in January 2024 by our industry partner, Tenable Inc., about the potential for cross-tenant access to web resources using the service tags feature. Microsoft acknowledged that Tenable provided a valuable contribution to the Azure community by highlighting that it can be easily misunderstood how to use service tags and their intended purpose.",
@@ -2538,6 +2651,66 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/06/18/51162.html",
+          "author": null,
+          "description": "ちなみに保健福祉省の方針により、各病院は任意でヘルスケア特化型サイバーセキュリティのパフォーマンス目標を設定しているが、これが義務化される可能性が高い。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/06/18/51162.html",
+          "publishedOn": "2024-06-17T23:10:02.000Z",
+          "wordCount": 1061,
+          "title": "米政府、病院 IT システムの自動パッチ適用ツールに 80 億円投入",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/45163.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/06/18/51161.html",
+          "author": null,
+          "description": "有限会社ラバーソウルは6月9日、「GLAY 30th Anniversary GLAY EXPO2024-2025」の偽ライブ生配信、生中継を騙るフィッシングサイトの注意喚起を「GLAY公式サイト」で発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/06/18/51161.html",
+          "publishedOn": "2024-06-17T23:05:08.000Z",
+          "wordCount": 986,
+          "title": "GLAYの偽ライブ生配信 生中継騙るフィッシングサイトに注意呼びかけ",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/06/18/51160.html",
+          "author": null,
+          "description": "江崎グリコ株式会社は6月11日、同社基幹システム障害に伴う一部商品の出荷再開について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/06/18/51160.html",
+          "publishedOn": "2024-06-17T23:05:05.000Z",
+          "wordCount": 866,
+          "title": "グリコの基幹システム障害、一部商品出荷を 6 / 25 以降再開",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/45155.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/06/18/51159.html",
+          "author": null,
+          "description": "神奈川県横浜市は6月7日、横浜市営斎場における不適切な経理事務について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/06/18/51159.html",
+          "publishedOn": "2024-06-17T23:05:02.000Z",
+          "wordCount": 910,
+          "title": "私費で支払 請求書紛失 支払遅延 ～ 横浜市営斎場で不適切な経理事務",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/45131.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/06/18/51158.html",
+          "author": null,
+          "description": "個人情報保護委員会は6月11日、令和5年度の個人情報保護委員会年次報告の概要等を公表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/06/18/51158.html",
+          "publishedOn": "2024-06-17T23:00:11.000Z",
+          "wordCount": 957,
+          "title": "個人情報保護委員会 令和 5 年（2023）度 年次報告概要公表",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/06/18/51157.html",
+          "author": null,
+          "description": "Google は6月7日、Google セキュリティチームがどのように Reporting API を使用して潜在的な問題を検出し、実際の問題を特定しているか、同社ブログで発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/06/18/51157.html",
+          "publishedOn": "2024-06-17T23:00:03.000Z",
+          "wordCount": 1011,
+          "title": "Google セキュリティチームは Reporting API をどう使って潜在的問題を検出しているか",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2024/06/17/51156.html",
           "author": null,
@@ -3946,6 +4119,16 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2406/18/news103.html",
+          "author": null,
+          "description": "Xで「Chrome拡張版LINEがキーロギング（キーボードからの入力を記録）している」とする旨の投稿が話題に。LINEヤフーに真偽を聞いた。",
+          "link": "https://www.itmedia.co.jp/news/articles/2406/18/news103.html",
+          "publishedOn": "2024-06-18T01:16:00.000Z",
+          "wordCount": 2805,
+          "title": "「Chrome版LINE」がキーロギングしている？　SNSで物議　LINEヤフーに真偽を聞いた",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2406/18/cover_news103.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2406/17/news143.html",
           "author": null,
           "description": "名古屋大学医学部附属病院は、医学系研究科の学生が2020年3月、SNSに同病院の患者2人の氏名などが入った電子カルテ画面の写真を投稿していたとして、謝罪文を公表した。",
@@ -4642,6 +4825,76 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1600940.html",
+          "author": null,
+          "description": "Amazon.co.jpの日替わりタイムセールコーナーで、ASUSとバッファローのWi-Fi 6対応ルーターがセール中になっている。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1600940.html",
+          "publishedOn": "2024-06-18T03:50:28.000Z",
+          "wordCount": 5024,
+          "title": "Amazon日替わりタイム―ルで、ASUSとバッファローのWi-Fi 6ルーターがお買い得！",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1600/940/asus.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1600877.html",
+          "author": null,
+          "description": "認定NPO法人ふるさと回帰支援センターは、7月6日に合同移住相談会「東北移住＆つながり大相談会 2024」を東京交通会館（東京都千代田区有楽町2-10-1）で開催する。時間は11時～16時30分。参加は無料で申し込みも不要だが、事前登録すると当日の入場がスムーズだとしている。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1600877.html",
+          "publishedOn": "2024-06-18T02:45:00.000Z",
+          "wordCount": 5009,
+          "title": "東北6県の移住イベント「東北移住＆つながり大相談会 2024」、7月6日に有楽町で実施",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1600/877/main.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1600826.html",
+          "author": null,
+          "description": "Adobeのサブスクリプションプランの解約手順が難しすぎるとして、米司法省が同社を提訴したことが明らかになった。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1600826.html",
+          "publishedOn": "2024-06-18T01:35:00.000Z",
+          "wordCount": 4576,
+          "title": "「サブスクプランの解約手順が難しすぎる」米司法省がAdobeを提訴。日本に影響は？【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1600/826/yajiuma-watch_4.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1600825.html",
+          "author": null,
+          "description": "YouTubeがX（旧Twitter）のコミュニティノートそっくりの機能のテストを開始し、話題になっている。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1600825.html",
+          "publishedOn": "2024-06-18T01:35:00.000Z",
+          "wordCount": 4577,
+          "title": "YouTube、Xのコミュニティノート激似の機能のテストを開始。他のSNSにも波及か【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1600/825/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/ranking/1600516.html",
+          "author": null,
+          "description": "前週に閲覧数の多かった記事を、カテゴリーごとに上位5位までレポートします。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/ranking/1600516.html",
+          "publishedOn": "2024-06-17T21:55:00.000Z",
+          "wordCount": 5039,
+          "title": "LINE Pay終了発表の5時間前に関連サービスを発表したOKI、不憫すぎると話題に～やじうまWatchの記事に注目集まる【アクセスランキング】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1600/516/yajiuma-watch_4.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1600612.html",
+          "author": null,
+          "description": "ティーピーリンクジャパン株式会社（TP-Link）は6月14日、屋内用ネットワークカメラ「Tapo C202」を発売した。市場想定価格は4900円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1600612.html",
+          "publishedOn": "2024-06-17T21:45:00.000Z",
+          "wordCount": 5019,
+          "title": "TP-Link、パンチルト対応で5千円を切るネットワークカメラ「Tapo C202」発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1600/612/11.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/vpro_takumi/1594200.html",
+          "author": null,
+          "description": "昨今、サイバー攻撃で様々なサービスが停止したり、個人情報が漏えいしたり、といったことは日常茶飯事だ。企業は常にサイバー攻撃にさらされており、わずかな抜け道や脆弱性によって、大問題に発展することも珍しくない。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/vpro_takumi/1594200.html",
+          "publishedOn": "2024-06-17T21:00:00.000Z",
+          "wordCount": 4688,
+          "title": "企業セキュリティの穴を、実際に攻撃して見つける「ペネトレーションテスト」のスゴさを聞く[Sponsored]",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1594/200/001.jpg"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/1600584.html",
           "author": null,
@@ -7065,6 +7318,46 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240617-2967409/",
+          "author": null,
+          "description": "ドワンゴは6月14日、ランサムウェアを含む大規模なサイバー攻撃を受け、ニコニコサービス全般および社内業務システムの一部を停止したと発表した。KADOKAWAが運営するデーターセンターがサイバー攻撃を受け、相当数の仮想マシンが暗号化されたという。復旧には1カ月以上かかる見込み。",
+          "link": "https://news.mynavi.jp/techplus/article/20240617-2967409/",
+          "publishedOn": "2024-06-17T07:27:24.000Z",
+          "wordCount": 3057,
+          "title": "KADOKAWAのシステム停止はランサムウェアが原因、ニコニコなど復旧は1カ月以上先",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240617-2967409/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240617-secraward-shibushi/",
+          "author": null,
+          "description": "志布志市は2023年6月、同市が運営するふるさと納税特設サイトに対する外部からの不正アクセスにより、クレジットカード情報を含む個人情報が流出する事故が発生したことを公表した。対応の指揮を執った同市港湾商工課 課長 大迫秀治氏に、危機管理において意識していたポイントについて詳しく話を聞いた。",
+          "link": "https://news.mynavi.jp/techplus/article/20240617-secraward-shibushi/",
+          "publishedOn": "2024-06-17T06:00:00.000Z",
+          "wordCount": 1758,
+          "title": "志布志市、事故対応の要諦は「被害者に寄り添う」こと [事故対応アワード受賞]",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240617-secraward-shibushi/index_images/index.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240617-2966007/",
+          "author": null,
+          "description": "オープンソースソフトウェア（OSS）の利用が拡大する中、Linux向けのOSSであるファイル圧縮ツール「XZ Utils」に悪意のあるコードが挿入された問題は大きな衝撃を与えた。今日、ソフトウェアサプライチェーンへの攻撃の加速が予想されるが、どのような対策を講じるべきか。",
+          "link": "https://news.mynavi.jp/techplus/article/20240617-2966007/",
+          "publishedOn": "2024-06-17T02:31:40.000Z",
+          "wordCount": 1776,
+          "title": "ソフトウェアサプライチェーンの保護に果たすAIの役割とは【前編】",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240617-2966007/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240617-2965236/",
+          "author": null,
+          "description": "Trustwaveはこのほど、Windowsの「search:アプリケーションプロトコル」を悪用してマルウェアを配布するサイバー攻撃のキャンペーンを発見したと伝えた。search:アプリケーションプロトコルはWindows Vista SP1から導入された機能で、Microsoft Edge、Google Chromeなどのブラウザから利用できる。",
+          "link": "https://news.mynavi.jp/techplus/article/20240617-2965236/",
+          "publishedOn": "2024-06-17T00:16:57.000Z",
+          "wordCount": 1802,
+          "title": "Windowsの検索プロトコルを悪用してマルウェア配布するサイバー攻撃に注意",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240617-2965236/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20240616-2966115/",
           "author": null,
