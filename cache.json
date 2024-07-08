@@ -249,6 +249,16 @@
       "siteUrl": "https://www.ipa.go.jp/about/index.html",
       "articles": [
         {
+          "id": "https://www.ipa.go.jp/jinzai/skill-standard/dss/about.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「デジタルスキル標準（DSS）策定の背景・目的」に関する情報です。",
+          "link": "https://www.ipa.go.jp/jinzai/skill-standard/dss/about.html",
+          "publishedOn": "2024-07-07T15:00:00.000Z",
+          "wordCount": 493,
+          "title": "デジタルスキル標準の改訂版（ver.1.2）を公開しました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
           "id": "https://www.ipa.go.jp/shiken/mondai-kaiotu/sg_fe/koukai/2024r06.html",
           "author": "情報処理推進機構（IPA）",
           "description": "情報処理推進機構（IPA）の「問題冊子・解答例（2024年度、令和6年度）」に関する情報です。",
@@ -2104,6 +2114,16 @@
       "siteUrl": "https://jvn.jp/",
       "articles": [
         {
+          "id": "https://jvn.jp/jp/JVN28515217/",
+          "author": "jvn@jvn.jp",
+          "description": "TONEストアアプリには、TONEストアのウェブサイトと平文で通信している問題が存在します。",
+          "link": "https://jvn.jp/jp/JVN28515217/",
+          "publishedOn": "2024-07-08T03:00:00.000Z",
+          "wordCount": 121,
+          "title": "TONEストアアプリがTONEストアと平文で通信している問題",
+          "imageUrl": null
+        },
+        {
           "id": "https://jvn.jp/vu/JVNVU90387090/",
           "author": "jvn@jvn.jp",
           "description": "Apache Tomcatにはサービス運用妨害（DoS）の脆弱性が存在します。",
@@ -2670,6 +2690,116 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/07/08/51264.html",
+          "author": null,
+          "description": "このブログ記事では、生成AI によるメール脅威とはどのようなものか、そしてプルーフポイントの意味解析によってどう阻止できるかをご紹介します。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/07/08/51264.html",
+          "publishedOn": "2024-07-07T23:10:03.000Z",
+          "wordCount": 1101,
+          "title": "Proofpoint Blog 38回「生成 AI の影響で日本はビジネスメール詐欺が増加」",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/45293.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/07/08/51263.html",
+          "author": null,
+          "description": "個人情報保護委員会は7月4日、個人情報保護委員会事務局でのメール誤送信について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/07/08/51263.html",
+          "publishedOn": "2024-07-07T23:05:12.000Z",
+          "wordCount": 954,
+          "title": "個人情報保護委員会がメール誤送信、96 名のメールアドレスが閲覧可能に",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/45460.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/07/08/51262.html",
+          "author": null,
+          "description": "SAPジャパン株式会社は7月3日、なりすましサイトへの注意喚起を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/07/08/51262.html",
+          "publishedOn": "2024-07-07T23:05:10.000Z",
+          "wordCount": 846,
+          "title": "SAPジャパンのなりすましサイトに注意を呼びかけ",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/45453.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/07/08/51261.html",
+          "author": null,
+          "description": "情報処理サービスを行う株式会社イセトーは7月3日、5月29日に公表したランサムウェア被害の発生について、続報2を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/07/08/51261.html",
+          "publishedOn": "2024-07-07T23:05:06.000Z",
+          "wordCount": 914,
+          "title": "イセトーへのランサムウェア攻撃、リークサイトにダウンロード URL 出現も現在はファイルが消失",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/45454.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/07/08/51260.html",
+          "author": null,
+          "description": "徳島県は7月3日、印刷業務委託先のランサムウェア被害について、第2報を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/07/08/51260.html",
+          "publishedOn": "2024-07-07T23:05:03.000Z",
+          "wordCount": 920,
+          "title": "イセトーへのランサムウェア攻撃で徳島県の個人情報も漏えい、委託業務完了後に報告書提出するも実際には削除されず",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/45443.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/07/08/51259.html",
+          "author": null,
+          "description": "日本AED財団は7月2日、「『スポーツ現場の突然死』について」と題する緊急メッセージを公開した。6月30日にインドネシアで開催されたバドミントン・アジアジュニア大会の試合中に17歳の中国選手が倒れ、病院に搬送されたものの死亡が確認されたことを受けたもの。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/07/08/51259.html",
+          "publishedOn": "2024-07-07T23:00:28.000Z",
+          "wordCount": 959,
+          "title": "素早い AED 使用でスポーツ中の心臓突然死はゼロを目指せる ～ 日本 AED 財団",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/07/08/51258.html",
+          "author": null,
+          "description": "IPAは、「AI利用時の脅威、リスク調査報告書」についてIPAテクニカルウォッチで公開した。新しい技術としてAIが業務利用されつつある状況で、セキュリティリスクの認識や安全な利用のための組織内の規程や体制の実態を調査している。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/07/08/51258.html",
+          "publishedOn": "2024-07-07T23:00:23.000Z",
+          "wordCount": 958,
+          "title": "AI の業務利用 16.2 ％、6 割はセキュリティ脅威感じるも利用規則は個人任せ ～ IPA 調査",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/45473.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/07/08/51257.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）は7月5日、PHPの脆弱性（CVE-2024-4577）を狙う攻撃についての注意喚起を発表した。影響を受けるシステムは下記の通り。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/07/08/51257.html",
+          "publishedOn": "2024-07-07T23:00:20.000Z",
+          "wordCount": 967,
+          "title": "PHPの脆弱性（CVE-2024-4577）を狙う攻撃に注意を呼びかけ",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/07/08/51256.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は7月4日、Apache Tomcatにおけるサービス運用妨害（DoS）の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。影響を受けるシステムは以下の通り。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/07/08/51256.html",
+          "publishedOn": "2024-07-07T23:00:18.000Z",
+          "wordCount": 969,
+          "title": "Apache Tomcatにサービス運用妨害（DoS）の脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/07/08/51255.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は7月3日、OpenSSLの関数SSL_select_next_protoにおけるバッファオーバーリードの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/07/08/51255.html",
+          "publishedOn": "2024-07-07T23:00:11.000Z",
+          "wordCount": 962,
+          "title": "OpenSSLの関数SSL_select_next_protoにバッファオーバーリードの脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/07/08/51254.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は7月3日、JP1/Extensible SNMP Agentにおける不十分なアクセス権設定の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/07/08/51254.html",
+          "publishedOn": "2024-07-07T23:00:03.000Z",
+          "wordCount": 989,
+          "title": "JP1/Extensible SNMP Agentに不十分なアクセス権設定の脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2024/07/05/51253.html",
           "author": null,
@@ -4018,6 +4148,16 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2407/08/news080.html",
+          "author": null,
+          "description": "出版大手KADOKAWAが大規模なサイバー攻撃を受けた問題は、被害発覚から7月8日で1カ月を迎える。システム障害に加え、大量の個人情報が流出したとみられ、データの復元や暴露回避のための金銭を要求するランサムウェアへの対応の難しさが浮き彫りになった。",
+          "link": "https://www.itmedia.co.jp/news/articles/2407/08/news080.html",
+          "publishedOn": "2024-07-08T01:13:00.000Z",
+          "wordCount": 2552,
+          "title": "「炎上する」「顧客や株主守れ」　KADOKAWA被害の身代金要求ウイルス、支払い是非は",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2407/08/cover_news080.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2407/06/news056.html",
           "author": null,
           "description": "流出した情報を削除してほしい方は、口座に金を振り込んでください」──企業へのサイバー攻撃によって個人情報が漏えいしたとみられる人に対し、こんな詐欺メールを送る事例を複数確認したとして、警視庁生活安全部は7月5日、Xで注意を呼び掛けた。メールは弁護士などになりすまして送っているという。",
@@ -4696,26 +4836,6 @@
           "wordCount": 2779,
           "title": "ニコニコ、N高なども影響　KADOKAWAグループに大規模なサイバー攻撃の可能性",
           "imageUrl": "https://image.itmedia.co.jp/news/articles/2406/10/cover_news103.jpg"
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2406/08/news086.html",
-          "author": null,
-          "description": "ドワンゴが運営する動画配信サービス「ニコニコ」で発生している大規模障害について、ニコニコの栗田代表がX（旧Twitter）で状況を報告した。障害の原因はサイバー攻撃だとしており、「少なくともこの週末中での復旧は困難な状況です」と明かした。",
-          "link": "https://www.itmedia.co.jp/news/articles/2406/08/news086.html",
-          "publishedOn": "2024-06-08T11:30:00.000Z",
-          "wordCount": 2780,
-          "title": "ニコニコの大規模障害、原因はサイバー攻撃　「週末中での復旧は困難な状況」と栗田代表",
-          "imageUrl": "https://image.itmedia.co.jp/news/articles/2406/08/cover_news086.jpg"
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2406/08/news068.html",
-          "author": null,
-          "description": "MicrosoftはAI搭載「Copilot+ PC」の目玉機能「Recall」（日本では「回顧」）のいくつかの設定を変更する。この機能発表後、プライバシー懸念が高まったことを受けたものだ。PC設定時に回顧を有効にするかどうか選択できるようになり、Windows Hello必須になる。",
-          "link": "https://www.itmedia.co.jp/news/articles/2406/08/news068.html",
-          "publishedOn": "2024-06-07T23:10:00.000Z",
-          "wordCount": 3009,
-          "title": "Microsoft、Copilot+ PCの「Recall」（回顧）をオプトインに　プライバシー懸念受け",
-          "imageUrl": "https://image.itmedia.co.jp/news/articles/2406/08/cover_news068.jpg"
         }
       ]
     },
@@ -4724,6 +4844,116 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1606505.html",
+          "author": null,
+          "description": "株式会社誠文堂新光社は7月5日、1924年に創刊した小中学生向け科学雑誌「子供の科学」発行100周年を記念して、100年分の「子供の科学」を検索できるスペシャルサイト｢科学タイムトラベル！｣を公開した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1606505.html",
+          "publishedOn": "2024-07-08T07:30:00.000Z",
+          "wordCount": 5006,
+          "title": "創刊100周年を記念して「子供の科学」100年分が検索できるスペシャルサイト｢科学タイムトラベル！｣公開　1924年の創刊号、2023年1～12月号の全ページ無料公開も",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1606/505/thumbnail.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1606525.html",
+          "author": null,
+          "description": "Amazon.co.jpのダイソンストアページでは現在、掃除機のセールを実施中だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1606525.html",
+          "publishedOn": "2024-07-08T06:15:00.000Z",
+          "wordCount": 5033,
+          "title": "ダイソンのサイクロン掃除機が安い！ Amazonセール情報　スティッククリーナー「Cyclone V10 Fluffy」が3万7600円に",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1606/525/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1606416.html",
+          "author": null,
+          "description": "「Amazonプライムデー」を来週に控え、公式と誤認されることを狙ったフィッシングサイトが続々と登場していることを、海外のセキュリティベンダーが伝えている。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1606416.html",
+          "publishedOn": "2024-07-08T02:35:00.000Z",
+          "wordCount": 4576,
+          "title": "Amazonプライムデーを装い個人情報を盗み取ろうとするサイト、開催前に続々出現中【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1606/416/yajiuma-watch_3.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1606414.html",
+          "author": null,
+          "description": "ボールが戻ってくるまでの時間を省略した「時短ブロック崩し」が登場した。ブラウザー上で無料でプレーできる。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1606414.html",
+          "publishedOn": "2024-07-08T02:35:00.000Z",
+          "wordCount": 4563,
+          "title": "ゲームも時短の時代？ ボールが戻ってくるまでの時間を省略したブロック崩しが面白い【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1606/414/yajiuma-watch_2.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1601050.html",
+          "author": null,
+          "description": "株式会社バッファローは、USB Type-C接続のオーディオ変換アダプター「BSMPCPD350」シリーズを発売する。7月中旬の出荷予定で、市場想定価格は2580円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1601050.html",
+          "publishedOn": "2024-07-08T00:55:00.000Z",
+          "wordCount": 5012,
+          "title": "バッファロー、充電しながらイヤホンを使えるUSBオーディオ変換アダプター「BSMPCPD350」発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1601/050/main.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1606161.html",
+          "author": null,
+          "description": "デジタル庁は、各府省庁が実施する「こども霞が関見学デー」の一環として、「こども参観日 – デジタル庁を見て・聞いて・体験しよう！」を8月7日・8日に実施する。現在、ウェブサイトで参加申込を受け付けており、応募締切は7月29日。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1606161.html",
+          "publishedOn": "2024-07-08T00:30:00.000Z",
+          "wordCount": 5001,
+          "title": "デジタル庁「こども霞が関見学デー」のイベント参加募集中、8⽉7⽇・8⽇開催",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1606/161/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1606138.html",
+          "author": null,
+          "description": "北海道苫小牧市は、長期滞在型のワーケーションと、事業者交流や北海道くらし体験の応援キャンペーン「北海道滞在応援ワーケーション in 苫小牧」を今夏の7月5日に開催する。道外からの参加者に、最大で2万5千円のキャッシュバックを行う。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1606138.html",
+          "publishedOn": "2024-07-07T23:30:00.000Z",
+          "wordCount": 5010,
+          "title": "北海道苫小牧市、市内に連泊しコワーキング利用などで最大2.5万円キャッシュバックのキャンペーン",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1606/138/02.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1606134.html",
+          "author": null,
+          "description": "Nature株式会社は7月5日、「海辺の石」をモチーフにしたスマートリモコン「Nature Remo Lapis」（ネイチャー リモ ラピス）を発売した。市場想定価格は7980円。本体サイズは57×69×26mmで重量が28g。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1606134.html",
+          "publishedOn": "2024-07-07T22:30:00.000Z",
+          "wordCount": 5023,
+          "title": "「がんばらない節電」機能搭載、Matterと赤外線に対応したスマートリモコン「Nature Remo Lapis」発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1606/134/main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1606208.html",
+          "author": null,
+          "description": "宇宙航空研究開発機構（JAXA）は7月5日、2023年10月に発生した不正アクセスによる情報漏洩の詳細を発表した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1606208.html",
+          "publishedOn": "2024-07-07T21:55:00.000Z",
+          "wordCount": 5006,
+          "title": "JAXA、2023年10月に発生したサイバー攻撃について説明。「未知のマルウェアが複数使用され、Microsoft 365に不正アクセス」　漏えいした情報については個別に謝罪を実施",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1606/208/001.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1606055.html",
+          "author": null,
+          "description": "サンワサプライ株式会社は7月5日、USB充電式のパワーポインター「LP-RF116BK」を発売した。市場想定価格は1万978円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1606055.html",
+          "publishedOn": "2024-07-07T21:30:00.000Z",
+          "wordCount": 5001,
+          "title": "サンワサプライ、大型ボタンで操作しやすいプレゼン用リモコン＋ポインター「LP-RF116BK」発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1606/055/thumbnail.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/shimizu/1604585.html",
+          "author": null,
+          "description": "Copilot+ PCとして知られるSnapdragon X Elite/Plus搭載機だが、実はWi-Fi 7に正式対応したPCでもあり、Wi-Fi 7の注目機能である「MLO」（Multi-Link Operation）が利用できる。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/shimizu/1604585.html",
+          "publishedOn": "2024-07-07T21:00:00.000Z",
+          "wordCount": 5150,
+          "title": "MLOは確認できるが、320MHz幅は…？　「Wi-Fi 7」正式対応のSnapdragon X 搭載Copilot+ PCを試した【イニシャルB】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1604/585/000.JPG"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/weekly/1606098.html",
           "author": null,
