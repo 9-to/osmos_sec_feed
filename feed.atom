@@ -2,10 +2,392 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-07-22T08:14:14.050Z</updated>
+    <updated>2024-07-23T08:14:27.404Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[ワイヤレスルータのソフトウェア開発キットに 15 件の脆弱性を発見]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=51831</id>
+        <link href="https://gblogs.cisco.com/jp/2024/07/talos-vulnerability-roundup-july-10-2024/"/>
+        <updated>2024-07-23T08:08:13.000Z</updated>
+        <summary type="html"><![CDATA[Cisco Talos の脆弱性調査チームはこのほど、Realtek 社の rtl819x Jungle SDK（ソフトウェア開発キット）に存在する 15 件の脆弱性を発見しました。この SDK は、小規模なオフィスやホームオフィス（SOHO）向けの一部のワイヤレスルータで使用されています。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[タグの間に潜む脅威：HTML スマグリング攻撃でスパム送信者が用いる回避手法の詳細]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=51826</id>
+        <link href="https://gblogs.cisco.com/jp/2024/07/talos-hidden-between-the-tags-insights-into-evasion-techniques-in-html-smuggling/"/>
+        <updated>2024-07-23T07:55:41.000Z</updated>
+        <summary type="html"><![CDATA[Cisco Talos はこの数か月間に、悪意のある電子メールを使用した攻撃を複数発見しました。電子メールの HTML 添付ファイルに JavaScript コードを隠すもので、一般的には「HTML スマグリング」と呼ばれる手法です。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ランサムウェア対策ハンドブックの内容：攻撃チェーンの分析と共通の TTP のマッピング]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=51817</id>
+        <link href="https://gblogs.cisco.com/jp/2024/07/talos-common-ransomware-actor-ttps-playbooks/"/>
+        <updated>2024-07-23T07:02:20.000Z</updated>
+        <summary type="html"><![CDATA[最近発生した一連の大規模ランサムウェア攻撃は、病院からカーディーラーまであらゆるものを混乱させています。この事態を鑑み、改めて上位のランサムウェアグループについて調査し、今の状況を確認することにしました。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[15.6インチ×2画面を持ち歩ける！　折りたたみ式モバイルモニター「DUALDPHBK」、サンコーが発売]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1610523.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1610523.html"/>
+        <updated>2024-07-23T06:45:00.000Z</updated>
+        <summary type="html"><![CDATA[サンコー株式会社は7月22日、2画面モバイルモニター「DUALDPHBK」を発売した。直販ストア「THANKO」での販売価格は3万9800円。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[データ侵害の影響で詐欺がさらに活発化]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=51808</id>
+        <link href="https://gblogs.cisco.com/jp/2024/07/talos-data-breaches-fueling-scam-campaigns/"/>
+        <updated>2024-07-23T05:49:26.000Z</updated>
+        <summary type="html"><![CDATA[データ侵害は世界中の組織にとって最も重大な脅威の 1 つとなっており、時間の経過とともに発生件数が増え、深刻度も増すばかりです。]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[土台を360°回転できるアルミニウム合金製PCトレー、MOTTERUが発売]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1610425.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1610425.html"/>
+        <updated>2024-07-23T04:45:00.000Z</updated>
+        <summary type="html"><![CDATA[株式会社MOTTERUは、土台部分を360°回転できるPCトレー「MOT-PCSTD08」を発売した。直販サイト「MOTTERUダイレクト」での販売価格は5980円。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Check Point Software Technologies製品における情報漏えいの脆弱性]]></title>
+        <id>https://jvn.jp/vu/JVNVU98330908/</id>
+        <link href="https://jvn.jp/vu/JVNVU98330908/"/>
+        <updated>2024-07-23T04:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Check Point Software Technologiesが提供する複数の製品には、情報漏えいの脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[マス目4800万、地雷数なんと1000万。協力してプレーする超巨大マインスイーパが発売決定【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1610328.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1610328.html"/>
+        <updated>2024-07-23T03:55:00.000Z</updated>
+        <summary type="html"><![CDATA[1000万もの地雷をマルチプレーで除去するオンラインゲーム、その名も「みんなでマインスイーパー」の正式発売が決定した。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CrowdStrikeのWindowsブルースクリーン問題を神回避した米航空会社、その理由が話題に【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1610327.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1610327.html"/>
+        <updated>2024-07-23T03:50:00.000Z</updated>
+        <summary type="html"><![CDATA[世界中で同時多発的に発生したWindowsのブルースクリーン問題で、ある航空会社が一切影響を受けなかった理由が話題になっている。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“想定外の用途”でも有名!?　山善の食器乾燥機「YD-180」がAmazonでセール中！]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1610395.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1610395.html"/>
+        <updated>2024-07-23T02:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Amazon.co.jpの山善（YAMAZEN）ストアページでは、現在、家電や家具各種がタイムセール中だ。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ASUSのWi-Fi 6ルーター「RT-AX1800U（A）」が約8千円！　Amazonお得情報]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1610387.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1610387.html"/>
+        <updated>2024-07-23T02:20:00.000Z</updated>
+        <summary type="html"><![CDATA[Amazon.co.jpで、ASUSのWi-Fi 6ルーター「RT-AX1800U（A）」がセール中だ。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[エレコムのWi-Fi 7ルーター「WRC-BE94XS-B」が大幅値下げで約2.3万円！　Amazonセール情報]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1610363.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1610363.html"/>
+        <updated>2024-07-23T01:40:00.000Z</updated>
+        <summary type="html"><![CDATA[Amazon.co.jpのELECOM（エレコム）ストアページでは現在、周辺機器各種などのタイムセールが行われている。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ランサムウェア集団が謝罪]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2024/07/23/51353.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2024/07/23/51353.html"/>
+        <updated>2024-07-22T23:10:03.000Z</updated>
+        <summary type="html"><![CDATA[「インドネシア国民の皆さん、すべての方に影響を与えたことをお詫びします」とした Brain Cipher の声明を、シンガポールに本社を置くダークウェブ監視・情報漏洩対策サービスプロバイダーの Stealth Mole が公表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[東京海上日動火災保険 提携先の税理士法人にランサムウェア攻撃]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2024/07/23/51352.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2024/07/23/51352.html"/>
+        <updated>2024-07-22T23:05:12.000Z</updated>
+        <summary type="html"><![CDATA[東京海上日動火災保険株式会社は7月10日、同社業務委託先でのランサムウェア被害に伴う情報漏えいの可能性について発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[富士通の複数の業務パソコンに高度な手法で攻撃を行うマルウェア、複製指示のコマンドを実行し拡大]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2024/07/23/51351.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2024/07/23/51351.html"/>
+        <updated>2024-07-22T23:05:09.000Z</updated>
+        <summary type="html"><![CDATA[富士通株式会社は7月9日、3月15日に公表した個人情報を含む情報漏えいの可能性について、調査結果を発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[症例情報は匿名化処理済みのため患者の特定はできず ～ QST病院にランサムウェア攻撃]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2024/07/23/51350.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2024/07/23/51350.html"/>
+        <updated>2024-07-22T23:05:05.000Z</updated>
+        <summary type="html"><![CDATA[国立研究開発法人量子科学技術研究開発機構は7月9日、QST病院の独立ネットワークのシステムにおけるランサムウェア被害について発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[問い合せフォーム機能悪用さる ～ タカラベルモントの海外向けウェブサイトのサーバがフィッシングメール送信の踏み台に]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2024/07/23/51349.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2024/07/23/51349.html"/>
+        <updated>2024-07-22T23:05:02.000Z</updated>
+        <summary type="html"><![CDATA[タカラベルモント株式会社は7月5日、4月17日に公表した同社の海外向けウェブサイトのサーバへの不正アクセスについて、調査結果を発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[日本規格協会、ISO / IEC 27002 の改訂を受け「JIS Q 27002:2024」発行]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2024/07/23/51348.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2024/07/23/51348.html"/>
+        <updated>2024-07-22T23:00:16.000Z</updated>
+        <summary type="html"><![CDATA[日本規格協会は、「JIS Q 27002:2024（情報セキュリティ，サイバーセキュリティ及びプライバシー保護―情報セキュリティ管理策）」を6月20日に発行したと発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GMOイエラエ「ホワイト企業認定」最高ランクのプラチナ取得 三回目]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2024/07/23/51347.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2024/07/23/51347.html"/>
+        <updated>2024-07-22T23:00:10.000Z</updated>
+        <summary type="html"><![CDATA[GMOサイバーセキュリティ byイエラエ株式会社は7月12日、一般財団法人日本次世代企業普及機構（ホワイト財団）が認定する「ホワイト企業認定」において、最高ランクであるプラチナ認定を7月1日に取得したと発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[取締役や幹部への罰金 禁固 罷免 解雇 ～ サイバー攻撃後の被処罰最多は APJ 地域]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2024/07/23/51346.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2024/07/23/51346.html"/>
+        <updated>2024-07-22T23:00:03.000Z</updated>
+        <summary type="html"><![CDATA[フォーティネットジャパン合同会社は7月11日、「サイバーセキュリティスキルギャップレポート 2024年版」を発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ニトリ「ドア掛収納」3製品発売のニュースに注目が集まる～ドア周辺のスペースを有効活用！【アクセスランキング】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/ranking/1610196.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/ranking/1610196.html"/>
+        <updated>2024-07-22T21:55:00.000Z</updated>
+        <summary type="html"><![CDATA[前週に閲覧数の多かった記事を、カテゴリーごとに上位5位までレポートします。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[9割以上が「デジタル終活が必要」と回答、理由は「見られたくないデータがある」が最多〜AlbaLink調査]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1610150.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1610150.html"/>
+        <updated>2024-07-22T21:30:00.000Z</updated>
+        <summary type="html"><![CDATA[不動産の売買や鑑定を手掛けるAlbaLink株式会社は7月22日、同社で実施した「デジタル終活に関する意識調査」の結果を発表し、同社が運営するウェブサイト「訳あり物件買取プロ」にて公開した。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WOWOWの「猫専門ライブ配信アプリ」1周年を記念し、人気キャットライバーのポスターを渋谷駅に掲出【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1610278.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1610278.html"/>
+        <updated>2024-07-22T21:05:00.000Z</updated>
+        <summary type="html"><![CDATA[株式会社WOWWOWは7月22日、同社が提供する猫だけのライブ配信アプリ「nekochan」の正式リリース1周年を記念し、人気「猫ライバー」のポスターを渋谷駅の東急東横線渋谷駅コンコースに掲出した。掲出期間は1週間。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[内閣サイバーセキュリティセンター、省庁などを対象とした横断的アタックサーフェスマネジメント事業を開始]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1610260.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1610260.html"/>
+        <updated>2024-07-22T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[内閣サイバーセキュリティセンター（NISC）は7月22日、各府省庁、独立行政法人・指定法人の情報システムを対象とした、横断的アタックサーフェスマネジメント（ASM）事業を開始した。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[令和6年度春期試験（応用情報技術者試験・高度試験・情報処理安全確保支援士試験）の合格証書は7月22日（月曜日）発送済です]]></title>
+        <id>https://www.ipa.go.jp/shiken/goukaku/happyobi.html</id>
+        <link href="https://www.ipa.go.jp/shiken/goukaku/happyobi.html"/>
+        <updated>2024-07-22T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「合格発表日、合格証書発送日、官報公示日」に関する情報です。]]></summary>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[今なお攻撃を続けるマルウェアEbury：暗号通貨の盗難と金銭的利益のために40 万台の Linux サーバーを侵害]]></title>
+        <id>https://eset-info.canon-its.jp/malware_info/special/detail/240723.html</id>
+        <link href="https://eset-info.canon-its.jp/malware_info/special/detail/240723.html"/>
+        <updated>2024-07-22T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[10年前から金銭的利益を目的にLinuxサーバーを侵害し、今なお進化を続けるEburyマルウェア。ESET社の調査で明らかになったその手口を解説します。
+
+
+本記事はESET Japanが提供する「ESETブログ」に掲載された「40万台のLinuxサーバーを侵害：暗号通貨を窃盗し、金銭的利益を目的としたEburyの現状と隠蔽機能の進化」を再編集したものです。
+
+
+
+
+
+
+10年前にESET社は「Operation Windigo（ウィンディゴ作戦）」というタイトルのホワイトペーパーを公開し、Linuxを攻撃するEburyマルウェアによって金銭的利益を目的としたキャンペーンが実行されていることを伝えました。ESET社は、Eburyのその後の進化と、Linuxサーバーのボットネットを収益化するためにEburyのオペレーターが使用している新しいマルウェア系統を解説したホワイトペーパーを公開しました。
+
+EBRYの現状と隠蔽機能の進化 全レポート（英語のみ）
+
+ウィンディゴ作戦のホワイトペーパーを公開した後、Eburyの実行犯の1人が逮捕され、有罪判決を受けましたが、ボットネットの拡大は止まっていません。2014年と2017年にも報告していますが、OpenSSHバックドアであり認証情報を窃取するEburyマルウェアは更新され続けています。
+
+ESET社は、新しい検体とネットワークインジケーターを追跡するためにハニーポットを継続して管理しています。しかし、Eburyの進化に伴って、これらのハニーポットを運用することが難しくなっています。たとえば、ESET社のハニーポットの1つは、Eburyがインストールされているのに適切に反応しなくなっています。Eburyのオペレーターは、数時間をかけて何が起こっているのかをデバッグおよび調査した後に、最終的に、このサーバーを諦め、図1に示しているように、Eburyのオペレーターをハニーポットによって騙そうとしていることを分かっているというメッセージを送信してきました。
+
+
+
+図1. EburyのオペレーターとESET社が運用するハニーポット間のやり取り。
+Eburyのオペレーターがこのシステムをハニーポットであることを見破り、フラグを立てていたことを示している
+
+
+2021年、オランダ国家ハイテク犯罪ユニット（NHTCU）は、暗号通貨が窃盗された被害者のサーバーでEburyを発見し、ESET社に連絡しました。ESET社は、NHTCUとの連携によって、同グループの最近の活動や使用しているマルウェアについての重要な情報を得ることができました。
+
+拡散し続けるEbury
+
+このホワイトペーパーでは、Eburyマルウェアを新しいサーバーに拡散するために使用されている新たな方法について説明しています。図2は、ESET社が特定した方法をまとめたものです。
+
+
+
+図2. Eburyのオペレーターが新しいサーバーを侵害するために使用しているさまざまな方法
+
+
+被害を受けた組織には、多くのホスティングプロバイダーが含まれています。このサイバー攻撃組織は、ホスティングプロバイダーのインフラを乗っ取り、プロバイダーが提供しているすべてのサーバーにEburyをインストールします。ESET社は、侵害されているホスティングプロバイダーから、実験的に仮想サーバーをレンタルしました。7日以内にESET社がレンタルしたサーバーにEburyがインストールされました。
+
+注意が必要なもう1つの方法は、データセンターで重要な標的のSSHトラフィックを傍受し、認証情報を取得するためのサーバーにリダイレクトするAiTM攻撃（中間者攻撃）です（図3の要約を参照）。Eburyのオペレーターは、標的の組織と同じネットワークセグメントに存在し、Eburyに侵害されているサーバーを利用して、ARPスプーフィングを実行します。インターネットテレメトリ（監視データ）によると、2023年には200台以上のサーバーが標的となっています。特に重要な標的となっているのは、ビットコインとイーサリアムの仮想通貨ネットワークに参加しているマシンです。Eburyは、被害者がパスワードを入力してログインすると、標的のサーバーでホストされている暗号通貨ウォレットを自動的に盗み出します。
+
+
+
+図3. EburyのオペレーターによるAiTM攻撃の概要
+
+
+これらの方法による効果を見ていきましょう。2009年以来、Eburyによって侵害されたサーバー台数は合計で約40万台に達しており、2023年末時点で10万台以上が侵害された状態にあります。Eburyのオペレーターは侵害したシステムを追跡していますが、そのデータから毎月ボットネットに追加された新しいサーバー台数を時系列で示しました（図4）。この図では左右のY軸に2つの尺度を用いており、Eburyが一度に数万台のサーバーに展開された重要ないくつかのインシデントがあったことが分かります。
+
+
+
+図4. Y軸に2つの異なる尺度を使用した1カ月あたりのEburyの展開数（Eburyのオペレーターが管理している、侵害したサーバー台数に関するデータベース情報に基づく）
+
+
+収益化
+
+この新しいホワイトペーパーでは、Eburyボットネット（図5）を活用するために使用されている新しいマルウェア系統についても説明しています。Eburyのオペレーターは、スパム送信やWebトラフィックのリダイレクトを行っていますが、サーバーとのHTTP POSTリクエストの送受信も利用され、金融取引を実行するWebサイトから詳細な情報が窃取されています。
+
+
+
+図5. Eburyに感染したサーバーに展開される複数のマルウェア系統とその影響
+
+
+深く潜り込み、検出を回避する
+
+Eburyマルウェア系統も更新されています。重要なアップデートバージョンである1.8は、2023年後半に初めて登場しました。このアップデートには、新しい難読化技術、新しいドメイン生成アルゴリズム（DGA）、そしてEburyがシステム管理者から自身を隠蔽するために使用されるユーザーランドレベルのルートキットの改良が含まれています。このアップデート版がインストールされると、プロセス、ファイル、ソケット、そしてマッピングされたメモリー（図6）さえも隠蔽されます。
+
+
+
+図6. ユーザーランドでEburyのルートキットが実行されたときの、OpenSSHサーバーとBashマップファイルの違い（ユニファイド形式）
+
+
+Eburyの詳細と、自社のサーバーが侵害されているか確認する方法
+
+新しいホワイトペーパー「Eburyの現状と進化した隠蔽機能：暗号通貨を窃盗し、金銭的な利益を得るために40万台のLinuxサーバーが侵害される（英語のみ）」では、技術的な解説を交えて、Eburyの各側面について詳細に説明しています。
+
+セキュリティ侵害の痕跡（IoC）は、ESET社のGitHubリポジトリ（malware-ioc）に掲載されています。検出スクリプトは、malware-researchリポジトリにあります。]]></summary>
+        <author>
+            <name>キヤノンマーケティングジャパン株式会社</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[メルマガ]vol.2093:【トピックス号】先週のトピックスとWeb更新情報]]></title>
+        <id>https://www.nic.ad.jp/ja/mailmagazine/backnumber/2024/vol2093.html</id>
+        <link href="https://www.nic.ad.jp/ja/mailmagazine/backnumber/2024/vol2093.html"/>
+        <updated>2024-07-22T08:01:49.000Z</updated>
+        <summary type="html"><![CDATA[https://www.packetfabric.co.jp/solution/detail15.html   □
+■■■■■      パケットファブリック・ジャパン株式会社      ■■■■■
+----------------------------------------------------------------------
+---------- PR --------------------------------------------------------
+ ～ Internet Week ショーケース in 福岡  今週開催！ ～参加登録受付中～
+■■■  X(Twitter) : @InternetWeek_jp   2024/7/25(木)～26(金)   ■■■
+□□□      Webサイト: https://internetweek.jp/sc-fukuoka/      □□□
+■■■  ☆☆現地開催とオンライン ハイブリッドでの開催です!☆☆  ■■■
+----------------------------------------------------------------------
+□■━━━━━━━━━━━━━━━━━━━━━
+□  7/15～7/21に発信したJPNICからのお知らせ
+■━━━━━━━━━━━━━━━━━━━━━━
+
+このトピックス号では、先週に公開したJPNICブログ記事、お知らせ、Webの更
+新情報などを原則月曜日にまとめてご紹介します。
+
+今回の注目記事は、7月20日(土)からカナダ・バンクーバーで開催されている
+「第120回IETFミーティング」に向けたおさらいとして、2024年3月にオースト
+ラリア・ブリスベンで開催された第119回IETFミーティングの内容をご紹介し
+たブログ記事です。
+
+この他…]]></summary>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[トピックス]APNIC 58参加支援プログラム応募期限延長のお知らせ]]></title>
+        <id>https://www.nic.ad.jp/ja/topics/2024/20240722-01.html</id>
+        <link href="https://www.nic.ad.jp/ja/topics/2024/20240722-01.html"/>
+        <updated>2024-07-22T06:53:07.000Z</updated>
+        <summary type="html"><![CDATA[2024年7月22日
+各位
+一般社団法人日本ネットワークインフォメーションセンター
+APNIC 58参加支援プログラム応募期限延長のお知らせ
+(7月26日(金) 10:00まで)
+APNIC58 参加支援プログラム応募受付開始のお知らせ
+              をご確認の上、期限までにぜひご応募をお願いいたします。
+            
+以上]]></summary>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[フィッシングサイトを閉鎖させた数競う大会始まる　全国のサイバー防犯ボランティアら参加]]></title>
         <id>https://www.itmedia.co.jp/news/articles/2407/22/news116.html</id>
@@ -154,6 +536,16 @@
         <summary type="html"><![CDATA[マカフィーは、クレイグ・バウンディ氏をプレジデント兼最高経営責任者（CEO）に8月21日付けで指名すると発表した。]]></summary>
         <author>
             <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Apache HTTP Server 2.4に脆弱性、前回の不十分な対策を修正]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20240722-2988781/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20240722-2988781/"/>
+        <updated>2024-07-21T22:31:03.000Z</updated>
+        <summary type="html"><![CDATA[JPCERTコーディネーションセンター(JPCERT/CC)はこのほど、Apache HTTP Serverに複数の脆弱性が存在すると伝えた。これら脆弱性を悪用されると、コードの漏洩や攻撃者にNTLMハッシュを窃取される可能性がある。今回、前回に修正された脆弱性「CVE-2024-39884」の対策が不十分としてさらなる修正が加えられている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
         </author>
     </entry>
     <entry>
@@ -10613,26 +11005,6 @@ DomainObjectからValueObjectを自動生成するOSS作ってみた ~  ts-vo-ge
         <summary type="html"><![CDATA[Microsoftが、新世代のAI PCの指標となる「Copilot+ PC」 の要件を発表した。]]></summary>
         <author>
             <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IPA NEWS Vol.67（2024年7月号）を公開しました]]></title>
-        <id>https://www.ipa.go.jp/about/ipanews/index.html</id>
-        <link href="https://www.ipa.go.jp/about/ipanews/index.html"/>
-        <updated>2024-06-23T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「IPA NEWS」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[英医療機関へのランサムウェア攻撃、交渉決裂で患者データがダークウェブに]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2406/23/news056.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2406/23/news056.html"/>
-        <updated>2024-06-22T23:27:00.000Z</updated>
-        <summary type="html"><![CDATA[英病理検査機関Synnovisがランサムウェア攻撃を受け、血液検査システムが使用不能になり、3000件以上の予約や手術が中断されている。身代金要求はSynnovisが回答を遅らせたため決裂し、人質の患者データがダークウェブで公開された。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
         </author>
     </entry>
     <entry>
