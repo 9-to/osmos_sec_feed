@@ -349,6 +349,26 @@
       "siteUrl": "https://www.ipa.go.jp/about/index.html",
       "articles": [
         {
+          "id": "https://www.ipa.go.jp/publish/wp-security/2024.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「情報セキュリティ白書2024」に関する情報です。",
+          "link": "https://www.ipa.go.jp/publish/wp-security/2024.html",
+          "publishedOn": "2024-07-29T15:00:00.000Z",
+          "wordCount": 291,
+          "title": "情報セキュリティ白書2024 の販売を開始しました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
+          "id": "https://www.ipa.go.jp/disc/committee/software-modernization-comittee.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「ソフトウェアモダナイゼーション委員会」に関する情報です。",
+          "link": "https://www.ipa.go.jp/disc/committee/software-modernization-comittee.html",
+          "publishedOn": "2024-07-29T15:00:00.000Z",
+          "wordCount": 269,
+          "title": "ソフトウェアモダナイゼーション委員会 第二回議事次第を公開しました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
           "id": "https://www.ipa.go.jp/digital/kaihatsu/system-youkyu-tebiki.html",
           "author": "情報処理推進機構（IPA）",
           "description": "「重要情報を扱うシステムの要求策定ガイド（別冊）活用の手引き」は、「重要情報を扱うシステムの要求策定ガイド」 の概要と適用効果を、ビジネスを担う事業者のみなさまに向けて説明する資料です。",
@@ -687,16 +707,6 @@
           "wordCount": 503,
           "title": "【2024年8月31日開催】「未踏オフィスアワー エンジニア女子座談会 Hello Worldから未踏まで」の開催案内を公開しました",
           "imageUrl": "https://www.ipa.go.jp/jinzai/mitou/event/eid2eo0000002qkp-img/OfficeHour_1200_630_OGP_v1.jpg"
-        },
-        {
-          "id": "https://disclosure.dx-portal.ipa.go.jp/",
-          "author": "情報処理推進機構（IPA）",
-          "description": "",
-          "link": "https://disclosure.dx-portal.ipa.go.jp/",
-          "publishedOn": "2024-06-30T15:00:00.000Z",
-          "wordCount": 954,
-          "title": "DX認定制度 認定事業者の公表（2024年7月1日認定適用）",
-          "imageUrl": null
         }
       ]
     },
@@ -1437,6 +1447,16 @@
       "siteUrl": "https://eset-info.canon-its.jp/",
       "articles": [
         {
+          "id": "https://eset-info.canon-its.jp/malware_info/malware_topics/detail/malware2406.html",
+          "author": null,
+          "description": "6月の概況\n\n2024年6月（6月1日～6月30日）にESET製品が国内で検出したマルウェアの検出数の推移は、以下のとおりです。\n\n\n\n国内マルウェア検出数*1の推移\n(2024年1月の全検出数を100%として比較)\n\n*1 検出数にはPUA (Potentially Unwanted/Unsafe Application: 必ずしも悪意があるとは限らないが、コンピューターのパフォーマンスに悪影響を及ぼす可能性があるアプリケーション)を含めています。\n\n\n2024年6月の国内マルウェア検出数は、2024年5月と比較して減少しました。検出されたマルウェアの内訳は以下のとおりです。\n\n国内マルウェア検出数*2上位（2024年6月）\n\n\n\t\n\t\t\n\t\t\t順位\n\t\t\tマルウェア名\n\t\t\t割合\n\t\t\t種別\n\t\t\n\t\t\n\t\t\t1\n\t\t\tJS/Adware.TerraClicks\n\t\t\t20.5%\n\t\t\tアドウェア\n\t\t\n\t\t\n\t\t\t2\n\t\t\tJS/Adware.Agent\n\t\t\t15.4%\n\t\t\tアドウェア\n\t\t\n\t\t\n\t\t\t3\n\t\t\tHTML/Phishing.Agent\n\t\t\t13.4%\n\t\t\tメールに添付された不正なHTMLファイル\n\t\t\n\t\t\n\t\t\t4\n\t\t\tDOC/Fraud\n\t\t\t10.2%\n\t\t\t詐欺サイトのリンクが埋め込まれたDOCファイル\n\t\t\n\t\t\n\t\t\t5\n\t\t\tJS/Agent\n\t\t\t3.5%\n\t\t\t不正なJavaScriptの汎用検出名\n\t\t\n\t\t\n\t\t\t6\n\t\t\tMSIL/TrojanDownloader.Agent\n\t\t\t1.7%\n\t\t\tダウンローダー\n\t\t\n\t\t\n\t\t\t7\n\t\t\tJS/Danger.ScriptAttachment\n\t\t\t1.5%\n\t\t\tメールに添付された不正なJavaScript\n\t\t\n\t\t\n\t\t\t8\n\t\t\tHTML/Fraud\n\t\t\t1.3%\n\t\t\t詐欺サイトのリンクが埋め込まれたHTMLファイル\n\t\t\n\t\t\n\t\t\t9\n\t\t\tWin64/Riskware.PEMalform\n\t\t\t1.0%\n\t\t\tブラウザハイジャッカー\n\t\t\n\t\t\n\t\t\t10\n\t\t\tJS/Adware.Sculinst\n\t\t\t1.0%\n\t\t\tアドウェア\n\t\t\n\t\n\n\n*2 本表にはPUAを含めていません。\n\n6月に国内で最も多く検出されたマルウェアは、JS/Adware.TerraClicksでした。\nJS/Adware.TerraClicksは、Webサイト閲覧時に実行されるアドウェアです。感染すると、アドウェアサイトへのリダイレクト、アドウェアコンテンツの配布やブラウザー拡張機能としてアドウェアをインストールするなどの被害を生じさせる可能性があります。\n\nBackdoorマルウェアの増加とMSIL/AsyncRATの急増\n\n2024年1月以降、国内ではBackdoorに分類されるマルウェアの検出数が増加傾向にあることを確認しています。また各月のBackdoorマルウェアの検出内訳を見ると、基本的にはPHP/WebshellとWin32/Rescomsの検出数が多いですが、6月はMSIL/AsyncRATの検出数が急増してBackdoorマルウェアの中で2番目に多かったことが判明しました。\n\n\n\nBackdoorマルウェアの国内検出数推移とその内訳\n（検出数推移は2024年1月の値を100%として比較）\n\n\nこのMSIL/AsyncRATについて、6月における全世界の検出割合を確認すると、日本が世界で最も多い35%を占めていました。これは2番目に多かったコロンビアの7%と比較すると5倍も検出数が多く、日本を標的にした攻撃が展開されたことが推測されます。また6月に日本で観測されたMSIL/AsyncRATの亜種の内訳を見ると、MSIL/AsyncRAT.Aが大半を占めていました。このMSIL/AsyncRAT.Aはオープンソースで公開されているオリジナルのAsyncRATに対する検出名であり、MSIL/AsyncRAT.BとMSIL/AsyncRAT.Cはそれから派生した亜種に対する検出名です。よって従来から存在するオリジナルのAsyncRATを使った攻撃が、6月に国内で活発に行われたことが分かります。\n\n\n\n2024年6月のMSIL/AsyncRATの国別検出割合と国内における亜種の割合\n\n\nAsyncRATの概要\n\nAsyncRATはほかのPCを遠隔から監視または制御するRAT（Remote Access Tool）型のマルウェアです。2019年にオープンソースのツールとして公開されましたが、その機能を悪用して攻撃キャンペーンで使用されたこともあり、多くのセキュリティ製品ではマルウェアとして検知します。\nAsyncRATは感染までの手法を変化させながら多様な攻撃に使用されています。その様子が分かる事例として、AsyncRATが使用された過去の脅威活動を3つ紹介します。\n\n1つ目はESET社が報告した事例で、2020年にコロンビアの組織をターゲットとしたオペレーションSpalaxと呼ばれる攻撃です。この事例では悪意のあるPDFファイルを添付したメールから組織への侵入が行われました。このメールは運転の違反を通知する内容や銀行口座の差し止めを通知する内容など、特定の組織を狙った文面ではなく汎用的なばらまき型の文面であり、被害者に感染させるマルウェアとしてAsyncRATを含む3つのRATが使用されました。\n\n2つ目はFortinet社が報告した事例で、2021年に世界各国の航空会社を標的としたスピアフィッシング攻撃です。この事例は1つ目の事例と同様に悪意のあるPDFファイルを添付したメールから初期侵入が行われました。1つ目の事例と異なり、航空会社を標的に絞った文面で従業員を騙すことでAsyncRATへの感染を引き起こしました。\n\n3つ目はSplunk社が2023年に報告したスピアフィッシング攻撃の事例です。この事例では、上記2つの事例と同様にメールの添付ファイルから初期侵入が試みられましたが、その添付ファイルとしてMicrosoft OneNoteが使用されました。\n\nOneNoteを悪用した攻撃が使われた背景の1つとして、インターネットから入手したMicrosoft OfficeファイルのVBAマクロがデフォルトで実行されないようになるアップデートをMicrosoft社が配信したことが考えられます。セキュリティ対策の進歩に応じて攻撃者も悪用手法を変化させており、Splunk社の事例はAsyncRATも例外ではないことを表しています。\n\n以上から、AsyncRATは不特定多数をターゲットにした攻撃の事例から標的型攻撃の事例まで幅広く観測されていること、最新のセキュリティ対策を回避するために攻撃手法を変化させながら現在も攻撃者によって使用されていることが分かります。\n\n容易に使用可能なAsyncRAT\n\nAsyncRATが攻撃者に人気である理由として、オープンソースツールであり入手が容易であることに加え、ターゲットに感染させるプログラムの設定が単純明快で分かりやすいことが考えられます。\nAsyncRATを含むRATの基本構成は、攻撃者の端末で操作するサーバープログラムと、ターゲットに感染させて接続を待ち受けるクライアントプログラムの2つです。クライアントプログラムはサーバープログラム上で作成することができ、その際に細かく機能を設定することが可能です。\n\n\n\nRATマルウェアが攻撃者端末とセッションを確立するまでの流れ\n\n\nAsyncRATはQuasarRATと呼ばれるマルウェアから派生したものであり、QuasarRATのソースコードを一部流用して作成されたと考えられています。ここからはAsyncRATとQuasarRATを比較しながら、AsyncRATのクライアントプログラム作成がどのくらいシンプルであるかを確認してみます。\n以下の画像では、AsyncRATとQuasarRATのクライアントプログラム作成時における、被害端末へのインストールに関する設定画面を比較しています。QuasarRATでは永続化（PCの再起動時に自動でマルウェアを実行する機能）の有無やプログラムのコピー先について細かく設定することができます。一方で、AsyncRATはプログラムのコピー先を簡易的に設定することしかできません。しかしAsyncRATのクライアントプログラムを実行すると、設定項目に無かった永続化をRUNレジストリキーによって行う挙動が確認できます。このようにAsyncRATには機能を大きく削らず設定項目を簡略化する工夫が見られ、誰もが容易に扱うことができるため、現在も攻撃者に利用されていることが推測されます。\n\n\n\nAsyncRAT（左）とQuasarRAT（右）のクライアントプログラム作成画面の比較\n\n\nAsyncRATによる被害を防ぐための対策\n\n上述したとおり、6月は国内におけるAsyncRATの検出数が増加しており、今後も活動が本格化する恐れがあります。これらの脅威から組織を守るためには、感染を防ぐ対策に加えて、感染してしまった場合の影響を最小限に抑える体制を用意することが重要です。前者についてはOSやセキュリティ製品を最新の状態に保つこと、不審なメールに警戒するよう従業員に教育することなどが有効です。後者については不要なポートを閉じておくこと、SOC（Security Operation Center）のサービスを利用して組織の通信を監視すること、EDR製品を活用して組織内の不審なアクティビティを監視すること、機密データをセキュリティが強固な場所に分離して容易にアクセスされないようにすることなどが有効です。\n\n\n\n常日頃からリスク軽減するための対策について\n\n各記事でご案内しているようなリスク軽減の対策をご案内いたします。\n下記の対策を実施してください。\n\n\n\t1. セキュリティ製品の適切な利用\n\t1-1. ESET製品の検出エンジン（ウイルス定義データベース）をアップデートする\n\tESET製品では、次々と発生する新たなマルウェアなどに対して逐次対応しております。\n\t最新の脅威に対応できるよう、検出エンジン（ウイルス定義データベース）を最新の状態にアップデートしてください。\n\t1-2.複数の層で守る\n\t1つの対策に頼りすぎることなく、エンドポイントやゲートウェイなど複数の層で守ることが重要です。\n\t2. 脆弱性への対応\n\t2-1.セキュリティパッチを適用する\n\tマルウェアの多くは、OSに含まれる「脆弱性」を利用してコンピューターに感染します。「Windows Update」などのOSのアップデートを行ってください。また、マルウェアの多くが狙う「脆弱性」は、Office製品、Adobe Readerなどのアプリケーションにも含まれています。各種アプリケーションのアップデートを行ってください。\n\t2-2.脆弱性診断を活用する\n\tより強固なセキュリティを実現するためにも、脆弱性診断製品やサービスを活用していきましょう。\n\t3. セキュリティ教育と体制構築\n\t3-1.脅威が存在することを知る\n\t「セキュリティ上の最大のリスクは&ldquo;人&rdquo;だ」とも言われています。知らないことに対して備えることができる人は多くありませんが、知っていることには多くの人が「危険だ」と気づくことができます。\n\t3-2.インシデント発生時の対応を明確化する\n\tインシデント発生時の対応を明確化しておくことも、有効な対策です。何から対処すればいいのか、何を優先して守るのか、インシデント発生時の対応を明確にすることで、万が一の事態が発生した時にも、慌てずに対処することができます。\n\t4. 情報収集と情報共有\n\t4-1.情報収集\n\t最新の脅威に対抗するためには、日々の情報収集が欠かせません。弊社をはじめ、各企業・団体から発信されるセキュリティに関する情報に目を向けましょう。\n\t4-2.情報共有\n\t同じ業種・業界の企業は、同じ攻撃者グループに狙われる可能性が高いと考えられます。同じ攻撃者グループの場合、同じマルウェアや戦略が使われる可能性が高いと考えられます。分野ごとのISAC（Information Sharing and Analysis Center）における情報共有は特に効果的です。\n\n\n\n\n\n\n\n\n\t5月\n\t6月\n\t7月・8月\n\n\n \n\n\n2023年サイバーセキュリティレポート 新興言語「Go」で実装されたマルウェアや、ペネトレーションテストの事例を解説",
+          "link": "https://eset-info.canon-its.jp/malware_info/malware_topics/detail/malware2406.html",
+          "publishedOn": "2024-07-29T15:00:00.000Z",
+          "wordCount": 327,
+          "title": "2024年6月 マルウェアレポート",
+          "imageUrl": "https://eset-info.canon-its.jp/files/topics/4592_ext_01_0.png"
+        },
+        {
           "id": "https://eset-info.canon-its.jp/malware_info/special/detail/240723.html",
           "author": null,
           "description": "10年前から金銭的利益を目的にLinuxサーバーを侵害し、今なお進化を続けるEburyマルウェア。ESET社の調査で明らかになったその手口を解説します。\n\n\n本記事はESET Japanが提供する「ESETブログ」に掲載された「40万台のLinuxサーバーを侵害：暗号通貨を窃盗し、金銭的利益を目的としたEburyの現状と隠蔽機能の進化」を再編集したものです。\n\n\n\n\n\n\n10年前にESET社は「Operation Windigo（ウィンディゴ作戦）」というタイトルのホワイトペーパーを公開し、Linuxを攻撃するEburyマルウェアによって金銭的利益を目的としたキャンペーンが実行されていることを伝えました。ESET社は、Eburyのその後の進化と、Linuxサーバーのボットネットを収益化するためにEburyのオペレーターが使用している新しいマルウェア系統を解説したホワイトペーパーを公開しました。\n\nEBRYの現状と隠蔽機能の進化 全レポート（英語のみ）\n\nウィンディゴ作戦のホワイトペーパーを公開した後、Eburyの実行犯の1人が逮捕され、有罪判決を受けましたが、ボットネットの拡大は止まっていません。2014年と2017年にも報告していますが、OpenSSHバックドアであり認証情報を窃取するEburyマルウェアは更新され続けています。\n\nESET社は、新しい検体とネットワークインジケーターを追跡するためにハニーポットを継続して管理しています。しかし、Eburyの進化に伴って、これらのハニーポットを運用することが難しくなっています。たとえば、ESET社のハニーポットの1つは、Eburyがインストールされているのに適切に反応しなくなっています。Eburyのオペレーターは、数時間をかけて何が起こっているのかをデバッグおよび調査した後に、最終的に、このサーバーを諦め、図1に示しているように、Eburyのオペレーターをハニーポットによって騙そうとしていることを分かっているというメッセージを送信してきました。\n\n\n\n図1. EburyのオペレーターとESET社が運用するハニーポット間のやり取り。\nEburyのオペレーターがこのシステムをハニーポットであることを見破り、フラグを立てていたことを示している\n\n\n2021年、オランダ国家ハイテク犯罪ユニット（NHTCU）は、暗号通貨が窃盗された被害者のサーバーでEburyを発見し、ESET社に連絡しました。ESET社は、NHTCUとの連携によって、同グループの最近の活動や使用しているマルウェアについての重要な情報を得ることができました。\n\n拡散し続けるEbury\n\nこのホワイトペーパーでは、Eburyマルウェアを新しいサーバーに拡散するために使用されている新たな方法について説明しています。図2は、ESET社が特定した方法をまとめたものです。\n\n\n\n図2. Eburyのオペレーターが新しいサーバーを侵害するために使用しているさまざまな方法\n\n\n被害を受けた組織には、多くのホスティングプロバイダーが含まれています。このサイバー攻撃組織は、ホスティングプロバイダーのインフラを乗っ取り、プロバイダーが提供しているすべてのサーバーにEburyをインストールします。ESET社は、侵害されているホスティングプロバイダーから、実験的に仮想サーバーをレンタルしました。7日以内にESET社がレンタルしたサーバーにEburyがインストールされました。\n\n注意が必要なもう1つの方法は、データセンターで重要な標的のSSHトラフィックを傍受し、認証情報を取得するためのサーバーにリダイレクトするAiTM攻撃（中間者攻撃）です（図3の要約を参照）。Eburyのオペレーターは、標的の組織と同じネットワークセグメントに存在し、Eburyに侵害されているサーバーを利用して、ARPスプーフィングを実行します。インターネットテレメトリ（監視データ）によると、2023年には200台以上のサーバーが標的となっています。特に重要な標的となっているのは、ビットコインとイーサリアムの仮想通貨ネットワークに参加しているマシンです。Eburyは、被害者がパスワードを入力してログインすると、標的のサーバーでホストされている暗号通貨ウォレットを自動的に盗み出します。\n\n\n\n図3. EburyのオペレーターによるAiTM攻撃の概要\n\n\nこれらの方法による効果を見ていきましょう。2009年以来、Eburyによって侵害されたサーバー台数は合計で約40万台に達しており、2023年末時点で10万台以上が侵害された状態にあります。Eburyのオペレーターは侵害したシステムを追跡していますが、そのデータから毎月ボットネットに追加された新しいサーバー台数を時系列で示しました（図4）。この図では左右のY軸に2つの尺度を用いており、Eburyが一度に数万台のサーバーに展開された重要ないくつかのインシデントがあったことが分かります。\n\n\n\n図4. Y軸に2つの異なる尺度を使用した1カ月あたりのEburyの展開数（Eburyのオペレーターが管理している、侵害したサーバー台数に関するデータベース情報に基づく）\n\n\n収益化\n\nこの新しいホワイトペーパーでは、Eburyボットネット（図5）を活用するために使用されている新しいマルウェア系統についても説明しています。Eburyのオペレーターは、スパム送信やWebトラフィックのリダイレクトを行っていますが、サーバーとのHTTP POSTリクエストの送受信も利用され、金融取引を実行するWebサイトから詳細な情報が窃取されています。\n\n\n\n図5. Eburyに感染したサーバーに展開される複数のマルウェア系統とその影響\n\n\n深く潜り込み、検出を回避する\n\nEburyマルウェア系統も更新されています。重要なアップデートバージョンである1.8は、2023年後半に初めて登場しました。このアップデートには、新しい難読化技術、新しいドメイン生成アルゴリズム（DGA）、そしてEburyがシステム管理者から自身を隠蔽するために使用されるユーザーランドレベルのルートキットの改良が含まれています。このアップデート版がインストールされると、プロセス、ファイル、ソケット、そしてマッピングされたメモリー（図6）さえも隠蔽されます。\n\n\n\n図6. ユーザーランドでEburyのルートキットが実行されたときの、OpenSSHサーバーとBashマップファイルの違い（ユニファイド形式）\n\n\nEburyの詳細と、自社のサーバーが侵害されているか確認する方法\n\n新しいホワイトペーパー「Eburyの現状と進化した隠蔽機能：暗号通貨を窃盗し、金銭的な利益を得るために40万台のLinuxサーバーが侵害される（英語のみ）」では、技術的な解説を交えて、Eburyの各側面について詳細に説明しています。\n\nセキュリティ侵害の痕跡（IoC）は、ESET社のGitHubリポジトリ（malware-ioc）に掲載されています。検出スクリプトは、malware-researchリポジトリにあります。",
@@ -1512,7 +1532,18 @@
       "title": "wizSafe Security Signal -安心・安全への道標- IIJ",
       "feedUrl": "https://wizsafe.iij.ad.jp/feed/",
       "siteUrl": "https://wizsafe.iij.ad.jp",
-      "articles": []
+      "articles": [
+        {
+          "id": "https://wizsafe.iij.ad.jp/?p=1731",
+          "author": "SOCチーム",
+          "description": "本レポートでは、2024年6月中に発生した観測情報と事案についてまとめています。 目次 DDoS攻撃の観測情報 IIJマネージドセキュリティサービスの観測情報 Web/メールのマルウェア脅威の観測情報 セキュリティインシ … \"wizSafe Security Signal 2024年6月 観測レポート\" の続きを読む",
+          "link": "https://wizsafe.iij.ad.jp/2024/07/1731/",
+          "publishedOn": "2024-07-30T05:33:31.000Z",
+          "wordCount": 1222,
+          "title": "wizSafe Security Signal 2024年6月 観測レポート",
+          "imageUrl": "https://wizsafe.iij.ad.jp/wp-content/themes/wizsafe_theme/images/logo-og.png"
+        }
+      ]
     },
     {
       "title": "脅威情報 | Trellix Blog",
@@ -1525,6 +1556,17 @@
       "feedUrl": "https://www.nic.ad.jp/ja/index.xml",
       "siteUrl": "https://www.nic.ad.jp/",
       "articles": [
+        {
+          "id": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2024/vol2094.html",
+          "author": null,
+          "description": "https://blog.nic.ad.jp/2024/9890/\n\n\n┏◆ 先週のトピックスとお知らせ 計4件\n┗━━━━━━━━━━━━━━━━━━━━━━\n\n・JPNIC技術セミナー 2024年8月 開催のお知らせ \n  ～ 3日間でインターネットの基盤技術を学ぼう！ ～(2024/7/24)\n  https://www.nic.ad.jp/ja/topics/2024/20240724-03.html\n\n・BIND 9における複数の脆弱性について(2024年7月)(2024/7/24)\n  https://www.nic.ad.jp/ja/topics/2024/20240724-02.html\n\n・いよいよ明日・明後日開催・オンラインでも配信(無料)!! \n  Internet Week ショーケース in 福岡【7月25日・26日】(2024/7/24)\n  【本イベントはすでに終了しました】\n  https://www.nic.ad.jp/ja/topics/2024/20240724-01.html\n\n・APNIC 58参加支援プログラム応募期限延長のお知らせ(2024/7/22)\n  【本プログラムはすでに締め切りました】\n  https://www.nic.ad.jp/ja/topics/2024/20240722-01.html\n\n\n┏◆ 先週のWeb更新情報 計1件\n┗━━━━━━━━━━━━━━━━━━━━━━\n\n・IPv4アドレス移転履歴を更新(2024/7/22)\n  2024年7月22日現在のデータを追加\n  https://www.nic.ad.jp/ja/ip/transfer/ipv4-log.html\n\n\n┏◆ イベント等のお知らせ 計3件\n┗━━━━━━━━━━━━━━━━━━━━━━\n\n  ◇ RPKIハンズオン/勉強会 開催のご…",
+          "link": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2024/vol2094.html",
+          "publishedOn": "2024-07-29T06:49:13.000Z",
+          "wordCount": null,
+          "title": "[メルマガ]vol.2094:【トピックス号】先週のトピックスとWeb更新情報",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.nic.ad.jp/ja/ip/transfer/ipv4-log.html",
           "author": null,
@@ -1977,6 +2019,16 @@
       "siteUrl": "https://www.cisa.gov/",
       "articles": [
         {
+          "id": "/node/21851",
+          "author": "CISA",
+          "description": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.\nCVE-2024-4879 ServiceNow Improper Input Validation Vulnerability\nCVE-2024-5217 ServiceNow Incomplete List of Disallowed Inputs Vulnerability\nCVE-2023-45249 Acronis Cyber Infrastructure (ACI) Insecure Default Password Vulnerability\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.\nAlthough BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.",
+          "link": "https://www.cisa.gov/news-events/alerts/2024/07/29/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+          "publishedOn": "2024-07-29T12:00:00.000Z",
+          "wordCount": 685,
+          "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+          "imageUrl": null
+        },
+        {
           "id": "/node/21839",
           "author": "CISA",
           "description": "CISA released two Industrial Control Systems (ICS) advisories on July 25, 2024. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.\nICSA-24-207-01 Siemens SICAM Products\nICSA-24-207-02 Positron Broadcast Signal Processor\nCISA encourages users and administrators to review the newly released ICS advisories for technical details and mitigations.",
@@ -2270,6 +2322,56 @@
       "feedUrl": "https://jvn.jp/rss/jvn.rdf",
       "siteUrl": "https://jvn.jp/",
       "articles": [
+        {
+          "id": "https://jvn.jp/vu/JVNVU90908488/",
+          "author": "jvn@jvn.jp",
+          "description": "エレコム株式会社が提供する複数の無線LANルーターには、OSコマンドインジェクションの脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU90908488/",
+          "publishedOn": "2024-07-30T03:15:00.000Z",
+          "wordCount": 183,
+          "title": "エレコム製無線LANルーターにおけるOSコマンドインジェクションの脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/jp/JVN26734798/",
+          "author": "jvn@jvn.jp",
+          "description": "株式会社ＦＦＲＩセキュリティが提供するFFRI AMCには、OSコマンドインジェクションの脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN26734798/",
+          "publishedOn": "2024-07-30T03:00:45.000Z",
+          "wordCount": 167,
+          "title": "FFRI AMCにおけるOSコマンドインジェクションの脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/jp/JVN26225832/",
+          "author": "jvn@jvn.jp",
+          "description": "株式会社イーシーキューブが提供するEC-CUBE 4系用プラグイン「EC-CUBE Web API プラグイン」には、格納型クロスサイトスクリプティングの脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN26225832/",
+          "publishedOn": "2024-07-30T03:00:30.000Z",
+          "wordCount": 136,
+          "title": "EC-CUBE 4系用プラグイン「EC-CUBE Web API プラグイン」における格納型クロスサイトスクリプティングの脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/jp/JVN48324254/",
+          "author": "jvn@jvn.jp",
+          "description": "株式会社イーシーキューブが提供するEC-CUBE 4系には、プラグインインストール時の入力値チェックに不備（CWE-349）があります。",
+          "link": "https://jvn.jp/jp/JVN48324254/",
+          "publishedOn": "2024-07-30T03:00:15.000Z",
+          "wordCount": 122,
+          "title": "EC-CUBE 4系におけるプラグインインストール時の入力値チェックの不備",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/jp/JVN06672778/",
+          "author": "jvn@jvn.jp",
+          "description": "エレコム株式会社が提供する複数の無線LANルーターには、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN06672778/",
+          "publishedOn": "2024-07-30T03:00:00.000Z",
+          "wordCount": 100,
+          "title": "エレコム製無線LANルーターにおける複数の脆弱性",
+          "imageUrl": null
+        },
         {
           "id": "https://jvn.jp/jp/JVN84326763/",
           "author": "jvn@jvn.jp",
@@ -2827,6 +2929,66 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/07/30/51388.html",
+          "author": null,
+          "description": "摘発し 4 名を逮捕できた。だが、これでめでたし、というわけではなかった。逮捕された 4 人のうちひとりマシュー・ガットレルが裁判官ではなく一般市民（陪審員）に当局の主張を認めさせるという戦略にでた。実は DDoS 攻撃そのものを禁止する法律はなく、マシューはこれを根拠に犯罪を立証できないことを狙った。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/07/30/51388.html",
+          "publishedOn": "2024-07-29T23:20:02.000Z",
+          "wordCount": 1183,
+          "title": "クリスマスの逮捕劇 ～ 米司法と FBI が DDoS を有罪にするプロセス",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/44292.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/07/30/51387.html",
+          "author": null,
+          "description": "株式会社エーアイセキュリティラボは8月20日に、オンラインセミナー「サクッと学べる！脆弱性診断基礎からAI活用まで「内製化」のポイントを一挙解説」を開催すると発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/07/30/51387.html",
+          "publishedOn": "2024-07-29T23:15:02.000Z",
+          "wordCount": 927,
+          "title": "脆弱性診断「内製化」ポイント一挙解説 ～ 基礎から AI 活用まで、エーアイセキュリティラボ 8/20 開催",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/45709.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/07/30/51386.html",
+          "author": null,
+          "description": "株式会社SHIFT SECURITYは7月25日、SHIFTグループ恒例のオンラインITイベント「89祭2024～ITムーブメントに、ダイブしよう！～」を8月1日に開催すると発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/07/30/51386.html",
+          "publishedOn": "2024-07-29T23:10:03.000Z",
+          "wordCount": 986,
+          "title": "15分でわかる脆弱性管理プラットフォーム「S4」ほか ～ 89祭2024開催",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/45710.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/07/30/51385.html",
+          "author": null,
+          "description": "総合ディスプレイ業を行う株式会社ムラヤマは7月18日、不正アクセスによるランサムウェア被害について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/07/30/51385.html",
+          "publishedOn": "2024-07-29T23:05:12.000Z",
+          "wordCount": 961,
+          "title": "総合ディスプレイ業のムラヤマにランサムウェア攻撃、ファイルが暗号化",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/45662.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/07/30/51384.html",
+          "author": null,
+          "description": "航空・宇宙、自動車、医療等の分野でボルトや精密加工部品を製造するメイラ株式会社は7月18日、ランサムウェア被害によるシステム障害について、第2報を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/07/30/51384.html",
+          "publishedOn": "2024-07-29T23:05:06.000Z",
+          "wordCount": 963,
+          "title": "グループ会社の管理者アカウントが不正利用 ～ メイラ社ランサムウェア攻撃被害 2 報",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/45655.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/07/30/51383.html",
+          "author": null,
+          "description": "株式会社下鴨茶寮は7月18日、不正アクセスによるシステム侵害の可能性について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/07/30/51383.html",
+          "publishedOn": "2024-07-29T23:05:03.000Z",
+          "wordCount": 917,
+          "title": "「下鴨茶寮オンラインショップ」に不正アクセス、個人情報の一部流出が懸念",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/45649.jpg"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2024/07/29/51382.html",
           "author": null,
@@ -4515,6 +4677,66 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2407/30/news144.html",
+          "author": null,
+          "description": "「楽天カード（ナンバーレス）」の発行をがスタート。既に楽天カードを持っている人が、2枚目のカードとして追加で申し込める。",
+          "link": "https://www.itmedia.co.jp/news/articles/2407/30/news144.html",
+          "publishedOn": "2024-07-30T06:55:00.000Z",
+          "wordCount": 2812,
+          "title": "「楽天カード」にもナンバーレスカード　2枚目のみ",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2407/30/cover_news144.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2407/30/news142.html",
+          "author": null,
+          "description": "目黒区の烏森小学校で、体力テストの結果が、同じクラスの他の児童に見える状態になっていた。同じクラス児童のログインID・パスワード一覧を、児童の各端末から閲覧可能な状態にしていたことが原因。",
+          "link": "https://www.itmedia.co.jp/news/articles/2407/30/news142.html",
+          "publishedOn": "2024-07-30T06:39:00.000Z",
+          "wordCount": 2814,
+          "title": "小学生の体力テスト結果漏えい　クラスの子のID・パスワード一覧、見える状態で端末返却　目黒区立烏森小学校",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2407/30/l_yx_meguro.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2407/30/news110.html",
+          "author": null,
+          "description": "雇ったAI人材が実は北朝鮮の技術者で、社内にマルウェアを仕込もうとしていた。履歴書の写真はAIで加工されたもので、オンライン面談でも気付けなかった──米セキュリティ企業のKnowBe4が、こんな出来事に遭遇したと自社ブログで明かした。",
+          "link": "https://www.itmedia.co.jp/news/articles/2407/30/news110.html",
+          "publishedOn": "2024-07-30T02:54:00.000Z",
+          "wordCount": 3031,
+          "title": "AI人材を新規採用→実は“北朝鮮の技術者”だった　マルウェア感染など画策　米セキュリティ企業が体験明かす",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2407/30/cover_news110.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2407/29/news162.html",
+          "author": null,
+          "description": "日本、米国、オーストラリア、インド4カ国の協力枠組み「クアッド」は29日、外相会合を東京都内で開き、海洋秩序の維持・強化へ協力していく方針で一致した。会合後に発表した共同声明では、中国の海洋進出を念頭に、東・南シナ海情勢への深刻な懸念を表明し「係争地形の軍事化や、南シナ海での威圧的、脅迫的な操船に重大な懸念を表明し続ける」と明記した。サイバー攻撃対策の強化や偽情報に共同で対処する方針も示した。",
+          "link": "https://www.itmedia.co.jp/news/articles/2407/29/news162.html",
+          "publishedOn": "2024-07-29T10:10:00.000Z",
+          "wordCount": 2547,
+          "title": "日米豪印、海洋秩序維持で一致　中国念頭「軍事化に重大懸念」サイバー攻撃などで共同対処",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2407/29/cover_news162.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2407/29/news153.html",
+          "author": null,
+          "description": "出版大手のKADOKAWAは29日、サイバー攻撃の影響を受けた後の本の出荷状況について、8月中旬には平常通りに戻るという見通しを明らかにした。",
+          "link": "https://www.itmedia.co.jp/news/articles/2407/29/news153.html",
+          "publishedOn": "2024-07-29T09:03:00.000Z",
+          "wordCount": 2823,
+          "title": "KADOKAWA、本の出荷は8月中旬ごろに平常通りに　サイバー攻撃の影響で一時は既刊の出荷部数が3分の1に",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2407/29/cover_news153.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2407/29/news150.html",
+          "author": null,
+          "description": "兼松など4社が4月に立ち上げた、国内セキュリティ企業を専門とする投資ファンド・日本サイバーセキュリティファンド（NCSF）が、新たに出資者として参加するセキュリティ企業13社を発表した",
+          "link": "https://www.itmedia.co.jp/news/articles/2407/29/news150.html",
+          "publishedOn": "2024-07-29T08:28:00.000Z",
+          "wordCount": 2840,
+          "title": "国内セキュリティ企業に20億円投資、新ファンドに業界16社　「セキュリティを成長産業に」",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2407/29/cover_news150.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2407/29/news112.html",
           "author": null,
           "description": "シャープは29日、「COCORO STORE」と「ヘルシオデリ」が第三者から不正アクセスを受け、一部が改ざんされていたと発表した。203人の個人情報が流出していた。",
@@ -5091,6 +5313,116 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1612265.html",
+          "author": null,
+          "description": "Wi-Fiジャマーを使ってセキュリティカメラを無効化する窃盗団の手口を、海外メディア「PCWorld」が報じている。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1612265.html",
+          "publishedOn": "2024-07-30T07:45:00.000Z",
+          "wordCount": 4644,
+          "title": "日本も将来こうなる？ Wi-Fiジャマーで防犯カメラを無効化する窃盗団、米で警戒を呼び掛け【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1612/265/yajiuma-watch_3.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1612378.html",
+          "author": null,
+          "description": "株式会社ビーマップは、スマートメーターを利用した見守りサービス用のシステムについて、株式会社IRISとともに、株式会社良和ハウスが管理する広島市やその周辺の賃貸物件において実証実験を実施すると発表した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1612378.html",
+          "publishedOn": "2024-07-30T07:00:00.000Z",
+          "wordCount": 5065,
+          "title": "スマートメーターを利用した見守りサービスを広島で実証実験。ビーマップら3社",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1612/378/02.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1612263.html",
+          "author": null,
+          "description": "Chromeのパスワードマネージャーで、パスワードが読み出せない障害が発生していたことが明らかになった。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1612263.html",
+          "publishedOn": "2024-07-30T04:55:00.000Z",
+          "wordCount": 4633,
+          "title": "Chromeのパスワードマネージャーでパスワードが読み出せない障害。該当ユーザーは確認を【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1612/263/yajiuma-watch_4.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/ranking/mousepro/1610643.html",
+          "author": null,
+          "description": "本記事では、マウスコンピューターの法人向けブランド「MousePro」の売れ筋PCを紹介しています。なお、順位、価格、構成は随時変動しており、最新情報はリンク先にてご確認ください。",
+          "link": "https://internet.watch.impress.co.jp/docs/ranking/mousepro/1610643.html",
+          "publishedOn": "2024-07-30T02:00:00.000Z",
+          "wordCount": 4659,
+          "title": "幅99mmのスリムPC「MousePro LPシリーズ」、ディスプレイ背面に設置できる小型PC「MousePro CRシリーズ」が人気【MousePro 売れ筋ビジネスPCランキング デスクトップ編 2024/7/30版】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1610/643/MousePro_LP.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1612198.html",
+          "author": null,
+          "description": "国立研究開発法人情報通信研究機構（NICT）フォトニックネットワーク研究室を中心とした国際共同研究グループは7月24日、現在の商用光通信装置200台分の伝送容量に相当する336Tbps（テラビット／秒）の光通信を実証したと発表した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1612198.html",
+          "publishedOn": "2024-07-29T22:30:00.000Z",
+          "wordCount": 5071,
+          "title": "光源1つで商用光通信の200台分、336Tbpsの大容量光通信を実装、NICTら国際グループが世界初の高品質光コムを生成",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1612/198/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1612145.html",
+          "author": null,
+          "description": "サンワサプライ株式会社は7月29日、光ファイバーケーブルの加工用品3種類を発売した。ラインアップと市場想定価格は、平坦な断面に切断するクリーパー「HKB-TL36」が1万7050円、クリーパーで切断後に外皮を除去する外皮むき工具「HKB-TL37」が5500円、外皮除去後にごみを除去するクリーニングペーパー「HKB-AC-CL5」が2068円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1612145.html",
+          "publishedOn": "2024-07-29T21:55:00.000Z",
+          "wordCount": 5074,
+          "title": "光ファイバーケーブル加工用のクリーパー・外皮むき工具・クリーニングペーパーの3点、サンワサプライが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1612/145/main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/ranking/1611990.html",
+          "author": null,
+          "description": "前週に閲覧数の多かった記事を、カテゴリーごとに上位5位までレポートします。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/ranking/1611990.html",
+          "publishedOn": "2024-07-29T21:55:00.000Z",
+          "wordCount": 5104,
+          "title": "Wi-Fi 7対応PCの情報が混沌すぎる!?　清水理史の「イニシャルB」連載 謝罪と問題整理の記事に注目が集まる【アクセスランキング】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1611/990/1606464.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1612059.html",
+          "author": null,
+          "description": "東日本電信電話株式会社（NTT東日本）および西日本電信電話株式会社（NTT西日本）は7月26日、天気予報サービス「177」を2025年3月31日をもって終了することを発表した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1612059.html",
+          "publishedOn": "2024-07-29T21:30:00.000Z",
+          "wordCount": 5067,
+          "title": "NTT東西、天気予報サービス「177」を2025年3月末に終了。利用減少などにより",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1612/059/001.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1612180.html",
+          "author": null,
+          "description": "タケモトピアノ株式会社は、テレビCMを新しくし、「タケモトピアノ AI編」を8月1日に関西地区で放映開始する。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1612180.html",
+          "publishedOn": "2024-07-29T21:05:00.000Z",
+          "wordCount": 4625,
+          "title": "「ピアノ売ってちょーだい♪」のタケモトピアノが新CM。AIも活用してピアノの妖精が主役に【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1612/180/sub19.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/review/1607421.html",
+          "author": null,
+          "description": "最新の無線LANはWi-Fi 7だが、PCやスマートフォンの対応機種はまだ少なく、ようやくWi-Fi 6E対応が当たり前になってきたところ。Wi-Fi 6Eでは、従来のWi-Fi 6までの2.4GHz帯と5GHz帯に加えて、6GHz帯も使えるのが大きな違いだ。",
+          "link": "https://internet.watch.impress.co.jp/docs/review/1607421.html",
+          "publishedOn": "2024-07-29T21:00:00.000Z",
+          "wordCount": 4858,
+          "title": "やっと自宅を「Wi-Fi 6E」化！ 「法人向け」の、ルーターではなく「アクセスポイント」を導入してみた　Wi-Fi 6Eで高速化するのか、他にメリットはあるのかを検証！",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1607/421/001.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1612041.html",
+          "author": null,
+          "description": "株式会社ドワンゴは、「ニコニコ動画」をはじめとするニコニコの一部サービスの提供を、8月5日に再開すると発表した。あわせて、6月からのサービス停止に伴う補償対応についての情報を公開した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1612041.html",
+          "publishedOn": "2024-07-29T08:45:00.000Z",
+          "wordCount": 5073,
+          "title": "ニコニコ動画、8月5日に新バージョンとして再開。ユーザーへの補償は6～8月を対象として発表",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1612/041/00.png"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/1612069.html",
           "author": null,
@@ -7705,6 +8037,46 @@
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
         {
+          "id": "https://news.mynavi.jp/techplus/article/20240729-2994386/",
+          "author": null,
+          "description": "Group-IBは7月25日(現地時間)、新しいサイバー攻撃グループ「GXC Team」に関する調査結果を公開した。GXC TeamはAIを悪用したサイバー攻撃ツールを開発、販売する犯罪組織とされる。事業の中核となるMaaSは、フィッシングキットとマルウェアのバンドルや、フィッシングに最新のAI音声通話を使用する特徴がある。",
+          "link": "https://news.mynavi.jp/techplus/article/20240729-2994386/",
+          "publishedOn": "2024-07-29T03:32:36.000Z",
+          "wordCount": 1833,
+          "title": "Android狙うフィッシングキットとAI、攻撃者がセット販売",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240729-2994386/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240729-2994384/",
+          "author": null,
+          "description": "Checkmarxは7月26日(米国時間)、macOS開発者を標的とする悪意のあるPythonパッケージをPythonパッケージリポジトリ「PyPI」から発見したと報じた。開発者がこのPythonパッケージをインストールすると、Google Cloudの認証情報を窃取される可能性がある。",
+          "link": "https://news.mynavi.jp/techplus/article/20240729-2994384/",
+          "publishedOn": "2024-07-29T02:53:01.000Z",
+          "wordCount": 1820,
+          "title": "Mac狙うPythonパッケージ、Google Cloudの認証情報を窃取",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240729-2994384/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240729-2994038/",
+          "author": null,
+          "description": "Googleは2024年7月24日22時半過ぎから25日16時半ごろ(協定世界時)までChromeのパスワードマネージャーが正常に動作しなくなったと発表した。影響を受けたユーザーは保存していたパスワードが消え、パスワードを保存できなくなったという。",
+          "link": "https://news.mynavi.jp/techplus/article/20240729-2994038/",
+          "publishedOn": "2024-07-28T23:59:52.000Z",
+          "wordCount": 1734,
+          "title": "Google Chromeのパスワード管理に障害、保存していたパスワードが消える",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240729-2994038/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240729-2993313/",
+          "author": null,
+          "description": "米国土安全保障省サイバーセキュリティ・インフラストラクチャーセキュリティ庁(CISA)は7月25日(米国時間)、北朝鮮の複数のサイバー攻撃グループが軍事および核計画を推進するため世界的なスパイ活動を展開しているとして注意を喚起した。",
+          "link": "https://news.mynavi.jp/techplus/article/20240729-2993313/",
+          "publishedOn": "2024-07-28T22:51:28.000Z",
+          "wordCount": 1881,
+          "title": "北朝鮮が核計画推進のサイバー攻撃、米当局らが警戒呼びかけ",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240729-2993313/ogp_images/ogp.jpg"
+        },
+        {
           "id": "https://news.mynavi.jp/techplus/article/20240726-2993305/",
           "author": null,
           "description": "Metaは7月24日(米国時間)、セクストーション詐欺に関与していたInstagramアカウント約6万3,000件を削除したと発表した。今回、Metaはサイバー犯罪グループ「Yahoo Boys」の活動をポリシーに基づき禁止、手始めに犯罪グループと直接関与しようとしたInstagramアカウントを削除した。",
@@ -8773,16 +9145,6 @@
           "wordCount": 1796,
           "title": "Webブラウザ「Arc」に偽装してMacユーザーにマルウェア配布、注意を",
           "imageUrl": "https://news.mynavi.jp/techplus/article/20240701-2975376/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20240630-2975351/",
-          "author": null,
-          "description": "JPCERTコーディネーションセンター(JPCERT/CC)は6月27日、TP-LINKの複数の無線LANルータに脆弱性が存在するとして、注意を喚起した。この脆弱性を悪用されると、デバイスにログイン可能な攻撃者に任意のOSコマンドを実行される可能性がある。対象の脆弱性の深刻度は警告(Warning)と評価されている。",
-          "link": "https://news.mynavi.jp/techplus/article/20240630-2975351/",
-          "publishedOn": "2024-06-30T10:31:56.000Z",
-          "wordCount": 3282,
-          "title": "TP-Linkの無線LANルーターに脆弱性、アップデートを",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20240630-2975351/ogp_images/ogp.jpg"
         }
       ]
     }
