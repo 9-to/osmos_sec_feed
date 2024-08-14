@@ -12,6 +12,26 @@
       "siteUrl": "https://www.jpcert.or.jp/",
       "articles": [
         {
+          "id": "https://www.jpcert.or.jp/at/2024/at240016.html",
+          "author": null,
+          "description": "",
+          "link": "https://www.jpcert.or.jp/at/2024/at240016.html",
+          "publishedOn": "2024-08-14T05:13:00.000Z",
+          "wordCount": 391,
+          "title": "注意喚起: Adobe AcrobatおよびReaderの脆弱性（APSB24-57）に関する注意喚起  (公開)",
+          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
+        },
+        {
+          "id": "https://www.jpcert.or.jp/at/2024/at240015.html",
+          "author": null,
+          "description": "",
+          "link": "https://www.jpcert.or.jp/at/2024/at240015.html",
+          "publishedOn": "2024-08-14T05:13:00.000Z",
+          "wordCount": 279,
+          "title": "注意喚起: 2024年8月マイクロソフトセキュリティ更新プログラムに関する注意喚起  (公開)",
+          "imageUrl": "https://www.jpcert.or.jp/common/image/ogp_image.jpg"
+        },
+        {
           "id": "https://www.jpcert.or.jp/wr/2024/wr240807.html#1",
           "author": null,
           "description": "マルチテナント型のメールリレーサービスに複数の脆弱性",
@@ -399,6 +419,16 @@
       "siteUrl": "https://www.ipa.go.jp/about/index.html",
       "articles": [
         {
+          "id": "https://www.ipa.go.jp/jinzai/skill-standard/dss/case.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「デジタルスキル標準（DSS）活用事例集、リンク集」に関する情報です。",
+          "link": "https://www.ipa.go.jp/jinzai/skill-standard/dss/case.html",
+          "publishedOn": "2024-08-13T15:00:00.000Z",
+          "wordCount": 522,
+          "title": "NTTコムウェア株式会社のDSS活用事例を追加しました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
           "id": "https://www.ipa.go.jp/shiken/2024/r06aki_exam.html",
           "author": "情報処理推進機構（IPA）",
           "description": "情報処理推進機構（IPA）の「令和6年度秋期試験について（受験申込み）」に関する情報です。",
@@ -716,16 +746,6 @@
           "publishedOn": "2024-07-16T15:00:00.000Z",
           "wordCount": 1789,
           "title": "脆弱性対策情報データベースJVN iPediaの登録状況 [2024年第2四半期（4月～6月）]を公開しました",
-          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
-        },
-        {
-          "id": "https://www.ipa.go.jp/shiken/2024/r06aki_voucher.html",
-          "author": "情報処理推進機構（IPA）",
-          "description": "情報処理推進機構（IPA）の「令和6年度秋期試験におけるバウチャーチケットの購入申込みについて」に関する情報です。",
-          "link": "https://www.ipa.go.jp/shiken/2024/r06aki_voucher.html",
-          "publishedOn": "2024-07-15T15:00:00.000Z",
-          "wordCount": 370,
-          "title": "令和6年度秋期試験（応用情報技術者試験、高度試験、情報処理安全確保支援士試験）におけるバウチャーチケットの購入申込受付を終了しました",
           "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
         }
       ]
@@ -1475,16 +1495,6 @@
           "wordCount": 289,
           "title": "John the Ripper",
           "imageUrl": "https://eset-info.canon-its.jp/files/topics/4583_ext_01_0.png"
-        },
-        {
-          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/240716.html",
-          "author": null,
-          "description": "IPAが毎年発表する情報セキュリティ10大脅威において、常連とも言えるのが「ランサムウェアによる被害」だ。この記事では、新たな脅威となる「ノーウェアランサム」をはじめ、多様化するランサムウェア攻撃の手法と実際に起こった国内事例を踏まえながら、MDRをはじめ、有効な対策について解説していく。\n\n\n\n\n\nIPA「情報セキュリティ10大脅威」とは\n\n「安全で利便性の高い&rdquo;頼れるIT社会&rdquo;の実現」を目指して、2004年に発足した組織がIPA（独立行政法人情報処理推進機構）だ。そのIPAが2006年以降、セキュリティ対策を啓発するためにランキング形式で発表しているのが「情報セキュリティ10大脅威（以下、10大脅威）」であり、毎年一般向けにWebサイト上で公表されている。\n\nこの10大脅威は「個人向け」と「組織向け」で構成されている。個人、組織それぞれでサイバー攻撃の動向、手法をランキング化し、脅威の概要や対策を解説することで、実際の対策に役立ててもらうことを狙っている。\n\nこのランキングは選考委員により決定しているが、ランクの上下が対策の優劣を表すものではない。しかし、ユーザーが順位の高さを危険度の高さのようにみなしがちであることを踏まえ、2024年からは個人向けではランキング形式ではなく、50音順での表記へと変更されている。\n\nセキュリティニュースはなぜ必要か？セキュリティ情報の収集方法\n\n9年連続ランクインする「ランサムウェア攻撃」\n\nIPAの10大脅威「組織向け」において、9年連続でランクインしているのがランサムウェア攻撃だ。ランサムウェアとは「Ransom（身代金）」と「Software（ソフトウェア）」を組み合わせた造語である。ランサムウェア攻撃の被害に遭遇すると、パソコンなどデバイスに保存しているデータが不正に暗号化され、その復号のためとして身代金が要求される。\n\n現在の系譜につながるランサムウェアの先駆け的な存在として、2013年にトロイの木馬型のマルウェアとして発見された「CryptoLocker」が知られている。このランサムウェアに感染すると、デバイス内のファイルが暗号化され、ビットコインなどでの身代金の支払いを要求された。\n\nこのCryptoLockerの登場以降、サイバー攻撃においてランサムウェアの攻撃手法が多用されるようになり、2017年に大流行を引き起こしたWannaCryをきっかけに、一般的なユーザーにも広く知れ渡ることとなった。\n\nまた、コロナ禍においては、多くの企業・組織でテレワーク環境の整備を余儀なくされたが、RDPやVPNなどを利用した業務環境における不備や脆弱性を突かれたことで、ランサムウェアがさらなる猛威を振るうこととなった。こうした経緯・背景もあり、10大脅威においてランサムウェア攻撃は毎年ランクインするに至っているのだ。\n\n進化するランサムウェアの手口、被害を防ぐためにしておきたい7つのこと\n\n多様化するランサムウェア攻撃の手法\n\nランサムウェア攻撃の手法は年々、高度化・巧妙化しており、近年は「ダブルエクストーション（二重の脅迫）」、「トリプルエクストーション（三重の脅迫）」といったように、幾重にもわたって脅される手法も多く確認されている。\n\nダブルエクストーション\n\n言葉のとおり、二重にわたって脅迫を行うランサムウェア攻撃がダブルエクストーションだ。窃取したデータを暗号化して復号のために身代金を要求するだけにとどまらず、そのデータをダークウェブ上に公開するといったように、二重に脅迫を行う手法を用いる。企業・組織にとって、窃取されてしまったデータが一般に公開されてしまうと、コンプライアンスの観点も含めて大きなダメージとなりかねない。そうした企業・組織のウィークポイントにつけ込んだ攻撃手法と言える。\n\nトリプルエクストーション\n\nダブルエクストーションの手法に加え、DDoS攻撃を行うと脅す手法がトリプルエクストーションだ。Webサービスを提供している企業などでは、DDoS攻撃によるサーバーダウンや情報流出が生じると、事業存続に大きな影響を及ぼしかねない。サイバー攻撃者はそのような影響が生じやすい企業・組織を狙い、こうした攻撃手法も取り入れるのだ。\n\n一方で、最近では「ノーウェアランサム」と呼ばれる、暗号化せずにファイルを盗み出し、その引き換えに身代金を要求する手法も出てきている。ランサムウェア攻撃の認知度が高まり、企業・組織における対策が進んだことで、データの暗号化を省略してデータの窃取とその公開をもって身代金を得ようとする手口だ。このように、今後も世の中の動向に応じて、ランサムウェア攻撃の手法が変化していくことは想像に難くない。\n\n「NO MORE RANSOM!」ますます凶悪化するランサムウェアにどう対抗すべきか？\n\n国内で発生したランサムウェア攻撃の被害事例\n\n先述のとおり、近年国内においても、多くのランサムウェア攻撃による被害事例が生じている。以下、3つのインシデントを紹介する。\n\n大手製薬グループ会社におけるランサムウェア被害\n\n2023年6月、週末未明にグループ会社内の複数のサーバーが暗号化されていることが発覚。該当サーバーを社内ネットワークから隔離するなどの対策を早急に講じたものの、物流システムが被害を受けたことが確認されている。\n\n大手文具グループ会社におけるランサムウェア被害\n\n2023年6月、海外のグループ会社のネットワークへの侵入を手がかりに、グループ内のネットワークへと侵入。ランサムウェアを実行して不正にデータの暗号化が行われた。しかし、ログ情報からはデータ窃取の形跡は確認できず、情報流出の可能性は低いとの報告がされた。\n\n国立大学運営組織におけるランサムウェア被害\n\n2022年10月、アカウントの管理を担う認証サーバーが何かしらの脆弱性を突かれて不正アクセスを受けた。その結果、ランサムウェアの感染に至り、個人情報や認証情報など、約4万件分が流出した可能性があると発表された。調査を進めたところ、サーバーがブルートフォース攻撃を受けていたことが判明している。\n\nランサムウェアの業種別事例7選、企業に求められるランサムウェア対策は？\n\nランサムウェア攻撃に有効なMDRとは\n\n先述のとおり、ランサムウェア攻撃の手法は高度化・巧妙化し続けている。今後もさまざまな手口によって企業・組織が狙われることは想像に難くない。そのため、ランサムウェアの凶悪化へ対抗すべく、高度なセキュリティソリューションの導入が求められるようになっている。そこで、ランサムウェア攻撃対策は、防御だけでは防ぎきれないため、事後対策として近年注目を集めているのがMDR（Managed Detection and Response）だ。\n\nMDRとは、事後対策のXDRなどの侵入検知ソリューションを用いて、常時監視、脅威検知、インシデントへの対応をワンストップで提供するマネージドサービスである。MDRがランサムウェア攻撃への有効な対策となり得るのには、大きく以下の3つの理由が挙げられる。\n\n高度な攻撃手法への対応\n\nエンドポイントだけでなくネットワークやクラウドなど幅広く領域を対象とした検知・対処をするXDRソリューション、およびマネージドサービスの高い専門性が組み合わされることで、ランサムウェアをはじめとする高度なサイバー攻撃を受けた場合であっても、その被害の抑止、最小化が期待できる。\n\n24時間365日での常時監視、対応\n\nランサムウェアによる攻撃はいつ何時発生してもおかしくない。常時監視において異常を検知した際、初動対応が速やかに行われるかがその後の被害状況を左右する。そのため、運用監視をアウトソーシングすることで夜間、休日であっても即座の対応を行い、被害を最小にとどめることで、通常業務への負担も抑制できる。\n\nインシデント発生時の対応力\n\nインシデント発生時、企業・組織ではその対応に追われることになる。ランサムウェアによるインシデントが生じた場合、短時間の間にラテラルムーブメント（水平展開）で被害が拡大する恐れもある。マネージドサービスであるMDRは外部の専門性の高いスタッフがフォローするため、迅速かつ専門性に基づいた対応がなされる。\n\nまた、MDRではXDRといった監視ソリューションが用いられるが、EPPなどのエンドポイントを保護するソリューションと組み合わせることで、対策はより充実する。\n例えば、ESET PROTECT MDRはEPPとXDRを1つのソリューションとして提供するのが特長だ。\n\nこのESET PROTECT MDR では長年、エンドポイントソリューションの提供で培ってきたESET社が、その専門性と技術力を結集したXDRソリューションを提供する。そして、同様に国内でセキュリティサービスを広く提供してきたキヤノンMJがそのソリューションを用いてマネージドサービスを担う。そのため、高い技術力を持ったソリューションを、高いサービスレベルでアウトソーシングすることが期待できるのだ。\n\nまた、ESET PROTECT MDRはEPPを包括したソリューションであり、その運用・管理を専用のコンソールで行うことから、企業・組織内の状況を可視化しやすい。セキュリティ専門人材の配置が難しくなっている昨今、こうした効率化されたコンソールは実用性が高いのではないだろうか。\n\n昨今、悪質化を極めるランサムウェア攻撃の手法を前に、攻撃自体を完全に防ぐことは極めて困難となりつつある。攻撃を受けた際に、初動対応をいかに迅速に進めるか。そうすることで被害の最小化を目指す動きが加速している。こうした環境の変化に呼応するサービスがMDRであり、今後も多くの企業・組織で採用されていくはずだ。",
-          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/240716.html",
-          "publishedOn": "2024-07-15T15:00:00.000Z",
-          "wordCount": 208,
-          "title": "情報セキュリティ10大脅威 2024年でも注目される、ランサムウェア攻撃に有効なMDR選定のポイントとは？",
-          "imageUrl": "https://eset-info.canon-its.jp/files/topics/4582_ext_01_0.jpg"
         }
       ]
     },
@@ -1516,6 +1526,28 @@
       "feedUrl": "https://www.nic.ad.jp/ja/index.xml",
       "siteUrl": "https://www.nic.ad.jp/",
       "articles": [
+        {
+          "id": "https://www.nic.ad.jp/ja/topics/2024/20240814-01.html",
+          "author": null,
+          "description": "2024年8月14日\n各位\n一般社団法人日本ネットワークインフォメーションセンター\n第35回JPNIC評議委員会傍聴のお知らせ\nhttps://us06web.zoom.us/webinar/register/WN_nwVTU1pfRQ28HrwT_h8GfA\n              \n記\n\n            \n日時\n                2024年9月24日(火)　18:00～19:30\n              \n場所\n                オンライン\n              \n議事予定\n                \n                  \n理事長挨拶\nグローバルデジタルコンパクト(GDC)に関する状況報告\nインターネット資源管理に関する状況と課題\nその他(今後の進め方・事務連絡等)\nお問い合わせ先\nsecretariat@nic.ad.jp\n            \n以上",
+          "link": "https://www.nic.ad.jp/ja/topics/2024/20240814-01.html",
+          "publishedOn": "2024-08-14T04:40:42.000Z",
+          "wordCount": null,
+          "title": "[トピックス]第35回JPNIC評議委員会傍聴のお知らせ",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2024/vol2098.html",
+          "author": null,
+          "description": "https://blog.nic.ad.jp/2024/9850/\n\n\n┏◆ 先週のトピックスとお知らせ 計3件\n┗━━━━━━━━━━━━━━━━━━━━━━\n\n・「マルチステークホルダー主義を支持する技術コミュニティ連合」によるグ\n  ローバルデジタルコンパクトに関する公開書簡にJPNICも署名(2024/8/8)\n  https://www.nic.ad.jp/ja/topics/2024/20240808-01.html\n\n・復旧速報:RPKIシステムについて一部の登録prefixにおけるROAの有効性が失\n  われた状態について(2024/8/7)\n  https://www.nic.ad.jp/ja/topics/2024/20240807-02.html\n\n・障害速報:RPKIシステムについて一部の登録prefixにおけるROAの有効性が失\n  われた状態についてせ(2024/8/7)\n  https://www.nic.ad.jp/ja/topics/2024/20240807-01.html\n\n\n┏◆ 先週のWeb更新情報 計3件\n┗━━━━━━━━━━━━━━━━━━━━━━\n\n・IPv4アドレス移転履歴を更新(2024/8/6)\n  2024年8月6日現在のデータを追加\n  https://www.nic.ad.jp/ja/ip/transfer/ipv4-log.html\n\n・IPアドレスに関する統計・各種リスト以下のグラフを更新(2024/8/6)\n  2024年7月のデータを追加\n  https://www.nic.ad.jp/ja/stat/ip/\n\n・JPNICが管理するIPアドレス・AS番号・IRRサービスに関する統計を更新\n  (2024/8/5)\n  2024年7月のデータを追加\n  https://www.nic.ad.jp/ja/s…",
+          "link": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2024/vol2098.html",
+          "publishedOn": "2024-08-13T04:48:35.000Z",
+          "wordCount": null,
+          "title": "[メルマガ]vol.2098:【トピックス号】先週のトピックスとWeb更新情報",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://blog.nic.ad.jp/2024/9850/",
           "author": null,
@@ -1879,6 +1911,16 @@
       "siteUrl": "https://www.cisa.gov/",
       "articles": [
         {
+          "id": "/node/21966",
+          "author": "CISA",
+          "description": "CISA has added six new vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.\nCVE-2024-38189 Microsoft Project Remote Code Execution Vulnerability\nCVE-2024-38178 Microsoft Windows Scripting Engine Memory Corruption Vulnerability\nCVE-2024-38213 Microsoft Windows SmartScreen Security Feature Bypass Vulnerability\nCVE-2024-38193 Microsoft Windows Ancillary Function Driver for WinSock Privilege Escalation Vulnerability\nCVE-2024-38106 Microsoft Windows Kernel Privilege Escalation Vulnerability\nCVE-2024-38107 Microsoft Windows Power Dependency Coordinator Privilege Escalation Vulnerability\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.\nAlthough BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.",
+          "link": "https://www.cisa.gov/news-events/alerts/2024/08/13/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+          "publishedOn": "2024-08-12T17:38:58.000Z",
+          "wordCount": 740,
+          "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+          "imageUrl": null
+        },
+        {
           "id": "/node/21832",
           "author": "CISA",
           "description": "Summary\nThe U.S. Federal Bureau of Investigation (FBI) and the following authoring partners are releasing this Cybersecurity Advisory to highlight cyber espionage activity associated with the Democratic People’s Republic of Korea (DPRK)’s Reconnaissance General Bureau (RGB) 3rd Bureau based in Pyongyang and Sinuiju:\nU.S. Cyber National Mission Force (CNMF)\nU.S. Cybersecurity and Infrastructure Security Agency (CISA)\nU.S. Department of Defense Cyber Crime Center (DC3)\nU.S. National Security Agency (NSA)\nRepublic of Korea’s National Intelligence Service (NIS)\nRepublic of Korea’s National Police Agency (NPA)\nUnited Kingdom’s National Cyber Security Centre (NCSC)\nThe RGB 3rd Bureau includes a DPRK (aka North Korean) state-sponsored cyber group known publicly as Andariel, Onyx Sleet (formerly P…",
@@ -1895,6 +1937,36 @@
       "feedUrl": "https://www.cisa.gov/uscert/ncas/current-activity.xml",
       "siteUrl": "https://www.cisa.gov/",
       "articles": [
+        {
+          "id": "/node/21987",
+          "author": "CISA",
+          "description": "Ivanti released security updates to address multiple vulnerabilities in Ivanti Avalanche, Neurons for ITSM, and Virtual Traffic Manager (vTM).  A cyber threat actor could exploit some of these vulnerabilities to take control of an affected system. Ivanti advises users to reduce their attack surface and follow industry best practices by adhering to Ivanti’s network configuration guidance to restrict access to the management interface. \nCISA encourages users and administrators to review the following Ivanti advisories and apply the necessary guidance and updates: \nSecurity Advisory: Ivanti Avalanche\nSecurity Advisory: Ivanti Neurons for ITSM\nSecurity Advisory: Ivanti Virtual Traffic Manager (vTM)",
+          "link": "https://www.cisa.gov/news-events/alerts/2024/08/13/ivanti-releases-security-updates-avalanche-neurons-itsm-and-virtual-traffic-manager",
+          "publishedOn": "2024-08-13T12:00:00.000Z",
+          "wordCount": 607,
+          "title": "Ivanti Releases Security Updates for Avalanche, Neurons for ITSM, and Virtual Traffic Manager",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/21979",
+          "author": "CISA",
+          "description": "CISA released ten Industrial Control Systems (ICS) advisories on August 13, 2024. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.\nICSA-24-226-01 AVEVA SuiteLink Server\nICSA-24-226-02 Rockwell Automation AADvance Standalone OPC-DA Server\nICSA-24-226-03 Rockwell Automation GuardLogix/ControlLogix 5580 Controller \nICSA-24-226-04 Rockwell Automation Pavilion8\nICSA-24-226-05 Rockwell Automation DataMosaix Private Cloud\nICSA-24-226-06 Rockwell Automation FactoryTalk View Site Edition\nICSA-24-226-07 Rockwell Automation Micro850/870\nICSA-24-226-08 Ocean Data Systems Dream Report\nICSA-24-226-09 Rockwell Automation ControlLogix, GuardLogix 5580, CompactLogix, Compact GuardLogix 5380\nICSA-24-226-10 Rockwell Automation ControlLogix, GuardLogix 5580, CompactLogix, and Compact GuardLogix 5380\nCISA encourages users and administrators to review the newly released ICS advisories for technical details and mitigations.",
+          "link": "https://www.cisa.gov/news-events/alerts/2024/08/13/cisa-releases-ten-industrial-control-systems-advisories",
+          "publishedOn": "2024-08-13T12:00:00.000Z",
+          "wordCount": 632,
+          "title": "CISA Releases Ten Industrial Control Systems Advisories",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/21983",
+          "author": "CISA",
+          "description": "Microsoft released security updates to address vulnerabilities in multiple products. A cyber threat actor could exploit some of these vulnerabilities to take control of an affected system.\nCISA encourages users and administrators to review the following and apply necessary updates:\nMicrosoft Security Update Guide for August",
+          "link": "https://www.cisa.gov/news-events/alerts/2024/08/13/microsoft-releases-august-2024-security-updates",
+          "publishedOn": "2024-08-13T12:00:00.000Z",
+          "wordCount": 548,
+          "title": "Microsoft Releases August 2024 Security Updates",
+          "imageUrl": null
+        },
         {
           "id": "/node/21953",
           "author": "CISA",
@@ -2134,16 +2206,6 @@
           "wordCount": 577,
           "title": "CISA Releases One Industrial Control Systems Advisory",
           "imageUrl": null
-        },
-        {
-          "id": "/node/21774",
-          "author": "CISA",
-          "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.\nCVE-2024-36401 OSGeo GeoServer GeoTools Eval Injection Vulnerability\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.\nAlthough BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.",
-          "link": "https://www.cisa.gov/news-events/alerts/2024/07/15/cisa-adds-one-known-exploited-vulnerability-catalog",
-          "publishedOn": "2024-07-15T12:00:00.000Z",
-          "wordCount": 680,
-          "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-          "imageUrl": null
         }
       ]
     },
@@ -2169,6 +2231,56 @@
       "feedUrl": "https://jvn.jp/rss/jvn.rdf",
       "siteUrl": "https://jvn.jp/",
       "articles": [
+        {
+          "id": "https://jvn.jp/vu/JVNVU98459170/",
+          "author": "jvn@jvn.jp",
+          "description": "Intelから各製品向けのアップデートが公開されました。",
+          "link": "https://jvn.jp/vu/JVNVU98459170/",
+          "publishedOn": "2024-08-14T06:45:40.000Z",
+          "wordCount": 408,
+          "title": "Intel製品に複数の脆弱性（2024年8月）",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU99084687/",
+          "author": "jvn@jvn.jp",
+          "description": "Siemensから各製品向けのアップデートが公開されました。",
+          "link": "https://jvn.jp/vu/JVNVU99084687/",
+          "publishedOn": "2024-08-14T06:45:30.000Z",
+          "wordCount": 163,
+          "title": "Siemens製品に対するアップデート（2024年8月）",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU91263936/",
+          "author": "jvn@jvn.jp",
+          "description": "AVEVAが提供するSuiteLink Serverには、制限または調整なしのリソースの割り当ての脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU91263936/",
+          "publishedOn": "2024-08-14T06:45:20.000Z",
+          "wordCount": 90,
+          "title": "AVEVA製SuiteLink Serverにおける制限または調整なしのリソースの割り当ての脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU90425347/",
+          "author": "jvn@jvn.jp",
+          "description": "Rockwell Automationが提供する複数の製品には、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU90425347/",
+          "publishedOn": "2024-08-14T06:45:10.000Z",
+          "wordCount": 297,
+          "title": "複数のRockwell Automation製品における複数の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU99109857/",
+          "author": "jvn@jvn.jp",
+          "description": "Ocean Data Systems製Dream ReportおよびAVEVA製AVEVA Reports for Operationsには、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU99109857/",
+          "publishedOn": "2024-08-14T06:45:00.000Z",
+          "wordCount": 111,
+          "title": "Dream ReportおよびAVEVA Reports for Operationsにおける複数の脆弱性",
+          "imageUrl": null
+        },
         {
           "id": "https://jvn.jp/vu/JVNVU99160796/",
           "author": "jvn@jvn.jp",
@@ -2636,6 +2748,46 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/08/14/51471.html",
+          "author": null,
+          "description": "株式会社ゼンショーホールディングスのグループ会社で熟成焼肉いちばんを運営する株式会社TAG-1は8月2日、不正アクセスによる個人情報の流出について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/08/14/51471.html",
+          "publishedOn": "2024-08-13T23:05:17.000Z",
+          "wordCount": 910,
+          "title": "熟成焼肉いちばんの「ご来店予約システム」に不正アクセス攻撃",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/45864.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/08/14/51470.html",
+          "author": null,
+          "description": "セイコーエプソン株式会社は8月8日、同社サーバへの不正アクセスについて発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/08/14/51470.html",
+          "publishedOn": "2024-08-13T23:05:12.000Z",
+          "wordCount": 922,
+          "title": "セイコーエプソンのサーバに不正アクセス、現時点で情報流出は確認されず",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/45868.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/08/14/51469.html",
+          "author": null,
+          "description": "LINEヤフー株式会社は8月5日、Yahoo! JAPAN IDログインのシステム不具合について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/08/14/51469.html",
+          "publishedOn": "2024-08-13T23:05:07.000Z",
+          "wordCount": 962,
+          "title": "Yahoo! JAPAN IDログインのシステムで不具合、第三者にYahoo!メールを閲覧された可能性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/45834.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/08/14/51468.html",
+          "author": null,
+          "description": "株式会社KADOKAWAは8月5日、ランサムウェア攻撃による情報漏えいについて発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/08/14/51468.html",
+          "publishedOn": "2024-08-13T23:05:02.000Z",
+          "wordCount": 971,
+          "title": "KADOKAWA グループへのランサムウェア攻撃、254,241人の個人情報漏えいを確認",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/45838.jpg"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2024/08/13/51467.html",
           "author": null,
@@ -4304,6 +4456,16 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2408/14/news111.html",
+          "author": null,
+          "description": "伊藤忠テクノソリューションズは、委託先企業がランサムウェア攻撃を受け、何者かがファイル共有サービスに不正アクセスしたと発表した。ファイル共有サービスは委託先が業務で使っていたもので、顧客を含めた取引先情報や個人情報が含まれていた。",
+          "link": "https://www.itmedia.co.jp/news/articles/2408/14/news111.html",
+          "publishedOn": "2024-08-14T01:30:00.000Z",
+          "wordCount": 2812,
+          "title": "伊藤忠テクノソリューションズの委託先がランサムウェア攻撃の被害に　ファイル共有サービスに不正なアクセス",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2408/14/cover_news111.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2408/13/news107.html",
           "author": null,
           "description": "PCゲーム配信プラットフォーム「Steam」でマルウェアが人気だ。ユーザー評価は8月8日時点で「非常に好評」だ。……いや、本物のコンピュータウイルスではなくて。",
@@ -4730,6 +4892,46 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1615956.html",
+          "author": null,
+          "description": "Amazon.co.jpでは現在、8月18日までの期間限定で同社オリジナルのタブレット端末「Fireタブレット」各種のポイント還元を実施中だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1615956.html",
+          "publishedOn": "2024-08-14T03:02:00.000Z",
+          "wordCount": 5051,
+          "title": "Amazon製タブレット端末「Fireタブレット」がポイント還元セール　11インチモデルの「Fire Max 11」は7000ポイント還元！",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1615/956/firemax11.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1615951.html",
+          "author": null,
+          "description": "Amazon.co.jpの山善（YAMAZEN）ストアページでは現在、同社製のチューナーレステレビがタイムセール価格で販売されている。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1615951.html",
+          "publishedOn": "2024-08-14T02:16:11.000Z",
+          "wordCount": 4996,
+          "title": "山善製のチューナーレステレビが安い! Amazonお買い得情報　4K対応で50型の「QRH-50TL4K」が3万9990円に",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1615/951/Yamazen_QRH-50TL4K.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1615413.html",
+          "author": null,
+          "description": "カプセルホテル事業などを手掛ける株式会社ナインアワーズは8月9日、株式会社NTTデータと協業し、品川駅直結の「アレア品川」（東京都港区港南1-9-36）内に、に睡眠解析できるカプセルホテル「ナインアワーズ品川駅スリープラボ Powered by NTT DATA」を開業した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1615413.html",
+          "publishedOn": "2024-08-13T21:30:00.000Z",
+          "wordCount": 5008,
+          "title": "品川駅直結、宿泊したら「睡眠解析レポート」が届くカプセルホテル。NTTデータとナインアワーズが協業",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1615/413/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/special/it_jijinews/1613627.html",
+          "author": null,
+          "description": "IT時事ニュースの一般向け報道では、テレビのニュースと情報番組（ワイドショー）が大きな役割を果たしています。制作体制を見ながらメリット・デメリットを見てみます。",
+          "link": "https://internet.watch.impress.co.jp/docs/special/it_jijinews/1613627.html",
+          "publishedOn": "2024-08-13T21:00:00.000Z",
+          "wordCount": 5010,
+          "title": "ワイドショーのIT時事ニュース報道が果たす役割とは。その制作体制とメリット・デメリット【三上洋の「深掘り！ IT時事ニュース」】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1613/627/mikami_main.jpg"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/1615772.html",
           "author": null,
@@ -7114,6 +7316,56 @@
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
         {
+          "id": "https://news.mynavi.jp/techplus/article/20240814-3004721/",
+          "author": null,
+          "description": "Microsoftは8月8日(米国時間)、複数のMicrosoft Office製品に「CVE-2024-38200」という重大な脆弱性が存在することを発表した。この脆弱性は、悪用されると機密情報が不正に開示されるリスクがある。この問題に対する更新プログラムは、2024年8月13日にリリースされる予定。",
+          "link": "https://news.mynavi.jp/techplus/article/20240814-3004721/",
+          "publishedOn": "2024-08-13T23:11:19.000Z",
+          "wordCount": 1867,
+          "title": "Microsoft、Office製品に情報漏洩につながる脆弱性ありと発表",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240814-3004721/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240813-3004164/",
+          "author": null,
+          "description": "Microsoftはこのたび、公式ブログにおいて、OpenVPNに発見された複数の脆弱性に関する詳細情報を公開した。脆弱性の深刻度は中程度と評価されており、組み合わせることでリモートコード実行およびローカル権限昇格で構成されるサイバー攻撃に悪用できる可能性があるという。",
+          "link": "https://news.mynavi.jp/techplus/article/20240813-3004164/",
+          "publishedOn": "2024-08-13T07:33:23.000Z",
+          "wordCount": 1836,
+          "title": "OpenVPNに発見された複数の脆弱性の情報公開、Microsoft",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240813-3004164/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240813-3002171/",
+          "author": null,
+          "description": "The Hacker Newsはこのほど、グラーツ工科大学(Graz University of Technology)の研究者たちがLinuxカーネルのメモリ操作を可能にするエクスプロイト（脆弱性を突いて不正な動作を行うプログラム）「SLUBStick」を公開したと報じた。これまでにもクロスキャッシュ攻撃と呼ばれる攻撃手法が発見されていたが、成功率が40%と低く、実用には耐えないとされていた。",
+          "link": "https://news.mynavi.jp/techplus/article/20240813-3002171/",
+          "publishedOn": "2024-08-13T06:46:13.000Z",
+          "wordCount": 1854,
+          "title": "Linuxカーネルのエクスプロイト発表、研究者らが実用レベルへ引き上げ",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240813-3002171/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240813-3002777/",
+          "author": null,
+          "description": "米シスコシステムズはこのほど、複数のIP Phoneに緊急の脆弱性が存在すると報じた。これら脆弱性を悪用されると、認証されていないリモートの攻撃者に管理者権限で任意のコマンドを実行される可能性がある。当該製品はサポート終了(EOL: End-of-Life)となっており、今後ソフトウェアアップデートが提供されることはない。また、これら脆弱性に対処する回避策も提供されない。",
+          "link": "https://news.mynavi.jp/techplus/article/20240813-3002777/",
+          "publishedOn": "2024-08-13T04:40:05.000Z",
+          "wordCount": 1846,
+          "title": "シスコのIP電話に緊急の脆弱性、確認と交換を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240813-3002777/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240813-3000924/",
+          "author": null,
+          "description": "SonicWallはこのほど、エンタープライズオートメーションソフトウェアの「Apache OFBiz」からゼロデイの脆弱性を発見したと報じた。この脆弱性を悪用されると、リモートの認証されていない攻撃者にコードを実行される可能性がある。SonicWallの調査によると、現時点では悪用は確認されていない。この脆弱性の深刻度は緊急(Critical)と評価されており注意が必要。",
+          "link": "https://news.mynavi.jp/techplus/article/20240813-3000924/",
+          "publishedOn": "2024-08-13T01:32:11.000Z",
+          "wordCount": 1810,
+          "title": "Apache OFBizに緊急の脆弱性、アップデートを",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240813-3000924/ogp_images/ogp.jpg"
+        },
+        {
           "id": "https://news.mynavi.jp/techplus/article/20240813-3002775/",
           "author": null,
           "description": "Menlo Securityはこのほど、Google DrawingsおよびWhatsAppの短縮URLを悪用するフィッシングキャンペーンを発見したと伝えた。このキャンペーンではAmazonのアカウント情報に加え、個人情報、クレジットカード情報などの窃取も試みるという。",
@@ -8132,16 +8384,6 @@
           "wordCount": 1853,
           "title": "Google、「ダークWebレポート」を無償化へ",
           "imageUrl": "https://news.mynavi.jp/techplus/article/20240716-2984593/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20240715-2986118/",
-          "author": null,
-          "description": "米ネットギアは7月11日(米国時間)、同社の複数の無線LANルータに複数の脆弱性が存在するとして、セキュリティアドバイザリーを公開した。同社はこれら脆弱性による影響を公開していないが、一般的に悪用されると機密情報の窃取、認証のバイパス、デバイスの乗っ取りにつながる可能性があるという。",
-          "link": "https://news.mynavi.jp/techplus/article/20240715-2986118/",
-          "publishedOn": "2024-07-15T09:57:56.000Z",
-          "wordCount": 1938,
-          "title": "ネットギア製無線LANルータに複数の脆弱性、確認とアップデートを",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20240715-2986118/ogp_images/ogp.jpg"
         }
       ]
     }
