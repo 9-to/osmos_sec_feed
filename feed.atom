@@ -2,10 +2,67 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-08-30T08:14:23.218Z</updated>
+    <updated>2024-08-31T08:12:41.719Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[VU#455367: Insecure Platform Key (PK) used in UEFI system firmware signature]]></title>
+        <id>https://kb.cert.org/vuls/id/455367</id>
+        <link href="https://kb.cert.org/vuls/id/455367"/>
+        <updated>2024-08-30T13:58:10.894Z</updated>
+        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
+<p>A vulnerability in the user of hard-coded Platform Keys (PK) within the UEFI framework, known as PKfail, has been discovered. This flaw allows attackers to bypass critical UEFI security mechanisms like Secure Boot, compromising the trust between the platform owner and firmware and enabling manipulation of sensitive system settings.</p>
+<h3 id="description">Description</h3>
+<p>The UEFI standard establishes trust relationships using Public Key Infrastructure (PKI) between the platform owner, the platform firmware, and the operating system. Central to this process is the Platform Key (PK), which is designed to secure the connection between the platform owner and the platform firmware. </p>
+<blockquote>
+<p>The platform owner enrolls the public half of the key (PKpub) into the platform firmware. The platform owner can later use the private half of the key (PKpriv) to change platform ownership or to enroll a Key Exchange Key. For UEFI, the recommended Platform Key format is RSA-2048.
+(Section 7.2.1 of the UEFI 2.3.1 Errata C standard)</p>
+</blockquote>
+<p>The PKFail vulnerability highlights a critical flaw in the UEFI ecosystem. While the Platform Key is expected to originate from the Original Equipment Manufacturer (OEM) using a secure hardware security module (HSM), in practice, much of the UEFI software and drivers are developed by a complex network of supply-chain partners and Independent BIOS Vendors (IBVs). These components are often shared across multiple OEMs. In some cases, temporary test software keys, or "softkeys," which are hard-coded for ease of build and testing, inadvertently make their way into production firmware.</p>
+<p>These softkeys, intended solely for compatibility testing and performance evaluation, are supposed to be untrusted and restricted in their usage.  The current UEFI's key verification process is limited - it only checks against the keys in the local database, with no verification against the root Certificate Authority (CA) or special validation of extended attributes. Although keys cannot be self-signed, the lack of stringent verification allows these untrusted keys to be mistakenly included in production firmware. </p>
+<p>Recent audits have uncovered that many OEM devices shipped with hard-coded, untrusted keys in their production UEFI firmware. Despite these keys often having attributes like "DO NOT TRUST," there is no programmatic safeguard or other validations (say attribute-based) to prevent their inclusion in final products. The compromise or leak of these private keys could have bad consequences, allowing attackers to sign malicious modules that execute with high privileges during the boot process, even if Secure Boot is enabled. This undermines the very purpose of signed software verification, leaving systems vulnerable to untrusted and malicious modules.</p>
+<p>Compounding the issue, UEFI firmware is largely invisible to most Endpoint Detection and Response (EDR) software, making it difficult to audit and detect the use of compromised keys. Moreover, many UEFI implementations lack Remote Measurement or Auditing capabilities that could dynamically check the integrity of the key database via network resources. </p>
+<h3 id="impact">Impact</h3>
+<p>An attacker with access to an undesired-yet-trusted test Platform Key's private portion can exploit it to sign malicious UEFI software, enabling the execution of code with the highest privileges during the early boot phases of a UEFI Secure Boot-protected system. A successful attack could lead to the following  impacts:</p>
+<ul>
+<li>Invalidation or bypass of UEFI security features like SecureBoot.</li>
+<li>Installation of persistent software that cannot be easily detected or erased, that can also persist across reboots and potentially surviving OS reinstalls.</li>
+<li>Creation of backdoors and back communications channels to exfiltrate sensitive data.</li>
+<li>Interruption of system execution leading to device damage or permanent shutdown.</li>
+</ul>
+<h3 id="solution">Solution</h3>
+<ul>
+<li><strong>Update UEFI Firmware</strong>: Ensure you install the latest stable version of UEFI firmware provided by your PC vendor or the reseller of your computing environment. Refer to the Vendor Information section below for specific resources and updates from vendors addressing these vulnerabilities.</li>
+<li><strong>Use Researcher Tools for Impact Assessment</strong>: Utilize <a href="https://github.com/binarly-io/Vulnerability-REsearch/blob/main/PKfail/BRLY-2024-005.md">tools and information</a> provided by Binarly to assess the impact of untrusted Platform Keys on your systems. These resources can help you conduct a thorough analysis of affected systems.</li>
+<li><strong>Leverage Automatic Firmware Updates</strong>: If your operating system supports automatic or managed firmware updates (e.g., Linux Vendor Firmware Service, LVFS), regularly check for updates using <code>fwupdmgr get-updates</code> and apply them with <code>fwupdmgr update</code> or use <a href="https://learn.microsoft.com/en-us/windows-hardware/drivers/bringup/windows-uefi-firmware-update-platform">Windows OEM supported mechanisms</a> as appropriate. Keeping your firmware up to date is crucial in mitigating the risks associated with PKfail.</li>
+</ul>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thanks to <a href="https://www.binarly.io/blog/pkfail-untrusted-platform-keys-undermine-secure-boot-on-uefi-ecosystem">Binarly</a> for disclosing this vulnerability.  This document was written by Vijay Sarvepalli.</p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[この機能、“もしも”のときに使えますか？ 「災害用伝言ダイヤル（171）」と「災害用伝言板（web171）」利用のポイントは？]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1620135.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1620135.html"/>
+        <updated>2024-08-30T10:30:00.000Z</updated>
+        <summary type="html"><![CDATA[台風10号の接近に伴い、東日本電信電話株式会社（NTT東日本）と西日本電信電話株式会社（NTT西日本）は8月29日、災害時の安否確認に役立つツール「災害用伝言ダイヤル（171）」および「災害用伝言板（web171）」の運用を開始した。]]></summary>
+        <author>
+            <name>松永 侑貴惠</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[見出しでわかる IT界隈・今週の重要ニュース：全56本［2024/8/22～8/28］]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/weekly/1620134.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/weekly/1620134.html"/>
+        <updated>2024-08-30T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。]]></summary>
+        <author>
+            <name>中島 由弘</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ankerのポータブル電源もAmazonスマイルSALEでお買い得！　容量768Whの「Anker Solix C800 Portable Power Station」が7万2900円など]]></title>
         <id>https://internet.watch.impress.co.jp/docs/news/1620032.html</id>
@@ -120,6 +177,16 @@ event-sec@nic.ad.jp
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[生成AIだますプロンプトインジェクションに脆弱性、情報流出招く恐れ]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20240830-3014638/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20240830-3014638/"/>
+        <updated>2024-08-30T03:51:24.000Z</updated>
+        <summary type="html"><![CDATA[開発者向けセキュリティソフトウェア企業のSnykは8月28日(米国時間)、LLM（大規模言語モデル(）を用いるAIエージェントの潜在的な脆弱性について調査結果を発表した。この調査で2件の攻撃手法が発見され、1件は脆弱性(CVE)として追跡されている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[これこそXに必要かも？　Bluesky、投稿の引用や返信を細かく制御できる新機能を追加【やじうまWatch】]]></title>
         <id>https://internet.watch.impress.co.jp/docs/yajiuma/1619884.html</id>
         <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1619884.html"/>
@@ -197,6 +264,16 @@ event-sec@nic.ad.jp
         <summary type="html"><![CDATA[IDEC株式会社が提供するPLC（Programmable Logic Controller）には、複数の脆弱性が存在します。]]></summary>
         <author>
             <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[divx、脆弱性診断サービスにAIによるコードレビュー機能を追加]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20240830-3015240/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20240830-3015240/"/>
+        <updated>2024-08-30T00:54:58.000Z</updated>
+        <summary type="html"><![CDATA[divxは8月29日、Webセキュリティ診断サービスにAIによるソースコード解析機能を追加したことを発表した。手作業や目視のみでは発見が難しいソースコードのセキュリティリスクをAIが検出し、修正提案を行う。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
         </author>
     </entry>
     <entry>
@@ -300,6 +377,16 @@ event-sec@nic.ad.jp
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[オフィスアプリ「キングソフト WPS Office 」に緊急の脆弱性、確認を]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20240830-3014864/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20240830-3014864/"/>
+        <updated>2024-08-29T22:55:47.000Z</updated>
+        <summary type="html"><![CDATA[ESETは8月28日(現地時間)、キングソフトが提供しているオフィスアプリ「Kingsoft WPS Office」に存在した緊急の脆弱性について分析結果を伝えた。脆弱性の深刻度は緊急(Critical)と評価されており、Kingsoft WPS Officeのユーザーは速やかなアップデートが推奨されている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Anker、肩掛けストラップ付きのポータブル電源「Anker Solix C300 Portable Power Station」発売]]></title>
         <id>https://internet.watch.impress.co.jp/docs/news/1619754.html</id>
         <link href="https://internet.watch.impress.co.jp/docs/news/1619754.html"/>
@@ -307,6 +394,16 @@ event-sec@nic.ad.jp
         <summary type="html"><![CDATA[アンカー・ジャパンは8月28日、肩掛けストラップ付きの持ち運びしやすいコンパクトなポータブル電源「Anker Solix C300 Portable Power Station」を発売した。価格は3万4990円。]]></summary>
         <author>
             <name>木下 明音</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Macのメッセージングアプリユーザーを狙うバックドア登場、意図が不明]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20240830-3014116/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20240830-3014116/"/>
+        <updated>2024-08-29T22:29:48.000Z</updated>
+        <summary type="html"><![CDATA[Kaspersky Labは8月27日(現地時間)、エンタープライズメッセンジャー「DingTalk」およびメッセージングプラットフォーム「WeChat」のユーザーを標的とするバックドア「HZ Rat」のmacOS版を発見したと伝えた。このサンプルは調査時点で、主要なセキュリティソリューションから検出されないという。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
         </author>
     </entry>
     <entry>
@@ -9116,371 +9213,6 @@ AOAI：Gpt-4oでJSON出力に失敗する対症療法 first appeared on SIOS Tec
         <link href="https://internet.watch.impress.co.jp/docs/news/1613209.html"/>
         <updated>2024-08-01T21:00:00.000Z</updated>
         <summary type="html"><![CDATA[テックウインド株式会社は8月1日、法人向けにNETGEAR製品のコンサルティング付き短期レンタルサービスを開始した。日本全国に対応可能で、短期間だけ稼働する事務所やイベント会場、導入前の検証作業などでの利用が想定されている。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Releases Nine Industrial Control Systems Advisories]]></title>
-        <id>/node/21896</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2024/08/01/cisa-releases-nine-industrial-control-systems-advisories"/>
-        <updated>2024-08-01T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CISA released nine Industrial Control Systems (ICS) advisories on August 1, 2024. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
-ICSA-24-214-01 Johnson Controls exacqVision Client and exacqVision Server
-ICSA-24-214-02 Johnson Controls exacqVision Web Service
-ICSA-24-214-03 Johnson Controls exacqVision Web Service
-ICSA-24-214-04 Johnson Controls exacqVision Web Service
-ICSA-24-214-05 Johnson Controls exacqVision Server
-ICSA-24-214-06 Johnson Controls exacqVision Web Service
-ICSA-24-214-07 AVTECH IP Camera
-ICSA-24-214-08 Vonets WiFi Bridges
-ICSA-24-214-09 Rockwell Automation Logix Controllers 
-CISA encourages users and administrators to review the newly released ICS advisories for technical details and mitigations.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ankerのロボット掃除機がお買い得！　Amazonクーポン情報　水拭き対応の「Eufy RoboVac G30 Hybrid」が最大1万円OFF]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1613158.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1613158.html"/>
-        <updated>2024-08-01T08:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazon.co.jpのAnker Eufyページでは現在、同社のロボット掃除機が割引となるお得なクーポンを配布中だ。クーポンの有効期限は8月28日まで。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「Microsoft Office 夏の特別セール」実施中！　Amazonプライム会員限定　「Microsoft 365 Personal/Family」などのオンラインコード版が割引中]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1613169.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1613169.html"/>
-        <updated>2024-08-01T07:50:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazon.co.jpでは8月9日までの期間限定で、「Microsoft Office 夏の特別セール」が実施中だ。プライム会員限定で「Microsoft Office」のオンラインコード版が割引価格で販売されている。なお、ゲーミングPCなどとあわせて購入することで、さらなる割引を受けることも可能だ。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[バッファロー、50℃まで動作可能な法人向け24ポートL2ギガビットスイッチ「BS-GU2224」発売]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1613140.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1613140.html"/>
-        <updated>2024-08-01T06:45:00.000Z</updated>
-        <summary type="html"><![CDATA[株式会社バッファローは、24ポートの法人向けアンマネージスイッチ「BS-GU2224」を発売する。9月上旬の出荷予定で、市場想定価格は4万1800円。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「ごまたまご」公式ECサイトからカード情報6.5万件流出か　ペイメントアプリ改ざんで]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2408/01/news129.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2408/01/news129.html"/>
-        <updated>2024-08-01T04:58:00.000Z</updated>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「パリ五輪ライブ配信」うたう偽サイトに注意　情報盗まれる恐れ]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2408/01/news128.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2408/01/news128.html"/>
-        <updated>2024-08-01T04:37:00.000Z</updated>
-        <summary type="html"><![CDATA[オリンピックなど大規模イベントのライブ配信を無料で見られるとかたる偽サイトに警視庁が注意を呼び掛けている。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[トピックス]【再掲】RPKIハンズオン/勉強会 〜 ROVの仕組みと導入効果を体験する 〜 開催のご案内]]></title>
-        <id>https://www.nic.ad.jp/ja/topics/2024/20240801-02.html</id>
-        <link href="https://www.nic.ad.jp/ja/topics/2024/20240801-02.html"/>
-        <updated>2024-08-01T04:32:50.000Z</updated>
-        <summary type="html"><![CDATA[2024年8月1日
-各位
-一般社団法人日本ネットワークインフォメーションセンター
-【再掲】RPKIハンズオン/勉強会 〜 ROVの仕組みと導入効果を体験する 〜 開催のご案内
-2024年7月5日にご案内
-              申し上げた「RPKIハンズオン/勉強会 ～
-              ROVの仕組みと導入効果を体験する ～」につきまして、
-              開催が来週となりましたので、
-              あらためてご案内いたします。
-              まだお席に余裕がありますので、ご参加いただきますよう、
-              お願いいたします。
-            
-以上]]></summary>
-        <author>
-            <name>JPNIC Web</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[トピックス]IPレジストリシステムおよびJPIRRシステム8月のメンテナンスに伴うサービス一時停止のお知らせ]]></title>
-        <id>https://www.nic.ad.jp/ja/topics/2024/20240801-01.html</id>
-        <link href="https://www.nic.ad.jp/ja/topics/2024/20240801-01.html"/>
-        <updated>2024-08-01T04:32:50.000Z</updated>
-        <summary type="html"><![CDATA[2024年8月1日
-各位
-一般社団法人日本ネットワークインフォメーションセンター
-IPレジストリシステムおよびJPIRRシステム
-8月のメンテナンスに伴うサービス一時停止のお知らせ
-記
-
-            
-停止するサービスとメンテナンス日時
-WebおよびWHOISコマンドによる登録オブジェクトの検索
-JPIRRに関する各種申請処理
-JPNIC奉行において、ハイジャックが疑われる状態のメール通知の停止
-ご注意
-お問い合わせ先
-IPアドレスに関する申請について
-              ip-service@nir.nic.ad.jp
-
-              JPIRRサービスについて
-              irr-query@nic.ad.jp
-            
-
-
-            
-以上]]></summary>
-        <author>
-            <name>JPNIC Web</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[伊藤忠セキュリティ子会社、ランサム攻撃などのリスク可視化シートを無料公開　「現状把握にぜひ」]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2408/01/news118.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2408/01/news118.html"/>
-        <updated>2024-08-01T03:50:00.000Z</updated>
-        <summary type="html"><![CDATA[伊藤忠サイバー＆インテリジェンスが、社内で利用していたツールを基にしたリスクアセスメント（リスクの特定、分析、評価）シートを無償で公開した。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[アイ・オー、1.6万円のWi-Fi 7デュアルバンドルーター「WN-7D36QR」、8月下旬出荷]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1613032.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1613032.html"/>
-        <updated>2024-08-01T03:40:00.000Z</updated>
-        <summary type="html"><![CDATA[株式会社アイ・オー・データ機器は、Wi-Fi 7デュアルバンド対応ルーター「WN-7D36QR」を発売する。8月下旬の出荷予定で、市場想定価格は1万6280円。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「Buffer」が新たにBlueskyへの同時投稿に対応。X、Threadsとのマルチポストも可能に【やじうまWatch】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1612997.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1612997.html"/>
-        <updated>2024-08-01T03:15:00.000Z</updated>
-        <summary type="html"><![CDATA[SNS投稿ツール「Buffer」が、新たにBlueskyへの同時投稿に対応した。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amazon Music、ユーザーの本名を含む可能性もある「プロフィール名」の近日公開を予告して物議。可能性も【やじうまWatch】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1612996.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1612996.html"/>
-        <updated>2024-08-01T03:10:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazon Musicが、ユーザーの本名を含む可能性の高いプロフィール名を公開することを予告し、物議を醸している。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[サポート詐欺の実態まとめたレポート、IPAが公開　ニセ警告画面を閉じるショートカットが効かなくなっていく傾向に]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2408/01/news113.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2408/01/news113.html"/>
-        <updated>2024-08-01T03:05:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構が、独自の調査や寄せられた相談などを基に、サポート詐欺の手口や傾向、その変化をまとめたレポートを公開した。「情報セキュリティ関連の業務に従事している方へ、手口や被害状況の実態を共有することで、被害低減や対策推進に資することが目的」という。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[エレコムの無線LANルータに複数の脆弱性、確認を -JPCERT/CC]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20240801-2996313/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20240801-2996313/"/>
-        <updated>2024-08-01T01:28:17.000Z</updated>
-        <summary type="html"><![CDATA[JPCERTコーディネーションセンター(JPCERT/CC)は7月30日、エレコムの複数の無線LANルータに複数の脆弱性が存在するとして、注意を呼び掛けた。これら脆弱性を悪用されると、ログイン可能な攻撃者に任意のコマンドを実行される可能性がある。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GitHub Copilotと一緒にTDDしてみた]]></title>
-        <id>https://tech-lab.sios.jp/?p=42597</id>
-        <link href="https://tech-lab.sios.jp/archives/42597"/>
-        <updated>2024-08-01T00:00:14.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは、サイオステクノロジーの佐藤 陽です。 今月はSIOS Technologyのアドベントカレンダー月間であり、テーマは「生成AI」です。 いろんなメンバーが生成AI活用に関する記事を投稿していくので、楽しみにし ...
-GitHub Copilotと一緒にTDDしてみた first appeared on SIOS Tech. Lab.]]></summary>
-        <author>
-            <name>佐藤 陽</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Microsoft Windows の User Manager サービスにおける権限昇格につながる管理者権限で任意のファイルが作成可能となる脆弱性（Scan Tech Report）]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/08/01/51410.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/08/01/51410.html"/>
-        <updated>2024-07-31T23:10:03.000Z</updated>
-        <summary type="html"><![CDATA[2024 年 4 月に公開された、Windows OS にて管理者権限の奪取が可能となる脆弱性を悪用するエクスプロイトコードが公開されています。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[シャープ公式オンラインストア「COCORO STORE」に不正アクセス、203人の個人情報が流出]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/08/01/51409.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/08/01/51409.html"/>
-        <updated>2024-07-31T23:05:09.000Z</updated>
-        <summary type="html"><![CDATA[シャープ株式会社は7月23日、シャープ公式オンラインストア「COCORO STORE」への不正アクセスにについて発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[不具合あるも自動返信メールは送信 ～ 日本大学「お問い合わせ窓口」]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/08/01/51408.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/08/01/51408.html"/>
-        <updated>2024-07-31T23:05:06.000Z</updated>
-        <summary type="html"><![CDATA[日本大学は7月29日、「お問い合わせ窓口」の不具合について発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[452日後に調査結果公表 ～ 東証プライム上場企業シークスへのランサムウェア攻撃]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/08/01/51407.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/08/01/51407.html"/>
-        <updated>2024-07-31T23:05:02.000Z</updated>
-        <summary type="html"><![CDATA[電子機器の製造を行う東証プライム上場企業のシークス株式会社は7月23日、2023年4月28日に公表したランサムウェアによる不正アクセスについて、調査結果を発表した。文字のコピーができないPDFファイルで公開している。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ＦＦＲＩセキュリティの日本人研究者が Black Hat USA 2024 登壇]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/08/01/51406.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/08/01/51406.html"/>
-        <updated>2024-07-31T23:00:44.000Z</updated>
-        <summary type="html"><![CDATA[株式会社FFRIセキュリティは6月21日、同社リサーチエンジニアが「Black Hat USA 2024」に登壇すると発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FFRI AMCにOSコマンドインジェクションの脆弱性]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/08/01/51405.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/08/01/51405.html"/>
-        <updated>2024-07-31T23:00:39.000Z</updated>
-        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は7月30日、FFRI AMCにおけるOSコマンドインジェクションの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[エレコム製無線LANルータに複数の脆弱性]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/08/01/51404.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/08/01/51404.html"/>
-        <updated>2024-07-31T23:00:36.000Z</updated>
-        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は7月30日、エレコム製無線LANルータにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[EC-CUBE 4系用プラグイン「EC-CUBE Web API プラグイン」に格納型XSSの脆弱性]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/08/01/51403.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/08/01/51403.html"/>
-        <updated>2024-07-31T23:00:31.000Z</updated>
-        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は7月30日、EC-CUBE 4系用プラグイン「EC-CUBE Web API プラグイン」における格納型クロスサイトスクリプティングの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[EC-CUBE 4系にプラグインインストール時の入力値チェックの不備]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/08/01/51402.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/08/01/51402.html"/>
-        <updated>2024-07-31T23:00:28.000Z</updated>
-        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は7月30日、EC-CUBE 4系におけるプラグインインストール時の入力値チェックの不備について「Japan Vulnerability Notes（JVN）」で発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「経費節減のため顧客のプライバシーやセキュリティを犠牲に」Bugcrowd グローバル調査]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/08/01/51401.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/08/01/51401.html"/>
-        <updated>2024-07-31T23:00:23.000Z</updated>
-        <summary type="html"><![CDATA[Bugcrowdは、「Inside the Mind of a CISO（CISOの心の中）」と題するレポートを発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NRIセキュア、システムやアプリケーションの認証情報を含むシークレットを安全に管理する「HashiCorp Vault」販売]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/08/01/51400.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/08/01/51400.html"/>
-        <updated>2024-07-31T23:00:15.000Z</updated>
-        <summary type="html"><![CDATA[NRIセキュアテクノロジーズ株式会社は7月22日、HashiCorp社が開発したシステムやアプリケーションの認証情報を含むシークレットを安全に管理するソリューション「HashiCorp Vault」の販売を同日から開始すると発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[デジタルサイネージ向けのセキュリティ点検ガイド公開]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/08/01/51399.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/08/01/51399.html"/>
-        <updated>2024-07-31T23:00:08.000Z</updated>
-        <summary type="html"><![CDATA[デジタルサイネージコンソーシアム（DSC）は、「デジタルサイネージ セキュリティ点検ガイド」を公開した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[国内からの攻撃増加 手法は SQLインジェクション最多「SiteGuard セキュリティレポート(2024.2Q)」]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/08/01/51398.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/08/01/51398.html"/>
-        <updated>2024-07-31T23:00:02.000Z</updated>
-        <summary type="html"><![CDATA[EGセキュアソリューションズは、「SiteGuard セキュリティレポート（2024.2Q）」を発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DLPA、総務省「NOTICE」のチェック項目を受け、Wi-Fiルーターを安全に使うポイントを解説]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1612886.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1612886.html"/>
-        <updated>2024-07-31T22:45:00.000Z</updated>
-        <summary type="html"><![CDATA[一般社団法人デジタルライフ推進協会（DLPA）は、「Wi-Fiルーター・ネットワークカメラが危ない！　サイバー攻撃から守るチェックポイント！」としてコンテンツを公開した。家庭用Wi-Fiルーターを安全に使うポイントを解説し、あわせて「DLPA推奨ルーター」の、安全のための機能を紹介している。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ミニストップとNTT東日本ら、「ウォークスルー」の実証実験。東京・辰巳のオフィスビル内店舗で実施]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1612846.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1612846.html"/>
-        <updated>2024-07-31T22:15:00.000Z</updated>
-        <summary type="html"><![CDATA[ミニストップ株式会社、東日本電信電話株式会社（NTT東日本）、テルウェル東日本株式会社、株式会社セキュアは7月29日、”手に取った商品をそのまま持ち帰ることができる”レジレス店舗の運営実証を開始した。期間は12月23日まで。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NTT、世界初のVRゴーグル不要でキャラが飛び出して見える「超鏡空中像表示システム」を開発　鏡の中の映像に「手を伸ばす」インタラクションも可能に]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1612762.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1612762.html"/>
-        <updated>2024-07-31T21:30:00.000Z</updated>
-        <summary type="html"><![CDATA[日本電信電話株式会社（NTT）は7月26日、バーチャルキャラクターが鏡の中と外の空間を自由に移動できるという超鏡空中像表示システムを、世界で初めて開発したと発表した。VRシステムや3Dグラスなどを使わなくても、キャラクターが鏡から飛び出す映像を視聴できる。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Synology「BeeStation」でローカルアカウントを作れば、LAN内に閉じた使い方ができ緊急時にも役立つ【自宅Wi-Fiの“わからない”をスッキリ！】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/column/homewifi/1612028.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/column/homewifi/1612028.html"/>
-        <updated>2024-07-31T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[本連載では、Synologyのパーソナルクラウド「BeeStation」の活用を、第185回から実践している。本製品はNASの一種だが、インターネット経由で外部からも簡単にアクセスできるのが特徴で、「パーソナルクラウド」の呼び名は、その特徴にちなんでいる。]]></summary>
         <author>
             <name>INTERNET Watch</name>
         </author>
