@@ -2,10 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-09-15T08:14:27.595Z</updated>
+    <updated>2024-09-16T08:15:13.636Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[µC/OS プロトコルスタックのファジングによって発見された脆弱性]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=52462</id>
+        <link href="https://gblogs.cisco.com/jp/2024/09/talos-fuzzing-uc-os-protocol-stacks/"/>
+        <updated>2024-09-16T07:35:45.000Z</updated>
+        <summary type="html"><![CDATA[国家の支援を受けた攻撃グループやランサムウェアグループが、数百万ドルの支払いを得ようと、産業用制御システムや重要なインフラストラクチャに脅威をもたらしています。こうした中、産業環境における脆弱性探索の重要性が高まっています。 
+The post µC/OS プロトコルスタックのファジングによって発見された脆弱性 appeared first on Cisco Japan Blog.]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[µC/OS プロトコルスタックのファジング、パート 3：TCP/IP サーバーのファジング、TAP ドライバの実装]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=52517</id>
+        <link href="https://gblogs.cisco.com/jp/2024/09/talos-fuzzing-uc-os-protocol-stacks-part-3/"/>
+        <updated>2024-09-16T07:29:39.000Z</updated>
+        <summary type="html"><![CDATA[これは、3 部構成から成るシリーズの最後の記事です。このシリーズでは、2 つの µC/OS プロトコルスタック（µC/TCP-IP と µC/HTTP サーバー）のファジングに使用した手法について詳しく説明しています。
+The post µC/OS プロトコルスタックのファジング、パート 3：TCP/IP サーバーのファジング、TAP ドライバの実装 appeared first on Cisco Japan Blog.]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[μCOS プロトコルスタックのファジング、パート 2：テストケースごとの複数のリクエストの処理]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=52512</id>
+        <link href="https://gblogs.cisco.com/jp/2024/09/talos-fuzzing-ucos-protocol-stacks-part-2/"/>
+        <updated>2024-09-16T07:06:43.000Z</updated>
+        <summary type="html"><![CDATA[このシリーズではこれまでに、µC/HTTP サーバー用のファジングツールの開発を取り上げました。前回の記事で説明したように、このファジングツールは AFL++ と互換性を持たせるためにファイルから読み込むようになっています。現在のファジングの実装で一度に処理できるのは単一のリクエストのみです。
+The post μCOS プロトコルスタックのファジング、パート 2：テストケースごとの複数のリクエストの処理 appeared first on Cisco Japan Blog.]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[µC/OS プロトコルスタックのファジング、パート 1：HTTP サーバーのファジング]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=52466</id>
+        <link href="https://gblogs.cisco.com/jp/2024/09/talos-fuzzing-uc-os-protocol-stacks-part-1/"/>
+        <updated>2024-09-16T06:21:14.000Z</updated>
+        <summary type="html"><![CDATA[これは、3 部構成から成るシリーズの最初の記事です。このシリーズでは µC/OS プロトコルスタックのファジングの複雑さについて詳しく説明します。これから説明する手法はさまざまな RTOS 環境全般に適用できますが、主に µC/OS に焦点を当てることにします。
+The post µC/OS プロトコルスタックのファジング、パート 1：HTTP サーバーのファジング appeared first on Cisco Japan Blog.]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2024 年の脅威の現状]]></title>
         <id>https://gblogs.cisco.com/jp/?p=52500</id>
