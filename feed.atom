@@ -2,10 +2,74 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-09-20T08:14:53.177Z</updated>
+    <updated>2024-09-21T08:13:07.438Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Versa Networks Releases Advisory for a Vulnerability in Versa Director, CVE-2024-45229]]></title>
+        <id>/node/22262</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2024/09/20/versa-networks-releases-advisory-vulnerability-versa-director-cve-2024-45229"/>
+        <updated>2024-09-20T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Versa Networks has released an advisory for a vulnerability (CVE-2024-45229) affecting Versa Director. A cyber threat actor could exploit this vulnerability to exercise unauthorized REST APIs.
+CISA urges organizations to apply necessary updates, hunt for any malicious activity, report any positive findings to CISA, and review the following for more information:
+Versa Advisory]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[見出しでわかる IT界隈・今週の重要ニュース：全53本［2024/9/12～9/18］]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/weekly/1625242.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/weekly/1625242.html"/>
+        <updated>2024-09-20T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。]]></summary>
+        <author>
+            <name>中島 由弘</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Googleパスワードマネージャー、WindowsやMacでパスキー同期を実現]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20240920-3028945/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20240920-3028945/"/>
+        <updated>2024-09-20T09:18:32.000Z</updated>
+        <summary type="html"><![CDATA[Googleは9月19日(米国時間)、Windows、Mac、Linux、Android、ChromeOS(ベータテスト中)からGoogleパスワードマネージャーにパスキーを保存できるようになったと発表した。パスキーを保存するとデバイス間で自動的に同期され、パスワードなしでサインインできるようになる。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Acrobat Reader にリモートコード実行につながる脆弱性：Microsoft 社が Windows API の情報漏洩問題を修正]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=52564</id>
+        <link href="https://gblogs.cisco.com/jp/2024/09/talos-vulnerability-roundup-sept-11-2024/"/>
+        <updated>2024-09-20T08:43:38.000Z</updated>
+        <summary type="html"><![CDATA[Cisco Talos の脆弱性調査チームは、ここ数週間で 2 件の脆弱性が公開され、修正されていることを明らかにしました。
+The post Acrobat Reader にリモートコード実行につながる脆弱性：Microsoft 社が Windows API の情報漏洩問題を修正 appeared first on Cisco Japan Blog.]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[USB給電式ヒーター内蔵の「あったかムートンブーツ」、サンコーが発売]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1625257.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1625257.html"/>
+        <updated>2024-09-20T08:30:00.000Z</updated>
+        <summary type="html"><![CDATA[サンコー株式会社は9月18日、「ヒーターでしっかり保温『あったかムートンブーツ』」（MUTN24S）を発売した。直販サイト「THANKO」での販売価格は4980円。また、5000mAhのモバイルバッテリー2個とのセットが7980円で販売されている。]]></summary>
+        <author>
+            <name>大東 奈央</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SEO のランキングを操作する中国系サービスプロバイダー、DragonRank]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=52558</id>
+        <link href="https://gblogs.cisco.com/jp/2024/09/talos-dragon-rank-seo-poisoning/"/>
+        <updated>2024-09-20T08:25:37.000Z</updated>
+        <summary type="html"><![CDATA[重要なポイントCisco Talos が「DragonRank」という新たな脅威を公表しています。主にアジア諸国とヨーロッパの数か国を標的とし、PlugX と BadIIS を利用して SEO（検索エンジンの最適化）のランキングを操作しています。
+The post SEO のランキングを操作する中国系サービスプロバイダー、DragonRank appeared first on Cisco Japan Blog.]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【はじめてのOSS開発】~Grafana FIAPデータソースプラグイン~ ①FIAPって何？]]></title>
         <id>https://tech-lab.sios.jp/?p=42938</id>
@@ -162,6 +226,16 @@ iw-info@nic.ad.jp
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[GoogleドライブでChatGPTを使っているかどうかを調べる方法]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20240920-3027512/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20240920-3027512/"/>
+        <updated>2024-09-20T00:41:27.000Z</updated>
+        <summary type="html"><![CDATA[The Hacker Newsは9月17日(現地時間)、GoogleドライブとChatGPTの連携を有効にしているかどうかを確認する方法について説明した。企業において、従業員による許可のないサービスの連携はセキュリティリスクになると指摘されている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[システムスクエアに外部からサイバー攻撃、サーバの一部に被害]]></title>
         <id>https://scan.netsecurity.ne.jp/article/2024/09/20/51643.html</id>
         <link href="https://scan.netsecurity.ne.jp/article/2024/09/20/51643.html"/>
@@ -199,6 +273,16 @@ iw-info@nic.ad.jp
         <summary type="html"><![CDATA[サンワサプライ株式会社は、10.1インチの車載モニター「200-CAR112S」と、2台同時視聴できる「200-CAR112D」（親機・子機の2台セット）を発売した。直販サイト「サンワダイレクト」の販売価格は、それぞれ1万6800円と2万3800円。]]></summary>
         <author>
             <name>木下 明音</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[TP-LINK製ルータなど数十万台のデバイスの侵害発見、サイバー攻撃の兆候か]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20240920-3028236/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20240920-3028236/"/>
+        <updated>2024-09-20T00:10:20.000Z</updated>
+        <summary type="html"><![CDATA[Lumen Technologiesは9月18日(米国時間)、中国の国家支援を受けているとみられる脅威グループ「Flax Typhoon」が4年以上かけて構築した多層ボットネット「Raptor Train」を発見したと報じた。ボットネットに組み込まれているデバイスは脆弱性を悪用して侵害された数十万台のデバイスと推測されている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
         </author>
     </entry>
     <entry>
@@ -3023,6 +3107,51 @@ ICANN臨時理事会(2024年7月29日開催)決議概要
 Approved Resolutions | Special Meeting of the ICANN Board | 29 July 2024
             
 以上]]></summary>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Web更新]IPv4アドレス移転履歴を更新　2024年9月11日現在のデータを追加]]></title>
+        <id>https://www.nic.ad.jp/ja/ip/transfer/ipv4-log.html</id>
+        <link href="https://www.nic.ad.jp/ja/ip/transfer/ipv4-log.html"/>
+        <updated>2024-09-11T04:28:38.000Z</updated>
+        <summary type="html"><![CDATA[IPv4アドレス移転履歴(2024年9月11日現在) English Page
+
+            
+対象IPv4
+アドレス空間
+                    移転元組織名
+                    移転元組織への割り振り
+または割り当て日
+                    移転先組織名
+                    移転日
+                    備考
+                  
+118.236.0.0/15 
+                     株式会社USEN 
+                     2007-11-05 
+                     ソネットエンタテインメント株式会社 
+                     2011-08-22 
+                    
+                  
+118.238.0.0/17 
+                     2007-11-05 
+                  
+118.238.192.0/18 
+                     2007-11-05 
+                  
+110.232.152.0/21 
+                     2009-05-26 
+                  
+118.240.0.0/15 
+                     2007-11-06 
+                  
+124.219.128.0/17 
+                     2007-11-06 
+                  
+133.242.0.0/16
+                 …]]></summary>
         <author>
             <name>JPNIC Web</name>
         </author>
@@ -9524,282 +9653,6 @@ The post Talos、セキュリティ更新プログラムで公開された Micro
         <summary type="html"><![CDATA[先日、私たちNPO法人DLIS（デジタルリテラシー向上機構）に、ネット詐欺被害に遭った方（ここではAさんとします）から相談があったので、その事例を紹介します。]]></summary>
         <author>
             <name>DLIS・柳谷 智宣</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IPA NEWS Vol.68（2024年9月号）を公開しました]]></title>
-        <id>https://www.ipa.go.jp/about/ipanews/index.html</id>
-        <link href="https://www.ipa.go.jp/about/ipanews/index.html"/>
-        <updated>2024-08-22T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「IPA NEWS」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[情報セキュリティマネジメント試験の活用事例を更新しました（株式会社URコミュニティ）]]></title>
-        <id>https://www.ipa.go.jp/shiken/kubun/sg/example/sg-company.html</id>
-        <link href="https://www.ipa.go.jp/shiken/kubun/sg/example/sg-company.html"/>
-        <updated>2024-08-22T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「情報セキュリティマネジメント試験の企業における活用事例」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Releases Five Industrial Control Systems Advisories]]></title>
-        <id>/node/22038</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2024/08/22/cisa-releases-five-industrial-control-systems-advisories"/>
-        <updated>2024-08-22T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CISA released five Industrial Control Systems (ICS) advisories on August 22, 2024. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
-ICSA-24-235-01 Rockwell Automation Emulate3D
-ICSA-24-235-02 Rockwell Automation 5015 – AENFTXT
-ICSA-24-235-03 MOBOTIX P3 and Mx6 Cameras
-ICSA-24-235-04 Avtec Outpost 0810
-ICSA-20-282-02 Mitsubishi Electric MELSEC iQ-R Series (Update D)
-CISA encourages users and administrators to review the newly released ICS advisories for technical details and mitigations.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[＠nifty、「IPoE固定IPオプション」提供開始　PPPoE方式の「＠nifty 固定IPサービス」利用者には、初期費用無料などの乗り換え特典]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1617890.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1617890.html"/>
-        <updated>2024-08-22T10:15:00.000Z</updated>
-        <summary type="html"><![CDATA[ニフティ株式会社は8月21日、＠nifty光回線サービスのオプションサービスとして「IPoE固定IPオプション」の提供を開始した。料金は、初期費用が5500円、月額費用が3245円。NTT東日本・NTT西日本の光回線「フレッツ 光ネクスト」「フレッツ 光クロス」のIPoE接続サービス上で利用できるIPv4固定IPアドレスが1個割り当てられる。1つのIPv4アドレスを占有できるため、ポート数の上限である65,535ポートを利用可能。対象となる光回線インターネット接続サービスは以下のとおり。]]></summary>
-        <author>
-            <name>永沢 茂</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Google Chromeに38件の脆弱性、128にアップデートを]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20240822-3010112/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20240822-3010112/"/>
-        <updated>2024-08-22T09:46:04.000Z</updated>
-        <summary type="html"><![CDATA[Google Chromeチームは8月21日(米国時間)、Chrome 128のリリースを発表した。このリリースには新機能の他に、38件の脆弱性の修正が含まれている。Googleは修正された脆弱性「CVE-2024-7971」のエクスプロイト(侵害手段)がすでに存在すると報告している。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[オンプレのQNAP NASとクラウドの仮想化NASを同一IP空間でL2延伸接続、大容量データバックアップサービス「QuTScloud on InfiniCloud by PALTEK」提供開始]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1617812.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1617812.html"/>
-        <updated>2024-08-22T07:10:11.000Z</updated>
-        <summary type="html"><![CDATA[大容量クラウドストレージサービス「InfiniCLOUD」などを展開するInfiniCloud株式会社は8月21日、オンプレスミスNASのデータをクラウドNASでバックアップするサービス「QuTScloud on InfiniCloud by PALTEK」を発表した。株式会社PALTEKおよびQNAP株式会社と連携して提供するもの。顧客のオンプレスミスのQNAP NASと、InfiniCLOUDデータセンターのクラウドに構築した仮想化NAS（QuTScloud）を閉域網で接続。「安全かつ高速・簡単にバックアップを行う」としている。]]></summary>
-        <author>
-            <name>永沢 茂</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[macOS向けのMicrosoft製アプリで脆弱性見つかる。一部は修正済みも、依然そのまま公開中のアプリも【やじうまWatch】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1617673.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1617673.html"/>
-        <updated>2024-08-22T03:55:00.000Z</updated>
-        <summary type="html"><![CDATA[macOS向けにリリースされている複数のMicrosoft製アプリに脆弱性が見つかり、波紋を呼んでいる。]]></summary>
-        <author>
-            <name>tks24</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Twilog、Xからダウンロードした過去のアーカイブをインポートできる機能を提供開始【やじうまWatch】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1617671.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1617671.html"/>
-        <updated>2024-08-22T03:48:44.000Z</updated>
-        <summary type="html"><![CDATA[X（旧Twitter）のポスト（ツイート）を見やすいブログ形式で保存するサービス「Twilog」が、Xから取得した全ポストのアーカイブをインポートする機能の提供を開始した。]]></summary>
-        <author>
-            <name>tks24</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MELSEC iQ-R シリーズの Ethernet ポートにおけるサービス運用妨害 (DoS) の脆弱性]]></title>
-        <id>https://jvn.jp/vu/JVNVU96827040/</id>
-        <link href="https://jvn.jp/vu/JVNVU96827040/"/>
-        <updated>2024-08-22T03:15:00.000Z</updated>
-        <summary type="html"><![CDATA[MELSEC iQ-R シリーズの Ethernet ポートには、サービス運用妨害 (DoS) の脆弱性が存在します。]]></summary>
-        <author>
-            <name>jvn@jvn.jp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[複数のセーフィー製品におけるサーバ証明書の検証不備の脆弱性]]></title>
-        <id>https://jvn.jp/jp/JVN83440451/</id>
-        <link href="https://jvn.jp/jp/JVN83440451/"/>
-        <updated>2024-08-22T03:00:00.000Z</updated>
-        <summary type="html"><![CDATA[セーフィー株式会社が提供する複数の製品には、サーバ証明書の検証不備の脆弱性が存在します。]]></summary>
-        <author>
-            <name>jvn@jvn.jp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2.5GbE対応NASの実力とは？ QNAP「TS-216G」の活用法やメリットなど解説、転送速度比較も～無料ウェビナーの参加受付中]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1617655.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1617655.html"/>
-        <updated>2024-08-22T02:25:00.000Z</updated>
-        <summary type="html"><![CDATA[テックウインド株式会社は、無料ウェビナー「小規模チームの生産性を向上させる 2.5GbE対応NASの実力」を開催する。「QNAPの最新NAS『TS-216G』を活用した、2.5GbE対応NAS導入の実力を解説する」もので、今後の開催日は8月23日、8月29日、9月3日、9月24日、10月29日、12月3日、2025年1月7日、2025年2月11日、2025年3月18日（いずれも11時～11時45分）が予定されており、参加申し込みを受け付けている。]]></summary>
-        <author>
-            <name>永沢 茂</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[有名絵師になりすまし「イラスト指導する」と勧誘　不審なコミュニティにピクシブが注意喚起　「当社は無関係」]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2408/22/news104.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2408/22/news104.html"/>
-        <updated>2024-08-22T01:54:00.000Z</updated>
-        <summary type="html"><![CDATA[有名イラストレーターになりすまして「イラストを指導する」などとしてコミュニティに勧誘し、個人情報を取得するSNSアカウントなどを確認しているとし、ピクシブが注意喚起。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ヌル化されたWordPressプラグイン、非ライセンスコピー製品のリスク]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20240822-3007794/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20240822-3007794/"/>
-        <updated>2024-08-22T01:39:52.000Z</updated>
-        <summary type="html"><![CDATA[Sucuriはこのほど、ヌル化されたWordPressプラグインとテーマ(nulled WordPress plugins and themes)のリスクについて伝えた。このようなプラグインは有償プラグインの機能を無料で利用できるため人気があるが、利益を上回るリスクがあるとして警告している。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[身元調査会社から29億件もの個人情報流出、家族や故人の情報も]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20240822-3009325/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20240822-3009325/"/>
-        <updated>2024-08-22T01:07:32.000Z</updated>
-        <summary type="html"><![CDATA[eSecurity Planetは8月20日(現地時間)、29億件にも及ぶ個人情報が漏洩したインシデントについて伝えた。インシデントの発生元は身元調査会社の「National Public Data」とされ、2024年4月から夏にかけてデータが侵害された可能性があるという。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[iPhone、Android、Windows、MacのChromeでパスワードなどデータ共有が実現]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20240822-3009525/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20240822-3009525/"/>
-        <updated>2024-08-21T23:46:44.000Z</updated>
-        <summary type="html"><![CDATA[Google Chromeチームは8月20日(米国時間)、Androidおよびデスクトップ版のChromeに新しいIDモデルを導入すると発表した。これは2023年10月にiOS版Chromeに導入された機能で、同期設定をしなくてもChromeにサインインするだけでさまざまなデータをデバイス間で共有できる機能。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[国産 CNAPP 製品 Cloudbase の CTO が総務省「クラウドの設定ミス対策ガイドブック」を解説 ～ 8 / 27(火) ウェビナー開催]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/08/22/51514.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/08/22/51514.html"/>
-        <updated>2024-08-21T23:15:03.000Z</updated>
-        <summary type="html"><![CDATA[Cloudbase株式会社は8月27日、クラウド利用時の設定ミス対策をテーマとしたオンラインセミナー「重要項目をPICK！ 総務省 クラウドの設定ミス対策ガイドブック」を開催する。講師として登壇するCloudbase株式会社 CTO 宮川竜太朗氏は、同社のCNAPP製品「Cloudbase」の開発組織を統括し、アップデートされ続けるクラウドセキュリティの最新技術と、日本企業のクラウド活用現場で起こりがちな誤設定等に関して造詣が深い。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[脆弱性最新情報、Google PixelやLinuxカーネルに脆弱性 - 確認を]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20240822-3009529/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20240822-3009529/"/>
-        <updated>2024-08-21T23:11:23.000Z</updated>
-        <summary type="html"><![CDATA[eSecurity Planetは8月20日(現地時間)、8月12日から18日までの1週間に発表された主要な脆弱性の概要を伝えた。取り上げられている主要な脆弱性は、Ivanti Virtual Traffic Manager、Microsoft Windows、Microsoft Entra ID、SolarWinds Web Help Desk、Google Pixel、Linuxカーネルの脆弱性の6つ。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[重要性が理解されつつあるパッチ管理 しかし誰もやりたがらず責任押しつけ合い]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/08/22/51513.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/08/22/51513.html"/>
-        <updated>2024-08-21T23:10:02.000Z</updated>
-        <summary type="html"><![CDATA[「人々は、一日中座ってシステムを更新するために IT 運用の仕事に就くわけではない。彼らはクールなプロジェクトや最先端のテクノロジーに取り組むためにこの仕事に就いている。誰も Windows Update を実行して適用するために就職したわけではないのだ」 　パッチ適用が頭痛の種であり続ける最大の理由の一つは責任感の欠如である。セキュリティチームと IT運用チームは、このタスクの責任から逃れようと張り合っている。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[決済成立は確認されず ～「オールスポーツコミュニティ」でクレジットカードの不正利用試行]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/08/22/51512.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/08/22/51512.html"/>
-        <updated>2024-08-21T23:05:18.000Z</updated>
-        <summary type="html"><![CDATA[株式会社フォトクリエイトは8月13日、同社が運営サイト「オールスポーツコミュニティ」を利用したクレジットカードの不正利用について発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CTC 業務委託先にランサムウェア攻撃、個人情報含むファイル 閲覧・持ち出しの可能性]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/08/22/51511.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/08/22/51511.html"/>
-        <updated>2024-08-21T23:05:15.000Z</updated>
-        <summary type="html"><![CDATA[伊藤忠テクノソリューションズ株式会社（CTC）は8月13日、同社の業務委託先へのランサムウェア攻撃について発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「あらんかぎりの必要とするリソースを全力で投入」ニデックプレシジョンのベトナム子会社サーバに不正侵入]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/08/22/51510.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/08/22/51510.html"/>
-        <updated>2024-08-21T23:05:11.000Z</updated>
-        <summary type="html"><![CDATA[ニデックプレシジョン株式会社は8月12日、同社ベトナム子会社への犯罪攻撃について発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「マネーフォワード クラウド請求書」アカウント不正利用しメール大量送信]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/08/22/51509.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/08/22/51509.html"/>
-        <updated>2024-08-21T23:05:07.000Z</updated>
-        <summary type="html"><![CDATA[株式会社マネーフォワードは8月8日、同社ユーザー以外の第三者によるアカウントの不正利用について発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[三菱商事 幹部なりすましメール 注意呼びかけ]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/08/22/51508.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/08/22/51508.html"/>
-        <updated>2024-08-21T23:05:03.000Z</updated>
-        <summary type="html"><![CDATA[三菱商事株式会社は8月13日、同社幹部になりすましたメールへの注意喚起を発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[新たな攻撃手法 正規サイトを改ざんし不審なプッシュ通知を送信]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/08/22/51507.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/08/22/51507.html"/>
-        <updated>2024-08-21T23:00:08.000Z</updated>
-        <summary type="html"><![CDATA[デジタルアーツ株式会社は8月14日、改ざんサイトを経由してプッシュ通知の許可を求めるポップアップを表示し、不審なプッシュ通知を送信する新たな攻撃手法を分析したセキュリティレポートを公開した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[kubell（旧Chatwork）が「ESET」の代理販売を廃止]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/08/22/51506.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/08/22/51506.html"/>
-        <updated>2024-08-21T23:00:03.000Z</updated>
-        <summary type="html"><![CDATA[株式会社kubellは8月14日、同社のセキュリティ事業を廃止すると発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「ChromeはHTTPS RRをまともに実装できているとは言い難い」各ブラウザーの対応状況を調べた結果が報告される【DNS Summer Day 2024】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/event/1617586.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/event/1617586.html"/>
-        <updated>2024-08-21T21:55:00.000Z</updated>
-        <summary type="html"><![CDATA[日本DNSオペレーターズグループ（DNSOPS.JP）の主催によるカンファレンス「DNS Summer Day 2024」が6月21日に開催された。今回は、その発表の中から、HTTPSリソースレコード（以降、「リソースレコード」は「RR」と表記する）とDNSのゾーン管理に関する話題を中心に取り上げる。]]></summary>
-        <author>
-            <name>遠山 孝</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「BeeStation」をLAN内で使うネットワークドライブとして割り当てる（Mac編）【自宅Wi-Fiの“わからない”をスッキリ！】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/column/homewifi/1616595.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/column/homewifi/1616595.html"/>
-        <updated>2024-08-21T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[本連載では、Synologyのパーソナルクラウド「BeeStation」の活用を、第185回から実践している。本製品はNASの一種だが、インターネット経由で外部からも簡単にアクセスできるのが特徴で、「パーソナルクラウド」の呼び名は、その特徴にちなんでいる。]]></summary>
-        <author>
-            <name>村上 俊一</name>
         </author>
     </entry>
     <entry>
