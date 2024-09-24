@@ -369,6 +369,16 @@
       "siteUrl": "https://www.ipa.go.jp/about/index.html",
       "articles": [
         {
+          "id": "https://www.ipa.go.jp/news/2024/shiken_20240924.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「令和6年度秋期試験のSG・FE（特別措置試験）受験の方は、受験票のダウンロードが可能となりました」に関する情報です。",
+          "link": "https://www.ipa.go.jp/news/2024/shiken_20240924.html",
+          "publishedOn": "2024-09-23T15:00:00.000Z",
+          "wordCount": 185,
+          "title": "令和6年度秋期試験のSG・FE（特別措置試験）受験の方は、受験票のダウンロードが可能となりました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
           "id": "https://www.ipa.go.jp/jinzai/skill-transformation/careerints/interview-01.html",
           "author": "情報処理推進機構（IPA）",
           "description": "情報処理推進機構（IPA）の「キャリアインタビュー Vol.1【ソフトウェアエンジニア】白田幹 氏」に関する情報です。",
@@ -1433,6 +1443,16 @@
       "siteUrl": "https://eset-info.canon-its.jp/",
       "articles": [
         {
+          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/240924.html",
+          "author": null,
+          "description": "2024年1月から6月（以下上半期）に発生したサイバー攻撃の事例や、総合セキュリティソフトESETにより日本国内および全世界で検出されたマルウェアなどを解説した、2024年上半期サイバーセキュリティレポートです。\n本レポートでは、ヨーロッパや北米などで悪用の事例が確認されたカスタムツールGooseEggや、世界的に多くのシェアを持つCMSであるWordPressを標的として仕組まれた分散型ブルートフォース攻撃など、2024年上半期のサイバーセキュリティの脅威を、サイバーセキュリティラボ独自の視点から深堀り分析し、効果的なセキュリティ対策の強化につながる情報をまとめました。\n\n\n\nトピック\n\n\n\t第1章：2024年上半期マルウェア検出統計\n\n\n2024年上半期に、日本国内と全世界で検出したマルウェア情報を元に、検出数とTOP10、月別推移、ファイル別、カテゴリー別に比較分析を解説します。\n日本国内では、2024年2月以降マルウェアの検出数が増加となり、4月に最も多く検出されました。2024年2月の検出数増加の要因として、アドウェアとフィッシングを目的としたHTMLファイルが多数を占め、フィッシングを目的としたHTMLファイルの検出数が正月休みに少なかったことが影響しています。また日本国内は全世界と比較して、JS/ScrInject、HTML/FraudといったWebブラウジング中に検出される脅威への遭遇が多く、フィッシング対策協議会や情報処理推進機構（以下IPA）にて、フィッシングやサポート詐欺の注意喚起が出されています。\n全世界でも日本と同様に２月に増加し、４月が最も多くマルウェアを検出しています。全世界の統計では、6月に検出数が減少しており、理由としては不正なJavaScriptファイルやフィッシングを目的としたHTMLファイルの検出数減少が影響しています。\n\n日本国内におけるマルウェア以外の脅威としては、検出数9位にランクインしたPHP_CVE-2024-4577の今後の動向に注意してください。CVE-2024-4577は、2024年6月に公開されたPHP CGIモードの脆弱性で、公開されてから1カ月で上半期検出数の9位に入っており、今後も検出数が増加する可能性があります。そして、悪用した攻撃による被害も既に報告されており、IPAは「国内の複数組織のWebサービスにwebshellが設置されていた」とCVE-2024-4577の悪用に関する注意喚起を行っています。\n\n本章では、解説した統計データや脅威の中から、今後注意が必要になる攻撃と推奨するセキュリティ対策を提案しています。\n\n\n\t第2章：脆弱性を悪用して権限昇格を行うカスタムツールGooseEgg\n\n\nGooseEggは、ロシアを拠点とする攻撃者グループForest Blizzardが権限昇格を行うために作成したカスタムツールです。サイバー攻撃者は初期侵入に成功した後、被害者のパソコンに悪用できる脆弱性の有無を偵察します。GooseEggは脆弱性の悪用をスムーズに行うためのツールで、権限昇格に成功したサイバー攻撃者は、高い権限で更なる侵害行為を実行します。現在のところ日本国内での事例は確認されていませんが、油断はできません。GooseEggは手軽に入手でき、シンプルな構造のため容易に活用が可能なこと、日本企業のランサムウェア被害が増加しているため、今後日本をターゲットとした攻撃にGooseEggやそれに類するツールを使用した攻撃が想定されます。\n\n本章では、Forest BlizzardとGooseEggの概要と攻撃フロー、また解析の結果判明した詳細な動作・特徴や、日本国内での攻撃に関する予測や講じるべき対策について解説します。\n\n\n\t第3章：仕組まれた分散型ブルートフォース攻撃と狙われたWordPress\n\n\n世界中で利用されているオープンソースのCMSであるWordPressは、個人ブログだけではなく企業の公式サイトなどでも利用されています。一方で、簡単に利用できるため利用者が多く、設定不備や脆弱性を内包したWebサイトも存在し、サイバー攻撃者の標的になる事件が発生しています。\n2024年3月にSUCURI社が公開し伝えた事例では、分散型ブルートフォース攻撃を使いWordPressの資格情報を狙う手口が紹介されました。日本国内でも、改ざんを受けたブログや企業サイトが検出されました。改ざんを受けたWebサイトをユーザーが閲覧すると、サイバー攻撃者の用意したサーバーからプログラムが呼び出され、ユーザーの端末から特定のリクエスト認証を試行する通信が標的サイトへ送信されます。多数のユーザーが改ざんされたWebサイトを閲覧することで、各地の端末から標的サイトへ送信が行われ、分散型ブルートフォース攻撃を引き起こします。その結果、サイバー攻撃者は標的サイトの中から侵入可能なWordPressの資格情報を搾取します。\n\n本章では、日本国内における改ざんの事例を挙げ、攻撃の展開や改ざんを受けたWebサイトの傾向を解説するとともに、企業における脅威への具体的なセキュリティ対策を２つの観点で説明します。\n\n\n\t第4章：パスワード単独認証の限界とその対策\n\n\n総務省は2023年５月に「国民のためのサイバーセキュリティサイト」をリニューアルしました。このサイトは一般利用者に向けてセキュリティ対策の知識を分かりやすく提供することを目的としています。今回のリニューアルでは「サイバーセキュリティ初心者のための三原則」が最新動向を反映した内容に更新されましたが、その中でも2つ目の項目である「IDとパスワードの適切な管理」が、「強固なパスワードの設定と多要素認証を活用しよう」に変更されたように、パスワードの質に加え、新たに認証方法の活用を促す詳細な内容が盛り込まれています。\n\n本章では、パスワード認証における代表的なパスワード攻撃とユーザーの対策を例に挙げ、強固なパスワードについて考察します。また、パスワード認証の問題点を取り上げ、その対策となる多要素認証やパスワードレス認証について解説します。\n\n解説動画公開中！\n\n「2024年上半期サイバーセキュリティレポート紹介動画」\n各章の内容を要約して解説いたしました。\n\n\n\n\n詳細レポートは、下記よりダウンロードしていただきご覧ください。",
+          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/240924.html",
+          "publishedOn": "2024-09-23T15:00:00.000Z",
+          "wordCount": 180,
+          "title": "2024年上半期サイバーセキュリティレポート 脆弱性を悪用したカスタムツールGooseEggやWordPressを狙った事例を解説",
+          "imageUrl": "https://eset-info.canon-its.jp/files/topics/4614_ext_01_0.jpg"
+        },
+        {
           "id": "https://eset-info.canon-its.jp/malware_info/special/detail/240917.html",
           "author": null,
           "description": "ソーシャルメディアで特に気を付けるべき脅威の1つとして、他人になりすました詐欺が挙げられる。本記事では、こうした偽アカウントを見分ける方法を解説する。\n\n\nこの記事は、ESET社が運営するマルウェアやセキュリティに関する情報サイト「WeLiveSecurity」の記事を翻訳したものである。\n\n\n\n\n\n\n全世界の人口の約55%であるおよそ45億人が、大手ソーシャルメディアのアカウントを少なくとも１つ保有している。世界中のインターネットユーザーは、ニュースを読んでシェアしたり、写真を交換したりして、ソーシャルメディア上で毎日2時間半程度を費やしている。他者との関わりや交流において、ソーシャルメディアは私たちの生活に計り知れない影響を与えている。\n\nしかし、ソーシャルメディアで目に映るもののすべてが事実ではない。インターネット全般に言えることだが、ソーシャルメディアは詐欺やフェイクニュースの温床になっている。全世界に広がる膨大なユーザー数やコンテンツの量、悪意のある狡猾な攻撃者の存在によって、ソーシャルメディアにおける安全を維持するのは極めて難しくなっている。\n\nだからこそ、ユーザーは自分で身を守らなければならないのだ。\n\n詐欺の温床となるソーシャルメディア\n\n警戒が必要な脅威の代表例として、他人になりすましたユーザーやフォロワーが挙げられる。詐欺師は自動化されたボットによってプロフィールを登録し、管理している。偽のユーザーやフォロワーになりすまし、魅力的すぎるオファーや、クリックを誘う記事、ロマンス詐欺などのスパムメッセージを送信するのだ。その手口は、「プロフィールを閲覧した人」のリンクから、暗号資産（仮想通貨）の投資詐欺や偽の無料ギフトカードのプレゼントに至るまで、多岐にわたる。\n\n要するに、詐欺師の標的は金銭や個人情報の取得だ。悪意のあるリンクをクリックさせる、密かにマルウェアをダウンロードさせる、自発的に個人情報を公開させる、といった狙いがある。あるいは、ロマンス詐欺や暗号資産詐欺のような、より大きなトラブルに巻き込もうとしているかもしれない。\n\n偽のユーザーを見分ける10のヒント\n\nソーシャルメディアには、偽のプロフィールやアカウントを削除できる機能がある。しかし、必ずしも完璧に機能するわけではない。そのためユーザーは、ソーシャルメディアで目にする内容には注意深くなる必要がある。以下に、詐欺師を見分けるための重要なヒントをいくつか紹介する。\n\n\n\t不自然なプロフィール：偽のアカウントでは、ほかからコピーされたプロフィール文が含まれている可能性があり、不自然な文章が混在している場合がある。また、タイプミスや過剰な絵文字の使用、堅苦しい言葉遣いはボットを使用している可能性があるため、十分に注意したい。\n\tキャットフィッシング：出会い系サイトと同様に、ソーシャルメディアで偽のアカウントを作成し、標的から金銭を詐取するために恋愛感情を利用して騙そうとする詐欺師もいる。まずは類似画像を検索し、本記事で紹介する詐欺の兆候や、以下の動画の内容も参考にしてほしい。\n\n\nESET社Jake Moore氏によるキャットフィッシングの解説\n\n\n\t「フォロワー数」と「フォロー数」の比率がおかしい：スパムアカウントは数百から数千ものユーザーを自動的にフォローするが、フォローバックされることはほとんどない。特にInstagramでよく見られる事象である。\n\t友人のプロフィール写真を使用：詐欺師は友人のアカウントをコピーして現れる場合がある。そして、友人がトラブルに巻き込まれたと装い、緊急メッセージを送り金銭的な援助を求めてくる。これは思ったよりも簡単な手口で、いまだに多くのユーザーが被害に遭っている。このようなメッセージが送られてきた場合、別のチャンネルからメッセージを送り、必ず友人に再確認してほしい。または、メッセージが送られてきたアカウントを精査し、詐欺の兆候がないかを確認しよう。\n\tスパムDM（ダイレクトメッセージ）：スパムアカウントから偽のプレゼントが直接送られてきたり、ほかの人へDMを送るよう促したりするケースがある。また、詳細な情報を提供すると騙して、Webサイトへ誘導されることもある。暗号資産を用いた投資詐欺から通販詐欺まで、あらゆるものを扱う偽アカウントもあるため、注意が必要だ。\n\t公式マークがない：例えば、InstagramやFacebook、X（旧Twitter）では、企業や有名人などに公式アカウントを示すバッジやマークが付与されている。特定の組織や個人を称するアカウントであるにも関わらず、公式マークが外れている場合は、なりすましの可能性が高い。\n\n\n\n\n\n=======================\n\nニコラス・ケイジ\n\nやぁ。私の映画を見て、高評価してくれてありがとう。あなたのような熱心なファンがいなければ、今のような成功はなかった。\n\n=======================\n\n大量にある偽アカウントの極端な例（出典：Reddit）\n\n\n\n\t不自然な投稿内容や頻度：偽のアカウントは、類似または同一のキャプションをつけたコンテンツを一度に大量に投稿した後、急に投稿を止める傾向がある。あるいは、何も投稿できない場合もある。そのため、投稿の量やその内容、頻度をチェックしてほしい。\n\t無料プレゼント：アンケート調査へ回答する報酬として、景品や現金を提供するアカウントには注意してほしい。有名ブランドになりすまし、個人情報を詐取する狙いがあるからだ。\n\t大幅に値下げした商品：過剰に値下げした高級品を販売する偽アカウントもある。信じられないほどお得な情報は、詐欺の可能性が高いということを覚えておいてほしい。\n\tでたらめなコメント：投稿に関係のないコメントを残しているアカウントは、偽物の可能性が高い。\n\n\n偽アカウントを通報する方法\n\nInstagramやLinkedInといったソーシャルメディアでは、アカウント認証の手続きや、偽のユーザーやボットを締め出す方法を継続的に改善している。しかし、偽のアカウントを発見する最も優れた方法は、鋭い観察力を持ったユーザーによる通報だ。以下では、主要なソーシャルメディアにおいて、偽アカウントを通報する方法を紹介する。\n\nFacebook\n\n自分自身になりすましているアカウントを見つけたら、このページを参照してほしい。偽のアカウントを見つけた場合は、プロフィール写真の下部にある3点ドットをクリックし、「サポートを依頼またはプロフィールを報告」または「ページを報告」をクリックする。\n\nX（旧Twitter）\n\nXで不審なアカウントを発見した場合は、こちらから通報する。または、アカウント名の横にある3点ドットをクリックして指示に従う。\n\nInstagram\n\nアカウント名の横にある3点ドットから「報告」をクリックする。自分自身や会社、子供になりすましたアカウントについては、こちらから通報する。\n\nLinkedIn\n\nアカウント名の下にある「その他」から「報告/ブロック」または「嫌がらせを報告」をクリックする。\n\n詐欺フォロワーに対する最善の防御手段は、自分のアカウントを非公開にし、フォローするユーザーを徹底的に吟味することだ。完全な対応が難しい場合でも、本記事のヒントを参考に、オンライン活動における安全性を確保してほしい。",
@@ -1542,6 +1562,17 @@
       "feedUrl": "https://www.nic.ad.jp/ja/index.xml",
       "siteUrl": "https://www.nic.ad.jp/",
       "articles": [
+        {
+          "id": "https://www.nic.ad.jp/ja/materials/igf/20240805/",
+          "author": null,
+          "description": "IGF2023に向けた国内IGF活動活発化チーム 第52回会合\n1. 開催概要\n日時\n                  2024年8月5日(月)17:00～18:11\n                \n会場\n                  オンライン\n                \n主催\n                  一般社団法人日本インターネットプロバイダー協会(JAIPA) \n一般社団法人日本ネットワークインフォメーションセンター(JPNIC)\n                \n企画\n                  Japan IGF活動に参加している有志\n                \n2. 資料\n2024 NRI Meeting VII議事概要(106KB)\n2024年国内事前会合に向けて(84.6KB)\n3. アジェンダ概要\n本日の目的確認\n前回議論の振り返り第51回議事録(641KB)\n宿題の進捗確認 Todo一覧表(64.6KB)\n日本政府からの報告\nIGFマルチステークホルダー諮問グループ(MAG)からの報告\nNRIに関する報告\nAPrIGFに関する情報交換\nその他会議に関する報告\n本チームの今後について\n今年のIGF国内事前会合の開催について\n本日の議論を受けたTodo確認\n次回打合せについて\nその他\n4. 議事録\n議事録(397KB)\n発言録(669KB)\n録画\nチャットログ(1.02KB)",
+          "link": "https://www.nic.ad.jp/ja/materials/igf/20240805/",
+          "publishedOn": "2024-09-24T05:25:31.000Z",
+          "wordCount": null,
+          "title": "[Web更新]IGF2023に向けた国内IGF活動活発化チーム 第52回会合の資料を掲載",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.nic.ad.jp/ja/topics/2024/20240920-01.html",
           "author": null,
@@ -2333,6 +2364,56 @@
       "siteUrl": "https://jvn.jp/",
       "articles": [
         {
+          "id": "https://jvn.jp/vu/JVNVU95995488/",
+          "author": "jvn@jvn.jp",
+          "description": "Apache Tomcat Connector（mod_jk）には不適切なデフォルトパーミッションの脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU95995488/",
+          "publishedOn": "2024-09-24T07:45:00.000Z",
+          "wordCount": 88,
+          "title": "Apache Tomcat Connector（mod_jk）における不適切なデフォルトパーミッションの脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/jp/JVN57749899/",
+          "author": "jvn@jvn.jp",
+          "description": "国税庁が提供するe-Taxソフト（共通プログラム）のインストーラには、権限昇格の脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN57749899/",
+          "publishedOn": "2024-09-24T05:00:15.000Z",
+          "wordCount": 109,
+          "title": "e-Taxソフト（共通プログラム）のインストーラにおける権限昇格の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/jp/JVN78356367/",
+          "author": "jvn@jvn.jp",
+          "description": "東日本電信電話株式会社（NTT東日本）が提供する複数のホームゲートウェイ/ひかり電話ルータには、アクセス制限不備の脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN78356367/",
+          "publishedOn": "2024-09-24T05:00:00.000Z",
+          "wordCount": 130,
+          "title": "複数のNTT東日本製ホームゲートウェイ/ひかり電話ルータにおけるアクセス制限不備の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU95439120/",
+          "author": "jvn@jvn.jp",
+          "description": "株式会社キーエンスが提供するKV STUDIOおよびKV REPLAY VIEWERには、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU95439120/",
+          "publishedOn": "2024-09-24T04:00:00.000Z",
+          "wordCount": 94,
+          "title": "キーエンス製KV STUDIO、KV REPLAY VIEWERおよびVT5-WX15/WX12における複数の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/jp/JVN81966868/",
+          "author": "jvn@jvn.jp",
+          "description": "プラネックスコミュニケーションズ株式会社が提供するルーターおよびネットワークカメラには、脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN81966868/",
+          "publishedOn": "2024-09-24T03:00:00.000Z",
+          "wordCount": 101,
+          "title": "プラネックス製ネットワーク機器における複数の脆弱性",
+          "imageUrl": null
+        },
+        {
           "id": "https://jvn.jp/vu/JVNVU90296612/",
           "author": "jvn@jvn.jp",
           "description": "Rockwell Automationが提供する複数の製品には、データの信頼性確認が不十分な脆弱性が存在します。",
@@ -2898,6 +2979,76 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/09/24/51650.html",
+          "author": null,
+          "description": "BIMI でロゴが表示されたメールは、混雑した受信トレイで目立つので認識されやすくなり、メールを受信した人は、信頼できるメールであることを確認して安心してメールを開封することができます。このことが、開封率 39 ％増加という嬉しい結果をもたらしたのはないでしょうか。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/09/24/51650.html",
+          "publishedOn": "2024-09-23T23:15:03.000Z",
+          "wordCount": 1188,
+          "title": "TwoFive メールセキュリティ Blog 第16回「BIMIでメール開封率が39％増加し、ユーザーをフィッシングから守ることができるという美味しい話」",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46182.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/09/24/51649.html",
+          "author": null,
+          "description": "木曜の朝、「フォーティビッチ（Fortibitch）」を名乗る何者かがダークウェブのあるフォーラムに投稿し、440 GB もの Azure SharePoint ファイルをダウンロードできるようにした。この何者かは、データを流出させない代わりに身代金を支払うことをフォーティネットに提案したと主張したが、同社は支払いを拒否したと述べている。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/09/24/51649.html",
+          "publishedOn": "2024-09-23T23:10:03.000Z",
+          "wordCount": 1046,
+          "title": "セキュリティ大手、不正侵入者にクラウド上の顧客データ盗まれたことを公表",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46206.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/09/24/51648.html",
+          "author": null,
+          "description": "真宗大谷派宗務所は9月10日、東本願寺出版ホームページの旧ホームページについての注意喚起を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/09/24/51648.html",
+          "publishedOn": "2024-09-23T23:05:10.000Z",
+          "wordCount": 843,
+          "title": "旧ドメインを第三者が取得 新たなサイト立ち上げ ～ 東本願寺出版ホームページ",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/09/24/51647.html",
+          "author": null,
+          "description": "酒類・食品総合卸売商社の三陽物産株式会社は9月6日、不正アクセスによる個人情報流出の可能性について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/09/24/51647.html",
+          "publishedOn": "2024-09-23T23:05:06.000Z",
+          "wordCount": 923,
+          "title": "三陽物産に不正アクセス、データが不正に暗号化",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46191.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/09/24/51646.html",
+          "author": null,
+          "description": "賃貸管理会社の株式会社アベニューは8月26日、不正アクセスによる個人情報漏えいの可能性について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/09/24/51646.html",
+          "publishedOn": "2024-09-23T23:05:03.000Z",
+          "wordCount": 920,
+          "title": "委託先の設定ミスが原因 ～ 賃貸管理会社のアベニューにランサムウェア攻撃",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46193.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/09/24/51645.html",
+          "author": null,
+          "description": "タニウム合同会社は9月6日、国内におけるサイバーハイジーン市場調査の結果を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/09/24/51645.html",
+          "publishedOn": "2024-09-23T23:00:09.000Z",
+          "wordCount": 1006,
+          "title": "脆弱性対応 9 割の組織が四半期に 1 回以下 ～ タニウム調査",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46095.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/09/24/51644.html",
+          "author": null,
+          "description": "CyberSakuraは9月12日、10月26日に「CyberSakura CTF大会」Powered by Hitachi Solutions Create, Ltd.をオンライン開催すると発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/09/24/51644.html",
+          "publishedOn": "2024-09-23T23:00:03.000Z",
+          "wordCount": 1063,
+          "title": "「CyberSakura CTF大会」10 / 26 オンライン開催",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2024/09/20/51643.html",
           "author": null,
@@ -4116,6 +4267,26 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2409/24/news143.html",
+          "author": null,
+          "description": "楽天銀行は、9月24日午前9時30分ごろから約4時間半にわたり、取引ができない状況が発生していたと発表した。",
+          "link": "https://www.itmedia.co.jp/news/articles/2409/24/news143.html",
+          "publishedOn": "2024-09-24T06:34:00.000Z",
+          "wordCount": 2810,
+          "title": "楽天銀行で障害　4時間半にわたり取引できず",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2409/24/cover_news143.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2409/24/news139.html",
+          "author": null,
+          "description": "",
+          "link": "https://www.itmedia.co.jp/news/articles/2409/24/news139.html",
+          "publishedOn": "2024-09-24T06:01:00.000Z",
+          "wordCount": 2830,
+          "title": "中国発VRヘッドセット「PICO4」で発火事故　後方のバッテリーから",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2409/24/cover_news139.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2409/18/news153.html",
           "author": null,
           "description": "ガンバ大阪も公式オンラインショップ顧客の個人情報が漏えいした可能性。倉庫管理システムを提供する関通へのランサムウェア攻撃の影響が広がっている。",
@@ -4454,16 +4625,6 @@
           "wordCount": 2838,
           "title": "“架空の映画祭”Webサイトは4つに、うち1つが「声明」　詐欺目的か",
           "imageUrl": "https://image.itmedia.co.jp/news/articles/2408/26/cover_news143.jpg"
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2408/25/news057.html",
-          "author": null,
-          "description": "Microsoftは9月10日にセキュリティイベントを開催すると発表した。7月の大規模障害から学べるセキュリティ対策について議論する。CrowdStrikeを含む狩猟パートナー企業がレドモンドに集結する。",
-          "link": "https://www.itmedia.co.jp/news/articles/2408/25/news057.html",
-          "publishedOn": "2024-08-24T22:03:00.000Z",
-          "wordCount": 2819,
-          "title": "Microsoft、9月10日にセキュリティイベント開催　CrowdSrikeも登壇",
-          "imageUrl": "https://image.itmedia.co.jp/news/articles/2408/25/cover_news057.jpg"
         }
       ]
     },
@@ -4472,6 +4633,126 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1625756.html",
+          "author": "アイティースリー",
+          "description": "Amazon.co.jpのTCLストアページでは現在、同社のチューナーレステレビが、タイムセール価格で販売されている。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1625756.html",
+          "publishedOn": "2024-09-24T06:45:00.000Z",
+          "wordCount": 5013,
+          "title": "TCL製のチューナーレステレビが安い！　Amazonお得情報　4K対応の50インチ「50P63J」は4万7310円。大画面98インチモデルも対象！",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1625/756/tcl.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1625746.html",
+          "author": "アイティースリー",
+          "description": "Amazon.co.jpのオムロンヘルスケアストアページでは現在、同社の血圧計が特売中だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1625746.html",
+          "publishedOn": "2024-09-24T06:15:00.000Z",
+          "wordCount": 5001,
+          "title": "オムロンの使いやすい上腕式血圧計「HCR-7104」が4980円でセール中！ Amazonお得情報",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1625/746/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1625610.html",
+          "author": "tks24",
+          "description": "X（旧Twitter）の「トレンド」の表示方式が変更になり、ユーザーの間で騒ぎになっている。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1625610.html",
+          "publishedOn": "2024-09-24T04:20:00.000Z",
+          "wordCount": 4563,
+          "title": "バズっているワードが分からない？  Xの「トレンド」ランキング表示がなくなり大混乱【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1625/610/yajiuma-watch_4.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1625608.html",
+          "author": "tks24",
+          "description": "Face IDを搭載したMacBook Proと思しきイラストが、一時的にApple Storeアプリに掲載されていたことが分かり、話題になっている。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1625608.html",
+          "publishedOn": "2024-09-24T04:15:00.000Z",
+          "wordCount": 4589,
+          "title": "「Face ID搭載のMacBook Pro」と思しきイラスト、一時的にApple Storeアプリに出現し話題に【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1625/608/yajiuma-watch_3.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/ranking/1625603.html",
+          "author": null,
+          "description": "前週に閲覧数の多かった記事を、カテゴリーごとに上位5位までレポートします。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/ranking/1625603.html",
+          "publishedOn": "2024-09-23T23:55:00.000Z",
+          "wordCount": 5028,
+          "title": "コンセント埋め込み型Wi-Fi 6アクセスポイント発売、TP-Link新モデルの記事に注目が集まる【アクセスランキング】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1625/603/1624990.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1625345.html",
+          "author": "木下 明音",
+          "description": "株式会社テレコムスクエアは9月19日、セルフWi-Fiレンタル「WiFiBOX」の公式アプリ（Android/iOS版）の提供を開始した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1625345.html",
+          "publishedOn": "2024-09-23T23:30:00.000Z",
+          "wordCount": 5006,
+          "title": "モバイルルーターレンタルの「WiFiBOX」、設置場所検索や予約が簡単になる公式アプリ提供　30％割引クーポン配布などのキャンペーンも",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1625/345/main.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1625396.html",
+          "author": "松永 侑貴惠",
+          "description": "AIセーフティ・インスティテュート (AISI）は9月18日、AIシステムの開発者・提供者向けに「AIセーフティに関する評価観点ガイド」を公開した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1625396.html",
+          "publishedOn": "2024-09-23T23:00:00.000Z",
+          "wordCount": 5005,
+          "title": "安全なAIシステム開発のための「AIセーフティに関する評価観点ガイド」、AISIが公開",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1625/396/002.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1625303.html",
+          "author": "大東 奈央",
+          "description": "サンワサプライ株式会社は9月18日、PCと最大4台のUSB機器の間をLANケーブル1本で最大100mまで延長できるUSB 2.0エクステンダー「USB-EXSET4」を発売した。市場想定価格は10万7800円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1625303.html",
+          "publishedOn": "2024-09-23T22:30:00.000Z",
+          "wordCount": 5005,
+          "title": "USB4台をLANケーブルで最大100m延長できるエクステンダー「USB-EXSET4」、サンワサプライが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1625/303/00.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1625390.html",
+          "author": "松永 侑貴惠",
+          "description": "東京都は9月20日、都内在住・在勤・在学の18歳以上の独身男女を対象に、AIマッチングシステム「TOKYO縁結び」の提供を開始した。「一人ひとりの多様な選択肢が叶えられる社会」の実現に向けて行われる、ライフステージを通じた切れ目ない支援システムの一環にあたる。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1625390.html",
+          "publishedOn": "2024-09-23T22:15:00.000Z",
+          "wordCount": 4997,
+          "title": "東京都がAIを活用したマッチングシステム「TOKYO縁結び」を提供開始",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1625/390/00.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/topic/special/1621445.html",
+          "author": "高橋 正和",
+          "description": "VMware社の仮想化ソフトウェアは、サーバーからPCまでさまざまな環境で使われている。特に企業の業務システムのサーバーでは、オンプレミスから、データセンターを使った事業者によるプライベートクラウド（ホステッドプライベートクラウド）まで、VMwareのサーバー仮想化製品をプラットフォームに採用しているケースが多い。",
+          "link": "https://internet.watch.impress.co.jp/docs/topic/special/1621445.html",
+          "publishedOn": "2024-09-23T21:55:00.000Z",
+          "wordCount": 4748,
+          "title": "値上がりで悲鳴が上がるオンプレVM、対応待ったなしのランサムウェア……、どう考え、どう解決したらいい？[Sponsored]",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1621/445/ifx1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1625377.html",
+          "author": "松永 侑貴惠",
+          "description": "サンワサプライ株式会社は9月20日、マグネット式カメラスタンド2製品を発売した。価格は平面向けの「CR-LACAMMG1」が8140円、3つの足を持ち曲面にも取り付けられる「CR-LACAMMG2」が9900円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1625377.html",
+          "publishedOn": "2024-09-23T21:30:00.000Z",
+          "wordCount": 4998,
+          "title": "強力マグネットで小型カメラを固定するカメラスタンド「CR-LACAMMG」、サンワサプライが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1625/377/000.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/shimizu/1624209.html",
+          "author": "清水 理史",
+          "description": "PoE対応のスイッチが安くなってきた。現状は、まだ法人向けという位置づけで、対応機器も少ないが、工夫次第ではFire TV StickやRaspberry Pi 4などでもPoEを利用でき、家庭でも活用できる機会は意外と多い。今回は、PoEの基本と使い方を解説する。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/shimizu/1624209.html",
+          "publishedOn": "2024-09-23T21:00:00.000Z",
+          "wordCount": 5114,
+          "title": "入門PoE：スイッチが安くなりFire TV Stickやラズパイ4でも利用可能。Mini PCにも使えるか？【イニシャルB】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1624/209/001.JPG"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/weekly/1625242.html",
           "author": "中島 由弘",
@@ -6666,6 +6947,46 @@
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
         {
+          "id": "https://news.mynavi.jp/techplus/article/20240924-3029076/",
+          "author": null,
+          "description": "Microsoftは9月19日(米国時間)、パフォーマンスの低下要因となる拡張機能を検出する「拡張機能パフォーマンス検出器(extension performance detector)」をMicrosoft Edgeに導入すると発表した。",
+          "link": "https://news.mynavi.jp/techplus/article/20240924-3029076/",
+          "publishedOn": "2024-09-23T23:20:01.000Z",
+          "wordCount": 1881,
+          "title": "Microsoft Edge、性能下げる拡張機能を見つける機能が登場",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240924-3029076/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240924-3028796/",
+          "author": null,
+          "description": "フィッシング対策協議会(Council of Anti-Phishing Japan)はこのほど、2024年8月のフィッシング報告状況を発表した。2024年8月はAmazonをかたるフィッシング詐欺の報告が最も多かった。フィッシング詐欺の報告件数は166,556件となり、前月から11,299件減少している。",
+          "link": "https://news.mynavi.jp/techplus/article/20240924-3028796/",
+          "publishedOn": "2024-09-23T22:40:31.000Z",
+          "wordCount": 1788,
+          "title": "Amazon偽るフィッシング詐欺増加、イオンカードやヤマト運輸の悪用も多数",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240924-3028796/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240923-3028799/",
+          "author": null,
+          "description": "Doctor Webは9月17日(現地時間)、同社のリソースに対する標的型攻撃を検出したと発表した。発表によると攻撃は阻止され、Doctor Webのセキュリティソリューションを導入していた顧客には影響しなかったとしている。攻撃は9月14日に開始、16日にインフラへの不正な干渉の兆候を検出したという。",
+          "link": "https://news.mynavi.jp/techplus/article/20240923-3028799/",
+          "publishedOn": "2024-09-23T08:46:32.000Z",
+          "wordCount": 1762,
+          "title": "Doctor Webがサイバー攻撃受け、ウイルスデータベース配信一時停止",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240923-3028799/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240923-3028948/",
+          "author": null,
+          "description": "Group-IBはこのほど、脅威アクター「TeamTNT」が実施中と推測される新しいサイバー攻撃を発見したと伝えた。この攻撃では仮想専用サーバ(VPS)上に構築されたCentOSサーバを標的にし、初期アクセスはSSHへのブルートフォース攻撃とされる",
+          "link": "https://news.mynavi.jp/techplus/article/20240923-3028948/",
+          "publishedOn": "2024-09-23T05:05:02.000Z",
+          "wordCount": 1765,
+          "title": "CentOSサーバを標的とした新たなサイバー攻撃発見、管理者は対策を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240923-3028948/ogp_images/ogp.jpg"
+        },
+        {
           "id": "https://news.mynavi.jp/techplus/article/20240920-3028945/",
           "author": null,
           "description": "Googleは9月19日(米国時間)、Windows、Mac、Linux、Android、ChromeOS(ベータテスト中)からGoogleパスワードマネージャーにパスキーを保存できるようになったと発表した。パスキーを保存するとデバイス間で自動的に同期され、パスワードなしでサインインできるようになる。",
@@ -7684,56 +8005,6 @@
           "wordCount": 1754,
           "title": "サイバーレジリエンスの過大評価が事業継続や身代金の支払いに影響 - Cohesity調査",
           "imageUrl": "https://news.mynavi.jp/techplus/article/20240826-3012354/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20240825-3011396/",
-          "author": null,
-          "description": "GitHubは8月20日(現地時間)、GitHub Enterpise Serverの3件の脆弱性を修正したバージョン3.13.3をリリースした。3件のうちの1件は深刻度が「Critical」（緊急）に分類されており、管理者権限の取得に悪用できる可能性があるため早急に対処する必要がある。",
-          "link": "https://news.mynavi.jp/techplus/article/20240825-3011396/",
-          "publishedOn": "2024-08-25T10:45:04.000Z",
-          "wordCount": 1820,
-          "title": "GitHub、管理者権限を取得できるEnterprise Serverの脆弱性を修正",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20240825-3011396/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20240825-3006450/",
-          "author": null,
-          "description": "Sophosはこのほど、ランサムウェア「RansomHub」を使用する脅威アクターがエンドポイント検出応答(EDR: Endpoint Detection and Response)製品を無力化する新しい攻撃ツールを用いたと報じた。同社はこの攻撃ツールを「EDRKillShifter」と名付けている。EDRKillShifterはBYOVD(Bring Your Own Vulnerable Driver)の一種とされ、脆弱なドライバーを悪用して権限昇格を試みる。",
-          "link": "https://news.mynavi.jp/techplus/article/20240825-3006450/",
-          "publishedOn": "2024-08-25T06:35:52.000Z",
-          "wordCount": 1834,
-          "title": "セキュリティソフトを無力化するツール用いるランサムウェア攻撃に注意",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20240825-3006450/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20240825-3011327/",
-          "author": null,
-          "description": "Sucuriは8月22日(米国時間)、トロイの木馬を配布する「ClearFake」キャンペーンに遭遇したとして、その概要を伝えた。ClearFakeキャンペーンは2023年7月ごろから確認されているマルウェア配布キャンペーンで、現在も修正を加えながら進行中とされる。今回Sucuriが確認した事案では、「ルート証明書」の更新が必要とする警告メッセージを表示するという。",
-          "link": "https://news.mynavi.jp/techplus/article/20240825-3011327/",
-          "publishedOn": "2024-08-25T04:31:39.000Z",
-          "wordCount": 1837,
-          "title": "マルウェアに感染させる新しい手口、ルート証明書の更新を促す警告に注意",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20240825-3011327/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20240825-3011330/",
-          "author": null,
-          "description": "Sygnia Consultingは8月22日(イスラエル時間)、2024年7月1日に公開した中国の脅威グループ「Velvet Ant」がシスコシステムズのデバイスを侵害したインシデントの続報を公開した。前回の調査報告では攻撃者が使用した脆弱性を悪用するコマンドや、マルウェアの詳細は伏せられていた。しかしながら今回は、悪用コマンドに加えマルウェアの分析結果を明らかにしている。",
-          "link": "https://news.mynavi.jp/techplus/article/20240825-3011330/",
-          "publishedOn": "2024-08-25T02:21:51.000Z",
-          "wordCount": 1863,
-          "title": "シスコのスイッチ狙う中国の脅威グループ、メモリからマルウェア再構築",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20240825-3011330/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20240825-3011153/",
-          "author": null,
-          "description": "Quarkslabは8月20日(現地時間)、ホテルやオフィスの電子錠に使用される非接触型カードからハードウェアバックドアを発見したと報じた。このバックドアを用いると、数分程度でカード上のすべての鍵を解錠可能とされる。問題の非接触型カードは中国のShanghai Fudan Microelectronicsから2020年にリリースされたMIFARE Classicの非ライセンス互換品「FM11RF08S」および旧式の「FM11RF08」とされる。",
-          "link": "https://news.mynavi.jp/techplus/article/20240825-3011153/",
-          "publishedOn": "2024-08-25T00:13:11.000Z",
-          "wordCount": 1841,
-          "title": "ホテルやオフィスの電子錠カードにバックドア、数分程度ですべて解錠可能",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20240825-3011153/ogp_images/ogp.jpg"
         }
       ]
     }
