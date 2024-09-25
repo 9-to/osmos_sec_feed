@@ -627,26 +627,6 @@
           "wordCount": 545,
           "title": "第7期卒業プロジェクトを2件公開しました",
           "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
-        },
-        {
-          "id": "https://www.ipa.go.jp/disc/committee/software-modernization-comittee.html",
-          "author": "情報処理推進機構（IPA）",
-          "description": "情報処理推進機構（IPA）の「ソフトウェアモダナイゼーション委員会」に関する情報です。",
-          "link": "https://www.ipa.go.jp/disc/committee/software-modernization-comittee.html",
-          "publishedOn": "2024-08-26T15:00:00.000Z",
-          "wordCount": 274,
-          "title": "ソフトウェアモダナイゼーション委員会 第三回議事次第を公開しました",
-          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
-        },
-        {
-          "id": "https://www.ipa.go.jp/security/reports/cloud_oversea.html",
-          "author": "情報処理推進機構（IPA）",
-          "description": "情報処理推進機構（IPA）の「海外のクラウドサービス評価制度の実施状況調査」に関する情報です。",
-          "link": "https://www.ipa.go.jp/security/reports/cloud_oversea.html",
-          "publishedOn": "2024-08-26T15:00:00.000Z",
-          "wordCount": 1247,
-          "title": "海外のクラウドサービス評価制度の実施状況調査を公開しました",
-          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
         }
       ]
     },
@@ -955,6 +935,16 @@
       "feedUrl": "https://blog.kaspersky.co.jp/category/threats/feed/",
       "siteUrl": "https://blog.kaspersky.co.jp",
       "articles": [
+        {
+          "id": "https://blog.kaspersky.co.jp/?p=37221",
+          "author": "Roman Dedenok",
+          "description": "今回お話するフィッシングキャンペーンは、ゴーストスプーフィング、画像への埋め込みテキスト、PDFファイル、QRコード、偽のDocuSign、Cloudflareの検証ツールなど、複数のスピアフィッシングの手口を使用しています。",
+          "link": "https://blog.kaspersky.co.jp/mass-phishing-with-spear-tricks/37221/",
+          "publishedOn": "2024-09-25T06:41:45.000Z",
+          "wordCount": 806,
+          "title": "こだわり過ぎるフィッシング | カスペルスキー公式ブログ",
+          "imageUrl": "https://media.kasperskydaily.com/wp-content/uploads/sites/98/2024/09/24122519/mass-phishing-with-spear-tricks-featured.jpg"
+        },
         {
           "id": "https://blog.kaspersky.co.jp/?p=37208",
           "author": "Roman Dedenok",
@@ -1418,16 +1408,6 @@
           "wordCount": 2201,
           "title": "AIエディターCursor使ってみた！",
           "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2024/08/7fb3893cd91d5c5b5cad0c518cba938f.jpg"
-        },
-        {
-          "id": "https://tech-lab.sios.jp/?p=42794",
-          "author": "佐々木寛太",
-          "description": "初めに PS/SLの佐々木です。 PS/SLではweb3の新しい取り組みとしてHyperledger Fabricというコンソーシアム型ブロックチェーンを用いたPoC開発を進めています。 Hyperledger Fabr ...\nHyperledger Fabricの開発環境テンプレート公開しました first appeared on SIOS Tech. Lab.",
-          "link": "https://tech-lab.sios.jp/archives/42794",
-          "publishedOn": "2024-08-26T00:32:09.000Z",
-          "wordCount": 2741,
-          "title": "Hyperledger Fabricの開発環境テンプレート公開しました",
-          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2024/08/eye-catch.png"
         }
       ]
     },
@@ -1521,16 +1501,6 @@
           "wordCount": 223,
           "title": "全国労働金庫協会 (ろうきん) をかたるフィッシングについての注意喚起",
           "imageUrl": "https://eset-info.canon-its.jp/files/user/images/common/sns_thumb.jpg"
-        },
-        {
-          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/240827.html",
-          "author": null,
-          "description": "米国の政府機関であるNISTが策定したNIST CSFは、世界の多くの企業が重視しているサイバーセキュリティフレームワークである。そのNIST CSFが2024年2月26日、大幅にバージョンアップし、NIST CSF 2.0として公開された。そこで今回のバージョンアップのポイントと今後のセキュリティ対策の考え方について解説したい。\n\n\n\n\n\nNIST CSF（サイバーセキュリティフレームワーク）とは\n\nNISTとは「National Institute of Standards and Technology：米国国立標準技術研究所」の略であり、その名称のとおり、科学技術分野における基準や標準化に関する研究、策定を行っている米国の政府機関である。NISTの目的は、公正な基準を定めることで、米国におけるイノベーションや産業の競争力を促進することである。\n\nそのNISTが定めたサイバーセキュリティフレームワーク（以下、NIST CSF）が、2024年2月26日、約10年振りに2.0として大幅改訂された。\n\nNIST CSF策定の背景\n\nNIST CSFの初版（1.0）がサイバーセキュリティに関するフレームワーク（考察の枠組み）として公開されたのは、2014年2月である。NISTがセキュリティフレームワークを公開した背景に、米国におけるセキュリティリスクの高まりが挙げられる。さまざまな分野でIT化が推進され、実質的にITが国家の重要なインフラとなったことで、サイバー攻撃が国家に深刻なダメージを与えるリスクが高まったためだ。\n\n加えて、2014年に米国ではサイバーセキュリティ強化法が制定された。その中でNISTがサイバーセキュリティフレームワークを策定していくことが法律に明記され、米国の政府機関では調達時にNIST CSFへの対応を求めるようになった。その結果、米国以外の企業においても、NIST CSFを重視するケースが増えており、日本国内においてもNIST CSFをベースにセキュリティ対策を行う企業が増えてきた。\n\nNIST CSFの特長\n\nNIST CSFの大きな特長は、フレームワークがカバーする領域の広さである。ISOが2013年に発行したISO/IEC 27001:2013といった従来のセキュリティフレームワークでは、「特定」および「防御」からなる脅威への事前対策のカバーに限定されていたが、NIST CSFでは「特定」と「防御」の事前対策だけでなく、「検知」、「対応」、「復旧」といった事後対策も含め、網羅的にカバーすることで、より現実的な脅威への対策を講じることが可能となっている。\n\nNIST CSF 1.0の構成\n\nNIST CSFは、以下に示す3つの要素から構成されている。\n\n1）フレームワークコア\n共通となる具体的なサイバーセキュリティ対策を示したもの。「特定（ID）」、「防御（PR）」、「検知（DE）」、「対応（RS）」、「復旧（RC）」という5つのコア機能と、それぞれの機能をさらに細分化した23のカテゴリーで構成されている。\n\n2）インプリメンテーションティア\n組織のサイバーセキュリティ対策がどの段階にあるかを評価するための基準を示すもの。ティア（Tier）1からティア4までの4段階で評価される。数字が大きいほどセキュリティ対策のレベルが高いことを示し、現状が低いティアにある場合は、より高いティアを目指すことが推奨される。\n\n3）フレームワークプロファイル\n自社の置かれた経営環境やリスク許容度、割り当て可能なリソースに基づき、サイバーセキュリティ対策の現状と、あるべき姿を記述するために利用する。「現状」と「あるべき姿」のギャップを明確にすることで、企業がセキュリティ対策の改善計画を策定しやすくなる。\n\nNISTが定めるサイバーセキュリティフレームワークとは？\n\nNIST CSF 2.0の主な改訂ポイント\n\n2018年4月、マイナーバージョンアップ版となるNIST CSF 1.1が公開された。マイナーバージョンアップと表わされるように、この1.1ではサプライチェーンリスクマネジメントのカテゴリーが新たに追加され、用語定義の明確化が行われるなど、時代背景を受けた改訂が行われたが、あくまでも限定的であった。\n\nNISF CSFとして初のメジャーバージョンアップ版であるNIST CSF 2.0では、NIST CSF 1.1から大幅な改訂が行われている。主な改訂ポイントは以下の4つだ。\n\n1）フレームワークの適用範囲の拡大\n\n従来のNIST CSF 1.0/1.1は、病院や発電所といった国の重要インフラの安全保障を目的に策定されたものだ。しかし、サイバーセキュリティフレームワークとしての完成度が高いことから、官公庁や民間企業など、さまざまな企業・組織で活用されるようになった。\n\nそのため、NIST CSF 2.0ではこうした実情を踏まえ、図1に示すような幅広い対象での利用を念頭におくことになった。規模や業種を問わず、中小企業やスタートアップ企業などを含むあらゆる企業・組織で利用しやすいように再設計されている。\n\n\n\n図1：NIST CSF 1.0／1.1と2.0の適用範囲の違い\n\n\n2）コア機能に「ガバナンス（GV）」を追加\n\n従来のNIST CSF 1.0/1.1では、コア機能として「特定（ID）」、「防御（PR）」、「検知（DE）」、「対応（RS）」、「復旧（RC）」という5つの機能が規定されていたが、NIST CSF 2.0では、6つ目の新たなコア機能として「ガバナンス（GV）」が追加されるに至った。\n\n\n\n図2：NIST CSF 1.1と2.0のカテゴリーの変更点\n\n\nこのガバナンス（GV）とは、日本語に直訳すると「統治」となる。社会情勢の変化もあり、サイバーセキュリティのリスクは組織全体における経営リスクの一部とみなすことになりつつある。そのため、今回の変更で統治が追加されたことは、トップダウンで管理していくためにも、自然な流れだとも言える。また、図3のサイクルのイメージが表しているように、ほかの5つのコア機能とも一体で対策を推進していくことが求められている。\n\n\n\n図3：NIST CSF 2.0の6つのコア機能\n\n\n3）サプライチェーンのリスクマネジメントの強化\n\n昨今、企業のビジネス活動は、自社だけで完結せず、さまざまな取引先との連携が不可欠となっている。ほぼすべての企業が自社だけでなく、他社などと取引を行っていることから、サプライチェーンが起点となるセキュリティリスクはシビアに捉える必要がある。\n\n前回の1.1への改訂時には、サプライチェーンのリスクマネジメントの強化を目的に、「特定（ID）」機能にサプライチェーンのリスクマネジメントのカテゴリーが新設された。\n\n今回のNIST CSF 2.0への改訂では、新コア機能「ガバナンス（GV）」の下に新カテゴリーの「サイバーセキュリティ サプライチェーン リスクマネジメント」が設けられ、「特定（ID）」機能からこれらカテゴリーが移行された。さらに、このサイバーセキュリティ サプライチェーン リスクマネジメントには10のサブカテゴリーが定義され、サプライチェーンのリスク管理に関係するサブカテゴリーが大幅に追加された。また、リスクガバナンスおよびリスクマネジメントの実践に関する階層（Tier）が見直された。\n\n4）オンラインコンテンツの提供\n\nNIST CSF 2.0では、先述のとおり、中小企業なども含め規模・業種を問わず、フレームワークを利用しやすいように再設計されている。そのため、フレームワーク活用を促進するために、さまざまなオンラインコンテンツが提供されている。\n\n例えば、コア機能のサブカテゴリーごとに、実装例が新たに追加、参考情報として記載される情報も拡充されたことで、企業・組織でベストプラクティスを追求するにあたって参考にしやすくなっている。\n\nさらに、特定のニーズごとに専用のガイダンスとしてクイック・スタート・ガイドが提供されており、NIST CSF 2.0を活用する際の最初のステップとして活用できるようになっている。また、これらは今後のアップデートも見据えて、すべてオンライン形式で管理・提供されており、常に最新情報が得られるようになっている。\n\nサプライチェーン攻撃はなぜ起こる？中小・零細企業が講じるべき対策とは？\n\nNIST CSF 2.0を踏まえたセキュリティ対策のポイント\n\n今回のNIST CSF 2.0における改訂は、米国におけるサイバーセキュリティをめぐる社会情勢の変化を反映したものだ。そして、こうした変化は日本国内でも同様であり、改訂版のNIST CSF 2.0は企業・組織のセキュリティ対策においても、大いに参考にできるものとなっている。そのNIST CSF 2.0を踏まえたセキュリティ対策のポイントは、大きく次の2つである。\n\nガバナンス体制の整備\n\n今回、新たなコア機能として追加されたガバナンスは、ほかのすべてのコア機能の中心に位置するものとされている。すなわち、ガバナンスを効かせながら一体としてセキュリティ対策を講じる必要があることを明示している。セキュリティ対策においても経営層がリーダーシップを発揮して、事業存続と一体で取り組んでいくことが求められていると言えるのだ。\n\n具体的な方策としては、企業・組織内にSOCやCSIRTといった情報セキュリティの対策に特化した部門・チームを設けることが有効だ。セキュリティ部門の指揮のもとで、全社的なセキュリティポリシーを遵守する組織運営を行っていくことが社会的にも求められている。今回、コア機能ごとに新たに提供されている、実装例や参考情報などのオンラインコンテンツは、企業・組織においてガバナンス体制を整備していくにあたって役立つだろう。\n\nサプライチェーンにおけるセキュリティリスクへの対応\n\n先述のとおり、企業・組織におけるサプライチェーンのセキュリティリスクは高まっている。さまざまなリスクが生じ得ることを前提にガバナンスを強化し、適切にマネジメントすることが求められている。現代では、サプライチェーンが国内で完結せず、グローバルに及んでいる企業・組織も多い。こうしたサプライチェーンにおけるセキュリティリスクの識別と評価が欠かせなくなっている。\n\n今回の改訂では、2015年にNISTが公開した「NIST SP 800-161」を元にしている。このNIST SP 800-161は、「連邦政府情報システムおよび組織のためのサプライチェーンリスク管理の実践」と題された文書であり、そのタイトルが示すとおり、米国連邦政府機関とその関係機関に対する、サプライチェーンのリスク管理を実践するためのガイドラインである。\n\nこのガイドラインの主な目的は、「組織階層に応じたサプライチェーンのリスク管理/評価の枠組みの提供」であり、「セキュリティ」、「インテグリティ」、「レジリエンス」、「品質」の4つがリスクの要素として想定されている。サプライチェーンにおけるセキュリティリスクのガバナンスやマネジメントについては、このガイドラインも参考にできるだろう。\n\n社会における企業・組織の立ち位置が変化する中で、ガバナンスを強化していくことが求められるようになって久しい。そして、その範囲はサイバーセキュリティにも及ぶようになってきている。企業・組織において、サイバー攻撃によるリスクは無視できないものとなっている。\n\nそのため、企業・組織においても、サイバーセキュリティリスクを経営の要素の1つとして適切に向き合いながら、事業活動に反映させていくことが事業存続においても欠かせなくなっている。こうした対応を進めていくためのツールの1つとして、NIST CSF 2.0を活用していくとよいだろう。",
-          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/240827.html",
-          "publishedOn": "2024-08-26T15:00:00.000Z",
-          "wordCount": 279,
-          "title": "NISTサイバーセキュリティフレームワーク 2.0で問われる「ガバナンス」の重要性",
-          "imageUrl": "https://eset-info.canon-its.jp/files/topics/4596_ext_01_0.jpg"
         }
       ]
     },
@@ -1562,6 +1532,39 @@
       "feedUrl": "https://www.nic.ad.jp/ja/index.xml",
       "siteUrl": "https://www.nic.ad.jp/",
       "articles": [
+        {
+          "id": "https://www.nic.ad.jp/ja/topics/2024/20240925-01.html",
+          "author": null,
+          "description": "2024年9月25日\n各位\n「IETF 情報交換会/座談会 - IETF120より -」 プログラムのお知らせ\n*1ミーティング(IETF\n              120)の話題や中期的な観点での動向をお届けするため、\n              Internet Society日本支部と一般社団法人日本ネットワークインフォメーションセンターの共催で「IETF\n              情報交換会/座談会 - IETF120より -」を開催いたします。\n            \nInternet Engineering Task Force\n            \n■名称\n              \n                IETF 情報交換会/座談会 - IETF120より -\n              \n\n              ■日時\n              \n                2024年9月30日(月) 15:00～18:00(予定)\n              \n\n              ■主催\n              \n                Internet Society日本支部(ISOC-JP)\n                \n■後援\n              \n                WIDEプロジェクト\n              \n\n              ■会場\n              \n                ハイブリッド\n                \n〇オンサイト\n                  \n〇オンライン\n                  \n■参加費\n              \n                無料です。\n              \n\n              ■参加申し込み\n              \n                下記のURLにアクセスして当日までにお申し込みください。\n                \nオンサイト参加\n                  \nhttps://connpass.com/event/330423/\n                  \nリモート参加\n                  \nhttps://us06web.zoom.us/webinar/register/8417256074166/WN_RgqSNgf5S0612oKMtUByJg\n                \n■プログラム(敬称略)\n              \n                \n15:00\n                    オープニング/ご挨拶/会場説明\n                  \n15:10\n                    IETF 120 全体概要, 木村泰司(JPNIC)\n                  \n15:30\n                    Media over QUIC関連\nごとうひろゆき(グリー)\n                  \n16:00\n                    フェローシップ参加報告セッション\n                  \n16:45\n                    \"アツい\"RFC / DNSを逆から読む\n大谷亘(JPNIC)\n                  \n17:00\n                    セキュリティ関連\n                  \n17:30\n                    ディスカッション\n                  \n18:00\n                    クロージング/ご挨拶/お知らせ\n                  \n※プログラムは予告なく変更することがあります。\n■ハッシュタグ\n              \n                #isocjp\n              \n\n              ■お問い合わせ先\n              \n                IETF 情報交換会/座談会 担当\n                \nietf-mtg@isoc.jp\n                \n\narch-info@nic.ad.jp\n              \n            \n\n\n            \n以上",
+          "link": "https://www.nic.ad.jp/ja/topics/2024/20240925-01.html",
+          "publishedOn": "2024-09-25T07:58:44.000Z",
+          "wordCount": null,
+          "title": "[トピックス]「IETF 情報交換会/座談会 - IETF120より -」 プログラムのお知らせ",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2024/vol2108.html",
+          "author": null,
+          "description": "https://itec.ad.jp/itec/aws/ ━━━\n----------------------------------------------------------------------\n□■━━━━━━━━━━━━━━━━━━━━━\n□  9/16～9/22に発信したJPNICからのお知らせ\n■━━━━━━━━━━━━━━━━━━━━━━\n\nこのトピックス号では、先週に公開したJPNICブログ記事、お知らせ、Webの更\n新情報などを原則月曜日にまとめてご紹介します。\n\n今回の注目記事は、2024年8月下旬に台湾で開催されたAPrIGFについて、開催\n概要やセッションの内容を詳しくお伝えしているブログ記事です。\n\nこの他に先週は、トピックスが4件、Web更新情報が2件ありました。イベント\n等のお知らせも4件掲載しています。\n\nJPNIC主催「Internet Week 2024 ～つなげて、広げて、楽しもう～」のプログ\nラムを公開し、参加登録受付も開始いたしました。今年も最新トレンド盛りだ\nくさんのプログラムが揃っています。皆様のご参加をお待ちしております。\n\n       [プログラム]\n       https://internetweek.jp/2024/program-timetable\n\n       [参加申込]\n       https://internetweek.jp/2024/application/\n         2024年9月18日(水)～2024年11月8日(金)17:00 登録期間\n         ※クレジットカード決済は11月27日(水)23:59まで受付\n         ※各種割引もございますのでぜひご確認ください。\n\n\n┏◆ 先週公開のJPNICブログ記事 計1件\n┗━━━━━━━━━━━━━━━━━━━━━━\n…",
+          "link": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2024/vol2108.html",
+          "publishedOn": "2024-09-24T09:18:52.000Z",
+          "wordCount": null,
+          "title": "[メルマガ]vol.2108:【トピックス号】先週のトピックスとWeb更新情報",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.nic.ad.jp/2024/10045/",
+          "author": null,
+          "description": "国連の未来サミットを前に、JPNICが加入している「マルチステークホルダー主義を支持する技術コミュニティ連合」(TCCM)がWebサイトを開設しました。",
+          "link": "https://blog.nic.ad.jp/2024/10045/",
+          "publishedOn": "2024-09-24T07:00:30.000Z",
+          "wordCount": null,
+          "title": "[Blog記事]JPNICが加入している「マルチステークホルダー主義を支持する技術コミュニティ連合」がWebサイトを開設",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.nic.ad.jp/ja/materials/igf/20240805/",
           "author": null,
@@ -1825,28 +1828,6 @@
           "title": "[Blog記事]APNIC 58でのIPアドレス・AS番号分配ポリシーに関する提案のご紹介",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2024/vol2102.html",
-          "author": null,
-          "description": "https://blog.nic.ad.jp/2024/9997/\n\n\n┏◆ 先週のトピックスとお知らせ 計3件\n┗━━━━━━━━━━━━━━━━━━━━━━\n\n・「マルチステークホルダー主義を支持する技術コミュニティ連合」によるグ\n  ローバルデジタルコンパクトに関する公開書簡にJPNICも署名(2024/8/23)\n  https://www.nic.ad.jp/ja/topics/2024/20240823-01.html\n\n・IGF 2023に向けた国内IGF活動活発化チーム第53回会合開催のご案内\n  (2024/8/21)\n  https://www.nic.ad.jp/ja/topics/2024/20240821-01.html\n\n・【再掲】JPNIC技術セミナー 2024年8月 開催のお知らせ ～ 3日間でイン\n  ターネットの基盤技術を学ぼう！ ～(2024/8/19)\n  https://www.nic.ad.jp/ja/topics/2024/20240819-01.html\n\n\n┏◆ 先週のWeb更新情報 計2件\n┗━━━━━━━━━━━━━━━━━━━━━━\n\n・IPv4アドレス移転履歴を更新\n  2024年8月21日現在のデータを追加(2024/8/21)\n  https://www.nic.ad.jp/ja/ip/transfer/ipv4-log.html\n\n・2024年度DRP検討委員会 第1回会合の資料を掲載(2024/8/20)\n  https://www.nic.ad.jp/ja/profile/com/2024/#drp-com\n\n\n┏◆ イベント等のお知らせ 計3件\n┗━━━━━━━━━━━━━━━━━━━━━━\n\n  ◇ IGF 2023に向けた国内IGF活動活発化チーム第53回会合 ◇\n\n     本日8月26日(月)17…",
-          "link": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2024/vol2102.html",
-          "publishedOn": "2024-08-26T10:14:06.000Z",
-          "wordCount": null,
-          "title": "[メルマガ]vol.2102:【トピックス号】先週のトピックスとWeb更新情報",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nic.ad.jp/ja/topics/2024/20240826-01.html",
-          "author": null,
-          "description": "2024年8月26日\n各位\n一般社団法人日本ネットワークインフォメーションセンター\nDNSSECハンズオン勉強会/意見交換会 開催のご案内\n*1の一環としてDNSSECの署名と検証、およびDNSの不正な応答を体験し、\n              運用に資するディスカッションを行う機会を設けることになりました。\n              この事業は当センターがエヌ・ティ・ティ・コミュニケーションズ株式会社、\n              株式会社三菱総合研究所*2とともに取り組んでいるものです。\n            \n記\n\n            \n              名称\n              DNSSECハンズオン勉強会/意見交換会\n\n              日時(予定)\n              \n                第1回　2024年9月18日(水) 15:00～18:00\n                \n開催\n              \n                リモートと現地のハイブリッド開催です。\n                \n\n参加費\n              無料\n\n              会場\n              \n                ▽現地\n                \n\n▽オンライン\n                \n定員\n              \n                ハンズオン 20名（うち現地参加はご同席を含めて15名まで）\n                \n対象者\n              \n                \nDNSSECの導入の判断を行いたい方\nDNSSECの導入効果を確認したい方\nプログラム内容\n              \n                15:00開始\n                \n\n\n\n\n参加申し込み\n              \n                下記内容を事務局(三菱総合研究所内)宛にメールにてご連絡ください。\n                \nsec-exp@ml.mri.co.jp\n                \nお問い合わせ先\n              \n                DNSSECハンズオン勉強会/意見交換会 事務局\n                sec-exp@ml.mri.co.jp\n              \n            \n\n\n            \n以上",
-          "link": "https://www.nic.ad.jp/ja/topics/2024/20240826-01.html",
-          "publishedOn": "2024-08-26T02:54:02.000Z",
-          "wordCount": null,
-          "title": "[トピックス]DNSSECハンズオン勉強会/意見交換会 開催のご案内",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -1979,6 +1960,26 @@
       "feedUrl": "https://www.cisa.gov/uscert/ncas/current-activity.xml",
       "siteUrl": "https://www.cisa.gov/",
       "articles": [
+        {
+          "id": "/node/22273",
+          "author": "CISA",
+          "description": "CISA released eight Industrial Control Systems (ICS) advisories on September 24, 2024. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.\nICSA-24-268-01 OPW Fuel Management Systems SiteSentinel\nICSA-24-268-02 Alisonic Sibylla\nICSA-24-268-03 Franklin Fueling Systems TS-550 EVO\nICSA-24-268-04 Dover Fueling Solutions ProGauge MAGLINK LX CONSOLE\nICSA-24-268-05 Moxa MXview One\nICSA-24-268-06 OMNTEC Proteus Tank Monitoring\n \nICSA-24-156-01 Uniview NVR301-04S2-P4 (Update A)\nICSA-19-274-01 Interpeak IPnet TCP/IP Stack (Update E)\nCISA encourages users and administrators to review newly released ICS advisories for technical details and mitigations.",
+          "link": "https://www.cisa.gov/news-events/alerts/2024/09/24/cisa-releases-eight-industrial-control-systems-advisories",
+          "publishedOn": "2024-09-24T12:00:00.000Z",
+          "wordCount": 617,
+          "title": "CISA Releases Eight Industrial Control Systems Advisories",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/22265",
+          "author": "CISA",
+          "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.\nCVE-2024-7593 Ivanti Virtual Traffic Manager Authentication Bypass Vulnerability\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.\nAlthough BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.",
+          "link": "https://www.cisa.gov/news-events/alerts/2024/09/24/cisa-adds-one-known-exploited-vulnerability-catalog",
+          "publishedOn": "2024-09-24T12:00:00.000Z",
+          "wordCount": 674,
+          "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+          "imageUrl": null
+        },
         {
           "id": "/node/22262",
           "author": "CISA",
@@ -2318,16 +2319,6 @@
           "wordCount": 674,
           "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
           "imageUrl": null
-        },
-        {
-          "id": "/node/22057",
-          "author": "CISA",
-          "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.\nCVE-2024-7971 Google Chromium V8 Type Confusion Vulnerability\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.\nAlthough BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.",
-          "link": "https://www.cisa.gov/news-events/alerts/2024/08/26/cisa-adds-one-known-exploited-vulnerability-catalog",
-          "publishedOn": "2024-08-26T12:00:00.000Z",
-          "wordCount": 685,
-          "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-          "imageUrl": null
         }
       ]
     },
@@ -2363,6 +2354,56 @@
       "feedUrl": "https://jvn.jp/rss/jvn.rdf",
       "siteUrl": "https://jvn.jp/",
       "articles": [
+        {
+          "id": "https://jvn.jp/vu/JVNVU95728486/",
+          "author": "jvn@jvn.jp",
+          "description": "OPW Fuel Management Systemsが提供するSiteSentinelには、重要な機能に対する認証の欠如の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU95728486/",
+          "publishedOn": "2024-09-25T05:45:40.000Z",
+          "wordCount": 77,
+          "title": "OPW Fuel Management Systems製SiteSentinelにおける重要な機能に対する認証の欠如の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU97560457/",
+          "author": "jvn@jvn.jp",
+          "description": "Alisonicが提供するSibyllaには、SQLインジェクションの脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU97560457/",
+          "publishedOn": "2024-09-25T05:45:30.000Z",
+          "wordCount": 54,
+          "title": "Alisonic製SibyllaにおけるSQLインジェクションの脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU91238848/",
+          "author": "jvn@jvn.jp",
+          "description": "Franklin Electric Fueling Systemsが提供するTS-550 EVOには、絶対パストラバーサルの脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU91238848/",
+          "publishedOn": "2024-09-25T05:45:20.000Z",
+          "wordCount": 79,
+          "title": "Franklin Electric Fueling Systems製TS-550 EVOにおける絶対パストラバーサルの脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU92841828/",
+          "author": "jvn@jvn.jp",
+          "description": "Moxaが提供するMXview OneおよびMXview One Central Managerには、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU92841828/",
+          "publishedOn": "2024-09-25T05:45:10.000Z",
+          "wordCount": 105,
+          "title": "Moxa製MXview OneおよびMXview One Central Managerにおける複数の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU90976056/",
+          "author": "jvn@jvn.jp",
+          "description": "OMNTEC Mfg., Inc.が提供するProteus Tank Monitoringには、重要な機能に対する認証の欠如の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU90976056/",
+          "publishedOn": "2024-09-25T05:45:00.000Z",
+          "wordCount": 77,
+          "title": "OMNTEC製Proteus Tank Monitoringにおける重要な機能に対する認証の欠如の脆弱性",
+          "imageUrl": null
+        },
         {
           "id": "https://jvn.jp/vu/JVNVU95995488/",
           "author": "jvn@jvn.jp",
@@ -2979,6 +3020,106 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/09/25/51660.html",
+          "author": null,
+          "description": "Webサイトを巡回・診断する際、難読化された JavaScript に遭遇することは珍しくありません。これまでは、難読化が判明した時点で深掘りを断念することが多かったのですが、生成AI を活用すれば難読化を解除できるのではないかと考え、検証してみました。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/09/25/51660.html",
+          "publishedOn": "2024-09-24T23:20:03.000Z",
+          "wordCount": 1095,
+          "title": "AeyeScan blog 第9回「生成AI を使用して JavaScript の難読化を解除してみた」",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46217.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/09/25/51659.html",
+          "author": null,
+          "description": "今回紹介するのは SOLTAGE そのものではなく、その上に載っているセキュリティ製品やサービス、そしてそれを支援する研究機関としての同社のサイバーセキュリティラボに関してである。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/09/25/51659.html",
+          "publishedOn": "2024-09-24T23:15:03.000Z",
+          "wordCount": 1150,
+          "title": "セキュリティの正解は「顧客が実現したいDX」ありき ～ キヤノンITソリューションズ",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46219.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/09/25/51658.html",
+          "author": null,
+          "description": "クレディセゾンとｅ-ながさきどっとこむ、何か背中合わせに銃を構えて敵と対峙するような、信頼し合うバディの連携をも感じさせるプレスリリース発信である。何よりもユーザーのメリットを重視せんとする意志を感じるこうした事例を本連載は今後も積極的に紹介し称賛していく所存だ。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/09/25/51658.html",
+          "publishedOn": "2024-09-24T23:10:03.000Z",
+          "wordCount": 1199,
+          "title": "今日もどこかで情報漏えい 第28回「2024年8月の情報漏えい」クレジットカード会社と加盟店 “バディ” 誕生か",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46222.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/09/25/51657.html",
+          "author": null,
+          "description": "愛知県は9月12日、同県の公共事業における測量・設計等業務の委託先である柴山グループへの不正アクセスによる個人情報漏えいの可能性について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/09/25/51657.html",
+          "publishedOn": "2024-09-24T23:05:14.000Z",
+          "wordCount": 908,
+          "title": "柴山グループへの不正アクセス、愛知県の公共事業に係わる個人情報が漏えいした可能性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46195.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/09/25/51656.html",
+          "author": null,
+          "description": "ヤマトホールディングス株式会社は9月12日、シンガポールヤマト運輸株式会社への不正アクセスについて発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/09/25/51656.html",
+          "publishedOn": "2024-09-24T23:05:09.000Z",
+          "wordCount": 859,
+          "title": "シンガポールヤマト運輸に不正アクセス、他のヤマトグループへの影響は確認されず",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46200.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/09/25/51655.html",
+          "author": null,
+          "description": "税理士法人高野総合会計事務所、高野総合コンサルティング株式会社、監査法人TSKは9月11日、6月10日に公表したランサムウェア被害について、第3報を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/09/25/51655.html",
+          "publishedOn": "2024-09-24T23:05:06.000Z",
+          "wordCount": 901,
+          "title": "高野総合会計事務所グループのデータを管理するサーバにランサムウェア攻撃、通信機器の設定誤りが原因",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46202.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/09/25/51654.html",
+          "author": null,
+          "description": "陽極酸化処理（アルマイト処理）を行う株式会社ミヤキは9月6日、同社ファイルサーバへのランサムウェア攻撃について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/09/25/51654.html",
+          "publishedOn": "2024-09-24T23:05:02.000Z",
+          "wordCount": 920,
+          "title": "ミヤキのファイルサーバにランサムウェア攻撃、メールシステムが復旧未定で電話・FAXで対応",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46208.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/09/25/51653.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）は9月18日、VMware 製品の脆弱性対策について発表した。影響を受けるシステムは以下の通り。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/09/25/51653.html",
+          "publishedOn": "2024-09-24T23:00:11.000Z",
+          "wordCount": 1028,
+          "title": "VMware 製品に複数の脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/09/25/51652.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月18日、竹中エンジニアリング製デジタルビデオレコーダにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/09/25/51652.html",
+          "publishedOn": "2024-09-24T23:00:08.000Z",
+          "wordCount": 1087,
+          "title": "竹中エンジニアリング製デジタルビデオレコーダに複数の脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/09/25/51651.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は9月18日、WordPress用プラグインWelcart e-Commerceにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/09/25/51651.html",
+          "publishedOn": "2024-09-24T23:00:03.000Z",
+          "wordCount": 1154,
+          "title": "WordPress 用プラグイン Welcart e-Commerce に複数の脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2024/09/24/51650.html",
           "author": null,
@@ -4188,76 +4329,6 @@
           "wordCount": 933,
           "title": "マニュアルに反し一時的に机上で保管 ～ 鹿児島市で調整給付金支給確認書等を紛失",
           "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/45942.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2024/08/26/51529.html",
-          "author": null,
-          "description": "彼は医師の資格情報を使ってハワイ州の死亡登録システムにアクセスして自身の死亡を記録する「事案」を作成した。しかし、当人は実際には生きており、自分の「死」によって養育費の支払いや、延滞となっている支払いをする必要がなくなったという事実を彼は満喫した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2024/08/26/51529.html",
-          "publishedOn": "2024-08-25T23:10:03.000Z",
-          "wordCount": 1039,
-          "title": "○○費を払いたくない一心で政府システムをハッキング、スーパー “ダメ親父” ハッカー見参",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/45941.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2024/08/26/51528.html",
-          "author": null,
-          "description": "静岡県吉田町は7月17日、同町の「ちいさな理科館」のパソコンへの不正アクセスについて発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2024/08/26/51528.html",
-          "publishedOn": "2024-08-25T23:05:02.000Z",
-          "wordCount": 976,
-          "title": "静岡県吉田町「ちいさな理科館」でサポート詐欺被害 [2024.07.17]",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/45659.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2024/08/26/51527.html",
-          "author": null,
-          "description": "セコムトラストシステムズ株式会社は8月21日、同社が提供する「セコムあんしん給与明細電子化サービス」に、住民税の特別徴収税額通知書（税額通知書）の電子化に対応する機能を追加したと発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2024/08/26/51527.html",
-          "publishedOn": "2024-08-25T23:00:20.000Z",
-          "wordCount": 891,
-          "title": "「セコムあんしん給与明細電子化サービス」住民税の特別徴収税額通知書の電子化に対応",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/45940.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2024/08/26/51526.html",
-          "author": null,
-          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は8月22日、複数のセーフィー製品におけるサーバ証明書の検証不備の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2024/08/26/51526.html",
-          "publishedOn": "2024-08-25T23:00:16.000Z",
-          "wordCount": 1021,
-          "title": "複数のセーフィー製品にサーバ証明書の検証不備の脆弱性",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2024/08/26/51525.html",
-          "author": null,
-          "description": "サイバートラスト株式会社は8月19日、Linux Foundation Japanが開始したエバンジェリストプログラムに、同社社員の池田宗広氏がセキュリティを専門とする「Linux Foundation Japan エバンジェリスト」に就任したと発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2024/08/26/51525.html",
-          "publishedOn": "2024-08-25T23:00:11.000Z",
-          "wordCount": 931,
-          "title": "Linux Foundation Japan エバンジェリストにサイバートラスト池田宗広氏就任",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2024/08/26/51524.html",
-          "author": null,
-          "description": "株式会社Flatt Securityは8月19日、国産脆弱性診断ツール「Shisho Cloud byGMO」の自動Web脆弱性診断（DAST）機能の提供を開始すると発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2024/08/26/51524.html",
-          "publishedOn": "2024-08-25T23:00:08.000Z",
-          "wordCount": 983,
-          "title": "Flatt Security「Shisho Cloud byGMO」に自動 Web 脆弱性診断（DAST）機能",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/45939.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2024/08/26/51523.html",
-          "author": null,
-          "description": "株式会社日本レジストリサービス（JPRS）は8月16日、Windows DNSの脆弱性情報が公開されたと発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2024/08/26/51523.html",
-          "publishedOn": "2024-08-25T23:00:03.000Z",
-          "wordCount": 932,
-          "title": "Windows DNS に DNSスプーフィングが可能になる脆弱性",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
         }
       ]
     },
@@ -4266,6 +4337,26 @@
       "feedUrl": "https://rss.itmedia.co.jp/rss/2.0/news_security.xml",
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2409/20/news037.html",
+          "author": null,
+          "description": "日本の製造業に大きな影響を及ぼすと考えられる欧州サイバーレジリエンス法に対応し、セキュアなIoT機器を開発するために必要な対策について解説する。",
+          "link": "https://www.itmedia.co.jp/news/articles/2409/20/news037.html",
+          "publishedOn": "2024-09-25T03:00:00.000Z",
+          "wordCount": 2847,
+          "title": "日本企業に必要な備えは──新たな法規制「欧州サイバーレジリエンス法」対応の勘所",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2409/20/cover_news037.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2409/24/news199.html",
+          "author": null,
+          "description": "ゲームや音楽を中心とした作品群「東方Project」の原作者・ZUNさんが、Xアカウントの乗っ取り被害に遭った。",
+          "link": "https://www.itmedia.co.jp/news/articles/2409/24/news199.html",
+          "publishedOn": "2024-09-24T14:08:00.000Z",
+          "wordCount": 2812,
+          "title": "「東方Project」原作者のXアカウントが乗っ取り被害に",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2409/24/cover_news199.jpg"
+        },
         {
           "id": "https://www.itmedia.co.jp/news/articles/2409/24/news143.html",
           "author": null,
@@ -4615,16 +4706,6 @@
           "wordCount": 2886,
           "title": "漏えいした個人情報の“価値”、10年で500円→0円に？　“詫び金券”が配られたのは遠い昔か",
           "imageUrl": "https://image.itmedia.co.jp/news/articles/2408/27/cover_news111.jpg"
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2408/26/news143.html",
-          "author": null,
-          "description": "架空の映画祭を名乗るWebサイトが相次いで見つかった問題で、そのうちの1つ「広島短編映画祭」をかたるWebサイトが26日までに声明を掲載していたことが分かった。",
-          "link": "https://www.itmedia.co.jp/news/articles/2408/26/news143.html",
-          "publishedOn": "2024-08-26T08:44:00.000Z",
-          "wordCount": 2838,
-          "title": "“架空の映画祭”Webサイトは4つに、うち1つが「声明」　詐欺目的か",
-          "imageUrl": "https://image.itmedia.co.jp/news/articles/2408/26/cover_news143.jpg"
         }
       ]
     },
@@ -4633,6 +4714,106 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1626058.html",
+          "author": "アイティースリー",
+          "description": "Amazon.co.jpのネスカフェストアでは現在、同社のインスタントコーヒーがタイムセール中だ。掲載の価格はいずれも通常注文時のもので、「定期おトク便」ではさらに割引となる。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1626058.html",
+          "publishedOn": "2024-09-25T06:45:00.000Z",
+          "wordCount": 5078,
+          "title": "ネスカフェのインスタントコーヒーが安い！ Amazonお得情報　定番商品の瓶入り「ゴールドブレンド」は798円",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1626/058/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1625769.html",
+          "author": "アイティースリー",
+          "description": "Amazon.co.jpのシリコンパワーストアでは現在、同社のUSBメモリがタイムセール中だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1625769.html",
+          "publishedOn": "2024-09-25T05:55:14.000Z",
+          "wordCount": 5031,
+          "title": "シリコンパワー製USBメモリがAmazonでタイムセール中！　ユニークなリングデザインの64GBモデルが1431円",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1625/769/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1626046.html",
+          "author": "大竹 莉子",
+          "description": "東日本電信電話株式会社（NTT東日本）が提供する複数のホームゲートウェイ／ひかり電話ルーターに、アクセス制限不備の脆弱性が存在するとして、脆弱性対策情報ポータルサイト「JVN（Japan Vulnerability Notes）」が9月24日に情報を公開した。対策のため、ファームウェアを最新バージョンに更新するよう呼び掛けている。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1626046.html",
+          "publishedOn": "2024-09-25T03:15:00.000Z",
+          "wordCount": 5028,
+          "title": "NTT東日本が提供する「RT-400MI」など複数のホームゲートウェイ／ひかり電話ルーターに、アクセス制限不備の脆弱性。最新ファームウェアへの更新を",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1626/046/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1626018.html",
+          "author": "tks24",
+          "description": "X（旧Twitter）で、ブロックした相手からもポストが見えてしまう仕様に変更される可能性が出てきた。こうした仕様変更について自身の考えを述べたイーロン・マスク氏のポストが波紋を呼んでいる。ただし、これには利点もあるようだ。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1626018.html",
+          "publishedOn": "2024-09-25T03:10:00.000Z",
+          "wordCount": 4577,
+          "title": "実は隠れた利点も？　X（旧Twitter）、ブロックした相手からもポストが見える仕様に変更か【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1626/018/yajiuma-watch_4.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1626019.html",
+          "author": "tks24",
+          "description": "メッセンジャーサービス「Telegram」が、当局の正式な命令があればIPアドレスや電話番号といったユーザーデータの提供を可能とするよう、プライバシーポリシーを改定したことが明らかになった。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1626019.html",
+          "publishedOn": "2024-09-25T03:00:00.000Z",
+          "wordCount": 4590,
+          "title": "Telegram、当局の正式命令に対してIPアドレスと電話番号を開示するよう方針を大幅転換【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1626/019/yajiuma-watch_3.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1625927.html",
+          "author": "木下 明音",
+          "description": "ティーピーリンク株式会社（TP-Link）は、ネットワークカメラ用ソーラーパネル「Tapo A201 JP」の販売を、9月26日に開始する。市場想定価格は3190円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1625927.html",
+          "publishedOn": "2024-09-25T02:45:00.000Z",
+          "wordCount": 5034,
+          "title": "TP-Link、屋外向けネットワークカメラ用のコンパクトなソーラーパネル「Tapo A201 JP」発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1625/927/main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/ranking/mousepro/1625275.html",
+          "author": null,
+          "description": "本記事では、マウスコンピューターの法人向けブランド「MousePro」の売れ筋PCを紹介しています。なお、順位、価格、構成は随時変動しており、最新情報はリンク先にてご確認ください。",
+          "link": "https://internet.watch.impress.co.jp/docs/ranking/mousepro/1625275.html",
+          "publishedOn": "2024-09-25T02:00:00.000Z",
+          "wordCount": 4608,
+          "title": "スタンダードな15.6型ノートPC「MousePro Lシリーズ」が人気。14型の「MousePro Cシリーズ」もラインクイン【MousePro 売れ筋ビジネスPCランキング ノート編 2024/9/25版】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1625/275/MousePro_L.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1625392.html",
+          "author": "松永 侑貴惠",
+          "description": "サンコー株式会社はヒーター内蔵の電気スリッパ「どこでも床暖スリッパ」（SRPP24SBW）を発売した。公式通販サイト「THANKO」での価格は4980円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1625392.html",
+          "publishedOn": "2024-09-24T22:30:00.000Z",
+          "wordCount": 5013,
+          "title": "足の裏をヒーターで温める「どこでも床暖スリッパ」、サンコーが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1625/392/sub2.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1625921.html",
+          "author": "木下 明音",
+          "description": "ティーピーリンクジャパン株式会社（TP-Link）は、パン・チルト機能を備えたAIネットワークカメラ「Tapo C222」の国内販売を9月26日に開始する。市場想定価格は6800円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1625921.html",
+          "publishedOn": "2024-09-24T21:30:00.000Z",
+          "wordCount": 5030,
+          "title": "パン・チルト可能で、人やペットの動きを検知するAIネットワークカメラ「Tapo C222」、TP-Linkが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1625/921/02.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1625866.html",
+          "author": "木下 明音",
+          "description": "日本電信電話株式会社（NTT）は9月24日、ヒトやモノの動きを含む空間情報を、高精密かつ高速に遠隔地に伝送・再現する技術「動的3D空間伝送・再現技術」を確立したことを発表した。同技術は9月21日に行われたライブ配信イベント「Perfume 25th & 20th Anniversary Live Performance \"IMA IMA IMA\" Powered by NTT」にて、Perfumeのパフォーマンスを空間ごとスキャンし、3D空間データとして伝送・再現するために適用されている。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1625866.html",
+          "publishedOn": "2024-09-24T21:00:00.000Z",
+          "wordCount": 5070,
+          "title": "Perfumeのライブパフォーマンスをスキャン！ NTTが動きのある3D空間の高速高精細な伝送・再現技術　Perfume 25th & 20th Anniversary Live Performance \"IMA IMA IMA\" Powered by NTT",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1625/866/01.jpg"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/1625756.html",
           "author": "アイティースリー",
@@ -6812,126 +6993,6 @@
           "wordCount": 5039,
           "title": "第22回：全国約1800の自治体で「エンディングノート」の配布を調査！　デジタル遺品関係が充実した先進事例8傑を紹介【天国へのプロトコル】",
           "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1618/093/01.PNG"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1618618.html",
-          "author": "松永 侑貴惠",
-          "description": "静岡新聞社は8月26日、現在の静岡市清水区で起きたいわゆる「袴田事件」において、過酷な取り調べを追体験できるMetaQuest用のVRアプリ「『最後の砦』VR」（通称「VR袴田事件」）をリリースした。Metaの公式ストア（AppLab）で無料でダウンロード可能。",
-          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1618618.html",
-          "publishedOn": "2024-08-26T09:30:00.000Z",
-          "wordCount": 4535,
-          "title": "9月26日に再審判決を予定する「袴田事件」の過酷な取り調べをVRで追体験できるアプリ、静岡新聞社が提供【やじうまWatch】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1618/618/sub9.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1618579.html",
-          "author": "松永 侑貴惠",
-          "description": "イッツ・コミュニケーションズ株式会社は、光回線を利用した上り下り最大10Gbpsの戸建て住宅向けインターネット接続サービス「イッツコムひかり ホームタイプ 10ギガコース」の提供を12月に開始する。11月に先行受付開始予定で、詳細は後日発表の予定としている。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1618579.html",
-          "publishedOn": "2024-08-26T07:55:00.000Z",
-          "wordCount": 4981,
-          "title": "町田市と横浜市の一部エリアで「イッツコムひかり ホームタイプ 10ギガコース」12月に提供開始、順次エリア拡大予定",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1618/579/main.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1618500.html",
-          "author": "アイティースリー",
-          "description": "Amazon.co.jpのゼンハイザー（Sennheiser）ストアページでは現在、同社の各種ブランドのワイヤレスイヤホンやヘッドホンやをタイムセール価格で販売中だ。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1618500.html",
-          "publishedOn": "2024-08-26T06:00:00.000Z",
-          "wordCount": 5023,
-          "title": "ゼンハイザー製ワイヤレスイヤホンなどがタイムセール中！　Amazonお得情報　第4世代フルワイヤレス「MOMENTUM True Wireless 4」は4万2800円で、さらに3000円OFFも",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1618/500/01.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1618482.html",
-          "author": "アイティースリー",
-          "description": "Amazon.co.jpの「SANWA SUPPLY（サンワサプライ）ストア」では現在、同社のLANケーブルに使えるお得なクーポンを配布中だ。有効期限はいずれも8月31日。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1618482.html",
-          "publishedOn": "2024-08-26T05:30:00.000Z",
-          "wordCount": 4982,
-          "title": "Amazonでサンワサプライ製高速LANケーブルのクーポンが配布中！　CAT8対応ケーブルは10％OFFで最長5m、CAT7対応ケーブルは20％OFFで最長15mが対象",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1618/482/01.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1618491.html",
-          "author": "大東 奈央",
-          "description": "テックウインド株式会社は8月26日、法人向けWi-Fi環境構築サービスの提供を開始した。オフィスに合わせた高速Wi-Fi環境の企画・設計・構築をワンストップでサポートする。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1618491.html",
-          "publishedOn": "2024-08-26T04:15:00.000Z",
-          "wordCount": 4978,
-          "title": "テックウインド、法人向けWi-Fi環境構築サービスの提供を開始。調査・設計から構築までをワンストップでサポート",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1618/491/00.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1618454.html",
-          "author": "山田 貞幸",
-          "description": "バッファローのWi-Fiルーターおよび中継機18製品にOSコマンドインジェクションの脆弱性があるとして、脆弱性対策情報ポータルサイト「JVN（Japan Vulnerability Notes）」が情報を公開した。バッファローでも情報を公開しており、いずれも最新版のファームウェアに更新することで対策できる。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1618454.html",
-          "publishedOn": "2024-08-26T03:30:28.000Z",
-          "wordCount": 5015,
-          "title": "「WHR-1166DHP2」などバッファロー製Wi-Fiルーター・中継機18製品に脆弱性、最新版ファームウェアへの更新を",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1618/454/01.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1618366.html",
-          "author": "tks24",
-          "description": "Threadsが24時間以内に消滅する投稿のテストを行っていることが明らかになった。",
-          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1618366.html",
-          "publishedOn": "2024-08-26T02:45:00.000Z",
-          "wordCount": 4532,
-          "title": "Threadsが24時間以内に消滅する投稿ツールをテスト中、Instagram「ストーリーズ」のように定着するか？【やじうまWatch】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1618/366/yajiuma-watch_2.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1618361.html",
-          "author": "tks24",
-          "description": "X（旧Twitter）が「Dislike（＝よくないね）」ボタンをすでに一部で実装しているとの噂が波紋を呼んでいる。",
-          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1618361.html",
-          "publishedOn": "2024-08-26T02:40:00.000Z",
-          "wordCount": 4549,
-          "title": "すでに一部で実装済み？ Xが「Dislike（＝よくないね）」ボタンをテスト中との噂【やじうまWatch】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1618/361/yajiuma-watch_4.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1618188.html",
-          "author": "木下 明音",
-          "description": "サンワサプライ株式会社は、地震などでオープン棚から収納物の落下を防ぐ落下防止ベルト「QL-E99」シリーズ5モデルを9月上旬に発売する。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1618188.html",
-          "publishedOn": "2024-08-25T23:30:00.000Z",
-          "wordCount": 4969,
-          "title": "棚からの荷物落下を防ぐ地震対策用ベルト、サンワサプライが発売",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1618/188/main.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1618212.html",
-          "author": "木下 明音",
-          "description": "台湾の刑事警察局（CIB）知的財産権偵査大隊は7月9日、違法テレビ視聴アプリ「晴天TV」および不正ストリーミング視聴機器（ISD）向けに放送番組の信号を違法提供する拠点の「盗録機房」を捜索し、「晴天TV」を通じて日本などの放送番組を無断で提供していた被疑者2名を逮捕した。一般社団法人コンテンツ海外流通促進機構（CODA）が発表した。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1618212.html",
-          "publishedOn": "2024-08-25T22:15:00.000Z",
-          "wordCount": 4964,
-          "title": "台湾で違法テレビ視聴アプリ「晴天TV」を通じて日本の番組を無断提供していた2人を逮捕、CODA発表",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1618/212/main.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1617400.html",
-          "author": "大河原 克行",
-          "description": "三菱電機は、「800Gbps／1.6Tbps光ファイバー通信用200Gbps pin-PDチップ」のサンプル提供を、2024年10月1日から開始すると発表した。2024年中に量産を開始し、2025年から量産出荷する計画だ。受信用製品によるデータセンター市場に初めて参入する。生産は北伊丹の高周波デバイス製作所で行う。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1617400.html",
-          "publishedOn": "2024-08-25T21:30:00.000Z",
-          "wordCount": 5006,
-          "title": "三菱電機、高速動作を実現した「800Gbps／1.6Tbps光ファイバー通信用200Gbps pin-PDチップ」のサンプル提供開始、データセンター事業に参入",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1617/400/01.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/column/shimizu/1616648.html",
-          "author": "清水 理史",
-          "description": "Amazon.co.jpで販売されている低価格のスイッチが一部で話題になっている。",
-          "link": "https://internet.watch.impress.co.jp/docs/column/shimizu/1616648.html",
-          "publishedOn": "2024-08-25T21:00:00.000Z",
-          "wordCount": 5053,
-          "title": "2.5GbpsにSFP+、PoEも付いて脅威の実売6980円！　話題の爆安スイッチに落とし穴はないか、実際に買って試してみた【イニシャルB】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1616/648/001.JPG"
         }
       ]
     },
@@ -6946,6 +7007,86 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240925-3024470/",
+          "author": null,
+          "description": "9月12日に開催された「TECH+セミナー 製造業 - SCM Day 2024 Sep. 強靭な『サプライチェーンマネジメント』Ⅱ」に東芝 技術企画部 サイバーセキュリティセンター ゼネラルマネジャーの下田秀一氏と、同 研究開発センター サイバーセキュリティ技術センター ゼネラルマネジャーの岡田光司氏が登壇。サプライチェーンのセキュリティの動向と自社の対策について話した。",
+          "link": "https://news.mynavi.jp/techplus/article/20240925-3024470/",
+          "publishedOn": "2024-09-25T00:00:00.000Z",
+          "wordCount": 1815,
+          "title": "東芝グループはいかに、サプライチェーン攻撃に備えているのか",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240925-3024470/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240924-3031025/",
+          "author": null,
+          "description": "MailGuardは9月20日(現地時間)、最近確認された暗号資産ウォレットを狙うフィッシングキャンペーンの分析結果を伝えた。このキャンペーンでは、Ethereum系ウォレットの「MetaMask」公式を装ってユーザーを誘惑するという。",
+          "link": "https://news.mynavi.jp/techplus/article/20240924-3031025/",
+          "publishedOn": "2024-09-24T09:35:39.000Z",
+          "wordCount": 1800,
+          "title": "新しいフィッシング攻撃、QRコードを読み取ると暗号資産が窃取される",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240924-3031025/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240924-3031008/",
+          "author": null,
+          "description": "Malwarebytesは9月20日(米国時間)、米国連邦取引委員会(FTC)が主要なソーシャルメディアおよび動画ストリーミングサービスのデータ収集に関する調査報告書を発表したと伝えた。報告書では、運営方法が危険なほど不透明だと警告している。",
+          "link": "https://news.mynavi.jp/techplus/article/20240924-3031008/",
+          "publishedOn": "2024-09-24T08:30:07.000Z",
+          "wordCount": 1807,
+          "title": "米当局がMetaやXら9社のデータ収集調査、運営方法が危険なほど不透明と警告",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240924-3031008/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240924-3028341/",
+          "author": null,
+          "description": "ボットが実行するタスクは、検索エンジンにおけるWebサイトインデックスの作成やWebサイトのパフォーマンス監視など、その多くが正当なものですが、悪質な動きをするボット（悪性ボット）も増加しています。この悪性ボットの影響を深刻に受けている業界の一つが旅行業界です。",
+          "link": "https://news.mynavi.jp/techplus/article/20240924-3028341/",
+          "publishedOn": "2024-09-24T05:48:56.000Z",
+          "wordCount": 1766,
+          "title": "旅行業界を席巻する悪性ボット攻撃 - 被害例と講じるべき対策とは",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240924-3028341/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240924-3030695/",
+          "author": null,
+          "description": "Microsoftは9月19日(米国時間)、Microsoft IntuneのMacコンプライアンスポリシー(compliance policy)からステルスモードを有効にすると、macOS Sequoiaにアップグレードしたデバイスが非準拠になる可能性があると伝えた。Macコンプライアンスポリシーからステルスモードを有効にしたmacOS Sequoiaは、ping、TCP、UDPに応答しないとされる。",
+          "link": "https://news.mynavi.jp/techplus/article/20240924-3030695/",
+          "publishedOn": "2024-09-24T03:59:00.000Z",
+          "wordCount": 1918,
+          "title": "macOS Sequoiaがステルスモードで非準拠になる可能性、Microsoft Intune",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240924-3030695/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240924-3029073/",
+          "author": null,
+          "description": "Bleeping Computerは9月19日(米国時間)、サイバー攻撃者がGitHubのIssuesを悪用してマルウェアを配布したとして、注意を喚起した。攻撃者は偽のGitHubアカウントから標的プロジェクトに偽Issueを報告することで、GitHubから悪意のあるメールを送信させている。",
+          "link": "https://news.mynavi.jp/techplus/article/20240924-3029073/",
+          "publishedOn": "2024-09-24T02:43:55.000Z",
+          "wordCount": 1820,
+          "title": "GitHubを悪用してマルウェア配布、不審な通知メールに注意",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240924-3029073/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240924-3030701/",
+          "author": null,
+          "description": "The Hacker Newsは9月21日(現地時間)、ウクライナが国家安全保障上のリスクを理由に政府関係者および軍関係者、防衛、重要なインフラ関係者に対してTelegramの使用を制限したと伝えた。ウクライナ保安庁および軍関係者はTelegramにはリスクがあると指摘しているという。",
+          "link": "https://news.mynavi.jp/techplus/article/20240924-3030701/",
+          "publishedOn": "2024-09-24T02:19:09.000Z",
+          "wordCount": 1795,
+          "title": "ウクライナがTelegram禁止、ミサイル攻撃の調整に悪用されている",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240924-3030701/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20240924-3030692/",
+          "author": null,
+          "description": "Bleeping Computerは9月20日(米国時間)、MacをmacOS SequoiaにアップグレードするとEDR(Endpoint Detection and Response)およびVPN(Virtual Private Network)、Webブラウザを使用する時にネットワーク接続エラーが発生すると伝えた。",
+          "link": "https://news.mynavi.jp/techplus/article/20240924-3030692/",
+          "publishedOn": "2024-09-24T01:44:23.000Z",
+          "wordCount": 1842,
+          "title": "macOS SequoiaでVPNやブラウザに問題、アップデート見送り勧めるベンダーも",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20240924-3030692/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20240924-3029076/",
           "author": null,
@@ -7985,26 +8126,6 @@
           "wordCount": 1820,
           "title": "サイバーレジリエンスを向上させるため、取り組むべきこととは",
           "imageUrl": "https://news.mynavi.jp/techplus/article/20240827-3000735/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20240826-3012352/",
-          "author": null,
-          "description": "JPCERTコーディネーションセンター(JPCERT)は8月23日、バッファローの無線LANルータおよび無線LAN中継機に脆弱性が存在するとして、注意を喚起した。この脆弱性を悪用されると、ログイン可能な攻撃者にマルウェアをインストールされる可能性がある。",
-          "link": "https://news.mynavi.jp/techplus/article/20240826-3012352/",
-          "publishedOn": "2024-08-26T03:45:47.000Z",
-          "wordCount": 1869,
-          "title": "バッファロー製Wi-Fiルータに脆弱性、対象機器がマルウェアに感染",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20240826-3012352/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20240826-3012354/",
-          "author": null,
-          "description": "Cohesityは8月26日、同社委託して行った企業におけるサイバーレジリエンスに関する調査の分析結果を発表した。",
-          "link": "https://news.mynavi.jp/techplus/article/20240826-3012354/",
-          "publishedOn": "2024-08-26T02:44:44.000Z",
-          "wordCount": 1754,
-          "title": "サイバーレジリエンスの過大評価が事業継続や身代金の支払いに影響 - Cohesity調査",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20240826-3012354/ogp_images/ogp.jpg"
         }
       ]
     }
