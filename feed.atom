@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-09-28T08:13:47.352Z</updated>
+    <updated>2024-09-29T08:14:06.569Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[Androidに偽ウォレットアプリ、5カ月で1万回ダウンロード]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20240928-3033106/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20240928-3033106/"/>
+        <updated>2024-09-28T04:41:26.000Z</updated>
+        <summary type="html"><![CDATA[Check Point Software Technologiesは9月26日(米国時間)、暗号資産を窃取する悪意のあるAndroidアプリを発見したと報じた。アプリはGoogle Playから配布され、削除されるまでの約5カ月間で10,000回以上ダウンロードされたという。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[見出しでわかる IT界隈・今週の重要ニュース：全43本［2024/9/19～9/25］]]></title>
         <id>https://internet.watch.impress.co.jp/docs/news/weekly/1626923.html</id>
@@ -1491,6 +1501,16 @@ arch-info@nic.ad.jp
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[IDEC製プログラマブル表示器における複数の脆弱性]]></title>
+        <id>https://jvn.jp/vu/JVNVU96242582/</id>
+        <link href="https://jvn.jp/vu/JVNVU96242582/"/>
+        <updated>2024-09-25T01:00:00.000Z</updated>
+        <summary type="html"><![CDATA[IDEC株式会社が提供するプログラマブル表示器には、図研エルミック社製TCP/IPスタックに起因する複数の脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[1100万回以上ダウンロードされたAndroidアプリからトロイの木馬検出、確認を]]></title>
         <id>https://news.mynavi.jp/techplus/article/20240925-3031224/</id>
         <link href="https://news.mynavi.jp/techplus/article/20240925-3031224/"/>
@@ -2519,6 +2539,16 @@ iw-info@nic.ad.jp
         <summary type="html"><![CDATA[CyberSakuraは9月5日、「CyberSakura2024 行動指針」を公開した。]]></summary>
         <author>
             <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WindLDRおよびWindO/I-NV4おける重要な情報の平文保存の脆弱性]]></title>
+        <id>https://jvn.jp/jp/JVN08342147/</id>
+        <link href="https://jvn.jp/jp/JVN08342147/"/>
+        <updated>2024-09-20T00:30:00.000Z</updated>
+        <summary type="html"><![CDATA[IDEC株式会社が提供するWindLDRおよびWindO/I-NV4には、重要な情報の平文保存の脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
         </author>
     </entry>
     <entry>
@@ -8870,532 +8900,6 @@ midPointでCSVからアカウントを作成する first appeared on SIOS Tech. 
         <summary type="html"><![CDATA[Akamai Technologiesは8月28日(米国時間)、AVTECHのIPカメラにゼロデイの脆弱性が存在すると伝えた。この脆弱性を悪用されると、リモートの認証されていない攻撃者に任意のコマンドを実行される可能性がある。同社は今年3月以降、この脆弱性を悪用してボットネット「Mirai」の亜種を配布するキャンペーンを確認しているとして注意を呼びかけている。]]></summary>
         <author>
             <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VU#455367: Insecure Platform Key (PK) used in UEFI system firmware signature]]></title>
-        <id>https://kb.cert.org/vuls/id/455367</id>
-        <link href="https://kb.cert.org/vuls/id/455367"/>
-        <updated>2024-08-30T13:58:10.894Z</updated>
-        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
-<p>A vulnerability in the user of hard-coded Platform Keys (PK) within the UEFI framework, known as PKfail, has been discovered. This flaw allows attackers to bypass critical UEFI security mechanisms like Secure Boot, compromising the trust between the platform owner and firmware and enabling manipulation of sensitive system settings.</p>
-<h3 id="description">Description</h3>
-<p>The UEFI standard establishes trust relationships using Public Key Infrastructure (PKI) between the platform owner, the platform firmware, and the operating system. Central to this process is the Platform Key (PK), which is designed to secure the connection between the platform owner and the platform firmware. </p>
-<blockquote>
-<p>The platform owner enrolls the public half of the key (PKpub) into the platform firmware. The platform owner can later use the private half of the key (PKpriv) to change platform ownership or to enroll a Key Exchange Key. For UEFI, the recommended Platform Key format is RSA-2048.
-(Section 7.2.1 of the UEFI 2.3.1 Errata C standard)</p>
-</blockquote>
-<p>The PKFail vulnerability highlights a critical flaw in the UEFI ecosystem. While the Platform Key is expected to originate from the Original Equipment Manufacturer (OEM) using a secure hardware security module (HSM), in practice, much of the UEFI software and drivers are developed by a complex network of supply-chain partners and Independent BIOS Vendors (IBVs). These components are often shared across multiple OEMs. In some cases, temporary test software keys, or "softkeys," which are hard-coded for ease of build and testing, inadvertently make their way into production firmware.</p>
-<p>These softkeys, intended solely for compatibility testing and performance evaluation, are supposed to be untrusted and restricted in their usage.  The current UEFI's key verification process is limited - it only checks against the keys in the local database, with no verification against the root Certificate Authority (CA) or special validation of extended attributes. Although keys cannot be self-signed, the lack of stringent verification allows these untrusted keys to be mistakenly included in production firmware. </p>
-<p>Recent audits have uncovered that many OEM devices shipped with hard-coded, untrusted keys in their production UEFI firmware. Despite these keys often having attributes like "DO NOT TRUST," there is no programmatic safeguard or other validations (say attribute-based) to prevent their inclusion in final products. The compromise or leak of these private keys could have bad consequences, allowing attackers to sign malicious modules that execute with high privileges during the boot process, even if Secure Boot is enabled. This undermines the very purpose of signed software verification, leaving systems vulnerable to untrusted and malicious modules.</p>
-<p>Compounding the issue, UEFI firmware is largely invisible to most Endpoint Detection and Response (EDR) software, making it difficult to audit and detect the use of compromised keys. Moreover, many UEFI implementations lack Remote Measurement or Auditing capabilities that could dynamically check the integrity of the key database via network resources. </p>
-<h3 id="impact">Impact</h3>
-<p>An attacker with access to an undesired-yet-trusted test Platform Key's private portion can exploit it to sign malicious UEFI software, enabling the execution of code with the highest privileges during the early boot phases of a UEFI Secure Boot-protected system. A successful attack could lead to the following  impacts:</p>
-<ul>
-<li>Invalidation or bypass of UEFI security features like SecureBoot.</li>
-<li>Installation of persistent software that cannot be easily detected or erased, that can also persist across reboots and potentially surviving OS reinstalls.</li>
-<li>Creation of backdoors and back communications channels to exfiltrate sensitive data.</li>
-<li>Interruption of system execution leading to device damage or permanent shutdown.</li>
-</ul>
-<h3 id="solution">Solution</h3>
-<ul>
-<li><strong>Update UEFI Firmware</strong>: Ensure you install the latest stable version of UEFI firmware provided by your PC vendor or the reseller of your computing environment. Refer to the Vendor Information section below for specific resources and updates from vendors addressing these vulnerabilities.</li>
-<li><strong>Use Researcher Tools for Impact Assessment</strong>: Utilize <a href="https://github.com/binarly-io/Vulnerability-REsearch/blob/main/PKfail/BRLY-2024-005.md">tools and information</a> provided by Binarly to assess the impact of untrusted Platform Keys on your systems. These resources can help you conduct a thorough analysis of affected systems.</li>
-<li><strong>Leverage Automatic Firmware Updates</strong>: If your operating system supports automatic or managed firmware updates (e.g., Linux Vendor Firmware Service, LVFS), regularly check for updates using <code>fwupdmgr get-updates</code> and apply them with <code>fwupdmgr update</code> or use <a href="https://learn.microsoft.com/en-us/windows-hardware/drivers/bringup/windows-uefi-firmware-update-platform">Windows OEM supported mechanisms</a> as appropriate. Keeping your firmware up to date is crucial in mitigating the risks associated with PKfail.</li>
-</ul>
-<h3 id="acknowledgements">Acknowledgements</h3>
-<p>Thanks to <a href="https://www.binarly.io/blog/pkfail-untrusted-platform-keys-undermine-secure-boot-on-uefi-ecosystem">Binarly</a> for disclosing this vulnerability.  This document was written by Vijay Sarvepalli.</p>]]></summary>
-        <author>
-            <name>CERT Recently Published Vulnerability Notes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[この機能、“もしも”のときに使えますか？ 「災害用伝言ダイヤル（171）」と「災害用伝言板（web171）」利用のポイントは？]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1620135.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1620135.html"/>
-        <updated>2024-08-30T10:30:00.000Z</updated>
-        <summary type="html"><![CDATA[台風10号の接近に伴い、東日本電信電話株式会社（NTT東日本）と西日本電信電話株式会社（NTT西日本）は8月29日、災害時の安否確認に役立つツール「災害用伝言ダイヤル（171）」および「災害用伝言板（web171）」の運用を開始した。]]></summary>
-        <author>
-            <name>松永 侑貴惠</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Web更新]ccTLDの登録数を更新　2024年7月分を追加]]></title>
-        <id>https://www.nic.ad.jp/ja/stat/dom/cctld.html</id>
-        <link href="https://www.nic.ad.jp/ja/stat/dom/cctld.html"/>
-        <updated>2024-08-30T10:20:18.000Z</updated>
-        <summary type="html"><![CDATA[ccTLDの登録数
-＜注意＞
-以下のデータは、各ccTLDレジストリが公式Webサイトなどで公開している数字をJPNICにて独自に集計したものです。
-月ごとの登録数を公開していないccTLDについては、月末時点で最新の数字を利用しています。
-その月の登録数の公開がなかったTLDは空白に、登録数の公開が毎月では無いTLDは「-->」となっています。
-ccTLD
-    割り当てられている国/地域名
-
-    2024年7月
-    2024年6月
-    2024年5月
-    2024年4月
-    2024年3月
-    2024年2月
-    2024年1月
-    2023年12月
-    2023年11月
-    2023年10月
-    2023年9月
-    2023年8月
-    2023年7月
-    2023年6月
-    2023年5月
-    2023年4月
-    2023年3月
-    2023年2月
-    2023年1月
-    2022年12月
-    2022年11月
-    2022年10月
-    2022年9月
-    2022年8月
-    2022年7月
-    2022年6月
-    2022年5月
-    2022年4月
-    2022年3月
-    2022年2月
-    2022年1月
-    2021年12月
-    2021年11月
-    2021年10月
-    2021年9月
-    2021年8月
-    2021年7月
-    2021年6月
-    2021年5月
-    2021年4月
-    2021年3月
-    2021年2月
-    2021年1月
-    2020年12月
-    2020年11月
-    2020年10月
-    2020年9月
-    2020年8月
-    2020年7月…]]></summary>
-        <author>
-            <name>JPNIC Web</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[見出しでわかる IT界隈・今週の重要ニュース：全56本［2024/8/22～8/28］]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/weekly/1620134.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/weekly/1620134.html"/>
-        <updated>2024-08-30T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。]]></summary>
-        <author>
-            <name>中島 由弘</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ankerのポータブル電源もAmazonスマイルSALEでお買い得！　容量768Whの「Anker Solix C800 Portable Power Station」が7万2900円など]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1620032.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1620032.html"/>
-        <updated>2024-08-30T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazon.co.jpでは現在、9月4日までの期間限定でビッグセール「スマイルSALE」を開催している。その一環としてAnkerストアページでは、ACコンセントやUSBポートを備えたポータブル電源がセール中だ。]]></summary>
-        <author>
-            <name>アイティースリー</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Azure OpenAI Service の On Your Dataを使ってみた]]></title>
-        <id>https://tech-lab.sios.jp/?p=42902</id>
-        <link href="https://tech-lab.sios.jp/archives/42902"/>
-        <updated>2024-08-30T07:16:00.000Z</updated>
-        <summary type="html"><![CDATA[はじめに こんにちは！今月から生成AI活用事業がメイン業務になったなーがです。前回から少し時間が空いてしまいましたが、今回はAzure OpenAI Serviceの機能の一つであるOn Your Dataについて書こう ...
-Azure OpenAI Service の On Your Dataを使ってみた first appeared on SIOS Tech. Lab.]]></summary>
-        <author>
-            <name>なーが</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AnkerのUSB PD対応モバイルバッテリーがセール中！AmazonスマイルSALE　27650mAhの大容量モデル「Prime Power Bank」は1万9990円]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1620024.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1620024.html"/>
-        <updated>2024-08-30T07:15:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazon.co.jpでは現在、9月4日までの期間限定でビッグセール「スマイルSALE」を開催している。その一環としてAnkerストアページでは、USB PD対応モバイルバッテリー各種がセール中だ。]]></summary>
-        <author>
-            <name>アイティースリー</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[トピックス]JPNICトークラウンジ第17回ライブ配信「三谷公美さんに聞く、コミュニティが拓くインターネットの未来」および第16回アーカイブ公開のご案内]]></title>
-        <id>https://www.nic.ad.jp/ja/topics/2024/20240830-01.html</id>
-        <link href="https://www.nic.ad.jp/ja/topics/2024/20240830-01.html"/>
-        <updated>2024-08-30T06:47:25.000Z</updated>
-        <summary type="html"><![CDATA[2024年8月30日
-各位
-一般社団法人日本ネットワークインフォメーションセンター
-JPNICトークラウンジ第17回ライブ配信
-「三谷公美さんに聞く、コミュニティが拓くインターネットの未来」
-および第16回アーカイブ公開のご案内
-記
-
-            
-JPNICトークラウンジ第17回「三谷公美さんに聞く、コミュニティが拓くインターネットの未来」
-ゲスト
-              三谷 公美さん(一般社団法人LOCAL)
-
-              日時
-              2024年9月27日(金) 17:00～18:00
-
-              開催方法
-              Zoomウェビナーによるライブ配信になります。
-
-              参加登録
-              
-                https://us06web.zoom.us/webinar/register/WN_DZ2Ks7I2RayWXTojXTFDKQ
-                
-内容
-              
-                三谷 公美さんは札幌在住で、
-                一般社団法人LOCALの理事として地元の技術者コミュニティの支援に長年携わっているとともに、
-                さくらインターネットのエバンジェリストとしてコミュニティ向けイベント運営にも参画、
-                また、インターネットソサエティ日本支部(ISOC-JP)の理事も務められています。
-                
-
-JPNICトークラウンジ第16回「クロサカタツヤさんに聞く、インターネットに『自律と尊厳』は必要ですか？」アーカイブ公開
-JPNICトークラウンジ第16回  クロサカタツヤさん
-              https://youtu.be/NGXz-vG-jr8
-
-              JPNIC YouTubeチャンネル
-              
-                https://www.youtube.com/@JPNIC_info
-                
-本件に関するお問い合わせ先
-event-sec@nic.ad.jp
-            
-以上]]></summary>
-        <author>
-            <name>JPNIC Web</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LINEヤフー、9月1日“防災の日”にあわせて「#災害に備える」特設サイトを公開　LINEでは安否確認機能の体験版を公開]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1620022.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1620022.html"/>
-        <updated>2024-08-30T06:15:00.000Z</updated>
-        <summary type="html"><![CDATA[LINEヤフー株式会社は、「9.1防災の日 #災害に備える」特設サイトを公開し、防災の日にちなんだ複数のコンテンツを公開した。あわせて、同社で実施した「防災意識調査」の結果も発表している。]]></summary>
-        <author>
-            <name>大竹 莉子</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IPCOMにおける処理時間の相違に起因する情報漏えいの脆弱性]]></title>
-        <id>https://jvn.jp/jp/JVN29238389/</id>
-        <link href="https://jvn.jp/jp/JVN29238389/"/>
-        <updated>2024-08-30T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[エフサステクノロジーズ株式会社が提供するIPCOMのSSLアクセラレータ機能およびSSL-VPN機能には、処理時間の相違に起因する情報漏えいの脆弱性が存在します。]]></summary>
-        <author>
-            <name>jvn@jvn.jp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[バッファロー、小規模オフィス・SOHO向けNAS「TeraStation TS3030シリーズ」を発表、無料のリモート設定機能にも対応]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1619956.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1619956.html"/>
-        <updated>2024-08-30T04:15:52.000Z</updated>
-        <summary type="html"><![CDATA[バッファローは8月29日、「法人向け事業戦略及び新商品発表会」を開催、法人向けNAS「TeraStation」の新製品「TS3030シリーズ」とリモート管理サービス「キキNavi」におけるNASのリモート設定機能の追加などを発表した。]]></summary>
-        <author>
-            <name>正田 拓也</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[生成AIだますプロンプトインジェクションに脆弱性、情報流出招く恐れ]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20240830-3014638/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20240830-3014638/"/>
-        <updated>2024-08-30T03:51:24.000Z</updated>
-        <summary type="html"><![CDATA[開発者向けセキュリティソフトウェア企業のSnykは8月28日(米国時間)、LLM（大規模言語モデル(）を用いるAIエージェントの潜在的な脆弱性について調査結果を発表した。この調査で2件の攻撃手法が発見され、1件は脆弱性(CVE)として追跡されている。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[これこそXに必要かも？　Bluesky、投稿の引用や返信を細かく制御できる新機能を追加【やじうまWatch】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1619884.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1619884.html"/>
-        <updated>2024-08-30T03:35:00.000Z</updated>
-        <summary type="html"><![CDATA[Blueskyで、投稿の引用や返信を細かく制御できる新機能が追加され、X（旧Twitter）にこそ欲しい機能だと話題だ。]]></summary>
-        <author>
-            <name>tks24</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[容量無制限が売りの「楽天ドライブ」、データのアップロード方法を一時制限中と判明【やじうまWatch】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1619888.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1619888.html"/>
-        <updated>2024-08-30T03:30:00.000Z</updated>
-        <summary type="html"><![CDATA[楽天モバイル利用者向けのオンラインストレージサービス「楽天ドライブ」が、ウェブブラウザーからのデータアップロードに一時的な制限を設けていることが明らかになった。]]></summary>
-        <author>
-            <name>tks24</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[まだまだ続く真夏日で家に帰ると部屋が暑い？ SwichBot ハブ2なら普通のエアコンでも外出先から操作できる!! 【テレワークグッズ・ミニレビュー 第106回】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/column/teleworkgoods/1619002.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/column/teleworkgoods/1619002.html"/>
-        <updated>2024-08-30T03:12:00.000Z</updated>
-        <summary type="html"><![CDATA[以前紹介したとおり、SwitchBotのバッテリー式スマートサーキュレーターを購入した。バッテリー式でコンセントがない場所でも使えるし、音が静かな割にしっかりと風量もあって、もう便利すぎて、もう一台買ってしまおうかと思っているほどだ。しかも9月4日まで開催中のAmazonのスマイルセールでセール価格で販売している。ただし記事執筆時点で納期は1カ月先。SwitchBotの直販サイトではバッテリー無しのコードタイプは売っているが、バッテリー式は便利だし、価格もAmazonのセール価格のほうが安いので、待ってでもバッテリー式が欲しくなる。]]></summary>
-        <author>
-            <name>瀬戸 学</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WordPress用プラグインCarousel Sliderにおける複数の脆弱性]]></title>
-        <id>https://jvn.jp/jp/JVN25264194/</id>
-        <link href="https://jvn.jp/jp/JVN25264194/"/>
-        <updated>2024-08-30T03:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Sayful Islamが提供するWordPress用プラグインCarousel Sliderには、複数の脆弱性が存在します。]]></summary>
-        <author>
-            <name>jvn@jvn.jp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[サンコー、静音性に優れた小さな冷温庫「自分専用おとしずか冷温庫10L」発売]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1619723.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1619723.html"/>
-        <updated>2024-08-30T02:30:00.000Z</updated>
-        <summary type="html"><![CDATA[サンコー株式会社は、コンパクトな冷温庫「自分専用おとしずか冷温庫10L」を発売した。公式通販サイト「THANKO」での販売価格は1万4800円。]]></summary>
-        <author>
-            <name>大竹 莉子</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Rockwell Automation製ThinManager ThinServerにおける複数の脆弱性]]></title>
-        <id>https://jvn.jp/vu/JVNVU96141650/</id>
-        <link href="https://jvn.jp/vu/JVNVU96141650/"/>
-        <updated>2024-08-30T02:00:15.000Z</updated>
-        <summary type="html"><![CDATA[Rockwell Automationが提供するThinManager ThinServerには、複数の脆弱性が存在します。]]></summary>
-        <author>
-            <name>jvn@jvn.jp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Delta Electronics製DTN Softにおける信頼できないデータのデシリアライゼーションの脆弱性]]></title>
-        <id>https://jvn.jp/vu/JVNVU93694262/</id>
-        <link href="https://jvn.jp/vu/JVNVU93694262/"/>
-        <updated>2024-08-30T02:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Delta Electronicsが提供するDTN Softには、信頼できないデータのデシリアライゼーションの脆弱性が存在します。]]></summary>
-        <author>
-            <name>jvn@jvn.jp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IDEC製PLCにおける複数の脆弱性]]></title>
-        <id>https://jvn.jp/vu/JVNVU96959731/</id>
-        <link href="https://jvn.jp/vu/JVNVU96959731/"/>
-        <updated>2024-08-30T01:30:00.000Z</updated>
-        <summary type="html"><![CDATA[IDEC株式会社が提供するPLC（Programmable Logic Controller）には、複数の脆弱性が存在します。]]></summary>
-        <author>
-            <name>jvn@jvn.jp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[divx、脆弱性診断サービスにAIによるコードレビュー機能を追加]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20240830-3015240/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20240830-3015240/"/>
-        <updated>2024-08-30T00:54:58.000Z</updated>
-        <summary type="html"><![CDATA[divxは8月29日、Webセキュリティ診断サービスにAIによるソースコード解析機能を追加したことを発表した。手作業や目視のみでは発見が難しいソースコードのセキュリティリスクをAIが検出し、修正提案を行う。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Panasonic製Control FPWIN Pro7におけるスタックベースのバッファオーバーフローの脆弱性]]></title>
-        <id>https://jvn.jp/vu/JVNVU99905584/</id>
-        <link href="https://jvn.jp/vu/JVNVU99905584/"/>
-        <updated>2024-08-30T00:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Panasonicが提供するControl FPWIN Pro7には、スタックベースのバッファオーバーフローの脆弱性が存在します。]]></summary>
-        <author>
-            <name>jvn@jvn.jp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[4ポートのUSBハブが付いたモニター台「MR-LC215」、サンワサプライが発売]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1619783.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1619783.html"/>
-        <updated>2024-08-30T00:30:00.000Z</updated>
-        <summary type="html"><![CDATA[サンワサプライ株式会社は8月29日、USBハブ付きモニター台「MR-LC215」を発売した。市場想定価格は7590円。]]></summary>
-        <author>
-            <name>大竹 莉子</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[茨城県大洗町で「二拠点居住」2泊3日体験ツアー、10月24日～26日と11月2日～4日に開催　各回1組限定で宿泊費無料、応募締切は9月23日]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1619779.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1619779.html"/>
-        <updated>2024-08-29T23:55:00.000Z</updated>
-        <summary type="html"><![CDATA[茨城県大洗町のまちづくり団体・大洗クエストは、同町に2泊3日滞在できる「うみまち二拠点居住体験ツアー」を、10月24日～26日と11月2日～4日の全2回、開催する。]]></summary>
-        <author>
-            <name>大東 奈央</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[茨城県常陸太田市、市内の民家で移住生活が体験できる「お試し居住」事業を開始]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1619672.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1619672.html"/>
-        <updated>2024-08-29T23:30:00.000Z</updated>
-        <summary type="html"><![CDATA[茨城県常陸太田市は、同市への移住を検討中の人に向けて、市の風土や日常生活を体験ができる「お試し居住」体験事業を開始した。料金は光熱費込みで1日2000円、8日目以降は1日1000円で、1～4週間の利用が可能。]]></summary>
-        <author>
-            <name>木下 明音</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[全データが持ち出されたものと「想定」 ～ 東急、東光食品への不正アクセス 調査結果発表]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/08/30/51557.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/08/30/51557.html"/>
-        <updated>2024-08-29T23:05:08.000Z</updated>
-        <summary type="html"><![CDATA[東急株式会社と東光食品株式会社は8月20日、5月9日に公表したファイルサーバ等への不正アクセスについて、調査結果を発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[費用をイセトーへ損害賠償請求予定 ～ 豊田市の個人情報漏えい 19人編成の対策室 コールセンター 30回線]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/08/30/51556.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/08/30/51556.html"/>
-        <updated>2024-08-29T23:05:05.000Z</updated>
-        <summary type="html"><![CDATA[愛知県豊田市は8月20日、7月5日に公表した委託業者サーバ等のランサムウェア感染に伴う個人情報の流出について、続報を発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[沖縄県立南部医療センター・こども医療センターで書類を誤廃棄、焼却処分されたと判断]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/08/30/51555.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/08/30/51555.html"/>
-        <updated>2024-08-29T23:05:02.000Z</updated>
-        <summary type="html"><![CDATA[沖縄県立南部医療センター・こども医療センターは8月19日、書類紛失による個人情報漏えいの可能性について発表した。文字の選択やコピーができないPDFファイルで公開している。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DMARCポリシー「none」または DMARC 対応していないドメイン名のなりすましフィッシングメール増加傾向、7 月のフィッシング報告状況]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/08/30/51554.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/08/30/51554.html"/>
-        <updated>2024-08-29T23:00:08.000Z</updated>
-        <summary type="html"><![CDATA[フィッシング対策協議会は8月21日、2024年7月のフィッシング報告状況を発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[豪州主導国際文書「イベントログと脅威検知のためのベストプラクティス」に共同署名、システム内寄生戦術への技術的対策示す]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/08/30/51553.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/08/30/51553.html"/>
-        <updated>2024-08-29T23:00:03.000Z</updated>
-        <summary type="html"><![CDATA[内閣サイバーセキュリティセンター（NISC）は8月22日、豪州主導の国際文書「イベントログと脅威検知のためのベストプラクティス」への共同署名について発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NAS用HDD「WD Red Plus」シリーズが安い！　AmazonスマイルSALE　4TBモデル「WD40EFPX-AJP」が1万8980円、「WD Blue」もセール対象]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1619668.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1619668.html"/>
-        <updated>2024-08-29T23:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazon.co.jpでは現在、9月4日までの期間限定でビッグセール「スマイルSALE」を開催している。その一環として、Western Digitalストアページでは同社のストレージ関連製品がタイムセール中となっている。]]></summary>
-        <author>
-            <name>アイティースリー</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[オフィスアプリ「キングソフト WPS Office 」に緊急の脆弱性、確認を]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20240830-3014864/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20240830-3014864/"/>
-        <updated>2024-08-29T22:55:47.000Z</updated>
-        <summary type="html"><![CDATA[ESETは8月28日(現地時間)、キングソフトが提供しているオフィスアプリ「Kingsoft WPS Office」に存在した緊急の脆弱性について分析結果を伝えた。脆弱性の深刻度は緊急(Critical)と評価されており、Kingsoft WPS Officeのユーザーは速やかなアップデートが推奨されている。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Anker、肩掛けストラップ付きのポータブル電源「Anker Solix C300 Portable Power Station」発売]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1619754.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1619754.html"/>
-        <updated>2024-08-29T22:35:00.000Z</updated>
-        <summary type="html"><![CDATA[アンカー・ジャパンは8月28日、肩掛けストラップ付きの持ち運びしやすいコンパクトなポータブル電源「Anker Solix C300 Portable Power Station」を発売した。価格は3万4990円。]]></summary>
-        <author>
-            <name>木下 明音</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Macのメッセージングアプリユーザーを狙うバックドア登場、意図が不明]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20240830-3014116/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20240830-3014116/"/>
-        <updated>2024-08-29T22:29:48.000Z</updated>
-        <summary type="html"><![CDATA[Kaspersky Labは8月27日(現地時間)、エンタープライズメッセンジャー「DingTalk」およびメッセージングプラットフォーム「WeChat」のユーザーを標的とするバックドア「HZ Rat」のmacOS版を発見したと伝えた。このサンプルは調査時点で、主要なセキュリティソリューションから検出されないという。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Synology製のNASキットが割引中！　AmazonスマイルSALE　パーソナルクラウド「BeeStation」は3万3500円]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1619655.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1619655.html"/>
-        <updated>2024-08-29T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazon.co.jpでは現在、9月4日までの期間限定でビッグセール「スマイルSALE」を開催している。その一環としてSynology製のNASキットが割引価格で販売されている。]]></summary>
-        <author>
-            <name>アイティースリー</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ロシアの攻撃者APT29はNSOなどのエクスプロイト使用の可能性──Google TAGが指摘]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2408/30/news096.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2408/30/news096.html"/>
-        <updated>2024-08-29T21:56:00.000Z</updated>
-        <summary type="html"><![CDATA[GoogleのTAGは、ロシアが支援するサイバー攻撃者「APT29」（Cozy Bear）が一連の攻撃で、NSOやIntellexaが作成したものと「同じか酷似した」エクスプロイトを使っていると指摘した。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[第4回：覚えておいてほしい、クレジットカードを不正に利用されてしまった時の対処方法【カード会社が教えるクレジットカードのセキュリティ】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/column/ccardsecurity/1617298.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/column/ccardsecurity/1617298.html"/>
-        <updated>2024-08-29T21:30:00.000Z</updated>
-        <summary type="html"><![CDATA[第2回でも解説している3Dセキュアやモニタリングによる不正検知など、クレジットカード会社は不正利用を防ぐさまざまな対策を講じています。しかし、手口が巧妙化するにつれて、いつか被害に巻き込まれてしまうことがあるかもしれません。]]></summary>
-        <author>
-            <name>朝比奈 孝弘（アメリカン・エキスプレス　フロード リスク マネジメント）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ASUS製Wi-Fiルーターも、AmazonスマイルSALEでお買い得に！　最大4804＋1148MbpsのWi-Fi 6ルーター「TUF-AX6000」は2万6650円]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1619649.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1619649.html"/>
-        <updated>2024-08-29T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazon.co.jpでは現在、9月4日までの期間限定でビッグセール「スマイルSALE」を開催している。その一環として、ASUSストアページでは、同社のWi-Fi 6ルーターがタイムセール中だ。なお、紹介する製品はいずれも同社独自のメッシュ機能「ASUS AiMesh」に対応している。]]></summary>
-        <author>
-            <name>アイティースリー</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[起きてもいないのに？「南海トラフ地震災害義援金」の募集メールが来た【それってネット詐欺ですよ！】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/column/dlis/1619257.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/column/dlis/1619257.html"/>
-        <updated>2024-08-29T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[8月8日、「南海トラフ地震臨時情報（巨大地震注意）」が発表されました。連日ニュースで取り上げられていたので、耳にした人も多いでしょう。そして、このような大きなニュースがあったときには、便乗したネット詐欺も登場します。]]></summary>
-        <author>
-            <name>DLIS・柳谷 智宣</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【どうする？ 中小企業のPC選び】ノートPC全盛の今、あえて小型デスクトップPCを選択！ 経理スタッフが欲しがったのは、画面の広さと「机を広く使いたい」こと[Sponsored]]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/topic/special/1618534.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/topic/special/1618534.html"/>
-        <updated>2024-08-29T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Windows 10の「サポート終了1年前」まであと1カ月。]]></summary>
-        <author>
-            <name>倉持 隆</name>
         </author>
     </entry>
     <entry>
