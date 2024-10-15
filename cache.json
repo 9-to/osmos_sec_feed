@@ -369,6 +369,26 @@
       "siteUrl": "https://www.ipa.go.jp/about/index.html",
       "articles": [
         {
+          "id": "https://www.ipa.go.jp/security/controlsystem/controlsystem-smartplant.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「「スマート工場のセキュリティリスク分析調査」調査報告書 第2版」に関する情報です。",
+          "link": "https://www.ipa.go.jp/security/controlsystem/controlsystem-smartplant.html",
+          "publishedOn": "2024-10-14T15:00:00.000Z",
+          "wordCount": 1311,
+          "title": "スマート工場のセキュリティリスク分析調査」調査報告書 第2版 を公開しました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
+          "id": "https://www.ipa.go.jp/disc/committee/software-modernization-comittee.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「ソフトウェアモダナイゼーション委員会」に関する情報です。",
+          "link": "https://www.ipa.go.jp/disc/committee/software-modernization-comittee.html",
+          "publishedOn": "2024-10-14T15:00:00.000Z",
+          "wordCount": 292,
+          "title": "ソフトウェアモダナイゼーション委員会 第四回議事次第及び中間レポートを公開しました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
           "id": "https://www.ipa.go.jp/shiken/mondai-kaiotu/2024r06.html",
           "author": "情報処理推進機構（IPA）",
           "description": "情報処理推進機構（IPA）の「問題冊子・配点割合・解答例・採点講評（2024年度、令和6年度）」に関する情報です。",
@@ -1220,6 +1240,16 @@
       "siteUrl": "https://tech-lab.sios.jp",
       "articles": [
         {
+          "id": "https://tech-lab.sios.jp/?p=43710",
+          "author": "橋本",
+          "description": "こんにちは。サイオステクノロジーの橋本です。 前回は CPU 使用率の見方について確認したので 今回はリソースの見方 (メモリ使用率) について今一度確認してみましょう 前回 ：リソースの見方を今一度確認してみよう～CP ...\nリソースの見方を今一度確認してみよう～メモリ使用率～ first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/43710",
+          "publishedOn": "2024-10-15T07:30:01.000Z",
+          "wordCount": 2450,
+          "title": "リソースの見方を今一度確認してみよう～メモリ使用率～",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2024/10/2594e4c9396d8c632e0081bf4da2469c.jpg"
+        },
+        {
           "id": "https://tech-lab.sios.jp/?p=43579",
           "author": "鹿島佐也子",
           "description": "こんにちは、OSSよろず相談室のSKです。 OSS に関するお問い合わせが日々寄せられる中で、今回はよくお問い合わせのあるエラーについて深掘りしていくシリーズを始めます！ シリーズ第１弾は、Apache のエラー AH0 ...\nOSSサポートエンジニアの現場から！Apacheエラー「AH03490」を徹底解説 first appeared on SIOS Tech. Lab.",
@@ -1522,6 +1552,16 @@
       "feedUrl": "https://eset-info.canon-its.jp/RSS.rdf",
       "siteUrl": "https://eset-info.canon-its.jp/",
       "articles": [
+        {
+          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/241015.html",
+          "author": null,
+          "description": "サイバー攻撃グループ「CosmicBeetle」が独自のランサムウェアを改良し、RaaSを提供しているランサムウェアグループ「RansomHub」のアフィリエイトとして活動している兆候を確認しました。過去1年間の分析結果を基に解説します。\n\n\n本記事はESET Japanが提供する「ESETブログ」に掲載された「CosmicBeetleの進化：RansomHubのアフィリエイトとして活動か？」を再編集したものです。\n\n\n\n\n\n\nESET社の研究者は、サイバー攻撃グループ「CosmicBeetle」の最近の活動を追跡し、同グループが使用している新しいランサムウェア「ScRansom」を分析し、すでに基盤を築いているほかのランサムウェアグループとのつながりを特定しました。\nCosmicBeetleは世界各国の中小企業にScRansomを積極的に展開しています。このサイバー攻撃グループは、高度なスキルを持っているわけではありませんが、重要な標的を見つけて侵害しています。\n\nCosmicBeetleは、これまで展開していたランサムウェア「Scarab」を、ScRansomに置き換えて、継続的に改良を重ねています。このサイバー攻撃グループは、流出したLockBitビルダーを使用し、身代金要求のメモやデータリークサイトの両方で悪名高いランサムウェアグループになりすましており、LockBitの悪名を不当に利用して利益を得ようとしていることも確認されています。\n\nCosmicBeetleは、LockBitになりすましていますが、さらに、RansomHubの新たなアフィリエイトになっている可能性もあります。RansomHubは、2024年3月以降に活動を開始し、急速に活動を拡大している新しいランサムウェアグループです。\n\nこのブログでは、過去1年間のCosmicBeetleの活動を検証し、すでに基盤を築いているほかのランサムウェアグループとのつながりを分析します。また、ScRansomについて分析した結果も提供します。\n\n本ブログの要点：\n\n\n\tCosmicBeetleは、2024年も活動を続けています。独自のランサムウェア「ScRansom」を継続的に改良して配信しています\n\tESET社がScRansomを分析したところ、暗号化された一部のファイルは絶対に復元できないことがわかりました\n\tCosmicBeetleは、流出したLockBitビルダーを使って実験しており、 LockBitブランドを悪用しなりすましています\n\tCosmicBeetleは、ランサムウェアをサービスとして提供しているRansomHubのアフィリエイトとして最近活動している可能性があります\n\tCosmicBeetleは、数年前の脆弱性を悪用して世界各国の中小企業のセキュリティを侵害しています\n\n\n概要\n\nCosmicBeetleは、少なくとも2020年から活動しています。ESET社の研究者が2023年にこのグループを発見して命名しています。このサイバー攻撃グループは、ScHackTool、ScInstaller、ScService、およびScPatcherから構成されたDelphiツールを独自に組み合わせたものを使用しています。このDelphiツールは、Spacecolonと呼ばれます。2023年8月、ESET社の研究者はCosmicBeetleに関する調査結果を公開しました。この結果を公開する少し前に、ESET社がScRansomと命名した新しいカスタムランサムウェアが登場しました。ESET社はその後、ScRansomとCosmicBeetleがつながっていることを示す別の根拠を特定しています。ScRansomは現在、これまで利用されていたScarabに代わって、このグループが使用していると考えられます。\n\n2023年にブログを公開した時には、実環境では特に活動は確認されていませんでした。しかし、その後すぐに状況は変わりました。CosmicBeetleはその後、主にヨーロッパとアジアの中小企業に対してScRansomを拡散するようになりました。\n\nScRansomはそれほど高度なランサムウェアではありませんが、CosmicBeetleはいくつかの重要な標的を侵害しており、深刻な損害を与えています。CosmicBeetleは、ランサムウェア界隈では未熟なグループであるため、ScRansomを展開するときにいくつもの問題が発生しています。ScRansomの被害を受けて身代金を支払うことを検討するときには、慎重になる必要があります。復号ツール自体は期待通りに動作しますが（執筆時点）、複数の復号キーが必要となることが多く、CosmicBeetleによる暗号化の方法によっては、一部のファイルは永久に失われる可能性もあります。詳細についてはこのブログ記事の後半で説明します。CosmicBeetleに関するESET社の調査と同様に、GuidePoint Securityがスキルレベルの低いランサムウェアグループについて最近公開した調査でも、同様の結果が示されています。\n\nCosmicBeetleは、ここ数年で最も有名になったランサムウェアグループ「LockBit」になりすますことで、これらの問題に部分的に解決しようとしていました。解決というよりは問題を隠そうとしていたと言った方が正確かもしれません。CosmicBeetleは、LockBitになりすまして、被害者に支払いを促そうとしていました。CosmicBeetleはまた、流出したLockBit Blackビルダーを利用して、トルコ語で書いた身代金要求のメモと独自の検体を作成しています。\n\nESET社は、CosmicBeetleがRansomHubのアフィリエイトとして活動を最近開始した可能性を示す興味深いケースを調査しました。RansomHubは最近登場したグループであり、ランサムウェアをサービスとして提供しています。RansomHubが急速に注目を集めることになったのは、米国のヘルスケアテクノロジー企業であるChange Healthcareへの攻撃を主導したとされるランサムウェアグループ「BlackCat」のアフィリエイトであったNotchyが、BlackCatによってNotchyが得た身代金を横取りされたため、ライバル関係にあったRansomHubグループと提携することになったと訴えたためです。\n\nこのブログでは、過去1年間のScRansomの進化と、被害者を侵害するCosmicBeetleの手法について解説します。また、このサイバー攻撃グループとほかのランサムウェアグループとの関係についても深く掘り下げて解説します。\n\n攻撃の帰属\n\nESET社は、ScRansomがCosmicBeetle独自のツールセットに新たに加えられたと確信しています。このセクションでは、その理由を説明します。\n\nESET社のテレメトリ（監視データ）は、ScRansomを展開する方法はCosmicBeetleが一般的に使用しているほかのツールと重複していることを示しています。さらに、VirusTotalにアップロードされたZIPアーカイブには、2つのアーカイブが埋め込まれており、各アーカイブにはおそらく侵入に使用するための検体が含まれています。両方のアーカイブには、ScRansom、ScHackTool、およびCosmicBeetleが一般的に使用しているその他のツールが含まれており、ESET社の推測を強力に裏付けています。\n\nScRansomとCosmicBeetleがこれまでに使用してきたツールでは、以下のようにコードにおいて多くの類似点が確認されています。\n\n\n\tプログラミング言語としてDelphiが選択されている\n\t暗号化のためにIPWorksライブラリが使用されている\n\tコードで同一のトルコ語の文字列が使用されている\n\t文字列にあるコロンの後にスペースが挿入されている（この特徴から、Spacecolonツールセットと命名）\n\tScHackToolとGUIが類似している\n\n\nこれらすべての類似点は、CosmicBeetleがScRansomを開発しているというESET社の推測を強力に裏付けています。Zaufana Trzencia Stronaのアナリストは最近、CosmicBeetleに関するブログを公開し、CosmicBeetleを開発したのはトルコのソフトウェア開発者であると述べていますが、ESET社の研究者はこの帰属は誤りだと考えています。この帰属は、ScRansomではなくScHackToolで使用されている独自の暗号化スキームに基づいて説明されています。具体的には、悪意のある検体（SHA 1：28FD3345D82DA0CDB565A11C648AFF196F03D770）にこのアルゴリズムが含まれており、トルコに本社があるソフトウェア開発会社VOVSOFTによって署名されています。\n\nしかし、前述の検体はVOVSOFTのものではありません。実際には、Disk Monitor Gadgetに悪意のあるパッチが適用されたバージョンです。Disk Monitor Gadgetは、VOVSOFTが開発している多くの製品の1つであり、適切に署名されています（SHA-1：2BA12CD5E44839EA67DE8A07734A4E0303E5A3F8）。さらに、デジタル署名が正規のバージョンからコピーされ、パッチを適用したバージョンに単に追加されているだけであり、悪意のあるサンプルは署名があるように見えるかもしれませんが、実際には有効な署名を持っていません。\n\n注意が必要なのは、ScHackToolの暗号化スキームは、正規のDisk Monitor Gadgetでも使用されていることです。Zaufana Trzencia Stronaのアナリストは、このアルゴリズムが13年前のこのStack Overflowのスレッドから派生している可能性が高いことを発見しました。この投稿の著者であるMohsenB氏は2012年以来Stack Overflowを使用しているユーザーであり、プロフィール写真を見る限りVOVSOFTの開発者本人ではないことから、このアルゴリズムはVOVSOFTによって採用され、数年後にCosmicBeetleが偶然見つけてScHackToolに取り入れた可能性が高いと考えられます。\n\n初期アクセスと被害状況\n\nCosmicBeetleは、ブルートフォース攻撃によって標的組織に侵入することが多くあります。CosmicBeetleは、以下の脆弱性も悪用しています。\n\n\n\tCVE-2017-0144（別名、EternalBlue）\n\tCVE-2023-27532（Veeam Backup &amp; Replicationコンポーネントの脆弱性）\n\tnoPacを介してCVE-2021-42278およびCVE-2021-42287（ADの権限昇格の脆弱性）\n\tCVE-2022-42475（FortiOS SSL-VPNの脆弱性）\n\tCVE-2020-1472（別名、Zerologon）\n\n\n世界各国のあらゆる業界の中小企業が、このサイバー攻撃グループの被害者となっています。その理由は、このセグメントの企業は、これらの脆弱性の影響を受けるソフトウェアを使用している可能性が最も高く、強固なパッチ管理プロセスを導入していない可能性も高いためです。CosmicBeetleのリークサイトは、この後すぐに説明しますが、非常に信頼性が低く、一貫性もありません。ESET社のテレメトリからこの情報を見ていきます。図1に、ESET社のテレメトリから得られたCosmicBeetleの被害者を示します。\n\n\n\n図1. ESET社のテレメトリによる2023年8月以降のCosmicBeetle攻撃のヒートマップ\n\n\nESET社は、以下の業界の中小企業に対する攻撃を観測しています。\n\n\n\t製造業\n\t医薬品\n\t法律\n\t教育\n\tヘルスケア\n\tテクノロジー\n\tホスピタリティとレジャー\n\t金融サービス\n\t地方自治体\n\n\nブランド\n\nScRansomがドロップする多くの身代金要求メモでは、ランサムウェアの名前が指定されていません。CosmicBeetleは、主にメールと、多くのランサムウェアグループが利用しているインスタントメッセージングアプリであるqToxを使用しています。qToxがこれらのグループに利用されているのは、主にToxプロトコルを使用しているためです。Toxプロトコルは、ピアツーピアでエンドツーエンドの暗号化通信を提供しています。\n\n皮肉なことにCosmicBeetleが独自のランサムウェアに付けた唯一の名前は「NONAME」です。このサイバー攻撃グループは、自分のランサムウェアに簡単な名前を付けていますが、これについては後のセクションで説明します。ランサムウェアの名前については混乱が生じることが多くあります。このブログではこのランサムウェアを引き続きScRansomと呼びます。\n\nLockBitの模倣\n\n2023年9月、CosmicBeetleはTor上に専用リークサイト（DLS）を開設し、NONAMEと名付けています。図2に示すこのサイトは、LockBitのリークサイト（図3を参照）を模倣しています。\n\n\n\n図2. Tor上の専用のリークサイトであるNONAME\n\n\n\n\n図3. 実際のLockBitの専用リークサイトの一般的なデザイン\n\n\n視覚的な変更点はいくつかありますが、基本的な要素が実際のLockBitのサイトから着想を得ていることは明らかです。LockBitと類似している点はデザインだけではありません。図2に表示されている被害者はすべて、実際にはScRansomではなくLockBitによって侵害されています。これは、RansomLookのような専用リークサイト（DLS）追跡サービスを使用することで確認できます。すべての被害者はLockBitのリークサイトに掲載されており、これらの多くの被害者は専用リークサイト「NONAME」が登場する直前の2023年9月に掲載されています。Work IDという文字列は、ScRansomに関連しているという錯覚を高めるために追加されています。この文字列は身代金要求メモで被害者を識別する方法です。\n\n2023年11月初旬、CosmicBeetleはこの戦略をさらに推し進め、完全にLockBitになりすますことを決定しました。このグループは、LockBitになりすますためにlockbitblog[.]infoというドメインを登録し、NONAME DLSの場合と同じアプローチを取り入れていますが、今回はLockBitのロゴも追加しています（図4を参照）。その後、しばらくの間、ScRansomの身代金メモはこのWebサイトにリンクされていました。同じ着想であり、NONAME DLS（図2）とのグラフィックス要素の類似性も確認できます。\n\n\n\n図4. CosmicBeetleが開設したLockBitの公式リークサイトを模倣したWebサイト\n\n\n流出したLockBit 3.0ビルダーを使用して構築された検体が、2024年8月にトルコからVirusTotalにアップロードされました。この検体がユニークなのは、トルコ語の身代金要求メッセージ（図5を参照）を使用していることと、qTox IDが疑いの余地なくCosmicBeetleと関連していることです。ESET社は、LockBitの展開がCosmicBeetleのツールセットと重複するケースを調査しており、ESET社のテレメトリもこの関連性を裏付けています。\n\n\n\n図5. LockBitの検体によってドロップされた、CosmicBeetleが使用するTOX IDを含む身代金要求のメモ（英語に機械翻訳されたトルコ語のメモを日本語に翻訳）\n\n\nRansomHubとの関係\n\n流出したビルダーを利用する方法は、スキルのないランサムウェアグループでよく見られます。この方法では、すでに基盤を確立している競合相手のブランドを悪用しながら、正常に動作するランサムウェアを提供することが可能です。しかし、LockBitとのつながりは流出したビルダーの利用だけではありません。\n\nESET社は今年の6月に、ScRansomに関連するインシデントを調査しました。ESET社のテレメトリから以下の情報を入手できました。\n\n\n\t2024年6月3日、CosmicBeetleはインドの製造企業をScRansomによって侵害しようとしました\n\tこの試みは失敗したため、CosmicBeetleはEDR保護を無効にするためにプロセスを強制的に終了する以下のようなさまざまなツールを試しています\n\t\n\t\tReaper\n\t\tDarkside\n\t\tRealBlindingEDR\n\t\n\t\n\t2024年6月8日、RansomHubのEDR強制終了プロセスが同じマシンで実行されました\n\t2024年6月10日、RansomHubが同じマシンで実行されました\n\n\nRansomHubがEDRを強制的に終了する方法は通常とは大きく異なります。C:\\Users\\Administrator\\Music\\1.0.8.zipに保存されているアーカイブからWinRAR経由で手動で抽出して実行されていました。RansomHubのアフィリエイトがこのような方法で実行するのは非常に珍しいことです。一方、Musicフォルダを使用し、手動でペイロードを展開して実行することは、CosmicBeetleが一般的に行っている方法です 。\n\nESET社が把握している限り、RansomHubのコードやそのビルダーは一般にリークされていません（ただし、RansomHub自体はおそらく、別のランサムウェアグループであるKnightから購入したコードを基盤に作成されています）。したがって、CosmicBeetleが新たにRansomHubのアフィリエイトとして登録されたことはほぼ間違いないと思われます。\n\n技術的な分析\n\nCosmicBeetleが独自に使用しているその他のツールと同じように、ScRansomはDelphiで書かれています。ESET社が入手できた最も古い検体は2023年3月末にコンパイルされたものですが、ESET社が知る限り、実環境での攻撃は8月以前には始まっていません。ScRansomは現在も開発が続いています。\n\nGUIはDelphiアプリケーションで見られる典型的なものですが、ランサムウェアでDelphiが使用されるのはそれほど多くはありません。すべてのScRansomの検体には構造化されたGUIが含まれています。古い検体は通常、この開発者によって「Static」と命名されており、実際に何かを暗号化するにはユーザーの操作が必要となります。これは煩雑に思われるかもしれませんが、挙動分析のサンドボックスでこのような検体を実行しても悪意のあるアクティビティは表示されません。これは、ScRansomがしばらく検出されなかった理由の1つかもしれません。\n\nこのような暗号化ツールを起動するには、サイバー攻撃者が被害者の画面にアクセスし、マウスを操作しなければなりません。CosmicBeetleがこの手法を使うのは今回が初めてではありません。ScHackToolも被害者のマシンで実行しなければならず、手動で操作する必要があります。CosmicBeetleがどのようにして手動で操作しているのかは完全には把握できていませんが、使用されているほかのツールから推測すると、以前に窃取した認証情報とRDPを使用したVPNアクセスが最も可能性の高いシナリオであると考えられます。\n\nまたCosmicBeetleは、非常に変わった亜種も実験しています。この亜種は「SSH」と命名されています。暗号化のロジックはほかの亜種と同じですが、ローカルファイルを暗号化する代わりに、FTP経由でファイルを暗号化します。\n\n新しいビルドでは、コードから正しいボタンをクリックする操作をシミュレーションしているだけですが、自動化を取り入れています。この開発者が「Auto」と名付けたこれらの自動化されたビルドは、通常、シャドウコピーを削除するための小さなツールやスクリプトと一緒にMSIインストーラーにバンドルされています。GUIはデフォルトでは非表示になっています。最新版を図6に示します。\n\n\n\n図6. ScRansomのユーザーインターフェース\n\n\n複雑なGUIであり、多くのボタンがありますが、いくつかのボタンはクリックしても何も実行されません。これはCosmicBeetleで多く見られる特徴です。4つのタブがあるGUIは複雑に見えますが、実際の機能は非常に単純です。ScRansomは、ハードコードされた拡張子のリスト（付録A：攻撃対象のファイル拡張子を参照）に基づいて、すべての固定ドライブ、リモートドライブ、およびリムーバブルドライブにあるファイルを暗号化します。このリストは、Extensionsというラベルのテキストボックスで変更できます。\n\nScRansomは部分暗号化を採用しており、ファイルの一部のみが暗号化されます。以下の5つの暗号化モードがサポートされています。\n\n\n\tFAST（高速）\n\tFASTEST（最速）\n\tSLOW（低速）\n\tFULL（フル）\n\tERASE（消去）\n\n\n最初の4つのモードでは、ランサムウェアがファイルのどの部分を暗号化するかを決定する方法だけが異なります。すべてのモードが使用されていないことから、これらのモードの活用方法は開発途上だと考えられます。しかし、最後のERASEモードは重要です。このモードが適用されると、標的ファイルの選択された部分は暗号化されませんが、その内容は固定の値に置き換えられ、これらのファイルは復元できなくなります。ファイルに対して適用するモードは、Actionsタブのラジオボタンか、Criteriaタブの拡張子によって決定されます。Virtual Extensionsラベルが付けられた拡張子リストは、通常のリストと同じですが、別の暗号化機能をトリガーします。White Extensionsは暗号化から除外する拡張子のリストを定義するはずですが、この機能は実装されていません。\n\n暗号化のほかに、ScRansomはさまざまなプロセスやサービスを強制的に停止します（「付録B：強制終了されるプロセス」と「付録C：強制終了されるサービス」を参照）。最近、新しいDelphiの検体がScRansomから分割されていました。ESET社は、このツールをScKillと命名しました。ScKillの唯一の目的はプロセスを強制終了することです。ScRansomはまた、ext.txtファイルから暗号化する拡張子リストをロードしたり、note.txtファイルから身代金メモのコンテンツをロードしたりするなど、デバッグのような機能も取り入れています。\n\n暗号化\n\nScRansomの初期の検体は、AES-CTR-128を使用する単純な対称暗号を利用していました。2023年12月以降は、暗号化の仕組みが更新されました。新しい暗号化の仕組みは非常に（そして無駄に）複雑になっています。ScRansomは、実行を開始する時に、ProtectionKeyと呼ばれるAES鍵と、RunKeyPairと呼ばれるRSA-1024鍵ペアを生成します。\n\nこの新しいスキームを使用するすべてのScRansom検体には、MasterKeyPairと呼ばれる鍵ペアのハードコードされた公開RSA鍵が含まれています。この公開鍵はRSAによって暗号化され、CosmicBeetleの復号ID（Decryption ID）になります。\n\nファイルごとに、FileKeyと呼ばれるAES-CTR-128鍵が生成されます。次に、ファイルの一部がFileKeyを使用してAESで暗号化されます。ScRansomは、ファイルの暗号化を終了すると、ファイルの末尾にデータを追加します。\n\n\n\t追加される文字列はTIMATOMAです。ファイル全体が暗号化されている場合は文字列TIMATOMAFULLが追加されます\n\t文字列TBase64EncodingButton12ClickTESTB64@#$%（古いビルドではTESTB64） は、FileKeyを使用してAESで暗号化されます\n\t以下の項目は、$（ドル記号）で区切られます\n\t\n\t\t16進数でエンコードされたRunKeyPair.Public\n\t\t復号ID\n\t\tRunKeyPair.Private（ProtectionKeyを使用してAES-CTR-128で暗号化）\n\t\tFileKey（RunKeyPair.Publicを使用してRSAで暗号化）\n\t\n\t\n\t暗号化されたブロックの開始とその長さに関する情報（ファイル全体が暗号化されている場合は存在しません）\n\n\n最後に、復号IDはDECRYPTION_IDS.TXTというテキストファイルに保存され、HOW TO RECOVERY FILES.TXTという身代金メモにも書き込まれます。暗号化ツールが実行されるたびに異なる復号IDが生成されます。その後に暗号化ツールが実行されると、復号IDはDECRYPTION_IDS.TXTファイルに追加されますが、身代金メモでは更新されません。\n\nファイル名（拡張子を含む）はbase64エンコードされ、拡張子.Encryptedが追加されます。全体のプロセスは複雑ですが、図7にこのプロセスをまとめました。\n\n\n\n図7. ScRansomの最新の検体で使用されている暗号化スキーム\n\n\n復号\n\nESET社は、最近の暗号化スキームでCosmicBeetleが実装した復号ツールを入手できました。CosmicBeetleは、被害者にMasterKeyPair.Private鍵ではなく、すでに復号されているProtectionKeyを提供します。ProtectionKeyは、CPriv Aes Keyというフィールドに入力する必要があります。さらに、復号ツールは復号IDを要求しますが、秘密鍵が提供されないので使用できません。実際、この復号ツールは、この値を無視します。この復号ツールのGUIを図8に示します。\n\n\n\n図8. ScRansom復号ツールのGUI。ProtectionKeyは、CPriv Aes Keyと書かれたテキストボックスに入力する必要がある\n\n\n正しいProtectionKeyが入力されると、復号ツールは正しく動作します。被害者が身代金を支払う場合、ScRansomが実行されたすべてのマシンからすべての復号IDを収集しなければなりません。CosmicBeetleは次に、すべての復号IDに対して異なるProtectionKeyを提供する必要があります。被害者はその後、暗号化されたすべてのマシンで復号ツールを手動で実行し、正しいProtectionKeyを入力（またはすべての鍵を試行）して、 Decryptボタンをクリックし、復号プロセスが終了するのを待たなければなりません。\n\nさらに、被害を受けた1社が調査に協力してくれたことで、いくつかのマシンではScRansomが複数回実行されているため、さらに多くの復号IDが生成されていることがわかりました。この被害者は31個の異なる復号IDを収集し、CosmicBeetleから31個のProtectionKeysを要求しました。それでも、すべてのファイルを完全に復元することはできませんでした。暗号化されたファイルが改ざんされていないと仮定すると、これは一部の復号IDが欠落している、CosmicBeetleが必要なすべてのProtectionKeysを提供していない、またはScRansomが暗号化モードERASEを使用して一部のファイルを永久に破壊したためである可能性があります。スキルの低いランサムウェア攻撃者では、このような復号のアプローチがよく見られます。\n\n熟練したランサムウェアグループは、正しく復号できる確率を高めるために、復号プロセスをできるだけ簡潔にしています。これによってグループの評判を高め、被害者が身代金を支払う可能性を高めています。流出したLockBit Blackビルダーのケースのように、一般的には、復号ツールは暗号化ツールとともに構築されます。被害者に配信されるときには、鍵はすでにバイナリに含まれているため、ユーザーが追加で作業する必要はありません。さらに、暗号化されたファイルが被害者のネットワークのどこにあろうと、1つの鍵で暗号化されたすべてのファイルを復号できるようになっています。\n\n結論\n\nこのブログでは、過去1年間のCosmicBeetleの活動を分析した結果を解説しました。このサイバー攻撃グループは、ScarabからScRansomと呼ばれる新しい独自のツールに切り替えて、今もランサムウェアを展開しています。おそらく、ゼロから独自のランサムウェアを作成するハードルが高いため、CosmicBeetleは、使用するランサムウェアの問題を覆い隠し、被害者が身代金を支払う可能性を高めるために、LockBitの評判を利用して利益を得ようとしています。\n\nまた、CosmicBeetleが流出したLockBitビルダーを使用して構築した検体を展開していることをESET社は特定していますが、これはほんの短期間であり、その後ScRansomに切り替わっています。このサイバー攻撃者は、ScRansomを継続的に開発しており、暗号化のロジックを変更したり、機能を追加したりしています。\n\nESET社は最近、ScRansomとRansomHubのペイロードが同じマシンにわずか1週間間隔で展開されるのを確認しました。このような方法でのRansomHubの実行方法は、ESET社のテレメトリで確認される一般的なRansomHubのケースと比べると、非常に珍しいものです。RansomHubは一般にリークされていないため、CosmicBeetleはRansomHubのアフィリエイトとして最近活動を開始した可能性があると考えられます。\n\nScRansomは現在も開発が続けられており、警戒が必要です。暗号化と復号のプロセスが複雑すぎるため、エラーが発生しやすく、すべてのファイルを復元できるかどうかは不確実になっています。復号できるかどうかは、復号ツールが適切に動作し、CosmicBeetleが必要な鍵をすべて提供するかどうかにかかっています。すべての鍵が提供された場合でも、一部のファイルはこのサイバー攻撃者によって永久に破壊されている場合があります。最善のシナリオであっても、復号のプロセスは複雑であり作業には長い時間がかかります。\n\nIOC（セキュリティ侵害の痕跡）\n\nファイル\n\n\n\t\n\t\t\n\t\t\tSHA-1\n\t\t\tファイル名\n\t\t\tESETの検出名\n\t\t\t説明\n\t\t\n\t\t\n\t\t\t4497406D6EE7E2EF561C949AC88BB973BDBD214B\n\t\t\tauto.exe\n\t\t\tWin32/Filecoder.Spacecolon.A\n\t\t\tScRansomのAuto亜種\n\t\t\n\t\t\n\t\t\t3C32031696DB109D5FA1A09AF035038BFE1EBE30\n\t\t\tProject1.exe\n\t\t\tWin32/Filecoder.Spacecolon.B\n\t\t\tScRansomのAuto亜種\n\t\t\n\t\t\n\t\t\t26D9F3B92C10E248B7DD7BE2CB59B87A7A011AF7\n\t\t\tNew.exe\n\t\t\tWin32/Filecoder.Spacecolon.A\n\t\t\tScRansomのStatic亜種\n\t\t\n\t\t\n\t\t\t1CE78474088C14AFB8495F7ABB22C31B397B57C7\n\t\t\tProject1.exe\n\t\t\tWin32/Filecoder.Spacecolon.B\n\t\t\tScRansomの自動暗号化ツールの亜種、トルコ語で書かれた身代金メモ\n\t\t\n\t\t\n\t\t\t1B635CB0A4549106D8B4CD4EDAFF384B1E4177F6\n\t\t\tProject1.exe\n\t\t\tWin32/Filecoder.Spacecolon.A\n\t\t\tScRansomの静的なSSH暗号化ツールの亜種\n\t\t\n\t\t\n\t\t\tDAE100AFC12F3DE211BFF9607DD53E5E377630C5\n\t\t\tProject1.exe\n\t\t\tWin32/Filecoder.Spacecolon.A\n\t\t\tScRansom復号ツールの亜種（最も古いバージョン）\n\t\t\n\t\t\n\t\t\t705280A2DCC311B75AF1619B4BA29E3622ED53B6\n\t\t\tRarlab_sib.msi\n\t\t\tWin32/Filecoder.Spacecolon.A\n\t\t\tWin32/Filecoder.Spacecolon.B\n\t\t\tBAT/DelShad.E\n\t\t\tBAT/Agent.OPN\n\t\t\tScRansom、ScKill、サービスを停止するBATスクリプト、シャドウコピーを削除するBATスクリプトが埋め込まれたMSIファイル\n\t\t\n\t\n\n\nネットワーク\n\n\n\t\n\t\t\n\t\t\tIP\n\t\t\tドメイン\n\t\t\tホスティングプロバイダー\n\t\t\t最初に確認された日付\n\t\t\t詳細\n\t\t\n\t\t\n\t\t\t66.29.141[.]245\n\t\t\twww.lockbitblog[.]info\n\t\t\tNamecheap, Inc.\n\t\t\t2023-11-04\n\t\t\t偽のLockBiリークサイト\n\t\t\n\t\n\n\n身代金メモに含まれる情報\n\nメールアドレス\n\n\n\tdecservice@ukr[.]net\n\tnonamehack2024@gmail[.]com\n\ttufhackteam@gmail[.]com\n\tnonamehack2023@gmail[.]com\n\tnonamehack2023@tutanota[.]com\n\tlockbit2023@proton[.]me\n\tserverrecoveryhelp@gmail[.]com\n\trecoverydatalife@gmail[.]com\n\trecoverydatalife@mail[.]ru\n\n\nTox ID\n\n\n\t91E3BA8FACDA7D4A0738ADE67846CDB58A7E32575531BCA0348EA73F6191882910B72613F8C4\n\tA5F2F6058F70CE5953DC475EE6AF1F97FC6D487ABEBAE76915075E3A53525B1D863102EDD50E\n\tF1D0F45DBC3F4CA784D5D0D0DD8ADCD31AB5645BE00293FE6302CD0381F6527AC647A61CB08D\n\t0C9B448D9F5FBABE701131153411A1EA28F3701153F59760E01EC303334C35630E62D2CCDCE3\n\n\nTorリンク\n\n\n\tnonamef5njcxkghbjequlibwe5d3t3li5tmyqdyarnrsryopvku76wqd[.]onion\n\tnoname2j6zkgnt7ftxsjju5tfd3s45s4i3egq5bqtl72kgum4ldc6qyd[.]onion\n\t7tkffbh3qiumpfjfq77plcorjmfohmbj6nwq5je6herbpya6kmgoafid[.]onion\n\n\nMITRE ATT&amp;CKの技術\n\nこの表は、MITRE ATT&amp;CKフレームワークのバージョン15を使用して作成されています。\n\n\n\t\n\t\t\n\t\t\t手法\n\t\t\tID\n\t\t\t名前\n\t\t\t説明\n\t\t\n\t\t\n\t\t\t偵察\n\t\t\tT1595.002\n\t\t\tアクティブスキャン：脆弱性スキャン\n\t\t\tCosmicBeetleは、標的をスキャンし、攻撃可能な脆弱性のリストを作成します\n\t\t\n\t\t\n\t\t\tT1590.005\n\t\t\t標的ユーザーのネットワーク情報を収集します。IPアドレス\n\t\t\tCosmicBeetleは、攻撃が可能な脆弱性があるIPアドレスをインターネットでスキャンします\n\t\t\n\t\t\n\t\t\tリソース開発\n\t\t\tT1583.001\n\t\t\tインフラストラクチャの取得：ドメイン\n\t\t\tCosmicBeetleは、独自のリークサイトドメインを登録しています\n\t\t\n\t\t\n\t\t\tT1587.001\n\t\t\t能力の開発マルウェア\n\t\t\tCosmicBeetleは、独自のツールセットであるSpacecolonを開発しています\n\t\t\n\t\t\n\t\t\tT1588.002\n\t\t\t機能の取得：ツール\n\t\t\tCosmicBeetleは、多様なサードパーティのツールやスクリプトを利用しています\n\t\t\n\t\t\n\t\t\tT1588.005\n\t\t\t機能の取得：エクスプロイト\n\t\t\tCosmicBeetleは、既知のエクスプロイトの公開されているPoCを利用しています\n\t\t\n\t\t\n\t\t\tT1588.001\n\t\t\t機能の取得：マルウェア\n\t\t\tCosmicBeetleは、RansomHubから入手したランサムウェアと、流出したLockBit 3.0ビルダーから作成したランサムウェアを使用している可能性があります\n\t\t\n\t\t\n\t\t\t初期アクセス\n\t\t\tT1190\n\t\t\tインターネットに接続するアプリケーションの攻撃\n\t\t\tCosmicBeetleは、FortiOS SSL-VPNやその他のインターネットに接続するアプリケーションの脆弱性を攻撃して初期アクセスを獲得します\n\t\t\n\t\t\n\t\t\t実行\n\t\t\tT1204\n\t\t\tユーザーによる実行\n\t\t\tCosmicBeetleのいくつかのツールを実行するためには、ユーザーによる操作が必要となります。これは通常、サイバー攻撃者によってRDP経由で実行されています\n\t\t\n\t\t\n\t\t\tT1059.003\n\t\t\tコマンドおよびスクリプトインタプリタ：Windowsコマンドシェル\n\t\t\tCosmicBeetleは、さまざまなBATスクリプトやコマンドを実行します\n\t\t\n\t\t\n\t\t\tT1059.001\n\t\t\tコマンドおよびスクリプトインタプリタ：PowerShell\n\t\t\tCosmicBeetleは、さまざまなPowerShellスクリプトやコマンドを実行します\n\t\t\n\t\t\n\t\t\t常駐化\n\t\t\tT1136.001\n\t\t\tアカウントの作成：ローカルアカウント\n\t\t\tCosmicBeetleは、攻撃者が使用する管理者アカウントを作成することが多くあります\n\t\t\n\t\t\n\t\t\t防衛機能の回避\n\t\t\tT1078\n\t\t\t有効なアカウント\n\t\t\tCosmicBeetleは、認証情報を取得し、有効なアカウントを悪用します\n\t\t\n\t\t\n\t\t\tT1140\n\t\t\tファイルや情報の難読化解除と復号\n\t\t\tScRansomの検体は、公開RSA鍵を暗号化して保護します\n\t\t\n\t\t\n\t\t\t認証情報へのアクセス\n\t\t\tT1110.001\n\t\t\tブルートフォース：パスワードの推測\n\t\t\tCosmicBeetleは、RDPとSMBのブルートフォース攻撃を実行します\n\t\t\n\t\t\n\t\t\tT1212\n\t\t\t認証情報にアクセスするためのエクスプロイト\n\t\t\tCosmicBeetleは、既知の脆弱性を攻撃して認証情報を取得します\n\t\t\n\t\t\n\t\t\t影響\n\t\t\tT1485\n\t\t\tデータの破壊\n\t\t\tCosmicBeetleは、暗号化されたいくつかのファイルを復元できないようにします\n\t\t\n\t\t\n\t\t\tT1486\n\t\t\tデータの暗号化により影響を与える\n\t\t\tCosmicBeetleは、侵害したマシンにある機密ファイルを暗号化します\n\t\t\n\t\n\n\n付録A：攻撃対象のファイル拡張子\n\nこの構成はすべてのScRansomの検体にハードコードされており、頻繁に変更されています。以下のセクションには、このブログを掲載した時点での最新の構成を示します。\n\n暗号化するファイル名のマスク\n\n\n\nSLOWモードで暗号化する拡張子\n\n\n\n永久に削除する対象の拡張子\n\n\n\n「ブラックリストに登録されている」ファイル名とパスの一部\n\n\n\n付録B：強制終了されるプロセス\n\n以下のリストには、重要な2つのファイル名があります。Project1.exeは、多くのScRansomの亜種を参照し、app.exeは古いScHackToolビルドで使用されるファイル名です。\n\n\n\n付録C：強制終了されるサービス",
+          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/241015.html",
+          "publishedOn": "2024-10-14T15:00:00.000Z",
+          "wordCount": 472,
+          "title": "進化するCosmicBeetleが、RansomHubのアフィリエイトとしての活動の兆候",
+          "imageUrl": "https://eset-info.canon-its.jp/files/topics/4624_ext_01_0.jpg"
+        },
         {
           "id": "https://eset-info.canon-its.jp/malware_info/news/detail/241011.html",
           "author": null,
@@ -2451,6 +2491,26 @@
       "siteUrl": "https://jvn.jp/",
       "articles": [
         {
+          "id": "https://jvn.jp/vu/JVNVU98330908/",
+          "author": "jvn@jvn.jp",
+          "description": "Check Point Software Technologiesが提供する複数の製品には、情報漏えいの脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU98330908/",
+          "publishedOn": "2024-10-15T07:45:00.000Z",
+          "wordCount": 203,
+          "title": "Check Point Software Technologies製品における情報漏えいの脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/jp/JVN58721679/",
+          "author": "jvn@jvn.jp",
+          "description": "株式会社ウェブチップスが提供するSHIRASAGIには、パストラバーサルの脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN58721679/",
+          "publishedOn": "2024-10-15T03:00:00.000Z",
+          "wordCount": 120,
+          "title": "SHIRASAGIにおけるパストラバーサルの脆弱性",
+          "imageUrl": null
+        },
+        {
           "id": "https://jvn.jp/vu/JVNVU90774626/",
           "author": "jvn@jvn.jp",
           "description": "Schneider Electricが提供するZelio Soft 2には、複数の脆弱性が存在します。",
@@ -2936,6 +2996,96 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/10/15/51763.html",
+          "author": null,
+          "description": "攻撃者がクラウドの認証情報をもとに、オンプレミスのエンドポイントとクラウドサービス間など、複数の領域間を横展開する「クロスドメイン攻撃」などについて詳しく解説いたします。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/10/15/51763.html",
+          "publishedOn": "2024-10-14T23:15:03.000Z",
+          "wordCount": 1255,
+          "title": "攻撃ステルス化とクロスドメイン攻撃 ～ クラウドストライク 年次レポートが明かす防御と攻撃のギャップ",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46388.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/10/15/51762.html",
+          "author": null,
+          "description": "注目のインシデントとして、英国のロンドンの公共交通機関（Transport for London, TfL）に対するサイバー攻撃事件について報じられています。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/10/15/51762.html",
+          "publishedOn": "2024-10-14T23:10:03.000Z",
+          "wordCount": 1261,
+          "title": "活況 InfoStealer／財政難原因か ロンドン公共交通攻撃／GeoServer 脆弱性／毒殺からサイバー攻撃まで 露精鋭部隊 ほか [Scan PREMIUM Monthly Executive Summary 2024年9月度]",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46363.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/10/15/51761.html",
+          "author": null,
+          "description": "株式会社イオン銀行は10月8日、フィッシングメールや不正利用などの被害にあった顧客への対応について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/10/15/51761.html",
+          "publishedOn": "2024-10-14T23:05:11.000Z",
+          "wordCount": 927,
+          "title": "ご心配とご迷惑をお掛けしている事実は否めません ～ イオン銀行がフィッシングや不正利用被害顧客への対応遅れを謝罪",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/10/15/51760.html",
+          "author": null,
+          "description": "情報処理サービスを行う株式会社イセトーは10月4日、7月3日に公表していたランサムウェア被害について、調査結果を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/10/15/51760.html",
+          "publishedOn": "2024-10-14T23:05:08.000Z",
+          "wordCount": 968,
+          "title": "再発防止策「VPNを使用しない」株式会社イセトー",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46391.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/10/15/51759.html",
+          "author": null,
+          "description": "事業所内保育受託や公的保育所を運営する東証プライム上場企業のライクキッズ株式会社は10月1日、同社サーバへのランサムウェア攻撃について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/10/15/51759.html",
+          "publishedOn": "2024-10-14T23:05:06.000Z",
+          "wordCount": 953,
+          "title": "事業所内保育受託や公的保育所運営のライクキッズにランサムウェア攻撃",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46340.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/10/15/51758.html",
+          "author": null,
+          "description": "東京電力ホールディングス株式会社は9月30日、個人情報保護委員会からの指導及び報告等の求めに対し、講じた措置を報告したと発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/10/15/51758.html",
+          "publishedOn": "2024-10-14T23:05:03.000Z",
+          "wordCount": 980,
+          "title": "個人情報保護委員会から東京電力へ指導及び報告等の求め、実施状況報告",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46322.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/10/15/51757.html",
+          "author": null,
+          "description": "株式会社日本レジストリサービス（JPRS）は10月7日、PowerDNS Recursorの脆弱性情報が公開されたと発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/10/15/51757.html",
+          "publishedOn": "2024-10-14T23:00:10.000Z",
+          "wordCount": 985,
+          "title": "PowerDNS Recursor にサービス不能（DoS）攻撃が可能になる脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/10/15/51756.html",
+          "author": null,
+          "description": "株式会社日本レジストリサービス（JPRS）は10月7日、Unboundの脆弱性情報が公開されたと発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/10/15/51756.html",
+          "publishedOn": "2024-10-14T23:00:08.000Z",
+          "wordCount": 982,
+          "title": "Unbound にサービス不能（DoS）攻撃が可能になる脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/10/15/51755.html",
+          "author": null,
+          "description": "GMOインターネットグループ株式会社は10月8日、「お名前.com」を装ったフィッシングメールへの注意喚起を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/10/15/51755.html",
+          "publishedOn": "2024-10-14T23:00:03.000Z",
+          "wordCount": 1054,
+          "title": "「お名前.com」を装ったフィッシングメールに注意を呼びかけ",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2024/10/11/51754.html",
           "author": null,
@@ -4660,6 +4810,126 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/event/1631352.html",
+          "author": "松永 侑貴惠",
+          "description": "一般社団法人電子情報技術産業協会（JEITA）は、幕張メッセで10月15〜18日に開催されるCEATEC 2024に、「半導体人生ゲーム」を出展している。",
+          "link": "https://internet.watch.impress.co.jp/docs/event/1631352.html",
+          "publishedOn": "2024-10-15T07:05:00.000Z",
+          "wordCount": 5025,
+          "title": "タカラトミーコラボの「半導体人生ゲーム」、半導体企業に就職した未来を疑似体験できる！【CEATEC 2024】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1631/352/01.JPG"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/event/1631317.html",
+          "author": "正田 拓也",
+          "description": "10月15日～18日に幕張メッセで「CEATEC 2024」が開催中。今年はAIをテーマとしているが、AIを支える周辺技術も豊富に展示。なかでも村田製作所は、コンデンサとインダクタを内蔵して一体化した基板「iPaS（アイパス）」を展示、CEATEC AWARD 2024のイノベーション部門賞をした。",
+          "link": "https://internet.watch.impress.co.jp/docs/event/1631317.html",
+          "publishedOn": "2024-10-15T05:59:50.000Z",
+          "wordCount": 5010,
+          "title": "GPUなどにある「基板裏側のチップコンデンサ群」を集約、省電力・省スペース化を実現する村田製作所「iPaS」【CEATEC 2024】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1631/317/05.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1631309.html",
+          "author": "山田 貞幸",
+          "description": "東日本電信電話株式会社（NTT東日本）は10月15日、上り下り最大10Gbpsの光回線によるインターネット接続サービス「フレッツ 光クロス」の提供エリア拡大を発表した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1631309.html",
+          "publishedOn": "2024-10-15T05:30:00.000Z",
+          "wordCount": 5011,
+          "title": "NTT東日本、最大10Gbpsの「フレッツ 光クロス」提供エリアを拡大、3月に全県域へ　25年1月に福島、山梨、3月には青森、岩手、秋田、山形へ",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1631/309/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1631181.html",
+          "author": "tks24",
+          "description": "近日リリース予定のiOS 18.1で、Appleアカウントのプライマリメールアドレスをより簡単に変更できる機能などが追加されることが分かった。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1631181.html",
+          "publishedOn": "2024-10-15T04:20:00.000Z",
+          "wordCount": 4582,
+          "title": "近日リリースのiOS 18.1、Appleアカウントのプライマリメールアドレス変更がより簡単に。iCloudメールアドレスの変更にも対応へ【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1631/181/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1631180.html",
+          "author": "tks24",
+          "description": "友だちの情報をショート動画サービスに自動提供するLINEの仕様変更が波紋を呼んでいる。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1631180.html",
+          "publishedOn": "2024-10-15T03:00:00.000Z",
+          "wordCount": 4568,
+          "title": "LINE、友だちの情報をショート動画サービスに自動提供する仕様に。設定変更期限は10月21日【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1631/180/yajiuma-watch_4.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/ranking/1631212.html",
+          "author": null,
+          "description": "前週に閲覧数の多かった記事を、カテゴリーごとに上位5位までレポートします。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/ranking/1631212.html",
+          "publishedOn": "2024-10-15T02:55:00.000Z",
+          "wordCount": 5039,
+          "title": "Anker、折りたたむと世界最小になる100W出力のソーラーパネル発売の記事に注目が集まる【アクセスランキング】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1631/212/1629428.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/shopping/1631202.html",
+          "author": "アイティースリー",
+          "description": "Amazon.co.jpのJVCケンウッドストアページでは現在、同社の各種ブランドのワイヤレスイヤホンをセール価格で販売中だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/shopping/1631202.html",
+          "publishedOn": "2024-10-15T02:30:00.000Z",
+          "wordCount": 4591,
+          "title": "完全ワイヤレスイヤホンがAmazonでお買い得！　JVCケンウッド製品がセール中　ノイズキャンセリング機能を備えた「KH-BIZ70T-BA」が8700円など",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1631/202/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/shopping/1631182.html",
+          "author": "アイティースリー",
+          "description": "Amazon.co.jpのKindleストアでは現在、10月24日までの期間限定キャンペーンとして、電子書籍が最大70％OFFとなる「Kindle本ストア12周年キャンペーン」を開催中だ。4万冊以上が対象のビッグセールとなっており、IT・コンピュータ関連の書籍も600冊以上がラインアップされている。",
+          "link": "https://internet.watch.impress.co.jp/docs/shopping/1631182.html",
+          "publishedOn": "2024-10-15T01:50:00.000Z",
+          "wordCount": 4600,
+          "title": "Amazon「Kindle本ストア12周年キャンペーン」で、電子書籍が最大70％OFF　「SCRUM BOOT CAMP THE BOOK【増補改訂版】」などコンピュータ・IT書も600冊以上",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1631/182/kindle1015.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1630938.html",
+          "author": "松永 侑貴惠",
+          "description": "カー用品を手掛ける昌騰有限会社の「MAXWIN」ブランドは、最大4台に同時給電可能なUSB PD対応カーチャージャー「PCA37」を発売した。Amazon.co.jpでの販売価格は2280円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1630938.html",
+          "publishedOn": "2024-10-14T23:30:00.000Z",
+          "wordCount": 5017,
+          "title": "巻取式ケーブルでスッキリ！　4台同時に充電できるカーチャージャー「PCA37」、MAXWINが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1630/938/main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1630811.html",
+          "author": "木下 明音",
+          "description": "株式会社ソラコムは10月10日、「SORACOM IoTストア」において、ロバステル（Robustel）製のVPN対応小型LTEルーター「R1510-4L」の取り扱いを開始した。販売価格は2万9700円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1630811.html",
+          "publishedOn": "2024-10-14T22:30:00.000Z",
+          "wordCount": 5012,
+          "title": "ソラコム、VPN対応の産業用LTEルーター「R1510-4L」の取り扱いを開始",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1630/811/main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1630404.html",
+          "author": "木下 明音",
+          "description": "サンワサプライ株式会社は、USB接続したデバイスへの給電機能が付いたUSB Type-C―HDMI変換アダプター2製品を発売した。直販サイト「サンワダイレクト」の販売価格は、最大8K/30Hz対応の「500-KC044」が3800円、4K/30Hz対応の「500-KC045」が2700円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1630404.html",
+          "publishedOn": "2024-10-14T21:55:00.000Z",
+          "wordCount": 5013,
+          "title": "給電しながら映像出力できる、8K/4K対応のUSB Type-C―HDMIアダプター「500-KC」シリーズ、サンワサプライが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1630/404/43main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/shimizu/1629328.html",
+          "author": "清水 理史",
+          "description": "Windows 11の24H2が公開された。Copilot+ PC向けのAI機能が搭載され、ユーザーインターフェースやアプリにも細かな改善が加えられているが、本稿で注目したいのは、やはりネットワーク関連の新機能だ。Wi-Fi 7対応や接続操作の改善、プライバシー制御機能の強化などが行われてている。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/shimizu/1629328.html",
+          "publishedOn": "2024-10-14T21:00:00.000Z",
+          "wordCount": 5122,
+          "title": "Wi-Fi 7に正式対応し、他の機能もより便利に！　Windows 11 24H2のネットワーク新機能を見ていく【イニシャルB】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1629/328/00.png"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/interview/1629315.html",
           "author": "大河原 克行",
@@ -6623,6 +6893,46 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20241015-3043198/",
+          "author": null,
+          "description": "Microsoftはこのほど、Windowsのパスキーがシンプルで直感的に使用できるようになると発表した。新しく追加予定の機能は、「サードパーティーのパスキープロバイダー向けプラグイン」、「パスキーのネイティブユーザー体験(UX: User eXperience)の強化」、「Microsoft同期パスキープロバイダー」の3つ。",
+          "link": "https://news.mynavi.jp/techplus/article/20241015-3043198/",
+          "publishedOn": "2024-10-14T23:11:52.000Z",
+          "wordCount": 1830,
+          "title": "Windows11のパスキー、シンプルで直感的になる",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20241015-3043198/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20241014-3042449/",
+          "author": null,
+          "description": "米国土安全保障省サイバーセキュリティ・インフラストラクチャセキュリティ庁(CISA)はこのほど、複数のAdobe製品に対してリリースされたセキュリティアップデートに関する警告を発表した。脆弱性の一部は深刻度が緊急(Critical)に分類されており、攻撃者がこれらの脆弱性を悪用してシステムを制御する可能性があると指摘している。",
+          "link": "https://news.mynavi.jp/techplus/article/20241014-3042449/",
+          "publishedOn": "2024-10-14T09:17:35.000Z",
+          "wordCount": 1968,
+          "title": "Adobe Lightroomなどに脆弱性、確認とアップデートを",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20241014-3042449/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20241014-3043195/",
+          "author": null,
+          "description": "Microsoft専門のニュースサイト「Windows Latest」は10月10日(現地時間)、Windows11 バージョン24H2のアップグレードを実施すると、削除できない8.63GBのキャッシュデータが作成されると報じた。このデータはディスククリーンアップを使用しても削除できないとみられる。",
+          "link": "https://news.mynavi.jp/techplus/article/20241014-3043195/",
+          "publishedOn": "2024-10-14T05:40:04.000Z",
+          "wordCount": 1771,
+          "title": "Windows11バージョン24H2、削除できないキャッシュ9GBの問題",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20241014-3043195/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20241014-3037527/",
+          "author": null,
+          "description": "9月17日～19日に開催された「TECH+フォーラム セキュリティ2024 Sep. 次なる時代の対応策」に情報セキュリティ大学院大学 教授の藤本正代氏が登壇。DXを推進していくなかで必要になるマネジメントについて、重要なポイントを解説した。",
+          "link": "https://news.mynavi.jp/techplus/article/20241014-3037527/",
+          "publishedOn": "2024-10-14T00:00:00.000Z",
+          "wordCount": 1762,
+          "title": "セキュリティ対策の肝はマネジメント – リスクマネジメントの専門家が教える4つのポイント",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20241014-3037527/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20241011-3043000/",
           "author": null,
