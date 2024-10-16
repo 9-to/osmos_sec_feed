@@ -369,6 +369,16 @@
       "siteUrl": "https://www.ipa.go.jp/about/index.html",
       "articles": [
         {
+          "id": "https://www.ipa.go.jp/security/reports/vuln/jvn/ipedia2024q3.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「脆弱性対策情報データベースJVN iPediaの登録状況 [2024年第3四半期（7月〜9月）]」に関する情報です。",
+          "link": "https://www.ipa.go.jp/security/reports/vuln/jvn/ipedia2024q3.html",
+          "publishedOn": "2024-10-15T15:00:00.000Z",
+          "wordCount": 1874,
+          "title": "脆弱性対策情報データベースJVN iPediaの登録状況 [2024年第3四半期（7月～9月）]を公開しました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
           "id": "https://www.ipa.go.jp/security/controlsystem/controlsystem-smartplant.html",
           "author": "情報処理推進機構（IPA）",
           "description": "情報処理推進機構（IPA）の「「スマート工場のセキュリティリスク分析調査」調査報告書 第2版」に関する情報です。",
@@ -656,26 +666,6 @@
           "publishedOn": "2024-09-18T15:00:00.000Z",
           "wordCount": 574,
           "title": "DX認定制度 デジタルガバナンス・コードの改訂に伴う「申請要項」等の更新",
-          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
-        },
-        {
-          "id": "https://www.ipa.go.jp/digital/data/data-spaces-academy.html",
-          "author": "情報処理推進機構（IPA）",
-          "description": "情報処理推進機構（IPA）の「Data Spaces Academy（データスペースアカデミー）」に関する情報です。",
-          "link": "https://www.ipa.go.jp/digital/data/data-spaces-academy.html",
-          "publishedOn": "2024-09-16T15:00:00.000Z",
-          "wordCount": 435,
-          "title": "「CDO読本」「データマチュリティ読本」「インターオペラビリティ読本」の公開予告を掲載しました",
-          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
-        },
-        {
-          "id": "https://www.ipa.go.jp/security/anshin/attention/2024/mgdayori20240917.html",
-          "author": "情報処理推進機構（IPA）",
-          "description": "情報処理推進機構（IPA）の「パソコンの画面全体に偽のメッセージが表示され操作不能になる手口が増加中」に関する情報です。",
-          "link": "https://www.ipa.go.jp/security/anshin/attention/2024/mgdayori20240917.html",
-          "publishedOn": "2024-09-16T15:00:00.000Z",
-          "wordCount": 1384,
-          "title": "パソコンの画面全体に偽のメッセージが表示され操作不能になる手口が増加中を公開しました",
           "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
         }
       ]
@@ -1029,6 +1019,16 @@
       "siteUrl": "https://gblogs.cisco.com/jp/",
       "articles": [
         {
+          "id": "https://gblogs.cisco.com/jp/?p=52617",
+          "author": "TALOS Japan",
+          "description": "7 月以降、最大規模となった今月の Microsoft 社のセキュリティ更新プログラムは、同社のハードウェアおよびソフトウェア製品において、実際にエクスプロイトが確認されている脆弱性が 2 件、重大な脆弱性が 3 件含まれています。 \nThe post 実際にエクスプロイトされた脆弱性 2 件と重大な脆弱性 3 件を含む、7 月以降最大のセキュリテイ更新プログラム appeared first on Cisco Japan Blog.",
+          "link": "https://gblogs.cisco.com/jp/2024/10/talos-microsoft-patch-tuesday-october-2024/",
+          "publishedOn": "2024-10-16T07:04:33.000Z",
+          "wordCount": 641,
+          "title": "実際にエクスプロイトされた脆弱性 2 件と重大な脆弱性 3 件を含む、7 月以降最大のセキュリテイ更新プログラム",
+          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/05AS86279_eyecatch-460x230.jpg"
+        },
+        {
           "id": "https://gblogs.cisco.com/jp/?p=52604",
           "author": "TALOS Japan",
           "description": "Cisco Talos は、2022 年から金銭目的で活動している攻撃者を発見しました。最近は MedusaLocker ランサムウェアの亜種を送り込んでいることが確認されています。 \nThe post 2022 年から MedusaLocker の亜種を拡散していると見られる攻撃者を発見 appeared first on Cisco Japan Blog.",
@@ -1157,46 +1157,6 @@
           "wordCount": 657,
           "title": "Microsoft 社が 79 件の脆弱性を公開、ゼロデイ脆弱性は 4 件で、うち 1 件はシビラティ（重大度）スコアが 9.8 点",
           "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/25AS86425_eyecatch-460x230.jpg"
-        },
-        {
-          "id": "https://gblogs.cisco.com/jp/?p=52462",
-          "author": "TALOS Japan",
-          "description": "国家の支援を受けた攻撃グループやランサムウェアグループが、数百万ドルの支払いを得ようと、産業用制御システムや重要なインフラストラクチャに脅威をもたらしています。こうした中、産業環境における脆弱性探索の重要性が高まっています。 \nThe post µC/OS プロトコルスタックのファジングによって発見された脆弱性 appeared first on Cisco Japan Blog.",
-          "link": "https://gblogs.cisco.com/jp/2024/09/talos-fuzzing-uc-os-protocol-stacks/",
-          "publishedOn": "2024-09-16T07:35:45.000Z",
-          "wordCount": 511,
-          "title": "µC/OS プロトコルスタックのファジングによって発見された脆弱性",
-          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/15AM78771_eyecatch-460x230.jpg"
-        },
-        {
-          "id": "https://gblogs.cisco.com/jp/?p=52517",
-          "author": "TALOS Japan",
-          "description": "これは、3 部構成から成るシリーズの最後の記事です。このシリーズでは、2 つの µC/OS プロトコルスタック（µC/TCP-IP と µC/HTTP サーバー）のファジングに使用した手法について詳しく説明しています。\nThe post µC/OS プロトコルスタックのファジング、パート 3：TCP/IP サーバーのファジング、TAP ドライバの実装 appeared first on Cisco Japan Blog.",
-          "link": "https://gblogs.cisco.com/jp/2024/09/talos-fuzzing-uc-os-protocol-stacks-part-3/",
-          "publishedOn": "2024-09-16T07:29:39.000Z",
-          "wordCount": 848,
-          "title": "µC/OS プロトコルスタックのファジング、パート 3：TCP/IP サーバーのファジング、TAP ドライバの実装",
-          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/18AS86323_eyecatch-460x230.jpg"
-        },
-        {
-          "id": "https://gblogs.cisco.com/jp/?p=52512",
-          "author": "TALOS Japan",
-          "description": "このシリーズではこれまでに、µC/HTTP サーバー用のファジングツールの開発を取り上げました。前回の記事で説明したように、このファジングツールは AFL++ と互換性を持たせるためにファイルから読み込むようになっています。現在のファジングの実装で一度に処理できるのは単一のリクエストのみです。\nThe post μCOS プロトコルスタックのファジング、パート 2：テストケースごとの複数のリクエストの処理 appeared first on Cisco Japan Blog.",
-          "link": "https://gblogs.cisco.com/jp/2024/09/talos-fuzzing-ucos-protocol-stacks-part-2/",
-          "publishedOn": "2024-09-16T07:06:43.000Z",
-          "wordCount": 670,
-          "title": "μCOS プロトコルスタックのファジング、パート 2：テストケースごとの複数のリクエストの処理",
-          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/17AS85612_eyecatch-460x230.jpg"
-        },
-        {
-          "id": "https://gblogs.cisco.com/jp/?p=52466",
-          "author": "TALOS Japan",
-          "description": "これは、3 部構成から成るシリーズの最初の記事です。このシリーズでは µC/OS プロトコルスタックのファジングの複雑さについて詳しく説明します。これから説明する手法はさまざまな RTOS 環境全般に適用できますが、主に µC/OS に焦点を当てることにします。\nThe post µC/OS プロトコルスタックのファジング、パート 1：HTTP サーバーのファジング appeared first on Cisco Japan Blog.",
-          "link": "https://gblogs.cisco.com/jp/2024/09/talos-fuzzing-uc-os-protocol-stacks-part-1/",
-          "publishedOn": "2024-09-16T06:21:14.000Z",
-          "wordCount": 763,
-          "title": "µC/OS プロトコルスタックのファジング、パート 1：HTTP サーバーのファジング",
-          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/16AR02220_eyecatch-460x230.jpg"
         }
       ]
     },
@@ -1204,23 +1164,7 @@
       "title": "FFRIエンジニアブログ",
       "feedUrl": "https://engineers.ffri.jp/rss",
       "siteUrl": "https://engineers.ffri.jp/",
-      "articles": [
-        {
-          "id": "hatenablog://entry/6802340630901838126",
-          "author": null,
-          "description": "はじめに\nセキュリティサービス部セキュリティエンジニアの石井です。\n政府機関と国内のセキュリティ関連団体等が公開したセキュリティ関連の文書についてまとめた記事を、一昨年から毎年公開しています。\n2021 年版\n2022 年版\n今年は本まとめのリリースが遅くなってしまい、中には 2024 年に公開された最新版がすでに存在しているドキュメントもございますが、ご容赦ください。\n政府機関\n内閣サイバーセキュリティセンター (NISC) \n警察庁 サイバー警察局\nデジタル庁\n総務省 サイバーセキュリティ統括官\n経済産業省\nセキュリティ関連団体\nNICT サイバーセキュリティ研究室\nCRYPTREC\nJPCERTコーディネーションセンター (JPCERT/CC) \n情報処理推進機構 (IPA) \n日本ネットワークセキュリティ協会 (JNSA) \nフィッシング対策協議会\nセーファーインターネット協会 (SIA) \n日本クラウドセキュリティアライアンス (CSA ジャパン) \n日本情報経済社会推進協会 (JIPDEC) \n日本セキュリティオペレーション事業者協議会 (ISOG-J) \n日本シーサート協議会 (NCA) \nデジタル・フォレンジック研究会 (IDF)\n日本スマートフォンセキュリティ協会 (JSSEC)\n政府機関\n内閣サイバーセキュリティセンター (NISC)\n文書タイトル\n公開日\n\n\n\n\nサイバー攻撃被害に係る情報の共有・公表ガイダンス（本文）\n2023/03/08\n\n\n機能保証のためのリスクアセスメント・ガイドライン1.0版　～社会経済を支えるサービスを提供する事業者等による自律的なリスクマネジメントに向けて～、リスク評価資料一式\n2023/06/22\n\n\nサイバーセキュリティ2023（2022年度年次報告・2023年度年次計画）/概要\n2023/07/04\n\n\n政府機関等の…",
-          "link": "https://engineers.ffri.jp/entry/2024/09/17/000000",
-          "publishedOn": "2024-09-16T15:00:00.000Z",
-          "wordCount": 1045,
-          "title": "2023年に公開されたセキュリティ関連文書まとめ",
-          "enclosure": {
-            "url": "https://cdn-ak.f.st-hatena.com/images/fotolife/F/FFRI/20220120/20220120172514.jpg",
-            "type": "image/jpeg",
-            "length": "0"
-          },
-          "imageUrl": "https://cdn-ak.f.st-hatena.com/images/fotolife/F/FFRI/20220120/20220120172514.jpg"
-        }
-      ]
+      "articles": []
     },
     {
       "title": "IIJ Security Diary",
@@ -1661,16 +1605,6 @@
           "wordCount": 180,
           "title": "2024年上半期サイバーセキュリティレポート 脆弱性を悪用したカスタムツールGooseEggやWordPressを狙った事例を解説",
           "imageUrl": "https://eset-info.canon-its.jp/files/topics/4614_ext_01_0.jpg"
-        },
-        {
-          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/240917.html",
-          "author": null,
-          "description": "ソーシャルメディアで特に気を付けるべき脅威の1つとして、他人になりすました詐欺が挙げられる。本記事では、こうした偽アカウントを見分ける方法を解説する。\n\n\nこの記事は、ESET社が運営するマルウェアやセキュリティに関する情報サイト「WeLiveSecurity」の記事を翻訳したものである。\n\n\n\n\n\n\n全世界の人口の約55%であるおよそ45億人が、大手ソーシャルメディアのアカウントを少なくとも１つ保有している。世界中のインターネットユーザーは、ニュースを読んでシェアしたり、写真を交換したりして、ソーシャルメディア上で毎日2時間半程度を費やしている。他者との関わりや交流において、ソーシャルメディアは私たちの生活に計り知れない影響を与えている。\n\nしかし、ソーシャルメディアで目に映るもののすべてが事実ではない。インターネット全般に言えることだが、ソーシャルメディアは詐欺やフェイクニュースの温床になっている。全世界に広がる膨大なユーザー数やコンテンツの量、悪意のある狡猾な攻撃者の存在によって、ソーシャルメディアにおける安全を維持するのは極めて難しくなっている。\n\nだからこそ、ユーザーは自分で身を守らなければならないのだ。\n\n詐欺の温床となるソーシャルメディア\n\n警戒が必要な脅威の代表例として、他人になりすましたユーザーやフォロワーが挙げられる。詐欺師は自動化されたボットによってプロフィールを登録し、管理している。偽のユーザーやフォロワーになりすまし、魅力的すぎるオファーや、クリックを誘う記事、ロマンス詐欺などのスパムメッセージを送信するのだ。その手口は、「プロフィールを閲覧した人」のリンクから、暗号資産（仮想通貨）の投資詐欺や偽の無料ギフトカードのプレゼントに至るまで、多岐にわたる。\n\n要するに、詐欺師の標的は金銭や個人情報の取得だ。悪意のあるリンクをクリックさせる、密かにマルウェアをダウンロードさせる、自発的に個人情報を公開させる、といった狙いがある。あるいは、ロマンス詐欺や暗号資産詐欺のような、より大きなトラブルに巻き込もうとしているかもしれない。\n\n偽のユーザーを見分ける10のヒント\n\nソーシャルメディアには、偽のプロフィールやアカウントを削除できる機能がある。しかし、必ずしも完璧に機能するわけではない。そのためユーザーは、ソーシャルメディアで目にする内容には注意深くなる必要がある。以下に、詐欺師を見分けるための重要なヒントをいくつか紹介する。\n\n\n\t不自然なプロフィール：偽のアカウントでは、ほかからコピーされたプロフィール文が含まれている可能性があり、不自然な文章が混在している場合がある。また、タイプミスや過剰な絵文字の使用、堅苦しい言葉遣いはボットを使用している可能性があるため、十分に注意したい。\n\tキャットフィッシング：出会い系サイトと同様に、ソーシャルメディアで偽のアカウントを作成し、標的から金銭を詐取するために恋愛感情を利用して騙そうとする詐欺師もいる。まずは類似画像を検索し、本記事で紹介する詐欺の兆候や、以下の動画の内容も参考にしてほしい。\n\n\nESET社Jake Moore氏によるキャットフィッシングの解説\n\n\n\t「フォロワー数」と「フォロー数」の比率がおかしい：スパムアカウントは数百から数千ものユーザーを自動的にフォローするが、フォローバックされることはほとんどない。特にInstagramでよく見られる事象である。\n\t友人のプロフィール写真を使用：詐欺師は友人のアカウントをコピーして現れる場合がある。そして、友人がトラブルに巻き込まれたと装い、緊急メッセージを送り金銭的な援助を求めてくる。これは思ったよりも簡単な手口で、いまだに多くのユーザーが被害に遭っている。このようなメッセージが送られてきた場合、別のチャンネルからメッセージを送り、必ず友人に再確認してほしい。または、メッセージが送られてきたアカウントを精査し、詐欺の兆候がないかを確認しよう。\n\tスパムDM（ダイレクトメッセージ）：スパムアカウントから偽のプレゼントが直接送られてきたり、ほかの人へDMを送るよう促したりするケースがある。また、詳細な情報を提供すると騙して、Webサイトへ誘導されることもある。暗号資産を用いた投資詐欺から通販詐欺まで、あらゆるものを扱う偽アカウントもあるため、注意が必要だ。\n\t公式マークがない：例えば、InstagramやFacebook、X（旧Twitter）では、企業や有名人などに公式アカウントを示すバッジやマークが付与されている。特定の組織や個人を称するアカウントであるにも関わらず、公式マークが外れている場合は、なりすましの可能性が高い。\n\n\n\n\n\n=======================\n\nニコラス・ケイジ\n\nやぁ。私の映画を見て、高評価してくれてありがとう。あなたのような熱心なファンがいなければ、今のような成功はなかった。\n\n=======================\n\n大量にある偽アカウントの極端な例（出典：Reddit）\n\n\n\n\t不自然な投稿内容や頻度：偽のアカウントは、類似または同一のキャプションをつけたコンテンツを一度に大量に投稿した後、急に投稿を止める傾向がある。あるいは、何も投稿できない場合もある。そのため、投稿の量やその内容、頻度をチェックしてほしい。\n\t無料プレゼント：アンケート調査へ回答する報酬として、景品や現金を提供するアカウントには注意してほしい。有名ブランドになりすまし、個人情報を詐取する狙いがあるからだ。\n\t大幅に値下げした商品：過剰に値下げした高級品を販売する偽アカウントもある。信じられないほどお得な情報は、詐欺の可能性が高いということを覚えておいてほしい。\n\tでたらめなコメント：投稿に関係のないコメントを残しているアカウントは、偽物の可能性が高い。\n\n\n偽アカウントを通報する方法\n\nInstagramやLinkedInといったソーシャルメディアでは、アカウント認証の手続きや、偽のユーザーやボットを締め出す方法を継続的に改善している。しかし、偽のアカウントを発見する最も優れた方法は、鋭い観察力を持ったユーザーによる通報だ。以下では、主要なソーシャルメディアにおいて、偽アカウントを通報する方法を紹介する。\n\nFacebook\n\n自分自身になりすましているアカウントを見つけたら、このページを参照してほしい。偽のアカウントを見つけた場合は、プロフィール写真の下部にある3点ドットをクリックし、「サポートを依頼またはプロフィールを報告」または「ページを報告」をクリックする。\n\nX（旧Twitter）\n\nXで不審なアカウントを発見した場合は、こちらから通報する。または、アカウント名の横にある3点ドットをクリックして指示に従う。\n\nInstagram\n\nアカウント名の横にある3点ドットから「報告」をクリックする。自分自身や会社、子供になりすましたアカウントについては、こちらから通報する。\n\nLinkedIn\n\nアカウント名の下にある「その他」から「報告/ブロック」または「嫌がらせを報告」をクリックする。\n\n詐欺フォロワーに対する最善の防御手段は、自分のアカウントを非公開にし、フォローするユーザーを徹底的に吟味することだ。完全な対応が難しい場合でも、本記事のヒントを参考に、オンライン活動における安全性を確保してほしい。",
-          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/240917.html",
-          "publishedOn": "2024-09-16T15:00:00.000Z",
-          "wordCount": 206,
-          "title": "ソーシャルメディアで偽アカウントを見分ける方法",
-          "imageUrl": "https://eset-info.canon-its.jp/files/topics/4610_ext_01_0.jpg"
         }
       ]
     },
@@ -1703,6 +1637,83 @@
       "siteUrl": "https://www.nic.ad.jp/",
       "articles": [
         {
+          "id": "https://www.nic.ad.jp/ja/intl/fellowship-program/apnic58.html#report",
+          "author": null,
+          "description": "APNIC 58参加支援\n2024年10月16日\nAPNIC 58」への参加を希望する国内の若手に対し、\n              旅費をはじめとした会議参加に必要な費用の補助、会議に参加する上での参考情報の提供等を行いました。\n              支援する方(フェロー)は公募を行い、書類選考の上、決定しました。\n            \n参加報告書\n島田怜奈\n(慶應義塾大学)\n                \n                  \n報告書(213KB)\nスライド(14.2MB)\n橋場慧志\n(大阪大学)\n                \n                  \n報告書(697KB)\nスライド(89.6MB)\n橋本宏熙\n(東京大学)\n                \n                  \n報告書(147KB)\nスライド(8.31MB)\n募集要項\nhttps://www.nic.ad.jp/ja/topics/2024/20240701-01.html",
+          "link": "https://www.nic.ad.jp/ja/intl/fellowship-program/apnic58.html#report",
+          "publishedOn": "2024-10-16T01:40:04.000Z",
+          "wordCount": null,
+          "title": "[Web更新]APNIC 58参加支援　報告書を掲載",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.nic.ad.jp/2024/10232/",
+          "author": null,
+          "description": "2024年11月19日(火)から27日(水)にかけて開催する「Internet Week 2024 ～つなげて、広げて、楽しもう～」について、プログラムの見どころを連載で紹介しています。今回は11月26日(火)13時からお送りする「Webの情報を信じるために～オリジネータープロファイルなど偽情報検出の最前線～」です。",
+          "link": "https://blog.nic.ad.jp/2024/10232/",
+          "publishedOn": "2024-10-16T01:28:50.000Z",
+          "wordCount": null,
+          "title": "[Blog記事]Webの情報を信じることができますか？偽情報検出の最前線とは ～Internet Week 2024 注目プログラムのご紹介 ②～",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2024/vol2112.html",
+          "author": null,
+          "description": "https://internetweek.jp/\n----------------------------------------------------------------------\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n◆ News & Views vol.2112 です\n━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n\n毎月15日(土日祝の場合はその翌営業日)に発行している定期号では、特集記\n事のみならず、業界メンバーのコラムや用語解説、統計などもお届けしてい\nます。\n\n本号の特集では、2024年8月30日(金)～9月6日(金)にニュージーランド・ウェ\nリントンで開催された、APNIC 58カンファレンスの概要を、選挙やアドレス\nポリシー関連の議論を中心にお届けします。ブログのフォトレポートでは、\nテクニカルセッションの内容などもお伝えしておりますので、あわせてお読\nみください。\n\n  APNIC 58 フォトレポート\n  https://blog.nic.ad.jp/2024/10156/\n\n  APNIC 58 テクニカルセッション フォトレポート\n  https://blog.nic.ad.jp/2024/10057/\n\nNews & Views Columnでは、Internet Week 2024を開催するにあたり、プログ\nラム委員としてプログラム作りなどにご協力いただいている、前田典彦さん\n(株式会社FFRIセキュリティ)のコラムをご紹介します。ヒトも、OSやソフト\nウェアも、基本を押さえた絶え間ないメンテナンスが必要であることを痛感\nします。\n\nまた、インターネット用語1分解説では、意外と知られていない？「ドメイン\n名の登録回復」について解説しています。\n\n━━━━━━━━━━━━━━━━━…",
+          "link": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2024/vol2112.html",
+          "publishedOn": "2024-10-15T09:47:53.000Z",
+          "wordCount": null,
+          "title": "[メルマガ]vol.2112:【定期号】APNIC 58カンファレンス報告 全体概要およびアドレスポリシー関連報告",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2024/vol2111.html",
+          "author": null,
+          "description": "https://internetweek.jp/ ＜＜  主催:JPNIC\n----------------------------------------------------------------------\n□■━━━━━━━━━━━━━━━━━━━━━\n□  10/7～10/14に発信したJPNICからのお知らせ\n■━━━━━━━━━━━━━━━━━━━━━━\n\nこのトピックス号では、先週に公開したJPNICブログ記事、お知らせ、Webの更\n新情報などを原則月曜日にまとめてご紹介します。\n\n今回の注目記事は、2024年11月19日(火)から27日(水)に開催する「Internet \nWeek 2024」のプログラムのチェック方法をお伝えしたブログ記事です。\n\nJPNIC主催「Internet Week 2024 ～つなげて、広げて、楽しもう～」のプログ\nラムを公開し、参加登録受付も開始いたしました。今年も最新トレンド盛りだ\nくさんのプログラムが揃っています。皆様のご参加をお待ちしております。\n\n       [プログラム]\n       https://internetweek.jp/2024/program-timetable\n\n       [参加申込]\n       https://internetweek.jp/2024/application/\n         2024年9月18日(水)～2024年11月8日(金)17:00 登録期間\n         ※クレジットカード決済は11月27日(水)23:59まで受付\n         ※各種割引もございますのでぜひご確認ください。\n\nこの他に先週は、ブログがもう2件と、トピックス3件、ICANN情報が2件、動画\nコンテンツが1件ありました。イベント等のお知らせも3件掲載しています。\n\n\n┏◆ 先週公開の…",
+          "link": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2024/vol2111.html",
+          "publishedOn": "2024-10-15T09:41:14.000Z",
+          "wordCount": null,
+          "title": "[メルマガ]vol.2111:【トピックス号】先週のトピックスとWeb更新情報",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nic.ad.jp/ja/stat/dom/cctld.html",
+          "author": null,
+          "description": "ccTLDの登録数\n＜注意＞\n以下のデータは、各ccTLDレジストリが公式Webサイトなどで公開している数字をJPNICにて独自に集計したものです。\n月ごとの登録数を公開していないccTLDについては、月末時点で最新の数字を利用しています。\nその月の登録数の公開がなかったTLDは空白に、登録数の公開が毎月では無いTLDは「-->」となっています。\nccTLD\n    割り当てられている国/地域名\n\n    2024年8月\n    2024年7月\n    2024年6月\n    2024年5月\n    2024年4月\n    2024年3月\n    2024年2月\n    2024年1月\n    2023年12月\n    2023年11月\n    2023年10月\n    2023年9月\n    2023年8月\n    2023年7月\n    2023年6月\n    2023年5月\n    2023年4月\n    2023年3月\n    2023年2月\n    2023年1月\n    2022年12月\n    2022年11月\n    2022年10月\n    2022年9月\n    2022年8月\n    2022年7月\n    2022年6月\n    2022年5月\n    2022年4月\n    2022年3月\n    2022年2月\n    2022年1月\n    2021年12月\n    2021年11月\n    2021年10月\n    2021年9月\n    2021年8月\n    2021年7月\n    2021年6月\n    2021年5月\n    2021年4月\n    2021年3月\n    2021年2月\n    2021年1月\n    2020年12月\n    2020年11月\n    2020年10月\n    2020年9月\n    2020年8月…",
+          "link": "https://www.nic.ad.jp/ja/stat/dom/cctld.html",
+          "publishedOn": "2024-10-15T09:16:56.000Z",
+          "wordCount": null,
+          "title": "[Web更新]ccTLDの登録数を更新　2024年8月分を追加",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nic.ad.jp/ja/topics/2024/20241015-01.html",
+          "author": null,
+          "description": "2024年10月15日\n各位\n一般社団法人日本ネットワークインフォメーションセンター\n「マルチステークホルダー主義を支持する技術コミュニティ連合」(TCCM)によるグローバルデジタルコンパクトに関する意見表明にJPNICも署名\nhttps://www.tccm.global/statement-on-global-digital-compact-gdc-adoption/\n            \n以上",
+          "link": "https://www.nic.ad.jp/ja/topics/2024/20241015-01.html",
+          "publishedOn": "2024-10-15T07:15:08.000Z",
+          "wordCount": null,
+          "title": "[トピックス]「マルチステークホルダー主義を支持する技術コミュニティ連合」(TCCM)によるグローバルデジタルコンパクトに関する意見表明にJPNICも署名",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.nic.ad.jp/2024/10156/",
+          "author": null,
+          "description": "2024年8月31日から9月6日にかけて、ニュージーランドの首都ウェリントンにて、APNIC58が開催されました。ここではその模様を写真とともにお伝えしていきます。2024年10月15日発行のメールマガジン JPNIC News & Viewsのレポートもあわせてお読みください。",
+          "link": "https://blog.nic.ad.jp/2024/10156/",
+          "publishedOn": "2024-10-15T07:00:28.000Z",
+          "wordCount": null,
+          "title": "[Blog記事]APNIC 58 フォトレポート",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "https://blog.nic.ad.jp/2024/10106/",
           "author": null,
           "description": "2024年11月19日(火)から27日(水)の会期で、Internet Week 2024 を開催します。今年のテーマは【つなげて、ひろげて、楽しもう】。これから連載にて、プログラムの見どころを紹介していきます。今回は、11月26日(火) 10時からお送りする「IPv6入門方法及びお勉強法 ～IPv6基礎検定の傾向と対策付き～」です。",
@@ -1721,6 +1732,17 @@
           "publishedOn": "2024-10-10T06:00:29.000Z",
           "wordCount": null,
           "title": "[Blog記事]ICP-2 新RIR設立要件の改定作業：「原則案」に対する意見募集が始まりました。(和訳付き）",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://blog.nic.ad.jp/2024/10152/",
+          "author": null,
+          "description": "2024年10月23日(水)から25日(金)の3日間、カナダ・トロントにおいて、ARIN 54ミーティングが開催されます。ARIN (American Registry for Internet Numbe […]",
+          "link": "https://blog.nic.ad.jp/2024/10152/",
+          "publishedOn": "2024-10-10T05:52:21.000Z",
+          "wordCount": null,
+          "title": "[Blog記事]ARIN 54でのIPアドレス・AS番号分配ポリシーに関する提案ご紹介",
           "itunes": {},
           "imageUrl": null
         },
@@ -2127,6 +2149,36 @@
       "siteUrl": "https://www.cisa.gov/",
       "articles": [
         {
+          "id": "/node/22410",
+          "author": "CISA",
+          "description": "Today, CISA published the Framing Software Component Transparency, created by the Software Bill of Materials (SBOM) Tooling & Implementation Working Group, one of the five SBOM community-driven workstreams facilitated by CISA. CISA’s community-driven working groups publish documents and reports to advance and refine SBOM and ultimately promote adoption. This resource serves as the detailed foundation of SBOM, defining SBOM concepts and related terms and offering an updated baseline of how software components are to be represented. This document serves as a guide on the processes around SBOM creation.\nFor more information on all things SBOM, please visit CISA’s Software Bill of Materials website.",
+          "link": "https://www.cisa.gov/news-events/alerts/2024/10/15/guidance-framing-software-component-transparency-establishing-common-software-bill-materials-sbom",
+          "publishedOn": "2024-10-15T12:00:00.000Z",
+          "wordCount": 569,
+          "title": "Guidance: Framing Software Component Transparency: Establishing a Common Software Bill of Materials (SBOM)",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/22400",
+          "author": "CISA",
+          "description": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.\nCVE-2024-30088 Microsoft Windows Kernel TOCTOU Race Condition Vulnerability\nCVE-2024-9680 Mozilla Firefox Use-After-Free Vulnerability\nCVE-2024-28987 SolarWinds Web Help Desk Hardcoded Credential Vulnerability\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.\nAlthough BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.",
+          "link": "https://www.cisa.gov/news-events/alerts/2024/10/15/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+          "publishedOn": "2024-10-15T12:00:00.000Z",
+          "wordCount": 633,
+          "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+          "imageUrl": null
+        },
+        {
+          "id": "/node/22406",
+          "author": "CISA",
+          "description": "CISA released two Industrial Control Systems (ICS) advisories on October 15, 2024. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.\nICSA-24-289-01 Siemens Siveillance Video Camera\nICSA-24-289-02 Schneider Electric Data Center Expert\nCISA encourages users and administrators to review newly released ICS advisories for technical details and mitigations.",
+          "link": "https://www.cisa.gov/news-events/alerts/2024/10/15/cisa-releases-two-industrial-control-systems-advisories",
+          "publishedOn": "2024-10-15T12:00:00.000Z",
+          "wordCount": 573,
+          "title": "CISA Releases Two Industrial Control Systems Advisories",
+          "imageUrl": null
+        },
+        {
           "id": "/node/22398",
           "author": "CISA",
           "description": "CISA released twenty-one Industrial Control Systems (ICS) advisories on October 10, 2024. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.\nICSA-24-284-01 Siemens SIMATIC S7-1500 and S7-1200 CPUs\nICSA-24-284-02 Siemens Simcenter Nastran\nICSA-24-284-03 Siemens Teamcenter Visualization and JT2Go\nICSA-24-284-04 Siemens SENTRON PAC3200 Devices\nICSA-24-284-05 Siemens Questa and ModelSim\nICSA-24-284-06 Siemens SINEC Security Monitor\nICSA-24-284-07 Siemens JT2Go\nICSA-24-284-08 Siemens HiMed Cockpit\nICSA-24-284-09 Siemens PSS SINCAL\nICSA-24-284-10 Siemens SIMATIC S7-1500 CPUs\nICSA-24-284-11 Siemens RUGGEDCOM APE1808\nICSA-24-284-12 Siemens Sentron Powercenter 1000\nICSA-24-284-13 Siemens Tecnomatix Plant Simulation\nICSA-24-284-14 Schneider Electric Zelio Soft 2\nICSA-24-284-15 Rockwell Automation DataMosaix Private Cloud\nICSA-24-284-16 Rockwell Automation DataMosaix Private Cloud\nICSA-24-284-17 Rockwell Automation Verve Asset Manager\nICSA-24-284-18 Rockwell Automation Logix Controllers\nICSA-24-284-19 Rockwell Automation PowerFlex 6000T\nICSA-24-284-20 Rockwell Automation ControlLogix\nICSA-24-284-21 Delta Electronics CNCSoft-G2\nCISA encourages users and administrators to review newly released ICS advisories for technical details and mitigations.",
@@ -2445,26 +2497,6 @@
           "wordCount": 589,
           "title": "CISA Releases Three Industrial Control Systems Advisories",
           "imageUrl": null
-        },
-        {
-          "id": "/node/22216",
-          "author": "CISA",
-          "description": "Today, the Cybersecurity and Infrastructure Security Agency (CISA) released the Federal Civilian Executive Branch (FCEB) Operational Cybersecurity Alignment (FOCAL) Plan. Developed in collaboration with FCEB agencies, this plan provides standard, essential components of enterprise operational cybersecurity and aligns the collective operational defense capabilities across the federal enterprise.\nCurrently, federal agencies maintain their own networks and system architectures—and they independently manage their cyber risk. CISA’s FOCAL plan aligns the federal enterprise, empowering agencies to better address the dynamic cyber threat environment collectively. The plan recommends actions that substantively advance operational cybersecurity improvements and alignment goals. \nFor additional guidance, visit CISA’s Securing Networks web page.",
-          "link": "https://www.cisa.gov/news-events/alerts/2024/09/16/new-cisa-plan-aligns-federal-agencies-cyber-defense",
-          "publishedOn": "2024-09-16T12:00:00.000Z",
-          "wordCount": 612,
-          "title": "New CISA Plan Aligns Federal Agencies in Cyber Defense",
-          "imageUrl": null
-        },
-        {
-          "id": "/node/22212",
-          "author": "CISA",
-          "description": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.\nCVE-2024-43461 Microsoft Windows MSHTML Platform Spoofing Vulnerability\nCVE-2024-6670 Progress WhatsUp Gold SQL Injection Vulnerability\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.\nAlthough BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.",
-          "link": "https://www.cisa.gov/news-events/alerts/2024/09/16/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-          "publishedOn": "2024-09-16T12:00:00.000Z",
-          "wordCount": 678,
-          "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-          "imageUrl": null
         }
       ]
     },
@@ -2490,6 +2522,16 @@
       "feedUrl": "https://jvn.jp/rss/jvn.rdf",
       "siteUrl": "https://jvn.jp/",
       "articles": [
+        {
+          "id": "https://jvn.jp/vu/JVNVU99648278/",
+          "author": "jvn@jvn.jp",
+          "description": "Schneider Electricが提供するData Center Expertには、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU99648278/",
+          "publishedOn": "2024-10-16T02:15:00.000Z",
+          "wordCount": 82,
+          "title": "Schneider Electric製Data Center Expertにおける複数の脆弱性",
+          "imageUrl": null
+        },
         {
           "id": "https://jvn.jp/vu/JVNVU98330908/",
           "author": "jvn@jvn.jp",
@@ -2954,6 +2996,16 @@
       "siteUrl": "https://ja.wordpress.org",
       "articles": [
         {
+          "id": "https://ja.wordpress.org/?p=7478",
+          "author": "Akira Tachibana",
+          "description": "以下は WordPress.org 公式ブログの記事「WordPress 6.7 Beta 3」の翻訳です。 誤字脱字誤訳などありましたらフォーラムまでお知らせください。 WordPress 6.7ベータ3がリリースされ […]",
+          "link": "https://ja.wordpress.org/2024/10/15/wordpress-6-7-beta-3/",
+          "publishedOn": "2024-10-15T14:05:36.000Z",
+          "wordCount": 1960,
+          "title": "WordPress 6.7 ベータ3",
+          "imageUrl": "https://s.w.org/images/home/wordpress-default-ogimage.png"
+        },
+        {
           "id": "https://ja.wordpress.org/?p=7473",
           "author": "Akira Tachibana",
           "description": "以下は WordPress.org 公式ブログでの Matt Mullenweg 氏による記事「Secure Custom Fields」を訳したものです。誤字脱字誤訳などありましたらフォーラムまでお知らせください。 W […]",
@@ -2996,6 +3048,56 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/10/16/51768.html",
+          "author": null,
+          "description": "一部の詐欺師は AI 支援型のソーシャルエンジニアリングツールを使用しており、ディープフェイクを使用した破壊的攻撃の可能性もあるが「一般的にこの技術は、大半のサイバー犯罪者が求めるような高い投資収益率を期待できるものではない」と彼女は言った。「私は 3 文字表記の機関に友人や接点がありますが、彼らによると、国家による攻撃はディープフェイクの作成からは目を背け、電話を使った、より伝統的ボイスフィッシングの手法に戻りつつあるようです」とデニス氏は述べた。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/10/16/51768.html",
+          "publishedOn": "2024-10-15T23:10:03.000Z",
+          "wordCount": 1107,
+          "title": "「夢は俳優」「ソーシャルエンジニアリングなら対面」「疑いさえ抱かせない」ペネトレーションテスターのプライドと成功 そして失敗",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46398.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/10/16/51767.html",
+          "author": null,
+          "description": "タリーズコーヒージャパン株式会社は10月3日、同社が運営する「タリーズ オンラインストア」への不正アクセスによる個人情報漏えいの可能性について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/10/16/51767.html",
+          "publishedOn": "2024-10-15T23:05:10.000Z",
+          "wordCount": 984,
+          "title": "「タリーズ オンラインストア」への不正アクセス、92,685 名の会員情報と 52,958 名のカード情報が漏えいの可能性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46383.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/10/16/51766.html",
+          "author": null,
+          "description": "福岡県芦屋町は10月1日、同町職員の懲戒処分について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/10/16/51766.html",
+          "publishedOn": "2024-10-15T23:05:06.000Z",
+          "wordCount": 959,
+          "title": "停職 3 月の懲戒処分 ～ 通知書未送付が発覚しないよう不正アクセス 他",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46375.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/10/16/51765.html",
+          "author": null,
+          "description": "東京都大田区は10月2日、同区が複数の子育て支援施設の運営を委託しているライクキッズ株式会社へのランサムウェア攻撃について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/10/16/51765.html",
+          "publishedOn": "2024-10-15T23:05:02.000Z",
+          "wordCount": 962,
+          "title": "ライクキッズへのランサムウェア攻撃、大田区も区立保育園他 19 施設の運営を委託",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46342.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/10/16/51764.html",
+          "author": null,
+          "description": "セコムトラストシステムズ株式会社は10月15日、同社が提供する「セコムあんしん勤怠管理サービス KING OF TIME Edition」と株式会社パイ・アールのクラウド型アルコールチェックシステム「アルキラーNEX」がサービス連携すると発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/10/16/51764.html",
+          "publishedOn": "2024-10-15T23:00:04.000Z",
+          "wordCount": 949,
+          "title": "「セコムあんしん勤怠管理サービス KING OF TIME Edition」とクラウド型アルコールチェックシステム「アルキラーNEX」が連携",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46397.jpg"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2024/10/15/51763.html",
           "author": null,
@@ -4384,6 +4486,26 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2410/16/news131.html",
+          "author": null,
+          "description": "2023年4月に解禁された給与を電子マネーで受け取れる「賃金のデジタル払い」について、約9割の企業が「導入予定はない」と回答したことが10月16日、帝国データバンクの調査で分かった。",
+          "link": "https://www.itmedia.co.jp/news/articles/2410/16/news131.html",
+          "publishedOn": "2024-10-16T05:40:00.000Z",
+          "wordCount": 2551,
+          "title": "賃金のデジタル払い、約9割の企業「導入予定ない」　業務負担やセキュリティに懸念",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2410/16/cover_news131.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2410/15/news180.html",
+          "author": null,
+          "description": "情報処理推進機構（IPA）は、約1年後にサポートが終了するWindows 10に関する注意喚起を発表した。",
+          "link": "https://www.itmedia.co.jp/news/articles/2410/15/news180.html",
+          "publishedOn": "2024-10-15T08:47:00.000Z",
+          "wordCount": 2848,
+          "title": "Windows 10のサポート終了まで“あと1年”　IPAが注意喚起　「速やかな最新版への移行を」",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2410/15/cover_news180.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2410/13/news077.html",
           "author": null,
           "description": "「ポケットモンスター」シリーズの開発元として知られるゲームフリークから大規模な情報流出があったとSNSなどで騒ぎになっている。ゲームフリークは10日付で個人情報の漏えいを明らかにした。",
@@ -4810,6 +4932,136 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/event/1631651.html",
+          "author": "大河原 克行",
+          "description": "CEATEC 2024の開催初日には、会場を視察する電機大手の経営トップたちの姿が見られた。",
+          "link": "https://internet.watch.impress.co.jp/docs/event/1631651.html",
+          "publishedOn": "2024-10-16T07:30:00.000Z",
+          "wordCount": 5061,
+          "title": "経営トップがCEATECに続々来場、JEITA 津賀会長と自工会 片山会長のツーショットも【CEATEC 2024】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1631/651/220.JPG"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/event/1631742.html",
+          "author": "正田 拓也",
+          "description": "10月15日～18日に幕張メッセで開催されている「CEATEC 2024」に、エゾウィンは測定誤差12cmという位置情報端末で農業DXをサポートする「Reposaku（レポサク）」を展示した。",
+          "link": "https://internet.watch.impress.co.jp/docs/event/1631742.html",
+          "publishedOn": "2024-10-16T06:27:24.000Z",
+          "wordCount": 5012,
+          "title": "誤差12cm・1秒ごとの位置情報で農業をDX、エゾウィンが「みちびき」活用端末を展示【CEATEC 2024】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1631/742/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/event/1631667.html",
+          "author": "正田 拓也",
+          "description": "10月15日～18日に幕張メッセで開催されている「CEATEC 2024」に、トリマティスは「水中フュージョンセンサ」を展示した。これは、水中で可視光レーザーによる3Dデータを計測とともに、カメラの映像を融合することで、海中の見える化を推進するものになるという。",
+          "link": "https://internet.watch.impress.co.jp/docs/event/1631667.html",
+          "publishedOn": "2024-10-16T04:36:04.000Z",
+          "wordCount": 5015,
+          "title": "海中をフルカラー3Dで「見える化」！ソナーより高精度な水中LiDARをRGBレーザーとカラーカメラで！【CEATEC 2024】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1631/667/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1631602.html",
+          "author": "tks24",
+          "description": "メルカリでの出品にあたり、外部業者による真贋鑑定サービスが許可された状態が標準となるよう、設定が変更されたことが明らかになった。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1631602.html",
+          "publishedOn": "2024-10-16T03:30:00.000Z",
+          "wordCount": 4569,
+          "title": "偽ブランド品対策に効果あり？ メルカリ、「あんしん鑑定」をデフォルト許可に変更へ【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1631/602/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1631591.html",
+          "author": "tks24",
+          "description": "Appleが「USB SuperDrive」の販売を終了した可能性を、海外メディア「MacRumors」が伝えている。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1631591.html",
+          "publishedOn": "2024-10-16T03:20:00.000Z",
+          "wordCount": 4584,
+          "title": "これも時代の流れ……Apple、外付け光学ドライブ「USB SuperDrive」の販売を終了か【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1631/591/yajiuma-watch_4.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/event/1631551.html",
+          "author": "大河原 克行",
+          "description": "CEATEC 2024のオープニングレセプションが、10月14日午後６時30分から、東京・丸の内のパレスホテル東京で開催された。",
+          "link": "https://internet.watch.impress.co.jp/docs/event/1631551.html",
+          "publishedOn": "2024-10-16T02:54:18.000Z",
+          "wordCount": 5081,
+          "title": "石破茂首相がCEATEC 2024にメッセージ「デジタル技術で『高付加価値創出型の経済』へ」【CEATEC 2024】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1631/551/36.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1631277.html",
+          "author": "大竹 莉子",
+          "description": "コクヨ株式会社は、同社のオフィス用電源供給アイテム「Energy Series」より、持ち運びにも便利なモバイルバッテリー「Energy bottle」を発売した。ブラックとライトグレーの2色展開で、価格はオープン。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1631277.html",
+          "publishedOn": "2024-10-15T23:30:00.000Z",
+          "wordCount": 5013,
+          "title": "水筒のような見た目で持ち運びも便利なモバイルバッテリー「Energy bottle」、コクヨが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1631/277/main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/event/1631515.html",
+          "author": "大河原 克行",
+          "description": "CEATEC 2024が、2024年10月15日、開幕した。",
+          "link": "https://internet.watch.impress.co.jp/docs/event/1631515.html",
+          "publishedOn": "2024-10-15T22:53:28.000Z",
+          "wordCount": 5041,
+          "title": "CEATEC 2024開幕、25周年を迎えた「デジタルイノベーションの総合展示会」【CEATEC 2024】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1631/515/752.JPG"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1630888.html",
+          "author": "松永 侑貴惠",
+          "description": "サンワサプライ株式会社は、USBポート付きの電源タップ「TAP-SP2110NUCシリーズ」を発売した。市場想定価格は、ケーブル長3mの「TAP-SP2110NUC-3」が7480円、2mの「TAP-SP2110NUC-2」が6600円、1mの「TAP-SP2110NUC-1」が6270円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1630888.html",
+          "publishedOn": "2024-10-15T22:30:00.000Z",
+          "wordCount": 5010,
+          "title": "アダプターが干渉しにくいACポート10個口、USBポートも備えた電源タップ「TAP-SP2110NUC」シリーズ、サンワサプライが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1630/888/00.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/event/1631514.html",
+          "author": "正田 拓也",
+          "description": "10月15日～18日に幕張メッセで「CEATEC 2024」が開催中。AIがテーマのひとつなる今回、TDKはスピントロニクス技術を使い、AIデバイスの消費電力を100分の1にするという「スピンメモリスタ」を展示した。",
+          "link": "https://internet.watch.impress.co.jp/docs/event/1631514.html",
+          "publishedOn": "2024-10-15T22:16:43.000Z",
+          "wordCount": 5010,
+          "title": "TDK、人間の脳のシナプスを真似たアナログ素子「スピンメモリスタ」でAIデバイスの消費電力1/100を実現【CEATEC 2024】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1631/514/02.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1630958.html",
+          "author": null,
+          "description": "長崎県五島市は、同市でワーケーションイベント「GO TO connect mind」を開催する。3泊4日で2回に分けて行われ、1回目は11月24日〜27日、2回目は11月27日〜30日。定員は各回25人程度。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1630958.html",
+          "publishedOn": "2024-10-15T21:30:00.000Z",
+          "wordCount": 5021,
+          "title": "長崎・五島列島の自然を楽しめるワーケーションイベント「GO TO connect mind」、11月下旬に開催",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1630/958/main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/chizu/1631329.html",
+          "author": "片岡 義明",
+          "description": "株式会社ゼンリンは、47都道府県の形をしたピンバッジ（ピンズ）全てをそろえてフレームに並べた「全国セット」の受注生産を開始した。予約受付は11月4日までで、発送は2025年1月中旬を予定している。価格は5万5000円。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/chizu/1631329.html",
+          "publishedOn": "2024-10-15T21:00:00.000Z",
+          "wordCount": 5085,
+          "title": "ゼンリン、都道府県の形をしたピンバッジ全47個セットを発売。フレーム入り【地図ウォッチ】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1631/329/zenrin11_main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/event/1631401.html",
+          "author": "正田 拓也",
+          "description": "日本電気株式会社（NEC）は「持続可能な社会・産業を支える 」というコンセプトでCEATEC 2024に出展し、各課題に対する具体的なソリューションを展示しているが、なかでも動画からAIが報告書を作成するソリューション「産業DX 推進と業務効率化を実現するNECの映像認識×生成AI」がCEATEC AWARD 2024 25周年特別賞を受賞した。",
+          "link": "https://internet.watch.impress.co.jp/docs/event/1631401.html",
+          "publishedOn": "2024-10-15T08:01:32.000Z",
+          "wordCount": 5019,
+          "title": "長い動画を「短くまとめた文章」に、NECが「映像を要約してまとめる」AIサービスをデモ【CEATEC 2024】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1631/401/01.jpg"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/event/1631352.html",
           "author": "松永 侑貴惠",
@@ -6894,6 +7146,46 @@
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
         {
+          "id": "https://news.mynavi.jp/techplus/article/20241016-3045194/",
+          "author": null,
+          "description": "OpenAIはこのほど、2024年10月の脅威インテリジェンスレポートを発表した。レポートでは生成AIの悪用の傾向、脅威アクターの活動阻止とアカウント停止などを伝えており、中国を拠点とする脅威アクター「SweetSpecter」と疑われる活動を阻止したことが明らかにされている。",
+          "link": "https://news.mynavi.jp/techplus/article/20241016-3045194/",
+          "publishedOn": "2024-10-15T23:34:05.000Z",
+          "wordCount": 1808,
+          "title": "OpenAI、中国を拠点とする脅威アクター「SweetSpecter」と疑われる活動阻止",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20241016-3045194/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20241015-3045091/",
+          "author": null,
+          "description": "カシオ計算機は10月11日、ランサムウェアによる個人情報の漏洩が確認されたと発表した。この不正アクセスは10月8日に第1報が報じられ、当時は個人情報の漏洩を確認していないと公表していた。漏洩した情報は従業員情報、一部の顧客に関する情報(クレジットカードを除く)など多岐にわたる。",
+          "link": "https://news.mynavi.jp/techplus/article/20241015-3045091/",
+          "publishedOn": "2024-10-15T08:19:49.000Z",
+          "wordCount": 1703,
+          "title": "カシオ計算機のランサムウェア被害、個人情報が漏洩",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20241015-3045091/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20241015-3030789/",
+          "author": null,
+          "description": "特殊詐欺の件数と被害額は増加傾向にあり、犯行の最初に用いられたツールとしては、電話が最も多い。そんな中、トレンドマイクロとNTTタウンページは、職業別電話帳であるタウンページに掲載された情報を活用したセキュリティサービス「詐欺電話ブロックサービス」の提供を発表した。そこで、両者にサービスの仕組みやサービス提供の狙い、効果について聞いた。",
+          "link": "https://news.mynavi.jp/techplus/article/20241015-3030789/",
+          "publishedOn": "2024-10-15T03:15:12.000Z",
+          "wordCount": 2022,
+          "title": "タウンページの情報を活用したトレンドマイクロの特殊詐欺防止サービスとは？",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20241015-3030789/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20241015-3042004/",
+          "author": null,
+          "description": "Abnormal Securityはこのほど、医療業界へのベンダーメール詐欺(VEC: Vendor Email Compromise)が増加しているとして、注意を喚起した。過去1年間で60%の増加を記録したという。",
+          "link": "https://news.mynavi.jp/techplus/article/20241015-3042004/",
+          "publishedOn": "2024-10-15T01:09:44.000Z",
+          "wordCount": 2921,
+          "title": "医療を狙うメール詐欺が増加、生成AIで口調をまねる",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20241015-3042004/ogp_images/ogp.jpg"
+        },
+        {
           "id": "https://news.mynavi.jp/techplus/article/20241015-3043198/",
           "author": null,
           "description": "Microsoftはこのほど、Windowsのパスキーがシンプルで直感的に使用できるようになると発表した。新しく追加予定の機能は、「サードパーティーのパスキープロバイダー向けプラグイン」、「パスキーのネイティブユーザー体験(UX: User eXperience)の強化」、「Microsoft同期パスキープロバイダー」の3つ。",
@@ -7772,16 +8064,6 @@
           "wordCount": 1807,
           "title": "Androidマルウェアが多要素認証(MFA)を回避、アジアをサイバー攻撃",
           "imageUrl": "https://news.mynavi.jp/techplus/article/20240917-3024649/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20240916-3023879/",
-          "author": null,
-          "description": "ReversingLabsはこのほど、北朝鮮の国家支援を受けているとみられる脅威グループ「Lazarus Group」による進行中のマルウェア配布キャンペーンを発見したと報じた。このキャンペーンでは大手金融サービス企業の採用担当者を名乗る攻撃者が、能力テストとして技術者にマルウェアローダーを配布したとされる。",
-          "link": "https://news.mynavi.jp/techplus/article/20240916-3023879/",
-          "publishedOn": "2024-09-16T08:36:32.000Z",
-          "wordCount": 2947,
-          "title": "採用試験でPythonコードを実行するとマルウェアに感染、新しい攻撃手口",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20240916-3023879/ogp_images/ogp.jpg"
         }
       ]
     }
