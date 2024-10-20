@@ -2,10 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-10-19T08:13:49.859Z</updated>
+    <updated>2024-10-20T08:14:17.510Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[EV車狙う、QRコード詐欺(クイッシング)が増加中]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20241019-3047075/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20241019-3047075/"/>
+        <updated>2024-10-19T05:05:34.000Z</updated>
+        <summary type="html"><![CDATA[ESETは10月15日(現地時間)、電気自動車のオーナーを標的にしたQRコード詐欺(クイッシング)に注意を喚起した。主にEV充電スタンドの支払い用QRコードを差し替える詐欺が横行しているという。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[「CEATEC 2024」閉幕、昨年比25.8％増の11万2千人が来場]]></title>
         <id>https://internet.watch.impress.co.jp/docs/news/1632752.html</id>
@@ -3977,6 +3987,16 @@ CISA encourages users and administrators to review the following and apply neces
 Microsoft Security Update Guide for October]]></summary>
         <author>
             <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「情報セキュリティサービス基準適合サービスリスト」にサービスを追加しました]]></title>
+        <id>https://www.ipa.go.jp/security/service_list.html</id>
+        <link href="https://www.ipa.go.jp/security/service_list.html"/>
+        <updated>2024-10-08T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「情報セキュリティサービス基準適合サービスリスト」に関する情報です。]]></summary>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
         </author>
     </entry>
     <entry>
@@ -10403,355 +10423,6 @@ GooseEggは、ロシアを拠点とする攻撃者グループForest Blizzardが
         <summary type="html"><![CDATA[Group-IBはこのほど、脅威アクター「TeamTNT」が実施中と推測される新しいサイバー攻撃を発見したと伝えた。この攻撃では仮想専用サーバ(VPS)上に構築されたCentOSサーバを標的にし、初期アクセスはSSHへのブルートフォース攻撃とされる]]></summary>
         <author>
             <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Versa Networks Releases Advisory for a Vulnerability in Versa Director, CVE-2024-45229]]></title>
-        <id>/node/22262</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2024/09/20/versa-networks-releases-advisory-vulnerability-versa-director-cve-2024-45229"/>
-        <updated>2024-09-20T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Versa Networks has released an advisory for a vulnerability (CVE-2024-45229) affecting Versa Director. A cyber threat actor could exploit this vulnerability to exercise unauthorized REST APIs.
-CISA urges organizations to apply necessary updates, hunt for any malicious activity, report any positive findings to CISA, and review the following for more information:
-Versa Advisory]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[見出しでわかる IT界隈・今週の重要ニュース：全53本［2024/9/12～9/18］]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/weekly/1625242.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/weekly/1625242.html"/>
-        <updated>2024-09-20T10:00:00.000Z</updated>
-        <summary type="html"><![CDATA[「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。]]></summary>
-        <author>
-            <name>中島 由弘</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Googleパスワードマネージャー、WindowsやMacでパスキー同期を実現]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20240920-3028945/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20240920-3028945/"/>
-        <updated>2024-09-20T09:18:32.000Z</updated>
-        <summary type="html"><![CDATA[Googleは9月19日(米国時間)、Windows、Mac、Linux、Android、ChromeOS(ベータテスト中)からGoogleパスワードマネージャーにパスキーを保存できるようになったと発表した。パスキーを保存するとデバイス間で自動的に同期され、パスワードなしでサインインできるようになる。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Acrobat Reader にリモートコード実行につながる脆弱性：Microsoft 社が Windows API の情報漏洩問題を修正]]></title>
-        <id>https://gblogs.cisco.com/jp/?p=52564</id>
-        <link href="https://gblogs.cisco.com/jp/2024/09/talos-vulnerability-roundup-sept-11-2024/"/>
-        <updated>2024-09-20T08:43:38.000Z</updated>
-        <summary type="html"><![CDATA[Cisco Talos の脆弱性調査チームは、ここ数週間で 2 件の脆弱性が公開され、修正されていることを明らかにしました。
-The post Acrobat Reader にリモートコード実行につながる脆弱性：Microsoft 社が Windows API の情報漏洩問題を修正 appeared first on Cisco Japan Blog.]]></summary>
-        <author>
-            <name>TALOS Japan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[USB給電式ヒーター内蔵の「あったかムートンブーツ」、サンコーが発売]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1625257.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1625257.html"/>
-        <updated>2024-09-20T08:30:00.000Z</updated>
-        <summary type="html"><![CDATA[サンコー株式会社は9月18日、「ヒーターでしっかり保温『あったかムートンブーツ』」（MUTN24S）を発売した。直販サイト「THANKO」での販売価格は4980円。また、5000mAhのモバイルバッテリー2個とのセットが7980円で販売されている。]]></summary>
-        <author>
-            <name>大東 奈央</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SEO のランキングを操作する中国系サービスプロバイダー、DragonRank]]></title>
-        <id>https://gblogs.cisco.com/jp/?p=52558</id>
-        <link href="https://gblogs.cisco.com/jp/2024/09/talos-dragon-rank-seo-poisoning/"/>
-        <updated>2024-09-20T08:25:37.000Z</updated>
-        <summary type="html"><![CDATA[重要なポイントCisco Talos が「DragonRank」という新たな脅威を公表しています。主にアジア諸国とヨーロッパの数か国を標的とし、PlugX と BadIIS を利用して SEO（検索エンジンの最適化）のランキングを操作しています。
-The post SEO のランキングを操作する中国系サービスプロバイダー、DragonRank appeared first on Cisco Japan Blog.]]></summary>
-        <author>
-            <name>TALOS Japan</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【はじめてのOSS開発】~Grafana FIAPデータソースプラグイン~ ①FIAPって何？]]></title>
-        <id>https://tech-lab.sios.jp/?p=42938</id>
-        <link href="https://tech-lab.sios.jp/archives/42938"/>
-        <updated>2024-09-20T07:21:10.000Z</updated>
-        <summary type="html"><![CDATA[最初に こんにちは、tinaです。 このブログでは、私が今年力をいれているプロジェクトについて紹介します。 現在、2つのOSSの開発を行っています。 目的は、FIAP(別名 IEEE1888, UGCCNet) というI ...
-【はじめてのOSS開発】~Grafana FIAPデータソースプラグイン~ ①FIAPって何？ first appeared on SIOS Tech. Lab.]]></summary>
-        <author>
-            <name>tina</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[トピックス][Call For BoF]Internet Week 2024におけるBoFの募集について]]></title>
-        <id>https://www.nic.ad.jp/ja/topics/2024/20240920-01.html</id>
-        <link href="https://www.nic.ad.jp/ja/topics/2024/20240920-01.html"/>
-        <updated>2024-09-20T07:15:52.000Z</updated>
-        <summary type="html"><![CDATA[2024年9月20日
-各位
-[Call For BoF]Internet Week 2024におけるBoFの募集について
-Webサイトをぜひご覧ください。
-            
-BoF開催趣旨
-BoF開催の方針
-BoF開催のための注意事項
-募集要項
-Room 0 (最大収容人数：102名)
-Room 4 (最大収容人数：63名)
-Room 0 (最大収容人数：102名)
-Room 4 (最大収容人数：63名)
-PA機器
-プロジェクタ、スクリーンに相当するもの
-プレゼンテーション用のネットワーク環境
-iw-info@nic.ad.jp
-              
-https://forms.gle/KvfxF3Xy5DeWPXxB8
-                
-iw-info@nic.ad.jp
-                までお知らせください。
-              
-以上]]></summary>
-        <author>
-            <name>JPNIC Web</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NextorageのUHS-II対応高速SD/microSDカードが安い！　Amazonセール情報　読み出し最大280MB/sのmicroSDカードが6282円から]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1625240.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1625240.html"/>
-        <updated>2024-09-20T06:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazon.co.jpのNextorageストアページでは現在、同社のUHS-II対応のSD/microSDカードがセール中だ。]]></summary>
-        <author>
-            <name>アイティースリー</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[LIXILとKWORKSが共同開発、アウトドア以外でも“365日活用できる”キャンピングカー「MIO SPACE」が予約受付開始　9月28日・29日の「名古屋キャンピングカーフェア2024」にて初公開]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1625245.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1625245.html"/>
-        <updated>2024-09-20T05:30:00.000Z</updated>
-        <summary type="html"><![CDATA[株式会社LIXILと株式会社ケイワークス（KWORKS）は、「家でもアウトドアでも365日活用できるムービングルーム」をコンセプトとしたキャンピングカー「MIO SPACE」（ミオ スペース）の予約受付を、9月28日より開始する。]]></summary>
-        <author>
-            <name>大東 奈央</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「CEATEC 2024」概要を発表、特別企画「AI for All」に23社が出展、講演にはOpenAI Japan社長らも　10月15日～18日に幕張で開催]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1625207.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1625207.html"/>
-        <updated>2024-09-20T04:15:00.000Z</updated>
-        <summary type="html"><![CDATA[CEATEC 2024が、2024年10月15日から18日までの4日間、千葉県千葉市の幕張メッセで開催される。その概要が、主催者である一般社団法人電子情報技術産業協会（JEITA）から発表された。]]></summary>
-        <author>
-            <name>大河原 克行</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[フロントエンドで完結する簡易的なAPIモック作成について]]></title>
-        <id>https://tech-lab.sios.jp/?p=43143</id>
-        <link href="https://tech-lab.sios.jp/archives/43143"/>
-        <updated>2024-09-20T03:48:34.000Z</updated>
-        <summary type="html"><![CDATA[挨拶 ども！こんにちは「デモ開発」が連続で続いていて、デッドヒートの波に乗っている龍ちゃんです。一件は完了しているので、記事の共有をしておきます。最近はサムネイルの作りに凝っています。：「生成AI×LINE」で作るチャッ ...
-フロントエンドで完結する簡易的なAPIモック作成について first appeared on SIOS Tech. Lab.]]></summary>
-        <author>
-            <name>龍：Ryu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ただのテンキーじゃない！ 最新のプログラマブルテンキーが進化してめちゃ便利になっていた件 【テレワークグッズ・ミニレビュー 第108回】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/column/teleworkgoods/1625068.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/column/teleworkgoods/1625068.html"/>
-        <updated>2024-09-20T03:12:00.000Z</updated>
-        <summary type="html"><![CDATA[最近はテレワークが広まったので、仕事用のPCとなれば基本はノートPCという人が多いだろう。しかし、ノートPCのキーボードはスペース的な制約もあって、フルサイズのキーボードと比べると、キー数が限られていたり、一部に小さいキーがあったりと、素早い操作や入力に向いていないこともある。]]></summary>
-        <author>
-            <name>正田 拓也</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Blog記事]APrIGF 2024報告]]></title>
-        <id>https://blog.nic.ad.jp/2024/10033/</id>
-        <link href="https://blog.nic.ad.jp/2024/10033/"/>
-        <updated>2024-09-20T03:00:00.000Z</updated>
-        <summary type="html"><![CDATA[2024年8月下旬に、アジア太平洋地域におけるインターネットガバナンスについて議論するフォーラムであるAPrIGF (Asia Pacific Regional Internet Governance Forum)が台湾で開催されました。APrIGF 024の開催概要や気になるセッションの内容を、詳しくお伝えします。]]></summary>
-        <author>
-            <name>JPNIC Web</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ネットの半分を人質に？　X、奥の手を使ってブラジルからのアクセスを回復させる【やじうまWatch】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1625145.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1625145.html"/>
-        <updated>2024-09-20T02:50:00.000Z</updated>
-        <summary type="html"><![CDATA[X（旧Twitter）が奥の手を使ってブラジルからのアクセスを回復させたことが海外で話題だ。]]></summary>
-        <author>
-            <name>tks24</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SBI証券、使いづらいと苦情続出の株アプリを旧バージョンへと戻す異例の措置【やじうまWatch】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1625144.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1625144.html"/>
-        <updated>2024-09-20T02:50:00.000Z</updated>
-        <summary type="html"><![CDATA[SBI証券が、リニューアルしたばかりの自社アプリについて、使いづらいというユーザーの苦情を受けて旧バージョンへと戻す異例の措置を取ったことが話題だ。]]></summary>
-        <author>
-            <name>tks24</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[複数のRockwell Automation製品におけるデータの信頼性確認が不十分な脆弱性]]></title>
-        <id>https://jvn.jp/vu/JVNVU90296612/</id>
-        <link href="https://jvn.jp/vu/JVNVU90296612/"/>
-        <updated>2024-09-20T02:45:30.000Z</updated>
-        <summary type="html"><![CDATA[Rockwell Automationが提供する複数の製品には、データの信頼性確認が不十分な脆弱性が存在します。]]></summary>
-        <author>
-            <name>jvn@jvn.jp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[MegaSys Computer Technologies製Telenium Online Web Applicationにおける不適切な入力検証の脆弱性]]></title>
-        <id>https://jvn.jp/vu/JVNVU97905990/</id>
-        <link href="https://jvn.jp/vu/JVNVU97905990/"/>
-        <updated>2024-09-20T02:45:15.000Z</updated>
-        <summary type="html"><![CDATA[MegaSys Computer Technologiesが提供するTelenium Online Web Applicationには、不適切な入力検証の脆弱性が存在します。]]></summary>
-        <author>
-            <name>jvn@jvn.jp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Kastle Systems製Access Control Systemにおける複数の脆弱性]]></title>
-        <id>https://jvn.jp/vu/JVNVU97683630/</id>
-        <link href="https://jvn.jp/vu/JVNVU97683630/"/>
-        <updated>2024-09-20T02:45:00.000Z</updated>
-        <summary type="html"><![CDATA[Kastle Systemsが提供するAccess Control Systemには、複数の脆弱性が存在します。]]></summary>
-        <author>
-            <name>jvn@jvn.jp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GoogleドライブでChatGPTを使っているかどうかを調べる方法]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20240920-3027512/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20240920-3027512/"/>
-        <updated>2024-09-20T00:41:27.000Z</updated>
-        <summary type="html"><![CDATA[The Hacker Newsは9月17日(現地時間)、GoogleドライブとChatGPTの連携を有効にしているかどうかを確認する方法について説明した。企業において、従業員による許可のないサービスの連携はセキュリティリスクになると指摘されている。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[システムスクエアに外部からサイバー攻撃、サーバの一部に被害]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/09/20/51643.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/09/20/51643.html"/>
-        <updated>2024-09-20T00:35:02.000Z</updated>
-        <summary type="html"><![CDATA[株式会社システムスクエアは9月9日、同社への不正アクセスについて発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[政府と企業、なりすましメール対策日米比較]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/09/20/51642.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/09/20/51642.html"/>
-        <updated>2024-09-20T00:30:08.000Z</updated>
-        <summary type="html"><![CDATA[日本プルーフポイント株式会社は9月5日、2024年8月に実施した日経225企業および米国のFortune1000企業、日米政府におけるなりすましメール対策の状況についての調査結果を発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「CyberSakura2024 行動指針」公開、違反した場合は参加取り消しも]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/09/20/51641.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/09/20/51641.html"/>
-        <updated>2024-09-20T00:30:04.000Z</updated>
-        <summary type="html"><![CDATA[CyberSakuraは9月5日、「CyberSakura2024 行動指針」を公開した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WindLDRおよびWindO/I-NV4おける重要な情報の平文保存の脆弱性]]></title>
-        <id>https://jvn.jp/jp/JVN08342147/</id>
-        <link href="https://jvn.jp/jp/JVN08342147/"/>
-        <updated>2024-09-20T00:30:00.000Z</updated>
-        <summary type="html"><![CDATA[IDEC株式会社が提供するWindLDRおよびWindO/I-NV4には、重要な情報の平文保存の脆弱性が存在します。]]></summary>
-        <author>
-            <name>jvn@jvn.jp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[車の後部座席で動画が楽しめるヘッドレストモニター「200-CAR112S」、サンワサプライが発売。2台セットも]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1624993.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1624993.html"/>
-        <updated>2024-09-20T00:30:00.000Z</updated>
-        <summary type="html"><![CDATA[サンワサプライ株式会社は、10.1インチの車載モニター「200-CAR112S」と、2台同時視聴できる「200-CAR112D」（親機・子機の2台セット）を発売した。直販サイト「サンワダイレクト」の販売価格は、それぞれ1万6800円と2万3800円。]]></summary>
-        <author>
-            <name>木下 明音</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TP-LINK製ルータなど数十万台のデバイスの侵害発見、サイバー攻撃の兆候か]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20240920-3028236/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20240920-3028236/"/>
-        <updated>2024-09-20T00:10:20.000Z</updated>
-        <summary type="html"><![CDATA[Lumen Technologiesは9月18日(米国時間)、中国の国家支援を受けているとみられる脅威グループ「Flax Typhoon」が4年以上かけて構築した多層ボットネット「Raptor Train」を発見したと報じた。ボットネットに組み込まれているデバイスは脆弱性を悪用して侵害された数十万台のデバイスと推測されている。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Technical Community Coalition for Multistakeholderism（TCCM）が公式Webサイトを開設]]></title>
-        <id>https://jprs.jp/whatsnew/</id>
-        <link href="https://jprs.jp/whatsnew/"/>
-        <updated>2024-09-20T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[JPドメイン名の登録管理業務とDNSの運用を行っている株式会社日本レジストリサービス(JPRS)による、JPドメイン名サービス総合案内サイトです。]]></summary>
-        <author>
-            <name>JPRS最新情報</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[中小Slerの43％が人材不足を実感も、半数以上がリモート管理サービスを利用していない～バッファロー調査]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1624939.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1624939.html"/>
-        <updated>2024-09-19T23:30:00.000Z</updated>
-        <summary type="html"><![CDATA[株式会社バッファローは9月18日、同社が実施した「中小Slerの業務負担に関する実態調査」の結果を発表した。調査対象の43％が業務量に対するネットワーク人材の不足を実感している一方、半数以上がリモート管理サービスを利用しておらず、利用しない理由として料金の高さを挙げてる意見が最も多いことが分かった。]]></summary>
-        <author>
-            <name>大竹 莉子</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[67000mAhの大容量、ハンドル一体型のモバイルバッテリー「BTL-RDC36」、サンワサプライが発売　専用充電トレイで2台同時に充電可能]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1624892.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1624892.html"/>
-        <updated>2024-09-19T22:30:00.000Z</updated>
-        <summary type="html"><![CDATA[サンワサプライ株式会社は9月17日、ハンドル一体型モバイルバッテリー「BTL-RDC36」を発売した。市場想定価格は9万9000円。同時に、2台のBTL-RDC36を同時に充電可能な専用充電トレイ「BTL-RDC36CTR」（市場想定価格2万7500円）も発売した。]]></summary>
-        <author>
-            <name>大東 奈央</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[iPhoneなどApple製品にセキュリティアップデート、合計96件の脆弱性修正]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20240920-3028225/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20240920-3028225/"/>
-        <updated>2024-09-19T22:10:00.000Z</updated>
-        <summary type="html"><![CDATA[Appleは9月16日(米国時間)、iPhone、iPad、Mac、Apple Watch、Apple TV、Apple Vision Pro、Xcodeなど複数の製品に複数の脆弱性が存在するとし、アップデートの配信を開始した。今回のセキュリティアップデートには合計96件の脆弱性に対する修正が含まれている。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[中小企業の7割が情シス業務を外部委託、理由は「専門人材の不足」が最多〜バッファロー調査]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1624937.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1624937.html"/>
-        <updated>2024-09-19T21:30:00.000Z</updated>
-        <summary type="html"><![CDATA[株式会社バッファローは9月18日、中小企業を対象に同社が実施した「情シス業務の外部委託に関する実態調査」の結果を発表した。調査対象の70.3％で情シス業務を外部委託しており、理由の最多は「専門的知識・スキルを持つ人材が社内にいないから」だった。]]></summary>
-        <author>
-            <name>木下 明音</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TP-Link、コンセント埋め込み型Wi-Fi 6アクセスポイントの新モデル発売]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1624990.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1624990.html"/>
-        <updated>2024-09-19T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[ティーピーリンクジャパン株式会社（TP-Link）は、建物のコンセント用スペースに埋め込むWi-Fi 6アクセスポイント2製品を発売した。PoE給電タイプの「EAP655-WE」とAC給電タイプの「EAP655-WE-AC」で、市場想定価格はどちらも2万3900円。]]></summary>
-        <author>
-            <name>大竹 莉子</name>
         </author>
     </entry>
     <entry>
