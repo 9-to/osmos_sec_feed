@@ -379,6 +379,16 @@
       "siteUrl": "https://www.ipa.go.jp/about/index.html",
       "articles": [
         {
+          "id": "https://www.ipa.go.jp/shiken/kubun/sg/example/sg-government.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「情報セキュリティマネジメント試験の官公庁・自治体等における活用事例」に関する情報です。",
+          "link": "https://www.ipa.go.jp/shiken/kubun/sg/example/sg-government.html",
+          "publishedOn": "2024-10-27T15:00:00.000Z",
+          "wordCount": 363,
+          "title": "情報セキュリティマネジメント試験の活用事例を更新しました（独立行政法人都市再生機構）",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
           "id": "https://www.ipa.go.jp/about/ipanews/index.html",
           "author": "情報処理推進機構（IPA）",
           "description": "情報処理推進機構（IPA）の「IPA NEWS」に関する情報です。",
@@ -1189,6 +1199,26 @@
       "feedUrl": "https://tech-lab.sios.jp/feed",
       "siteUrl": "https://tech-lab.sios.jp",
       "articles": [
+        {
+          "id": "https://tech-lab.sios.jp/?p=43903",
+          "author": "小野晴生",
+          "description": "はじめに こんにちはサイオステクノロジーの小野です。前回はOpenShift AIの概要について簡単に説明しました。今回はOpenShiftのノードの追加方法について解説します。OpenShift AIを利用するためには ...\nOpenShift（AWS）へのノード追加 first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/43903",
+          "publishedOn": "2024-10-28T07:01:13.000Z",
+          "wordCount": 2476,
+          "title": "OpenShift（AWS）へのノード追加",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2024/10/4c85c234076325c638e2c305400f29d6.jpg"
+        },
+        {
+          "id": "https://tech-lab.sios.jp/?p=43942",
+          "author": "やまなか",
+          "description": "CI/CD の導入は現代のアプリケーション開発において不可欠な要素となっています。前回の記事では、CI 部分を担う OpenShift Pipelines について解説しました。続いて、本記事では CD 部分を担う Op ...\nRed Hat OpenShift GitOps とは？ first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/43942",
+          "publishedOn": "2024-10-28T05:29:27.000Z",
+          "wordCount": 2257,
+          "title": "Red Hat OpenShift GitOps とは？",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2024/10/OpenShiftgitops-blog-1.png"
+        },
         {
           "id": "https://tech-lab.sios.jp/?p=43925",
           "author": "細川",
@@ -2526,6 +2556,16 @@
       "siteUrl": "https://jvn.jp/",
       "articles": [
         {
+          "id": "https://jvn.jp/jp/JVN78335885/",
+          "author": "jvn@jvn.jp",
+          "description": "株式会社kubellが提供するChatworkデスクトップ版アプリ（Windows）には、潜在的に危険な機能の使用の脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN78335885/",
+          "publishedOn": "2024-10-28T03:00:00.000Z",
+          "wordCount": 117,
+          "title": "Chatworkデスクトップ版アプリ（Windows）における潜在的に危険な機能の使用の脆弱性",
+          "imageUrl": null
+        },
+        {
           "id": "https://jvn.jp/vu/JVNVU90620611/",
           "author": "jvn@jvn.jp",
           "description": "WiFi Allianceが提供するWi-Fi Test Suiteには、コマンドインジェクションの脆弱性が存在します。",
@@ -3022,6 +3062,106 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/10/28/51826.html",
+          "author": null,
+          "description": "なぜか、国産のセキュリティ製品となるととたんに導入のハードルが上がるんです。公的な研究所が作った技術をベースに国産で開発され、中身もわかっている製品であるにもかかわらず、「この製品は攻撃されても大丈夫なのか」とネガティブに見られがちです。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/10/28/51826.html",
+          "publishedOn": "2024-10-27T23:15:03.000Z",
+          "wordCount": 1151,
+          "title": "NICTサイバーセキュリティ研究所長 井上大介が考える 日本の「セキュリティ自給率」向上を生む好循環",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46520.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/10/28/51825.html",
+          "author": null,
+          "description": "本書には「セキュリティに携わることでその仕事によって社会を良い方向に変化させることができるばかりか、それに関わる人間も成長させ良い人に変える」というメッセージが事実を通じて例証されています。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/10/28/51825.html",
+          "publishedOn": "2024-10-27T23:10:03.000Z",
+          "wordCount": 1020,
+          "title": "ScanNetSecurity 創刊 26 周年記念キャンペーンのおしらせ（2）特典書籍「ランサムウェア追跡チーム」紹介",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46553.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/10/28/51824.html",
+          "author": null,
+          "description": "セキスイ健保組合は10月15日、再委託先からの個人情報漏えいの可能性について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/10/28/51824.html",
+          "publishedOn": "2024-10-27T23:05:09.000Z",
+          "wordCount": 947,
+          "title": "ヒロケイへのランサムウェア攻撃、セキスイ健保組合の個人情報が漏えいした可能性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46479.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/10/28/51823.html",
+          "author": null,
+          "description": "ホリーズ・カフェを運営する株式会社ホリーズは10月22日、サイバー攻撃による同社ホームページの改ざんについて発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/10/28/51823.html",
+          "publishedOn": "2024-10-27T23:05:06.000Z",
+          "wordCount": 951,
+          "title": "サーバ管理会社が旧バージョンの WordPress を利用し脆弱性悪用される",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46538.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/10/28/51822.html",
+          "author": null,
+          "description": "学習院女子大学は10月23日、不正アクセスによる迷惑メールの送信について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/10/28/51822.html",
+          "publishedOn": "2024-10-27T23:05:03.000Z",
+          "wordCount": 938,
+          "title": "学習院女子大学のメールアカウントに不正アクセス、1,553 件の迷惑メールを送信",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46532.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/10/28/51821.html",
+          "author": null,
+          "description": "一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は10月25日、Fortinet製FortiManagerにおける重要な機能に対する認証の欠如の脆弱性について発表した。影響を受けるシステムは以下の通り。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/10/28/51821.html",
+          "publishedOn": "2024-10-27T23:00:23.000Z",
+          "wordCount": 998,
+          "title": "Fortinet 製 FortiManager に重要な機能に対する認証の欠如の脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/10/28/51820.html",
+          "author": null,
+          "description": "AironWorks株式会社は10月11日、セキュリティインシデント発生後の対応に関する実態調査の結果を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/10/28/51820.html",
+          "publishedOn": "2024-10-27T23:00:19.000Z",
+          "wordCount": 904,
+          "title": "サイバー攻撃被害「遭遇前／遭遇後」変化 ～ ツールよりポリシーや専門部署が大事",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46484.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/10/28/51819.html",
+          "author": null,
+          "description": "Okta Japan株式会社とOpenID Foundationは10月17日、SaaSアプリケーションの新たなアイデンティティセキュリティ標準「IPSIE」の策定に向けたワーキンググループの結成を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/10/28/51819.html",
+          "publishedOn": "2024-10-27T23:00:15.000Z",
+          "wordCount": 928,
+          "title": "Okta と OpenID Foundation、SaaS アプリケーションの新たなアイデンティティセキュリティ標準「IPSIE」策定に向けワーキンググループ結成",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/10/28/51818.html",
+          "author": null,
+          "description": "株式会社スリーシェイクは10月11日、合同会社四国サートと自動脆弱性診断ツール「Securify」において、パートナー契約を締結したと発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/10/28/51818.html",
+          "publishedOn": "2024-10-27T23:00:10.000Z",
+          "wordCount": 917,
+          "title": "スリーシェイクと四国サートがパートナー契約を締結、自動脆弱性診断ツール「Securify」の展開を強化",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/10/28/51817.html",
+          "author": null,
+          "description": "日本セキュリティオペレーション協議会（ISOG-J）は10月17日、最新のITU-T勧告X.1060に準拠した「セキュリティ対応組織の教科書 第3.2版」を公開した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/10/28/51817.html",
+          "publishedOn": "2024-10-27T23:00:04.000Z",
+          "wordCount": 903,
+          "title": "「セキュリティ対応組織の教科書 第3.2版」公開、最新のセキュリティ動向や技術進歩を反映",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2024/10/25/51816.html",
           "author": null,
@@ -4896,6 +5036,96 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1634871.html",
+          "author": "松永 侑貴惠",
+          "description": "Raspberry Pi財団は、Hailo 8/8L AIアクセラレーター搭載のRaspberry Pi 5用の拡張基板「Raspberry Pi AI HAT+」2製品を発売する。日本では、株式会社スイッチサイエンスが近日中に販売開始の予定で、価格は26TOPS版の「RPI-SC1468」が2万350円、13TOPS版の「RPI-SC1430」が1万3310円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1634871.html",
+          "publishedOn": "2024-10-28T05:18:41.000Z",
+          "wordCount": 5062,
+          "title": "Raspberry Pi財団が、ラズパイ5向けのAIアクセラレーターを発売、日本でも近日発売　26TOPS版と13TOPS版の2種類",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1634/871/sub1.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/shopping/1634816.html",
+          "author": "アイティースリー",
+          "description": "Amazon.co.jpのパナソニックストアでは現在、同社の充電式ドリルドライバーがタイムセール中だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/shopping/1634816.html",
+          "publishedOn": "2024-10-28T04:57:06.000Z",
+          "wordCount": 4576,
+          "title": "パナソニック製充電式ドリルドライバーが安い！　Amazonタイムセール情報　21段階クラッチ搭載の「EZ7420」は1万1106円",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1634/816/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/shopping/1634813.html",
+          "author": "アイティースリー",
+          "description": "Amazon.co.jpのKindleストアでは現在、11月7日までの期間限定で「Kindle本（電子書籍）高額書籍セール」を開催中だ。普段は手の届かない高額書籍1000冊以上がラインアップされている。",
+          "link": "https://internet.watch.impress.co.jp/docs/shopping/1634813.html",
+          "publishedOn": "2024-10-28T04:45:37.000Z",
+          "wordCount": 4591,
+          "title": "高額電子書籍が最大50％OFF！　Amazon Kindleストアでキャンペーン実施中　「プロダクトマネジメントのすべて」などコンピュータ・IT書も",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1634/813/kindle1028.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1634761.html",
+          "author": "tks24",
+          "description": "スマホユーザーの4分の1はAI機能が役に立つとは考えておらず、また、約半数はAI機能のためにサブスク料金を支払う意思がないことが、調査によって明らかになった。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1634761.html",
+          "publishedOn": "2024-10-28T02:55:00.000Z",
+          "wordCount": 4581,
+          "title": "Apple Intelligence危うし？ スマホユーザーの4分の1が「AI機能は役に立たない」と厳しい評価【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1634/761/yajiuma-watch_4.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1634758.html",
+          "author": "tks24",
+          "description": "X（旧Twitter）が開発者向けAPIの利用料金を2倍に値上げすることを発表し、個人開発者の間で激震が走っている。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1634758.html",
+          "publishedOn": "2024-10-28T02:55:00.000Z",
+          "wordCount": 4570,
+          "title": "X（旧Twitter）、開発者向けAPIの基本料金を2倍に値上げ。個人開発者に激震【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1634/758/yajiuma-watch_3.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/event/1634528.html",
+          "author": "松永 侑貴惠",
+          "description": "10月15日～18日に幕張メッセで開催された「CEATEC 2024」では、「AIが日本にもたらす可能性やその未来展望について」をテーマに、さくらインターネットやPreferred Networksが参加するパネルディスカッションが行われた。",
+          "link": "https://internet.watch.impress.co.jp/docs/event/1634528.html",
+          "publishedOn": "2024-10-28T00:49:04.000Z",
+          "wordCount": 5039,
+          "title": "「AIが日本にもたらす可能性やその未来」、さくらインターネットとPreferred Networksはどう見るか？【CEATEC 2024】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1634/528/01.JPG"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1634682.html",
+          "author": "松永 侑貴惠",
+          "description": "長野県立科町は、コワーキングスペース「Lakeoffice女神湖」（長野県立科町大字芦田八ヶ野987 女神湖センター施設内）を11月18日～20日に無料開放する。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1634682.html",
+          "publishedOn": "2024-10-27T21:55:00.000Z",
+          "wordCount": 5047,
+          "title": "長野県立科町「Lakeoffice女神湖」無料開放、11月18日～20日は湖畔で高原テレワーク体験いかがですか？　新しい地方滞在のスタイルをアピール、越境学習の体験会も実施",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1634/682/tateshina14.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1634686.html",
+          "author": "松永 侑貴惠",
+          "description": "デザイナーのキャリアや働き方についての調査結果「ReDesigner Career Trend Report」を、UI/UXデザイン事業などを手掛ける株式会社グッドパッチが10月9日、公開した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1634686.html",
+          "publishedOn": "2024-10-27T21:45:00.000Z",
+          "wordCount": 5044,
+          "title": "デザイナーは「週0～2日出社」が理想？　3日以上で満足度が大きく低下　グッドパッチの「ReDesigner Career Trend Report」で明らかに",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1634/686/09.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/shimizu/1633708.html",
+          "author": "清水 理史",
+          "description": "バッファローからWi-Fi 7対応ルーターの新モデル「WXR9300BE6P」が発表された。サイズも控えめ、価格も控えめながら、6GHz帯320MHz幅やMLOといったWi-Fi 7ならではの機能、必要なリソースが詰め込まれた製品だ。10月下旬からの出荷の予定で、すでにAmazonなどで予約販売が開始されているが、本誌では一足先に実機をお借りできたので、その実力を検証してみた。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/shimizu/1633708.html",
+          "publishedOn": "2024-10-27T21:00:00.000Z",
+          "wordCount": 5170,
+          "title": "バッファロー「WXR9300BE6P」、過剰さを抑え、Wi-Fi 7なのにコンパクトかつ軽量。3万円台でMLOを堪能できる優秀なモデル！【イニシャルB】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1633/708/001.JPG"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/1634481.html",
           "author": "松永 侑貴惠",
@@ -7828,16 +8058,6 @@
           "wordCount": 2886,
           "title": "ランサムウェア攻撃が疑われる際のWindowsイベントログの特徴 - JPCERT/CC",
           "imageUrl": "https://news.mynavi.jp/techplus/article/20240930-3033150/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20240928-3033106/",
-          "author": null,
-          "description": "Check Point Software Technologiesは9月26日(米国時間)、暗号資産を窃取する悪意のあるAndroidアプリを発見したと報じた。アプリはGoogle Playから配布され、削除されるまでの約5カ月間で10,000回以上ダウンロードされたという。",
-          "link": "https://news.mynavi.jp/techplus/article/20240928-3033106/",
-          "publishedOn": "2024-09-28T04:41:26.000Z",
-          "wordCount": 1819,
-          "title": "Androidに偽ウォレットアプリ、5カ月で1万回ダウンロード",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20240928-3033106/ogp_images/ogp.jpg"
         }
       ]
     }
