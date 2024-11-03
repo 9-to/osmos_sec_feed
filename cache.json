@@ -1197,26 +1197,6 @@
           "wordCount": 700,
           "title": "CISA、重要インフラのネットワークに対する脅威について再度警告",
           "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/04AS85271_eyecatch-460x230.jpg"
-        },
-        {
-          "id": "https://gblogs.cisco.com/jp/?p=52596",
-          "author": "TALOS Japan",
-          "description": "ポケベルを爆発させるという先ごろ中東で発生した攻撃により、物理的なハードウェアのサプライチェーン攻撃に対する新たな懸念が生じています。\nThe post ハードウェアのサプライチェーン攻撃は「サイバー攻撃」か？ appeared first on Cisco Japan Blog.",
-          "link": "https://gblogs.cisco.com/jp/2024/10/talos-threat-source-newsletter-sept-26-2024/",
-          "publishedOn": "2024-10-04T06:24:57.000Z",
-          "wordCount": 649,
-          "title": "ハードウェアのサプライチェーン攻撃は「サイバー攻撃」か？",
-          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/02AQ46226_eyecatch-460x230.jpg"
-        },
-        {
-          "id": "https://gblogs.cisco.com/jp/?p=52591",
-          "author": "TALOS Japan",
-          "description": "攻撃者が正当な Web サイトの通常の機能（新しいアカウントの作成を確認する従来の方法など）を悪用してスパムを送信しています。この Web インフラストラクチャと関連する電子メールインフラストラクチャは、本来は正当な目的で使用されるため、防御側がこれらのメッセージをブロックすることは、より困難になっています。\nThe post SMTP を使用した海賊行為：サードパーティのインフラを悪用してスパムを送信する手口 appeared first on Cisco Japan Blog.",
-          "link": "https://gblogs.cisco.com/jp/2024/10/talos-simple-mail-transfer-pirates/",
-          "publishedOn": "2024-10-04T06:05:18.000Z",
-          "wordCount": 806,
-          "title": "SMTP を使用した海賊行為：サードパーティのインフラを悪用してスパムを送信する手口",
-          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/01AM78717_eyecatch-460x230.jpg"
         }
       ]
     },
@@ -1518,46 +1498,6 @@
           "wordCount": 2139,
           "title": "仮想マシン VS コンテナ",
           "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2024/10/Frame-6.png"
-        },
-        {
-          "id": "https://tech-lab.sios.jp/?p=43491",
-          "author": "なーが",
-          "description": "はじめに こんにちは！SBOMツールを調査中のなーがです。前回に引き続きSCANOSSについてみていきます。今回はPythonのSDK「scanoss.py」を使ってみたのでインストール方法や機能について書きます。SBO ...\nSBOMツール紹介 ~SCANOSS編 ~ ③PythonのSDK「scanoss.py」 first appeared on SIOS Tech. Lab.",
-          "link": "https://tech-lab.sios.jp/archives/43491",
-          "publishedOn": "2024-10-04T06:19:35.000Z",
-          "wordCount": 2554,
-          "title": "SBOMツール紹介 ~SCANOSS編 ~ ③PythonのSDK「scanoss.py」",
-          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2024/10/9b198c65957886545a6be2b0174e6f62.jpg"
-        },
-        {
-          "id": "https://tech-lab.sios.jp/?p=43509",
-          "author": "橋本",
-          "description": "リソースの見方を今一度確認してみよう～CPU使用率～ こんにちは。サイオステクノロジーの橋本です。 今回はリソースの見方 (CPU 使用率) について今一度確認してみましょう 前提 CPU、メモリ、DISK I/O に関 ...\nリソースの見方を今一度確認してみよう～CPU使用率～ first appeared on SIOS Tech. Lab.",
-          "link": "https://tech-lab.sios.jp/archives/43509",
-          "publishedOn": "2024-10-04T06:02:55.000Z",
-          "wordCount": 2597,
-          "title": "リソースの見方を今一度確認してみよう～CPU使用率～",
-          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2024/10/14e789cce1f4a4005f9d4ab30e1f54b7.jpg"
-        },
-        {
-          "id": "https://tech-lab.sios.jp/?p=43499",
-          "author": "服部祥大",
-          "description": "こんにちは、サイオステクノロジーの服部です。 Graph APIを用いたユーザーのMFAリセットについて調査する機会がありましたので、簡単にまとめていきます。 ユーザーのMFAリセット ユーザーのMFAリセットは、管理者 ...\nGraph APIでMFAリセットを実施する first appeared on SIOS Tech. Lab.",
-          "link": "https://tech-lab.sios.jp/archives/43499",
-          "publishedOn": "2024-10-04T05:10:02.000Z",
-          "wordCount": 2173,
-          "title": "Graph APIでMFAリセットを実施する",
-          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2018/05/sios_tech_lab_image.png"
-        },
-        {
-          "id": "https://tech-lab.sios.jp/?p=43476",
-          "author": "龍：Ryu",
-          "description": "はじめに ども！時には立ちながらブログを執筆する龍ちゃんです。最近、自分のブログの分析を始めたのですが、読まれているブログと読まれていないブログの差が激しくてげんなりしています。全部自分で執筆しているので、自分の実力不足 ...\nStreamlitでマルチページを作る2つの方法 first appeared on SIOS Tech. Lab.",
-          "link": "https://tech-lab.sios.jp/archives/43476",
-          "publishedOn": "2024-10-04T03:32:09.000Z",
-          "wordCount": 2370,
-          "title": "Streamlitでマルチページを作る2つの方法",
-          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2024/10/a567088896f96e64b945478d4c57f228.jpg"
         }
       ]
     },
@@ -2127,39 +2067,6 @@
           "publishedOn": "2024-10-07T06:20:59.000Z",
           "wordCount": null,
           "title": "[トピックス][Call For BoF]Internet Week 2024におけるBoFの追加募集について",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://blog.nic.ad.jp/2024/10077/",
-          "author": null,
-          "description": "今年も2024年11月19日(火)から27日(水)まで、インターネットに関する総合イベント「Internet Week 2024～つなげて、広げて、楽しもう～」を開催します！参加登録がはじまっていますので、気になるプログラムはお早めにお申し込みください。",
-          "link": "https://blog.nic.ad.jp/2024/10077/",
-          "publishedOn": "2024-10-04T08:52:13.000Z",
-          "wordCount": null,
-          "title": "[Blog記事]30以上のセッションで構成！Internet Week 2024 ～つなげて、広げて、楽しもう～ 開催のお知らせ",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nic.ad.jp/ja/stat/ip/",
-          "author": null,
-          "description": "IPアドレスに関する統計・各種リスト English Page\n\n            \nIANA、APNICが管理するIPアドレス・AS番号の統計\n地域インターネットレジストリ(RIR)ごとのIPv4アドレス、IPv6アドレス、AS番号配分状況(最終更新日2024年9月18日)\nアジア太平洋地域の国別IPv4アドレス、IPv6アドレス、AS番号配分状況(最終更新日2024年10月4日)\nJPNICが管理するIPアドレス・AS番号などの統計\nIPアドレスの割り振り/割り当てに関するホスト数、返却ホスト数、サイズ別の内訳\nAPNICから割り振りを受けた/返却を行ったIPv4アドレスのホスト数\nIPアドレスに関する申請処理件数\nIPアドレス管理指定事業者数\nAS番号割り当て状況\nJPIRRサービスにおける登録オブジェクト数……等\nJPNICが管理するIPアドレス・AS番号・IRRサービスに関する統計(最終更新日:2024年10月3日)\n            \n過去の統計\n1年ごとの過去の統計は以下のリンクからご参照ください。\n2023年\n2022年\n2021年\n2020年\n2019年\n2018年\n2017年\n2016年\n2015年\n2014年\n2013年\n2012年\n2011年\n2010年\n2009年\n2008年\n2007年\n2006年\n2005年\n2004年\n2003年\n2002年\n2001年\n2000年(2～12月)\nJPNICが管理するIPv4アドレスの割り振りホスト数の推移(最終更新日2024年10月4日)\n\n              \n                グラフをクリックすると拡大します\n              \n            \n\n            \nJPNICが管理するIPv6アドレス割り振り件数の推移(最終更新日2024年10月4日)\n\n              \n                グラフをクリックすると拡大します\n              \n            \n\n            \nIPアドレス管理指定事業者数の推移(最終更新日2024年10月4日)\n\n              \n                グラフをクリックすると拡大します\n              \n            \n\n            \nJPIRRに登録されているオブジェクト数の推移(最終更新日2024年10月4日)\n\n              \n                グラフをクリックすると拡大します\n              \n            \n\n            \n各種のリスト\nJPNICが管理しているIPアドレスリスト\nWHOIS検索\nAS番号リスト(自動生成されたテキストファイル)\nJPNICが管理する逆引きゾーンのネームサーバ一覧\nIPv4アドレス移転申請履歴\nIPv4アドレス移転希望者リスト\nIPv4アドレス移転対象レジストリ一覧\nAS番号移転履歴\nAS番号移転対象レジストリ一覧",
-          "link": "https://www.nic.ad.jp/ja/stat/ip/",
-          "publishedOn": "2024-10-04T07:06:55.000Z",
-          "wordCount": null,
-          "title": "[Web更新]IPアドレスに関する統計・各種リスト以下のグラフを更新　2024年9月のデータを追加",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nic.ad.jp/ja/topics/2024/20241004-01.html",
-          "author": null,
-          "description": "2024年10月4日\n各位\n一般社団法人日本ネットワークインフォメーションセンター\n臨時システムメンテナンスに伴うサービス一時停止のお知らせ\n記\n\n            \nメンテナンス日時\n停止するサービス\nお問い合わせ先\nJPNIC IPアドレス担当：\n              ip-service@nir.nic.ad.jp\n            \n\n\n            \n以上",
-          "link": "https://www.nic.ad.jp/ja/topics/2024/20241004-01.html",
-          "publishedOn": "2024-10-04T06:37:40.000Z",
-          "wordCount": null,
-          "title": "[トピックス]臨時システムメンテナンスに伴うサービス一時停止のお知らせ",
           "itunes": {},
           "imageUrl": null
         }
@@ -2966,26 +2873,6 @@
           "publishedOn": "2024-10-09T01:30:00.000Z",
           "wordCount": 207,
           "title": "Siemens製品に対するアップデート（2024年10月）",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU90178687/",
-          "author": "jvn@jvn.jp",
-          "description": "SUBNET Solutionsが提供するPowerSYSTEM Centerには、複数の脆弱性が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU90178687/",
-          "publishedOn": "2024-10-04T05:30:15.000Z",
-          "wordCount": 78,
-          "title": "SUBNET Solutions製PowerSYSTEM Centerにおける複数の脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU95461170/",
-          "author": "jvn@jvn.jp",
-          "description": "Delta Electronicsが提供するDIAEnergieには、複数の脆弱性が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU95461170/",
-          "publishedOn": "2024-10-04T05:30:00.000Z",
-          "wordCount": 64,
-          "title": "Delta Electronics製DIAEnergieにおける複数の脆弱性",
           "imageUrl": null
         }
       ]
@@ -4404,86 +4291,6 @@
           "wordCount": 1047,
           "title": "エーアイセキュリティラボ、10 / 23 ～ 25 の「Japan DX Week秋」「Japan IT Week秋」出展",
           "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46329.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2024/10/04/51722.html",
-          "author": null,
-          "description": "新聞社は最新の研究成果を世に知らしめる役割も持っているような気がするのだが、現在の新聞は実務者として「偽・誤情報が情報空間に氾濫し脅威となっていること」をせっせと喧伝している。これは検証された事実ではないので、この主張に固執すること自体が陰謀論者に限りなく近い。",
-          "link": "https://scan.netsecurity.ne.jp/article/2024/10/04/51722.html",
-          "publishedOn": "2024-10-03T23:10:02.000Z",
-          "wordCount": 1267,
-          "title": "Non State Actor 図鑑（8）“偽・誤情報”というファンタジーを創造 ～ 新聞社",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46327.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2024/10/04/51721.html",
-          "author": null,
-          "description": "医療機器や医療用消耗材料の開発、製造、販売を行うアルケア株式会社は9月24日、不正アクセスによる迷惑メール送信について発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2024/10/04/51721.html",
-          "publishedOn": "2024-10-03T23:05:10.000Z",
-          "wordCount": 981,
-          "title": "医療機器のアルケアに不正アクセス、迷惑メールを送信",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46254.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2024/10/04/51720.html",
-          "author": null,
-          "description": "株式会社ガンバ大阪は9月23日、「ガンバ大阪公式オンラインショップ」での個人情報流出の可能性について発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2024/10/04/51720.html",
-          "publishedOn": "2024-10-03T23:05:07.000Z",
-          "wordCount": 922,
-          "title": "関通へのランサムウェア攻撃「ガンバ大阪公式オンラインショップ」一時閉鎖",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46266.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2024/10/04/51719.html",
-          "author": null,
-          "description": "リコージャパン株式会社は9月24日、同社の業務委託先である株式会社倉業サービスへのランサムウェア攻撃について発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2024/10/04/51719.html",
-          "publishedOn": "2024-10-03T23:05:02.000Z",
-          "wordCount": 923,
-          "title": "倉業サービスへのランサムウェア攻撃、リコージャパンの顧客情報と社員情報も流出した可能性",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46272.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2024/10/04/51718.html",
-          "author": null,
-          "description": "株式会社エーアイセキュリティラボは9月20日、10月16日に開催される「Security Days Fall 2024　Osaka」への出展と、10月22日から25日に開催される「Security Days Fall 2024 Tokyo」への登壇を発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2024/10/04/51718.html",
-          "publishedOn": "2024-10-03T23:00:17.000Z",
-          "wordCount": 1101,
-          "title": "エーアイセキュリティラボ、大阪 東京「Security Days Fall 2024」登壇 ～ 生成 AI 用いた診断体験も",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46328.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2024/10/04/51717.html",
-          "author": null,
-          "description": "本誌の取材に対して株式会社ベリサーブ 武田一城氏は10月3日、「SBOMはまだ製造業、特に車両と医療機器業界の製品に組み込まれたソフトウェア用途が中心。現在複数の製造業でSBOM導入の検討が内部で進んでいる状況である。9月6日のSBOM.JPリリースの後、複数の大手メーカーから問い合わせをいただいている」と回答した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2024/10/04/51717.html",
-          "publishedOn": "2024-10-03T23:00:11.000Z",
-          "wordCount": 908,
-          "title": "サプライチェーン全体のSBOM管理を可視化し工数を削減「SBOM.JP」 [2024.09.06]",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46326.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2024/10/04/51716.html",
-          "author": null,
-          "description": "アカマイ・テクノロジーズ合同会社は9月13日、アジアのデジタルネイティブ企業（DNB）を対象とした調査結果を発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2024/10/04/51716.html",
-          "publishedOn": "2024-10-03T23:00:08.000Z",
-          "wordCount": 1001,
-          "title": "アジアのデジタルネイティブ企業の 9 割が API セキュリティを重視",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2024/10/04/51715.html",
-          "author": null,
-          "description": "タレスグループの株式会社Imperva Japanは9月19日、「APIとボット攻撃による経済影響レポート」を発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2024/10/04/51715.html",
-          "publishedOn": "2024-10-03T23:00:03.000Z",
-          "wordCount": 1069,
-          "title": "API セキュリティの不備とボット攻撃による損失 1,860 億米ドルに",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
         }
       ]
     },
@@ -4931,26 +4738,6 @@
           "wordCount": 2864,
           "title": "“パスワード変更”をユーザーに定期的に要求はダメ　米国政府機関が発表　「大文字や数字を入れろ」の強制もNG",
           "imageUrl": "https://image.itmedia.co.jp/news/articles/2410/07/cover_news054.jpg"
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2410/04/news179.html",
-          "author": null,
-          "description": "JF全漁連の「JFおさかなマルシェ ギョギョいち 本店」が不正アクセスを受けた問題で、同サイトの閉鎖が決まった。",
-          "link": "https://www.itmedia.co.jp/news/articles/2410/04/news179.html",
-          "publishedOn": "2024-10-04T08:04:00.000Z",
-          "wordCount": 2815,
-          "title": "カード情報1.2万件流出か、全漁連の通販サイト閉鎖　XSS脆弱性からペイメントアプリ改ざん",
-          "imageUrl": "https://image.itmedia.co.jp/news/articles/2410/04/cover_news179.jpg"
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2410/04/news174.html",
-          "author": null,
-          "description": "電子部品メーカー「TDK」（東京都中央区）から営業秘密に当たる研究データなどを不正に持ち出したとして、警視庁公安部は10月4日、不正競争防止法違反容疑で、同社元社員の男（65）＝千葉市＝を書類送検した。捜査関係者への取材で分かった。公安部は認否を明らかにしていない。",
-          "link": "https://www.itmedia.co.jp/news/articles/2410/04/news174.html",
-          "publishedOn": "2024-10-04T07:37:00.000Z",
-          "wordCount": 2546,
-          "title": "60代のTDK元社員を公安部が書類送検　研究データを社有パソコンから不正に持ち出しか",
-          "imageUrl": "https://image.itmedia.co.jp/news/articles/2410/04/cover_news174.jpg"
         }
       ]
     },
@@ -7078,106 +6865,6 @@
           "wordCount": 5239,
           "title": "つないでみないと分からない？　iPhone 16で注目されるWi-Fi 7の「MLO」って何だ？【イニシャルB】",
           "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1627/120/001.JPG"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1629025.html",
-          "author": "松永 侑貴惠",
-          "description": "JCBをかたるフィッシングの報告が増加しているとして、フィッシング対策協議会が情報を公開した。誘導先のフィッシングサイトは10月3日11時時点で稼働中であるため、引き続き注意が必要だ。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1629025.html",
-          "publishedOn": "2024-10-04T10:40:00.000Z",
-          "wordCount": 5055,
-          "title": "JCBをかたるフィッシング、件名「【重要なお知らせ】お客様のJCBカードがロックされています - ご対応ください」などのメールなどに注意　偽サイトに誘導し、ログイン情報やカード情報を詐取",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1629/025/20241002myjcb02.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/weekly/1629011.html",
-          "author": "中島 由弘",
-          "description": "「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/weekly/1629011.html",
-          "publishedOn": "2024-10-04T08:00:00.000Z",
-          "wordCount": 5068,
-          "title": "見出しでわかる IT界隈・今週の重要ニュース：全69本［2024/9/26～10/2］",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1629/011/shutterstock_1391033204_main.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1628930.html",
-          "author": "山田 貞幸",
-          "description": "タリーズコーヒージャパン株式会社は10月3日、同社の公式通販サイト「タリーズ オンラインストア」にて、5月に発表していた不正アクセスによりユーザーの個人情報およびクレジットカード情報が漏えいした可能性があることを発表した。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1628930.html",
-          "publishedOn": "2024-10-04T04:25:00.000Z",
-          "wordCount": 5006,
-          "title": "タリーズ オンラインストアでクレジットカード情報5万件以上が漏えいの可能性、心当たりの人は確認を　個人情報漏えいの可能性は9万件以上",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1628/930/01.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/column/teleworkgoods/1628751.html",
-          "author": "編集部",
-          "description": "早いもので2024年度ももう半分が経過した。ということで今回は2024年度上期に掲載したテレワークグッズ・ミニレビューの中から、特に注目度の高かった製品について振り返って行きたい。",
-          "link": "https://internet.watch.impress.co.jp/docs/column/teleworkgoods/1628751.html",
-          "publishedOn": "2024-10-04T03:15:21.000Z",
-          "wordCount": 5089,
-          "title": "ペン型マウスに睡眠用イヤホン、デカすぎモバイルバッテリーに軽すぎモバイルディスプレイなど、変わり種グッズが目立った2024年度上期 【テレワークグッズ・ミニレビュー 2024年度上期総集編】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1628/751/001.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1628847.html",
-          "author": "tks24",
-          "description": "ニンテンドーミュージアムのグッズ販売に追加で個数制限が設けられたことに、ネットで批判の声が上がっている。",
-          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1628847.html",
-          "publishedOn": "2024-10-04T03:00:00.000Z",
-          "wordCount": 4557,
-          "title": "ニンテンドーミュージアムのグッズ販売、個数制限があとから設けられ批判の声【やじうまWatch】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1628/847/yajiuma-watch_4.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1628845.html",
-          "author": "tks24",
-          "description": "X（旧Twitter）の価値がさらに下落し、イーロン・マスク氏による買収前の約5分の1強にまで激減しているという推計が公表された。",
-          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1628845.html",
-          "publishedOn": "2024-10-04T03:00:00.000Z",
-          "wordCount": 4557,
-          "title": "X（旧Twitter）の価値がさらに下落との試算、マスク氏買収前の実に5分の1強に【やじうまWatch】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1628/845/yajiuma-watch_3.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1628684.html",
-          "author": "木下 明音",
-          "description": "株式会社ニトリは、スマートフォンなどを操作するために腕を通す穴が開いた毛布「スマホ毛布」シリーズの2024年版を、9月中旬から全国のニトリ店舗および直販サイト「ニトリネット」にて販売している。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1628684.html",
-          "publishedOn": "2024-10-03T23:30:00.000Z",
-          "wordCount": 5009,
-          "title": "ニトリ、袖付きタイプも追加された「スマホ毛布」2024年モデル",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1628/684/43main.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1628593.html",
-          "author": "木下 明音",
-          "description": "ティーピーリンクジャパン株式会社（TP-Link）は、カメラ付きスマートドアホンキット「Tapo D210」を10月10日に発売する。市場想定価格は1万890円。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1628593.html",
-          "publishedOn": "2024-10-03T22:30:00.000Z",
-          "wordCount": 5013,
-          "title": "TP-Link、AI人物検知を備えたスマートドアホン「Tapo D210」発売",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1628/593/main.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/column/tengoku/1626971.html",
-          "author": "古田雄介",
-          "description": "近年はデジタル化やペーパーレス化の動きが方々で見られますが、お墓をデジタル化する試みは、20世紀からすでに行われています。",
-          "link": "https://internet.watch.impress.co.jp/docs/column/tengoku/1626971.html",
-          "publishedOn": "2024-10-03T21:30:00.000Z",
-          "wordCount": 5053,
-          "title": "第24回：お墓のデジタル化は受け入れられるのか？　メタバース霊園「風の霊」に疑問をぶつけてみた【天国へのプロトコル】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1626/971/01.JPG"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/column/netliteracy/1627677.html",
-          "author": "DLIS・柳谷 智宣",
-          "description": "SNSや出会い系アプリで新たな出会いを求めている人が増えています。実際、忙しい人たちにとって、時間や場所を選ばず、いつでもどこでも新しい相手を探せるのは便利です。多くの人たちが出会い、結婚に至る人も増えています。しかし、多くの人たちが利用している分、ネットの闇も入り込んできます。中でも深刻な被害を出しているのが“セクストーション”です。性的な「セックス」と、恐喝という意味の「エクストーション」を合わせた造語です。",
-          "link": "https://internet.watch.impress.co.jp/docs/column/netliteracy/1627677.html",
-          "publishedOn": "2024-10-03T21:00:00.000Z",
-          "wordCount": 5006,
-          "title": "オンラインで知り合っただけの相手とビデオ通話で性的な行為をするのは危険！“セクストーション”の被害が拡大中【読めば身に付くネットリテラシー】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1627/677/dlis01.jpg"
         }
       ]
     },
@@ -8021,26 +7708,6 @@
           "wordCount": 1842,
           "title": "iPhoneとAndroidユーザー狙う豚の屠殺詐欺、日本も標的",
           "imageUrl": "https://news.mynavi.jp/techplus/article/20241005-3038454/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20241004-3038453/",
-          "author": null,
-          "description": "フィッシング対策協議会(Council of Anti-Phishing Japan)は10月3日、JCBを偽るフィッシングの報告を受けていると伝えた。「【重要】JCBカードのご利用制限について：お手続きが必要です」「「MyJCBアカウントのセキュリティ更新について」番号：XX-XXXXXXXXXXX」など、10件以上のフィッシングメールの件名が確認されており、注意が必要だ。",
-          "link": "https://news.mynavi.jp/techplus/article/20241004-3038453/",
-          "publishedOn": "2024-10-04T06:32:26.000Z",
-          "wordCount": 1807,
-          "title": "JCBを偽るフィッシング確認、注意を",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20241004-3038453/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20241004-3037641/",
-          "author": null,
-          "description": "Forescout Research Labsは10月2日(米国時間)、DrayTekのルータから複数の脆弱性を発見したとして、調査レポートを公開した。これら脆弱性を悪用されると、遠隔からデバイスを乗っ取られる可能性がある。発見された脆弱性のうち、最も深刻度の高いものは緊急(Critical)と評価されており注意が必要。",
-          "link": "https://news.mynavi.jp/techplus/article/20241004-3037641/",
-          "publishedOn": "2024-10-04T00:28:25.000Z",
-          "wordCount": 2010,
-          "title": "DrayTek製ルータに緊急の脆弱性、アップデートを",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20241004-3037641/ogp_images/ogp.jpg"
         }
       ]
     }
