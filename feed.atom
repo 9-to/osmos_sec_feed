@@ -2,10 +2,558 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-11-18T08:16:38.533Z</updated>
+    <updated>2024-11-19T08:16:08.558Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[OpenShift GitOps を構築してみた]]></title>
+        <id>https://tech-lab.sios.jp/?p=44374</id>
+        <link href="https://tech-lab.sios.jp/archives/44374"/>
+        <updated>2024-11-19T07:58:37.000Z</updated>
+        <summary type="html"><![CDATA[以前の記事では、CI 部分を担う OpenShift Pipelines の構築を行いました。続いて、本記事では実際に CD 部分となる OpenShift GitOps を構築して デプロイ先の状態変化を検知してマニフ ...
+OpenShift GitOps を構築してみた first appeared on SIOS Tech. Lab.]]></summary>
+        <author>
+            <name>やまなか</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[11 月のセキュリティ更新プログラムでは、3 件の重大なリモートコード実行の脆弱性が公開]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=52800</id>
+        <link href="https://gblogs.cisco.com/jp/2024/11/talos-november-patch-tuesday-release/"/>
+        <updated>2024-11-19T06:46:30.000Z</updated>
+        <summary type="html"><![CDATA[2024 年 11 月のセキュリティ更新プログラムでは、89 件の脆弱性の情報が公開されました。そのうち 4 件について、Microsoft 社は「緊急」と評価しています。その他の脆弱性は「重要」と評価されました。
+The post 11 月のセキュリティ更新プログラムでは、3 件の重大なリモートコード実行の脆弱性が公開 appeared first on Cisco Japan Blog.]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[本日18時30分のイベント「vPro友の会 座談会」ライブ配信が決定！　現場のリアルな声やエキスパートによる情報を提供【「vPro友の会」情報】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/vpro_tomonokai_info/1640628.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/vpro_tomonokai_info/1640628.html"/>
+        <updated>2024-11-19T05:15:43.000Z</updated>
+        <summary type="html"><![CDATA[vPro友の会開設1周年を記念して、本日（11月19日）18時30分からインテル株式会社有楽町オフィスで開催される「vPro友の会 座談会」の、オンライン配信が決定した。]]></summary>
+        <author>
+            <name>編集部</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【12/5開催：上級編】Azure OpenAIとサーバーレステクノロジーを駆使したRAGシステム構築ハンズオン 〜本番環境での運用に対応できる実践的なRAGシステムの構築〜]]></title>
+        <id>https://tech-lab.sios.jp/?p=44367</id>
+        <link href="https://tech-lab.sios.jp/archives/44367"/>
+        <updated>2024-11-19T04:59:47.000Z</updated>
+        <summary type="html"><![CDATA[本ハンズオンでは、Azure OpenAI Serviceを活用したRAG（Retrieval-Augmented Generation）の導入から本格的なシステム構築までを段階的に学べます。 上級編では、Azure O ...
+【12/5開催：上級編】Azure OpenAIとサーバーレステクノロジーを駆使したRAGシステム構築ハンズオン 〜本番環境での運用に対応できる実践的なRAGシステムの構築〜 first appeared on SIOS Tech. Lab.]]></summary>
+        <author>
+            <name>AM</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[注意喚起: Palo Alto Networks製PAN-OSの管理インタフェースにおける複数の脆弱性（CVE-2024-0012、CVE-2024-9474）に関する注意喚起  (公開)]]></title>
+        <id>https://www.jpcert.or.jp/at/2024/at240022.html</id>
+        <link href="https://www.jpcert.or.jp/at/2024/at240022.html"/>
+        <updated>2024-11-19T04:24:00.000Z</updated>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「たよれーる Microsoft 365」一部の管理者アカウントが侵害　データ削除など被害のおそれ]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2411/19/news125.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2411/19/news125.html"/>
+        <updated>2024-11-19T03:33:00.000Z</updated>
+        <summary type="html"><![CDATA[大塚商会の「たよれーる Microsoft 365」の一部のユーザーで、複数の海外アドレスから不正アクセスを受けて管理者アカウントが侵害される事象が発生しているとし、ユーザーに注意を呼び掛けている。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Amazonで「Adobe Creative Cloudコンプリートプラン」が46％OFF！　11月29日までの期間限定セール]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/shopping/1640565.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/shopping/1640565.html"/>
+        <updated>2024-11-19T03:29:21.000Z</updated>
+        <summary type="html"><![CDATA[Amazon.co.jpのAdobeストアページでは現在、11月29日までの期間限定で「Adobe Creative Cloud」、「Adobe Illustrator」のセールが行われている。今回のセールは新規購入者限定で、1アカウントにつき1本のみ購入可能だ。]]></summary>
+        <author>
+            <name>アイティースリー</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[三菱電機製MELSEC iQ-Fにおける指定されたタイプの入力に対する不適切な検証の脆弱性]]></title>
+        <id>https://jvn.jp/vu/JVNVU97790713/</id>
+        <link href="https://jvn.jp/vu/JVNVU97790713/"/>
+        <updated>2024-11-19T03:15:00.000Z</updated>
+        <summary type="html"><![CDATA[三菱電機製MELSEC iQ-F EthernetユニットおよびEtherNet/IPユニットには、指定されたタイプの入力に対する不適切な検証の脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[SVGファイルを悪用したフィッシング詐欺やマルウェア拡散が増加、海外メディアが警鐘【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1640543.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1640543.html"/>
+        <updated>2024-11-19T03:15:00.000Z</updated>
+        <summary type="html"><![CDATA[SVGファイルを悪用したフィッシング詐欺やマルウェア拡散の手口が増加していることを、海外メディアが報じている。]]></summary>
+        <author>
+            <name>tks24</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[使い方がガラリと変わる？ Instagramが「ハッシュタグをフォロー」機能を近々廃止へ【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1640542.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1640542.html"/>
+        <updated>2024-11-19T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Instagramが「ハッシュタグをフォロー」する機能を近日中に廃止することが明らかになり、国内外のユーザーの間で波紋を呼んでいる。]]></summary>
+        <author>
+            <name>tks24</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[新ログイン認証「kCAPTCHA」KDDIが開発　AIで画像生成「人間に解きやすく、攻撃検知精度も高い」]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2411/19/news110.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2411/19/news110.html"/>
+        <updated>2024-11-19T02:03:00.000Z</updated>
+        <summary type="html"><![CDATA[KDDIは、新たなログイン認証技術「kCAPTCHA」（ケイキャプチャ）を開発したと発表した。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[バッファロー監修で往年の人気モデルがカプセルトイに！ 「手のひらWi-Fiルーター」11月21日発売]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1640513.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1640513.html"/>
+        <updated>2024-11-19T02:00:00.000Z</updated>
+        <summary type="html"><![CDATA[株式会社バッファローが販売した歴代のWi-Fiルーターとパッケージを1/6スケールで再現したカプセルトイ「バッファロー監修 手のひらWi-Fiルーター」が、11月21日に発売される。同社が監修を行い、製造・販売は株式会社ターリン・インターナショナル。]]></summary>
+        <author>
+            <name>山田 貞幸</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Androidスマホを狙う、マルウェアに感染させる手紙のQRコードに注意]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20241119-3067320/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20241119-3067320/"/>
+        <updated>2024-11-18T23:12:24.000Z</updated>
+        <summary type="html"><![CDATA[Malwarebytesは11月15日(米国時間)、スイス国家サイバーセキュリティセンター(NCSC)が手紙に印刷されたQRコードを使用するフィッシング詐欺について注意を喚起したと報じた。この手紙はスイス気象局(MeteoSwiss)から発送されたように装い、偽のAndroidアプリをインストールするよう要求するという。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[解雇された元社員がレストランのメニューをハッキング、アレルゲン情報削除ほか]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2024/11/19/51933.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2024/11/19/51933.html"/>
+        <updated>2024-11-18T23:10:03.000Z</updated>
+        <summary type="html"><![CDATA[最も重大な行為として、メニューをダウンロードして改ざんしアレルゲン情報を削除したことでも告発されている。この情報を削除することで、安全ではない食品が安全であると示唆されることになる。訴状で指摘されているとおり、この行為は、ディズニーがすでによく知っているアレルギーによる致命的な結果を引き起こす可能性があった。「それらのメニューは、レストランに発送される前に（ディズニーによって）特定されて分離され、それより先に配布されることはなかったと考えられる」と、訴状は指摘している。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[西久大運輸倉庫のサーバに不正アクセス、取引先の業務にも影響]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2024/11/19/51932.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2024/11/19/51932.html"/>
+        <updated>2024-11-18T23:05:11.000Z</updated>
+        <summary type="html"><![CDATA[西久大運輸倉庫株式会社は10月30日、同社サーバへの不正アクセスについて発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[帝塚山学院大学 学生のメールアカウントに不正アクセス、迷惑メール送信の踏み台に]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2024/11/19/51931.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2024/11/19/51931.html"/>
+        <updated>2024-11-18T23:05:07.000Z</updated>
+        <summary type="html"><![CDATA[帝塚山学院大学は11月11日、不正アクセスによる迷惑メールの送信について発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[メール誤配信ツール導入を検討 ～ 日産自動車 メール誤送信]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2024/11/19/51930.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2024/11/19/51930.html"/>
+        <updated>2024-11-18T23:05:03.000Z</updated>
+        <summary type="html"><![CDATA[日産自動車株式会社は10月21日、「無料ウェビナーのご案内」メールの誤送信について発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[FitNesse に複数の脆弱性]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2024/11/19/51929.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2024/11/19/51929.html"/>
+        <updated>2024-11-18T23:00:04.000Z</updated>
+        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は11月15日、FitNesseにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[未成年を狙う暴力犯罪集団「764」　自傷行為や性的虐待、ペットの殺害などネットで強要　その実態とは]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2411/19/news060.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2411/19/news060.html"/>
+        <updated>2024-11-18T23:00:00.000Z</updated>
+        <summary type="html"><![CDATA[子供を脅して自傷行為やわいせつ行為を強要していた男が、米国で禁錮30年の判決を言い渡された。男が属していたのは「764」という暴力犯罪集団。未成年をおびき寄せて脅迫し、残虐行為を強要させた揚げ句、自殺に追い込もうとする人たちの集まりだった。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[茨城県石岡市、「にほんの里100選」に選ばれた里山や昭和初期の建築街も楽しめる移住体験ツアーを2025年1月に開催　オンラインの事前説明会を12月6日、22日に実施]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1640353.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1640353.html"/>
+        <updated>2024-11-18T22:30:00.000Z</updated>
+        <summary type="html"><![CDATA[茨城県石岡市と株式会社Coelacanthは、同市への移住体験ツアーを2025年1月18日と26日に実施する。定員は各日10人、参加費は1人2000円で、昼食や体験費用、イベント保険料を含む。参加申込は先着順で受け付けており、応募締切は1月18日開催分が1月5日まで、1月26日開催分が1月13日まで。]]></summary>
+        <author>
+            <name>松永 侑貴惠</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[家のWi-Fiルーター、ずっと“置きっぱなし”にしていませんか？ 年に一度の「見直し」を呼び掛ける記事に注目が集まる【アクセスランキング】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/ranking/1640460.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/ranking/1640460.html"/>
+        <updated>2024-11-18T21:55:00.000Z</updated>
+        <summary type="html"><![CDATA[前週に閲覧数の多かった記事を、カテゴリーごとに上位5位までレポートします。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NTT東西、最大800Gbpsに対応したAPN通信回線「All-Photonics Connect powered by IOWN」を12月に提供開始]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1640420.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1640420.html"/>
+        <updated>2024-11-18T21:30:00.000Z</updated>
+        <summary type="html"><![CDATA[東日本電信電話株式会社（NTT東日本）と西日本電信電話株式会社（NTT西日本）は、最大800Gbpsで接続するPoint to Point帯域保証・波長専有型回線の通信サービス「All-Photonics Connect powered by IOWN」（以下、All-Photonics Connect）の提供を、12月1日に開始する。両社では、ユーザー拠点間を接続するサービスにおいて、最大800Gbpsの帯域は世界最高水準であるとしている。]]></summary>
+        <author>
+            <name>松永 侑貴惠</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[第25回：30年以上前のデジタル遺品――壊れたフロッピーディスクが読める可能性はあるか【天国へのプロトコル】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/tengoku/1638523.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/tengoku/1638523.html"/>
+        <updated>2024-11-18T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[都内在住のAさん（80代）のもとに一人暮らしの弟・Bさんの訃報が届いたのは2年前のことでした。お葬式後、息子たちの力を借りながら遺品整理を済ませたそうです。]]></summary>
+        <author>
+            <name>古田雄介</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ITパスポート試験の企業の声を公開しました（ローレルバンクマシン株式会社）]]></title>
+        <id>https://www3.jitec.ipa.go.jp/JitesCbt/html/about/company18.html</id>
+        <link href="https://www3.jitec.ipa.go.jp/JitesCbt/html/about/company18.html"/>
+        <updated>2024-11-18T15:00:00.000Z</updated>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[STAMP/STPAハンズオン教材を更新しました]]></title>
+        <id>https://www.ipa.go.jp/digital/stamp/about.html</id>
+        <link href="https://www.ipa.go.jp/digital/stamp/about.html"/>
+        <updated>2024-11-18T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「複雑化したシステムの安全性確保（STAMP）」に関する情報です。]]></summary>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[データモデルWGの第7～9回の議事次第及び配布資料を公開しました]]></title>
+        <id>https://www.ipa.go.jp/disc/committee/data-comittee.html</id>
+        <link href="https://www.ipa.go.jp/disc/committee/data-comittee.html"/>
+        <updated>2024-11-18T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「データ環境推進委員会」に関する情報です。]]></summary>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[パソコンに偽のウイルス感染警告を表示させるサポート詐欺に注意を公開しました]]></title>
+        <id>https://www.ipa.go.jp/security/anshin/attention/2024/mgdayori20241119.html</id>
+        <link href="https://www.ipa.go.jp/security/anshin/attention/2024/mgdayori20241119.html"/>
+        <updated>2024-11-18T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「パソコンに偽のウイルス感染警告を表示させるサポート詐欺に注意」に関する情報です。]]></summary>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[情報セキュリティマネジメント試験の活用事例を更新しました（株式会社コミチ）]]></title>
+        <id>https://www.ipa.go.jp/shiken/kubun/sg/example/sg-company.html</id>
+        <link href="https://www.ipa.go.jp/shiken/kubun/sg/example/sg-company.html"/>
+        <updated>2024-11-18T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「情報セキュリティマネジメント試験の企業における活用事例」に関する情報です。]]></summary>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[中堅企業で導入が広がる、セキュリティのフルマネージドサービス]]></title>
+        <id>https://eset-info.canon-its.jp/malware_info/special/detail/241119.html</id>
+        <link href="https://eset-info.canon-its.jp/malware_info/special/detail/241119.html"/>
+        <updated>2024-11-18T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[働き方の多様化やサイバー攻撃の高度化・巧妙化を受け、大企業のみならず、中堅企業でもセキュリティ投資は高まる一方だ。そうした潮流において注目されているのが、フルマネージドサービスを利用したセキュリティ対策だ。この記事では、セキュリティ分野におけるフルマネージドサービスの概要や導入のポイントについて解説していく。
+
+
+
+
+
+中堅企業単独ではセキュリティ対策が困難な時代に
+
+コロナ禍を経て、リモートワークやハイブリッドワークなどを取り入れる企業が増え、働き方が多様化している。こうした働き方は、企業内のネットワークに外部からアクセスするためにVPNを利用したり、企業内のパソコンをリモートデスクトップで利用したりすることが多い。また、スマートフォンやタブレットといったモバイル端末の業務利用も増えている。こうした業務環境の変化を好機として、VPN機器やRDPの脆弱性を狙ったサイバー攻撃が増加傾向にある。
+
+従来のセキュリティ対策は、いわゆる社内ネットワークの内側と外側の境目に壁を作って防御する、いわゆる境界型防御が主流だった。しかし、先述のように近年は攻撃の対象（アタックサーフェス）が拡大した結果、セキュリティ対策を講じるべきポイントが増え、境界型防御では不十分となってきている。
+
+このような背景もあり、企業や組織におけるセキュリティ対策が負担となっている。また、サイバーセキュリティを担う専門人材への需要が高まり、中堅企業でもそうした人材を自社で抱えることも難しくなっている。そこで、中堅企業を中心に包括的かつ高度なセキュリティ対策を外部へ委託したいというニーズが高まっているのだ。こうしたニーズに呼応したサービスがセキュリティのマネージドサービスである。
+
+マネージドサービスとは、企業のIT環境に関わる業務をアウトソーシングできるサービスのことである。1990年代後半から2000年代にかけ、コストカットによる事業価値の向上のために「選択と集中」という経営戦略が注目されたことで、企業の中核（コア）事業以外の業務を外部に委託する動きが多くの企業で広まった。
+
+その結果、IT領域において、サーバー運用やソフトウェア管理などの運用をアウトソーシングサービスが広がり、最近ではセキュリティ分野においても、さまざまな事業者がマネージドサービスを提供するようになっている。このようなマネージドサービスを専門的に提供する事業者はMSP（マネージドサービスプロバイダ）と呼ばれる。
+
+セキュリティ人材不足の解決策？マネージドサービスとは
+
+セキュリティのフルマネージドサービスとは
+
+企業におけるIT業務の一部を外部に委託するマネージドサービスを拡張したものがフルマネージドサービスであり、IT業務の大部分、あるいはすべてを請け負うことになるため、依頼元の企業のIT業務負荷を大幅に軽減することができる。
+
+セキュリティのフルマネージドサービスでは、セキュリティ対策を外部に委託する。セキュリティに関する特定のカテゴリーの業務を全般的にアウトソーシングすることによって、安全性を高めることができるのだ。
+
+ただし、「全般的に」とはいっても、セキュリティ業務すべてを委託するのではなく、MDR（Managed Detection and Response） のような高度なセキュリティソリューションをはじめ、セキュリティのカテゴリーごとにマネージドサービスが存在する。そのカテゴリーを全般的に委託するサービスがセキュリティのフルマネージドサービスとなる。
+
+セキュリティの専門人材を雇用することなく、高度なセキュリティ対策が可能となることから、セキュリティ人材の採用・教育が難しい企業や組織において、セキュリティのフルマネージドサービスを導入する動きが広がっている。
+
+MDRとは？中小企業にも迫られる、サイバー攻撃への予防と対応の必要性
+
+セキュリティのフルマネージドサービスを利用するメリットと注意点
+
+セキュリティのフルマネージドサービスの利用には多くのメリットがある。代表的なメリットは以下のとおりだ。
+
+１）特定分野のセキュリティ対策の運用管理・保守をまとめて委託可能
+
+セキュリティ対策の運用管理や保守には、24時間365日のネットワーク監視はもちろん、異常や障害の予兆検知、不具合の原因究明、社内ヘルプデスク対応など、さまざまな業務が必要になるが、フルマネージドサービスを利用することで、このような作業をすべて一任でき、IT部門の負荷軽減やコスト削減につなげることができる。
+
+２）トラブル発生時の迅速な対応
+
+フルマネージドサービスを請け負う事業者は、トラブル時の対応フローが確立されているため、万一障害やトラブルが起きても迅速に対応することができ、障害からの早期復旧やダウンタイムの短縮を実現できる。
+
+３）人材不足やノウハウ不足の問題を解消
+
+セキュリティに関わる業務をアウトソーシングできるため、専任エンジニアの配置や専門的なノウハウの取得などが必須とはならない。昨今、セキュリティ人材の雇用を取り巻く環境は厳しさを増していることから、リソースに制約のある企業にとってこのメリットは大きいだろう。
+
+ただし、セキュリティのフルマネージドサービスを利用する際には、いくつか注意すべき点もある。その注意点は以下のとおりだ。
+
+１）定常的なコストの発生
+
+フルマネージドサービスは対応範囲が広いため、一般的に必要となるコストも大きくなる。サービスによってはトラブル対応などで別途費用が生じるケースもある。また、障害やトラブルが起きなくても定常的にコストがかかることを前提に、自社で負担可能な範囲内で導入を検討する必要がある。
+
+２）ノウハウが蓄積されづらい
+
+フルマネージドサービスは、その分野の業務全般を委託するため、自社にノウハウが蓄積されにくい。平常時の運用だけでなく、非常時の対応も基本的に事業者が行うことからトラブルシューティングのノウハウ構築は限定的なものとなってしまいがちだ。
+
+フルマネージドサービスを導入する際には、先述したメリットと注意点を踏まえて、自社の状況にマッチしたサービスを選択することが望ましいだろう。
+
+代表的なセキュリティのフルマネージドサービス
+
+セキュリティのフルマネージドサービスにはどのようなものがあるのか。以下に5つの代表的なサービスを紹介する。
+
+クラウドのセキュリティに関するフルマネージドサービス
+
+DX推進への機運が高まっていることもあり、業務システムをAWSやGoogle Cloudといった、パブリッククラウド上に移行する企業が増加している。しかし、クラウドの設定チェックやセキュリティアラートへの対処など、クラウド環境のセキュリティを強固にするためには、クラウドとセキュリティに関する専門的な知識が求められる。
+
+そうしたニーズに呼応すべく、クラウドのセキュリティ確保のためのフルマネージドサービスが登場している。クラウドサーバーに特化してセキュリティリスクを洗い出し、脅威情報を収集・分析することで、クラウドのセキュリティを包括的に高めるサービスである。
+
+クラウド型WAFサービス
+
+攻撃への防御手段の1つとしてWAF（Web Application Firewall）が挙げられる。WAFは通信を監視することができるため、SQLインジェクションやクロスサイトスクリプティングのような攻撃への防御が可能だ。ただし、WAFの設定や運用を行うには、高度なセキュリティに関する専門知識が求められる。
+
+WAFのフルマネージドサービスを利用することで、セキュリティの専門人材が社内に不在でも、企業・組織のWebサイト、Webアプリケーションをサイバー攻撃から防御することが可能となる。最近ではWAFをサービスとして提供する「WAFaaS（WAF-as-a-Service）」といった用語も使われている。
+
+無線LANに関するフルマネージドサービス
+
+コロナ禍を経て、リモートワークやフリーアドレス制を採用する企業・組織も少なくない。また、複数の拠点を持つ企業・組織の場合、それぞれの拠点でネットワーク環境を簡易構築しているケースもある。こうしたネットワーク環境では無線LANを用いることが多いが、無線LANがネットワークの脆弱性となることがあり、サイバー攻撃の対象になりやすい。
+
+そこで、無線LANの設定・運用をクラウドベースで代行するサービスが登場している。拠点ごとにネットワークの担当者を設置する必要がないため、中堅企業でのニーズが高まっている。
+
+例えば、マネージド無線LAN「Hypersonix」では「日々の運用や障害時の対応などの運用サービス」、「機器の適切なセキュリティ設定の実施」、「導入前の無線LANの環境構築」といった業務のアウトソーシングが可能であり、企業・組織の代わりにネットワークの障害・復旧対応を担うため、企業・組織の負荷を高めずに無線LANを利用したネットワークの構築、運用が可能となるのだ。
+
+
+
+図1： Hypersonixのアウトソーシングイメージ
+
+
+フルマネージドSASE
+
+最近注目されている、セキュリティ対策の考え方が「ゼロトラスト」である。ゼロトラストとは、「何も信頼しない」という名称のとおり、社内外を問わずにすべての通信を信頼せず、通信の状況を監視・検証して、異常を検知・対処することで安全性を確保しようとするセキュリティの概念である。
+
+SASEとは、このゼロトラストの考え方を前提にネットワークとネットワークセキュリティを統合し、クラウドサービスとして提供するものであり、ゼロトラストを実現するソリューションの1つだ。
+
+しかし、SASEは一般的に、導入プロセスに半年以上を要し、その後の運用にも高いスキル、ノウハウが求められる高度なセキュリティソリューションだ。そのため、専門人材を社内に有する大企業を除き、SASE導入の負担は大きなものとなってしまう。そこで登場したのが、SASEの導入から運用・保守まですべてをワンストップで実現するフルマネージドSASEである。
+
+例えば、マネージドSASEサービス「Verona」はフルマネージドSASEでありながら、中堅企業での導入も可能なように配慮されているサービスだ。Veronaでは、SASEで提供される、煩雑で高度なソリューションの設定・運用をすべて代行する。障害や不具合への迅速な対応が可能な点も大きなポイントだろう。
+
+
+
+図2：一般的なSASEとVeronaの違い
+
+
+EDR、XDRのフルマネージドサービスであるMDR
+
+セキュリティのフルマネージドサービスにおいて、近年注目が集まっているのがMDR（Managed Detection and Response）である。MDRとは、エンドポイントやネットワークの常時監視を通じて、サイバー攻撃への検知・対処を代行するサービスだ。
+
+
+
+図3：ESET PROTECT MDRの機能
+
+
+例えば、「ESET PROTECT MDR」では24時間365日体制で監視・運用を行うことで、仮にインシデントが発生した際にも速やかに検知、対応が行われる。エンドポイントからネットワークまでを網羅して監視することで安全性を高められる。
+
+年々、セキュリティ対策の重要性が高まる一方で、セキュリティの専門人材不足が常態化している。今回紹介したセキュリティのフルマネージドサービスを利用することで、企業規模の大きくない企業においても、高度化・凶悪化するサイバー攻撃への万全な備えを実現するための選択肢となり得るだろう。
+
+MDRとSOC、セキュリティ体制構築のベストプラクティスとは]]></summary>
+        <author>
+            <name>キヤノンマーケティングジャパン株式会社</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Adds Three Known Exploited Vulnerabilities to Catalog]]></title>
+        <id>/node/22582</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2024/11/18/cisa-adds-three-known-exploited-vulnerabilities-catalog"/>
+        <updated>2024-11-18T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.
+CVE-2024-1212 Progress Kemp LoadMaster OS Command Injection Vulnerability
+CVE-2024-0012 Palo Alto Networks PAN-OS Management Interface Authentication Bypass Vulnerability
+CVE-2024-9474 Palo Alto Networks PAN-OS Management Interface OS Command Injection Vulnerability
+Users and administrators are also encouraged to review the Palo Alto Threat Brief: Operation Lunar Peek related to CVE-2024-0012 for additional information. 
+These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.
+Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.
+Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[メルマガ]vol.2122:【トピックス号】先週のトピックスとWeb更新情報]]></title>
+        <id>https://www.nic.ad.jp/ja/mailmagazine/backnumber/2024/vol2122.html</id>
+        <link href="https://www.nic.ad.jp/ja/mailmagazine/backnumber/2024/vol2122.html"/>
+        <updated>2024-11-18T09:39:04.000Z</updated>
+        <summary type="html"><![CDATA[https://internetweek.jp/
+----------------------------------------------------------------------
+□■━━━━━━━━━━━━━━━━━━━━━
+□  11/11～11/17に発信したJPNICからのお知らせ
+■━━━━━━━━━━━━━━━━━━━━━━
+
+このトピックス号では、先週に公開したJPNICブログ記事、お知らせ、Webの更
+新情報などを原則月曜日にまとめてご紹介します。
+
+今回の注目記事は、11月19日に開催される「第47回JPNICオープンポリシー
+ミーティング」をご紹介したブログ記事です。
+
+
+また、JPNIC主催「Internet Week 2024 ～つなげて、広げて、楽しもう～」が
+今週19日(火)から始まります！参加登録を受け付け中です。今年も最新トレン
+ド盛りだくさんのプログラムが揃っています。皆様のご参加をお待ちしており
+ます。
+
+11月19日から21日はオンラインのみでの開催、11月25日から27日は浅草橋ヒュ
+ーリックホール&カンファレンスで開催します。
+
+       [プログラム]
+       https://internetweek.jp/2024/program-timetable
+
+       [参加申込]
+       https://internetweek.jp/2024/application/
+         2024年9月18日(水)～2024年11月8日(金)17:00 登録期間
+         ※クレジットカード決済は11月27日(水)23:59まで受付
+         ※各種割引もございますのでぜひご確認ください。
+
+この他に先週は、トピックス3件、Web更新情報が4件ありました。イベント等
+のお知らせも4件掲…]]></summary>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[楽天モバイルのホームルーター「Rakuten Turbo 5G」に複数の脆弱性、ファームウェアのアップデートを]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1640404.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1640404.html"/>
+        <updated>2024-11-18T08:45:00.000Z</updated>
+        <summary type="html"><![CDATA[脆弱性対策情報ポータルサイト「JVN（Japan Vulnerability Notes）」は11月18日、楽天モバイル株式会社が提供しているホームルーター「Rakuten Turbo 5G」に複数の脆弱性があることを発表した。楽天モバイルも情報を公開しており、すでに対策済みのファームウェアへの自動アップデートを実施しているが、自動アップデート設定をOFFにしている利用者は、手動でアップデートするようにと呼び掛けている。]]></summary>
+        <author>
+            <name>松永 侑貴惠</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[トピックス]【Internet Week 2024】いよいよ明日9:30 カンファレンスWeek開幕～会期中も参加登録受け付けます～]]></title>
+        <id>https://www.nic.ad.jp/ja/topics/2024/20241118-01.html</id>
+        <link href="https://www.nic.ad.jp/ja/topics/2024/20241118-01.html"/>
+        <updated>2024-11-18T08:40:44.000Z</updated>
+        <summary type="html"><![CDATA[2024年11月18日
+各位
+一般社団法人日本ネットワークインフォメーションセンター
+【Internet Week 2024】いよいよ明日9:30 カンファレンスWeek開幕
+～会期中も参加登録受け付けます～
+プログラム
+                https://internetweek.jp/2024/program-timetable
+
+                参加登録
+                https://internetweek.jp/2024/application
+
+                登録〆切
+                
+                  2024年11月27日(水)23:59
+                
+              
+            
+オンライン Week：11月17日・18日・19日
+11月19日(火)
+O1:インターネット業界の今をのぞいてみよう ～そして「つなげて、広げて、楽しもう」～
+                
+https://internetweek.jp/2024/archives/program/o1
+              
+H1:ネットワークエンジニアのためのPrometheusハンズオン
+                
+https://internetweek.jp/2024/archives/program/h1
+              
+J1:【併催イベント】第47回JPNICオープンポリシーミーティング(JPOPM 47)
+                
+https://internetweek.jp/2024/archives/program/j1
+              
+11月20日(水)
+O2:【学生・若手歓迎】「…]]></summary>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[最もよく使われているパスワードは？ - 日本企業ユーザーも上位5は1秒以内にクラッキング可能]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20241118-3067348/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20241118-3067348/"/>
+        <updated>2024-11-18T07:40:17.000Z</updated>
+        <summary type="html"><![CDATA[セキュリティ企業のNordPassが、最もよく使われているパスワードの年次調査を発表した。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[NTT Com、生成AI搭載したセキュリティ運用支援ソリューション「AI Advisor」]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20241118-3067334/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20241118-3067334/"/>
+        <updated>2024-11-18T07:27:55.000Z</updated>
+        <summary type="html"><![CDATA[NTTコミュニケーションズは11月18日、tsuzumiなどのLLM（大規模言語モデル）を活用したセキュリティ運用支援ソリューション「AI Advisor」を開発し、2025年1月より提供を開始することを発表し、説明会を開いた。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DXとセキュリティをともに推進するポイント 第1回 企業に競争力とセキュリティのリスクをもたらすDXを再考する]]></title>
+        <id>https://news.mynavi.jp/techplus/article/dxsesc-1/</id>
+        <link href="https://news.mynavi.jp/techplus/article/dxsesc-1/"/>
+        <updated>2024-11-18T06:19:28.000Z</updated>
+        <summary type="html"><![CDATA[競争は国内だけでなく、海外の同業他社や、さらには破壊的なイノベーションと共に参入してくる新しいプレイヤーも存在する。デジタル技術が介入しない領域は例外的とも言え、DXは企業戦略の一分野ではなく、生き残り、繁栄するための中核戦略であると言える。今回は、DXの本来の目的の再確認とDXによるビジネス環境の変化について説明する。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[JCCAら官民11団体がフィッシング啓発キャンペーンを開始、注意喚起の動画も公開]]></title>
         <id>https://internet.watch.impress.co.jp/docs/news/1640299.html</id>
@@ -67,6 +615,16 @@
         </author>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Palo Alto NetworksのPAN-OSに緊急の脆弱性、攻撃が進行中]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20241118-3066851/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20241118-3066851/"/>
+        <updated>2024-11-18T02:23:11.000Z</updated>
+        <summary type="html"><![CDATA[Palo Alto Networksは11月15日(米国時間)、同社のセキュリティ特化型オペレーティングシステム「PAN-OS」の管理Webインタフェースにゼロデイの脆弱性が存在し、この脆弱性を悪用するサイバー攻撃を確認したと発表した。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[TP-Link、「VIGI InSight」シリーズから5倍光学ズームが可能なネットワークカメラ2製品を発売]]></title>
         <id>https://internet.watch.impress.co.jp/docs/news/1640005.html</id>
         <link href="https://internet.watch.impress.co.jp/docs/news/1640005.html"/>
@@ -84,6 +642,16 @@
         <summary type="html"><![CDATA[リモートワークが広まったことで増えたのがPCの持ち出し。どこでも仕事ができるようになって便利になった一方で、PCを管理する情シスにとっては苦労のタネにも。]]></summary>
         <author>
             <name>編集部</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[セキュリティと利便性を両立させた「生成AI活用環境」の実現方法──日立ソリューションズとAllganize Japanが示す実践的アプローチ]]></title>
+        <id>https://news.mynavi.jp/techplus/kikaku/20241118-3060249/</id>
+        <link href="https://news.mynavi.jp/techplus/kikaku/20241118-3060249/"/>
+        <updated>2024-11-18T01:00:00.000Z</updated>
+        <summary type="html"><![CDATA[企業の生成AI活用が本格化するなか、秘匿性の高い機密情報や技術情報を安全に扱う方法に注目が集まっている。2024年10月18日に開催された「生成AIで秘匿性の高い機密情報や技術情報を安全に扱う方法とは？」と題したオンラインセミナーでは、日立ソリューションズとAllganize Japanの2社による講演が行われた。SaaS環境やプライベート環境でのセキュアな生成AI活用事例が紹介され、セキュリティと利便性を両立させた生成AI活用の具体的な道筋が示された。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
         </author>
     </entry>
     <entry>
@@ -9311,16 +9879,6 @@ The post Windows ドライバ関数のための Ghidra データ型アーカイ�
         <summary type="html"><![CDATA[Wi-Fi 7の検証目的で、今年3台目となるノートPC「ASUS Zenbook S14（UX5406）」を購入した。さすがに費用をかけすぎていることは自分でもわかっているが、どうしても5764Mbpsでつないでみたいという欲望を抑えられなかった。]]></summary>
         <author>
             <name>清水 理史</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【外部講演情報更新】11月26日開催 Cyber Initiative Tokyo 2024]]></title>
-        <id>https://www.ipa.go.jp/disc/event.html</id>
-        <link href="https://www.ipa.go.jp/disc/event.html"/>
-        <updated>2024-10-20T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「講演情報・関連団体イベント情報」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
         </author>
     </entry>
     <entry>
