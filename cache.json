@@ -349,6 +349,16 @@
       "siteUrl": "https://www.ipa.go.jp/about/index.html",
       "articles": [
         {
+          "id": "https://www.ipa.go.jp/digital/chousa/digital-ecosystem.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「国内外デジタル化動向を踏まえたデジタルエコシステムのあり方に関する検討会」に関する情報です。",
+          "link": "https://www.ipa.go.jp/digital/chousa/digital-ecosystem.html",
+          "publishedOn": "2024-11-24T15:00:00.000Z",
+          "wordCount": 442,
+          "title": "「国内外デジタル化動向を踏まえたデジタルエコシステムのあり方に関する検討会」を更新しました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
           "id": "https://www.ipa.go.jp/disc/committee/expert-group-on-aigfb.html",
           "author": "情報処理推進機構（IPA）",
           "description": "情報処理推進機構（IPA）の「AI事業者ガイドライン検討会」に関する情報です。",
@@ -1018,6 +1028,16 @@
       "siteUrl": "https://gblogs.cisco.com/jp/",
       "articles": [
         {
+          "id": "https://gblogs.cisco.com/jp/?p=52807",
+          "author": "TALOS Japan",
+          "description": "Cisco Talos は、ベトナム語話者の攻撃者が展開している新たな情報窃取攻撃を発見しました。欧州およびアジアの政府機関や教育機関が標的にされています。\nThe post 新たに発見された PXA Stealer が狙うのは政府機関や教育機関の機密情報 appeared first on Cisco Japan Blog.",
+          "link": "https://gblogs.cisco.com/jp/2024/11/talos-new-pxa-stealer/",
+          "publishedOn": "2024-11-25T07:16:07.000Z",
+          "wordCount": 1141,
+          "title": "新たに発見された PXA Stealer が狙うのは政府機関や教育機関の機密情報",
+          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/23AM80719_eyecatch-460x230.jpg"
+        },
+        {
           "id": "https://gblogs.cisco.com/jp/?p=52800",
           "author": "TALOS Japan",
           "description": "2024 年 11 月のセキュリティ更新プログラムでは、89 件の脆弱性の情報が公開されました。そのうち 4 件について、Microsoft 社は「緊急」と評価しています。その他の脆弱性は「重要」と評価されました。\nThe post 11 月のセキュリティ更新プログラムでは、3 件の重大なリモートコード実行の脆弱性が公開 appeared first on Cisco Japan Blog.",
@@ -1183,7 +1203,23 @@
       "title": "FFRIエンジニアブログ",
       "feedUrl": "https://engineers.ffri.jp/rss",
       "siteUrl": "https://engineers.ffri.jp/",
-      "articles": []
+      "articles": [
+        {
+          "id": "hatenablog://entry/6802418398297046653",
+          "author": null,
+          "description": "はじめに\nこんにちは。基礎技術研究部の松尾です。\n8 月に、ラスベガスのマンダレイベイにて行われた Black Hat USA 2024 に登壇してきました。\nまた、9 月に、当社の新ローレイヤー勉強会にて登壇に至るまでの経緯について話させていただきました。\nこの記事では勉強会の内容を簡易化したものに加え、プラットフォームセキュリティにまつわる他の面白かった発表や、当日の感想や余談について紹介させていただきます。\nBlack Hat について\n\n  \n   BHUSA 2024 Keynote 会場 \n\nBlack Hat はサイバーセキュリティの分野における世界トップレベルの産業系カンファレンスです。\n最新の研究についての講演 (Briefings) や、ツールの展示・デモ (Arsenal)、企業紹介 (Business Hall) などが同じ会場で同時並行に行われます。\n毎年世界中のセキュリティ関係者が、最新の技術動向や研究発表を知るために集まります。\n発表した内容について\n\n  \n   OROM のスライド \n\nYou've Already Been Hacked: What if There Is a Backdoor in Your UEFI OROM?\n今回私は Briefings にて、PCIe デバイスの Option ROM (OROM) に身を置き、UEFI BIOS のモジュールとして動作するバックドアについて発表しました。\nBIOS とは、PC のハードウェアを初期化し、OS をブートするためのシステムファームウェアです。UEFI は、BIOS の仕様です。UEFI では例えば、PC の電源が入れられてからシャットダウンするまでのブートフェーズや、デバイスアクセスに必要なインターフェースで BIOS が用意するべき物などを定義づけています。BIOS…",
+          "link": "https://engineers.ffri.jp/entry/2024/11/25/000000",
+          "publishedOn": "2024-11-24T15:00:00.000Z",
+          "wordCount": 1517,
+          "title": "Black Hat USA 2024 の登壇経緯・感想・発表紹介",
+          "enclosure": {
+            "url": "https://cdn.image.st-hatena.com/image/scale/e6f75d79dff9061ec7f221597c1bcc80ba717d62/backend=imagemagick;height=1300;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2FF%2FFFRI%2F20241125%2F20241125110833.jpg",
+            "type": "image/jpeg",
+            "length": "0"
+          },
+          "imageUrl": "https://cdn.image.st-hatena.com/image/scale/e6f75d79dff9061ec7f221597c1bcc80ba717d62/backend=imagemagick;height=1300;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2FF%2FFFRI%2F20241125%2F20241125110833.jpg"
+        }
+      ]
     },
     {
       "title": "IIJ Security Diary",
@@ -1515,6 +1551,17 @@
       "feedUrl": "https://www.nic.ad.jp/ja/index.xml",
       "siteUrl": "https://www.nic.ad.jp/",
       "articles": [
+        {
+          "id": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2024/vol2123.html",
+          "author": null,
+          "description": "https://www.packetfabric.co.jp/solution/detail04.html   □\n■■■■■      パケットファブリック・ジャパン株式会社      ■■■■■\n----------------------------------------------------------------------\n---------- PR --------------------------------------------------------\n★Internet Week 2024 ★━┓ 11月25日～27日 at 東京・浅草橋 主催：JPNIC\n┃   カンファレンスWeek  ┃ 参加登録は >> https://internetweek.jp/\n┗━━━★ 本日 スタート!★ 多彩なプログラム、ランチセミナー、BoF有！\n■□2024年のインターネットの社会と技術、セキュリティ、未来を総覧！□■\n■□  初参加割・学割あり!! ITC実践力ポイント、CPEクレジット取得可 □■\n----------------------------------------------------------------------\n□■━━━━━━━━━━━━━━━━━━━━━\n□  11/18～11/24に発信したJPNICからのお知らせ\n■━━━━━━━━━━━━━━━━━━━━━━\n\nこのトピックス号では、先週に公開したJPNICブログ記事、お知らせ、Webの更\n新情報などを原則月曜日にまとめてご紹介します。\n\n今回の注目記事は、2024年9月のJPNIC Blogアクセス数Top 10をご紹介したブ\nログ記事です。\n\nいま、JPNIC主催「Internet Week 2024 ～つなげて、広げて、楽しもう～」\nが11月27日(水)まで開…",
+          "link": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2024/vol2123.html",
+          "publishedOn": "2024-11-25T04:36:40.000Z",
+          "wordCount": null,
+          "title": "[メルマガ]vol.2123:【トピックス号】先週のトピックスとWeb更新情報",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.nic.ad.jp/ja/topics/2024/20241122-02.html",
           "author": null,
@@ -2491,6 +2538,46 @@
       "siteUrl": "https://jvn.jp/",
       "articles": [
         {
+          "id": "https://jvn.jp/vu/JVNVU96862793/",
+          "author": "jvn@jvn.jp",
+          "description": "Automated Logicが提供する複数の製品には、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU96862793/",
+          "publishedOn": "2024-11-25T01:00:30.000Z",
+          "wordCount": 88,
+          "title": "複数のAutomated Logic製品における複数の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU91709009/",
+          "author": "jvn@jvn.jp",
+          "description": "CODESYS GmbHが提供するOSCAT Basic Libraryには、境界外読み取りの脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU91709009/",
+          "publishedOn": "2024-11-25T01:00:20.000Z",
+          "wordCount": 109,
+          "title": "CODESYS GmbH製OSCAT Basic Libraryにおける境界外読み取りの脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU95263466/",
+          "author": "jvn@jvn.jp",
+          "description": "Schneider Electricが提供する複数の製品には、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU95263466/",
+          "publishedOn": "2024-11-25T01:00:10.000Z",
+          "wordCount": 249,
+          "title": "複数のSchneider Electric製品における複数の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU93201450/",
+          "author": "jvn@jvn.jp",
+          "description": "mySCADAが提供する複数の製品には、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU93201450/",
+          "publishedOn": "2024-11-25T01:00:00.000Z",
+          "wordCount": 66,
+          "title": "複数のmySCADA製品における複数の脆弱性",
+          "imageUrl": null
+        },
+        {
           "id": "https://jvn.jp/vu/JVNVU92857077/",
           "author": "jvn@jvn.jp",
           "description": "一般社団法人Edgecrossコンソーシアムが提供するEdgecross 基本ソフトウェア Windows版には、複数の脆弱性が存在します。",
@@ -2967,6 +3054,66 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/11/25/51959.html",
+          "author": null,
+          "description": "事件でセキュリティ技術者が逮捕されるたび杉浦は苛立ちを募らせた。それは、一度逮捕されるとあとでたとえ釈放されても社会復帰することが非常に難しくなる、つまり「戻ってこれなくなってしまう」ことだった。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/11/25/51959.html",
+          "publishedOn": "2024-11-24T23:10:03.000Z",
+          "wordCount": 795,
+          "title": "ハッカー協会の事件簿 ＃01「社会的損失」",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46878.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/11/25/51958.html",
+          "author": null,
+          "description": "株式会社テレビ埼玉は11月13日、同社ホームページへの不正アクセスについて発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/11/25/51958.html",
+          "publishedOn": "2024-11-24T23:05:05.000Z",
+          "wordCount": 718,
+          "title": "テレビ埼玉のホームページに不正アクセス、約 1 万 2,000 件の情報漏えい",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46804.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/11/25/51957.html",
+          "author": null,
+          "description": "ヨネックス株式会社は11月13日、「ヨネックス【公式】オンラインショップ」への不正ログインについて発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/11/25/51957.html",
+          "publishedOn": "2024-11-24T23:05:03.000Z",
+          "wordCount": 709,
+          "title": "会員からの申し出で発覚 ～「ヨネックス【公式】オンラインショップ」にリスト型攻撃",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46797.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/11/25/51956.html",
+          "author": null,
+          "description": "GMOサイバーセキュリティ byイエラエ株式会社は11月19日、同社の脆弱性調査・研究チーム「GMOイエラエ」が「楽天テクノロジー・エクセレンスアワード」で「エクセレンス賞」を受賞したと発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/11/25/51956.html",
+          "publishedOn": "2024-11-24T23:00:13.000Z",
+          "wordCount": 719,
+          "title": "GMOイエラエが楽天テクノロジー・エクセレンスアワードで「エクセレンス賞」受賞",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46872.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/11/25/51955.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は11月20日、Apache Tomcatにおける複数の脆弱性について発表した。影響を受けるシステムは以下の通り。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/11/25/51955.html",
+          "publishedOn": "2024-11-24T23:00:09.000Z",
+          "wordCount": 767,
+          "title": "Apache Tomcat に複数の脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2024/11/25/51954.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は11月20日、Androidアプリ「くら寿司 公式アプリ Produced by EPARK」におけるハードコードされた暗号鍵の使用の脆弱性について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2024/11/25/51954.html",
+          "publishedOn": "2024-11-24T23:00:04.000Z",
+          "wordCount": 744,
+          "title": "Androidアプリ「くら寿司 公式アプリ Produced by EPARK」にハードコードされた暗号鍵の使用の脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2024/11/22/51953.html",
           "author": null,
@@ -4345,6 +4492,16 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2411/25/news127.html",
+          "author": null,
+          "description": "森永製菓は、同社やグループ会社の社名・役職員名をかたり、指定の支払い口座への入金を促すなりすましメールを確認したとして注意を呼び掛けた。",
+          "link": "https://www.itmedia.co.jp/news/articles/2411/25/news127.html",
+          "publishedOn": "2024-11-25T03:43:00.000Z",
+          "wordCount": 2865,
+          "title": "「指定口座へ入金を」森永製菓の役員かたるなりすましメールに注意",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2411/25/cover_news127.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2411/22/news191.html",
           "author": null,
           "description": "深刻化するサイバー空間の脅威に対処するため、警視庁が、サイバー犯罪捜査を担う2年間の任期付き職員を募集すると発表した。一定以上の経験や資格が必要で、合格すれば、サイバー犯罪対策課に配属されて警部として捜査に当たる。",
@@ -4641,6 +4798,106 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/shopping/1642158.html",
+          "author": "アイティースリー",
+          "description": "Amazon.co.jpのソニーストアページでは、完全ワイヤレスイヤホンをタイムセール価格で販売中だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/shopping/1642158.html",
+          "publishedOn": "2024-11-25T05:37:32.000Z",
+          "wordCount": 4582,
+          "title": "ソニーの完全ワイヤレスイヤホンがAmazonでタイムセール中！　最大24時間再生のゲーミングイヤホン「INZONE Buds：WF-G700N」は2万4000円",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1642/158/00.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/shopping/1642080.html",
+          "author": "アイティースリー",
+          "description": "Amazon.co.jpでは、11月29日から12月6日にわたってビッグセール「Amazonブラックフライデー 2024」を開催する。その一環としてKindle本ストアでは、「ブラックフライデー Kindle本（電子書籍）セール」を実施中。5万冊以上の電子書籍が最大70％OFF。コンピュータ・IT関連書籍も1000冊以上がラインアップされている。",
+          "link": "https://internet.watch.impress.co.jp/docs/shopping/1642080.html",
+          "publishedOn": "2024-11-25T02:40:32.000Z",
+          "wordCount": 4592,
+          "title": "AmazonでKindle本が最大70％OFF！　ブラックフライデーセール実施中　「ソフトウェア開発現場の『失敗』集めてみた」などコンピュータ・IT書も多数",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1642/080/kindle1125.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1642087.html",
+          "author": "tks24",
+          "description": "キヤノンがカメラ用バッテリーを巡り、Amazonと共同で米国で起こしていた商標権侵害訴訟で勝訴したことが明らかになった。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1642087.html",
+          "publishedOn": "2024-11-25T02:25:00.000Z",
+          "wordCount": 4560,
+          "title": "キヤノンとAmazon、カメラ用バッテリーの模倣品を巡る米国での商標権侵害訴訟で勝訴【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1642/087/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1642084.html",
+          "author": "tks24",
+          "description": "Twitter Japan社が11月11日付で社名変更を行ったことが明らかになった。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1642084.html",
+          "publishedOn": "2024-11-25T02:25:00.000Z",
+          "wordCount": 4581,
+          "title": "Twitter Japanがようやく社名変更、噂された「X JAPAN」ではなく「X Corp. Japan」に【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1642/084/yajiuma-watch_2.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1641838.html",
+          "author": "永沢 茂",
+          "description": "インターネット技術と社会を語るイベント「Internet Week 2024」の「カンファレンスWeek」が11月25日、開幕した。会期は11月27日まで。浅草橋ヒューリックホール＆カンファレンス（東京都台東区浅草橋1-22-16）にて、リアル会場での議論や意見交換を重視したプログラムが実施される。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1641838.html",
+          "publishedOn": "2024-11-25T02:14:00.000Z",
+          "wordCount": 5105,
+          "title": "「Internet Week 2024」のカンファレンスWeekが本日11月25日開幕　会期は11月27日まで。今からでも参加申し込み可能",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1641/838/iweek2024.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/interview/1640265.html",
+          "author": "村上 俊一",
+          "description": "INTERNET Watch編集部では、11月11日を「Wi-Fiルーター見直しの日」とし、家庭でWi-Fiルーターの見直しをすることを、2023年から提案している。特にトラブルなくインターネットを利用できていると、メンテナンスせず何年も「置きっぱなし」状態になってしまうこともあるWi-Fiルーターを、年に一度くらいは気にかけてあげようという趣旨だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/interview/1640265.html",
+          "publishedOn": "2024-11-25T01:30:00.000Z",
+          "wordCount": 4718,
+          "title": "インターネット接続サービスが「Wi-Fiルーター見直しの日」と連動して中継機をプレゼント、ISPとWi-Fiの関係をニフティに聞く　「都会では5GHzもパンパンに……」",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1640/265/001.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1642025.html",
+          "author": "松永 侑貴惠",
+          "description": "株式会社ビーマップは、Wi-Fi HaLow（IEEE 802.11ah）に対応した無線アクセスポイント／IoTゲートウェイ「EAP112」の販売を開始した。4G LTEのバックホール機能も搭載しており、LANケーブルの敷設が難しい場所への設置が可能。本体はIP65等級の防塵・防水性能を備え、動作環境温度は－30℃～50℃。「これまでWi-Fiではカバーが難しかった広大な敷地や、厳しい自然環境において、IoTソリューションの構築を可能にする」としている。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1642025.html",
+          "publishedOn": "2024-11-25T01:17:16.000Z",
+          "wordCount": 5031,
+          "title": "Wi-Fi HaLowで1～2kmの長距離接続、無線アクセスポイント「EAP112」～ビーマップが販売開始　屋外対応でバックホールに4G LTEも利用可能、広大な敷地でのIoT構築を実現",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1642/025/bemap01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1641836.html",
+          "author": "松永 侑貴惠",
+          "description": "ベルキン株式会社は、USB Type-CケーブルでPCに接続するドッキングステーション「Connect USB-C 11-in-1 Pro GaNドック（150W）」の予約販売を、Amazon.co.jpで開始した。価格は3万2990円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1641836.html",
+          "publishedOn": "2024-11-25T00:55:00.000Z",
+          "wordCount": 5022,
+          "title": "ベルキン、合計146Wの給電や8K出力に対応する11in1ドッキングステーション発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1641/836/sub4.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1640328.html",
+          "author": "松永 侑貴惠",
+          "description": "日本電信電話株式会社（NTT）は11月15日、マルチコア光ファイバー（MCF）技術の実フィールド環境における建設・運用・保守技術をラインアップ化したことを発表した。これにより、将来的な大容量光伝送に向けて、MCFを用いた陸上・海底システムの大容量化需要にも対応できるとしている。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1640328.html",
+          "publishedOn": "2024-11-24T21:50:00.000Z",
+          "wordCount": 5004,
+          "title": "NTT、既存光ファイバーと同サイズで大容量化を実現する4コアMCFの建設・運用・保守技術をラインアップ化",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1640/328/00.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/topic/shimizu_sp/1636301.html",
+          "author": "清水 理史",
+          "description": "TP-Linkから登場したArcher BE450は、Wi-Fi 7はこうでなきゃという既成概念を打ち破る新世代のWi-Fi 7ルーターだ。特徴的なのは、そのデザインや価格、5764Mbps+1376Mbpsという無線スペックだ。手に取りやすいだけでなく、実用的な性能も併せ持ったArcher BE450を実際に試してみた。",
+          "link": "https://internet.watch.impress.co.jp/docs/topic/shimizu_sp/1636301.html",
+          "publishedOn": "2024-11-24T21:00:00.000Z",
+          "wordCount": 4714,
+          "title": "Wi-Fi 7が変わる！ たった2万円ちょっとで10GbE対応！ 縦置き！ の新世代Wi-Fi 7ルーター「Archer BE450」【イニシャルB【特別編】】[Sponsored]",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1636/301/001.jpg"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/weekly/1641661.html",
           "author": "中島 由弘",
