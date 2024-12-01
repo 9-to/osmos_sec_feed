@@ -1106,26 +1106,6 @@
           "wordCount": 739,
           "title": "Webex AI Codec の仕組み：AI を活用して音声体験を変革",
           "imageUrl": "https://storage.googleapis.com/gblogs-bucket/sites/2/HOMESHOT_16_2061_v3-1200x800-5b2df79-1-460x230.jpg"
-        },
-        {
-          "id": "https://gblogs.cisco.com/jp/?p=52711",
-          "author": "TALOS Japan",
-          "description": "多くのユーザーは、ChatGPT のような大規模言語モデル（LLM）を、基本的な質問に答えるツール、あるいは、簡単な文章を書く手助けをするツールだと考えています。 \nThe post LLM の活用により、検出コンテンツの作成の効率化と迅速化が可能に appeared first on Cisco Japan Blog.",
-          "link": "https://gblogs.cisco.com/jp/2024/11/talos-how-llms-could-help-defenders-write-better-and-faster-detection/",
-          "publishedOn": "2024-11-01T05:42:26.000Z",
-          "wordCount": 513,
-          "title": "LLM の活用により、検出コンテンツの作成の効率化と迅速化が可能に",
-          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/17AS85612_eyecatch-460x230.jpg"
-        },
-        {
-          "id": "https://gblogs.cisco.com/jp/?p=52706",
-          "author": "TALOS Japan",
-          "description": "さまざまな攻撃活動において、アイデンティティベースの攻撃が増加傾向にあり、その効果は極めて高いことが証明されています。インシデント対応業務の 4 分の 1 は、ログイン情報の窃取を主な目的とした攻撃への対処でした。\nThe post 2024 年第 3 四半期の Talos IR の動向：アイデンティティベースの攻撃が増加 appeared first on Cisco Japan Blog.",
-          "link": "https://gblogs.cisco.com/jp/2024/11/talos-incident-response-trends-q3-2024/",
-          "publishedOn": "2024-11-01T05:26:00.000Z",
-          "wordCount": 814,
-          "title": "2024 年第 3 四半期の Talos IR の動向：アイデンティティベースの攻撃が増加",
-          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/16AR02220_eyecatch-460x230.jpg"
         }
       ]
     },
@@ -1168,6 +1148,16 @@
       "feedUrl": "https://tech-lab.sios.jp/feed",
       "siteUrl": "https://tech-lab.sios.jp",
       "articles": [
+        {
+          "id": "https://tech-lab.sios.jp/?p=44424",
+          "author": "佐藤 陽",
+          "description": "こんにちは、サイオステクノロジー 佐藤 陽です。 今回はSIOSのアドベントカレンダーの記念すべき1日目の記事です。 今年のアドベントカレンダーのテーマは「サイオス社員が今年一年で新たに学んだ技術」です！ そして私は絶賛 ...\n【Azure】CosmosDBにおけるRU入門ガイド【初心者向け】 first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/44424",
+          "publishedOn": "2024-12-01T00:00:19.000Z",
+          "wordCount": 2277,
+          "title": "【Azure】CosmosDBにおけるRU入門ガイド【初心者向け】",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2024/11/20241201.png"
+        },
         {
           "id": "https://tech-lab.sios.jp/?p=44591",
           "author": "やまなか",
@@ -1562,6 +1552,17 @@
           "imageUrl": null
         },
         {
+          "id": "https://www.nic.ad.jp/ja/ip/transfer/ipv4-log.html",
+          "author": null,
+          "description": "IPv4アドレス移転履歴(2024年11月15日現在) English Page\n\n            \n対象IPv4\nアドレス空間\n                    移転元組織名\n                    移転元組織への割り振り\nまたは割り当て日\n                    移転先組織名\n                    移転日\n                    備考\n                  \n118.236.0.0/15 \n                     株式会社USEN \n                     2007-11-05 \n                     ソネットエンタテインメント株式会社 \n                     2011-08-22 \n                    \n                  \n118.238.0.0/17 \n                     2007-11-05 \n                  \n118.238.192.0/18 \n                     2007-11-05 \n                  \n110.232.152.0/21 \n                     2009-05-26 \n                  \n118.240.0.0/15 \n                     2007-11-06 \n                  \n124.219.128.0/17 \n                     2007-11-06 \n                  \n133.242.0.0/16\n                …",
+          "link": "https://www.nic.ad.jp/ja/ip/transfer/ipv4-log.html",
+          "publishedOn": "2024-11-15T01:54:46.000Z",
+          "wordCount": null,
+          "title": "[Web更新]IPv4アドレス移転履歴を更新　2024年11月15日現在のデータを追加",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
           "id": "https://blog.nic.ad.jp/2024/10357/",
           "author": null,
           "description": "2024年11月19日(火)に、第47回JPNICオープンポリシーミーティング（JPOPM47）が開催されます。JPOPMは、日本国内におけるIPアドレス、AS番号管理に関するポリシーを議論し、コンセンサスを形成するためのミーティングです。JPOPMでしか聞けない話もあるかと思いますので、ぜひご参加ください。",
@@ -1833,28 +1834,6 @@
           "publishedOn": "2024-11-05T01:32:07.000Z",
           "wordCount": null,
           "title": "[Web更新]IPv4アドレス移転履歴を更新　2024年11月5日現在のデータを追加",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://blog.nic.ad.jp/2024/10304/?rss",
-          "author": null,
-          "description": "2024年11月19日(火)から27日(水)にかけて開催する「Internet Week 2024 ～つなげて、広げて、楽しもう～」について、プログラムの見どころを連載でご紹介しています。今回は、11月21日(木) 14時から、実践的なハンズオンのプログラムとして開催される「ROAキャッシュサーバハンズオン 〜ROVをはじめよう〜」についてお伝えします。",
-          "link": "https://blog.nic.ad.jp/2024/10304/?rss",
-          "publishedOn": "2024-11-01T02:00:49.000Z",
-          "wordCount": null,
-          "title": "[Blog記事]ROAキャッシュサーバハンズオン 〜ROVをはじめよう〜～Internet Week 2024 注目プログラムのご紹介 ⑧～",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://blog.nic.ad.jp/2024/10304/",
-          "author": null,
-          "description": "2024年11月19日(火)から27日(水)にかけて開催する「Internet Week 2024 ～つなげて、広げて、楽しもう～」について、プログラムの見どころを連載でご紹介しています。今回は、11月21日(木) 14時から、実践的なハンズオンのプログラムとして開催される「ROAキャッシュサーバハンズオン 〜ROVをはじめよう〜」についてお伝えします。",
-          "link": "https://blog.nic.ad.jp/2024/10304/",
-          "publishedOn": "2024-11-01T02:00:49.000Z",
-          "wordCount": null,
-          "title": "[Blog記事]ROAキャッシュサーバハンズオン 〜ROVをはじめよう〜～Internet Week 2024 注目プログラムのご紹介 ⑧～",
           "itunes": {},
           "imageUrl": null
         }
@@ -2650,26 +2629,6 @@
           "publishedOn": "2024-11-05T02:00:00.000Z",
           "wordCount": 74,
           "title": "トレンドマイクロ製Deep Security Agentにおける不適切なアクセス制御の脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU95685374/",
-          "author": "jvn@jvn.jp",
-          "description": "オムロン製Sysmac Studioには権限設定の不備の脆弱性が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU95685374/",
-          "publishedOn": "2024-11-01T04:00:00.000Z",
-          "wordCount": 123,
-          "title": "オムロン製Sysmac Studioにおける権限設定の不備の脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU97090361/",
-          "author": "jvn@jvn.jp",
-          "description": "Rockwell Automationが提供するThinManagerには、複数の脆弱性が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU97090361/",
-          "publishedOn": "2024-11-01T02:00:00.000Z",
-          "wordCount": 82,
-          "title": "Rockwell Automation製ThinManagerにおける複数の脆弱性",
           "imageUrl": null
         }
       ]
@@ -4008,66 +3967,6 @@
           "wordCount": 1066,
           "title": "Cloudbase 今日のアップデート情報 #02「Virtual Machine の IP アドレスの表示・検索が可能に」",
           "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46649.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2024/11/01/51854.html",
-          "author": null,
-          "description": "開発背景",
-          "link": "https://scan.netsecurity.ne.jp/article/2024/11/01/51854.html",
-          "publishedOn": "2024-10-31T23:10:03.000Z",
-          "wordCount": 974,
-          "title": "Cloudbase 今日のアップデート情報 #01「AWSリソースのタグの表示と検索ができるようになりました！」",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46649.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2024/11/01/51853.html",
-          "author": null,
-          "description": "日本臨床食物機能研究会会員の株式会社スローヴィレッジは10月24日、同社が運営する「スローヴィレッジオンラインショップ」への不正アクセスによる情報漏えいの可能性について発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2024/11/01/51853.html",
-          "publishedOn": "2024-10-31T23:05:06.000Z",
-          "wordCount": 966,
-          "title": "「スローヴィレッジオンラインショップ」に不正アクセス、4,494 人のカード情報が漏えいした可能性",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46546.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2024/11/01/51852.html",
-          "author": null,
-          "description": "長崎文化放送株式会社（NCC）は10月23日、プレゼント応募フォームでの不具合の発生について発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2024/11/01/51852.html",
-          "publishedOn": "2024-10-31T23:05:03.000Z",
-          "wordCount": 922,
-          "title": "複数の条件が重なったことが原因 ～ 長崎文化放送 Web フォームで個人情報が目に触れる事象発生の可能性",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/46534.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2024/11/01/51851.html",
-          "author": null,
-          "description": "日本電信電話株式会社（NTT）は10月21日、「セキュリティ透明性確保に向けた可視化データ活用～脆弱性管理編～」を公表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2024/11/01/51851.html",
-          "publishedOn": "2024-10-31T23:00:12.000Z",
-          "wordCount": 836,
-          "title": "「セキュリティ透明性確保に向けた可視化データ活用～脆弱性管理編～」公表 ～ セキュリティ・トランスペアレンシー・コンソーシアム",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2024/11/01/51850.html",
-          "author": null,
-          "description": "Okta Japan株式会社は10月22日、株式会社LegalOn TechnologiesのAI法務プラットフォーム「LegalOn Cloud」が、Oktaの「Okta Integration Network」に登録されたと発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2024/11/01/51850.html",
-          "publishedOn": "2024-10-31T23:00:08.000Z",
-          "wordCount": 967,
-          "title": "LegalOn Technologiesの AI 法務プラットフォーム「LegalOn Cloud」、「Okta Integration Network」に登録",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2024/11/01/51849.html",
-          "author": null,
-          "description": "株式会社カスペルスキーは10月22日、法人向け脅威検知サービス「Kaspersky Managed Detection and Response（Kaspersky MDR）」のライセンス体系を刷新して同日から提供開始すると発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2024/11/01/51849.html",
-          "publishedOn": "2024-10-31T23:00:04.000Z",
-          "wordCount": 978,
-          "title": "他社 EDR 環境にも対応 新規ライセンス最低購入数引き下げも ～ Kaspersky MDR",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
         }
       ]
     },
@@ -4415,26 +4314,6 @@
           "wordCount": 2627,
           "title": "漏洩パスワード、最も多い文字列は「123456」　配列なぞった「qwerty」も4位",
           "imageUrl": "https://image.itmedia.co.jp/news/articles/2411/05/cover_news178.jpg"
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2411/01/news127.html",
-          "author": null,
-          "description": "米Microsoftは31日、Windows 10の「拡張セキュリティ更新プログラム」の個人向け料金を年間30米ドル（約4500円）と発表した。",
-          "link": "https://www.itmedia.co.jp/news/articles/2411/01/news127.html",
-          "publishedOn": "2024-11-01T03:49:00.000Z",
-          "wordCount": 2911,
-          "title": "Windows 10の“個人向け”延長セキュリティサポート、1年間で30米ドルに",
-          "imageUrl": "https://image.itmedia.co.jp/news/articles/2411/01/cover_news127.jpg"
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2411/01/news114.html",
-          "author": null,
-          "description": "実写版「推しの子」の公式Xアカウントが乗っ取り被害に遭った。1日に東映映画の公式Xアカウントが注意喚起している。",
-          "link": "https://www.itmedia.co.jp/news/articles/2411/01/news114.html",
-          "publishedOn": "2024-11-01T02:05:00.000Z",
-          "wordCount": 2904,
-          "title": "実写版「推しの子」公式Xアカウントが乗っ取り被害に　不審なメッセージなどに注意呼び掛け",
-          "imageUrl": "https://image.itmedia.co.jp/news/articles/2411/01/cover_news114.jpg"
         }
       ]
     },
@@ -4443,6 +4322,16 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/topic/special/1643973.html",
+          "author": "編集部",
+          "description": "YouTubeチャンネル「清水理史の『イニシャルB』チャンネル」で、「あなたの家のWi-Fiルーター、もう乗っ取られているかも!? ボットネットの脅威を防ぐ三つの提案～みんなの懐かしルーター自慢も」を公開しました。",
+          "link": "https://internet.watch.impress.co.jp/docs/topic/special/1643973.html",
+          "publishedOn": "2024-11-30T04:05:00.000Z",
+          "wordCount": 4664,
+          "title": "本物の「年代物Wi-Fiルーター」をお見せしますよ…。YouTube「清水理史の『イニシャルB』チャンネル」で動画第1弾を公開[Sponsored]",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1643/973/01.png"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/special/1643720.html",
           "author": "編集部",
@@ -6512,116 +6401,6 @@
           "wordCount": 4722,
           "title": "ついに本格普及期に入ったWi-Fi 7、バッファロー渾身の最新ルーターは「何もあきらめなかった」からこその超高コスパ【イニシャルB【特別編】】[Sponsored]",
           "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1631/802/006.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/weekly/1636125.html",
-          "author": "中島 由弘",
-          "description": "「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/weekly/1636125.html",
-          "publishedOn": "2024-11-01T10:00:00.000Z",
-          "wordCount": 5073,
-          "title": "見出しでわかる IT界隈・今週の重要ニュース：全62本［2024/10/24～10/30］",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1636/125/shutterstock_1391033204_main.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1636341.html",
-          "author": "山田 貞幸",
-          "description": "ニフティ株式会社は11月1日、光回線によるインターネット接続サービス「＠nifty光 3年プラン（N）」の新規申込者にニフティポイント4万8000円相当をプレゼントし、加えて希望者全員にバッファロー製のWi-Fi中継機をプレゼントするキャンペーンを開始した。期間は12月2日まで。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1636341.html",
-          "publishedOn": "2024-11-01T06:30:00.000Z",
-          "wordCount": 5009,
-          "title": "「@nifty光 3年プラン」新規申込でWi-Fi中継機と48,000円相当のニフティポイントがもらえるキャンペーン、12月2日まで",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1636/341/01.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1636267.html",
-          "author": "永沢 茂",
-          "description": "株式会社下鴨茶寮は10月31日、同社が運営する「下鴨茶寮オンラインショップ」への不正アクセスにより、利用者の個人情報1万9235件と、クレジットカード情報1万6682件が漏えいした可能性があることを発表した。クレジットカード番号のほか、有効期限やセキュリティコードの情報も含まれており、一部の利用者のクレジットカード情報が不正に使用された可能性があることも確認されたという。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1636267.html",
-          "publishedOn": "2024-11-01T04:14:52.000Z",
-          "wordCount": 5009,
-          "title": "通販サイトのペイメントアプリ改ざんで、3年間にわたりカード情報が漏えいか？ 「下鴨茶寮オンラインショップ」　個人情報1万9235件、カード情報1万6682件が漏えいした可能性",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1636/267/shimogamosaryo.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/shopping/1636144.html",
-          "author": "アイティースリー",
-          "description": "Amazon.co.jpのサントリー 天然水ブランドストアでは現在、ミネラルウォーターや炭酸水がタイムセール中だ。",
-          "link": "https://internet.watch.impress.co.jp/docs/shopping/1636144.html",
-          "publishedOn": "2024-11-01T03:19:56.000Z",
-          "wordCount": 4602,
-          "title": "最大50％OFFクーポンも！ サントリーの天然水がまとめ買いチャンス!!　Amazonセール情報　「サントリー天然水SPARKLING」ラベルレスの定期おトク便で初回50％OFFクーポン配布!!",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1636/144/suntry.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/column/teleworkgoods/1636117.html",
-          "author": "瀬戸 学",
-          "description": "以前紹介したとおり、我が家では玄関の鍵に指紋認証対応のスマートロックを導入している。最初のころは一応鍵を持って出かけていたが、今ではその習慣もなくなった。何しろ指紋で解錠できるのだから、鍵どころかスマホを忘れても問題ない。",
-          "link": "https://internet.watch.impress.co.jp/docs/column/teleworkgoods/1636117.html",
-          "publishedOn": "2024-11-01T03:12:00.000Z",
-          "wordCount": 5081,
-          "title": "スマートロックが開かなくなった!? そんなときの保険にUSB電源でも動くスマートなキーボックスを 【テレワークグッズ・ミニレビュー 第110回】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1636/117/001.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1636154.html",
-          "author": "tks24",
-          "description": "生成AIを活用した新しい検索エンジン「ChatGPT Search」が正式リリースされた。",
-          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1636154.html",
-          "publishedOn": "2024-11-01T02:55:00.000Z",
-          "wordCount": 4583,
-          "title": "Google検索のライバルとなるか？ 生成AIを活用した検索エンジン「ChatGPT Search」が登場【やじうまWatch】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1636/154/yajiuma-watch_1.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1636153.html",
-          "author": "tks24",
-          "description": "Mac mini（M4）を裏返すことなく電源ボタンを押すためのキットが発明された。",
-          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1636153.html",
-          "publishedOn": "2024-11-01T02:55:00.000Z",
-          "wordCount": 4603,
-          "title": "Mac miniを裏返さずに底面ボタンを押せる！ 有志作成の3Dプリンター用キットが無料公開中【やじうまWatch】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1636/153/yajiuma-watch_2.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/column/netliteracy/1635957.html",
-          "author": "DLIS・柳谷 智宣",
-          "description": "AI技術を使ったオンライン求人詐欺が増加しているとして、セキュリティ企業のMcAfeeが警鐘を鳴らしています。米連邦取引委員会（FTC）によると、2023年の求人詐欺による被害額は4億9100万ドルに上り、前年の3億6700万ドルから大幅に増加。また、米個人情報窃盗防止研究センター（ITRC）によると、求人詐欺の報告件数は前年比で118％増加しています。加速度的に求人詐欺が広がっているのは、サイバー犯罪者が生成AIを積極的に活用していることが原因なのだそうです。",
-          "link": "https://internet.watch.impress.co.jp/docs/column/netliteracy/1635957.html",
-          "publishedOn": "2024-11-01T02:50:00.000Z",
-          "wordCount": 5023,
-          "title": "求人詐欺の被害が拡大中、サイバー犯罪者が生成AIで「架空の求人広告」乱造【読めば身に付くネットリテラシー】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1635/957/01.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1636119.html",
-          "author": "永沢 茂",
-          "description": "株式会社リットーミュージックは10月28日、「ドラム・マガジンWEB」の有料サブスクリプションサービス「ドラマガWEBサブスク会員」を開始した。同社が発行する雑誌「リズム＆ドラム・マガジン」のバックナンバー読み放題や、会員限定のウェブコンテンツなどを楽しめる。料金は、月額990円、3カ月2750円、1年間のサブスクリプションサービスと雑誌「リズム＆ドラム・マガジン」の年間購読（4冊）とのセットで1万6500円。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1636119.html",
-          "publishedOn": "2024-10-31T23:55:24.000Z",
-          "wordCount": 5002,
-          "title": "「リズム＆ドラム・マガジン」バックナンバーが読み放題、創刊号から43年分・380冊以上！ サブスクサービス開始",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1636/119/drumsmagazine00.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1635994.html",
-          "author": "大東 奈央",
-          "description": "オリックス・クレジットの「ORIX MONEY」をかたるフィッシングの報告を受けたとして、フィッシング対策協議会が情報を公開した。誘導先のフィッシングサイトは10月30日17時時点で稼働中であるため、引き続き注意が必要だ。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1635994.html",
-          "publishedOn": "2024-10-31T23:45:00.000Z",
-          "wordCount": 5035,
-          "title": "オリックス・クレジットをかたるフィッシング、件名「【ORIX MONEY】会員様限定 5,000円プレゼントキャンペーン」などの不審なメールに注意　偽サイトに誘導し、カード情報を詐取",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1635/994/01.PNG"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1635365.html",
-          "author": "松永 侑貴惠",
-          "description": "株式会社マトリックスコミュニケーションズは10月23日、PCやスマートフォン／タブレット端末など各種デバイスの映像出力をワイヤレスでHDMI対応ディスプレイに伝送できるアダプター2製品を発売した。デバイス側がUSB Type-Cポート接続の「Compact Mate 2 C1＋R1 JP（型名：MCCMT250）」と、HDMIポート接続の「Compact Mate 2 H1＋R1 JP（型名：MCCMT150）」があり、いずれもオープン価格（参考価格1万4740円）。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1635365.html",
-          "publishedOn": "2024-10-31T21:00:00.000Z",
-          "wordCount": 5075,
-          "title": "映像出力をワイヤレスでHDMIディスプレイへ投映できるアダプター発売、伝送距離は最大20m　送受信機がペアリング済みで、無線LANへのネットワーク接続も不要",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1635/365/01.jpg"
         }
       ]
     },
@@ -7385,46 +7164,6 @@
           "wordCount": 3160,
           "title": "リコー製プリンタと複合機に深刻な脆弱性、ただちに更新を",
           "imageUrl": "https://news.mynavi.jp/techplus/article/20241103-3057226/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/security_manufacturing-CGA0pTrw/",
-          "author": null,
-          "description": "近年、製造業の分野において、情報セキュリティの重要性が急速に高まっている。デジタル化やIoT（Internet of Things）の進展に伴い、工場のスマート化やサプライチェーンのデジタル連携が不可欠となると同時に、サイバー攻撃のリスクも増大しているからだ。",
-          "link": "https://news.mynavi.jp/techplus/article/security_manufacturing-CGA0pTrw/",
-          "publishedOn": "2024-11-01T10:20:00.000Z",
-          "wordCount": 2968,
-          "title": "今、製造業が考えるべきセキュリティ対策とは?",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/security_manufacturing-CGA0pTrw/index_images/index.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/security_network-Upv32na4/",
-          "author": null,
-          "description": "デジタル化が進む現代社会において、ネットワークセキュリティは企業や個人の情報資産を守る上で欠かせない要素である。近年特に、リモートワークの普及やクラウドサービスの利用拡大により、セキュリティリスクがかつてないほど増大している。これに立ち向かっていくには、最新のネットワークセキュリティ対策を理解し、実践することが重要だ。本稿では、ネットワークセキュリティの基本から、最新の対策方法までを解説する。",
-          "link": "https://news.mynavi.jp/techplus/article/security_network-Upv32na4/",
-          "publishedOn": "2024-11-01T10:15:00.000Z",
-          "wordCount": 2975,
-          "title": "情報資産を守るために必要なネットワークセキュリティの基本",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/security_network-Upv32na4/index_images/index.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20241101-3056503/",
-          "author": null,
-          "description": "フィッシング対策協議会(Council of Anti-Phishing Japan)はこのほど、ORIX MONEY (オリックス・クレジット)をかたるフィッシングの報告を受けているとして緊急情報を公開した。フィッシングメールの件名として、「【ORIX MONEY】会員様限定 5,000円プレゼントキャンペーン」など、複数確認されており注意が必要。",
-          "link": "https://news.mynavi.jp/techplus/article/20241101-3056503/",
-          "publishedOn": "2024-11-01T02:29:24.000Z",
-          "wordCount": 2883,
-          "title": "ORIX MONEY (オリックス・クレジット)偽るフィッシング確認、注意を",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20241101-3056503/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20241101-3056510/",
-          "author": null,
-          "description": "フィッシング対策協議会(Council of Anti-Phishing Japan)はこのほど、レイク (新生フィナンシャル)を偽るフィッシングの報告を受けているとして緊急情報を公開した。フィッシングメールの件名として、「レイクよりのお知らせ: アカウント情報の見直しをお願いいたします」など、多数確認されているので注意が必要。",
-          "link": "https://news.mynavi.jp/techplus/article/20241101-3056510/",
-          "publishedOn": "2024-11-01T01:53:52.000Z",
-          "wordCount": 2907,
-          "title": "レイク (新生フィナンシャル)を偽るフィッシング確認、注意を",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20241101-3056510/ogp_images/ogp.jpg"
         }
       ]
     }
