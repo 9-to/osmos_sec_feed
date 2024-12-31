@@ -2,10 +2,64 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2024-12-30T08:15:19.610Z</updated>
+    <updated>2024-12-31T08:15:01.043Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[みずほ銀行で一時不具合、サイバー攻撃か　原因は「外部からの大量データ送付」]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2412/31/news068.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2412/31/news068.html"/>
+        <updated>2024-12-31T04:43:00.000Z</updated>
+        <summary type="html"><![CDATA[みずほ銀行は、31日の午前7時ごろから10時ごろにかけて、サービスの一部が断続的につながりにくくなっていたと発表した。すでに解消している。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ダークウェブから分析、2025年に増加すると予測されるセキュリティのリスク]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20241231-3088980/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20241231-3088980/"/>
+        <updated>2024-12-31T02:29:51.000Z</updated>
+        <summary type="html"><![CDATA[2024年もさまざまな企業がランサムウェアによる大規模な被害を受けた。一方、一般ユーザーもフィッシングによる不正送金の被害など、インターネットを介してさまざまなインシデントに遭遇した。そして、2025年はどのようなセキュリティのリスクが増えるのだろうか。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ルータのデフォルト資格情報を悪用してサイバー攻撃、1.5万台にリスク]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20241231-3096862/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20241231-3096862/"/>
+        <updated>2024-12-31T00:06:21.000Z</updated>
+        <summary type="html"><![CDATA[VulnCheckは12月26日(米国時間)、Four-Faith製産業用ルータの深刻な脆弱性「CVE-2024-12856」が悪用されていると報告した。この脆弱性はリモートからコマンド実行が可能とされ、攻撃者はデフォルトの認証情報を悪用して侵入する可能性がある。影響を受けるモデルはF3x24およびF3x36で、インターネット上には約15,000台の脆弱なデバイスが存在するとみられる。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Adds One Known Exploited Vulnerability to Catalog]]></title>
+        <id>/node/22767</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2024/12/30/cisa-adds-one-known-exploited-vulnerability-catalog"/>
+        <updated>2024-12-30T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA has added one new vulnerability to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.
+CVE-2024-3393 Palo Alto Networks PAN-OS Malformed DNS Packet Vulnerability
+These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.
+Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.
+Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[D-Link製ルータが侵害される、日本に相当数の被害を受けた機器 - 確認を]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20241230-3097308/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20241230-3097308/"/>
+        <updated>2024-12-30T09:03:27.000Z</updated>
+        <summary type="html"><![CDATA[Fortinetは12月26日(米国時間)、古いD-Link製ルータが侵害されたと報じた。侵害されたデバイスからはボットネット「Mirai」の亜種「FICORA」またはボットネット「Kaiten」の亜種「CAPSAICIN」が発見されている。被害を受けたデバイスは世界中に分散しているが、日本に多いことが確認されている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2024年に送られた注目すべきフィッシングメールのタイトル5選]]></title>
         <id>https://news.mynavi.jp/techplus/article/20241230-3093389/</id>
@@ -9593,76 +9647,6 @@ Hyperleger Fabric v3.0の解説！ first appeared on SIOS Tech. Lab.]]></summary
         <summary type="html"><![CDATA[11月15日、マイクロソフトのウェブサイトでArm版WindowsのISOイメージの配布が開始された。主に仮想マシンの作成用と位置付けられているが、USBメディアを手動で作成してSnapdragon X Elite搭載PCなどへのクリーンインストールにも利用できる。]]></summary>
         <author>
             <name>清水 理史</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「相互運用性向上のための参照モデル活用ガイド」を公開しました]]></title>
-        <id>https://www.ipa.go.jp/digital/data/data-space.html</id>
-        <link href="https://www.ipa.go.jp/digital/data/data-space.html"/>
-        <updated>2024-12-01T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「データスペースの推進」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DX認定制度 認定事業者の公表（2024年12月1日認定適用）]]></title>
-        <id>https://disclosure.dx-portal.ipa.go.jp/</id>
-        <link href="https://disclosure.dx-portal.ipa.go.jp/"/>
-        <updated>2024-12-01T15:00:00.000Z</updated>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2025年度未踏ターゲット事業(量子コンピューティング技術を活用したソフトウェア開発分野)の公募を開始しました]]></title>
-        <id>https://www.ipa.go.jp/jinzai/mitou/target/2025/koubo.html</id>
-        <link href="https://www.ipa.go.jp/jinzai/mitou/target/2025/koubo.html"/>
-        <updated>2024-12-01T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「2025年度未踏ターゲット事業(量子コンピューティング技術を活用したソフトウェア開発分野)公募概要」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2025年度未踏ターゲット事業(リザバーコンピューティング技術を活用したソフトウェア開発分野)の公募を開始しました]]></title>
-        <id>https://www.ipa.go.jp/jinzai/mitou/target/2025_reservoir/koubo.html</id>
-        <link href="https://www.ipa.go.jp/jinzai/mitou/target/2025_reservoir/koubo.html"/>
-        <updated>2024-12-01T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「2025年度未踏ターゲット事業(リザバーコンピューティング技術を活用したソフトウェア開発分野)公募概要」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DX調査2025の回答受付を開始しました]]></title>
-        <id>https://www.ipa.go.jp/digital/dx/dx-meigara.html</id>
-        <link href="https://www.ipa.go.jp/digital/dx/dx-meigara.html"/>
-        <updated>2024-12-01T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「DX銘柄」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【募集開始】「制御システムのセキュリティリスク分析ガイド オンラインセミナー 2024年度（下期）開催」の申込み受付を開始しました]]></title>
-        <id>https://www.ipa.go.jp/security/seminar/controlsystem/riskanalysis2024-2h.html</id>
-        <link href="https://www.ipa.go.jp/security/seminar/controlsystem/riskanalysis2024-2h.html"/>
-        <updated>2024-12-01T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「制御システムのセキュリティリスク分析ガイド オンラインセミナー2024年度下期」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【Azure】CosmosDBにおけるRU入門ガイド【初心者向け】]]></title>
-        <id>https://tech-lab.sios.jp/?p=44424</id>
-        <link href="https://tech-lab.sios.jp/archives/44424"/>
-        <updated>2024-12-01T00:00:19.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは、サイオステクノロジー 佐藤 陽です。 今回はSIOSのアドベントカレンダーの記念すべき1日目の記事です。 今年のアドベントカレンダーのテーマは「サイオス社員が今年一年で新たに学んだ技術」です！ そして私は絶賛 ...
-【Azure】CosmosDBにおけるRU入門ガイド【初心者向け】 first appeared on SIOS Tech. Lab.]]></summary>
-        <author>
-            <name>佐藤 陽</name>
         </author>
     </entry>
     <entry>
