@@ -2,10 +2,84 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-01-17T08:14:22.398Z</updated>
+    <updated>2025-01-18T08:12:52.749Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[設定に誤りがある2万のドメイン、マルウェア配布のために悪用される]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20250118-3108748/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20250118-3108748/"/>
+        <updated>2025-01-18T05:07:49.000Z</updated>
+        <summary type="html"><![CDATA[Infobloxは1月14日(米国時間)、メールの送信元ドメインを偽装したマルウェア配布のキャンペーンを発見したと伝えた。また、キャンペーンの調査の過程で、侵害された多くのMikrotik製ルータの存在が確認されている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VU#199397: Insecure Implementation of Tunneling Protocols  (GRE/IPIP/4in6/6in4)]]></title>
+        <id>https://kb.cert.org/vuls/id/199397</id>
+        <link href="https://kb.cert.org/vuls/id/199397"/>
+        <updated>2025-01-17T20:38:34.973Z</updated>
+        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
+<p>Tunnelling protocols are an essential part of the Internet and form much of the backbone that modern network infrastructure relies on today. One limitation of these protocols is that they do not authenticate and/or encrypt traffic. Though this limitation exists, IPsec can be implemented to help prevent attacks. However, implementation of these protocols have been executed poorly in some areas.</p>
+<p>For the latest security findings from the researchers at the DistriNet-KU Leuven research group, please refer to: https://papers.mathyvanhoef.com/usenix2025-tunnels.pdf</p>
+<h3 id="description">Description</h3>
+<p>Researchers at the DistriNet-KU Leuven research group have discovered millions of vulnerable Internet systems that accept unauthenticated IPIP, GRE, 4in6, or 6in4 traffic. This can be considered a generalization of the vulnerability in VU#636397 : <a href="https://kb.cert.org/vuls/id/636397">IP-in-IP protocol routes arbitrary traffic by default</a> (CVE-2020-10136). The exposed systems can be abused as one-way proxies, enable an adversary to spoof the source address of packets (CWE-290 Authentication Bypass by Spoofing), or permit access to an organization's private network. Vulnerable systems can also facilitate Denial-of-Service (DoS) attacks.
+Two types of DoS attacks exploiting this vulnerability can amplify traffic: one concentrates traffic in time ("Tunneled-Temporal Lensing"), and the other can loop packets between vulnerable systems, resulting in an amplification factor of at least 13- and 75-fold, respectively. Additionally, the researchers discovered an Economic Denial of Sustainability (EDoS), where the outgoing bandwidth of a vulnerable system is drained, raising the cost of operations if hosted by a third-party cloud service provider.</p>
+<h3 id="impact">Impact</h3>
+<p>An adversary can abuse these security vulnerabilities to create one-way proxies and spoof source IPv4/6 addresses. Vulnerable systems may also allow access to an organization's private network or be abused to perform DDoS attacks.</p>
+<h3 id="solution">Solution</h3>
+<p>See the "Defences" section in the researcher's publication https://papers.mathyvanhoef.com/usenix2025-tunnels.pdf</p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thanks to the researchers Mathy Vanhoef and Angelos Beitis of the DistriNet-KU Leuven research group for the initial discovery and research. This document was written by Ben Koo.</p>
+<p><strong>CVE-2024-7595</strong>
+GRE and GRE6 Protocols (RFC2784) do not validate or verify the source of a network packet, allowing an attacker to route arbitrary traffic via an exposed network interface that can lead to spoofing, access control bypass, and other unexpected network behaviors. This can be considered similar to CVE-2020-10136.</p>
+<p><strong>CVE-2024-7596</strong>
+Proposed Generic UDP Encapsulation (GUE) (IETF draft-ietf-intarea-gue*) does not validate or verify the source of a network packet, allowing an attacker to route arbitrary traffic via an exposed network interface that can lead to spoofing, access control bypass, and other unexpected network behaviors. This can be considered similar to CVE-2020-10136.</p>
+<p>*Note: <a href="https://datatracker.ietf.org/doc/draft-ietf-intarea-gue/">GUE Draft</a> is expired and no longer canonical.</p>
+<p><strong>CVE-2025-23018</strong>
+The IPv4-in-IPv6 and IPv6-in-IPv6 protocols (RFC2473) do not require the validation or verification of the source of a network packet, allowing an attacker to route arbitrary traffic via an exposed network interface that can lead to spoofing, access control bypass, and other unexpected network behaviors. This can be considered similar to CVE-2020-10136.</p>
+<p><strong>CVE-2025-23019</strong>
+The IPv6-in-IPv4 protocol (RFC4213) does not require authentication of incoming packets, allowing an attacker to route traffic via an exposed network interface that can lead to spoofing, access control bypass, and other unexpected network behaviors.</p>
+<p><em>Note: CVE-2024-7595, CVE-2024-7596, and CVE-2025-23018 are considered similar to CVE-2020-10136 in that they highlight the inherent weakness that these protocols do not validate or verify the source of a network packet. These distinct CVEs are meant to specify the different protocols in question that are vulnerable.</em></p>
+<p><em>For reference: (CVE-2020-10136) Multiple products that implement the IP Encapsulation within IP (IPIP) standard (RFC 2003, STD 1) decapsulate and route IP-in-IP traffic without any validation, which could allow an unauthenticated remote attacker to route arbitrary traffic via an exposed network interface and lead to spoofing, access control bypass, and other unexpected network behaviors.</em></p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA and FBI Release Updated Guidance on Product Security Bad Practices]]></title>
+        <id>/node/22887</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2025/01/17/cisa-and-fbi-release-updated-guidance-product-security-bad-practices"/>
+        <updated>2025-01-17T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In partnership with the Federal Bureau of Investigation (FBI), CISA released an update to joint guidance Product Security Bad Practices in furtherance of CISA’s Secure by Design initiative. This updated guidance incorporates public comments CISA received in response to a Request for Information, adding additional bad practices, context regarding memory-safe languages, clarifying timelines for patching Known Exploited Vulnerabilities (KEVs), and other recommendations.
+While this voluntary guidance is intended for software manufacturers who develop software products and services in support of critical infrastructure, all software manufacturers are strongly encouraged to avoid these product security bad practices.
+CISA and FBI urge software manufacturers to reduce customer risk by prioritizing security throughout the product development process. For more information and resources, visit CISA’s Secure by Design webpage or learn how to take CISA’s Secure by Design Pledge.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[見出しでわかる IT界隈・今週の重要ニュース：全76本［2025/1/9～1/15］]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/weekly/1655149.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/weekly/1655149.html"/>
+        <updated>2025-01-17T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。]]></summary>
+        <author>
+            <name>中島 由弘</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[セゾンカード、不正懸念の顧客に「ご利用内容確認のお願い」動画送信へ]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2501/17/news161.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2501/17/news161.html"/>
+        <updated>2025-01-17T07:52:00.000Z</updated>
+        <summary type="html"><![CDATA[セゾンカードは、情報漏えいを含む不正利用が懸念される顧客に対して、「ご利用内容確認のお願い」の動画を送ると発表した。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Delta Electronics製DRASimuCADにおける複数の脆弱性]]></title>
         <id>https://jvn.jp/vu/JVNVU93677522/</id>
@@ -64,6 +138,16 @@
         <summary type="html"><![CDATA[株式会社バッファローは、本体両端にUSB Type-C×1、USB Type-A×1のコネクタを備えたカードリーダー「BSCR130U3CBK」を発売する。2月上旬の出荷予定で、市場想定価格は2780円。]]></summary>
         <author>
             <name>木下 明音</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Blog記事]2024年11月のJPNIC Blogアクセス数Top 10]]></title>
+        <id>https://blog.nic.ad.jp/2025/10391/</id>
+        <link href="https://blog.nic.ad.jp/2025/10391/"/>
+        <updated>2025-01-17T04:00:17.000Z</updated>
+        <summary type="html"><![CDATA[2024年11月のJPNIC Blogアクセス数Top 10は、定番のWHOISに加えてIW2024を紹介した記事が4本Top 10入りしました。圏外にもIW2024関連の記事が並び、高い関心をうかがわせます。]]></summary>
+        <author>
+            <name>JPNIC Web</name>
         </author>
     </entry>
     <entry>
@@ -978,6 +1062,87 @@ The post 脆弱な Windows ドライバに関する分析 appeared first on Cisc
         <summary type="html"><![CDATA[Siemensから各製品向けのアップデートが公開されました。]]></summary>
         <author>
             <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[トピックス]JPNIC技術セミナー 2025年2月 開催のお知らせ～インターネットの基盤技術が学べる3日間～]]></title>
+        <id>https://www.nic.ad.jp/ja/topics/2025/20250115-01.html</id>
+        <link href="https://www.nic.ad.jp/ja/topics/2025/20250115-01.html"/>
+        <updated>2025-01-15T05:52:20.000Z</updated>
+        <summary type="html"><![CDATA[2025年1月15日
+各位
+一般社団法人日本ネットワークインフォメーションセンター
+JPNIC技術セミナー 2025年2月 開催のお知らせ～インターネットの基盤技術が学べる3日間～
+記
+
+            
+2025年2月 JPNIC技術セミナー 開催概要
+名称
+              JPNIC 技術セミナー Winter - インターネットの基盤技術が学べる3日間
+
+              Webサイト
+              https://www.nic.ad.jp/ja/tech/seminar/
+
+              プログラムと開催形態
+              
+                〇 ハンズオンプログラム
+                
+※ ハンズオンはJPNICオフィスでの現地開催のみとなります。
+                      
+10:00～17:00
+                        BGPインターネットルーティング(有料)
+                      
+〇 座学プログラム
+                
+10:00～12:00
+                      インターネットとは(有料)
+                    
+13:00～15:00
+                      資源管理の基礎知識(無料)
+                    
+16:00～18:00
+                      
+                        インターネット基盤運営の仕組み
+～インターネットのグローバルな運営調整に参画するために～(無料)
+                      
+                    
+13:00～15:00
+                        DNS基礎(有料)
+                      
+15:30～17:30
+                        エンジニア向けIPv6技術解説(有料)
+                      
+開催形態
+              
+                ハイブリッド形式で開催
+                
+https://www.nic.ad.jp/ja/profile/map.html
+                  
+参加登録
+              
+                https://e-ve.event-form.jp/event/94547/jpnicseminar
+                
+参加登録には株式会社フラッグシステムの「イーベ！」を利用しています
+参加登録はお一人ずつお願いします
+お支払い方法
+              
+                
+参加費
+              
+                
+お問い合わせ先
+              
+                JPNIC技術セミナー 事務局
+                
+tech-seminar@nic.ad.jp
+              
+            
+
+
+            
+以上]]></summary>
+        <author>
+            <name>JPNIC Web</name>
         </author>
     </entry>
     <entry>
@@ -7925,301 +8090,6 @@ Red Hat OpenShift Serverlessとは？ first appeared on SIOS Tech. Lab.]]></summ
         <summary type="html"><![CDATA[2024年11月20日に国民生活センターが「今から考えておきたい『デジタル終活』」という啓発資料をリリースしました。]]></summary>
         <author>
             <name>古田雄介</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【外部講演情報更新】12月21日開催 2024年度 第1回DBSJセミナー「生成AIの安全性における法的課題や活動事例」]]></title>
-        <id>https://www.ipa.go.jp/disc/event.html</id>
-        <link href="https://www.ipa.go.jp/disc/event.html"/>
-        <updated>2024-12-19T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「講演情報・関連団体イベント情報」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ICSCoE 中核人材育成プログラム第7期の卒業プロジェクトを1件公開しました]]></title>
-        <id>https://www.ipa.go.jp/jinzai/ics/core_human_resource/final_project/2024/index.html</id>
-        <link href="https://www.ipa.go.jp/jinzai/ics/core_human_resource/final_project/2024/index.html"/>
-        <updated>2024-12-19T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「中核人材育成プログラム 卒業プロジェクト 第7期生」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Releases Eight Industrial Control Systems Advisories]]></title>
-        <id>/node/22753</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2024/12/19/cisa-releases-eight-industrial-control-systems-advisories"/>
-        <updated>2024-12-19T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CISA released eight Industrial Control Systems (ICS) advisories on December 19, 2024. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
-ICSA-24-354-01 Hitachi Energy RTU500 series CMU
-ICSA-24-354-02 Hitachi Energy SDM600
-ICSA-24-354-03 Delta Electronics DTM Soft
-ICSA-24-354-04 Siemens User Management Component
-ICSA-24-354-05 Tibbo AggreGate Network Manager
-ICSA-24-354-06 Schneider Electric Accutech Manager
-ICSA-24-354-07 Schneider Electric Modicon Controllers
- 
-ICSMA-24-354-01 Ossur Mobile Logic Application
-CISA encourages users and administrators to review newly released ICS advisories for technical details and mitigations.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Adds One Known Exploited Vulnerability to Catalog]]></title>
-        <id>/node/22744</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2024/12/19/cisa-adds-one-known-exploited-vulnerability-catalog"/>
-        <updated>2024-12-19T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CISA has added one new vulnerability to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.
-CVE-2024-12356 BeyondTrust Privileged Remote Access (PRA) and Remote Support (RS) Command Injection Vulnerability
-These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.
-Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.
-Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TP-Link製ルータの利用を禁止する可能性、米国当局が調査]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20241219-3089689/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20241219-3089689/"/>
-        <updated>2024-12-19T05:19:14.000Z</updated>
-        <summary type="html"><![CDATA[Bleeping Computerは12月18日(米国時間)、米国政府は来年からTP-Link製のルータの利用を禁止する可能性があると報じた。米国では現在、司法省、商務省、国防総省などを中心に、TP-Link製ルータがサイバー攻撃に悪用され、国家安全保障の脅威になっているか調査中とされる。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ラベルレスのペットボトル飲料が安い！ Amazonセール情報　「アサヒ 緑茶 ラベルレスボトル 630ml×24本」が1918円に]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/shopping/1648934.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/shopping/1648934.html"/>
-        <updated>2024-12-19T04:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazon.co.jpの食品・飲料・お酒のタイムセールコーナーでは、廃棄時にラベルをはがす必要のない「ラベルレス」ペッドボトル飲料がタイムセール中だ。]]></summary>
-        <author>
-            <name>アイティースリー</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[仕事中の寒さ対策に！　アイリスオーヤマの冬物家電がAmazonでセール中　足元を暖めるパネルヒーターが6480円など]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/shopping/1648914.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/shopping/1648914.html"/>
-        <updated>2024-12-19T03:57:30.000Z</updated>
-        <summary type="html"><![CDATA[Amazon.co.jpののアイリスオーヤマストアページでは現在、パネルヒーターなどの冬物家電のタイムセールを実施中だ。]]></summary>
-        <author>
-            <name>アイティースリー</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ノー稟議・ノーライフ　漫画「16日後に大規模インシデントを起こすルカワくん」【残り9日】]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2412/19/news030.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2412/19/news030.html"/>
-        <updated>2024-12-19T03:00:00.000Z</updated>
-        <summary type="html"><![CDATA[大規模なセキュリティ訓練で知られるfreeeが、社内での注意喚起用に作成した漫画を翻案して連載。とある会計ソフトベンダーで働く「ルカワくん」が、大規模インシデントを起こすまでの出来事を、カウントダウン形式で描きます（原作：freee CSIRT　画：立枯なろ）]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ThreatQuotient製ThreatQ Platformにおけるコマンドインジェクションの脆弱性]]></title>
-        <id>https://jvn.jp/vu/JVNVU96102310/</id>
-        <link href="https://jvn.jp/vu/JVNVU96102310/"/>
-        <updated>2024-12-19T02:15:00.000Z</updated>
-        <summary type="html"><![CDATA[ThreatQuotientが提供するThreatQ Platformには、コマンドインジェクションの脆弱性が存在します。]]></summary>
-        <author>
-            <name>jvn@jvn.jp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[米当局、安全保障上の懸念でTP-Link製ルーターの使用禁止を検討との報道。競合メーカーは株価上昇【やじうまWatch】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1648855.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1648855.html"/>
-        <updated>2024-12-19T02:00:00.000Z</updated>
-        <summary type="html"><![CDATA[米国当局が国家安全保障上の懸念からTP-Link製ルーターの使用禁止を検討していると報じられ、競合メーカーの株価が上昇する騒ぎになっている。]]></summary>
-        <author>
-            <name>tks24</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[使いやすさはGoogleストリートビュー以上？ Appleマップの「Look Around」がブラウザーから利用可能に【やじうまWatch】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1648853.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1648853.html"/>
-        <updated>2024-12-19T02:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Appleマップの「Look Around」機能がブラウザーに対応した。]]></summary>
-        <author>
-            <name>tks24</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SIOS輪読会の取り組み]]></title>
-        <id>https://tech-lab.sios.jp/?p=45111</id>
-        <link href="https://tech-lab.sios.jp/archives/45111"/>
-        <updated>2024-12-19T01:05:34.000Z</updated>
-        <summary type="html"><![CDATA[PS/SLの佐々木です。 アドベントカレンダー19日目です。 今回は２年ほど続けてきた輪読会の取り組みについて紹介します。 輪読会の目的 輪読会の開催目的には以下のようなものがあります。 エンジニアの基礎レベルの底上げ  ...
-SIOS輪読会の取り組み first appeared on SIOS Tech. Lab.]]></summary>
-        <author>
-            <name>佐々木寛太</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[中国製ネットワークカメラとDVRが攻撃者に狙われている、FBIが警告]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20241219-3089132/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20241219-3089132/"/>
-        <updated>2024-12-18T23:50:20.000Z</updated>
-        <summary type="html"><![CDATA[米国連邦捜査局(FBI)は12月16日(米国時間)、複数の脆弱性を悪用したサイバー攻撃キャンペーンに対し、注意を喚起した。主な標的は中国企業が開発、販売しているネットワークカメラおよびDVRとされる。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[簡単に昇降でき、収納豊富でタブレットスタンドも備えた学習机「100-ERD045」、サンワサプライが発売]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1648695.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1648695.html"/>
-        <updated>2024-12-18T23:30:00.000Z</updated>
-        <summary type="html"><![CDATA[サンワサプライ株式会社は12月18日、手動昇降式で高さを変えられ、収納も豊富な多機能学習机「100-ERD045」を発売した。天板の色に、ホワイトとライトブラウンの木目の2種類があり、直販サイト「サンワダイレクト」での販売価格は3万9800円。]]></summary>
-        <author>
-            <name>大竹 莉子</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GMOグループが実践する「SOC間コラボ」～ 商用SOCとプライベートSOC、どう棲み分けて協力する？]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/12/19/52064.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/12/19/52064.html"/>
-        <updated>2024-12-18T23:15:03.000Z</updated>
-        <summary type="html"><![CDATA[何とか自社内でプライベートSOC を構築し、内製で運用している企業もあれば、外部のセキュリティベンダーやシステムインテグレーターが運用する商用SOC に委ねるケースもある。それぞれ、どんなメリットやデメリットがあり、どう使い分けるのがいいのだろうか。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[3枚を自由なレイアウトで使える有孔ボード「100-MRSH011」、サンワサプライが発売]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1648766.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1648766.html"/>
-        <updated>2024-12-18T23:15:00.000Z</updated>
-        <summary type="html"><![CDATA[サンワサプライ株式会社は、3枚のパネルを自由に配置して、ケーブルオーガナイザーや小物入れとして使えるクランプ固定式の有孔ボード（パンチングボード）「100-MRSH011」を発売した。ブラックとホワイトの2色展開で、直販サイト「サンワダイレクト」での販売価格は3980円。]]></summary>
-        <author>
-            <name>大竹 莉子</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[11月フィッシング、Amazonをかたる詐欺が首位 - 報告件数は17万8,593件]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20241219-3088956/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20241219-3088956/"/>
-        <updated>2024-12-18T23:10:20.000Z</updated>
-        <summary type="html"><![CDATA[フィッシング対策協議会(Council of Anti-Phishing Japan)はこのほど、「フィッシング対策協議会　Council of Anti-Phishing Japan｜報告書類｜月次報告書｜2024/11 フィッシング報告状況」において、2024年11月のフィッシング報告状況を発表した。11月はAmazonをかたるフィッシング詐欺の報告が減少したものの首位を維持。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[主要なサーバは既に復旧済 ～ 栗田工業の海外連結子会社にランサムウェア攻撃]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/12/19/52063.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/12/19/52063.html"/>
-        <updated>2024-12-18T23:05:09.000Z</updated>
-        <summary type="html"><![CDATA[栗田工業株式会社は12月7日、同社の海外連結子会社への不正アクセスについて発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[京都大学経営管理大学院のメールサーバに不正アクセス、メールアカウント情報窃取の可能性]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/12/19/52062.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/12/19/52062.html"/>
-        <updated>2024-12-18T23:05:06.000Z</updated>
-        <summary type="html"><![CDATA[京都大学経営管理大学院は12月5日、同学メールサーバへの不正アクセスについて発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[キッザニア Webサイトに不正アクセス、24,644 件の個人情報が流出]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/12/19/52061.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/12/19/52061.html"/>
-        <updated>2024-12-18T23:05:03.000Z</updated>
-        <summary type="html"><![CDATA[KCJ GROUP 株式会社は12月6日、10月22日に公表した同社が運営するキッザニアのWebサイトへの不正アクセスについて、調査結果を発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[富士通、マルチAIエージェントセキュリティ技術を開発]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/12/19/52060.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/12/19/52060.html"/>
-        <updated>2024-12-18T23:00:14.000Z</updated>
-        <summary type="html"><![CDATA[富士通株式会社は12月12日、脆弱性や新たな脅威への事前対策を支援するマルチAIエージェントセキュリティ技術の開発を発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WordPress 用プラグイン My WP Customize Admin/Frontend に XSS の脆弱性]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/12/19/52059.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/12/19/52059.html"/>
-        <updated>2024-12-18T23:00:09.000Z</updated>
-        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は12月13日、WordPress用プラグインMy WP Customize Admin/Frontendにおけるクロスサイトスクリプティングの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[FXC製 AE1021 および AE1021PE に複数の脆弱性]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2024/12/19/52058.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2024/12/19/52058.html"/>
-        <updated>2024-12-18T23:00:04.000Z</updated>
-        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は12月13日、FXC製AE1021およびAE1021PEにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[プラス、何度でも書いて消せる磁性シート利用筆記ツールの改良版「Kaiteメモ」発売　専用アプリでスマホに保存もできる]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1648638.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1648638.html"/>
-        <updated>2024-12-18T22:30:00.000Z</updated>
-        <summary type="html"><![CDATA[プラス株式会社は、電池不要で繰り返し書くことができるメモパッド「Kaiteメモ」を、12月23日に発売する。サイズは2種類あり、正方形（90×90mm）の「KM-0909A」は市場想定価格1320円、長方形（210×100mm）の「KM-1021A」は市場想定価格1980円。いずれもグレー、オリーブグリーン、ピーチオレンジ、ミッドナイトブルーの4色展開。]]></summary>
-        <author>
-            <name>大竹 莉子</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[カスタマイズ自在な3枚の棚板を持つシェルフデスク「100-DESKH080M」、サンワサプライが発売]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1648411.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1648411.html"/>
-        <updated>2024-12-18T22:00:00.000Z</updated>
-        <summary type="html"><![CDATA[サンワサプライ株式会社は12月17日、3枚の棚板を自由に取り付けられるシェルフデスク「100-DESKH080M」を発売した。直販サイト「サンワダイレクト」での価格は1万7800円。]]></summary>
-        <author>
-            <name>松永 侑貴惠</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[最大67WのUSB PD充電器で、モバイルバッテリーにもなる「DE-AC11-5000」、エレコムが発売]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1648396.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1648396.html"/>
-        <updated>2024-12-18T21:55:00.000Z</updated>
-        <summary type="html"><![CDATA[エレコム株式会社は12月17日、充電器一体型のモバイルバッテリー「DE-AC11-5000」を発売した。直販サイト「エレコムダイレクトショップ」での販売価格は9480円。]]></summary>
-        <author>
-            <name>松永 侑貴惠</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NTTら通信8社、大規模災害時の早期復旧に向けて協力体制を強化。施設・船舶の共同利用など]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1648775.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1648775.html"/>
-        <updated>2024-12-18T21:15:00.000Z</updated>
-        <summary type="html"><![CDATA[日本電信電話株式会社（NTT）ら8社は12月18日、大規模災害の発生時におけるネットワークの早期復旧を目的として、通信事業者間の新たな協力体制を構築し、共同で運営を開始したと発表した。]]></summary>
-        <author>
-            <name>大竹 莉子</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Synology「BeeStation」に外付けHDDを接続してバックアップする【自宅Wi-Fiの“わからない”をスッキリ！】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/column/homewifi/1647780.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/column/homewifi/1647780.html"/>
-        <updated>2024-12-18T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[本連載では、Synologyのパーソナルクラウド「BeeStation」の活用を、第185回から実践している。本製品はNASの一種だが、インターネット経由で外部からも簡単にアクセスできるのが特徴で、「パーソナルクラウド」の呼び名は、その特徴にちなんでいる。]]></summary>
-        <author>
-            <name>村上 俊一</name>
         </author>
     </entry>
     <entry>
