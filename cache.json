@@ -878,6 +878,16 @@
       "siteUrl": "https://gblogs.cisco.com/jp/",
       "articles": [
         {
+          "id": "https://gblogs.cisco.com/jp/?p=53020",
+          "author": "TALOS Japan",
+          "description": "Microsoft 社が、2025 年 1 月の月例セキュリティ更新プログラムをリリースしました。159 件の脆弱性が含まれており、そのうち 12 件は「緊急」とされています。その他の脆弱性は「重要」と評価されました。 \nThe post Microsoft セキュリティ更新プログラム（月例）：2025 年 1 月に公開された脆弱性と、対応する Snort ルール appeared first on Cisco Japan Blog.",
+          "link": "https://gblogs.cisco.com/jp/2025/01/talos-january-patch-tuesday-release/",
+          "publishedOn": "2025-01-26T04:52:17.000Z",
+          "wordCount": 734,
+          "title": "Microsoft セキュリティ更新プログラム（月例）：2025 年 1 月に公開された脆弱性と、対応する Snort ルール",
+          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/04AS85271_eyecatch-460x230.jpg"
+        },
+        {
           "id": "https://gblogs.cisco.com/jp/?p=53010",
           "author": "TALOS Japan",
           "description": "今週も脅威情報ニュースレターをお届けします。「子供の頃、怖いニュースを見るたびに、母はこう言いました。『助けてくれる人を探すのよ。必ず見つかるはずよ。』」\nThe post 助けてくれる人を探そう appeared first on Cisco Japan Blog.",
@@ -1480,17 +1490,6 @@
           "publishedOn": "2025-01-06T10:52:00.000Z",
           "wordCount": null,
           "title": "[メルマガ]vol.2130:【トピックス号】先週・先々週のトピックスとWeb更新情報",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://blog.nic.ad.jp/2024/10443/",
-          "author": null,
-          "description": "2024年12月15日（日）から19日（木）まで、サウジアラビアの首都リヤドで第19回インターネットガバナンスフォーラム(IGF 2024)が開催されました。2025年の国連総会では「世界情報社会サミット(WSIS)」の20年後の評価(WSIS+20)が予定されており、IGFの今後の展望も含めてIGF 2024について報告します。",
-          "link": "https://blog.nic.ad.jp/2024/10443/",
-          "publishedOn": "2024-12-27T08:00:09.000Z",
-          "wordCount": null,
-          "title": "[Blog記事]IGF 2024参加報告",
           "itunes": {},
           "imageUrl": null
         }
@@ -3314,56 +3313,6 @@
           "wordCount": 719,
           "title": "Gartner、アクセス管理の Magic Quadrant リーダーに Okta を認定",
           "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2024/12/27/52110.html",
-          "author": null,
-          "description": "日新火災海上保険株式会社は12月17日、同社業務委託先へのランサムウェア攻撃に伴う情報漏えい等の可能性について発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2024/12/27/52110.html",
-          "publishedOn": "2024-12-26T23:05:09.000Z",
-          "wordCount": 696,
-          "title": "日新火災海上保険の顧客情報漏えいの可能性 ～ 東京損保鑑定へランサムウェア攻撃",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47120.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2024/12/27/52109.html",
-          "author": null,
-          "description": "株式会社西武・プリンスホテルズワールドワイドは12月16日、海外子会社が使用するネットワークシステムへの不正アクセスについて発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2024/12/27/52109.html",
-          "publishedOn": "2024-12-26T23:05:07.000Z",
-          "wordCount": 725,
-          "title": "検知と同時にシャットダウン ～ 西武・プリンスホテルズワールドワイド 海外子会社ネットワークに不正アクセス",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47082.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2024/12/27/52108.html",
-          "author": null,
-          "description": "公立大学法人尾道市立大学は12月16日、同学への不正アクセスによる個人情報流出の可能性について発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2024/12/27/52108.html",
-          "publishedOn": "2024-12-26T23:05:03.000Z",
-          "wordCount": 710,
-          "title": "尾道市立大学 附属美術館職員のアカウントが乗っ取り被害、個人情報漏えいの可能性 排除できず",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47084.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2024/12/27/52107.html",
-          "author": null,
-          "description": "2024年に確認されたスミッシング手口の1位は宅配事業者をかたるSMSの75.9%で、4年連続で1位となっている。宅配事業者に関連する「荷物」「不在」「配達」「住所」などの単語が頻出した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2024/12/27/52107.html",
-          "publishedOn": "2024-12-26T23:00:06.000Z",
-          "wordCount": 714,
-          "title": "「荷物」「不在」「配達」2024年 スミッシング “流行語” 大賞",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47131.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2024/12/27/52106.html",
-          "author": null,
-          "description": "NTTコム オンライン・マーケティング・ソリューション株式会社は12月18日、NPSベンチマーク調査2024セキュリティソフト部門の実施結果を発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2024/12/27/52106.html",
-          "publishedOn": "2024-12-26T23:00:03.000Z",
-          "wordCount": 710,
-          "title": "セキュリティソフト 自ら比較検討して購入した人はロイヤリティ高い",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47112.png"
         }
       ]
     },
@@ -3581,16 +3530,6 @@
           "wordCount": 2787,
           "title": "漫画「16日後に大規模インシデントを起こすルカワくん」【完結＆種明かし編】",
           "imageUrl": "https://image.itmedia.co.jp/news/articles/2412/28/cover_news006.jpg"
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2412/27/news010.html",
-          "author": null,
-          "description": "大規模なセキュリティ訓練で知られるfreeeが、社内での注意喚起用に作成した漫画を翻案して連載。とある会計ソフトベンダーで働く「ルカワくん」が、大規模インシデントを起こすまでの出来事を、カウントダウン形式で描きます（原作：freee CSIRT　画：立枯なろ）",
-          "link": "https://www.itmedia.co.jp/news/articles/2412/27/news010.html",
-          "publishedOn": "2024-12-26T22:00:00.000Z",
-          "wordCount": 2795,
-          "title": "放漫の報い　漫画「16日後に大規模インシデントを起こすルカワくん」【残り1日】",
-          "imageUrl": "https://image.itmedia.co.jp/news/articles/2412/27/cover_news010.jpg"
         }
       ]
     },
@@ -5168,116 +5107,6 @@
           "wordCount": 5321,
           "title": "ネットワーク機器メーカーに聞く「今年の意気込み」と「去年の売れ筋」【2025年版】　今年の注目は？",
           "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1650/867/rss.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/weekly/1651320.html",
-          "author": "中島 由弘",
-          "description": "「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/weekly/1651320.html",
-          "publishedOn": "2024-12-27T09:00:00.000Z",
-          "wordCount": 5225,
-          "title": "見出しでわかる IT界隈・今週の重要ニュース：全53本［2024/12/19～12/25］",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1651/320/shutterstock_1391033204_main.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/column/shimizumovie/1651537.html",
-          "author": "編集部",
-          "description": "年末年始で実家に帰る人も多いこのタイミングに、国民的日本家族、あの“磯野家”を例に清水理史が本気で最適なWi-Fiルーターを選んでみた。",
-          "link": "https://internet.watch.impress.co.jp/docs/column/shimizumovie/1651537.html",
-          "publishedOn": "2024-12-27T08:33:23.000Z",
-          "wordCount": 5163,
-          "title": "もしも磯野家にピッタリなWi-Fiルーターを選ぶなら…… メッシュにする？ ストリーム数は？ 間取りや家族構成から専門家が本気で選ぶのは？【清水理史の「イニシャルB」チャンネル】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1651/537/1227INW.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/column/teleworkgoods/1651288.html",
-          "author": "瀬戸 学",
-          "description": "最近Wi-Fiルーターの調子が悪い。Wi-Fiが完全に途切れるわけではないが、どうも断続的に途切れるようで、スマートホーム製品、いわゆるIoT機器からスマホにオフラインの通知が届く。だが、通知に気がついて実際に試してみるとすでに回復しているので、直ったのかとそのままにしておくと、また数時間後にオフライン通知が届く、ということを繰り返す。",
-          "link": "https://internet.watch.impress.co.jp/docs/column/teleworkgoods/1651288.html",
-          "publishedOn": "2024-12-27T08:00:00.000Z",
-          "wordCount": 5239,
-          "title": "年末帰省時に試したい!! 実家のWi-Fiルーターをリモートで再起動できるようにする方法 【テレワークグッズ・ミニレビュー 第116回】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1651/288/023.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/shopping/1651397.html",
-          "author": "アイティースリー",
-          "description": "Amazon.co.jpの東芝ストアでは現在、アルカリ乾電池やコイン型電池がタイムセール価格で販売中だ。",
-          "link": "https://internet.watch.impress.co.jp/docs/shopping/1651397.html",
-          "publishedOn": "2024-12-27T04:30:00.000Z",
-          "wordCount": 4753,
-          "title": "東芝のアルカリ乾電池やコイン型電池がAmazonでお買い得に！　CR1632、CR2025、CR2032の5個セットがそれぞれ660円",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1651/397/toshiba.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/shopping/1651388.html",
-          "author": "アイティースリー",
-          "description": "Amazon.co.jpのホリデーストアでは現在、同社のストリーミングメディアプレイヤー「Fire TV」シリーズ」が数量限定でセールされている。",
-          "link": "https://internet.watch.impress.co.jp/docs/shopping/1651388.html",
-          "publishedOn": "2024-12-27T04:08:05.000Z",
-          "wordCount": 4759,
-          "title": "Amazonで「Fire TV」シリーズがセール中！　4K対応の「Fire TV Stick 4K」が6980円など",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1651/388/firetv.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1651152.html",
-          "author": "編集部",
-          "description": "新しいサービスや製品、ビジネスが生まれる一方で、消えていくものもある――今回は、そんな“終了ネタ”の記事で、2024年を振り返ってみたい。本コーナー「やじうまWatch」で今年掲載した中から、何かが終わることを伝えた記事をリストアップした。",
-          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1651152.html",
-          "publishedOn": "2024-12-27T03:00:00.000Z",
-          "wordCount": 4744,
-          "title": "個人ホームページの歴史がまたひとつ……Vector、ホームページサービスを12月20日に終了 ほか「やじうまWatch」の終了ネタで2024年を振り返る【やじうまWatch】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1651/152/yajiuma-watch_4.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/special/1651246.html",
-          "author": "永沢 茂",
-          "description": "「INTERNET Watch」で今年1年間に掲載したニュース記事（2024年1月1日付～12月20日付）について、アクセス数（ページビュー）に基づく30位までのランキングを算出した。今年最も読まれたニュースは――。",
-          "link": "https://internet.watch.impress.co.jp/docs/special/1651246.html",
-          "publishedOn": "2024-12-27T02:00:00.000Z",
-          "wordCount": 5189,
-          "title": "「管理職が罰ゲームと化している――負担ばかりで新しい仕事もなかなかできない」パーソルの調査報告についての記事に大きすぎる反響があった2024年を振り返る　INTERNET Watch ニュース年間アクセスランキング［2024/1/1～12/20］",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1651/246/rss.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/special/1650812.html",
-          "author": "編集部",
-          "description": "本誌が2024年にお届けしたニュースの中から、特に印象的だったもの、2025年に向けて新たな展開が期待されるもの、引き続き注意すべきサイバー攻撃に関する情報など、年の終わりに読み直しておきたい記事を30本ピックアップし、紹介する。",
-          "link": "https://internet.watch.impress.co.jp/docs/special/1650812.html",
-          "publishedOn": "2024-12-26T23:30:00.000Z",
-          "wordCount": 5172,
-          "title": "INTERNET Watch編集部が選ぶ、2024年の印象的だったニュース30選",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1650/812/rss.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1651205.html",
-          "author": "木下 明音",
-          "description": "ティーピーリンクジャパン株式会社（TP-Link）は、「VIGI」シリーズのネットワークカメラ「InSight S655I」の販売を、12月25日に開始した。市場想定価格は5万5900円。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1651205.html",
-          "publishedOn": "2024-12-26T22:30:00.000Z",
-          "wordCount": 5170,
-          "title": "TP-Link、魚眼レンズを搭載したVIGIシリーズのネットワークカメラ「InSight S655I」発売",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1651/205/main.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1651072.html",
-          "author": "木下 明音",
-          "description": "サンワサプライ株式会社は12月20日、シリコン製マグネットクリップ「200-CA021」を発売した。ビビッドカラーまたはアースカラーの5個セットで、直販サイト「サンワダイレクト」の販売価格は1780円。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1651072.html",
-          "publishedOn": "2024-12-26T21:30:00.000Z",
-          "wordCount": 5151,
-          "title": "ケーブルや小物を整理でき、スマホスタンドにもなるシリコン製マグネットクリップ、サンワサプライが発売",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1651/072/main.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/topic/special/1648424.html",
-          "author": "片岡 義明",
-          "description": "スマートフォンの位置情報ビッグデータによる“人流データ”が近年、様々な分野において注目されている。人流データとは何か？　どのように生成され、どのように活用されているのか？　そして、ビジネスや社会の課題解決を実現するためのデータとして、どんな可能性を秘めているのか？　ポイ活アプリ「トリマ」をもとにした人流データを保有するジオテクノロジーズ株式会社に詳しく話を聞いた。（全3回のうちの第2回）",
-          "link": "https://internet.watch.impress.co.jp/docs/topic/special/1648424.html",
-          "publishedOn": "2024-12-26T21:00:00.000Z",
-          "wordCount": 4684,
-          "title": "“人流データ”を読み解くと、こんなことまで分かる――北陸新幹線延伸の影響から、交差点の危険度の推定まで[Sponsored]",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1648/424/fig-tsuruga_main.jpg"
         }
       ]
     },
@@ -5292,6 +5121,26 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20250125-3114710/",
+          "author": null,
+          "description": "QNAP Systemsは1月23日(現地時間)、先日発表された遠隔ファイル同期アプリ「rsync」の緊急の脆弱性が同社のバックアップソリューション「HBS 3 Hybrid Backup Sync」に影響するとして、修正アップデートのリリースを発表した。",
+          "link": "https://news.mynavi.jp/techplus/article/20250125-3114710/",
+          "publishedOn": "2025-01-25T10:42:08.000Z",
+          "wordCount": 1810,
+          "title": "QNAP、「rsync」の緊急脆弱性の影響でバックアップアプリを修正",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20250125-3114710/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20250125-3114702/",
+          "author": null,
+          "description": "Sucuriは1月23日(米国時間)、侵害されたWordPressサイトから訪問者を有害サイトにリダイレクトするマルウェアを発見したと報じた。すでに9つのWebサイトからマルウェアが検出されており、注意を呼びかけている。",
+          "link": "https://news.mynavi.jp/techplus/article/20250125-3114702/",
+          "publishedOn": "2025-01-25T08:34:38.000Z",
+          "wordCount": 1760,
+          "title": "WordPressサイトから有害サイトにリダイレクト、侵害の確認を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20250125-3114702/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20250125-3114660/",
           "author": null,
@@ -6291,56 +6140,6 @@
           "wordCount": 1848,
           "title": "Apache Traffic Controlに緊急の脆弱性、アップデートを",
           "imageUrl": "https://news.mynavi.jp/techplus/article/20241228-3094965/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20241227-3095501/",
-          "author": null,
-          "description": "Microsoftは12月24日(米国時間)、特定の条件を満たすWindows 11バージョン24H2のインストールメディアに不具合が存在すると発表した。このメディアを使用してインストールを行うと、後続のセキュリティ更新プログラムを適用できなくなる可能性がある。Microsoftは現在対策中とし、まだ解決策を提示していない。",
-          "link": "https://news.mynavi.jp/techplus/article/20241227-3095501/",
-          "publishedOn": "2024-12-27T10:44:29.000Z",
-          "wordCount": 1803,
-          "title": "Windows 11インストールメディアに不具合、更新プログラム適用できず",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20241227-3095501/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20241227-3095482/",
-          "author": null,
-          "description": "日本航空は12月26日、社内外をつなぐネットワーク機器で障害が発生したと発表した。原因は分散型サービス拒否攻撃(DDoS: Distributed Denial of Service attack)によりシステムに不具合が発生したためで、同日出発の国内線サービスおよび国内線、国際線の運航に影響が出たとしている。同日、三菱UFJ銀行にもサイバー攻撃が確認された。",
-          "link": "https://news.mynavi.jp/techplus/article/20241227-3095482/",
-          "publishedOn": "2024-12-27T09:24:51.000Z",
-          "wordCount": 1741,
-          "title": "日本航空にサイバー攻撃で遅延および欠航、三菱UFJ銀行も被害",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20241227-3095482/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/dxsesc-4/",
-          "author": null,
-          "description": "サイバーセキュリティ対策については、企業や組織が準拠すべき複数の基準やガイドラインがある。これらを規定している国は増えているが、その多くが米国のNIST サイバーセキュリティフレームワークや SP800-171などを参考にしている。今回はこれら米国のガイドラインを紹介し、日本のガイドラインと対比してみたい。",
-          "link": "https://news.mynavi.jp/techplus/article/dxsesc-4/",
-          "publishedOn": "2024-12-27T00:00:13.000Z",
-          "wordCount": 2016,
-          "title": "DXとセキュリティをともに推進するポイント 第4回 海外と日本のセキュリティガイドラインの決定的な違いとは",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/dxsesc-4/index_images/index.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20241227-3094954/",
-          "author": null,
-          "description": "マカフィーは12月26日、「2025年サイバーセキュリティ脅威予測」を発表した。今年の予測では、サイバー犯罪者が高度なAI技術を悪用することにより、消費者が直面する新たな脅威に焦点を当てている。",
-          "link": "https://news.mynavi.jp/techplus/article/20241227-3094954/",
-          "publishedOn": "2024-12-26T23:31:00.000Z",
-          "wordCount": 1707,
-          "title": "マカフィー、2025年のサイバーセキュリティ脅威予測を発表",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20241227-3094954/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20241227-3094865/",
-          "author": null,
-          "description": "The Registerは12月24日(現地時間)、Microsoft Edgeの戦略に対し、否定的な見解を述べた。Microsoftは12月19日に2024年のEdgeレビューを公表したが、このレビューを非難する形となった。具体的にはレビューに市場シェアの言及がないこと、レビューの内容が不当に高い自己評価の可能性があることを指摘している。",
-          "link": "https://news.mynavi.jp/techplus/article/20241227-3094865/",
-          "publishedOn": "2024-12-26T23:00:11.000Z",
-          "wordCount": 2999,
-          "title": "Microsoftが好調なEdgeレビュー発表もThe Registerは否定的見解",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20241227-3094865/ogp_images/ogp.jpg"
         }
       ]
     }
