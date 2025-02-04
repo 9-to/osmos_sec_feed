@@ -667,16 +667,6 @@
           "wordCount": 593,
           "title": "2025年1月7日～2月17日実施「国家資格「情報処理安全確保支援士」がわかる！説明会」の申込み受付を開始しました",
           "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
-        },
-        {
-          "id": "https://disclosure.dx-portal.ipa.go.jp/",
-          "author": "情報処理推進機構（IPA）",
-          "description": "",
-          "link": "https://disclosure.dx-portal.ipa.go.jp/",
-          "publishedOn": "2025-01-05T15:00:00.000Z",
-          "wordCount": 950,
-          "title": "DX認定制度 認定事業者の公表（2025年1月1日認定適用）",
-          "imageUrl": null
         }
       ]
     },
@@ -1159,6 +1149,16 @@
       "siteUrl": "https://tech-lab.sios.jp",
       "articles": [
         {
+          "id": "https://tech-lab.sios.jp/?p=45746",
+          "author": "遠藤",
+          "description": "こんにちは、サイオステクノロジーの遠藤です。 今回はAzureのBicepを利用してCosmosDBとFunctionsのリソースを作成し、FunctionsのEntra IDに対してCosmosDBの操作が行えるロール ...\n【Azure】BicepでFunctionsにComosDBの組み込みロールを付与する first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/45746",
+          "publishedOn": "2025-02-04T01:30:00.000Z",
+          "wordCount": 2629,
+          "title": "【Azure】BicepでFunctionsにComosDBの組み込みロールを付与する",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2025/02/bicep.png"
+        },
+        {
           "id": "https://tech-lab.sios.jp/?p=45653",
           "author": "遠藤",
           "description": "こんにちは、サイオステクノロジーの遠藤です。 先日、AzureのAI資格であるAI-102に合格し、Azure AI Engineer Associateに認定されました！ AI-102は比較的新し目の資格のためAZ-1 ...\n【AI-102】Azure AI Engineer Associate認定されました！ first appeared on SIOS Tech. Lab.",
@@ -1352,6 +1352,16 @@
       "siteUrl": "https://eset-info.canon-its.jp/",
       "articles": [
         {
+          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/250204.html",
+          "author": null,
+          "description": "企業・組織に対するサイバー攻撃のリスクは深刻化しており、業種や事業規模を問わず、経営上の大きな課題となっている。こうしたセキュリティ脅威への対策として、EDR／XDRの導入が進んではいるが、実際の運用面での課題は多い。本記事では、組織の規模に関係なく被害が拡大している背景をはじめ、その対策としてEDR／XDRが有効である理由や導入における課題、そして、マネージドサービス付きXDRソリューションの1つである「ESET PROTECT MDR Lite」の特長や導入メリットについて、キヤノンマーケティングジャパン株式会社の谷口 治が解説する。\n\n\n\n\n\n業種や事業規模に関わらず、サイバー攻撃の被害が拡大している背景\n\n昨今、業種や事業規模を問わず、サイバー攻撃は経営上の大きな脅威となっている。警察庁が発表した「令和5年におけるサイバー空間をめぐる脅威の情勢等について」によると、サイバー被害を届け出た企業の半数を中小企業が占めていた。この結果からも、サイバー攻撃は規模が大きい企業・組織だけの問題ではないことがわかる。また、ランサムウェアの被害に遭った企業を業種別に分類すると、業種による極端な偏りは見られなかった。つまり、あらゆる企業がサイバー攻撃のリスクを抱えていると言えるのだ。加えて、日本ではランサムウェアなどの被害に関する法的な届け出義務はなく、軽微な被害については報告されていない可能性が高く、実際の被害は、一層拡大していると考えられる（図1）。\n\n\n\n図1：深刻化するサイバーリスク\n\n\n近年のサイバー攻撃は、利益を獲得するビジネスとして仕組み化が進んでいる。攻撃者は事業の効率化を図るため、アフィリエイト（成果報酬）型のビジネスモデルを採用し、アフィリエイターを募って犯罪を実行させる。攻撃ツールの開発者は、その存在を隠しているため、逮捕するのが難しいのが現実だ。これは、日本国内でも頻繁に見られる詐欺の仕組みと同様である。攻撃者はアフィリエイターから攻撃ツールを購入し、そのマニュアルに従ってサイバー攻撃を実行する。その際、リモートアクセスやVPN機器のログイン情報をイニシャルアクセスブローカー（Initial Access Broker）と呼ばれる協力者から購入し、標的のネットワーク外部から侵入する。高度な技術を活用した攻撃よりも、基本的な手法が採用されるケースが多い。\n\nランサムウェア攻撃では一般的に、身代金を獲得する確率と費用対効果を高めるために、標的について事前の調査が行われる。しかし、日本語を理解できない攻撃者が多いため、結果として無差別な攻撃が行われているのが実情だ。これが、業種や事業規模を問わず被害が広がっている要因の1つだ。\n\n攻撃によって侵入が成功すると、攻撃者は被害企業に身代金を要求し、その収益をアフィリエイターと分配する。また、ランサムウェアによる攻撃の前に、企業から重要な情報を窃取し、暗号化と併せて二重に脅迫する手法も一般化している。二重に人質を取ることで、身代金の支払いに応じさせやすくする狙いがあるからだ。\n\n被害企業が身代金を支払ったかどうかについては、さまざまな調査が行われているが、過去には巨額の支払いに応じたケースも報じられている。こうした身代金の支払いに応じている被害企業が一定数存在していることも、サイバー攻撃が利益を獲得できるビジネスとして成立していることを物語っている（図2）。\n\n\n\n図2：サイバー攻撃のビジネス化\n\n\n近年、複数の企業が連携して価値を創出する「サプライチェーン」の重要性が増している。ビジネスを円滑に進めるため、異なる企業間で重要な業務情報がリアルタイムで共有されるようになってきた。そこで、サイバー犯罪者は、サプライチェーンに属する企業群の中から、セキュリティの甘いグループ会社や協力会社を標的にするのだ。仮に、狙った企業に重要な資産がなくても、よりセキュリティの強固な企業へ攻撃するための「踏み台」にする目論見もあるからだ。\n\n攻撃者は、重要な資産であるサーバーを標的にするが、そのサーバーは比較的安全な領域で保護されている場合が多く、外部からの侵入は困難だ。そのため、攻撃の第一歩として、比較的セキュリティレベルが低い下請け企業や中間業者などが標的にされる（図3）。最近でも、ある下請け企業がランサムウェアに感染してしまったことで、その企業が属するサプライチェーンで情報漏えいが発生した事例が報道されている。特に、個人情報の漏えいは公表義務があるため、多くの被害が報告されている。\n\n\n\n図3：サプライチェーン攻撃\n\n\nまた、コロナ禍以降、急速に普及したテレワークも、サイバー攻撃の拡大に影響している。オフィスへの回帰が進む一方で、ハイブリッドワークを採用している企業も多い。そのため、リモートから社内システムを利用する際には端末のセキュリティが重要となる。コロナ禍に乗じて、社内外を問わず利用されるようになったコンピューターが攻撃者から標的とされているからだ。実際、リモートアクセス端末や機器の脆弱性が悪用され、被害に遭った企業は少なくない。\n\nさらに、急速なテクノロジーの進化やデジタル技術の普及を背景に、多くの企業では競争力を維持・強化するために、デジタルトランスフォーメーション（DX）を推進している。これらの企業では、デジタル化による業務の効率化や競争力向上を目指し、事業環境の変化に応じて柔軟にシステムを変更できるクラウドアーキテクチャーの採用が一般的となっている。クラウドサービスの利用によって、企業のデータはネットワーク境界を越えて送受信されるため、自社内のシステムだけを保護する境界型防御では、データの漏えいや侵入のリスクを完全に防ぐことが難しくなっている（図4）。\n\n\n\n図4：テレワークの定着とDXの推進による影響\n\n\n従来のウイルス対策ではサイバー攻撃を防ぎきれない理由\n\nエンドポイントのセキュリティ対策としては、主にウイルス対策ソフトが利用されている。しかし、ほとんどの企業・組織に普及した現在でも、サイバー攻撃の被害に遭う事例が後を絶たない。先述した警察庁の資料によると、被害に遭った企業の多くがウイルス対策ソフトを導入していたにもかかわらず、検出や防御ができなかったという結果が報告されている（図5）。ここでは、従来のウイルス対策ソフトを導入しているにもかかわらず被害に遭ってしまう理由について触れる。\n\n\n\n図5：サイバー攻撃の被害を受けた企業におけるウイルス対策ソフト等の導入・活用状況\n\n\n以下に、ランサムウェア攻撃の一般的な流れを紹介する。\n\n\n\tネットワークへの侵入\n\tコンピューターへの侵入と「踏み台」化\n\t管理者権限の掌握\n\t侵入経路の拡大、セキュリティ対策の無効化\n\tデータの窃取\n\t窃取したデータの公開\n\t重要なサーバー、端末の暗号化とシステム破壊\n\t身代金の要求\n\n\n最近のサイバー攻撃であっても、決して未知の凶悪なウイルスによって突然発生するものではなく、さまざまな手口の組み合わせで実行されているという点に注意が必要だ。攻撃を完遂させるため、あらゆる脆弱性が悪用される（図6）。\n\nランサムウェア攻撃における一連の流れの中で、ウイルス対策ソフトで確実に防げるのは、最後のランサムウェアに感染させる段階だけだ。しかも、前段階でウイルス対策ソフトがアンインストールされてしまえば、防ぐ手段がなくなってしまう。\n\nウイルス対策ソフトによる検知が難しい理由は、これらの攻撃が通常の動作と見分けがつかないからだ。ウイルス対策ソフトは基本的に「マルウェアか否か」の判断を行う。近年は、AIや振る舞い検知などの高度な技術を用いて不審な行動を発見しようと試みているものの、基本的な仕組みが変わらない限り、脅威の検出率を高めようとすると誤検出が増えてしまうという問題を避けることができない。\n\n\n\n図6：よくある不正アクセスの流れ\n\n\n最近は、自給自足型攻撃とも呼ばれる、OSに標準搭載されているツールが悪用される攻撃も増えている。これらのツールは、端末の運用や業務に欠かせない便利なツールであるため、攻撃者に悪用されるリスクがあっても、利用を禁止するのは難しいものだ。さらに、正規の利用と悪用の区別がつきにくいため、ウイルス対策ソフトによる検知が困難である。同様に、代替手段が少ない商用ツールやフリーソフトウェアについても悪用されるリスクがある（図7）。\n\n\n\n図7：悪用されるOS標準の機能やサービス\n\n\nOS標準の機能やサービスが悪用されたとしても、基本的なセキュリティ対策が徹底されていれば、被害を最小限に抑えられる。具体的には、情報資産の適切な管理が必要だ。近年は「サイバーハイジーン（サイバー衛生）」という考え方が広がっているように、資産情報の適切な運用管理を継続的に実施することでセキュリティレベルを高められる。\n\nしかし、適切な管理手法の導入および継続的な運用は容易ではない。現状のアセスメントを行った後、システムの改変や設定変更が必要となる場合もある。その際、ユーザーの利便性が低下する可能性があるため、事前に説明を行い、理解を得ておくことが求められる。予防的なセキュリティ対策には費用がかかる上、利便性が低下する対策に対して理解を得るのが難しいケースもあるだろう（図8）。\n\n\n\n図8：端末の運用管理における不備\n\n\n日本ネットワークセキュリティ協会（JNSA）の調査によると、サイバー攻撃の被害に遭った企業では、直接的な対応費用だけでなく、多様な損害が発生していることが明らかになっている（図9）。例えば、調査を依頼するだけでも数百万の費用を要する場合があり、その総額は相当な金額に上る。本調査によると、ランサムウェア被害に遭った企業・組織の平均被害額は2,386万円に達している。\n\n\n\n図9：サイバー攻撃の被害に遭った場合の影響\n\n\nサイバー攻撃への対策にEDRが有効な理由\n\nサイバー攻撃に対する備えとして注目されているのが、EDR／XDR（Endpoint Detection and Response／Extended Detection &amp; Response）だ。高度化・巧妙化するサイバー攻撃に対する有効なエンドポイントセキュリティ対策として、その利用が広がってきているが、サイバー攻撃による被害を最小限に抑えるため、不審な兆候に早く気づき、適切な対応を実施することをサポートする。\n\nEDR／XDRを導入すれば、万が一侵入されてしまった場合でも、事後対策として従来のウイルス対策ソフトとは異なるロジックで脅威を検出し、分析や調査を行うことが可能だ（図10）。EDR／XDRは、その効果のわかりやすさから、経営層からの関心も高い。\n\n\n\n図10：「事後対応型」ソリューションとしてのEDR／XDR\n\n\nEDR／XDRは、コンピューターやサーバー上の脅威の検出から対応、復旧までを一元的に管理できるエンドポイントセキュリティソリューションである。既存のウイルス対策ソフトとは異なり、端末内のさまざまなログを収集し、サーバーで分析した上で管理者にアラートを通知できる事後対応型の製品だ。\n\nEDR／XDRは、現在発生している事象だけでなく、その前後の振る舞いも含めて分析することにより、マルウェアだけでなく、不審な人為的操作の検出も可能である。また、ウイルス対策ソフトでは検出が困難な標準ツールや正規アプリケーションの悪用も検知できる。さらに、EDR／XDRには検知後の対応機能も搭載されており、感染した端末の隔離や調査、被害状況に応じたリモートでの復旧まで、すべて対応できるのが特長だ（図11）。\n\n\n\n図11： EDR／XDRが提供する機能\n\n\nEDR／XDRを導入することで、脅威の初期段階から検出、対応が可能となる。端末内の挙動や振る舞いを監視・分析し、従来のウイルス対策ソフトでは検知が難しかった脅威にも対応できる。早期に脅威を発見すれば、被害の最小化と迅速なインシデント対応が可能となり、結果として対応コストを大幅に削減できる。また、収集したログに基づき、活動レポートを作成し、関係者への説明にも利用可能だ（図12）。これにより、企業のサイバー攻撃に対する被害を最小化するソリューションとして高く評価され、多くの企業・組織で導入あるいは導入の検討が進んでいる。\n\n\n\n図12： EDR／XDRの導入効果\n\n\nESET PROTECT MDR Liteの概要\n\n当社では、日本国内の企業向けにESET社のエンドポイントセキュリティ製品を販売し、保守サポートを提供している。その利用企業は56万社に達している。以降では、当社が提供するESET PROTECT MDR製品について解説する。\n\nここまで、その利用価値を紹介してきたEDR／XDRではあるが、実際の運用にはいくつかの課題が知られている。１つ目として、EDR／XDRが提供するアラートを理解し、適切に対応するのが難しい点が挙げられる。脅威そのものに限らず、脅威の可能性があるアラートも通知されるため、適切な人材を配置し、維持・運用を行わないと、アラートに埋もれた脅威を見逃す恐れがある。\n\n２つ目としては、EDR／XDRを運用するために必要なスキルを持つ要員を確保・維持するには、相当のコストを要するという課題が挙げられる。現在の人材市場を鑑みると、セキュリティ運用の専門家を抱えるためのコストは低くないのが実情だ。\n\n3つ目として、脅威の侵入に備えて24時間365日の監視体制を構築できるかという課題もある。攻撃は海外からも多く行われるため、日本の営業時間に合わせて対応できるわけではない。そのため、昼夜を問わず、監視を続ける必要がある。\n\nしたがって、現在ではEDR／XDR製品の運用監視は外部に委託するアウトソーシングが一般的となっている。当社が提供する製品も、同様にアウトソーシングによる運用に対応している（図13）。\n\n\n\n図13： XDR導入における課題\n\n\n当社では、EDR／XDRの運用に課題を持つユーザー企業に対し、ソリューションとしてESET PROTECT MDRを提供している。EDR／XDRと、その運用サービスに加え、予防型セキュリティ製品を一括で提供するオールインワン型のエンドポイント対策ソリューションとなっている（図14）。\n\n\n\n図14：マネージドサービス付きXDRソリューション\n\n\nEESET PROTECT MDRは、主に2つのラインアップが提供されている。これまで取り扱っていた「ESET PROTECT MDR Ultimate」は、導入から運用、およびインシデント対応、復旧までをフルサポートするという利点があったが、その分費用を要するため、中小規模の企業で導入を躊躇する要因となっていた。 そこで、サイバー攻撃の被害を食い止めることに特化し、より費用を抑えた「ESET PROTECT MDR Lite」を紹介する（図15）。\n\n\n\n図15： ESET PROTECT MDRラインナップ\n\n\nESET PROTECT MDR Liteは、コストを抑えながらも基本的な機能には変更を加えず、バンドルされている製品ライセンスはESET PROTECT MDR Ultimateとまったく同じであるため、基本性能が劣ることはない。XDRの最も重要な機能である検知および対応、隔離に特化し、ESET社と当社のエンジニアが24時間体制で脅威を監視する。自動化機能を駆使し、リーズナブルに製品を提供できるよう設計されている。\n\n以降では、ESET PROTECT MDR Liteの基本的な特長を3つ挙げて説明する（図16）。\n\n\n\n図16： ESET PROTECT MDR Liteの3つの特長\n\n\n他社の製品では、AIや振る舞い検知などをベースに、シグネチャー（パターンファイル）を利用しないエンジンを搭載しているものも少なくない。しかし、AIは未知の脅威に強いと言われているが、検知率を高める一方で誤検知も増えてしまうという問題が生じてしまう。そのため、高度な脅威に対してEDR／XDRに判断を依存することとなり、管理者は大量のアラートに忙殺されるようになる。結果として、対応する工数が増加してしまうのだ。\n\n一方、ESET社の製品は予防型製品にパターンマッチングをあえて現在も採用している。マルウェアの大半が既知のものであるため、予防型製品の利用は今でも重要だ。以前から使われている技術ではあるものの、パターンマッチング方式は誤検知が少なく、端末への負荷が少ない点で優れている。\n\nただし、パターンマッチングだけでは未知の脅威に対処できない場合もあるため、AIや振る舞い検知エンジンを併用し、多層防御を実現している（図17）。また、クラウド上でサンドボックスを提供するなど、複合的にセキュリティを強化している。こうした予防型対策の充実により、XDR側の対応工数を大幅に削減している。\n\n\n\n図17：多層防御型の予防対策\n\n\nESET PROTECT MDR Liteでは、複数の製品ライセンスを標準でバンドルしており、これらを組み合わせて利用することで製品内での多層防御を実現している（図18）。\n\n\n\n図18： ESET PROTECT MDR Liteバンドルプログラム\n\n\nESET社の製品は、オーストラリアの著名な調査機関であるAV Comparatives社のテストで高い評価を得ている。ウイルス対策ソフトはブロック率だけを注目されがちであるが、組織で利用される場合、正常なシステムや通信も遮断しないよう、誤検出の少なさも重要な要素となる。同テスト結果によると、ブロック率か誤検出のどちらかに性能が偏ってしまう製品も見られた。一方、ESET社の製品は、高い検出力と誤検知の少なさを高レベルで実現している（図19）。\n\n\n\n図19：「高い検出力」と「誤検知の少なさ」を高レベルで実現\n\n\n運用、監視サービスが提供される点もESET PROTECT MDR Liteの特長だ。ESET社は1980年代後半からウイルス対策ソフトを提供しており、その蓄積されたノウハウをXDRツールにも活用している。具体的には、先述したパターンファイルの作成において、蓄積されたノウハウが活かされており、マルウェアの分析や可視化が行われている（図20）。\n\n\n\n図20：監視、運用サービス付きXDR\n\n\nXDRの運用を難しいと感じるユーザー企業は多いため、ESET PROTECT MDR Liteでは企業規模や業種にかかわらず、ESET社と当社がモニタリングからインシデント初期対応に至る運用を代行する。自動化技術を駆使し、中小規模のユーザー企業でもリーズナブルに導入できるよう設計されている（図21）。\n\n\n\n図21：最新の脅威への自動対処\n\n\nESET PROTECT MDR Liteはクラウド管理型のサービスであるため、インターネットに接続されている端末であれば場所を問わず保護対象となる。オフィスはもちろん、在宅でのテレワークや遠隔地の拠点、工場の端末などでも利用可能だ（図22）。\n\nまた、クライアント管理機能も搭載しており、端末内のOSやソフトウェアの種類、バージョンなど、IT資産管理に必要な情報も把握できる。また、レポート機能を利用すれば、簡単に管理台帳を作成することも可能である。\n\n\n\n図22：クラウド型XDRの利点\n\n\nESET PROTECT MDR Liteは製品サポートが充実している点も特長と言える。24時間365日のサポートが付属しており、ESETユーザー専用の窓口で日本語対応が可能だ。20年以上の実績を持つ総代理店として、ベンダーとの強い関係性と豊富なノウハウを活かし、ユーザー企業に安心を提供している（図23）。\n\n\n\n図23：安心の製品サポート\n\n\nESET PROTECT MDR Liteは導入と展開が容易に行えるという利点もある。画面キャプチャー付きのスターターガイドを提供しており、ガイドに従うだけでスムーズな導入が可能だ。必要なモジュールは、まとめて導入できるインストーラーを使用し、数クリックで簡単にインストールが完了する。クライアントプログラムは自動で更新されるため、ユーザー企業の管理者が対応する必要はない（図24）。\n\n\n\n図24： ESET PROTECT MDR Liteの導入・運用について\n\n\nESET PROTECT MDR Liteは、予算に制約がある企業にも導入しやすい価格設定がされており、投資対効果として納得感を得られる、バランスの取れた製品となっている（図25）。\n\n\n\n図25： ESET PROTECT MDR Liteの価格\n\n\nおわりに\n\nESET PROTECT MDR Liteの特長として、多層防御型の予防製品であり、高い検知率と低い誤検知率を両立し、そして簡易な運用を実現している点が挙げられる。XDRツールは長年のノウハウを活かしたものであり、予防製品と連携することで高い検出能力を実現している。また、MDRサービスによって運用負担を大幅に軽減している（図26）。こうしたソリューションを検討・導入することで、ますます多様化・高度化するサイバー攻撃に対するセキュリティ強化を進めてほしい。\n\n\n\n図26： ESET PROTECT MDR Liteのまとめ",
+          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/250204.html",
+          "publishedOn": "2025-02-03T15:00:00.000Z",
+          "wordCount": 324,
+          "title": "サイバー攻撃の被害は避けられない！？業種や事業規模を問わない持続可能なエンドポイントセキュリティ対策とは",
+          "imageUrl": "https://eset-info.canon-its.jp/files/topics/4668_ext_01_0.jpg"
+        },
+        {
           "id": "https://eset-info.canon-its.jp/malware_info/malware_topics/detail/malware2412.html",
           "author": null,
           "description": "12月の概況\n\n2024年12月（12月1日～12月31日）にESET製品が国内で検出したマルウェアの検出数の推移は、以下のとおりです。\n\n\n\n国内マルウェア検出数*1の推移\n(2024年7月の全検出数を100%として比較)\n\n*1 検出数にはPUA (Potentially Unwanted/Unsafe Application; 必ずしも悪意があるとは限らないが、コンピューターのパフォーマンスに悪影響を及ぼす可能性があるアプリケーション)を含めています。\n\n\n2024年12月の国内マルウェア検出数は、2024年11月と比較して減少しました。検出されたマルウェアの内訳は以下のとおりです。\n\n国内マルウェア検出数*2上位（2024年12月）\n\n\n\t\n\t\t\n\t\t\t順位\n\t\t\tマルウェア名\n\t\t\t割合\n\t\t\t種別\n\t\t\n\t\t\n\t\t\t1\n\t\t\tJS/Adware.TerraClicks\n\t\t\t21.9%\n\t\t\tアドウェア\n\t\t\n\t\t\n\t\t\t2\n\t\t\tJS/Adware.Agent\n\t\t\t16.4%\n\t\t\tアドウェア\n\t\t\n\t\t\n\t\t\t3\n\t\t\tHTML/Phishing.Agent\n\t\t\t14.1%\n\t\t\tメールに添付された不正なHTMLファイル\n\t\t\n\t\t\n\t\t\t4\n\t\t\tDOC/Fraud\n\t\t\t6.2%\n\t\t\t詐欺サイトのリンクが埋め込まれたDOCファイル\n\t\t\n\t\t\n\t\t\t5\n\t\t\tHTML/FakeCaptcha\n\t\t\t4.1%\n\t\t\t偽のCAPTCHAを表示させるHTMLファイル\n\t\t\n\t\t\n\t\t\t6\n\t\t\tJS/Agent\n\t\t\t2.3%\n\t\t\t不正なJavaScriptの汎用検出名\n\t\t\n\t\t\n\t\t\t7\n\t\t\tHTML/Phishing.Gen\n\t\t\t2.0%\n\t\t\t詐欺を目的とした不正なHTMLファイル\n\t\t\n\t\t\n\t\t\t8\n\t\t\tHTML/Nomani\n\t\t\t1.5%\n\t\t\t詐欺を目的とした不正なHTMLファイル\n\t\t\n\t\t\n\t\t\t9\n\t\t\tHTML/Phishing.Adobe\n\t\t\t0.9%\n\t\t\tAdobe社のサービスを騙った不正なHTMLファイル\n\t\t\n\t\t\n\t\t\t10\n\t\t\tJS/Adware.Sculinst\n\t\t\t0.8%\n\t\t\tアドウェア\n\t\t\n\t\n\n\n*2 本表にはPUAを含めていません。\n\n12月に国内で最も多く検出されたマルウェアは、JS/Adware.TerraClicksでした。\nJS/Adware.TerraClicksはWebサイト閲覧時に実行されるアドウェアです。感染すると、アドウェアサイトへのリダイレクト、アドウェアコンテンツの配布やWebブラウザーの拡張機能としてアドウェアをインストールするなどの被害を生じさせる可能性があります。\n\nWebブラウジング中に遭遇する脅威の急増\n\n22024年12月の国内マルウェア検出数では、HTML/FakeCaptchaやHTML/NomaniといったWebブラウジング中に遭遇する脅威が上位にランクインしました。\nHTML/FakeCaptchaは偽のCAPTCHA（画像を用いた認証）を表示し、利用者にクリックや情報入力などを促す不正なHTMLファイルを検出した際に表示される検出名です。\nまた、HTML/Nomaniは生成AIを用いたディープフェイクビデオや企業ブランドの投稿を使用した詐欺を含む悪意あるHTMLファイルを検出した際に使用される検出名です。\nこれらの脅威は2024年上半期のTOP10には一度も入ったことがないため、2024年下半期から現れた比較的新しい脅威と捉えることができます。\n\nHTML/FakeCaptchaの2024年9月から12月にかけての検出数の推移を以下に示します。\n\n\n\nHTML/FakeCaptcha検出数の推移（国内・全世界）\n（2024年9月の日本、全世界での検出数を100%として比較）\n\n\n同様に、HTML/Nomaniの2024年9月から12月にかけての検出数の推移を以下に示します。\n\n\n\nHTML/Nomani検出数の推移（国内・全世界）\n（2024年9月の日本、全世界での検出数を100%として比較）\n\n\nこれらのグラフから、HTML/FakeCaptchaとHTML/Nomaniは以下のような共通点を持つことが確認できます。\n\n\n\t12月の検出数が国内、全世界ともに9月の検出数の2倍以上になっている\n\t全世界の伸び幅と比較して、国内の伸び幅の方がより大きい\n\n\nつまり、全世界的にWebブラウジング中に遭遇する脅威は増加しており、特に日本国内をターゲットとしたものが著しく増加していると読み取ることができます。\n\nLummaStealerへの感染を狙うHTML/FakeCaptcha\n\nHTML/FakeCaptchaとして検出されるHTMLファイルは、いくつかの亜種に分類することができます。2024年9月から2024年12月の期間で検出された亜種は、以下の3種類でした。\n\n\n\tHTML/FakeCaptcha.A\n\tHTML/FakeCaptcha.C\n\tHTML/FakeCaptcha.E\n\n\n以下のグラフに日本国内でのHTML/FakeCaptchaの亜種ごとの検出数推移を示します。2024年11月はHTML/FakeCaptcha全体の約半数で留まっていたHTML/FakeCaptcha.Cの検出数が、2024年12月には2倍程度に増加しHTML/FakeCaptchaのほぼ全体を占めるようになっています。\n\n\n\nHTML/FakeCaptcha検出数の推移と亜種ごとの内訳（国内）\n（2024年9月の総検出数を100%として比較）\n\n\nHTML/FakeCaptcha.Cは、LummaStealerの感染を狙うキャンペーンに悪用されていたことが報告されています。\n\nLummaStealerは2022年に発見された比較的新しい情報窃取型マルウェアです。MaaSとしてさまざまな攻撃者に悪用されているため、定期的に被害報告が上がっています。LummaStealerに感染した場合、仮想通貨ウォレットやWebブラウザーに保存した各種認証情報の窃取などさまざまな被害に遭う可能性があります。\nLummaStealerが検出された際に表示される検出名であるWin32/Spy.LummaStealerは、2024年11月の国内マルウェア検出数で第6位に入りました。\n\nWebブラウジング中に遭遇する脅威といえば、フィッシングなど利用者の不注意を利用してさまざまな情報を不正に収集するものが代表的です。「ただブラウジングしているだけでは、マルウェアに感染することはない」と考えている方も多いと思われます。\nHTML/FakeCaptcha.Cはそうした意識の隙を狙い、LummaStealerという情報窃取型マルウェアへの感染を試みます。このようなマルウェアの感染手法は、仕組みを理解することで警戒・対策が容易になります。\nここではWebブラウジング中に遭遇する脅威の一例として、HTML/FakeCaptcha.CがどのようにLummaStealerへの感染を行っているかを解説し、遭遇時の対処方法をまとめます。\n\nHTML/FakeCaptcha.Cの動作\n\nHTML/FakeCaptcha.Cの感染動作は次の2段階に大きく分けることができます。\n\n\n\tWebブラウザー上に偽のCAPTCHAが表示される\n\t利用者が指示に従い、表示されたコマンドを入力する\n\n\nそれぞれの段階について具体的な動作を紹介します。\n\n1.Webブラウザー上に偽のCAPTCHAが表示される\n\n前述のように、HTML/FakeCaptchaは偽のCAPTCHAを表示し、利用者にクリックや情報入力などを促す不正なHTMLファイルです。HTML/FakeCaptcha.Cの場合は、次のような画像がWebブラウザー上に表示されます。\n\n\n\nWebブラウザー上に表示される偽のCAPTCHA①\n\n\n中央にある「I&rsquo;m not a robot」ボタンを押すと、次のように検証のための指示が表示されます。\n\n\n\nWebブラウザー上に表示される偽のCAPTCHA②\n\n\nこのCAPTCHA画像は、主に次のようなWebサイトを開いた際に表示されます。\n\n\n\t正規のWebサイトの閲覧時に表示される広告から誘導されるWebサイト\n\t非公式なソフトウェアのダウンロードリンクから誘導されるWebサイト\n\n\nどちらも利用者が本来求めている情報にたどり着く前のワンクッションとしてこのCAPTCHA画像が表示されるため、CAPTCHAの指示に従うことで求めている情報が得られると錯覚してしまう構造になっています。\n\n2.利用者が指示に従い、表示されたコマンドを入力する\n\n偽のCAPTCHA画像は、利用者にキーボードで以下の入力を行うよう求めています。\n\nA) 「Windows」キー + 「R」キー\nB) 「Ctrl」キー + 「V」キー\nC) 「Enter」キー\n\n偽のCAPTCHA画像の指示に従いAからCの入力が順番に行われた場合、攻撃者の用意した任意のコマンドが利用者のPCで実行されます。\n具体的には、それぞれの入力で次のような処理が行われます。\n\nA) 「Windows」キー + 「R」キー\n&rarr;　「ファイル名を指定して実行」のウィンドウを呼び出す\nB) 「Ctrl」キー + 「V」キー\n&rarr;　「ファイル名を指定して実行」のウィンドウに攻撃者が用意した文字列をペーストする\nC) 「Enter」キー\n&rarr;　ペーストされた文字列で指定されたプログラムを実行する\n\n攻撃者が用意した文字列として、外部URLからプログラムをダウンロードして実行するPowerShellスクリプトや更なるHTMLアプリケーションへリダイレクトするmshtaコマンドなど複数のパターンを確認しています。これらの文字列は利用者が「I&rsquo;m not a robot」ボタンをクリックしたタイミングで、端末のクリップボードへ自動的にコピーされます。\n\nAからCの入力を利用者に自発的に行わせることにより、上に挙げたPowerShellスクリプトやコマンドが実行され、最終的に外部のサーバーからLummaStealerなどのマルウェアがダウンロードされます。\n\n偽のCAPTCHAに遭遇した際に取るべき対処\n\nHTML/FakeCaptcha.Cが通信を行うURLには、2024年12月現在でもアクセス可能なものが含まれていることを確認しています。この節では、こうした不審なCAPTCHAに遭遇した際にどう対処すべきかをまとめます。\n\n第一に、信頼がおけないサイトの指示には従わないようにしてください。また、信頼がおけるサイトであっても、精巧に似せて作られたフィッシングサイトである可能性があります。Webブラウザーのブックマーク経由でアクセスするなど、偽サイトに誘導されない工夫をすることで安全性が高まります。\nHTML/FakeCaptcha.Cであるか否かは、「I&rsquo;m not a robot」ボタンを押した後にメモ帳などにペーストを行うことで判断が可能です。身に覚えのない文字列が貼り付けられた際は、HTML/FakeCaptcha.Cである可能性が極めて高いです。\n\n第二に、指示に従ってしまった場合の対処について紹介します。\nこの場合は、マルウェアがPC内に潜伏している可能性が高いです。ネットワークから切り離した上で、セキュリティソフトによるフルスキャンを実施してください。その後は、必要な情報を控えた上でPCを初期化する、専門家に相談するといった対応を取ることを推奨します。\nまた、クレジットカード情報やID、パスワードなどの認証情報がPC内に保存されていた場合は、それぞれ停止・変更の対応を行ってください。\n\nまとめ\n\nHTML/FakeCaptchaやHTML/NomaniといったWebブラウジング中に遭遇する脅威について2024年下半期の検出状況を紹介し、一例としてHTML/FakeCaptcha.Cの仕組みを取り上げました。いくつかのデータにも表れているように、Webブラウジング中にこうした脅威に遭遇する可能性は高いです。どういった脅威が存在しているかを把握し、仕組みを知ることで、脅威がもたらす危険を適切に回避できるよう準備しておく必要があります。\nHTML/FakeCaptcha.Cのような脅威に遭遇した場合にどうするのか、指示に従ってしまった場合にどうするのか、対処法について一度シミュレーションしてみてください。\n\n\n\n常日頃からリスク軽減するための対策について\n\n各記事でご案内しているようなリスク軽減の対策をご案内いたします。\n下記の対策を実施してください。\n\n\n\t1. セキュリティ製品の適切な利用\n\t1-1. ESET製品の検出エンジン（ウイルス定義データベース）をアップデートする\n\tESET製品では、次々と発生する新たなマルウェアなどに対して逐次対応しております。\n\t最新の脅威に対応できるよう、検出エンジン（ウイルス定義データベース）を最新の状態にアップデートしてください。\n\t1-2.複数の層で守る\n\t1つの対策に頼りすぎることなく、エンドポイントやゲートウェイなど複数の層で守ることが重要です。\n\t2. 脆弱性への対応\n\t2-1.セキュリティパッチを適用する\n\tマルウェアの多くは、OSに含まれる「脆弱性」を利用してコンピューターに感染します。「Windows Update」などのOSのアップデートを行ってください。また、マルウェアの多くが狙う「脆弱性」は、Office製品、Adobe Readerなどのアプリケーションにも含まれています。各種アプリケーションのアップデートを行ってください。\n\t2-2.脆弱性診断を活用する\n\tより強固なセキュリティを実現するためにも、脆弱性診断製品やサービスを活用していきましょう。\n\t3. セキュリティ教育と体制構築\n\t3-1.脅威が存在することを知る\n\t「セキュリティ上の最大のリスクは&ldquo;人&rdquo;だ」とも言われています。知らないことに対して備えることができる人は多くありませんが、知っていることには多くの人が「危険だ」と気づくことができます。\n\t3-2.インシデント発生時の対応を明確化する\n\tインシデント発生時の対応を明確化しておくことも、有効な対策です。何から対処すればいいのか、何を優先して守るのか、インシデント発生時の対応を明確にすることで、万が一の事態が発生した時にも、慌てずに対処することができます。\n\t4. 情報収集と情報共有\n\t4-1.情報収集\n\t最新の脅威に対抗するためには、日々の情報収集が欠かせません。弊社をはじめ、各企業・団体から発信されるセキュリティに関する情報に目を向けましょう。\n\t4-2.情報共有\n\t同じ業種・業界の企業は、同じ攻撃者グループに狙われる可能性が高いと考えられます。同じ攻撃者グループの場合、同じマルウェアや戦略が使われる可能性が高いと考えられます。分野ごとのISAC（Information Sharing and Analysis Center）における情報共有は特に効果的です。\n\n\n\n\n\n\n\n\n\t11月\n\t12月\n\t1月・2月\n\n\n \n\n\n2024年上半期サイバーセキュリティレポート 脆弱性を悪用したカスタムツールGooseEggやWordPressを狙った事例を解説",
@@ -1441,6 +1451,50 @@
       "feedUrl": "https://www.nic.ad.jp/ja/index.xml",
       "siteUrl": "https://www.nic.ad.jp/",
       "articles": [
+        {
+          "id": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2025/vol2138.html",
+          "author": null,
+          "description": "https://blog.nic.ad.jp/2025/10491/\n\n\n┏◆ 先週のトピックスとお知らせ 計1件\n┗━━━━━━━━━━━━━━━━━━━━━━\n\n・BIND 9における複数の脆弱性について(2025年1月)(2025/1/30)\n  https://www.nic.ad.jp/ja/topics/2025/20250130-01.html\n\n\n┏◆ 先週の動画コンテンツ 計9件\n┗━━━━━━━━━━━━━━━━━━━━━━\n\n・1. ICANN81会議概要報告(2025/1/30)\n  https://youtu.be/XWes-2b3vRg\n\n・2. ルートDNSサーバーシステムに関する報告 -- RSSACとRSS GWG --\n  (2025/1/30)\n  https://youtu.be/6qfqcNZnF5E\n\n・3. 理事会とASOを中心とした報告(2025/1/30)\n  https://youtu.be/p4KEtV3upCw\n\n・4. 国コードドメイン名支持組織(ccNSO)関連報告(2025/1/30)\n  https://youtu.be/1v6k6Dsty_0\n\n・5. ICANNの技術政策情報に関する報告(2025/1/30)\n  https://youtu.be/YHkGV_RE_AM\n\n・6. レジストリ・レジストラ関連状況報告(2025/1/30)\n  https://youtu.be/Al0ykIYZM5c\n\n・7. 次期新gTLD申請手続きポリシー検討状況報告(2025/1/30)\n  https://youtu.be/qsa2FtwjigM\n\n・8. ICANN政府諮問委員会(GAC)報告(2025/1/30)\n  https://youtu.be/mHvvhWfEWoY\n\n・10. RDRSとレジストラにおける…",
+          "link": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2025/vol2138.html",
+          "publishedOn": "2025-02-03T10:25:21.000Z",
+          "wordCount": null,
+          "title": "[メルマガ]vol.2138:【トピックス号】先週のトピックスとWeb更新情報",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nic.ad.jp/ja/icann/topics/2025/20250203-03.html",
+          "author": null,
+          "description": "2025年2月3日\n各位\n一般社団法人日本ネットワークインフォメーションセンター\nICANN通常理事会（2024年11月10日開催）決議概要\n1. Namecheap 対 ICANN（.BIZ、.INFO、.ORG）独立的審査プロセス最終宣言のさらなる検討\n2. .XXXレジストリ契約の更新\n3. リスク選好声明の改定\n4. 付属定款の基本的条項の改正に関する承認\n5. 暫定事務総長兼CEOの2025年度業績目標\nApproved Resolutions | Regular Meeting of the ICANN Board | 10 November 2024\n            \n以上",
+          "link": "https://www.nic.ad.jp/ja/icann/topics/2025/20250203-03.html",
+          "publishedOn": "2025-02-03T09:48:07.000Z",
+          "wordCount": null,
+          "title": "[Web更新]ICANN通常理事会(2024年11月10日開催)決議概要を掲載",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nic.ad.jp/ja/icann/topics/2025/20250203-02.html",
+          "author": null,
+          "description": "2025年2月3日\n各位\n一般社団法人日本ネットワークインフォメーションセンター\nICANN臨時理事会（2024年10月24日開催）決議概要\n1. 試行版包括的レビューチームへの理事の指名\n2. 権限委任ガイドラインの改定\n3. GAC助言：ICANN80キガリ会議コミュニケ（2024年6月）\n4. 申請者支援プログラム(ASP)ハンドブックの採択\n5. グラントプログラムに関する付属定款基本的条項の変更\nApproved Resolutions | Special Meeting of the ICANN Board | 24 October 2024\n            \n以上",
+          "link": "https://www.nic.ad.jp/ja/icann/topics/2025/20250203-02.html",
+          "publishedOn": "2025-02-03T05:33:39.000Z",
+          "wordCount": null,
+          "title": "[Web更新]ICANN臨時理事会(2024年10月24日開催)決議概要を掲載",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nic.ad.jp/ja/topics/2025/20250203-01.html",
+          "author": null,
+          "description": "2025年2月3日\n各位\n一般社団法人日本ネットワークインフォメーションセンター\nIPレジストリシステムおよびJPIRRシステム\n2月のメンテナンスに伴うサービス一時停止のお知らせ\n記\n\n            \n停止するサービスとメンテナンス日時\nWebおよびWHOISコマンドによる登録オブジェクトの検索\nJPIRRに関する各種申請処理\nJPNIC奉行において、ハイジャックが疑われる状態のメール通知の停止\nご注意\nお問い合わせ先\nIPアドレスに関する申請について\n              ip-service@nir.nic.ad.jp\n\n              JPIRRサービスについて\n              irr-query@nic.ad.jp\n            \n\n\n            \n以上",
+          "link": "https://www.nic.ad.jp/ja/topics/2025/20250203-01.html",
+          "publishedOn": "2025-02-03T00:47:37.000Z",
+          "wordCount": null,
+          "title": "[トピックス]IPレジストリシステムおよびJPIRRシステム2月のメンテナンスに伴うサービス一時停止のお知らせ",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.nic.ad.jp/ja/topics/2025/20250130-01.html",
           "author": null,
@@ -2154,6 +2208,16 @@
       "siteUrl": "https://jvn.jp/",
       "articles": [
         {
+          "id": "https://jvn.jp/jp/JVN94806805/",
+          "author": "jvn@jvn.jp",
+          "description": "SWITが提供するWordPress用プラグインActivity Log WinterLockには、クロスサイトリクエストフォージェリの脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN94806805/",
+          "publishedOn": "2025-02-04T03:00:00.000Z",
+          "wordCount": 126,
+          "title": "WordPress用プラグインActivity Log WinterLockにおけるクロスサイトリクエストフォージェリの脆弱性",
+          "imageUrl": null
+        },
+        {
           "id": "https://jvn.jp/vu/JVNVU90990932/",
           "author": "jvn@jvn.jp",
           "description": "New Rock Technologiesが提供する複数の製品には、複数の脆弱性が存在します。",
@@ -2649,6 +2713,96 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2025/02/04/52269.html",
+          "author": null,
+          "description": "なぜ多くのお客様がすべてのユーザーにフィッシング耐性を採用しているのに、大半の企業は依然としてパスワードと OTP を使用し続けているのでしょうか？",
+          "link": "https://scan.netsecurity.ne.jp/article/2025/02/04/52269.html",
+          "publishedOn": "2025-02-03T23:20:03.000Z",
+          "wordCount": 899,
+          "title": "Okta Blog 第3回 標的とされた企業は判明後にフィッシング耐性のある MFA を選択",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47419.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2025/02/04/52268.html",
+          "author": null,
+          "description": "株式会社スリーシェイクは1月28日、株式会社シーディーネットワークス・ジャパンとともに無料オンラインセミナー「サイバー攻撃に立ち向かう！リスクの把握（ASM）×管理と防御（WAAP）の活用術」を開催すると発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2025/02/04/52268.html",
+          "publishedOn": "2025-02-03T23:15:03.000Z",
+          "wordCount": 746,
+          "title": "2 / 5,10,18「サイバー攻撃に立ち向かう！リスクの把握（ASM）× 管理と防御（WAAP）の活用術」スリーシェイクが開催",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47420.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2025/02/04/52267.html",
+          "author": null,
+          "description": "IT やセキュリティの専門家たちによれば、彼らの 10 人に 9 人近く（88％）が過去 1 年の間に、防御を突破しようとする犯罪者たちの試みを阻止する必要に迫られたが、その経験を経て、ランサムウェア攻撃にうまく対処する自分たちの能力に自信を強めているという。攻撃にさらされたこと自体と経験を積んだことがその主な要因と思われる。",
+          "link": "https://scan.netsecurity.ne.jp/article/2025/02/04/52267.html",
+          "publishedOn": "2025-02-03T23:10:03.000Z",
+          "wordCount": 752,
+          "title": "【いいニュース】ランサムウェア攻撃 修羅場をくぐり抜け自信を深めたセキュリティのプロフェッショナルたち",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47447.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2025/02/04/52266.html",
+          "author": null,
+          "description": "株式会社岩手朝日テレビは1月22日、ランサムウェア攻撃の発生について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2025/02/04/52266.html",
+          "publishedOn": "2025-02-03T23:05:05.000Z",
+          "wordCount": 707,
+          "title": "放送への影響無し ～ 岩手朝日テレビにランサムウェア攻撃",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47381.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2025/02/04/52265.html",
+          "author": null,
+          "description": "東北芸術工科大学は1月20日、Microsoft Teamsの設定ミスによる個人情報等の不適切な取扱いについて発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2025/02/04/52265.html",
+          "publishedOn": "2025-02-03T23:05:03.000Z",
+          "wordCount": 724,
+          "title": "Microsoft Teams の設定ミス、東北芸術工科大学で要配慮個人情報がチーム外から閲覧可能に",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47386.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2025/02/04/52264.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）は1月30日、「情報セキュリティ10大脅威 2025」を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2025/02/04/52264.html",
+          "publishedOn": "2025-02-03T23:00:13.000Z",
+          "wordCount": 738,
+          "title": "新設「地政学的リスクに起因するサイバー攻撃」が 7位 ～ IPA「情報セキュリティ10大脅威 2025」",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2025/02/04/52263.html",
+          "author": null,
+          "description": "株式会社日本レジストリサービス（JPRS）は1月21日、サービス終了後に残っているDNS設定を利用したサブドメインの乗っ取りへの注意喚起を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2025/02/04/52263.html",
+          "publishedOn": "2025-02-03T23:00:09.000Z",
+          "wordCount": 727,
+          "title": "サブドメイン乗っ取り 注意呼びかけ ～ サービス終了後に残る DNS 設定",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2025/02/04/52262.html",
+          "author": null,
+          "description": "株式会社東京商工リサーチは1月21日、上場企業とその子会社における2024年の個人情報漏えい・紛失事故についての調査結果を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2025/02/04/52262.html",
+          "publishedOn": "2025-02-03T23:00:07.000Z",
+          "wordCount": 722,
+          "title": "151 社から189 件 ～ 2024年 日本の上場企業情報漏えい",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47373.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2025/02/04/52261.html",
+          "author": null,
+          "description": "トレンドマイクロ株式会社は1月20日、コンテナセキュリティにおけるMITRE ATT&CKの活用について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2025/02/04/52261.html",
+          "publishedOn": "2025-02-03T23:00:03.000Z",
+          "wordCount": 729,
+          "title": "コンテナセキュリティに MITRE ATT&CK を活用",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2025/02/03/52260.html",
           "author": null,
@@ -4147,6 +4301,46 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2502/04/news140.html",
+          "author": null,
+          "description": "個人情報保護委員会は3日、中国のAIベンチャーが開発した生成AI「DeepSeek」のプライバシーポリシーに書かれている内容について説明し、注意喚起した。",
+          "link": "https://www.itmedia.co.jp/news/articles/2502/04/news140.html",
+          "publishedOn": "2025-02-04T06:00:00.000Z",
+          "wordCount": 2756,
+          "title": "個人情報保護委員会、中国AI「DeepSeek」利用に注意喚起　林官房長官も「留意を」",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2502/04/cover_news140.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2502/04/news120.html",
+          "author": null,
+          "description": "内閣サイバーセキュリティセンターは、2024年12月～25年1月にかけてDDoS攻撃が相次いでいることを受け、各事業者に注意を呼びかけた。",
+          "link": "https://www.itmedia.co.jp/news/articles/2502/04/news120.html",
+          "publishedOn": "2025-02-04T05:26:00.000Z",
+          "wordCount": 2767,
+          "title": "日本企業を狙う、相次ぐDDoS攻撃に国が注意喚起　今すぐ始めるべき対策とは？",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2502/04/cover_news120.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2502/04/news111.html",
+          "author": null,
+          "description": "中国の新興企業「DeepSeek」が開発した生成AIを巡り、台湾の卓栄泰・行政院長（首相に相当）は2月3日、公的機関に対して利用を全面的に禁止するよう求めた。「国家の情報通信の安全を確保するため」としている。行政院（内閣）の報道官が明らかにした。",
+          "link": "https://www.itmedia.co.jp/news/articles/2502/04/news111.html",
+          "publishedOn": "2025-02-04T01:22:00.000Z",
+          "wordCount": 2480,
+          "title": "台湾の公的機関、DeepSeekを全面禁止に　情報漏えいリスク「排除できない」",
+          "imageUrl": "https://image.itmedia.co.jp/images/logo/1200x630_500x500_news.gif"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2502/04/news109.html",
+          "author": null,
+          "description": "中国の新興企業「DeepSeek」が開発した生成AIを巡り、各国・地域の政府機関や企業が職員らの利用制限に踏み切る動きが相次いでいる。中国政府に情報が流出するリスクや安全保障上の懸念が根強いためで、影響はさらに広がりそうだ。",
+          "link": "https://www.itmedia.co.jp/news/articles/2502/04/news109.html",
+          "publishedOn": "2025-02-04T01:19:00.000Z",
+          "wordCount": 2482,
+          "title": "中国AI「DeepSeek」、各国・地域で利用制限広がる　中国政府への情報漏えいに懸念",
+          "imageUrl": "https://image.itmedia.co.jp/images/logo/1200x630_500x500_news.gif"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2501/30/news173.html",
           "author": null,
           "description": "米セキュリティ企業Wizは、中国AIスタートアップDeepSeekについて、AIチャットサービスのチャット履歴などを含むデータが外部から閲覧可能な状態だったと発表した。",
@@ -4373,6 +4567,116 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1660160.html",
+          "author": "松永 侑貴惠",
+          "description": "内閣サイバーセキュリティセンター （NISC）は2月4日、2024年12月から2025年1月の年末年始にかけ、DDoS攻撃が相次いで発生していることから、各事業者に向け、適切なセキュリティ対策を講じるよう注意喚起を実施した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1660160.html",
+          "publishedOn": "2025-02-04T05:50:00.000Z",
+          "wordCount": 4726,
+          "title": "年末年始に相次いだDDoS攻撃を受け、内閣サイバーセキュリティセンターが注意喚起を実施",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1660/160/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1660124.html",
+          "author": "松永 侑貴惠",
+          "description": "一般社団法人デジタルライフ推進協会（以下、DLPA）は2月3日、ウェブサイトを全面リニューアルした。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1660124.html",
+          "publishedOn": "2025-02-04T05:30:00.000Z",
+          "wordCount": 4722,
+          "title": "誰もが安全に使えるWi-Fiルーター「DLPA推奨ルーター」の紹介コンテンツ追加など、一般社団法人デジタルライフ推進協会（DLPA）がサイトをリニューアル",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1660/124/main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1660032.html",
+          "author": "tks24",
+          "description": "ダークパターン対策ガイドラインの初版に当たる「ver1.0」を、一般社団法人ダークパターン対策協会が公開した。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1660032.html",
+          "publishedOn": "2025-02-04T02:25:00.000Z",
+          "wordCount": 4719,
+          "title": "悪質サイト撲滅への第一歩？ 「ダークパターン」の対策ガイドライン、初版が公開中【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1660/032/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1660029.html",
+          "author": "tks24",
+          "description": "使用時間偽装が疑われるSeagate製HDDが見つかったことが報告され、ドイツを中心に騒ぎになっている。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1660029.html",
+          "publishedOn": "2025-02-04T02:25:00.000Z",
+          "wordCount": 4737,
+          "title": "新品のはずが…SeagateのHDDで使用時間偽装品の報告、同社は関与を否定【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1660/029/yajiuma-watch_4.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1659988.html",
+          "author": "大河原 克行",
+          "description": "OpenAIとソフトバンクグループ、ソフトバンク、Armの4社は、2025年2月3日、都内において、法人向け特別イベント「AIによる法人ビジネスの変革」を開催。そのなかで、ソフトバンクグループの孫正義会長兼社長は、Open AIとの合弁会社「SB OpenAI Japan」を設立することを発表。個別の企業向けにカスタマイズした企業向けAI「クリスタル・インテリジェンス（Cristal intelligence）」を、日本企業に対して提供することを発表した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1659988.html",
+          "publishedOn": "2025-02-04T00:00:00.000Z",
+          "wordCount": 4793,
+          "title": "OpenAIとソフトバンク、日本で合弁会社を設立し「Cristal intelligence」を提供～「クリスタルは、企業の長期記憶を踏まえて正しいアドバイスをくれる」",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1659/988/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1659743.html",
+          "author": "大東 奈央",
+          "description": "サンワサプライ株式会社は2月3日、USB PD対応で最大出力100WのUSB充電器「700-AC043W」を発売した。直販サイト「サンワダイレクト」での販売価格は7980円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1659743.html",
+          "publishedOn": "2025-02-03T23:30:00.000Z",
+          "wordCount": 4729,
+          "title": "全4ポート、最大100W出力のUSB PD充電器「700-AC043W」、サンワサプライが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1659/743/03.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1659821.html",
+          "author": "松永 侑貴惠",
+          "description": "GMOインターネットグループ株式会社は2月3日、プロバイダーサービス「GMOとくとくBB」の「ドコモ光 10ギガプラン」において、10ギガ対応Wi-Fiルーターとしてレンタルする10Gbps対応Wi-Fiルーターを従来のWi-Fi 6対応製品からWi-Fi 7対応製品に切り替えることを発表した。あわせて、レンタルの月額料金を値下げする。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1659821.html",
+          "publishedOn": "2025-02-03T22:30:00.000Z",
+          "wordCount": 4737,
+          "title": "「GMOとくとくBB ドコモ光 10ギガプラン」、レンタルのルーターをWi-Fi 7対応にアップグレード　レンタル料金も月額190円に値下げ",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1659/821/main.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1659933.html",
+          "author": "大東 奈央",
+          "description": "静岡県は、同県東部地域（沼津市・清水町）への移住相談会「 静岡県東部地域DAY」を、2月22日にZoomで開催する。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1659933.html",
+          "publishedOn": "2025-02-03T22:00:00.000Z",
+          "wordCount": 4722,
+          "title": "静岡県東部沼津市・清水町へのオンライン移住相談会、2月22日開催",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1659/933/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/ranking/1659693.html",
+          "author": null,
+          "description": "前週に閲覧数の多かった記事を、カテゴリーごとに上位5位までレポートします。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/ranking/1659693.html",
+          "publishedOn": "2025-02-03T21:55:00.000Z",
+          "wordCount": 4748,
+          "title": "Wi-Fiルーターの電波状況は場所や壁でどこまで変わる？ 置き方の定説を検証した記事に注目が集まる【アクセスランキング】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1659/693/1656723.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1659732.html",
+          "author": "松永 侑貴惠",
+          "description": "独立行政法人国民生活センターは、ECサイトで「定期縛りなし」と表示された商品を1回限りの購入だと思って購入した後、実は定期購入の契約だったことが判明したという相談が寄せられているとして、注意喚起を実施した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1659732.html",
+          "publishedOn": "2025-02-03T21:30:00.000Z",
+          "wordCount": 4724,
+          "title": "「定期縛りなし」の商品を買ったら「解約するまで続く定期購入」になっていたトラブル、国民生活センターが注意を呼び掛け",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1659/732/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/nettech/1654343.html",
+          "author": "大原 雄介",
+          "description": "引き続き、WBA（Wireless Broadband Alliance）が公開した「Wi-Fi HaLow for IoT Field Trials Report」の内容を紹介する。7つのフィールドテストのうち、前回は「5.Smart Office Building」の途中まで紹介した。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/nettech/1654343.html",
+          "publishedOn": "2025-02-03T21:00:00.000Z",
+          "wordCount": 4885,
+          "title": "Wi-Fi HaLowの現在地（5）2500㎡ほどのフロアをWi-Fi HaLow AP1台でカバー、階ごとに1APでビル全体をカバー可能か？【ネット新技術】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1654/343/Photo10.jpg"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/1659812.html",
           "author": "大東 奈央",
@@ -6616,6 +6920,56 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20250204-3122093/",
+          "author": null,
+          "description": "Windows Centralは2月1日(米国時間)、Microsoftが無料の仮想プライベートネットワーク(VPN: Virtual Private Network)を廃止すると伝えた。廃止対象はMicrosoft Defenderに搭載されたVPNサービスで、機能は限定的だが無料で利用できることから人気がある。",
+          "link": "https://news.mynavi.jp/techplus/article/20250204-3122093/",
+          "publishedOn": "2025-02-04T07:48:54.000Z",
+          "wordCount": 1770,
+          "title": "Microsoftが無料VPNを2月28日で終了と発表",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20250204-3122093/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20250204-3122125/",
+          "author": null,
+          "description": "情報化社会のメリットは大きく至る所に浸透しているが、それに比して情報の端末への集中は増加する。資産やプライバシーへと直接つながるメールやファイルなどの情報からSaaSやクラウドへと繋がる情報など個人PCであっても紛失した際の懸念はぬぐえない。増してや組織のPCとなると機密情報に繋がる足跡はさらに多くなる。",
+          "link": "https://news.mynavi.jp/techplus/article/20250204-3122125/",
+          "publishedOn": "2025-02-04T05:33:44.000Z",
+          "wordCount": 1673,
+          "title": "場所にとらわれない働き方を行う従業員の12%が会社公認ではない修理 - 高まるデバイスライフサイクルの対策不備への懸念",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20250204-3122125/index_images/index.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20250204-3119596/",
+          "author": null,
+          "description": "米国土安全保障省サイバーセキュリティ・インフラストラクチャセキュリティ庁(CISA)は1月30日(米国時間)、Contec Medical Systemsの医療用患者モニタリング装置からバックドアを発見したと報じた。このバックドアは患者データを密かに送信し、ファイルをダウンロードして実行することが可能だという。",
+          "link": "https://news.mynavi.jp/techplus/article/20250204-3119596/",
+          "publishedOn": "2025-02-04T03:27:09.000Z",
+          "wordCount": 2970,
+          "title": "医療用モニタリング装置にバックドア、ネットワーク切断推奨",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20250204-3119596/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20250204-3121335/",
+          "author": null,
+          "description": "Techstrong Groupは1月31日(米国時間)、セキュリティブログ「Security Boulevard」において、中国を拠点とするAI企業 「DeepSeek」が提供する生成AIのシステムプロンプト抽出が成功したと伝えた。",
+          "link": "https://news.mynavi.jp/techplus/article/20250204-3121335/",
+          "publishedOn": "2025-02-03T23:37:49.000Z",
+          "wordCount": 1794,
+          "title": "DeepSeekの脱獄に成功、システムプロンプトを抽出",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20250204-3121335/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20250203-3121518/",
+          "author": null,
+          "description": "NTT Comは2月3日、攻撃者の視点で企業のIT資産の弱点を可視化してセキュリティリスクの低減を図る「WideAngle ASM」を提供開始することを発表した。",
+          "link": "https://news.mynavi.jp/techplus/article/20250203-3121518/",
+          "publishedOn": "2025-02-03T08:48:30.000Z",
+          "wordCount": 1737,
+          "title": "NTT Com、企業のIT資産の弱点を監視する「WideAngle ASM」を提供開始",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20250203-3121518/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20250203-3121398/",
           "author": null,
