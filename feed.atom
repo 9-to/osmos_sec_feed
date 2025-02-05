@@ -2,10 +2,609 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-02-04T08:15:05.300Z</updated>
+    <updated>2025-02-05T08:14:31.914Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[ZF製RSSPlusにおける認証回避の脆弱性]]></title>
+        <id>https://jvn.jp/vu/JVNVU93849567/</id>
+        <link href="https://jvn.jp/vu/JVNVU93849567/"/>
+        <updated>2025-02-05T07:30:00.000Z</updated>
+        <summary type="html"><![CDATA[ZFが提供するRSSPlusには認証回避の脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[複数のWestern Telematic, Inc.製品における外部から制御可能なファイル名やパスの脆弱性]]></title>
+        <id>https://jvn.jp/vu/JVNVU95333986/</id>
+        <link href="https://jvn.jp/vu/JVNVU95333986/"/>
+        <updated>2025-02-05T06:00:40.000Z</updated>
+        <summary type="html"><![CDATA[Western Telematic, Inc.が提供する複数の製品には、外部から制御可能なファイル名やパスの脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[複数のRockwell Automation製品における例外的な状態に対する不適切な処理の脆弱性]]></title>
+        <id>https://jvn.jp/vu/JVNVU95085876/</id>
+        <link href="https://jvn.jp/vu/JVNVU95085876/"/>
+        <updated>2025-02-05T06:00:30.000Z</updated>
+        <summary type="html"><![CDATA[Rockwell Automationが提供する複数の製品には、例外的な状態に対する不適切な処理の脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[複数のElber製品名における複数の脆弱性]]></title>
+        <id>https://jvn.jp/vu/JVNVU93708461/</id>
+        <link href="https://jvn.jp/vu/JVNVU93708461/"/>
+        <updated>2025-02-05T06:00:20.000Z</updated>
+        <summary type="html"><![CDATA[Elberが提供する複数の製品には、複数の脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[複数のSchneider Electric製品における複数の脆弱性]]></title>
+        <id>https://jvn.jp/vu/JVNVU99451862/</id>
+        <link href="https://jvn.jp/vu/JVNVU99451862/"/>
+        <updated>2025-02-05T06:00:10.000Z</updated>
+        <summary type="html"><![CDATA[Schneider Electricが提供する複数の製品には、複数の脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[複数のAutomationDirect製C-more EA9 HMIにおける古典的バッファーオーバーフローの脆弱性]]></title>
+        <id>https://jvn.jp/vu/JVNVU92341498/</id>
+        <link href="https://jvn.jp/vu/JVNVU92341498/"/>
+        <updated>2025-02-05T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[AutomationDirectが提供する複数のC-more EA9 HMIには、古典的バッファーオーバーフローの脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「NURO 光 One」。手続き全てがアプリで完結、ルーター無料レンタルの新プランが提供開始]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1660454.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1660454.html"/>
+        <updated>2025-02-05T05:10:00.000Z</updated>
+        <summary type="html"><![CDATA[ソニーネットワークコミュニケーションズ株式会社は2月5日、光回線によるインターネット接続サービス「NURO 光」の戸建て向け新プラン「NURO 光 One」の提供を開始した。10ギガ、2ギガのプランが提供される。]]></summary>
+        <author>
+            <name>大竹 莉子</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows 11を古いPCにインストールさせない動き、Microsoft]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20250205-3122775/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20250205-3122775/"/>
+        <updated>2025-02-05T04:37:58.000Z</updated>
+        <summary type="html"><![CDATA[BetaNewsは2月4日(米国時間)、Windows 11を古いPCにインストールさせないよう、Microsoftが措置を講じたと伝えた。具体的には「古いPCへのインストール手順を削除」、「サードパーティーツールの排除」の2つが実施された。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[WhatsUp Gold、Observium、Offis の脆弱性]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=53155</id>
+        <link href="https://gblogs.cisco.com/jp/2025/02/talos-whatsup-gold-observium-offis-vulnerabilities/"/>
+        <updated>2025-02-05T04:26:40.000Z</updated>
+        <summary type="html"><![CDATA[Cisco Talos の脆弱性調査チームは先日、Observium の 3 件の脆弱性、Offis の 3 件の脆弱性、WhatsUp Gold の 4 件の脆弱性について情報を公開しました。
+The post WhatsUp Gold、Observium、Offis の脆弱性 appeared first on Cisco Japan Blog.]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[大規模マルウェア攻撃で新たなバックドア TorNet が拡散]]></title>
+        <id>https://gblogs.cisco.com/jp/?p=53150</id>
+        <link href="https://gblogs.cisco.com/jp/2025/02/talos-new-tornet-backdoor-campaign/"/>
+        <updated>2025-02-05T04:14:52.000Z</updated>
+        <summary type="html"><![CDATA[Cisco Talos は、金銭目的で現在も繰り広げられているマルウェア攻撃を発見しました。攻撃は早ければ 2024 年 7 月から始まっており、フィッシングメールで使用されている言語から判断して、主にポーランドとドイツのユーザーが標的となっています。
+The post 大規模マルウェア攻撃で新たなバックドア TorNet が拡散 appeared first on Cisco Japan Blog.]]></summary>
+        <author>
+            <name>TALOS Japan</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Defense Platform Home Editionにおける複数の脆弱性]]></title>
+        <id>https://jvn.jp/jp/JVN66673020/</id>
+        <link href="https://jvn.jp/jp/JVN66673020/"/>
+        <updated>2025-02-05T03:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ハミングヘッズ株式会社が提供するDefense Platform Home Editionには、複数の脆弱性が存在します。]]></summary>
+        <author>
+            <name>jvn@jvn.jp</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[山善のチューナーレステレビがAmazonでセール中！　4K対応で50型の「QRH-50TL4K」3万9900円に]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/shopping/1660368.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/shopping/1660368.html"/>
+        <updated>2025-02-05T02:30:00.000Z</updated>
+        <summary type="html"><![CDATA[Amazon.co.jpの山善（YAMAZEN）ストアページでは現在、同社製のチューナーレステレビがタイムセール価格で販売されている。山善のチューナーレステレビは「Google TV」を搭載しており、YouTube、Amazonプライムビデオ、Hulu、Netflixなどが利用できる。]]></summary>
+        <author>
+            <name>アイティースリー</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[トピックス]「マルチステークホルダー主義を支持する技術コミュニティ連合」(TCCM)によるWSIS 20周年評価に関する意見提出にJPNICも署名]]></title>
+        <id>https://www.nic.ad.jp/ja/topics/2025/20240205-01.html</id>
+        <link href="https://www.nic.ad.jp/ja/topics/2025/20240205-01.html"/>
+        <updated>2025-02-05T02:23:30.000Z</updated>
+        <summary type="html"><![CDATA[2025年2月5日
+各位
+一般社団法人日本ネットワークインフォメーションセンター
+「マルチステークホルダー主義を支持する技術コミュニティ連合」(TCCM)による
+WSIS 20周年評価に関する意見提出にJPNICも署名
+*1に対し、
+              「マルチステークホルダー主義を支持する技術コミュニティ連合」(TCCM)として意見を提出しました。
+              JPNICはこの内容に賛同し、署名しました。
+            
+https://www.tccm.global/tccm-response-to-itucwg-on-wsis-and-sdgs-call-for-inputs-wsis-20/
+            
+マルチステークホルダーガバナンス：チュニスアジェンダに明記され、政府、市民社会、学術界、民間セクター、技術コミュニティ間の協力を可能にした。
+インターネットガバナンスフォーラム(IGF)：包括性、知識共有、政策立案を促進する重要なグローバルな対話プラットフォームである。
+WSISアクションライン*2の影響：インフラ拡大(C2)、知識へのアクセス向上(C3)、デジタル変革の支援(C7)などの例である。
+https://www.itu.int/en/council/cwg-wsis/Pages/default.aspx
+              
+*3によれば、
+                国際レベルでのWSIS実施メカニズムは、
+                ジュネーブ行動計画のテーマと行動方針を考慮して組織されるべきと記載されており、
+                またITU、ユネスコ、UNDPが主導して同行動計画を実施すべきとなっているため、
+                毎年WSIS Forumをこれら組織が主催して各アクションラインの実施状況を評価しています。
+                
+https://www.itu.int/net/wsis/implementation/
+              
+https://www.nic.ad.jp/ja/basics/terms/tunis-agenda.html
+              
+以上]]></summary>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Elgato製の左手デバイスや動画配信機器がお得！　Amazonタイムセール情報　15個のLCDキーを搭載した左手デバイス「Stream Deck MK.2」が1万9380円など]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/shopping/1660373.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/shopping/1660373.html"/>
+        <updated>2025-02-05T02:15:00.000Z</updated>
+        <summary type="html"><![CDATA[Amazon.co.jpのElgatoストアでは現在、同社の左手デバイスや撮影機材がタイムセール中だ。Elgato（エルガト）はドイツと米カリフォルニアのエンジニアチームによるブランドで、動画配信などに関連した機材を開発・販売している。]]></summary>
+        <author>
+            <name>アイティースリー</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Xのコミュニティ機能が仕様変更、メンバー向けのポストも広くダダ漏れ？【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1660361.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1660361.html"/>
+        <updated>2025-02-05T01:40:00.000Z</updated>
+        <summary type="html"><![CDATA[X（旧Twitter）でコミュニティ機能の仕様が変更され、コミュニティ向けのポストが他のフォロワーなどにも広く表示されるようになった。]]></summary>
+        <author>
+            <name>tks24</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[定番のUSBケーブルチェッカーの新モデルが登場、Kickstarterで資金募集中【やじうまWatch】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1660359.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1660359.html"/>
+        <updated>2025-02-05T01:40:00.000Z</updated>
+        <summary type="html"><![CDATA[業界では定番となっているUSBケーブルチェッカーの新モデル「USB Cable Checker3」がKickstarterで資金を募集中だ。]]></summary>
+        <author>
+            <name>tks24</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【生成AI】マルチモーダルってなに？アプリケーションの作成を通じて理解しよう！]]></title>
+        <id>https://tech-lab.sios.jp/?p=45752</id>
+        <link href="https://tech-lab.sios.jp/archives/45752"/>
+        <updated>2025-02-05T01:30:55.000Z</updated>
+        <summary type="html"><![CDATA[こんにちは、サイオステクノロジーの遠藤です。 今回は、生成AI開発でよく登場する「マルチモーダル」について解説します。このブログでは、まず概要を理解し、その後アプリケーションの作成を通じてより深い理解を目指していきます。 ...
+【生成AI】マルチモーダルってなに？アプリケーションの作成を通じて理解しよう！ first appeared on SIOS Tech. Lab.]]></summary>
+        <author>
+            <name>遠藤</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[止まらないサイバー攻撃には先行的な脅威ハンティングで対抗せよ]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20250205-3118840/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20250205-3118840/"/>
+        <updated>2025-02-05T01:17:16.000Z</updated>
+        <summary type="html"><![CDATA[企業・組織ではセキュリティ対策が進んでいるが、サイバー攻撃の被害はまったくおさまらない。そうした中、先行的な脅威ハンティングを行うことで、攻撃者の先を行くことが可能になる。先行的な脅威ハンティングを実現するには、どうしたらよいのだろうか。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Web更新]JPNICが管理するIPアドレス・AS番号・IRRサービスに関する統計を更新　2025年1月のデータを追加]]></title>
+        <id>https://www.nic.ad.jp/ja/stat/ip/20250205.html</id>
+        <link href="https://www.nic.ad.jp/ja/stat/ip/20250205.html"/>
+        <updated>2025-02-05T00:52:47.000Z</updated>
+        <summary type="html"><![CDATA[English Page
+            
+
+            
+
+      JPNICが管理するIPアドレス・AS番号・IRRサービスに関する統計
+
+
+                                               最終更新:2025年2月5日
+
+            
+
+            
+
+<<1月のIPv4アドレス割り当て/返却件数 >>
+--------------------------
+       割当        | 返却
+--------------------
+ infra     user    |
+--------------------------
+   89      1178    |  1138
+--------------------------
+
+            
+
+
+
+<<1月のIPv4アドレス割り当て/返却ホスト数 >>
+---------------------------------
+      |     割当    |    返却
+---------------------------------
+合計  |     55738   |     21618
+---------------------------------
+
+            
+
+
+
+<< IPv4アドレスの割り当ての内訳 (インフラネットワーク) >>
+---------------------------------------------------------------------------------------------
+年/月  | /16  /17  /18  /19  /20  /21  /22  /2…]]></summary>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: ISC BIND 9に複数の脆弱性]]></title>
+        <id>https://www.jpcert.or.jp/wr/2025/wr250205.html#1</id>
+        <link href="https://www.jpcert.or.jp/wr/2025/wr250205.html#1"/>
+        <updated>2025-02-05T00:11:00.000Z</updated>
+        <summary type="html"><![CDATA[ISC BIND 9に複数の脆弱性]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: Google Chromeに複数の脆弱性]]></title>
+        <id>https://www.jpcert.or.jp/wr/2025/wr250205.html#2</id>
+        <link href="https://www.jpcert.or.jp/wr/2025/wr250205.html#2"/>
+        <updated>2025-02-05T00:11:00.000Z</updated>
+        <summary type="html"><![CDATA[Google Chromeに複数の脆弱性]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: キヤノン製スモールオフィス向け複合機およびレーザービームプリンターにおける複数の脆弱性]]></title>
+        <id>https://www.jpcert.or.jp/wr/2025/wr250205.html#3</id>
+        <link href="https://www.jpcert.or.jp/wr/2025/wr250205.html#3"/>
+        <updated>2025-02-05T00:11:00.000Z</updated>
+        <summary type="html"><![CDATA[キヤノン製スモールオフィス向け複合機およびレーザービームプリンターにおける複数の脆弱性]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: WordPress用プラグインSimple Image Sizesにクロスサイトスクリプティングの脆弱性]]></title>
+        <id>https://www.jpcert.or.jp/wr/2025/wr250205.html#4</id>
+        <link href="https://www.jpcert.or.jp/wr/2025/wr250205.html#4"/>
+        <updated>2025-02-05T00:11:00.000Z</updated>
+        <summary type="html"><![CDATA[WordPress用プラグインSimple Image Sizesにクロスサイトスクリプティングの脆弱性]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: 複数のApple製品に脆弱性]]></title>
+        <id>https://www.jpcert.or.jp/wr/2025/wr250205.html#5</id>
+        <link href="https://www.jpcert.or.jp/wr/2025/wr250205.html#5"/>
+        <updated>2025-02-05T00:11:00.000Z</updated>
+        <summary type="html"><![CDATA[複数のApple製品に脆弱性]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: IPA が「情報セキュリティ10大脅威 2025」を公表]]></title>
+        <id>https://www.jpcert.or.jp/wr/2025/wr250205.html#6</id>
+        <link href="https://www.jpcert.or.jp/wr/2025/wr250205.html#6"/>
+        <updated>2025-02-05T00:11:00.000Z</updated>
+        <summary type="html"><![CDATA[IPA が「情報セキュリティ10大脅威 2025」を公表]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: JSSECが『Android アプリのセキュア設計・セキュアコーディングガイド』2025年1月29日版を公開]]></title>
+        <id>https://www.jpcert.or.jp/wr/2025/wr250205.html#7</id>
+        <link href="https://www.jpcert.or.jp/wr/2025/wr250205.html#7"/>
+        <updated>2025-02-05T00:11:00.000Z</updated>
+        <summary type="html"><![CDATA[JSSECが『Android アプリのセキュア設計・セキュアコーディングガイド』2025年1月29日版を公開]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Weekly Report: フィッシング対策協議会が「送信ドメイン認証技術「DMARC」の導入状況と必要性について」を公開]]></title>
+        <id>https://www.jpcert.or.jp/wr/2025/wr250205.html#8</id>
+        <link href="https://www.jpcert.or.jp/wr/2025/wr250205.html#8"/>
+        <updated>2025-02-05T00:11:00.000Z</updated>
+        <summary type="html"><![CDATA[フィッシング対策協議会が「送信ドメイン認証技術「DMARC」の導入状況と必要性について」を公開]]></summary>
+        <author>
+            <name>JPCERT/CC RSS Feed</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[D-Linkがルータの脆弱性情報更新、製品の使用中止・交換を再度呼びかけ]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20250205-3122253/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20250205-3122253/"/>
+        <updated>2025-02-04T23:57:09.000Z</updated>
+        <summary type="html"><![CDATA[D-Linkは1月31日(現地時間)、昨年公開したルータの脆弱性に関する情報を更新した。脆弱性情報データベース(CVE: Common Vulnerabilities and Exposures)に登録されたとして、当該製品の利用者に改めて速やかな対策の実施を促した。修正パッチ提供の見込みはなく、製品の使用中止・交換が推奨されている。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「SecurityScorecard」が自らを ASM と名乗らない理由：日本のサプライチェーンリスク可視化レポート公開中 ～ またはＦランセキュリティメディアが爆誕した日]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2025/02/05/52276.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2025/02/05/52276.html"/>
+        <updated>2025-02-04T23:15:03.000Z</updated>
+        <summary type="html"><![CDATA[いったいどういう理由で SecurityScorecard は「ワイは ASM や」と名乗りをあげないんですか、その方が絶対売れるでしょうに、と以前から疑問に思っていた質問を記者が投げかけると、藤本は SecurityScorecard と ASM の共通点と違いについて簡潔に説明してくれた。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[ProjectSend での任意のコード実行につながる認証処理における検証不備の脆弱性（Scan Tech Report）]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2025/02/05/52275.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2025/02/05/52275.html"/>
+        <updated>2025-02-04T23:10:03.000Z</updated>
+        <summary type="html"><![CDATA[2024 年 7 月に公開された ProjectSend の脆弱性の悪用を試みるエクスプロイトコードが公開されています。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Androidに緊急の脆弱性、悪用を確認 - アップデートを]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20250205-3122117/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20250205-3122117/"/>
+        <updated>2025-02-04T23:08:28.000Z</updated>
+        <summary type="html"><![CDATA[Googleは2月3日(米国時間)、Androidデバイスに影響する脆弱性の情報をまとめた2025年2月のセキュリティ情報を公開した。今回のアップデートには2025-02-01、2025-02-05の2つのセキュリティパッチレベルの情報が含まれており、合計46件の脆弱性の情報が公表された。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[暗号化された情報の一部 ダークサイト公開 ～ 日本海建設にランサムウェア攻撃]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2025/02/05/52274.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2025/02/05/52274.html"/>
+        <updated>2025-02-04T23:05:06.000Z</updated>
+        <summary type="html"><![CDATA[日本海建設電気株式会社は1月24日、同社サーバへの不正アクセスについて発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[スパムメール 479,716 件送信 ～ 東京都保健医療情報センター メールサーバ不正利用]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2025/02/05/52273.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2025/02/05/52273.html"/>
+        <updated>2025-02-04T23:05:02.000Z</updated>
+        <summary type="html"><![CDATA[東京都保健医療局は1月23日、東京都保健医療情報センター（ひまわり）のメールサーバの外部からの不正利用について発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GMOサイバーセキュリティ byイエラエと SB C&S が販売代理店契約、「GMOサイバー攻撃 ネットde診断 ASM」販売開始]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2025/02/05/52272.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2025/02/05/52272.html"/>
+        <updated>2025-02-04T23:00:10.000Z</updated>
+        <summary type="html"><![CDATA[GMOサイバーセキュリティ byイエラエ株式会社は1月29日、SB C&S株式会社と販売代理店契約を締結したと発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[IPA、ファイル共有ソフトによる漏えい事故減少を受け「情報漏えい対策ツール」の配布・サポートを 2025 年 9 月末日で終了]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2025/02/05/52271.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2025/02/05/52271.html"/>
+        <updated>2025-02-04T23:00:06.000Z</updated>
+        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）は1月21日、「情報漏えい対策ツール」のサービス終了について発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[脆弱性検証 ～ Apache Struts 2 に存在する任意のディレクトリへ任意のファイルアップロードが行われリモートコード実行が行われる可能性]]></title>
+        <id>https://scan.netsecurity.ne.jp/article/2025/02/05/52270.html</id>
+        <link href="https://scan.netsecurity.ne.jp/article/2025/02/05/52270.html"/>
+        <updated>2025-02-04T23:00:04.000Z</updated>
+        <summary type="html"><![CDATA[株式会社NTTデータ先端技術は1月21日、「Apache Struts 2に存在する任意のディレクトリへ任意のファイルアップロードが行われリモートコード実行が行われる可能性がある脆弱性（CVE-2024-53677）」についての検証記事を発表した。]]></summary>
+        <author>
+            <name>ScanNetSecurity</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[アダプターいらずでUSB Type-Cを有線LANに変換できるケーブル「500-LAN6KC」、サンワサプライが発売]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1660264.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1660264.html"/>
+        <updated>2025-02-04T22:50:00.000Z</updated>
+        <summary type="html"><![CDATA[サンワサプライ株式会社は2月4日、USB Type-C to LANケーブル「500-LAN6KC」を発売した。直販サイト「サンワダイレクト」での価格は、5mの「500-LAN6KC05」が3480円、3mの「500-LAN6KC03」が2980円。]]></summary>
+        <author>
+            <name>松永 侑貴惠</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[山口県、UJIターン希望者向けの就職説明会を大阪と東京で開催]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1660017.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1660017.html"/>
+        <updated>2025-02-04T22:30:00.000Z</updated>
+        <summary type="html"><![CDATA[山口県は、同県への移住を考えている人向けのイベント「おいでませ山口！UJIターン就職説明会」を、東京と大阪で開催する。日時および開催地は、東京会場が2月15日でAP東京八重洲（東京都中央区京橋1-10-7　KPP八重洲ビル7階）、大阪会場が2月9日でAP大阪駅前（大阪府大阪市北区梅田1-12-12　東京建物梅田ビルB2階）。]]></summary>
+        <author>
+            <name>松永 侑貴惠</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[急激に普及するAIから避けて通れなくなる時代に求められるCISOの在り方]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20250205-3122187/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20250205-3122187/"/>
+        <updated>2025-02-04T22:25:37.000Z</updated>
+        <summary type="html"><![CDATA[AIは、さまざまな意味でディスラプティブなテクノロジーです。バグクラウドが世界の209人のCISOとセキュリティ・リーダーを対象に実施とした調査レポートによると、セキュリティの専門家達の間で、AIが彼らの組織と彼らの役割にとって何を意味するのかについてコンセンサスを得るのが困難なようです。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Google Maps Platform、月200ドルの一律無償利用枠を廃止。3月1日より料金体系が大幅改定【地図と位置情報】]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/column/chizu3/1660301.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/column/chizu3/1660301.html"/>
+        <updated>2025-02-04T21:55:00.000Z</updated>
+        <summary type="html"><![CDATA[地図を使ったウェブサービスやスマートフォンアプリで見る機会の多いGoogle マップ（Google Maps）。サイト訪問者やアプリユーザーはあまり意識しないかもしれないが、実はこれらの地図はGoogleが必ずしも無料で提供しているわけではない。というのも、Google マップを使ったウェブサイトやアプリを提供するには、それらを開発するための地図配信サービス「Google Maps Platform（GMP）」の利用契約を、サービス／アプリの提供事業者がGoogleまたはGoogle Cloud パートナー（代理店）と結ぶ必要があるからだ。]]></summary>
+        <author>
+            <name>片岡 義明</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[豪州主導の「エッジデバイスのための緩和戦略」に日本も共同署名、企業向けに7つのリスク緩和策を提示]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1660250.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1660250.html"/>
+        <updated>2025-02-04T21:45:00.000Z</updated>
+        <summary type="html"><![CDATA[内閣サイバーセキュリティセンター（NISC）は2月4日、豪州サイバーセキュリティセンター（ACSC）が策定した文書「エッジデバイスのための緩和戦略」（Mitigation strategies for edge devices）に共同署名したことを発表した。]]></summary>
+        <author>
+            <name>松永 侑貴惠</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[英国主導のセキュリティ連合「ICCSW」に日本も加盟、サイバーセキュリティ人材育成を目的に]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/1660070.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/1660070.html"/>
+        <updated>2025-02-04T21:15:00.000Z</updated>
+        <summary type="html"><![CDATA[内閣サイバーセキュリティセンター（NISC）は1月31日、英国科学・イノベーション・技術省（DSIT）が策定した文書「サイバーセキュリティ人材に関する国際的な連合」（ICCSW：International Coalition on Cyber Security Workforces）に日本も参画したことを発表した。]]></summary>
+        <author>
+            <name>松永 侑貴惠</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows 10のサポート終了まであと8カ月、Win11に移行するなら「全部入りセキュリティ」のSecured-Core PCを！[Sponsored]]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/topic/special/1656429.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/topic/special/1656429.html"/>
+        <updated>2025-02-04T21:00:00.000Z</updated>
+        <summary type="html"><![CDATA[大規模なセキュリティ被害が社会問題として報道される機会が増えてきた中、「安全性の高いビジネスPC」へのニーズが高まっている。]]></summary>
+        <author>
+            <name>清水 理史</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Partners with ASD’s ACSC, CCCS, NCSC-UK, and Other International and US Organizations to Release Guidance on Edge Devices]]></title>
+        <id>/node/22941</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2025/02/04/cisa-partners-asds-acsc-cccs-ncsc-uk-and-other-international-and-us-organizations-release-guidance"/>
+        <updated>2025-02-04T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA—in partnership with international and U.S. organizations—released guidance to help organizations protect their network edge devices and appliances, such as firewalls, routers, virtual private networks (VPN) gateways, Internet of Things (IoT) devices, internet-facing servers, and internet-facing operational technology (OT) systems. The published guidance is as follows:
+“Security Considerations for Edge Devices,” led by the Canadian Centre for Cyber Security (CCCS), a part of the Communications Security Establishment Canada.
+“Digital Forensics Monitoring Specifications for Products of Network Devices and Applications,” led by the United Kingdom’s National Cyber Security Centre (NCSC-UK).
+“Mitigation Strategies for Edge Devices: Executive Guidance” and “Mitigation Strategies for Edge Devices: Practitioner Guidance,” two separate guides led by the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC).
+Foreign adversaries routinely exploit software vulnerabilities in network edge devices to infiltrate critical infrastructure networks and systems. The damage can be expensive, time-consuming, and reputationally catastrophic for public and private sector organizations. These guidance documents detail various considerations and strategies for a more secure and resilient network both before and after a compromise.
+CISA and partner agencies urge device manufacturers and critical infrastructure owners and operators to review and implement the recommended actions and mitigations in the publications. Device manufacturers, please visit CISA’s Secure by Design page for more information on how to align development processes with the goal of reducing the prevalence of vulnerabilities in devices. Critical infrastructure owners and operators, please see Secure by Demand: Priority Considerations for Operational Technology Owners and Operators when Selecting Digital Products for guidance on procuring secure products.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases Nine Industrial Control Systems Advisories]]></title>
+        <id>/node/22953</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2025/02/04/cisa-releases-nine-industrial-control-systems-advisories"/>
+        <updated>2025-02-04T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA released nine Industrial Control Systems (ICS) advisories on February 4, 2025. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
+ICSA-25-035-01 Western Telematic Inc NPS Series, DSM Series, CPM Series
+ICSA-25-035-02 Rockwell Automation 1756-L8zS3 and 1756-L3zS3
+ICSA-25-035-03 Elber Communications Equipment
+ICSA-25-035-04 Schneider Electric Modicon M580 PLCs, BMENOR2200H and EVLink Pro AC
+ICSA-25-035-05 Schneider Electric Web Designer for Modicon
+ICSA-25-035-06 Schneider Electric Modicon M340 and BMXNOE0100/0110, BMXNOR0200H
+ICSA-25-035-07 Schneider Electric Pro-face GP-Pro EX and Remote HMI
+ICSA-25-035-08 AutomationDirect C-more EA9 HMI
+ICSA-23-299-03 Ashlar-Vellum Cobalt, Graphite, Xenon, Argon, Lithium (Update A)
+CISA encourages users and administrators to review newly released ICS advisories for technical details and mitigations.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CISA Adds Four Known Exploited Vulnerabilities to Catalog]]></title>
+        <id>/node/22942</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2025/02/04/cisa-adds-four-known-exploited-vulnerabilities-catalog"/>
+        <updated>2025-02-04T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.
+CVE-2024-45195 Apache OFBiz Forced Browsing Vulnerability
+CVE-2024-29059 Microsoft .NET Framework Information Disclosure Vulnerability
+CVE-2018-9276 Paessler PRTG Network Monitor OS Command Injection Vulnerability
+CVE-2018-19410 Paessler PRTG Network Monitor Local File Inclusion Vulnerability
+These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.
+Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.
+Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[大学生向けのサイバーセキュリティ理解促進企画「Cybus（サイバス）」開始]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20250204-3122310/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20250204-3122310/"/>
+        <updated>2025-02-04T09:59:32.000Z</updated>
+        <summary type="html"><![CDATA[サイバーセキュリティクラウドは2月4日、大学生がサイバーセキュリティの重要性を楽しく学ぶことを目的としたキャリア発見プロジェクト「サイバス（Cyber × Campus）」を開始したことを発表した。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Web更新]ICANN通常理事会(2024年11月14日開催)決議概要]]></title>
+        <id>https://www.nic.ad.jp/ja/icann/topics/2025/20250204-01.html</id>
+        <link href="https://www.nic.ad.jp/ja/icann/topics/2025/20250204-01.html"/>
+        <updated>2025-02-04T09:34:52.000Z</updated>
+        <summary type="html"><![CDATA[2025年2月4日
+各位
+一般社団法人日本ネットワークインフォメーションセンター
+ICANN通常理事会（2024年11月14日開催）決議概要
+1. 新gTLDプログラムに関する決議
+2. gTLDレジストリステークホルダーグループ チャーターの改正承認
+3. セキュリティおよび安定性諮問委員会（SSAC）メンバーの任命
+4. Katrina Sataki氏への賛辞決議
+5. Harald Alvestrand氏への賛辞決議
+6. Edmon Chung氏への賛辞決議
+7. Danko Jevtović氏への賛辞決議
+8. ICANN81会議の地元政府および支援組織への賛辞決議
+9. ICANN81会議の協賛各社への賛辞決議
+10. ICANN81会議の通訳、スタッフ、イベントチーム、ホテルチームへの賛辞決議
+11. コミュニティメンバーへの賛辞決議
+アドレス支持組織（ASO）：5名
+国別コードドメイン名支持組織（ccNSO）：3名
+属性別ドメイン名支持組織（GNSO）：16名
+At-Large諮問委員会（ALAC）：6名
+政府諮問委員会（GAC）：1名
+ルートサーバシステム諮問委員会（RSSAC）：2名
+セキュリティ及び安定性諮問委員会（SSAC）：5名
+顧客常設委員会（CSC）：3名
+Empowered Community Administration（ECA）：1名
+ルートゾーン改善レビュー委員会（RZERC）：2名
+指名委員会（NomCom）：19名
+Approved Resolutions | Regular Meeting of the ICANN Board | 14 November 2024
+            
+以上]]></summary>
+        <author>
+            <name>JPNIC Web</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Microsoftが無料VPNを2月28日で終了と発表]]></title>
         <id>https://news.mynavi.jp/techplus/article/20250204-3122093/</id>
@@ -64,6 +663,16 @@
         <summary type="html"><![CDATA[内閣サイバーセキュリティセンターは、2024年12月～25年1月にかけてDDoS攻撃が相次いでいることを受け、各事業者に注意を呼びかけた。]]></summary>
         <author>
             <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Blog記事]KINDNS – DNS運用者への優しい手引]]></title>
+        <id>https://blog.nic.ad.jp/2025/10513/</id>
+        <link href="https://blog.nic.ad.jp/2025/10513/"/>
+        <updated>2025-02-04T04:00:04.000Z</updated>
+        <summary type="html"><![CDATA[今回はICANNがはじめた「KINDNS」という取り組みについて紹介します。これはDNS運用者に対して、そのさまざまな状況に応じたベストプラクティスを取りまとめているプロジェクトです。]]></summary>
+        <author>
+            <name>JPNIC Web</name>
         </author>
     </entry>
     <entry>
@@ -135,6 +744,68 @@
         <summary type="html"><![CDATA[中国の新興企業「DeepSeek」が開発した生成AIを巡り、各国・地域の政府機関や企業が職員らの利用制限に踏み切る動きが相次いでいる。中国政府に情報が流出するリスクや安全保障上の懸念が根強いためで、影響はさらに広がりそうだ。]]></summary>
         <author>
             <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[Web更新]ICANN組織人事理事会(2024年11月14日開催)決議概要]]></title>
+        <id>https://www.nic.ad.jp/ja/icann/topics/2025/20250204-02.html</id>
+        <link href="https://www.nic.ad.jp/ja/icann/topics/2025/20250204-02.html"/>
+        <updated>2025-02-04T00:46:12.000Z</updated>
+        <summary type="html"><![CDATA[2025年2月4日
+各位
+一般社団法人日本ネットワークインフォメーションセンター
+ICANN組織人事理事会（2024年11月14日開催）決議概要
+1. ICANN理事会 議長の選出
+2. ICANN理事会 副議長の選出
+3. ICANN理事会委員会の委員および議長の任命
+説明責任機構委員会（Accountability Mechanisms Committee）
+              
+                委員長： León Sánchez
+                
+監査委員会（Audit Committee）
+              
+                委員長： Catherine Adeya
+                
+報酬委員会（Compensation Committee）
+              
+                委員長： Tripti Sinha
+                
+執行委員会（Executive Committee）
+              
+                委員長： Tripti Sinha
+                
+財務委員会（Finance Committee）
+              
+                委員長： Sajid Rahman
+                
+ガバナンス委員会（Governance Committee）
+              
+                委員長： Becky Burr
+                
+組織効率化委員会（Organizational Effectiveness Committee）
+              
+                委員長： Alan Barrett
+                
+危機管理委員会（Risk Committee）
+              
+                委員長： Wes Hardaker
+                
+戦略計画委員会（Strategic Planning Committee）
+              
+                共同委員長： Maarten Botterman, Chris Chapman
+                
+技術委員会（Technical Committee）
+              
+                委員長： Christian Kaufmann
+                
+4. ICANN役員の承認および理事会指示の新事務総長兼CEOへの移管
+5. 完全子会社(Public Technical Identifiers (PTI))の総会
+6. PTI事務総長の選出
+Approved Resolutions | Organizational Meeting of the ICANN Board | 14 November 2024
+            
+以上]]></summary>
+        <author>
+            <name>JPNIC Web</name>
         </author>
     </entry>
     <entry>
@@ -995,6 +1666,15 @@ IPアドレスに関する申請について
         <summary type="html"><![CDATA[海外で話題の「ZimaBlade DeskBuild NAS Kit」を送料込み189ドルで購入した。Intel Celeron N3450を搭載したシングルボードコンピューター「ZimaBlade」を中心に、HDDラックやメモリ、各種ケーブル類をセットにした製品で、余ったHDDを利用して低価格かつ手軽にNASを自作できる。その実力を検証した。]]></summary>
         <author>
             <name>清水 理史</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[DX認定制度 認定事業者の公表（2025年2月1日認定適用）]]></title>
+        <id>https://disclosure.dx-portal.ipa.go.jp/</id>
+        <link href="https://disclosure.dx-portal.ipa.go.jp/"/>
+        <updated>2025-02-02T15:00:00.000Z</updated>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
         </author>
     </entry>
     <entry>
@@ -10161,535 +10841,6 @@ Azure Static Web Appsで始めるNext.js静的サイト開発 with DevContainer 
         <summary type="html"><![CDATA[今回も、WBA（Wireless Broadband Alliance）が公開した「Wi-Fi HaLow for IoT Field Trials Report」の内容を紹介する。前回は7つのフィールドテストのうち「3.Smart Farm」に加え、「4.Smart City」についてもちょっと触れた。今月はそのSmart Cityの続きからである。]]></summary>
         <author>
             <name>大原 雄介</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2025年1月7日～2月17日実施「国家資格「情報処理安全確保支援士」がわかる！説明会」の申込み受付を開始しました]]></title>
-        <id>https://www.ipa.go.jp/jinzai/riss/touroku/wakaru.html</id>
-        <link href="https://www.ipa.go.jp/jinzai/riss/touroku/wakaru.html"/>
-        <updated>2025-01-06T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「国家資格「情報処理安全確保支援士」がわかる！説明会」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[EDR／XDRの導入から運用までの課題をセキュリティ担当者はどう乗り越えたのか]]></title>
-        <id>https://eset-info.canon-its.jp/malware_info/special/detail/250107.html</id>
-        <link href="https://eset-info.canon-its.jp/malware_info/special/detail/250107.html"/>
-        <updated>2025-01-06T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[サイバー攻撃の高度化・多様化が進み、企業規模や業種を問わず被害が拡大する中、侵入後の対策としてEDR／XDRの導入が進んでいる。しかし、ツールの選定をはじめ、導入や運用にかかる工数の増大など乗り越えるべき課題は多く、セキュリティ担当者には大きな負担となっている。そこで、キヤノンマーケティングジャパンにおけるEDR／XDRの導入事例を通して、少ないリソースでこれらの課題をどう乗り越えたのかをキヤノンマーケティングジャパン株式会社の石川 堤一と井上 弘紀が解説する。
-
-
-
-
-
-サイバー脅威の動向
-
-昨今の市場動向から、サイバーリスクの深刻化が見受けられる。警察庁の広報資料「令和５年におけるサイバー空間をめぐる脅威の情勢等について」によると、ランサムウェアの被害件数は、令和5年上期から若干減少しているものの、引き続き高止まりしている状況にある。また、調査復旧にかかる費用については、半数以上のケースで500万円以上を要し、30%強で1,000万円以上にも上っており、損害が高額になっている傾向がわかる（図1）。
-
-
-
-図1：深刻化するサイバーリスク
-
-
-企業・団体の規模別からみたランサムウェア被害の報告件数に関しては、中小企業が半数以上を占めているのが現状であり、サプライチェーン攻撃の対象となっている可能性がある。大企業だけが狙われているわけではない点には注意したい。また、業種別に見ると、特定の業種への偏りがなく、業種横断的に被害が広がっているというトレンドが理解できる（図2）。
-
-
-
-図2：組織規模および業種別によるランサムウェア被害の報告件数
-
-
-ランサムウェア攻撃やサプライチェーン攻撃に代表されるような、日増しに高度化・巧妙化するサイバー攻撃に対する対策として注目されているのがEDR／XDR（Endpoint Detection and Response／ Extended Detection and Response）だ（図3）。侵入経路の拡大による監視対象の分散によって管理が煩雑になっている中、EDR／XDRのような「侵入されること」を想定した対策が求められている。しかし、その必要性が高まっている一方で、EDR／XDRの導入や運用に関して課題を抱えている企業も少なくない。そこで、EDR／XDRの導入事例を通して、そうした課題を乗り越える方法について解説する。
-
-
-
-図3：高まるEDR／XDRの必要性
-
-
-EDR／XDRの導入から運用まで
-
-企業のセキュリティ対策において、EDR／XDRソリューションは最も重要なセキュリティ対策の1つとなっている。導入を検討する企業は多いが、実際に検討を進めると、さまざまな課題に直面する。具体的には、ツールの適切な選定や投資に対する承認、そして、確実な導入、その後の運用による効果測定などが挙げられる。これらの課題とその対策について、導入のタイムラインに沿って解説する（図4）。
-
-
-
-図4：導入のタイムラインと課題
-
-
-キヤノンマーケティングジャパン（以下 キヤノンMJ）においてXDRを導入した背景として、境界型防御の限界があった。当時、キヤノンMJのネットワークは、データセンターをハブとした境界型の構成を取っていた。つまり、社内のネットワークと社外のインターネットを明確に分離し、境界の中である社内のネットワーク内は安全だという前提にデザインされている。しかし、昨今のテレワークの普及により、社外から社内にアクセスする機会が大幅に増加した。加えて、これまで基幹システムは社内ネットワーク内にあったが、クラウド技術の普及により、社内のネットワークから社外のクラウドサービスやSaaSなどにアクセスする機会も増えている。このような変化により、社内と社外の境界が曖昧になってきているという現状がある。そこで、社内システムであってもランサムウェアに侵入されるリスクが高まっていることも、XDRが必要とされる理由の1つと言える。また、社内のデータだけでなく、顧客の情報を守る体制も整えなければならなかった。特に、情報流出を防ぐため、XDRによりクラウドセキュリティ対策を強化する必要があった（図5）。
-
-
-
-図5：XDR導入の背景
-
-
-最終的に、複数のソリューションを比較検討した上で、XDRの運用サービスを行ってもらえるESET PROTECT MDRを導入した。では、どのような視点でソリューション選定を行ったのかについて触れたい（図6）。まず、ランサムウェアの検知性能が良くないと効果を得られないため、ランサムウェア対策の有効性に注目した。ESET製品は、Windows上のプロセスがほかのプロセスを呼び出した履歴などをすべてログとして残している。そのため、プロセスが呼び出して良かったかどうかを後で確認できるようになっており、こうした検知方法が効果的であると判断した。
-
-次に、少ないリソースでの導入・運用に焦点を当てた。高度なログ分析に際して、限られた情報システム部門のリソースで対応できるのか、実際に運用できるのかといった問題を抱えていた。せっかく優れた製品を導入しても、運用できなければ意味がないため、より少ないリソースで導入・運用できることが望ましい。
-
-そして、ログ分析の後で課題となるのが、脅威を発見した際のアラート対応だ。アラート疲れを起こさない検知精度の高さが重要となる。市場調査をした際に、XDRを既に導入している企業からの情報を収集すると、製品によってはXDRの導入後に想定以上のアラートが発生し、運用に困っているという意見が聞かれた。こうしたアラート疲れを起こさせない検知精度の高さも製品選定のポイントとなった。
-
-加えて、クラウドでの提供可否が挙げられる。オンプレミスで導入した場合、運用にかかるランニングコストが非常に大きくなるため、XDR製品のクラウド対応は必須条件とした。
-
-
-
-図6：XDRの選定ポイント
-
-
-経営層から投資承認を得るには、リスクを調査、数値化し、XDRソリューションの必要性の説明を求められた。数年前からランサムウェアによる被害が次々と報じられている点や、過去のランサムウェアの増加率、被害に遭った場合の復旧日数、あるいは、身代金を請求された際の被害額、システム停止した際のビジネスインパクトなどを数値化し、経営層へ説明した。また、この投資を実行する前に、数回にわたってセキュリティの現状を報告し、自社のシステムがどういう状況なのかという点について経営層の理解を促すことに注力した。
-
-投資承認を得る際に外部専門家に委託するか、内製化するかを検討する必要がある。自社でセキュリティの専門家を育成するには時間もコストも要する。せっかく育成しても、そのような専門技術者が転職する可能性もある。そこで、キヤノンMJでは社内の人材は本業へ集中できるよう、外部の専門家へ委託する方法を採用した。リスクを分散しながら、少ないリソースでXDRを導入できる点を経営層へ説明している（図7）。
-
-
-
-図7：社内承認のポイント
-
-
-また、導入に際しては、従業員の通常業務に影響がないよう、相当の準備期間を設けた。23,000台への導入に4カ月を要したが、準備期間では主に技術の検証などを行った。内容としては、コンピューターおよびネットワークにかかる負荷に関する検証が含まれる。また、運用設計に関するレビューも繰り返し実施した。準備期間の検証作業により、どういった問題が起きるか、問い合わせが発生するかを事前に把握することができた。後続フェーズにおいて、比較的スムーズに導入が実現できるという成果へとつながっている（図8）。
-
-
-
-図8：スムーズな導入のための工夫
-
-
-XDRの運用において、実際の検知や対応はESET社のMDR（Managed Detection and Response）サービスへアウトソースしている。社内の担当者と、ESET社の分析チームやサポートチームが連携し、XDRの対応を実施している（図9）。
-
-
-
-図9：XDRマネージドサービス運用体制
-
-
-運用開始後、これまで社内から苦情やトラブルといった報告は届いていない。事前検証を実施した結果もあり、コンピューターの動作が重くなるといった問題を防いでいる。XDRによる誤検知が発生した場合には、XDRの機能を使ってネットワークから遮断するという機能を利用しているが、そうしたケースは現在のところ発生していない。総じて安定して運用できており、コントロールされた状態にある。
-
-万が一、ランサムウェアを検知した場合、検出したコンピューターをネットワークから遮断する運用フローになっている。そのため、情報システム部門のメンバーが対応できない場合でも、ランサムウェアに感染したコンピューターがネットワーク上にあるという状態を防ぐことができる。情報システム部門のメンバーが判断する高いレベルの検知については、MDRサービスと連携して対応できるのが利点だ。ネットワークを遮断するという運用によって、全体として安定した運用が実現されたと考えている（図10）。
-
-
-
-図10：運用開始後の状態
-
-
-XDR導入の成果として、アラートの件数と、それに似た振る舞いをしたプロセスやコンピューターが把握できるようになったという点が挙げられる。今まで従業員のコンピューターはブラックボックスのような存在であり、利用しているアプリケーションは把握していても、どのようなプロセスで動いているのかまでは把握できていなかった。今回のXDRの導入によって、プロセスレベルでの把握ができるようになった。
-
-また、MDRサービスとの連携により、定期レポートが提供されるため、継続的なセキュリティレベルの引き上げが図られるようになったという副次的効果もある。今まで攻撃を受けているかどうかは把握しづらい状況にあったが、定期レポートにより、どのくらいの脅威が発生しているのかを把握できるようになった。
-
-そして、情報システム部門のメンバーが本来取り組むべき業務に集中できるようになったという点も非常に大きなポイントだ。ほかの企業の事例では、EDRを導入すると運用で疲弊してしまうというケースもあった。しかし、キヤノンMJでは運用をアウトソースしたため、セキュリティレベルの向上とともに、情報システム部門のメンバーが本業にも向き合えるようになった（図11）。
-
-
-
-図11：導入効果
-
-
-実際のXDRソリューションの選定段階から導入・運用を経て、導入効果の検証に至る各フェーズにおけるポイントをまとめた（図12）。
-
-
-
-図12：導入ポイントのまとめ
-
-
-監視サービス型XDRソリューション「ESET PROTECT MDR」の紹介
-
-今回、キヤノンMJで導入した監視サービス型XDRソリューションであるESET PROTECT MDRを紹介する。ESET PROTECT MDRはツールと監視運用サービスをワンストップで提供するソリューションであり、1つの統合管理システムの中で、エンドポイント保護の基本的なツールをはじめ、XDRツール、クラウドサンドボックス機能やフルディスク暗号化機能なども含め、一元管理できるようになっている。加えて、XDRの運用を担うMDRサービスと、これらのサポートが24時間365日体制で提供される（図13）。
-
-
-
-図13：ESET PROTECT MDRの概要図
-
-
-ESET PROTECT MDRを導入する利点として、多くの企業でEDR導入時に課題となっている初期設定、チューニングの作業を代行できる点が挙げられる。また、運用フェーズにおいては、継続的に脅威ハンティング、モニタリングを24時間365日体制で提供する。そして、定期的、継続的な改善に役立てられるよう、デプロイメントやアップグレード、端末追加の支援も受けられる。日本語ネイティブのエンジニアが24時間365日サポートを提供するのも魅力と言える（図14）。
-
-
-
-図14： ESET PROTECT MDRで提供されるセキュリティサービス
-
-
-ESET PROTECT MDRには大きく3つの特長がある（図15）。1つ目は、検出率が高く、誤検知率が低いという点が挙げられる。2つ目は、24時間365日体制で国内拠点から日本語対応のサポートを受けられる点だ。そして、3つ目は、インシデント発生時にAIの機能を活用した上で、セキュリティエンジニアがサポートするため、社内の負担を軽減しながら運用できる点である。以降では、それぞれの特長について詳細に説明する。
-
-
-
-図15：ESET PROTECT MDRの3つの特長
-
-
-高い検出率と低い誤検知率
-
-ESETのエンドポイント保護機能が持つ1つ目の特長として、検知率が高く、誤検知率が低い点が挙げられる（図16）。セキュリティツールにおいては、防御を高めるための検知率が高いということと、運用の妨げにならないよう、誤検知率が低いことも重要な要素となる。セキュリティソフトの有効性を検証する第三者機関であるAV-Comparativesの2023年8月～11月の調査によると、ESETのブロック率は98.0%、誤検知率は0.2%となっており、高い評価を得られている。他社サービスのテスト結果と比較すると、特に誤検知率の低さについて、ESETの優れた性能を確認できる。
-
-
-
-図16：第三者機関からの高い評価
-
-
-また、ESETはエンドポイント保護にパターンマッチングを採用しているという特長がある（図17）。他社サービスでは、機械学習を用いた検知による自動処理が行われ、それを通過したものに関しては、人による判断で対応がなされている場合もある。一方、ESETの場合は、機械学習による振る舞い検知に加え、パターンマッチングでのブロックが用いられており、DR（ディテクション&amp;レスポンス）の対象となるインシデントを少なくすることができる。そのため、重大度の高い事象に集中できるのが利点となる。
-
-
-
-図17： ESETのパターンマッチングを用いたブロック機能
-
-
-また、ESET PROTECT MDRでは、エンドポイント保護プログラムとXDRがワンストップで提供される（図18）。エンドポイント保護プログラムとXDRツールを、それぞれ異なるベンダーから導入した場合、相関分析や連携するために追加のシステム開発を要したり、複数の管理ツールが必要になったりするケースがある。ESETであれば、1つの管理ツールからエンドポイント保護プログラムもXDRも一元管理ができるため、運用負荷を軽減できる。
-
-
-
-図18：包括的な監視サービス
-
-
-24時間365日の監視、運用体制
-
-2つ目の特長として、そのサポート体制がある。キヤノンMJグループとESET社が連携し、国内拠点から日本語で24時間365日体制のサービスが提供できる（図19）。キヤノンMJは、日経コンピュータ 顧客満足度調査「セキュリティー対策部門」において、12年連続で1位の評価をいただいている。
-
-
-
-図19：日本語対応サポート
-
-
-インシデント発生時の対応
-
-3つ目の特長として、運用体制・方法について説明する（図20）。平時においては、セキュリティエンジニアが監視、脅威モニタリングを行い、定期的にレポートを提出する。ユーザー企業は、定期的に発行されるレポートを元に、状況の確認と今後の対策に活かすことも可能だ。
-
-比較的重大度が低いインシデントが発生したケースでは、セキュリティエンジニアが発生内容の確認と併せてメールによる報告と初動対応を行う。重大度が高い場合は、ユーザー企業の担当者へ電話や直接コミュニケーションが取れる手段で連絡をとり、状況を共有しながら初動対応を行う。作業内容については、後日レポートとして提供されるため、必要に応じてユーザー企業内での報告資料の作成や再発防止策の立案、あるいは社内の体制強化に活用できる。
-
-
-
-図20：状況に応じた運用レベル
-
-
-例えば、夜間に重大インシデントが発生した場合を想定して解説する（図21）。22時頃に端末でマルウェア感染が疑われる事象が起きた場合には、セキュリティエンジニアがXDRからの通知アラートを受信し、内容確認や重大度の把握を行う。そして、ユーザー企業に対し、状況の報告と初動対応の指示を行う。ネットワーク隔離が必要になるなど、ビジネスインパクトが大きいケースでは、担当者に確認の上で作業を進める。隔離対応後は復旧と報告を行い、最後にインシデントに関するレポートを提出した上で対応完了となる。夜間や休日でも、セキュリティエンジニアが24時間365日体制で対応するため、ユーザー企業の負担を大きく軽減できる。
-
-
-
-図21：重大インシデント発生時の対応フロー
-
-
-セキュリティエンジニアから、複数の定期レポートがそれぞれ異なるタイミングで提供される（図22）。ユーザー企業は、継続した対策の検討や担当者のスキル向上に活用できる。
-
-
-
-図22：定期提供されるレポートとタイミング
-
-
-先述してきたように、ESET PROTECT MDRは、継続的なセキュリティの改善・向上に貢献できる仕組みを備えている（図23）。
-
-
-
-図23：継続的改善に貢献するESET PROTECT MDR
-
-
-おわりに
-
-ESET PROTECT MDRの利点として、エンドポイント保護プログラムにおける予防、ならびに万が一の際の対応で脅威を排除できるという点が挙げられる。また、サポート面では、24時間365日体制で日本国内から日本語によるサポートが提供される点も評価されている。そして、エンドポイント保護プログラムとEDR／XDRのツール、加えて、十分なサポートがワンストップで提供されるのが特長と言える（図24）。
-
-
-
-図24：ESET PROTECT MDRのまとめ]]></summary>
-        <author>
-            <name>キヤノンマーケティングジャパン株式会社</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[メルマガ]vol.2130:【トピックス号】先週・先々週のトピックスとWeb更新情報]]></title>
-        <id>https://www.nic.ad.jp/ja/mailmagazine/backnumber/2025/vol2130.html</id>
-        <link href="https://www.nic.ad.jp/ja/mailmagazine/backnumber/2025/vol2130.html"/>
-        <updated>2025-01-06T10:52:00.000Z</updated>
-        <summary type="html"><![CDATA[https://blog.nic.ad.jp/2024/10443/
-
-
-┏◆ 先々週・先週のトピックスとお知らせ 計2件
-┗━━━━━━━━━━━━━━━━━━━━━━
-
-・JPNICトークラウンジ第18回＜Jia-Rong Lowさん＞配信開始 および
-  第19回＜宮坂拓也さん＞ライブ配信のご案内(2024/12/24)
-  https://www.nic.ad.jp/ja/topics/2024/20241224-02.html
-
-・IGF 2023に向けた国内IGF活動活発化チーム第58回会合開催のご案内
-  (2024/12/24)
-  https://www.nic.ad.jp/ja/topics/2024/20241224-01.html
-
-
-┏◆ 先々週・先週のWeb更新情報 計1件
-┗━━━━━━━━━━━━━━━━━━━━━━
-
-・IPv4アドレス移転履歴を更新(2024/12/25)
-  2024年12月25日現在のデータを追加
-  https://www.nic.ad.jp/ja/ip/transfer/ipv4-log.html
-
-
-┏◆ 先々週・先週の動画コンテンツ 計1件
-┗━━━━━━━━━━━━━━━━━━━━━━
-
-・JPNICトークラウンジ第18回「APNIC新事務局長 Jia-Rong LowさんにAPNICの
-  未来に対する意気込みを聞く」(2024/12/24)
-  https://youtu.be/gNEQ7OgiTmo
-
-
-┏◆ イベント等のお知らせ 計4件
-┗━━━━━━━━━━━━━━━━━━━━━━
-
-  ◇ IGF 2023に向けた国内IGF活動活発化チーム第58回会合 ◇
-
-     本日1月6日(月)17時よりオンラインで開催します。本チーム会合は、
-     京都で開催されたIGF 2023に向けてNatio…]]></summary>
-        <author>
-            <name>JPNIC Web</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「ビッグローブ光 10ギガ」月額料金が6カ月間ゼロ円になる特典を提供開始]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1652242.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1652242.html"/>
-        <updated>2025-01-06T08:00:00.000Z</updated>
-        <summary type="html"><![CDATA[ビッグローブ株式会社は1月6日、最大通信速度10Gbpsの光回線によるインターネット接続サービス「ビッグローブ光 10ギガ」の月額料金が6カ月間0円に、また「ビッグローブ光 1ギガ」の月額料金が3カ月間0円になる特典を提供開始した。]]></summary>
-        <author>
-            <name>大東 奈央</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ankerのドッキングステーション／USBハブがお買い得！　AmazonスマイルSALE初売り]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/shopping/1652248.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/shopping/1652248.html"/>
-        <updated>2025-01-06T07:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazon.co.jpでは、1月7日まで「AmazonスマイルSALE初売り」を開催中。その一環として、AnkerのドッキングステーションやUSBハブもセールになっている。]]></summary>
-        <author>
-            <name>編集部</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【合格体験記】Azure Cosmos DB Developer Specialty【DP-420】]]></title>
-        <id>https://tech-lab.sios.jp/?p=45363</id>
-        <link href="https://tech-lab.sios.jp/archives/45363"/>
-        <updated>2025-01-06T06:30:19.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは、サイオステクノロジーの佐藤 陽です。 先日、MSの資格である Azure Cosmos DB Developer Specialty に認定されました！ 久々にMSの試験を受けて合格したので、また合格体験記の ...
-【合格体験記】Azure Cosmos DB Developer Specialty【DP-420】 first appeared on SIOS Tech. Lab.]]></summary>
-        <author>
-            <name>佐藤 陽</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chromeで拡張機能使っているなら要確認、260万人に認証情報窃取のリスク]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20250106-3101219/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20250106-3101219/"/>
-        <updated>2025-01-06T05:56:30.000Z</updated>
-        <summary type="html"><![CDATA[Recorded Futureは1月3日(米国時間)、Google Chromeのブラウザ拡張機能から悪意のあるコードが発見されたと報じた。36の拡張機能から情報を窃取するコードが発見されたが、これら拡張機能を使用したユーザーは認証情報、アクセストークン、Cookieなどを窃取された可能性がある。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GMKtec、Intel N150搭載のミニPC「GMKtec G2 Plus」発売。1月7日まで25％OFFセール中]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/shopping/1652160.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/shopping/1652160.html"/>
-        <updated>2025-01-06T04:45:00.000Z</updated>
-        <summary type="html"><![CDATA[GMKtecは1月3日、ミニPC「NucBox G2 Plus」の販売を開始した。Amazon.co.jpのGMKtecストアページでは、1月7日まで実施される「スマイルSALE初売り」の対象商品となっており、通常の販売価格2万9900円から25％OFFの2万2421円で購入できる。]]></summary>
-        <author>
-            <name>大東 奈央</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JPCERT/CCが明かしたシビアなサイバー防衛演習の考察とは]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20250106-3094963/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20250106-3094963/"/>
-        <updated>2025-01-06T03:42:45.000Z</updated>
-        <summary type="html"><![CDATA[JPCERTコーディネーションセンター(JPCERT/CC)はこのほど、国際的なサイバー防衛演習「Locked Shields 2024」の参加から見えたリアルタイムインシデント対応の重要性を伝えた。Locked Shields 2024では後者に当たるリアルタイムインシデント対応が求められるとして、そこから得られた知見を紹介している。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[マカフィー、かつて使用していたJPドメイン名がドロップキャッチされ、アダルトブログへと変貌【やじうまWatch】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1652069.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1652069.html"/>
-        <updated>2025-01-06T03:15:00.000Z</updated>
-        <summary type="html"><![CDATA[マカフィーがかつて公式サイトの1つとして使用していたJPドメイン名がドロップキャッチされ、同社が2018年ごろまでセキュリティ情報を発信するブログに使用していた「blogs.mcafee.jp」がアダルトブログに変貌していたことが明らかになった。]]></summary>
-        <author>
-            <name>tks24</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「WD Red Plus」などWestern DigitalのHDDが安い！　AmazonスマイルSALE初売り　4TBモデル「WD40EFPX-AJP」は1万8470円]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/shopping/1652027.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/shopping/1652027.html"/>
-        <updated>2025-01-06T03:15:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazon.co.jpでは、1月7日までの期間限定で「スマイルSALE初売り」を開催している。その一環として、Western Digitalストアページでは同社のストレージ関連製品がタイムセール中となっている。]]></summary>
-        <author>
-            <name>アイティースリー</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[SeagateのNAS用HDDやPC用HDDが安い！　AmazonスマイルSALE初売り　容量8TBのPC用HDD「BarraCuda ST8000DM004」は1万7980円]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/shopping/1652023.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/shopping/1652023.html"/>
-        <updated>2025-01-06T03:15:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazon.co.jpでは、1月7日までの期間限定で「スマイルSALE初売り」を開催している。その一環として、Seagateストアページでは、同社のストレージ関連製品がタイムセール中となっている。]]></summary>
-        <author>
-            <name>アイティースリー</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[米国人ユーザーの81％が初期のインターネットにノスタルジー。戻れたら使いたいのは「MySpace」【やじうまWatch】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1652068.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1652068.html"/>
-        <updated>2025-01-06T03:10:00.000Z</updated>
-        <summary type="html"><![CDATA[米国人を対象とした調査で、初期のインターネットにノスタルジーを感じているユーザーが81％に上ることが明らかになった。]]></summary>
-        <author>
-            <name>tks24</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[QNAPのNASキットに、Amazonでプライム会員限定のクーポン配布中！　スリムデザインの2ベイ「TS-233/AZ」は3210円OFF]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/shopping/1652034.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/shopping/1652034.html"/>
-        <updated>2025-01-06T02:51:18.000Z</updated>
-        <summary type="html"><![CDATA[Amazon.co.jpでは、QNAPブランドのNASキットがお得に買えるクーポンがプライム会員限定で配布中だ。いずれも有効期限は1月7日。]]></summary>
-        <author>
-            <name>アイティースリー</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[金融機関かたり電話でアドレス聞き出し偽メール　巧妙な手口「ボイスフィッシング」]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2501/06/news086.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2501/06/news086.html"/>
-        <updated>2025-01-06T02:12:00.000Z</updated>
-        <summary type="html"><![CDATA[銀行を名乗って企業に電話をかけ、手続き名目でメールアドレスを聞き出した上で偽メールを送ってIDやパスワードを盗み取る「ボイスフィッシング」という新たな手口が確認されていることが、警察庁への取材で分かった。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[APRESIA Systems、10GbEと60W出力に対応したPoEインジェクター「ApresiaLightIJ-10GPoE-60」発売]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1652029.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1652029.html"/>
-        <updated>2025-01-06T01:30:00.000Z</updated>
-        <summary type="html"><![CDATA[APRESIA Systems株式会社は、最大60Wの給電が可能なPoEインジェクター「ApresiaLightIJ-10GPoE-60」の販売を開始した。市場想定価格は3万8000円（税別）。]]></summary>
-        <author>
-            <name>山田 貞幸</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 10のシェアが拡大、Microsoftの戦略に影響の可能性]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20250106-3100766/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20250106-3100766/"/>
-        <updated>2025-01-06T01:07:05.000Z</updated>
-        <summary type="html"><![CDATA[The Registerは1月2日(現地時間)、昨年12月にWindows 10のシェアがさらに拡大したと伝えた。シェア拡大の理由はわかっておらず、今後も増加の一途をたどるのかは定かではない。しかしながら、この傾向はMicrosoftの期待するところではなく、今後も増加するようであれば何かしらの対策が必要になるとみられている。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 11バージョン24H2、キヤノンの複合機が正常に動作しない不具合]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20250106-3100767/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20250106-3100767/"/>
-        <updated>2025-01-06T00:24:37.000Z</updated>
-        <summary type="html"><![CDATA[The Registerは1月2日(現地時間)、Windows 11バージョン24H2にキヤノンの複合機が正常に動作しない不具合があると伝えた。原因は明らかになっていないが、キヤノンのスキャナードライバー「ScanGear MF」を使用するデバイスに影響があるとされる。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「Microsoft 365」「Microsoft Office」がAmazonの初売りでセール中！　「Microsoft 365 Personal」1年版は1万2069円]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/shopping/1652002.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/shopping/1652002.html"/>
-        <updated>2025-01-06T00:20:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazon.co.jpでは、1月7日までの期間限定で「スマイルSALE初売り」を開催している。その一環として、Microsoft 365・Officeがセール価格となっている。]]></summary>
-        <author>
-            <name>アイティースリー</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[JPRSの掲載記事を追加しました]]></title>
-        <id>https://jprs.jp/whatsnew/</id>
-        <link href="https://jprs.jp/whatsnew/"/>
-        <updated>2025-01-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[JPドメイン名の登録管理業務とDNSの運用を行っている株式会社日本レジストリサービス(JPRS)による、JPドメイン名サービス総合案内サイトです。]]></summary>
-        <author>
-            <name>JPRS最新情報</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[1/22 と 1/23「今後のセキュリティ対策の要 SASE の必要性を 20 分で徹底解説」セコムトラストシステムズ開催]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2025/01/06/52118.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2025/01/06/52118.html"/>
-        <updated>2025-01-05T23:10:03.000Z</updated>
-        <summary type="html"><![CDATA[セコムトラストシステムズ株式会社は2025年1月22日、23日に、無料Webセミナー「今後のセキュリティ対策の要？！SASEの必要性を20分で徹底解説！～セコムクラウドセキュリティゲートウェイをご紹介～」を開催すると発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[チケジャムを装ったフィッシング詐欺に注意を呼びかけ]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2025/01/06/52117.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2025/01/06/52117.html"/>
-        <updated>2025-01-05T23:05:14.000Z</updated>
-        <summary type="html"><![CDATA[エンターテイメント株式会社は12月19日、チケジャムを装ったフィッシング詐欺への注意喚起を発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[静岡制御にランサムウェア攻撃]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2025/01/06/52116.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2025/01/06/52116.html"/>
-        <updated>2025-01-05T23:05:12.000Z</updated>
-        <summary type="html"><![CDATA[株式会社静岡制御は12月18日、同社サーバへのランサムウェア攻撃について発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[東亜大学のデータサーバに不正アクセス、約 8,000 名分の学生等の個人情報が漏えいした可能性]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2025/01/06/52115.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2025/01/06/52115.html"/>
-        <updated>2025-01-05T23:05:08.000Z</updated>
-        <summary type="html"><![CDATA[東亜大学は12月18日、同学データサーバへの不正アクセスによる個人情報流出の可能性について発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[原田産業のメールサーバに不正アクセス、個人情報が流出した可能性]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2025/01/06/52114.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2025/01/06/52114.html"/>
-        <updated>2025-01-05T23:05:06.000Z</updated>
-        <summary type="html"><![CDATA[総合貿易商社の原田産業株式会社は12月18日、不正アクセスによる個人情報流出の可能性について発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[住宅設備機器専門卸商社のソーゴーにサイバー攻撃、ダークサイト調査を継続実施]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2025/01/06/52113.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2025/01/06/52113.html"/>
-        <updated>2025-01-05T23:05:02.000Z</updated>
-        <summary type="html"><![CDATA[住宅設備機器専門卸商社の株式会社ソーゴーは2024年12月18日、2024年11月22日に公表した同社ファイルサーバへの不正アクセスについて、続報を発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Adobe ColdFusion にパストラバーサルの脆弱性]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2025/01/06/52112.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2025/01/06/52112.html"/>
-        <updated>2025-01-05T23:00:07.000Z</updated>
-        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）は12月24日、Adobe ColdFusionの脆弱性（CVE-2024-53961）について発表した。影響を受けるシステムは以下の通り。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Gartner、アクセス管理の Magic Quadrant リーダーに Okta を認定]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2025/01/06/52111.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2025/01/06/52111.html"/>
-        <updated>2025-01-05T23:00:03.000Z</updated>
-        <summary type="html"><![CDATA[Oktaは12月、ガートナー（Gartner）が2024年12月の「アクセス管理マジック・クアドラント（Magic Quadrant）」に Okta をリーダーとして認定したと発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[人気1位は意外な記事！　筆者が書いた2024年のネットワーク関連記事振り返りと、2025年の展望【イニシャルB】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/column/shimizu/1650591.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/column/shimizu/1650591.html"/>
-        <updated>2025-01-05T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[2024年に筆者が本連載「イニシャルB」などで執筆したINTERNET Watchのネットワーク関連記事の、ページビュー数を集計してみた。トップになった記事は個人的にとても意外だったが、昨今の状況も考えると、ネットワーク関連のセキュリティに注目が集まっていることの現れと言えそうだ。]]></summary>
-        <author>
-            <name>清水 理史</name>
         </author>
     </entry>
     <entry>
