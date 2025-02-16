@@ -1087,16 +1087,6 @@
           "wordCount": 964,
           "title": "2024 年 DDoS 攻撃とトレンドに関するまとめ",
           "imageUrl": "https://storage.googleapis.com/gblogs-bucket/sites/2/RcMFIQbL-1-460x230.jpg"
-        },
-        {
-          "id": "https://gblogs.cisco.com/jp/?p=52960",
-          "author": "TALOS Japan",
-          "description": "2025 年最初の脅威情報ニュースレターをお届けします。リンツのチョコレートを食べ過ぎてしまった休暇が終わり、今週から仕事が始まりました。\nThe post いつまでも同じやり方を続ける必要があるのか？ appeared first on Cisco Japan Blog.",
-          "link": "https://gblogs.cisco.com/jp/2025/01/talos-do-we-still-have-to-keep-doing-it-like-this/",
-          "publishedOn": "2025-01-17T03:22:29.000Z",
-          "wordCount": 648,
-          "title": "いつまでも同じやり方を続ける必要があるのか？",
-          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/03AR02177_eyecatch-460x230.jpg"
         }
       ]
     },
@@ -1809,17 +1799,6 @@
           "title": "[トピックス]第36回JPNIC評議委員会傍聴のお知らせ",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "https://blog.nic.ad.jp/2025/10391/",
-          "author": null,
-          "description": "2024年11月のJPNIC Blogアクセス数Top 10は、定番のWHOISに加えてIW2024を紹介した記事が4本Top 10入りしました。圏外にもIW2024関連の記事が並び、高い関心をうかがわせます。",
-          "link": "https://blog.nic.ad.jp/2025/10391/",
-          "publishedOn": "2025-01-17T04:00:17.000Z",
-          "wordCount": null,
-          "title": "[Blog記事]2024年11月のJPNIC Blogアクセス数Top 10",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -2180,16 +2159,6 @@
           "wordCount": 534,
           "title": "CISA Releases Three Industrial Control Systems Advisories",
           "imageUrl": null
-        },
-        {
-          "id": "/node/22887",
-          "author": "CISA",
-          "description": "In partnership with the Federal Bureau of Investigation (FBI), CISA released an update to joint guidance Product Security Bad Practices in furtherance of CISA’s Secure by Design initiative. This updated guidance incorporates public comments CISA received in response to a Request for Information, adding additional bad practices, context regarding memory-safe languages, clarifying timelines for patching Known Exploited Vulnerabilities (KEVs), and other recommendations.\nWhile this voluntary guidance is intended for software manufacturers who develop software products and services in support of critical infrastructure, all software manufacturers are strongly encouraged to avoid these product security bad practices.\nCISA and FBI urge software manufacturers to reduce customer risk by prioritizing security throughout the product development process. For more information and resources, visit CISA’s Secure by Design webpage or learn how to take CISA’s Secure by Design Pledge.",
-          "link": "https://www.cisa.gov/news-events/alerts/2025/01/17/cisa-and-fbi-release-updated-guidance-product-security-bad-practices",
-          "publishedOn": "2025-01-17T12:00:00.000Z",
-          "wordCount": 712,
-          "title": "CISA and FBI Release Updated Guidance on Product Security Bad Practices",
-          "imageUrl": null
         }
       ]
     },
@@ -2333,6 +2302,16 @@
           "publishedOn": "2025-02-13T07:30:00.000Z",
           "wordCount": 110,
           "title": "OpenSSLにおける、RFC7250ハンドシェイクによる認証の失敗を検知できない問題（OpenSSL Security Advisory [11th February 2025]）",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/vu/JVNVU95103362/",
+          "author": "jvn@jvn.jp",
+          "description": "三菱電機製FAエンジニアリングソフトウェア製品には、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU95103362/",
+          "publishedOn": "2025-02-13T03:15:00.000Z",
+          "wordCount": 124,
+          "title": "三菱電機製FAエンジニアリングソフトウェア製品における複数の脆弱性",
           "imageUrl": null
         },
         {
@@ -2733,66 +2712,6 @@
           "publishedOn": "2025-01-21T03:00:00.000Z",
           "wordCount": 118,
           "title": "FortiWebにおけるSQLインジェクションの脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU93677522/",
-          "author": "jvn@jvn.jp",
-          "description": "Delta Electronicsが提供するDRASimuCADには、複数の脆弱性が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU93677522/",
-          "publishedOn": "2025-01-17T07:30:45.000Z",
-          "wordCount": 72,
-          "title": "Delta Electronics製DRASimuCADにおける複数の脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU92946981/",
-          "author": "jvn@jvn.jp",
-          "description": "Fuji Electric Co., Ltd.が提供するAlpha5 SMARTには、スタックベースのバッファオーバーフローの脆弱性が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU92946981/",
-          "publishedOn": "2025-01-17T07:30:30.000Z",
-          "wordCount": 78,
-          "title": "Fuji Electric製Alpha5 SMARTにおけるスタックベースのバッファオーバーフローの脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU94843903/",
-          "author": "jvn@jvn.jp",
-          "description": "Hitachi Energyが提供する複数の製品には、複数の脆弱性が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU94843903/",
-          "publishedOn": "2025-01-17T07:30:15.000Z",
-          "wordCount": 120,
-          "title": "複数のHitachi Energy製品における複数の脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU98131342/",
-          "author": "jvn@jvn.jp",
-          "description": "Schneider Electricが提供するData Center Expertには、複数の脆弱性が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU98131342/",
-          "publishedOn": "2025-01-17T07:30:00.000Z",
-          "wordCount": 80,
-          "title": "Schneider Electric製Data Center Expertにおける複数の脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU95751016/",
-          "author": "jvn@jvn.jp",
-          "description": "Johnson Controlsが提供する複数の製品には、複数の脆弱性が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU95751016/",
-          "publishedOn": "2025-01-17T04:30:00.000Z",
-          "wordCount": 128,
-          "title": "複数のJohnson Controls製品における複数の脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU96518917/",
-          "author": "jvn@jvn.jp",
-          "description": "Howyar Technologies Inc.が提供するUEFIアプリケーション「Reloader」には、署名されていないソフトウェアを実行する脆弱性が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU96518917/",
-          "publishedOn": "2025-01-17T02:30:00.000Z",
-          "wordCount": 96,
-          "title": "Howyar製UEFIアプリケーション「Reloader」における署名されていないソフトウェアを実行する脆弱性",
           "imageUrl": null
         }
       ]
@@ -4381,86 +4300,6 @@
           "wordCount": 737,
           "title": "ガートナー「2025年 セキュリティとプライバシーに関する 12 の重要論点」",
           "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2025/01/17/52178.html",
-          "author": null,
-          "description": "株式会社エーアイセキュリティラボは1月6日、1月31日に開催されるJBpress・Japan Innovation Review主催「第9回サイバーセキュリティフォーラム（再編集版）」で講演を行うと発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2025/01/17/52178.html",
-          "publishedOn": "2025-01-16T23:15:03.000Z",
-          "wordCount": 735,
-          "title": "2025新春「診斷內製化ノスゝメ」～ 脆弱性診断内製化をチームで実現した事例を紹介 エーアイセキュリティラボ 登壇 1 / 31",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47272.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2025/01/17/52177.html",
-          "author": null,
-          "description": "「ランサムウェアの波及効果は想像より大きいものだった。まず救急外来が大きな影響を受けた。救急患者が運ばれてきたとき、それまでの病状、処置、投薬などの情報が受け継がれない。しかもどこかの病院がランサムウェア攻撃を受けると、ほかの病院の救急外来が混雑することも確認された。サンディエゴ病院では 20 ％ も救急対応が増加した」",
-          "link": "https://scan.netsecurity.ne.jp/article/2025/01/17/52177.html",
-          "publishedOn": "2025-01-16T23:10:03.000Z",
-          "wordCount": 776,
-          "title": "攻撃対象者による研究「病院へのランサムウェア攻撃が地域医療に与える影響」",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/44156.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2025/01/17/52176.html",
-          "author": null,
-          "description": "中沢乳業株式会社は1月6日、同社へのランサムウェア攻撃について発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2025/01/17/52176.html",
-          "publishedOn": "2025-01-16T23:05:07.000Z",
-          "wordCount": 703,
-          "title": "中沢乳業にランサムウェア攻撃",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47260.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2025/01/17/52175.html",
-          "author": null,
-          "description": "リージュ株式会社は1月5日、Xでの不適切な投稿について発表した。画像ファイルで発表している。",
-          "link": "https://scan.netsecurity.ne.jp/article/2025/01/17/52175.html",
-          "publishedOn": "2025-01-16T23:05:02.000Z",
-          "wordCount": 719,
-          "title": "責任取り廃業 ～ 代表取締役の X 不適切投稿",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47244.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2025/01/17/52174.html",
-          "author": null,
-          "description": "独立行政法人 情報処理推進機構（IPA）は1月15日、「Microsoft 製品の脆弱性対策について(2025年1月)」を発表した。一般社団法人 JPCERT コーディネーションセンター（JPCERT/CC）も「2025年1月マイクロソフトセキュリティ更新プログラムに関する注意喚起」を発表している。",
-          "link": "https://scan.netsecurity.ne.jp/article/2025/01/17/52174.html",
-          "publishedOn": "2025-01-16T23:00:18.000Z",
-          "wordCount": 784,
-          "title": "マイクロソフトが 1 月のセキュリティ情報公開、悪用の事実を確認済みの脆弱性が 3 件",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2025/01/17/52173.html",
-          "author": null,
-          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は1月15日、Fortinet製FortiOSおよびFortiProxyにおける認証回避の脆弱性について発表した。影響を受けるシステムは以下の通り。",
-          "link": "https://scan.netsecurity.ne.jp/article/2025/01/17/52173.html",
-          "publishedOn": "2025-01-16T23:00:13.000Z",
-          "wordCount": 748,
-          "title": "Fortinet 製 FortiOS およびFortiProxy に認証回避の脆弱性、悪用した攻撃も確認",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2025/01/17/52172.html",
-          "author": null,
-          "description": "株式会社リコーは1月14日、「RICOH Firmware Update Tool」を使用して、同一機種を複数台同時にファームウェア更新した際の不具合について発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2025/01/17/52172.html",
-          "publishedOn": "2025-01-16T23:00:09.000Z",
-          "wordCount": 723,
-          "title": "「RICOH Firmware Update Tool」に不具合、最新版を使用するよう呼びかけ",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2025/01/17/52171.html",
-          "author": null,
-          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は1月14日、ワイズ製STEALTHONE D220/D340/D440における複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2025/01/17/52171.html",
-          "publishedOn": "2025-01-16T23:00:04.000Z",
-          "wordCount": 755,
-          "title": "ワイズ製 STEALTHONE D220/D340/D440 に複数の脆弱性",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
         }
       ]
     },
@@ -4628,36 +4467,6 @@
           "wordCount": 2749,
           "title": "ランサム攻撃でマイナンバーや健診結果など暗号化被害　住宅設備商社のソーゴー",
           "imageUrl": "https://image.itmedia.co.jp/news/articles/2501/20/cover_news122.jpg"
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2501/17/news161.html",
-          "author": null,
-          "description": "セゾンカードは、情報漏えいを含む不正利用が懸念される顧客に対して、「ご利用内容確認のお願い」の動画を送ると発表した。",
-          "link": "https://www.itmedia.co.jp/news/articles/2501/17/news161.html",
-          "publishedOn": "2025-01-17T07:52:00.000Z",
-          "wordCount": 2748,
-          "title": "セゾンカード、不正懸念の顧客に「ご利用内容確認のお願い」動画送信へ",
-          "imageUrl": "https://image.itmedia.co.jp/news/articles/2501/17/cover_news161.jpg"
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2501/17/news112.html",
-          "author": null,
-          "description": "サイバー攻撃に先手を打って被害を未然に防ぐ「能動的サイバー防御」の導入に向けた法案の概要が判明した。",
-          "link": "https://www.itmedia.co.jp/news/articles/2501/17/news112.html",
-          "publishedOn": "2025-01-17T01:43:00.000Z",
-          "wordCount": 2485,
-          "title": "サイバー防御法案の概要判明　攻撃無害化、独立機関が事前承認　24日招集の国会に提出へ",
-          "imageUrl": "https://image.itmedia.co.jp/images/logo/1200x630_500x500_news.gif"
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2501/17/news110.html",
-          "author": null,
-          "description": "NTTコミュニケーションズは1月15日、量子コンピュータでも解読できない暗号技術を開発したと発表した。量子コンピュータが不得意な計算方法を使った暗号を複数組み合わせて情報漏えいを防ぐ。",
-          "link": "https://www.itmedia.co.jp/news/articles/2501/17/news110.html",
-          "publishedOn": "2025-01-17T01:37:00.000Z",
-          "wordCount": 2485,
-          "title": "NTTコムが次世代暗号技術　量子コンピュータに対抗",
-          "imageUrl": "https://image.itmedia.co.jp/news/articles/2501/17/cover_news110.jpg"
         }
       ]
     },
@@ -6785,126 +6594,6 @@
           "wordCount": 5419,
           "title": "「1万円のWi-Fi 7ルーター」は“買い”か！？　TP-Link、エレコム、アイ・オーの3製品をチェック【イニシャルB】",
           "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1654/483/001.JPG"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/weekly/1655149.html",
-          "author": "中島 由弘",
-          "description": "「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/weekly/1655149.html",
-          "publishedOn": "2025-01-17T10:00:00.000Z",
-          "wordCount": 5234,
-          "title": "見出しでわかる IT界隈・今週の重要ニュース：全76本［2025/1/9～1/15］",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1655/149/shutterstock_1391033204_main.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1655190.html",
-          "author": "木下 明音",
-          "description": "株式会社バッファローは、本体両端にUSB Type-C×1、USB Type-A×1のコネクタを備えたカードリーダー「BSCR130U3CBK」を発売する。2月上旬の出荷予定で、市場想定価格は2780円。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1655190.html",
-          "publishedOn": "2025-01-17T04:10:00.000Z",
-          "wordCount": 5162,
-          "title": "バッファロー、iPhoneにも対応するUSB Type-C/A両対応の直挿し型カードリーダー「BSCR130U3CBK」発売",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1655/190/main.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/column/hobbytime/1647222.html",
-          "author": "瀬戸 学",
-          "description": "テレワークで空いた時間を使ってロードスターの復活計画を進めている途中だが、実は空いた時間で他のことを始めなければならなくなった。",
-          "link": "https://internet.watch.impress.co.jp/docs/column/hobbytime/1647222.html",
-          "publishedOn": "2025-01-17T03:12:00.000Z",
-          "wordCount": 5202,
-          "title": "【おっさんのダイエット計画その1】健康診断で「糖尿病」だと!? 今すぐ痩せないとダメジャマイカっっ【空いた時間でなにしてる？】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1647/222/005.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/column/netliteracy/1654861.html",
-          "author": "DLIS・柳谷 智宣",
-          "description": "1月7日に中国・チベット自治区で発生した地震で大きな被害が発生しました。そんな中、AIで作成したフェイク動画が問題になっています。",
-          "link": "https://internet.watch.impress.co.jp/docs/column/netliteracy/1654861.html",
-          "publishedOn": "2025-01-17T02:50:00.000Z",
-          "wordCount": 5159,
-          "title": "釣られる人続出！ SNSにあふれかえるフェイク画像・動画に踊らされないように要注意【読めば身に付くネットリテラシー】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1654/861/01.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1655177.html",
-          "author": "tks24",
-          "description": "Blueskyユーザー向けの写真共有アプリがまもなく登場する。",
-          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1655177.html",
-          "publishedOn": "2025-01-17T02:45:00.000Z",
-          "wordCount": 4720,
-          "title": "Bluesky版Instagram？ Blueskyと同じプロトコル採用の写真共有アプリ「Flashes」が近日登場【やじうまWatch】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1655/177/yajiuma-watch_1.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/shopping/1655169.html",
-          "author": "アイティースリー",
-          "description": "Amazon.co.jpのEdifierストアページでは同社のPCスピーカーがタイムセール中だ。",
-          "link": "https://internet.watch.impress.co.jp/docs/shopping/1655169.html",
-          "publishedOn": "2025-01-17T02:45:00.000Z",
-          "wordCount": 4734,
-          "title": "EdifierのPC用スピーカーが安い！　Amazonでタイムセール実施中　2024年10月発売モデルの「Edifier MR3」が1万1984円に",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1655/169/00.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1655171.html",
-          "author": "tks24",
-          "description": "いわゆる「闇バイト」による強盗犯罪の対策として、個人宅に対する防犯カメラやカメラ付きインターホンの購入費用の補助を、東京都が開始する方針だ。",
-          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1655171.html",
-          "publishedOn": "2025-01-17T02:30:00.000Z",
-          "wordCount": 4718,
-          "title": "東京都、闇バイト対策で個人宅向け防犯カメラに購入費の半額・最大2万円を補助へ【やじうまWatch】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1655/171/yajiuma-watch_1.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/shopping/1655167.html",
-          "author": "アイティースリー",
-          "description": "Amazon.co.jpのJackeryストアページでは同社のポータブル電源がタイムセール中だ。Jackeryのポータブル電源は、持ち運び可能な筐体でACコンセントやUSBポートなどを搭載。アウトドアや災害時に各種電子機器への電源供給や充電などに利用できる。",
-          "link": "https://internet.watch.impress.co.jp/docs/shopping/1655167.html",
-          "publishedOn": "2025-01-17T02:15:00.000Z",
-          "wordCount": 4769,
-          "title": "Jackery製のポータブル電源がAmazonでセール中。100〜2000Whクラスの多数が対象に　99.2Whの「Jackery Explorer 100 Plus」が1万1130円など",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1655/167/00.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1654297.html",
-          "author": "大東 奈央",
-          "description": "ニフティ株式会社は1月15日、最大10Gbpsの光回線によるインターネット接続サービス「＠nifty光 10ギガ」にて、TP-Link製Wi-Fi 7対応ルーターを分割購入できるサービスの提供を開始した。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1654297.html",
-          "publishedOn": "2025-01-16T22:30:00.000Z",
-          "wordCount": 5177,
-          "title": "「＠nifty光 10ギガ」でTP-Link製Wi-Fi 7ルーターの分割購入サービス",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1654/297/00.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1655068.html",
-          "author": "山田 貞幸",
-          "description": "警察庁と内閣サイバーセキュリティセンター（NISC）は、「MirrorFace」（ミラーフェイス）または「Earth Kasha」（アース カシャ）と呼ばれるサイバー攻撃グループによるサイバー攻撃キャンペーンについて、手口を詳細に紹介しつつ注意喚起を行った。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1655068.html",
-          "publishedOn": "2025-01-16T21:50:00.000Z",
-          "wordCount": 5194,
-          "title": "警察庁とNISC、サイバー攻撃グループ「MirrorFace」（Earth Kasha）の手口を詳細に解説し注意喚起　政治家やマスコミ関係者のほか、半導体や航空宇宙分野の組織などを標的に活動",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1655/068/01.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1654881.html",
-          "author": "大河原 克行",
-          "description": "ぐるなびとエプソン販売は、飲食店で新たな体験を提供する新サービス「ミセメディア」を本格的にスタートした。第1弾として、1月15日から、石川県などと連携したサービスの提供を開始する。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1654881.html",
-          "publishedOn": "2025-01-16T21:30:00.000Z",
-          "wordCount": 5191,
-          "title": "飲食店に大型スクリーンを導入し、体験型PRメディアにする「ミセメディア」、ぐるなびとエプソンが提供　復興支援として石川県の企業とタイアップし、首都圏の飲食店で展開",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1654/881/P2840178.JPG"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1654986.html",
-          "author": "木下 明音",
-          "description": "日本政府は1月14日、米国および韓国と共同で、北朝鮮が世界規模で展開しているサイバー攻撃に対して、ブロックチェーン技術産業および国際社会への注意喚起を行う声明を発表した。北朝鮮は軍事開発の資金調達のため、悪意のあるサイバー活動や暗号資産の窃取をしており、「北朝鮮による違法な大量破壊兵器及び弾道ミサイル計画のための不法な資金を途絶する」とともに、窃取された資産を回復するため共に努力するとしている。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1654986.html",
-          "publishedOn": "2025-01-16T21:00:00.000Z",
-          "wordCount": 5144,
-          "title": "北朝鮮による暗号資産の窃取に対し、日米韓が共同声明。「違法な大量破壊兵器及び弾道ミサイル計画のための不法な資金を途絶する」",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1654/986/main.png"
         }
       ]
     },
@@ -6919,6 +6608,16 @@
       "feedUrl": "https://news.mynavi.jp/rss/techplus/enterprise/security",
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20250216-3129071/",
+          "author": null,
+          "description": "The Hacker Newsは2月13日(現地時間)、北朝鮮の国家支援を受けているとみられる持続的標的型攻撃(APT: Advanced Persistent Threat)グループの「APT43」が、Dropboxを悪用して韓国の企業、政府、暗号資産部門を標的にサイバー攻撃キャンペーンを実施していると報じた。",
+          "link": "https://news.mynavi.jp/techplus/article/20250216-3129071/",
+          "publishedOn": "2025-02-16T08:02:31.000Z",
+          "wordCount": 1844,
+          "title": "北朝鮮の脅威グループがDropboxを悪用してサイバー攻撃、注意を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20250216-3129071/ogp_images/ogp.jpg"
+        },
         {
           "id": "https://news.mynavi.jp/techplus/article/20250214-3129003/",
           "author": null,
@@ -8048,36 +7747,6 @@
           "wordCount": 1828,
           "title": "設定に誤りがある2万のドメイン、マルウェア配布のために悪用される",
           "imageUrl": "https://news.mynavi.jp/techplus/article/20250118-3108748/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20250117-3108190/",
-          "author": null,
-          "description": "Mimecastは1月15日(英国時間)、ChatGPTに代表される生成AI技術がもたらすリスクを取り上げ、これを適切に恐れ対策を講じることの重要性を解説した。リスクを回避する最も簡単で強力な対策は、利用の禁止だ。しかしながら、便利なツールは禁止してもいずれ誰かがこっそり利用するものだ。",
-          "link": "https://news.mynavi.jp/techplus/article/20250117-3108190/",
-          "publishedOn": "2025-01-17T02:41:09.000Z",
-          "wordCount": 2905,
-          "title": "ChatGPTからの情報漏洩を防止するために「適切に恐れる」とは",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20250117-3108190/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20250117-3108101/",
-          "author": null,
-          "description": "JPCERTコーディネーションセンター(JPCERT/CC)は1月15日、遠隔ファイル同期アプリケーションの「rsync」に複数の脆弱性が存在するとして、注意を喚起した。これら脆弱性を悪用されると、パブリックミラーなど匿名アクセス可能なサーバ上で任意のコードを実行される可能性がある。",
-          "link": "https://news.mynavi.jp/techplus/article/20250117-3108101/",
-          "publishedOn": "2025-01-16T23:41:36.000Z",
-          "wordCount": 2933,
-          "title": "遠隔ファイル同期アプリの「rsync」に緊急の脆弱性、アップデートを",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20250117-3108101/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20250117-3108100/",
-          "author": null,
-          "description": "Microsoftは1月14日(米国時間)、Windowsのディスク暗号化機能「BitLocker」を有効にすると、TPM（Trusted Platform Module：トラステッドプラットフォームモジュール）を搭載した環境で予期しないセキュリティ警告を表示する可能性があると発表した。",
-          "link": "https://news.mynavi.jp/techplus/article/20250117-3108100/",
-          "publishedOn": "2025-01-16T22:36:51.000Z",
-          "wordCount": 1891,
-          "title": "BitLockerを使うと警告表示？ Microsoftが原因を調査中",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20250117-3108100/ogp_images/ogp.jpg"
         }
       ]
     }
