@@ -2,10 +2,90 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-02-28T08:15:25.867Z</updated>
+    <updated>2025-03-01T08:14:18.733Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[VU#726882: Paragon Partition Manager contains five memory vulnerabilities within its BioNTdrv.sys driver that allow for privilege escalation and denial-of-service (DoS) attacks]]></title>
+        <id>https://kb.cert.org/vuls/id/726882</id>
+        <link href="https://kb.cert.org/vuls/id/726882"/>
+        <updated>2025-02-28T12:34:44.018Z</updated>
+        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
+<p>Paragon Partition Manager's BioNTdrv.sys driver, versions prior to 2.0.0, contains five vulnerabilities. These include arbitrary kernel memory mapping and write vulnerabilities, a null pointer dereference, insecure kernel resource access, and an arbitrary memory move vulnerability. An attacker with local access to a device can exploit these vulnerabilities to escalate privileges or cause a denial-of-service (DoS) scenario on the victim's machine. Additionally, as the attack involves a Microsoft-signed  <a href="https://learn.microsoft.com/en-us/windows-hardware/drivers/gettingstarted/what-is-a-driver-">Driver</a>, an attacker can leverage a <a href="https://techcommunity.microsoft.com/blog/microsoftsecurityexperts/strategies-to-monitor-and-prevent-vulnerable-driver-attacks/4103985">Bring Your Own Vulnerable Driver (BYOVD) </a> technique to exploit systems even if Paragon Partition Manager is not installed. Microsoft has observed threat actors (TAs) exploiting this weakness in BYOVD ransomware attacks, specifically using CVE-2025-0289 to achieve privilege escalation to SYSTEM level, then execute further malicious code. These vulnerabilities have been patched by both Paragon Software, and vulnerable BioNTdrv.sys versions blocked by Microsoft's Vulnerable Driver Blocklist. </p>
+<h3 id="description">Description</h3>
+<p>Paragon Partition Manager is a software tool from <a href="https://www.paragon-software.com/">Paragon Software</a>, available in both Community and Commercial versions, that allows users to manage partitions (individual sections) on a hard drive. Paragon Partition Manager uses a kernel-level Driver distributed as BioNTdrv.sys. The driver allows for a low-level access to the hard drive with elevated privileges to access and manage data as the kernel device.</p>
+<p>Microsoft researchers have identified four vulnerabilities in Paragon Partition Manager version 7.9.1 and a fifth specific vulnerability (CVE-2025-0289) affecting version 17. These vulnerabilities, particularly in BioNTdrv.sys versions 1.3.0 and 1.5.1, allow attackers to achieve SYSTEM-level privilege escalation, which surpasses typical administrator permissions. The vulnerabilities also enable attackers to manipulate the driver via device-specific Input/Output Control (IOCTL) calls, potentially resulting in privilege escalation or system crashes (e.g., a Blue Screen of Death, or BSOD). Even if Paragon Partition Manager is not installed, attackers can install and misuse the vulnerable driver through the BYOVD method to compromise the target machine.</p>
+<p>Identified Vulnerabilities:</p>
+<p><strong><a href="https://www.cve.org/CVERecord/SearchResults?query=CVE-2025-0288">CVE-2025-0288</a></strong>
+An arbitrary kernel memory vulnerability in version 7.9.1 caused by the memmove function, which fails to sanitize user-controlled input. This allows an attacker to write arbitrary kernel memory and achieve privilege escalation.</p>
+<p><strong><a href="https://www.cve.org/CVERecord/SearchResults?query=CVE-2025-0287">CVE-2025-0287</a></strong>
+A null pointer dereference vulnerability in version 7.9.1 caused by the absence of a valid MasterLrp structure in the input buffer. This allows an attacker to execute arbitrary kernel code, enabling privilege escalation.</p>
+<p><strong><a href="https://www.cve.org/CVERecord/SearchResults?query=CVE-2025-0286">CVE-2025-0286</a></strong>
+An arbitrary kernel memory write vulnerability in version 7.9.1 due to improper validation of user-supplied data lengths. This flaw can allow attackers to execute arbitrary code on the victim’s machine.</p>
+<p><strong><a href="https://www.cve.org/CVERecord/SearchResults?query=CVE-2025-0285">CVE-2025-0285</a></strong>
+An arbitrary kernel memory mapping vulnerability in version 7.9.1 caused by a failure to validate user-supplied data lengths. Attackers can exploit this flaw to escalate privileges.</p>
+<p><strong><a href="https://www.cve.org/CVERecord/SearchResults?query=CVE-2025-0289">CVE-2025-0289</a></strong>
+An insecure kernel resource access vulnerability in version 17 caused by failure to validate the MappedSystemVa pointer before passing it to HalReturnToFirmware. This allows attackers to compromise the affected service.</p>
+<h3 id="impact">Impact</h3>
+<p>An attacker with local access to a target device can exploit BioNTdrv.sys version 1.3.0 to escalate privileges to SYSTEM level or cause a DoS scenario. Microsoft has observed this driver being used in ransomware attacks, leveraging the BYOVD technique for privilege escalation prior to further malicious code execution. </p>
+<h3 id="solution">Solution</h3>
+<p>Paragon Software has updated Parition Manager and released a new driver, BioNTdrv.sys version 2.0.0, which addresses these vulnerabilities. Ensure your installation of Paragon Partition Manager is updated to the latest version. Windows users should verify that the ) is active. Users can verify if their Vulnerable Driver Blocklist is enabled under Windows Security settings. On Windows 11 devices, this blocklist is enabled by default. Users can learn more about the Vulnerable Driver Blocklist here: <a href="https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/design/microsoft-recommended-driver-block-rules">Microsoft Vulnerable Driver Blocklist Information</a>  Enterprise organizations should ensure the blocklist is applied for their user base to prevent potential loading of the vulnerable driver BioNTdrv.sys versions 1.3.0 and 1.5.1 by TAs. </p>
+<h3 id="acknowledgements">Acknowledgements</h3>
+<p>Thanks you to Microsoft for reporting the vulnerability.This document was written by Christopher Cullen.</p>]]></summary>
+        <author>
+            <name>CERT Recently Published Vulnerability Notes</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【特別対談】AI PC時代のセキュリティ対策に秘密分散技術の注目が高まる – 2つの分散片でデータを無意味化する独自の秘密分散技術とは【後編】]]></title>
+        <id>https://news.mynavi.jp/techplus/kikaku/20250228-3132858/</id>
+        <link href="https://news.mynavi.jp/techplus/kikaku/20250228-3132858/"/>
+        <updated>2025-02-28T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[本稿では、FAT PC需要の増大から、ポストVDI、with VDIのアプローチとしてZenmuTech独自の「AONT秘密分散技術」を用いたソリューション「ZENMU Virtual Drive Enterprise Edition（ZEE）」「ZENMU Virtual Drive Limited Edition（ZLE）」の特長と導入効果まで話を展開し、理想の業務環境を考察していく。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【特別対談】秘密分散技術で「ポストVDI」「with VDI」のアプローチ – 矛盾する情報漏洩対策を一蹴【前編】]]></title>
+        <id>https://news.mynavi.jp/techplus/kikaku/20250228-3132847/</id>
+        <link href="https://news.mynavi.jp/techplus/kikaku/20250228-3132847/"/>
+        <updated>2025-02-28T12:30:00.000Z</updated>
+        <summary type="html"><![CDATA[リモートワークの常態化が進むなかで、VDIで構築された既存環境に問題を抱える企業は少なくないのが現状だ。場所に囚われず、快適かつセキュアに業務を行える環境の構築にはどのような対応が考えられるのか。本稿では、独自の秘密分散技術を用いたソリューションで、セキュリティ・利便性・高生産的な業務環境を提供する株式会社ZenmuTechの取締役 CMO 阿部 泰久 氏と、ITを活用したビジネスの成長とイノベーション創出を支援する株式会社アイ・ティ・アールのプリンシバル・アナリストである三浦 竜樹 氏が、企業におけるVDI環境の現状とセキュリティ対策における課題から、快適でセキュアなリモートワークを実現するための先進技術やソリューションについて対談した様子をまとめる。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LINEで障害、公式アカウントなどに影響か　一部機能・サービスにアクセスしにくく【復旧済み】]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2502/28/news235.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2502/28/news235.html"/>
+        <updated>2025-02-28T11:08:00.000Z</updated>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Execlファイルでサイバー攻撃、ウクライナ軍を狙う]]></title>
+        <id>https://news.mynavi.jp/techplus/article/20250228-3138496/</id>
+        <link href="https://news.mynavi.jp/techplus/article/20250228-3138496/"/>
+        <updated>2025-02-28T10:28:16.000Z</updated>
+        <summary type="html"><![CDATA[SentinelLabsは2月25日(米国時間)、ウクライナ政府、ウクライナ軍およびベラルーシの反政府組織を標的とした新しいサイバー攻撃を発見したと伝えた。この攻撃では、マルウェア感染を促すExcelファイルが添付されたフィッシングメールが送信されたという。]]></summary>
+        <author>
+            <name>マイナビニュース 企業IT セキュリティ</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[見出しでわかる IT界隈・今週の重要ニュース：全80本［2025/2/21～2/28］]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/weekly/1666399.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/weekly/1666399.html"/>
+        <updated>2025-02-28T10:00:00.000Z</updated>
+        <summary type="html"><![CDATA[「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。]]></summary>
+        <author>
+            <name>中島 由弘</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[AI活用が進む今、データ主権確立とプライバシー保護のために何をすべきか]]></title>
         <id>https://news.mynavi.jp/techplus/article/20250228-3136743/</id>
@@ -394,6 +474,16 @@
         <summary type="html"><![CDATA[2024年末から2025年にかけて、社会的なインフラをターゲットにした大規模なサイバー攻撃が大きな話題となった。]]></summary>
         <author>
             <name>清水 理史</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[「情報セキュリティ10大脅威 2025」解説書を公開しました]]></title>
+        <id>https://www.ipa.go.jp/security/10threats/10threats2025.html</id>
+        <link href="https://www.ipa.go.jp/security/10threats/10threats2025.html"/>
+        <updated>2025-02-27T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「情報セキュリティ10大脅威 2025」に関する情報です。]]></summary>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
         </author>
     </entry>
     <entry>
@@ -9375,467 +9465,6 @@ OpenShift Serverless を構築してみた first appeared on SIOS Tech. Lab.]]><
         <summary type="html"><![CDATA[ティーピーリンクジャパン株式会社（TP-Link）は、Wi-Fi 7とBluetooth 5.4に対応したPCIeアダプター2製品の販売を2月13日に開始する。市場想定価格は、「Archer TBE550E」が1万4190円、「Archer TBE400E」が9900円。]]></summary>
         <author>
             <name>山田 貞幸</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ロジスティード株式会社のDSS活用事例を追加しました]]></title>
-        <id>https://www.ipa.go.jp/jinzai/skill-standard/dss/case.html</id>
-        <link href="https://www.ipa.go.jp/jinzai/skill-standard/dss/case.html"/>
-        <updated>2025-01-30T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「デジタルスキル標準（DSS）活用事例集、リンク集」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VU#733789: ChatGPT-4o contains security bypass vulnerability through time and search functions called "Time Bandit"]]></title>
-        <id>https://kb.cert.org/vuls/id/733789</id>
-        <link href="https://kb.cert.org/vuls/id/733789"/>
-        <updated>2025-01-30T14:43:35.291Z</updated>
-        <summary type="html"><![CDATA[<h3 id="overview">Overview</h3>
-<p>ChatGPT-4o contains a jailbreak vulnerability called "Time Bandit" that allows an attacker the ability to circumvent the safety guardrails of ChatGPT and instruct it to provide illicit or dangerous content. The jailbreak can be initiated in a variety of ways, but centrally requires the attacker to prompt the AI with questions regarding a specific time period in history.  The jailbreak can be established in two ways, either through the <a href="https://openai.com/index/introducing-chatgpt-search/">Search</a> function, or by prompting the AI directly. Once this historical timeframe been established in the ChatGPT conversation, the attacker can exploit time line confusion and procedural ambiguity in following prompts to circumvent the safety guidelines, resulting in ChatGPT generating illicit content. This information could be leveraged at scale by a motivated threat actor for malicious purposes. </p>
-<h3 id="description">Description</h3>
-<p>"Time Bandit" is a jailbreak vulnerability present in ChatGPT-4o that can be used to bypass safety restrictions within the chatbot and instruct it to generate content that breaks its safety guardrails. An attacker can exploit the vulnerability by beginning a session with ChatGPT and prompting it directly about a specific historical event, historical time period, or by instructing it to pretend it is assisting the user in a specific historical event. Once this has been established, the user can pivot the received responses to various illicit topics through subsequent prompts. These prompts must be procedural, first instructing the AI to provide further details on the time period asked before gradually pivoting the prompts to illicit topics. These prompts must all maintain the established time for the conversation, otherwise it will be detected as a malicious prompt and removed. </p>
-<p>This jailbreak could also be achieved through the "Search" functionality. ChatGPT supports a Search feature, which allows a logged in user to prompt ChatGPT with a question, and it will then search the web based on that prompt. By instructing ChatGPT to search the web for information surrounding a specific historical context, an attacker can then continue the searches within that time frame and eventually pivot to prompting ChatGPT directly regarding illicit subjects through usage of procedural ambiguity.</p>
-<p>During testing, the CERT/CC was able to replicate the jailbreak, but ChatGPT removed the prompt provided and stated that it violated usage policies. Nonetheless, ChatGPT would then proceed to answer the removed prompt. This activity was replicated several times in a row. The first jailbreak, exploited through repeated direct prompts and using procedural ambiguity, was exploited without authentication. The second, which requires exploit through the Search function, requires authentication by the user. During testing, the jailbreak was more successful using a time frame within the 1800s or 1900s.</p>
-<h3 id="impact">Impact</h3>
-<p>This vulnerability bypasses the security and safety guidelines of OpenAI, allowing an attacker to abuse ChatGPT for instructions regarding, for example, how to make weapons or drugs, or for other malicious purposes. A jailbreak of this type exploited at scale by a motivated threat actor could result in a variety of malicious actions, such as the mass creation of phishing emails and malware. Additionally, the usage of a legitimate service such as ChatGPT can function as a proxy, hiding their malicious activities.</p>
-<h3 id="solution">Solution</h3>
-<p>OpenAI has mitigated this vulnerability. One OpenAI spokesperson provided the below statement: 
-"It is very important to us that we develop our models safely. We don’t want our models to be used for malicious purposes. We appreciate you for disclosing your findings. We’re constantly working to make our models safer and more robust against exploits, including jailbreaks, while also maintaining the models' usefulness and task performance."</p>
-<h3 id="acknowledgements">Acknowledgements</h3>
-<p>Thanks to the reporter, Dave Kuszmar, for reporting the vulnerability. This document was written by Christopher Cullen.</p>]]></summary>
-        <author>
-            <name>CERT Recently Published Vulnerability Notes</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Releases Eight Industrial Control Systems Advisories]]></title>
-        <id>/node/22937</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2025/01/30/cisa-releases-eight-industrial-control-systems-advisories"/>
-        <updated>2025-01-30T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CISA released eight Industrial Control Systems (ICS) advisories on January 30, 2025. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
-ICSA-25-030-01 Hitachi Energy UNEM
-ICSA-25-030-02 New Rock Technologies Cloud Connected Devices
-ICSA-25-030-03 Schneider Electric System Monitor Application in Harmony and Pro-face PS5000 Legacy Industrial PCs
-ICSA-25-030-04 Rockwell Automation KEPServer
-ICSA-25-030-05 Rockwell Automation FactoryTalk AssetCentre
- 
-ICSMA-25-030-01 Contec Health CMS8000 Patient Monitor 
- 
-ICSA-24-135-04 Mitsubishi Electric Multiple FA Engineering Software Products (Update B)
-ICSMA-22-244-01 Contec Health CMS8000 Patient Monitor (Update A)
-CISA encourages users and administrators to review newly released ICS advisories for technical details and mitigations.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Releases Fact Sheet Detailing Embedded Backdoor Function of Contec CMS8000 Firmware]]></title>
-        <id>/node/22930</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2025/01/30/cisa-releases-fact-sheet-detailing-embedded-backdoor-function-contec-cms8000-firmware"/>
-        <updated>2025-01-30T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CISA released a fact sheet, Contec CMS8000 Contains a Backdoor, detailing an analysis of three firmware package versions of the Contec CMS8000, a patient monitor used by the U.S. Healthcare and Public Health (HPH) sector. Analysts discovered that an embedded backdoor function with a hard-coded IP address, CWE – 912: Hidden Functionality (CVE-2025-0626), and functionality that enables patient data spillage, CWE – 359: Exposure of Private Personal Information to an Unauthorized Actor (CVE-2025-0683), exists in all versions analyzed.
-Please note the Contec CMS8000 may be re-labeled and sold by resellers. For a list of known re-labeled devices, please refer to FDA’s safety communication, Cybersecurity Vulnerabilities with Certain Patient Monitors from Contec and Epsimed: FDA Safety Communication.
-Contec Medical Systems, the company which manufactures this monitor as well as other medical device and healthcare solutions, is headquartered in Qinhuangdao, China. The Contec CMS8000 is used in medical settings across the U.S. and European Union to provide continuous monitoring of a patient’s vital signs—tracking electrocardiogram, heart rate, blood oxygen saturation, non-invasive blood pressure, temperature, and respiration rate. CISA assesses that inclusion of this backdoor in the firmware of the patient monitor can create conditions which may allow remote code execution and device modification with the ability to alter its configuration. This introduces risk to patient safety as a malfunctioning patient monitor could lead to an improper response to patient vital signs.
-CISA strongly urges HPH sector organizations review the fact sheet and implement FDA's mitigations. Visit CISA’s Healthcare and Public Health Cybersecurity page to learn more about how to help improve cybersecurity within the HPH sector. For more information and guidance on protection against the most common and impactful threats, tactics, techniques, and procedures, visit CISA’s Cross-Sector Cybersecurity Performance Goals.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[危ないPINコードトップ10発表、2位は「1111」 - 1位は？]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20250130-3118869/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20250130-3118869/"/>
-        <updated>2025-01-30T08:52:33.000Z</updated>
-        <summary type="html"><![CDATA[Malwarebytesは1月29日(米国時間)、危険なPINコードの上位10件を発表した。分析には2,900万件のデータが利用され、その分析から生年月日に関連した数値やぞろ目が多いことが明らかになった。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Start IT Club 第5回イベント開催のお知らせ]]></title>
-        <id>https://gblogs.cisco.com/jp/?p=53017</id>
-        <link href="https://gblogs.cisco.com/jp/2025/01/start-it-club-event-250213/"/>
-        <updated>2025-01-30T07:00:18.000Z</updated>
-        <summary type="html"><![CDATA[シスコ（ネットワーキングアカデミー）が学生スタッフと開催するイベントです。 IT 業界の仕組みを学び、第一線で活躍する若手＆経験豊富な IT 業界人の本音も聞けるイベントです。 IT、セキュリティ、国際、インターン、運営スタッフ、ピンときたら、文理・学年・性別問わず、ぜひ気軽に参加してみてください。
-The post Start IT Club 第5回イベント開催のお知らせ appeared first on Cisco Japan Blog.]]></summary>
-        <author>
-            <name>岡村 恵</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 10、新しいOutlookの強制インストール開始 - 原則回避不可能]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20250130-3118666/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20250130-3118666/"/>
-        <updated>2025-01-30T06:12:42.000Z</updated>
-        <summary type="html"><![CDATA[Microsoftは1月28日(米国時間)、Windows 10への「新しいOutlook」の強制インストールを開始したと発表した。この強制インストールは2025年10月14日に予定しているWindows 10サポート終了に合わせたWindows 11移行キャンペーンの一環とみられ、原則としてインストールを回避することはできない。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ISC BINDにおける複数の脆弱性（2025年1月）]]></title>
-        <id>https://jvn.jp/vu/JVNVU94914427/</id>
-        <link href="https://jvn.jp/vu/JVNVU94914427/"/>
-        <updated>2025-01-30T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[ISC（Internet Systems Consortium）が提供するISC BINDには、複数の脆弱性が存在します。]]></summary>
-        <author>
-            <name>jvn@jvn.jp</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[トピックス]BIND 9における複数の脆弱性について(2025年1月)]]></title>
-        <id>https://www.nic.ad.jp/ja/topics/2025/20250130-01.html</id>
-        <link href="https://www.nic.ad.jp/ja/topics/2025/20250130-01.html"/>
-        <updated>2025-01-30T05:51:26.000Z</updated>
-        <summary type="html"><![CDATA[2025年1月30日
-ネームサーバ管理者の皆様へ
-一般社団法人日本ネットワークインフォメーションセンター
-BIND 9における複数の脆弱性について(2025年1月)
-CVE-2024-11187: Many records in the additional section cause CPU exhaustion
-              https://kb.isc.org/docs/cve-2024-11187
-
-              CVE-2024-12705: DNS-over-HTTPS implementation suffers from multiple issues under heavy query load
-              https://kb.isc.org/docs/cve-2024-12705
-            
-
-            
-修正されたバージョンとダウンロードページ
-https://www.isc.org/download/
-            
-参考情報
-JPRS
-https://jprs.jp/tech/security/2025-01-30-bind9-vuln-additionalsection.html
-
-              
-                （緊急）BIND 9.xの脆弱性（パフォーマンスの低下）について
-                （CVE-2024-12705）  - バージョンアップを強く推奨 -
-              
-              https://jprs.jp/tech/security/2025-01-30-bind9-vuln-dnsoverhttps.html
-            
-
-            
-JPCERT/CC
-ISC BIND 9における複数の脆弱性について（2025年1月）
-              https://www.jpcert.or.jp/newsflash/2025013001.html
-            
-
-
-            
-以上]]></summary>
-        <author>
-            <name>JPNIC Web</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DeepSeek、チャット履歴含む100万件超のログが外部から閲覧できた可能性　米セキュリティ企業が指摘]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2501/30/news173.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2501/30/news173.html"/>
-        <updated>2025-01-30T05:30:00.000Z</updated>
-        <summary type="html"><![CDATA[米セキュリティ企業Wizは、中国AIスタートアップDeepSeekについて、AIチャットサービスのチャット履歴などを含むデータが外部から閲覧可能な状態だったと発表した。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TP-Link、Wi-Fi 7ゲーミングルーター「Archer GE550」発売、WAN、LANが5Gbps対応]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1658850.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1658850.html"/>
-        <updated>2025-01-30T05:00:00.000Z</updated>
-        <summary type="html"><![CDATA[ティーピーリンクジャパン株式会社（TP-Link）は、Wi-Fi 7対応ゲーミングルーター「Archer GE550」の販売を2月13日に開始する。市場想定価格は4万3780円。]]></summary>
-        <author>
-            <name>山田 貞幸</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 11、スタートメニューにAndroidとiPhoneを統合]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20250130-3118661/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20250130-3118661/"/>
-        <updated>2025-01-30T04:51:29.000Z</updated>
-        <summary type="html"><![CDATA[Microsoftは1月28日(米国時間)、Windows 11のスタートメニューにAndroidおよびiPhoneを統合すると発表した。Androidの統合については2024年6月に発表されていたが、これにiPhoneが正式に追加されることになる。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IPA、「情報セキュリティ10大脅威 2025」発表 - 2024年からどう変わった？]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20250130-3118677/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20250130-3118677/"/>
-        <updated>2025-01-30T04:20:12.000Z</updated>
-        <summary type="html"><![CDATA[IPAは1月25日、情報セキュリティにおける脅威のうち、2024年に社会的影響が大きかったと考えられるものを「情報セキュリティ10大脅威 2025」として公表した。組織と個人に分けて、ランキングが作成されている。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[日立、機密情報を安全に扱えるノーコードプラットフォームサービスを販売開始]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20250130-3117891/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20250130-3117891/"/>
-        <updated>2025-01-30T04:02:52.000Z</updated>
-        <summary type="html"><![CDATA[日立製作所（日立）は1月29日、秘匿情報管理サービス「匿名バンク」を活用し、機密情報をセキュアに扱える環境を提供するノーコードプラットフォームサービスの販売を開始した。価格は個別見積もり。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[サイトのコンテンツを無断収集するAIクローラーを捕獲し、脱出できなくするツールが物議【やじうまWatch】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1658776.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1658776.html"/>
-        <updated>2025-01-30T03:10:00.000Z</updated>
-        <summary type="html"><![CDATA[ウェブサイトのコンテンツを無断収集するAIクローラーを閉鎖空間に閉じ込めて脱出できなくするツールが登場し、海外を中心に話題になっている。]]></summary>
-        <author>
-            <name>tks24</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[InstagramやFacebookで米トランプ大統領を自動的にフォローする怪現象【やじうまWatch】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1658775.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1658775.html"/>
-        <updated>2025-01-30T03:10:00.000Z</updated>
-        <summary type="html"><![CDATA[米トランプ大統領の就任以降、InstagramやFacebookで知らないうちに同大統領をフォローする現象が発生していることが明らかになり、多くの人が不安を表明している。]]></summary>
-        <author>
-            <name>tks24</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[“なめたネジ”にも対処可能なお助け工具「ネジザウルス」がAmazonスマイルSALEで特売中！　錆びたネジも強力につかんで回す「ネジサウルスGT」が2000円]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/shopping/1658740.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/shopping/1658740.html"/>
-        <updated>2025-01-30T02:50:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazon.co.jpは、1月31日から2月3日までの期間限定でビッグセール「スマイルSALE」を開催する。それに先駆けて事前セールを実施中で、通常の工具では対処が困難になってしまった、“なめたネジ”や“つぶれたネジ”の対処も得意とする「ネジザウルス」を展開するENGINEERストアページでもセールを実施している。]]></summary>
-        <author>
-            <name>アイティースリー</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「エネループ」がまとめ買いのチャンス！　AmazonスマイルSALE　20本セットが単3・単4ともに7900円など]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/shopping/1658735.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/shopping/1658735.html"/>
-        <updated>2025-01-30T02:30:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazon.co.jpは、1月31日から2月3日までの期間限定でビッグセール「スマイルSALE」を開催する。それに先駆けて事前セールを実施中で、パナソニックストアでは現在、同社の繰り返し使える充電池「エネループ」がタイムセール中だ。]]></summary>
-        <author>
-            <name>アイティースリー</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[オムロンのスマホ対応血圧計が安い！　AmazonスマイルSALE　チューブレスタイプでコンパクトな「HEM-7600T」は1万5400円]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/shopping/1658721.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/shopping/1658721.html"/>
-        <updated>2025-01-30T02:15:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazon.co.jpは、1月31日から2月3日までの期間限定でビッグセール「スマイルSALE」を開催する。それに先駆けて事前セールを実施中で、オムロンヘルスケアストアページでは、同社の上腕式血圧計各種が特売中だ。]]></summary>
-        <author>
-            <name>アイティースリー</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[警察・自衛隊の合同拠点新設へ　能動的サイバー防御で東京・市谷に]]></title>
-        <id>https://www.itmedia.co.jp/news/articles/2501/30/news135.html</id>
-        <link href="https://www.itmedia.co.jp/news/articles/2501/30/news135.html"/>
-        <updated>2025-01-30T01:27:00.000Z</updated>
-        <summary type="html"><![CDATA[政府はサイバー攻撃に先手を打って被害を未然に防ぐ「能動的サイバー防御」を巡り、サーバー侵入や無害化を担う警察、自衛隊の実動部隊を同じ拠点で運用する方針を固めた。拠点は東京・市谷の防衛省近くに新設する。同じ建物で勤務させることで平時から連携を深め、サイバー攻撃への備えを強化する狙いがある。]]></summary>
-        <author>
-            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[wizSafe Security Signal 2024年12月 観測レポート]]></title>
-        <id>https://wizsafe.iij.ad.jp/?p=1826</id>
-        <link href="https://wizsafe.iij.ad.jp/2025/01/1826/"/>
-        <updated>2025-01-30T01:16:10.000Z</updated>
-        <summary type="html"><![CDATA[本レポートでは、2024年12月中に発生した観測情報と事案についてまとめています。 目次 DDoS攻撃の観測情報 IIJマネージドセキュリティサービスの観測情報 Web/メールのマルウェア脅威の観測情報 セキュリティイン … "wizSafe Security Signal 2024年12月 観測レポート" の続きを読む]]></summary>
-        <author>
-            <name>SOCチーム</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[（緊急）BIND 9.xの脆弱性（パフォーマンスの低下）について（CVE-2024-12705） - バージョンアップを強く推奨 -]]></title>
-        <id>https://jprs.jp/whatsnew/</id>
-        <link href="https://jprs.jp/whatsnew/"/>
-        <updated>2025-01-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[JPドメイン名の登録管理業務とDNSの運用を行っている株式会社日本レジストリサービス(JPRS)による、JPドメイン名サービス総合案内サイトです。]]></summary>
-        <author>
-            <name>JPRS最新情報</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[（緊急）BIND 9.xの脆弱性（過剰なCPU負荷の誘発）について（CVE-2024-11187） - バージョンアップを強く推奨 -]]></title>
-        <id>https://jprs.jp/whatsnew/</id>
-        <link href="https://jprs.jp/whatsnew/"/>
-        <updated>2025-01-30T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[JPドメイン名の登録管理業務とDNSの運用を行っている株式会社日本レジストリサービス(JPRS)による、JPドメイン名サービス総合案内サイトです。]]></summary>
-        <author>
-            <name>JPRS最新情報</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Garminのスマートウォッチに起動できない不具合、修復手順を公開]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20250130-3118124/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20250130-3118124/"/>
-        <updated>2025-01-29T23:50:15.000Z</updated>
-        <summary type="html"><![CDATA[Garminは1月28日、同社の一部製品が起動画面または青い三角ロゴを表示したまま動作しなくなる可能性があると発表した。本稿執筆時点において、Garminは不具合の原因を明らかにしていない。ユーザーからの報告から、原因は正常に動作しないファームウェアアップデートにあると推測されている。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2ポートのUSBハブを一体化したUSB Type-Cケーブル「400-HUBC34」、サンワサプライが発売]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1658472.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1658472.html"/>
-        <updated>2025-01-29T23:30:00.000Z</updated>
-        <summary type="html"><![CDATA[サンワサプライ株式会社は、USBハブ付きのUSB Type-Cケーブル「400-HUBC34」を発売した。カラーはブラックとシルバー。直販サイト「サンワダイレクト」での販売価格は2280円。]]></summary>
-        <author>
-            <name>大竹 莉子</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Proofpoint Blog 43回「内田浩一の侍ハッキング #01 フィッシング最新手法 - Basic認証と文字コードを悪用したHTMLの難読化」]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2025/01/30/52244.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2025/01/30/52244.html"/>
-        <updated>2025-01-29T23:15:03.000Z</updated>
-        <summary type="html"><![CDATA[現在は巧妙な手法が次々に登場し、よく見ても怪しいサイトとは思えない危険なサイトが増えています。ここでは、URL を偽装する新しいフィッシングテクニック、そして HTML を悪用する手法について紹介します]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[iPhoneやMacに脆弱性、Webブラウザから機密情報漏洩の恐れ]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20250130-3118117/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20250130-3118117/"/>
-        <updated>2025-01-29T23:10:51.000Z</updated>
-        <summary type="html"><![CDATA[Ars Technicaは1月29日(米国時間)、Apple AシリーズおよびMシリーズCPUからサイドチャネル攻撃可能な脆弱性が2種類発見されたと伝えた。これら脆弱性を悪用されると、悪意のあるWebサイトにアクセスするだけでサンドボックスを回避して機密情報を窃取される可能性がある。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[能動的サイバー防御 各領域専門家は国際会議でどう議論したか]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2025/01/30/52243.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2025/01/30/52243.html"/>
-        <updated>2025-01-29T23:10:03.000Z</updated>
-        <summary type="html"><![CDATA[能動的サイバー防御を行うとき、国内でどのような問題が懸念されるのか論点になるのかを考えるもの。そのためには、国際法における国対国、国内法における国と民間（非国体）との関係を考える必要がある。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[849 件が対象に「Hulu」アカウントにリスト型アカウントハッキング]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2025/01/30/52242.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2025/01/30/52242.html"/>
-        <updated>2025-01-29T23:05:12.000Z</updated>
-        <summary type="html"><![CDATA[HJホールディングス株式会社は1月20日、動画配信サービス「Hulu」アカウントへのリスト型アカウントハッキングによる不正アクセスについて発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[身代金要求する脅迫文書確認 ～ 住宅設備機器専門卸商社 ソーゴーにサイバー攻撃]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2025/01/30/52241.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2025/01/30/52241.html"/>
-        <updated>2025-01-29T23:05:10.000Z</updated>
-        <summary type="html"><![CDATA[住宅設備機器専門卸商社の株式会社ソーゴーは1月17日、2024年11月22日に公表した同社ファイルサーバへの不正アクセスについて、続報を発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「TechFUL」サーバへの不正アクセス、室蘭工業大学 学生個人情報漏えいの可能性]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2025/01/30/52240.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2025/01/30/52240.html"/>
-        <updated>2025-01-29T23:05:08.000Z</updated>
-        <summary type="html"><![CDATA[国立大学法人室蘭工業大学は1月17日、同学が利用する「TechFUL」での個人情報流出について発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[西尾レントオール海外子会社に不正アクセス、情報流出の可能性]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2025/01/30/52239.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2025/01/30/52239.html"/>
-        <updated>2025-01-29T23:05:05.000Z</updated>
-        <summary type="html"><![CDATA[西尾レントオール株式会社は1月16日、海外子会社への不正アクセスについて発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「漏えい件数、閲覧した方の人数はいずれも少ない」問い合わせフォームから個人情報漏えい]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2025/01/30/52238.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2025/01/30/52238.html"/>
-        <updated>2025-01-29T23:05:02.000Z</updated>
-        <summary type="html"><![CDATA[社会福祉法人東北福祉会 認知症介護研究・研修センターは1月16日、同センターが運営するホームページ「認知症介護基礎研修 e ラーニングの案内サイト」での個人情報漏えいについて発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Lazarus サブグループ分類に見る「アトリビューションの実務的課題」とは]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2025/01/30/52237.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2025/01/30/52237.html"/>
-        <updated>2025-01-29T23:00:09.000Z</updated>
-        <summary type="html"><![CDATA[一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は1月20日、Lazarus のサブグループ分類に見るアトリビューションの実務的課題についての解説記事を発表した。JPCERT/CC早期警戒グループマネージャーの佐々木勇人氏が執筆している。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[WordPress 用プラグイン Simple Image Sizes に XSS の脆弱性]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2025/01/30/52236.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2025/01/30/52236.html"/>
-        <updated>2025-01-29T23:00:03.000Z</updated>
-        <summary type="html"><![CDATA[独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は1月28日、WordPress用プラグインSimple Image Sizesにおけるクロスサイトスクリプティングの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2万円で“全部入り”の多機能オフィスチェア「150-SNCM50」、サンワサプライが発売]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1658572.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1658572.html"/>
-        <updated>2025-01-29T22:30:00.000Z</updated>
-        <summary type="html"><![CDATA[サンワサプライ株式会社は、多機能オフィスチェア「150-SNCM50」を発売した。カラーはブラックとグレーの2色で、直販サイト「サンワダイレクト」での販売価格は1万9800円。]]></summary>
-        <author>
-            <name>大竹 莉子</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[とろサーモン 久保田かずのぶ氏がゲスト出演、宮崎県が2月22日に都内で交流イベント。参加無料　「ひなた照らすICTプロジェクト vol.7 トーク＆交流会」開催]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1658619.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1658619.html"/>
-        <updated>2025-01-29T21:55:00.000Z</updated>
-        <summary type="html"><![CDATA[宮崎県に行ってみたい／住んでみたい、宮崎県と接点を持ちたいという人などを対象とした、ICT人材の交流イベント「ひなた照らすICTプロジェクト vol.7 トーク＆交流会」を、宮崎県が2月22日14時～16時に開催する。]]></summary>
-        <author>
-            <name>永沢 茂</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NTT東日本、AIにより継続的な品質改善を可能にするWi-Fiソリューション「BizDrive AI Wi-Fi」提供]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1658641.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1658641.html"/>
-        <updated>2025-01-29T21:30:00.000Z</updated>
-        <summary type="html"><![CDATA[東日本電信電話株式会社は、AIによりネットワーク環境を最適化する法人向けWi-Fiソリューション「BizDrive AI Wi-Fi」の提供を、2月3日から開始する。オフィス、工場、自治体、学校のほか、店舗で提供するフリーWi-Fiなど、さまざまな用途・規模での利用が想定されている。]]></summary>
-        <author>
-            <name>山田 貞幸</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[アイ・オー、「LAN DISK」シリーズのセキュリティ機能をアップデート。物理ボタン操作を必須とする「ワンタッチセキュア機能」など]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1658500.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1658500.html"/>
-        <updated>2025-01-29T21:15:00.000Z</updated>
-        <summary type="html"><![CDATA[株式会社アイ・オー・データ機器は、同社のNAS「LAN DISK」シリーズのセキュリティ機能をアップデートしたと発表した。具体的には、不正なアクセスを防止する次の3つの機能が、それぞれの対象機種に追加となる。]]></summary>
-        <author>
-            <name>大竹 莉子</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Amazonのサウンドバー「Fire TV Soundbar Plus」を、Fire TVストリーミングデバイスから操作する【自宅Wi-Fiの“わからない”をスッキリ！】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/column/homewifi/1657640.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/column/homewifi/1657640.html"/>
-        <updated>2025-01-29T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazonから2024年12月に発売された「Fire TV Soundbar Plus」の使いこなしを、第223回から実践している。薄型テレビをもっとイイ音で楽しみたいとき、手頃な価格で手軽に導入できる製品がサウンドバーだ。製品の概要については、第233回を参照してほしい。]]></summary>
-        <author>
-            <name>村上 俊一</name>
         </author>
     </entry>
     <entry>

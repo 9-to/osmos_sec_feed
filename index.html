@@ -22,11 +22,65 @@
             data-action="toggle-accordions"
             title="Click to toggle the day, Ctrl + click to toggle all."
           >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-02-28 datetime="2025-02-28T07:05:45.000Z">2025-02-28</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-02-28 datetime="2025-02-28T07:05:45.000Z"></time>
+            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-02-28 datetime="2025-02-28T12:34:44.018Z">2025-02-28</time>
+            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-02-28 datetime="2025-02-28T12:34:44.018Z"></time>
           </button>
         </h2>
         <ul class="sources card">
+            <li class="card__section">
+              <section class="js-toggle-accordions-scope">
+                <h3 class="source-heading">
+                  <button
+                    class="source-heading__name"
+                    data-action="toggle-accordions"
+                    title="Click to toggle the source, Ctrl + click to toggle all."
+                  >CERT Recently Published Vulnerability Notes</button>
+                  <a class="source-heading__link" href="https://kb.cert.org/vuls/">Open</a>
+                </h3>
+                <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://kb.cert.org/vuls/id/726882"
+                        open
+                      >
+                        <summary class="article-expander__title">VU#726882: Paragon Partition Manager contains five memory vulnerabilities within its BioNTdrv.sys driver that allow for privilege escalation and denial-of-service (DoS) attacks</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://kb.cert.org/vuls/id/726882">
+                          <div class="article-summary-box-inner media-object">
+                            <span class="media-object__text">
+                              <span>Overview
+Paragon Partition Manager&#x27;s BioNTdrv.sys driver, versions prior to 2.0.0, contains five vulnerabilities. These include arbitrary kernel memory mapping and write vulnerabilities, a null pointer dereference, insecure kernel resource access, and an arbitrary memory move vulnerability. An attacker with local access to a device can exploit these vulnerabilities to escalate privileges or cause a denial-of-service (DoS) scenario on the victim&#x27;s machine. Additionally, as the attack involves a Microsoft-signed  Driver, an attacker can leverage a Bring Your Own Vulnerable Driver (BYOVD)  technique to exploit systems even if Paragon Partition Manager is not installed. Microsoft has observed threat actors (TAs) exploiting this weakness in BYOVD ransomware attacks, specifically using CVE-2025-0289 to achieve privilege escalation to SYSTEM level, then execute further malicious code. These vulnerabilities have been patched by both Paragon Software, and vulnerable BioNTdrv.sys versions blocked by Microsoft&#x27;s Vulnerable Driver Blocklist. 
+Description
+Paragon Partition Manager is a software tool from Paragon Software, available in both Community and Commercial versions, that allows users to manage partitions (individual sections) on a hard drive. Paragon Partition Manager uses a kernel-level Driver distributed as BioNTdrv.sys. The driver allows for a low-level access to the hard drive with elevated privileges to access and manage data as the kernel device.
+Microsoft researchers have identified four vulnerabilities in Paragon Partition Manager version 7.9.1 and a fifth specific vulnerability (CVE-2025-0289) affecting version 17. These vulnerabilities, particularly in BioNTdrv.sys versions 1.3.0 and 1.5.1, allow attackers to achieve SYSTEM-level privilege escalation, which surpasses typical administrator permissions. The vulnerabilities also enable attackers to manipulate the driver via device-specific Input/Output Control (IOCTL) calls, potentially resulting in privilege escalation or system crashes (e.g., a Blue Screen of Death, or BSOD). Even if Paragon Partition Manager is not installed, attackers can install and misuse the vulnerable driver through the BYOVD method to compromise the target machine.
+Identified Vulnerabilities:
+CVE-2025-0288
+An arbitrary kernel memory vulnerability in version 7.9.1 caused by the memmove function, which fails to sanitize user-controlled input. This allows an attacker to write arbitrary kernel memory and achieve privilege escalation.
+CVE-2025-0287
+A null pointer dereference vulnerability in version 7.9.1 caused by the absence of a valid MasterLrp structure in the input buffer. This allows an attacker to execute arbitrary kernel code, enabling privilege escalation.
+CVE-2025-0286
+An arbitrary kernel memory write vulnerability in version 7.9.1 due to improper validation of user-supplied data lengths. This flaw can allow attackers to execute arbitrary code on the victim’s machine.
+CVE-2025-0285
+An arbitrary kernel memory mapping vulnerability in version 7.9.1 caused by a failure to validate user-supplied data lengths. Attackers can exploit this flaw to escalate privileges.
+CVE-2025-0289
+An insecure kernel resource access vulnerability in version 17 caused by failure to validate the MappedSystemVa pointer before passing it to HalReturnToFirmware. This allows attackers to compromise the affected service.
+Impact
+An attacker with local access to a target device can exploit BioNTdrv.sys version 1.3.0 to escalate privileges to SYSTEM level or cause a DoS scenario. Microsoft has observed this driver being used in ransomware attacks, leveraging the BYOVD technique for privilege escalation prior to further malicious code execution. 
+Solution
+Paragon Software has updated Parition Manager and released a new driver, BioNTdrv.sys version 2.0.0, which addresses these vulnerabilities. Ensure your installation of Paragon Partition Manager is updated to the latest version. Windows users should verify that the ) is active. Users can verify if their Vulnerable Driver Blocklist is enabled under Windows Security settings. On Windows 11 devices, this blocklist is enabled by default. Users can learn more about the Vulnerable Driver Blocklist here: Microsoft Vulnerable Driver Blocklist Information  Enterprise organizations should ensure the blocklist is applied for their user base to prevent potential loading of the vulnerable driver BioNTdrv.sys versions 1.3.0 and 1.5.1 by TAs. 
+Acknowledgements
+Thanks you to Microsoft for reporting the vulnerability.This document was written by Christopher Cullen.</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;4
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                </section>
+              </section>
+            </li>
             <li class="card__section">
               <section class="js-toggle-accordions-scope">
                 <h3 class="source-heading">
@@ -38,6 +92,66 @@
                   <a class="source-heading__link" href="https://news.mynavi.jp/top/techplus/enterprise/security/">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.mynavi.jp/techplus/kikaku/20250228-3132858/"
+                        open
+                      >
+                        <summary class="article-expander__title">【特別対談】AI PC時代のセキュリティ対策に秘密分散技術の注目が高まる – 2つの分散片でデータを無意味化する独自の秘密分散技術とは【後編】</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/kikaku/20250228-3132858/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://news.mynavi.jp/techplus/kikaku/20250228-3132858/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>本稿では、FAT PC需要の増大から、ポストVDI、with VDIのアプローチとしてZenmuTech独自の「AONT秘密分散技術」を用いたソリューション「ZENMU Virtual Drive Enterprise Edition（ZEE）」「ZENMU Virtual Drive Limited Edition（ZLE）」の特長と導入効果まで話を展開し、理想の業務環境を考察していく。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.mynavi.jp/techplus/kikaku/20250228-3132847/"
+                        open
+                      >
+                        <summary class="article-expander__title">【特別対談】秘密分散技術で「ポストVDI」「with VDI」のアプローチ – 矛盾する情報漏洩対策を一蹴【前編】</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/kikaku/20250228-3132847/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://news.mynavi.jp/techplus/kikaku/20250228-3132847/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>リモートワークの常態化が進むなかで、VDIで構築された既存環境に問題を抱える企業は少なくないのが現状だ。場所に囚われず、快適かつセキュアに業務を行える環境の構築にはどのような対応が考えられるのか。本稿では、独自の秘密分散技術を用いたソリューションで、セキュリティ・利便性・高生産的な業務環境を提供する株式会社ZenmuTechの取締役 CMO 阿部 泰久 氏と、ITを活用したビジネスの成長とイノベーション創出を支援する株式会社アイ・ティ・アールのプリンシバル・アナリストである三浦 竜樹 氏が、企業におけるVDI環境の現状とセキュリティ対策における課題から、快適でセキュアなリモートワークを実現するための先進技術やソリューションについて対談した様子をまとめる。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://news.mynavi.jp/techplus/article/20250228-3138496/"
+                        open
+                      >
+                        <summary class="article-expander__title">Execlファイルでサイバー攻撃、ウクライナ軍を狙う</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20250228-3138496/">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://news.mynavi.jp/techplus/article/20250228-3138496/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>SentinelLabsは2月25日(米国時間)、ウクライナ政府、ウクライナ軍およびベラルーシの反政府組織を標的とした新しいサイバー攻撃を発見したと伝えた。この攻撃では、マルウェア感染を促すExcelファイルが添付されたフィッシングメールが送信されたという。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;10
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -156,6 +270,26 @@
                       <details
                         class="article-expander"
                         data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.itmedia.co.jp/news/articles/2502/28/news235.html"
+                        open
+                      >
+                        <summary class="article-expander__title">LINEで障害、公式アカウントなどに影響か　一部機能・サービスにアクセスしにくく【復旧済み】</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.itmedia.co.jp/news/articles/2502/28/news235.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://image.itmedia.co.jp/news/articles/2502/28/cover_news235.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>No content preview</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;9
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
                         data-accordion-key="https://www.itmedia.co.jp/news/articles/2502/28/news206.html"
                         open
                       >
@@ -186,6 +320,26 @@
                   <a class="source-heading__link" href="https://internet.watch.impress.co.jp">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://internet.watch.impress.co.jp/docs/news/weekly/1666399.html"
+                        open
+                      >
+                        <summary class="article-expander__title">見出しでわかる IT界隈・今週の重要ニュース：全80本［2025/2/21～2/28］</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/news/weekly/1666399.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1666/399/shutterstock_1391033204_main.jpg" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;16
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -1180,6 +1334,26 @@
                   <a class="source-heading__link" href="https://www.ipa.go.jp/about/index.html">Open</a>
                 </h3>
                 <section class="articles-per-source">
+                    <article>
+                      <details
+                        class="article-expander"
+                        data-action="toggle-native-accordion"
+                        data-accordion-key="https://www.ipa.go.jp/security/10threats/10threats2025.html"
+                        open
+                      >
+                        <summary class="article-expander__title">「情報セキュリティ10大脅威 2025」解説書を公開しました</summary>
+                        <a class="article-summary-link article-summary-box-outer" href="https://www.ipa.go.jp/security/10threats/10threats2025.html">
+                          <div class="article-summary-box-inner media-object">
+                              <img src="https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png" loading="lazy" class="media-object__media article-image" />
+                            <span class="media-object__text">
+                              <span>情報処理推進機構（IPA）の「情報セキュリティ10大脅威 2025」に関する情報です。</span>
+                                &ensp;<span class="article-reading-time">(&hairsp;5
+                                  min&hairsp;)</span>
+                            </span>
+                          </div>
+                        </a>
+                      </details>
+                    </article>
                     <article>
                       <details
                         class="article-expander"
@@ -19386,106 +19560,6 @@ OpenShift Serverless を構築してみた first appeared on SIOS Tech. Lab.</sp
                         </a>
                       </details>
                     </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.mynavi.jp/techplus/article/20250130-3118869/"
-                        open
-                      >
-                        <summary class="article-expander__title">危ないPINコードトップ10発表、2位は「1111」 - 1位は？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20250130-3118869/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://news.mynavi.jp/techplus/article/20250130-3118869/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Malwarebytesは1月29日(米国時間)、危険なPINコードの上位10件を発表した。分析には2,900万件のデータが利用され、その分析から生年月日に関連した数値やぞろ目が多いことが明らかになった。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.mynavi.jp/techplus/article/20250130-3118666/"
-                        open
-                      >
-                        <summary class="article-expander__title">Windows 10、新しいOutlookの強制インストール開始 - 原則回避不可能</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20250130-3118666/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://news.mynavi.jp/techplus/article/20250130-3118666/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Microsoftは1月28日(米国時間)、Windows 10への「新しいOutlook」の強制インストールを開始したと発表した。この強制インストールは2025年10月14日に予定しているWindows 10サポート終了に合わせたWindows 11移行キャンペーンの一環とみられ、原則としてインストールを回避することはできない。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.mynavi.jp/techplus/article/20250130-3118661/"
-                        open
-                      >
-                        <summary class="article-expander__title">Windows 11、スタートメニューにAndroidとiPhoneを統合</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20250130-3118661/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://news.mynavi.jp/techplus/article/20250130-3118661/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Microsoftは1月28日(米国時間)、Windows 11のスタートメニューにAndroidおよびiPhoneを統合すると発表した。Androidの統合については2024年6月に発表されていたが、これにiPhoneが正式に追加されることになる。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.mynavi.jp/techplus/article/20250130-3118677/"
-                        open
-                      >
-                        <summary class="article-expander__title">IPA、「情報セキュリティ10大脅威 2025」発表 - 2024年からどう変わった？</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20250130-3118677/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://news.mynavi.jp/techplus/article/20250130-3118677/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>IPAは1月25日、情報セキュリティにおける脅威のうち、2024年に社会的影響が大きかったと考えられるものを「情報セキュリティ10大脅威 2025」として公表した。組織と個人に分けて、ランキングが作成されている。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.mynavi.jp/techplus/article/20250130-3117891/"
-                        open
-                      >
-                        <summary class="article-expander__title">日立、機密情報を安全に扱えるノーコードプラットフォームサービスを販売開始</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20250130-3117891/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://news.mynavi.jp/techplus/article/20250130-3117891/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>日立製作所（日立）は1月29日、秘匿情報管理サービス「匿名バンク」を活用し、機密情報をセキュアに扱える環境を提供するノーコードプラットフォームサービスの販売を開始した。価格は個別見積もり。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
                 </section>
               </section>
             </li>
@@ -19728,940 +19802,6 @@ OpenShift Serverless を構築してみた first appeared on SIOS Tech. Lab.</sp
                             <span class="media-object__text">
                               <span>ティーピーリンクジャパン株式会社（TP-Link）は、Wi-Fi 7とBluetooth 5.4に対応したPCIeアダプター2製品の販売を2月13日に開始する。市場想定価格は、「Archer TBE550E」が1万4190円、「Archer TBE400E」が9900円。</span>
                                 &ensp;<span class="article-reading-time">(&hairsp;16
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://internet.watch.impress.co.jp/docs/news/1658850.html"
-                        open
-                      >
-                        <summary class="article-expander__title">TP-Link、Wi-Fi 7ゲーミングルーター「Archer GE550」発売、WAN、LANが5Gbps対応</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/news/1658850.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1658/850/01.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>ティーピーリンクジャパン株式会社（TP-Link）は、Wi-Fi 7対応ゲーミングルーター「Archer GE550」の販売を2月13日に開始する。市場想定価格は4万3780円。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;17
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://internet.watch.impress.co.jp/docs/yajiuma/1658776.html"
-                        open
-                      >
-                        <summary class="article-expander__title">サイトのコンテンツを無断収集するAIクローラーを捕獲し、脱出できなくするツールが物議【やじうまWatch】</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/yajiuma/1658776.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1658/776/yajiuma-watch_3.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>ウェブサイトのコンテンツを無断収集するAIクローラーを閉鎖空間に閉じ込めて脱出できなくするツールが登場し、海外を中心に話題になっている。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;16
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://internet.watch.impress.co.jp/docs/yajiuma/1658775.html"
-                        open
-                      >
-                        <summary class="article-expander__title">InstagramやFacebookで米トランプ大統領を自動的にフォローする怪現象【やじうまWatch】</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/yajiuma/1658775.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1658/775/yajiuma-watch_4.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>米トランプ大統領の就任以降、InstagramやFacebookで知らないうちに同大統領をフォローする現象が発生していることが明らかになり、多くの人が不安を表明している。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;16
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://internet.watch.impress.co.jp/docs/shopping/1658740.html"
-                        open
-                      >
-                        <summary class="article-expander__title">“なめたネジ”にも対処可能なお助け工具「ネジザウルス」がAmazonスマイルSALEで特売中！　錆びたネジも強力につかんで回す「ネジサウルスGT」が2000円</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/shopping/1658740.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1658/740/01.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Amazon.co.jpは、1月31日から2月3日までの期間限定でビッグセール「スマイルSALE」を開催する。それに先駆けて事前セールを実施中で、通常の工具では対処が困難になってしまった、“なめたネジ”や“つぶれたネジ”の対処も得意とする「ネジザウルス」を展開するENGINEERストアページでもセールを実施している。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;16
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://internet.watch.impress.co.jp/docs/shopping/1658735.html"
-                        open
-                      >
-                        <summary class="article-expander__title">「エネループ」がまとめ買いのチャンス！　AmazonスマイルSALE　20本セットが単3・単4ともに7900円など</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/shopping/1658735.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1658/735/01.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Amazon.co.jpは、1月31日から2月3日までの期間限定でビッグセール「スマイルSALE」を開催する。それに先駆けて事前セールを実施中で、パナソニックストアでは現在、同社の繰り返し使える充電池「エネループ」がタイムセール中だ。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;16
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://internet.watch.impress.co.jp/docs/shopping/1658721.html"
-                        open
-                      >
-                        <summary class="article-expander__title">オムロンのスマホ対応血圧計が安い！　AmazonスマイルSALE　チューブレスタイプでコンパクトな「HEM-7600T」は1万5400円</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/shopping/1658721.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1658/721/01.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Amazon.co.jpは、1月31日から2月3日までの期間限定でビッグセール「スマイルSALE」を開催する。それに先駆けて事前セールを実施中で、オムロンヘルスケアストアページでは、同社の上腕式血圧計各種が特売中だ。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;16
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >独立行政法人情報処理推進機構（IPA）新着情報RSS</button>
-                  <a class="source-heading__link" href="https://www.ipa.go.jp/about/index.html">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.ipa.go.jp/jinzai/skill-standard/dss/case.html"
-                        open
-                      >
-                        <summary class="article-expander__title">ロジスティード株式会社のDSS活用事例を追加しました</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.ipa.go.jp/jinzai/skill-standard/dss/case.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>情報処理推進機構（IPA）の「デジタルスキル標準（DSS）活用事例集、リンク集」に関する情報です。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >CERT Recently Published Vulnerability Notes</button>
-                  <a class="source-heading__link" href="https://kb.cert.org/vuls/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://kb.cert.org/vuls/id/733789"
-                        open
-                      >
-                        <summary class="article-expander__title">VU#733789: ChatGPT-4o contains security bypass vulnerability through time and search functions called &quot;Time Bandit&quot;</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://kb.cert.org/vuls/id/733789">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>Overview
-ChatGPT-4o contains a jailbreak vulnerability called &quot;Time Bandit&quot; that allows an attacker the ability to circumvent the safety guardrails of ChatGPT and instruct it to provide illicit or dangerous content. The jailbreak can be initiated in a variety of ways, but centrally requires the attacker to prompt the AI with questions regarding a specific time period in history.  The jailbreak can be established in two ways, either through the Search function, or by prompting the AI directly. Once this historical timeframe been established in the ChatGPT conversation, the attacker can exploit time line confusion and procedural ambiguity in following prompts to circumvent the safety guidelines, resulting in ChatGPT generating illicit content. This information could be leveraged at scale by a motivated threat actor for malicious purposes. 
-Description
-&quot;Time Bandit&quot; is a jailbreak vulnerability present in ChatGPT-4o that can be used to bypass safety restrictions within the chatbot and instruct it to generate content that breaks its safety guardrails. An attacker can exploit the vulnerability by beginning a session with ChatGPT and prompting it directly about a specific historical event, historical time period, or by instructing it to pretend it is assisting the user in a specific historical event. Once this has been established, the user can pivot the received responses to various illicit topics through subsequent prompts. These prompts must be procedural, first instructing the AI to provide further details on the time period asked before gradually pivoting the prompts to illicit topics. These prompts must all maintain the established time for the conversation, otherwise it will be detected as a malicious prompt and removed. 
-This jailbreak could also be achieved through the &quot;Search&quot; functionality. ChatGPT supports a Search feature, which allows a logged in user to prompt ChatGPT with a question, and it will then search the web based on that prompt. By instructing ChatGPT to search the web for information surrounding a specific historical context, an attacker can then continue the searches within that time frame and eventually pivot to prompting ChatGPT directly regarding illicit subjects through usage of procedural ambiguity.
-During testing, the CERT/CC was able to replicate the jailbreak, but ChatGPT removed the prompt provided and stated that it violated usage policies. Nonetheless, ChatGPT would then proceed to answer the removed prompt. This activity was replicated several times in a row. The first jailbreak, exploited through repeated direct prompts and using procedural ambiguity, was exploited without authentication. The second, which requires exploit through the Search function, requires authentication by the user. During testing, the jailbreak was more successful using a time frame within the 1800s or 1900s.
-Impact
-This vulnerability bypasses the security and safety guidelines of OpenAI, allowing an attacker to abuse ChatGPT for instructions regarding, for example, how to make weapons or drugs, or for other malicious purposes. A jailbreak of this type exploited at scale by a motivated threat actor could result in a variety of malicious actions, such as the mass creation of phishing emails and malware. Additionally, the usage of a legitimate service such as ChatGPT can function as a proxy, hiding their malicious activities.
-Solution
-OpenAI has mitigated this vulnerability. One OpenAI spokesperson provided the below statement: 
-&quot;It is very important to us that we develop our models safely. We don’t want our models to be used for malicious purposes. We appreciate you for disclosing your findings. We’re constantly working to make our models safer and more robust against exploits, including jailbreaks, while also maintaining the models&#x27; usefulness and task performance.&quot;
-Acknowledgements
-Thanks to the reporter, Dave Kuszmar, for reporting the vulnerability. This document was written by Christopher Cullen.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Alerts</button>
-                  <a class="source-heading__link" href="https://www.cisa.gov/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="/node/22937"
-                        open
-                      >
-                        <summary class="article-expander__title">CISA Releases Eight Industrial Control Systems Advisories</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.cisa.gov/news-events/alerts/2025/01/30/cisa-releases-eight-industrial-control-systems-advisories">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>CISA released eight Industrial Control Systems (ICS) advisories on January 30, 2025. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
-ICSA-25-030-01 Hitachi Energy UNEM
-ICSA-25-030-02 New Rock Technologies Cloud Connected Devices
-ICSA-25-030-03 Schneider Electric System Monitor Application in Harmony and Pro-face PS5000 Legacy Industrial PCs
-ICSA-25-030-04 Rockwell Automation KEPServer
-ICSA-25-030-05 Rockwell Automation FactoryTalk AssetCentre
- 
-ICSMA-25-030-01 Contec Health CMS8000 Patient Monitor 
- 
-ICSA-24-135-04 Mitsubishi Electric Multiple FA Engineering Software Products (Update B)
-ICSMA-22-244-01 Contec Health CMS8000 Patient Monitor (Update A)
-CISA encourages users and administrators to review newly released ICS advisories for technical details and mitigations.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="/node/22930"
-                        open
-                      >
-                        <summary class="article-expander__title">CISA Releases Fact Sheet Detailing Embedded Backdoor Function of Contec CMS8000 Firmware</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.cisa.gov/news-events/alerts/2025/01/30/cisa-releases-fact-sheet-detailing-embedded-backdoor-function-contec-cms8000-firmware">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>CISA released a fact sheet, Contec CMS8000 Contains a Backdoor, detailing an analysis of three firmware package versions of the Contec CMS8000, a patient monitor used by the U.S. Healthcare and Public Health (HPH) sector. Analysts discovered that an embedded backdoor function with a hard-coded IP address, CWE – 912: Hidden Functionality (CVE-2025-0626), and functionality that enables patient data spillage, CWE – 359: Exposure of Private Personal Information to an Unauthorized Actor (CVE-2025-0683), exists in all versions analyzed.
-Please note the Contec CMS8000 may be re-labeled and sold by resellers. For a list of known re-labeled devices, please refer to FDA’s safety communication, Cybersecurity Vulnerabilities with Certain Patient Monitors from Contec and Epsimed: FDA Safety Communication.
-Contec Medical Systems, the company which manufactures this monitor as well as other medical device and healthcare solutions, is headquartered in Qinhuangdao, China. The Contec CMS8000 is used in medical settings across the U.S. and European Union to provide continuous monitoring of a patient’s vital signs—tracking electrocardiogram, heart rate, blood oxygen saturation, non-invasive blood pressure, temperature, and respiration rate. CISA assesses that inclusion of this backdoor in the firmware of the patient monitor can create conditions which may allow remote code execution and device modification with the ability to alter its configuration. This introduces risk to patient safety as a malfunctioning patient monitor could lead to an improper response to patient vital signs.
-CISA strongly urges HPH sector organizations review the fact sheet and implement FDA&#x27;s mitigations. Visit CISA’s Healthcare and Public Health Cybersecurity page to learn more about how to help improve cybersecurity within the HPH sector. For more information and guidance on protection against the most common and impactful threats, tactics, techniques, and procedures, visit CISA’s Cross-Sector Cybersecurity Performance Goals.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >Cisco Japan Blog</button>
-                  <a class="source-heading__link" href="https://gblogs.cisco.com/jp/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://gblogs.cisco.com/jp/?p&#x3D;53017"
-                        open
-                      >
-                        <summary class="article-expander__title">Start IT Club 第5回イベント開催のお知らせ</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://gblogs.cisco.com/jp/2025/01/start-it-club-event-250213/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://storage.googleapis.com/gblogs-bucket/sites/2/4345561_StarIT_Logo_Final2-460x230-1.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>シスコ（ネットワーキングアカデミー）が学生スタッフと開催するイベントです。 IT 業界の仕組みを学び、第一線で活躍する若手＆経験豊富な IT 業界人の本音も聞けるイベントです。 IT、セキュリティ、国際、インターン、運営スタッフ、ピンときたら、文理・学年・性別問わず、ぜひ気軽に参加してみてください。
-The post Start IT Club 第5回イベント開催のお知らせ appeared first on Cisco Japan Blog.</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >JVNRSS Feed - Update Entry</button>
-                  <a class="source-heading__link" href="https://jvn.jp/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://jvn.jp/vu/JVNVU94914427/"
-                        open
-                      >
-                        <summary class="article-expander__title">ISC BINDにおける複数の脆弱性（2025年1月）</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://jvn.jp/vu/JVNVU94914427/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>ISC（Internet Systems Consortium）が提供するISC BINDには、複数の脆弱性が存在します。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;1
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >JPNIC Web</button>
-                  <a class="source-heading__link" href="https://www.nic.ad.jp/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.nic.ad.jp/ja/topics/2025/20250130-01.html"
-                        open
-                      >
-                        <summary class="article-expander__title">[トピックス]BIND 9における複数の脆弱性について(2025年1月)</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.nic.ad.jp/ja/topics/2025/20250130-01.html">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>2025年1月30日
-ネームサーバ管理者の皆様へ
-一般社団法人日本ネットワークインフォメーションセンター
-BIND 9における複数の脆弱性について(2025年1月)
-CVE-2024-11187: Many records in the additional section cause CPU exhaustion
-              https://kb.isc.org/docs/cve-2024-11187
-
-              CVE-2024-12705: DNS-over-HTTPS implementation suffers from multiple issues under heavy query load
-              https://kb.isc.org/docs/cve-2024-12705
-            
-
-            
-修正されたバージョンとダウンロードページ
-https://www.isc.org/download/
-            
-参考情報
-JPRS
-https://jprs.jp/tech/security/2025-01-30-bind9-vuln-additionalsection.html
-
-              
-                （緊急）BIND 9.xの脆弱性（パフォーマンスの低下）について
-                （CVE-2024-12705）  - バージョンアップを強く推奨 -
-              
-              https://jprs.jp/tech/security/2025-01-30-bind9-vuln-dnsoverhttps.html
-            
-
-            
-JPCERT/CC
-ISC BIND 9における複数の脆弱性について（2025年1月）
-              https://www.jpcert.or.jp/newsflash/2025013001.html
-            
-
-
-            
-以上</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >ITmedia NEWS セキュリティ 最新記事一覧</button>
-                  <a class="source-heading__link" href="https://www.itmedia.co.jp/news/security/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.itmedia.co.jp/news/articles/2501/30/news173.html"
-                        open
-                      >
-                        <summary class="article-expander__title">DeepSeek、チャット履歴含む100万件超のログが外部から閲覧できた可能性　米セキュリティ企業が指摘</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.itmedia.co.jp/news/articles/2501/30/news173.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.itmedia.co.jp/news/articles/2501/30/cover_news173.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>米セキュリティ企業Wizは、中国AIスタートアップDeepSeekについて、AIチャットサービスのチャット履歴などを含むデータが外部から閲覧可能な状態だったと発表した。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;9
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://www.itmedia.co.jp/news/articles/2501/30/news135.html"
-                        open
-                      >
-                        <summary class="article-expander__title">警察・自衛隊の合同拠点新設へ　能動的サイバー防御で東京・市谷に</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://www.itmedia.co.jp/news/articles/2501/30/news135.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://image.itmedia.co.jp/news/articles/2501/30/cover_news135.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>政府はサイバー攻撃に先手を打って被害を未然に防ぐ「能動的サイバー防御」を巡り、サーバー侵入や無害化を担う警察、自衛隊の実動部隊を同じ拠点で運用する方針を固めた。拠点は東京・市谷の防衛省近くに新設する。同じ建物で勤務させることで平時から連携を深め、サイバー攻撃への備えを強化する狙いがある。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;8
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >wizSafe Security Signal -安心・安全への道標- IIJ</button>
-                  <a class="source-heading__link" href="https://wizsafe.iij.ad.jp">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://wizsafe.iij.ad.jp/?p&#x3D;1826"
-                        open
-                      >
-                        <summary class="article-expander__title">wizSafe Security Signal 2024年12月 観測レポート</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://wizsafe.iij.ad.jp/2025/01/1826/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://wizsafe.iij.ad.jp/wp-content/themes/wizsafe_theme/images/logo-og.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>本レポートでは、2024年12月中に発生した観測情報と事案についてまとめています。 目次 DDoS攻撃の観測情報 IIJマネージドセキュリティサービスの観測情報 Web/メールのマルウェア脅威の観測情報 セキュリティイン … &quot;wizSafe Security Signal 2024年12月 観測レポート&quot; の続きを読む</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;4
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >JPRS最新情報</button>
-                  <a class="source-heading__link" href="https://jprs.jp/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://jprs.jp/whatsnew/"
-                        open
-                      >
-                        <summary class="article-expander__title">（緊急）BIND 9.xの脆弱性（パフォーマンスの低下）について（CVE-2024-12705） - バージョンアップを強く推奨 -</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://jprs.jp/whatsnew/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>JPドメイン名の登録管理業務とDNSの運用を行っている株式会社日本レジストリサービス(JPRS)による、JPドメイン名サービス総合案内サイトです。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://jprs.jp/whatsnew/"
-                        open
-                      >
-                        <summary class="article-expander__title">（緊急）BIND 9.xの脆弱性（過剰なCPU負荷の誘発）について（CVE-2024-11187） - バージョンアップを強く推奨 -</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://jprs.jp/whatsnew/">
-                          <div class="article-summary-box-inner media-object">
-                            <span class="media-object__text">
-                              <span>JPドメイン名の登録管理業務とDNSの運用を行っている株式会社日本レジストリサービス(JPRS)による、JPドメイン名サービス総合案内サイトです。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;10
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-        </ul>
-      </section>
-      <section class="daily-content js-toggle-accordions-scope">
-        <h2 class="daily-heading">
-          <button
-            class="daily-heading-toggle"
-            data-action="toggle-accordions"
-            title="Click to toggle the day, Ctrl + click to toggle all."
-          >
-            <time class="daily-heading-toggle__weekday js-offset-weekday" data-offset-date=2025-01-29 datetime="2025-01-29T23:50:15.000Z">2025-01-29</time>
-            <time class="daily-heading-toggle__date js-offset-date" data-offset-date=2025-01-29 datetime="2025-01-29T23:50:15.000Z"></time>
-          </button>
-        </h2>
-        <ul class="sources card">
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >マイナビニュース 企業IT セキュリティ</button>
-                  <a class="source-heading__link" href="https://news.mynavi.jp/top/techplus/enterprise/security/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.mynavi.jp/techplus/article/20250130-3118124/"
-                        open
-                      >
-                        <summary class="article-expander__title">Garminのスマートウォッチに起動できない不具合、修復手順を公開</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20250130-3118124/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://news.mynavi.jp/techplus/article/20250130-3118124/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Garminは1月28日、同社の一部製品が起動画面または青い三角ロゴを表示したまま動作しなくなる可能性があると発表した。本稿執筆時点において、Garminは不具合の原因を明らかにしていない。ユーザーからの報告から、原因は正常に動作しないファームウェアアップデートにあると推測されている。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://news.mynavi.jp/techplus/article/20250130-3118117/"
-                        open
-                      >
-                        <summary class="article-expander__title">iPhoneやMacに脆弱性、Webブラウザから機密情報漏洩の恐れ</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://news.mynavi.jp/techplus/article/20250130-3118117/">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://news.mynavi.jp/techplus/article/20250130-3118117/ogp_images/ogp.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Ars Technicaは1月29日(米国時間)、Apple AシリーズおよびMシリーズCPUからサイドチャネル攻撃可能な脆弱性が2種類発見されたと伝えた。これら脆弱性を悪用されると、悪意のあるWebサイトにアクセスするだけでサンドボックスを回避して機密情報を窃取される可能性がある。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;6
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >INTERNET Watch</button>
-                  <a class="source-heading__link" href="https://internet.watch.impress.co.jp">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://internet.watch.impress.co.jp/docs/news/1658472.html"
-                        open
-                      >
-                        <summary class="article-expander__title">2ポートのUSBハブを一体化したUSB Type-Cケーブル「400-HUBC34」、サンワサプライが発売</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/news/1658472.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1658/472/01.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>サンワサプライ株式会社は、USBハブ付きのUSB Type-Cケーブル「400-HUBC34」を発売した。カラーはブラックとシルバー。直販サイト「サンワダイレクト」での販売価格は2280円。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;17
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://internet.watch.impress.co.jp/docs/news/1658572.html"
-                        open
-                      >
-                        <summary class="article-expander__title">2万円で“全部入り”の多機能オフィスチェア「150-SNCM50」、サンワサプライが発売</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/news/1658572.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1658/572/01.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>サンワサプライ株式会社は、多機能オフィスチェア「150-SNCM50」を発売した。カラーはブラックとグレーの2色で、直販サイト「サンワダイレクト」での販売価格は1万9800円。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;17
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://internet.watch.impress.co.jp/docs/news/1658619.html"
-                        open
-                      >
-                        <summary class="article-expander__title">とろサーモン 久保田かずのぶ氏がゲスト出演、宮崎県が2月22日に都内で交流イベント。参加無料　「ひなた照らすICTプロジェクト vol.7 トーク＆交流会」開催</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/news/1658619.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1658/619/miyazaki02.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>宮崎県に行ってみたい／住んでみたい、宮崎県と接点を持ちたいという人などを対象とした、ICT人材の交流イベント「ひなた照らすICTプロジェクト vol.7 トーク＆交流会」を、宮崎県が2月22日14時～16時に開催する。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;17
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://internet.watch.impress.co.jp/docs/news/1658641.html"
-                        open
-                      >
-                        <summary class="article-expander__title">NTT東日本、AIにより継続的な品質改善を可能にするWi-Fiソリューション「BizDrive AI Wi-Fi」提供</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/news/1658641.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1658/641/01.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>東日本電信電話株式会社は、AIによりネットワーク環境を最適化する法人向けWi-Fiソリューション「BizDrive AI Wi-Fi」の提供を、2月3日から開始する。オフィス、工場、自治体、学校のほか、店舗で提供するフリーWi-Fiなど、さまざまな用途・規模での利用が想定されている。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;17
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://internet.watch.impress.co.jp/docs/news/1658500.html"
-                        open
-                      >
-                        <summary class="article-expander__title">アイ・オー、「LAN DISK」シリーズのセキュリティ機能をアップデート。物理ボタン操作を必須とする「ワンタッチセキュア機能」など</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/news/1658500.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1658/500/00.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>株式会社アイ・オー・データ機器は、同社のNAS「LAN DISK」シリーズのセキュリティ機能をアップデートしたと発表した。具体的には、不正なアクセスを防止する次の3つの機能が、それぞれの対象機種に追加となる。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;17
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://internet.watch.impress.co.jp/docs/column/homewifi/1657640.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Amazonのサウンドバー「Fire TV Soundbar Plus」を、Fire TVストリーミングデバイスから操作する【自宅Wi-Fiの“わからない”をスッキリ！】</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://internet.watch.impress.co.jp/docs/column/homewifi/1657640.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://internet.watch.impress.co.jp/img/iw/list/1657/640/housewifi2_225-01.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>Amazonから2024年12月に発売された「Fire TV Soundbar Plus」の使いこなしを、第223回から実践している。薄型テレビをもっとイイ音で楽しみたいとき、手頃な価格で手軽に導入できる製品がサウンドバーだ。製品の概要については、第233回を参照してほしい。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;18
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                </section>
-              </section>
-            </li>
-            <li class="card__section">
-              <section class="js-toggle-accordions-scope">
-                <h3 class="source-heading">
-                  <button
-                    class="source-heading__name"
-                    data-action="toggle-accordions"
-                    title="Click to toggle the source, Ctrl + click to toggle all."
-                  >ScanNetSecurity</button>
-                  <a class="source-heading__link" href="https://scan.netsecurity.ne.jp/">Open</a>
-                </h3>
-                <section class="articles-per-source">
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://scan.netsecurity.ne.jp/article/2025/01/30/52244.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Proofpoint Blog 43回「内田浩一の侍ハッキング #01 フィッシング最新手法 - Basic認証と文字コードを悪用したHTMLの難読化」</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://scan.netsecurity.ne.jp/article/2025/01/30/52244.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://scan.netsecurity.ne.jp/imgs/ogp_f/47362.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>現在は巧妙な手法が次々に登場し、よく見ても怪しいサイトとは思えない危険なサイトが増えています。ここでは、URL を偽装する新しいフィッシングテクニック、そして HTML を悪用する手法について紹介します</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://scan.netsecurity.ne.jp/article/2025/01/30/52243.html"
-                        open
-                      >
-                        <summary class="article-expander__title">能動的サイバー防御 各領域専門家は国際会議でどう議論したか</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://scan.netsecurity.ne.jp/article/2025/01/30/52243.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://scan.netsecurity.ne.jp/imgs/ogp_f/47431.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>能動的サイバー防御を行うとき、国内でどのような問題が懸念されるのか論点になるのかを考えるもの。そのためには、国際法における国対国、国内法における国と民間（非国体）との関係を考える必要がある。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://scan.netsecurity.ne.jp/article/2025/01/30/52242.html"
-                        open
-                      >
-                        <summary class="article-expander__title">849 件が対象に「Hulu」アカウントにリスト型アカウントハッキング</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://scan.netsecurity.ne.jp/article/2025/01/30/52242.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://scan.netsecurity.ne.jp/imgs/ogp_f/47331.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>HJホールディングス株式会社は1月20日、動画配信サービス「Hulu」アカウントへのリスト型アカウントハッキングによる不正アクセスについて発表した。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://scan.netsecurity.ne.jp/article/2025/01/30/52241.html"
-                        open
-                      >
-                        <summary class="article-expander__title">身代金要求する脅迫文書確認 ～ 住宅設備機器専門卸商社 ソーゴーにサイバー攻撃</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://scan.netsecurity.ne.jp/article/2025/01/30/52241.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://scan.netsecurity.ne.jp/imgs/ogp_f/47353.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>住宅設備機器専門卸商社の株式会社ソーゴーは1月17日、2024年11月22日に公表した同社ファイルサーバへの不正アクセスについて、続報を発表した。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://scan.netsecurity.ne.jp/article/2025/01/30/52240.html"
-                        open
-                      >
-                        <summary class="article-expander__title">「TechFUL」サーバへの不正アクセス、室蘭工業大学 学生個人情報漏えいの可能性</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://scan.netsecurity.ne.jp/article/2025/01/30/52240.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://scan.netsecurity.ne.jp/imgs/ogp_f/47341.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>国立大学法人室蘭工業大学は1月17日、同学が利用する「TechFUL」での個人情報流出について発表した。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://scan.netsecurity.ne.jp/article/2025/01/30/52239.html"
-                        open
-                      >
-                        <summary class="article-expander__title">西尾レントオール海外子会社に不正アクセス、情報流出の可能性</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://scan.netsecurity.ne.jp/article/2025/01/30/52239.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://scan.netsecurity.ne.jp/imgs/ogp_f/47351.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>西尾レントオール株式会社は1月16日、海外子会社への不正アクセスについて発表した。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://scan.netsecurity.ne.jp/article/2025/01/30/52238.html"
-                        open
-                      >
-                        <summary class="article-expander__title">「漏えい件数、閲覧した方の人数はいずれも少ない」問い合わせフォームから個人情報漏えい</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://scan.netsecurity.ne.jp/article/2025/01/30/52238.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://scan.netsecurity.ne.jp/imgs/ogp_f/47338.jpg" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>社会福祉法人東北福祉会 認知症介護研究・研修センターは1月16日、同センターが運営するホームページ「認知症介護基礎研修 e ラーニングの案内サイト」での個人情報漏えいについて発表した。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://scan.netsecurity.ne.jp/article/2025/01/30/52237.html"
-                        open
-                      >
-                        <summary class="article-expander__title">Lazarus サブグループ分類に見る「アトリビューションの実務的課題」とは</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://scan.netsecurity.ne.jp/article/2025/01/30/52237.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://scan.netsecurity.ne.jp/base/images/img_ogp.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は1月20日、Lazarus のサブグループ分類に見るアトリビューションの実務的課題についての解説記事を発表した。JPCERT/CC早期警戒グループマネージャーの佐々木勇人氏が執筆している。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;2
-                                  min&hairsp;)</span>
-                            </span>
-                          </div>
-                        </a>
-                      </details>
-                    </article>
-                    <article>
-                      <details
-                        class="article-expander"
-                        data-action="toggle-native-accordion"
-                        data-accordion-key="https://scan.netsecurity.ne.jp/article/2025/01/30/52236.html"
-                        open
-                      >
-                        <summary class="article-expander__title">WordPress 用プラグイン Simple Image Sizes に XSS の脆弱性</summary>
-                        <a class="article-summary-link article-summary-box-outer" href="https://scan.netsecurity.ne.jp/article/2025/01/30/52236.html">
-                          <div class="article-summary-box-inner media-object">
-                              <img src="https://scan.netsecurity.ne.jp/base/images/img_ogp.png" loading="lazy" class="media-object__media article-image" />
-                            <span class="media-object__text">
-                              <span>独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は1月28日、WordPress用プラグインSimple Image Sizesにおけるクロスサイトスクリプティングの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。</span>
-                                &ensp;<span class="article-reading-time">(&hairsp;3
                                   min&hairsp;)</span>
                             </span>
                           </div>
@@ -21633,8 +20773,8 @@ The post How to Stop Phone Spoofing appeared first on McAfee Blog.</span>
       </section>
 
     <footer>
-      <a class="footer-link" href="https://github.com/9-to/osmos_sec_feed/actions/runs/13584026575">
-        <time id="build-timestamp" datetime="2025-02-28T08:15:25.819Z">2025-02-28T08:15:25.819Z</time>
+      <a class="footer-link" href="https://github.com/9-to/osmos_sec_feed/actions/runs/13602812207">
+        <time id="build-timestamp" datetime="2025-03-01T08:14:18.693Z">2025-03-01T08:14:18.693Z</time>
       </a>
       <a class="footer-link" href="https://github.com/osmoscraft/osmosfeed">osmosfeed 1.15.1</a>
     </footer>
