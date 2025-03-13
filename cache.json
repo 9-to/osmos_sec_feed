@@ -459,6 +459,16 @@
       "siteUrl": "https://www.ipa.go.jp/about/index.html",
       "articles": [
         {
+          "id": "https://www.ipa.go.jp/security/seminar/vuln/lab-scap-2025-1.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「「脆弱性対策情報の動向と効果的な収集に向けて」セミナー開催のお知らせ」に関する情報です。",
+          "link": "https://www.ipa.go.jp/security/seminar/vuln/lab-scap-2025-1.html",
+          "publishedOn": "2025-03-12T15:00:00.000Z",
+          "wordCount": 1383,
+          "title": "「脆弱性対策情報の動向と効果的な収集に向けて」セミナーの申し込み受付を開始しました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
           "id": "https://www.ipa.go.jp/disc/event.html",
           "author": "情報処理推進機構（IPA）",
           "description": "情報処理推進機構（IPA）の「講演情報・関連団体イベント情報」に関する情報です。",
@@ -1307,26 +1317,6 @@
           "wordCount": 743,
           "title": "DeepSeek とその他のフロンティア推論モデルにおけるセキュリティリスクの評価",
           "imageUrl": "https://storage.googleapis.com/gblogs-bucket/sites/2/Picture4-460x230.png"
-        },
-        {
-          "id": "https://gblogs.cisco.com/jp/?p=53163",
-          "author": "TALOS Japan",
-          "description": "今週も脅威情報ニュースレターをお届けします。今さら言うまでもないことですが、セキュリティの状況は絶えず変化していて、さらなる変化も待ち構えています。\nThe post 今から、将来の脅威撃退に向けた備えを appeared first on Cisco Japan Blog.",
-          "link": "https://gblogs.cisco.com/jp/2025/02/talos-defeating-future-threats-starts-today/",
-          "publishedOn": "2025-02-11T08:50:54.000Z",
-          "wordCount": 637,
-          "title": "今から、将来の脅威撃退に向けた備えを",
-          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/12AS91226_eyecatch-460x230.jpg"
-        },
-        {
-          "id": "https://gblogs.cisco.com/jp/?p=53167",
-          "author": "TALOS Japan",
-          "description": "この第 4 四半期には、脆弱な Web アプリケーションに対して Web シェルを展開し、脆弱性があるかパッチ未適用の公開アプリケーションを主なエクスプロイト対象として初期アクセスを獲得する手口が増加しました。これは、前四半期までの状況からの大きな変化です。\nThe post 2024 年第 4 四半期の Talos IR の動向：Web シェルの使用と公開アプリケーションのエクスプロイトが急増 appeared first on Cisco Japan Blog.",
-          "link": "https://gblogs.cisco.com/jp/2025/02/talos-talos-ir-trends-q4-2024/",
-          "publishedOn": "2025-02-11T08:28:48.000Z",
-          "wordCount": 1109,
-          "title": "2024 年第 4 四半期の Talos IR の動向：Web シェルの使用と公開アプリケーションのエクスプロイトが急増",
-          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/11AS90304_eyecatch-460x230.jpg"
         }
       ]
     },
@@ -1353,6 +1343,26 @@
       "feedUrl": "https://tech-lab.sios.jp/feed",
       "siteUrl": "https://tech-lab.sios.jp",
       "articles": [
+        {
+          "id": "https://tech-lab.sios.jp/?p=46841",
+          "author": "龍：Ryu",
+          "description": "始めに ども！最近は登壇資料を全力で作成しており、いろんなことが後回しになっている龍ちゃんです。3月に入ってしっかりブログ更新の手が止まってしまっていました。なので、直近の業務でブログ化できそうなところを書いていきます。 ...\nFigmaプレゼン資料を爆速で作る！時系列デザインサンプル｜カラーコード付き first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/46841",
+          "publishedOn": "2025-03-13T00:00:00.000Z",
+          "wordCount": 2100,
+          "title": "Figmaプレゼン資料を爆速で作る！時系列デザインサンプル｜カラーコード付き",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2025/03/22f47d24792696e0ac172f2efb687d57.jpg"
+        },
+        {
+          "id": "https://tech-lab.sios.jp/?p=46850",
+          "author": "木下龍祐",
+          "description": "はじめに Kubernetes環境でのストレージ管理は、アプリケーションの可用性やスケーラビリティに大きく関わります。 本記事では、Kubernetes向けの代表的なストレージソリューションである ODF（Red Hat ...\nコンテナプラットフォームで活用出来るストレージサービス（ODF / Longhorn / MinIO ）とは？ first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/46850",
+          "publishedOn": "2025-03-12T12:19:14.000Z",
+          "wordCount": 2157,
+          "title": "コンテナプラットフォームで活用出来るストレージサービス（ODF / Longhorn / MinIO ）とは？",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2025/03/d7d6d6fb2c1e513499f5ba0071d10290.png"
+        },
         {
           "id": "https://tech-lab.sios.jp/?p=46830",
           "author": "龍：Ryu",
@@ -1805,16 +1815,6 @@
           "wordCount": 239,
           "title": "重大インシデント発生！その時、MDRはどう対応してくれるのか",
           "imageUrl": "https://eset-info.canon-its.jp/files/topics/4674_ext_01_0.jpg"
-        },
-        {
-          "id": "https://eset-info.canon-its.jp/malware_info/news/detail/250212.html",
-          "author": null,
-          "description": "マイクロソフト社より、2月12日 にセキュリティ更新プログラムの情報が公開されました。\n今回公開されたプログラムではセキュリティ面での深刻度「緊急」のものが6件含まれています。\n\n今後のこれらの脆弱性を悪用したマルウェアなどによる攻撃に備え、早期にセキュリティ更新プログラムの適用を推奨いたします。今回のセキュリティ更新プログラムで修正した脆弱性には、更新プログラムが公開されるよりも前に悪用や脆弱性の詳細が一般へ公開されているものが含まれていますので、早急に更新プログラムの適用を行ってください。\n\n【プログラム一覧】\n以下の情報は、マイクロソフト社のページからのものです。\n2025 年 2 月のセキュリティ更新プログラム (月例)\n\n更新プログラムの詳細はマイクロソフト社のページでご確認下さい。\n\n\n\t\n\t\t\n\t\t\t最大深刻度\n\t\t\t製品ファミリ\n\t\t\t最も大きな影響\n\t\t\n\t\t\n\t\t\t緊急\n\t\t\tWindows 11 v24H2, v23H2, v22H2\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t緊急\n\t\t\tWindows 10 v22H2\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t緊急\n\t\t\tWindows Server 2025 (Server Core installationを含む)\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t緊急\n\t\t\tWindows Server 2022, 23H2 (Server Core installationを含む)\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t緊急\n\t\t\tWindows Server 2019、2016 (Server Core installationを含む)\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t緊急\n\t\t\tMicrosoft Office\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t重要\n\t\t\tMicrosoft SharePoint\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t重要\n\t\t\tMicrosoft Visual Studio\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t重要\n\t\t\tMicrosoft Azure\n\t\t\tリモートでコードが実行される\n\t\t\n\t\t\n\t\t\t重要\n\t\t\tMicrosoft Surface\n\t\t\tセキュリティ機能のバイパス\n\t\t\n\t\n\n\nWindows Update などを用いて、セキュリティ更新プログラムを早急に適用しましょう。更新プログラムを適用することで、パソコンのセキュリティを保つことができます。",
-          "link": "https://eset-info.canon-its.jp/malware_info/news/detail/250212.html",
-          "publishedOn": "2025-02-11T15:00:00.000Z",
-          "wordCount": 227,
-          "title": "マイクロソフト社よりセキュリティ更新プログラム（2025年2月）が公開されました",
-          "imageUrl": "https://eset-info.canon-its.jp/files/user/images/common/sns_thumb.jpg"
         }
       ]
     },
@@ -1846,6 +1846,28 @@
       "feedUrl": "https://www.nic.ad.jp/ja/index.xml",
       "siteUrl": "https://www.nic.ad.jp/",
       "articles": [
+        {
+          "id": "https://blog.nic.ad.jp/2025/10572/",
+          "author": null,
+          "description": "今週末3月15日(土)には、第122回IETFミーティングがタイのバンコクで開幕します。そこで、前回会議のおさらいとして、2024年11月にアイルランドのダブリンで開催された第121回IETFミーティングの内容とハッカソンからトピックなどをお届けします。",
+          "link": "https://blog.nic.ad.jp/2025/10572/",
+          "publishedOn": "2025-03-13T07:00:52.000Z",
+          "wordCount": null,
+          "title": "[Blog記事]IETF国際動向 – 第121回IETFとハッカソンから –",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nic.ad.jp/ja/topics/2025/20250312-01.html",
+          "author": null,
+          "description": "2025年3月12日\n各位\n一般社団法人日本ネットワークインフォメーションセンター\nJPNIC Newsletter 88号電子書籍版掲載のお知らせ\nJPNIC Newsletter 88号掲載URL\n              \n                https://www.nic.ad.jp/ja/newsletter/No88/\n                \nJPNIC Newsletter 88号 読者アンケート\n              https://forms.gle/HYZoPKjBBy1cAcaX6\n            \n            \njpnic-news@nic.ad.jp\n              (JPNIC Newsletter担当)までお気軽にお寄せください。\n            \n以上",
+          "link": "https://www.nic.ad.jp/ja/topics/2025/20250312-01.html",
+          "publishedOn": "2025-03-12T09:26:22.000Z",
+          "wordCount": null,
+          "title": "[トピックス]JPNIC Newsletter 88号電子書籍版掲載のお知らせ",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.nic.ad.jp/ja/icann/topics/2025/20250310-02.html",
           "author": null,
@@ -2201,6 +2223,16 @@
       "siteUrl": "https://www.cisa.gov/",
       "articles": [
         {
+          "id": "/node/23109",
+          "author": "CISA",
+          "description": "Summary\nNote: This joint Cybersecurity Advisory is part of an ongoing #StopRansomware effort to publish advisories for network defenders detailing various ransomware variants and ransomware threat actors. These #StopRansomware advisories include recently and historically observed tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) to help organizations protect against ransomware. Visit stopransomware.gov to see all #StopRansomware advisories and to learn more about other ransomware threats and no-cost resources.\nThe Federal Bureau of Investigation (FBI), Cybersecurity and Infrastructure Security Agency (CISA), and the Multi-State Information Sharing and Analysis Center (MS-ISAC) are releasing this joint advisory to disseminate known Medusa ransomware TTPs and IOC…",
+          "link": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-071a",
+          "publishedOn": "2025-03-11T14:52:42.000Z",
+          "wordCount": 4619,
+          "title": "#StopRansomware: Medusa Ransomware",
+          "imageUrl": null
+        },
+        {
           "id": "/node/23027",
           "author": "CISA",
           "description": "Summary\nNote: This joint Cybersecurity Advisory is part of an ongoing #StopRansomware effort to publish advisories for network defenders that detail various ransomware variants and ransomware threat actors. These #StopRansomware advisories include recently and historically observed tactics, techniques, and procedures (TTPs) and indicators of compromise (IOCs) to help organizations protect against ransomware. Visit stopransomware.gov to see all #StopRansomware advisories and to learn more about other ransomware threats and no-cost resources.\nThe Federal Bureau of Investigation (FBI), Cybersecurity and Infrastructure Security Agency (CISA), and the Multi-State Information Sharing and Analysis Center (MS-ISAC) are releasing this joint advisory to disseminate known Ghost (Cring)—(“Ghost”)—rans…",
@@ -2217,6 +2249,16 @@
       "feedUrl": "https://www.cisa.gov/uscert/ncas/current-activity.xml",
       "siteUrl": "https://www.cisa.gov/",
       "articles": [
+        {
+          "id": "/node/23116",
+          "author": "CISA",
+          "description": "Today, CISA—in partnership with the Federal Bureau of Investigation (FBI) and Multi-State Information Sharing and Analysis Center (MS-ISAC)—released joint Cybersecurity Advisory, #StopRansomware: Medusa Ransomware. This advisory provides tactics, techniques, and procedures (TTPs), indicators of compromise (IOCs), and detection methods associated with known Medusa ransomware activity.\nMedusa is a ransomware-as-a-service variant used to conduct ransomware attacks; as of December 2024, over 300 victims from critical infrastructure sectors have been impacted. Medusa actors use common techniques like phishing campaigns and exploiting unpatched software vulnerabilities.\nImmediate actions organizations can take to mitigate Medusa ransomware activity: \nEnsure operating systems, software, and firmware are patched and up to date.\nSegment networks to restrict lateral movement.\nFilter network traffic by preventing unknown or untrusted origins from accessing remote services.\nCISA encourages network defenders to review the advisory and implement the recommended mitigations to reduce the likelihood and impact of Medusa ransomware incidents. See #StopRansomware and the #StopRansomware Guide for additional guidance on ransomware protection, detection, and response.",
+          "link": "https://www.cisa.gov/news-events/alerts/2025/03/12/cisa-and-partners-release-cybersecurity-advisory-medusa-ransomware",
+          "publishedOn": "2025-03-12T12:00:00.000Z",
+          "wordCount": 632,
+          "title": "CISA and Partners Release Cybersecurity Advisory on Medusa Ransomware",
+          "imageUrl": null
+        },
         {
           "id": "/node/23106",
           "author": "CISA",
@@ -2436,26 +2478,6 @@
           "wordCount": 726,
           "title": "CISA and FBI Warn of Malicious Cyber Actors Using Buffer Overflow Vulnerabilities to Compromise Software",
           "imageUrl": null
-        },
-        {
-          "id": "/node/22983",
-          "author": "CISA",
-          "description": "CISA has added four vulnerabilities to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.\nCVE-2024-40891 Zyxel DSL CPE OS Command Injection Vulnerability\nCVE-2024-40890 Zyxel DSL CPE OS Command Injection Vulnerability\nCVE-2025-21418 Microsoft Windows Ancillary Function Driver for WinSock Heap-Based Buffer Overflow Vulnerability\nCVE-2025-21391 Microsoft Windows Storage Link Following Vulnerability\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.\nAlthough BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.",
-          "link": "https://www.cisa.gov/news-events/alerts/2025/02/11/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-          "publishedOn": "2025-02-11T12:00:00.000Z",
-          "wordCount": 679,
-          "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
-          "imageUrl": null
-        },
-        {
-          "id": "/node/22989",
-          "author": "CISA",
-          "description": "CISA released two Industrial Control Systems (ICS) advisories on February 11, 2025. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.\nICSA-24-319-17 2N Access Commander (Update A)\nICSA-25-037-04 Trimble Cityworks (Update A)\nCISA encourages users and administrators to review newly released ICS advisories for technical details and mitigations.",
-          "link": "https://www.cisa.gov/news-events/alerts/2025/02/11/cisa-releases-two-industrial-control-systems-advisories",
-          "publishedOn": "2025-02-11T12:00:00.000Z",
-          "wordCount": 539,
-          "title": "CISA Releases Two Industrial Control Systems Advisories",
-          "imageUrl": null
         }
       ]
     },
@@ -2472,16 +2494,6 @@
           "publishedOn": "2025-02-28T12:34:44.018Z",
           "wordCount": 1293,
           "title": "VU#726882: Paragon Partition Manager contains five memory vulnerabilities within its BioNTdrv.sys driver that allow for privilege escalation and denial-of-service (DoS) attacks",
-          "imageUrl": null
-        },
-        {
-          "id": "https://kb.cert.org/vuls/id/148244",
-          "author": null,
-          "description": "<h3 id=\"overview\">Overview</h3>\n<p><a href=\"https://pandas-ai.com/\">PandasAI</a>, an open source project by  <a href=\"https://sinaptik.ai/\">SinaptikAI</a>, has been found vulnerable to <a href=\"https://en.wikipedia.org/wiki/Prompt_injection\">Prompt Injection</a> attacks. An attacker with access to the chat prompt can craft malicious input that is interpreted as code, potentially achieving arbitrary code execution. In response, SinaptikAI has implemented specific security configurations to address this vulnerability.</p>\n<h3 id=\"description\">Description</h3>\n<p>PandasAI is a Python library that allows users to interact with their data using natural language queries. The library parses these queries into Python or SQL code, leveraging a large language model (LLM) (such as OpenAI's GPT or similar) to generate explanations, insights, or code. As part of its setup, users import the AI <code>Agent</code> class, instantiate it with their data, and facilitate a connection to the database. Once connected the AI agent can maintain the context throughout the discussion, allowing for ongoing exchanges with the user's queries as prompts.</p>\n<p>A vulnerability was discovered that enables arbitrary Python code execution through prompt injection. Researchers at NVIDIA demonstrated the ability to bypass PandasAI's restrictions, such as preventing certain module imports, jailbreak protections, and the use of allowed lists. By embedding malicious Python code in various ways via a prompt, attackers can exploit the vulnerability to execute arbitrary code within the context of the process running PandasAI. </p>\n<p>This vulnerability arises from the fundamental challenge of maintaining a clear separation between code and data in AI chatbots and agents. In the case of PandasAI, any code generated and executed by the agent is implicitly trusted, allowing attackers with access to the prompt interface to inject malicious Python or SQL code. The security controls of PandasAI (2.4.3 and earlier) fail to distinguish between legitimate and malicious inputs, allowing the attackers to manipulate the system into executing untrusted code, leading to untrusted code execution (RCE), system compromise, or pivoting attacks on connected services.  The vulnerability is tracked as <a href=\"https://www.cve.org/CVERecord?id=CVE-2024-12366\">CVE-2024-12366</a>. Sinaptik AI has introduced new configuration parameters to address this issue and allow the user to choose appropriate security configuration for their installation and setup. </p>\n<h3 id=\"impact\">Impact</h3>\n<p>An attacker with access to the PandasAI interface can perform prompt injection attacks, instructing the connected LLM to translate malicious natural language inputs into executable Python or SQL code. This could result in arbitrary code execution, enabling attackers to compromise the system running PandasAI or maintain persistence within the environment. </p>\n<h3 id=\"solution\">Solution</h3>\n<p>SinaptikAI has introduced a Security parameter to the configuration file of the PandasAI project. Users can now select one of three security configurations:</p>\n<ol>\n<li>Standard: Default security settings suitable for most use cases.</li>\n<li>Advanced: Higher security settings for environments with stricter requirements.</li>\n<li>None: Disables security features (not recommended).</li>\n</ol>\n<p>By choosing the appropriate configuration, users can tailor PandasAI's security to their specific needs. SinaptikAI has also released a sandbox. More information regarding the sandbox can be found at the appropriate <a href=\"https://docs.getpanda.ai/v3/privacy-security\">documentation</a> page. </p>\n<h3 id=\"acknowledgements\">Acknowledgements</h3>\n<p>Thank you to the reporter, the NVIDIA AI Red Team (Joe Lucas, Becca Lynch, Rich Harang, John Irwin, and Kai Greshake). This document was written by Christopher Cullen.</p>",
-          "link": "https://kb.cert.org/vuls/id/148244",
-          "publishedOn": "2025-02-11T12:41:49.258Z",
-          "wordCount": 753,
-          "title": "VU#148244: PandasAI interactive prompt function can be exploited to run arbitrary Python code through prompt injection, which can lead to remote code execution (RCE)",
           "imageUrl": null
         }
       ]
@@ -3045,6 +3057,16 @@
       "siteUrl": "https://ja.wordpress.org",
       "articles": [
         {
+          "id": "https://ja.wordpress.org/?p=7595",
+          "author": "Akira Tachibana",
+          "description": "以下は WordPress.org 公式ブログの記事「WordPress 6.8 Beta 2」を訳したものです。 誤字脱字誤訳などありましたらフォーラムまでお知らせください。 WordPress 6.8ベータ2がリリー […]",
+          "link": "https://ja.wordpress.org/2025/03/12/wordpress-6-8-beta-2/",
+          "publishedOn": "2025-03-12T09:56:32.000Z",
+          "wordCount": 2192,
+          "title": "WordPress 6.8 ベータ2",
+          "imageUrl": "https://s.w.org/images/home/wordpress-default-ogimage.png"
+        },
+        {
           "id": "https://ja.wordpress.org/?p=7588",
           "author": "Itsuko Miyake",
           "description": "以下は WordPress.org 公式ブログの記事「WordPress 6.8 Beta 1」を訳したものです。 誤字脱字誤訳などありましたらフォーラムまでお知らせください。 WordPress 6.8ベータ1の準備が […]",
@@ -3077,6 +3099,106 @@
       "feedUrl": "https://scan.netsecurity.ne.jp/rss/index.rdf",
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2025/03/13/52495.html",
+          "author": null,
+          "description": "脆弱性は、セキュリティの観点から現在はデフォルトで無効化されているオプションが有効化されている場合にのみ発現するものですが、公式に提供されている Docker イメージなどで有効化されているオプションであると報告されています。phpinfo 関数などにより register_argc_argv オプションが有効化されていないかを確認するとともに、ソフトウェアのバージョンアップデートによる対策の検討を推奨します。",
+          "link": "https://scan.netsecurity.ne.jp/article/2025/03/13/52495.html",
+          "publishedOn": "2025-03-12T23:15:03.000Z",
+          "wordCount": 862,
+          "title": "Craft CMS における遠隔からの任意のコード実行につながるパラメータ検証不備の脆弱性（Scan Tech Report）",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47823.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2025/03/13/52494.html",
+          "author": null,
+          "description": "本記事では、CSPM・CNAPPは実際にどのような目的で運用され、どのような導入効果が得られているのか、「Cloudbase」の利用企業の事例をもとに、3つのユースケースをご紹介します。",
+          "link": "https://scan.netsecurity.ne.jp/article/2025/03/13/52494.html",
+          "publishedOn": "2025-03-12T23:10:03.000Z",
+          "wordCount": 727,
+          "title": "Cloudbase Blog 第8回 Cloudbaseの導入事例から見る、CSPM・CNAPP運用の3つのユースケース",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47108.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2025/03/13/52493.html",
+          "author": null,
+          "description": "GMOペパボ株式会社は3月5日、ロリポップを利用しているウェブサイトに設置されているお問い合わせフォームの自動返信機能が悪用され、スパムメールの不正配信が行われていると発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2025/03/13/52493.html",
+          "publishedOn": "2025-03-12T23:05:09.000Z",
+          "wordCount": 705,
+          "title": "ロリポップ設置のお問い合わせフォームの自動返信機能を悪用したスパム配信、対策呼びかけ",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2025/03/13/52492.html",
+          "author": null,
+          "description": "静岡市生涯学習センターの指定管理者である公益財団法人静岡市文化振興財団は3月4日、サーバへの不正アクセスによる個人情報の流出について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2025/03/13/52492.html",
+          "publishedOn": "2025-03-12T23:05:06.000Z",
+          "wordCount": 700,
+          "title": "静岡市生涯学習センターのウェブサーバに不正アクセス、申込者の個人情報等流出の可能性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47778.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2025/03/13/52491.html",
+          "author": null,
+          "description": "卒業アルバム等の企画・制作・印刷を行う株式会社イシクラは3月4日、2024年5月23日及び5月27日に公表した同社運営のウェブ入稿システム「WebLAYLA」への不正アクセスについて、続報を発表した。詳細資料を文字の選択やコピーができないPDFファイルで公開している。",
+          "link": "https://scan.netsecurity.ne.jp/article/2025/03/13/52491.html",
+          "publishedOn": "2025-03-12T23:05:03.000Z",
+          "wordCount": 718,
+          "title": "ホームページ公表をもって委託元への報告義務を果たしたと誤認 ～ 卒業アルバム制作企業のランサムウェア攻撃",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47758.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2025/03/13/52490.html",
+          "author": null,
+          "description": "韓国 科学技術情報通信部は、3月19日から21日まで、京畿道にある韓国最大のコンベンションセンターKINTEXで「SECON & eGISEC 2025」を開催する。今回で22回目の開催。",
+          "link": "https://scan.netsecurity.ne.jp/article/2025/03/13/52490.html",
+          "publishedOn": "2025-03-12T23:00:17.000Z",
+          "wordCount": 747,
+          "title": "東アジア最大規模のサイバーと物理セキュリティの総合展 ～ 3/19 から 韓国で SECON & eGISEC 2025 開催",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47822.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2025/03/13/52489.html",
+          "author": null,
+          "description": "株式会社リチェルカセキュリティは2月28日、同社のオフィス移転について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2025/03/13/52489.html",
+          "publishedOn": "2025-03-12T23:00:14.000Z",
+          "wordCount": 702,
+          "title": "リチェルカセキュリティ 3 月オフィス移転",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2025/03/13/52488.html",
+          "author": null,
+          "description": "プライム・ストラテジー株式会社は3月10日、WordPress テーマ・プラグインの脆弱性情報のダイジェストを無料配信する「WordPress Security Advisory」を開始したと発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2025/03/13/52488.html",
+          "publishedOn": "2025-03-12T23:00:10.000Z",
+          "wordCount": 742,
+          "title": "WordPress テーマ・プラグインの脆弱性情報を無料配信「WordPress Security Advisory」開始",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2025/03/13/52487.html",
+          "author": null,
+          "description": "経済産業省は3月5日、日本のサイバーセキュリティ産業・技術基盤を強化するための包括的な政策パッケージである「サイバーセキュリティ産業振興戦略」を取りまとめ発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2025/03/13/52487.html",
+          "publishedOn": "2025-03-12T23:00:06.000Z",
+          "wordCount": 695,
+          "title": "日本発のサイバーセキュリティ製品が次々に創出されるために ～ 経済産業省「サイバーセキュリティ産業振興戦略」",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47783.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2025/03/13/52486.html",
+          "author": null,
+          "description": "経済産業省は3月5日、3月4日に開催された「クレジット取引セキュリティ対策協議会第12回本会議」で「クレジットカード・セキュリティガイドライン」が改訂されたと発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2025/03/13/52486.html",
+          "publishedOn": "2025-03-12T23:00:03.000Z",
+          "wordCount": 718,
+          "title": "EMV‐3Dセキュアの導入と適切な不正ログイン対策追加 ～「クレジットカード・セキュリティガイドライン」改訂",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
         {
           "id": "https://scan.netsecurity.ne.jp/article/2025/03/12/52485.html",
           "author": null,
@@ -5001,6 +5123,106 @@
       "feedUrl": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/shopping/1670005.html",
+          "author": "アイティースリー",
+          "description": "Amazon.co.jpのシリコンパワーストアでは現在、同社のデスクトップPCやノートPC用メモリがタイムセール中だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/shopping/1670005.html",
+          "publishedOn": "2025-03-13T04:30:00.000Z",
+          "wordCount": 4757,
+          "title": "シリコンパワー製のPC用DDR5・DDR4メモリがAmazonでタイムセール中！　RGBライト搭載の「SP064GXLWU60AFDH」が2万9733円",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1670/005/sp.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/shopping/1669994.html",
+          "author": "アイティースリー",
+          "description": "Amazon.co.jpのGMKtecストアページでは現在、Intel N150やIntel N97を搭載したミニPCがタイムセール中だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/shopping/1669994.html",
+          "publishedOn": "2025-03-13T04:15:00.000Z",
+          "wordCount": 4779,
+          "title": "GMKtec製ミニPCが安い！　Intel N150搭載機などがAmazonでお買い得　メモリ16GB・SSD512GBの「GMKtec G3 plus」が2万3998円",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1669/994/gmktec.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1669989.html",
+          "author": "山田 貞幸",
+          "description": "NECプラットフォームズ株式会社は、Wi-Fi 7ルーター「Aterm 7200D8BE」を4月中旬に発売する。価格はオープン。Amazon.co.jpでは同等製品「AM-7200D8BE」の販売が3月13日から行われており、価格は2万7478円。3月31日まで有効の5％OFFクーポンも適用できる。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1669989.html",
+          "publishedOn": "2025-03-13T03:55:00.000Z",
+          "wordCount": 4742,
+          "title": "NECプラットフォームズ、Wi-Fi 7デュアルバンド対応ルーター「Aterm 7200D8BE」発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1669/989/01.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1669879.html",
+          "author": "tks24",
+          "description": "X（旧Twitter）の運営がプラットフォームとしての指針と運営方針についての声明を発表して話題になっている。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1669879.html",
+          "publishedOn": "2025-03-13T01:15:00.000Z",
+          "wordCount": 4717,
+          "title": "X運営「検閲やシャドウバンは行っていない」→早速コミュニティノートが付けられる【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1669/879/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1669883.html",
+          "author": "tks24",
+          "description": "Yahoo!ファイナンス掲示板における禁止行為として公開された具体例が、一部で波紋を呼んでいる。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1669883.html",
+          "publishedOn": "2025-03-13T01:10:00.000Z",
+          "wordCount": 4714,
+          "title": "「うけるｗ」もアウト!?　 Yahoo!ファイナンス掲示板での禁止行為の例が話題【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1669/883/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1669697.html",
+          "author": "山田 貞幸",
+          "description": "株式会社山善は、USB PD給電により動作する「PD仕様扇風機シリーズ」の扇風機・サーキュレーター全9モデルを、3月下旬に発売する。価格はいずれもオープン。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1669697.html",
+          "publishedOn": "2025-03-12T23:00:00.000Z",
+          "wordCount": 4730,
+          "title": "USB PD対応で高出力、利便性も高まった“次世代型”扇風機とサーキュレーター、山善が発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1669/697/00.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1669817.html",
+          "author": "永沢 茂",
+          "description": "弥生株式会社が個人事業主を対象に行ったアンケート調査で、令和6年分（2024年分）の確定申告書の提出方法として、自宅等からe-Taxで提出する予定だとした人が41.7％に上り、過去5年間で最高となったことが分かった。ただし、増加率は鈍化してきているという。また、9割以上が前年と同じ提出方法を予定していることが分かり、提出方法は個人ごとに固定化する傾向にあると指摘している。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1669817.html",
+          "publishedOn": "2025-03-12T22:52:00.000Z",
+          "wordCount": 4734,
+          "title": "今年の確定申告、みんなの提出方法は？ 自宅等からe-Taxが41.7％で最多、税務署へ持参（紙）は22.2％　9割以上の個人事業主が「前年と同じ方法」、提出方法が固定化する傾向に～弥生調べ",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1669/817/yayoi01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/topic/special/1668083.html",
+          "author": "編集部",
+          "description": "インテル vPro プラットフォームといえば、「BIOS画面やブルースクリーンでも操作できる遠隔操作や電源オン、それらをコアとした強力な管理機能」と、なんとなく知っている人も多いだろう。",
+          "link": "https://internet.watch.impress.co.jp/docs/topic/special/1668083.html",
+          "publishedOn": "2025-03-12T21:55:00.000Z",
+          "wordCount": 4750,
+          "title": "vProを数十万台導入した達人が運営する「vPro友の会」、「vProでみんなの仕事を楽にしたい！」[Sponsored]",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1668/083/iv1a.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/1669850.html",
+          "author": "山田 貞幸",
+          "description": "Googleは3月12日、日本企業のサイバーセキュリティ意識の向上と専門人材の育成を支援する「Japan Cybersecurity Initiative」を設立した。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/1669850.html",
+          "publishedOn": "2025-03-12T21:30:00.000Z",
+          "wordCount": 4836,
+          "title": "Google、日本政府も巻き込み「Japan Cybersecurity Initiative」設立、社会全体のセキュリティ底上げへ　中小企業向け普及活動など「1人も置き去りにしない」取り組み実施",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1669/850/00.JPG"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/column/homewifi/1668970.html",
+          "author": "村上 俊一",
+          "description": "本連載では第229回から、自宅の見守り用途にTP-Linkのネットワークカメラ「Tapo C222」を使ってみている。",
+          "link": "https://internet.watch.impress.co.jp/docs/column/homewifi/1668970.html",
+          "publishedOn": "2025-03-12T21:00:00.000Z",
+          "wordCount": 4744,
+          "title": "TP-Linkのネットワークカメラ「Tapo C222」のAI検知機能を使ってネコを自動追尾撮影【自宅Wi-Fiの“わからない”をスッキリ！】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1668/970/housewifi2_231-01.jpg"
+        },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/1669654.html",
           "author": "山田 貞幸",
@@ -7285,6 +7507,46 @@
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
         {
+          "id": "https://news.mynavi.jp/techplus/article/20250313-3150463/",
+          "author": null,
+          "description": "BetaNewsは3月10日(米国時間)、Mozilla Firefoxのルート証明書が3月14日に有効期限切れになると伝えた。このルート証明書は署名済みコンテンツと拡張機能の検証に使用されており、期限が切れると拡張機能、コンテンツの署名、DRM保護されたメディア再生に影響するという。",
+          "link": "https://news.mynavi.jp/techplus/article/20250313-3150463/",
+          "publishedOn": "2025-03-13T00:52:29.000Z",
+          "wordCount": 1787,
+          "title": "Firefoxの拡張機能、3月14日に停止の恐れ",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20250313-3150463/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20250313-3150176/",
+          "author": null,
+          "description": "Microsoftは3月11日(米国時間)、Microsoft Storeから配布しているPCの遠隔操作アプリ「Microsoftリモートデスクトップ」のサポートを終了すると発表した。5月27日以降ダウンロードおよびインストールはできなくなる。Microsoftはリモートデスクトップの移行先として「Windowsアプリ」を推奨している。",
+          "link": "https://news.mynavi.jp/techplus/article/20250313-3150176/",
+          "publishedOn": "2025-03-12T23:09:29.000Z",
+          "wordCount": 1828,
+          "title": "「Microsoftリモートデスクトップ」サポート終了、Windowsアプリへ移行を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20250313-3150176/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20250313-3150171/",
+          "author": null,
+          "description": "Appleは3月11日(米国時間)、iPhoneおよびiPadの脆弱性に対処するセキュリティアップデートを発表した。このセキュリティアップデートには、特定の標的に対する極めて巧妙な攻撃に悪用された可能性のある脆弱性「CVE-2025-24201」の修正が含まれている。",
+          "link": "https://news.mynavi.jp/techplus/article/20250313-3150171/",
+          "publishedOn": "2025-03-12T22:37:00.000Z",
+          "wordCount": 1798,
+          "title": "iPhoneとiPadにアップデート、サイバー攻撃への悪用の可能性ある脆弱性修正",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20250313-3150171/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20250312-3150434/",
+          "author": null,
+          "description": "Microsoftは3月11日(米国時間)、複数の製品の脆弱性に対処する2025年3月のセキュリティ更新プログラムをリリースした。修正された脆弱性は57件に上り、すでに攻撃への悪用が確認されている脆弱性も6件含まれている。",
+          "link": "https://news.mynavi.jp/techplus/article/20250312-3150434/",
+          "publishedOn": "2025-03-12T09:27:08.000Z",
+          "wordCount": 1801,
+          "title": "Microsoft 3月の更新プログラム公開、悪用確認済みの脆弱性6件含む",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20250312-3150434/ogp_images/ogp.jpg"
+        },
+        {
           "id": "https://news.mynavi.jp/techplus/article/20250312-3150304/",
           "author": null,
           "description": "Cato Networksは3月11日(現地時間)、TP-Link製ルータを標的とする新しいボットネット「Ballista」を発見したと報じた。1月10日に特定されたこのボットネットは、TP-Linkの既知の脆弱性「CVE-2023-1389」を悪用し、インターネット上で自動拡散するという。",
@@ -8413,16 +8675,6 @@
           "wordCount": 1821,
           "title": "Windows 11、MIDI 2.0を完全サポート",
           "imageUrl": "https://news.mynavi.jp/techplus/article/20250212-3124296/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20250211-3125731/",
-          "author": null,
-          "description": "Consumer Reportsはこのほど、消費者の大部分はインターネット接続可能な製品の本当の寿命を知らないとして、注意を呼び掛けた。また、本当の製品寿命を理解していても、実際の期限を知るすべがないとして製造、販売企業に是正を促した。インターネット接続可能なデバイスは、サポート終了の時点で安全ではなくなり、事実上の製品寿命を迎える。",
-          "link": "https://news.mynavi.jp/techplus/article/20250211-3125731/",
-          "publishedOn": "2025-02-11T08:27:09.000Z",
-          "wordCount": 1798,
-          "title": "PCやスマホの製品寿命を知っていますか? ゾンビデバイスが危ない",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20250211-3125731/ogp_images/ogp.jpg"
         }
       ]
     }
