@@ -449,6 +449,16 @@
           "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
         },
         {
+          "id": "https://www.ipa.go.jp/disc/committee/expert-group-on-aigfb.html",
+          "author": "情報処理推進機構（IPA）",
+          "description": "情報処理推進機構（IPA）の「AI事業者ガイドライン検討会」に関する情報です。",
+          "link": "https://www.ipa.go.jp/disc/committee/expert-group-on-aigfb.html",
+          "publishedOn": "2025-03-16T15:00:00.000Z",
+          "wordCount": 423,
+          "title": "AI事業者ガイドライン検討会 第6回開催資料を公開しました",
+          "imageUrl": "https://www.ipa.go.jp/k3q2q400000050d7-img/k3q2q400000050dg.png"
+        },
+        {
           "id": "https://www.ipa.go.jp/disc/committee/legacy-system-modernization-comittee.html",
           "author": "情報処理推進機構（IPA）",
           "description": "情報処理推進機構（IPA）の「レガシーシステムモダン化委員会」に関する情報です。",
@@ -1177,26 +1187,6 @@
           "wordCount": 571,
           "title": "「進化する脅威と最新のAIリスク・セキュリティ戦略」イベントレポート",
           "imageUrl": "https://storage.googleapis.com/gblogs-bucket/sites/2/AdobeStock_573116340-460x230.jpeg"
-        },
-        {
-          "id": "https://gblogs.cisco.com/jp/?p=53336",
-          "author": "木村 滋",
-          "description": "Cisco Talos は、Salt Typhoon と名付けられた脅威アクターによる、米国の主要な複数の通信企業に対する大規模な侵入活動の報告を注意深く監視してきました。本ブログでは、このキャンペーンに関する我々の観察結果を強調し、検出および防止のための推奨事項を示します。\nThe post ”Typhoon” の真っ只中の嵐を乗り越える appeared first on Cisco Japan Blog.",
-          "link": "https://gblogs.cisco.com/jp/2025/02/salt-typhoon-analysis/",
-          "publishedOn": "2025-02-21T09:00:13.000Z",
-          "wordCount": 943,
-          "title": "”Typhoon” の真っ只中の嵐を乗り越える",
-          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs%3Agblogs/sites/2/IL20220303204001-Cisco-Talos-interlock-600x200-1-460x230.png"
-        },
-        {
-          "id": "https://gblogs.cisco.com/jp/?p=53329",
-          "author": "TALOS Japan",
-          "description": "Cisco Talos の脆弱性検出および調査チームは先日、ClearML の 2 件の脆弱性、NVIDIA の 4 件の脆弱性について情報を公開しました。\nThe post ClearML および NVIDIA の脆弱性 appeared first on Cisco Japan Blog.",
-          "link": "https://gblogs.cisco.com/jp/2025/02/talos-clearml-and-nvidia-vulns/",
-          "publishedOn": "2025-02-21T06:10:06.000Z",
-          "wordCount": 589,
-          "title": "ClearML および NVIDIA の脆弱性",
-          "imageUrl": "https://alln-extcloud-storage.cisco.com/Cisco_Blogs:gblogs/sites/2/2016/05/18AS86323_eyecatch-460x230.jpg"
         }
       ]
     },
@@ -1492,36 +1482,6 @@
           "wordCount": 2143,
           "title": "【2025年版】Notion AIプロンプト改善｜タイトル＆メタディスクリプション",
           "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2025/02/72532c05ea3e4baf928587cdf5e0a9b7.png"
-        },
-        {
-          "id": "https://tech-lab.sios.jp/?p=46385",
-          "author": "木下龍祐",
-          "description": "はじめに 近年、コンテナ技術は企業のITインフラにおいて不可欠な存在となりました。 アプリケーションの開発・運用をスムーズにする一方で、適切に管理しなければスケールやセキュリティの課題が発生します。 前回の記事でコンテナ ...\n企業のDXを支えるコンテナプラットフォームに求められる重要なポイント解説 first appeared on SIOS Tech. Lab.",
-          "link": "https://tech-lab.sios.jp/archives/46385",
-          "publishedOn": "2025-02-21T09:25:10.000Z",
-          "wordCount": 2166,
-          "title": "企業のDXを支えるコンテナプラットフォームに求められる重要なポイント解説",
-          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2025/02/d3960fa82703f2acf0e687091a32505e.png"
-        },
-        {
-          "id": "https://tech-lab.sios.jp/?p=46374",
-          "author": "安藤浩",
-          "description": "概要 こんにちは、サイオステクノロジーの安藤 浩です。 今回はOpenseaで提供されているAPIを利用して、アプリ開発をしていますので、Opensea のAPIについて紹介していきます。 OpenSeaは NFT マー ...\n[Web3] Opensea API を利用した NFT の情報取得 first appeared on SIOS Tech. Lab.",
-          "link": "https://tech-lab.sios.jp/archives/46374",
-          "publishedOn": "2025-02-21T06:04:34.000Z",
-          "wordCount": 2825,
-          "title": "[Web3] Opensea API を利用した NFT の情報取得",
-          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2025/02/0af3e768040d0ed06416d18528ab390d.png"
-        },
-        {
-          "id": "https://tech-lab.sios.jp/?p=46370",
-          "author": "龍：Ryu",
-          "description": "Google Apps Script（GAS）でURLから不要なタグや改行を削除した圧縮したテキスト情報を取得する方法について解説します。 圧縮の処理は以下になります。 URLからHTMLを取得して情報を圧縮する まずは ...\nGASコード付き：URLからHTML取得＆圧縮する方法｜AI入力の最適化に first appeared on SIOS Tech. Lab.",
-          "link": "https://tech-lab.sios.jp/archives/46370",
-          "publishedOn": "2025-02-21T02:17:47.000Z",
-          "wordCount": 2227,
-          "title": "GASコード付き：URLからHTML取得＆圧縮する方法｜AI入力の最適化に",
-          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2025/02/6019867bbe86a1bbe3abe507f485fd85.png"
         }
       ]
     },
@@ -1921,50 +1881,6 @@
           "title": "[Web更新]日本インターネットガバナンスフォーラム2024の資料を公開",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "https://blog.nic.ad.jp/2025/10531/",
-          "author": null,
-          "description": "インターネットの最新動向がわかる年鑑『インターネット白書』の最新版、『インターネット白書2025  岐路に立つデジタル空間とAIガバナンス』が発行され、また「インターネット白書ARCHIVES」には2024年版が追加されました。「インターネット白書ARCHIVES」では1996年からのインターネット白書が無料で読めますので、ぜひご活用ください。",
-          "link": "https://blog.nic.ad.jp/2025/10531/",
-          "publishedOn": "2025-02-21T08:00:06.000Z",
-          "wordCount": null,
-          "title": "[Blog記事]『インターネット白書2025  岐路に立つデジタル空間とAIガバナンス』発刊、アーカイブには2024年版を追加！",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nic.ad.jp/ja/topics/2025/20250221-01.html",
-          "author": null,
-          "description": "2025年2月21日\n各位\n一般社団法人日本ネットワークインフォメーションセンター\n『インターネット白書ARCHIVES』に2024年版が追加掲載\nインターネット白書ARCHIVES\n              https://iwparchives.jp/\n            \n            \nインターネット白書2025』ともども、過去のアーカイブもご活用いただければ幸いです。\n            \nhttps://IWParchives.jp/）に、昨年版の『インターネット白\n書2024 AI化する社会のデータガバナンス』の記事を追加掲載いたしました。\n\n\n＜＜「インターネット白書ARCHIVES」とは＞＞\n\n「インターネット白書ARCHIVES」（インターネット白書アーカイブス）は、\nインターネットの黎明期（1996年）からの歴史を年鑑として発行し続けてい\nる「インターネット白書」のバックナンバーをデジタル化し、無料で検索・\n閲覧できるようにしたWebサービスです。発行後１年を経過した「インター\nネット白書をアーカイブスに登録しているほか、2023年5月には、1994年か\nら2006年までインプレスから発行していた月刊誌『インターネットマガジン』\nのバックナンバー検索サービスを統合しました。\n\n\n＜＜今回、追加された主な記事＞＞\n\nこのたび追加した2024年度版では、主に前年の2023年における重要な動きを\n解説しています。\n\nこの年には「IGF 2023（インターネット・ガバナンス・フォーラム2023）」\nが京都市で開催されました。世界中から過去最多の参加者が集まり、「私た\nちの望むインターネット～あらゆる人を後押しするためのインターネット～\n（The Internet We Want - Empowering All People）」を掲げて議論…",
-          "link": "https://www.nic.ad.jp/ja/topics/2025/20250221-01.html",
-          "publishedOn": "2025-02-21T07:35:01.000Z",
-          "wordCount": null,
-          "title": "[トピックス]『インターネット白書ARCHIVES』に2024年版が追加掲載",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nic.ad.jp/ja/topics/2025/20250221-02.html",
-          "author": null,
-          "description": "2025年2月21日\n各位\n一般社団法人日本ネットワークインフォメーションセンター\nフィッシング対策協議会 技術・制度検討 WG 報告会 開催(2/25)のご案内\n*1。\n              本報告会では、有識者や会員企業などが携わり、\n              毎年改定している「フィッシング対策ガイドライン」の改定内容、\n              および最新のフィッシングの状況や対策技術動向などをレポートする「フィッシングレポート」について、\n              フィッシング対策協議会会員のみではなく、広く一般の方にも紹介いたします。\n              関心のある方はぜひご参加ください。\n            \n記\n\n            \n              ■開催日程\n              \n                2025年2月25日(火) 15:00～17:15 (14:45開場)\n              \n\n              ■会場\n              \n                ハイブリッド開催\n                \n                  現地会場：\n                  \n                    TKP秋葉原カンファレンスセンター カンファレンスルーム5A\n                    \nオンライン：\n                  \n                    Microsoft Teams\n                  \n                \n              \n\n              ■参加費\n              \n                無料\n              \n\n              ■対象\n              \n                フィッシング対策を計画・推進されている方\n                \n■プログラムおよびお申し込み方法\n              \n                以下のWebページのプログラムをご覧ください。\n                お申し込み方法につきましては「お申し込み」をご覧ください。\n                \nhttps://www.antiphishing.jp/news/event/techwg_openday2024_online.html\n                \n\n■定員\n              \n                200名(先着順、うち会場は30名程度)\n              \n\n              ■主催\n              フィッシング対策協議会\n            \n\n\n            \n以上",
-          "link": "https://www.nic.ad.jp/ja/topics/2025/20250221-02.html",
-          "publishedOn": "2025-02-21T07:34:48.000Z",
-          "wordCount": null,
-          "title": "[トピックス]フィッシング対策協議会 技術・制度検討 WG 報告会 開催(2/25)のご案内",
-          "itunes": {},
-          "imageUrl": null
-        },
-        {
-          "id": "https://www.nic.ad.jp/ja/materials/igf/20250221/",
-          "author": null,
-          "description": "IGF 2024参加報告\n2025年2月21日\n総務省国際戦略局 飯田 陽一\n国内IGF活動活発化チームチェア 加藤 幹之\n一般財団法人国際経済連携推進センター(CFIEC) 河内淳子\n一般社団法人JPCERTコーディネーションセンター 小宮山功一朗\n一般社団法人日本インターネットプロバイダー協会(JAIPA) 立石 聡明\n武蔵野メディア研究所 田中 和彦\n一般社団法人日本ネットワークインフォメーションセンター(JPNIC) 山崎 信",
-          "link": "https://www.nic.ad.jp/ja/materials/igf/20250221/",
-          "publishedOn": "2025-02-21T07:11:34.000Z",
-          "wordCount": null,
-          "title": "[Web更新]IGF 2024参加報告を掲載しました",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -2031,16 +1947,6 @@
           "publishedOn": "2025-02-25T00:00:00.000Z",
           "wordCount": 3129,
           "title": "JPRSが「第27回全国中学高校Webコンテスト」に協賛し、JPドメイン名の利用体験を提供",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jprs.jp/whatsnew/",
-          "author": null,
-          "description": "JPドメイン名の登録管理業務とDNSの運用を行っている株式会社日本レジストリサービス(JPRS)による、JPドメイン名サービス総合案内サイトです。",
-          "link": "https://jprs.jp/whatsnew/",
-          "publishedOn": "2025-02-21T00:00:00.000Z",
-          "wordCount": 3129,
-          "title": "「インターネット白書ARCHIVES」に2024年版が追加掲載",
           "imageUrl": null
         }
       ]
@@ -2265,16 +2171,6 @@
           "publishedOn": "2025-02-24T12:00:00.000Z",
           "wordCount": 635,
           "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-          "imageUrl": null
-        },
-        {
-          "id": "/node/23040",
-          "author": "CISA",
-          "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.\nCVE-2025-24989 Microsoft Power Pages Improper Access Control Vulnerability\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.\nAlthough BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.",
-          "link": "https://www.cisa.gov/news-events/alerts/2025/02/21/cisa-adds-one-known-exploited-vulnerability-catalog",
-          "publishedOn": "2025-02-21T12:00:00.000Z",
-          "wordCount": 629,
-          "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
           "imageUrl": null
         }
       ]
@@ -2609,46 +2505,6 @@
           "publishedOn": "2025-02-26T03:00:00.000Z",
           "wordCount": 81,
           "title": "プラネックス製無線LANルータにおける複数の脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU94053500/",
-          "author": "jvn@jvn.jp",
-          "description": "ABBが提供する複数の製品には、複数の脆弱性が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU94053500/",
-          "publishedOn": "2025-02-21T03:00:45.000Z",
-          "wordCount": 136,
-          "title": "複数のABB製品における複数の脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU91912113/",
-          "author": "jvn@jvn.jp",
-          "description": "Rapid Response Monitoringが提供するMy Security Account Appには、ユーザー識別情報操作による権限チェック回避の脆弱性が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU91912113/",
-          "publishedOn": "2025-02-21T03:00:30.000Z",
-          "wordCount": 85,
-          "title": "Rapid Response Monitoring製My Security Account Appにおけるユーザー識別情報操作による権限チェック回避の脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU90727552/",
-          "author": "jvn@jvn.jp",
-          "description": "Elsetaが提供するVinci Protocol Analyzerには、OSコマンドインジェクションの脆弱性が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU90727552/",
-          "publishedOn": "2025-02-21T03:00:15.000Z",
-          "wordCount": 67,
-          "title": "Elseta製Vinci Protocol AnalyzerにおけるOSコマンドインジェクションの脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU96901978/",
-          "author": "jvn@jvn.jp",
-          "description": "Medixantが提供するRadiAnt DICOM Viewerには、不適切な証明書検証の脆弱性が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU96901978/",
-          "publishedOn": "2025-02-21T03:00:00.000Z",
-          "wordCount": 75,
-          "title": "Medixant製RadiAnt DICOM Viewerにおける不適切な証明書検証の脆弱性",
           "imageUrl": null
         }
       ]
@@ -4327,106 +4183,6 @@
           "wordCount": 777,
           "title": "予約受付開始：ScanNetSecurity2024年鑑.pdf",
           "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47653.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2025/02/21/52376.html",
-          "author": null,
-          "description": "公開情報というと大したことないように聞こえるが、世界中がネットでつながっている現代では、OSINT によってさまざまな秘密が暴露されている。有名なのは 2014 年 7 月に墜落したマレーシア航空 ＭＨ１７便が実際にはロシアによって撃墜されたことを暴いたベリングキャットの記事だ。ベリングキャットはイギリス人ブロガーのエリオット・ヒギンズが始めた調査報道サイトであり、世界でもっとも有名な OSINT による調査報道サイトとなっている。",
-          "link": "https://scan.netsecurity.ne.jp/article/2025/02/21/52376.html",
-          "publishedOn": "2025-02-20T23:10:03.000Z",
-          "wordCount": 727,
-          "title": "民主主義殺人事件 - 如月姉妹社の事件簿 第3回「メタ犯人」",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47435.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2025/02/21/52375.html",
-          "author": null,
-          "description": "有限会社丸一超硬は2月13日、同社ウェブサイトの改ざんについて発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2025/02/21/52375.html",
-          "publishedOn": "2025-02-20T23:05:12.000Z",
-          "wordCount": 691,
-          "title": "丸一超硬のウェブサイトが改ざん被害、閲覧できなくなる状況に",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47606.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2025/02/21/52374.html",
-          "author": null,
-          "description": "株式会社アイリッジは2月14日、同社システムへの不正アクセスについて発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2025/02/21/52374.html",
-          "publishedOn": "2025-02-20T23:05:08.000Z",
-          "wordCount": 696,
-          "title": "ソースコード管理サービスに含まれる情報が不正取得 ～ アイリッジの業務委託先がマルウェア感染",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47575.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2025/02/21/52373.html",
-          "author": null,
-          "description": "滋賀県彦根市は2月13日、彦根市メール配信システムから送信されるメールがなりすましメール警告表示される事象について発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2025/02/21/52373.html",
-          "publishedOn": "2025-02-20T23:05:05.000Z",
-          "wordCount": 701,
-          "title": "市のメールに警告表示「このメールは送信ドメイン認証が行われておりません。なりすましメールの可能性があります。」",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2025/02/21/52372.html",
-          "author": null,
-          "description": "株式会社河合楽器製作所は2月14日、同社管理のシステム不具合による個人情報の漏えいについて発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2025/02/21/52372.html",
-          "publishedOn": "2025-02-20T23:05:03.000Z",
-          "wordCount": 705,
-          "title": "1 名の個人情報が閲覧可能に ～ 河合楽器製作所管理のシステムに不具合",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47565.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2025/02/21/52371.html",
-          "author": null,
-          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は2月19日、Movable Typeにおける複数のクロスサイトスクリプティングの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2025/02/21/52371.html",
-          "publishedOn": "2025-02-20T23:00:16.000Z",
-          "wordCount": 758,
-          "title": "Movable Type に複数の XSS の脆弱性",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2025/02/21/52370.html",
-          "author": null,
-          "description": "総務省関東総合通信局は2月19日、サイバーセキュリティ月間関連行事として、2月28日に「2024年度関東サイバーセキュリティセミナー」を開催すると発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2025/02/21/52370.html",
-          "publishedOn": "2025-02-20T23:00:11.000Z",
-          "wordCount": 732,
-          "title": "2 / 28：総務省関東総合通信局「2024年度関東サイバーセキュリティセミナー」オンライン開催",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2025/02/21/52369.html",
-          "author": null,
-          "description": "Okta Japan株式会社は2月17日、株式会社セガがOktaのカスタマーアイデンティティ管理製品「Auth0」を採用したと発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2025/02/21/52369.html",
-          "publishedOn": "2025-02-20T23:00:09.000Z",
-          "wordCount": 711,
-          "title": "自社開発の認証システムから変更 ～ セガ、Okta のカスタマーアイデンティティ管理製品「Auth0」採用",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47582.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2025/02/21/52368.html",
-          "author": null,
-          "description": "株式会社NTTドコモは2月13日、ドコモメールに「迷惑メールフォルダ」を導入すると発表した。送信ドメイン認証技術「DMARC」についても、これまで「拒否」のポリシーのみに準拠していたが、新たに「隔離」ポリシーを導入する。",
-          "link": "https://scan.netsecurity.ne.jp/article/2025/02/21/52368.html",
-          "publishedOn": "2025-02-20T23:00:07.000Z",
-          "wordCount": 699,
-          "title": "ドコモメール「迷惑メールフォルダ」導入、DMARC は新たに隔離ポリシーに",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2025/02/21/52367.html",
-          "author": null,
-          "description": "Netskope Japan株式会社は2月12日、日本企業を対象とした「Netskope Threat Labs レポート」を公開した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2025/02/21/52367.html",
-          "publishedOn": "2025-02-20T23:00:03.000Z",
-          "wordCount": 731,
-          "title": "フィッシングの 52 %はクラウドの認証情報がターゲット",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47539.jpg"
         }
       ]
     },
@@ -4644,16 +4400,6 @@
           "wordCount": 2744,
           "title": "バーガーキング、またアプリでシステム障害　25日から通算3回目【復旧済み】",
           "imageUrl": "https://image.itmedia.co.jp/news/articles/2502/28/cover_news206.jpg"
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2502/21/news133.html",
-          "author": null,
-          "description": "セブン銀行は2月21日、システム障害が生じていると公式X（@7BankOfficial）で発表した。",
-          "link": "https://www.itmedia.co.jp/news/articles/2502/21/news133.html",
-          "publishedOn": "2025-02-21T03:22:00.000Z",
-          "wordCount": 2739,
-          "title": "セブン銀行でシステム障害　スマホアプリからの振込が利用できず【復旧済み】",
-          "imageUrl": "https://image.itmedia.co.jp/news/articles/2502/21/cover_news133.jpg"
         }
       ]
     },
@@ -6701,116 +6447,6 @@
           "wordCount": 4903,
           "title": "USB Type-CとRJ45が合体！　ありそうでなかった変換ケーブル「500-LAN6KC」を早速買ってみた【イニシャルB】",
           "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1663/277/006.JPG"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/weekly/1664718.html",
-          "author": "中島 由弘",
-          "description": "「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/weekly/1664718.html",
-          "publishedOn": "2025-02-21T10:00:00.000Z",
-          "wordCount": 4776,
-          "title": "見出しでわかる IT界隈・今週の重要ニュース：全59本［2025/2/13～2/20］",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1664/718/shutterstock_1391033204_main.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1664959.html",
-          "author": null,
-          "description": "警察庁は2月20日、「子供が犯罪に巻き込まれるきっかけとなるオンラインゲームに関する注意喚起」についての資料を公開し、保護者向けに注意喚起を行った。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1664959.html",
-          "publishedOn": "2025-02-21T08:30:00.000Z",
-          "wordCount": 4715,
-          "title": "警察庁、保護者向けに「ゲーム上で子どもの信頼を得たうえで犯罪行為を行う者がいる」とオンラインゲームの現状を説明し、注意喚起",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1664/959/01.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/column/teleworkgoods/1664604.html",
-          "author": "村上タクタ",
-          "description": "Web会議の頻度というのは人それぞれだと思うが、「Shokz OpenMeet」は、1日に何度もWeb会議や長時間の音声通話がある人にオススメできるヘッドセットだ。テレアポの人にも向いていると思うし、長時間装着していてもストレスなく、こちらが聞く音も、相手に伝わる声も音質が良い。Shokz OpenMeetはそんなヘッドセットだ。",
-          "link": "https://internet.watch.impress.co.jp/docs/column/teleworkgoods/1664604.html",
-          "publishedOn": "2025-02-21T03:12:00.000Z",
-          "wordCount": 4792,
-          "title": "ず～っとWeb会議続きでも辛くない!! 骨伝導で耳をふさがず、長時間装着も快適なShokzのビジネス向けヘッドセット 【テレワークグッズ・ミニレビュー 第122回】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1664/604/02.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/column/netliteracy/1664368.html",
-          "author": "DLIS・柳谷 智宣",
-          "description": "「愛を伝えるシーズンには、AIによる巧みなロマンス詐欺に要注意！」と題した調査報告を、セキュリティ会社のマカフィーが2月13日に発表しました。日本・米国・英国・フランス・ドイツ・インド・オーストラリアの7カ国で、18歳以上の7000人を対象として2025年2月に調査を行った結果をもとに、AIを悪用したロマンス詐欺が広がっていることに注意を呼び掛ける内容です。",
-          "link": "https://internet.watch.impress.co.jp/docs/column/netliteracy/1664368.html",
-          "publishedOn": "2025-02-21T02:50:00.000Z",
-          "wordCount": 4737,
-          "title": "マッチングアプリやSNSで出会った相手はAIや詐欺師かも！ 恋人をオンラインで探す際の4つの注意点とは【読めば身に付くネットリテラシー】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1664/368/02.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/shopping/1664712.html",
-          "author": "アイティースリー",
-          "description": "Amazon.co.jpのLenovoストアページでは現在、同社のAndroidタブレットがタイムセール価格で販売中だ。",
-          "link": "https://internet.watch.impress.co.jp/docs/shopping/1664712.html",
-          "publishedOn": "2025-02-21T02:45:00.000Z",
-          "wordCount": 4749,
-          "title": "LenovoのAndroidタブレットがタイムセール中！　Amazonお買い得情報　12.7インチの「Lenovo Tab P12」が4万1800円など",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1664/712/00.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/shopping/1664714.html",
-          "author": "アイティースリー",
-          "description": "Amazon.co.jpのEarFunストアページでは現在、同社のノイズキャンセリング付きヘッドホンをセール価格で販売中だ。",
-          "link": "https://internet.watch.impress.co.jp/docs/shopping/1664714.html",
-          "publishedOn": "2025-02-21T02:30:00.000Z",
-          "wordCount": 4741,
-          "title": "EarFun製ノイキャンヘッドホンがお得！　Amazonセール情報　「EarFun Wave Pro」に最大1500円OFFクーポン",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1664/714/00.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/shopping/1664715.html",
-          "author": "アイティースリー",
-          "description": "Amazon.co.jpのKindleストアでは現在、3月4日までの期間限定で「インプレスグループ春祭り」を開催中だ。インプレスグループの書籍3000冊以上が最大50％OFFとなるセールとなっており、IT・コンピュータ関連の書籍も多数ラインアップされている。",
-          "link": "https://internet.watch.impress.co.jp/docs/shopping/1664715.html",
-          "publishedOn": "2025-02-21T02:15:00.000Z",
-          "wordCount": 4727,
-          "title": "AmazonのKindleストアで「インプレスグループ春祭り」開催中、最大50％OFF",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1664/715/kindle0221.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1664708.html",
-          "author": "tks24",
-          "description": "「iPhone 16e」の末尾の「e」が持つ意味について、Appleが行ったオンライン会見で言及があったことを、海外ジャーナリストが明かしている。",
-          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1664708.html",
-          "publishedOn": "2025-02-21T01:53:37.000Z",
-          "wordCount": 4738,
-          "title": "「iPhone 16e」の「e」は何の略？ 誰も予想しなかったAppleの回答とは【やじうまWatch】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1664/708/yajiuma-watch_3.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1664707.html",
-          "author": "tks24",
-          "description": "AmazonアプリストアがAndroid向けのサービスを終了することが明らかになった。",
-          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1664707.html",
-          "publishedOn": "2025-02-21T01:52:01.000Z",
-          "wordCount": 4724,
-          "title": "Amazonアプリストア、Windows向けに続いてAndroid向けストアもサービスを終了【やじうまWatch】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1664/707/yajiuma-watch_4.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1664584.html",
-          "author": "木下 明音",
-          "description": "ソニーワイヤレスコミュニケーションズ株式会社は2月20日、ローカル5Gを利用した集合住宅向けの固定インターネット接続サービス「NURO Wireless 5G」において、いわゆる全戸加入型となる「レジデンシャルプラン」の提供を開始した。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1664584.html",
-          "publishedOn": "2025-02-20T21:30:00.000Z",
-          "wordCount": 4738,
-          "title": "ローカル5G「NURO Wireless 5G」、全戸加入型の「レジデンシャルプラン」提供開始",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1664/584/main.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1664497.html",
-          "author": "木下 明音",
-          "description": "警察庁は2月20日、オンラインゲームやインターネットを通して「海外で儲かる仕事」に誘われた結果、海外で脅迫・監禁され、詐欺などの犯罪に加担させられる事案が発生しているとして、安易な気持ちで応募しないよう注意喚起を、X（旧Twitter）に投稿するとともに、ウェブサイトで公開した。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1664497.html",
-          "publishedOn": "2025-02-20T21:00:00.000Z",
-          "wordCount": 4715,
-          "title": "警察庁、「海外で儲かる仕事」に誘われ、脅迫・監禁され、犯罪に加担させられる事案に注意喚起",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1664/497/main.jpg"
         }
       ]
     },
@@ -7884,46 +7520,6 @@
           "wordCount": 1792,
           "title": "Googleがフィンガープリンティング解禁 - 個人情報の収集可能に",
           "imageUrl": "https://news.mynavi.jp/techplus/article/20250222-3132973/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20250221-3133373/",
-          "author": null,
-          "description": "Cybersecurity Newsは2月19日(現地時間)、Windowsディスククリーンアップの脆弱性に対する概念実証(PoC: Proof of Concept)コードが公開されたと報じた。この脆弱性を悪用されると、ローカルの攻撃者にSYSTEM権限を取得される可能性がある。",
-          "link": "https://news.mynavi.jp/techplus/article/20250221-3133373/",
-          "publishedOn": "2025-02-21T08:27:37.000Z",
-          "wordCount": 1787,
-          "title": "Windowsディスククリーンアップに脆弱性、PoCコードが公開される",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20250221-3133373/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20250221-3133247/",
-          "author": null,
-          "description": "さくらインターネットは2月20日、パブリッククラウド「さくらのクラウド」において、統合型データ保護ソフトウェアソリューションアプリケーション「Arcserve Unified Data Protection」を2月27日より提供開始することを発表した。",
-          "link": "https://news.mynavi.jp/techplus/article/20250221-3133247/",
-          "publishedOn": "2025-02-21T01:16:11.000Z",
-          "wordCount": 2814,
-          "title": "さくらインターネット、データ保護ソフトウェア「Arcserve UDP」提供開始",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20250221-3133247/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20250221-3132826/",
-          "author": null,
-          "description": "Juniper Networksは2月18日(米国時間)、Unicodeの非表示文字を用いるJavaScript難読化手法が悪用されたとして、注意を喚起した。これは2025年1月初旬、米国の政治活動委員会(PAC: Political Action Committee)の関連組織を標的とした高度なサイバー攻撃の調査中に発見された。",
-          "link": "https://news.mynavi.jp/techplus/article/20250221-3132826/",
-          "publishedOn": "2025-02-21T00:34:59.000Z",
-          "wordCount": 1806,
-          "title": "見えないJavaScriptでサイバー攻撃、秘密はハングル・フィラー文字",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20250221-3132826/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20250221-3132651/",
-          "author": null,
-          "description": "Windows Centralは2月18日(米国時間)、Windows 11のメモ帳に有料の機能が追加されたと伝えた。有料の機能とはメモ帳に搭載された新機能の「Rewrite」を指しており、利用するにはMicrosoft 365 PersonalまたはFamilyサブスクリプションに加入する必要があるとして事実上の有料化だと指摘している。",
-          "link": "https://news.mynavi.jp/techplus/article/20250221-3132651/",
-          "publishedOn": "2025-02-20T23:32:18.000Z",
-          "wordCount": 1764,
-          "title": "Windows 11メモ帳に有料の生成AI機能搭載、プライバシーに懸念も",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20250221-3132651/ogp_images/ogp.jpg"
         }
       ]
     }
