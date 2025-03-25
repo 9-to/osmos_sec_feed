@@ -1214,6 +1214,26 @@
       "siteUrl": "https://tech-lab.sios.jp",
       "articles": [
         {
+          "id": "https://tech-lab.sios.jp/?p=46879",
+          "author": "遠藤",
+          "description": "こんにちは、サイオステクノロジーの遠藤です。今回はNext.js 15でApp Routerを利用した際のStatic Exportsについて整理します。 Static Exportsとは？ Static Exports ...\n【Next.js】App Routerを利用した際のStatic Exportsについて整理する first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/46879",
+          "publishedOn": "2025-03-25T06:03:04.000Z",
+          "wordCount": 2361,
+          "title": "【Next.js】App Routerを利用した際のStatic Exportsについて整理する",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2025/03/thumbnail2.png"
+        },
+        {
+          "id": "https://tech-lab.sios.jp/?p=46998",
+          "author": "和田拓也",
+          "description": "こんにちは、サイオステクノロジーの和田です。今回はEthereumのウォレットアドレス（EOA）の本人確認をMetaMaskの署名機能を使って試したので、実装方法などを書いていきたいと思います。 署名の検証方法 署名の検 ...\nEthereumウォレットアドレスの署名検証試してみた first appeared on SIOS Tech. Lab.",
+          "link": "https://tech-lab.sios.jp/archives/46998",
+          "publishedOn": "2025-03-25T03:18:08.000Z",
+          "wordCount": 2568,
+          "title": "Ethereumウォレットアドレスの署名検証試してみた",
+          "imageUrl": "https://tech-lab.sios.jp/wp-content/uploads/2025/03/b957e78474ba0673d1499d18664f9194.png"
+        },
+        {
           "id": "https://tech-lab.sios.jp/?p=46951",
           "author": "山本",
           "description": "こんにちは。サイオステクノロジー OSS サポート担当 山本 です。 今回も solr のお話です。 solr スキーマの数多ある “フィルタ” から、比較的効果が実感しやすいと思われる応用フィル ...\nSolr って何者？⑤：解析内容を調整する② (Synonym) first appeared on SIOS Tech. Lab.",
@@ -1497,6 +1517,16 @@
       "siteUrl": "https://eset-info.canon-its.jp/",
       "articles": [
         {
+          "id": "https://eset-info.canon-its.jp/malware_info/special/detail/250325.html",
+          "author": null,
+          "description": "2024年に発生したサイバー攻撃の事例や、総合セキュリティソフトESETによる日本国内および全世界で検出されたマルウェアなどを解説した、2024年サイバーセキュリティレポートです。\n本レポートでは、ランサムウェア攻撃の最新動向や2024年にフィジカル空間で話題となった匿名・流動型犯罪グループによる窃盗事件の犯罪スキームを取り入れた新たなランサムウェアの攻撃スキームの可能性、「攻撃者の悪用」と「ビジネス利用」の視点による生成AIのリスクと対策など、2024年のサイバーセキュリティの脅威を、サイバーセキュリティラボ独自の視点から深堀り分析し、効果的なセキュリティ対策の強化につながる情報をまとめました。\n\n\n\nトピック\n\n\n\t第1章：2024年のサイバーセキュリティ脅威について\n\n\n2024年にESET製品で検出された脅威に関する、検出数の月別推移や検出数TOP10、ファイル形式別・カテゴリー別の検出統計に加えて、国内におけるセキュリティトピック、今後推奨されるセキュリティ対策を解説します。\n\n2024年の日本国内におけるマルウェア検出数は2月以降高い水準を維持しています。検出数TOP10の検出名を「アドウェア」「詐欺を目的としたマルウェア」「ダウンローダー」「その他」の4種に分類すると、「詐欺を目的としたマルウェア」が最も多く検出されています。その理由として、不特定多数のユーザーを狙った配布方法とフィッシングの多さが挙げられます。\n例えば、3位の「HTML/Phishing.Agent」は電子メールの添付ファイルやWebサイトとして配布されます。フィッシング対策協議会の月次報告書においても、フィッシングサイトの報告件数は高い水準を保っています。\n\nマルウェア以外の脅威では、昨年から順位を上げ検出数3位の「HTTP/Exploit.CVE-2021-41773」は、2021年に確認されたApache HTTP Serverのパストラバーサルの脆弱性を悪用した攻撃の検出名です。「Androxgh0stマルウェア」がこの脆弱性を悪用していることを、FBIと米国サイバーセキュリティ・インフラストラクチャセキュリティ庁（CISA）が2024年に報告しています。\nAndroxgh0stマルウェアは、ボットネットを形成し、Amazon Web ServiceやOffice 365などのサービスの資格情報を窃取します。また、2024年上半期サイバーセキュリティレポートで急増による注意喚起を行った「PHP_CVE-2024-4577」は、9位から4位に順位を上げました。脆弱性が公開された6月から9月に集中して検出しており、短期間に攻撃が行われていたことが分かります。\n\n\n\t第2章：移り変わるランサムウェア攻撃　～フィジカル空間の犯罪スキームを取り入れて進化する攻撃体制の考察～\n\n\nランサムウェア攻撃の被害件数とESET製品による検出数、最新の攻撃スキームと手口、フィジカル空間の犯罪スキームを取り入れた新たな攻撃スキームの可能性、そしてそれらへの対策について解説します。\n\n現在のランサムウェア攻撃は分業化が進み、RaaS（Ransomware as a Service）やイニシャルアクセスブローカー、Botnet Master、ミキシングサービス、盗難データの販売仲介による1つのエコシステムが形成されており、攻撃のサイクルが加速しています。また、ランサムウェア攻撃の被害が高水準で推移している中、2023年以降ノーウェアランサムと呼ばれる新しい手法による被害も確認されています。ノーウェアランサムはファイルの暗号化を行わず、窃取したデータの公表を脅迫材料に使う手法です。その背景には、従来のランサムウェア対策が進んだことや、攻撃のステップを減らすことで攻撃のサイクルを早めて効率良く収益を上げる狙いがあります。\nさらに、将来的に起こりうるランサムウェア攻撃の手法として、2024年に話題となったトクリュウ（匿名・流動型犯罪グループ）による闇バイトを利用した窃盗事件の犯罪スキームが応用される可能性が考えられます。トクリュウは、SNSや求人サイトを通じて緩やかに結びついたメンバーが役割を細分化しながら活動しています。収益を得る中核的人物は匿名化され、末端の実行犯を入れ替えながら活動を行うため、組織の把握やメンバーの特定が難しい特徴があります。ランサムウェア攻撃にトクリュウを応用された場合、フィジカル空間における強盗や窃盗と比較すると、サイバー空間の犯罪では、実行犯のメンバーは犯罪行為をしている意識がより一層低くなる可能性が挙げられます。\n\n\n\t第3章：スレットハンティングで検出した2024年のサポート詐欺サイトについて\n\n\n近年のサポート詐欺の攻撃手法の概要、画面ロックツールを用いた新たな攻撃手法、組織における被害事例、対策について解説します。\n\n偽の警告画面を表示して不安を煽り、サポートセンターと称する電話番号に連絡させ、高額の金銭を要求したり、遠隔操作ツールをインストールさせたりする手口をサポート詐欺といいます。サポート詐欺は継続して被害が報告されており、その数は年々増加しています。\n2024年には、正規の商用遠隔操作ツールを悪用して画面をロックさせる新たな手口が報告されています。ロックされた画面には偽のサポートセンターへ電話を促す表示がされます。またこの手法は、悪性サイトから意図せずダウンロードした不審なファイルを実行することで攻撃者による遠隔操作が行われるため、従来のWebブラウザーを閉じる対処ができない点に注意が必要です。\n\nさらにサポート詐欺は個人だけでなく、一般企業などの組織に対する被害も多数発生しています。2024年には、商工会にてマイクロソフト社の社員をかたる犯人が業務用パソコンに遠隔操作ソフトをインストールし、3回にわたり合計1,000万円を送金させた事例や、ドラッグストアではオンラインストアで過去に買い物をした顧客情報および従業員情報が漏えいした可能性が報告された事例が確認されています。\n\n\n\t第4章：生成AIの関わる脅威・リスク　～業務活用を行っていくために～\n\n\n「攻撃者の悪用」と「ビジネス利用」の視点による生成AIのリスクとそれぞれの対策、業務活用の具体的な事例について解説します。\n\n2024年もさまざまな生成AIが発表され、その普及に伴い、利用開始・導入を検討している組織も増加しており、ビジネスに革新と効率化をもたらすことが期待されています。その一方、生成AIにはさまざまなリスクが存在します。攻撃者の悪用におけるリスクとして、フェイクコンテンツとサイバー攻撃が挙げられます。フェイクコンテンツの事例では、2024年のアメリカ大統領選挙の際に偽の音声や画像が情報工作に利用されました。また、サイバー攻撃の事例では、国内において生成AIを利用してマルウェアを作成し摘発された事例も確認されています。\nビジネス利用におけるリスクの例としては、APIなどで導入したサービスを利用して、顧客が生成AIへ入力を行う場合、意図的に悪意のあるプロンプト（入力）を与えることでAIが意図しない動作や結果を引き起こす攻撃手法である「プロンプト・インジェクション」によって、不正な指示を与えて誤動作させ、公開すべきでない情報が引き出されるリスクが挙げられます。\n\n\n\t第5章：サイバー攻撃被害情報の共有と公表のあり方について\n\n\n「サイバー攻撃被害に係る情報の共有・公表ガイダンス」の概要説明に加えて、実際に発生したサイバー攻撃インシデントをケーススタディとして、組織や団体のインシデントに関する情報の共有と公表について考察します。\n\n2023年3月に総務省、内閣官房内閣サイバーセキュリティセンター、警察庁から「サイバー攻撃被害に係る情報の共有・公表ガイダンス」が公表されました。このガイダンスは、2020年から2022年にかけて複数発生したサイバー攻撃事案において、被害公表や取引先への通知の遅れが問題視され、メディアからの批判が相次いだことを受け、被害組織の保護や攻撃被害の拡大防止を目的として策定されました。このガイダンスでは、サイバー攻撃被害に関する情報を「情報共有」と「被害公表」に分類し、攻撃に関する情報（攻撃技術情報）と被害に関する情報（被害内容・対応情報）を整理しています。有事の際、判明している情報をこのガイダンスに沿って整理することで、意思決定のための社内での関係部門との情報共有やステークホルダーへの被害公表を効果的に行えるなど、非常に有効なガイダンスとなっているため、規模を問わずあらゆる組織において活用を推奨します。\n\n解説動画公開中！\n\n「2024年サイバーセキュリティレポート紹介動画」\n各章の内容を要約して解説いたしました。\n\n\n\n\n詳細レポートは、下記よりダウンロードしていただきご覧ください。",
+          "link": "https://eset-info.canon-its.jp/malware_info/special/detail/250325.html",
+          "publishedOn": "2025-03-24T15:00:00.000Z",
+          "wordCount": 193,
+          "title": "2024年サイバーセキュリティレポート ランサムウェア攻撃の新たな攻撃スキームや生成AIのリスクマネジメントを解説",
+          "imageUrl": "https://eset-info.canon-its.jp/files/topics/4687_ext_01_0.jpg"
+        },
+        {
           "id": "https://eset-info.canon-its.jp/malware_info/special/detail/250318.html",
           "author": null,
           "description": "事業規模や業種に関係なくサイバー攻撃の被害が拡大している昨今、中小企業でもセキュリティインシデントの発生に備えておく必要性が高まっている。IPAが発行した「中小企業の情報セキュリティ対策ガイドライン」にインシデント発生時の対応に関する項目が追加されたことからも、その重要性がうかがえる。本記事では、インシデント対策の重要性をはじめ、その方法や課題、そして、インシデント対策に役立つソリューションとして「ESET PROTECT MDR Lite」の特長や活用方法について、キヤノンITソリューションズ株式会社の吉野 央樹が解説する。\n\n\n\n中小企業にセキュリティインシデント対応が求められる背景\n\n巧妙化するサイバー攻撃などにより、企業規模や業種を問わず、セキュリティインシデントが発生している。今や大企業に限らず、中小企業においてもセキュリティインシデントの発生に備えなければならない時代だ。IPA（情報処理推進機構）が発行している「中小企業の情報セキュリティ対策ガイドライン」は、2009年に第1.0版が公開され、時代や環境の変化に応じて改定が重ねられてきた。2023年に改定された第3.1版では、巧妙化するサイバー攻撃による被害拡大を背景に、セキュリティインシデント発生時の対応が新たに追加されている。\n\nまた、IPAが2024年1月に発表した「情報セキュリティ10大脅威2024 [組織]」では、社会的に影響の大きかった脅威について審議・投票を行った結果、「ランサムウェアによる被害」が4年連続で1位に、加えて「サプライチェーンの弱点を悪用した攻撃」が2年連続で2位となっている。いずれの脅威も対策が必要であるが、特に上位の脅威については「自分事」として捉え、適切な対策を講じなければならない（図1）。\n\n※情報セキュリティ10大脅威2025 [組織]でも、「ランサムウェアによる被害」は1位となり5年連続、「サプライチェーンの弱点を悪用した攻撃」が3年連続で2位となった。\n\n\n\n図1：中小企業にセキュリティインシデント対応が求められる背景\n\n\nこのような状況にも関わらず、セキュリティインシデント対応は十分に進んでいない。IPAが実施した「2021年度 中小企業における情報セキュリティ対策に関する実態調査」では、情報セキュリティ対策投資を行わなかった理由として、「必要性を感じていない」との回答が最も多く、その割合は40.5％に上った。また、「情報セキュリティ被害に遭っていない」と回答した企業は84.3％に達している。「自分たちは被害に遭っていないから大丈夫」といった他人事のような認識が見受けられるのは気掛かりだ（図2）。\n\n\n\n図2：セキュリティインシデント対応が進まない理由\n\n\nセキュリティインシデントはいつ発生するかわからないため、「自分事」として捉え、速やかに対策を講じなければならない。自然災害への備えであれば、家具の転倒防止や怪我の防止、消火の備え、非常用品の準備（水や食料など）といった対策を講じているだろう。こうした取り組みは、セキュリティインシデント対応の備えと共通したものだ。\n\n先述した「中小企業の情報セキュリティ対策ガイドライン」には、実行すべき7項目の取り組みが記載されている。被害に遭ってから備えるのではなく、今から備えを始めるべきだ（図3）。\n\n\n\n図3：インシデント対応は今すぐ講じるべき\n\n\n経済産業省はサイバー対策のレベルを可視化する仕組みを検討している。外部から各企業のサイバー対策の状況を判断するのが難しいという課題に対応するため、成熟度を定義する取り組みについて議論が進められてきた。この仕組みを利用し、サイバー対策のレベルを企業選定の判断基準や補助金の支給要件として考慮する用途が考えられる（図4）。\n\n\n\n図4：サイバー対策のレベルを可視化\n\n\nセキュリティインシデントの想定被害と事例\n\nセキュリティ対策を怠ったことによりインシデントが発生してしまうと、多くの不利益を被ることになる。セキュリティインシデントによって想定される被害として、主に4つの損失が考えられる（図5）。\n\n1）金銭の損失\n\n機密情報や個人情報の漏えいにより、取引先や顧客から損害賠償請求を受けるケースに限らず、罰金やクレジットカードの不正利用などによる直接的な損失も含まれる。\n\n2）顧客の損失\n\n情報流出が発生した場合、経営者には管理責任が問われ、社会的評価が低下する。再発防止に努めたとしても、社会的信用の回復には時間がかかり、場合によっては事業の存続が困難になる可能性も否定できない。\n\n3）事業の停止\n\n情報システムに事故が発生して使用できなくなると、生産活動の遅れや営業機会の損失が生じ、事業が停滞する。特に、中核となる事業を支える情報システムが停止してしまうと、企業の存続にも深刻な影響を及ぼす恐れがある。\n\n4）従業員への影響\n\n情報セキュリティ対策の不備が内部不正を招き、従業員のモラル低下を引き起こす要因となり得る。また、情報漏えいなどによる企業イメージの低下が原因で離職する従業員も現れる可能性もある。さらに、従業員の個人情報が適切に保護されていない場合には、訴訟のリスクも生じる。\n\n\n\n図5：セキュリティインシデントの想定被害\n\n\n以降では、中小企業で発生したセキュリティインシデントの3つの事例について説明する（図6）。\n\n1）ECサイトへの不正アクセスによる営業機会の損失\n\n自社で運営するECサイトで不正アクセスが発生し、クレジットカード決済に対する多数の不正試行が行われた。幸い、決済はすべて失敗に終わったものの、この対応に約1週間を要した。その間、一部の機能が制限されたため、営業機会が減少し、金銭的な損失が生じた。\n\n2）顧客情報の入ったパソコンの紛失による信用失墜\n\n従業員が顧客情報を含むパソコンを社外に持ち出し、紛失事故を起こしたため、取引先からの信用を大きく失う結果となった。従業員の情報セキュリティ意識の低さと、持ち出しに関するルールの不備が原因であった。\n\n3）ランサムウェア感染による多大な復旧コスト\n\nランサムウェアに感染し、サーバー上のファイルが不正に暗号化され、身代金を要求される事態に陥った。この復旧作業には多大な時間とコストを要した。\n\n\n\n図6：セキュリティインシデントの事例\n\n\n警察庁が公開している「令和5年におけるサイバー空間をめぐる脅威の情勢等について」によると、サイバー攻撃の標的は大企業に限らず、中小企業が半数以上であることが報告されている。また、業種についても、製造業が最も多いものの、全体では業種を問わず被害が発生している状況にある（図7）。\n\n\n\n図7：サイバー攻撃の攻撃対象\n\n\n情報セキュリティ対策と関連のある主な法令として、個人情報保護法とマイナンバー法が挙げられる。特に、以下の項目については、懲役や罰金などが経営者に課される可能性があることを認識しておく必要がある（図8）。\n\n個人情報保護法\n\n\n\t第173条：委員会からの命令に違反\n\t第174条：個人情報データベース等不正提供罪\n\t第177条：報告及び立入検査\n\t第179条：両罰規定\n\t第180条：委員会への虚偽の報告\n\n\nマイナンバー法\n\n\n\t第48条：正当な理由なく特定個人情報ファイルを提供\n\t第49条：不正な利益を図る目的で個人番号を提供または盗用\n\t第50条：情報提供ネットワークシステムに関する秘密を漏えいまたは盗用\n\t第51条：不正な手段で個人番号を取得\n\n\n\n\n図8：情報セキュリティ対策と関連のある主な法令\n\n\nセキュリティインシデントが発生するとサービスの利用者から訴訟を起こされ、経営者が法廷に立たされる可能性もあり得る。例えば、病院がランサムウェア感染によって機能停止し、その影響で患者が命を落とした場合、遺族から訴訟を起こされるリスクがある。また、提供しているクラウドサービスが停止し、その結果、顧客企業の業務が停止した場合は、利用者から集団訴訟を起こされるリスクも考えられる。加えて、マルウェアの被害で決算発表が延期され、その影響で株価が下落した場合においても、株主の集団訴訟へつながるかもしれない。\n\nひとたびサイバー攻撃に遭ってしまうと、被害者になると同時に、加害者にもなり得る。サイバー対策には経営責任が生じることをあらためて認識しておくべきだ（図9）。\n\n\n\n図9：経営者が法定に立たされる可能性\n\n\nセキュリティインシデント対応の目的と必要性\n\nインシデント対応の目的は、インシデントが発生しても該当企業の事業継続性を確保することにある。事業継続性を担保するには、あらかじめインシデントに備えることで、発生時の被害や影響範囲を最小限に抑える事後対策が重要である。\n\nまた、このインシデント対応は、自社だけでなく、顧客や取引先などのステークホルダーに対する被害拡大を防ぐことにもつながる。ひいては自社の信用低下、対応コストの増大、金銭被害、事業停止といったリスクを軽減できる（図10）。\n\n\n\n図10：セキュリティインシデント対応の目的と必要性\n\n\nセキュリティインシデントの全体像\n\nセキュリティインシデントとは、サイバー攻撃や人為的ミスによる情報漏えい、サービス停止、天災など、企業の事業継続性を脅かす事象を指す。例えば、データの改ざんや漏えい、破壊、消失、情報システムの機能停止、あるいは、これらにつながる可能性のある事象がインシデントに該当する（図11）。\n\nインシデントは大きく3つに分類できる。これらの分類ごとに、インシデント対策を考えることが重要となる。\n\n1）ウイルス感染、ランサムウェア感染\n\nウイルスやランサムウェアへの感染が発生した場合、まず感染したパソコンやサーバーの利用を停止し、ネットワークから切り離す必要がある。特にランサムウェア対応では、日頃から適切な方法でデータのバックアップを行っておくことが被害を最小限に抑えるポイントとなる。\n\n2）情報漏えい\n\n情報漏えいには複数の要因があるが、特に不正アクセスは大量のデータ流出につながる恐れがある。そのため、インターネットに接続しているサーバーへの対策を怠ってはならない。また、不正アクセスや内部犯行は犯罪性があるため、警察への届け出が必要となる。\n\n3）システムの停止\n\nサイバー攻撃、ソフトウェアのバグや不具合、機器の故障など、システム停止にはさまざまな原因が想定される。異常が発見された際に原因が特定できないこともあるため、セキュリティ問題に起因する可能性も考慮して対応する必要がある。また、システムの停止は事業や企業経営に重大な影響を与える恐れがあるため、経営者は事業継続計画（BCP）を策定し、これに備えるべきだ。\n\n\n\n図11：セキュリティインシデントの全体像\n\n\n対応状況チェック\n\nセキュリティ対策を進める上で、まずは自社のインシデント対応状況を確認することが推奨される。ここでは、先述した「中小企業の情報セキュリティ対策ガイドライン」の付録にあるリスク分析シートや対応状況チェックシートを活用し、情報セキュリティインシデント対応と事業継続計画の状況を確認する方法について説明する（図12）。\n\n具体的には、以下のチェック項目が含まれる。\n\n\n\t秘密情報の漏えい、紛失、盗難などの事故が発生した場合の対応手順書が用意されているか\n\tインシデント発生に備えて、エビデンス収集の手順が定められ、運用されているか\n\tインシデント発生により事業が中断した場合、再開するための計画が策定されているか\n\n\n一部しか実施していない、あるいは実施状況が不明な企業では、必要な対策について検討を進めてほしい。\n\nこのリスク分析シートでは、自社にどのような情報資産があるのかを整理し、その資産を評価するために「機密性」「完全性」「可用性」の観点を定義している。それぞれの資産に対し、どのような管理が行われているかを把握し、現状の対策が十分かどうかを判断することが可能なツールとなっている。\n\n\n\n図12：対応状況チェック\n\n\n対応フローと整理・準備項目\n\nここでは、インシデントが発生した際の対応フローに沿って、その対策について解説する（図13）。\n\n1）検知および初動対応\n\nインシデントが疑われる事象が発生した際には、責任者へ報告し、迅速にインシデント対応体制を立ち上げる必要がある。自社内だけでは対応しきれない場合、外部専門組織への支援依頼も実施する。また、検知した内容を確認した上で、被害が拡大する可能性がある場合は、ネットワーク遮断や端末の隔離、システムやサービスの停止といった対応を進める。\n\n2）報告・公表\n\n第一報として、社内での報告や情報連携を実施する。また、顧客や取引先に影響が及ぶケースでは、時期や内容、対象を慎重に考慮した上で、状況を外部へ公表する。その後、状況に応じて第二報、最終報へと進み、インシデント対応の状況や再発防止策を報告する。インシデントの内容によっては、関連省庁、警察、IPAなどへの届け出が必要となる場合もある。\n\n3）復旧・再発防止\n\nインシデントの原因を分析するために、フォレンジック調査や詳細な分析を実施する。また、攻撃者を告訴する場合に備えて、インシデントに関連するデータやログを含んだ証拠を保全し、適切に保管する。これらの作業が完了した後、対象端末やネットワークシステムの復旧作業を進める。最後に、インシデントを再発させないよう、根本原因を分析し、新たなルールの策定や運用上の改善、従業員教育の徹底などの再発防止策を検討し、実施する。\n\n\n\n図13：インシデント対応フロー\n\n\n対応例として、ランサムウェア感染の場合、以下のような対応が求められる。\n\nまず、ランサムウェア感染を検知した際には、速やかに責任者へ報告し、感染した端末をネットワークから隔離しなければならない。影響を受ける取引先や顧客がいる場合には、インシデント発生の報告を実施する。また、法令などで被害の報告義務が課されているケースでは、所管の省庁に対する報告やIPAへの届け出が必要となる。\nインシデントの調査を行い、証拠を保全した後、復旧作業を開始する。ランサムウェア対策においては、日頃から適切な方法でデータのバックアップを取得しておくことが被害を最小限に抑えるポイントとなる。また、インシデントを踏まえ、新たなルールの策定やツールの導入、体制の見直しなどの再発防止策を検討し、実施する（図14）。\n\n\n\n図14：ランサムウェア感染時の対応例\n\n\nインシデントが発生した際に慌てないよう、事前に整理しておくべき事項をまとめておくことが推奨される。インシデントの発生事象に関して、「いつ」「どこで」「誰が」「どのように」といった5W1Hの観点で把握しておくとよい。以下に、インシデント対応時に適切な判断ができるよう整理するべき項目を挙げる（図15）。\n\n\n\tインシデントの分類\n\t事業者\n\t責任者・担当者\n\t発覚日時\n\t発生日時\n\t発生事象\n\t対応経過\n\t想定される原因\n\t被害を受けたシステムの状況\n\tシステム構成・運用状況\n\n\n実際にインシデントが発生したときには、先述した対応フローに沿った迅速な対応が求められるため、必要な情報をタイムリーに収集するのが困難な場合もある。多くの項目ではツールが利用できるため、ツールを使って効率的に情報を取得することが推奨される。\n\n\n\n図15：インシデント対応時に整理しておくべき事項\n\n\n次に、インシデント発生に備えた準備事項について解説する（図16）。\n\n1）インシデント対応体制の整備\n\nインシデント発生による被害とその影響範囲を最小限に抑え、速やかに復旧して、企業の事業を継続できるよう、組織内の対応体制を整備する必要がある。また、被害が発覚した際の通知先や、開示が必要な情報を把握し、社内外へ適切に説明できる体制を整える準備も欠かせない。\n\n2）インシデント対応計画やマニュアルの策定\n\nサイバーセキュリティリスクを経営リスクの1つとして認識し、組織全体として対応方針を策定することが重要だ。経営戦略の観点を踏まえ、守るべき情報を特定した上で、リスクに対応するための計画を策定する。\n\n上記2つの項目は、経営者が主体となって推進するべき事項となっている。\n\n3）インシデント検知ツールの導入\n\n実務者がインシデントを迅速に検知し、その原因を特定しやすくするためには、不正アクセスの検知や常時監視といった端末管理、制御を行えるツールの導入が有効だ。先述したインシデント対応時に整理しておくべき事項に関する情報の収集や、インシデントに関連するデータやログの取得が容易になる。ツールを活用することで、インシデント発生時のみならず、通常業務におけるリスク軽減にも役立つため、セキュリティの強化を期待できる。\n\n\n\n図16：インシデント発生に備えた準備事項\n\n\nインシデント検知ツールの導入において中小企業が抱える課題\n\nインシデント検知ツールを導入することで、セキュリティインシデントの兆候を迅速に捉えられる可能性を高めることができる。先述のIPA「中小企業の情報セキュリティ対策ガイドライン」でも、IDS／IPS（侵入検知システム／侵入防御システム）やUTM（統合脅威管理）といったソリューションに加え、端末機器に侵入したウイルスやランサムウェアなどのサイバー攻撃を検出し、管理者に通知する技術としてEDR（Endpoint Detection and Response）が紹介されている（図17）。\n\n\n\n図17：インシデント検知ツール導入のメリット\n\n\nただし、EDRのようなインシデント検知ツールは、導入するだけでセキュリティレベルが向上するわけではなく、運用体制を適切に整備しなければならない（図18）。\n\nEDRはウイルス対策ソフトのように「これはウイルスです」と明確に怪しい挙動をブロックするツールではない。例えば、コマンドライン経由で新規ユーザーが作成されたといった不審な挙動のように、それ自体が脅威とは言えないものの、サイバー犯罪者が攻撃を行う際によく使用する手法が検知対象に含まれる。したがって、検知された内容を管理者が確認し、それが本当に対処すべき脅威であるのか、それとも業務に必要なアプリケーションが誤って検知されたものに過ぎないだけなのかを見極める必要がある。\n\nEDRを導入しても、適切な運用や判断が行われなければ、対処すべき脅威を見逃したり、必要以上に遮断して業務に支障をきたしたりする可能性がある。EDRの効果を最大限に発揮させるには、運用者のスキルが求められるのだ。\n\n\n\n図18：インシデント検知ツールに求められる適切な運用\n\n\n運用者のスキルが必要である一方、現状では必要なスキルを持つ人材の育成、教育に苦慮している企業は多い。総務省の「情報通信白書令和2年版」では、日本企業におけるセキュリティ人材の育成、教育に関する課題として以下のような点が挙げられた（図19）。\n\n\n\t適切なキャリアパスの不足\n\t教育実施に必要な時間や予算の確保が困難\n\t必要な能力やスキル要件が不明確\n\n\nこれらの課題から、セキュリティ人材の育成、教育に苦慮している状況が浮き彫りとなっている。\n\n\n\n図19：日本企業におけるセキュリティ人材の育成・教育における課題\n\n\n自分たちで必要なスキルを持つ人材を育成、教育するのが難しいため、外部から人材を探そうと考える企業も見受けられる。しかし、日本国内全体でセキュリティの知識を持つ人材が不足していると言われている現状では、外部から適切なスキルを持つ人材を確保すること自体が困難な状況にある（図20）。\n\nたとえ人材を確保できたとしても、24時間365日の監視体制を構築するには、さらに多くの検討事項が発生する。自社内で構築しようとする場合、その運用には多大な費用がかかる。\n\nコストの計算例として、監視対応者の単価（1人8時間勤務あたり3万円）に24時間365日を掛け合わせると、年間3,285万円の費用がかかることになる。一般的にセキュリティの高度なスキルを持つ人材の単価は高く、1年あたり数千万円を要する可能性もある。\n\n先述したように、社内の体制整備やマニュアルの策定などは、経営者を中心に自社内で進めていく必要がある。ただし、自社内での対応が困難な場合、特にツールの運用に関しては、運用に長けたスタッフによる外部サービスを利用するという選択肢もある。自社内で体制を構築した場合でも、そこには多大な運用コストがかかる可能性が高い点は認識しておくべきだ。\n\n\n\n図20：セキュリティ人材を確保するのが難しい状況\n\n\nESET PROTECT MDR Liteの活用\n\n以降では、インシデント対応を支援するソリューションである「ESET PROTECT MDR Lite」について解説する。同製品には、主に3つの特長がある（図21）。\n\n\n\t即時運用開始が可能で、低コスト\n\t24時間365日体制で脅威の監視と分析\n\tインシデント発生時には最短20分で初動対応を実施\n\n\nまた、サポートに関してはESET社とキヤノンマーケティングジャパン（以下、キヤノンMJ）グループが国内拠点で日本語での対応を実施する。\n\n\n\n図21：ESET PROTECT MDR Liteの特長\n\n\nESET PROTECT MDR Liteでは、24時間365日の監視体制を整備し、インシデントが発生した場合にはツール上、およびメールによる通知を実施する。モニタリング、監視の結果については、週次および月次のレポートが提供される。さらに、ESETのXDR（Extended Detection and Response）ツールを活用し、インシデント対応をサポートする（図22）。\n\n\n\n図22：ESET PROTECT MDR Liteによるインシデント対応\n\n\nここでは、先述したインシデント対応フローをもとに、ESET PROTECT MDR Liteがインシデント対応のどの場面で活用できるのかを解説する。\n\nまず、検知・初動対応のフェーズでは、24時間365日の監視体制を通じて脅威を迅速に検知し、脅威が確認された場合には最短20分で初動対応を実施する。これにより、脅威をすぐに封じ込め、被害の拡大を防ぐ（図23）。\n\n\n\n図23：検知・初動対応フェーズにおけるESET PROTECT MDR Lite\n\n\nインシデントの報告・公表フェーズにおいても、ESET PROTECT MDR Liteは効果を発揮する。具体的には、報告に必要な情報を整理する際に、管理コンソールからインシデントに影響のあった端末や実行ファイルなどをまとめて表示することができる。また、時系列に沿ってインシデントの詳細や初動対応の内容を確認できる点や、ベンダーであるESET社からのコメントを参照できる点も、報告の精度向上に役立つ（図24）。\n\n\n\n図24：報告・公表フェーズにおけるESET PROTECT MDR Lite\n\n\nなお、冒頭で紹介したIPAの「中小企業の情報セキュリティ対策ガイドライン」では、EDR以外にもIDS／IPS、メールフィルタリング、URLフィルタリングなど、さまざまな技術的対策が紹介されている。ESET PROTECT MDR Liteを導入すれば、EDRそのものに加え、これら複数の対策を統合的に実施できる。特に、ESET社の製品はウイルス対策ソフトとしての豊富な機能が強みであり、多様なセキュリティ対策を同時に行える点は注目に値するだろう（図25）。\n\n\n\n図25：ESET PROTECT MDR Liteが対応する技術的対策\n\n\nおわりに\n\nESETのプログラムには豊富な保護機能が搭載されており、低コストで手軽にセキュリティレベルを向上させることが可能だ。また、ESET社とキヤノンMJグループのスタッフが国内拠点で日本語対応を行い、24時間365日サポートする（図26）。事業規模や業種に関わらず、このようなソリューションを活用し、セキュリティ強化に役立ててほしい。\n\n\n\n図26：ESET PROTECT MDR Liteが提供する保護機能とサポート",
@@ -1596,6 +1626,28 @@
       "feedUrl": "https://www.nic.ad.jp/ja/index.xml",
       "siteUrl": "https://www.nic.ad.jp/",
       "articles": [
+        {
+          "id": "https://www.nic.ad.jp/ja/stat/dom/gtld.html",
+          "author": null,
+          "description": "gTLDの登録数\n＜注意＞\n以下のデータは、各gTLDレジストリ(またはスポンサー組織)がICANNに提出する月間報告書に基づいています。\nデータが公開されていないgTLD(.edu/.gov/.int/.mil)については含まれていません。\nカッコ内の数字は日本国内での登録数を示しています。\n2012年に実施された「新gTLDプログラム」に基づいて、 2013年10月以降に追加された新gTLDについては、上記月間報告書をご覧ください。 \n\n                  .aero\n                  .asia\n                  .biz\n                  .cat\n                  .com\n                  .coop\n                  .info\n                  .jobs\n                  .mobi\n                  .museum\n                  .name\n                  .net\n                  .org\n                  .post\n                  .pro\n                  .tel\n                  .travel\n                  .xxx\n                  \n                \n2024年\n                  11月\n                  13,446\n                  \n                  375,680\n               …",
+          "link": "https://www.nic.ad.jp/ja/stat/dom/gtld.html",
+          "publishedOn": "2025-03-24T09:35:00.000Z",
+          "wordCount": null,
+          "title": "[Web更新]gTLDの登録数を更新　2024年10月分、11月分を追加",
+          "itunes": {},
+          "imageUrl": null
+        },
+        {
+          "id": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2025/vol2148.html",
+          "author": null,
+          "description": "https://blog.nic.ad.jp/2025/10582/\n\n\n┏◆ 先週のトピックスとお知らせ 計1件\n┗━━━━━━━━━━━━━━━━━━━━━━\n\n・「マルチステークホルダー主義を支持する技術コミュニティ連合」(TCCM)に\n  よるITU他主催のWSIS+20ハイレベルイベント2025に関する意見提出にJPNIC\n  も署名(2025/3/17)\n  https://www.nic.ad.jp/ja/topics/2025/20250317-01.html\n\n\n┏◆ 先週のWeb更新情報 計2件\n┗━━━━━━━━━━━━━━━━━━━━━━\n\n・ICANN通常理事会(2025年1月26日開催)決議概要(2025/3/21)\n  https://www.nic.ad.jp/ja/icann/topics/2025/20250321-01.html\n\n・2024年度 DRP検討委員会のページに議事録を追加(2025/3/17)\n  https://www.nic.ad.jp/ja/profile/com/2024/\n\n\n┏◆ イベント等のお知らせ 計3件\n┗━━━━━━━━━━━━━━━━━━━━━━\n\n  ◇ JPNIC Newsletter 最新版 89号発行 ◇\n\n     JPNIC Newsletter(会報誌)最新号となる89号を発行しました。ぜひお読\n     みください。\n\n     89号の読者アンケートを行っておりますので、アンケートにもご協力を\n     お願いします。\n\n       JPNIC Newsletter 89号 読者アンケート\n       https://forms.gle/KsyyfNbmo1nYSeq16\n\n\n   ◇ JPNIC 紹介動画を公開しました ◇\n\n      JPNICの紹介動画を公開しました。この…",
+          "link": "https://www.nic.ad.jp/ja/mailmagazine/backnumber/2025/vol2148.html",
+          "publishedOn": "2025-03-24T09:24:34.000Z",
+          "wordCount": null,
+          "title": "[メルマガ]vol.2148:【トピックス号】先週のトピックスとWeb更新情報",
+          "itunes": {},
+          "imageUrl": null
+        },
         {
           "id": "https://www.nic.ad.jp/ja/intl/fellowship-program/apricot-2025.html",
           "author": null,
@@ -2007,6 +2059,16 @@
       "siteUrl": "https://www.cisa.gov/",
       "articles": [
         {
+          "id": "/node/23175",
+          "author": "CISA",
+          "description": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities Catalog, based on evidence of active exploitation.\nCVE-2025-30154 reviewdog action-setup GitHub Action Embedded Malicious Code Vulnerability\nThese types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.\nBinding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet for more information.\nAlthough BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria.",
+          "link": "https://www.cisa.gov/news-events/alerts/2025/03/24/cisa-adds-one-known-exploited-vulnerability-catalog",
+          "publishedOn": "2025-03-24T12:00:00.000Z",
+          "wordCount": 633,
+          "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+          "imageUrl": null
+        },
+        {
           "id": "/node/23171",
           "author": "CISA",
           "description": "CISA released five Industrial Control Systems (ICS) advisories on March 20, 2025. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.\nICSA-25-079-01 Schneider Electric EcoStruxure™\nICSA-25-079-02 Schneider Electric Enerlin’X IFE and eIFE\nICSA-25-079-03 Siemens Simcenter Femap\nICSA-25-079-04 SMA Sunny Portal\n \nICSMA-25-079-01 Santesoft Sante DICOM Viewer Pro \nCISA encourages users and administrators to review newly released ICS advisories for technical details and mitigations.",
@@ -2230,6 +2292,36 @@
       "feedUrl": "https://jvn.jp/rss/jvn.rdf",
       "siteUrl": "https://jvn.jp/",
       "articles": [
+        {
+          "id": "https://jvn.jp/vu/JVNVU91154745/",
+          "author": "jvn@jvn.jp",
+          "description": "因幡電機産業株式会社が提供するチョコ停ウォッチャーminiには、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/vu/JVNVU91154745/",
+          "publishedOn": "2025-03-25T06:00:00.000Z",
+          "wordCount": 83,
+          "title": "チョコ停ウォッチャーminiにおける複数の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/jp/JVN26321838/",
+          "author": "jvn@jvn.jp",
+          "description": "株式会社ハンモックが提供するAssetViewには、複数の脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN26321838/",
+          "publishedOn": "2025-03-25T03:00:00.000Z",
+          "wordCount": 91,
+          "title": "AssetViewにおける複数の脆弱性",
+          "imageUrl": null
+        },
+        {
+          "id": "https://jvn.jp/jp/JVN87770340/",
+          "author": "jvn@jvn.jp",
+          "description": "Web Image Monitorを実装している複数のリコー製レーザープリンタおよび複合機（MFP）には、スタックベースのバッファオーバーフローの脆弱性が存在します。",
+          "link": "https://jvn.jp/jp/JVN87770340/",
+          "publishedOn": "2025-03-25T01:00:00.000Z",
+          "wordCount": 138,
+          "title": "Web Image Monitorを実装している複数のリコー製レーザープリンタおよび複合機（MFP）におけるスタックベースのバッファオーバーフローの脆弱性",
+          "imageUrl": null
+        },
         {
           "id": "https://jvn.jp/vu/JVNVU94326936/",
           "author": "jvn@jvn.jp",
@@ -2618,12 +2710,92 @@
       "siteUrl": "https://scan.netsecurity.ne.jp/",
       "articles": [
         {
+          "id": "https://scan.netsecurity.ne.jp/article/2025/03/25/52550.html",
+          "author": null,
+          "description": "GreyNoise はさらに 3 つのベンダーの名前を挙げ、製品で発見される「重大な欠陥の懸念すべきパターン」があるとして非難した。ひとつめのベンダーは 2024 年早々に前述のゼロデイ攻撃に見舞われ、速やかにパッチを当てるのに苦労した。このパターンは 2025 年 1 月にも繰り返された。GreyNoise はこのベンダーを完全に見限ることさえ勧めている。",
+          "link": "https://scan.netsecurity.ne.jp/article/2025/03/25/52550.html",
+          "publishedOn": "2025-03-24T23:10:02.000Z",
+          "wordCount": 788,
+          "title": "乗り換えすら検討すべき三つのベンダとは ～ ランサム犯の標的にならないために",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47924.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2025/03/25/52549.html",
+          "author": null,
+          "description": "株式会社リクルートは3月19日、同社が運営する「北海道じゃらん」への不正アクセスについて発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2025/03/25/52549.html",
+          "publishedOn": "2025-03-24T23:05:10.000Z",
+          "wordCount": 707,
+          "title": "「北海道じゃらん」に不正アクセス、不審メールに注意を呼びかけ",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47900.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2025/03/25/52548.html",
+          "author": null,
+          "description": "自動車のホイールを製造する東証プライム上場企業のトピー工業株式会社は3月14日、米国の連結子会社への不正アクセスについて発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2025/03/25/52548.html",
+          "publishedOn": "2025-03-24T23:05:08.000Z",
+          "wordCount": 709,
+          "title": "トピー工業の米国 連結子会社に不正アクセス、従業員情報が流出した可能性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47861.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2025/03/25/52547.html",
+          "author": null,
+          "description": "愛知県尾張旭市は3月18日、職員の懲戒処分について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2025/03/25/52547.html",
+          "publishedOn": "2025-03-24T23:05:05.000Z",
+          "wordCount": 723,
+          "title": "停職 1 月の懲戒処分 ～ 他人のパスワードを推測し延べ 41 回にわたり人事給与システムに不正アクセス",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47889.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2025/03/25/52546.html",
+          "author": null,
+          "description": "福岡県大刀洗町は3月13日、個人情報が記載された書類の回収不能事案について発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2025/03/25/52546.html",
+          "publishedOn": "2025-03-24T23:05:03.000Z",
+          "wordCount": 696,
+          "title": "区長が死亡し遺品整理、個人情報が回収不能に",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47875.jpg"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2025/03/25/52545.html",
+          "author": null,
+          "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は3月19日、ホームゲートウェイHGW-BL1500HMにおける複数の脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2025/03/25/52545.html",
+          "publishedOn": "2025-03-24T23:00:13.000Z",
+          "wordCount": 735,
+          "title": "ホームゲートウェイ HGW-BL1500HM に複数の脆弱性",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2025/03/25/52544.html",
+          "author": null,
+          "description": "SBI新生銀行では3月17日から、順次「BIMI（Brand Indicators for Message Identification）」を導入すると発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2025/03/25/52544.html",
+          "publishedOn": "2025-03-24T23:00:09.000Z",
+          "wordCount": 747,
+          "title": "SBI新生銀行で BIMI 導入",
+          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47856.png"
+        },
+        {
+          "id": "https://scan.netsecurity.ne.jp/article/2025/03/25/52543.html",
+          "author": null,
+          "description": "総務省は3月14日、令和6年度の「サイバーセキュリティに関する総務大臣奨励賞」の受賞者を発表した。",
+          "link": "https://scan.netsecurity.ne.jp/article/2025/03/25/52543.html",
+          "publishedOn": "2025-03-24T23:00:04.000Z",
+          "wordCount": 740,
+          "title": "門林雄基氏「私どもの旅を直接間接に支援いただいた全ての皆様に感謝」～ サイバーセキュリティ総務大臣奨励賞 受賞者決定",
+          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
+        },
+        {
           "id": "https://scan.netsecurity.ne.jp/article/2025/03/24/52542.html",
           "author": null,
           "description": "個人情報保護委員会は3月19日、株式会社イセトーに対する個人情報の保護に関する法律に基づく行政上の対応について発表した。",
           "link": "https://scan.netsecurity.ne.jp/article/2025/03/24/52542.html",
           "publishedOn": "2025-03-23T23:05:09.000Z",
-          "wordCount": 724,
+          "wordCount": 721,
           "title": "ようやく全容明らかに ～ 個人情報保護委員会が株式会社イセトーへの行政上の対応を発表",
           "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47903.jpg"
         },
@@ -2633,7 +2805,7 @@
           "description": "株式会社イセトーは3月19日、4月1日付での役員体制の内定について発表した。",
           "link": "https://scan.netsecurity.ne.jp/article/2025/03/24/52541.html",
           "publishedOn": "2025-03-23T23:05:06.000Z",
-          "wordCount": 708,
+          "wordCount": 705,
           "title": "株式会社イセトー 新経営体制移行",
           "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47915.jpg"
         },
@@ -2643,7 +2815,7 @@
           "description": "株式会社イセトーは2月10日、ISO27001認証及びISO27017認証の一時停止解除について発表した。",
           "link": "https://scan.netsecurity.ne.jp/article/2025/03/24/52540.html",
           "publishedOn": "2025-03-23T23:05:03.000Z",
-          "wordCount": 728,
+          "wordCount": 725,
           "title": "イセトーへのランサムウェア攻撃、ISO27001 認証及び ISO27017 認証の一時停止を解除",
           "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47913.jpg"
         },
@@ -2653,7 +2825,7 @@
           "description": "独立行政法人情報処理推進機構（IPA）および一般社団法人JPCERT コーディネーションセンター（JPCERT/CC）は3月18日、富士ソフト製+F FS010MにおけるOSコマンドインジェクションの脆弱性について「Japan Vulnerability Notes（JVN）」で発表した。",
           "link": "https://scan.netsecurity.ne.jp/article/2025/03/24/52539.html",
           "publishedOn": "2025-03-23T23:00:09.000Z",
-          "wordCount": 746,
+          "wordCount": 743,
           "title": "富士ソフト製 +F FS010M に OSコマンドインジェクションの脆弱性",
           "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
         },
@@ -2663,7 +2835,7 @@
           "description": "GMOサイバーセキュリティ byイエラエ株式会社は3月14日、「SECCON CTF 13 Finals（SECCON CTF 13 決勝戦）」で世界1位を獲得したと発表した。",
           "link": "https://scan.netsecurity.ne.jp/article/2025/03/24/52538.html",
           "publishedOn": "2025-03-23T23:00:07.000Z",
-          "wordCount": 768,
+          "wordCount": 765,
           "title": "GMOイエラエ「SECCON CTF 13 Finals（SECCON CTF 13 決勝戦）」で世界 1 位を獲得",
           "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47857.png"
         },
@@ -2673,7 +2845,7 @@
           "description": "一般財団法人日本情報経済社会推進協会（JIPDEC）と株式会社アイ・ティ・アール（ITR）3月14日、「企業IT利活用動向調査2025」の結果を発表した。",
           "link": "https://scan.netsecurity.ne.jp/article/2025/03/24/52537.html",
           "publishedOn": "2025-03-23T23:00:03.000Z",
-          "wordCount": 731,
+          "wordCount": 728,
           "title": "メール28.3％ VPN等脆弱性20.8％ RDP悪用19.9％：3大ランサム侵入経路 ～ JIPDEC / ITR 調査",
           "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47854.jpg"
         },
@@ -4285,6 +4457,26 @@
       "siteUrl": "https://www.itmedia.co.jp/news/security/",
       "articles": [
         {
+          "id": "https://www.itmedia.co.jp/news/articles/2503/25/news115.html",
+          "author": null,
+          "description": "東映は24日、「Toei Company 国際著作権保護部」という架空の部署名を装い、著作権侵害を理由に「罰金を課せられる可能性がある」と通告する偽メールについて注意喚起を行った。",
+          "link": "https://www.itmedia.co.jp/news/articles/2503/25/news115.html",
+          "publishedOn": "2025-03-25T01:18:00.000Z",
+          "wordCount": 2745,
+          "title": "東映、偽メールに注意喚起　著作権侵害を理由に「罰金を課せられる可能性がある」と脅し",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2503/25/cover_news115.jpg"
+        },
+        {
+          "id": "https://www.itmedia.co.jp/news/articles/2503/24/news180.html",
+          "author": null,
+          "description": "楽天証券の一部利用者が保有していた株式を勝手に売却され、中国株を買われるなどの“不正取引”が多発した。",
+          "link": "https://www.itmedia.co.jp/news/articles/2503/24/news180.html",
+          "publishedOn": "2025-03-24T12:51:00.000Z",
+          "wordCount": 2762,
+          "title": "楽天証券、“不正取引”多発　「当社からの漏洩ではない」としつつも緊急対応に追われる事態に",
+          "imageUrl": "https://image.itmedia.co.jp/news/articles/2503/24/cover_news180.jpg"
+        },
+        {
           "id": "https://www.itmedia.co.jp/news/articles/2503/21/news168.html",
           "author": null,
           "description": "通信事業者の楽天モバイルのシステムに不正にログインし、他人名義で通信回線を契約したとして、警視庁サイバー犯罪対策課などは不正アクセス禁止法違反と電子計算機使用詐欺の疑いで、住所不定、無職の少年（17）を逮捕し、横浜市の男子高校生（17）を書類送検した。いずれも容疑を認めている。",
@@ -4502,6 +4694,136 @@
       "siteUrl": "https://internet.watch.impress.co.jp",
       "articles": [
         {
+          "id": "https://internet.watch.impress.co.jp/docs/shopping/2000147.html",
+          "author": "アイティースリー",
+          "description": "Amazon.co.jpでは4月1日までの期間限定でビッグセール「スマイルSALE 新生活 FINAL」を開催するのに先駆け、Kindleストアで「Kindle本 新生活セール」を開催中。4万冊以上の電子書籍が対象で、最大70％OFF。IT・コンピュータ関連の書籍もラインアップされている。",
+          "link": "https://internet.watch.impress.co.jp/docs/shopping/2000147.html",
+          "publishedOn": "2025-03-25T04:30:00.000Z",
+          "wordCount": 4776,
+          "title": "Kindle本4万冊以上が対象！　Amazonで「Kindle本 新生活セール」実施中　「プリンシプル オブ プログラミング」が1089円など",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/2000/147/kindle0325.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/shopping/2000102.html",
+          "author": "アイティースリー",
+          "description": "Amazon.co.jpでは3月28日9:00から4月1日までの期間限定でビッグセール「スマイルSALE 新生活 FINAL」が開催されるのに先立ち3月28日8:59まで「暮らし応援先取りSALE」を実施中。JBLストアページでは、同社の完全ワイヤレスイヤホンなどがタイムセール価格で販売中だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/shopping/2000102.html",
+          "publishedOn": "2025-03-25T02:55:00.000Z",
+          "wordCount": 4782,
+          "title": "JBLの有線＆完全ワイヤレスイヤホンが安い！　AmazonスマイルSALE 新生活 FINAL　人気のUSB Type-C有線イヤホン「JBL TUNE 305C」が2816円など",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/2000/102/04.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/shopping/2000094.html",
+          "author": "アイティースリー",
+          "description": "Amazon.co.jpでは3月28日9:00から4月1日までの期間限定でビッグセール「スマイルSALE 新生活 FINAL」が開催されるのに先立ち、3月28日8:59まで「暮らし応援先取りSALE」を実施中。TerraMasterストアページでは、同社のNASキットがセール中だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/shopping/2000094.html",
+          "publishedOn": "2025-03-25T02:45:00.000Z",
+          "wordCount": 4791,
+          "title": "TerraMasterのNASキットがタイムセール中！　AmazonスマイルSALE 新生活 FINAL　2ベイNASキット「F2-223」はセール価格2万792円に10％OFFクーポン",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/2000/094/03.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/2000108.html",
+          "author": "tks24",
+          "description": "度重なる方針の変更で宙ぶらりんの状態が続いていたWindows 11のショートカットキー「Windows」＋「C」を復活させるべく、テストが行われていることが分かった。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/2000108.html",
+          "publishedOn": "2025-03-25T02:38:20.000Z",
+          "wordCount": 4747,
+          "title": "Windows 11の「Windows」＋「C」、カスタマイズ可能なショートカットキーとして復活へ【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/2000/108/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/2000107.html",
+          "author": "tks24",
+          "description": "かつて一斉を風靡した、Flashを用いた日本語ウェブサイトを集めたアーカイブ集が公開された。",
+          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/2000107.html",
+          "publishedOn": "2025-03-25T02:37:38.000Z",
+          "wordCount": 4736,
+          "title": "かつて見たサイトが勢揃い。 Flashを用いた日本語ウェブサイトのアーカイブ集が公開中【やじうまWatch】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/2000/107/yajiuma-watch_1.png"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/shopping/2000092.html",
+          "author": "アイティースリー",
+          "description": "Amazon.co.jpでは3月28日9:00から4月1日までの期間限定でビッグセール「スマイルSALE 新生活 FINAL」が開催されるのに先立ち、3月28日8:59まで「暮らし応援先取りSALE」を実施中。アイ・オー・データストアページでは、同社のNASがセール中だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/shopping/2000092.html",
+          "publishedOn": "2025-03-25T02:30:00.000Z",
+          "wordCount": 4747,
+          "title": "アイ・オー・データ製のNASが安い！　AmazonスマイルSALE 新生活 FINAL　6TBの1ドライブ「HDL1-LE」が3万4460円など",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/2000/092/02.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/shopping/2000090.html",
+          "author": "アイティースリー",
+          "description": "Amazon.co.jpでは3月28日9:00から4月1日までの期間限定でビッグセール「スマイルSALE 新生活 FINAL」が開催されるのに先立ち、3月28日8:59まで「暮らし応援先取りSALE」を実施中。Seagateストアページでは、同社のストレージ関連製品がタイムセール中となっている。",
+          "link": "https://internet.watch.impress.co.jp/docs/shopping/2000090.html",
+          "publishedOn": "2025-03-25T02:15:00.000Z",
+          "wordCount": 4747,
+          "title": "NAS用HDD「IronWolf」などSeagate製品が安い！　AmazonスマイルSALE 新生活 FINAL　8TBの「IronWolf ST8000VN002-TD」が3万400円など",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/2000/090/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/shopping/2000089.html",
+          "author": "アイティースリー",
+          "description": "Amazon.co.jpでは3月28日9:00から4月1日までの期間限定でビッグセール「スマイルSALE 新生活 FINAL」が開催されるのに先立ち、3月28日8:59まで「暮らし応援先取りSALE」を実施中。AnkerのEufyストアページでは、紛失防止トラッカーがセール中だ。",
+          "link": "https://internet.watch.impress.co.jp/docs/shopping/2000089.html",
+          "publishedOn": "2025-03-25T02:10:00.000Z",
+          "wordCount": 4790,
+          "title": "Ankerの紛失防止トラッカーがお買い得！　AmazonスマイルSALE 新生活 FINAL　財布などに入れやすいカード型「Eufy Security SmartTrack Card」が2690円に",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/2000/089/00.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/ranking/mousepro/2000061.html",
+          "author": null,
+          "description": "本記事では、マウスコンピューターの法人向けブランド「MousePro」の売れ筋PCを紹介しています。なお、順位、価格、構成は随時変動しており、最新情報はリンク先にてご確認ください。",
+          "link": "https://internet.watch.impress.co.jp/docs/ranking/mousepro/2000061.html",
+          "publishedOn": "2025-03-25T02:00:00.000Z",
+          "wordCount": 4754,
+          "title": "eSIMにも対応、重さ約947gの14型ノートPC「MousePro Gシリーズ」が売れ筋1位に！【MousePro 売れ筋ビジネスPCランキング ノート編 2025/3/25版】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/2000/061/MousePro_G.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/2000075.html",
+          "author": "山田 貞幸",
+          "description": "サンワサプライ株式会社は3月24日、電源タップホルダー「TAP-CLAMP2」を発売した。市場想定価格は1760円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/2000075.html",
+          "publishedOn": "2025-03-24T22:30:00.000Z",
+          "wordCount": 4719,
+          "title": "デスクの脚などへ電源タップを強力に固定するホルダー「TAP-CLAMP2」、サンワサプライが発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/2000/075/01.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/ranking/2000070.html",
+          "author": null,
+          "description": "前週に閲覧数の多かった記事を、カテゴリーごとに上位5位までレポートします。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/ranking/2000070.html",
+          "publishedOn": "2025-03-24T21:55:00.000Z",
+          "wordCount": 4753,
+          "title": "配線スッキリ＆充電状況が分かるU字型USB Type-Cアダプター、サンワサプライが発売した「500-USB093」の記事に注目が集まる【アクセスランキング】",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/2000/070/2000025.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/2000074.html",
+          "author": "山田 貞幸",
+          "description": "日本電信電話株式会社（NTT）、株式会社NTTドコモ、日本電気株式会社（NEC）は3月24日、71GHzから86GHzのミリ波帯において140Gbpsのリアルタイム無線伝送に成功したと発表した。3社によれば、これは従来技術の2倍以上の速度であり、100GHz未満の周波数において世界最速となる。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/2000074.html",
+          "publishedOn": "2025-03-24T21:30:00.000Z",
+          "wordCount": 4728,
+          "title": "NTTらがミリ波帯で世界最速となる140Gbpsの伝送に成功、6G時代のバックホール技術で前進",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/2000/074/02.jpg"
+        },
+        {
+          "id": "https://internet.watch.impress.co.jp/docs/news/2000073.html",
+          "author": "山田 貞幸",
+          "description": "ネットギアジャパン合同会社（NETGEAR）は3月24日、8ポートのギガビットスイッチ「GS108Ev4」および「GS308Ev4」の販売を開始した。Amazon.co.jpでの販売価格は9200円と6500円。",
+          "link": "https://internet.watch.impress.co.jp/docs/news/2000073.html",
+          "publishedOn": "2025-03-24T21:00:00.000Z",
+          "wordCount": 4722,
+          "title": "ネットギア、8ポートのギガビット対応スイッチ「GS108Ev4」「GS308Ev4」発売",
+          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/2000/073/01s.jpg"
+        },
+        {
           "id": "https://internet.watch.impress.co.jp/docs/news/2000059.html",
           "author": "松永 侑貴惠",
           "description": "Synology Japanは3月21日、Wi-Fi接続に対応したネットワークカメラ「CC400W」を発売した。希望小売価格は2万5800円。",
@@ -4517,7 +4839,7 @@
           "description": "1日に3時間だけ利用可能になるSNSが海外で登場して一部で話題になっている。",
           "link": "https://internet.watch.impress.co.jp/docs/yajiuma/2000069.html",
           "publishedOn": "2025-03-24T02:59:22.000Z",
-          "wordCount": 4735,
+          "wordCount": 4736,
           "title": "SNS中毒防止以外にも効果アリ？ 「1日3時間だけ利用できるSNS」が海外で登場し話題に【やじうまWatch】",
           "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/2000/069/yajiuma-watch_1.png"
         },
@@ -4537,7 +4859,7 @@
           "description": "Amazon.co.jpでは3月28日9:00から4月1日までの期間限定でビッグセール「スマイルSALE 新生活 FINAL」が開催されるのに先立ち、3月28日8:59まで「暮らし応援先取りSALE」を実施中だ。アイ・オー・データストアページでは同社のWi-Fi 7対応ルーター「WN-7D36QR/UE」がセール対象になっている。",
           "link": "https://internet.watch.impress.co.jp/docs/shopping/2000068.html",
           "publishedOn": "2025-03-24T02:15:00.000Z",
-          "wordCount": 4747,
+          "wordCount": 4750,
           "title": "アイ・オーのWi-Fi 7ルーターがAmazonスマイルSALE 新生活 FINALで特価に！　デュアルバンド対応の「WN-7D36QR/UE」が1万2580円",
           "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/2000/068/io.jpg"
         },
@@ -4570,66 +4892,6 @@
           "wordCount": 4776,
           "title": "「Fireタブレット」シリーズがセール中！　AmazonスマイルSALE 新生活 FINAL　11インチモデルの「Fire Max 11」の64GBモデルが2万6980円",
           "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/2000/064/firetab.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/shopping/2000063.html",
-          "author": "アイティースリー",
-          "description": "Amazon.co.jpでは3月28日9:00から4月1日までの期間限定でビッグセール「スマイルSALE 新生活 FINAL」が開催されるのに先立ち、「暮らし応援先取りSALE」が実施中だ。その一環として、同社の「Fire TV」シリーズがタイムセール価格で販売されている。",
-          "link": "https://internet.watch.impress.co.jp/docs/shopping/2000063.html",
-          "publishedOn": "2025-03-24T00:55:00.000Z",
-          "wordCount": 4800,
-          "title": "Amazon「Fire TV」シリーズ最大30％OFF！スマイルSALE 新生活 FINAL　スティック型メディアプレイヤー「Fire TV Stick 4K Max」は9980円",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/2000/063/firetv.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/2000060.html",
-          "author": "松永 侑貴惠",
-          "description": "株式会社JR東日本びゅうツーリズム＆セールスは、列車と宿泊などがセットになった「JR東日本びゅうダイナミックレールパック」で対象施設が最大8000円割引になるクーポンを、4月1日〜6月15日の期間に配布する。対象の出発・宿泊日は6月1日～30日。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/2000060.html",
-          "publishedOn": "2025-03-23T23:30:00.000Z",
-          "wordCount": 4721,
-          "title": "「JR東日本びゅうダイナミックレールパック」で対象のホテルが最大8000円割引！　4月1日からクーポン配布",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/2000/060/01.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/2000057.html",
-          "author": "木下 明音",
-          "description": "独立行政法人国民生活センターは、旅行予約サイトにおけるトラブルに関する注意喚起を行った。キャンセルや重複予約に関する相談が寄せられており、各種条件や運営事業者の情報をよく確認して利用すること、予約確認メールは大切に保管しておくことなどを呼び掛けている。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/2000057.html",
-          "publishedOn": "2025-03-23T22:30:00.000Z",
-          "wordCount": 4726,
-          "title": "決定前に事業者や条件を確認！　旅行予約サイトでのトラブル防止法を国民センターがアドバイス",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/2000/057/main.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/2000058.html",
-          "author": "山田 貞幸",
-          "description": "株式会社アジラ、東日本電信電話株式会社（NTT東日本）、株式会社NTTドコモ・ベンチャーズ（NDV）の3社の業務提携により、NTT東日本は、クラウド上のAIが防犯カメラの映像を解析し、異常を自動検知するサービス「ギガらくカメラ 映像解析オプション MIMAMORI AI」を3月31日から提供する。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/2000058.html",
-          "publishedOn": "2025-03-23T21:30:00.000Z",
-          "wordCount": 4746,
-          "title": "防犯カメラ映像をAI解析し、トラブルの“未然防止”につなげる「MIMAMORI AI」提供。アジラとNTT東日本",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/2000/058/01.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/column/shimizu/2000027.html",
-          "author": "清水 理史",
-          "description": "NECプラットフォームズから、待望のWi-Fi 7対応ルーター「Aterm 7200D8BE」が登場した。途中、新製品はいくつか登場したものの、同社が既存のラインナップにない「最新規格」に対応した市販製品をリリースするのは、6GHz帯の国内解禁と同時期となる2022年9月にリリースされたWi-Fi 6E対応の「Aterm 11000T12」以来、約3年ぶりのこととなる。",
-          "link": "https://internet.watch.impress.co.jp/docs/column/shimizu/2000027.html",
-          "publishedOn": "2025-03-23T21:00:00.000Z",
-          "wordCount": 5000,
-          "title": "Atermに待望のWi-Fi 7対応モデル！ 8ストリームで安定性を狙ったミドルレンジの「Aterm 7200D8BE」【イニシャルB】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/2000/027/001.JPG"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/column/shimizumovie/1670961.html",
-          "author": "編集部",
-          "description": "各社からWi-Fi 7対応ルーターが登場するなか、ずっと沈黙を保っていたNEC プラットフォームズからついにWi-Fi 7対応ルーターが「Aterm 7200D8BE」が発表された。",
-          "link": "https://internet.watch.impress.co.jp/docs/column/shimizumovie/1670961.html",
-          "publishedOn": "2025-03-23T21:00:00.000Z",
-          "wordCount": 4742,
-          "title": "【本日（3/24）20時から配信】NECプラットフォームズからやっと登場のWi-Fi 7対応ルーター!! 同社初のWi-Fi 7対応機なのにデュアルバンドってどういうことなんだ～？【清水理史の「イニシャルB」チャンネル】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1670/961/250324.jpg"
         },
         {
           "id": "https://internet.watch.impress.co.jp/docs/news/weekly/2000044.html",
@@ -6685,12 +6947,102 @@
       "siteUrl": "https://news.mynavi.jp/top/techplus/enterprise/security/",
       "articles": [
         {
+          "id": "https://news.mynavi.jp/techplus/article/20250325-3163693/",
+          "author": null,
+          "description": "Bleeping Computerは3月23日(米国時間)、米国連邦調査局(FBI: Federal Bureau of Investigation)が偽のオンライン文書変換ツールに対し注意を喚起したと報じた。こうしたツールは期待通りに機能するが、生成されたファイルにマルウェアを含んでいる可能性があるという。",
+          "link": "https://news.mynavi.jp/techplus/article/20250325-3163693/",
+          "publishedOn": "2025-03-25T08:06:20.000Z",
+          "wordCount": 2934,
+          "title": "Word文書をPDFに変換するオンラインツールがマルウェア配布? 警戒を",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20250325-3163693/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20250325-3163700/",
+          "author": null,
+          "description": "Bleeping Computerは3月24日(米国時間)、先週末からDrayTek製ルーターが再起動を繰り返し機能を停止していると報じた。原因について公式発表はないが、解決策からデバイスに脆弱性が存在し、サイバー攻撃により正常な動作ができなくなった可能性が高いとみられている。",
+          "link": "https://news.mynavi.jp/techplus/article/20250325-3163700/",
+          "publishedOn": "2025-03-25T07:28:46.000Z",
+          "wordCount": 1797,
+          "title": "ルータが再起動を繰り返して停止、原因は不明 - サイバー攻撃の可能性も",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20250325-3163700/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20250325-3159864/",
+          "author": null,
+          "description": "Bleeping Computerはこのほど、WordPressのセキュリティプラグイン「WP Ghost」から緊急の脆弱性が発見されたと報じた。この脆弱性を悪用されると、認証されていないリモートの攻撃者に任意のコードを実行される可能性がある。",
+          "link": "https://news.mynavi.jp/techplus/article/20250325-3159864/",
+          "publishedOn": "2025-03-25T04:50:07.000Z",
+          "wordCount": 1779,
+          "title": "WordPressのセキュリティプラグインに緊急の脆弱性、アップデートを",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20250325-3159864/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20250325-3161116/",
+          "author": null,
+          "description": "Microsoft専門のニュースサイト「Windows Latest」はこのほど、Windows 11においてエクスプローラーのファイル解凍速度が高速化されたと伝えた。Windows Latestの実験によると、数十個のファイルを含むZIPファイルでは高速化はみられないが、数千個のファイルを含むZIPファイルでは約5～10%の高速化を確認できたという。",
+          "link": "https://news.mynavi.jp/techplus/article/20250325-3161116/",
+          "publishedOn": "2025-03-25T03:11:48.000Z",
+          "wordCount": 1754,
+          "title": "Windows 11でエクスプローラーのZIP解凍を高速化",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20250325-3161116/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20250325-3161108/",
+          "author": null,
+          "description": "Microsoft専門のニュースサイト「Windows Latest」はこのほど、MicrosoftがWindows 10ユーザーにオペレーティングシステムのアップグレード警告を送信したと伝えた。この通知はWindows 10デバイスにひもづいたMicrosoftアカウント全員にメールで送信されたとみられる。",
+          "link": "https://news.mynavi.jp/techplus/article/20250325-3161108/",
+          "publishedOn": "2025-03-24T23:47:45.000Z",
+          "wordCount": 1801,
+          "title": "MicrosoftがWindows 10ユーザーにアップグレード促す、PC買い替え提案も",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20250325-3161108/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20250325-3159817/",
+          "author": null,
+          "description": "Bleeping Computerは3月20日(米国時間)、バックアップおよびレプリケーションソフトウェア「Veeam Backup & Replication」から緊急の脆弱性が発見されたと報じた。この脆弱性を悪用されると、認証されたADドメインユーザーに任意のコードを実行される可能性がある。",
+          "link": "https://news.mynavi.jp/techplus/article/20250325-3159817/",
+          "publishedOn": "2025-03-24T23:16:10.000Z",
+          "wordCount": 1781,
+          "title": "Veeamバックアップ製品に緊急の脆弱性、今すぐアップデートを",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20250325-3159817/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/kikaku/20250325-3152427/",
+          "author": null,
+          "description": "2025年2月、「TECH+フォーラム セキュリティ2025 Feb. 今セキュリティ担当者は何をすべきか」がオンラインで開催された。本記事では、そのなかの1つの講演「大規模DDoS攻撃への備えは出来ていますか？ ～巧妙化する手口の詳細と、CDNとWAAPで実現する網羅的な対策～」を紹介。",
+          "link": "https://news.mynavi.jp/techplus/kikaku/20250325-3152427/",
+          "publishedOn": "2025-03-24T23:00:00.000Z",
+          "wordCount": 1662,
+          "title": "増大かつ巧妙化する大規模DDoS攻撃への効果的対策としてWAAPとCDNに注目",
+          "imageUrl": "https://news.mynavi.jp/techplus/kikaku/20250325-3152427/ogp_images/ogp.png"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20250325-3159858/",
+          "author": null,
+          "description": "Kaspersky Labはこのほど、YouTubeを悪用してマルウェアを配布するキャンペーンを発見したと伝えた。攻撃者はゲームの裏技としてマルウェアを配布し、あらゆる種類の認証情報を窃取したとみられる。",
+          "link": "https://news.mynavi.jp/techplus/article/20250325-3159858/",
+          "publishedOn": "2025-03-24T22:36:48.000Z",
+          "wordCount": 1747,
+          "title": "YouTube動画からマルウェア配布、「ゲームの裏技紹介」に注意",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20250325-3159858/ogp_images/ogp.jpg"
+        },
+        {
+          "id": "https://news.mynavi.jp/techplus/article/20250325-3159971/",
+          "author": null,
+          "description": "BetaNewsは3月20日(米国時間)、Windows 11に3月のセキュリティ更新プログラムをインストールするとMicrosoft Copilotアプリが誤ってアンインストールされる不具合が修正されたと報じた。",
+          "link": "https://news.mynavi.jp/techplus/article/20250325-3159971/",
+          "publishedOn": "2025-03-24T22:05:15.000Z",
+          "wordCount": 1747,
+          "title": "MicrosoftがCopilotをうっかり削除、すぐに復旧",
+          "imageUrl": "https://news.mynavi.jp/techplus/article/20250325-3159971/ogp_images/ogp.jpg"
+        },
+        {
           "id": "https://news.mynavi.jp/techplus/article/20250324-3148184/",
           "author": null,
           "description": "2月25日～27日に開催された「TECH+フォーラム セキュリティ 2025 Feb. 今セキュリティ担当者は何をすべきか」に日本デジタルトランスフォーメーション推進協会（以下、JDX） セキュリティ部会 部会長の白水公康氏が登壇。「DX推進におけるセキュリティ戦略のポイント」と題して、講演を行った。",
           "link": "https://news.mynavi.jp/techplus/article/20250324-3148184/",
           "publishedOn": "2025-03-24T00:00:00.000Z",
-          "wordCount": 1791,
+          "wordCount": 2936,
           "title": "経営者の現状再認識も重要 – DXを進めるうえで必要なセキュリティ戦略のポイントとは",
           "imageUrl": "https://news.mynavi.jp/techplus/article/20250324-3148184/ogp_images/ogp.jpg"
         },
