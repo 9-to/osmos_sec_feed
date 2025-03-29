@@ -2,10 +2,54 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://9-to.github.io/osmos_sec_feed/index.html</id>
     <title>osmos::feed</title>
-    <updated>2025-03-28T08:16:14.288Z</updated>
+    <updated>2025-03-29T08:14:34.569Z</updated>
     <generator>osmosfeed 1.15.1</generator>
     <link rel="alternate" href="https://9-to.github.io/osmos_sec_feed/index.html"/>
     <link rel="self" href="https://9-to.github.io/osmos_sec_feed/feed.atom"/>
+    <entry>
+        <title type="html"><![CDATA[CISA Releases Malware Analysis Report on RESURGE Malware Associated with Ivanti Connect Secure]]></title>
+        <id>/node/23191</id>
+        <link href="https://www.cisa.gov/news-events/alerts/2025/03/28/cisa-releases-malware-analysis-report-resurge-malware-associated-ivanti-connect-secure"/>
+        <updated>2025-03-28T12:00:00.000Z</updated>
+        <summary type="html"><![CDATA[CISA has published a Malware Analysis Report (MAR) with analysis and associated detection signatures on a new malware variant CISA has identified as RESURGE. RESURGE contains capabilities of the SPAWNCHIMERA[1] malware variant, including surviving reboots; however, RESURGE contains distinctive commands that alter its behavior. These commands: 
+Create a web shell, manipulate integrity checks, and modify files. 
+Enable the use of web shells for credential harvesting, account creation, password resets, and escalating permissions. 
+Copy the web shell to the Ivanti running boot disk and manipulate the running coreboot image. 
+RESURGE is associated with the exploitation of CVE-2025-0282 in Ivanti Connect Secure appliances. CVE-2025-0282 is a stack-based buffer overflow vulnerability in Ivanti Co…]]></summary>
+        <author>
+            <name>CISA</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Androidスマホの画面をテレビにミラーリングするにはどうすればいい？]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/update/2002316.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/update/2002316.html"/>
+        <updated>2025-03-28T09:25:00.000Z</updated>
+        <summary type="html"><![CDATA[連載「ミラーリングとかの基礎知識（スマホ動画をテレビで見る方法）」で2023年4月に掲載した記事を更新し、新たに「充電しながらミラーリングしたいときは？」の章を追加するとともに、スマートフォンの操作画面の写真など記事内容の一部をアップデートしました。]]></summary>
+        <author>
+            <name>INTERNET Watch</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[見出しでわかる IT界隈・今週の重要ニュース：全75本［2025/3/20～3/26］]]></title>
+        <id>https://internet.watch.impress.co.jp/docs/news/weekly/2002022.html</id>
+        <link href="https://internet.watch.impress.co.jp/docs/news/weekly/2002022.html"/>
+        <updated>2025-03-28T09:00:00.000Z</updated>
+        <summary type="html"><![CDATA[「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。]]></summary>
+        <author>
+            <name>中島 由弘</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[LINEヤフーに行政指導　LINEアルバムの“写真誤表示”トラブルで　総務省]]></title>
+        <id>https://www.itmedia.co.jp/news/articles/2503/28/news199.html</id>
+        <link href="https://www.itmedia.co.jp/news/articles/2503/28/news199.html"/>
+        <updated>2025-03-28T08:45:00.000Z</updated>
+        <summary type="html"><![CDATA[総務省は、LINEヤフーに行政指導を行った。LINEヤフーでは、写真共有サービス「LINE アルバム」で他人の写真のサムネイルが誤表示される不具合が発生していた。これを受け、総務省はLINEヤフーに対し、通信の秘密の保護の観点から再発防止の徹底などを求めた。]]></summary>
+        <author>
+            <name>ITmedia NEWS セキュリティ 最新記事一覧</name>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[wizSafe Security Signal 2025年2月 観測レポート]]></title>
         <id>https://wizsafe.iij.ad.jp/?p=1868</id>
@@ -365,6 +409,16 @@
         <summary type="html"><![CDATA[近年、ネット詐欺の中でも「遠隔操作」による被害が急増しています。特に「サポート詐欺」「副業詐欺」「ネットバンキング詐欺」などの手口と組み合わせることで、大きな被害を出しています。]]></summary>
         <author>
             <name>DLIS・柳谷 智宣</name>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[企業DXを推進する指標の在り方に関する検討会 第2回資料を公開しました]]></title>
+        <id>https://www.ipa.go.jp/disc/committee/dx-suishin-committee.html</id>
+        <link href="https://www.ipa.go.jp/disc/committee/dx-suishin-committee.html"/>
+        <updated>2025-03-27T15:00:00.000Z</updated>
+        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「企業DXを推進する指標の在り方に関する検討会」に関する情報です。]]></summary>
+        <author>
+            <name>情報処理推進機構（IPA）</name>
         </author>
     </entry>
     <entry>
@@ -9880,698 +9934,6 @@ IGF国内事前会合の開催について
         <summary type="html"><![CDATA[2024年末から2025年にかけて、社会的なインフラをターゲットにした大規模なサイバー攻撃が大きな話題となった。]]></summary>
         <author>
             <name>清水 理史</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「情報セキュリティ10大脅威 2025」解説書を公開しました]]></title>
-        <id>https://www.ipa.go.jp/security/10threats/10threats2025.html</id>
-        <link href="https://www.ipa.go.jp/security/10threats/10threats2025.html"/>
-        <updated>2025-02-27T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「情報セキュリティ10大脅威 2025」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ウラノス・エコシステム・データスペーシズ リファレンスアーキテクチャモデルのホワイトペーパーを公開しました]]></title>
-        <id>https://www.ipa.go.jp/digital/architecture/reports/ouranos-ecosystem-dataspaces-ram-white-paper.html</id>
-        <link href="https://www.ipa.go.jp/digital/architecture/reports/ouranos-ecosystem-dataspaces-ram-white-paper.html"/>
-        <updated>2025-02-27T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「ウラノス・エコシステム・データスペーシズ リファレンスアーキテクチャモデル ホワイトペーパー（2025年2月28日）」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[ICSCoE 中核人材育成プログラム第7期の卒業プロジェクトを1件公開しました]]></title>
-        <id>https://www.ipa.go.jp/jinzai/ics/core_human_resource/final_project/2024/index.html</id>
-        <link href="https://www.ipa.go.jp/jinzai/ics/core_human_resource/final_project/2024/index.html"/>
-        <updated>2025-02-27T15:00:00.000Z</updated>
-        <summary type="html"><![CDATA[情報処理推進機構（IPA）の「中核人材育成プログラム 卒業プロジェクト 第7期生」に関する情報です。]]></summary>
-        <author>
-            <name>情報処理推進機構（IPA）</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CISA Releases Two Industrial Control Systems Advisories]]></title>
-        <id>/node/23056</id>
-        <link href="https://www.cisa.gov/news-events/alerts/2025/02/27/cisa-releases-two-industrial-control-systems-advisories"/>
-        <updated>2025-02-27T12:00:00.000Z</updated>
-        <summary type="html"><![CDATA[CISA released two Industrial Control Systems (ICS) advisories on February 27, 2025. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
-ICSA-25-058-01 Schneider Electric Communication Modules for Modicon M580 and Quantum Controllers
- 
-ICSMA-25-058-01 Dario Health USB-C Blood Glucose Monitoring System Starter Kit Android Application
- 
-CISA encourages users and administrators to review newly released ICS advisories for technical details and mitigations.]]></summary>
-        <author>
-            <name>CISA</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[平時から有事までセキュリティ対応を支援する「SCSKセキュリティリテイナー」]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20250227-3137617/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20250227-3137617/"/>
-        <updated>2025-02-27T10:41:00.000Z</updated>
-        <summary type="html"><![CDATA[SCSKセキュリティは2月27日、企業の情報セキュリティ確保を包括的に支援する新サービス「SCSKセキュリティリテイナー」の提供を開始することを発表した。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[生成AIを業務に活用している日本企業は65.3%、米・豪ではほぼ100%が活用]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20250227-3137561/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20250227-3137561/"/>
-        <updated>2025-02-27T09:58:51.000Z</updated>
-        <summary type="html"><![CDATA[NRIセキュアテクノロジーズは2月27日、2024年7月から10月にかけて、3か国の企業計2491社を対象に実施した、情報セキュリティに関する実態調査の結果を発表した。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[警察庁、PayPay銀行と「情報連携協定著」締結。特殊詐欺やSNS型投資・ロマンス詐欺の被害額増加を受け]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1666301.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1666301.html"/>
-        <updated>2025-02-27T09:55:00.000Z</updated>
-        <summary type="html"><![CDATA[警察庁とPayPay銀行株式会社は2月27日、特殊詐欺やSNS型投資・ロマンス詐欺において、振込型の被害額が大幅に増加していることなどを踏まえて、「情報連携協定書」を締結した。]]></summary>
-        <author>
-            <name>山田 貞幸</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[IIJ、企業の海外拠点のIT環境調査とリスク評価を行うサービス提供]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20250227-3137518/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20250227-3137518/"/>
-        <updated>2025-02-27T09:46:09.000Z</updated>
-        <summary type="html"><![CDATA[インターネットイニシアティブ(IIJ)は2月26日、企業の海外拠点におけるIT環境を調査し、セキュリティリスク評価を行うサービス「IIJグローバルオンサイトサーベイソリューション」を4月1日より提供開始すると発表した。同サービスは、海外事情に精通したIIJのエンジニアが顧客の海外拠点に赴いて現地調査を行う。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[トピックス]RPKIシステムリポジトリの高負荷状態について]]></title>
-        <id>https://www.nic.ad.jp/ja/topics/2025/20250227-04.html</id>
-        <link href="https://www.nic.ad.jp/ja/topics/2025/20250227-04.html"/>
-        <updated>2025-02-27T09:02:12.000Z</updated>
-        <summary type="html"><![CDATA[2025年2月27日
-各位
-一般社団法人日本ネットワークインフォメーションセンター
-RPKIシステムリポジトリの高負荷状態について
-記
-
-            
-発生している事象
-RPKIを使ったオリジン検証への影響
-対応について
-本件に関するお問い合わせ窓口
-rpki-query@nic.ad.jp
-            
-以上]]></summary>
-        <author>
-            <name>JPNIC Web</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[トピックス]IGF 2023に向けた国内IGF活動活発化チーム第2回勉強会開催のご案内]]></title>
-        <id>https://www.nic.ad.jp/ja/topics/2025/20250227-03.html</id>
-        <link href="https://www.nic.ad.jp/ja/topics/2025/20250227-03.html"/>
-        <updated>2025-02-27T08:20:22.000Z</updated>
-        <summary type="html"><![CDATA[2025年2月27日
-各位
-IGF 2023に向けた国内IGF活動活発化チーム
-IGF 2023に向けた国内IGF活動活発化チーム第2回勉強会開催のご案内
-1. 開催趣旨
-2. 開催概要
-■日時
-              2025年3月17日(月) 18:00～19:00
-
-              ■演題
-              「ドット京都でのクリーンで安心安全なネット環境構築を目指す取組みについて」
-
-              ■講師
-              
-                京都情報大学院大学教授　立石 聡明 氏
-              
-
-              ■会場
-              
-                ハイブリッド
-                
-https://www.cfiec.jp/access/
-                  
-■主催
-              IGF 2023に向けた国内IGF活動活発化チーム
-
-              ■企画
-              活発化チームに参加している有志
-
-              ■対象
-              インターネットガバナンスに関心をお持ちの方々
-
-              ■備考
-              
-                参加は無料です。
-                ハイブリッド開催となりますので、
-                オンラインでも現地でもご参加いただけます。
-              
-
-              ■参加申込方法
-              
-                2025年3月17日(月)12時までに、以下Webページよりお申し込みください。
-                ※直前に開催される、第60回活発化チーム会合と同じです。
-                どちらかで申し込めば、他方も参加いただけます。
-                
-                  オンライン参加：
-                  https://us06web.zoom.us/meeting/register/enm_bsrWQJa08LURm9PiaA
-
-                  現地会場参加：
-                  https://forms.gle/HddfuKJNxsRx4Xjw7
-                
-                登録後、ミーティング参加に関する情報の確認メールが届きます。
-                この中に記載されている参加URLをクリックすることで参加できます。
-              
-
-              ■定員
-              
-                オンライン参加：100名
-                
-■お問い合わせ先
-              
-                「IGF 2023に向けた国内IGF活動活発化チーム」事務局
-                
-sec@japanigf.jp
-              
-            
-
-
-            
-以上]]></summary>
-        <author>
-            <name>JPNIC Web</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[トピックス]IGF 2023に向けた国内IGF活動活発化チーム第60回会合開催のご案内]]></title>
-        <id>https://www.nic.ad.jp/ja/topics/2025/20250227-02.html</id>
-        <link href="https://www.nic.ad.jp/ja/topics/2025/20250227-02.html"/>
-        <updated>2025-02-27T08:05:33.000Z</updated>
-        <summary type="html"><![CDATA[2025年2月27日
-各位
-IGF 2023に向けた国内IGF活動活発化チーム第60回会合開催のご案内
-1. 開催趣旨
-2. 開催概要
-■日時
-              
-                2025年3月17日(月) 17:00～18:00
-                
-■会場
-              
-                ハイブリッド
-                
-https://www.cfiec.jp/access/
-                  
-■主催
-              
-                一般社団法人日本インターネットプロバイダー協会
-                
-■企画
-              活発化チームに参加している有志
-
-              ■対象
-              インターネットガバナンスに関心をお持ちの方々
-
-              ■備考
-              
-                参加は無料です。
-                ハイブリッド開催となりますので、オンラインでも現地でもご参加いただけます。
-              
-
-              ■参加申込方法
-              
-                2025年3月17日(月)12時までに、以下Webページよりお申し込みください。
-                ※直後に開催される勉強会と同じです。
-                どちらかで申し込めば、他方も参加いただけます。
-                
-                  オンライン参加：
-                  https://us06web.zoom.us/meeting/register/enm_bsrWQJa08LURm9PiaA
-
-                  現地会場参加：
-                  https://forms.gle/HddfuKJNxsRx4Xjw7
-                
-                登録後、ミーティング参加に関する情報の確認メールが届きます。
-                この中に記載されている参加URLをクリックすることで参加できます。
-              
-
-              ■定員
-              
-                オンライン参加：100名
-                
-■お問い合わせ先
-              
-                「IGF 2023に向けた国内IGF活動活発化チーム」事務局
-                
-sec@japanigf.jp
-              
-            
-
-            
-3. プログラム(予定)
-第60回活発化チーム会合
-本日の目的確認
-前回議論の振り返り
-宿題事項の確認
-日本政府からの報告
-IGFマルチステークホルダー諮問グループ(MAG)からの報告
-国別・地域別IGF(NRI)に関する報告
-その他会議に関する報告・共有
-勉強会に関して
-今後のスケジュール
-本チームの今後について
-本日の議論を受けたTodo確認
-次回打合せについて
-その他
-第2回勉強会
-以上]]></summary>
-        <author>
-            <name>JPNIC Web</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「進化する脅威と最新のAIリスク・セキュリティ戦略」イベントレポート]]></title>
-        <id>https://gblogs.cisco.com/jp/?p=53381</id>
-        <link href="https://gblogs.cisco.com/jp/2025/02/security-event-report/"/>
-        <updated>2025-02-27T06:58:12.000Z</updated>
-        <summary type="html"><![CDATA[2025年1月23日（木）、シスコシステムズ合同会社東京本社にて、「進化する脅威と最新のAIリスク・セキュリティ戦略」に関するイベントを開催しました。
-The post 「進化する脅威と最新のAIリスク・セキュリティ戦略」イベントレポート appeared first on Cisco Japan Blog.]]></summary>
-        <author>
-            <name>吉川 沙代子</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React Router v7のブラウザ開発環境でMSWを利用する方法]]></title>
-        <id>https://tech-lab.sios.jp/?p=46445</id>
-        <link href="https://tech-lab.sios.jp/archives/46445"/>
-        <updated>2025-02-27T06:00:00.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは、サイオステクノロジーの遠藤です。 今回は、React Route v7のブラウザ開発環境でMSWを利用する方法について自分で導入するときに少しハマったので、備忘録的な形でまとめておこうと思います。 では始めて ...
-React Router v7のブラウザ開発環境でMSWを利用する方法 first appeared on SIOS Tech. Lab.]]></summary>
-        <author>
-            <name>遠藤</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 11、3月にマルチアプリカメラ機能追加 - プレビュー更新プログラム「KB5052093」]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20250227-3137347/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20250227-3137347/"/>
-        <updated>2025-02-27T05:39:20.000Z</updated>
-        <summary type="html"><![CDATA[Microsoftは2月25日(米国時間)、Windows 11バージョン24H2向けにオプションのプレビュー更新プログラム「KB5052093」をリリースした。このアップデートにはマルチアプリカメラ機能の追加やOpenSSHの起動に失敗する不具合の修正などが含まれている。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[トピックス]世界情報社会サミット(WSIS)のビジョン再確認を呼びかける内容の意見表明にJPNICも署名]]></title>
-        <id>https://www.nic.ad.jp/ja/topics/2025/20250227-01.html</id>
-        <link href="https://www.nic.ad.jp/ja/topics/2025/20250227-01.html"/>
-        <updated>2025-02-27T04:35:34.000Z</updated>
-        <summary type="html"><![CDATA[2025年2月27日
-各位
-一般社団法人日本ネットワークインフォメーションセンター
-世界情報社会サミット(WSIS)のビジョン再確認を呼びかける内容の意見表明にJPNICも署名
-https://www.apc.org/en/pubs/cross-community-statement-civil-society-private-sector-and-technical-community-wsis-igf-and
-            
-主要な点
-1. GDCとWSIS+20の統合
-*1のような既存の構造を強化し、
-                  連携しながら実行可能な枠組みへ移行しなければなりません。
-                
-2. IGFの役割
-3. IGFの持続可能性と資源
-4. WSISの枠組みを基盤とする重要性
-5. マルチステークホルダー協力の必要性
-*2は、
-                  多国間およびマルチステークホルダー双方のデジタル・ガバナンス・プロセスにとって価値ある具体的な提案を提供しています。
-                
-6. 行動への提言
-https://sdgs.un.org/tfm/sti-forum
-              
-https://netmundial.br/netmundial-10-multistakeholder-statement-strengthening-internet-governance-and-digital-policy-processes
-                
-https://www.nic.ad.jp/ja/translation/governance/20240430.html
-              
-以上]]></summary>
-        <author>
-            <name>JPNIC Web</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[TP-Link、電源内蔵のギガビット対応スイッチ「TL-SG505I」「TL-SG508I」発売、3千円台から]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1666046.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1666046.html"/>
-        <updated>2025-02-27T03:30:00.000Z</updated>
-        <summary type="html"><![CDATA[ティーピーリンクジャパン株式会社（TP-Link）は、ギガビット対応のスイッチングハブ2製品を、3月13日に販売する。ラインアップと市場想定価格は、5ポートの「TL-SG505I」が3630円、8ポートの「TL-SG508I」が5170円。]]></summary>
-        <author>
-            <name>山田 貞幸</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[明治時代の日本を撮影した29本のフィルム、国立映画アーカイブのサイトで無料公開中【やじうまWatch】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1666048.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1666048.html"/>
-        <updated>2025-02-27T02:58:26.000Z</updated>
-        <summary type="html"><![CDATA[明治時代の日本を撮影した29本のフィルムが、国立映画アーカイブが運営するウェブサイトで新たに公開された。無料で視聴できる。]]></summary>
-        <author>
-            <name>INTERNET Watch</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[吉本ばなな、村上春樹ら著名作家の名前を騙った偽の書籍がKindleに登録され物議【やじうまWatch】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/yajiuma/1666047.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/yajiuma/1666047.html"/>
-        <updated>2025-02-27T02:56:55.000Z</updated>
-        <summary type="html"><![CDATA[Kindleで著名作家の名前を騙った偽の書籍が登録され、トラブルになっている。]]></summary>
-        <author>
-            <name>tks24</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[サントリーの缶コーヒー「BOSS」がAmazonでタイムセール中！　すっきりとした後味が特徴の「無糖ブラック」が定期便で2136円など]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/shopping/1666043.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/shopping/1666043.html"/>
-        <updated>2025-02-27T02:45:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazon.co.jpのSUNTORYの「BOSS（ボス）」ブランドストアページでは現在、缶コーヒー飲料がタイムセール中だ。]]></summary>
-        <author>
-            <name>アイティースリー</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[山善のチューナーレステレビが安い! 　Amazonお買い得情報　4K対応の43型「QRK-43TL4K」が3万1500円など]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/shopping/1666040.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/shopping/1666040.html"/>
-        <updated>2025-02-27T02:40:00.000Z</updated>
-        <summary type="html"><![CDATA[Amazon.co.jpの山善（YAMAZEN）ストアページでは現在、同社製のチューナーレステレビがタイムセール価格で販売されている。]]></summary>
-        <author>
-            <name>アイティースリー</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[[Blog記事]2025年2月 JPNIC技術セミナー Winter 開催報告！]]></title>
-        <id>https://blog.nic.ad.jp/2025/10528/</id>
-        <link href="https://blog.nic.ad.jp/2025/10528/"/>
-        <updated>2025-02-27T02:00:37.000Z</updated>
-        <summary type="html"><![CDATA[2025年2月に開催した「JPNIC技術セミナー Winter ～インターネットの基盤技術が学べる3日間～」の模様をお伝えします。オンデマンド配信で視聴いただける内容もご紹介しています。]]></summary>
-        <author>
-            <name>JPNIC Web</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[プラネックスのWi-Fiルーター「MZK-MF300HP2」「MZK-MF300M」に脆弱性、MZK-MF300Mは使用の停止を]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/news/1666018.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/news/1666018.html"/>
-        <updated>2025-02-27T01:30:00.000Z</updated>
-        <summary type="html"><![CDATA[プラネックスコミュニケーションズ製のWi-Fiルーター2製品に複数の脆弱性があるとして、脆弱性対策情報ポータルサイト「JVN」（Japan Vulnerability Notes）が情報を公開した。]]></summary>
-        <author>
-            <name>山田 貞幸</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[wizSafe Security Signal 2025年1月 観測レポート]]></title>
-        <id>https://wizsafe.iij.ad.jp/?p=1850</id>
-        <link href="https://wizsafe.iij.ad.jp/2025/02/1850/"/>
-        <updated>2025-02-27T01:25:14.000Z</updated>
-        <summary type="html"><![CDATA[本レポートでは、2025年1月中に発生した観測情報と事案についてまとめています。 目次 DDoS攻撃の観測情報 不正アクセス通信の観測情報 マルウェア脅威の観測情報 セキュリティイベントカレンダー DDoS攻撃の観測情報 … "wizSafe Security Signal 2025年1月 観測レポート" の続きを読む]]></summary>
-        <author>
-            <name>SOCチーム</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[React Router v7のルーティング方法 Configuring Routes を整理する]]></title>
-        <id>https://tech-lab.sios.jp/?p=46416</id>
-        <link href="https://tech-lab.sios.jp/archives/46416"/>
-        <updated>2025-02-27T01:00:00.000Z</updated>
-        <summary type="html"><![CDATA[こんにちは、サイオステクノロジーの遠藤です。 今回は、WebフレームワークであるRemixとルーティングライブラリであるReact Routerが統合されたReact Router v7のルーティングについてまとめていき ...
-React Router v7のルーティング方法 Configuring Routes を整理する first appeared on SIOS Tech. Lab.]]></summary>
-        <author>
-            <name>遠藤</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「DIS TOTAL SECURITY in TOKYO 2024」アフターレポート 第2回 各種ベンダーが提供する最新のセキュリティソリューションをご紹介]]></title>
-        <id>https://news.mynavi.jp/techplus/kikaku/DIS_TOTALSECURITY-2/</id>
-        <link href="https://news.mynavi.jp/techplus/kikaku/DIS_TOTALSECURITY-2/"/>
-        <updated>2025-02-27T00:30:00.000Z</updated>
-        <summary type="html"><![CDATA[ダイワボウ情報システム(DIS)は「DIS TOTAL SECURITY in TOKYO 2024」を2024年12月17日に品川で開催した。その様子と内容を全2回にわたってお伝えしていく本連載のなかで、第2回の本稿では各種ベンダーが講演したベンダーセッションについて紹介していく。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Weekly Report: PostgreSQLに不具合]]></title>
-        <id>https://www.jpcert.or.jp/wr/2025/wr250227.html#1</id>
-        <link href="https://www.jpcert.or.jp/wr/2025/wr250227.html#1"/>
-        <updated>2025-02-27T00:02:00.000Z</updated>
-        <summary type="html"><![CDATA[PostgreSQLに不具合]]></summary>
-        <author>
-            <name>JPCERT/CC RSS Feed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Weekly Report: Drupal coreに複数の脆弱性]]></title>
-        <id>https://www.jpcert.or.jp/wr/2025/wr250227.html#2</id>
-        <link href="https://www.jpcert.or.jp/wr/2025/wr250227.html#2"/>
-        <updated>2025-02-27T00:02:00.000Z</updated>
-        <summary type="html"><![CDATA[Drupal coreに複数の脆弱性]]></summary>
-        <author>
-            <name>JPCERT/CC RSS Feed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Weekly Report: Movable Typeに複数のクロスサイトスクリプティングの脆弱性]]></title>
-        <id>https://www.jpcert.or.jp/wr/2025/wr250227.html#3</id>
-        <link href="https://www.jpcert.or.jp/wr/2025/wr250227.html#3"/>
-        <updated>2025-02-27T00:02:00.000Z</updated>
-        <summary type="html"><![CDATA[Movable Typeに複数のクロスサイトスクリプティングの脆弱性]]></summary>
-        <author>
-            <name>JPCERT/CC RSS Feed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Weekly Report: JoomlaにSQLインジェクションの脆弱性]]></title>
-        <id>https://www.jpcert.or.jp/wr/2025/wr250227.html#4</id>
-        <link href="https://www.jpcert.or.jp/wr/2025/wr250227.html#4"/>
-        <updated>2025-02-27T00:02:00.000Z</updated>
-        <summary type="html"><![CDATA[JoomlaにSQLインジェクションの脆弱性]]></summary>
-        <author>
-            <name>JPCERT/CC RSS Feed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Weekly Report: Google Chromeに複数の脆弱性]]></title>
-        <id>https://www.jpcert.or.jp/wr/2025/wr250227.html#5</id>
-        <link href="https://www.jpcert.or.jp/wr/2025/wr250227.html#5"/>
-        <updated>2025-02-27T00:02:00.000Z</updated>
-        <summary type="html"><![CDATA[Google Chromeに複数の脆弱性]]></summary>
-        <author>
-            <name>JPCERT/CC RSS Feed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Weekly Report: 複数のAtlassian製品に脆弱性]]></title>
-        <id>https://www.jpcert.or.jp/wr/2025/wr250227.html#6</id>
-        <link href="https://www.jpcert.or.jp/wr/2025/wr250227.html#6"/>
-        <updated>2025-02-27T00:02:00.000Z</updated>
-        <summary type="html"><![CDATA[複数のAtlassian製品に脆弱性]]></summary>
-        <author>
-            <name>JPCERT/CC RSS Feed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Weekly Report: 富士フイルムビジネスイノベーション製複合機（MFP）における境界外書き込みの脆弱性]]></title>
-        <id>https://www.jpcert.or.jp/wr/2025/wr250227.html#7</id>
-        <link href="https://www.jpcert.or.jp/wr/2025/wr250227.html#7"/>
-        <updated>2025-02-27T00:02:00.000Z</updated>
-        <summary type="html"><![CDATA[富士フイルムビジネスイノベーション製複合機（MFP）における境界外書き込みの脆弱性]]></summary>
-        <author>
-            <name>JPCERT/CC RSS Feed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Weekly Report: 経済産業省が「AIの利用・開発に関する契約チェックリスト」を公開]]></title>
-        <id>https://www.jpcert.or.jp/wr/2025/wr250227.html#8</id>
-        <link href="https://www.jpcert.or.jp/wr/2025/wr250227.html#8"/>
-        <updated>2025-02-27T00:02:00.000Z</updated>
-        <summary type="html"><![CDATA[経済産業省が「AIの利用・開発に関する契約チェックリスト」を公開]]></summary>
-        <author>
-            <name>JPCERT/CC RSS Feed</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[【保存版】GASでAzure OpenAI APIを使いこなす！基本から並列処理まで]]></title>
-        <id>https://tech-lab.sios.jp/?p=46453</id>
-        <link href="https://tech-lab.sios.jp/archives/46453"/>
-        <updated>2025-02-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[挨拶 最近は、「Dify入門シリーズ」の検証＋執筆にいそしんでいる龍ちゃんです。応用的ステップとして、GASで本格運用する業務アプリの開発などもやっていました。こちらの業務アプリでは、DifyのAPIを叩くわけでなく、A ...
-【保存版】GASでAzure OpenAI APIを使いこなす！基本から並列処理まで first appeared on SIOS Tech. Lab.]]></summary>
-        <author>
-            <name>龍：Ryu</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「DIS TOTAL SECURITY in TOKYO 2024」アフターレポート 第1回 産業革命級の変化が訪れている現代において、DISが考えるセキュリティの重要性と役割とは]]></title>
-        <id>https://news.mynavi.jp/techplus/kikaku/DIS_TOTALSECURITY-1/</id>
-        <link href="https://news.mynavi.jp/techplus/kikaku/DIS_TOTALSECURITY-1/"/>
-        <updated>2025-02-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[ビジネスの成長にいまや欠かせない要素となったセキュリティ。単なる「コスト」と捉えるのではなく、安全な環境は成長のための「投資」だと考えることが重要だ。そのような状況のなか、ダイワボウ情報システム(DIS)は2024年12月17日「DIS TOTAL SECURITY in TOKYO 2024」を開催。セキュリティの有識者や製品担当者が一堂に会し、8つのセッションで、さまざまな角度からセキュリティの現在位置と将来像を展望した。本連載ではその様子と内容を、全2回にわたってお伝えしていきたい。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[電子メールセキュリティの再評価機運高まる ～ NTTデータグループのメールセキュリティ強化事例講演]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2025/02/27/52411.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2025/02/27/52411.html"/>
-        <updated>2025-02-26T23:20:03.000Z</updated>
-        <summary type="html"><![CDATA[グループ全体で毎日約 650 万通の業務メールが送受信される環境において、Proofpoint 製品を活用し、メールセキュリティの強化とドメイン統一を実施した事例が紹介される予定だ。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[セコムトラストシステムズ「かんたんで高品質なアタックサーフェス調査しませんか？」アーカイブ配信公開]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2025/02/27/52410.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2025/02/27/52410.html"/>
-        <updated>2025-02-26T23:15:02.000Z</updated>
-        <summary type="html"><![CDATA[セコムトラストシステムズ株式会社は2月、セミナー「「かんたん」で「高品質」なアタックサーフェス調査しませんか？」のアーカイブ配信を公開した。同セミナーは、2024年12月12、13日に開催したもののアーカイブ配信で、2025年6月30日までの限定公開となる。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[DeepSeek人気を悪用して偽サイトからマルウェア感染、警戒を]]></title>
-        <id>https://news.mynavi.jp/techplus/article/20250227-3136604/</id>
-        <link href="https://news.mynavi.jp/techplus/article/20250227-3136604/"/>
-        <updated>2025-02-26T23:13:12.000Z</updated>
-        <summary type="html"><![CDATA[Zscalerは2月25日(米国時間)、DeepSeekがマルウェアの拡散に悪用されたとして、注意を喚起した。攻撃者はDeepSeekの人気に乗じて、偽サイトを構築して情報窃取マルウェアを配布したと見られる。]]></summary>
-        <author>
-            <name>マイナビニュース 企業IT セキュリティ</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[今日もどこかで情報漏えい 第33回「2025年1月の情報漏えい」爾後ランサムウェア犯を対手（あいて）とせず]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2025/02/27/52409.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2025/02/27/52409.html"/>
-        <updated>2025-02-26T23:10:03.000Z</updated>
-        <summary type="html"><![CDATA[1 月に最も件数換算の被害規模が大きかったのは、株式会社三恵による「三恵通販サイトに不正アクセス、71,943 名のカード情報が漏えいした可能性」の 292,707 名だった。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[パスワードで保護「ホームページ改ざん及び不審メールについて復旧のお知らせと報告」]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2025/02/27/52408.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2025/02/27/52408.html"/>
-        <updated>2025-02-26T23:05:09.000Z</updated>
-        <summary type="html"><![CDATA[一般社団法人岐阜県民間保育園・認定こども園連盟は2月13日、ホームページ改ざんと不審メールについて発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[「一切の忖度なしで事実と責任の所在を明確に」した調査報告書を公開 ～ 岡山県精神科医療センターへのランサムウェア攻撃]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2025/02/27/52407.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2025/02/27/52407.html"/>
-        <updated>2025-02-26T23:05:06.000Z</updated>
-        <summary type="html"><![CDATA[地方独立行政法人岡山県精神科医療センターは2月13日、2024年5月19日に発生した同センターへのサイバー攻撃によるランサムウェア感染について、調査報告書を発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[AIG損害保険の顧客情報漏えいの可能性 ～ 東京損保鑑定へランサムウェア攻撃]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2025/02/27/52406.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2025/02/27/52406.html"/>
-        <updated>2025-02-26T23:05:02.000Z</updated>
-        <summary type="html"><![CDATA[AIG損害保険株式会社は2月17日、同社業務委託先への不正アクセスによる情報漏えいの可能性について発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[社員 1,000 名以上の企業 約 5 割「グループ会社や子会社含めた全体が把握できていない」スリーシェイク調査]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2025/02/27/52405.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2025/02/27/52405.html"/>
-        <updated>2025-02-26T23:00:19.000Z</updated>
-        <summary type="html"><![CDATA[株式会社スリーシェイクは1月10日、株式会社Spirに提供したセキュリティツール「Securify」の導入事例インタビューを公開した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Movable Type 8.0.6 / 8.4.2 / 8.5.0 / 7 r.5507 のセキュリティアップデート提供開始]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2025/02/27/52404.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2025/02/27/52404.html"/>
-        <updated>2025-02-26T23:00:17.000Z</updated>
-        <summary type="html"><![CDATA[シックス・アパート株式会社は2月19日、Movable Type 8.0.6 / 8.4.2 / 8.5.0 / 7 r.5507 のセキュリティアップデートについて発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[NTTデータ先端技術「INTELLILINK AIセキュリティ診断 for LLMアプリケーション」提供]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2025/02/27/52403.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2025/02/27/52403.html"/>
-        <updated>2025-02-26T23:00:13.000Z</updated>
-        <summary type="html"><![CDATA[株式会社NTTデータ先端技術は2月25日、最新のOWASP Top 10 for LLM Applications 2025に基づき診断を行う「INTELLILINK AIセキュリティ診断 for LLMアプリケーション」を提供すると発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[GMOサイバーセキュリティ byイエラエと台湾の工業技術研究院情報通信研究ラボラトリが業務提携、「SEMI E187」への適合支援コンサルと認証支援サービス提供]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2025/02/27/52402.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2025/02/27/52402.html"/>
-        <updated>2025-02-26T23:00:09.000Z</updated>
-        <summary type="html"><![CDATA[GMOサイバーセキュリティ byイエラエ株式会社は2月20日、台湾の工業技術研究院情報通信研究ラボラトリ（ITRI情報通信研究ラボラトリ）と2月11日に業務提携覚書を締結したと発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[公明党、能動的サイバー防御について見解]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2025/02/27/52401.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2025/02/27/52401.html"/>
-        <updated>2025-02-26T23:00:07.000Z</updated>
-        <summary type="html"><![CDATA[公明党は2月19日、能動的サイバー防御についての同党の主張をホームページで発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[サイバーセキュリティ事業合弁会社「SMBCサイバーフロント株式会社」設立]]></title>
-        <id>https://scan.netsecurity.ne.jp/article/2025/02/27/52400.html</id>
-        <link href="https://scan.netsecurity.ne.jp/article/2025/02/27/52400.html"/>
-        <updated>2025-02-26T23:00:03.000Z</updated>
-        <summary type="html"><![CDATA[イー・ガーディアン株式会社は2月17日、サイバーセキュリティ事業における合弁会社の設立について発表した。]]></summary>
-        <author>
-            <name>ScanNetSecurity</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[回線品質を落とさず、お手頃価格なのは「締め日を半月ずらしたから」 工夫にあふれる、法人向けモバイル通信サービス「フリーモ」とは？[Sponsored]]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/topic/special/1662484.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/topic/special/1662484.html"/>
-        <updated>2025-02-26T21:55:00.000Z</updated>
-        <summary type="html"><![CDATA[フリービット株式会社は、法人向けのモバイル通信サービス「freebit mobile Biz（フリーモ）」の提供を1月16日に開始した。]]></summary>
-        <author>
-            <name>高橋 正和</name>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[自宅の見守りにTP-Linkのネットワークカメラ「Tapo C222」を使ってみる【自宅Wi-Fiの“わからない”をスッキリ！】]]></title>
-        <id>https://internet.watch.impress.co.jp/docs/column/homewifi/1665322.html</id>
-        <link href="https://internet.watch.impress.co.jp/docs/column/homewifi/1665322.html"/>
-        <updated>2025-02-26T21:00:00.000Z</updated>
-        <summary type="html"><![CDATA[この連載では、Wi-Fiを活用するさまざまな機器の使いこなしを紹介している。今回からは、ネットワークカメラやスマートカメラと呼ばれている、Wi-Fiにつなげて使うカメラを扱っていこうと思う。]]></summary>
-        <author>
-            <name>村上 俊一</name>
         </author>
     </entry>
     <entry>
