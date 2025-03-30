@@ -1881,17 +1881,6 @@
           "title": "[メルマガ]vol.2143:【トピックス号】先週のトピックスとWeb更新情報",
           "itunes": {},
           "imageUrl": null
-        },
-        {
-          "id": "https://www.nic.ad.jp/ja/materials/igf/20241021/",
-          "author": null,
-          "description": "IGF2023に向けた国内IGF活動活発化チーム 第55回会合\n\r\n            \n1. 開催概要\n\r\n            \n\r\n            \r\n            \n\r\n            日時\r\n            2024年10月21日(月)17:00-17:54\r\n            \n\r\n            \n\r\n            会場\r\n            オンライン\r\n            \n\r\n            \n\r\n            主催\r\n            一般社団法人日本インターネットプロバイダー協会(JAIPA) \n一般社団法人日本ネットワークインフォメーションセンター(JPNIC)\r\n            \n\r\n            \n\r\n            企画\r\n            Japan IGF活動に参加している有志\r\n            \n\r\n            \r\n            \n\r\n            \n2. 資料\n\r\n            \n\r\n            \n第9回MAGリモート会議議事内容メモ(362KB)\n\r\n            \nセッション小間割り案(68KB)\n\r\n            \n挨拶／キーノート、企画セッション案(66KB)\n\r\n            \n\r\n            \n3. アジェンダ概要\n\r\n            \n\r\n            \n本日の目的確認\n\r\n            \n前回議論の振り返り第54回議事録(546KB)\n\r\n            \n宿題の進捗確認 Todo一覧表(77KB)\n\r\n            \n日本政府からの報告\n\r\n            \nIGFマルチステークホルダー諮問グループ(MAG)からの報告\n\r\n            \nNRIに関する報告\n\r\n            \nその他会議に関する報告\n\r\n            \n本チームの今後について\n\r\n            \nIGF国内事前会合の開催について\n\r\n            \n本日の議論を受けたTodo確認\n\r\n            \n次回打合せについて\n\r\n            \nその他\n\r\n            \n\r\n            \n4. 議事録\n\r\n            \n\r\n            \n議事録(553KB)\n\r\n            \n発言録(481KB)\n\r\n            \n録画\n\r\n            \nチャットログ(1KB)",
-          "link": "https://www.nic.ad.jp/ja/materials/igf/20241021/",
-          "publishedOn": "2025-02-28T01:09:14.000Z",
-          "wordCount": null,
-          "title": "[Web更新]IGF2023に向けた国内IGF活動活発化チーム 第55回会合の資料を掲載",
-          "itunes": {},
-          "imageUrl": null
         }
       ]
     },
@@ -1928,16 +1917,6 @@
           "publishedOn": "2025-03-04T00:00:00.000Z",
           "wordCount": 3129,
           "title": "第77回JPドメイン名諮問委員会の資料・議事録を公開しました",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jprs.jp/whatsnew/",
-          "author": null,
-          "description": "JPドメイン名の登録管理業務とDNSの運用を行っている株式会社日本レジストリサービス(JPRS)による、JPドメイン名サービス総合案内サイトです。",
-          "link": "https://jprs.jp/whatsnew/",
-          "publishedOn": "2025-02-28T00:00:00.000Z",
-          "wordCount": 3129,
-          "title": "JPRSの掲載記事を追加しました",
           "imageUrl": null
         }
       ]
@@ -2200,18 +2179,7 @@
       "title": "CERT Recently Published Vulnerability Notes",
       "feedUrl": "https://www.kb.cert.org/vulfeed",
       "siteUrl": "https://kb.cert.org/vuls/",
-      "articles": [
-        {
-          "id": "https://kb.cert.org/vuls/id/726882",
-          "author": null,
-          "description": "<h3 id=\"overview\">Overview</h3>\n<p>Paragon Partition Manager's BioNTdrv.sys driver, versions prior to 2.0.0, contains five vulnerabilities. These include arbitrary kernel memory mapping and write vulnerabilities, a null pointer dereference, insecure kernel resource access, and an arbitrary memory move vulnerability. An attacker with local access to a device can exploit these vulnerabilities to escalate privileges or cause a denial-of-service (DoS) scenario on the victim's machine. Additionally, as the attack involves a Microsoft-signed  <a href=\"https://learn.microsoft.com/en-us/windows-hardware/drivers/gettingstarted/what-is-a-driver-\">Driver</a>, an attacker can leverage a <a href=\"https://techcommunity.microsoft.com/blog/microsoftsecurityexperts/strategies-to-monitor-and-prevent-vulnerable-driver-attacks/4103985\">Bring Your Own Vulnerable Driver (BYOVD) </a> technique to exploit systems even if Paragon Partition Manager is not installed. Microsoft has observed threat actors (TAs) exploiting this weakness in BYOVD ransomware attacks, specifically using CVE-2025-0289 to achieve privilege escalation to SYSTEM level, then execute further malicious code. These vulnerabilities have been patched by both Paragon Software, and vulnerable BioNTdrv.sys versions blocked by Microsoft's Vulnerable Driver Blocklist. </p>\n<h3 id=\"description\">Description</h3>\n<p>Paragon Partition Manager is a software tool from <a href=\"https://www.paragon-software.com/\">Paragon Software</a>, available in both Community and Commercial versions, that allows users to manage partitions (individual sections) on a hard drive. Paragon Partition Manager uses a kernel-level Driver distributed as BioNTdrv.sys. The driver allows for a low-level access to the hard drive with elevated privileges to access and manage data as the kernel device.</p>\n<p>Microsoft researchers have identified four vulnerabilities in Paragon Partition Manager version 7.9.1 and a fifth specific vulnerability (CVE-2025-0289) affecting version 17. These vulnerabilities, particularly in BioNTdrv.sys versions 1.3.0 and 1.5.1, allow attackers to achieve SYSTEM-level privilege escalation, which surpasses typical administrator permissions. The vulnerabilities also enable attackers to manipulate the driver via device-specific Input/Output Control (IOCTL) calls, potentially resulting in privilege escalation or system crashes (e.g., a Blue Screen of Death, or BSOD). Even if Paragon Partition Manager is not installed, attackers can install and misuse the vulnerable driver through the BYOVD method to compromise the target machine.</p>\n<p>Identified Vulnerabilities:</p>\n<p><strong><a href=\"https://www.cve.org/CVERecord/SearchResults?query=CVE-2025-0288\">CVE-2025-0288</a></strong>\nAn arbitrary kernel memory vulnerability in version 7.9.1 caused by the memmove function, which fails to sanitize user-controlled input. This allows an attacker to write arbitrary kernel memory and achieve privilege escalation.</p>\n<p><strong><a href=\"https://www.cve.org/CVERecord/SearchResults?query=CVE-2025-0287\">CVE-2025-0287</a></strong>\nA null pointer dereference vulnerability in version 7.9.1 caused by the absence of a valid MasterLrp structure in the input buffer. This allows an attacker to execute arbitrary kernel code, enabling privilege escalation.</p>\n<p><strong><a href=\"https://www.cve.org/CVERecord/SearchResults?query=CVE-2025-0286\">CVE-2025-0286</a></strong>\nAn arbitrary kernel memory write vulnerability in version 7.9.1 due to improper validation of user-supplied data lengths. This flaw can allow attackers to execute arbitrary code on the victim’s machine.</p>\n<p><strong><a href=\"https://www.cve.org/CVERecord/SearchResults?query=CVE-2025-0285\">CVE-2025-0285</a></strong>\nAn arbitrary kernel memory mapping vulnerability in version 7.9.1 caused by a failure to validate user-supplied data lengths. Attackers can exploit this flaw to escalate privileges.</p>\n<p><strong><a href=\"https://www.cve.org/CVERecord/SearchResults?query=CVE-2025-0289\">CVE-2025-0289</a></strong>\nAn insecure kernel resource access vulnerability in version 17 caused by failure to validate the MappedSystemVa pointer before passing it to HalReturnToFirmware. This allows attackers to compromise the affected service.</p>\n<h3 id=\"impact\">Impact</h3>\n<p>An attacker with local access to a target device can exploit BioNTdrv.sys version 1.3.0 to escalate privileges to SYSTEM level or cause a DoS scenario. Microsoft has observed this driver being used in ransomware attacks, leveraging the BYOVD technique for privilege escalation prior to further malicious code execution. </p>\n<h3 id=\"solution\">Solution</h3>\n<p>Paragon Software has updated Parition Manager and released a new driver, BioNTdrv.sys version 2.0.0, which addresses these vulnerabilities. Ensure your installation of Paragon Partition Manager is updated to the latest version. Windows users should verify that the ) is active. Users can verify if their Vulnerable Driver Blocklist is enabled under Windows Security settings. On Windows 11 devices, this blocklist is enabled by default. Users can learn more about the Vulnerable Driver Blocklist here: <a href=\"https://learn.microsoft.com/en-us/windows/security/application-security/application-control/app-control-for-business/design/microsoft-recommended-driver-block-rules\">Microsoft Vulnerable Driver Blocklist Information</a>  Enterprise organizations should ensure the blocklist is applied for their user base to prevent potential loading of the vulnerable driver BioNTdrv.sys versions 1.3.0 and 1.5.1 by TAs. </p>\n<h3 id=\"acknowledgements\">Acknowledgements</h3>\n<p>Thanks you to Microsoft for reporting the vulnerability.This document was written by Christopher Cullen.</p>",
-          "link": "https://kb.cert.org/vuls/id/726882",
-          "publishedOn": "2025-02-28T12:34:44.018Z",
-          "wordCount": 1293,
-          "title": "VU#726882: Paragon Partition Manager contains five memory vulnerabilities within its BioNTdrv.sys driver that allow for privilege escalation and denial-of-service (DoS) attacks",
-          "imageUrl": null
-        }
-      ]
+      "articles": []
     },
     {
       "title": "JVNRSS Feed - Update Entry",
@@ -2556,46 +2524,6 @@
           "publishedOn": "2025-03-04T07:10:00.000Z",
           "wordCount": 134,
           "title": "Paragon Software製Paragon Partition Managerにおける複数の脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU92973034/",
-          "author": "jvn@jvn.jp",
-          "description": "Schneider Electricが提供する複数の製品には、境界外書き込みの脆弱性が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU92973034/",
-          "publishedOn": "2025-02-28T04:30:30.000Z",
-          "wordCount": 130,
-          "title": "複数のSchneider Electric製品における境界外書き込みの脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU95708748/",
-          "author": "jvn@jvn.jp",
-          "description": "DarioHealthが提供する複数の製品には、複数の脆弱性が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU95708748/",
-          "publishedOn": "2025-02-28T04:30:00.000Z",
-          "wordCount": 110,
-          "title": "複数のDarioHealth製品における複数の脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/vu/JVNVU96398949/",
-          "author": "jvn@jvn.jp",
-          "description": "センチュリー・システムズ株式会社が提供する産業用ルータ（FutureNet ASシリーズ）およびプロトコル変換器（FutureNet FAシリーズ）には、複数の脆弱性が存在します。",
-          "link": "https://jvn.jp/vu/JVNVU96398949/",
-          "publishedOn": "2025-02-28T04:00:00.000Z",
-          "wordCount": 259,
-          "title": "センチュリー・システムズ製産業用ルータ（FutureNet ASシリーズ）およびプロトコル変換器（FutureNet FAシリーズ）における複数の脆弱性",
-          "imageUrl": null
-        },
-        {
-          "id": "https://jvn.jp/ta/JVNTA90434358/",
-          "author": "jvn@jvn.jp",
-          "description": "DistriNet-KU Leuvenリサーチグループの研究者によって、任意の送信元からのIPIP、GRE、4in6または6in4トラフィックを受け入れてしまう多くのインターネットシステムが検出されました。",
-          "link": "https://jvn.jp/ta/JVNTA90434358/",
-          "publishedOn": "2025-02-28T03:30:00.000Z",
-          "wordCount": 121,
-          "title": "Tunnelingプロトコルの安全でない実装（GRE／IPIP／4in6／6in4）",
           "imageUrl": null
         }
       ]
@@ -4234,96 +4162,6 @@
           "wordCount": null,
           "title": "センチュリー・システムズ製産業用ルータ「FutureNet ASシリーズ」およびプロトコル変換器「FutureNet FAシリーズ」に複数の脆弱性",
           "imageUrl": null
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2025/02/28/52420.html",
-          "author": null,
-          "description": "名古屋での講演テーマは「Cyber Risk Exposure Management（CREM）」であり、経産省がガイドラインを出した「ASM（Attack Surface Management）」の不足点を補完する機能だという。",
-          "link": "https://scan.netsecurity.ne.jp/article/2025/02/28/52420.html",
-          "publishedOn": "2025-02-27T23:20:02.000Z",
-          "wordCount": 894,
-          "title": "妥協なき名古屋の製造業が求める“本当に使えるセキュリティ”とは？ ～ ASM を補完する Trend Vision One - CREM の真価（東京講演も有）",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47689.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2025/02/28/52419.html",
-          "author": null,
-          "description": "疾病地政学とは、相手国に疾病を蔓延させることで混乱と分断を広げることを目的とした実学である。その過程で相手国の国民の多くが疾病で死亡する効果もある。疾病を「兵器」としてとらえ、医療をその「防御」と位置づけ、疾病の蔓延と医療体制の毀損を狙った全領域作戦を実施する。",
-          "link": "https://scan.netsecurity.ne.jp/article/2025/02/28/52419.html",
-          "publishedOn": "2025-02-27T23:10:03.000Z",
-          "wordCount": 757,
-          "title": "Non State Actor 図鑑（12）医療安全保障時代の軍隊 ～ 公衆衛生機関",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47690.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2025/02/28/52418.html",
-          "author": null,
-          "description": "ANAホールディングス株式会社と全日本空輸株式会社は2月20日、ANAマイレージクラブ会員のWebパスワード管理についての注意喚起を発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2025/02/28/52418.html",
-          "publishedOn": "2025-02-27T23:05:11.000Z",
-          "wordCount": 693,
-          "title": "マイル詐取や不正利用確認 ～ ANAマイレージクラブ会員へパスワード管理注意喚起",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2025/02/28/52417.html",
-          "author": null,
-          "description": "株式会社クレイズは2月17日、同社が運営する「一撃オフィシャルショップ」への不正アクセスによる個人情報の漏えいについて発表した。同社では2024年7月30日に第一報を公表していた。",
-          "link": "https://scan.netsecurity.ne.jp/article/2025/02/28/52417.html",
-          "publishedOn": "2025-02-27T23:05:09.000Z",
-          "wordCount": 702,
-          "title": "「一撃オフィシャルショップ」に不正アクセス 7,455 名のカード情報漏えいの可能性",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47596.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2025/02/28/52416.html",
-          "author": null,
-          "description": "大分みらい信用金庫は2月17日、同金庫のウェブサイトへの第三者からの不正な書き込みについて発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2025/02/28/52416.html",
-          "publishedOn": "2025-02-27T23:05:05.000Z",
-          "wordCount": 697,
-          "title": "2022年から使用していないイベント専用ページに不正書き込み ～ 大分みらい信用金庫",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47594.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2025/02/28/52415.html",
-          "author": null,
-          "description": "医療法人DIC 宇都宮セントラルクリニックは2月18日、同院への不正アクセスによる情報漏えいの可能性について発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2025/02/28/52415.html",
-          "publishedOn": "2025-02-27T23:05:03.000Z",
-          "wordCount": 694,
-          "title": "宇都宮セントラルクリニックにランサムウェア攻撃、診察と健診業務を制限",
-          "imageUrl": "https://scan.netsecurity.ne.jp/imgs/ogp_f/47589.jpg"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2025/02/28/52414.html",
-          "author": null,
-          "description": "公安調査庁は2月21日、「オウム真理教問題デジタルアーカイブ」を公開した。「オウム真理教特集ページ」も更新している。",
-          "link": "https://scan.netsecurity.ne.jp/article/2025/02/28/52414.html",
-          "publishedOn": "2025-02-27T23:00:09.000Z",
-          "wordCount": 715,
-          "title": "公安調査庁「オウム真理教問題デジタルアーカイブ」を公開",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2025/02/28/52413.html",
-          "author": null,
-          "description": "グローバルセキュリティエキスパート株式会社（GSX）は2月25日、丸紅I-DIGIOホールディングス株式会社と連携し、「Box設定診断サービス」の提供を開始すると発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2025/02/28/52413.html",
-          "publishedOn": "2025-02-27T23:00:07.000Z",
-          "wordCount": 715,
-          "title": "GSX と丸紅I-DIGIO が連携「Box設定診断サービス」提供開始",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
-        },
-        {
-          "id": "https://scan.netsecurity.ne.jp/article/2025/02/28/52412.html",
-          "author": null,
-          "description": "デロイト トーマツ サイバー合同会社は2月、「Deloitte Cyber Trends & Intelligence Report 2024」を発表した。",
-          "link": "https://scan.netsecurity.ne.jp/article/2025/02/28/52412.html",
-          "publishedOn": "2025-02-27T23:00:04.000Z",
-          "wordCount": 751,
-          "title": "デロイト トーマツ 年次レポート「Deloitte Cyber Trends & Intelligence Report 2024」公表",
-          "imageUrl": "https://scan.netsecurity.ne.jp/base/images/img_ogp.png"
         }
       ]
     },
@@ -4581,26 +4419,6 @@
           "wordCount": null,
           "title": "「フォルダ名をゴミに変更」「電話の連絡帳に登録」――アイルランドの高齢者のパスワード管理法が“独特”すぎた",
           "imageUrl": null
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2502/28/news235.html",
-          "author": null,
-          "description": "",
-          "link": "https://www.itmedia.co.jp/news/articles/2502/28/news235.html",
-          "publishedOn": "2025-02-28T11:08:00.000Z",
-          "wordCount": 2733,
-          "title": "LINEで障害、公式アカウントなどに影響か　一部機能・サービスにアクセスしにくく【復旧済み】",
-          "imageUrl": "https://image.itmedia.co.jp/news/articles/2502/28/cover_news235.jpg"
-        },
-        {
-          "id": "https://www.itmedia.co.jp/news/articles/2502/28/news206.html",
-          "author": null,
-          "description": "ハンバーガーチェーン「バーガーキング」の公式アプリでシステム障害が生じている。2月25日から通算3回目。",
-          "link": "https://www.itmedia.co.jp/news/articles/2502/28/news206.html",
-          "publishedOn": "2025-02-28T06:21:00.000Z",
-          "wordCount": 2744,
-          "title": "バーガーキング、またアプリでシステム障害　25日から通算3回目【復旧済み】",
-          "imageUrl": "https://image.itmedia.co.jp/news/articles/2502/28/cover_news206.jpg"
         }
       ]
     },
@@ -6768,206 +6586,6 @@
           "wordCount": null,
           "title": "80m離れてもネット接続+給電が同時に可能！　サンワサプライのPoE→Type-C変換アダプター「LAN-ADPOEC」【イニシャルB】",
           "imageUrl": null
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/weekly/1666399.html",
-          "author": "中島 由弘",
-          "description": "「見出しでわかる IT界隈・今週の重要ニュース」では、国内外3000超のITニュースサイトからピックアップした今週の重要ニュースを一覧化してお届けします。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/weekly/1666399.html",
-          "publishedOn": "2025-02-28T10:00:00.000Z",
-          "wordCount": 4839,
-          "title": "見出しでわかる IT界隈・今週の重要ニュース：全80本［2025/2/21～2/28］",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1666/399/shutterstock_1391033204_main.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/shopping/1666561.html",
-          "author": "アイティースリー",
-          "description": "Amazon.co.jpでは3月4日までの期間限定で、ビッグセール「スマイルSALE 新生活」を開催している。その一環として、Seagateストアページでは、同社のストレージ関連製品がタイムセール中となっている。",
-          "link": "https://internet.watch.impress.co.jp/docs/shopping/1666561.html",
-          "publishedOn": "2025-02-28T06:00:00.000Z",
-          "wordCount": 4767,
-          "title": "「IIronWolf」などSeagateの内蔵HDDが安い！　AmazonスマイルSALE 新生活　容量8TBの「ST8000VN002-TD」が3万402円",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1666/561/00.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/shopping/1666555.html",
-          "author": "アイティースリー",
-          "description": "Amazon.co.jpは、2月28日から3月4日の期間限定で、ビッグセール「スマイルSALE 新生活」を開催している。その一環として、Western Digitalストアページでは同社の内蔵用HDDがタイムセール中となっている。",
-          "link": "https://internet.watch.impress.co.jp/docs/shopping/1666555.html",
-          "publishedOn": "2025-02-28T05:30:00.000Z",
-          "wordCount": 4818,
-          "title": "「WD Red Plus」などWestern Digital製内蔵HDDが安い！　AmazonスマイルSALE 新生活　WD Red Plus 8TBモデルは2万9180円",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1666/555/00.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/shopping/1666549.html",
-          "author": "アイティースリー",
-          "description": "Amazon.co.jpでは3月4日までの期間限定で、ビッグセール「スマイルSALE 新生活」を開催している。その一環として、バッファローストアページでは、同社のNASがタイムセール価格で販売されている。",
-          "link": "https://internet.watch.impress.co.jp/docs/shopping/1666549.html",
-          "publishedOn": "2025-02-28T04:45:00.000Z",
-          "wordCount": 4787,
-          "title": "バッファローのNASがセール中！　AmazonスマイルSALE 新生活　2.5GbE対応の容量4TBモデル「LS710D/N」は2万6730円に",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1666/549/00.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/shopping/1666462.html",
-          "author": "アイティースリー",
-          "description": "Amazon.co.jpでは3月4日までの期間限定で、ビッグセール「スマイルSALE 新生活」を開催中だ。その一環として、TP-Linkストアページでは同社のWi-Fiルーター、メッシュシステムがセール中になっている。",
-          "link": "https://internet.watch.impress.co.jp/docs/shopping/1666462.html",
-          "publishedOn": "2025-02-28T03:30:00.000Z",
-          "wordCount": 4815,
-          "title": "TP-Link製Wi-Fiルーターが安い！　AmazonスマイルSALE 新生活　Wi-Fi 7対応「Archer BE550/A」は2万5330円",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1666/462/00.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/column/teleworkgoods/1665954.html",
-          "author": "コヤマタカヒロ",
-          "description": "デスクワークでのPC作業を効率化させるために、最も重要なものはディスプレイだと考えている。CPU性能や大容量メモリなども大切だが、広いディスプレイやデュアルディスプレイ環境に慣れると、シングルディスプレイでの作業はどうしても効率が下がってしまう。",
-          "link": "https://internet.watch.impress.co.jp/docs/column/teleworkgoods/1665954.html",
-          "publishedOn": "2025-02-28T03:12:00.000Z",
-          "wordCount": 4829,
-          "title": "新幹線の中でもマルチディスプレイや大画面で仕事ができる!! ARグラスのXREAL Oneはモバイルワークでも便利だった 【テレワークグッズ・ミニレビュー 第123回】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1665/954/01.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/column/netliteracy/1666140.html",
-          "author": "DLIS・柳谷 智宣",
-          "description": "アルバイト情報サイト「マイナビバイト」が2月17日、インフルエンサーなどを育成する通信制サポート校の渋谷女子インターナショナルスクールにて、アルバイト選びに関する出張授業を開催しました。女子学生が陥りやすいトラブル事例をもとに、「闇バイト」から身を守る知識なども紹介されました。今回は、この出張事業の様子をレポートします。",
-          "link": "https://internet.watch.impress.co.jp/docs/column/netliteracy/1666140.html",
-          "publishedOn": "2025-02-28T02:50:00.000Z",
-          "wordCount": 4782,
-          "title": "女子学生が狙われやすい事例で解説、「ブラックバイト」「闇バイト」から身を守る知識【読めば身に付くネットリテラシー】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1666/140/01.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/shopping/1666459.html",
-          "author": "アイティースリー",
-          "description": "Amazon.co.jpでは3月4日までの期間限定で、ビッグセール「スマイルSALE 新生活」を開催する。その一環としてAtermストアページでは現在、NECプラットフォームズ製「Aterm」シリーズのWi-Fiルーターがタイムセール中だ。",
-          "link": "https://internet.watch.impress.co.jp/docs/shopping/1666459.html",
-          "publishedOn": "2025-02-28T02:45:00.000Z",
-          "wordCount": 4797,
-          "title": "AtermシリーズのWi-Fiルーターがお買い得に！ AmazonスマイルSALE 新生活　Wi-Fi 6E対応「Aterm AM-AX11000T12」が4万6731円など",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1666/459/00.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1666440.html",
-          "author": "木下 明音",
-          "description": "株式会社アイ・オー・データ機器は、Windows 11へのデータ移行アプリを備えたスティックSSD「SSPS-US/Sシリーズ」を発売する。3月中旬の出荷予定で、ラインアップと市場想定価格は500GBの「SSPS-US500GR/S」が1万2870円、1TBの「SSPS-US1GR/S」が2万20円。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1666440.html",
-          "publishedOn": "2025-02-28T02:30:00.000Z",
-          "wordCount": 4755,
-          "title": "アイ・オー、PC用データ移行アプリを内蔵したスティックSSD「SSPS-US/S」発売",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1666/440/main.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/shopping/1666438.html",
-          "author": "アイティースリー",
-          "description": "Amazon.co.jpでは3月4日まで期間限定で、ビッグセール「スマイルSALE 新生活」を開催中だ。その一環として、バッファローストアページでは、同社のWi-Fi 7ルーターや中継機がタイムセール価格で販売されている。なお、紹介する製品はいずれもメッシュ標準規格「Wi-Fi EasyMesh」に対応している。",
-          "link": "https://internet.watch.impress.co.jp/docs/shopping/1666438.html",
-          "publishedOn": "2025-02-28T02:25:00.000Z",
-          "wordCount": 4811,
-          "title": "バッファローのWi-Fiルーターや中継機がお買い得！　AmazonスマイルSALE 新生活　Wi-Fi 7ルーター「WXR9300BE6P/N」が2万8330円など",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1666/438/00.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1666398.html",
-          "author": "tks24",
-          "description": "Google検索から個人情報をすみやかに削除するための統合ツールが新たに公開された。",
-          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1666398.html",
-          "publishedOn": "2025-02-28T01:08:00.000Z",
-          "wordCount": 4751,
-          "title": "日本はまだだが……Google検索から個人情報をすみやかに削除するツールを新たに公開【やじうまWatch】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1666/398/yajiuma-watch_1.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/yajiuma/1666397.html",
-          "author": "tks24",
-          "description": "iPhone 16eの後継「iPhone 17e」に関する噂が早くも浮上している。",
-          "link": "https://internet.watch.impress.co.jp/docs/yajiuma/1666397.html",
-          "publishedOn": "2025-02-28T01:06:12.000Z",
-          "wordCount": 4781,
-          "title": "やはり1年おきにリリース？ iPhone 16eの後継「iPhone 17e」に関する噂が早くも浮上【やじうまWatch】",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1666/397/yajiuma-watch_4.png"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/shopping/1666071.html",
-          "author": "アイティースリー",
-          "description": "Amazon.co.jpでは3月4日までの期間限定で、ビッグセール「スマイルSALE 新生活」を開催中だ。その一環として、同社のスマートホームセキュリティデバイス「Ring」シリーズのセールが行われている。",
-          "link": "https://internet.watch.impress.co.jp/docs/shopping/1666071.html",
-          "publishedOn": "2025-02-28T00:30:00.000Z",
-          "wordCount": 4842,
-          "title": "スマートドアホン／カメラ「Ring」シリーズが安い！　AmazonスマイルSALE 新生活　スマホ応答可能なドアホン「Ring Battery Doorbell Plus」が1万9980円に",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1666/071/main.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/shopping/1666064.html",
-          "author": "アイティースリー",
-          "description": "Amazon.co.jpでは3月4日までの期間限定で、ビッグセール「スマイルSALE 新生活」を開催中だ。その一環として、同社のスマートディスプレイ「Echo Show」のセールが行われている。",
-          "link": "https://internet.watch.impress.co.jp/docs/shopping/1666064.html",
-          "publishedOn": "2025-02-28T00:20:00.000Z",
-          "wordCount": 4808,
-          "title": "スマートディスプレイ「Echo Show」がセール中！　Amazon スマイルSALE 新生活　15.6インチの液晶搭載 「Echo Show 15（第2世代）」は4万980円",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1666/064/main.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/shopping/1666058.html",
-          "author": "アイティースリー",
-          "description": "Amazon.co.jpでは3月4日までの期間限定で、ビッグセール「スマイルSALE 新生活」を開催中だ。その一環として、同社のスマートスピーカー・イヤホン「Echo」シリーズのタイムセールが行われている。",
-          "link": "https://internet.watch.impress.co.jp/docs/shopping/1666058.html",
-          "publishedOn": "2025-02-28T00:10:00.000Z",
-          "wordCount": 4803,
-          "title": "「Echo」シリーズのスピーカー・イヤホンが安い！　AmazonスマイルSALE 新生活　プレミアムサウンドモデル「Echo（第4世代）」は8980円に",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1666/058/main.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/shopping/1666055.html",
-          "author": "アイティースリー",
-          "description": "Amazon.co.jpでは3月4日までの期間限定で、ビッグセール「スマイルSALE 新生活」を開催中だ。その一環として、同社の電子書籍リーダー「Kindle」のセールが行われている。",
-          "link": "https://internet.watch.impress.co.jp/docs/shopping/1666055.html",
-          "publishedOn": "2025-02-28T00:05:00.000Z",
-          "wordCount": 4803,
-          "title": "電子書籍リーダー「Kindle」が安い！　AmazonスマイルSALE 新生活　2024年モデルの「Kindle Paperwhite」は2万2980円から",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1666/055/main.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/readitnow/1666279.html",
-          "author": "奥川浩彦@ アイピーアール",
-          "description": "マイナンバーカードの電子証明書の有効期限をご存じだろうか。マイナンバーカードを取得して、5回目の誕生日がマイナンバーカードの電子証明書の有効期限で、更新しないとe-Taxを利用できない。2月、3月（17日まで）に誕生日を迎える人は念のため確認しよう。",
-          "link": "https://internet.watch.impress.co.jp/docs/readitnow/1666279.html",
-          "publishedOn": "2025-02-27T21:55:00.000Z",
-          "wordCount": 4752,
-          "title": "【注目記事】マイナンバーカードの電子証明書、有効期限は大丈夫？ 確定申告でe-Taxを利用する人は確認を",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1666/279/1587502-010.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/news/1666238.html",
-          "author": "木下 明音",
-          "description": "株式会社アイ・オー・データ機器は、1ドライブのネットワークHDD「HDL1-LA」シリーズを発売する。4月上旬の出荷予定で、市場想定価格は2TBモデルが2万4310円、4TBモデルが3万2890円。",
-          "link": "https://internet.watch.impress.co.jp/docs/news/1666238.html",
-          "publishedOn": "2025-02-27T21:30:00.000Z",
-          "wordCount": 4762,
-          "title": "スマホ・タブレットの簡単バックアップを打ち出した2/4TBのNAS「HDL1-LA」、アイ・オーが発売",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1666/238/main.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/topic/special/1658977.html",
-          "author": "本田 雅一",
-          "description": "バッファローが提供している無料アプリ、その名も「写真バックアップ」をご存知だろうか。シンプルで分かりやすい名前のこのアプリだが、その価値は実際に使い始めないとなかなか分かりにくいかもしれない。",
-          "link": "https://internet.watch.impress.co.jp/docs/topic/special/1658977.html",
-          "publishedOn": "2025-02-27T21:05:00.000Z",
-          "wordCount": 4753,
-          "title": "人気のiPhoneアプリ「写真バックアップ」はなぜできた？ 「無料」「超簡単」にこだわったバッファローの中の人に聞いた[Sponsored]",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1658/977/003.jpg"
-        },
-        {
-          "id": "https://internet.watch.impress.co.jp/docs/topic/special/1659878.html",
-          "author": "清水 理史",
-          "description": "2024年末から2025年にかけて、社会的なインフラをターゲットにした大規模なサイバー攻撃が大きな話題となった。",
-          "link": "https://internet.watch.impress.co.jp/docs/topic/special/1659878.html",
-          "publishedOn": "2025-02-27T21:00:00.000Z",
-          "wordCount": 4762,
-          "title": "「自宅のルーターが乗っ取られサイバー攻撃に加担」は普通に起きている！ サイバー攻撃に対して今すぐできる対策方法とは？[Sponsored]",
-          "imageUrl": "https://internet.watch.impress.co.jp/img/iw/list/1659/878/011.jpg"
         }
       ]
     },
@@ -7941,96 +7559,6 @@
           "wordCount": null,
           "title": "WithSecure、2025年度の事業戦略 - パートナーシップとセキュリティオペレーション強化",
           "imageUrl": null
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/kikaku/20250228-3132858/",
-          "author": null,
-          "description": "本稿では、FAT PC需要の増大から、ポストVDI、with VDIのアプローチとしてZenmuTech独自の「AONT秘密分散技術」を用いたソリューション「ZENMU Virtual Drive Enterprise Edition（ZEE）」「ZENMU Virtual Drive Limited Edition（ZLE）」の特長と導入効果まで話を展開し、理想の業務環境を考察していく。",
-          "link": "https://news.mynavi.jp/techplus/kikaku/20250228-3132858/",
-          "publishedOn": "2025-02-28T12:30:00.000Z",
-          "wordCount": 2970,
-          "title": "【特別対談】AI PC時代のセキュリティ対策に秘密分散技術の注目が高まる – 2つの分散片でデータを無意味化する独自の秘密分散技術とは【後編】",
-          "imageUrl": "https://news.mynavi.jp/techplus/kikaku/20250228-3132858/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/kikaku/20250228-3132847/",
-          "author": null,
-          "description": "リモートワークの常態化が進むなかで、VDIで構築された既存環境に問題を抱える企業は少なくないのが現状だ。場所に囚われず、快適かつセキュアに業務を行える環境の構築にはどのような対応が考えられるのか。本稿では、独自の秘密分散技術を用いたソリューションで、セキュリティ・利便性・高生産的な業務環境を提供する株式会社ZenmuTechの取締役 CMO 阿部 泰久 氏と、ITを活用したビジネスの成長とイノベーション創出を支援する株式会社アイ・ティ・アールのプリンシバル・アナリストである三浦 竜樹 氏が、企業におけるVDI環境の現状とセキュリティ対策における課題から、快適でセキュアなリモートワークを実現するための先進技術やソリューションについて対談した様子をまとめる。",
-          "link": "https://news.mynavi.jp/techplus/kikaku/20250228-3132847/",
-          "publishedOn": "2025-02-28T12:30:00.000Z",
-          "wordCount": 2857,
-          "title": "【特別対談】秘密分散技術で「ポストVDI」「with VDI」のアプローチ – 矛盾する情報漏洩対策を一蹴【前編】",
-          "imageUrl": "https://news.mynavi.jp/techplus/kikaku/20250228-3132847/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20250228-3138496/",
-          "author": null,
-          "description": "SentinelLabsは2月25日(米国時間)、ウクライナ政府、ウクライナ軍およびベラルーシの反政府組織を標的とした新しいサイバー攻撃を発見したと伝えた。この攻撃では、マルウェア感染を促すExcelファイルが添付されたフィッシングメールが送信されたという。",
-          "link": "https://news.mynavi.jp/techplus/article/20250228-3138496/",
-          "publishedOn": "2025-02-28T10:28:16.000Z",
-          "wordCount": 2882,
-          "title": "Execlファイルでサイバー攻撃、ウクライナ軍を狙う",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20250228-3138496/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20250228-3136743/",
-          "author": null,
-          "description": "AIの活用が進む現在、データの重要性が増す一方で、国や地域におけるデータの保護に対するルールやあり方を定める「データ主権」の課題が複雑化している。データ主権を確立するために、企業はどんな手を打てばよいのだろうか。",
-          "link": "https://news.mynavi.jp/techplus/article/20250228-3136743/",
-          "publishedOn": "2025-02-28T07:05:45.000Z",
-          "wordCount": 1694,
-          "title": "AI活用が進む今、データ主権確立とプライバシー保護のために何をすべきか",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20250228-3136743/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20250228-3138212/",
-          "author": null,
-          "description": "Microsoftは2月25日(米国時間)、従来のOutlookからメールや予定表アイテムをフォルダーにドラッグ&ドロップできなくなる不具合を修正したと発表した。この不具合はWindows 11バージョン24H2に特定の更新プログラムをインストールした場合に発生する可能性がある。",
-          "link": "https://news.mynavi.jp/techplus/article/20250228-3138212/",
-          "publishedOn": "2025-02-28T06:29:19.000Z",
-          "wordCount": 1779,
-          "title": "Windows 11更新プログラムでOutlookにドラッグ＆ドロップできない不具合修正",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20250228-3138212/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20250228-3138322/",
-          "author": null,
-          "description": "プライム・ストラテジーは2月28日、WordPressとCMSのセキュリティの運用負荷を軽減し、企業向けの高度なセキュリティを実現するKUSANAGIシリーズの新製品「KUSANAGI Security Edition」をGoogle Cloudで提供開始した。",
-          "link": "https://news.mynavi.jp/techplus/article/20250228-3138322/",
-          "publishedOn": "2025-02-28T05:21:41.000Z",
-          "wordCount": 1796,
-          "title": "プライム・ストラテジー、「KUSANAGI Security Edition」をGoogle Cloudで提供",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20250228-3138322/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20250228-3137463/",
-          "author": null,
-          "description": "Mediumは2月26日(米国時間)、Microsoft Visual Studio Codeの人気拡張機能からマルウェアを発見したと報じた。マルウェアは2つの拡張機能から発見され、これらの合計ダウンロード数は900万回以上とみられる。",
-          "link": "https://news.mynavi.jp/techplus/article/20250228-3137463/",
-          "publishedOn": "2025-02-28T03:17:12.000Z",
-          "wordCount": 1852,
-          "title": "VS Codeの人気拡張機能にマルウェア、すぐに削除を - 900万回以上DL",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20250228-3137463/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20250228-3137475/",
-          "author": null,
-          "description": "Malwarebytesは2月26日(米国時間)、Androidの新しいユーザー保護機能「Android System SafetyCore」の概要を伝えた。この機能はシステムアプリとして配布され、センシティブな情報からユーザーを保護するものだという。",
-          "link": "https://news.mynavi.jp/techplus/article/20250228-3137475/",
-          "publishedOn": "2025-02-28T02:35:58.000Z",
-          "wordCount": 1775,
-          "title": "Androidにアダルト画像に自動的にモザイクをかける機能、疑念の声も",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20250228-3137475/ogp_images/ogp.jpg"
-        },
-        {
-          "id": "https://news.mynavi.jp/techplus/article/20250228-3137484/",
-          "author": null,
-          "description": "Bleeping Computerは2月26日(米国時間)、OpenAIが最新のAIモデル「GPT-4.5」をまもなくリリースする可能性があると伝えた。ChatGPTベータ版アプリがGPT-4.5をアナウンスするポップアップメッセージを表示したことが確認された。",
-          "link": "https://news.mynavi.jp/techplus/article/20250228-3137484/",
-          "publishedOn": "2025-02-27T21:40:52.000Z",
-          "wordCount": 1777,
-          "title": "GPT-4.5登場の可能性、ベータ版アプリにて確認",
-          "imageUrl": "https://news.mynavi.jp/techplus/article/20250228-3137484/ogp_images/ogp.jpg"
         }
       ]
     }
